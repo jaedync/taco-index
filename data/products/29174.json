@@ -101,13 +101,6 @@
       "price": 9.0
     },
     {
-      "store_number": "034276",
-      "name": "Taco Bell",
-      "city": "Sandusky",
-      "state": "MI",
-      "price": 9.0
-    },
-    {
       "store_number": "042669",
       "name": "Taco Bell",
       "city": "Brighton",
@@ -120,6 +113,13 @@
       "city": "Fraser",
       "state": "MI",
       "price": 9.0
+    },
+    {
+      "store_number": "001971",
+      "name": "Taco Bell",
+      "city": "Taylor",
+      "state": "MI",
+      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -130,7 +130,6 @@
     "040760",
     "041745",
     "040997",
-    "034276",
     "042669",
     "037169",
     "001971",
@@ -166,6 +165,7 @@
     "041877",
     "040464",
     "030922",
+    "024449",
     "040700",
     "040164",
     "040608",
@@ -197,6 +197,13 @@
       "store_number": "040700",
       "name": "Taco Bell",
       "city": "Marlette",
+      "state": "MI",
+      "price": 9.0
+    },
+    {
+      "store_number": "024449",
+      "name": "Taco Bell",
+      "city": "Detroit",
       "state": "MI",
       "price": 9.0
     },
@@ -234,16 +241,29 @@
       "city": "Richmond",
       "state": "MI",
       "price": 9.0
-    },
-    {
-      "store_number": "040006",
-      "name": "Taco Bell",
-      "city": "Clarkston",
-      "state": "MI",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024449",
+      "store_name": "Taco Bell",
+      "city": "Detroit",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-06T21:56:29.089177+00:00"
+    },
+    {
+      "store_number": "034276",
+      "store_name": "Taco Bell",
+      "city": "Sandusky",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-06T21:39:06.225813+00:00"
+    },
     {
       "store_number": "041875",
       "store_name": "Taco Bell",
@@ -2116,8 +2136,8 @@
     }
   ],
   "activity_summary": {
-    "added": 117,
-    "removed": 70,
+    "added": 118,
+    "removed": 71,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2224,15 +2244,6 @@
       9.0,
       "Taco Bell",
       "Capac",
-      "MI"
-    ],
-    [
-      "034276",
-      43.42,
-      -82.852,
-      9.0,
-      "Taco Bell",
-      "Sandusky",
       "MI"
     ],
     [
@@ -2551,6 +2562,15 @@
       "MI"
     ],
     [
+      "024449",
+      42.416237399123474,
+      -83.20122738184182,
+      9.0,
+      "Taco Bell",
+      "Detroit",
+      "MI"
+    ],
+    [
       "040700",
       43.3317,
       -83.0794,
@@ -2588,6 +2608,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-05",
+  "last_seen_date": "2026-05-06",
   "peak_availability_pct": 0.6
 }

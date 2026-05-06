@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": -0.0388,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 4.03,
+    "avg": 4.09,
     "min": 3.59,
     "max": 4.29,
-    "median": 4.24,
-    "std_dev": 0.3,
-    "store_count": 30
+    "median": 4.29,
+    "std_dev": 0.29,
+    "store_count": 26
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$3.69",
-      "count": 5
+      "count": 1
     },
     {
       "bucket": "$3.99",
@@ -57,8 +57,8 @@
     },
     {
       "state": "TX",
-      "avg_price": 3.71,
-      "store_count": 11
+      "avg_price": 3.72,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -76,13 +76,6 @@
     "serving_size_g": 16.4175
   },
   "cheapest_stores": [
-    {
-      "store_number": "022811",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Spring",
-      "state": "TX",
-      "price": 3.59
-    },
     {
       "store_number": "002981",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -112,25 +105,11 @@
       "price": 3.59
     },
     {
-      "store_number": "009406",
+      "store_number": "027669",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Houston",
+      "city": "Fort Worth",
       "state": "TX",
-      "price": 3.69
-    },
-    {
-      "store_number": "021176",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Tomball",
-      "state": "TX",
-      "price": 3.69
-    },
-    {
-      "store_number": "002689",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Deer Park",
-      "state": "TX",
-      "price": 3.69
+      "price": 3.59
     },
     {
       "store_number": "027416",
@@ -140,19 +119,40 @@
       "price": 3.69
     },
     {
-      "store_number": "024393",
+      "store_number": "009489",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Katy",
+      "city": "Fullerton",
+      "state": "CA",
+      "price": 3.99
+    },
+    {
+      "store_number": "021422",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
       "state": "TX",
-      "price": 3.69
+      "price": 3.99
+    },
+    {
+      "store_number": "027489",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mesquite",
+      "state": "TX",
+      "price": 3.99
+    },
+    {
+      "store_number": "027505",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irvine",
+      "state": "CA",
+      "price": 4.09
     }
   ],
   "min_price_store_numbers": [
-    "022811",
     "002981",
     "001089",
     "021196",
-    "016276"
+    "016276",
+    "027669"
   ],
   "priciest_stores": [
     {
@@ -227,6 +227,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027489",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mesquite",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-06T21:47:19.138143+00:00"
+    },
+    {
+      "store_number": "027669",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-05-06T21:45:20.959576+00:00"
+    },
+    {
+      "store_number": "026050",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "La Porte",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-05-06T21:43:30.990498+00:00"
+    },
+    {
+      "store_number": "002689",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Deer Park",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.69,
+      "new_price": null,
+      "observed_at": "2026-05-06T21:43:18.560918+00:00"
+    },
+    {
+      "store_number": "021176",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Tomball",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.69,
+      "new_price": null,
+      "observed_at": "2026-05-06T21:43:13.950158+00:00"
+    },
+    {
+      "store_number": "024393",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Katy",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.69,
+      "new_price": null,
+      "observed_at": "2026-05-06T21:43:11.655917+00:00"
+    },
+    {
+      "store_number": "022811",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Spring",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-05-06T21:43:09.548517+00:00"
+    },
+    {
+      "store_number": "009406",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.69,
+      "new_price": null,
+      "observed_at": "2026-05-06T21:43:06.768059+00:00"
+    },
     {
       "store_number": "024393",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -319,8 +399,8 @@
     }
   ],
   "activity_summary": {
-    "added": 6,
-    "removed": 3,
+    "added": 8,
+    "removed": 9,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -329,15 +409,6 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
-    [
-      "022811",
-      30.075174271564272,
-      -95.51512733101845,
-      3.59,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Spring",
-      "TX"
-    ],
     [
       "002981",
       32.859492632046816,
@@ -375,30 +446,12 @@
       "CA"
     ],
     [
-      "009406",
-      29.79106516817246,
-      -95.71860010921853,
-      3.69,
+      "027669",
+      32.89279522526115,
+      -97.28746792244917,
+      3.59,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Houston",
-      "TX"
-    ],
-    [
-      "021176",
-      30.074328114350713,
-      -95.62661482955264,
-      3.69,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Tomball",
-      "TX"
-    ],
-    [
-      "002689",
-      29.680382783181383,
-      -95.12291199994706,
-      3.69,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Deer Park",
+      "Fort Worth",
       "TX"
     ],
     [
@@ -408,15 +461,6 @@
       3.69,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Irving",
-      "TX"
-    ],
-    [
-      "024393",
-      29.733158797690876,
-      -95.77528055012124,
-      3.69,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Katy",
       "TX"
     ],
     [
@@ -438,12 +482,12 @@
       "TX"
     ],
     [
-      "026050",
-      29.664543899716055,
-      -95.09931559861116,
+      "027489",
+      32.747273077266925,
+      -96.59862773926898,
       3.99,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "La Porte",
+      "Mesquite",
       "TX"
     ],
     [
@@ -606,7 +650,7 @@
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 4.26,
+      "avg_price": 4.25,
       "min_price": 3.79,
       "max_price": 4.49,
       "calories": 220,
@@ -614,11 +658,11 @@
     },
     {
       "size": "REGULAR",
-      "avg_price": 4.03,
+      "avg_price": 4.02,
       "min_price": 3.59,
       "max_price": 4.29,
       "calories": 190,
-      "happier_hour_avg": 2.21
+      "happier_hour_avg": 2.2
     }
   ]
 }

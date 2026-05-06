@@ -20,13 +20,13 @@
     "min": 3.99,
     "max": 5.49,
     "median": 3.99,
-    "std_dev": 0.31,
-    "store_count": 24
+    "std_dev": 0.3,
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 23
+      "count": 24
     },
     {
       "bucket": "$5.49",
@@ -36,8 +36,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 4.06,
-      "store_count": 23
+      "avg_price": 4.05,
+      "store_count": 24
     }
   ],
   "nutrition": {
@@ -147,6 +147,7 @@
     "042924",
     "021472",
     "022588",
+    "004435",
     "023297",
     "037822",
     "032959"
@@ -177,6 +178,13 @@
       "store_number": "023297",
       "name": "Taco Bell",
       "city": "Winter Park",
+      "state": "FL",
+      "price": 3.99
+    },
+    {
+      "store_number": "004435",
+      "name": "Taco Bell",
+      "city": "Orlando",
       "state": "FL",
       "price": 3.99
     },
@@ -214,16 +222,19 @@
       "city": "Orlando",
       "state": "FL",
       "price": 3.99
-    },
-    {
-      "store_number": "022589",
-      "name": "Taco Bell",
-      "city": "Sanford",
-      "state": "FL",
-      "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004435",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-06T21:59:20.673406+00:00"
+    },
     {
       "store_number": "023299",
       "store_name": "Taco Bell",
@@ -686,7 +697,7 @@
     }
   ],
   "activity_summary": {
-    "added": 34,
+    "added": 35,
     "removed": 12,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -887,6 +898,15 @@
       3.99,
       "Taco Bell",
       "Deland",
+      "FL"
+    ],
+    [
+      "004435",
+      28.567199559370433,
+      -81.20559722185135,
+      3.99,
+      "Taco Bell",
+      "Orlando",
       "FL"
     ],
     [

@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.1,
-  "recent_price_change_pct": -0.0885,
+  "recent_price_change_pct": -0.0698,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 9.47,
+    "avg": 9.44,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.85,
-    "store_count": 14
+    "std_dev": 0.83,
+    "store_count": 15
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 10
+      "count": 11
     },
     {
       "bucket": "$9.99",
@@ -40,8 +40,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.6,
-      "store_count": 11
+      "avg_price": 9.55,
+      "store_count": 12
     }
   ],
   "nutrition": {
@@ -140,7 +140,8 @@
     "041247",
     "002167",
     "003668",
-    "029102"
+    "029102",
+    "041802"
   ],
   "priciest_stores": [
     {
@@ -170,6 +171,13 @@
       "city": "Baxley",
       "state": "GA",
       "price": 9.99
+    },
+    {
+      "store_number": "041802",
+      "name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "price": 9.0
     },
     {
       "store_number": "029102",
@@ -205,16 +213,19 @@
       "city": "Hixson",
       "state": "TN",
       "price": 9.0
-    },
-    {
-      "store_number": "041243",
-      "name": "Taco Bell",
-      "city": "Marietta",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041802",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-06T21:46:04.225503+00:00"
+    },
     {
       "store_number": "041249",
       "store_name": "Taco Bell",
@@ -1877,7 +1888,7 @@
     }
   ],
   "activity_summary": {
-    "added": 60,
+    "added": 61,
     "removed": 106,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2009,6 +2020,15 @@
       "GA"
     ],
     [
+      "041802",
+      33.94081012771555,
+      -83.45053468646256,
+      9.0,
+      "Taco Bell",
+      "Athens",
+      "GA"
+    ],
+    [
       "042903",
       31.783928,
       -82.363196,
@@ -2046,6 +2066,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-05",
+  "last_seen_date": "2026-05-06",
   "peak_availability_pct": 1.1
 }

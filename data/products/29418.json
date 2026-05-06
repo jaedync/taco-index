@@ -16,21 +16,21 @@
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 10.96,
+    "avg": 10.92,
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.82,
+    "std_dev": 0.84,
     "store_count": 29
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$10.99",
-      "count": 16
+      "count": 15
     },
     {
       "bucket": "$11.99",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 10.89,
-      "store_count": 10
+      "avg_price": 10.88,
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -120,17 +120,17 @@
       "price": 9.99
     },
     {
+      "store_number": "041321",
+      "name": "Taco Bell",
+      "city": "Grayson",
+      "state": "GA",
+      "price": 9.99
+    },
+    {
       "store_number": "029536",
       "name": "Taco Bell / KFC",
       "city": "Miami",
       "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "029401",
-      "name": "Taco Bell / KFC",
-      "city": "South Hill",
-      "state": "VA",
       "price": 10.99
     }
   ],
@@ -142,7 +142,8 @@
     "021493",
     "031389",
     "024033",
-    "038897"
+    "038897",
+    "041321"
   ],
   "priciest_stores": [
     {
@@ -217,6 +218,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029402",
+      "store_name": "Taco Bell",
+      "city": "Creedmoor",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-06T21:56:29.706722+00:00"
+    },
+    {
+      "store_number": "041321",
+      "store_name": "Taco Bell",
+      "city": "Grayson",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-05-06T21:48:23.984014+00:00"
+    },
     {
       "store_number": "030424",
       "store_name": "Taco Bell / KFC",
@@ -669,8 +690,8 @@
     }
   ],
   "activity_summary": {
-    "added": 35,
-    "removed": 6,
+    "added": 36,
+    "removed": 7,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -789,6 +810,15 @@
       "OH"
     ],
     [
+      "041321",
+      33.89951093273385,
+      -83.96198987746997,
+      9.99,
+      "Taco Bell",
+      "Grayson",
+      "GA"
+    ],
+    [
       "029536",
       25.770179973965377,
       -80.33099986148045,
@@ -877,15 +907,6 @@
       "Taco Bell / KFC",
       "Moriarty",
       "NM"
-    ],
-    [
-      "029402",
-      36.14591744738878,
-      -78.72409348191468,
-      10.99,
-      "Taco Bell",
-      "Creedmoor",
-      "NC"
     ],
     [
       "029411",
@@ -979,6 +1000,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-05",
+  "last_seen_date": "2026-05-06",
   "peak_availability_pct": 0.4
 }

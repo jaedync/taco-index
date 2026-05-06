@@ -21,19 +21,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 33
+    "store_count": 32
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 33
+      "count": 32
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 33
+      "store_count": 32
     }
   ],
   "nutrition": {
@@ -153,7 +153,6 @@
     "023304",
     "042928",
     "023291",
-    "023300",
     "034163",
     "042971"
   ],
@@ -169,13 +168,6 @@
       "store_number": "034163",
       "name": "Taco Bell",
       "city": "Saint Cloud",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "023300",
-      "name": "Taco Bell",
-      "city": "Palm Bay",
       "state": "FL",
       "price": 10.99
     },
@@ -227,9 +219,26 @@
       "city": "Melbourne",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "023296",
+      "name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023300",
+      "store_name": "Taco Bell",
+      "city": "Palm Bay",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-06T22:00:05.815533+00:00"
+    },
     {
       "store_number": "023302",
       "store_name": "Taco Bell",
@@ -1283,7 +1292,7 @@
   ],
   "activity_summary": {
     "added": 69,
-    "removed": 36,
+    "removed": 37,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1594,15 +1603,6 @@
       "FL"
     ],
     [
-      "023300",
-      27.99815047734223,
-      -80.63776654322986,
-      10.99,
-      "Taco Bell",
-      "Palm Bay",
-      "FL"
-    ],
-    [
       "034163",
       28.24668494787806,
       -81.24437438517288,
@@ -1622,6 +1622,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-05",
+  "last_seen_date": "2026-05-06",
   "peak_availability_pct": 0.4
 }

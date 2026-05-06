@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.52,
+    "avg": 2.5,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.54,
-    "std_dev": 0.25,
-    "store_count": 6
+    "median": 2.49,
+    "std_dev": 0.23,
+    "store_count": 7
   },
   "histogram": [
     {
@@ -29,6 +29,10 @@
     },
     {
       "bucket": "$2.29",
+      "count": 1
+    },
+    {
+      "bucket": "$2.39",
       "count": 1
     },
     {
@@ -66,6 +70,13 @@
       "city": "Bronx",
       "state": "NY",
       "price": 2.29
+    },
+    {
+      "store_number": "041337",
+      "name": "Taco Bell  Cantina",
+      "city": "Washington",
+      "state": "DC",
+      "price": 2.39
     },
     {
       "store_number": "035828",
@@ -129,6 +140,13 @@
       "price": 2.49
     },
     {
+      "store_number": "041337",
+      "name": "Taco Bell  Cantina",
+      "city": "Washington",
+      "state": "DC",
+      "price": 2.39
+    },
+    {
       "store_number": "040658",
       "name": "Taco Bell",
       "city": "Bronx",
@@ -144,6 +162,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041337",
+      "store_name": "Taco Bell  Cantina",
+      "city": "Washington",
+      "state": "DC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.39,
+      "observed_at": "2026-05-06T21:41:44.430893+00:00"
+    },
     {
       "store_number": "041105",
       "store_name": "Taco Bell",
@@ -226,7 +254,7 @@
     }
   ],
   "activity_summary": {
-    "added": 3,
+    "added": 4,
     "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -253,6 +281,15 @@
       "Taco Bell",
       "Bronx",
       "NY"
+    ],
+    [
+      "041337",
+      38.88332701793072,
+      -76.99525982227141,
+      2.39,
+      "Taco Bell  Cantina",
+      "Washington",
+      "DC"
     ],
     [
       "035828",
@@ -301,7 +338,7 @@
       "min_price": 2.19,
       "max_price": 2.79,
       "calories": 0,
-      "happier_hour_avg": 2.01
+      "happier_hour_avg": 1.89
     }
   ]
 }

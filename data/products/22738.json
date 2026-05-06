@@ -11,7 +11,7 @@
   "is_meatless": true,
   "is_limited": false,
   "peak_30d_pct": 3.5,
-  "recent_price_change_pct": 0.029,
+  "recent_price_change_pct": 0.0209,
   "first_seen_at": "2026-03-30T00:40:07.698758+00:00",
   "availability_pct": 3.7,
   "price_stats": {
@@ -20,12 +20,12 @@
     "max": 0.8,
     "median": 0.4,
     "std_dev": 0.2,
-    "store_count": 285
+    "store_count": 287
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 73
+      "count": 72
     },
     {
       "bucket": "$0.20",
@@ -33,7 +33,7 @@
     },
     {
       "bucket": "$0.25",
-      "count": 31
+      "count": 33
     },
     {
       "bucket": "$0.30",
@@ -41,7 +41,7 @@
     },
     {
       "bucket": "$0.35",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$0.40",
@@ -80,8 +80,8 @@
     },
     {
       "state": "CO",
-      "avg_price": 0.4,
-      "store_count": 17
+      "avg_price": 0.39,
+      "store_count": 19
     },
     {
       "state": "CA",
@@ -101,7 +101,7 @@
     {
       "state": "WA",
       "avg_price": 0.23,
-      "store_count": 29
+      "store_count": 30
     },
     {
       "state": "AZ",
@@ -251,7 +251,6 @@
     "019722",
     "041343",
     "031027",
-    "036272",
     "032935",
     "041630",
     "020598",
@@ -328,21 +327,81 @@
       "price": 0.55
     },
     {
+      "store_number": "031901",
+      "name": "Taco Bell",
+      "city": "North Las Vegas",
+      "state": "NV",
+      "price": 0.5
+    },
+    {
       "store_number": "042792",
       "name": "Taco Bell",
       "city": "Oakland",
       "state": "CA",
       "price": 0.5
-    },
-    {
-      "store_number": "031863",
-      "name": "Taco Bell",
-      "city": "Henderson",
-      "state": "NV",
-      "price": 0.5
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031888",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-05-06T21:59:40.392009+00:00"
+    },
+    {
+      "store_number": "036272",
+      "store_name": "Taco Bell",
+      "city": "New London",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-05-06T21:59:11.315159+00:00"
+    },
+    {
+      "store_number": "031342",
+      "store_name": "Taco Bell",
+      "city": "Mount Vernon",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.25,
+      "observed_at": "2026-05-06T21:46:55.243741+00:00"
+    },
+    {
+      "store_number": "031901",
+      "store_name": "Taco Bell",
+      "city": "North Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-05-06T21:46:22.791298+00:00"
+    },
+    {
+      "store_number": "018160",
+      "store_name": "Taco Bell",
+      "city": "Clifton",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.25,
+      "observed_at": "2026-05-06T21:46:00.694595+00:00"
+    },
+    {
+      "store_number": "037414",
+      "store_name": "Taco Bell",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.35,
+      "observed_at": "2026-05-06T21:45:42.475454+00:00"
+    },
     {
       "store_number": "042792",
       "store_name": "Taco Bell",
@@ -805,8 +864,8 @@
     }
   ],
   "activity_summary": {
-    "added": 21,
-    "removed": 25,
+    "added": 25,
+    "removed": 27,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1311,15 +1370,6 @@
       "WI"
     ],
     [
-      "036272",
-      44.40613613351602,
-      -88.74084770679474,
-      0.0,
-      "Taco Bell",
-      "New London",
-      "WI"
-    ],
-    [
       "032935",
       45.50439127638965,
       -122.53405250614378,
@@ -1608,6 +1658,15 @@
       "CA"
     ],
     [
+      "031342",
+      48.43619811528398,
+      -122.33817234635347,
+      0.25,
+      "Taco Bell",
+      "Mount Vernon",
+      "WA"
+    ],
+    [
       "031340",
       47.627458123612854,
       -122.14273050427437,
@@ -1761,6 +1820,15 @@
       "WA"
     ],
     [
+      "018160",
+      39.09032542737159,
+      -108.45421799999997,
+      0.25,
+      "Taco Bell",
+      "Clifton",
+      "CO"
+    ],
+    [
       "041697",
       41.873444837671286,
       -103.67405297362805,
@@ -1912,6 +1980,15 @@
       "Taco Bell",
       "Coalinga",
       "CA"
+    ],
+    [
+      "037414",
+      38.83808221134572,
+      -104.79494020342827,
+      0.35,
+      "Taco Bell",
+      "Colorado Springs",
+      "CO"
     ],
     [
       "037042",
@@ -3201,15 +3278,6 @@
       "CA"
     ],
     [
-      "031888",
-      39.52672221227515,
-      -119.82776702265255,
-      0.5,
-      "Taco Bell",
-      "Reno",
-      "NV"
-    ],
-    [
       "031891",
       36.15846346292103,
       -115.31815677881247,
@@ -3307,6 +3375,15 @@
       "Taco Bell",
       "Oakland",
       "CA"
+    ],
+    [
+      "031901",
+      36.26201210148051,
+      -115.17873743179734,
+      0.5,
+      "Taco Bell",
+      "North Las Vegas",
+      "NV"
     ],
     [
       "015852",
