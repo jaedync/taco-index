@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.1,
-  "recent_price_change_pct": -0.0698,
+  "recent_price_change_pct": -0.0249,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 9.44,
+    "avg": 9.52,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.83,
-    "store_count": 15
+    "std_dev": 0.9,
+    "store_count": 17
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 11
+      "count": 12
     },
     {
       "bucket": "$9.99",
@@ -34,14 +34,14 @@
     },
     {
       "bucket": "$11.29",
-      "count": 2
+      "count": 3
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.55,
-      "store_count": 12
+      "avg_price": 9.63,
+      "store_count": 14
     }
   ],
   "nutrition": {
@@ -88,6 +88,13 @@
       "price": 9.0
     },
     {
+      "store_number": "039924",
+      "name": "Taco Bell",
+      "city": "Hinesville",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "041243",
       "name": "Taco Bell",
       "city": "Marietta",
@@ -121,13 +128,6 @@
       "city": "Atlanta",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "029102",
-      "name": "Taco Bell",
-      "city": "Columbus",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -135,6 +135,7 @@
     "029050",
     "041249",
     "039923",
+    "039924",
     "041243",
     "033643",
     "041247",
@@ -144,6 +145,13 @@
     "041802"
   ],
   "priciest_stores": [
+    {
+      "store_number": "041228",
+      "name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "price": 11.29
+    },
     {
       "store_number": "041212",
       "name": "Taco Bell",
@@ -206,16 +214,29 @@
       "city": "Oakwood",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "033643",
-      "name": "Taco Bell",
-      "city": "Hixson",
-      "state": "TN",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039924",
+      "store_name": "Taco Bell",
+      "city": "Hinesville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-07T21:57:06.131731+00:00"
+    },
+    {
+      "store_number": "041228",
+      "store_name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.29,
+      "observed_at": "2026-05-07T21:47:15.136611+00:00"
+    },
     {
       "store_number": "041802",
       "store_name": "Taco Bell",
@@ -1888,7 +1909,7 @@
     }
   ],
   "activity_summary": {
-    "added": 61,
+    "added": 63,
     "removed": 106,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1963,6 +1984,15 @@
       9.0,
       "Taco Bell",
       "Statesboro",
+      "GA"
+    ],
+    [
+      "039924",
+      31.84574482196275,
+      -81.60342658085327,
+      9.0,
+      "Taco Bell",
+      "Hinesville",
       "GA"
     ],
     [
@@ -2063,9 +2093,18 @@
       "Taco Bell",
       "Decatur",
       "GA"
+    ],
+    [
+      "041228",
+      33.70089923153877,
+      -84.16987270116806,
+      11.29,
+      "Taco Bell",
+      "Lithonia",
+      "GA"
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-06",
+  "last_seen_date": "2026-05-07",
   "peak_availability_pct": 1.1
 }

@@ -21,19 +21,19 @@
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 48
+    "store_count": 49
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 48
+      "count": 49
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 48
+      "store_count": 49
     }
   ],
   "nutrition": {
@@ -139,6 +139,7 @@
     "002236",
     "040656",
     "021299",
+    "024745",
     "030700",
     "000848",
     "004161",
@@ -157,7 +158,6 @@
     "033316",
     "004298",
     "033301",
-    "021162",
     "023045",
     "040006",
     "024658",
@@ -166,6 +166,7 @@
     "002440",
     "040464",
     "030922",
+    "004530",
     "024449",
     "040700",
     "040164",
@@ -209,6 +210,13 @@
       "price": 5.49
     },
     {
+      "store_number": "004530",
+      "name": "Taco Bell",
+      "city": "Taylor",
+      "state": "MI",
+      "price": 5.49
+    },
+    {
       "store_number": "030922",
       "name": "Taco Bell",
       "city": "Chesterfield",
@@ -235,16 +243,39 @@
       "city": "Algonac",
       "state": "MI",
       "price": 5.49
-    },
-    {
-      "store_number": "039687",
-      "name": "Taco Bell",
-      "city": "Imlay City",
-      "state": "MI",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004530",
+      "store_name": "Taco Bell",
+      "city": "Taylor",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-05-07T22:02:16.858577+00:00"
+    },
+    {
+      "store_number": "021162",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-05-07T21:38:51.399529+00:00"
+    },
+    {
+      "store_number": "024745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-05-07T21:38:27.808888+00:00"
+    },
     {
       "store_number": "024449",
       "store_name": "Taco Bell",
@@ -1187,8 +1218,8 @@
     }
   ],
   "activity_summary": {
-    "added": 71,
-    "removed": 23,
+    "added": 73,
+    "removed": 24,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1355,6 +1386,15 @@
       "MI"
     ],
     [
+      "024745",
+      42.21337151111523,
+      -83.5428901715295,
+      5.49,
+      "Taco Bell",
+      "Belleville",
+      "MI"
+    ],
+    [
       "030700",
       42.64717297287085,
       -83.17160936441803,
@@ -1517,15 +1557,6 @@
       "MI"
     ],
     [
-      "021162",
-      42.336587950303986,
-      -83.3853131532669,
-      5.49,
-      "Taco Bell",
-      "Westland",
-      "MI"
-    ],
-    [
       "023045",
       42.97589743492643,
       -82.45334157434944,
@@ -1595,6 +1626,15 @@
       5.49,
       "Taco Bell",
       "Chesterfield",
+      "MI"
+    ],
+    [
+      "004530",
+      42.256590436481325,
+      -83.24798031709179,
+      5.49,
+      "Taco Bell",
+      "Taylor",
       "MI"
     ],
     [

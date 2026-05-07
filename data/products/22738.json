@@ -11,7 +11,7 @@
   "is_meatless": true,
   "is_limited": false,
   "peak_30d_pct": 3.5,
-  "recent_price_change_pct": 0.0209,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.698758+00:00",
   "availability_pct": 3.7,
   "price_stats": {
@@ -25,7 +25,7 @@
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 72
+      "count": 73
     },
     {
       "bucket": "$0.20",
@@ -41,7 +41,7 @@
     },
     {
       "bucket": "$0.35",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$0.40",
@@ -81,7 +81,7 @@
     {
       "state": "CO",
       "avg_price": 0.39,
-      "store_count": 19
+      "store_count": 18
     },
     {
       "state": "CA",
@@ -100,8 +100,8 @@
     },
     {
       "state": "WA",
-      "avg_price": 0.23,
-      "store_count": 30
+      "avg_price": 0.22,
+      "store_count": 31
     },
     {
       "state": "AZ",
@@ -267,7 +267,8 @@
     "031564",
     "031728",
     "021357",
-    "024784"
+    "024784",
+    "022605"
   ],
   "priciest_stores": [
     {
@@ -342,6 +343,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022605",
+      "store_name": "Taco Bell",
+      "city": "Lake Stevens",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-07T21:57:06.099822+00:00"
+    },
+    {
+      "store_number": "037414",
+      "store_name": "Taco Bell",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 0.35,
+      "new_price": null,
+      "observed_at": "2026-05-07T21:48:04.472458+00:00"
+    },
     {
       "store_number": "031888",
       "store_name": "Taco Bell",
@@ -864,8 +885,8 @@
     }
   ],
   "activity_summary": {
-    "added": 25,
-    "removed": 27,
+    "added": 26,
+    "removed": 28,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1523,6 +1544,15 @@
       "CA"
     ],
     [
+      "022605",
+      47.998161514148876,
+      -122.10805786011883,
+      0.0,
+      "Taco Bell",
+      "Lake Stevens",
+      "WA"
+    ],
+    [
       "030305",
       35.26668170426666,
       -119.25325533807687,
@@ -1980,15 +2010,6 @@
       "Taco Bell",
       "Coalinga",
       "CA"
-    ],
-    [
-      "037414",
-      38.83808221134572,
-      -104.79494020342827,
-      0.35,
-      "Taco Bell",
-      "Colorado Springs",
-      "CO"
     ],
     [
       "037042",

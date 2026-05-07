@@ -14,14 +14,14 @@
   "peak_30d_pct": 0.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.4,
   "price_stats": {
-    "avg": 3.49,
+    "avg": 3.5,
     "min": 3.19,
     "max": 3.79,
     "median": 3.49,
-    "std_dev": 0.23,
-    "store_count": 26
+    "std_dev": 0.24,
+    "store_count": 27
   },
   "histogram": [
     {
@@ -50,14 +50,14 @@
     },
     {
       "bucket": "$3.79",
-      "count": 7
+      "count": 8
     }
   ],
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 3.74,
-      "store_count": 6
+      "avg_price": 3.75,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -176,6 +176,13 @@
       "price": 3.79
     },
     {
+      "store_number": "029406",
+      "name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "price": 3.79
+    },
+    {
       "store_number": "041398",
       "name": "Taco Bell",
       "city": "Oxford",
@@ -216,16 +223,19 @@
       "city": "Moriarty",
       "state": "NM",
       "price": 3.59
-    },
-    {
-      "store_number": "004173",
-      "name": "Taco Bell / KFC",
-      "city": "Albuquerque",
-      "state": "NM",
-      "price": 3.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029406",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.79,
+      "observed_at": "2026-05-07T21:49:28.387193+00:00"
+    },
     {
       "store_number": "029406",
       "store_name": "Taco Bell",
@@ -688,7 +698,7 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
+    "added": 37,
     "removed": 10,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -919,6 +929,15 @@
       "NC"
     ],
     [
+      "029406",
+      36.022485677062306,
+      -78.95267031623126,
+      3.79,
+      "Taco Bell",
+      "Durham",
+      "NC"
+    ],
+    [
       "041399",
       36.092859272524684,
       -78.29832382505629,
@@ -947,6 +966,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-06",
+  "last_seen_date": "2026-05-07",
   "peak_availability_pct": 0.3
 }

@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3555
+    "store_count": 3557
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3555
+      "count": 3557
     }
   ],
   "state_prices": [
@@ -42,7 +42,7 @@
     {
       "state": "WA",
       "avg_price": 0.0,
-      "store_count": 132
+      "store_count": 133
     },
     {
       "state": "VA",
@@ -227,7 +227,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 626
+      "store_count": 627
     },
     {
       "state": "AZ",
@@ -1560,6 +1560,7 @@
     "029541",
     "030844",
     "028524",
+    "031332",
     "033020",
     "036772",
     "040960",
@@ -3881,9 +3882,17 @@
     "042876",
     "041687",
     "017256",
-    "039737"
+    "039737",
+    "041343"
   ],
   "priciest_stores": [
+    {
+      "store_number": "041343",
+      "name": "Taco Bell",
+      "city": "Pinole",
+      "state": "CA",
+      "price": 0.0
+    },
     {
       "store_number": "039737",
       "name": "Taco Bell",
@@ -3946,16 +3955,29 @@
       "city": "St Johns",
       "state": "FL",
       "price": 0.0
-    },
-    {
-      "store_number": "042948",
-      "name": "Taco Bell",
-      "city": "Duncan",
-      "state": "SC",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041343",
+      "store_name": "Taco Bell",
+      "city": "Pinole",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-07T22:02:42.482039+00:00"
+    },
+    {
+      "store_number": "031332",
+      "store_name": "Taco Bell",
+      "city": "University Place",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-07T21:46:41.219253+00:00"
+    },
     {
       "store_number": "028877",
       "store_name": "Taco Bell",
@@ -5998,7 +6020,7 @@
     }
   ],
   "activity_summary": {
-    "added": 103,
+    "added": 105,
     "removed": 101,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -17104,6 +17126,15 @@
       "Taco Bell",
       "Long Beach",
       "CA"
+    ],
+    [
+      "031332",
+      47.24303497021935,
+      -122.52856350970433,
+      0.0,
+      "Taco Bell",
+      "University Place",
+      "WA"
     ],
     [
       "033020",
@@ -38002,6 +38033,15 @@
       "Taco Bell",
       "High Point",
       "NC"
+    ],
+    [
+      "041343",
+      37.9919826460231,
+      -122.30292810942046,
+      0.0,
+      "Taco Bell",
+      "Pinole",
+      "CA"
     ]
   ],
   "retired_at": null,

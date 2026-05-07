@@ -15,19 +15,19 @@
   "peak_30d_pct": 5.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 5.5,
+  "availability_pct": 5.4,
   "price_stats": {
-    "avg": 12.94,
+    "avg": 12.95,
     "min": 12.5,
     "max": 19.99,
     "median": 12.5,
     "std_dev": 1.24,
-    "store_count": 421
+    "store_count": 420
   },
   "histogram": [
     {
       "bucket": "$12.50",
-      "count": 357
+      "count": 356
     },
     {
       "bucket": "$12.99",
@@ -85,7 +85,7 @@
     {
       "state": "GA",
       "avg_price": 12.81,
-      "store_count": 210
+      "store_count": 209
     },
     {
       "state": "AL",
@@ -455,6 +455,7 @@
     "029093",
     "031394",
     "002425",
+    "029069",
     "041238",
     "029081",
     "041221",
@@ -525,14 +526,12 @@
     "037214",
     "034026",
     "036937",
-    "039923",
     "029150",
     "041229",
     "041105",
     "030707",
     "002863",
     "037038",
-    "030359",
     "041881",
     "041258",
     "039919",
@@ -611,6 +610,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029069",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-05-07T22:02:20.744341+00:00"
+    },
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-07T22:02:12.156101+00:00"
+    },
+    {
+      "store_number": "039923",
+      "store_name": "Taco Bell",
+      "city": "Statesboro",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-07T21:45:05.579805+00:00"
+    },
     {
       "store_number": "004431",
       "store_name": "Taco Bell",
@@ -5703,8 +5732,8 @@
     }
   ],
   "activity_summary": {
-    "added": 465,
-    "removed": 44,
+    "added": 466,
+    "removed": 46,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8214,6 +8243,15 @@
       "GA"
     ],
     [
+      "029069",
+      35.992115114754476,
+      -83.92087588526333,
+      12.5,
+      "Taco Bell",
+      "Knoxville",
+      "TN"
+    ],
+    [
       "041238",
       33.92281058279636,
       -83.34047734737396,
@@ -8844,15 +8882,6 @@
       "AL"
     ],
     [
-      "039923",
-      32.43643812662501,
-      -81.75874776673481,
-      12.5,
-      "Taco Bell",
-      "Statesboro",
-      "GA"
-    ],
-    [
       "029150",
       33.198890030908586,
       -87.5387504249801,
@@ -8904,15 +8933,6 @@
       12.5,
       "Taco Bell",
       "Jamestown",
-      "TN"
-    ],
-    [
-      "030359",
-      35.71724098570292,
-      -84.01247182491716,
-      12.5,
-      "Taco Bell",
-      "Maryville",
       "TN"
     ],
     [
@@ -9529,6 +9549,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-06",
+  "last_seen_date": "2026-05-07",
   "peak_availability_pct": 5.3
 }

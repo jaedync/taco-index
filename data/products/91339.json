@@ -35,9 +35,14 @@
   ],
   "state_prices": [
     {
+      "state": "TN",
+      "avg_price": 5.49,
+      "store_count": 5
+    },
+    {
       "state": "GA",
       "avg_price": 5.42,
-      "store_count": 15
+      "store_count": 14
     },
     {
       "state": "AL",
@@ -139,6 +144,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "037050",
+      "name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "price": 5.49
+    },
+    {
       "store_number": "042881",
       "name": "Taco Bell",
       "city": "Jesup",
@@ -200,16 +212,29 @@
       "city": "Toccoa",
       "state": "GA",
       "price": 5.49
-    },
-    {
-      "store_number": "024403",
-      "name": "Taco Bell",
-      "city": "Crossville",
-      "state": "TN",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039923",
+      "store_name": "Taco Bell",
+      "city": "Statesboro",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-05-07T21:45:05.579805+00:00"
+    },
+    {
+      "store_number": "037050",
+      "store_name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-05-07T21:36:52.233452+00:00"
+    },
     {
       "store_number": "042881",
       "store_name": "Taco Bell",
@@ -1012,8 +1037,8 @@
     }
   ],
   "activity_summary": {
-    "added": 40,
-    "removed": 40,
+    "added": 41,
+    "removed": 41,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1158,15 +1183,6 @@
       "GA"
     ],
     [
-      "039923",
-      32.43643812662501,
-      -81.75874776673481,
-      5.49,
-      "Taco Bell",
-      "Statesboro",
-      "GA"
-    ],
-    [
       "024403",
       35.96722562647426,
       -85.03864054957367,
@@ -1255,6 +1271,15 @@
       "Taco Bell",
       "Jesup",
       "GA"
+    ],
+    [
+      "037050",
+      36.10306709232148,
+      -84.58455685815763,
+      5.49,
+      "Taco Bell",
+      "Wartburg",
+      "TN"
     ]
   ],
   "retired_at": null,

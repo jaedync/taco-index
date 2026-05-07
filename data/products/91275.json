@@ -16,11 +16,11 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 10.42,
+    "avg": 10.34,
     "min": 9.99,
-    "max": 10.99,
+    "max": 10.69,
     "median": 10.29,
-    "std_dev": 0.36,
+    "std_dev": 0.23,
     "store_count": 6
   },
   "histogram": [
@@ -33,11 +33,11 @@
       "count": 3
     },
     {
-      "bucket": "$10.69",
+      "bucket": "$10.49",
       "count": 1
     },
     {
-      "bucket": "$10.99",
+      "bucket": "$10.69",
       "count": 1
     }
   ],
@@ -86,18 +86,18 @@
       "price": 10.29
     },
     {
+      "store_number": "030359",
+      "name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "price": 10.49
+    },
+    {
       "store_number": "031389",
       "name": "Taco Bell / KFC",
       "city": "Locust Grove",
       "state": "GA",
       "price": 10.69
-    },
-    {
-      "store_number": "041259",
-      "name": "Taco Bell",
-      "city": "Cleveland",
-      "state": "GA",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -105,18 +105,18 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "041259",
-      "name": "Taco Bell",
-      "city": "Cleveland",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "031389",
       "name": "Taco Bell / KFC",
       "city": "Locust Grove",
       "state": "GA",
       "price": 10.69
+    },
+    {
+      "store_number": "030359",
+      "name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "price": 10.49
     },
     {
       "store_number": "034784",
@@ -148,6 +148,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-05-07T22:02:12.156101+00:00"
+    },
+    {
+      "store_number": "041259",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-07T21:47:01.700844+00:00"
+    },
     {
       "store_number": "034784",
       "store_name": "Taco Bell",
@@ -610,8 +630,8 @@
     }
   ],
   "activity_summary": {
-    "added": 26,
-    "removed": 20,
+    "added": 27,
+    "removed": 21,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -688,6 +708,15 @@
       "GA"
     ],
     [
+      "030359",
+      35.71724098570292,
+      -84.01247182491716,
+      10.49,
+      "Taco Bell",
+      "Maryville",
+      "TN"
+    ],
+    [
       "031389",
       33.352032936024656,
       -84.120770439522,
@@ -695,18 +724,9 @@
       "Taco Bell / KFC",
       "Locust Grove",
       "GA"
-    ],
-    [
-      "041259",
-      34.57876717849458,
-      -83.76470231775006,
-      10.99,
-      "Taco Bell",
-      "Cleveland",
-      "GA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-06",
+  "last_seen_date": "2026-05-07",
   "peak_availability_pct": 0.2
 }
