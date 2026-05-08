@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.1,
-  "recent_price_change_pct": -0.0249,
+  "recent_price_change_pct": -0.0305,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 9.52,
+    "avg": 9.47,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.9,
-    "store_count": 17
+    "std_dev": 0.87,
+    "store_count": 19
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 12
+      "count": 14
     },
     {
       "bucket": "$9.99",
@@ -40,8 +40,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.63,
-      "store_count": 14
+      "avg_price": 9.59,
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -63,6 +63,13 @@
       "store_number": "030359",
       "name": "Taco Bell",
       "city": "Maryville",
+      "state": "TN",
+      "price": 9.0
+    },
+    {
+      "store_number": "024403",
+      "name": "Taco Bell",
+      "city": "Crossville",
       "state": "TN",
       "price": 9.0
     },
@@ -121,17 +128,11 @@
       "city": "Atlanta",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "003668",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "030359",
+    "024403",
     "029050",
     "041249",
     "039923",
@@ -142,7 +143,8 @@
     "002167",
     "003668",
     "029102",
-    "041802"
+    "041802",
+    "041253"
   ],
   "priciest_stores": [
     {
@@ -181,6 +183,13 @@
       "price": 9.99
     },
     {
+      "store_number": "041253",
+      "name": "Taco Bell",
+      "city": "Loganville",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "041802",
       "name": "Taco Bell",
       "city": "Athens",
@@ -207,16 +216,29 @@
       "city": "Atlanta",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "041247",
-      "name": "Taco Bell",
-      "city": "Oakwood",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-08T21:43:58.895807+00:00"
+    },
+    {
+      "store_number": "041253",
+      "store_name": "Taco Bell",
+      "city": "Loganville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-08T21:32:42.208802+00:00"
+    },
     {
       "store_number": "039924",
       "store_name": "Taco Bell",
@@ -1909,7 +1931,7 @@
     }
   ],
   "activity_summary": {
-    "added": 63,
+    "added": 65,
     "removed": 106,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1957,6 +1979,15 @@
       9.0,
       "Taco Bell",
       "Maryville",
+      "TN"
+    ],
+    [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      9.0,
+      "Taco Bell",
+      "Crossville",
       "TN"
     ],
     [
@@ -2059,6 +2090,15 @@
       "GA"
     ],
     [
+      "041253",
+      33.83904274650446,
+      -83.90541290674594,
+      9.0,
+      "Taco Bell",
+      "Loganville",
+      "GA"
+    ],
+    [
       "042903",
       31.783928,
       -82.363196,
@@ -2105,6 +2145,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-07",
+  "last_seen_date": "2026-05-08",
   "peak_availability_pct": 1.1
 }

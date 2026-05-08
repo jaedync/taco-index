@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 99
+    "store_count": 98
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 99
+      "count": 98
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 9.0,
-      "store_count": 99
+      "store_count": 98
     }
   ],
   "nutrition": {
@@ -197,11 +197,11 @@
     "030676",
     "033303",
     "003584",
-    "024444",
     "027361",
     "024650",
     "021229",
     "037839",
+    "001439",
     "001691",
     "001732",
     "003865",
@@ -214,7 +214,6 @@
     "033309",
     "040007",
     "032514",
-    "001661",
     "003294",
     "029334",
     "039685",
@@ -274,13 +273,6 @@
       "price": 9.0
     },
     {
-      "store_number": "001661",
-      "name": "Taco Bell",
-      "city": "Dearborn Heights",
-      "state": "MI",
-      "price": 9.0
-    },
-    {
       "store_number": "032514",
       "name": "Taco Bell",
       "city": "Fowlerville",
@@ -293,9 +285,46 @@
       "city": "Lake Orion",
       "state": "MI",
       "price": 9.0
+    },
+    {
+      "store_number": "033309",
+      "name": "Taco Bell",
+      "city": "Clarkston",
+      "state": "MI",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "001661",
+      "store_name": "Taco Bell",
+      "city": "Dearborn Heights",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-08T21:31:02.057209+00:00"
+    },
+    {
+      "store_number": "001439",
+      "store_name": "Taco Bell",
+      "city": "Sterling Heights",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-08T21:30:55.712958+00:00"
+    },
+    {
+      "store_number": "024444",
+      "store_name": "Taco Bell",
+      "city": "Livonia",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-08T21:30:53.134751+00:00"
+    },
     {
       "store_number": "023745",
       "store_name": "Taco Bell",
@@ -4308,8 +4337,8 @@
     }
   ],
   "activity_summary": {
-    "added": 250,
-    "removed": 151,
+    "added": 251,
+    "removed": 153,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5022,15 +5051,6 @@
       "MI"
     ],
     [
-      "024444",
-      42.44013679435563,
-      -83.3737537537855,
-      9.0,
-      "Taco Bell",
-      "Livonia",
-      "MI"
-    ],
-    [
       "027361",
       42.54992472502078,
       -82.92630142999315,
@@ -5064,6 +5084,15 @@
       9.0,
       "Taco Bell",
       "Ann Arbor",
+      "MI"
+    ],
+    [
+      "001439",
+      42.53594917872571,
+      -83.06661828431061,
+      9.0,
+      "Taco Bell",
+      "Sterling Heights",
       "MI"
     ],
     [
@@ -5175,15 +5204,6 @@
       "MI"
     ],
     [
-      "001661",
-      42.35000651139183,
-      -83.27328178973356,
-      9.0,
-      "Taco Bell",
-      "Dearborn Heights",
-      "MI"
-    ],
-    [
       "003294",
       42.34483992057749,
       -83.15676929975423,
@@ -5248,6 +5268,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-07",
+  "last_seen_date": "2026-05-08",
   "peak_availability_pct": 1.2
 }

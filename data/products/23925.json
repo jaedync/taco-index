@@ -21,29 +21,29 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 122
+    "store_count": 123
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 122
+      "count": 123
     }
   ],
   "state_prices": [
     {
       "state": "PA",
       "avg_price": 4.99,
-      "store_count": 8
+      "store_count": 9
     },
     {
       "state": "OH",
       "avg_price": 4.99,
-      "store_count": 69
+      "store_count": 68
     },
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 28
+      "store_count": 29
     },
     {
       "state": "IN",
@@ -102,6 +102,13 @@
       "price": 4.99
     },
     {
+      "store_number": "040463",
+      "name": "Taco Bell",
+      "city": "Trenton",
+      "state": "MI",
+      "price": 4.99
+    },
+    {
       "store_number": "041372",
       "name": "Taco Bell",
       "city": "Grafton",
@@ -128,13 +135,6 @@
       "city": "Conneaut",
       "state": "OH",
       "price": 4.99
-    },
-    {
-      "store_number": "041987",
-      "name": "Taco Bell",
-      "city": "Painesville",
-      "state": "OH",
-      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
@@ -143,6 +143,7 @@
     "040955",
     "041411",
     "041173",
+    "040463",
     "041372",
     "035453",
     "040990",
@@ -155,7 +156,6 @@
     "036237",
     "036386",
     "036332",
-    "036418",
     "036013",
     "036448",
     "036284",
@@ -251,6 +251,7 @@
     "032630",
     "032365",
     "032349",
+    "040705",
     "036384",
     "036399",
     "040529",
@@ -258,22 +259,22 @@
     "035357",
     "001988",
     "042629",
-    "032632",
-    "023826"
+    "042636",
+    "032632"
   ],
   "priciest_stores": [
-    {
-      "store_number": "023826",
-      "name": "Taco Bell",
-      "city": "Lima",
-      "state": "OH",
-      "price": 4.99
-    },
     {
       "store_number": "032632",
       "name": "Taco Bell",
       "city": "Swanton",
       "state": "OH",
+      "price": 4.99
+    },
+    {
+      "store_number": "042636",
+      "name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
       "price": 4.99
     },
     {
@@ -326,14 +327,64 @@
       "price": 4.99
     },
     {
-      "store_number": "032349",
+      "store_number": "040705",
       "name": "Taco Bell",
-      "city": "Ada",
-      "state": "OH",
+      "city": "Titusville",
+      "state": "PA",
       "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040705",
+      "store_name": "Taco Bell",
+      "city": "Titusville",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-08T21:45:23.103636+00:00"
+    },
+    {
+      "store_number": "042636",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-08T21:45:05.269616+00:00"
+    },
+    {
+      "store_number": "023826",
+      "store_name": "Taco Bell",
+      "city": "Lima",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-08T21:42:43.549721+00:00"
+    },
+    {
+      "store_number": "036418",
+      "store_name": "Taco Bell",
+      "city": "Caledonia",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-08T21:30:01.044245+00:00"
+    },
+    {
+      "store_number": "040463",
+      "store_name": "Taco Bell",
+      "city": "Trenton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-08T21:24:51.843074+00:00"
+    },
     {
       "store_number": "040705",
       "store_name": "Taco Bell",
@@ -14506,8 +14557,8 @@
     }
   ],
   "activity_summary": {
-    "added": 770,
-    "removed": 647,
+    "added": 773,
+    "removed": 649,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14559,6 +14610,15 @@
       4.99,
       "Taco Bell",
       "Bay City",
+      "MI"
+    ],
+    [
+      "040463",
+      42.12725380858466,
+      -83.20273352527417,
+      4.99,
+      "Taco Bell",
+      "Trenton",
       "MI"
     ],
     [
@@ -14668,15 +14728,6 @@
       "Taco Bell",
       "Defiance",
       "OH"
-    ],
-    [
-      "036418",
-      42.80602736486148,
-      -85.50658579751232,
-      4.99,
-      "Taco Bell",
-      "Caledonia",
-      "MI"
     ],
     [
       "036013",
@@ -15534,6 +15585,15 @@
       "OH"
     ],
     [
+      "040705",
+      41.62684412806943,
+      -79.67016463628136,
+      4.99,
+      "Taco Bell",
+      "Titusville",
+      "PA"
+    ],
+    [
       "036384",
       41.015102935108736,
       -85.1165618525136,
@@ -15597,6 +15657,15 @@
       "MI"
     ],
     [
+      "042636",
+      42.96980078904264,
+      -85.64359773456188,
+      4.99,
+      "Taco Bell",
+      "Grand Rapids",
+      "MI"
+    ],
+    [
       "032632",
       41.5807,
       -83.8823,
@@ -15604,18 +15673,9 @@
       "Taco Bell",
       "Swanton",
       "OH"
-    ],
-    [
-      "023826",
-      40.74783202521802,
-      -84.14573013782501,
-      4.99,
-      "Taco Bell",
-      "Lima",
-      "OH"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-07",
+  "last_seen_date": "2026-05-08",
   "peak_availability_pct": 7.0
 }
