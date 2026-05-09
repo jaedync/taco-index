@@ -20,8 +20,8 @@
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.81,
-    "store_count": 31
+    "std_dev": 0.82,
+    "store_count": 30
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$11.99",
-      "count": 17
+      "count": 16
     },
     {
       "bucket": "$12.99",
@@ -184,13 +184,6 @@
       "price": 11.99
     },
     {
-      "store_number": "030424",
-      "name": "Taco Bell / KFC",
-      "city": "Osceola",
-      "state": "IA",
-      "price": 11.99
-    },
-    {
       "store_number": "029412",
       "name": "Taco Bell",
       "city": "Durham",
@@ -203,9 +196,26 @@
       "city": "Benson",
       "state": "NC",
       "price": 11.99
+    },
+    {
+      "store_number": "017415",
+      "name": "Taco Bell / KFC",
+      "city": "Moriarty",
+      "state": "NM",
+      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030424",
+      "store_name": "Taco Bell / KFC",
+      "city": "Osceola",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-09T22:16:24.424482+00:00"
+    },
     {
       "store_number": "041399",
       "store_name": "Taco Bell",
@@ -719,7 +729,7 @@
   ],
   "activity_summary": {
     "added": 41,
-    "removed": 10,
+    "removed": 11,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -979,15 +989,6 @@
       "NC"
     ],
     [
-      "030424",
-      41.02537540476871,
-      -93.79682839663474,
-      11.99,
-      "Taco Bell / KFC",
-      "Osceola",
-      "IA"
-    ],
-    [
       "024051",
       35.0790273387348,
       -106.71240643413512,
@@ -1052,6 +1053,6 @@
     ]
   ],
   "retired_at": "2026-04-18T22:12:40.299660+00:00",
-  "last_seen_date": "2026-05-08",
+  "last_seen_date": "2026-05-09",
   "peak_availability_pct": 0.4
 }

@@ -21,12 +21,12 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 123
+    "store_count": 126
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 123
+      "count": 126
     }
   ],
   "state_prices": [
@@ -38,12 +38,12 @@
     {
       "state": "OH",
       "avg_price": 4.99,
-      "store_count": 68
+      "store_count": 67
     },
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 29
+      "store_count": 33
     },
     {
       "state": "IN",
@@ -88,6 +88,13 @@
       "price": 4.99
     },
     {
+      "store_number": "041027",
+      "name": "Taco Bell",
+      "city": "Monroe",
+      "state": "MI",
+      "price": 4.99
+    },
+    {
       "store_number": "041411",
       "name": "Taco Bell",
       "city": "Kalkaska",
@@ -128,19 +135,13 @@
       "city": "Medina",
       "state": "OH",
       "price": 4.99
-    },
-    {
-      "store_number": "042062",
-      "name": "Taco Bell",
-      "city": "Conneaut",
-      "state": "OH",
-      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
     "041112",
     "040933",
     "040955",
+    "041027",
     "041411",
     "041173",
     "040463",
@@ -152,10 +153,12 @@
     "042230",
     "042015",
     "035253",
+    "034021",
     "035832",
     "036237",
     "036386",
     "036332",
+    "036418",
     "036013",
     "036448",
     "036284",
@@ -171,11 +174,12 @@
     "038843",
     "039555",
     "021478",
-    "035355",
     "017264",
     "021275",
+    "026083",
     "030660",
     "028400",
+    "003190",
     "002147",
     "022444",
     "004590",
@@ -245,7 +249,6 @@
     "028153",
     "035413",
     "032345",
-    "031269",
     "024033",
     "040389",
     "032630",
@@ -258,7 +261,7 @@
     "015366",
     "035357",
     "001988",
-    "042629",
+    "033008",
     "042636",
     "032632"
   ],
@@ -278,9 +281,9 @@
       "price": 4.99
     },
     {
-      "store_number": "042629",
+      "store_number": "033008",
       "name": "Taco Bell",
-      "city": "Traverse City",
+      "city": "Hastings",
       "state": "MI",
       "price": 4.99
     },
@@ -335,6 +338,96 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003190",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-09T22:23:01.809062+00:00"
+    },
+    {
+      "store_number": "033008",
+      "store_name": "Taco Bell",
+      "city": "Hastings",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-09T22:16:26.688752+00:00"
+    },
+    {
+      "store_number": "031269",
+      "store_name": "Taco Bell",
+      "city": "Dewitt",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-09T22:16:22.727637+00:00"
+    },
+    {
+      "store_number": "042629",
+      "store_name": "Taco Bell",
+      "city": "Traverse City",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-09T22:16:07.444414+00:00"
+    },
+    {
+      "store_number": "026083",
+      "store_name": "Taco Bell",
+      "city": "South Lyon",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-09T22:04:33.511963+00:00"
+    },
+    {
+      "store_number": "035355",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-09T22:04:15.466093+00:00"
+    },
+    {
+      "store_number": "036418",
+      "store_name": "Taco Bell",
+      "city": "Caledonia",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-09T22:03:46.163093+00:00"
+    },
+    {
+      "store_number": "034021",
+      "store_name": "Taco Bell",
+      "city": "White Lake",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-09T22:02:42.750047+00:00"
+    },
+    {
+      "store_number": "041027",
+      "store_name": "Taco Bell",
+      "city": "Monroe",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-09T21:52:38.993255+00:00"
+    },
     {
       "store_number": "040705",
       "store_name": "Taco Bell",
@@ -14557,8 +14650,8 @@
     }
   ],
   "activity_summary": {
-    "added": 773,
-    "removed": 649,
+    "added": 779,
+    "removed": 652,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14593,6 +14686,15 @@
       "Taco Bell",
       "New Castle",
       "PA"
+    ],
+    [
+      "041027",
+      41.9491,
+      -83.401,
+      4.99,
+      "Taco Bell",
+      "Monroe",
+      "MI"
     ],
     [
       "041411",
@@ -14694,6 +14796,15 @@
       "OH"
     ],
     [
+      "034021",
+      42.614842963738916,
+      -83.44493113404984,
+      4.99,
+      "Taco Bell",
+      "White Lake",
+      "MI"
+    ],
+    [
       "035832",
       41.45890771690547,
       -81.86124324751232,
@@ -14728,6 +14839,15 @@
       "Taco Bell",
       "Defiance",
       "OH"
+    ],
+    [
+      "036418",
+      42.80602736486148,
+      -85.50658579751232,
+      4.99,
+      "Taco Bell",
+      "Caledonia",
+      "MI"
     ],
     [
       "036013",
@@ -14865,15 +14985,6 @@
       "OH"
     ],
     [
-      "035355",
-      41.464593285988514,
-      -81.7617518408315,
-      4.99,
-      "Taco Bell",
-      "Cleveland",
-      "OH"
-    ],
-    [
       "017264",
       41.3611977277133,
       -81.68553644061988,
@@ -14892,6 +15003,15 @@
       "OH"
     ],
     [
+      "026083",
+      42.44409604011501,
+      -83.6508289678523,
+      4.99,
+      "Taco Bell",
+      "South Lyon",
+      "MI"
+    ],
+    [
       "030660",
       40.69536631088116,
       -82.51412624727543,
@@ -14908,6 +15028,15 @@
       "Taco Bell",
       "Akron",
       "OH"
+    ],
+    [
+      "003190",
+      42.48379808690309,
+      -82.94468663168573,
+      4.99,
+      "Taco Bell",
+      "Roseville",
+      "MI"
     ],
     [
       "002147",
@@ -15531,15 +15660,6 @@
       "OH"
     ],
     [
-      "031269",
-      42.827935934601626,
-      -84.54133071008073,
-      4.99,
-      "Taco Bell",
-      "Dewitt",
-      "MI"
-    ],
-    [
       "024033",
       43.83808282529304,
       -84.7689414024353,
@@ -15648,12 +15768,12 @@
       "OH"
     ],
     [
-      "042629",
-      44.73309011695499,
-      -85.60448437929153,
+      "033008",
+      42.64912686838863,
+      -85.30132479971144,
       4.99,
       "Taco Bell",
-      "Traverse City",
+      "Hastings",
       "MI"
     ],
     [
@@ -15676,6 +15796,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-08",
+  "last_seen_date": "2026-05-09",
   "peak_availability_pct": 7.0
 }
