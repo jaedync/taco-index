@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.1,
-  "recent_price_change_pct": -0.0305,
+  "recent_price_change_pct": -0.0329,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 9.47,
+    "avg": 9.44,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.87,
-    "store_count": 19
+    "std_dev": 0.85,
+    "store_count": 20
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 14
+      "count": 15
     },
     {
       "bucket": "$9.99",
@@ -40,8 +40,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.59,
-      "store_count": 15
+      "avg_price": 9.55,
+      "store_count": 16
     }
   ],
   "nutrition": {
@@ -109,6 +109,13 @@
       "price": 9.0
     },
     {
+      "store_number": "016289",
+      "name": "Taco Bell",
+      "city": "College Park",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "033643",
       "name": "Taco Bell",
       "city": "Hixson",
@@ -121,13 +128,6 @@
       "city": "Oakwood",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "002167",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -138,6 +138,7 @@
     "039923",
     "039924",
     "041243",
+    "016289",
     "033643",
     "041247",
     "002167",
@@ -219,6 +220,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016289",
+      "store_name": "Taco Bell",
+      "city": "College Park",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-10T21:29:01.286696+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -1931,7 +1942,7 @@
     }
   ],
   "activity_summary": {
-    "added": 65,
+    "added": 66,
     "removed": 106,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2033,6 +2044,15 @@
       9.0,
       "Taco Bell",
       "Marietta",
+      "GA"
+    ],
+    [
+      "016289",
+      33.61549907748702,
+      -84.47322343291489,
+      9.0,
+      "Taco Bell",
+      "College Park",
       "GA"
     ],
     [
@@ -2145,6 +2165,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-09",
+  "last_seen_date": "2026-05-10",
   "peak_availability_pct": 1.1
 }

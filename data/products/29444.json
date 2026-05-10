@@ -20,8 +20,8 @@
     "min": 0.0,
     "max": 11.99,
     "median": 10.99,
-    "std_dev": 1.67,
-    "store_count": 49
+    "std_dev": 1.69,
+    "store_count": 48
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 34
+      "count": 33
     },
     {
       "bucket": "$11.99",
@@ -40,8 +40,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 11.28,
-      "store_count": 48
+      "avg_price": 11.29,
+      "store_count": 47
     }
   ],
   "nutrition": null,
@@ -57,13 +57,6 @@
       "store_number": "040929",
       "name": "Taco Bell",
       "city": "Greensboro",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
-      "store_number": "041105",
-      "name": "Taco Bell",
-      "city": "Jefferson",
       "state": "GA",
       "price": 10.99
     },
@@ -113,6 +106,13 @@
       "store_number": "036290",
       "name": "Taco Bell",
       "city": "Conyers",
+      "state": "GA",
+      "price": 10.99
+    },
+    {
+      "store_number": "003717",
+      "name": "Taco Bell",
+      "city": "Covington",
       "state": "GA",
       "price": 10.99
     }
@@ -193,6 +193,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041105",
+      "store_name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-10T21:21:04.184913+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -906,7 +916,7 @@
   ],
   "activity_summary": {
     "added": 60,
-    "removed": 11,
+    "removed": 12,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -968,15 +978,6 @@
       10.99,
       "Taco Bell",
       "Greensboro",
-      "GA"
-    ],
-    [
-      "041105",
-      34.123606790741,
-      -83.60452047516594,
-      10.99,
-      "Taco Bell",
-      "Jefferson",
       "GA"
     ],
     [
@@ -1395,6 +1396,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-09",
+  "last_seen_date": "2026-05-10",
   "peak_availability_pct": 0.6
 }

@@ -21,13 +21,13 @@
     "min": 12.5,
     "max": 19.99,
     "median": 12.5,
-    "std_dev": 1.25,
-    "store_count": 418
+    "std_dev": 1.24,
+    "store_count": 420
   },
   "histogram": [
     {
       "bucket": "$12.50",
-      "count": 354
+      "count": 356
     },
     {
       "bucket": "$12.99",
@@ -68,19 +68,19 @@
   ],
   "state_prices": [
     {
-      "state": "FL",
-      "avg_price": 14.1,
-      "store_count": 23
-    },
-    {
       "state": "SC",
       "avg_price": 14.09,
       "store_count": 5
     },
     {
+      "state": "FL",
+      "avg_price": 14.04,
+      "store_count": 24
+    },
+    {
       "state": "TN",
       "avg_price": 13.08,
-      "store_count": 78
+      "store_count": 79
     },
     {
       "state": "GA",
@@ -352,6 +352,7 @@
     "039945",
     "029057",
     "029105",
+    "016335",
     "029291",
     "041838",
     "004370",
@@ -533,7 +534,8 @@
     "041881",
     "041258",
     "039919",
-    "041802"
+    "041802",
+    "042126"
   ],
   "priciest_stores": [
     {
@@ -608,6 +610,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042126",
+      "store_name": "Taco Bell",
+      "city": "Defuniak Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-05-10T21:30:04.281176+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-05-10T21:28:23.835946+00:00"
+    },
     {
       "store_number": "041257",
       "store_name": "Taco Bell",
@@ -5770,7 +5792,7 @@
     }
   ],
   "activity_summary": {
-    "added": 467,
+    "added": 469,
     "removed": 49,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -7352,6 +7374,15 @@
       "Taco Bell",
       "Americus",
       "GA"
+    ],
+    [
+      "016335",
+      35.810910605655216,
+      -84.26391898537986,
+      12.5,
+      "Taco Bell",
+      "Lenoir City",
+      "TN"
     ],
     [
       "029291",
@@ -8992,6 +9023,15 @@
       "GA"
     ],
     [
+      "042126",
+      30.701080181738643,
+      -86.12210662608975,
+      12.5,
+      "Taco Bell",
+      "Defuniak Springs",
+      "FL"
+    ],
+    [
       "032143",
       34.153327,
       -84.821585,
@@ -9569,6 +9609,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-09",
+  "last_seen_date": "2026-05-10",
   "peak_availability_pct": 5.3
 }

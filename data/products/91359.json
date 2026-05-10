@@ -20,8 +20,8 @@
     "min": 0.0,
     "max": 10.99,
     "median": 10.99,
-    "std_dev": 1.51,
-    "store_count": 53
+    "std_dev": 1.52,
+    "store_count": 52
   },
   "histogram": [
     {
@@ -30,14 +30,14 @@
     },
     {
       "bucket": "$10.99",
-      "count": 52
+      "count": 51
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 10.99,
-      "store_count": 52
+      "store_count": 51
     }
   ],
   "nutrition": {
@@ -131,13 +131,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "041105",
-      "name": "Taco Bell",
-      "city": "Jefferson",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "042579",
       "name": "Taco Bell",
       "city": "Braselton",
@@ -199,9 +192,26 @@
       "city": "Conyers",
       "state": "GA",
       "price": 10.99
+    },
+    {
+      "store_number": "042571",
+      "name": "Taco Bell",
+      "city": "Stockbridge",
+      "state": "GA",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041105",
+      "store_name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-10T21:21:04.184913+00:00"
+    },
     {
       "store_number": "027858",
       "store_name": "Taco Bell",
@@ -1935,7 +1945,7 @@
   ],
   "activity_summary": {
     "added": 113,
-    "removed": 60,
+    "removed": 61,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2448,18 +2458,9 @@
       "Taco Bell",
       "Braselton",
       "GA"
-    ],
-    [
-      "041105",
-      34.123606790741,
-      -83.60452047516594,
-      10.99,
-      "Taco Bell",
-      "Jefferson",
-      "GA"
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-09",
+  "last_seen_date": "2026-05-10",
   "peak_availability_pct": 0.7
 }

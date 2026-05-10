@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 48
+    "store_count": 49
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 48
+      "count": 49
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 9.0,
-      "store_count": 48
+      "store_count": 49
     }
   ],
   "nutrition": {
@@ -101,6 +101,13 @@
       "price": 9.0
     },
     {
+      "store_number": "034276",
+      "name": "Taco Bell",
+      "city": "Sandusky",
+      "state": "MI",
+      "price": 9.0
+    },
+    {
       "store_number": "042669",
       "name": "Taco Bell",
       "city": "Brighton",
@@ -113,13 +120,6 @@
       "city": "Fraser",
       "state": "MI",
       "price": 9.0
-    },
-    {
-      "store_number": "001971",
-      "name": "Taco Bell",
-      "city": "Taylor",
-      "state": "MI",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -130,6 +130,7 @@
     "040760",
     "041745",
     "040997",
+    "034276",
     "042669",
     "037169",
     "001971",
@@ -245,6 +246,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034276",
+      "store_name": "Taco Bell",
+      "city": "Sandusky",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-10T21:21:06.695846+00:00"
+    },
     {
       "store_number": "004298",
       "store_name": "Taco Bell",
@@ -2167,7 +2178,7 @@
     }
   ],
   "activity_summary": {
-    "added": 120,
+    "added": 121,
     "removed": 72,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2275,6 +2286,15 @@
       9.0,
       "Taco Bell",
       "Capac",
+      "MI"
+    ],
+    [
+      "034276",
+      43.42,
+      -82.852,
+      9.0,
+      "Taco Bell",
+      "Sandusky",
       "MI"
     ],
     [
@@ -2648,6 +2668,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-09",
+  "last_seen_date": "2026-05-10",
   "peak_availability_pct": 0.6
 }

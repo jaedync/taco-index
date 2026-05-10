@@ -14,19 +14,19 @@
   "peak_30d_pct": 93.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 100.0,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 2.03,
     "min": 0.99,
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.2,
-    "store_count": 7706
+    "store_count": 7704
   },
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$1.59",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$1.79",
-      "count": 368
+      "count": 367
     },
     {
       "bucket": "$1.89",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4346
+      "count": 4345
     },
     {
       "bucket": "$2.00",
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 1077
+      "count": 1076
     },
     {
       "bucket": "$2.20",
@@ -189,7 +189,7 @@
     {
       "state": "NH",
       "avg_price": 2.19,
-      "store_count": 12
+      "store_count": 11
     },
     {
       "state": "ME",
@@ -242,14 +242,14 @@
       "store_count": 49
     },
     {
-      "state": "IL",
-      "avg_price": 2.06,
-      "store_count": 289
-    },
-    {
       "state": "PA",
       "avg_price": 2.06,
       "store_count": 202
+    },
+    {
+      "state": "IL",
+      "avg_price": 2.06,
+      "store_count": 289
     },
     {
       "state": "NV",
@@ -264,7 +264,7 @@
     {
       "state": "MI",
       "avg_price": 2.01,
-      "store_count": 349
+      "store_count": 348
     },
     {
       "state": "NE",
@@ -433,6 +433,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "040318",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 0.99
+    },
+    {
       "store_number": "003056",
       "name": "Taco Bell",
       "city": "Whittier",
@@ -494,16 +501,10 @@
       "city": "Wyoming",
       "state": "MI",
       "price": 1.69
-    },
-    {
-      "store_number": "034828",
-      "name": "Taco Bell",
-      "city": "Battle Creek",
-      "state": "MI",
-      "price": 1.69
     }
   ],
   "min_price_store_numbers": [
+    "040318",
     "003056"
   ],
   "priciest_stores": [
@@ -579,6 +580,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033434",
+      "store_name": "Taco Bell",
+      "city": "Menominee",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.79,
+      "new_price": null,
+      "observed_at": "2026-05-10T21:30:08.762107+00:00"
+    },
+    {
+      "store_number": "031694",
+      "store_name": "Taco Bell",
+      "city": "Portsmouth",
+      "state": "NH",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-05-10T21:29:42.168299+00:00"
+    },
+    {
+      "store_number": "040318",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-05-10T21:20:34.435167+00:00"
+    },
     {
       "store_number": "030561",
       "store_name": "Taco Bell",
@@ -3442,8 +3473,8 @@
   ],
   "activity_summary": {
     "added": 49,
-    "removed": 36,
-    "price_changed": 201,
+    "removed": 38,
+    "price_changed": 202,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 170,
@@ -3451,6 +3482,15 @@
   "calories_max": 170,
   "combo_groups": [],
   "map_data": [
+    [
+      "040318",
+      41.807919921888036,
+      -87.74351908680534,
+      0.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
     [
       "003056",
       33.98985419924158,
@@ -8112,15 +8152,6 @@
       "Taco Bell",
       "Lebanon",
       "VA"
-    ],
-    [
-      "033434",
-      45.1069887,
-      -87.6190027,
-      1.79,
-      "Taco Bell",
-      "Menominee",
-      "MI"
     ],
     [
       "015801",
@@ -18525,15 +18556,6 @@
       "Taco Bell",
       "Little Rock",
       "AR"
-    ],
-    [
-      "040318",
-      41.807919921888036,
-      -87.74351908680534,
-      1.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
     ],
     [
       "041646",
@@ -63750,15 +63772,6 @@
       "Taco Bell",
       "Tracy",
       "CA"
-    ],
-    [
-      "031694",
-      43.03374097661886,
-      -70.78120797872543,
-      2.19,
-      "Taco Bell",
-      "Portsmouth",
-      "NH"
     ],
     [
       "022350",
