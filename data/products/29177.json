@@ -21,19 +21,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 62
+    "store_count": 63
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 62
+      "count": 63
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 62
+      "store_count": 63
     }
   ],
   "nutrition": {
@@ -55,6 +55,13 @@
       "store_number": "039700",
       "name": "Taco Bell",
       "city": "Clermont",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "040730",
+      "name": "Taco Bell",
+      "city": "Edgewater",
       "state": "FL",
       "price": 10.99
     },
@@ -113,17 +120,11 @@
       "city": "Minneola",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "037372",
-      "name": "Taco Bell",
-      "city": "Daytona Beach",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "039700",
+    "040730",
     "040450",
     "034859",
     "036021",
@@ -259,6 +260,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040730",
+      "store_name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-11T21:51:26.422501+00:00"
+    },
     {
       "store_number": "027973",
       "store_name": "Taco Bell",
@@ -1141,7 +1152,7 @@
     }
   ],
   "activity_summary": {
-    "added": 75,
+    "added": 76,
     "removed": 13,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1189,6 +1200,15 @@
       10.99,
       "Taco Bell",
       "Clermont",
+      "FL"
+    ],
+    [
+      "040730",
+      28.978999988269013,
+      -80.90048237483407,
+      10.99,
+      "Taco Bell",
+      "Edgewater",
       "FL"
     ],
     [

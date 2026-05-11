@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 98
+    "store_count": 97
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 98
+      "count": 97
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 9.0,
-      "store_count": 98
+      "store_count": 97
     }
   ],
   "nutrition": {
@@ -51,13 +51,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "040303",
-      "name": "Taco Bell",
-      "city": "Pontiac",
-      "state": "MI",
-      "price": 9.0
-    },
     {
       "store_number": "040437",
       "name": "Taco Bell",
@@ -120,10 +113,16 @@
       "city": "Southgate",
       "state": "MI",
       "price": 9.0
+    },
+    {
+      "store_number": "034418",
+      "name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
-    "040303",
     "040437",
     "039704",
     "041027",
@@ -146,13 +145,13 @@
     "030367",
     "029978",
     "037842",
-    "023745",
     "002260",
     "027886",
     "001571",
     "024649",
     "021292",
     "033313",
+    "038975",
     "027374",
     "033308",
     "005095",
@@ -295,6 +294,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038975",
+      "store_name": "Taco Bell",
+      "city": "Pontiac",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-11T22:00:11.575945+00:00"
+    },
+    {
+      "store_number": "023745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-11T22:00:10.556357+00:00"
+    },
+    {
+      "store_number": "040303",
+      "store_name": "Taco Bell",
+      "city": "Pontiac",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-11T21:51:22.826147+00:00"
+    },
     {
       "store_number": "038975",
       "store_name": "Taco Bell",
@@ -4357,8 +4386,8 @@
     }
   ],
   "activity_summary": {
-    "added": 252,
-    "removed": 154,
+    "added": 253,
+    "removed": 156,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4404,15 +4433,6 @@
     }
   ],
   "map_data": [
-    [
-      "040303",
-      42.6773,
-      -83.2838,
-      9.0,
-      "Taco Bell",
-      "Pontiac",
-      "MI"
-    ],
     [
       "040437",
       42.839225852052095,
@@ -4612,15 +4632,6 @@
       "MI"
     ],
     [
-      "023745",
-      42.224730175482414,
-      -83.4856314762491,
-      9.0,
-      "Taco Bell",
-      "Belleville",
-      "MI"
-    ],
-    [
       "002260",
       42.46009074071353,
       -83.14707800745964,
@@ -4672,6 +4683,15 @@
       9.0,
       "Taco Bell",
       "Waterford",
+      "MI"
+    ],
+    [
+      "038975",
+      42.62029219023837,
+      -83.2493157684803,
+      9.0,
+      "Taco Bell",
+      "Pontiac",
       "MI"
     ],
     [
@@ -5288,6 +5308,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-10",
+  "last_seen_date": "2026-05-11",
   "peak_availability_pct": 1.2
 }

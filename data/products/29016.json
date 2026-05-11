@@ -21,12 +21,12 @@
     "max": 8.19,
     "median": 5.99,
     "std_dev": 0.24,
-    "store_count": 100
+    "store_count": 101
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 97
+      "count": 98
     },
     {
       "bucket": "$6.19",
@@ -45,7 +45,7 @@
     {
       "state": "FL",
       "avg_price": 6.02,
-      "store_count": 99
+      "store_count": 100
     }
   ],
   "nutrition": {
@@ -67,6 +67,13 @@
       "store_number": "039700",
       "name": "Taco Bell",
       "city": "Clermont",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "040730",
+      "name": "Taco Bell",
+      "city": "Edgewater",
       "state": "FL",
       "price": 5.99
     },
@@ -125,17 +132,11 @@
       "city": "Longwood",
       "state": "FL",
       "price": 5.99
-    },
-    {
-      "store_number": "035177",
-      "name": "Taco Bell",
-      "city": "Palm Bay",
-      "state": "FL",
-      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "039700",
+    "040730",
     "040450",
     "034859",
     "041844",
@@ -306,6 +307,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040730",
+      "store_name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-11T21:51:26.422501+00:00"
+    },
     {
       "store_number": "040730",
       "store_name": "Taco Bell",
@@ -1398,7 +1409,7 @@
     }
   ],
   "activity_summary": {
-    "added": 103,
+    "added": 104,
     "removed": 6,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1415,6 +1426,15 @@
       5.99,
       "Taco Bell",
       "Clermont",
+      "FL"
+    ],
+    [
+      "040730",
+      28.978999988269013,
+      -80.90048237483407,
+      5.99,
+      "Taco Bell",
+      "Edgewater",
       "FL"
     ],
     [

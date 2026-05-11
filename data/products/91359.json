@@ -16,12 +16,12 @@
   "first_seen_at": "2026-04-16T21:05:38.080670+00:00",
   "availability_pct": 0.7,
   "price_stats": {
-    "avg": 10.78,
+    "avg": 10.77,
     "min": 0.0,
     "max": 10.99,
     "median": 10.99,
-    "std_dev": 1.52,
-    "store_count": 52
+    "std_dev": 1.54,
+    "store_count": 51
   },
   "histogram": [
     {
@@ -30,14 +30,14 @@
     },
     {
       "bucket": "$10.99",
-      "count": 51
+      "count": 50
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 10.99,
-      "store_count": 51
+      "store_count": 50
     }
   ],
   "nutrition": {
@@ -194,14 +194,24 @@
       "price": 10.99
     },
     {
-      "store_number": "042571",
+      "store_number": "023742",
       "name": "Taco Bell",
-      "city": "Stockbridge",
+      "city": "Carrollton",
       "state": "GA",
       "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042571",
+      "store_name": "Taco Bell",
+      "city": "Stockbridge",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-11T22:10:35.568706+00:00"
+    },
     {
       "store_number": "041105",
       "store_name": "Taco Bell",
@@ -1945,7 +1955,7 @@
   ],
   "activity_summary": {
     "added": 113,
-    "removed": 61,
+    "removed": 62,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2370,15 +2380,6 @@
       "GA"
     ],
     [
-      "042571",
-      33.50439041324688,
-      -84.23968769611292,
-      10.99,
-      "Taco Bell",
-      "Stockbridge",
-      "GA"
-    ],
-    [
       "004109",
       33.64955627801561,
       -84.01091118158547,
@@ -2461,6 +2462,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-10",
+  "last_seen_date": "2026-05-11",
   "peak_availability_pct": 0.7
 }

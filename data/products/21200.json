@@ -20,12 +20,12 @@
     "max": 44.99,
     "median": 30.99,
     "std_dev": 3.1,
-    "store_count": 7667
+    "store_count": 7670
   },
   "histogram": [
     {
       "bucket": "$19.49",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$20.99",
@@ -133,7 +133,7 @@
     },
     {
       "bucket": "$26.99",
-      "count": 443
+      "count": 444
     },
     {
       "bucket": "$27.19",
@@ -261,7 +261,7 @@
     },
     {
       "bucket": "$33.49",
-      "count": 246
+      "count": 247
     },
     {
       "bucket": "$33.69",
@@ -396,7 +396,7 @@
     {
       "state": "NH",
       "avg_price": 33.49,
-      "store_count": 11
+      "store_count": 12
     },
     {
       "state": "ME",
@@ -495,8 +495,8 @@
     },
     {
       "state": "AR",
-      "avg_price": 30.45,
-      "store_count": 111
+      "avg_price": 30.35,
+      "store_count": 112
     },
     {
       "state": "OH",
@@ -511,7 +511,7 @@
     {
       "state": "MI",
       "avg_price": 30.07,
-      "store_count": 348
+      "store_count": 349
     },
     {
       "state": "MN",
@@ -550,8 +550,8 @@
     },
     {
       "state": "WY",
-      "avg_price": 29.72,
-      "store_count": 11
+      "avg_price": 29.69,
+      "store_count": 10
     },
     {
       "state": "NJ",
@@ -606,7 +606,7 @@
     {
       "state": "IN",
       "avg_price": 28.13,
-      "store_count": 256
+      "store_count": 257
     },
     {
       "state": "TX",
@@ -630,6 +630,13 @@
       "store_number": "031421",
       "name": "Taco Bell",
       "city": "Brookland",
+      "state": "AR",
+      "price": 19.49
+    },
+    {
+      "store_number": "032480",
+      "name": "Taco Bell",
+      "city": "Walnut Ridge",
       "state": "AR",
       "price": 19.49
     },
@@ -688,17 +695,11 @@
       "city": "Tyler",
       "state": "TX",
       "price": 20.99
-    },
-    {
-      "store_number": "028281",
-      "name": "Taco Bell",
-      "city": "Mineola",
-      "state": "TX",
-      "price": 20.99
     }
   ],
   "min_price_store_numbers": [
     "031421",
+    "032480",
     "033379",
     "032054",
     "033494"
@@ -776,6 +777,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033434",
+      "store_name": "Taco Bell",
+      "city": "Menominee",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 29.99,
+      "observed_at": "2026-05-11T22:10:52.176000+00:00"
+    },
+    {
+      "store_number": "023073",
+      "store_name": "Taco Bell",
+      "city": "Laramie",
+      "state": "WY",
+      "change_type": "item_removed",
+      "old_price": 29.99,
+      "new_price": null,
+      "observed_at": "2026-05-11T22:10:14.721537+00:00"
+    },
+    {
+      "store_number": "031694",
+      "store_name": "Taco Bell",
+      "city": "Portsmouth",
+      "state": "NH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 33.49,
+      "observed_at": "2026-05-11T22:10:09.129882+00:00"
+    },
+    {
+      "store_number": "032480",
+      "store_name": "Taco Bell",
+      "city": "Walnut Ridge",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 19.49,
+      "observed_at": "2026-05-11T22:09:12.350288+00:00"
+    },
+    {
+      "store_number": "031572",
+      "store_name": "Taco Bell",
+      "city": "Danville",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 26.99,
+      "observed_at": "2026-05-11T22:08:55.076160+00:00"
+    },
     {
       "store_number": "033434",
       "store_name": "Taco Bell",
@@ -3938,8 +3989,8 @@
     }
   ],
   "activity_summary": {
-    "added": 115,
-    "removed": 101,
+    "added": 119,
+    "removed": 102,
     "price_changed": 100,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3968,6 +4019,15 @@
       19.49,
       "Taco Bell",
       "Brookland",
+      "AR"
+    ],
+    [
+      "032480",
+      36.07600923480633,
+      -90.95436919703081,
+      19.49,
+      "Taco Bell",
+      "Walnut Ridge",
       "AR"
     ],
     [
@@ -14076,6 +14136,15 @@
       "Taco Bell",
       "Landover Hills",
       "MD"
+    ],
+    [
+      "031572",
+      39.758433007089415,
+      -86.50967279079856,
+      26.99,
+      "Taco Bell",
+      "Danville",
+      "IN"
     ],
     [
       "009575",
@@ -33185,15 +33254,6 @@
       "ND"
     ],
     [
-      "023073",
-      41.30974331425007,
-      -105.56663297122213,
-      29.99,
-      "Taco Bell",
-      "Laramie",
-      "WY"
-    ],
-    [
       "004257",
       35.90284200515392,
       -78.89466628432268,
@@ -34164,6 +34224,15 @@
       "Taco Bell",
       "Winter Garden",
       "FL"
+    ],
+    [
+      "033434",
+      45.1069887,
+      -87.6190027,
+      29.99,
+      "Taco Bell",
+      "Menominee",
+      "MI"
     ],
     [
       "027586",
@@ -61209,6 +61278,15 @@
       "Taco Bell",
       "Pittsburgh",
       "PA"
+    ],
+    [
+      "031694",
+      43.03374097661886,
+      -70.78120797872543,
+      33.49,
+      "Taco Bell",
+      "Portsmouth",
+      "NH"
     ],
     [
       "042762",

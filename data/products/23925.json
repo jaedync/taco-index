@@ -21,12 +21,12 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 127
+    "store_count": 124
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 127
+      "count": 124
     }
   ],
   "state_prices": [
@@ -38,7 +38,7 @@
     {
       "state": "OH",
       "avg_price": 4.99,
-      "store_count": 67
+      "store_count": 65
     },
     {
       "state": "MI",
@@ -48,7 +48,7 @@
     {
       "state": "IN",
       "avg_price": 4.99,
-      "store_count": 17
+      "store_count": 16
     }
   ],
   "nutrition": {
@@ -177,6 +177,7 @@
     "021478",
     "017264",
     "021275",
+    "003783",
     "026083",
     "030660",
     "028400",
@@ -195,7 +196,6 @@
     "035352",
     "004024",
     "040536",
-    "028000",
     "001856",
     "035361",
     "024764",
@@ -213,7 +213,6 @@
     "002661",
     "035405",
     "035402",
-    "035400",
     "022447",
     "042623",
     "032091",
@@ -228,7 +227,6 @@
     "000939",
     "030677",
     "026110",
-    "004399",
     "020199",
     "035409",
     "015733",
@@ -259,10 +257,9 @@
     "036384",
     "036399",
     "040529",
-    "015366",
+    "017105",
     "035357",
     "001988",
-    "033008",
     "042636",
     "032632"
   ],
@@ -282,13 +279,6 @@
       "price": 4.99
     },
     {
-      "store_number": "033008",
-      "name": "Taco Bell",
-      "city": "Hastings",
-      "state": "MI",
-      "price": 4.99
-    },
-    {
       "store_number": "001988",
       "name": "Taco Bell",
       "city": "Maple Heights",
@@ -303,10 +293,10 @@
       "price": 4.99
     },
     {
-      "store_number": "015366",
+      "store_number": "017105",
       "name": "Taco Bell",
-      "city": "Mansfield",
-      "state": "OH",
+      "city": "Garden City",
+      "state": "MI",
       "price": 4.99
     },
     {
@@ -336,9 +326,86 @@
       "city": "Titusville",
       "state": "PA",
       "price": 4.99
+    },
+    {
+      "store_number": "032349",
+      "name": "Taco Bell",
+      "city": "Ada",
+      "state": "OH",
+      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033008",
+      "store_name": "Taco Bell",
+      "city": "Hastings",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-11T22:11:15.180294+00:00"
+    },
+    {
+      "store_number": "004399",
+      "store_name": "Taco Bell",
+      "city": "Sault Sainte Marie",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-11T22:09:59.127865+00:00"
+    },
+    {
+      "store_number": "035400",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-11T22:09:06.934277+00:00"
+    },
+    {
+      "store_number": "015366",
+      "store_name": "Taco Bell",
+      "city": "Mansfield",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-11T22:07:44.918878+00:00"
+    },
+    {
+      "store_number": "028000",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-11T22:07:38.956896+00:00"
+    },
+    {
+      "store_number": "017105",
+      "store_name": "Taco Bell",
+      "city": "Garden City",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-11T22:01:35.461396+00:00"
+    },
+    {
+      "store_number": "003783",
+      "store_name": "Taco Bell",
+      "city": "Novi",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-11T22:01:30.958794+00:00"
+    },
     {
       "store_number": "034276",
       "store_name": "Taco Bell",
@@ -14661,8 +14728,8 @@
     }
   ],
   "activity_summary": {
-    "added": 780,
-    "removed": 652,
+    "added": 782,
+    "removed": 657,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15023,6 +15090,15 @@
       "OH"
     ],
     [
+      "003783",
+      42.441353907350276,
+      -83.43452270329408,
+      4.99,
+      "Taco Bell",
+      "Novi",
+      "MI"
+    ],
+    [
       "026083",
       42.44409604011501,
       -83.6508289678523,
@@ -15185,15 +15261,6 @@
       "OH"
     ],
     [
-      "028000",
-      40.87596010008669,
-      -81.36434952914612,
-      4.99,
-      "Taco Bell",
-      "Canton",
-      "OH"
-    ],
-    [
       "001856",
       40.51278617707807,
       -81.45509669987982,
@@ -15347,15 +15414,6 @@
       "IN"
     ],
     [
-      "035400",
-      41.055379974183374,
-      -85.22468720378129,
-      4.99,
-      "Taco Bell",
-      "Fort Wayne",
-      "IN"
-    ],
-    [
       "022447",
       41.112298976026246,
       -83.20292560150847,
@@ -15480,15 +15538,6 @@
       "Taco Bell",
       "Erie",
       "PA"
-    ],
-    [
-      "004399",
-      46.474895137706675,
-      -84.35584594310967,
-      4.99,
-      "Taco Bell",
-      "Sault Sainte Marie",
-      "MI"
     ],
     [
       "020199",
@@ -15761,13 +15810,13 @@
       "OH"
     ],
     [
-      "015366",
-      40.77450493443725,
-      -82.47799165082597,
+      "017105",
+      42.325364416289936,
+      -83.32727551460266,
       4.99,
       "Taco Bell",
-      "Mansfield",
-      "OH"
+      "Garden City",
+      "MI"
     ],
     [
       "035357",
@@ -15786,15 +15835,6 @@
       "Taco Bell",
       "Maple Heights",
       "OH"
-    ],
-    [
-      "033008",
-      42.64912686838863,
-      -85.30132479971144,
-      4.99,
-      "Taco Bell",
-      "Hastings",
-      "MI"
     ],
     [
       "042636",
@@ -15816,6 +15856,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-10",
+  "last_seen_date": "2026-05-11",
   "peak_availability_pct": 7.0
 }

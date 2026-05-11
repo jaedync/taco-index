@@ -21,19 +21,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 32
+    "store_count": 33
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 32
+      "count": 33
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 32
+      "store_count": 33
     }
   ],
   "nutrition": {
@@ -153,6 +153,7 @@
     "023304",
     "042928",
     "023291",
+    "023300",
     "034163",
     "042971"
   ],
@@ -168,6 +169,13 @@
       "store_number": "034163",
       "name": "Taco Bell",
       "city": "Saint Cloud",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "023300",
+      "name": "Taco Bell",
+      "city": "Palm Bay",
       "state": "FL",
       "price": 10.99
     },
@@ -219,16 +227,19 @@
       "city": "Melbourne",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "023296",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023300",
+      "store_name": "Taco Bell",
+      "city": "Palm Bay",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-11T22:11:26.647506+00:00"
+    },
     {
       "store_number": "023300",
       "store_name": "Taco Bell",
@@ -1291,7 +1302,7 @@
     }
   ],
   "activity_summary": {
-    "added": 69,
+    "added": 70,
     "removed": 37,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1317,6 +1328,12 @@
       "title": "Nacho Cheese Doritos\u00ae Locos Tacos",
       "default_product_code": "22172",
       "default_product_name": "Nacho Cheese Doritos\u00ae Locos Tacos"
+    },
+    {
+      "group_id": "419",
+      "title": "Seasoned Fries",
+      "default_product_code": "28068",
+      "default_product_name": "Seasoned Fries"
     },
     {
       "group_id": "82",
@@ -1597,6 +1614,15 @@
       "FL"
     ],
     [
+      "023300",
+      27.99815047734223,
+      -80.63776654322986,
+      10.99,
+      "Taco Bell",
+      "Palm Bay",
+      "FL"
+    ],
+    [
       "034163",
       28.24668494787806,
       -81.24437438517288,
@@ -1616,6 +1642,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-10",
+  "last_seen_date": "2026-05-11",
   "peak_availability_pct": 0.4
 }
