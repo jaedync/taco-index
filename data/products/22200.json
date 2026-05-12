@@ -21,7 +21,7 @@
     "max": 5.79,
     "median": 2.29,
     "std_dev": 0.38,
-    "store_count": 7700
+    "store_count": 7703
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1861
+      "count": 1862
     },
     {
       "bucket": "$2.09",
@@ -66,7 +66,11 @@
     },
     {
       "bucket": "$2.19",
-      "count": 886
+      "count": 885
+    },
+    {
+      "bucket": "$2.25",
+      "count": 1
     },
     {
       "bucket": "$2.29",
@@ -74,7 +78,7 @@
     },
     {
       "bucket": "$2.39",
-      "count": 611
+      "count": 612
     },
     {
       "bucket": "$2.49",
@@ -130,7 +134,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 741
+      "count": 742
     },
     {
       "bucket": "$3.00",
@@ -220,17 +224,17 @@
     {
       "state": "OR",
       "avg_price": 2.76,
-      "store_count": 121
+      "store_count": 122
+    },
+    {
+      "state": "CT",
+      "avg_price": 2.74,
+      "store_count": 48
     },
     {
       "state": "CA",
       "avg_price": 2.74,
       "store_count": 838
-    },
-    {
-      "state": "CT",
-      "avg_price": 2.73,
-      "store_count": 49
     },
     {
       "state": "NJ",
@@ -249,8 +253,8 @@
     },
     {
       "state": "MA",
-      "avg_price": 2.67,
-      "store_count": 66
+      "avg_price": 2.68,
+      "store_count": 67
     },
     {
       "state": "WA",
@@ -340,7 +344,7 @@
     {
       "state": "KY",
       "avg_price": 2.29,
-      "store_count": 161
+      "store_count": 162
     },
     {
       "state": "GA",
@@ -400,7 +404,7 @@
     {
       "state": "CO",
       "avg_price": 2.16,
-      "store_count": 157
+      "store_count": 158
     },
     {
       "state": "NM",
@@ -615,6 +619,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042080",
+      "store_name": "Taco Bell",
+      "city": "Wareham",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-12T21:41:41.617633+00:00"
+    },
+    {
+      "store_number": "043047",
+      "store_name": "Taco Bell",
+      "city": "London",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-05-12T21:41:41.394238+00:00"
+    },
+    {
+      "store_number": "042680",
+      "store_name": "Taco Bell Cantina",
+      "city": "Denver",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.25,
+      "observed_at": "2026-05-12T21:41:41.367736+00:00"
+    },
+    {
+      "store_number": "029244",
+      "store_name": "Taco Bell / Pizza Hut",
+      "city": "Manchester",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-05-12T21:40:56.029007+00:00"
+    },
+    {
+      "store_number": "004402",
+      "store_name": "Taco Bell",
+      "city": "Ontario",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.39,
+      "observed_at": "2026-05-12T21:39:13.936156+00:00"
+    },
     {
       "store_number": "018696",
       "store_name": "Taco Bell",
@@ -10677,8 +10731,8 @@
     }
   ],
   "activity_summary": {
-    "added": 90,
-    "removed": 80,
+    "added": 94,
+    "removed": 81,
     "price_changed": 836,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -31208,6 +31262,15 @@
       "WV"
     ],
     [
+      "043047",
+      37.10469,
+      -84.07049,
+      1.99,
+      "Taco Bell",
+      "London",
+      "KY"
+    ],
+    [
       "041161",
       40.0061642279185,
       -86.1265645844413,
@@ -38759,15 +38822,6 @@
       "IL"
     ],
     [
-      "029244",
-      41.80577160962055,
-      -72.55784288048744,
-      2.19,
-      "Taco Bell / Pizza Hut",
-      "Manchester",
-      "CT"
-    ],
-    [
       "002323",
       39.6963045422037,
       -104.81132105739562,
@@ -40341,6 +40395,15 @@
       "Taco Bell",
       "Midland",
       "TX"
+    ],
+    [
+      "042680",
+      39.8539099434,
+      -104.6714456628,
+      2.25,
+      "Taco Bell Cantina",
+      "Denver",
+      "CO"
     ],
     [
       "040979",
@@ -48225,6 +48288,15 @@
       "Taco Bell",
       "Columbus",
       "OH"
+    ],
+    [
+      "004402",
+      44.02520067918069,
+      -116.95665121078491,
+      2.39,
+      "Taco Bell",
+      "Ontario",
+      "OR"
     ],
     [
       "042908",
@@ -78816,6 +78888,15 @@
       "Taco Bell",
       "Ames",
       "IA"
+    ],
+    [
+      "042080",
+      41.780321132295974,
+      -70.74298899627745,
+      2.99,
+      "Taco Bell",
+      "Wareham",
+      "MA"
     ],
     [
       "037015",

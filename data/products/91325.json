@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0287,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.3,
   "price_stats": {
@@ -59,13 +59,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "030359",
-      "name": "Taco Bell",
-      "city": "Maryville",
-      "state": "TN",
-      "price": 9.0
-    },
     {
       "store_number": "024403",
       "name": "Taco Bell",
@@ -123,6 +116,13 @@
       "price": 9.0
     },
     {
+      "store_number": "041837",
+      "name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "033643",
       "name": "Taco Bell",
       "city": "Hixson",
@@ -131,7 +131,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "030359",
     "024403",
     "029050",
     "041249",
@@ -140,13 +139,14 @@
     "041243",
     "026073",
     "016289",
+    "041837",
     "033643",
     "041247",
     "002167",
-    "003668",
     "029102",
     "041802",
-    "041253"
+    "041253",
+    "038735"
   ],
   "priciest_stores": [
     {
@@ -185,6 +185,13 @@
       "price": 9.99
     },
     {
+      "store_number": "038735",
+      "name": "Taco Bell",
+      "city": "Grand Bay",
+      "state": "AL",
+      "price": 9.0
+    },
+    {
       "store_number": "041253",
       "name": "Taco Bell",
       "city": "Loganville",
@@ -206,13 +213,6 @@
       "price": 9.0
     },
     {
-      "store_number": "003668",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
       "store_number": "002167",
       "name": "Taco Bell",
       "city": "Atlanta",
@@ -221,6 +221,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041837",
+      "store_name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-12T21:40:57.081001+00:00"
+    },
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-12T21:40:24.620113+00:00"
+    },
+    {
+      "store_number": "003668",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-12T21:39:02.405445+00:00"
+    },
+    {
+      "store_number": "038735",
+      "store_name": "Taco Bell",
+      "city": "Grand Bay",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-12T21:33:58.784381+00:00"
+    },
     {
       "store_number": "042881",
       "store_name": "Taco Bell",
@@ -1973,8 +2013,8 @@
     }
   ],
   "activity_summary": {
-    "added": 68,
-    "removed": 107,
+    "added": 70,
+    "removed": 109,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2014,15 +2054,6 @@
     }
   ],
   "map_data": [
-    [
-      "030359",
-      35.71724098570292,
-      -84.01247182491716,
-      9.0,
-      "Taco Bell",
-      "Maryville",
-      "TN"
-    ],
     [
       "024403",
       35.96722562647426,
@@ -2096,6 +2127,15 @@
       "GA"
     ],
     [
+      "041837",
+      30.85502172223534,
+      -83.94673973321909,
+      9.0,
+      "Taco Bell",
+      "Thomasville",
+      "GA"
+    ],
+    [
       "033643",
       35.19944509346963,
       -85.16031995415683,
@@ -2117,15 +2157,6 @@
       "002167",
       33.80207381502585,
       -84.4147127866745,
-      9.0,
-      "Taco Bell",
-      "Atlanta",
-      "GA"
-    ],
-    [
-      "003668",
-      33.77267954859662,
-      -84.37298566102982,
       9.0,
       "Taco Bell",
       "Atlanta",
@@ -2157,6 +2188,15 @@
       "Taco Bell",
       "Loganville",
       "GA"
+    ],
+    [
+      "038735",
+      30.4997,
+      -88.3352,
+      9.0,
+      "Taco Bell",
+      "Grand Bay",
+      "AL"
     ],
     [
       "042903",
@@ -2205,6 +2245,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-11",
+  "last_seen_date": "2026-05-12",
   "peak_availability_pct": 1.1
 }

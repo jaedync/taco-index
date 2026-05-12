@@ -14,26 +14,26 @@
   "peak_30d_pct": 1.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:05:37.568905+00:00",
-  "availability_pct": 1.3,
+  "availability_pct": 1.2,
   "price_stats": {
     "avg": 9.0,
     "min": 9.0,
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 97
+    "store_count": 96
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 97
+      "count": 96
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 9.0,
-      "store_count": 97
+      "store_count": 96
     }
   ],
   "nutrition": {
@@ -51,6 +51,13 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
+    {
+      "store_number": "040303",
+      "name": "Taco Bell",
+      "city": "Pontiac",
+      "state": "MI",
+      "price": 9.0
+    },
     {
       "store_number": "040437",
       "name": "Taco Bell",
@@ -113,16 +120,10 @@
       "city": "Southgate",
       "state": "MI",
       "price": 9.0
-    },
-    {
-      "store_number": "034418",
-      "name": "Taco Bell",
-      "city": "Westland",
-      "state": "MI",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
+    "040303",
     "040437",
     "039704",
     "041027",
@@ -140,7 +141,6 @@
     "041828",
     "042603",
     "035306",
-    "037663",
     "001510",
     "030367",
     "029978",
@@ -174,7 +174,6 @@
     "002029",
     "003527",
     "026084",
-    "037841",
     "001557",
     "003291",
     "001469",
@@ -294,6 +293,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037841",
+      "store_name": "Taco Bell",
+      "city": "Ypsilanti",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-12T21:35:51.907713+00:00"
+    },
+    {
+      "store_number": "037663",
+      "store_name": "Taco Bell",
+      "city": "Lincoln Park",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-12T21:35:38.340545+00:00"
+    },
+    {
+      "store_number": "040303",
+      "store_name": "Taco Bell",
+      "city": "Pontiac",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-12T21:33:55.860918+00:00"
+    },
     {
       "store_number": "038975",
       "store_name": "Taco Bell",
@@ -4386,8 +4415,8 @@
     }
   ],
   "activity_summary": {
-    "added": 253,
-    "removed": 156,
+    "added": 254,
+    "removed": 158,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4433,6 +4462,15 @@
     }
   ],
   "map_data": [
+    [
+      "040303",
+      42.6773,
+      -83.2838,
+      9.0,
+      "Taco Bell",
+      "Pontiac",
+      "MI"
+    ],
     [
       "040437",
       42.839225852052095,
@@ -4584,15 +4622,6 @@
       9.0,
       "Taco Bell",
       "Brownstown",
-      "MI"
-    ],
-    [
-      "037663",
-      42.25149994869898,
-      -83.18267856558234,
-      9.0,
-      "Taco Bell",
-      "Lincoln Park",
       "MI"
     ],
     [
@@ -4890,15 +4919,6 @@
       9.0,
       "Taco Bell",
       "Berkley",
-      "MI"
-    ],
-    [
-      "037841",
-      42.230159041627104,
-      -83.64784951507943,
-      9.0,
-      "Taco Bell",
-      "Ypsilanti",
       "MI"
     ],
     [
@@ -5308,6 +5328,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-11",
+  "last_seen_date": "2026-05-12",
   "peak_availability_pct": 1.2
 }

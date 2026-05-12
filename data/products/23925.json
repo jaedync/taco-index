@@ -11,7 +11,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 7.0,
+  "peak_30d_pct": 6.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 1.6,
@@ -21,12 +21,12 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 124
+    "store_count": 125
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 124
+      "count": 125
     }
   ],
   "state_prices": [
@@ -43,7 +43,7 @@
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 34
+      "store_count": 35
     },
     {
       "state": "IN",
@@ -151,6 +151,7 @@
     "042062",
     "041987",
     "042230",
+    "040932",
     "042015",
     "034276",
     "035253",
@@ -176,7 +177,7 @@
     "039555",
     "021478",
     "017264",
-    "021275",
+    "033308",
     "003783",
     "026083",
     "030660",
@@ -210,7 +211,6 @@
     "031601",
     "030664",
     "032107",
-    "002661",
     "035405",
     "035402",
     "022447",
@@ -258,6 +258,7 @@
     "036399",
     "040529",
     "017105",
+    "015366",
     "035357",
     "001988",
     "042636",
@@ -289,6 +290,13 @@
       "store_number": "035357",
       "name": "Taco Bell",
       "city": "Warren",
+      "state": "OH",
+      "price": 4.99
+    },
+    {
+      "store_number": "015366",
+      "name": "Taco Bell",
+      "city": "Mansfield",
       "state": "OH",
       "price": 4.99
     },
@@ -326,16 +334,59 @@
       "city": "Titusville",
       "state": "PA",
       "price": 4.99
-    },
-    {
-      "store_number": "032349",
-      "name": "Taco Bell",
-      "city": "Ada",
-      "state": "OH",
-      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002661",
+      "store_name": "Taco Bell",
+      "city": "Toledo",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-12T21:37:40.300056+00:00"
+    },
+    {
+      "store_number": "015366",
+      "store_name": "Taco Bell",
+      "city": "Mansfield",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-12T21:36:13.883163+00:00"
+    },
+    {
+      "store_number": "033308",
+      "store_name": "Taco Bell",
+      "city": "Clawson",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-12T21:35:39.585813+00:00"
+    },
+    {
+      "store_number": "021275",
+      "store_name": "Taco Bell",
+      "city": "Massillon",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-12T21:35:38.772855+00:00"
+    },
+    {
+      "store_number": "040932",
+      "store_name": "Taco Bell",
+      "city": "Ravenna",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-12T21:34:30.517256+00:00"
+    },
     {
       "store_number": "033008",
       "store_name": "Taco Bell",
@@ -14728,8 +14779,8 @@
     }
   ],
   "activity_summary": {
-    "added": 782,
-    "removed": 657,
+    "added": 785,
+    "removed": 659,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14854,6 +14905,15 @@
       "Taco Bell",
       "Sanford",
       "MI"
+    ],
+    [
+      "040932",
+      41.15760986808629,
+      -81.29908210167885,
+      4.99,
+      "Taco Bell",
+      "Ravenna",
+      "OH"
     ],
     [
       "042015",
@@ -15081,13 +15141,13 @@
       "OH"
     ],
     [
-      "021275",
-      40.800197723109484,
-      -81.5114226937294,
+      "033308",
+      42.53188172228296,
+      -83.16505417227751,
       4.99,
       "Taco Bell",
-      "Massillon",
-      "OH"
+      "Clawson",
+      "MI"
     ],
     [
       "003783",
@@ -15385,15 +15445,6 @@
       "Taco Bell",
       "Watervliet",
       "MI"
-    ],
-    [
-      "002661",
-      41.649241660105076,
-      -83.52161072200033,
-      4.99,
-      "Taco Bell",
-      "Toledo",
-      "OH"
     ],
     [
       "035405",
@@ -15819,6 +15870,15 @@
       "MI"
     ],
     [
+      "015366",
+      40.77450493443725,
+      -82.47799165082597,
+      4.99,
+      "Taco Bell",
+      "Mansfield",
+      "OH"
+    ],
+    [
       "035357",
       41.23444575262552,
       -80.8121708035469,
@@ -15856,6 +15916,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-11",
+  "last_seen_date": "2026-05-12",
   "peak_availability_pct": 7.0
 }

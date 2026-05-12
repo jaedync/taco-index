@@ -20,12 +20,12 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 313
+    "store_count": 314
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 313
+      "count": 314
     }
   ],
   "state_prices": [
@@ -37,7 +37,7 @@
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 185
+      "store_count": 186
     },
     {
       "state": "IN",
@@ -444,9 +444,17 @@
     "042230",
     "040006",
     "041687",
-    "033316"
+    "033316",
+    "038975"
   ],
   "priciest_stores": [
+    {
+      "store_number": "038975",
+      "name": "Taco Bell",
+      "city": "Pontiac",
+      "state": "MI",
+      "price": 4.99
+    },
     {
       "store_number": "033316",
       "name": "Taco Bell",
@@ -509,16 +517,19 @@
       "city": "Sault Sainte Marie",
       "state": "MI",
       "price": 4.99
-    },
-    {
-      "store_number": "017105",
-      "name": "Taco Bell",
-      "city": "Garden City",
-      "state": "MI",
-      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038975",
+      "store_name": "Taco Bell",
+      "city": "Pontiac",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-12T21:35:39.048999+00:00"
+    },
     {
       "store_number": "033316",
       "store_name": "Taco Bell",
@@ -4191,7 +4202,7 @@
     }
   ],
   "activity_summary": {
-    "added": 340,
+    "added": 341,
     "removed": 27,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -7017,9 +7028,18 @@
       "Taco Bell",
       "Lake Orion",
       "MI"
+    ],
+    [
+      "038975",
+      42.62029219023837,
+      -83.2493157684803,
+      4.99,
+      "Taco Bell",
+      "Pontiac",
+      "MI"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-11",
+  "last_seen_date": "2026-05-12",
   "peak_availability_pct": 3.8
 }

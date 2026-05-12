@@ -13,14 +13,14 @@
   "peak_30d_pct": 41.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 44.7,
+  "availability_pct": 44.8,
   "price_stats": {
     "avg": 5.12,
     "min": 2.99,
     "max": 7.39,
     "median": 4.99,
     "std_dev": 0.61,
-    "store_count": 3447
+    "store_count": 3451
   },
   "histogram": [
     {
@@ -65,15 +65,15 @@
     },
     {
       "bucket": "$4.39",
-      "count": 57
+      "count": 58
     },
     {
       "bucket": "$4.49",
-      "count": 47
+      "count": 46
     },
     {
       "bucket": "$4.59",
-      "count": 101
+      "count": 102
     },
     {
       "bucket": "$4.69",
@@ -101,11 +101,15 @@
     },
     {
       "bucket": "$5.29",
-      "count": 53
+      "count": 54
     },
     {
       "bucket": "$5.39",
-      "count": 258
+      "count": 259
+    },
+    {
+      "bucket": "$5.48",
+      "count": 1
     },
     {
       "bucket": "$5.49",
@@ -209,8 +213,8 @@
     },
     {
       "state": "MT",
-      "avg_price": 5.84,
-      "store_count": 26
+      "avg_price": 5.82,
+      "store_count": 27
     },
     {
       "state": "WA",
@@ -248,14 +252,14 @@
       "store_count": 114
     },
     {
+      "state": "OR",
+      "avg_price": 5.19,
+      "store_count": 111
+    },
+    {
       "state": "MA",
       "avg_price": 5.18,
       "store_count": 30
-    },
-    {
-      "state": "OR",
-      "avg_price": 5.18,
-      "store_count": 112
     },
     {
       "state": "TN",
@@ -275,12 +279,12 @@
     {
       "state": "CO",
       "avg_price": 5.05,
-      "store_count": 117
+      "store_count": 118
     },
     {
       "state": "ID",
-      "avg_price": 5.04,
-      "store_count": 33
+      "avg_price": 5.03,
+      "store_count": 34
     },
     {
       "state": "TX",
@@ -303,14 +307,14 @@
       "store_count": 63
     },
     {
-      "state": "KY",
-      "avg_price": 4.93,
-      "store_count": 34
-    },
-    {
       "state": "OH",
       "avg_price": 4.92,
       "store_count": 204
+    },
+    {
+      "state": "KY",
+      "avg_price": 4.92,
+      "store_count": 35
     },
     {
       "state": "KS",
@@ -365,7 +369,7 @@
     {
       "state": "AZ",
       "avg_price": 4.61,
-      "store_count": 176
+      "store_count": 177
     },
     {
       "state": "WI",
@@ -566,6 +570,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043047",
+      "store_name": "Taco Bell",
+      "city": "London",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.39,
+      "observed_at": "2026-05-12T21:41:41.394238+00:00"
+    },
+    {
+      "store_number": "042680",
+      "store_name": "Taco Bell Cantina",
+      "city": "Denver",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.48,
+      "observed_at": "2026-05-12T21:41:41.367736+00:00"
+    },
+    {
+      "store_number": "038934",
+      "store_name": "Taco Bell",
+      "city": "Laurel",
+      "state": "MT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.29,
+      "observed_at": "2026-05-12T21:41:14.258148+00:00"
+    },
+    {
+      "store_number": "037554",
+      "store_name": "Taco Bell",
+      "city": "Phoenix",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.39,
+      "observed_at": "2026-05-12T21:40:57.249794+00:00"
+    },
+    {
+      "store_number": "004897",
+      "store_name": "Taco Bell",
+      "city": "Keizer",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-05-12T21:38:46.395728+00:00"
+    },
+    {
+      "store_number": "017387",
+      "store_name": "Taco Bell",
+      "city": "Boise",
+      "state": "ID",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.59,
+      "observed_at": "2026-05-12T21:37:39.755734+00:00"
+    },
     {
       "store_number": "031444",
       "store_name": "Taco Bell",
@@ -5208,8 +5272,8 @@
     }
   ],
   "activity_summary": {
-    "added": 197,
-    "removed": 168,
+    "added": 202,
+    "removed": 169,
     "price_changed": 99,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8900,6 +8964,15 @@
       "OH"
     ],
     [
+      "043047",
+      37.10469,
+      -84.07049,
+      4.39,
+      "Taco Bell",
+      "London",
+      "KY"
+    ],
+    [
       "041855",
       38.3358857,
       -90.14983409999999,
@@ -9077,15 +9150,6 @@
       4.49,
       "Taco Bell",
       "Bend",
-      "OR"
-    ],
-    [
-      "004897",
-      44.991772166209536,
-      -123.02605567267165,
-      4.49,
-      "Taco Bell",
-      "Keizer",
       "OR"
     ],
     [
@@ -9690,6 +9754,15 @@
       "Taco Bell",
       "Columbia",
       "MD"
+    ],
+    [
+      "017387",
+      43.590403851490976,
+      -116.26969112271021,
+      4.59,
+      "Taco Bell",
+      "Boise",
+      "ID"
     ],
     [
       "035405",
@@ -24029,6 +24102,15 @@
       "KS"
     ],
     [
+      "038934",
+      45.66557940213695,
+      -108.77058416604996,
+      5.29,
+      "Taco Bell",
+      "Laurel",
+      "MT"
+    ],
+    [
       "026082",
       40.33419402644115,
       -94.87341780962197,
@@ -26027,6 +26109,15 @@
       "KS"
     ],
     [
+      "037554",
+      33.52345549183523,
+      -112.04919814796335,
+      5.39,
+      "Taco Bell",
+      "Phoenix",
+      "AZ"
+    ],
+    [
       "034386",
       38.858548,
       -94.816696,
@@ -26403,6 +26494,15 @@
       "Taco Bell",
       "South Haven",
       "MI"
+    ],
+    [
+      "042680",
+      39.8539099434,
+      -104.6714456628,
+      5.48,
+      "Taco Bell Cantina",
+      "Denver",
+      "CO"
     ],
     [
       "035849",

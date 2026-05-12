@@ -21,8 +21,8 @@
     "min": 2.99,
     "max": 4.99,
     "median": 3.59,
-    "std_dev": 0.24,
-    "store_count": 54
+    "std_dev": 0.25,
+    "store_count": 53
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$3.49",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$3.59",
@@ -53,8 +53,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 3.69,
-      "store_count": 53
+      "avg_price": 3.7,
+      "store_count": 52
     }
   ],
   "nutrition": {
@@ -108,13 +108,6 @@
       "price": 3.49
     },
     {
-      "store_number": "042579",
-      "name": "Taco Bell",
-      "city": "Braselton",
-      "state": "GA",
-      "price": 3.49
-    },
-    {
       "store_number": "040929",
       "name": "Taco Bell",
       "city": "Greensboro",
@@ -139,6 +132,13 @@
       "store_number": "042575",
       "name": "Taco Bell",
       "city": "Cartersville",
+      "state": "GA",
+      "price": 3.59
+    },
+    {
+      "store_number": "042581",
+      "name": "Taco Bell",
+      "city": "Canton",
       "state": "GA",
       "price": 3.59
     }
@@ -219,6 +219,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042579",
+      "store_name": "Taco Bell",
+      "city": "Braselton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-05-12T21:41:35.655651+00:00"
+    },
     {
       "store_number": "036011",
       "store_name": "Taco Bell",
@@ -802,7 +812,7 @@
   ],
   "activity_summary": {
     "added": 5,
-    "removed": 6,
+    "removed": 7,
     "price_changed": 47,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -854,15 +864,6 @@
       3.49,
       "Taco Bell",
       "Gainesville",
-      "GA"
-    ],
-    [
-      "042579",
-      34.12164984277345,
-      -83.764132739823,
-      3.49,
-      "Taco Bell",
-      "Braselton",
       "GA"
     ],
     [
