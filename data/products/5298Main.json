@@ -12,25 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0371,
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 4.36,
-    "min": 2.0,
+    "avg": 4.57,
+    "min": 4.19,
     "max": 4.99,
     "median": 4.19,
-    "std_dev": 0.86,
+    "std_dev": 0.41,
     "store_count": 32
   },
   "histogram": [
     {
-      "bucket": "$2.00",
-      "count": 3
-    },
-    {
       "bucket": "$4.19",
-      "count": 14
+      "count": 17
     },
     {
       "bucket": "$4.99",
@@ -45,7 +41,7 @@
     },
     {
       "state": "TX",
-      "avg_price": 3.75,
+      "avg_price": 4.19,
       "store_count": 15
     }
   ],
@@ -69,21 +65,7 @@
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Houston",
       "state": "TX",
-      "price": 2.0
-    },
-    {
-      "store_number": "002851",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Humble",
-      "state": "TX",
-      "price": 2.0
-    },
-    {
-      "store_number": "026050",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "La Porte",
-      "state": "TX",
-      "price": 2.0
+      "price": 4.19
     },
     {
       "store_number": "022811",
@@ -114,6 +96,20 @@
       "price": 4.19
     },
     {
+      "store_number": "002851",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Humble",
+      "state": "TX",
+      "price": 4.19
+    },
+    {
+      "store_number": "026050",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "La Porte",
+      "state": "TX",
+      "price": 4.19
+    },
+    {
       "store_number": "002981",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Watauga",
@@ -137,8 +133,22 @@
   ],
   "min_price_store_numbers": [
     "009406",
+    "022811",
+    "024393",
+    "021176",
+    "002689",
     "002851",
-    "026050"
+    "026050",
+    "002981",
+    "001089",
+    "027669",
+    "027505",
+    "021196",
+    "001331",
+    "016276",
+    "027489",
+    "027416",
+    "021422"
   ],
   "priciest_stores": [
     {
@@ -213,6 +223,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026050",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "La Porte",
+      "state": "TX",
+      "change_type": "price_change",
+      "old_price": 2.0,
+      "new_price": 4.19,
+      "observed_at": "2026-05-13T21:41:39.305554+00:00"
+    },
+    {
+      "store_number": "002851",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Humble",
+      "state": "TX",
+      "change_type": "price_change",
+      "old_price": 2.0,
+      "new_price": 4.19,
+      "observed_at": "2026-05-13T21:41:38.534061+00:00"
+    },
+    {
+      "store_number": "009406",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "price_change",
+      "old_price": 2.0,
+      "new_price": 4.19,
+      "observed_at": "2026-05-13T21:31:33.434623+00:00"
+    },
     {
       "store_number": "041617",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -327,7 +367,7 @@
   "activity_summary": {
     "added": 3,
     "removed": 8,
-    "price_changed": 0,
+    "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 0,
@@ -339,27 +379,9 @@
       "009406",
       29.79106516817246,
       -95.71860010921853,
-      2.0,
+      4.19,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Houston",
-      "TX"
-    ],
-    [
-      "002851",
-      29.9977979971997,
-      -95.16799039678068,
-      2.0,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Humble",
-      "TX"
-    ],
-    [
-      "026050",
-      29.664543899716055,
-      -95.09931559861116,
-      2.0,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "La Porte",
       "TX"
     ],
     [
@@ -396,6 +418,24 @@
       4.19,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Deer Park",
+      "TX"
+    ],
+    [
+      "002851",
+      29.9977979971997,
+      -95.16799039678068,
+      4.19,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Humble",
+      "TX"
+    ],
+    [
+      "026050",
+      29.664543899716055,
+      -95.09931559861116,
+      4.19,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "La Porte",
       "TX"
     ],
     [
@@ -638,8 +678,8 @@
     },
     {
       "size": "SMALL",
-      "avg_price": 4.4,
-      "min_price": 2.0,
+      "avg_price": 4.57,
+      "min_price": 4.19,
       "max_price": 4.99,
       "calories": 680,
       "happier_hour_avg": null

@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 3.5,
+    "avg": 3.52,
     "min": 3.19,
     "max": 3.79,
-    "median": 3.49,
-    "std_dev": 0.24,
+    "median": 3.59,
+    "std_dev": 0.23,
     "store_count": 27
   },
   "histogram": [
     {
       "bucket": "$3.19",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$3.29",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$3.69",
@@ -87,13 +87,6 @@
       "name": "Taco Bell / KFC",
       "city": "Rosenberg",
       "state": "TX",
-      "price": 3.19
-    },
-    {
-      "store_number": "031389",
-      "name": "Taco Bell / KFC",
-      "city": "Locust Grove",
-      "state": "GA",
       "price": 3.19
     },
     {
@@ -144,12 +137,18 @@
       "city": "Ithaca",
       "state": "MI",
       "price": 3.29
+    },
+    {
+      "store_number": "020974",
+      "name": "Taco Bell / KFC",
+      "city": "King George",
+      "state": "VA",
+      "price": 3.39
     }
   ],
   "min_price_store_numbers": [
     "035717",
     "035718",
-    "031389",
     "041362",
     "041370"
   ],
@@ -226,6 +225,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031389",
+      "store_name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.19,
+      "new_price": 3.59,
+      "observed_at": "2026-05-13T21:45:02.161196+00:00"
+    },
     {
       "store_number": "029406",
       "store_name": "Taco Bell",
@@ -700,7 +709,7 @@
   "activity_summary": {
     "added": 37,
     "removed": 10,
-    "price_changed": 0,
+    "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 60,
@@ -738,15 +747,6 @@
       "Taco Bell / KFC",
       "Rosenberg",
       "TX"
-    ],
-    [
-      "031389",
-      33.352032936024656,
-      -84.120770439522,
-      3.19,
-      "Taco Bell / KFC",
-      "Locust Grove",
-      "GA"
     ],
     [
       "041362",
@@ -875,6 +875,15 @@
       "NM"
     ],
     [
+      "031389",
+      33.352032936024656,
+      -84.120770439522,
+      3.59,
+      "Taco Bell / KFC",
+      "Locust Grove",
+      "GA"
+    ],
+    [
       "017415",
       35.00966699999999,
       -106.06256782209016,
@@ -966,6 +975,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-12",
+  "last_seen_date": "2026-05-13",
   "peak_availability_pct": 0.3
 }

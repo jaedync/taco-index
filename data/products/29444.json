@@ -20,8 +20,8 @@
     "min": 0.0,
     "max": 11.99,
     "median": 10.99,
-    "std_dev": 1.72,
-    "store_count": 46
+    "std_dev": 1.7,
+    "store_count": 47
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 33
+      "count": 34
     },
     {
       "bucket": "$11.99",
@@ -40,8 +40,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 11.26,
-      "store_count": 45
+      "avg_price": 11.25,
+      "store_count": 46
     }
   ],
   "nutrition": null,
@@ -129,6 +129,13 @@
       "price": 11.99
     },
     {
+      "store_number": "042579",
+      "name": "Taco Bell",
+      "city": "Braselton",
+      "state": "GA",
+      "price": 11.99
+    },
+    {
       "store_number": "042573",
       "name": "Taco Bell",
       "city": "Gainesville",
@@ -146,13 +153,6 @@
       "store_number": "042574",
       "name": "Taco Bell",
       "city": "Dallas",
-      "state": "GA",
-      "price": 11.99
-    },
-    {
-      "store_number": "042572",
-      "name": "Taco Bell",
-      "city": "Fairburn",
       "state": "GA",
       "price": 11.99
     },
@@ -193,6 +193,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042579",
+      "store_name": "Taco Bell",
+      "city": "Braselton",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-05-13T22:09:00.357134+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-13T21:45:12.061236+00:00"
+    },
+    {
+      "store_number": "042572",
+      "store_name": "Taco Bell",
+      "city": "Fairburn",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-13T21:42:18.777567+00:00"
+    },
     {
       "store_number": "042579",
       "store_name": "Taco Bell",
@@ -935,8 +965,8 @@
     }
   ],
   "activity_summary": {
-    "added": 60,
-    "removed": 14,
+    "added": 62,
+    "removed": 15,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1154,6 +1184,15 @@
       "GA"
     ],
     [
+      "002995",
+      33.88866329031674,
+      -84.47492127122132,
+      10.99,
+      "Taco Bell",
+      "Smyrna",
+      "GA"
+    ],
+    [
       "023238",
       33.624919000000006,
       -83.97712250429907,
@@ -1352,15 +1391,6 @@
       "GA"
     ],
     [
-      "042572",
-      33.53980644411624,
-      -84.57611403902706,
-      11.99,
-      "Taco Bell",
-      "Fairburn",
-      "GA"
-    ],
-    [
       "042574",
       33.910308019300345,
       -84.82438392472432,
@@ -1388,6 +1418,15 @@
       "GA"
     ],
     [
+      "042579",
+      34.12164984277345,
+      -83.764132739823,
+      11.99,
+      "Taco Bell",
+      "Braselton",
+      "GA"
+    ],
+    [
       "042585",
       34.01047868053667,
       -84.7536712245369,
@@ -1398,6 +1437,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-12",
+  "last_seen_date": "2026-05-13",
   "peak_availability_pct": 0.6
 }

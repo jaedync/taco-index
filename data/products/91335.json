@@ -22,16 +22,16 @@
     "max": 3.99,
     "median": 2.79,
     "std_dev": 0.1,
-    "store_count": 477
+    "store_count": 479
   },
   "histogram": [
     {
       "bucket": "$2.79",
-      "count": 464
+      "count": 465
     },
     {
       "bucket": "$2.99",
-      "count": 9
+      "count": 10
     },
     {
       "bucket": "$3.49",
@@ -45,8 +45,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 2.85,
-      "store_count": 32
+      "avg_price": 2.84,
+      "store_count": 33
     },
     {
       "state": "GA",
@@ -66,7 +66,7 @@
     {
       "state": "AL",
       "avg_price": 2.79,
-      "store_count": 116
+      "store_count": 117
     }
   ],
   "nutrition": {
@@ -282,6 +282,7 @@
     "029064",
     "030296",
     "029120",
+    "029153",
     "029114",
     "017019",
     "029115",
@@ -465,7 +466,6 @@
     "032206",
     "041802",
     "039933",
-    "031389",
     "043130",
     "030272",
     "004531",
@@ -619,7 +619,8 @@
     "042903",
     "041246",
     "042129",
-    "002863"
+    "002863",
+    "002163"
   ],
   "priciest_stores": [
     {
@@ -672,6 +673,13 @@
       "price": 2.99
     },
     {
+      "store_number": "031389",
+      "name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "price": 2.99
+    },
+    {
       "store_number": "004185",
       "name": "Taco Bell",
       "city": "Panama City",
@@ -684,16 +692,39 @@
       "city": "Panama City Beach",
       "state": "FL",
       "price": 2.99
-    },
-    {
-      "store_number": "004170",
-      "name": "Taco Bell",
-      "city": "Milton",
-      "state": "FL",
-      "price": 2.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002163",
+      "store_name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-13T21:48:47.610559+00:00"
+    },
+    {
+      "store_number": "031389",
+      "store_name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 2.79,
+      "new_price": 2.99,
+      "observed_at": "2026-05-13T21:45:02.161196+00:00"
+    },
+    {
+      "store_number": "029153",
+      "store_name": "Taco Bell",
+      "city": "Hoover",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-13T21:31:33.690452+00:00"
+    },
     {
       "store_number": "041255",
       "store_name": "Taco Bell",
@@ -6326,9 +6357,9 @@
     }
   ],
   "activity_summary": {
-    "added": 520,
+    "added": 522,
     "removed": 43,
-    "price_changed": 0,
+    "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 480,
@@ -7468,6 +7499,15 @@
       2.79,
       "Taco Bell",
       "Leeds",
+      "AL"
+    ],
+    [
+      "029153",
+      33.37553645889424,
+      -86.80206133982665,
+      2.79,
+      "Taco Bell",
+      "Hoover",
       "AL"
     ],
     [
@@ -9118,15 +9158,6 @@
       "GA"
     ],
     [
-      "031389",
-      33.352032936024656,
-      -84.120770439522,
-      2.79,
-      "Taco Bell / KFC",
-      "Locust Grove",
-      "GA"
-    ],
-    [
       "043130",
       33.41227235483598,
       -82.02532054354764,
@@ -10513,6 +10544,15 @@
       "NC"
     ],
     [
+      "002163",
+      28.004325020857483,
+      -81.73122969587502,
+      2.79,
+      "Taco Bell",
+      "Winter Haven",
+      "FL"
+    ],
+    [
       "035070",
       30.5990890797966,
       -87.16322283975093,
@@ -10565,6 +10605,15 @@
       "Taco Bell",
       "Panama City",
       "FL"
+    ],
+    [
+      "031389",
+      33.352032936024656,
+      -84.120770439522,
+      2.99,
+      "Taco Bell / KFC",
+      "Locust Grove",
+      "GA"
     ],
     [
       "003874",
@@ -10631,6 +10680,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-12",
+  "last_seen_date": "2026-05-13",
   "peak_availability_pct": 5.9
 }

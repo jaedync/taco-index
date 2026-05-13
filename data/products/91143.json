@@ -15,14 +15,18 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 6.4,
   "price_stats": {
-    "avg": 9.94,
-    "min": 7.99,
+    "avg": 9.93,
+    "min": 5.99,
     "max": 11.39,
     "median": 9.99,
-    "std_dev": 0.58,
-    "store_count": 493
+    "std_dev": 0.6,
+    "store_count": 494
   },
   "histogram": [
+    {
+      "bucket": "$5.99",
+      "count": 1
+    },
     {
       "bucket": "$7.99",
       "count": 3
@@ -131,12 +135,19 @@
     },
     {
       "state": "FL",
-      "avg_price": 9.57,
-      "store_count": 32
+      "avg_price": 9.46,
+      "store_count": 33
     }
   ],
   "nutrition": null,
   "cheapest_stores": [
+    {
+      "store_number": "002163",
+      "name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
+      "price": 5.99
+    },
     {
       "store_number": "034808",
       "name": "Taco Bell",
@@ -199,19 +210,10 @@
       "city": "Lawrenceville",
       "state": "GA",
       "price": 8.69
-    },
-    {
-      "store_number": "033933",
-      "name": "Taco Bell",
-      "city": "Fort Valley",
-      "state": "GA",
-      "price": 8.69
     }
   ],
   "min_price_store_numbers": [
-    "034808",
-    "022073",
-    "019753"
+    "002163"
   ],
   "priciest_stores": [
     {
@@ -286,6 +288,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002163",
+      "store_name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-13T21:48:47.610559+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-05-13T21:45:12.061236+00:00"
+    },
+    {
+      "store_number": "037332",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-13T21:24:31.200414+00:00"
+    },
     {
       "store_number": "033470",
       "store_name": "Taco Bell",
@@ -8388,8 +8420,8 @@
     }
   ],
   "activity_summary": {
-    "added": 500,
-    "removed": 7,
+    "added": 502,
+    "removed": 8,
     "price_changed": 303,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8417,6 +8449,15 @@
     }
   ],
   "map_data": [
+    [
+      "002163",
+      28.004325020857483,
+      -81.73122969587502,
+      5.99,
+      "Taco Bell",
+      "Winter Haven",
+      "FL"
+    ],
     [
       "034808",
       30.22636410542137,
@@ -10551,15 +10592,6 @@
       "AL"
     ],
     [
-      "037332",
-      33.72820549105344,
-      -84.57252377913323,
-      9.99,
-      "Taco Bell",
-      "Atlanta",
-      "GA"
-    ],
-    [
       "037341",
       33.30176426190872,
       -87.57140720141786,
@@ -11430,6 +11462,15 @@
       9.99,
       "Taco Bell",
       "Cumming",
+      "GA"
+    ],
+    [
+      "002995",
+      33.88866329031674,
+      -84.47492127122132,
+      9.99,
+      "Taco Bell",
+      "Smyrna",
       "GA"
     ],
     [
@@ -12856,6 +12897,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-12",
+  "last_seen_date": "2026-05-13",
   "peak_availability_pct": 6.0
 }

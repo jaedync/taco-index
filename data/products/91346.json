@@ -14,23 +14,23 @@
   "peak_30d_pct": 6.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:05:37.526671+00:00",
-  "availability_pct": 6.2,
+  "availability_pct": 6.3,
   "price_stats": {
-    "avg": 9.19,
+    "avg": 9.17,
     "min": 0.0,
     "max": 12.99,
     "median": 9.0,
-    "std_dev": 0.74,
-    "store_count": 481
+    "std_dev": 0.84,
+    "store_count": 485
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$9.00",
-      "count": 412
+      "count": 415
     },
     {
       "bucket": "$9.49",
@@ -60,19 +60,19 @@
       "store_count": 8
     },
     {
-      "state": "FL",
-      "avg_price": 9.36,
-      "store_count": 32
-    },
-    {
       "state": "GA",
       "avg_price": 9.31,
-      "store_count": 234
+      "store_count": 237
     },
     {
       "state": "AL",
       "avg_price": 9.1,
       "store_count": 118
+    },
+    {
+      "state": "FL",
+      "avg_price": 9.07,
+      "store_count": 33
     },
     {
       "state": "TN",
@@ -100,6 +100,13 @@
       "name": "Taco Bell",
       "city": "Charlotte",
       "state": "NC",
+      "price": 0.0
+    },
+    {
+      "store_number": "002163",
+      "name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
       "price": 0.0
     },
     {
@@ -157,17 +164,11 @@
       "city": "Auburn",
       "state": "AL",
       "price": 9.0
-    },
-    {
-      "store_number": "041188",
-      "name": "Taco Bell",
-      "city": "Dothan",
-      "state": "AL",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
-    "002863"
+    "002863",
+    "002163"
   ],
   "priciest_stores": [
     {
@@ -242,6 +243,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033348",
+      "store_name": "Taco Bell",
+      "city": "Albany",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-13T22:08:59.107071+00:00"
+    },
+    {
+      "store_number": "002163",
+      "store_name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-13T21:48:47.610559+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-13T21:45:12.061236+00:00"
+    },
+    {
+      "store_number": "003668",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-13T21:43:58.705598+00:00"
+    },
     {
       "store_number": "033470",
       "store_name": "Taco Bell",
@@ -15604,7 +15645,7 @@
     }
   ],
   "activity_summary": {
-    "added": 1006,
+    "added": 1010,
     "removed": 525,
     "price_changed": 5,
     "since": "2026-03-31T00:00:00+00:00"
@@ -15653,6 +15694,15 @@
       "Taco Bell",
       "Charlotte",
       "NC"
+    ],
+    [
+      "002163",
+      28.004325020857483,
+      -81.73122969587502,
+      0.0,
+      "Taco Bell",
+      "Winter Haven",
+      "FL"
     ],
     [
       "040910",
@@ -17878,6 +17928,15 @@
       "GA"
     ],
     [
+      "003668",
+      33.77267954859662,
+      -84.37298566102982,
+      9.0,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
+    ],
+    [
       "041233",
       34.094494431212155,
       -84.00964147877858,
@@ -18334,6 +18393,15 @@
       9.0,
       "Taco Bell",
       "Savannah",
+      "GA"
+    ],
+    [
+      "002995",
+      33.88866329031674,
+      -84.47492127122132,
+      9.0,
+      "Taco Bell",
+      "Smyrna",
       "GA"
     ],
     [
@@ -19219,6 +19287,15 @@
       "GA"
     ],
     [
+      "033348",
+      31.608568026873176,
+      -84.21019037591977,
+      9.0,
+      "Taco Bell",
+      "Albany",
+      "GA"
+    ],
+    [
       "041839",
       30.209777100072273,
       -84.36565016453422,
@@ -19976,6 +20053,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-12",
+  "last_seen_date": "2026-05-13",
   "peak_availability_pct": 6.0
 }

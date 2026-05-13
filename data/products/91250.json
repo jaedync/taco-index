@@ -15,14 +15,14 @@
   "peak_30d_pct": 6.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 6.4,
+  "availability_pct": 6.5,
   "price_stats": {
     "avg": 1.63,
     "min": 1.19,
     "max": 2.99,
     "median": 1.59,
     "std_dev": 0.22,
-    "store_count": 497
+    "store_count": 498
   },
   "histogram": [
     {
@@ -39,7 +39,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 91
+      "count": 92
     },
     {
       "bucket": "$1.59",
@@ -59,7 +59,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 10
+      "count": 9
     },
     {
       "bucket": "$2.19",
@@ -71,6 +71,10 @@
     },
     {
       "bucket": "$2.49",
+      "count": 1
+    },
+    {
+      "bucket": "$2.59",
       "count": 1
     },
     {
@@ -106,7 +110,7 @@
     {
       "state": "FL",
       "avg_price": 1.47,
-      "store_count": 32
+      "store_count": 33
     }
   ],
   "nutrition": {
@@ -232,6 +236,13 @@
       "price": 2.79
     },
     {
+      "store_number": "031389",
+      "name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "price": 2.59
+    },
+    {
       "store_number": "032542",
       "name": "Taco Bell",
       "city": "Hardeeville",
@@ -265,16 +276,29 @@
       "city": "Clarkesville",
       "state": "GA",
       "price": 2.29
-    },
-    {
-      "store_number": "042582",
-      "name": "Taco Bell",
-      "city": "Dacula",
-      "state": "GA",
-      "price": 2.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002163",
+      "store_name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-05-13T21:48:47.610559+00:00"
+    },
+    {
+      "store_number": "031389",
+      "store_name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 2.59,
+      "observed_at": "2026-05-13T21:45:02.161196+00:00"
+    },
     {
       "store_number": "039923",
       "store_name": "Taco Bell",
@@ -5407,9 +5431,9 @@
     }
   ],
   "activity_summary": {
-    "added": 502,
+    "added": 503,
     "removed": 5,
-    "price_changed": 6,
+    "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 400,
@@ -6703,6 +6727,15 @@
       "Taco Bell",
       "Charlotte",
       "NC"
+    ],
+    [
+      "002163",
+      28.004325020857483,
+      -81.73122969587502,
+      1.49,
+      "Taco Bell",
+      "Winter Haven",
+      "FL"
     ],
     [
       "037020",
@@ -9666,15 +9699,6 @@
       "FL"
     ],
     [
-      "031389",
-      33.352032936024656,
-      -84.120770439522,
-      1.99,
-      "Taco Bell / KFC",
-      "Locust Grove",
-      "GA"
-    ],
-    [
       "003874",
       30.73358597166225,
       -86.565745715733,
@@ -9855,6 +9879,15 @@
       "SC"
     ],
     [
+      "031389",
+      33.352032936024656,
+      -84.120770439522,
+      2.59,
+      "Taco Bell / KFC",
+      "Locust Grove",
+      "GA"
+    ],
+    [
       "032055",
       34.0647052,
       -83.9841147,
@@ -9892,6 +9925,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-12",
+  "last_seen_date": "2026-05-13",
   "peak_availability_pct": 6.0
 }

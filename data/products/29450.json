@@ -16,12 +16,12 @@
   "first_seen_at": "2026-04-17T20:59:09.048162+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 11.86,
+    "avg": 11.85,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.82,
-    "store_count": 30
+    "std_dev": 0.83,
+    "store_count": 29
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$11.99",
-      "count": 16
+      "count": 15
     },
     {
       "bucket": "$12.99",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 11.89,
-      "store_count": 10
+      "avg_price": 11.88,
+      "store_count": 9
     }
   ],
   "nutrition": null,
@@ -191,21 +191,31 @@
       "price": 11.99
     },
     {
-      "store_number": "029411",
-      "name": "Taco Bell",
-      "city": "Benson",
-      "state": "NC",
-      "price": 11.99
-    },
-    {
       "store_number": "017415",
       "name": "Taco Bell / KFC",
       "city": "Moriarty",
       "state": "NM",
       "price": 11.99
+    },
+    {
+      "store_number": "004173",
+      "name": "Taco Bell / KFC",
+      "city": "Albuquerque",
+      "state": "NM",
+      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029411",
+      "store_name": "Taco Bell",
+      "city": "Benson",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-13T21:57:21.730225+00:00"
+    },
     {
       "store_number": "030424",
       "store_name": "Taco Bell / KFC",
@@ -729,7 +739,7 @@
   ],
   "activity_summary": {
     "added": 41,
-    "removed": 11,
+    "removed": 12,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -971,15 +981,6 @@
       "NM"
     ],
     [
-      "029411",
-      35.51703677474721,
-      -78.56191411658494,
-      11.99,
-      "Taco Bell",
-      "Benson",
-      "NC"
-    ],
-    [
       "029412",
       35.919901991392784,
       -78.95752345027176,
@@ -1053,6 +1054,6 @@
     ]
   ],
   "retired_at": "2026-04-18T22:12:40.299660+00:00",
-  "last_seen_date": "2026-05-12",
+  "last_seen_date": "2026-05-13",
   "peak_availability_pct": 0.4
 }

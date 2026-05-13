@@ -20,12 +20,12 @@
     "max": 0.99,
     "median": 0.6,
     "std_dev": 0.14,
-    "store_count": 493
+    "store_count": 494
   },
   "histogram": [
     {
       "bucket": "$0.20",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$0.30",
@@ -104,14 +104,14 @@
       "store_count": 121
     },
     {
-      "state": "FL",
-      "avg_price": 0.6,
-      "store_count": 32
-    },
-    {
       "state": "GA",
       "avg_price": 0.59,
       "store_count": 239
+    },
+    {
+      "state": "FL",
+      "avg_price": 0.58,
+      "store_count": 33
     },
     {
       "state": "SC",
@@ -163,6 +163,13 @@
       "price": 0.2
     },
     {
+      "store_number": "002163",
+      "name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
+      "price": 0.2
+    },
+    {
       "store_number": "032542",
       "name": "Taco Bell",
       "city": "Hardeeville",
@@ -196,20 +203,14 @@
       "city": "Statesboro",
       "state": "GA",
       "price": 0.3
-    },
-    {
-      "store_number": "002994",
-      "name": "Taco Bell",
-      "city": "Sandy Springs",
-      "state": "GA",
-      "price": 0.3
     }
   ],
   "min_price_store_numbers": [
     "035070",
     "009539",
     "004170",
-    "003874"
+    "003874",
+    "002163"
   ],
   "priciest_stores": [
     {
@@ -284,6 +285,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002163",
+      "store_name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-05-13T21:48:47.610559+00:00"
+    },
     {
       "store_number": "041231",
       "store_name": "Taco Bell",
@@ -5376,7 +5387,7 @@
     }
   ],
   "activity_summary": {
-    "added": 500,
+    "added": 501,
     "removed": 7,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
@@ -5420,6 +5431,15 @@
       0.2,
       "Taco Bell",
       "Crestview",
+      "FL"
+    ],
+    [
+      "002163",
+      28.004325020857483,
+      -81.73122969587502,
+      0.2,
+      "Taco Bell",
+      "Winter Haven",
       "FL"
     ],
     [
@@ -9825,6 +9845,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-12",
+  "last_seen_date": "2026-05-13",
   "peak_availability_pct": 6.0
 }

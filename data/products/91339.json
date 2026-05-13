@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:04.043083+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.39,
+    "avg": 5.4,
     "min": 4.99,
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.2,
-    "store_count": 21
+    "store_count": 22
   },
   "histogram": [
     {
@@ -30,14 +30,14 @@
     },
     {
       "bucket": "$5.49",
-      "count": 17
+      "count": 18
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 5.4,
-      "store_count": 11
+      "avg_price": 5.41,
+      "store_count": 12
     },
     {
       "state": "AL",
@@ -139,6 +139,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "016289",
+      "name": "Taco Bell",
+      "city": "College Park",
+      "state": "GA",
+      "price": 5.49
+    },
+    {
       "store_number": "039939",
       "name": "Taco Bell",
       "city": "McDonough",
@@ -200,16 +207,19 @@
       "city": "Atlanta",
       "state": "GA",
       "price": 5.49
-    },
-    {
-      "store_number": "042958",
-      "name": "Taco Bell",
-      "city": "Toccoa",
-      "state": "GA",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016289",
+      "store_name": "Taco Bell",
+      "city": "College Park",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-05-13T21:43:26.311454+00:00"
+    },
     {
       "store_number": "041154",
       "store_name": "Taco Bell",
@@ -1102,7 +1112,7 @@
     }
   ],
   "activity_summary": {
-    "added": 42,
+    "added": 43,
     "removed": 47,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1299,6 +1309,15 @@
       5.49,
       "Taco Bell",
       "McDonough",
+      "GA"
+    ],
+    [
+      "016289",
+      33.61549907748702,
+      -84.47322343291489,
+      5.49,
+      "Taco Bell",
+      "College Park",
       "GA"
     ]
   ],

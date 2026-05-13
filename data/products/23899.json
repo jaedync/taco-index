@@ -16,14 +16,18 @@
   "first_seen_at": "2026-03-30T00:40:09.042450+00:00",
   "availability_pct": 0.8,
   "price_stats": {
-    "avg": 7.79,
-    "min": 7.79,
+    "avg": 7.67,
+    "min": 0.0,
     "max": 7.79,
     "median": 7.79,
-    "std_dev": 0.0,
-    "store_count": 62
+    "std_dev": 0.98,
+    "store_count": 63
   },
   "histogram": [
+    {
+      "bucket": "$0.00",
+      "count": 1
+    },
     {
       "bucket": "$7.79",
       "count": 62
@@ -51,6 +55,13 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
+    {
+      "store_number": "037077",
+      "name": "Taco Bell",
+      "city": "Dover",
+      "state": "DE",
+      "price": 0.0
+    },
     {
       "store_number": "041324",
       "name": "Taco Bell",
@@ -113,78 +124,10 @@
       "city": "Grand Haven",
       "state": "MI",
       "price": 7.79
-    },
-    {
-      "store_number": "032987",
-      "name": "Taco Bell",
-      "city": "Paw Paw",
-      "state": "MI",
-      "price": 7.79
     }
   ],
   "min_price_store_numbers": [
-    "041324",
-    "041267",
-    "034828",
-    "036418",
-    "037168",
-    "042604",
-    "042728",
-    "042751",
-    "042626",
-    "032987",
-    "032982",
-    "032997",
-    "033020",
-    "032989",
-    "032985",
-    "042642",
-    "033012",
-    "032986",
-    "032988",
-    "033044",
-    "032996",
-    "033004",
-    "033014",
-    "042639",
-    "033022",
-    "033021",
-    "033001",
-    "033015",
-    "033003",
-    "033017",
-    "033010",
-    "042634",
-    "032984",
-    "032983",
-    "032991",
-    "032998",
-    "032992",
-    "033011",
-    "033007",
-    "033009",
-    "033027",
-    "033016",
-    "033018",
-    "033005",
-    "032993",
-    "033025",
-    "033026",
-    "033024",
-    "032999",
-    "032994",
-    "033000",
-    "033043",
-    "033002",
-    "033013",
-    "033008",
-    "033023",
-    "042636",
-    "040369",
-    "033075",
-    "032574",
-    "039000",
-    "032995"
+    "037077"
   ],
   "priciest_stores": [
     {
@@ -259,6 +202,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037077",
+      "store_name": "Taco Bell",
+      "city": "Dover",
+      "state": "DE",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-13T21:11:21.992123+00:00"
+    },
     {
       "store_number": "033006",
       "store_name": "Taco Bell",
@@ -981,7 +934,7 @@
     }
   ],
   "activity_summary": {
-    "added": 67,
+    "added": 68,
     "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -991,6 +944,12 @@
   "calories_max": 530,
   "combo_groups": [
     {
+      "group_id": "879",
+      "title": "Cantina Chicken Bowl",
+      "default_product_code": "29211",
+      "default_product_name": "Cantina Chicken Bowl"
+    },
+    {
       "group_id": "451",
       "title": "Avocado Verde Salsa Sauce Packet",
       "default_product_code": "23476",
@@ -998,6 +957,15 @@
     }
   ],
   "map_data": [
+    [
+      "037077",
+      39.2177,
+      -75.5732,
+      0.0,
+      "Taco Bell",
+      "Dover",
+      "DE"
+    ],
     [
       "041324",
       42.88062253819751,
@@ -1558,6 +1526,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-12",
+  "last_seen_date": "2026-05-13",
   "peak_availability_pct": 0.8
 }

@@ -16,18 +16,14 @@
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 2.66,
-    "min": 2.29,
+    "avg": 2.67,
+    "min": 2.39,
     "max": 2.89,
     "median": 2.79,
-    "std_dev": 0.18,
+    "std_dev": 0.17,
     "store_count": 26
   },
   "histogram": [
-    {
-      "bucket": "$2.29",
-      "count": 1
-    },
     {
       "bucket": "$2.39",
       "count": 4
@@ -35,6 +31,10 @@
     {
       "bucket": "$2.49",
       "count": 4
+    },
+    {
+      "bucket": "$2.59",
+      "count": 1
     },
     {
       "bucket": "$2.69",
@@ -71,13 +71,6 @@
     "serving_size_g": 138.9125
   },
   "cheapest_stores": [
-    {
-      "store_number": "031389",
-      "name": "Taco Bell / KFC",
-      "city": "Locust Grove",
-      "state": "GA",
-      "price": 2.29
-    },
     {
       "store_number": "035717",
       "name": "Taco Bell / KFC",
@@ -135,6 +128,13 @@
       "price": 2.49
     },
     {
+      "store_number": "031389",
+      "name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "price": 2.59
+    },
+    {
       "store_number": "041362",
       "name": "Taco Bell / KFC",
       "city": "Lockeford",
@@ -143,7 +143,10 @@
     }
   ],
   "min_price_store_numbers": [
-    "031389"
+    "035717",
+    "035718",
+    "003881",
+    "028153"
   ],
   "priciest_stores": [
     {
@@ -218,6 +221,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031389",
+      "store_name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 2.29,
+      "new_price": 2.59,
+      "observed_at": "2026-05-13T21:45:02.161196+00:00"
+    },
     {
       "store_number": "002649",
       "store_name": "Taco Bell / KFC",
@@ -702,7 +715,7 @@
   "activity_summary": {
     "added": 37,
     "removed": 11,
-    "price_changed": 0,
+    "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 60,
@@ -723,15 +736,6 @@
     }
   ],
   "map_data": [
-    [
-      "031389",
-      33.352032936024656,
-      -84.120770439522,
-      2.29,
-      "Taco Bell / KFC",
-      "Locust Grove",
-      "GA"
-    ],
     [
       "035717",
       29.995722509460837,
@@ -803,6 +807,15 @@
       "Taco Bell / KFC",
       "Harrodsburg",
       "KY"
+    ],
+    [
+      "031389",
+      33.352032936024656,
+      -84.120770439522,
+      2.59,
+      "Taco Bell / KFC",
+      "Locust Grove",
+      "GA"
     ],
     [
       "041362",
@@ -959,6 +972,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-12",
+  "last_seen_date": "2026-05-13",
   "peak_availability_pct": 0.3
 }
