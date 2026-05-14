@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
   "availability_pct": 0.6,
   "price_stats": {
-    "avg": 11.01,
+    "avg": 10.99,
     "min": 0.0,
     "max": 11.99,
     "median": 10.99,
-    "std_dev": 1.7,
-    "store_count": 47
+    "std_dev": 1.67,
+    "store_count": 48
   },
   "histogram": [
     {
@@ -30,18 +30,18 @@
     },
     {
       "bucket": "$10.99",
-      "count": 34
+      "count": 36
     },
     {
       "bucket": "$11.99",
-      "count": 12
+      "count": 11
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 11.25,
-      "store_count": 46
+      "avg_price": 11.22,
+      "store_count": 47
     }
   ],
   "nutrition": null,
@@ -57,6 +57,13 @@
       "store_number": "040929",
       "name": "Taco Bell",
       "city": "Greensboro",
+      "state": "GA",
+      "price": 10.99
+    },
+    {
+      "store_number": "041105",
+      "name": "Taco Bell",
+      "city": "Jefferson",
       "state": "GA",
       "price": 10.99
     },
@@ -106,13 +113,6 @@
       "store_number": "036290",
       "name": "Taco Bell",
       "city": "Conyers",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
-      "store_number": "003717",
-      "name": "Taco Bell",
-      "city": "Covington",
       "state": "GA",
       "price": 10.99
     }
@@ -178,21 +178,51 @@
       "price": 11.99
     },
     {
-      "store_number": "042583",
-      "name": "Taco Bell",
-      "city": "Clarkesville",
-      "state": "GA",
-      "price": 11.99
-    },
-    {
       "store_number": "042575",
       "name": "Taco Bell",
       "city": "Cartersville",
       "state": "GA",
       "price": 11.99
+    },
+    {
+      "store_number": "042584",
+      "name": "Taco Bell",
+      "city": "McDonough",
+      "state": "GA",
+      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016821",
+      "store_name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-14T21:42:06.021985+00:00"
+    },
+    {
+      "store_number": "042583",
+      "store_name": "Taco Bell",
+      "city": "Clarkesville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-14T21:34:38.950989+00:00"
+    },
+    {
+      "store_number": "041105",
+      "store_name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-14T21:31:33.032738+00:00"
+    },
     {
       "store_number": "042579",
       "store_name": "Taco Bell",
@@ -965,8 +995,8 @@
     }
   ],
   "activity_summary": {
-    "added": 62,
-    "removed": 15,
+    "added": 64,
+    "removed": 16,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1028,6 +1058,15 @@
       10.99,
       "Taco Bell",
       "Greensboro",
+      "GA"
+    ],
+    [
+      "041105",
+      34.123606790741,
+      -83.60452047516594,
+      10.99,
+      "Taco Bell",
+      "Jefferson",
       "GA"
     ],
     [
@@ -1328,6 +1367,15 @@
       "GA"
     ],
     [
+      "016821",
+      34.05976172931764,
+      -84.59213782848565,
+      10.99,
+      "Taco Bell",
+      "Kennesaw",
+      "GA"
+    ],
+    [
       "042582",
       34.03186002111262,
       -83.88571668620189,
@@ -1352,15 +1400,6 @@
       11.99,
       "Taco Bell",
       "Cartersville",
-      "GA"
-    ],
-    [
-      "042583",
-      34.60104444338766,
-      -83.51778554254794,
-      11.99,
-      "Taco Bell",
-      "Clarkesville",
       "GA"
     ],
     [
@@ -1437,6 +1476,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-13",
+  "last_seen_date": "2026-05-14",
   "peak_availability_pct": 0.6
 }

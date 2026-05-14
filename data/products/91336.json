@@ -22,12 +22,12 @@
     "max": 3.19,
     "median": 2.49,
     "std_dev": 0.07,
-    "store_count": 489
+    "store_count": 488
   },
   "histogram": [
     {
       "bucket": "$2.49",
-      "count": 471
+      "count": 469
     },
     {
       "bucket": "$2.59",
@@ -39,7 +39,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$3.19",
@@ -50,7 +50,7 @@
     {
       "state": "FL",
       "avg_price": 2.6,
-      "store_count": 33
+      "store_count": 32
     },
     {
       "state": "TN",
@@ -609,7 +609,6 @@
     "040783",
     "040706",
     "029040",
-    "024747",
     "041241",
     "033348",
     "039701",
@@ -629,8 +628,7 @@
     "042579",
     "041225",
     "041209",
-    "002863",
-    "002163"
+    "002863"
   ],
   "priciest_stores": [
     {
@@ -639,6 +637,13 @@
       "city": "Douglasville",
       "state": "GA",
       "price": 3.19
+    },
+    {
+      "store_number": "024747",
+      "name": "Taco Bell / Pizza Hut",
+      "city": "McDonough",
+      "state": "GA",
+      "price": 2.99
     },
     {
       "store_number": "003874",
@@ -695,16 +700,29 @@
       "city": "Panama City Beach",
       "state": "FL",
       "price": 2.79
-    },
-    {
-      "store_number": "004370",
-      "name": "Taco Bell",
-      "city": "Panama City Beach",
-      "state": "FL",
-      "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024747",
+      "store_name": "Taco Bell / Pizza Hut",
+      "city": "McDonough",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 2.49,
+      "new_price": 2.99,
+      "observed_at": "2026-05-14T21:43:48.558410+00:00"
+    },
+    {
+      "store_number": "002163",
+      "store_name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-14T21:43:02.993420+00:00"
+    },
     {
       "store_number": "002163",
       "store_name": "Taco Bell",
@@ -5968,8 +5986,8 @@
   ],
   "activity_summary": {
     "added": 507,
-    "removed": 18,
-    "price_changed": 1,
+    "removed": 19,
+    "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 280,
@@ -10019,15 +10037,6 @@
       "TN"
     ],
     [
-      "024747",
-      33.50836652192516,
-      -84.14265096187592,
-      2.49,
-      "Taco Bell / Pizza Hut",
-      "McDonough",
-      "GA"
-    ],
-    [
       "041241",
       33.91608863570365,
       -83.44928093433556,
@@ -10208,15 +10217,6 @@
       "NC"
     ],
     [
-      "002163",
-      28.004325020857483,
-      -81.73122969587502,
-      2.49,
-      "Taco Bell",
-      "Winter Haven",
-      "FL"
-    ],
-    [
       "036436",
       36.14145551456751,
       -85.26785666312466,
@@ -10370,6 +10370,15 @@
       "FL"
     ],
     [
+      "024747",
+      33.50836652192516,
+      -84.14265096187592,
+      2.99,
+      "Taco Bell / Pizza Hut",
+      "McDonough",
+      "GA"
+    ],
+    [
       "032598",
       33.7277324733473,
       -84.74573254884817,
@@ -10380,6 +10389,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-13",
+  "last_seen_date": "2026-05-14",
   "peak_availability_pct": 6.0
 }

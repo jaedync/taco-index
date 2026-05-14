@@ -15,18 +15,14 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 6.4,
   "price_stats": {
-    "avg": 9.93,
-    "min": 5.99,
+    "avg": 9.94,
+    "min": 7.99,
     "max": 11.39,
     "median": 9.99,
-    "std_dev": 0.6,
-    "store_count": 494
+    "std_dev": 0.58,
+    "store_count": 493
   },
   "histogram": [
-    {
-      "bucket": "$5.99",
-      "count": 1
-    },
     {
       "bucket": "$7.99",
       "count": 3
@@ -135,19 +131,12 @@
     },
     {
       "state": "FL",
-      "avg_price": 9.46,
-      "store_count": 33
+      "avg_price": 9.57,
+      "store_count": 32
     }
   ],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "002163",
-      "name": "Taco Bell",
-      "city": "Winter Haven",
-      "state": "FL",
-      "price": 5.99
-    },
     {
       "store_number": "034808",
       "name": "Taco Bell",
@@ -210,10 +199,19 @@
       "city": "Lawrenceville",
       "state": "GA",
       "price": 8.69
+    },
+    {
+      "store_number": "033933",
+      "name": "Taco Bell",
+      "city": "Fort Valley",
+      "state": "GA",
+      "price": 8.69
     }
   ],
   "min_price_store_numbers": [
-    "002163"
+    "034808",
+    "022073",
+    "019753"
   ],
   "priciest_stores": [
     {
@@ -288,6 +286,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002163",
+      "store_name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-05-14T21:43:02.993420+00:00"
+    },
     {
       "store_number": "002163",
       "store_name": "Taco Bell",
@@ -8421,7 +8429,7 @@
   ],
   "activity_summary": {
     "added": 502,
-    "removed": 8,
+    "removed": 9,
     "price_changed": 303,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8449,15 +8457,6 @@
     }
   ],
   "map_data": [
-    [
-      "002163",
-      28.004325020857483,
-      -81.73122969587502,
-      5.99,
-      "Taco Bell",
-      "Winter Haven",
-      "FL"
-    ],
     [
       "034808",
       30.22636410542137,
@@ -12897,6 +12896,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-13",
+  "last_seen_date": "2026-05-14",
   "peak_availability_pct": 6.0
 }

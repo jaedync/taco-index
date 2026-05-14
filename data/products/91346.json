@@ -16,21 +16,21 @@
   "first_seen_at": "2026-04-16T21:05:37.526671+00:00",
   "availability_pct": 6.3,
   "price_stats": {
-    "avg": 9.17,
+    "avg": 9.19,
     "min": 0.0,
     "max": 12.99,
     "median": 9.0,
-    "std_dev": 0.84,
+    "std_dev": 0.73,
     "store_count": 485
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$9.00",
-      "count": 415
+      "count": 416
     },
     {
       "bucket": "$9.49",
@@ -60,6 +60,11 @@
       "store_count": 8
     },
     {
+      "state": "FL",
+      "avg_price": 9.36,
+      "store_count": 32
+    },
+    {
       "state": "GA",
       "avg_price": 9.31,
       "store_count": 237
@@ -70,14 +75,9 @@
       "store_count": 118
     },
     {
-      "state": "FL",
-      "avg_price": 9.07,
-      "store_count": 33
-    },
-    {
       "state": "TN",
       "avg_price": 9.01,
-      "store_count": 85
+      "store_count": 86
     }
   ],
   "nutrition": {
@@ -100,13 +100,6 @@
       "name": "Taco Bell",
       "city": "Charlotte",
       "state": "NC",
-      "price": 0.0
-    },
-    {
-      "store_number": "002163",
-      "name": "Taco Bell",
-      "city": "Winter Haven",
-      "state": "FL",
       "price": 0.0
     },
     {
@@ -164,11 +157,17 @@
       "city": "Auburn",
       "state": "AL",
       "price": 9.0
+    },
+    {
+      "store_number": "041188",
+      "name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
+      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
-    "002863",
-    "002163"
+    "002863"
   ],
   "priciest_stores": [
     {
@@ -243,6 +242,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002163",
+      "store_name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-05-14T21:43:02.993420+00:00"
+    },
+    {
+      "store_number": "029010",
+      "store_name": "Taco Bell",
+      "city": "Chattanooga",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-14T21:37:29.508120+00:00"
+    },
     {
       "store_number": "033348",
       "store_name": "Taco Bell",
@@ -15645,8 +15664,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1010,
-    "removed": 525,
+    "added": 1011,
+    "removed": 526,
     "price_changed": 5,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15694,15 +15713,6 @@
       "Taco Bell",
       "Charlotte",
       "NC"
-    ],
-    [
-      "002163",
-      28.004325020857483,
-      -81.73122969587502,
-      0.0,
-      "Taco Bell",
-      "Winter Haven",
-      "FL"
     ],
     [
       "040910",
@@ -16944,6 +16954,15 @@
       9.0,
       "Taco Bell",
       "Cookeville",
+      "TN"
+    ],
+    [
+      "029010",
+      35.01929536236853,
+      -85.32177056372063,
+      9.0,
+      "Taco Bell",
+      "Chattanooga",
       "TN"
     ],
     [
@@ -20053,6 +20072,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-13",
+  "last_seen_date": "2026-05-14",
   "peak_availability_pct": 6.0
 }

@@ -20,7 +20,7 @@
     "max": 6.99,
     "median": 5.79,
     "std_dev": 0.35,
-    "store_count": 497
+    "store_count": 496
   },
   "histogram": [
     {
@@ -37,7 +37,7 @@
     },
     {
       "bucket": "$5.19",
-      "count": 19
+      "count": 17
     },
     {
       "bucket": "$5.29",
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$5.69",
-      "count": 59
+      "count": 60
     },
     {
       "bucket": "$5.79",
@@ -101,14 +101,14 @@
       "store_count": 243
     },
     {
+      "state": "FL",
+      "avg_price": 5.71,
+      "store_count": 32
+    },
+    {
       "state": "AL",
       "avg_price": 5.7,
       "store_count": 121
-    },
-    {
-      "state": "FL",
-      "avg_price": 5.69,
-      "store_count": 33
     }
   ],
   "nutrition": {
@@ -278,6 +278,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024747",
+      "store_name": "Taco Bell / Pizza Hut",
+      "city": "McDonough",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 5.19,
+      "new_price": 5.69,
+      "observed_at": "2026-05-14T21:43:48.558410+00:00"
+    },
+    {
+      "store_number": "002163",
+      "store_name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.19,
+      "new_price": null,
+      "observed_at": "2026-05-14T21:43:02.993420+00:00"
+    },
     {
       "store_number": "002163",
       "store_name": "Taco Bell",
@@ -6871,8 +6891,8 @@
   ],
   "activity_summary": {
     "added": 501,
-    "removed": 4,
-    "price_changed": 154,
+    "removed": 5,
+    "price_changed": 155,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 690,
@@ -7347,24 +7367,6 @@
       "Taco Bell",
       "Decatur",
       "GA"
-    ],
-    [
-      "024747",
-      33.50836652192516,
-      -84.14265096187592,
-      5.19,
-      "Taco Bell / Pizza Hut",
-      "McDonough",
-      "GA"
-    ],
-    [
-      "002163",
-      28.004325020857483,
-      -81.73122969587502,
-      5.19,
-      "Taco Bell",
-      "Winter Haven",
-      "FL"
     ],
     [
       "037369",
@@ -8985,6 +8987,15 @@
       "Taco Bell",
       "Homewood",
       "AL"
+    ],
+    [
+      "024747",
+      33.50836652192516,
+      -84.14265096187592,
+      5.69,
+      "Taco Bell / Pizza Hut",
+      "McDonough",
+      "GA"
     ],
     [
       "033994",
@@ -11355,6 +11366,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-13",
+  "last_seen_date": "2026-05-14",
   "peak_availability_pct": 6.0
 }

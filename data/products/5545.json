@@ -25,7 +25,7 @@
   "histogram": [
     {
       "bucket": "$0.20",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$0.30",
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 134
+      "count": 135
     },
     {
       "bucket": "$0.65",
@@ -104,14 +104,14 @@
       "store_count": 121
     },
     {
-      "state": "GA",
-      "avg_price": 0.59,
-      "store_count": 239
+      "state": "FL",
+      "avg_price": 0.6,
+      "store_count": 32
     },
     {
-      "state": "FL",
-      "avg_price": 0.58,
-      "store_count": 33
+      "state": "GA",
+      "avg_price": 0.59,
+      "store_count": 240
     },
     {
       "state": "SC",
@@ -163,13 +163,6 @@
       "price": 0.2
     },
     {
-      "store_number": "002163",
-      "name": "Taco Bell",
-      "city": "Winter Haven",
-      "state": "FL",
-      "price": 0.2
-    },
-    {
       "store_number": "032542",
       "name": "Taco Bell",
       "city": "Hardeeville",
@@ -203,14 +196,20 @@
       "city": "Statesboro",
       "state": "GA",
       "price": 0.3
+    },
+    {
+      "store_number": "002994",
+      "name": "Taco Bell",
+      "city": "Sandy Springs",
+      "state": "GA",
+      "price": 0.3
     }
   ],
   "min_price_store_numbers": [
     "035070",
     "009539",
     "004170",
-    "003874",
-    "002163"
+    "003874"
   ],
   "priciest_stores": [
     {
@@ -285,6 +284,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002163",
+      "store_name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-05-14T21:43:02.993420+00:00"
+    },
+    {
+      "store_number": "041223",
+      "store_name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-05-14T21:42:40.682504+00:00"
+    },
     {
       "store_number": "002163",
       "store_name": "Taco Bell",
@@ -5387,8 +5406,8 @@
     }
   ],
   "activity_summary": {
-    "added": 501,
-    "removed": 7,
+    "added": 502,
+    "removed": 8,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5431,15 +5450,6 @@
       0.2,
       "Taco Bell",
       "Crestview",
-      "FL"
-    ],
-    [
-      "002163",
-      28.004325020857483,
-      -81.73122969587502,
-      0.2,
-      "Taco Bell",
-      "Winter Haven",
       "FL"
     ],
     [
@@ -7592,6 +7602,15 @@
       "Taco Bell",
       "Opelika",
       "AL"
+    ],
+    [
+      "041223",
+      33.61940670172887,
+      -84.24365535383913,
+      0.6,
+      "Taco Bell",
+      "Ellenwood",
+      "GA"
     ],
     [
       "029093",
@@ -9845,6 +9864,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-13",
+  "last_seen_date": "2026-05-14",
   "peak_availability_pct": 6.0
 }

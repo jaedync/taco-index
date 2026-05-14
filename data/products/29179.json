@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 90
+    "store_count": 92
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 90
+      "count": 92
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 9.0,
-      "store_count": 90
+      "store_count": 92
     }
   ],
   "nutrition": {
@@ -133,7 +133,6 @@
     "036287",
     "036021",
     "035177",
-    "034783",
     "034809",
     "041964",
     "041833",
@@ -149,6 +148,7 @@
     "032177",
     "031840",
     "023290",
+    "030349",
     "023302",
     "042941",
     "022592",
@@ -186,6 +186,7 @@
     "022594",
     "042924",
     "023289",
+    "027969",
     "027973",
     "027990",
     "027987",
@@ -209,6 +210,7 @@
     "023291",
     "027977",
     "023300",
+    "034162",
     "034163",
     "042971",
     "032959",
@@ -240,6 +242,13 @@
       "store_number": "034163",
       "name": "Taco Bell",
       "city": "Saint Cloud",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
+      "store_number": "034162",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
       "state": "FL",
       "price": 9.0
     },
@@ -277,16 +286,49 @@
       "city": "Winter Park",
       "state": "FL",
       "price": 9.0
-    },
-    {
-      "store_number": "042927",
-      "name": "Taco Bell",
-      "city": "Belleview",
-      "state": "FL",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034162",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-14T21:43:53.427533+00:00"
+    },
+    {
+      "store_number": "027969",
+      "store_name": "Taco Bell",
+      "city": "Titusville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-14T21:42:53.671756+00:00"
+    },
+    {
+      "store_number": "030349",
+      "store_name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-14T21:41:36.423270+00:00"
+    },
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-14T21:35:04.586070+00:00"
+    },
     {
       "store_number": "035998",
       "store_name": "Taco Bell",
@@ -3749,8 +3791,8 @@
     }
   ],
   "activity_summary": {
-    "added": 218,
-    "removed": 128,
+    "added": 221,
+    "removed": 129,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3878,15 +3920,6 @@
       9.0,
       "Taco Bell",
       "Palm Bay",
-      "FL"
-    ],
-    [
-      "034783",
-      29.05630760923329,
-      -82.45670382723803,
-      9.0,
-      "Taco Bell",
-      "Dunnellon",
       "FL"
     ],
     [
@@ -4022,6 +4055,15 @@
       9.0,
       "Taco Bell",
       "Orlando",
+      "FL"
+    ],
+    [
+      "030349",
+      28.231152164188327,
+      -80.70049432232909,
+      9.0,
+      "Taco Bell",
+      "Melbourne",
       "FL"
     ],
     [
@@ -4358,6 +4400,15 @@
       "FL"
     ],
     [
+      "027969",
+      28.590950152596594,
+      -80.80342124933513,
+      9.0,
+      "Taco Bell",
+      "Titusville",
+      "FL"
+    ],
+    [
       "027973",
       28.331229902743292,
       -80.72642873693731,
@@ -4565,6 +4616,15 @@
       "FL"
     ],
     [
+      "034162",
+      28.198881542033824,
+      -81.44054558680533,
+      9.0,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
+    [
       "034163",
       28.24668494787806,
       -81.24437438517288,
@@ -4602,6 +4662,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-13",
+  "last_seen_date": "2026-05-14",
   "peak_availability_pct": 1.2
 }

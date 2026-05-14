@@ -12,25 +12,25 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0232,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 9.41,
+    "avg": 9.35,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.84,
-    "store_count": 27
+    "std_dev": 0.81,
+    "store_count": 29
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 21
+      "count": 24
     },
     {
       "bucket": "$9.99",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$11.29",
@@ -40,8 +40,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.48,
-      "store_count": 23
+      "avg_price": 9.41,
+      "store_count": 25
     }
   ],
   "nutrition": {
@@ -81,6 +81,13 @@
       "price": 9.0
     },
     {
+      "store_number": "041105",
+      "name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "041249",
       "name": "Taco Bell",
       "city": "Lawrenceville",
@@ -109,13 +116,6 @@
       "price": 9.0
     },
     {
-      "store_number": "002995",
-      "name": "Taco Bell",
-      "city": "Smyrna",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
       "store_number": "026073",
       "name": "Taco Bell",
       "city": "Douglasville",
@@ -134,11 +134,11 @@
     "024403",
     "029050",
     "033348",
+    "041105",
     "041249",
     "039923",
     "039924",
     "041243",
-    "002995",
     "026073",
     "016289",
     "041837",
@@ -151,7 +151,10 @@
     "041253",
     "038735",
     "037161",
-    "029099"
+    "029099",
+    "016821",
+    "027858",
+    "027509"
   ],
   "priciest_stores": [
     {
@@ -183,18 +186,32 @@
       "price": 11.29
     },
     {
-      "store_number": "042881",
-      "name": "Taco Bell",
-      "city": "Jesup",
-      "state": "GA",
-      "price": 9.99
-    },
-    {
       "store_number": "042903",
       "name": "Taco Bell",
       "city": "Baxley",
       "state": "GA",
       "price": 9.99
+    },
+    {
+      "store_number": "027509",
+      "name": "Taco Bell",
+      "city": "Covington",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
+      "store_number": "027858",
+      "name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
+      "store_number": "016821",
+      "name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "price": 9.0
     },
     {
       "store_number": "029099",
@@ -209,23 +226,69 @@
       "city": "Albany",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "038735",
-      "name": "Taco Bell",
-      "city": "Grand Bay",
-      "state": "AL",
-      "price": 9.0
-    },
-    {
-      "store_number": "041253",
-      "name": "Taco Bell",
-      "city": "Loganville",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042881",
+      "store_name": "Taco Bell",
+      "city": "Jesup",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-14T21:43:38.933430+00:00"
+    },
+    {
+      "store_number": "027509",
+      "store_name": "Taco Bell",
+      "city": "Covington",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-14T21:43:38.409893+00:00"
+    },
+    {
+      "store_number": "027858",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-14T21:42:32.635295+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-14T21:42:31.826387+00:00"
+    },
+    {
+      "store_number": "016821",
+      "store_name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-14T21:42:06.021985+00:00"
+    },
+    {
+      "store_number": "041105",
+      "store_name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-14T21:31:33.032738+00:00"
+    },
     {
       "store_number": "033348",
       "store_name": "Taco Bell",
@@ -2078,8 +2141,8 @@
     }
   ],
   "activity_summary": {
-    "added": 76,
-    "removed": 109,
+    "added": 80,
+    "removed": 111,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2147,6 +2210,15 @@
       "GA"
     ],
     [
+      "041105",
+      34.123606790741,
+      -83.60452047516594,
+      9.0,
+      "Taco Bell",
+      "Jefferson",
+      "GA"
+    ],
+    [
       "041249",
       33.96647033026141,
       -84.010348240854,
@@ -2180,15 +2252,6 @@
       9.0,
       "Taco Bell",
       "Marietta",
-      "GA"
-    ],
-    [
-      "002995",
-      33.88866329031674,
-      -84.47492127122132,
-      9.0,
-      "Taco Bell",
-      "Smyrna",
       "GA"
     ],
     [
@@ -2309,21 +2372,39 @@
       "GA"
     ],
     [
+      "016821",
+      34.05976172931764,
+      -84.59213782848565,
+      9.0,
+      "Taco Bell",
+      "Kennesaw",
+      "GA"
+    ],
+    [
+      "027858",
+      34.07882955591635,
+      -83.91751042267758,
+      9.0,
+      "Taco Bell",
+      "Buford",
+      "GA"
+    ],
+    [
+      "027509",
+      33.6079883806077,
+      -83.82737691574002,
+      9.0,
+      "Taco Bell",
+      "Covington",
+      "GA"
+    ],
+    [
       "042903",
       31.783928,
       -82.363196,
       9.99,
       "Taco Bell",
       "Baxley",
-      "GA"
-    ],
-    [
-      "042881",
-      31.616911784903458,
-      -81.87382091583459,
-      9.99,
-      "Taco Bell",
-      "Jesup",
       "GA"
     ],
     [
@@ -2364,6 +2445,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-13",
+  "last_seen_date": "2026-05-14",
   "peak_availability_pct": 1.1
 }
