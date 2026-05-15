@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.1,
-  "recent_price_change_pct": -0.0232,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 9.35,
+    "avg": 9.34,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.81,
-    "store_count": 29
+    "std_dev": 0.8,
+    "store_count": 30
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 24
+      "count": 25
     },
     {
       "bucket": "$9.99",
@@ -116,16 +116,16 @@
       "price": 9.0
     },
     {
-      "store_number": "026073",
+      "store_number": "002995",
       "name": "Taco Bell",
-      "city": "Douglasville",
+      "city": "Smyrna",
       "state": "GA",
       "price": 9.0
     },
     {
-      "store_number": "016289",
+      "store_number": "026073",
       "name": "Taco Bell",
-      "city": "College Park",
+      "city": "Douglasville",
       "state": "GA",
       "price": 9.0
     }
@@ -139,7 +139,9 @@
     "039923",
     "039924",
     "041243",
+    "002995",
     "026073",
+    "037105",
     "016289",
     "041837",
     "033643",
@@ -151,7 +153,6 @@
     "041253",
     "038735",
     "037161",
-    "029099",
     "016821",
     "027858",
     "027509"
@@ -214,21 +215,51 @@
       "price": 9.0
     },
     {
-      "store_number": "029099",
+      "store_number": "037161",
       "name": "Taco Bell",
       "city": "Albany",
       "state": "GA",
       "price": 9.0
     },
     {
-      "store_number": "037161",
+      "store_number": "038735",
       "name": "Taco Bell",
-      "city": "Albany",
-      "state": "GA",
+      "city": "Grand Bay",
+      "state": "AL",
       "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029099",
+      "store_name": "Taco Bell",
+      "city": "Albany",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-15T21:48:22.731562+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-15T21:47:54.476782+00:00"
+    },
+    {
+      "store_number": "037105",
+      "store_name": "Taco Bell",
+      "city": "Talladega",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-15T21:46:23.930998+00:00"
+    },
     {
       "store_number": "042881",
       "store_name": "Taco Bell",
@@ -2141,8 +2172,8 @@
     }
   ],
   "activity_summary": {
-    "added": 80,
-    "removed": 111,
+    "added": 82,
+    "removed": 112,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2255,6 +2286,15 @@
       "GA"
     ],
     [
+      "002995",
+      33.88866329031674,
+      -84.47492127122132,
+      9.0,
+      "Taco Bell",
+      "Smyrna",
+      "GA"
+    ],
+    [
       "026073",
       33.7517493624465,
       -84.72289301460478,
@@ -2262,6 +2302,15 @@
       "Taco Bell",
       "Douglasville",
       "GA"
+    ],
+    [
+      "037105",
+      33.4393026,
+      -86.0823143,
+      9.0,
+      "Taco Bell",
+      "Talladega",
+      "AL"
     ],
     [
       "016289",
@@ -2363,15 +2412,6 @@
       "GA"
     ],
     [
-      "029099",
-      31.59780741136821,
-      -84.17633609719978,
-      9.0,
-      "Taco Bell",
-      "Albany",
-      "GA"
-    ],
-    [
       "016821",
       34.05976172931764,
       -84.59213782848565,
@@ -2445,6 +2485,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-14",
+  "last_seen_date": "2026-05-15",
   "peak_availability_pct": 1.1
 }

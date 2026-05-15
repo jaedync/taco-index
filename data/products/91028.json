@@ -13,14 +13,14 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 6.1,
+  "availability_pct": 6.2,
   "price_stats": {
     "avg": 5.93,
     "min": 3.39,
     "max": 6.99,
     "median": 5.89,
     "std_dev": 0.43,
-    "store_count": 474
+    "store_count": 475
   },
   "histogram": [
     {
@@ -97,7 +97,7 @@
     },
     {
       "bucket": "$6.79",
-      "count": 6
+      "count": 7
     },
     {
       "bucket": "$6.89",
@@ -111,8 +111,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.04,
-      "store_count": 228
+      "avg_price": 6.05,
+      "store_count": 229
     },
     {
       "state": "SC",
@@ -261,6 +261,13 @@
       "price": 6.89
     },
     {
+      "store_number": "002995",
+      "name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "price": 6.79
+    },
+    {
       "store_number": "004317",
       "name": "Taco Bell",
       "city": "Gainesville",
@@ -287,16 +294,19 @@
       "city": "Kennesaw",
       "state": "GA",
       "price": 6.79
-    },
-    {
-      "store_number": "003859",
-      "name": "Taco Bell",
-      "city": "Carrollton",
-      "state": "GA",
-      "price": 6.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.79,
+      "observed_at": "2026-05-15T21:47:54.476782+00:00"
+    },
     {
       "store_number": "042881",
       "store_name": "Taco Bell",
@@ -9409,7 +9419,7 @@
     }
   ],
   "activity_summary": {
-    "added": 550,
+    "added": 551,
     "removed": 76,
     "price_changed": 285,
     "since": "2026-03-31T00:00:00+00:00"
@@ -13641,6 +13651,15 @@
       "GA"
     ],
     [
+      "002995",
+      33.88866329031674,
+      -84.47492127122132,
+      6.79,
+      "Taco Bell",
+      "Smyrna",
+      "GA"
+    ],
+    [
       "018166",
       33.89149409475321,
       -84.75320756435389,
@@ -13687,6 +13706,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-14",
+  "last_seen_date": "2026-05-15",
   "peak_availability_pct": 5.9
 }

@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 92
+    "store_count": 93
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 92
+      "count": 93
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 9.0,
-      "store_count": 92
+      "store_count": 93
     }
   ],
   "nutrition": {
@@ -55,6 +55,13 @@
       "store_number": "039700",
       "name": "Taco Bell",
       "city": "Clermont",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
+      "store_number": "040730",
+      "name": "Taco Bell",
+      "city": "Edgewater",
       "state": "FL",
       "price": 9.0
     },
@@ -113,17 +120,11 @@
       "city": "Longwood",
       "state": "FL",
       "price": 9.0
-    },
-    {
-      "store_number": "035177",
-      "name": "Taco Bell",
-      "city": "Palm Bay",
-      "state": "FL",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "039700",
+    "040730",
     "040450",
     "034859",
     "041844",
@@ -289,6 +290,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040730",
+      "store_name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-15T21:45:42.976464+00:00"
+    },
     {
       "store_number": "034162",
       "store_name": "Taco Bell",
@@ -3791,7 +3802,7 @@
     }
   ],
   "activity_summary": {
-    "added": 221,
+    "added": 222,
     "removed": 129,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3839,6 +3850,15 @@
       9.0,
       "Taco Bell",
       "Clermont",
+      "FL"
+    ],
+    [
+      "040730",
+      28.978999988269013,
+      -80.90048237483407,
+      9.0,
+      "Taco Bell",
+      "Edgewater",
       "FL"
     ],
     [
@@ -4662,6 +4682,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-14",
+  "last_seen_date": "2026-05-15",
   "peak_availability_pct": 1.2
 }

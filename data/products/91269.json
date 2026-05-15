@@ -19,18 +19,14 @@
     "avg": 6.88,
     "min": 6.49,
     "max": 7.49,
-    "median": 6.69,
-    "std_dev": 0.44,
-    "store_count": 10
+    "median": 6.49,
+    "std_dev": 0.46,
+    "store_count": 9
   },
   "histogram": [
     {
       "bucket": "$6.49",
       "count": 5
-    },
-    {
-      "bucket": "$6.89",
-      "count": 1
     },
     {
       "bucket": "$7.29",
@@ -48,8 +44,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 7.05,
-      "store_count": 7
+      "avg_price": 7.07,
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -101,13 +97,6 @@
       "city": "Maryville",
       "state": "TN",
       "price": 6.49
-    },
-    {
-      "store_number": "002995",
-      "name": "Taco Bell",
-      "city": "Smyrna",
-      "state": "GA",
-      "price": 6.89
     },
     {
       "store_number": "041251",
@@ -175,13 +164,6 @@
       "price": 7.29
     },
     {
-      "store_number": "002995",
-      "name": "Taco Bell",
-      "city": "Smyrna",
-      "state": "GA",
-      "price": 6.89
-    },
-    {
       "store_number": "030359",
       "name": "Taco Bell",
       "city": "Maryville",
@@ -218,6 +200,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.89,
+      "new_price": null,
+      "observed_at": "2026-05-15T21:47:54.476782+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -591,7 +583,7 @@
   ],
   "activity_summary": {
     "added": 12,
-    "removed": 25,
+    "removed": 26,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -663,15 +655,6 @@
       "Taco Bell",
       "Maryville",
       "TN"
-    ],
-    [
-      "002995",
-      33.88866329031674,
-      -84.47492127122132,
-      6.89,
-      "Taco Bell",
-      "Smyrna",
-      "GA"
     ],
     [
       "041251",
