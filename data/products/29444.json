@@ -16,11 +16,11 @@
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
   "availability_pct": 0.6,
   "price_stats": {
-    "avg": 10.97,
+    "avg": 10.99,
     "min": 0.0,
     "max": 11.99,
     "median": 10.99,
-    "std_dev": 1.72,
+    "std_dev": 1.73,
     "store_count": 45
   },
   "histogram": [
@@ -30,17 +30,17 @@
     },
     {
       "bucket": "$10.99",
-      "count": 34
+      "count": 33
     },
     {
       "bucket": "$11.99",
-      "count": 10
+      "count": 11
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 11.22,
+      "avg_price": 11.24,
       "store_count": 44
     }
   ],
@@ -150,6 +150,13 @@
       "price": 11.99
     },
     {
+      "store_number": "042572",
+      "name": "Taco Bell",
+      "city": "Fairburn",
+      "state": "GA",
+      "price": 11.99
+    },
+    {
       "store_number": "042578",
       "name": "Taco Bell",
       "city": "Atlanta",
@@ -183,16 +190,29 @@
       "city": "McDonough",
       "state": "GA",
       "price": 11.99
-    },
-    {
-      "store_number": "042582",
-      "name": "Taco Bell",
-      "city": "Dacula",
-      "state": "GA",
-      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027506",
+      "store_name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-16T21:27:43.309184+00:00"
+    },
+    {
+      "store_number": "042572",
+      "store_name": "Taco Bell",
+      "city": "Fairburn",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-05-16T21:25:49.569820+00:00"
+    },
     {
       "store_number": "042579",
       "store_name": "Taco Bell",
@@ -1025,8 +1045,8 @@
     }
   ],
   "activity_summary": {
-    "added": 64,
-    "removed": 19,
+    "added": 65,
+    "removed": 20,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1316,15 +1336,6 @@
       "GA"
     ],
     [
-      "027506",
-      34.321927340275344,
-      -83.83288894595358,
-      10.99,
-      "Taco Bell",
-      "Gainesville",
-      "GA"
-    ],
-    [
       "004317",
       34.286228837677136,
       -83.84069511297639,
@@ -1442,6 +1453,15 @@
       "GA"
     ],
     [
+      "042572",
+      33.53980644411624,
+      -84.57611403902706,
+      11.99,
+      "Taco Bell",
+      "Fairburn",
+      "GA"
+    ],
+    [
       "042574",
       33.910308019300345,
       -84.82438392472432,
@@ -1479,6 +1499,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-15",
+  "last_seen_date": "2026-05-16",
   "peak_availability_pct": 0.6
 }

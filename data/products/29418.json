@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 10.92,
+    "avg": 10.99,
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
     "std_dev": 0.87,
-    "store_count": 27
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 9
+      "count": 7
     },
     {
       "bucket": "$10.99",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 10.87,
-      "store_count": 8
+      "avg_price": 10.88,
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -113,24 +113,24 @@
       "price": 9.99
     },
     {
-      "store_number": "038897",
-      "name": "Taco Bell",
-      "city": "Minerva",
-      "state": "OH",
-      "price": 9.99
-    },
-    {
-      "store_number": "041321",
-      "name": "Taco Bell",
-      "city": "Grayson",
-      "state": "GA",
-      "price": 9.99
-    },
-    {
       "store_number": "029536",
       "name": "Taco Bell / KFC",
       "city": "Miami",
       "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "029401",
+      "name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "price": 10.99
+    },
+    {
+      "store_number": "024051",
+      "name": "Taco Bell",
+      "city": "Albuquerque",
+      "state": "NM",
       "price": 10.99
     }
   ],
@@ -141,9 +141,7 @@
     "039755",
     "021493",
     "031389",
-    "024033",
-    "038897",
-    "041321"
+    "024033"
   ],
   "priciest_stores": [
     {
@@ -203,21 +201,61 @@
       "price": 10.99
     },
     {
+      "store_number": "029411",
+      "name": "Taco Bell",
+      "city": "Benson",
+      "state": "NC",
+      "price": 10.99
+    },
+    {
       "store_number": "017415",
       "name": "Taco Bell / KFC",
       "city": "Moriarty",
       "state": "NM",
       "price": 10.99
-    },
-    {
-      "store_number": "029323",
-      "name": "Taco Bell / KFC",
-      "city": "Northampton",
-      "state": "MA",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038897",
+      "store_name": "Taco Bell",
+      "city": "Minerva",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-16T21:28:00.673669+00:00"
+    },
+    {
+      "store_number": "029411",
+      "store_name": "Taco Bell",
+      "city": "Benson",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-16T21:27:50.113967+00:00"
+    },
+    {
+      "store_number": "041321",
+      "store_name": "Taco Bell",
+      "city": "Grayson",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-16T21:27:33.685169+00:00"
+    },
+    {
+      "store_number": "029323",
+      "store_name": "Taco Bell / KFC",
+      "city": "Northampton",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-16T21:27:29.648432+00:00"
+    },
     {
       "store_number": "029411",
       "store_name": "Taco Bell",
@@ -710,8 +748,8 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
-    "removed": 9,
+    "added": 37,
+    "removed": 12,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -821,24 +859,6 @@
       "MI"
     ],
     [
-      "038897",
-      40.7189609403991,
-      -81.113457956817,
-      9.99,
-      "Taco Bell",
-      "Minerva",
-      "OH"
-    ],
-    [
-      "041321",
-      33.89951093273385,
-      -83.96198987746997,
-      9.99,
-      "Taco Bell",
-      "Grayson",
-      "GA"
-    ],
-    [
       "029536",
       25.770179973965377,
       -80.33099986148045,
@@ -911,15 +931,6 @@
       "NC"
     ],
     [
-      "029323",
-      42.32848585134205,
-      -72.63313342632506,
-      10.99,
-      "Taco Bell / KFC",
-      "Northampton",
-      "MA"
-    ],
-    [
       "017415",
       35.00966699999999,
       -106.06256782209016,
@@ -927,6 +938,15 @@
       "Taco Bell / KFC",
       "Moriarty",
       "NM"
+    ],
+    [
+      "029411",
+      35.51703677474721,
+      -78.56191411658494,
+      10.99,
+      "Taco Bell",
+      "Benson",
+      "NC"
     ],
     [
       "029412",
@@ -1002,6 +1022,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-15",
+  "last_seen_date": "2026-05-16",
   "peak_availability_pct": 0.4
 }

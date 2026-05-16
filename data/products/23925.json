@@ -11,7 +11,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 6.6,
+  "peak_30d_pct": 4.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 1.7,
@@ -21,12 +21,12 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 129
+    "store_count": 128
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 129
+      "count": 128
     }
   ],
   "state_prices": [
@@ -38,7 +38,7 @@
     {
       "state": "OH",
       "avg_price": 4.99,
-      "store_count": 63
+      "store_count": 62
     },
     {
       "state": "MI",
@@ -95,23 +95,9 @@
       "price": 4.99
     },
     {
-      "store_number": "041411",
-      "name": "Taco Bell",
-      "city": "Kalkaska",
-      "state": "MI",
-      "price": 4.99
-    },
-    {
       "store_number": "041173",
       "name": "Taco Bell",
       "city": "Bay City",
-      "state": "MI",
-      "price": 4.99
-    },
-    {
-      "store_number": "040463",
-      "name": "Taco Bell",
-      "city": "Trenton",
       "state": "MI",
       "price": 4.99
     },
@@ -135,6 +121,20 @@
       "city": "Medina",
       "state": "OH",
       "price": 4.99
+    },
+    {
+      "store_number": "042062",
+      "name": "Taco Bell",
+      "city": "Conneaut",
+      "state": "OH",
+      "price": 4.99
+    },
+    {
+      "store_number": "041987",
+      "name": "Taco Bell",
+      "city": "Painesville",
+      "state": "OH",
+      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
@@ -142,9 +142,7 @@
     "040933",
     "040955",
     "041027",
-    "041411",
     "041173",
-    "040463",
     "041372",
     "035453",
     "040990",
@@ -206,9 +204,9 @@
     "015908",
     "038816",
     "040152",
-    "031087",
     "030678",
     "027999",
+    "042621",
     "020299",
     "031601",
     "030664",
@@ -265,6 +263,7 @@
     "015366",
     "035357",
     "001988",
+    "042629",
     "042636",
     "032632"
   ],
@@ -280,6 +279,13 @@
       "store_number": "042636",
       "name": "Taco Bell",
       "city": "Grand Rapids",
+      "state": "MI",
+      "price": 4.99
+    },
+    {
+      "store_number": "042629",
+      "name": "Taco Bell",
+      "city": "Traverse City",
       "state": "MI",
       "price": 4.99
     },
@@ -331,16 +337,59 @@
       "city": "Ft Wayne",
       "state": "IN",
       "price": 4.99
-    },
-    {
-      "store_number": "040705",
-      "name": "Taco Bell",
-      "city": "Titusville",
-      "state": "PA",
-      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042629",
+      "store_name": "Taco Bell",
+      "city": "Traverse City",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-16T21:27:43.283391+00:00"
+    },
+    {
+      "store_number": "042621",
+      "store_name": "Taco Bell",
+      "city": "Traverse City",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-16T21:25:46.317156+00:00"
+    },
+    {
+      "store_number": "031087",
+      "store_name": "Taco Bell",
+      "city": "Kenton",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-16T21:25:38.918072+00:00"
+    },
+    {
+      "store_number": "040463",
+      "store_name": "Taco Bell",
+      "city": "Trenton",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-16T21:24:40.749112+00:00"
+    },
+    {
+      "store_number": "041411",
+      "store_name": "Taco Bell",
+      "city": "Kalkaska",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-16T21:24:36.626427+00:00"
+    },
     {
       "store_number": "033013",
       "store_name": "Taco Bell",
@@ -14883,8 +14932,8 @@
     }
   ],
   "activity_summary": {
-    "added": 792,
-    "removed": 662,
+    "added": 794,
+    "removed": 665,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14930,30 +14979,12 @@
       "MI"
     ],
     [
-      "041411",
-      44.73998699008798,
-      -85.17393314605478,
-      4.99,
-      "Taco Bell",
-      "Kalkaska",
-      "MI"
-    ],
-    [
       "041173",
       43.62344028211003,
       -83.94035291969547,
       4.99,
       "Taco Bell",
       "Bay City",
-      "MI"
-    ],
-    [
-      "040463",
-      42.12725380858466,
-      -83.20273352527417,
-      4.99,
-      "Taco Bell",
-      "Trenton",
       "MI"
     ],
     [
@@ -15506,15 +15537,6 @@
       "MI"
     ],
     [
-      "031087",
-      40.650681714052986,
-      -83.59369665384293,
-      4.99,
-      "Taco Bell",
-      "Kenton",
-      "OH"
-    ],
-    [
       "030678",
       41.1426653797082,
       -80.16387377680985,
@@ -15531,6 +15553,15 @@
       "Taco Bell",
       "Youngstown",
       "OH"
+    ],
+    [
+      "042621",
+      44.76379966169099,
+      -85.60430386665757,
+      4.99,
+      "Taco Bell",
+      "Traverse City",
+      "MI"
     ],
     [
       "020299",
@@ -16037,6 +16068,15 @@
       "OH"
     ],
     [
+      "042629",
+      44.73309011695499,
+      -85.60448437929153,
+      4.99,
+      "Taco Bell",
+      "Traverse City",
+      "MI"
+    ],
+    [
       "042636",
       42.96980078904264,
       -85.64359773456188,
@@ -16056,6 +16096,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-15",
+  "last_seen_date": "2026-05-16",
   "peak_availability_pct": 7.0
 }

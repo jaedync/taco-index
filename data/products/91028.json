@@ -13,19 +13,19 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 6.2,
+  "availability_pct": 6.1,
   "price_stats": {
     "avg": 5.93,
     "min": 3.39,
     "max": 6.99,
     "median": 5.89,
-    "std_dev": 0.43,
-    "store_count": 475
+    "std_dev": 0.45,
+    "store_count": 473
   },
   "histogram": [
     {
       "bucket": "$3.39",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$3.59",
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$5.69",
-      "count": 40
+      "count": 39
     },
     {
       "bucket": "$5.79",
@@ -65,11 +65,11 @@
     },
     {
       "bucket": "$5.89",
-      "count": 59
+      "count": 60
     },
     {
       "bucket": "$5.99",
-      "count": 77
+      "count": 74
     },
     {
       "bucket": "$6.19",
@@ -111,8 +111,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.05,
-      "store_count": 229
+      "avg_price": 6.04,
+      "store_count": 227
     },
     {
       "state": "SC",
@@ -154,6 +154,13 @@
       "store_number": "042903",
       "name": "Taco Bell",
       "city": "Baxley",
+      "state": "GA",
+      "price": 3.39
+    },
+    {
+      "store_number": "042881",
+      "name": "Taco Bell",
+      "city": "Jesup",
       "state": "GA",
       "price": 3.39
     },
@@ -212,17 +219,11 @@
       "city": "Fort Valley",
       "state": "GA",
       "price": 4.79
-    },
-    {
-      "store_number": "026342",
-      "name": "Taco Bell",
-      "city": "Lawrenceville",
-      "state": "GA",
-      "price": 4.89
     }
   ],
   "min_price_store_numbers": [
-    "042903"
+    "042903",
+    "042881"
   ],
   "priciest_stores": [
     {
@@ -297,6 +298,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042881",
+      "store_name": "Taco Bell",
+      "city": "Jesup",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-05-16T21:27:55.650248+00:00"
+    },
+    {
+      "store_number": "041215",
+      "store_name": "Taco Bell",
+      "city": "Forest Park",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-05-16T21:26:38.557720+00:00"
+    },
+    {
+      "store_number": "030463",
+      "store_name": "Taco Bell",
+      "city": "Atmore",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.89,
+      "observed_at": "2026-05-16T21:26:15.272962+00:00"
+    },
+    {
+      "store_number": "018678",
+      "store_name": "Taco Bell",
+      "city": "Adairsville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-05-16T21:25:49.797178+00:00"
+    },
+    {
+      "store_number": "017019",
+      "store_name": "Taco Bell",
+      "city": "Trenton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-05-16T21:25:26.544911+00:00"
+    },
+    {
+      "store_number": "035455",
+      "store_name": "Taco Bell",
+      "city": "Pinson",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.69,
+      "new_price": null,
+      "observed_at": "2026-05-16T21:25:02.161817+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -9419,8 +9480,8 @@
     }
   ],
   "activity_summary": {
-    "added": 551,
-    "removed": 76,
+    "added": 553,
+    "removed": 80,
     "price_changed": 285,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9436,6 +9497,15 @@
       3.39,
       "Taco Bell",
       "Baxley",
+      "GA"
+    ],
+    [
+      "042881",
+      31.616911784903458,
+      -81.87382091583459,
+      3.39,
+      "Taco Bell",
+      "Jesup",
       "GA"
     ],
     [
@@ -9913,15 +9983,6 @@
       5.69,
       "Taco Bell",
       "Alabaster",
-      "AL"
-    ],
-    [
-      "035455",
-      33.69690488411811,
-      -86.60679751521161,
-      5.69,
-      "Taco Bell",
-      "Pinson",
       "AL"
     ],
     [
@@ -11743,6 +11804,15 @@
       "AL"
     ],
     [
+      "030463",
+      31.105415984250854,
+      -87.47651986779147,
+      5.89,
+      "Taco Bell",
+      "Atmore",
+      "AL"
+    ],
+    [
       "036485",
       32.36012088788699,
       -86.21740935137495,
@@ -12112,15 +12182,6 @@
       "TN"
     ],
     [
-      "017019",
-      34.86999408056037,
-      -85.51889202302894,
-      5.99,
-      "Taco Bell",
-      "Trenton",
-      "GA"
-    ],
-    [
       "040957",
       35.10588277807757,
       -84.00896564126015,
@@ -12190,15 +12251,6 @@
       5.99,
       "Taco Bell",
       "Jonesboro",
-      "GA"
-    ],
-    [
-      "018678",
-      34.3775198836826,
-      -84.91573466801924,
-      5.99,
-      "Taco Bell",
-      "Adairsville",
       "GA"
     ],
     [
@@ -12326,15 +12378,6 @@
       "Taco Bell",
       "Knoxville",
       "TN"
-    ],
-    [
-      "041215",
-      33.63273927958397,
-      -84.35817197780125,
-      5.99,
-      "Taco Bell",
-      "Forest Park",
-      "GA"
     ],
     [
       "043134",
@@ -13706,6 +13749,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-15",
+  "last_seen_date": "2026-05-16",
   "peak_availability_pct": 5.9
 }
