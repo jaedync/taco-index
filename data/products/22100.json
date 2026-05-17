@@ -26,7 +26,7 @@
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$1.59",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4348
+      "count": 4347
     },
     {
       "bucket": "$2.00",
@@ -242,14 +242,14 @@
       "store_count": 49
     },
     {
-      "state": "IL",
-      "avg_price": 2.06,
-      "store_count": 289
-    },
-    {
       "state": "PA",
       "avg_price": 2.06,
       "store_count": 202
+    },
+    {
+      "state": "IL",
+      "avg_price": 2.06,
+      "store_count": 289
     },
     {
       "state": "NV",
@@ -433,6 +433,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "040318",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 0.99
+    },
+    {
       "store_number": "003056",
       "name": "Taco Bell",
       "city": "Whittier",
@@ -494,16 +501,10 @@
       "city": "Wyoming",
       "state": "MI",
       "price": 1.69
-    },
-    {
-      "store_number": "034828",
-      "name": "Taco Bell",
-      "city": "Battle Creek",
-      "state": "MI",
-      "price": 1.69
     }
   ],
   "min_price_store_numbers": [
+    "040318",
     "003056"
   ],
   "priciest_stores": [
@@ -579,6 +580,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040318",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-05-17T21:10:40.439356+00:00"
+    },
     {
       "store_number": "042567",
       "store_name": "Taco Bell",
@@ -3773,7 +3784,7 @@
   "activity_summary": {
     "added": 60,
     "removed": 42,
-    "price_changed": 217,
+    "price_changed": 218,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 170,
@@ -3781,6 +3792,15 @@
   "calories_max": 170,
   "combo_groups": [],
   "map_data": [
+    [
+      "040318",
+      41.807919921888036,
+      -87.74351908680534,
+      0.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
     [
       "003056",
       33.98985419924158,
@@ -18855,15 +18875,6 @@
       "Taco Bell",
       "Little Rock",
       "AR"
-    ],
-    [
-      "040318",
-      41.807919921888036,
-      -87.74351908680534,
-      1.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
     ],
     [
       "041646",

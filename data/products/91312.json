@@ -19,9 +19,9 @@
     "avg": 2.67,
     "min": 2.49,
     "max": 3.49,
-    "median": 2.69,
+    "median": 2.49,
     "std_dev": 0.23,
-    "store_count": 125
+    "store_count": 123
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 26
+      "count": 24
     },
     {
       "bucket": "$3.49",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 2.73,
-      "store_count": 64
+      "avg_price": 2.72,
+      "store_count": 63
     },
     {
       "state": "FL",
@@ -53,14 +53,14 @@
       "store_count": 8
     },
     {
-      "state": "TN",
-      "avg_price": 2.63,
-      "store_count": 14
-    },
-    {
       "state": "AL",
       "avg_price": 2.6,
       "store_count": 36
+    },
+    {
+      "state": "TN",
+      "avg_price": 2.6,
+      "store_count": 13
     }
   ],
   "nutrition": {
@@ -286,6 +286,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041320",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-17T21:11:59.565055+00:00"
+    },
+    {
+      "store_number": "042757",
+      "store_name": "Taco Bell",
+      "city": "Hixson",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-17T21:11:29.898220+00:00"
+    },
     {
       "store_number": "039931",
       "store_name": "Taco Bell",
@@ -10059,7 +10079,7 @@
   ],
   "activity_summary": {
     "added": 551,
-    "removed": 426,
+    "removed": 428,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10978,15 +10998,6 @@
       "GA"
     ],
     [
-      "042757",
-      35.145861060871006,
-      -85.22342479386576,
-      2.99,
-      "Taco Bell",
-      "Hixson",
-      "TN"
-    ],
-    [
       "037153",
       33.368,
       -87.0048,
@@ -11021,15 +11032,6 @@
       "Taco Bell",
       "Kimball",
       "TN"
-    ],
-    [
-      "041320",
-      33.98718766651088,
-      -83.98494833474453,
-      2.99,
-      "Taco Bell",
-      "Lawrenceville",
-      "GA"
     ],
     [
       "039939",
@@ -11195,6 +11197,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-16",
+  "last_seen_date": "2026-05-17",
   "peak_availability_pct": 5.9
 }

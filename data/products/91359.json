@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.7,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.02,
   "first_seen_at": "2026-04-16T21:05:38.080670+00:00",
   "availability_pct": 0.6,
   "price_stats": {
-    "avg": 10.76,
+    "avg": 10.75,
     "min": 0.0,
     "max": 10.99,
     "median": 10.99,
-    "std_dev": 1.6,
-    "store_count": 47
+    "std_dev": 1.64,
+    "store_count": 45
   },
   "histogram": [
     {
@@ -30,14 +30,14 @@
     },
     {
       "bucket": "$10.99",
-      "count": 46
+      "count": 44
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 10.99,
-      "store_count": 46
+      "store_count": 44
     }
   ],
   "nutrition": {
@@ -131,13 +131,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "041105",
-      "name": "Taco Bell",
-      "city": "Jefferson",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "039623",
       "name": "Taco Bell",
       "city": "Cartersville",
@@ -199,9 +192,36 @@
       "city": "Madison",
       "state": "GA",
       "price": 10.99
+    },
+    {
+      "store_number": "004371",
+      "name": "Taco Bell",
+      "city": "Rome",
+      "state": "GA",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042585",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-17T21:12:01.298950+00:00"
+    },
+    {
+      "store_number": "041105",
+      "store_name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-17T21:10:41.028949+00:00"
+    },
     {
       "store_number": "042572",
       "store_name": "Taco Bell",
@@ -2055,7 +2075,7 @@
   ],
   "activity_summary": {
     "added": 116,
-    "removed": 69,
+    "removed": 71,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2225,15 +2245,6 @@
       10.99,
       "Taco Bell",
       "Atlanta",
-      "GA"
-    ],
-    [
-      "042585",
-      34.01047868053667,
-      -84.7536712245369,
-      10.99,
-      "Taco Bell",
-      "Dallas",
       "GA"
     ],
     [
@@ -2514,18 +2525,9 @@
       "Taco Bell",
       "Cartersville",
       "GA"
-    ],
-    [
-      "041105",
-      34.123606790741,
-      -83.60452047516594,
-      10.99,
-      "Taco Bell",
-      "Jefferson",
-      "GA"
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-16",
+  "last_seen_date": "2026-05-17",
   "peak_availability_pct": 0.7
 }

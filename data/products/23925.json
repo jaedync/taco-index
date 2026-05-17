@@ -102,6 +102,13 @@
       "price": 4.99
     },
     {
+      "store_number": "040463",
+      "name": "Taco Bell",
+      "city": "Trenton",
+      "state": "MI",
+      "price": 4.99
+    },
+    {
       "store_number": "041372",
       "name": "Taco Bell",
       "city": "Grafton",
@@ -128,13 +135,6 @@
       "city": "Conneaut",
       "state": "OH",
       "price": 4.99
-    },
-    {
-      "store_number": "041987",
-      "name": "Taco Bell",
-      "city": "Painesville",
-      "state": "OH",
-      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
@@ -143,6 +143,7 @@
     "040955",
     "041027",
     "041173",
+    "040463",
     "041372",
     "035453",
     "040990",
@@ -181,7 +182,6 @@
     "026083",
     "030660",
     "028400",
-    "003190",
     "002147",
     "022444",
     "040657",
@@ -340,6 +340,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003190",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-17T21:11:49.918098+00:00"
+    },
+    {
+      "store_number": "040463",
+      "store_name": "Taco Bell",
+      "city": "Trenton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-17T21:10:40.720378+00:00"
+    },
     {
       "store_number": "042629",
       "store_name": "Taco Bell",
@@ -14932,8 +14952,8 @@
     }
   ],
   "activity_summary": {
-    "added": 794,
-    "removed": 665,
+    "added": 795,
+    "removed": 666,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14985,6 +15005,15 @@
       4.99,
       "Taco Bell",
       "Bay City",
+      "MI"
+    ],
+    [
+      "040463",
+      42.12725380858466,
+      -83.20273352527417,
+      4.99,
+      "Taco Bell",
+      "Trenton",
       "MI"
     ],
     [
@@ -15328,15 +15357,6 @@
       "Taco Bell",
       "Akron",
       "OH"
-    ],
-    [
-      "003190",
-      42.48379808690309,
-      -82.94468663168573,
-      4.99,
-      "Taco Bell",
-      "Roseville",
-      "MI"
     ],
     [
       "002147",
@@ -16096,6 +16116,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-16",
+  "last_seen_date": "2026-05-17",
   "peak_availability_pct": 7.0
 }
