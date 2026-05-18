@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.3,
-  "recent_price_change_pct": -0.0234,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 2.67,
+    "avg": 2.66,
     "min": 2.39,
     "max": 2.89,
     "median": 2.79,
     "std_dev": 0.17,
-    "store_count": 26
+    "store_count": 25
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 13
+      "count": 12
     },
     {
       "bucket": "$2.89",
@@ -52,8 +52,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 2.75,
-      "store_count": 7
+      "avg_price": 2.74,
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -213,14 +213,24 @@
       "price": 2.79
     },
     {
-      "store_number": "029404",
+      "store_number": "023838",
       "name": "Taco Bell",
-      "city": "Garner",
-      "state": "NC",
+      "city": "Albuquerque",
+      "state": "NM",
       "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029404",
+      "store_name": "Taco Bell",
+      "city": "Garner",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:16:29.399357+00:00"
+    },
     {
       "store_number": "031389",
       "store_name": "Taco Bell / KFC",
@@ -714,7 +724,7 @@
   ],
   "activity_summary": {
     "added": 37,
-    "removed": 11,
+    "removed": 12,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -881,15 +891,6 @@
       "NM"
     ],
     [
-      "029404",
-      35.60550043842093,
-      -78.56779754161835,
-      2.79,
-      "Taco Bell",
-      "Garner",
-      "NC"
-    ],
-    [
       "041398",
       36.29845084379178,
       -78.58481152503262,
@@ -972,6 +973,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-17",
+  "last_seen_date": "2026-05-18",
   "peak_availability_pct": 0.3
 }

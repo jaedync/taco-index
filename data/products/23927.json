@@ -21,19 +21,19 @@
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 39
+    "store_count": 37
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 39
+      "count": 37
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 39
+      "store_count": 37
     }
   ],
   "nutrition": {
@@ -143,13 +143,10 @@
     "031393",
     "033312",
     "001738",
-    "041875",
     "024150",
-    "024651",
     "002681",
     "021521",
     "024653",
-    "033316",
     "033301",
     "040006",
     "024658",
@@ -158,6 +155,7 @@
     "002440",
     "040464",
     "030922",
+    "024449",
     "040700",
     "040164",
     "040608",
@@ -189,6 +187,13 @@
       "store_number": "040700",
       "name": "Taco Bell",
       "city": "Marlette",
+      "state": "MI",
+      "price": 5.49
+    },
+    {
+      "store_number": "024449",
+      "name": "Taco Bell",
+      "city": "Detroit",
       "state": "MI",
       "price": 5.49
     },
@@ -226,16 +231,49 @@
       "city": "Imlay City",
       "state": "MI",
       "price": 5.49
-    },
-    {
-      "store_number": "024658",
-      "name": "Taco Bell",
-      "city": "Richmond",
-      "state": "MI",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024449",
+      "store_name": "Taco Bell",
+      "city": "Detroit",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-05-18T21:17:36.862347+00:00"
+    },
+    {
+      "store_number": "033316",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:15:47.601942+00:00"
+    },
+    {
+      "store_number": "024651",
+      "store_name": "Taco Bell",
+      "city": "Warren",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:15:43.973549+00:00"
+    },
+    {
+      "store_number": "041875",
+      "store_name": "Taco Bell",
+      "city": "Fort Gratiot",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:15:43.293068+00:00"
+    },
     {
       "store_number": "037840",
       "store_name": "Taco Bell",
@@ -1408,8 +1446,8 @@
     }
   ],
   "activity_summary": {
-    "added": 78,
-    "removed": 39,
+    "added": 79,
+    "removed": 42,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1612,30 +1650,12 @@
       "MI"
     ],
     [
-      "041875",
-      43.02456381414757,
-      -82.45632998180554,
-      5.49,
-      "Taco Bell",
-      "Fort Gratiot",
-      "MI"
-    ],
-    [
       "024150",
       42.594206469177095,
       -83.09059249092847,
       5.49,
       "Taco Bell",
       "Troy",
-      "MI"
-    ],
-    [
-      "024651",
-      42.44788925187269,
-      -83.06339703035519,
-      5.49,
-      "Taco Bell",
-      "Warren",
       "MI"
     ],
     [
@@ -1663,15 +1683,6 @@
       5.49,
       "Taco Bell",
       "Macomb",
-      "MI"
-    ],
-    [
-      "033316",
-      42.709640520946245,
-      -83.30659079290703,
-      5.49,
-      "Taco Bell",
-      "Lake Orion",
       "MI"
     ],
     [
@@ -1744,6 +1755,15 @@
       5.49,
       "Taco Bell",
       "Chesterfield",
+      "MI"
+    ],
+    [
+      "024449",
+      42.416237399123474,
+      -83.20122738184182,
+      5.49,
+      "Taco Bell",
+      "Detroit",
       "MI"
     ],
     [

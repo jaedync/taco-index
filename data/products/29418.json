@@ -16,21 +16,21 @@
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 10.99,
+    "avg": 10.95,
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.87,
+    "std_dev": 0.89,
     "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$10.99",
-      "count": 13
+      "count": 12
     },
     {
       "bucket": "$11.99",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 10.88,
-      "store_count": 9
+      "avg_price": 10.87,
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -113,6 +113,13 @@
       "price": 9.99
     },
     {
+      "store_number": "041321",
+      "name": "Taco Bell",
+      "city": "Grayson",
+      "state": "GA",
+      "price": 9.99
+    },
+    {
       "store_number": "029536",
       "name": "Taco Bell / KFC",
       "city": "Miami",
@@ -125,13 +132,6 @@
       "city": "South Hill",
       "state": "VA",
       "price": 10.99
-    },
-    {
-      "store_number": "024051",
-      "name": "Taco Bell",
-      "city": "Albuquerque",
-      "state": "NM",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -141,7 +141,8 @@
     "039755",
     "021493",
     "031389",
-    "024033"
+    "024033",
+    "041321"
   ],
   "priciest_stores": [
     {
@@ -216,6 +217,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041321",
+      "store_name": "Taco Bell",
+      "city": "Grayson",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-05-18T21:17:23.156651+00:00"
+    },
+    {
+      "store_number": "029404",
+      "store_name": "Taco Bell",
+      "city": "Garner",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:16:29.399357+00:00"
+    },
     {
       "store_number": "038897",
       "store_name": "Taco Bell",
@@ -748,8 +769,8 @@
     }
   ],
   "activity_summary": {
-    "added": 37,
-    "removed": 12,
+    "added": 38,
+    "removed": 13,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -859,6 +880,15 @@
       "MI"
     ],
     [
+      "041321",
+      33.89951093273385,
+      -83.96198987746997,
+      9.99,
+      "Taco Bell",
+      "Grayson",
+      "GA"
+    ],
+    [
       "029536",
       25.770179973965377,
       -80.33099986148045,
@@ -893,15 +923,6 @@
       "Taco Bell",
       "Albuquerque",
       "NM"
-    ],
-    [
-      "029404",
-      35.60550043842093,
-      -78.56779754161835,
-      10.99,
-      "Taco Bell",
-      "Garner",
-      "NC"
     ],
     [
       "041398",
@@ -1022,6 +1043,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-17",
+  "last_seen_date": "2026-05-18",
   "peak_availability_pct": 0.4
 }

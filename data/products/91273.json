@@ -19,9 +19,9 @@
     "avg": 9.76,
     "min": 8.99,
     "max": 11.99,
-    "median": 9.74,
-    "std_dev": 0.41,
-    "store_count": 486
+    "median": 9.69,
+    "std_dev": 0.42,
+    "store_count": 483
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$9.69",
-      "count": 79
+      "count": 78
     },
     {
       "bucket": "$9.79",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 71
+      "count": 69
     },
     {
       "bucket": "$10.19",
@@ -92,13 +92,13 @@
   "state_prices": [
     {
       "state": "SC",
-      "avg_price": 9.91,
-      "store_count": 8
+      "avg_price": 9.9,
+      "store_count": 7
     },
     {
       "state": "GA",
       "avg_price": 9.79,
-      "store_count": 238
+      "store_count": 237
     },
     {
       "state": "AL",
@@ -108,7 +108,7 @@
     {
       "state": "TN",
       "avg_price": 9.68,
-      "store_count": 87
+      "store_count": 86
     },
     {
       "state": "FL",
@@ -309,6 +309,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042123",
+      "store_name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.29,
+      "observed_at": "2026-05-18T21:18:17.044196+00:00"
+    },
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:17:14.624758+00:00"
+    },
+    {
+      "store_number": "042122",
+      "store_name": "Taco Bell",
+      "city": "Destin",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.29,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:16:32.535632+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:16:15.992263+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.69,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:16:11.419669+00:00"
+    },
     {
       "store_number": "002163",
       "store_name": "Taco Bell",
@@ -8991,8 +9041,8 @@
     }
   ],
   "activity_summary": {
-    "added": 514,
-    "removed": 28,
+    "added": 515,
+    "removed": 32,
     "price_changed": 326,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9534,15 +9584,6 @@
       "FL"
     ],
     [
-      "042122",
-      30.393123641742402,
-      -86.49879455566406,
-      9.29,
-      "Taco Bell",
-      "Destin",
-      "FL"
-    ],
-    [
       "042131",
       30.767906318510807,
       -85.20436853170395,
@@ -9573,6 +9614,15 @@
       "042124",
       30.522978445511598,
       -86.49525940418243,
+      9.29,
+      "Taco Bell",
+      "Niceville",
+      "FL"
+    ],
+    [
+      "042123",
+      30.48259156216648,
+      -86.41599865257577,
       9.29,
       "Taco Bell",
       "Niceville",
@@ -10882,15 +10932,6 @@
       "Taco Bell",
       "Columbus",
       "GA"
-    ],
-    [
-      "016335",
-      35.810910605655216,
-      -84.26391898537986,
-      9.69,
-      "Taco Bell",
-      "Lenoir City",
-      "TN"
     ],
     [
       "004789",
@@ -12279,15 +12320,6 @@
       "GA"
     ],
     [
-      "041249",
-      33.96647033026141,
-      -84.010348240854,
-      9.99,
-      "Taco Bell",
-      "Lawrenceville",
-      "GA"
-    ],
-    [
       "041319",
       34.17765211148667,
       -84.42180990125053,
@@ -12727,15 +12759,6 @@
       "Taco Bell",
       "Athens",
       "GA"
-    ],
-    [
-      "031583",
-      32.42953531961479,
-      -80.71891911656758,
-      9.99,
-      "Taco Bell",
-      "Beaufort",
-      "SC"
     ],
     [
       "002863",
@@ -13414,6 +13437,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-17",
+  "last_seen_date": "2026-05-18",
   "peak_availability_pct": 5.9
 }

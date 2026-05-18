@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:09.662285+00:00",
   "availability_pct": 1.1,
   "price_stats": {
-    "avg": 7.34,
+    "avg": 7.36,
     "min": 5.79,
     "max": 8.49,
     "median": 7.49,
-    "std_dev": 0.59,
-    "store_count": 84
+    "std_dev": 0.6,
+    "store_count": 87
   },
   "histogram": [
     {
@@ -44,6 +44,10 @@
       "count": 28
     },
     {
+      "bucket": "$7.19",
+      "count": 1
+    },
+    {
       "bucket": "$7.39",
       "count": 4
     },
@@ -65,18 +69,18 @@
     },
     {
       "bucket": "$7.99",
-      "count": 10
+      "count": 11
     },
     {
       "bucket": "$8.49",
-      "count": 4
+      "count": 5
     }
   ],
   "state_prices": [
     {
       "state": "TN",
       "avg_price": 7.58,
-      "store_count": 14
+      "store_count": 16
     },
     {
       "state": "GA",
@@ -167,6 +171,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "040957",
+      "name": "Taco Bell",
+      "city": "Murphy",
+      "state": "NC",
+      "price": 8.49
+    },
+    {
       "store_number": "023742",
       "name": "Taco Bell",
       "city": "Carrollton",
@@ -228,16 +239,39 @@
       "city": "Kennesaw",
       "state": "GA",
       "price": 7.99
-    },
-    {
-      "store_number": "016498",
-      "name": "Taco Bell",
-      "city": "Knoxville",
-      "state": "TN",
-      "price": 7.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.19,
+      "observed_at": "2026-05-18T21:17:07.711071+00:00"
+    },
+    {
+      "store_number": "040957",
+      "store_name": "Taco Bell",
+      "city": "Murphy",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.49,
+      "observed_at": "2026-05-18T21:15:23.670699+00:00"
+    },
+    {
+      "store_number": "035461",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-05-18T21:14:32.056448+00:00"
+    },
     {
       "store_number": "030359",
       "store_name": "Taco Bell",
@@ -1340,7 +1374,7 @@
     }
   ],
   "activity_summary": {
-    "added": 97,
+    "added": 100,
     "removed": 13,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1703,6 +1737,15 @@
       "GA"
     ],
     [
+      "030359",
+      35.71724098570292,
+      -84.01247182491716,
+      7.19,
+      "Taco Bell",
+      "Maryville",
+      "TN"
+    ],
+    [
       "009575",
       35.92910610401162,
       -84.03315244256207,
@@ -2009,6 +2052,15 @@
       "GA"
     ],
     [
+      "035461",
+      35.75640600000001,
+      -83.9419497,
+      7.99,
+      "Taco Bell",
+      "Maryville",
+      "TN"
+    ],
+    [
       "026044",
       35.75195423417623,
       -83.9964301791224,
@@ -2124,9 +2176,18 @@
       "Taco Bell",
       "Carrollton",
       "GA"
+    ],
+    [
+      "040957",
+      35.10588277807757,
+      -84.00896564126015,
+      8.49,
+      "Taco Bell",
+      "Murphy",
+      "NC"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-17",
+  "last_seen_date": "2026-05-18",
   "peak_availability_pct": 1.1
 }

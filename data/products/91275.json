@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.2,
-  "recent_price_change_pct": 0.0229,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.28,
+    "avg": 10.27,
     "min": 9.99,
     "max": 10.69,
     "median": 10.29,
-    "std_dev": 0.16,
-    "store_count": 14
+    "std_dev": 0.15,
+    "store_count": 13
   },
   "histogram": [
     {
@@ -35,10 +35,6 @@
     {
       "bucket": "$10.29",
       "count": 7
-    },
-    {
-      "bucket": "$10.49",
-      "count": 1
     },
     {
       "bucket": "$10.69",
@@ -150,13 +146,6 @@
       "price": 10.69
     },
     {
-      "store_number": "030359",
-      "name": "Taco Bell",
-      "city": "Maryville",
-      "state": "TN",
-      "price": 10.49
-    },
-    {
       "store_number": "036483",
       "name": "Taco Bell",
       "city": "Prattville",
@@ -211,9 +200,26 @@
       "city": "Montgomery",
       "state": "AL",
       "price": 10.19
+    },
+    {
+      "store_number": "036482",
+      "name": "Taco Bell",
+      "city": "Montgomery",
+      "state": "AL",
+      "price": 10.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 10.49,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:17:07.711071+00:00"
+    },
     {
       "store_number": "040783",
       "store_name": "Taco Bell",
@@ -797,7 +803,7 @@
   ],
   "activity_summary": {
     "added": 36,
-    "removed": 22,
+    "removed": 23,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -946,15 +952,6 @@
       "AL"
     ],
     [
-      "030359",
-      35.71724098570292,
-      -84.01247182491716,
-      10.49,
-      "Taco Bell",
-      "Maryville",
-      "TN"
-    ],
-    [
       "031389",
       33.352032936024656,
       -84.120770439522,
@@ -965,6 +962,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-17",
+  "last_seen_date": "2026-05-18",
   "peak_availability_pct": 0.2
 }

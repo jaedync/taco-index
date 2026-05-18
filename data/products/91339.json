@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:04.043083+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.39,
+    "avg": 5.4,
     "min": 4.99,
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.2,
-    "store_count": 21
+    "store_count": 22
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$5.49",
-      "count": 17
+      "count": 18
     }
   ],
   "state_prices": [
@@ -134,6 +134,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "040967",
+      "name": "Taco Bell",
+      "city": "Sylva",
+      "state": "NC",
+      "price": 5.49
+    },
+    {
       "store_number": "042579",
       "name": "Taco Bell",
       "city": "Braselton",
@@ -195,16 +202,19 @@
       "city": "Auburn",
       "state": "AL",
       "price": 5.49
-    },
-    {
-      "store_number": "002167",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040967",
+      "store_name": "Taco Bell",
+      "city": "Sylva",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-05-18T21:16:46.849969+00:00"
+    },
     {
       "store_number": "041739",
       "store_name": "Taco Bell",
@@ -1157,7 +1167,7 @@
     }
   ],
   "activity_summary": {
-    "added": 45,
+    "added": 46,
     "removed": 50,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1355,6 +1365,15 @@
       "Taco Bell",
       "Braselton",
       "GA"
+    ],
+    [
+      "040967",
+      35.37256754318715,
+      -83.20724665070884,
+      5.49,
+      "Taco Bell",
+      "Sylva",
+      "NC"
     ]
   ],
   "retired_at": null,

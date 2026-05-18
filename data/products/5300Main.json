@@ -12,37 +12,37 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": 0.0422,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 4.76,
+    "avg": 4.7,
     "min": 4.19,
     "max": 4.99,
     "median": 4.99,
-    "std_dev": 0.37,
-    "store_count": 24
+    "std_dev": 0.39,
+    "store_count": 22
   },
   "histogram": [
     {
       "bucket": "$4.19",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$4.99",
-      "count": 17
+      "count": 14
     }
   ],
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.89,
-      "store_count": 16
+      "avg_price": 4.87,
+      "store_count": 13
     },
     {
       "state": "TX",
       "avg_price": 4.19,
-      "store_count": 5
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -78,6 +78,13 @@
       "store_number": "002981",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Watauga",
+      "state": "TX",
+      "price": 4.19
+    },
+    {
+      "store_number": "001089",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Dallas",
       "state": "TX",
       "price": 4.19
     },
@@ -122,19 +129,13 @@
       "city": "Las Vegas",
       "state": "NV",
       "price": 4.99
-    },
-    {
-      "store_number": "039811",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Palmdale",
-      "state": "CA",
-      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
     "009406",
     "021176",
     "002981",
+    "001089",
     "027505",
     "021196",
     "016276",
@@ -142,30 +143,9 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "041597",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "San Diego",
-      "state": "CA",
-      "price": 4.99
-    },
-    {
       "store_number": "039834",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Mira Loma",
-      "state": "CA",
-      "price": 4.99
-    },
-    {
-      "store_number": "039841",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Riverside",
-      "state": "CA",
-      "price": 4.99
-    },
-    {
-      "store_number": "041613",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Chula Vista",
       "state": "CA",
       "price": 4.99
     },
@@ -210,9 +190,70 @@
       "city": "Newhall",
       "state": "CA",
       "price": 4.99
+    },
+    {
+      "store_number": "041611",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "El Cajon",
+      "state": "CA",
+      "price": 4.99
+    },
+    {
+      "store_number": "039852",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Hemet",
+      "state": "CA",
+      "price": 4.99
+    },
+    {
+      "store_number": "041617",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Temecula",
+      "state": "CA",
+      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041597",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "San Diego",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:18:03.681073+00:00"
+    },
+    {
+      "store_number": "039841",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Riverside",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:17:45.680945+00:00"
+    },
+    {
+      "store_number": "041613",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Chula Vista",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:17:37.819934+00:00"
+    },
+    {
+      "store_number": "001089",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Dallas",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-05-18T21:16:29.341560+00:00"
+    },
     {
       "store_number": "039835",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -485,8 +526,8 @@
     }
   ],
   "activity_summary": {
-    "added": 6,
-    "removed": 20,
+    "added": 7,
+    "removed": 23,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -520,6 +561,15 @@
       4.19,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Watauga",
+      "TX"
+    ],
+    [
+      "001089",
+      32.83626582002558,
+      -96.77328680457322,
+      4.19,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Dallas",
       "TX"
     ],
     [
@@ -676,39 +726,12 @@
       "NV"
     ],
     [
-      "041613",
-      32.64483632374036,
-      -116.99737478794304,
-      4.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Chula Vista",
-      "CA"
-    ],
-    [
-      "039841",
-      33.97529500533722,
-      -117.34255380933973,
-      4.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Riverside",
-      "CA"
-    ],
-    [
       "039834",
       33.97485526499655,
       -117.55521027138457,
       4.99,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Mira Loma",
-      "CA"
-    ],
-    [
-      "041597",
-      32.97991222759036,
-      -117.07994344047877,
-      4.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "San Diego",
       "CA"
     ]
   ],

@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 9.32,
+    "avg": 9.35,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.78,
-    "store_count": 32
+    "std_dev": 0.81,
+    "store_count": 29
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 27
+      "count": 24
     },
     {
       "bucket": "$9.99",
@@ -40,13 +40,13 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.44,
-      "store_count": 23
+      "avg_price": 9.53,
+      "store_count": 19
     },
     {
       "state": "AL",
       "avg_price": 9.0,
-      "store_count": 6
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -128,9 +128,9 @@
       "price": 9.0
     },
     {
-      "store_number": "041243",
+      "store_number": "026073",
       "name": "Taco Bell",
-      "city": "Marietta",
+      "city": "Douglasville",
       "state": "GA",
       "price": 9.0
     }
@@ -145,14 +145,10 @@
     "041249",
     "039923",
     "039924",
-    "041243",
-    "002995",
     "026073",
     "037105",
-    "016289",
     "041837",
     "033643",
-    "041247",
     "002167",
     "003668",
     "029102",
@@ -162,7 +158,8 @@
     "037161",
     "016821",
     "027858",
-    "027509"
+    "027509",
+    "030272"
   ],
   "priciest_stores": [
     {
@@ -201,6 +198,13 @@
       "price": 9.99
     },
     {
+      "store_number": "030272",
+      "name": "Taco Bell",
+      "city": "Scottsboro",
+      "state": "AL",
+      "price": 9.0
+    },
+    {
       "store_number": "027509",
       "name": "Taco Bell",
       "city": "Covington",
@@ -227,16 +231,59 @@
       "city": "Albany",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "038735",
-      "name": "Taco Bell",
-      "city": "Grand Bay",
-      "state": "AL",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:17:00.063904+00:00"
+    },
+    {
+      "store_number": "041243",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:16:56.631839+00:00"
+    },
+    {
+      "store_number": "030272",
+      "store_name": "Taco Bell",
+      "city": "Scottsboro",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-18T21:16:54.489484+00:00"
+    },
+    {
+      "store_number": "041247",
+      "store_name": "Taco Bell",
+      "city": "Oakwood",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:16:47.930018+00:00"
+    },
+    {
+      "store_number": "016289",
+      "store_name": "Taco Bell",
+      "city": "College Park",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:16:32.504977+00:00"
+    },
     {
       "store_number": "041105",
       "store_name": "Taco Bell",
@@ -2239,8 +2286,8 @@
     }
   ],
   "activity_summary": {
-    "added": 86,
-    "removed": 114,
+    "added": 87,
+    "removed": 118,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2362,24 +2409,6 @@
       "GA"
     ],
     [
-      "041243",
-      34.02333279764089,
-      -84.52909384668487,
-      9.0,
-      "Taco Bell",
-      "Marietta",
-      "GA"
-    ],
-    [
-      "002995",
-      33.88866329031674,
-      -84.47492127122132,
-      9.0,
-      "Taco Bell",
-      "Smyrna",
-      "GA"
-    ],
-    [
       "026073",
       33.7517493624465,
       -84.72289301460478,
@@ -2398,15 +2427,6 @@
       "AL"
     ],
     [
-      "016289",
-      33.61549907748702,
-      -84.47322343291489,
-      9.0,
-      "Taco Bell",
-      "College Park",
-      "GA"
-    ],
-    [
       "041837",
       30.85502172223534,
       -83.94673973321909,
@@ -2423,15 +2443,6 @@
       "Taco Bell",
       "Hixson",
       "TN"
-    ],
-    [
-      "041247",
-      34.22726084330739,
-      -83.86797934770584,
-      9.0,
-      "Taco Bell",
-      "Oakwood",
-      "GA"
     ],
     [
       "002167",
@@ -2524,6 +2535,15 @@
       "GA"
     ],
     [
+      "030272",
+      34.648568120065626,
+      -86.03355829419343,
+      9.0,
+      "Taco Bell",
+      "Scottsboro",
+      "AL"
+    ],
+    [
       "042903",
       31.783928,
       -82.363196,
@@ -2570,6 +2590,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-17",
+  "last_seen_date": "2026-05-18",
   "peak_availability_pct": 1.1
 }

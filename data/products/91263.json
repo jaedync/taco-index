@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:09.662285+00:00",
   "availability_pct": 1.2,
   "price_stats": {
-    "avg": 4.75,
+    "avg": 4.76,
     "min": 3.39,
     "max": 5.89,
     "median": 4.89,
     "std_dev": 0.46,
-    "store_count": 90
+    "store_count": 92
   },
   "histogram": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "bucket": "$4.79",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$4.89",
@@ -62,6 +62,10 @@
     {
       "bucket": "$4.99",
       "count": 11
+    },
+    {
+      "bucket": "$5.29",
+      "count": 1
     },
     {
       "bucket": "$5.39",
@@ -83,8 +87,8 @@
   "state_prices": [
     {
       "state": "TN",
-      "avg_price": 4.9,
-      "store_count": 15
+      "avg_price": 4.91,
+      "store_count": 17
     },
     {
       "state": "GA",
@@ -259,6 +263,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.79,
+      "observed_at": "2026-05-18T21:17:07.711071+00:00"
+    },
+    {
+      "store_number": "035461",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.29,
+      "observed_at": "2026-05-18T21:14:32.056448+00:00"
+    },
     {
       "store_number": "030359",
       "store_name": "Taco Bell",
@@ -1361,7 +1385,7 @@
     }
   ],
   "activity_summary": {
-    "added": 100,
+    "added": 102,
     "removed": 10,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1693,6 +1717,15 @@
       4.79,
       "Taco Bell",
       "Alcoa",
+      "TN"
+    ],
+    [
+      "030359",
+      35.71724098570292,
+      -84.01247182491716,
+      4.79,
+      "Taco Bell",
+      "Maryville",
       "TN"
     ],
     [
@@ -2074,6 +2107,15 @@
       "TN"
     ],
     [
+      "035461",
+      35.75640600000001,
+      -83.9419497,
+      5.29,
+      "Taco Bell",
+      "Maryville",
+      "TN"
+    ],
+    [
       "040957",
       35.10588277807757,
       -84.00896564126015,
@@ -2183,6 +2225,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-17",
+  "last_seen_date": "2026-05-18",
   "peak_availability_pct": 1.1
 }

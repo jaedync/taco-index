@@ -14,14 +14,14 @@
   "peak_30d_pct": 6.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 6.4,
+  "availability_pct": 6.3,
   "price_stats": {
     "avg": 8.64,
     "min": 7.69,
     "max": 10.49,
     "median": 8.59,
     "std_dev": 0.49,
-    "store_count": 491
+    "store_count": 487
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$8.19",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$8.29",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$8.49",
-      "count": 82
+      "count": 80
     },
     {
       "bucket": "$8.59",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$8.99",
-      "count": 42
+      "count": 41
     },
     {
       "bucket": "$9.59",
@@ -93,7 +93,12 @@
     {
       "state": "GA",
       "avg_price": 8.81,
-      "store_count": 240
+      "store_count": 238
+    },
+    {
+      "state": "SC",
+      "avg_price": 8.59,
+      "store_count": 7
     },
     {
       "state": "AL",
@@ -101,14 +106,9 @@
       "store_count": 121
     },
     {
-      "state": "SC",
-      "avg_price": 8.54,
-      "store_count": 8
-    },
-    {
       "state": "TN",
       "avg_price": 8.49,
-      "store_count": 87
+      "store_count": 86
     },
     {
       "state": "FL",
@@ -278,6 +278,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 8.19,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:17:14.624758+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:16:15.992263+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 8.49,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:16:11.419669+00:00"
+    },
+    {
+      "store_number": "039939",
+      "store_name": "Taco Bell",
+      "city": "McDonough",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 8.49,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:16:00.856665+00:00"
+    },
     {
       "store_number": "024747",
       "store_name": "Taco Bell / Pizza Hut",
@@ -8241,7 +8281,7 @@
   ],
   "activity_summary": {
     "added": 511,
-    "removed": 20,
+    "removed": 24,
     "price_changed": 265,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8699,15 +8739,6 @@
       "034710",
       32.40781978657577,
       -80.63921262604607,
-      8.19,
-      "Taco Bell",
-      "Beaufort",
-      "SC"
-    ],
-    [
-      "031583",
-      32.42953531961479,
-      -80.71891911656758,
       8.19,
       "Taco Bell",
       "Beaufort",
@@ -9650,15 +9681,6 @@
       "GA"
     ],
     [
-      "039939",
-      33.439932231284864,
-      -84.12393116567614,
-      8.49,
-      "Taco Bell",
-      "McDonough",
-      "GA"
-    ],
-    [
       "029097",
       32.553512189214764,
       -84.94693011045456,
@@ -9675,15 +9697,6 @@
       "Taco Bell",
       "Griffin",
       "GA"
-    ],
-    [
-      "016335",
-      35.810910605655216,
-      -84.26391898537986,
-      8.49,
-      "Taco Bell",
-      "Lenoir City",
-      "TN"
     ],
     [
       "043141",
@@ -12143,15 +12156,6 @@
       "GA"
     ],
     [
-      "041249",
-      33.96647033026141,
-      -84.010348240854,
-      8.99,
-      "Taco Bell",
-      "Lawrenceville",
-      "GA"
-    ],
-    [
       "041319",
       34.17765211148667,
       -84.42180990125053,
@@ -12684,6 +12688,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-17",
+  "last_seen_date": "2026-05-18",
   "peak_availability_pct": 6.0
 }

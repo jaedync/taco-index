@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": 0.0863,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 4.09,
+    "avg": 4.07,
     "min": 3.59,
     "max": 4.29,
     "median": 4.29,
-    "std_dev": 0.28,
+    "std_dev": 0.29,
     "store_count": 24
   },
   "histogram": [
     {
       "bucket": "$3.59",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$3.69",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$4.09",
@@ -53,7 +53,7 @@
     },
     {
       "state": "TX",
-      "avg_price": 3.78,
+      "avg_price": 3.72,
       "store_count": 7
     }
   ],
@@ -76,6 +76,13 @@
       "store_number": "002981",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Watauga",
+      "state": "TX",
+      "price": 3.59
+    },
+    {
+      "store_number": "001089",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Dallas",
       "state": "TX",
       "price": 3.59
     },
@@ -129,13 +136,6 @@
       "price": 3.99
     },
     {
-      "store_number": "027489",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Mesquite",
-      "state": "TX",
-      "price": 3.99
-    },
-    {
       "store_number": "027505",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Irvine",
@@ -145,6 +145,7 @@
   ],
   "min_price_store_numbers": [
     "002981",
+    "001089",
     "021196",
     "016276",
     "027669"
@@ -222,6 +223,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027489",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mesquite",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:17:17.434919+00:00"
+    },
+    {
+      "store_number": "001089",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Dallas",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-05-18T21:16:29.341560+00:00"
+    },
     {
       "store_number": "039834",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -434,8 +455,8 @@
     }
   ],
   "activity_summary": {
-    "added": 9,
-    "removed": 12,
+    "added": 10,
+    "removed": 13,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -451,6 +472,15 @@
       3.59,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Watauga",
+      "TX"
+    ],
+    [
+      "001089",
+      32.83626582002558,
+      -96.77328680457322,
+      3.59,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Dallas",
       "TX"
     ],
     [
@@ -514,15 +544,6 @@
       3.99,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "La Porte",
-      "TX"
-    ],
-    [
-      "027489",
-      32.747273077266925,
-      -96.59862773926898,
-      3.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Mesquite",
       "TX"
     ],
     [

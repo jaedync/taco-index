@@ -21,19 +21,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 42
+    "store_count": 40
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 42
+      "count": 40
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 10.99,
-      "store_count": 41
+      "store_count": 39
     }
   ],
   "nutrition": null,
@@ -120,17 +120,14 @@
     "042107",
     "041400",
     "036290",
-    "042577",
     "042578",
     "003717",
     "026073",
     "003841",
-    "042574",
     "018166",
     "003779",
     "003648",
     "027711",
-    "004531",
     "030467",
     "031633",
     "024596",
@@ -146,6 +143,7 @@
     "023742",
     "042571",
     "004109",
+    "027506",
     "004317",
     "031473",
     "027554",
@@ -197,6 +195,13 @@
       "price": 10.99
     },
     {
+      "store_number": "027506",
+      "name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "GA",
+      "price": 10.99
+    },
+    {
       "store_number": "004109",
       "name": "Taco Bell",
       "city": "Conyers",
@@ -216,16 +221,49 @@
       "city": "Carrollton",
       "state": "GA",
       "price": 10.99
-    },
-    {
-      "store_number": "027599",
-      "name": "Taco Bell",
-      "city": "Madison",
-      "state": "GA",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027506",
+      "store_name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-18T21:17:43.503611+00:00"
+    },
+    {
+      "store_number": "004531",
+      "store_name": "Taco Bell",
+      "city": "Commerce",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:16:54.468669+00:00"
+    },
+    {
+      "store_number": "042574",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:16:37.627003+00:00"
+    },
+    {
+      "store_number": "042577",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:15:53.065243+00:00"
+    },
     {
       "store_number": "042585",
       "store_name": "Taco Bell",
@@ -1048,8 +1086,8 @@
     }
   ],
   "activity_summary": {
-    "added": 62,
-    "removed": 20,
+    "added": 63,
+    "removed": 23,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1180,15 +1218,6 @@
       "GA"
     ],
     [
-      "042577",
-      33.92625404412495,
-      -84.74611869194156,
-      10.99,
-      "Taco Bell",
-      "Dallas",
-      "GA"
-    ],
-    [
       "042578",
       33.78032506878061,
       -84.38918335266644,
@@ -1225,15 +1254,6 @@
       "GA"
     ],
     [
-      "042574",
-      33.910308019300345,
-      -84.82438392472432,
-      10.99,
-      "Taco Bell",
-      "Dallas",
-      "GA"
-    ],
-    [
       "018166",
       33.89149409475321,
       -84.75320756435389,
@@ -1267,15 +1287,6 @@
       10.99,
       "Taco Bell",
       "Kennesaw",
-      "GA"
-    ],
-    [
-      "004531",
-      34.25022228804311,
-      -83.46128860119279,
-      10.99,
-      "Taco Bell",
-      "Commerce",
       "GA"
     ],
     [
@@ -1414,6 +1425,15 @@
       "GA"
     ],
     [
+      "027506",
+      34.321927340275344,
+      -83.83288894595358,
+      10.99,
+      "Taco Bell",
+      "Gainesville",
+      "GA"
+    ],
+    [
       "004317",
       34.286228837677136,
       -83.84069511297639,
@@ -1469,6 +1489,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-17",
+  "last_seen_date": "2026-05-18",
   "peak_availability_pct": 0.6
 }

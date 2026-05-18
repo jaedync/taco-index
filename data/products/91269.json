@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.2,
-  "recent_price_change_pct": 0.0308,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.82,
+    "avg": 6.84,
     "min": 6.49,
     "max": 7.49,
     "median": 6.79,
     "std_dev": 0.34,
-    "store_count": 17
+    "store_count": 16
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$6.79",
@@ -101,13 +101,6 @@
       "price": 6.49
     },
     {
-      "store_number": "030359",
-      "name": "Taco Bell",
-      "city": "Maryville",
-      "state": "TN",
-      "price": 6.49
-    },
-    {
       "store_number": "036488",
       "name": "Taco Bell",
       "city": "Montgomery",
@@ -141,6 +134,13 @@
       "city": "Montgomery",
       "state": "AL",
       "price": 6.79
+    },
+    {
+      "store_number": "036482",
+      "name": "Taco Bell",
+      "city": "Montgomery",
+      "state": "AL",
+      "price": 6.79
     }
   ],
   "min_price_store_numbers": [
@@ -148,7 +148,6 @@
     "031389",
     "024403",
     "026432",
-    "030359",
     "036488"
   ],
   "priciest_stores": [
@@ -224,6 +223,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-05-18T21:17:07.711071+00:00"
+    },
     {
       "store_number": "040783",
       "store_name": "Taco Bell",
@@ -687,7 +696,7 @@
   ],
   "activity_summary": {
     "added": 20,
-    "removed": 26,
+    "removed": 27,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -749,15 +758,6 @@
       6.49,
       "Taco Bell",
       "Pigeon Forge",
-      "TN"
-    ],
-    [
-      "030359",
-      35.71724098570292,
-      -84.01247182491716,
-      6.49,
-      "Taco Bell",
-      "Maryville",
       "TN"
     ],
     [
