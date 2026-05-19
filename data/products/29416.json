@@ -16,21 +16,21 @@
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 11.74,
+    "avg": 11.78,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.68,
+    "std_dev": 0.66,
     "store_count": 24
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$11.99",
-      "count": 15
+      "count": 16
     },
     {
       "bucket": "$13.99",
@@ -40,7 +40,7 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 11.87,
+      "avg_price": 11.99,
       "store_count": 8
     }
   ],
@@ -78,13 +78,6 @@
       "name": "Taco Bell / KFC",
       "city": "Lebanon",
       "state": "KY",
-      "price": 10.99
-    },
-    {
-      "store_number": "039755",
-      "name": "Taco Bell / KFC",
-      "city": "Nags Head",
-      "state": "NC",
       "price": 10.99
     },
     {
@@ -128,13 +121,19 @@
       "city": "Holly Springs",
       "state": "NC",
       "price": 11.99
+    },
+    {
+      "store_number": "029401",
+      "name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
     "035717",
     "039735",
     "028510",
-    "039755",
     "021493",
     "031389",
     "024033",
@@ -147,6 +146,13 @@
       "city": "Chicago Ridge",
       "state": "IL",
       "price": 13.99
+    },
+    {
+      "store_number": "029402",
+      "name": "Taco Bell",
+      "city": "Creedmoor",
+      "state": "NC",
+      "price": 11.99
     },
     {
       "store_number": "041370",
@@ -203,16 +209,29 @@
       "city": "Charleston",
       "state": "SC",
       "price": 11.99
-    },
-    {
-      "store_number": "029406",
-      "name": "Taco Bell",
-      "city": "Durham",
-      "state": "NC",
-      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029402",
+      "store_name": "Taco Bell",
+      "city": "Creedmoor",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-05-19T21:13:09.538166+00:00"
+    },
+    {
+      "store_number": "039755",
+      "store_name": "Taco Bell / KFC",
+      "city": "Nags Head",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:04:37.163251+00:00"
+    },
     {
       "store_number": "038897",
       "store_name": "Taco Bell",
@@ -695,8 +714,8 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
-    "removed": 12,
+    "added": 37,
+    "removed": 13,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -774,15 +793,6 @@
       "Taco Bell / KFC",
       "Lebanon",
       "KY"
-    ],
-    [
-      "039755",
-      35.90738830540608,
-      -75.59837315978257,
-      10.99,
-      "Taco Bell / KFC",
-      "Nags Head",
-      "NC"
     ],
     [
       "021493",
@@ -956,6 +966,15 @@
       "CA"
     ],
     [
+      "029402",
+      36.14591744738878,
+      -78.72409348191468,
+      11.99,
+      "Taco Bell",
+      "Creedmoor",
+      "NC"
+    ],
+    [
       "026028",
       41.71567814277641,
       -87.78261208259407,
@@ -966,6 +985,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-18",
+  "last_seen_date": "2026-05-19",
   "peak_availability_pct": 0.3
 }

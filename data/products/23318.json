@@ -22,7 +22,7 @@
     "max": 6.29,
     "median": 3.19,
     "std_dev": 0.42,
-    "store_count": 7021
+    "store_count": 7023
   },
   "histogram": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 36
+      "count": 32
     },
     {
       "bucket": "$2.59",
@@ -79,7 +79,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 2520
+      "count": 2524
     },
     {
       "bucket": "$3.09",
@@ -147,11 +147,11 @@
     },
     {
       "bucket": "$3.99",
-      "count": 303
+      "count": 304
     },
     {
       "bucket": "$4.05",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$4.08",
@@ -237,7 +237,7 @@
     },
     {
       "state": "CA",
-      "avg_price": 3.65,
+      "avg_price": 3.66,
       "store_count": 832
     },
     {
@@ -287,8 +287,8 @@
     },
     {
       "state": "PA",
-      "avg_price": 3.39,
-      "store_count": 171
+      "avg_price": 3.4,
+      "store_count": 172
     },
     {
       "state": "OR",
@@ -331,6 +331,11 @@
       "store_count": 7
     },
     {
+      "state": "NC",
+      "avg_price": 3.19,
+      "store_count": 261
+    },
+    {
       "state": "NH",
       "avg_price": 3.19,
       "store_count": 12
@@ -344,11 +349,6 @@
       "state": "ME",
       "avg_price": 3.19,
       "store_count": 7
-    },
-    {
-      "state": "NC",
-      "avg_price": 3.19,
-      "store_count": 260
     },
     {
       "state": "WI",
@@ -628,6 +628,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039549",
+      "store_name": "Taco Bell",
+      "city": "Milford",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.05,
+      "observed_at": "2026-05-19T21:13:33.274576+00:00"
+    },
+    {
+      "store_number": "042690",
+      "store_name": "Taco Bell",
+      "city": "San Diego",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 2.49,
+      "new_price": 2.99,
+      "observed_at": "2026-05-19T21:04:40.659280+00:00"
+    },
+    {
+      "store_number": "042691",
+      "store_name": "Taco Bell",
+      "city": "Spring Valley",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 2.49,
+      "new_price": 2.99,
+      "observed_at": "2026-05-19T21:04:19.888426+00:00"
+    },
+    {
+      "store_number": "005457",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-19T21:03:51.555587+00:00"
+    },
+    {
+      "store_number": "042677",
+      "store_name": "Taco Bell",
+      "city": "San Diego",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 2.49,
+      "new_price": 2.99,
+      "observed_at": "2026-05-19T21:02:23.449792+00:00"
+    },
+    {
+      "store_number": "035187",
+      "store_name": "Taco Bell",
+      "city": "San Diego",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 2.49,
+      "new_price": 2.99,
+      "observed_at": "2026-05-19T21:01:16.327120+00:00"
+    },
     {
       "store_number": "034411",
       "store_name": "Taco Bell",
@@ -18190,9 +18250,9 @@
     }
   ],
   "activity_summary": {
-    "added": 123,
+    "added": 125,
     "removed": 705,
-    "price_changed": 928,
+    "price_changed": 932,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 250,
@@ -19020,15 +19080,6 @@
       "IL"
     ],
     [
-      "035187",
-      32.711429569356156,
-      -117.12564080368747,
-      2.49,
-      "Taco Bell",
-      "San Diego",
-      "CA"
-    ],
-    [
       "036262",
       39.4836008,
       -88.33129439999999,
@@ -19072,15 +19123,6 @@
       "Taco Bell",
       "Mahomet",
       "IL"
-    ],
-    [
-      "042677",
-      32.75516348597265,
-      -117.09676791380635,
-      2.49,
-      "Taco Bell",
-      "San Diego",
-      "CA"
     ],
     [
       "037143",
@@ -19135,24 +19177,6 @@
       "Taco Bell",
       "Navarre",
       "FL"
-    ],
-    [
-      "042691",
-      32.69747304927456,
-      -117.01960533857346,
-      2.49,
-      "Taco Bell",
-      "Spring Valley",
-      "CA"
-    ],
-    [
-      "042690",
-      32.7893007955097,
-      -117.16847486796723,
-      2.49,
-      "Taco Bell",
-      "San Diego",
-      "CA"
     ],
     [
       "004170",
@@ -24546,6 +24570,15 @@
       "TN"
     ],
     [
+      "035187",
+      32.711429569356156,
+      -117.12564080368747,
+      2.99,
+      "Taco Bell",
+      "San Diego",
+      "CA"
+    ],
+    [
       "033927",
       28.343211280611577,
       -81.32938075015683,
@@ -26353,6 +26386,15 @@
       "Taco Bell",
       "Old Fort",
       "NC"
+    ],
+    [
+      "042677",
+      32.75516348597265,
+      -117.09676791380635,
+      2.99,
+      "Taco Bell",
+      "San Diego",
+      "CA"
     ],
     [
       "042347",
@@ -30504,6 +30546,15 @@
       "UT"
     ],
     [
+      "042691",
+      32.69747304927456,
+      -117.01960533857346,
+      2.99,
+      "Taco Bell",
+      "Spring Valley",
+      "CA"
+    ],
+    [
       "036190",
       42.032261107764384,
       -87.74688810110098,
@@ -31789,6 +31840,15 @@
       "Taco Bell",
       "Schofield",
       "WI"
+    ],
+    [
+      "042690",
+      32.7893007955097,
+      -117.16847486796723,
+      2.99,
+      "Taco Bell",
+      "San Diego",
+      "CA"
     ],
     [
       "004370",
@@ -75477,6 +75537,15 @@
       "TX"
     ],
     [
+      "005457",
+      35.09815324386578,
+      -80.77895607054131,
+      3.99,
+      "Taco Bell",
+      "Charlotte",
+      "NC"
+    ],
+    [
       "039621",
       40.73260067913551,
       -73.98797055219426,
@@ -77742,6 +77811,15 @@
       4.05,
       "Taco Bell",
       "East Stroudsburg",
+      "PA"
+    ],
+    [
+      "039549",
+      41.352062077323495,
+      -74.73220378160477,
+      4.05,
+      "Taco Bell",
+      "Milford",
       "PA"
     ],
     [

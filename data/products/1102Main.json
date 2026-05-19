@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.5,
+    "avg": 2.49,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.49,
-    "std_dev": 0.23,
-    "store_count": 7
+    "median": 2.44,
+    "std_dev": 0.25,
+    "store_count": 6
   },
   "histogram": [
     {
@@ -40,10 +40,6 @@
       "count": 1
     },
     {
-      "bucket": "$2.59",
-      "count": 1
-    },
-    {
       "bucket": "$2.79",
       "count": 2
     }
@@ -51,8 +47,8 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 2.52,
-      "store_count": 6
+      "avg_price": 2.51,
+      "store_count": 5
     }
   ],
   "nutrition": null,
@@ -84,13 +80,6 @@
       "city": "New York",
       "state": "NY",
       "price": 2.49
-    },
-    {
-      "store_number": "040461",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 2.59
     },
     {
       "store_number": "034273",
@@ -126,13 +115,6 @@
       "price": 2.79
     },
     {
-      "store_number": "040461",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 2.59
-    },
-    {
       "store_number": "035828",
       "name": "Taco Bell",
       "city": "New York",
@@ -162,6 +144,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040461",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.59,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:01:33.231280+00:00"
+    },
     {
       "store_number": "041105",
       "store_name": "Taco Bell",
@@ -345,7 +337,7 @@
   ],
   "activity_summary": {
     "added": 8,
-    "removed": 10,
+    "removed": 11,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -386,15 +378,6 @@
       40.729173,
       -74.005015,
       2.49,
-      "Taco Bell",
-      "New York",
-      "NY"
-    ],
-    [
-      "040461",
-      40.737938736089966,
-      -73.99677289625586,
-      2.59,
       "Taco Bell",
       "New York",
       "NY"

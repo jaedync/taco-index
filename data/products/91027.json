@@ -19,13 +19,13 @@
     "min": 3.19,
     "max": 6.79,
     "median": 5.59,
-    "std_dev": 0.39,
-    "store_count": 492
+    "std_dev": 0.41,
+    "store_count": 493
   },
   "histogram": [
     {
       "bucket": "$3.19",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$4.69",
@@ -157,6 +157,13 @@
       "price": 3.19
     },
     {
+      "store_number": "020143",
+      "name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "price": 3.19
+    },
+    {
       "store_number": "026342",
       "name": "Taco Bell",
       "city": "Lawrenceville",
@@ -204,18 +211,12 @@
       "city": "Roswell",
       "state": "GA",
       "price": 4.79
-    },
-    {
-      "store_number": "022073",
-      "name": "Taco Bell",
-      "city": "Panama City",
-      "state": "FL",
-      "price": 4.79
     }
   ],
   "min_price_store_numbers": [
     "042903",
-    "042881"
+    "042881",
+    "020143"
   ],
   "priciest_stores": [
     {
@@ -290,6 +291,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-19T21:12:46.874020+00:00"
+    },
     {
       "store_number": "024747",
       "store_name": "Taco Bell / Pizza Hut",
@@ -8482,7 +8493,7 @@
     }
   ],
   "activity_summary": {
-    "added": 511,
+    "added": 512,
     "removed": 19,
     "price_changed": 289,
     "since": "2026-03-31T00:00:00+00:00"
@@ -8509,6 +8520,15 @@
       "Taco Bell",
       "Jesup",
       "GA"
+    ],
+    [
+      "020143",
+      37.36829880068801,
+      -89.64276076441651,
+      3.19,
+      "Taco Bell",
+      "Jackson",
+      "MO"
     ],
     [
       "026342",
@@ -12922,6 +12942,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-18",
+  "last_seen_date": "2026-05-19",
   "peak_availability_pct": 6.0
 }

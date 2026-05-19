@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 9.35,
+    "avg": 9.38,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.81,
-    "store_count": 29
+    "std_dev": 0.84,
+    "store_count": 33
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 24
+      "count": 27
     },
     {
       "bucket": "$9.99",
@@ -34,14 +34,14 @@
     },
     {
       "bucket": "$11.29",
-      "count": 4
+      "count": 5
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.53,
-      "store_count": 19
+      "avg_price": 9.54,
+      "store_count": 23
     },
     {
       "state": "AL",
@@ -146,6 +146,7 @@
     "039923",
     "039924",
     "026073",
+    "003889",
     "037105",
     "041837",
     "033643",
@@ -153,15 +154,24 @@
     "003668",
     "029102",
     "041802",
-    "041253",
     "038735",
     "037161",
     "016821",
     "027858",
     "027509",
-    "030272"
+    "030272",
+    "040431",
+    "029291",
+    "034784"
   ],
   "priciest_stores": [
+    {
+      "store_number": "041220",
+      "name": "Taco Bell",
+      "city": "Fayetteville",
+      "state": "GA",
+      "price": 11.29
+    },
     {
       "store_number": "041214",
       "name": "Taco Bell",
@@ -198,42 +208,95 @@
       "price": 9.99
     },
     {
+      "store_number": "034784",
+      "name": "Taco Bell",
+      "city": "Hartwell",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
+      "store_number": "029291",
+      "name": "Taco Bell",
+      "city": "Warner Robins",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
+      "store_number": "040431",
+      "name": "Taco Bell",
+      "city": "Byron",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "030272",
       "name": "Taco Bell",
       "city": "Scottsboro",
       "state": "AL",
       "price": 9.0
-    },
-    {
-      "store_number": "027509",
-      "name": "Taco Bell",
-      "city": "Covington",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "027858",
-      "name": "Taco Bell",
-      "city": "Buford",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "016821",
-      "name": "Taco Bell",
-      "city": "Kennesaw",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "037161",
-      "name": "Taco Bell",
-      "city": "Albany",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034784",
+      "store_name": "Taco Bell",
+      "city": "Hartwell",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-19T21:24:30.729463+00:00"
+    },
+    {
+      "store_number": "041220",
+      "store_name": "Taco Bell",
+      "city": "Fayetteville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.29,
+      "observed_at": "2026-05-19T21:11:44.142344+00:00"
+    },
+    {
+      "store_number": "041253",
+      "store_name": "Taco Bell",
+      "city": "Loganville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:05:51.994145+00:00"
+    },
+    {
+      "store_number": "003889",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-19T21:05:33.746480+00:00"
+    },
+    {
+      "store_number": "029291",
+      "store_name": "Taco Bell",
+      "city": "Warner Robins",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-19T21:04:39.090801+00:00"
+    },
+    {
+      "store_number": "040431",
+      "store_name": "Taco Bell",
+      "city": "Byron",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-19T21:03:57.861699+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -2286,8 +2349,8 @@
     }
   ],
   "activity_summary": {
-    "added": 87,
-    "removed": 118,
+    "added": 92,
+    "removed": 119,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2418,6 +2481,15 @@
       "GA"
     ],
     [
+      "003889",
+      33.966106,
+      -84.410766,
+      9.0,
+      "Taco Bell",
+      "Marietta",
+      "GA"
+    ],
+    [
       "037105",
       33.4393026,
       -86.0823143,
@@ -2481,15 +2553,6 @@
       "GA"
     ],
     [
-      "041253",
-      33.83904274650446,
-      -83.90541290674594,
-      9.0,
-      "Taco Bell",
-      "Loganville",
-      "GA"
-    ],
-    [
       "038735",
       30.4997,
       -88.3352,
@@ -2544,6 +2607,33 @@
       "AL"
     ],
     [
+      "040431",
+      32.66322660778478,
+      -83.74002620596413,
+      9.0,
+      "Taco Bell",
+      "Byron",
+      "GA"
+    ],
+    [
+      "029291",
+      32.55325361777326,
+      -83.69175633305075,
+      9.0,
+      "Taco Bell",
+      "Warner Robins",
+      "GA"
+    ],
+    [
+      "034784",
+      34.353384638255136,
+      -82.92974342113956,
+      9.0,
+      "Taco Bell",
+      "Hartwell",
+      "GA"
+    ],
+    [
       "042903",
       31.783928,
       -82.363196,
@@ -2587,9 +2677,18 @@
       "Taco Bell",
       "Decatur",
       "GA"
+    ],
+    [
+      "041220",
+      33.46853945520768,
+      -84.4473099344885,
+      11.29,
+      "Taco Bell",
+      "Fayetteville",
+      "GA"
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-18",
+  "last_seen_date": "2026-05-19",
   "peak_availability_pct": 1.1
 }

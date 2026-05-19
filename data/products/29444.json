@@ -14,14 +14,14 @@
   "peak_30d_pct": 0.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
-  "availability_pct": 0.6,
+  "availability_pct": 0.5,
   "price_stats": {
     "avg": 10.94,
     "min": 0.0,
     "max": 11.99,
     "median": 10.99,
-    "std_dev": 1.76,
-    "store_count": 43
+    "std_dev": 1.8,
+    "store_count": 41
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 33
+      "count": 31
     },
     {
       "bucket": "$11.99",
@@ -40,8 +40,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 11.2,
-      "store_count": 42
+      "avg_price": 11.21,
+      "store_count": 40
     }
   ],
   "nutrition": null,
@@ -57,13 +57,6 @@
       "store_number": "040929",
       "name": "Taco Bell",
       "city": "Greensboro",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
-      "store_number": "041105",
-      "name": "Taco Bell",
-      "city": "Jefferson",
       "state": "GA",
       "price": 10.99
     },
@@ -113,6 +106,13 @@
       "store_number": "003717",
       "name": "Taco Bell",
       "city": "Covington",
+      "state": "GA",
+      "price": 10.99
+    },
+    {
+      "store_number": "026073",
+      "name": "Taco Bell",
+      "city": "Douglasville",
       "state": "GA",
       "price": 10.99
     }
@@ -193,6 +193,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004371",
+      "store_name": "Taco Bell",
+      "city": "Rome",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:13:01.220693+00:00"
+    },
+    {
+      "store_number": "041105",
+      "store_name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:00:01.493762+00:00"
+    },
     {
       "store_number": "027506",
       "store_name": "Taco Bell",
@@ -1086,7 +1106,7 @@
   ],
   "activity_summary": {
     "added": 66,
-    "removed": 23,
+    "removed": 25,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1148,15 +1168,6 @@
       10.99,
       "Taco Bell",
       "Greensboro",
-      "GA"
-    ],
-    [
-      "041105",
-      34.123606790741,
-      -83.60452047516594,
-      10.99,
-      "Taco Bell",
-      "Jefferson",
       "GA"
     ],
     [
@@ -1328,15 +1339,6 @@
       10.99,
       "Taco Bell",
       "Kennesaw",
-      "GA"
-    ],
-    [
-      "004371",
-      34.2427809392188,
-      -85.1616658968806,
-      10.99,
-      "Taco Bell",
-      "Rome",
       "GA"
     ],
     [
@@ -1521,6 +1523,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-18",
+  "last_seen_date": "2026-05-19",
   "peak_availability_pct": 0.6
 }

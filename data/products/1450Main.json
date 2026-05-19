@@ -11,7 +11,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 7.5,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0218,
   "first_seen_at": "2026-03-30T00:40:07.824257+00:00",
   "availability_pct": 7.8,
   "price_stats": {
@@ -20,7 +20,7 @@
     "max": 2.39,
     "median": 1.05,
     "std_dev": 0.38,
-    "store_count": 602
+    "store_count": 601
   },
   "histogram": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "bucket": "$0.79",
-      "count": 161
+      "count": 162
     },
     {
       "bucket": "$0.89",
@@ -37,7 +37,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 117
+      "count": 116
     },
     {
       "bucket": "$1.00",
@@ -45,7 +45,7 @@
     },
     {
       "bucket": "$1.05",
-      "count": 21
+      "count": 20
     },
     {
       "bucket": "$1.19",
@@ -125,14 +125,14 @@
       "store_count": 85
     },
     {
-      "state": "CA",
-      "avg_price": 1.35,
-      "store_count": 149
+      "state": "IA",
+      "avg_price": 1.37,
+      "store_count": 9
     },
     {
-      "state": "IA",
-      "avg_price": 1.33,
-      "store_count": 10
+      "state": "CA",
+      "avg_price": 1.35,
+      "store_count": 148
     },
     {
       "state": "MI",
@@ -157,7 +157,7 @@
     {
       "state": "OR",
       "avg_price": 1.14,
-      "store_count": 54
+      "store_count": 53
     },
     {
       "state": "IL",
@@ -181,8 +181,8 @@
     },
     {
       "state": "SD",
-      "avg_price": 0.81,
-      "store_count": 13
+      "avg_price": 0.8,
+      "store_count": 14
     },
     {
       "state": "MN",
@@ -358,6 +358,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035267",
+      "store_name": "Taco Bell",
+      "city": "Council Bluffs",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:24:35.922594+00:00"
+    },
+    {
+      "store_number": "031112",
+      "store_name": "Taco Bell",
+      "city": "Rapid City",
+      "state": "SD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.79,
+      "observed_at": "2026-05-19T21:13:31.921728+00:00"
+    },
+    {
+      "store_number": "004212",
+      "store_name": "Taco Bell",
+      "city": "Sonora",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:13:14.879672+00:00"
+    },
+    {
+      "store_number": "027707",
+      "store_name": "Taco Bell",
+      "city": "Warrenton",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 1.05,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:13:10.004437+00:00"
+    },
+    {
+      "store_number": "019713",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-05-19T21:13:04.508791+00:00"
+    },
     {
       "store_number": "037587",
       "store_name": "Taco Bell",
@@ -1850,8 +1900,8 @@
     }
   ],
   "activity_summary": {
-    "added": 58,
-    "removed": 89,
+    "added": 60,
+    "removed": 92,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3229,6 +3279,15 @@
       "MN"
     ],
     [
+      "031112",
+      44.095223030853866,
+      -103.14761910119815,
+      0.79,
+      "Taco Bell",
+      "Rapid City",
+      "SD"
+    ],
+    [
       "016318",
       44.87773336842042,
       -94.37622703226064,
@@ -3850,15 +3909,6 @@
       "WA"
     ],
     [
-      "035267",
-      41.26165502577029,
-      -95.88858312124572,
-      0.99,
-      "Taco Bell",
-      "Council Bluffs",
-      "IA"
-    ],
-    [
       "031320",
       47.359519254261876,
       -122.30901353419219,
@@ -4093,6 +4143,15 @@
       "FL"
     ],
     [
+      "019713",
+      30.231264247912293,
+      -85.8896670444301,
+      0.99,
+      "Taco Bell",
+      "Panama City Beach",
+      "FL"
+    ],
+    [
       "020195",
       37.126932915956885,
       -94.4761226279752,
@@ -4208,15 +4267,6 @@
       "Taco Bell",
       "Tacoma",
       "WA"
-    ],
-    [
-      "004212",
-      37.97633541950182,
-      -120.3442919254303,
-      0.99,
-      "Taco Bell",
-      "Sonora",
-      "CA"
     ],
     [
       "031995",
@@ -4576,15 +4626,6 @@
       1.05,
       "Taco Bell",
       "Eugene",
-      "OR"
-    ],
-    [
-      "027707",
-      46.147558371931154,
-      -123.91636296182696,
-      1.05,
-      "Taco Bell",
-      "Warrenton",
       "OR"
     ],
     [

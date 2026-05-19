@@ -22,12 +22,12 @@
     "max": 3.99,
     "median": 2.79,
     "std_dev": 0.1,
-    "store_count": 477
+    "store_count": 479
   },
   "histogram": [
     {
       "bucket": "$2.79",
-      "count": 462
+      "count": 464
     },
     {
       "bucket": "$2.99",
@@ -46,7 +46,7 @@
     {
       "state": "FL",
       "avg_price": 2.85,
-      "store_count": 32
+      "store_count": 31
     },
     {
       "state": "GA",
@@ -56,7 +56,7 @@
     {
       "state": "TN",
       "avg_price": 2.79,
-      "store_count": 83
+      "store_count": 85
     },
     {
       "state": "SC",
@@ -206,7 +206,6 @@
     "030177",
     "035461",
     "036404",
-    "042130",
     "036403",
     "036409",
     "036416",
@@ -362,6 +361,7 @@
     "042572",
     "018678",
     "042833",
+    "009575",
     "029097",
     "039945",
     "029057",
@@ -607,6 +607,7 @@
     "033470",
     "033933",
     "033643",
+    "033994",
     "039925",
     "040900",
     "037214",
@@ -617,7 +618,8 @@
     "041246",
     "042129",
     "002863",
-    "029100"
+    "029100",
+    "020143"
   ],
   "priciest_stores": [
     {
@@ -692,6 +694,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033994",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-19T21:13:43.504502+00:00"
+    },
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-19T21:12:46.874020+00:00"
+    },
+    {
+      "store_number": "009575",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-19T21:04:36.571279+00:00"
+    },
+    {
+      "store_number": "042130",
+      "store_name": "Taco Bell",
+      "city": "Freeport",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:01:35.405416+00:00"
+    },
     {
       "store_number": "033994",
       "store_name": "Taco Bell",
@@ -6544,8 +6586,8 @@
     }
   ],
   "activity_summary": {
-    "added": 530,
-    "removed": 53,
+    "added": 533,
+    "removed": 54,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7003,15 +7045,6 @@
       "Taco Bell",
       "Seymour",
       "TN"
-    ],
-    [
-      "042130",
-      30.48627090853254,
-      -86.12258973436154,
-      2.79,
-      "Taco Bell",
-      "Freeport",
-      "FL"
     ],
     [
       "036403",
@@ -8407,6 +8440,15 @@
       "Taco Bell",
       "Mobile",
       "AL"
+    ],
+    [
+      "009575",
+      35.92910610401162,
+      -84.03315244256207,
+      2.79,
+      "Taco Bell",
+      "Knoxville",
+      "TN"
     ],
     [
       "029097",
@@ -10614,6 +10656,15 @@
       "TN"
     ],
     [
+      "033994",
+      35.46154819475124,
+      -84.64204341173172,
+      2.79,
+      "Taco Bell",
+      "Athens",
+      "TN"
+    ],
+    [
       "039925",
       32.17045685300442,
       -81.90157633921912,
@@ -10711,6 +10762,15 @@
       "Taco Bell",
       "Auburn",
       "AL"
+    ],
+    [
+      "020143",
+      37.36829880068801,
+      -89.64276076441651,
+      2.79,
+      "Taco Bell",
+      "Jackson",
+      "MO"
     ],
     [
       "035070",
@@ -10849,6 +10909,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-18",
+  "last_seen_date": "2026-05-19",
   "peak_availability_pct": 5.9
 }

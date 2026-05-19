@@ -20,8 +20,8 @@
     "min": 3.39,
     "max": 5.99,
     "median": 5.39,
-    "std_dev": 0.36,
-    "store_count": 495
+    "std_dev": 0.37,
+    "store_count": 496
   },
   "histogram": [
     {
@@ -30,6 +30,10 @@
     },
     {
       "bucket": "$3.49",
+      "count": 1
+    },
+    {
+      "bucket": "$3.59",
       "count": 1
     },
     {
@@ -133,6 +137,13 @@
       "price": 3.49
     },
     {
+      "store_number": "020143",
+      "name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "price": 3.59
+    },
+    {
       "store_number": "034808",
       "name": "Taco Bell",
       "city": "Panama City",
@@ -180,13 +191,6 @@
       "city": "Crestview",
       "state": "FL",
       "price": 4.59
-    },
-    {
-      "store_number": "041798",
-      "name": "Taco Bell",
-      "city": "Jackson",
-      "state": "GA",
-      "price": 4.69
     }
   ],
   "min_price_store_numbers": [
@@ -265,6 +269,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-05-19T21:12:46.874020+00:00"
+    },
     {
       "store_number": "024747",
       "store_name": "Taco Bell / Pizza Hut",
@@ -6967,7 +6981,7 @@
     }
   ],
   "activity_summary": {
-    "added": 498,
+    "added": 499,
     "removed": 3,
     "price_changed": 169,
     "since": "2026-03-31T00:00:00+00:00"
@@ -6994,6 +7008,15 @@
       "Taco Bell",
       "Lawrenceville",
       "GA"
+    ],
+    [
+      "020143",
+      37.36829880068801,
+      -89.64276076441651,
+      3.59,
+      "Taco Bell",
+      "Jackson",
+      "MO"
     ],
     [
       "034808",
@@ -11434,6 +11457,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-18",
+  "last_seen_date": "2026-05-19",
   "peak_availability_pct": 6.0
 }

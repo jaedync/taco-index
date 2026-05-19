@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:04.043083+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.4,
+    "avg": 5.41,
     "min": 4.99,
     "max": 5.49,
     "median": 5.49,
-    "std_dev": 0.2,
-    "store_count": 22
+    "std_dev": 0.19,
+    "store_count": 24
   },
   "histogram": [
     {
@@ -30,14 +30,19 @@
     },
     {
       "bucket": "$5.49",
-      "count": 18
+      "count": 20
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 5.41,
-      "store_count": 12
+      "store_count": 13
+    },
+    {
+      "state": "AL",
+      "avg_price": 5.39,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -134,6 +139,20 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "041248",
+      "name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "price": 5.49
+    },
+    {
+      "store_number": "030463",
+      "name": "Taco Bell",
+      "city": "Atmore",
+      "state": "AL",
+      "price": 5.49
+    },
+    {
       "store_number": "040967",
       "name": "Taco Bell",
       "city": "Sylva",
@@ -188,23 +207,29 @@
       "city": "Alcoa",
       "state": "TN",
       "price": 5.49
-    },
-    {
-      "store_number": "003668",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 5.49
-    },
-    {
-      "store_number": "029100",
-      "name": "Taco Bell",
-      "city": "Auburn",
-      "state": "AL",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041248",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-05-19T21:05:02.458245+00:00"
+    },
+    {
+      "store_number": "030463",
+      "store_name": "Taco Bell",
+      "city": "Atmore",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-05-19T21:05:01.183040+00:00"
+    },
     {
       "store_number": "040967",
       "store_name": "Taco Bell",
@@ -1167,7 +1192,7 @@
     }
   ],
   "activity_summary": {
-    "added": 46,
+    "added": 48,
     "removed": 50,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1374,6 +1399,24 @@
       "Taco Bell",
       "Sylva",
       "NC"
+    ],
+    [
+      "030463",
+      31.105415984250854,
+      -87.47651986779147,
+      5.49,
+      "Taco Bell",
+      "Atmore",
+      "AL"
+    ],
+    [
+      "041248",
+      33.71830055882164,
+      -84.76882606744766,
+      5.49,
+      "Taco Bell",
+      "Douglasville",
+      "GA"
     ]
   ],
   "retired_at": null,

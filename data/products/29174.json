@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 36
+    "store_count": 35
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 36
+      "count": 35
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 9.0,
-      "store_count": 36
+      "store_count": 35
     }
   ],
   "nutrition": {
@@ -150,7 +150,6 @@
     "033301",
     "040006",
     "024658",
-    "039687",
     "041877",
     "040464",
     "030922",
@@ -218,21 +217,31 @@
       "price": 9.0
     },
     {
-      "store_number": "039687",
-      "name": "Taco Bell",
-      "city": "Imlay City",
-      "state": "MI",
-      "price": 9.0
-    },
-    {
       "store_number": "024658",
       "name": "Taco Bell",
       "city": "Richmond",
       "state": "MI",
       "price": 9.0
+    },
+    {
+      "store_number": "040006",
+      "name": "Taco Bell",
+      "city": "Clarkston",
+      "state": "MI",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039687",
+      "store_name": "Taco Bell",
+      "city": "Imlay City",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:03:50.711113+00:00"
+    },
     {
       "store_number": "024449",
       "store_name": "Taco Bell",
@@ -2356,7 +2365,7 @@
   ],
   "activity_summary": {
     "added": 124,
-    "removed": 88,
+    "removed": 89,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2646,15 +2655,6 @@
       "MI"
     ],
     [
-      "039687",
-      43.01452374258781,
-      -83.0712782812422,
-      9.0,
-      "Taco Bell",
-      "Imlay City",
-      "MI"
-    ],
-    [
       "041877",
       42.61500229165498,
       -82.54280849362203,
@@ -2728,6 +2728,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-18",
+  "last_seen_date": "2026-05-19",
   "peak_availability_pct": 0.6
 }

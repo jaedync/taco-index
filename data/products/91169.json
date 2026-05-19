@@ -19,13 +19,13 @@
     "min": 4.19,
     "max": 7.19,
     "median": 5.89,
-    "std_dev": 0.44,
+    "std_dev": 0.45,
     "store_count": 494
   },
   "histogram": [
     {
       "bucket": "$4.19",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$4.79",
@@ -61,7 +61,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 36
+      "count": 35
     },
     {
       "bucket": "$6.29",
@@ -109,7 +109,7 @@
     {
       "state": "TN",
       "avg_price": 6.12,
-      "store_count": 88
+      "store_count": 87
     },
     {
       "state": "SC",
@@ -134,6 +134,13 @@
       "name": "Taco Bell",
       "city": "Charlotte",
       "state": "NC",
+      "price": 4.19
+    },
+    {
+      "store_number": "020143",
+      "name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
       "price": 4.19
     },
     {
@@ -191,17 +198,11 @@
       "city": "Panama City Beach",
       "state": "FL",
       "price": 5.29
-    },
-    {
-      "store_number": "004185",
-      "name": "Taco Bell",
-      "city": "Panama City",
-      "state": "FL",
-      "price": 5.29
     }
   ],
   "min_price_store_numbers": [
-    "002863"
+    "002863",
+    "020143"
   ],
   "priciest_stores": [
     {
@@ -276,6 +277,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 6.19,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:13:11.031410+00:00"
+    },
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-05-19T21:12:46.874020+00:00"
+    },
     {
       "store_number": "037332",
       "store_name": "Taco Bell",
@@ -7988,8 +8009,8 @@
     }
   ],
   "activity_summary": {
-    "added": 502,
-    "removed": 8,
+    "added": 503,
+    "removed": 9,
     "price_changed": 261,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8006,6 +8027,15 @@
       "Taco Bell",
       "Charlotte",
       "NC"
+    ],
+    [
+      "020143",
+      37.36829880068801,
+      -89.64276076441651,
+      4.19,
+      "Taco Bell",
+      "Jackson",
+      "MO"
     ],
     [
       "034808",
@@ -10897,15 +10927,6 @@
       "GA"
     ],
     [
-      "024403",
-      35.96722562647426,
-      -85.03864054957367,
-      6.19,
-      "Taco Bell",
-      "Crossville",
-      "TN"
-    ],
-    [
       "042579",
       34.12164984277345,
       -83.764132739823,
@@ -12446,6 +12467,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-18",
+  "last_seen_date": "2026-05-19",
   "peak_availability_pct": 6.0
 }

@@ -11,7 +11,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 4.5,
+  "peak_30d_pct": 4.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.4,
@@ -19,22 +19,22 @@
     "avg": 2.67,
     "min": 2.49,
     "max": 3.49,
-    "median": 2.59,
+    "median": 2.49,
     "std_dev": 0.23,
-    "store_count": 110
+    "store_count": 106
   },
   "histogram": [
     {
       "bucket": "$2.49",
-      "count": 55
+      "count": 54
     },
     {
       "bucket": "$2.69",
-      "count": 29
+      "count": 28
     },
     {
       "bucket": "$2.99",
-      "count": 24
+      "count": 22
     },
     {
       "bucket": "$3.49",
@@ -45,12 +45,12 @@
     {
       "state": "GA",
       "avg_price": 2.72,
-      "store_count": 56
+      "store_count": 54
     },
     {
       "state": "FL",
-      "avg_price": 2.7,
-      "store_count": 8
+      "avg_price": 2.69,
+      "store_count": 6
     },
     {
       "state": "TN",
@@ -60,7 +60,7 @@
     {
       "state": "AL",
       "avg_price": 2.6,
-      "store_count": 32
+      "store_count": 31
     }
   ],
   "nutrition": {
@@ -79,24 +79,10 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "034784",
-      "name": "Taco Bell",
-      "city": "Hartwell",
-      "state": "GA",
-      "price": 2.49
-    },
-    {
       "store_number": "035465",
       "name": "Taco Bell",
       "city": "Hanceville",
       "state": "AL",
-      "price": 2.49
-    },
-    {
-      "store_number": "034808",
-      "name": "Taco Bell",
-      "city": "Panama City",
-      "state": "FL",
       "price": 2.49
     },
     {
@@ -147,12 +133,24 @@
       "city": "Hoover",
       "state": "AL",
       "price": 2.49
+    },
+    {
+      "store_number": "030297",
+      "name": "Taco Bell",
+      "city": "Birmingham",
+      "state": "AL",
+      "price": 2.49
+    },
+    {
+      "store_number": "029135",
+      "name": "Taco Bell",
+      "city": "Birmingham",
+      "state": "AL",
+      "price": 2.49
     }
   ],
   "min_price_store_numbers": [
-    "034784",
     "035465",
-    "034808",
     "033481",
     "030177",
     "036403",
@@ -204,7 +202,8 @@
     "005482",
     "024747",
     "033933",
-    "002863"
+    "002863",
+    "020143"
   ],
   "priciest_stores": [
     {
@@ -243,13 +242,6 @@
       "price": 2.99
     },
     {
-      "store_number": "042125",
-      "name": "Taco Bell",
-      "city": "Crestview",
-      "state": "FL",
-      "price": 2.99
-    },
-    {
       "store_number": "039946",
       "name": "Taco Bell",
       "city": "Monroe",
@@ -276,9 +268,76 @@
       "city": "Guntersville",
       "state": "AL",
       "price": 2.99
+    },
+    {
+      "store_number": "042824",
+      "name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "price": 2.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034784",
+      "store_name": "Taco Bell",
+      "city": "Hartwell",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:24:30.729463+00:00"
+    },
+    {
+      "store_number": "042125",
+      "store_name": "Taco Bell",
+      "city": "Crestview",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:13:21.026359+00:00"
+    },
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-05-19T21:12:46.874020+00:00"
+    },
+    {
+      "store_number": "037192",
+      "store_name": "Taco Bell",
+      "city": "Montgomery",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:01:59.128309+00:00"
+    },
+    {
+      "store_number": "034808",
+      "store_name": "Taco Bell",
+      "city": "Panama City",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:01:21.188239+00:00"
+    },
+    {
+      "store_number": "039943",
+      "store_name": "Taco Bell",
+      "city": "Ellijay",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:01:14.194759+00:00"
+    },
     {
       "store_number": "034026",
       "store_name": "Taco Bell",
@@ -10221,8 +10280,8 @@
     }
   ],
   "activity_summary": {
-    "added": 552,
-    "removed": 442,
+    "added": 553,
+    "removed": 447,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10232,15 +10291,6 @@
   "combo_groups": [],
   "map_data": [
     [
-      "034784",
-      34.353384638255136,
-      -82.92974342113956,
-      2.49,
-      "Taco Bell",
-      "Hartwell",
-      "GA"
-    ],
-    [
       "035465",
       34.070653525367355,
       -86.77579694396583,
@@ -10248,15 +10298,6 @@
       "Taco Bell",
       "Hanceville",
       "AL"
-    ],
-    [
-      "034808",
-      30.22636410542137,
-      -85.58955673190881,
-      2.49,
-      "Taco Bell",
-      "Panama City",
-      "FL"
     ],
     [
       "033481",
@@ -10727,6 +10768,15 @@
       "NC"
     ],
     [
+      "020143",
+      37.36829880068801,
+      -89.64276076441651,
+      2.49,
+      "Taco Bell",
+      "Jackson",
+      "MO"
+    ],
+    [
       "040910",
       32.609436224631345,
       -85.44885283067111,
@@ -10760,15 +10810,6 @@
       2.69,
       "Taco Bell",
       "Pinson",
-      "AL"
-    ],
-    [
-      "037192",
-      32.338344929298856,
-      -86.1755813462282,
-      2.69,
-      "Taco Bell",
-      "Montgomery",
       "AL"
     ],
     [
@@ -11015,15 +11056,6 @@
       "GA"
     ],
     [
-      "039943",
-      34.65465243185455,
-      -84.49343469717624,
-      2.99,
-      "Taco Bell",
-      "Ellijay",
-      "GA"
-    ],
-    [
       "041963",
       33.0528176,
       -84.1538343,
@@ -11168,15 +11200,6 @@
       "GA"
     ],
     [
-      "042125",
-      30.786388890498326,
-      -86.5598059594958,
-      2.99,
-      "Taco Bell",
-      "Crestview",
-      "FL"
-    ],
-    [
       "041318",
       34.04753019159478,
       -84.22433225205168,
@@ -11223,6 +11246,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-18",
+  "last_seen_date": "2026-05-19",
   "peak_availability_pct": 5.9
 }

@@ -15,14 +15,18 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 6.4,
   "price_stats": {
-    "avg": 9.94,
-    "min": 7.99,
+    "avg": 9.93,
+    "min": 6.39,
     "max": 11.39,
     "median": 9.99,
-    "std_dev": 0.58,
+    "std_dev": 0.6,
     "store_count": 492
   },
   "histogram": [
+    {
+      "bucket": "$6.39",
+      "count": 1
+    },
     {
       "bucket": "$7.99",
       "count": 3
@@ -69,7 +73,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 202
+      "count": 201
     },
     {
       "bucket": "$10.19",
@@ -117,7 +121,7 @@
     {
       "state": "TN",
       "avg_price": 9.94,
-      "store_count": 88
+      "store_count": 87
     },
     {
       "state": "SC",
@@ -137,6 +141,13 @@
   ],
   "nutrition": null,
   "cheapest_stores": [
+    {
+      "store_number": "020143",
+      "name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "price": 6.39
+    },
     {
       "store_number": "034808",
       "name": "Taco Bell",
@@ -199,19 +210,10 @@
       "city": "Lawrenceville",
       "state": "GA",
       "price": 8.69
-    },
-    {
-      "store_number": "033933",
-      "name": "Taco Bell",
-      "city": "Fort Valley",
-      "state": "GA",
-      "price": 8.69
     }
   ],
   "min_price_store_numbers": [
-    "034808",
-    "022073",
-    "019753"
+    "020143"
   ],
   "priciest_stores": [
     {
@@ -286,6 +288,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:13:11.031410+00:00"
+    },
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.39,
+      "observed_at": "2026-05-19T21:12:46.874020+00:00"
+    },
     {
       "store_number": "039939",
       "store_name": "Taco Bell",
@@ -8458,8 +8480,8 @@
     }
   ],
   "activity_summary": {
-    "added": 503,
-    "removed": 11,
+    "added": 504,
+    "removed": 12,
     "price_changed": 303,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8487,6 +8509,15 @@
     }
   ],
   "map_data": [
+    [
+      "020143",
+      37.36829880068801,
+      -89.64276076441651,
+      6.39,
+      "Taco Bell",
+      "Jackson",
+      "MO"
+    ],
     [
       "034808",
       30.22636410542137,
@@ -11719,15 +11750,6 @@
       "GA"
     ],
     [
-      "024403",
-      35.96722562647426,
-      -85.03864054957367,
-      9.99,
-      "Taco Bell",
-      "Crossville",
-      "TN"
-    ],
-    [
       "042126",
       30.701080181738643,
       -86.12210662608975,
@@ -12917,6 +12939,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-18",
+  "last_seen_date": "2026-05-19",
   "peak_availability_pct": 6.0
 }

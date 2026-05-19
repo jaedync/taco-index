@@ -13,18 +13,22 @@
   "peak_30d_pct": 6.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 6.4,
+  "availability_pct": 6.5,
   "price_stats": {
-    "avg": 6.41,
+    "avg": 6.4,
     "min": 4.39,
     "max": 7.99,
     "median": 6.29,
-    "std_dev": 0.48,
-    "store_count": 497
+    "std_dev": 0.49,
+    "store_count": 498
   },
   "histogram": [
     {
       "bucket": "$4.39",
+      "count": 1
+    },
+    {
+      "bucket": "$4.49",
       "count": 1
     },
     {
@@ -145,6 +149,13 @@
       "price": 4.39
     },
     {
+      "store_number": "020143",
+      "name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "price": 4.49
+    },
+    {
       "store_number": "034808",
       "name": "Taco Bell",
       "city": "Panama City",
@@ -197,13 +208,6 @@
       "store_number": "004185",
       "name": "Taco Bell",
       "city": "Panama City",
-      "state": "FL",
-      "price": 5.39
-    },
-    {
-      "store_number": "019713",
-      "name": "Taco Bell",
-      "city": "Panama City Beach",
       "state": "FL",
       "price": 5.39
     }
@@ -284,6 +288,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-05-19T21:12:46.874020+00:00"
+    },
     {
       "store_number": "024747",
       "store_name": "Taco Bell / Pizza Hut",
@@ -7446,7 +7460,7 @@
     }
   ],
   "activity_summary": {
-    "added": 498,
+    "added": 499,
     "removed": 1,
     "price_changed": 217,
     "since": "2026-03-31T00:00:00+00:00"
@@ -7464,6 +7478,15 @@
       "Taco Bell",
       "Charlotte",
       "NC"
+    ],
+    [
+      "020143",
+      37.36829880068801,
+      -89.64276076441651,
+      4.49,
+      "Taco Bell",
+      "Jackson",
+      "MO"
     ],
     [
       "034808",
@@ -11931,6 +11954,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-18",
+  "last_seen_date": "2026-05-19",
   "peak_availability_pct": 6.0
 }

@@ -19,14 +19,14 @@
     "avg": 9.76,
     "min": 8.99,
     "max": 11.99,
-    "median": 9.69,
+    "median": 9.74,
     "std_dev": 0.42,
-    "store_count": 483
+    "store_count": 482
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 45
+      "count": 46
     },
     {
       "bucket": "$9.19",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$9.49",
-      "count": 83
+      "count": 81
     },
     {
       "bucket": "$9.59",
@@ -98,7 +98,7 @@
     {
       "state": "GA",
       "avg_price": 9.79,
-      "store_count": 237
+      "store_count": 235
     },
     {
       "state": "AL",
@@ -234,7 +234,8 @@
     "024747",
     "033470",
     "033933",
-    "040900"
+    "040900",
+    "020143"
   ],
   "priciest_stores": [
     {
@@ -309,6 +310,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041837",
+      "store_name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.49,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:13:10.804268+00:00"
+    },
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-05-19T21:12:46.874020+00:00"
+    },
+    {
+      "store_number": "041228",
+      "store_name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.49,
+      "new_price": null,
+      "observed_at": "2026-05-19T21:05:12.696351+00:00"
+    },
     {
       "store_number": "042123",
       "store_name": "Taco Bell",
@@ -9041,8 +9072,8 @@
     }
   ],
   "activity_summary": {
-    "added": 515,
-    "removed": 32,
+    "added": 516,
+    "removed": 34,
     "price_changed": 326,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9492,6 +9523,15 @@
       "Taco Bell",
       "Blaine",
       "TN"
+    ],
+    [
+      "020143",
+      37.36829880068801,
+      -89.64276076441651,
+      8.99,
+      "Taco Bell",
+      "Jackson",
+      "MO"
     ],
     [
       "038735",
@@ -10052,15 +10092,6 @@
       "GA"
     ],
     [
-      "041228",
-      33.70089923153877,
-      -84.16987270116806,
-      9.49,
-      "Taco Bell",
-      "Lithonia",
-      "GA"
-    ],
-    [
       "041213",
       33.82367652593412,
       -84.10772882404672,
@@ -10292,15 +10323,6 @@
       9.49,
       "Taco Bell",
       "Forsyth",
-      "GA"
-    ],
-    [
-      "041837",
-      30.85502172223534,
-      -83.94673973321909,
-      9.49,
-      "Taco Bell",
-      "Thomasville",
       "GA"
     ],
     [
@@ -13437,6 +13459,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-18",
+  "last_seen_date": "2026-05-19",
   "peak_availability_pct": 5.9
 }
