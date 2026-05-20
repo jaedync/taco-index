@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 6.3,
   "price_stats": {
-    "avg": 8.63,
+    "avg": 8.64,
     "min": 7.69,
     "max": 10.49,
     "median": 8.59,
     "std_dev": 0.49,
-    "store_count": 487
+    "store_count": 488
   },
   "histogram": [
     {
@@ -38,11 +38,11 @@
     },
     {
       "bucket": "$7.99",
-      "count": 20
+      "count": 19
     },
     {
       "bucket": "$8.19",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$8.29",
@@ -86,24 +86,24 @@
     },
     {
       "bucket": "$10.49",
-      "count": 20
+      "count": 21
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 8.8,
-      "store_count": 237
-    },
-    {
-      "state": "SC",
-      "avg_price": 8.59,
-      "store_count": 7
+      "avg_price": 8.81,
+      "store_count": 238
     },
     {
       "state": "AL",
       "avg_price": 8.57,
       "store_count": 121
+    },
+    {
+      "state": "SC",
+      "avg_price": 8.54,
+      "store_count": 8
     },
     {
       "state": "TN",
@@ -278,6 +278,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.19,
+      "observed_at": "2026-05-20T21:57:18.134051+00:00"
+    },
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-05-20T21:56:58.991899+00:00"
+    },
+    {
+      "store_number": "041228",
+      "store_name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-05-20T21:55:30.066036+00:00"
+    },
     {
       "store_number": "020143",
       "store_name": "Taco Bell",
@@ -8300,14 +8330,14 @@
     }
   ],
   "activity_summary": {
-    "added": 512,
-    "removed": 25,
+    "added": 514,
+    "removed": 26,
     "price_changed": 265,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 480,
-  "calories_min": 530,
-  "calories_max": 530,
+  "calories_min": 480,
+  "calories_max": 480,
   "combo_groups": [
     {
       "group_id": "675",
@@ -8756,18 +8786,18 @@
       "GA"
     ],
     [
-      "020143",
-      37.36829880068801,
-      -89.64276076441651,
-      7.99,
-      "Taco Bell",
-      "Jackson",
-      "MO"
-    ],
-    [
       "034710",
       32.40781978657577,
       -80.63921262604607,
+      8.19,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
+    ],
+    [
+      "031583",
+      32.42953531961479,
+      -80.71891911656758,
       8.19,
       "Taco Bell",
       "Beaufort",
@@ -12599,6 +12629,15 @@
       "GA"
     ],
     [
+      "041228",
+      33.70089923153877,
+      -84.16987270116806,
+      10.49,
+      "Taco Bell",
+      "Lithonia",
+      "GA"
+    ],
+    [
       "041209",
       33.79624014524105,
       -84.2242420061801,
@@ -12708,6 +12747,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-19",
+  "last_seen_date": "2026-05-20",
   "peak_availability_pct": 6.0
 }

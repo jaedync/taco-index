@@ -22,12 +22,12 @@
     "max": 3.99,
     "median": 2.79,
     "std_dev": 0.1,
-    "store_count": 479
+    "store_count": 481
   },
   "histogram": [
     {
       "bucket": "$2.79",
-      "count": 464
+      "count": 466
     },
     {
       "bucket": "$2.99",
@@ -46,12 +46,12 @@
     {
       "state": "FL",
       "avg_price": 2.85,
-      "store_count": 31
+      "store_count": 32
     },
     {
       "state": "GA",
       "avg_price": 2.81,
-      "store_count": 231
+      "store_count": 232
     },
     {
       "state": "TN",
@@ -206,6 +206,7 @@
     "030177",
     "035461",
     "036404",
+    "042130",
     "036403",
     "036409",
     "036416",
@@ -304,6 +305,7 @@
     "029112",
     "021287",
     "043138",
+    "029050",
     "029971",
     "029134",
     "029007",
@@ -402,6 +404,7 @@
     "042829",
     "041258",
     "043140",
+    "041228",
     "042821",
     "036482",
     "041209",
@@ -576,7 +579,6 @@
     "029078",
     "042818",
     "027509",
-    "029033",
     "042881",
     "042124",
     "041318",
@@ -694,6 +696,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029033",
+      "store_name": "Taco Bell",
+      "city": "Clinton",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-05-20T22:07:46.110897+00:00"
+    },
+    {
+      "store_number": "041228",
+      "store_name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-20T21:55:30.066036+00:00"
+    },
+    {
+      "store_number": "029050",
+      "store_name": "Taco Bell",
+      "city": "Chattanooga",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-20T21:54:40.482596+00:00"
+    },
+    {
+      "store_number": "042130",
+      "store_name": "Taco Bell",
+      "city": "Freeport",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-20T21:54:10.767469+00:00"
+    },
     {
       "store_number": "033994",
       "store_name": "Taco Bell",
@@ -6586,8 +6628,8 @@
     }
   ],
   "activity_summary": {
-    "added": 533,
-    "removed": 54,
+    "added": 536,
+    "removed": 55,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7045,6 +7087,15 @@
       "Taco Bell",
       "Seymour",
       "TN"
+    ],
+    [
+      "042130",
+      30.48627090853254,
+      -86.12258973436154,
+      2.79,
+      "Taco Bell",
+      "Freeport",
+      "FL"
     ],
     [
       "036403",
@@ -7929,6 +7980,15 @@
       "TN"
     ],
     [
+      "029050",
+      35.115167503435934,
+      -85.25543691077918,
+      2.79,
+      "Taco Bell",
+      "Chattanooga",
+      "TN"
+    ],
+    [
       "029971",
       35.517340593671896,
       -84.357991317791,
@@ -8808,6 +8868,15 @@
       2.79,
       "Taco Bell",
       "Blue Ridge",
+      "GA"
+    ],
+    [
+      "041228",
+      33.70089923153877,
+      -84.16987270116806,
+      2.79,
+      "Taco Bell",
+      "Lithonia",
       "GA"
     ],
     [
@@ -10377,15 +10446,6 @@
       "GA"
     ],
     [
-      "029033",
-      36.118403546259415,
-      -84.11809736365875,
-      2.79,
-      "Taco Bell",
-      "Clinton",
-      "TN"
-    ],
-    [
       "042881",
       31.616911784903458,
       -81.87382091583459,
@@ -10909,6 +10969,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-19",
+  "last_seen_date": "2026-05-20",
   "peak_availability_pct": 5.9
 }

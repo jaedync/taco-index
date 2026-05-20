@@ -15,19 +15,19 @@
   "peak_30d_pct": 5.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 5.5,
+  "availability_pct": 5.4,
   "price_stats": {
     "avg": 12.95,
     "min": 12.5,
     "max": 19.99,
     "median": 12.5,
     "std_dev": 1.25,
-    "store_count": 421
+    "store_count": 419
   },
   "histogram": [
     {
       "bucket": "$12.50",
-      "count": 356
+      "count": 354
     },
     {
       "bucket": "$12.99",
@@ -79,13 +79,13 @@
     },
     {
       "state": "TN",
-      "avg_price": 13.08,
-      "store_count": 78
+      "avg_price": 13.09,
+      "store_count": 77
     },
     {
       "state": "GA",
       "avg_price": 12.81,
-      "store_count": 207
+      "store_count": 206
     },
     {
       "state": "AL",
@@ -301,6 +301,7 @@
     "029113",
     "029112",
     "021287",
+    "029050",
     "029971",
     "029134",
     "029007",
@@ -342,7 +343,6 @@
     "039939",
     "029098",
     "041227",
-    "042572",
     "018678",
     "039945",
     "029057",
@@ -491,9 +491,7 @@
     "027554",
     "029076",
     "041212",
-    "029017",
     "029078",
-    "029033",
     "042124",
     "036371",
     "041252",
@@ -610,6 +608,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029033",
+      "store_name": "Taco Bell",
+      "city": "Clinton",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-20T22:07:46.110897+00:00"
+    },
+    {
+      "store_number": "029017",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-20T22:07:44.182191+00:00"
+    },
+    {
+      "store_number": "042572",
+      "store_name": "Taco Bell",
+      "city": "Fairburn",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-20T21:55:04.234118+00:00"
+    },
+    {
+      "store_number": "029050",
+      "store_name": "Taco Bell",
+      "city": "Chattanooga",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-05-20T21:54:40.482596+00:00"
+    },
     {
       "store_number": "033994",
       "store_name": "Taco Bell",
@@ -5982,8 +6020,8 @@
     }
   ],
   "activity_summary": {
-    "added": 479,
-    "removed": 58,
+    "added": 480,
+    "removed": 61,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7107,6 +7145,15 @@
       "TN"
     ],
     [
+      "029050",
+      35.115167503435934,
+      -85.25543691077918,
+      12.5,
+      "Taco Bell",
+      "Chattanooga",
+      "TN"
+    ],
+    [
       "029971",
       35.517340593671896,
       -84.357991317791,
@@ -7473,15 +7520,6 @@
       12.5,
       "Taco Bell",
       "Jonesboro",
-      "GA"
-    ],
-    [
-      "042572",
-      33.53980644411624,
-      -84.57611403902706,
-      12.5,
-      "Taco Bell",
-      "Fairburn",
       "GA"
     ],
     [
@@ -8817,15 +8855,6 @@
       "GA"
     ],
     [
-      "029017",
-      35.88387110137542,
-      -84.15580148352726,
-      12.5,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
-    ],
-    [
       "029078",
       31.78387944696437,
       -85.95728874206549,
@@ -8833,15 +8862,6 @@
       "Taco Bell",
       "Troy",
       "AL"
-    ],
-    [
-      "029033",
-      36.118403546259415,
-      -84.11809736365875,
-      12.5,
-      "Taco Bell",
-      "Clinton",
-      "TN"
     ],
     [
       "042124",
@@ -9808,6 +9828,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-19",
+  "last_seen_date": "2026-05-20",
   "peak_availability_pct": 5.3
 }

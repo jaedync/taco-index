@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 2.66,
+    "avg": 2.68,
     "min": 2.39,
     "max": 2.89,
     "median": 2.79,
-    "std_dev": 0.17,
+    "std_dev": 0.16,
     "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$2.39",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$2.49",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$2.89",
@@ -52,8 +52,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 2.74,
-      "store_count": 6
+      "avg_price": 2.75,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -75,13 +75,6 @@
       "store_number": "035717",
       "name": "Taco Bell / KFC",
       "city": "Cypress",
-      "state": "TX",
-      "price": 2.39
-    },
-    {
-      "store_number": "035718",
-      "name": "Taco Bell / KFC",
-      "city": "Rosenberg",
       "state": "TX",
       "price": 2.39
     },
@@ -140,11 +133,17 @@
       "city": "Lockeford",
       "state": "CA",
       "price": 2.69
+    },
+    {
+      "store_number": "019680",
+      "name": "Taco Bell / KFC",
+      "city": "Stephens City",
+      "state": "VA",
+      "price": 2.69
     }
   ],
   "min_price_store_numbers": [
     "035717",
-    "035718",
     "003881",
     "028153"
   ],
@@ -213,14 +212,24 @@
       "price": 2.79
     },
     {
-      "store_number": "023838",
+      "store_number": "029404",
       "name": "Taco Bell",
-      "city": "Albuquerque",
-      "state": "NM",
+      "city": "Garner",
+      "state": "NC",
       "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029404",
+      "store_name": "Taco Bell",
+      "city": "Garner",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-20T21:55:28.081374+00:00"
+    },
     {
       "store_number": "029404",
       "store_name": "Taco Bell",
@@ -723,7 +732,7 @@
     }
   ],
   "activity_summary": {
-    "added": 37,
+    "added": 38,
     "removed": 12,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
@@ -753,15 +762,6 @@
       2.39,
       "Taco Bell / KFC",
       "Cypress",
-      "TX"
-    ],
-    [
-      "035718",
-      29.54514380488333,
-      -95.74617441211682,
-      2.39,
-      "Taco Bell / KFC",
-      "Rosenberg",
       "TX"
     ],
     [
@@ -891,6 +891,15 @@
       "NM"
     ],
     [
+      "029404",
+      35.60550043842093,
+      -78.56779754161835,
+      2.79,
+      "Taco Bell",
+      "Garner",
+      "NC"
+    ],
+    [
       "041398",
       36.29845084379178,
       -78.58481152503262,
@@ -973,6 +982,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-19",
+  "last_seen_date": "2026-05-20",
   "peak_availability_pct": 0.3
 }

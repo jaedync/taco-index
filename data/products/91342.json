@@ -27,11 +27,11 @@
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 220
+      "count": 221
     },
     {
       "bucket": "$6.69",
-      "count": 128
+      "count": 127
     },
     {
       "bucket": "$6.99",
@@ -45,8 +45,8 @@
   "state_prices": [
     {
       "state": "SC",
-      "avg_price": 6.82,
-      "store_count": 6
+      "avg_price": 6.78,
+      "store_count": 7
     },
     {
       "state": "GA",
@@ -55,8 +55,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 6.71,
-      "store_count": 32
+      "avg_price": 6.72,
+      "store_count": 31
     },
     {
       "state": "AL",
@@ -66,7 +66,7 @@
     {
       "state": "TN",
       "avg_price": 6.6,
-      "store_count": 87
+      "store_count": 88
     }
   ],
   "nutrition": {
@@ -346,6 +346,7 @@
     "030881",
     "004109",
     "029099",
+    "024403",
     "027506",
     "031757",
     "004317",
@@ -374,8 +375,8 @@
     "033643",
     "033994",
     "034026",
-    "002863",
-    "020143"
+    "031583",
+    "002863"
   ],
   "priciest_stores": [
     {
@@ -450,6 +451,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-20T22:05:50.510980+00:00"
+    },
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-20T21:57:18.134051+00:00"
+    },
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-05-20T21:56:58.991899+00:00"
+    },
+    {
+      "store_number": "042832",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.69,
+      "new_price": null,
+      "observed_at": "2026-05-20T21:54:31.974640+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -5632,8 +5673,8 @@
     }
   ],
   "activity_summary": {
-    "added": 505,
-    "removed": 12,
+    "added": 507,
+    "removed": 14,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7372,6 +7413,15 @@
       "GA"
     ],
     [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      6.49,
+      "Taco Bell",
+      "Crossville",
+      "TN"
+    ],
+    [
       "027506",
       34.321927340275344,
       -83.83288894595358,
@@ -7624,6 +7674,15 @@
       "TN"
     ],
     [
+      "031583",
+      32.42953531961479,
+      -80.71891911656758,
+      6.49,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
+    ],
+    [
       "002863",
       35.17103590511225,
       -80.84591701626778,
@@ -7631,15 +7690,6 @@
       "Taco Bell",
       "Charlotte",
       "NC"
-    ],
-    [
-      "020143",
-      37.36829880068801,
-      -89.64276076441651,
-      6.49,
-      "Taco Bell",
-      "Jackson",
-      "MO"
     ],
     [
       "040910",
@@ -8243,15 +8293,6 @@
       "Taco Bell",
       "Hoover",
       "AL"
-    ],
-    [
-      "042832",
-      30.5336733589741,
-      -87.27316802173264,
-      6.69,
-      "Taco Bell",
-      "Pensacola",
-      "FL"
     ],
     [
       "042827",
@@ -10100,6 +10141,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-19",
+  "last_seen_date": "2026-05-20",
   "peak_availability_pct": 6.0
 }

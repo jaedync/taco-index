@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.2,
-  "recent_price_change_pct": -0.0214,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.26,
+    "avg": 10.27,
     "min": 9.99,
     "max": 10.69,
     "median": 10.29,
-    "std_dev": 0.16,
-    "store_count": 12
+    "std_dev": 0.15,
+    "store_count": 13
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$10.29",
-      "count": 6
+      "count": 7
     },
     {
       "bucket": "$10.69",
@@ -99,6 +99,13 @@
       "price": 10.19
     },
     {
+      "store_number": "024403",
+      "name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "price": 10.29
+    },
+    {
       "store_number": "026432",
       "name": "Taco Bell",
       "city": "Pigeon Forge",
@@ -123,13 +130,6 @@
       "store_number": "042356",
       "name": "Taco Bell",
       "city": "Prattville",
-      "state": "AL",
-      "price": 10.29
-    },
-    {
-      "store_number": "036487",
-      "name": "Taco Bell",
-      "city": "Montgomery",
       "state": "AL",
       "price": 10.29
     }
@@ -188,6 +188,13 @@
       "price": 10.29
     },
     {
+      "store_number": "024403",
+      "name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "price": 10.29
+    },
+    {
       "store_number": "040783",
       "name": "Taco Bell",
       "city": "Montgomery",
@@ -200,16 +207,19 @@
       "city": "Montgomery",
       "state": "AL",
       "price": 10.19
-    },
-    {
-      "store_number": "036488",
-      "name": "Taco Bell",
-      "city": "Montgomery",
-      "state": "AL",
-      "price": 10.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.29,
+      "observed_at": "2026-05-20T22:05:50.510980+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -812,7 +822,7 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
+    "added": 37,
     "removed": 24,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -899,6 +909,15 @@
       "AL"
     ],
     [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      10.29,
+      "Taco Bell",
+      "Crossville",
+      "TN"
+    ],
+    [
       "026432",
       35.80377693492917,
       -83.58050286769867,
@@ -963,6 +982,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-19",
+  "last_seen_date": "2026-05-20",
   "peak_availability_pct": 0.2
 }

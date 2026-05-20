@@ -18,9 +18,9 @@
     "avg": 2.49,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.44,
-    "std_dev": 0.25,
-    "store_count": 6
+    "median": 2.39,
+    "std_dev": 0.28,
+    "store_count": 5
   },
   "histogram": [
     {
@@ -36,21 +36,11 @@
       "count": 1
     },
     {
-      "bucket": "$2.49",
-      "count": 1
-    },
-    {
       "bucket": "$2.79",
       "count": 2
     }
   ],
-  "state_prices": [
-    {
-      "state": "NY",
-      "avg_price": 2.51,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": null,
   "cheapest_stores": [
     {
@@ -73,13 +63,6 @@
       "city": "Washington",
       "state": "DC",
       "price": 2.39
-    },
-    {
-      "store_number": "035828",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 2.49
     },
     {
       "store_number": "034273",
@@ -115,13 +98,6 @@
       "price": 2.79
     },
     {
-      "store_number": "035828",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 2.49
-    },
-    {
       "store_number": "040994",
       "name": "Taco Bell Cantina Cantina",
       "city": "Washington",
@@ -144,6 +120,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035828",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-20T21:54:11.489747+00:00"
+    },
     {
       "store_number": "040461",
       "store_name": "Taco Bell",
@@ -337,7 +323,7 @@
   ],
   "activity_summary": {
     "added": 8,
-    "removed": 11,
+    "removed": 12,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -372,15 +358,6 @@
       "Taco Bell Cantina Cantina",
       "Washington",
       "DC"
-    ],
-    [
-      "035828",
-      40.729173,
-      -74.005015,
-      2.49,
-      "Taco Bell",
-      "New York",
-      "NY"
     ],
     [
       "034273",

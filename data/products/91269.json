@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.2,
-  "recent_price_change_pct": -0.0354,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.86,
+    "avg": 6.8,
     "min": 6.49,
-    "max": 7.49,
+    "max": 7.39,
     "median": 6.79,
-    "std_dev": 0.34,
+    "std_dev": 0.31,
     "store_count": 15
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$6.79",
@@ -39,17 +39,13 @@
     {
       "bucket": "$7.39",
       "count": 1
-    },
-    {
-      "bucket": "$7.49",
-      "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 7.07,
-      "store_count": 6
+      "avg_price": 6.99,
+      "store_count": 5
     },
     {
       "state": "AL",
@@ -84,6 +80,13 @@
       "name": "Taco Bell / KFC",
       "city": "Locust Grove",
       "state": "GA",
+      "price": 6.49
+    },
+    {
+      "store_number": "024403",
+      "name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
       "price": 6.49
     },
     {
@@ -134,29 +137,16 @@
       "city": "Montgomery",
       "state": "AL",
       "price": 6.79
-    },
-    {
-      "store_number": "036483",
-      "name": "Taco Bell",
-      "city": "Prattville",
-      "state": "AL",
-      "price": 6.79
     }
   ],
   "min_price_store_numbers": [
     "042903",
     "031389",
+    "024403",
     "026432",
     "036488"
   ],
   "priciest_stores": [
-    {
-      "store_number": "041223",
-      "name": "Taco Bell",
-      "city": "Ellenwood",
-      "state": "GA",
-      "price": 7.49
-    },
     {
       "store_number": "003889",
       "name": "Taco Bell",
@@ -219,9 +209,36 @@
       "city": "Montgomery",
       "state": "AL",
       "price": 6.79
+    },
+    {
+      "store_number": "042119",
+      "name": "Taco Bell",
+      "city": "Hope Hull",
+      "state": "AL",
+      "price": 6.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-20T22:05:50.510980+00:00"
+    },
+    {
+      "store_number": "041223",
+      "store_name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 7.49,
+      "new_price": null,
+      "observed_at": "2026-05-20T21:56:53.938557+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -704,8 +721,8 @@
     }
   ],
   "activity_summary": {
-    "added": 20,
-    "removed": 28,
+    "added": 21,
+    "removed": 29,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -750,6 +767,15 @@
       "Taco Bell / KFC",
       "Locust Grove",
       "GA"
+    ],
+    [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      6.49,
+      "Taco Bell",
+      "Crossville",
+      "TN"
     ],
     [
       "026432",
@@ -857,15 +883,6 @@
       7.39,
       "Taco Bell",
       "Marietta",
-      "GA"
-    ],
-    [
-      "041223",
-      33.61940670172887,
-      -84.24365535383913,
-      7.49,
-      "Taco Bell",
-      "Ellenwood",
       "GA"
     ]
   ],

@@ -46,7 +46,7 @@
     {
       "state": "AL",
       "avg_price": 9.0,
-      "store_count": 7
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -149,11 +149,10 @@
     "003889",
     "037105",
     "041837",
-    "033643",
-    "002167",
     "003668",
     "029102",
     "041802",
+    "041253",
     "038735",
     "037161",
     "016821",
@@ -162,7 +161,8 @@
     "030272",
     "040431",
     "029291",
-    "034784"
+    "034784",
+    "035882"
   ],
   "priciest_stores": [
     {
@@ -208,6 +208,13 @@
       "price": 9.99
     },
     {
+      "store_number": "035882",
+      "name": "Taco Bell",
+      "city": "Center Point",
+      "state": "AL",
+      "price": 9.0
+    },
+    {
       "store_number": "034784",
       "name": "Taco Bell",
       "city": "Hartwell",
@@ -227,16 +234,49 @@
       "city": "Byron",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "030272",
-      "name": "Taco Bell",
-      "city": "Scottsboro",
-      "state": "AL",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033643",
+      "store_name": "Taco Bell",
+      "city": "Hixson",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-20T22:08:20.252828+00:00"
+    },
+    {
+      "store_number": "002167",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-20T22:02:09.744252+00:00"
+    },
+    {
+      "store_number": "041253",
+      "store_name": "Taco Bell",
+      "city": "Loganville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-20T21:55:43.961916+00:00"
+    },
+    {
+      "store_number": "035882",
+      "store_name": "Taco Bell",
+      "city": "Center Point",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-20T21:54:07.348293+00:00"
+    },
     {
       "store_number": "034784",
       "store_name": "Taco Bell",
@@ -2349,8 +2389,8 @@
     }
   ],
   "activity_summary": {
-    "added": 92,
-    "removed": 119,
+    "added": 94,
+    "removed": 121,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2508,24 +2548,6 @@
       "GA"
     ],
     [
-      "033643",
-      35.19944509346963,
-      -85.16031995415683,
-      9.0,
-      "Taco Bell",
-      "Hixson",
-      "TN"
-    ],
-    [
-      "002167",
-      33.80207381502585,
-      -84.4147127866745,
-      9.0,
-      "Taco Bell",
-      "Atlanta",
-      "GA"
-    ],
-    [
       "003668",
       33.77267954859662,
       -84.37298566102982,
@@ -2550,6 +2572,15 @@
       9.0,
       "Taco Bell",
       "Athens",
+      "GA"
+    ],
+    [
+      "041253",
+      33.83904274650446,
+      -83.90541290674594,
+      9.0,
+      "Taco Bell",
+      "Loganville",
       "GA"
     ],
     [
@@ -2634,6 +2665,15 @@
       "GA"
     ],
     [
+      "035882",
+      33.63862066198259,
+      -86.68319697375979,
+      9.0,
+      "Taco Bell",
+      "Center Point",
+      "AL"
+    ],
+    [
       "042903",
       31.783928,
       -82.363196,
@@ -2689,6 +2729,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-19",
+  "last_seen_date": "2026-05-20",
   "peak_availability_pct": 1.1
 }
