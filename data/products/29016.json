@@ -11,22 +11,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 1.2,
+  "peak_30d_pct": 1.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:42:17.482555+00:00",
-  "availability_pct": 1.3,
+  "availability_pct": 1.6,
   "price_stats": {
     "avg": 6.02,
     "min": 5.99,
     "max": 8.19,
     "median": 5.99,
-    "std_dev": 0.24,
-    "store_count": 101
+    "std_dev": 0.22,
+    "store_count": 122
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 98
+      "count": 119
     },
     {
       "bucket": "$6.19",
@@ -45,7 +45,12 @@
     {
       "state": "FL",
       "avg_price": 6.02,
-      "store_count": 100
+      "store_count": 101
+    },
+    {
+      "state": "UT",
+      "avg_price": 5.99,
+      "store_count": 20
     }
   ],
   "nutrition": {
@@ -205,6 +210,7 @@
     "042924",
     "023289",
     "027969",
+    "027973",
     "027990",
     "027987",
     "021472",
@@ -232,7 +238,27 @@
     "034163",
     "042971",
     "032959",
-    "038869"
+    "038869",
+    "040295",
+    "040986",
+    "037722",
+    "025387",
+    "033164",
+    "025392",
+    "030456",
+    "033176",
+    "033161",
+    "033180",
+    "025396",
+    "029468",
+    "032151",
+    "033154",
+    "033168",
+    "033177",
+    "032051",
+    "033175",
+    "033163",
+    "038835"
   ],
   "priciest_stores": [
     {
@@ -257,56 +283,266 @@
       "price": 6.19
     },
     {
-      "store_number": "038869",
+      "store_number": "038835",
       "name": "Taco Bell",
-      "city": "Winter Garden",
-      "state": "FL",
+      "city": "Kaysville",
+      "state": "UT",
       "price": 5.99
     },
     {
-      "store_number": "032959",
+      "store_number": "033163",
       "name": "Taco Bell",
-      "city": "Ocoee",
-      "state": "FL",
+      "city": "Salt Lake City",
+      "state": "UT",
       "price": 5.99
     },
     {
-      "store_number": "042971",
+      "store_number": "033175",
       "name": "Taco Bell",
-      "city": "Palm Coast",
-      "state": "FL",
+      "city": "Layton",
+      "state": "UT",
       "price": 5.99
     },
     {
-      "store_number": "034163",
+      "store_number": "032051",
       "name": "Taco Bell",
-      "city": "Saint Cloud",
-      "state": "FL",
+      "city": "Lehi",
+      "state": "UT",
       "price": 5.99
     },
     {
-      "store_number": "034162",
+      "store_number": "033177",
       "name": "Taco Bell",
-      "city": "Kissimmee",
-      "state": "FL",
+      "city": "Clinton",
+      "state": "UT",
       "price": 5.99
     },
     {
-      "store_number": "023300",
+      "store_number": "033168",
       "name": "Taco Bell",
-      "city": "Palm Bay",
-      "state": "FL",
+      "city": "Salt Lake City",
+      "state": "UT",
       "price": 5.99
     },
     {
-      "store_number": "027977",
+      "store_number": "033154",
       "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
+      "city": "Salt Lake City",
+      "state": "UT",
       "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038835",
+      "store_name": "Taco Bell",
+      "city": "Kaysville",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:08:26.420544+00:00"
+    },
+    {
+      "store_number": "033163",
+      "store_name": "Taco Bell",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:08:17.753164+00:00"
+    },
+    {
+      "store_number": "033175",
+      "store_name": "Taco Bell",
+      "city": "Layton",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:08:06.358101+00:00"
+    },
+    {
+      "store_number": "032051",
+      "store_name": "Taco Bell",
+      "city": "Lehi",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:08:01.991855+00:00"
+    },
+    {
+      "store_number": "033177",
+      "store_name": "Taco Bell",
+      "city": "Clinton",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:07:48.500446+00:00"
+    },
+    {
+      "store_number": "033168",
+      "store_name": "Taco Bell",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:07:45.015561+00:00"
+    },
+    {
+      "store_number": "027973",
+      "store_name": "Taco Bell",
+      "city": "Rockledge",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:07:41.954753+00:00"
+    },
+    {
+      "store_number": "033154",
+      "store_name": "Taco Bell",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:07:40.134634+00:00"
+    },
+    {
+      "store_number": "032151",
+      "store_name": "Taco Bell",
+      "city": "Riverton",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:07:36.324444+00:00"
+    },
+    {
+      "store_number": "029468",
+      "store_name": "Taco Bell",
+      "city": "Saratoga Springs",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:07:21.935415+00:00"
+    },
+    {
+      "store_number": "025396",
+      "store_name": "Taco Bell",
+      "city": "Springville",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:07:18.266904+00:00"
+    },
+    {
+      "store_number": "033180",
+      "store_name": "Taco Bell",
+      "city": "Magna",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:07:05.851224+00:00"
+    },
+    {
+      "store_number": "033161",
+      "store_name": "Taco Bell",
+      "city": "Ogden",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:06:45.858428+00:00"
+    },
+    {
+      "store_number": "033176",
+      "store_name": "Taco Bell",
+      "city": "Kearns",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:06:04.934256+00:00"
+    },
+    {
+      "store_number": "030456",
+      "store_name": "Taco Bell",
+      "city": "Lindon",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:06:00.423762+00:00"
+    },
+    {
+      "store_number": "025392",
+      "store_name": "Taco Bell",
+      "city": "American Fork",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:05:55.770717+00:00"
+    },
+    {
+      "store_number": "033164",
+      "store_name": "Taco Bell",
+      "city": "Park City",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:05:53.432808+00:00"
+    },
+    {
+      "store_number": "025387",
+      "store_name": "Taco Bell",
+      "city": "Provo",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:05:13.552030+00:00"
+    },
+    {
+      "store_number": "037722",
+      "store_name": "Taco Bell",
+      "city": "Murray",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:04:56.898372+00:00"
+    },
+    {
+      "store_number": "040986",
+      "store_name": "Taco Bell",
+      "city": "West Jordan",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:04:10.317335+00:00"
+    },
+    {
+      "store_number": "040295",
+      "store_name": "Taco Bell",
+      "city": "Roy",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-21T21:03:53.279722+00:00"
+    },
     {
       "store_number": "027973",
       "store_name": "Taco Bell",
@@ -1449,7 +1685,7 @@
     }
   ],
   "activity_summary": {
-    "added": 106,
+    "added": 127,
     "removed": 8,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2090,6 +2326,15 @@
       "FL"
     ],
     [
+      "027973",
+      28.331229902743292,
+      -80.72642873693731,
+      5.99,
+      "Taco Bell",
+      "Rockledge",
+      "FL"
+    ],
+    [
       "027990",
       29.01345130657388,
       -80.94385196631548,
@@ -2340,6 +2585,186 @@
       "Taco Bell",
       "Winter Garden",
       "FL"
+    ],
+    [
+      "040295",
+      41.1909,
+      -112.046,
+      5.99,
+      "Taco Bell",
+      "Roy",
+      "UT"
+    ],
+    [
+      "040986",
+      40.6099,
+      -112.029,
+      5.99,
+      "Taco Bell",
+      "West Jordan",
+      "UT"
+    ],
+    [
+      "037722",
+      40.6403522368477,
+      -111.88812217212352,
+      5.99,
+      "Taco Bell",
+      "Murray",
+      "UT"
+    ],
+    [
+      "025387",
+      40.222083356246664,
+      -111.65822356939316,
+      5.99,
+      "Taco Bell",
+      "Provo",
+      "UT"
+    ],
+    [
+      "033164",
+      40.724775848437275,
+      -111.54664233326912,
+      5.99,
+      "Taco Bell",
+      "Park City",
+      "UT"
+    ],
+    [
+      "025392",
+      40.364080482278254,
+      -111.78498398731247,
+      5.99,
+      "Taco Bell",
+      "American Fork",
+      "UT"
+    ],
+    [
+      "030456",
+      40.348680029521205,
+      -111.72869175401769,
+      5.99,
+      "Taco Bell",
+      "Lindon",
+      "UT"
+    ],
+    [
+      "033176",
+      40.639016191881026,
+      -112.02314615249634,
+      5.99,
+      "Taco Bell",
+      "Kearns",
+      "UT"
+    ],
+    [
+      "033161",
+      41.184418020988225,
+      -111.9487016648327,
+      5.99,
+      "Taco Bell",
+      "Ogden",
+      "UT"
+    ],
+    [
+      "033180",
+      40.69548220386448,
+      -112.09121619166581,
+      5.99,
+      "Taco Bell",
+      "Magna",
+      "UT"
+    ],
+    [
+      "025396",
+      40.170321461373085,
+      -111.61104539040025,
+      5.99,
+      "Taco Bell",
+      "Springville",
+      "UT"
+    ],
+    [
+      "029468",
+      40.38700628687298,
+      -111.91746756439898,
+      5.99,
+      "Taco Bell",
+      "Saratoga Springs",
+      "UT"
+    ],
+    [
+      "032151",
+      40.52255674730708,
+      -111.94543123312972,
+      5.99,
+      "Taco Bell",
+      "Riverton",
+      "UT"
+    ],
+    [
+      "033154",
+      40.62400716412134,
+      -111.83524762095658,
+      5.99,
+      "Taco Bell",
+      "Salt Lake City",
+      "UT"
+    ],
+    [
+      "033168",
+      40.77199274986502,
+      -111.9410214722484,
+      5.99,
+      "Taco Bell",
+      "Salt Lake City",
+      "UT"
+    ],
+    [
+      "033177",
+      41.13787879858887,
+      -112.06496975851218,
+      5.99,
+      "Taco Bell",
+      "Clinton",
+      "UT"
+    ],
+    [
+      "032051",
+      40.38919443952963,
+      -111.82862001664034,
+      5.99,
+      "Taco Bell",
+      "Lehi",
+      "UT"
+    ],
+    [
+      "033175",
+      41.101155649575446,
+      -111.94409891426162,
+      5.99,
+      "Taco Bell",
+      "Layton",
+      "UT"
+    ],
+    [
+      "033163",
+      40.69930348344482,
+      -111.89084814752557,
+      5.99,
+      "Taco Bell",
+      "Salt Lake City",
+      "UT"
+    ],
+    [
+      "038835",
+      41.0396379,
+      -111.946692,
+      5.99,
+      "Taco Bell",
+      "Kaysville",
+      "UT"
     ],
     [
       "021309",

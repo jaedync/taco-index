@@ -20,7 +20,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 197
+    "store_count": 199
   },
   "histogram": [
     {
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 38
+      "count": 39
     },
     {
       "bucket": "$1.10",
@@ -85,7 +85,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 16
+      "count": 17
     },
     {
       "bucket": "$1.59",
@@ -106,7 +106,7 @@
     {
       "state": "MI",
       "avg_price": 1.07,
-      "store_count": 47
+      "store_count": 48
     },
     {
       "state": "TX",
@@ -247,6 +247,13 @@
       "price": 1.59
     },
     {
+      "store_number": "038975",
+      "name": "Taco Bell",
+      "city": "Pontiac",
+      "state": "MI",
+      "price": 1.49
+    },
+    {
       "store_number": "037169",
       "name": "Taco Bell",
       "city": "Fraser",
@@ -301,16 +308,29 @@
       "city": "Genoa",
       "state": "OH",
       "price": 1.49
-    },
-    {
-      "store_number": "001439",
-      "name": "Taco Bell",
-      "city": "Sterling Heights",
-      "state": "MI",
-      "price": 1.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038975",
+      "store_name": "Taco Bell",
+      "city": "Pontiac",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-05-21T21:04:34.507406+00:00"
+    },
+    {
+      "store_number": "041976",
+      "store_name": "Taco Bell",
+      "city": "Kingwood",
+      "state": "WV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-05-21T21:03:57.039038+00:00"
+    },
     {
       "store_number": "002274",
       "store_name": "Taco Bell",
@@ -4483,7 +4503,7 @@
     }
   ],
   "activity_summary": {
-    "added": 212,
+    "added": 214,
     "removed": 205,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -5952,6 +5972,15 @@
       "MI"
     ],
     [
+      "041976",
+      39.485068,
+      -79.733975,
+      1.0,
+      "Taco Bell",
+      "Kingwood",
+      "WV"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -6258,6 +6287,15 @@
       "MI"
     ],
     [
+      "038975",
+      42.62029219023837,
+      -83.2493157684803,
+      1.49,
+      "Taco Bell",
+      "Pontiac",
+      "MI"
+    ],
+    [
       "041883",
       48.173424515469144,
       -103.62728089416856,
@@ -6268,6 +6306,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-20",
+  "last_seen_date": "2026-05-21",
   "peak_availability_pct": 2.4
 }

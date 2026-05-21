@@ -16,21 +16,21 @@
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 10.99,
+    "avg": 11.04,
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.88,
-    "store_count": 24
+    "std_dev": 0.9,
+    "store_count": 22
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$10.99",
-      "count": 12
+      "count": 11
     },
     {
       "bucket": "$11.99",
@@ -45,7 +45,7 @@
     {
       "state": "NC",
       "avg_price": 10.99,
-      "store_count": 7
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -85,13 +85,6 @@
       "price": 9.99
     },
     {
-      "store_number": "021493",
-      "name": "Taco Bell / KFC",
-      "city": "Harrodsburg",
-      "state": "KY",
-      "price": 9.99
-    },
-    {
       "store_number": "031389",
       "name": "Taco Bell / KFC",
       "city": "Locust Grove",
@@ -106,10 +99,10 @@
       "price": 9.99
     },
     {
-      "store_number": "041321",
+      "store_number": "020143",
       "name": "Taco Bell",
-      "city": "Grayson",
-      "state": "GA",
+      "city": "Jackson",
+      "state": "MO",
       "price": 9.99
     },
     {
@@ -132,16 +125,22 @@
       "city": "Albuquerque",
       "state": "NM",
       "price": 10.99
+    },
+    {
+      "store_number": "023838",
+      "name": "Taco Bell",
+      "city": "Albuquerque",
+      "state": "NM",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "035717",
     "039735",
     "028510",
-    "021493",
     "031389",
     "024033",
-    "041321"
+    "020143"
   ],
   "priciest_stores": [
     {
@@ -201,21 +200,61 @@
       "price": 10.99
     },
     {
-      "store_number": "029411",
-      "name": "Taco Bell",
-      "city": "Benson",
-      "state": "NC",
-      "price": 10.99
-    },
-    {
       "store_number": "029402",
       "name": "Taco Bell",
       "city": "Creedmoor",
       "state": "NC",
       "price": 10.99
+    },
+    {
+      "store_number": "017415",
+      "name": "Taco Bell / KFC",
+      "city": "Moriarty",
+      "state": "NM",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029411",
+      "store_name": "Taco Bell",
+      "city": "Benson",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-21T21:08:04.515027+00:00"
+    },
+    {
+      "store_number": "041321",
+      "store_name": "Taco Bell",
+      "city": "Grayson",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-21T21:07:42.614216+00:00"
+    },
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-05-21T21:07:31.977829+00:00"
+    },
+    {
+      "store_number": "021493",
+      "store_name": "Taco Bell / KFC",
+      "city": "Harrodsburg",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-21T21:05:58.238898+00:00"
+    },
     {
       "store_number": "041398",
       "store_name": "Taco Bell",
@@ -798,8 +837,8 @@
     }
   ],
   "activity_summary": {
-    "added": 39,
-    "removed": 15,
+    "added": 40,
+    "removed": 18,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -873,15 +912,6 @@
       "KY"
     ],
     [
-      "021493",
-      37.75330172495423,
-      -84.84560079742943,
-      9.99,
-      "Taco Bell / KFC",
-      "Harrodsburg",
-      "KY"
-    ],
-    [
       "031389",
       33.352032936024656,
       -84.120770439522,
@@ -900,13 +930,13 @@
       "MI"
     ],
     [
-      "041321",
-      33.89951093273385,
-      -83.96198987746997,
+      "020143",
+      37.36829880068801,
+      -89.64276076441651,
       9.99,
       "Taco Bell",
-      "Grayson",
-      "GA"
+      "Jackson",
+      "MO"
     ],
     [
       "029536",
@@ -978,15 +1008,6 @@
       10.99,
       "Taco Bell",
       "Creedmoor",
-      "NC"
-    ],
-    [
-      "029411",
-      35.51703677474721,
-      -78.56191411658494,
-      10.99,
-      "Taco Bell",
-      "Benson",
       "NC"
     ],
     [
@@ -1063,6 +1084,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-20",
+  "last_seen_date": "2026-05-21",
   "peak_availability_pct": 0.4
 }

@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:53.681925+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.4,
   "price_stats": {
-    "avg": 3.69,
+    "avg": 3.68,
     "min": 3.49,
     "max": 3.79,
-    "median": 3.79,
-    "std_dev": 0.13,
-    "store_count": 26
+    "median": 3.74,
+    "std_dev": 0.14,
+    "store_count": 28
   },
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 7
+      "count": 9
     },
     {
       "bucket": "$3.69",
@@ -45,8 +45,8 @@
     },
     {
       "state": "CA",
-      "avg_price": 3.62,
-      "store_count": 12
+      "avg_price": 3.6,
+      "store_count": 14
     }
   ],
   "nutrition": {
@@ -75,6 +75,13 @@
       "store_number": "039811",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Palmdale",
+      "state": "CA",
+      "price": 3.49
+    },
+    {
+      "store_number": "039804",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Orange",
       "state": "CA",
       "price": 3.49
     },
@@ -114,23 +121,16 @@
       "price": 3.49
     },
     {
+      "store_number": "041617",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Temecula",
+      "state": "CA",
+      "price": 3.49
+    },
+    {
       "store_number": "041611",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "El Cajon",
-      "state": "CA",
-      "price": 3.69
-    },
-    {
-      "store_number": "039797",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Simi Valley",
-      "state": "CA",
-      "price": 3.69
-    },
-    {
-      "store_number": "039834",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Mira Loma",
       "state": "CA",
       "price": 3.69
     }
@@ -138,11 +138,13 @@
   "min_price_store_numbers": [
     "022811",
     "039811",
+    "039804",
     "027505",
     "039852",
     "039795",
     "039851",
-    "031895"
+    "031895",
+    "041617"
   ],
   "priciest_stores": [
     {
@@ -217,6 +219,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041617",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Temecula",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-05-21T21:06:54.730929+00:00"
+    },
+    {
+      "store_number": "039804",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Orange",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-05-21T21:06:34.803856+00:00"
+    },
     {
       "store_number": "002689",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -409,7 +431,7 @@
     }
   ],
   "activity_summary": {
-    "added": 7,
+    "added": 9,
     "removed": 12,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -435,6 +457,15 @@
       3.49,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Palmdale",
+      "CA"
+    ],
+    [
+      "039804",
+      33.78127193927385,
+      -117.86784589290619,
+      3.49,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Orange",
       "CA"
     ],
     [
@@ -481,6 +512,15 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Las Vegas",
       "NV"
+    ],
+    [
+      "041617",
+      33.525104655154095,
+      -117.16031938791275,
+      3.49,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Temecula",
+      "CA"
     ],
     [
       "041611",
@@ -660,7 +700,7 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 3.7,
+      "avg_price": 3.69,
       "min_price": 3.49,
       "max_price": 3.79,
       "calories": 140,

@@ -15,18 +15,14 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 6.4,
   "price_stats": {
-    "avg": 6.11,
-    "min": 4.19,
+    "avg": 6.12,
+    "min": 4.79,
     "max": 7.19,
-    "median": 5.89,
-    "std_dev": 0.45,
-    "store_count": 496
+    "median": 5.99,
+    "std_dev": 0.43,
+    "store_count": 495
   },
   "histogram": [
-    {
-      "bucket": "$4.19",
-      "count": 2
-    },
     {
       "bucket": "$4.79",
       "count": 4
@@ -93,7 +89,7 @@
     },
     {
       "bucket": "$6.99",
-      "count": 40
+      "count": 41
     },
     {
       "bucket": "$7.19",
@@ -104,7 +100,7 @@
     {
       "state": "GA",
       "avg_price": 6.25,
-      "store_count": 242
+      "store_count": 243
     },
     {
       "state": "TN",
@@ -129,20 +125,6 @@
   ],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "002863",
-      "name": "Taco Bell",
-      "city": "Charlotte",
-      "state": "NC",
-      "price": 4.19
-    },
-    {
-      "store_number": "020143",
-      "name": "Taco Bell",
-      "city": "Jackson",
-      "state": "MO",
-      "price": 4.19
-    },
     {
       "store_number": "034808",
       "name": "Taco Bell",
@@ -198,11 +180,27 @@
       "city": "Panama City Beach",
       "state": "FL",
       "price": 5.29
+    },
+    {
+      "store_number": "004185",
+      "name": "Taco Bell",
+      "city": "Panama City",
+      "state": "FL",
+      "price": 5.29
+    },
+    {
+      "store_number": "019713",
+      "name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "price": 5.29
     }
   ],
   "min_price_store_numbers": [
-    "002863",
-    "020143"
+    "034808",
+    "026342",
+    "022073",
+    "019753"
   ],
   "priciest_stores": [
     {
@@ -277,6 +275,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-05-21T21:07:31.977829+00:00"
+    },
+    {
+      "store_number": "041254",
+      "store_name": "Taco Bell",
+      "city": "Woodstock",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-21T21:07:15.983069+00:00"
+    },
+    {
+      "store_number": "002863",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-05-21T21:04:39.773099+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -8029,8 +8057,8 @@
     }
   ],
   "activity_summary": {
-    "added": 505,
-    "removed": 9,
+    "added": 506,
+    "removed": 11,
     "price_changed": 261,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8039,24 +8067,6 @@
   "calories_max": 490,
   "combo_groups": [],
   "map_data": [
-    [
-      "002863",
-      35.17103590511225,
-      -80.84591701626778,
-      4.19,
-      "Taco Bell",
-      "Charlotte",
-      "NC"
-    ],
-    [
-      "020143",
-      37.36829880068801,
-      -89.64276076441651,
-      4.19,
-      "Taco Bell",
-      "Jackson",
-      "MO"
-    ],
     [
       "034808",
       30.22636410542137,
@@ -12378,6 +12388,15 @@
       "GA"
     ],
     [
+      "041254",
+      34.11227583037828,
+      -84.55985329084487,
+      6.99,
+      "Taco Bell",
+      "Woodstock",
+      "GA"
+    ],
+    [
       "041243",
       34.02333279764089,
       -84.52909384668487,
@@ -12505,6 +12524,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-20",
+  "last_seen_date": "2026-05-21",
   "peak_availability_pct": 6.0
 }

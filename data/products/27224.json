@@ -12,23 +12,19 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 0.7,
-  "recent_price_change_pct": null,
+  "peak_30d_pct": 1.0,
+  "recent_price_change_pct": 0.0328,
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
-  "availability_pct": 0.7,
+  "availability_pct": 1.1,
   "price_stats": {
-    "avg": 3.68,
-    "min": 2.99,
+    "avg": 3.8,
+    "min": 3.49,
     "max": 4.99,
-    "median": 3.59,
-    "std_dev": 0.24,
-    "store_count": 56
+    "median": 3.89,
+    "std_dev": 0.23,
+    "store_count": 86
   },
   "histogram": [
-    {
-      "bucket": "$2.99",
-      "count": 1
-    },
     {
       "bucket": "$3.49",
       "count": 5
@@ -46,15 +42,24 @@
       "count": 14
     },
     {
+      "bucket": "$3.99",
+      "count": 31
+    },
+    {
       "bucket": "$4.99",
       "count": 1
     }
   ],
   "state_prices": [
     {
+      "state": "FL",
+      "avg_price": 3.99,
+      "store_count": 26
+    },
+    {
       "state": "GA",
-      "avg_price": 3.7,
-      "store_count": 55
+      "avg_price": 3.71,
+      "store_count": 58
     }
   ],
   "nutrition": {
@@ -72,13 +77,6 @@
     "serving_size_g": 189.9416
   },
   "cheapest_stores": [
-    {
-      "store_number": "002863",
-      "name": "Taco Bell",
-      "city": "Charlotte",
-      "state": "NC",
-      "price": 2.99
-    },
     {
       "store_number": "042582",
       "name": "Taco Bell",
@@ -141,10 +139,21 @@
       "city": "Cartersville",
       "state": "GA",
       "price": 3.59
+    },
+    {
+      "store_number": "042581",
+      "name": "Taco Bell",
+      "city": "Canton",
+      "state": "GA",
+      "price": 3.59
     }
   ],
   "min_price_store_numbers": [
-    "002863"
+    "042582",
+    "042583",
+    "042576",
+    "042573",
+    "042579"
   ],
   "priciest_stores": [
     {
@@ -155,70 +164,390 @@
       "price": 4.99
     },
     {
-      "store_number": "039701",
+      "store_number": "042970",
       "name": "Taco Bell",
-      "city": "Carrollton",
-      "state": "GA",
-      "price": 3.89
+      "city": "Port Saint Lucie",
+      "state": "FL",
+      "price": 3.99
     },
     {
-      "store_number": "027509",
+      "store_number": "042878",
       "name": "Taco Bell",
-      "city": "Covington",
-      "state": "GA",
-      "price": 3.89
+      "city": "Jacksonville",
+      "state": "FL",
+      "price": 3.99
     },
     {
-      "store_number": "027506",
+      "store_number": "042853",
       "name": "Taco Bell",
-      "city": "Gainesville",
-      "state": "GA",
-      "price": 3.89
+      "city": "Fort Myers",
+      "state": "FL",
+      "price": 3.99
     },
     {
-      "store_number": "004109",
+      "store_number": "042966",
       "name": "Taco Bell",
-      "city": "Conyers",
-      "state": "GA",
-      "price": 3.89
+      "city": "Homestead",
+      "state": "FL",
+      "price": 3.99
     },
     {
-      "store_number": "023742",
+      "store_number": "042912",
       "name": "Taco Bell",
-      "city": "Carrollton",
-      "state": "GA",
-      "price": 3.89
+      "city": "Miami",
+      "state": "FL",
+      "price": 3.99
     },
     {
-      "store_number": "027599",
+      "store_number": "042913",
       "name": "Taco Bell",
-      "city": "Madison",
-      "state": "GA",
-      "price": 3.89
+      "city": "Jacksonville",
+      "state": "FL",
+      "price": 3.99
     },
     {
-      "store_number": "004371",
+      "store_number": "042945",
       "name": "Taco Bell",
-      "city": "Rome",
+      "city": "Lavonia",
       "state": "GA",
-      "price": 3.89
+      "price": 3.99
     },
     {
-      "store_number": "027858",
+      "store_number": "042937",
       "name": "Taco Bell",
-      "city": "Buford",
-      "state": "GA",
-      "price": 3.89
+      "city": "Weston",
+      "state": "FL",
+      "price": 3.99
     },
     {
-      "store_number": "004531",
+      "store_number": "042873",
       "name": "Taco Bell",
-      "city": "Commerce",
-      "state": "GA",
-      "price": 3.89
+      "city": "Fernandina Beach",
+      "state": "FL",
+      "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042970",
+      "store_name": "Taco Bell",
+      "city": "Port Saint Lucie",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:08:27.071157+00:00"
+    },
+    {
+      "store_number": "042878",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:08:08.364796+00:00"
+    },
+    {
+      "store_number": "042853",
+      "store_name": "Taco Bell",
+      "city": "Fort Myers",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:08:02.946425+00:00"
+    },
+    {
+      "store_number": "042966",
+      "store_name": "Taco Bell",
+      "city": "Homestead",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:07:58.820732+00:00"
+    },
+    {
+      "store_number": "042912",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:07:58.590513+00:00"
+    },
+    {
+      "store_number": "042913",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:07:58.574381+00:00"
+    },
+    {
+      "store_number": "042945",
+      "store_name": "Taco Bell",
+      "city": "Lavonia",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:07:58.300624+00:00"
+    },
+    {
+      "store_number": "042937",
+      "store_name": "Taco Bell",
+      "city": "Weston",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:07:55.615627+00:00"
+    },
+    {
+      "store_number": "042873",
+      "store_name": "Taco Bell",
+      "city": "Fernandina Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:07:42.387773+00:00"
+    },
+    {
+      "store_number": "042896",
+      "store_name": "Taco Bell",
+      "city": "Vero Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:07:39.907298+00:00"
+    },
+    {
+      "store_number": "042893",
+      "store_name": "Taco Bell",
+      "city": "Jensen Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:07:17.421115+00:00"
+    },
+    {
+      "store_number": "042909",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:07:12.557605+00:00"
+    },
+    {
+      "store_number": "042920",
+      "store_name": "Taco Bell",
+      "city": "Palatka",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:07:10.003958+00:00"
+    },
+    {
+      "store_number": "042917",
+      "store_name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:07:08.471732+00:00"
+    },
+    {
+      "store_number": "042955",
+      "store_name": "Taco Bell",
+      "city": "Greenville",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:07:08.129520+00:00"
+    },
+    {
+      "store_number": "042969",
+      "store_name": "Taco Bell",
+      "city": "Greenville",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:07:04.093138+00:00"
+    },
+    {
+      "store_number": "042908",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:07:03.729562+00:00"
+    },
+    {
+      "store_number": "042926",
+      "store_name": "Taco Bell",
+      "city": "Tallahassee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:06:51.071620+00:00"
+    },
+    {
+      "store_number": "042875",
+      "store_name": "Taco Bell",
+      "city": "Brunswick",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:06:25.426205+00:00"
+    },
+    {
+      "store_number": "042845",
+      "store_name": "Taco Bell",
+      "city": "La Belle",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:06:25.128444+00:00"
+    },
+    {
+      "store_number": "042883",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:06:19.398161+00:00"
+    },
+    {
+      "store_number": "042882",
+      "store_name": "Taco Bell",
+      "city": "Orange Park",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:06:09.368045+00:00"
+    },
+    {
+      "store_number": "042890",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:05:59.229347+00:00"
+    },
+    {
+      "store_number": "042906",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:05:56.403622+00:00"
+    },
+    {
+      "store_number": "042879",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:05:33.167294+00:00"
+    },
+    {
+      "store_number": "042854",
+      "store_name": "Taco Bell",
+      "city": "Naples",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:05:14.715858+00:00"
+    },
+    {
+      "store_number": "042897",
+      "store_name": "Taco Bell",
+      "city": "Port Saint Lucie",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:05:11.839740+00:00"
+    },
+    {
+      "store_number": "042844",
+      "store_name": "Taco Bell",
+      "city": "Fort Myers",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:05:05.399200+00:00"
+    },
+    {
+      "store_number": "002863",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-21T21:04:39.773099+00:00"
+    },
+    {
+      "store_number": "042981",
+      "store_name": "Taco Bell",
+      "city": "Waycross",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:04:26.030529+00:00"
+    },
+    {
+      "store_number": "042979",
+      "store_name": "Taco Bell",
+      "city": "Hialeah",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:04:19.666670+00:00"
+    },
+    {
+      "store_number": "042984",
+      "store_name": "Taco Bell",
+      "city": "Yulee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-21T21:03:53.764348+00:00"
+    },
     {
       "store_number": "042577",
       "store_name": "Taco Bell",
@@ -881,8 +1210,8 @@
     }
   ],
   "activity_summary": {
-    "added": 10,
-    "removed": 9,
+    "added": 41,
+    "removed": 10,
     "price_changed": 47,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -891,15 +1220,6 @@
   "calories_max": 500,
   "combo_groups": [],
   "map_data": [
-    [
-      "002863",
-      35.17103590511225,
-      -80.84591701626778,
-      2.99,
-      "Taco Bell",
-      "Charlotte",
-      "NC"
-    ],
     [
       "042582",
       34.03186002111262,
@@ -1385,6 +1705,285 @@
       "Taco Bell",
       "Carrollton",
       "GA"
+    ],
+    [
+      "042984",
+      30.6325156,
+      -81.6008533,
+      3.99,
+      "Taco Bell",
+      "Yulee",
+      "FL"
+    ],
+    [
+      "042979",
+      25.8486,
+      -80.3142,
+      3.99,
+      "Taco Bell",
+      "Hialeah",
+      "FL"
+    ],
+    [
+      "042981",
+      31.20367267783481,
+      -82.33275963856107,
+      3.99,
+      "Taco Bell",
+      "Waycross",
+      "GA"
+    ],
+    [
+      "042844",
+      26.54648574323647,
+      -81.79989105090884,
+      3.99,
+      "Taco Bell",
+      "Fort Myers",
+      "FL"
+    ],
+    [
+      "042897",
+      27.30132956815393,
+      -80.3053405880928,
+      3.99,
+      "Taco Bell",
+      "Port Saint Lucie",
+      "FL"
+    ],
+    [
+      "042854",
+      26.155273051094248,
+      -81.68906271457666,
+      3.99,
+      "Taco Bell",
+      "Naples",
+      "FL"
+    ],
+    [
+      "042879",
+      30.3897480339933,
+      -81.67809650301939,
+      3.99,
+      "Taco Bell",
+      "Jacksonville",
+      "FL"
+    ],
+    [
+      "042906",
+      25.84757960530985,
+      -80.18376678228378,
+      3.99,
+      "Taco Bell",
+      "Miami",
+      "FL"
+    ],
+    [
+      "042890",
+      30.477899238141998,
+      -81.63547008741952,
+      3.99,
+      "Taco Bell",
+      "Jacksonville",
+      "FL"
+    ],
+    [
+      "042882",
+      30.18600083709369,
+      -81.73982814701048,
+      3.99,
+      "Taco Bell",
+      "Orange Park",
+      "FL"
+    ],
+    [
+      "042883",
+      30.308847349595215,
+      -81.73201717439042,
+      3.99,
+      "Taco Bell",
+      "Jacksonville",
+      "FL"
+    ],
+    [
+      "042845",
+      26.76223746126524,
+      -81.4364568293422,
+      3.99,
+      "Taco Bell",
+      "La Belle",
+      "FL"
+    ],
+    [
+      "042875",
+      31.2167515667324,
+      -81.51767492294312,
+      3.99,
+      "Taco Bell",
+      "Brunswick",
+      "GA"
+    ],
+    [
+      "042926",
+      30.460074904794755,
+      -84.3566107749939,
+      3.99,
+      "Taco Bell",
+      "Tallahassee",
+      "FL"
+    ],
+    [
+      "042908",
+      25.808503356372075,
+      -80.32573870849768,
+      3.99,
+      "Taco Bell",
+      "Miami",
+      "FL"
+    ],
+    [
+      "042969",
+      34.86043053340967,
+      -82.26812408121077,
+      3.99,
+      "Taco Bell",
+      "Greenville",
+      "SC"
+    ],
+    [
+      "042955",
+      34.85215320149639,
+      -82.45083555579185,
+      3.99,
+      "Taco Bell",
+      "Greenville",
+      "SC"
+    ],
+    [
+      "042917",
+      29.6268081215888,
+      -82.37358579042848,
+      3.99,
+      "Taco Bell",
+      "Gainesville",
+      "FL"
+    ],
+    [
+      "042920",
+      29.641947972239922,
+      -81.66475139561044,
+      3.99,
+      "Taco Bell",
+      "Palatka",
+      "FL"
+    ],
+    [
+      "042909",
+      25.74976682549731,
+      -80.2461174219596,
+      3.99,
+      "Taco Bell",
+      "Miami",
+      "FL"
+    ],
+    [
+      "042893",
+      27.240240039501263,
+      -80.27085234226433,
+      3.99,
+      "Taco Bell",
+      "Jensen Beach",
+      "FL"
+    ],
+    [
+      "042896",
+      27.638098886725665,
+      -80.42807869615905,
+      3.99,
+      "Taco Bell",
+      "Vero Beach",
+      "FL"
+    ],
+    [
+      "042873",
+      30.64416933181493,
+      -81.4587006671718,
+      3.99,
+      "Taco Bell",
+      "Fernandina Beach",
+      "FL"
+    ],
+    [
+      "042937",
+      26.10159423588431,
+      -80.3645662218878,
+      3.99,
+      "Taco Bell",
+      "Weston",
+      "FL"
+    ],
+    [
+      "042945",
+      34.44515828481069,
+      -83.11913877725601,
+      3.99,
+      "Taco Bell",
+      "Lavonia",
+      "GA"
+    ],
+    [
+      "042913",
+      30.287224649054764,
+      -81.45668677520916,
+      3.99,
+      "Taco Bell",
+      "Jacksonville",
+      "FL"
+    ],
+    [
+      "042912",
+      25.76057939916969,
+      -80.41839568759315,
+      3.99,
+      "Taco Bell",
+      "Miami",
+      "FL"
+    ],
+    [
+      "042966",
+      25.499294544305293,
+      -80.41121371921501,
+      3.99,
+      "Taco Bell",
+      "Homestead",
+      "FL"
+    ],
+    [
+      "042853",
+      26.55520461579469,
+      -81.8710190132424,
+      3.99,
+      "Taco Bell",
+      "Fort Myers",
+      "FL"
+    ],
+    [
+      "042878",
+      30.172140902300306,
+      -81.6036971659014,
+      3.99,
+      "Taco Bell",
+      "Jacksonville",
+      "FL"
+    ],
+    [
+      "042970",
+      27.27428750457316,
+      -80.34850978217297,
+      3.99,
+      "Taco Bell",
+      "Port Saint Lucie",
+      "FL"
     ],
     [
       "042578",

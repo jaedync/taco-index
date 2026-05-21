@@ -16,25 +16,21 @@
   "first_seen_at": "2026-04-16T21:07:42.045440+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 5.91,
+    "avg": 5.85,
     "min": 5.49,
-    "max": 7.29,
+    "max": 5.99,
     "median": 5.99,
-    "std_dev": 0.34,
-    "store_count": 29
+    "std_dev": 0.23,
+    "store_count": 28
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$5.99",
-      "count": 21
-    },
-    {
-      "bucket": "$7.29",
-      "count": 1
+      "count": 20
     }
   ],
   "state_prices": [
@@ -109,6 +105,13 @@
       "price": 5.49
     },
     {
+      "store_number": "020143",
+      "name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "price": 5.49
+    },
+    {
       "store_number": "039735",
       "name": "Taco Bell / KFC",
       "city": "Ruckersville",
@@ -121,13 +124,6 @@
       "city": "Miami",
       "state": "FL",
       "price": 5.99
-    },
-    {
-      "store_number": "028510",
-      "name": "Taco Bell / KFC",
-      "city": "Lebanon",
-      "state": "KY",
-      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
@@ -137,16 +133,10 @@
     "028153",
     "003758",
     "024033",
-    "038897"
+    "038897",
+    "020143"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029323",
-      "name": "Taco Bell / KFC",
-      "city": "Northampton",
-      "state": "MA",
-      "price": 7.29
-    },
     {
       "store_number": "041370",
       "name": "Taco Bell / KFC",
@@ -209,9 +199,46 @@
       "city": "Albuquerque",
       "state": "NM",
       "price": 5.99
+    },
+    {
+      "store_number": "029406",
+      "name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029323",
+      "store_name": "Taco Bell / KFC",
+      "city": "Northampton",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 7.29,
+      "new_price": null,
+      "observed_at": "2026-05-21T21:07:37.774149+00:00"
+    },
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-05-21T21:07:31.977829+00:00"
+    },
+    {
+      "store_number": "021493",
+      "store_name": "Taco Bell / KFC",
+      "city": "Harrodsburg",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-05-21T21:05:58.238898+00:00"
+    },
     {
       "store_number": "029402",
       "store_name": "Taco Bell",
@@ -644,8 +671,8 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
-    "removed": 7,
+    "added": 37,
+    "removed": 9,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -718,6 +745,15 @@
       "OH"
     ],
     [
+      "020143",
+      37.36829880068801,
+      -89.64276076441651,
+      5.49,
+      "Taco Bell",
+      "Jackson",
+      "MO"
+    ],
+    [
       "039735",
       38.22995077979435,
       -78.37071418762207,
@@ -788,15 +824,6 @@
       "Taco Bell",
       "Pittsboro",
       "NC"
-    ],
-    [
-      "021493",
-      37.75330172495423,
-      -84.84560079742943,
-      5.99,
-      "Taco Bell / KFC",
-      "Harrodsburg",
-      "KY"
     ],
     [
       "020974",
@@ -905,15 +932,6 @@
       "Taco Bell / KFC",
       "Rio Vista",
       "CA"
-    ],
-    [
-      "029323",
-      42.32848585134205,
-      -72.63313342632506,
-      7.29,
-      "Taco Bell / KFC",
-      "Northampton",
-      "MA"
     ]
   ],
   "retired_at": null,

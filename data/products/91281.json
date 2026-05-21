@@ -22,12 +22,12 @@
     "max": 19.99,
     "median": 12.5,
     "std_dev": 1.25,
-    "store_count": 419
+    "store_count": 418
   },
   "histogram": [
     {
       "bucket": "$12.50",
-      "count": 354
+      "count": 353
     },
     {
       "bucket": "$12.99",
@@ -79,8 +79,8 @@
     },
     {
       "state": "TN",
-      "avg_price": 13.09,
-      "store_count": 77
+      "avg_price": 13.08,
+      "store_count": 78
     },
     {
       "state": "GA",
@@ -492,6 +492,7 @@
     "029076",
     "041212",
     "029078",
+    "029033",
     "042124",
     "036371",
     "041252",
@@ -524,7 +525,6 @@
     "041229",
     "041105",
     "030707",
-    "002863",
     "037038",
     "041881",
     "041258",
@@ -532,8 +532,7 @@
     "041802",
     "042126",
     "029095",
-    "029100",
-    "020143"
+    "029100"
   ],
   "priciest_stores": [
     {
@@ -608,6 +607,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029033",
+      "store_name": "Taco Bell",
+      "city": "Clinton",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-05-21T21:08:09.472329+00:00"
+    },
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-21T21:07:31.977829+00:00"
+    },
+    {
+      "store_number": "002863",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-21T21:04:39.773099+00:00"
+    },
     {
       "store_number": "029033",
       "store_name": "Taco Bell",
@@ -6020,8 +6049,8 @@
     }
   ],
   "activity_summary": {
-    "added": 480,
-    "removed": 61,
+    "added": 481,
+    "removed": 63,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8864,6 +8893,15 @@
       "AL"
     ],
     [
+      "029033",
+      36.118403546259415,
+      -84.11809736365875,
+      12.5,
+      "Taco Bell",
+      "Clinton",
+      "TN"
+    ],
+    [
       "042124",
       30.522978445511598,
       -86.49525940418243,
@@ -9152,15 +9190,6 @@
       "FL"
     ],
     [
-      "002863",
-      35.17103590511225,
-      -80.84591701626778,
-      12.5,
-      "Taco Bell",
-      "Charlotte",
-      "NC"
-    ],
-    [
       "037038",
       36.43596602758595,
       -84.93641937395971,
@@ -9231,15 +9260,6 @@
       "Taco Bell",
       "Auburn",
       "AL"
-    ],
-    [
-      "020143",
-      37.36829880068801,
-      -89.64276076441651,
-      12.5,
-      "Taco Bell",
-      "Jackson",
-      "MO"
     ],
     [
       "032143",
@@ -9828,6 +9848,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-20",
+  "last_seen_date": "2026-05-21",
   "peak_availability_pct": 5.3
 }
