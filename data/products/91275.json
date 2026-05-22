@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 10.38,
+    "avg": 10.39,
     "min": 9.99,
     "max": 10.99,
     "median": 10.29,
-    "std_dev": 0.31,
-    "store_count": 8
+    "std_dev": 0.29,
+    "store_count": 10
   },
   "histogram": [
     {
@@ -34,7 +34,11 @@
     },
     {
       "bucket": "$10.29",
-      "count": 4
+      "count": 5
+    },
+    {
+      "bucket": "$10.59",
+      "count": 1
     },
     {
       "bucket": "$10.69",
@@ -45,7 +49,13 @@
       "count": 1
     }
   ],
-  "state_prices": [],
+  "state_prices": [
+    {
+      "state": "GA",
+      "avg_price": 10.45,
+      "store_count": 5
+    }
+  ],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -97,11 +107,25 @@
       "price": 10.29
     },
     {
+      "store_number": "002995",
+      "name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "price": 10.29
+    },
+    {
       "store_number": "036487",
       "name": "Taco Bell",
       "city": "Montgomery",
       "state": "AL",
       "price": 10.29
+    },
+    {
+      "store_number": "042123",
+      "name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "price": 10.59
     },
     {
       "store_number": "031389",
@@ -137,10 +161,24 @@
       "price": 10.69
     },
     {
+      "store_number": "042123",
+      "name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "price": 10.59
+    },
+    {
       "store_number": "036487",
       "name": "Taco Bell",
       "city": "Montgomery",
       "state": "AL",
+      "price": 10.29
+    },
+    {
+      "store_number": "002995",
+      "name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
       "price": 10.29
     },
     {
@@ -180,6 +218,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042123",
+      "store_name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.59,
+      "observed_at": "2026-05-22T21:43:50.994235+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.29,
+      "observed_at": "2026-05-22T21:38:23.582192+00:00"
+    },
     {
       "store_number": "040783",
       "store_name": "Taco Bell",
@@ -862,7 +920,7 @@
     }
   ],
   "activity_summary": {
-    "added": 38,
+    "added": 40,
     "removed": 30,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -949,6 +1007,15 @@
       "GA"
     ],
     [
+      "002995",
+      33.88866329031674,
+      -84.47492127122132,
+      10.29,
+      "Taco Bell",
+      "Smyrna",
+      "GA"
+    ],
+    [
       "036487",
       32.32585303107889,
       -86.32691858103499,
@@ -956,6 +1023,15 @@
       "Taco Bell",
       "Montgomery",
       "AL"
+    ],
+    [
+      "042123",
+      30.48259156216648,
+      -86.41599865257577,
+      10.59,
+      "Taco Bell",
+      "Niceville",
+      "FL"
     ],
     [
       "031389",
@@ -977,6 +1053,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-21",
+  "last_seen_date": "2026-05-22",
   "peak_availability_pct": 0.2
 }

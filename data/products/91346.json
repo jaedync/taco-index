@@ -14,19 +14,19 @@
   "peak_30d_pct": 6.0,
   "recent_price_change_pct": -0.0208,
   "first_seen_at": "2026-04-16T21:05:37.526671+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
     "avg": 9.0,
     "min": 9.0,
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 2
+      "count": 4
     }
   ],
   "state_prices": [],
@@ -53,22 +53,52 @@
       "price": 9.0
     },
     {
-      "store_number": "036372",
+      "store_number": "036937",
       "name": "Taco Bell",
-      "city": "Enterprise",
+      "city": "Millbrook",
       "state": "AL",
+      "price": 9.0
+    },
+    {
+      "store_number": "031583",
+      "name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "price": 9.0
+    },
+    {
+      "store_number": "002167",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
       "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "035455",
-    "036372"
+    "036937",
+    "031583",
+    "002167"
   ],
   "priciest_stores": [
     {
-      "store_number": "036372",
+      "store_number": "002167",
       "name": "Taco Bell",
-      "city": "Enterprise",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
+      "store_number": "031583",
+      "name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "price": 9.0
+    },
+    {
+      "store_number": "036937",
+      "name": "Taco Bell",
+      "city": "Millbrook",
       "state": "AL",
       "price": 9.0
     },
@@ -81,6 +111,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002167",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-22T21:39:44.088816+00:00"
+    },
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-22T21:39:09.971102+00:00"
+    },
+    {
+      "store_number": "036372",
+      "store_name": "Taco Bell",
+      "city": "Enterprise",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-22T21:37:17.770318+00:00"
+    },
+    {
+      "store_number": "036937",
+      "store_name": "Taco Bell",
+      "city": "Millbrook",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-22T21:34:32.864242+00:00"
+    },
     {
       "store_number": "034026",
       "store_name": "Taco Bell",
@@ -20593,8 +20663,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1024,
-    "removed": 1022,
+    "added": 1027,
+    "removed": 1023,
     "price_changed": 5,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -20607,12 +20677,6 @@
       "title": "Fountain Drink - Medium",
       "default_product_code": "22901",
       "default_product_name": "Medium Fountain Drink"
-    },
-    {
-      "group_id": "68",
-      "title": "Triple Double Crunchwrap",
-      "default_product_code": "23697",
-      "default_product_name": "Triple Double Crunchwrap"
     },
     {
       "group_id": "744",
@@ -20644,16 +20708,34 @@
       "AL"
     ],
     [
-      "036372",
-      31.315457449306592,
-      -85.82937418366782,
+      "036937",
+      32.492787398157375,
+      -86.40598023039077,
       9.0,
       "Taco Bell",
-      "Enterprise",
+      "Millbrook",
       "AL"
+    ],
+    [
+      "031583",
+      32.42953531961479,
+      -80.71891911656758,
+      9.0,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
+    ],
+    [
+      "002167",
+      33.80207381502585,
+      -84.4147127866745,
+      9.0,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-21",
+  "last_seen_date": "2026-05-22",
   "peak_availability_pct": 6.0
 }

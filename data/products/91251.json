@@ -21,13 +21,13 @@
     "min": 1.19,
     "max": 2.29,
     "median": 1.39,
-    "std_dev": 0.19,
-    "store_count": 481
+    "std_dev": 0.18,
+    "store_count": 480
   },
   "histogram": [
     {
       "bucket": "$1.19",
-      "count": 10
+      "count": 9
     },
     {
       "bucket": "$1.29",
@@ -83,14 +83,14 @@
       "store_count": 31
     },
     {
+      "state": "TN",
+      "avg_price": 1.39,
+      "store_count": 87
+    },
+    {
       "state": "AL",
       "avg_price": 1.39,
       "store_count": 121
-    },
-    {
-      "state": "TN",
-      "avg_price": 1.39,
-      "store_count": 88
     }
   ],
   "nutrition": {
@@ -112,13 +112,6 @@
       "store_number": "034073",
       "name": "Taco Bell",
       "city": "White Pine",
-      "state": "TN",
-      "price": 1.19
-    },
-    {
-      "store_number": "019292",
-      "name": "Taco Bell",
-      "city": "Knoxville",
       "state": "TN",
       "price": 1.19
     },
@@ -177,11 +170,17 @@
       "city": "Blaine",
       "state": "TN",
       "price": 1.19
+    },
+    {
+      "store_number": "034784",
+      "name": "Taco Bell",
+      "city": "Hartwell",
+      "state": "GA",
+      "price": 1.29
     }
   ],
   "min_price_store_numbers": [
     "034073",
-    "019292",
     "037050",
     "037100",
     "037038",
@@ -264,6 +263,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041255",
+      "store_name": "Taco Bell",
+      "city": "Acworth",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.59,
+      "observed_at": "2026-05-22T21:37:47.013733+00:00"
+    },
+    {
+      "store_number": "041235",
+      "store_name": "Taco Bell",
+      "city": "Suwanee",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-05-22T21:37:43.804146+00:00"
+    },
+    {
+      "store_number": "019292",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 1.19,
+      "new_price": null,
+      "observed_at": "2026-05-22T21:34:12.740101+00:00"
+    },
     {
       "store_number": "029033",
       "store_name": "Taco Bell",
@@ -6116,8 +6145,8 @@
     }
   ],
   "activity_summary": {
-    "added": 531,
-    "removed": 50,
+    "added": 532,
+    "removed": 52,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6133,15 +6162,6 @@
       1.19,
       "Taco Bell",
       "White Pine",
-      "TN"
-    ],
-    [
-      "019292",
-      36.03309999284835,
-      -83.86894236495063,
-      1.19,
-      "Taco Bell",
-      "Knoxville",
       "TN"
     ],
     [
@@ -9745,12 +9765,12 @@
       "GA"
     ],
     [
-      "041235",
-      34.07381942775987,
-      -84.16499994233163,
+      "041255",
+      34.03689757180433,
+      -84.68522161245352,
       1.59,
       "Taco Bell",
-      "Suwanee",
+      "Acworth",
       "GA"
     ],
     [
@@ -10457,6 +10477,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-21",
+  "last_seen_date": "2026-05-22",
   "peak_availability_pct": 5.9
 }

@@ -16,12 +16,12 @@
   "first_seen_at": "2026-04-17T20:59:09.048162+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 11.91,
+    "avg": 11.9,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.86,
-    "store_count": 25
+    "std_dev": 0.9,
+    "store_count": 23
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$11.99",
-      "count": 13
+      "count": 11
     },
     {
       "bucket": "$12.99",
@@ -45,7 +45,7 @@
     {
       "state": "NC",
       "avg_price": 11.99,
-      "store_count": 7
+      "store_count": 5
     }
   ],
   "nutrition": null,
@@ -182,13 +182,6 @@
       "price": 11.99
     },
     {
-      "store_number": "029412",
-      "name": "Taco Bell",
-      "city": "Durham",
-      "state": "NC",
-      "price": 11.99
-    },
-    {
       "store_number": "017415",
       "name": "Taco Bell / KFC",
       "city": "Moriarty",
@@ -201,9 +194,36 @@
       "city": "Albuquerque",
       "state": "NM",
       "price": 11.99
+    },
+    {
+      "store_number": "029482",
+      "name": "Taco Bell",
+      "city": "Pittsboro",
+      "state": "NC",
+      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029412",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-22T21:43:28.893445+00:00"
+    },
+    {
+      "store_number": "029354",
+      "store_name": "Taco Bell",
+      "city": "Holly Springs",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-22T21:37:08.009523+00:00"
+    },
     {
       "store_number": "029411",
       "store_name": "Taco Bell",
@@ -857,7 +877,7 @@
   ],
   "activity_summary": {
     "added": 45,
-    "removed": 20,
+    "removed": 22,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1009,15 +1029,6 @@
       "NC"
     ],
     [
-      "029354",
-      35.63581374810407,
-      -78.83095175027847,
-      11.99,
-      "Taco Bell",
-      "Holly Springs",
-      "NC"
-    ],
-    [
       "029401",
       36.72095995536841,
       -78.11828226665455,
@@ -1061,15 +1072,6 @@
       "Taco Bell / KFC",
       "Moriarty",
       "NM"
-    ],
-    [
-      "029412",
-      35.919901991392784,
-      -78.95752345027176,
-      11.99,
-      "Taco Bell",
-      "Durham",
-      "NC"
     ],
     [
       "024051",
@@ -1136,6 +1138,6 @@
     ]
   ],
   "retired_at": "2026-04-18T22:12:40.299660+00:00",
-  "last_seen_date": "2026-05-21",
+  "last_seen_date": "2026-05-22",
   "peak_availability_pct": 0.4
 }

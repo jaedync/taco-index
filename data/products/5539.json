@@ -20,7 +20,7 @@
     "max": 1.2,
     "median": 0.6,
     "std_dev": 0.13,
-    "store_count": 494
+    "store_count": 495
   },
   "histogram": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 6
+      "count": 7
     },
     {
       "bucket": "$0.35",
@@ -109,8 +109,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 0.63,
-      "store_count": 241
+      "avg_price": 0.62,
+      "store_count": 242
     },
     {
       "state": "SC",
@@ -181,6 +181,13 @@
       "price": 0.3
     },
     {
+      "store_number": "042903",
+      "name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "price": 0.3
+    },
+    {
       "store_number": "031389",
       "name": "Taco Bell / KFC",
       "city": "Locust Grove",
@@ -198,13 +205,6 @@
       "store_number": "024747",
       "name": "Taco Bell / Pizza Hut",
       "city": "McDonough",
-      "state": "GA",
-      "price": 0.3
-    },
-    {
-      "store_number": "033933",
-      "name": "Taco Bell",
-      "city": "Fort Valley",
       "state": "GA",
       "price": 0.3
     }
@@ -288,6 +288,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-05-22T21:35:57.440629+00:00"
+    },
     {
       "store_number": "020143",
       "store_name": "Taco Bell",
@@ -5330,7 +5340,7 @@
     }
   ],
   "activity_summary": {
-    "added": 498,
+    "added": 499,
     "removed": 4,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
@@ -5393,6 +5403,15 @@
       "Taco Bell",
       "Hardeeville",
       "SC"
+    ],
+    [
+      "042903",
+      31.783928,
+      -82.363196,
+      0.3,
+      "Taco Bell",
+      "Baxley",
+      "GA"
     ],
     [
       "031389",
@@ -9788,6 +9807,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-21",
+  "last_seen_date": "2026-05-22",
   "peak_availability_pct": 6.0
 }

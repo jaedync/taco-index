@@ -20,8 +20,8 @@
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.9,
-    "store_count": 22
+    "std_dev": 0.92,
+    "store_count": 21
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$11.99",
@@ -45,7 +45,7 @@
     {
       "state": "NC",
       "avg_price": 10.99,
-      "store_count": 6
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -193,13 +193,6 @@
       "price": 10.99
     },
     {
-      "store_number": "029412",
-      "name": "Taco Bell",
-      "city": "Durham",
-      "state": "NC",
-      "price": 10.99
-    },
-    {
       "store_number": "029402",
       "name": "Taco Bell",
       "city": "Creedmoor",
@@ -212,9 +205,26 @@
       "city": "Moriarty",
       "state": "NM",
       "price": 10.99
+    },
+    {
+      "store_number": "041399",
+      "name": "Taco Bell",
+      "city": "Louisburg",
+      "state": "NC",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029412",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-22T21:43:28.893445+00:00"
+    },
     {
       "store_number": "029411",
       "store_name": "Taco Bell",
@@ -838,7 +848,7 @@
   ],
   "activity_summary": {
     "added": 40,
-    "removed": 18,
+    "removed": 19,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1011,15 +1021,6 @@
       "NC"
     ],
     [
-      "029412",
-      35.919901991392784,
-      -78.95752345027176,
-      10.99,
-      "Taco Bell",
-      "Durham",
-      "NC"
-    ],
-    [
       "029483",
       35.80337775917284,
       -78.78350347280502,
@@ -1084,6 +1085,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-21",
+  "last_seen_date": "2026-05-22",
   "peak_availability_pct": 0.4
 }

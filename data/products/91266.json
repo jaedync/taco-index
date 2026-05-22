@@ -12,24 +12,28 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.9,
-  "recent_price_change_pct": 0.0618,
+  "recent_price_change_pct": 0.042,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 3.45,
+    "avg": 3.39,
     "min": 2.99,
     "max": 3.59,
-    "median": 3.59,
-    "std_dev": 0.21,
-    "store_count": 14
+    "median": 3.49,
+    "std_dev": 0.22,
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$3.19",
+      "count": 7
+    },
+    {
+      "bucket": "$3.29",
       "count": 3
     },
     {
@@ -38,14 +42,14 @@
     },
     {
       "bucket": "$3.59",
-      "count": 9
+      "count": 12
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 3.5,
-      "store_count": 12
+      "avg_price": 3.43,
+      "store_count": 20
     }
   ],
   "nutrition": null,
@@ -58,6 +62,20 @@
       "price": 2.99
     },
     {
+      "store_number": "002167",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 2.99
+    },
+    {
+      "store_number": "040929",
+      "name": "Taco Bell",
+      "city": "Greensboro",
+      "state": "GA",
+      "price": 3.19
+    },
+    {
       "store_number": "041881",
       "name": "Taco Bell",
       "city": "Columbus",
@@ -65,10 +83,31 @@
       "price": 3.19
     },
     {
-      "store_number": "036372",
+      "store_number": "026837",
       "name": "Taco Bell",
-      "city": "Enterprise",
-      "state": "AL",
+      "city": "Alcoa",
+      "state": "TN",
+      "price": 3.19
+    },
+    {
+      "store_number": "031633",
+      "name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "price": 3.19
+    },
+    {
+      "store_number": "002995",
+      "name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "price": 3.19
+    },
+    {
+      "store_number": "019713",
+      "name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
       "price": 3.19
     },
     {
@@ -79,56 +118,36 @@
       "price": 3.19
     },
     {
-      "store_number": "039924",
+      "store_number": "042903",
       "name": "Taco Bell",
-      "city": "Hinesville",
+      "city": "Baxley",
       "state": "GA",
-      "price": 3.49
-    },
+      "price": 3.29
+    }
+  ],
+  "min_price_store_numbers": [
+    "029008",
+    "002167"
+  ],
+  "priciest_stores": [
     {
-      "store_number": "041260",
+      "store_number": "041238",
       "name": "Taco Bell",
       "city": "Athens",
       "state": "GA",
       "price": 3.59
     },
     {
-      "store_number": "041261",
-      "name": "Taco Bell",
-      "city": "Buford",
-      "state": "GA",
-      "price": 3.59
-    },
-    {
-      "store_number": "041320",
-      "name": "Taco Bell",
-      "city": "Lawrenceville",
-      "state": "GA",
-      "price": 3.59
-    },
-    {
-      "store_number": "041258",
-      "name": "Taco Bell",
-      "city": "Peachtree Corners",
-      "state": "GA",
-      "price": 3.59
-    },
-    {
-      "store_number": "041232",
-      "name": "Taco Bell",
-      "city": "Suwanee",
-      "state": "GA",
-      "price": 3.59
-    }
-  ],
-  "min_price_store_numbers": [
-    "029008"
-  ],
-  "priciest_stores": [
-    {
       "store_number": "041254",
       "name": "Taco Bell",
       "city": "Woodstock",
+      "state": "GA",
+      "price": 3.59
+    },
+    {
+      "store_number": "041255",
+      "name": "Taco Bell",
+      "city": "Acworth",
       "state": "GA",
       "price": 3.59
     },
@@ -168,35 +187,151 @@
       "price": 3.59
     },
     {
-      "store_number": "041320",
+      "store_number": "041249",
       "name": "Taco Bell",
       "city": "Lawrenceville",
       "state": "GA",
       "price": 3.59
     },
     {
-      "store_number": "041261",
+      "store_number": "041320",
       "name": "Taco Bell",
-      "city": "Buford",
+      "city": "Lawrenceville",
       "state": "GA",
       "price": 3.59
-    },
-    {
-      "store_number": "041260",
-      "name": "Taco Bell",
-      "city": "Athens",
-      "state": "GA",
-      "price": 3.59
-    },
-    {
-      "store_number": "039924",
-      "name": "Taco Bell",
-      "city": "Hinesville",
-      "state": "GA",
-      "price": 3.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019713",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-22T21:39:50.174960+00:00"
+    },
+    {
+      "store_number": "002167",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-22T21:39:44.088816+00:00"
+    },
+    {
+      "store_number": "041238",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-05-22T21:39:10.569722+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-22T21:38:23.582192+00:00"
+    },
+    {
+      "store_number": "031633",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-22T21:38:15.983326+00:00"
+    },
+    {
+      "store_number": "026837",
+      "store_name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-22T21:38:03.235695+00:00"
+    },
+    {
+      "store_number": "042831",
+      "store_name": "Taco Bell",
+      "city": "Spanish Fort",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-05-22T21:37:56.069868+00:00"
+    },
+    {
+      "store_number": "041255",
+      "store_name": "Taco Bell",
+      "city": "Acworth",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-05-22T21:37:47.013733+00:00"
+    },
+    {
+      "store_number": "040962",
+      "store_name": "Taco Bell",
+      "city": "Franklin",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-05-22T21:37:18.181786+00:00"
+    },
+    {
+      "store_number": "036372",
+      "store_name": "Taco Bell",
+      "city": "Enterprise",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-05-22T21:37:17.770318+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-05-22T21:37:13.435183+00:00"
+    },
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-05-22T21:35:57.440629+00:00"
+    },
+    {
+      "store_number": "040929",
+      "store_name": "Taco Bell",
+      "city": "Greensboro",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-22T21:33:37.935043+00:00"
+    },
     {
       "store_number": "034026",
       "store_name": "Taco Bell",
@@ -13259,8 +13394,8 @@
     }
   ],
   "activity_summary": {
-    "added": 507,
-    "removed": 493,
+    "added": 519,
+    "removed": 494,
     "price_changed": 306,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13292,6 +13427,24 @@
       "GA"
     ],
     [
+      "002167",
+      33.80207381502585,
+      -84.4147127866745,
+      2.99,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
+    ],
+    [
+      "040929",
+      33.5397,
+      -83.2096,
+      3.19,
+      "Taco Bell",
+      "Greensboro",
+      "GA"
+    ],
+    [
       "041881",
       32.566557,
       -84.933376,
@@ -13301,13 +13454,40 @@
       "GA"
     ],
     [
-      "036372",
-      31.315457449306592,
-      -85.82937418366782,
+      "026837",
+      35.76009726491193,
+      -83.97547312083594,
       3.19,
       "Taco Bell",
-      "Enterprise",
-      "AL"
+      "Alcoa",
+      "TN"
+    ],
+    [
+      "031633",
+      33.73245285221801,
+      -84.6678918600083,
+      3.19,
+      "Taco Bell",
+      "Douglasville",
+      "GA"
+    ],
+    [
+      "002995",
+      33.88866329031674,
+      -84.47492127122132,
+      3.19,
+      "Taco Bell",
+      "Smyrna",
+      "GA"
+    ],
+    [
+      "019713",
+      30.231264247912293,
+      -85.8896670444301,
+      3.19,
+      "Taco Bell",
+      "Panama City Beach",
+      "FL"
     ],
     [
       "029033",
@@ -13317,6 +13497,33 @@
       "Taco Bell",
       "Clinton",
       "TN"
+    ],
+    [
+      "042903",
+      31.783928,
+      -82.363196,
+      3.29,
+      "Taco Bell",
+      "Baxley",
+      "GA"
+    ],
+    [
+      "040962",
+      35.18370637706397,
+      -83.35587926686479,
+      3.29,
+      "Taco Bell",
+      "Franklin",
+      "NC"
+    ],
+    [
+      "042831",
+      30.670654044454654,
+      -87.85164057593474,
+      3.29,
+      "Taco Bell",
+      "Spanish Fort",
+      "AL"
     ],
     [
       "039924",
@@ -13349,6 +13556,15 @@
       "041320",
       33.98718766651088,
       -83.98494833474453,
+      3.59,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
+    ],
+    [
+      "041249",
+      33.96647033026141,
+      -84.010348240854,
       3.59,
       "Taco Bell",
       "Lawrenceville",
@@ -13400,6 +13616,15 @@
       "GA"
     ],
     [
+      "041255",
+      34.03689757180433,
+      -84.68522161245352,
+      3.59,
+      "Taco Bell",
+      "Acworth",
+      "GA"
+    ],
+    [
       "041254",
       34.11227583037828,
       -84.55985329084487,
@@ -13407,9 +13632,18 @@
       "Taco Bell",
       "Woodstock",
       "GA"
+    ],
+    [
+      "041238",
+      33.92281058279636,
+      -83.34047734737396,
+      3.59,
+      "Taco Bell",
+      "Athens",
+      "GA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-21",
+  "last_seen_date": "2026-05-22",
   "peak_availability_pct": 5.9
 }

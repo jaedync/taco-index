@@ -15,14 +15,14 @@
   "peak_30d_pct": 89.7,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-19T20:59:28.099759+00:00",
-  "availability_pct": 96.0,
+  "availability_pct": 96.1,
   "price_stats": {
     "avg": 0.21,
     "min": 0.2,
     "max": 0.75,
     "median": 0.2,
     "std_dev": 0.05,
-    "store_count": 7404
+    "store_count": 7407
   },
   "histogram": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 501
+      "count": 503
     },
     {
       "bucket": "$0.35",
@@ -55,7 +55,7 @@
     },
     {
       "bucket": "$0.40",
-      "count": 87
+      "count": 88
     },
     {
       "bucket": "$0.49",
@@ -89,6 +89,11 @@
       "state": "VA",
       "avg_price": 0.27,
       "store_count": 200
+    },
+    {
+      "state": "UT",
+      "avg_price": 0.24,
+      "store_count": 10
     },
     {
       "state": "ID",
@@ -131,19 +136,14 @@
       "store_count": 49
     },
     {
-      "state": "UT",
-      "avg_price": 0.22,
-      "store_count": 9
-    },
-    {
       "state": "FL",
       "avg_price": 0.21,
-      "store_count": 350
+      "store_count": 351
     },
     {
       "state": "WV",
       "avg_price": 0.21,
-      "store_count": 72
+      "store_count": 73
     },
     {
       "state": "MD",
@@ -243,7 +243,7 @@
     {
       "state": "OH",
       "avg_price": 0.2,
-      "store_count": 411
+      "store_count": 410
     },
     {
       "state": "NM",
@@ -313,7 +313,7 @@
     {
       "state": "AL",
       "avg_price": 0.2,
-      "store_count": 160
+      "store_count": 161
     },
     {
       "state": "AK",
@@ -2384,7 +2384,6 @@
     "030566",
     "029517",
     "019282",
-    "027995",
     "034638",
     "032512",
     "030386",
@@ -2756,7 +2755,6 @@
     "005007",
     "018678",
     "034700",
-    "031805",
     "023177",
     "030407",
     "038894",
@@ -6739,7 +6737,6 @@
     "038913",
     "039747",
     "032977",
-    "032685",
     "030686",
     "041184",
     "032898",
@@ -6787,6 +6784,7 @@
     "032976",
     "031760",
     "037061",
+    "021087",
     "033089",
     "033639",
     "033524",
@@ -6995,7 +6993,9 @@
     "042567",
     "043047",
     "042080",
-    "042808"
+    "042808",
+    "036372",
+    "022595"
   ],
   "priciest_stores": [
     {
@@ -7070,6 +7070,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038835",
+      "store_name": "Taco Bell",
+      "city": "Kaysville",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-05-22T21:43:53.696034+00:00"
+    },
+    {
+      "store_number": "021087",
+      "store_name": "Taco Bell",
+      "city": "Oceana",
+      "state": "WV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-05-22T21:43:52.076929+00:00"
+    },
+    {
+      "store_number": "032685",
+      "store_name": "Taco Bell",
+      "city": "Woodlyn",
+      "state": "PA",
+      "change_type": "price_change",
+      "old_price": 0.2,
+      "new_price": 0.3,
+      "observed_at": "2026-05-22T21:43:51.209550+00:00"
+    },
+    {
+      "store_number": "022595",
+      "store_name": "Taco Bell",
+      "city": "Titusville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-05-22T21:37:47.666187+00:00"
+    },
+    {
+      "store_number": "036372",
+      "store_name": "Taco Bell",
+      "city": "Enterprise",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-05-22T21:37:17.770318+00:00"
+    },
+    {
+      "store_number": "031805",
+      "store_name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "change_type": "price_change",
+      "old_price": 0.2,
+      "new_price": 0.3,
+      "observed_at": "2026-05-22T21:36:45.783985+00:00"
+    },
     {
       "store_number": "042808",
       "store_name": "Taco Bell",
@@ -82412,9 +82472,9 @@
     }
   ],
   "activity_summary": {
-    "added": 7408,
+    "added": 7412,
     "removed": 3,
-    "price_changed": 123,
+    "price_changed": 125,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 45,
@@ -100162,15 +100222,6 @@
       "AK"
     ],
     [
-      "027995",
-      41.024630276969226,
-      -80.63542932271957,
-      0.2,
-      "Taco Bell",
-      "Youngstown",
-      "OH"
-    ],
-    [
       "034638",
       30.42340865904709,
       -89.09181207418442,
@@ -103508,15 +103559,6 @@
       "Taco Bell",
       "Germantown",
       "TN"
-    ],
-    [
-      "031805",
-      40.073290002810296,
-      -75.08424917790978,
-      0.2,
-      "Taco Bell",
-      "Philadelphia",
-      "PA"
     ],
     [
       "023177",
@@ -139357,15 +139399,6 @@
       "SC"
     ],
     [
-      "032685",
-      39.87794401270275,
-      -75.34418866038322,
-      0.2,
-      "Taco Bell",
-      "Woodlyn",
-      "PA"
-    ],
-    [
       "030686",
       39.18696537219534,
       -81.52699023485184,
@@ -139787,6 +139820,15 @@
       "Taco Bell",
       "Coralville",
       "IA"
+    ],
+    [
+      "021087",
+      37.69379788961819,
+      -81.65234342177564,
+      0.2,
+      "Taco Bell",
+      "Oceana",
+      "WV"
     ],
     [
       "033089",
@@ -141668,6 +141710,24 @@
       "Taco Bell",
       "Etna",
       "OH"
+    ],
+    [
+      "036372",
+      31.315457449306592,
+      -85.82937418366782,
+      0.2,
+      "Taco Bell",
+      "Enterprise",
+      "AL"
+    ],
+    [
+      "022595",
+      28.55328983120039,
+      -80.84494297208039,
+      0.2,
+      "Taco Bell",
+      "Titusville",
+      "FL"
     ],
     [
       "039145",
@@ -143846,6 +143906,15 @@
       "Taco Bell",
       "Belton",
       "MO"
+    ],
+    [
+      "031805",
+      40.073290002810296,
+      -75.08424917790978,
+      0.3,
+      "Taco Bell",
+      "Philadelphia",
+      "PA"
     ],
     [
       "039849",
@@ -147070,6 +147139,15 @@
       "OR"
     ],
     [
+      "032685",
+      39.87794401270275,
+      -75.34418866038322,
+      0.3,
+      "Taco Bell",
+      "Woodlyn",
+      "PA"
+    ],
+    [
       "034441",
       36.6245,
       -87.3191,
@@ -148786,6 +148864,15 @@
       0.4,
       "Taco Bell",
       "Magna",
+      "UT"
+    ],
+    [
+      "038835",
+      41.0396379,
+      -111.946692,
+      0.4,
+      "Taco Bell",
+      "Kaysville",
       "UT"
     ],
     [

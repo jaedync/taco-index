@@ -11,8 +11,8 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 3.9,
-  "recent_price_change_pct": -0.0741,
+  "peak_30d_pct": 3.7,
+  "recent_price_change_pct": -0.0731,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.0,
   "price_stats": {
@@ -21,12 +21,12 @@
     "max": 2.49,
     "median": 2.49,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$2.49",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -51,27 +51,12 @@
       "city": "Dalton",
       "state": "GA",
       "price": 2.49
-    },
-    {
-      "store_number": "036372",
-      "name": "Taco Bell",
-      "city": "Enterprise",
-      "state": "AL",
-      "price": 2.49
     }
   ],
   "min_price_store_numbers": [
-    "029008",
-    "036372"
+    "029008"
   ],
   "priciest_stores": [
-    {
-      "store_number": "036372",
-      "name": "Taco Bell",
-      "city": "Enterprise",
-      "state": "AL",
-      "price": 2.49
-    },
     {
       "store_number": "029008",
       "name": "Taco Bell",
@@ -81,6 +66,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036372",
+      "store_name": "Taco Bell",
+      "city": "Enterprise",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-22T21:37:17.770318+00:00"
+    },
     {
       "store_number": "033933",
       "store_name": "Taco Bell",
@@ -11144,7 +11139,7 @@
   ],
   "activity_summary": {
     "added": 554,
-    "removed": 552,
+    "removed": 553,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11161,18 +11156,9 @@
       "Taco Bell",
       "Dalton",
       "GA"
-    ],
-    [
-      "036372",
-      31.315457449306592,
-      -85.82937418366782,
-      2.49,
-      "Taco Bell",
-      "Enterprise",
-      "AL"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-21",
+  "last_seen_date": "2026-05-22",
   "peak_availability_pct": 5.9
 }
