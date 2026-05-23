@@ -15,39 +15,39 @@
   "peak_30d_pct": 6.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.6,
   "price_stats": {
-    "avg": 6.8,
+    "avg": 6.77,
     "min": 6.49,
     "max": 6.99,
-    "median": 6.99,
-    "std_dev": 0.21,
-    "store_count": 29
+    "median": 6.69,
+    "std_dev": 0.2,
+    "store_count": 44
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 6
+      "count": 10
     },
     {
       "bucket": "$6.69",
-      "count": 8
+      "count": 15
     },
     {
       "bucket": "$6.99",
-      "count": 15
+      "count": 19
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 6.87,
-      "store_count": 17
+      "store_count": 22
     },
     {
       "state": "AL",
-      "avg_price": 6.69,
-      "store_count": 8
+      "avg_price": 6.66,
+      "store_count": 17
     }
   ],
   "nutrition": {
@@ -70,6 +70,27 @@
       "name": "Taco Bell",
       "city": "Dalton",
       "state": "GA",
+      "price": 6.49
+    },
+    {
+      "store_number": "029157",
+      "name": "Taco Bell",
+      "city": "Tuscaloosa",
+      "state": "AL",
+      "price": 6.49
+    },
+    {
+      "store_number": "036370",
+      "name": "Taco Bell",
+      "city": "Daleville",
+      "state": "AL",
+      "price": 6.49
+    },
+    {
+      "store_number": "036369",
+      "name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
       "price": 6.49
     },
     {
@@ -108,47 +129,44 @@
       "price": 6.49
     },
     {
-      "store_number": "036937",
+      "store_number": "036371",
       "name": "Taco Bell",
-      "city": "Millbrook",
+      "city": "Dothan",
       "state": "AL",
-      "price": 6.69
-    },
-    {
-      "store_number": "037192",
-      "name": "Taco Bell",
-      "city": "Montgomery",
-      "state": "AL",
-      "price": 6.69
-    },
-    {
-      "store_number": "042356",
-      "name": "Taco Bell",
-      "city": "Prattville",
-      "state": "AL",
-      "price": 6.69
-    },
-    {
-      "store_number": "036488",
-      "name": "Taco Bell",
-      "city": "Montgomery",
-      "state": "AL",
-      "price": 6.69
+      "price": 6.49
     }
   ],
   "min_price_store_numbers": [
     "029008",
+    "029157",
+    "036370",
+    "036369",
     "026837",
     "031633",
     "002995",
     "002167",
-    "019713"
+    "019713",
+    "036371"
   ],
   "priciest_stores": [
     {
       "store_number": "041238",
       "name": "Taco Bell",
       "city": "Athens",
+      "state": "GA",
+      "price": 6.99
+    },
+    {
+      "store_number": "041223",
+      "name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "price": 6.99
+    },
+    {
+      "store_number": "039924",
+      "name": "Taco Bell",
+      "city": "Hinesville",
       "state": "GA",
       "price": 6.99
     },
@@ -195,28 +213,164 @@
       "price": 6.99
     },
     {
-      "store_number": "040962",
+      "store_number": "041322",
       "name": "Taco Bell",
-      "city": "Franklin",
-      "state": "NC",
-      "price": 6.99
-    },
-    {
-      "store_number": "041249",
-      "name": "Taco Bell",
-      "city": "Lawrenceville",
-      "state": "GA",
-      "price": 6.99
-    },
-    {
-      "store_number": "041320",
-      "name": "Taco Bell",
-      "city": "Lawrenceville",
+      "city": "Dacula",
       "state": "GA",
       "price": 6.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036371",
+      "store_name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-23T21:10:36.777185+00:00"
+    },
+    {
+      "store_number": "041223",
+      "store_name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-23T21:10:05.378902+00:00"
+    },
+    {
+      "store_number": "039924",
+      "store_name": "Taco Bell",
+      "city": "Hinesville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-23T21:09:49.685391+00:00"
+    },
+    {
+      "store_number": "036369",
+      "store_name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-23T21:09:48.331495+00:00"
+    },
+    {
+      "store_number": "041322",
+      "store_name": "Taco Bell",
+      "city": "Dacula",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-23T21:08:59.284559+00:00"
+    },
+    {
+      "store_number": "036370",
+      "store_name": "Taco Bell",
+      "city": "Daleville",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-23T21:08:11.546747+00:00"
+    },
+    {
+      "store_number": "042577",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.69,
+      "observed_at": "2026-05-23T21:08:07.658798+00:00"
+    },
+    {
+      "store_number": "040113",
+      "store_name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.69,
+      "observed_at": "2026-05-23T21:08:05.358242+00:00"
+    },
+    {
+      "store_number": "043144",
+      "store_name": "Taco Bell",
+      "city": "Oneonta",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-23T21:07:59.421533+00:00"
+    },
+    {
+      "store_number": "029157",
+      "store_name": "Taco Bell",
+      "city": "Tuscaloosa",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-23T21:07:50.440646+00:00"
+    },
+    {
+      "store_number": "037357",
+      "store_name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.69,
+      "observed_at": "2026-05-23T21:03:11.475030+00:00"
+    },
+    {
+      "store_number": "037050",
+      "store_name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.69,
+      "observed_at": "2026-05-23T21:02:02.591405+00:00"
+    },
+    {
+      "store_number": "042575",
+      "store_name": "Taco Bell",
+      "city": "Cartersville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.69,
+      "observed_at": "2026-05-23T20:56:25.709934+00:00"
+    },
+    {
+      "store_number": "042019",
+      "store_name": "Taco Bell",
+      "city": "Ozark",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.69,
+      "observed_at": "2026-05-23T20:55:23.683800+00:00"
+    },
+    {
+      "store_number": "041188",
+      "store_name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.69,
+      "observed_at": "2026-05-23T20:51:51.000567+00:00"
+    },
     {
       "store_number": "040783",
       "store_name": "Taco Bell",
@@ -10459,7 +10613,7 @@
     }
   ],
   "activity_summary": {
-    "added": 526,
+    "added": 541,
     "removed": 497,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
@@ -10496,6 +10650,33 @@
       "Taco Bell",
       "Dalton",
       "GA"
+    ],
+    [
+      "029157",
+      33.20571253256555,
+      -87.56997630000114,
+      6.49,
+      "Taco Bell",
+      "Tuscaloosa",
+      "AL"
+    ],
+    [
+      "036370",
+      31.32011689406289,
+      -85.71096251539484,
+      6.49,
+      "Taco Bell",
+      "Daleville",
+      "AL"
+    ],
+    [
+      "036369",
+      31.225377460818564,
+      -85.43169875444619,
+      6.49,
+      "Taco Bell",
+      "Dothan",
+      "AL"
     ],
     [
       "026837",
@@ -10543,6 +10724,42 @@
       "FL"
     ],
     [
+      "036371",
+      31.21702476498824,
+      -85.36042039097993,
+      6.49,
+      "Taco Bell",
+      "Dothan",
+      "AL"
+    ],
+    [
+      "041188",
+      31.267431,
+      -85.378863,
+      6.69,
+      "Taco Bell",
+      "Dothan",
+      "AL"
+    ],
+    [
+      "042019",
+      31.443187,
+      -85.651524,
+      6.69,
+      "Taco Bell",
+      "Ozark",
+      "AL"
+    ],
+    [
+      "042575",
+      34.12172166930911,
+      -84.74467018956662,
+      6.69,
+      "Taco Bell",
+      "Cartersville",
+      "GA"
+    ],
+    [
       "036937",
       32.492787398157375,
       -86.40598023039077,
@@ -10550,6 +10767,15 @@
       "Taco Bell",
       "Millbrook",
       "AL"
+    ],
+    [
+      "037050",
+      36.10306709232148,
+      -84.58455685815763,
+      6.69,
+      "Taco Bell",
+      "Wartburg",
+      "TN"
     ],
     [
       "037192",
@@ -10568,6 +10794,33 @@
       "Taco Bell",
       "Prattville",
       "AL"
+    ],
+    [
+      "037357",
+      31.260210432381527,
+      -85.43750439907221,
+      6.69,
+      "Taco Bell",
+      "Dothan",
+      "AL"
+    ],
+    [
+      "040113",
+      31.181062668156088,
+      -85.40264727043798,
+      6.69,
+      "Taco Bell",
+      "Dothan",
+      "AL"
+    ],
+    [
+      "042577",
+      33.92625404412495,
+      -84.74611869194156,
+      6.69,
+      "Taco Bell",
+      "Dallas",
+      "GA"
     ],
     [
       "036488",
@@ -10651,6 +10904,15 @@
       "NC"
     ],
     [
+      "043144",
+      33.948889116027075,
+      -86.4707882609855,
+      6.99,
+      "Taco Bell",
+      "Oneonta",
+      "AL"
+    ],
+    [
       "042903",
       31.783928,
       -82.363196,
@@ -10685,6 +10947,15 @@
       "Taco Bell",
       "Franklin",
       "NC"
+    ],
+    [
+      "041322",
+      34.00032217144678,
+      -83.90880189647538,
+      6.99,
+      "Taco Bell",
+      "Dacula",
+      "GA"
     ],
     [
       "041258",
@@ -10741,6 +11012,24 @@
       "GA"
     ],
     [
+      "039924",
+      31.84574482196275,
+      -81.60342658085327,
+      6.99,
+      "Taco Bell",
+      "Hinesville",
+      "GA"
+    ],
+    [
+      "041223",
+      33.61940670172887,
+      -84.24365535383913,
+      6.99,
+      "Taco Bell",
+      "Ellenwood",
+      "GA"
+    ],
+    [
       "041238",
       33.92281058279636,
       -83.34047734737396,
@@ -10751,6 +11040,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-22",
+  "last_seen_date": "2026-05-23",
   "peak_availability_pct": 6.0
 }

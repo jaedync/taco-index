@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 10.39,
+    "avg": 10.38,
     "min": 9.99,
     "max": 10.99,
     "median": 10.29,
-    "std_dev": 0.29,
-    "store_count": 10
+    "std_dev": 0.27,
+    "store_count": 11
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$10.29",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$10.59",
@@ -121,6 +121,13 @@
       "price": 10.29
     },
     {
+      "store_number": "043144",
+      "name": "Taco Bell",
+      "city": "Oneonta",
+      "state": "AL",
+      "price": 10.29
+    },
+    {
       "store_number": "042123",
       "name": "Taco Bell",
       "city": "Niceville",
@@ -133,13 +140,6 @@
       "city": "Locust Grove",
       "state": "GA",
       "price": 10.69
-    },
-    {
-      "store_number": "041258",
-      "name": "Taco Bell",
-      "city": "Peachtree Corners",
-      "state": "GA",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -166,6 +166,13 @@
       "city": "Niceville",
       "state": "FL",
       "price": 10.59
+    },
+    {
+      "store_number": "043144",
+      "name": "Taco Bell",
+      "city": "Oneonta",
+      "state": "AL",
+      "price": 10.29
     },
     {
       "store_number": "036487",
@@ -208,16 +215,19 @@
       "city": "Hope Hull",
       "state": "AL",
       "price": 10.19
-    },
-    {
-      "store_number": "042903",
-      "name": "Taco Bell",
-      "city": "Baxley",
-      "state": "GA",
-      "price": 9.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043144",
+      "store_name": "Taco Bell",
+      "city": "Oneonta",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.29,
+      "observed_at": "2026-05-23T21:07:59.421533+00:00"
+    },
     {
       "store_number": "042123",
       "store_name": "Taco Bell",
@@ -920,7 +930,7 @@
     }
   ],
   "activity_summary": {
-    "added": 40,
+    "added": 41,
     "removed": 30,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1025,6 +1035,15 @@
       "AL"
     ],
     [
+      "043144",
+      33.948889116027075,
+      -86.4707882609855,
+      10.29,
+      "Taco Bell",
+      "Oneonta",
+      "AL"
+    ],
+    [
       "042123",
       30.48259156216648,
       -86.41599865257577,
@@ -1053,6 +1072,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-22",
+  "last_seen_date": "2026-05-23",
   "peak_availability_pct": 0.2
 }

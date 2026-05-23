@@ -21,7 +21,7 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.17,
-    "store_count": 492
+    "store_count": 493
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 51
+      "count": 52
     },
     {
       "bucket": "$3.99",
@@ -62,7 +62,7 @@
     {
       "state": "GA",
       "avg_price": 3.3,
-      "store_count": 240
+      "store_count": 241
     },
     {
       "state": "TN",
@@ -235,6 +235,13 @@
       "price": 3.99
     },
     {
+      "store_number": "039924",
+      "name": "Taco Bell",
+      "city": "Hinesville",
+      "state": "GA",
+      "price": 3.59
+    },
+    {
       "store_number": "039925",
       "name": "Taco Bell",
       "city": "Claxton",
@@ -282,16 +289,19 @@
       "city": "Bluffton",
       "state": "SC",
       "price": 3.59
-    },
-    {
-      "store_number": "039920",
-      "name": "Taco Bell",
-      "city": "Savannah",
-      "state": "GA",
-      "price": 3.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039924",
+      "store_name": "Taco Bell",
+      "city": "Hinesville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-05-23T21:09:49.685391+00:00"
+    },
     {
       "store_number": "041836",
       "store_name": "Taco Bell",
@@ -5234,7 +5244,7 @@
     }
   ],
   "activity_summary": {
-    "added": 493,
+    "added": 494,
     "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -9674,6 +9684,15 @@
       "GA"
     ],
     [
+      "039924",
+      31.84574482196275,
+      -81.60342658085327,
+      3.59,
+      "Taco Bell",
+      "Hinesville",
+      "GA"
+    ],
+    [
       "026342",
       33.980636492251286,
       -84.08123346241287,
@@ -9693,6 +9712,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-05-22",
+  "last_seen_date": "2026-05-23",
   "peak_availability_pct": 6.0
 }

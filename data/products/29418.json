@@ -20,8 +20,8 @@
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.92,
-    "store_count": 21
+    "std_dev": 0.94,
+    "store_count": 20
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 10
+      "count": 9
     },
     {
       "bucket": "$11.99",
@@ -106,13 +106,6 @@
       "price": 9.99
     },
     {
-      "store_number": "029536",
-      "name": "Taco Bell / KFC",
-      "city": "Miami",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
       "store_number": "029401",
       "name": "Taco Bell / KFC",
       "city": "South Hill",
@@ -131,6 +124,13 @@
       "name": "Taco Bell",
       "city": "Albuquerque",
       "state": "NM",
+      "price": 10.99
+    },
+    {
+      "store_number": "029406",
+      "name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
       "price": 10.99
     }
   ],
@@ -215,6 +215,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029536",
+      "store_name": "Taco Bell / KFC",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-23T21:08:17.324084+00:00"
+    },
     {
       "store_number": "029412",
       "store_name": "Taco Bell",
@@ -848,7 +858,7 @@
   ],
   "activity_summary": {
     "added": 40,
-    "removed": 19,
+    "removed": 20,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -947,15 +957,6 @@
       "Taco Bell",
       "Jackson",
       "MO"
-    ],
-    [
-      "029536",
-      25.770179973965377,
-      -80.33099986148045,
-      10.99,
-      "Taco Bell / KFC",
-      "Miami",
-      "FL"
     ],
     [
       "029401",
@@ -1085,6 +1086,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-22",
+  "last_seen_date": "2026-05-23",
   "peak_availability_pct": 0.4
 }

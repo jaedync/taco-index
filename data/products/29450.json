@@ -20,8 +20,8 @@
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.9,
-    "store_count": 23
+    "std_dev": 0.92,
+    "store_count": 22
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$11.99",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$12.99",
@@ -114,10 +114,10 @@
       "price": 11.99
     },
     {
-      "store_number": "029536",
-      "name": "Taco Bell / KFC",
-      "city": "Miami",
-      "state": "FL",
+      "store_number": "029483",
+      "name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
       "price": 11.99
     }
   ],
@@ -204,6 +204,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029536",
+      "store_name": "Taco Bell / KFC",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-23T21:08:17.324084+00:00"
+    },
     {
       "store_number": "029412",
       "store_name": "Taco Bell",
@@ -877,7 +887,7 @@
   ],
   "activity_summary": {
     "added": 45,
-    "removed": 22,
+    "removed": 23,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1011,15 +1021,6 @@
       "NC"
     ],
     [
-      "029536",
-      25.770179973965377,
-      -80.33099986148045,
-      11.99,
-      "Taco Bell / KFC",
-      "Miami",
-      "FL"
-    ],
-    [
       "029483",
       35.80337775917284,
       -78.78350347280502,
@@ -1138,6 +1139,6 @@
     ]
   ],
   "retired_at": "2026-04-18T22:12:40.299660+00:00",
-  "last_seen_date": "2026-05-22",
+  "last_seen_date": "2026-05-23",
   "peak_availability_pct": 0.4
 }
