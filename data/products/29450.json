@@ -16,17 +16,17 @@
   "first_seen_at": "2026-04-17T20:59:09.048162+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 11.9,
+    "avg": 11.94,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
     "std_dev": 0.92,
-    "store_count": 22
+    "store_count": 21
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$11.99",
@@ -86,13 +86,6 @@
       "price": 10.99
     },
     {
-      "store_number": "031389",
-      "name": "Taco Bell / KFC",
-      "city": "Locust Grove",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "035717",
       "name": "Taco Bell / KFC",
       "city": "Cypress",
@@ -119,6 +112,13 @@
       "city": "Cary",
       "state": "NC",
       "price": 11.99
+    },
+    {
+      "store_number": "029401",
+      "name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
@@ -127,7 +127,6 @@
     "028153",
     "024033",
     "028510",
-    "031389",
     "035717",
     "020143"
   ],
@@ -204,6 +203,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031389",
+      "store_name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-24T20:50:25.311364+00:00"
+    },
     {
       "store_number": "029536",
       "store_name": "Taco Bell / KFC",
@@ -887,7 +896,7 @@
   ],
   "activity_summary": {
     "added": 45,
-    "removed": 23,
+    "removed": 24,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -983,15 +992,6 @@
       "Taco Bell / KFC",
       "Lebanon",
       "KY"
-    ],
-    [
-      "031389",
-      33.352032936024656,
-      -84.120770439522,
-      10.99,
-      "Taco Bell / KFC",
-      "Locust Grove",
-      "GA"
     ],
     [
       "035717",
@@ -1139,6 +1139,6 @@
     ]
   ],
   "retired_at": "2026-04-18T22:12:40.299660+00:00",
-  "last_seen_date": "2026-05-23",
+  "last_seen_date": "2026-05-24",
   "peak_availability_pct": 0.4
 }

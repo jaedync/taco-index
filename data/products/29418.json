@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.2,
   "price_stats": {
-    "avg": 11.04,
+    "avg": 11.1,
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
     "std_dev": 0.94,
-    "store_count": 20
+    "store_count": 19
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$10.99",
@@ -85,13 +85,6 @@
       "price": 9.99
     },
     {
-      "store_number": "031389",
-      "name": "Taco Bell / KFC",
-      "city": "Locust Grove",
-      "state": "GA",
-      "price": 9.99
-    },
-    {
       "store_number": "024033",
       "name": "Taco Bell",
       "city": "Clare",
@@ -132,13 +125,19 @@
       "city": "Durham",
       "state": "NC",
       "price": 10.99
+    },
+    {
+      "store_number": "041399",
+      "name": "Taco Bell",
+      "city": "Louisburg",
+      "state": "NC",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "035717",
     "039735",
     "028510",
-    "031389",
     "024033",
     "020143"
   ],
@@ -215,6 +214,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031389",
+      "store_name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-24T20:50:25.311364+00:00"
+    },
     {
       "store_number": "029536",
       "store_name": "Taco Bell / KFC",
@@ -858,7 +867,7 @@
   ],
   "activity_summary": {
     "added": 40,
-    "removed": 20,
+    "removed": 21,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -930,15 +939,6 @@
       "Taco Bell / KFC",
       "Lebanon",
       "KY"
-    ],
-    [
-      "031389",
-      33.352032936024656,
-      -84.120770439522,
-      9.99,
-      "Taco Bell / KFC",
-      "Locust Grove",
-      "GA"
     ],
     [
       "024033",
@@ -1086,6 +1086,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-23",
+  "last_seen_date": "2026-05-24",
   "peak_availability_pct": 0.4
 }

@@ -68,14 +68,14 @@
   ],
   "state_prices": [
     {
-      "state": "SC",
-      "avg_price": 14.09,
-      "store_count": 5
-    },
-    {
       "state": "FL",
       "avg_price": 14.04,
       "store_count": 24
+    },
+    {
+      "state": "SC",
+      "avg_price": 13.83,
+      "store_count": 6
     },
     {
       "state": "TN",
@@ -85,7 +85,7 @@
     {
       "state": "GA",
       "avg_price": 12.82,
-      "store_count": 207
+      "store_count": 206
     },
     {
       "state": "AL",
@@ -527,12 +527,12 @@
     "030707",
     "037038",
     "041881",
-    "041258",
     "039919",
     "041802",
     "042126",
     "029095",
-    "029100"
+    "029100",
+    "031583"
   ],
   "priciest_stores": [
     {
@@ -607,6 +607,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-05-24T21:01:23.824889+00:00"
+    },
+    {
+      "store_number": "041258",
+      "store_name": "Taco Bell",
+      "city": "Peachtree Corners",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-24T20:49:14.678252+00:00"
+    },
     {
       "store_number": "041238",
       "store_name": "Taco Bell",
@@ -6099,8 +6119,8 @@
     }
   ],
   "activity_summary": {
-    "added": 484,
-    "removed": 65,
+    "added": 485,
+    "removed": 66,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9258,15 +9278,6 @@
       "GA"
     ],
     [
-      "041258",
-      33.97117063099474,
-      -84.22011039686367,
-      12.5,
-      "Taco Bell",
-      "Peachtree Corners",
-      "GA"
-    ],
-    [
       "039919",
       32.04206596405184,
       -81.06397350134102,
@@ -9310,6 +9321,15 @@
       "Taco Bell",
       "Auburn",
       "AL"
+    ],
+    [
+      "031583",
+      32.42953531961479,
+      -80.71891911656758,
+      12.5,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
     ],
     [
       "032143",
@@ -9907,6 +9927,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-23",
+  "last_seen_date": "2026-05-24",
   "peak_availability_pct": 5.3
 }

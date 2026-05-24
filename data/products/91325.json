@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": -0.0427,
+  "recent_price_change_pct": -0.0407,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.2,
   "price_stats": {
@@ -20,13 +20,13 @@
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.25,
-    "store_count": 16
+    "std_dev": 0.24,
+    "store_count": 17
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 15
+      "count": 16
     },
     {
       "bucket": "$9.99",
@@ -103,6 +103,13 @@
       "price": 9.0
     },
     {
+      "store_number": "031583",
+      "name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "price": 9.0
+    },
+    {
       "store_number": "041243",
       "name": "Taco Bell",
       "city": "Marietta",
@@ -122,13 +129,6 @@
       "city": "Atlanta",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "041881",
-      "name": "Taco Bell",
-      "city": "Columbus",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -138,6 +138,7 @@
     "039923",
     "039924",
     "039919",
+    "031583",
     "041243",
     "002995",
     "002167",
@@ -221,6 +222,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-24T21:01:23.824889+00:00"
+    },
     {
       "store_number": "041249",
       "store_name": "Taco Bell",
@@ -2863,7 +2874,7 @@
     }
   ],
   "activity_summary": {
-    "added": 110,
+    "added": 111,
     "removed": 154,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2959,6 +2970,15 @@
       "GA"
     ],
     [
+      "031583",
+      32.42953531961479,
+      -80.71891911656758,
+      9.0,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
+    ],
+    [
       "041243",
       34.02333279764089,
       -84.52909384668487,
@@ -3050,6 +3070,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-23",
+  "last_seen_date": "2026-05-24",
   "peak_availability_pct": 1.1
 }

@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 38
+    "store_count": 39
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 38
+      "count": 39
     }
   ],
   "state_prices": [
     {
       "state": "UT",
       "avg_price": 9.0,
-      "store_count": 36
+      "store_count": 37
     }
   ],
   "nutrition": {
@@ -80,6 +80,13 @@
       "price": 9.0
     },
     {
+      "store_number": "036492",
+      "name": "Taco Bell",
+      "city": "Cedar Hills",
+      "state": "UT",
+      "price": 9.0
+    },
+    {
       "store_number": "034810",
       "name": "Taco Bell",
       "city": "Herriman",
@@ -113,13 +120,6 @@
       "city": "Roosevelt",
       "state": "UT",
       "price": 9.0
-    },
-    {
-      "store_number": "033155",
-      "name": "Taco Bell",
-      "city": "Layton",
-      "state": "UT",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -127,6 +127,7 @@
     "040368",
     "041057",
     "032473",
+    "036492",
     "034810",
     "033159",
     "025393",
@@ -235,6 +236,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036492",
+      "store_name": "Taco Bell",
+      "city": "Cedar Hills",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-24T20:47:41.927021+00:00"
+    },
     {
       "store_number": "032388",
       "store_name": "Taco Bell",
@@ -1397,7 +1408,7 @@
     }
   ],
   "activity_summary": {
-    "added": 77,
+    "added": 78,
     "removed": 39,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1466,6 +1477,15 @@
       9.0,
       "Taco Bell",
       "Springville",
+      "UT"
+    ],
+    [
+      "036492",
+      40.413082419163906,
+      -111.77298483311786,
+      9.0,
+      "Taco Bell",
+      "Cedar Hills",
       "UT"
     ],
     [
@@ -1776,6 +1796,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-05-23",
+  "last_seen_date": "2026-05-24",
   "peak_availability_pct": 0.5
 }

@@ -15,11 +15,11 @@
   "first_seen_at": "2026-03-30T00:40:09.662285+00:00",
   "availability_pct": 1.1,
   "price_stats": {
-    "avg": 7.39,
+    "avg": 7.4,
     "min": 5.79,
     "max": 8.49,
     "median": 7.49,
-    "std_dev": 0.61,
+    "std_dev": 0.6,
     "store_count": 81
   },
   "histogram": [
@@ -33,7 +33,7 @@
     },
     {
       "bucket": "$6.29",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$6.79",
@@ -42,6 +42,10 @@
     {
       "bucket": "$6.99",
       "count": 26
+    },
+    {
+      "bucket": "$7.19",
+      "count": 1
     },
     {
       "bucket": "$7.39",
@@ -75,8 +79,8 @@
   "state_prices": [
     {
       "state": "TN",
-      "avg_price": 7.69,
-      "store_count": 12
+      "avg_price": 7.65,
+      "store_count": 13
     },
     {
       "state": "GA",
@@ -85,8 +89,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 6.46,
-      "store_count": 10
+      "avg_price": 6.48,
+      "store_count": 9
     }
   ],
   "nutrition": null,
@@ -134,13 +138,6 @@
       "price": 6.29
     },
     {
-      "store_number": "019713",
-      "name": "Taco Bell",
-      "city": "Panama City Beach",
-      "state": "FL",
-      "price": 6.29
-    },
-    {
       "store_number": "042125",
       "name": "Taco Bell",
       "city": "Crestview",
@@ -159,6 +156,13 @@
       "name": "Taco Bell",
       "city": "Alcoa",
       "state": "TN",
+      "price": 6.99
+    },
+    {
+      "store_number": "042584",
+      "name": "Taco Bell",
+      "city": "McDonough",
+      "state": "GA",
       "price": 6.99
     }
   ],
@@ -238,6 +242,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019713",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.29,
+      "new_price": null,
+      "observed_at": "2026-05-24T21:07:28.060513+00:00"
+    },
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.19,
+      "observed_at": "2026-05-24T20:57:17.559120+00:00"
+    },
     {
       "store_number": "030359",
       "store_name": "Taco Bell",
@@ -1520,8 +1544,8 @@
     }
   ],
   "activity_summary": {
-    "added": 102,
-    "removed": 21,
+    "added": 103,
+    "removed": 22,
     "price_changed": 5,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1598,15 +1622,6 @@
       "030707",
       30.18565418903784,
       -85.8179617328141,
-      6.29,
-      "Taco Bell",
-      "Panama City Beach",
-      "FL"
-    ],
-    [
-      "019713",
-      30.231264247912293,
-      -85.8896670444301,
       6.29,
       "Taco Bell",
       "Panama City Beach",
@@ -1854,6 +1869,15 @@
       "Taco Bell",
       "Toccoa",
       "GA"
+    ],
+    [
+      "030359",
+      35.71724098570292,
+      -84.01247182491716,
+      7.19,
+      "Taco Bell",
+      "Maryville",
+      "TN"
     ],
     [
       "009575",
@@ -2280,6 +2304,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-23",
+  "last_seen_date": "2026-05-24",
   "peak_availability_pct": 1.1
 }
