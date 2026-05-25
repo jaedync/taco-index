@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": -0.0407,
+  "recent_price_change_pct": -0.0455,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 9.06,
+    "avg": 9.05,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.24,
-    "store_count": 17
+    "std_dev": 0.23,
+    "store_count": 19
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 16
+      "count": 18
     },
     {
       "bucket": "$9.99",
@@ -42,7 +42,7 @@
     {
       "state": "TN",
       "avg_price": 9.0,
-      "store_count": 6
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -61,6 +61,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "042019",
+      "name": "Taco Bell",
+      "city": "Ozark",
+      "state": "AL",
+      "price": 9.0
+    },
+    {
       "store_number": "036415",
       "name": "Taco Bell",
       "city": "Clinton",
@@ -72,6 +79,13 @@
       "name": "Taco Bell",
       "city": "Franklin",
       "state": "NC",
+      "price": 9.0
+    },
+    {
+      "store_number": "024403",
+      "name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
       "price": 9.0
     },
     {
@@ -115,25 +129,13 @@
       "city": "Marietta",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "002995",
-      "name": "Taco Bell",
-      "city": "Smyrna",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "002167",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
+    "042019",
     "036415",
     "040962",
+    "024403",
     "029050",
     "039923",
     "039924",
@@ -222,6 +224,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-25T21:21:41.532245+00:00"
+    },
+    {
+      "store_number": "042019",
+      "store_name": "Taco Bell",
+      "city": "Ozark",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-25T21:13:52.973766+00:00"
+    },
     {
       "store_number": "031583",
       "store_name": "Taco Bell",
@@ -2874,7 +2896,7 @@
     }
   ],
   "activity_summary": {
-    "added": 111,
+    "added": 113,
     "removed": 154,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2916,6 +2938,15 @@
   ],
   "map_data": [
     [
+      "042019",
+      31.443187,
+      -85.651524,
+      9.0,
+      "Taco Bell",
+      "Ozark",
+      "AL"
+    ],
+    [
       "036415",
       36.1659188837727,
       -84.08423379405696,
@@ -2932,6 +2963,15 @@
       "Taco Bell",
       "Franklin",
       "NC"
+    ],
+    [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      9.0,
+      "Taco Bell",
+      "Crossville",
+      "TN"
     ],
     [
       "029050",
@@ -3070,6 +3110,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-24",
+  "last_seen_date": "2026-05-25",
   "peak_availability_pct": 1.1
 }

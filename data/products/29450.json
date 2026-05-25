@@ -14,23 +14,23 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-17T20:59:09.048162+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.2,
   "price_stats": {
-    "avg": 11.94,
+    "avg": 12.05,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.92,
-    "store_count": 21
+    "std_dev": 0.97,
+    "store_count": 17
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 7
+      "count": 5
     },
     {
       "bucket": "$11.99",
-      "count": 10
+      "count": 8
     },
     {
       "bucket": "$12.99",
@@ -79,20 +79,6 @@
       "price": 10.99
     },
     {
-      "store_number": "028510",
-      "name": "Taco Bell / KFC",
-      "city": "Lebanon",
-      "state": "KY",
-      "price": 10.99
-    },
-    {
-      "store_number": "035717",
-      "name": "Taco Bell / KFC",
-      "city": "Cypress",
-      "state": "TX",
-      "price": 10.99
-    },
-    {
       "store_number": "020143",
       "name": "Taco Bell",
       "city": "Jackson",
@@ -119,6 +105,20 @@
       "city": "South Hill",
       "state": "VA",
       "price": 11.99
+    },
+    {
+      "store_number": "029482",
+      "name": "Taco Bell",
+      "city": "Pittsboro",
+      "state": "NC",
+      "price": 11.99
+    },
+    {
+      "store_number": "004173",
+      "name": "Taco Bell / KFC",
+      "city": "Albuquerque",
+      "state": "NM",
+      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
@@ -126,8 +126,6 @@
     "003881",
     "028153",
     "024033",
-    "028510",
-    "035717",
     "020143"
   ],
   "priciest_stores": [
@@ -174,13 +172,6 @@
       "price": 11.99
     },
     {
-      "store_number": "024051",
-      "name": "Taco Bell",
-      "city": "Albuquerque",
-      "state": "NM",
-      "price": 11.99
-    },
-    {
       "store_number": "017415",
       "name": "Taco Bell / KFC",
       "city": "Moriarty",
@@ -200,9 +191,56 @@
       "city": "Pittsboro",
       "state": "NC",
       "price": 11.99
+    },
+    {
+      "store_number": "029401",
+      "name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023838",
+      "store_name": "Taco Bell",
+      "city": "Albuquerque",
+      "state": "NM",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-25T21:17:52.652119+00:00"
+    },
+    {
+      "store_number": "024051",
+      "store_name": "Taco Bell",
+      "city": "Albuquerque",
+      "state": "NM",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-25T21:17:49.211085+00:00"
+    },
+    {
+      "store_number": "028510",
+      "store_name": "Taco Bell / KFC",
+      "city": "Lebanon",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-25T21:17:32.716167+00:00"
+    },
+    {
+      "store_number": "035717",
+      "store_name": "Taco Bell / KFC",
+      "city": "Cypress",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-25T21:16:08.930140+00:00"
+    },
     {
       "store_number": "031389",
       "store_name": "Taco Bell / KFC",
@@ -896,7 +934,7 @@
   ],
   "activity_summary": {
     "added": 45,
-    "removed": 24,
+    "removed": 28,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -985,24 +1023,6 @@
       "MI"
     ],
     [
-      "028510",
-      37.559371085147504,
-      -85.27164369821548,
-      10.99,
-      "Taco Bell / KFC",
-      "Lebanon",
-      "KY"
-    ],
-    [
-      "035717",
-      29.995722509460837,
-      -95.62410682439804,
-      10.99,
-      "Taco Bell / KFC",
-      "Cypress",
-      "TX"
-    ],
-    [
       "020143",
       37.36829880068801,
       -89.64276076441651,
@@ -1039,15 +1059,6 @@
       "VA"
     ],
     [
-      "023838",
-      35.192716085819484,
-      -106.72643780708313,
-      11.99,
-      "Taco Bell",
-      "Albuquerque",
-      "NM"
-    ],
-    [
       "029482",
       35.7458677872077,
       -79.16668369436593,
@@ -1072,15 +1083,6 @@
       11.99,
       "Taco Bell / KFC",
       "Moriarty",
-      "NM"
-    ],
-    [
-      "024051",
-      35.0790273387348,
-      -106.71240643413512,
-      11.99,
-      "Taco Bell",
-      "Albuquerque",
       "NM"
     ],
     [
@@ -1139,6 +1141,6 @@
     ]
   ],
   "retired_at": "2026-04-18T22:12:40.299660+00:00",
-  "last_seen_date": "2026-05-24",
+  "last_seen_date": "2026-05-25",
   "peak_availability_pct": 0.4
 }

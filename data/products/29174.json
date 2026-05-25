@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 13
+    "store_count": 12
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 13
+      "count": 12
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 9.0,
-      "store_count": 13
+      "store_count": 12
     }
   ],
   "nutrition": {
@@ -133,7 +133,6 @@
     "002681",
     "024653",
     "033301",
-    "024658",
     "030922",
     "024449"
   ],
@@ -149,13 +148,6 @@
       "store_number": "030922",
       "name": "Taco Bell",
       "city": "Chesterfield",
-      "state": "MI",
-      "price": 9.0
-    },
-    {
-      "store_number": "024658",
-      "name": "Taco Bell",
-      "city": "Richmond",
       "state": "MI",
       "price": 9.0
     },
@@ -207,9 +199,26 @@
       "city": "Madison Heights",
       "state": "MI",
       "price": 9.0
+    },
+    {
+      "store_number": "034276",
+      "name": "Taco Bell",
+      "city": "Sandusky",
+      "state": "MI",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024658",
+      "store_name": "Taco Bell",
+      "city": "Richmond",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-25T21:16:56.525092+00:00"
+    },
     {
       "store_number": "041876",
       "store_name": "Taco Bell",
@@ -2563,7 +2572,7 @@
   ],
   "activity_summary": {
     "added": 124,
-    "removed": 111,
+    "removed": 112,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2694,15 +2703,6 @@
       "MI"
     ],
     [
-      "024658",
-      42.79950591943458,
-      -82.74127993171741,
-      9.0,
-      "Taco Bell",
-      "Richmond",
-      "MI"
-    ],
-    [
       "030922",
       42.67539268951849,
       -82.76109713322512,
@@ -2722,6 +2722,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-24",
+  "last_seen_date": "2026-05-25",
   "peak_availability_pct": 0.6
 }

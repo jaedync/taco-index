@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.38,
+    "avg": 10.41,
     "min": 9.99,
     "max": 10.99,
     "median": 10.29,
-    "std_dev": 0.27,
-    "store_count": 11
+    "std_dev": 0.34,
+    "store_count": 12
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$10.19",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$10.29",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$10.59",
@@ -46,14 +46,14 @@
     },
     {
       "bucket": "$10.99",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.45,
-      "store_count": 5
+      "avg_price": 10.54,
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -79,18 +79,18 @@
       "price": 9.99
     },
     {
+      "store_number": "042829",
+      "name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "price": 9.99
+    },
+    {
       "store_number": "042119",
       "name": "Taco Bell",
       "city": "Hope Hull",
       "state": "AL",
       "price": 10.19
-    },
-    {
-      "store_number": "024403",
-      "name": "Taco Bell",
-      "city": "Crossville",
-      "state": "TN",
-      "price": 10.29
     },
     {
       "store_number": "026432",
@@ -143,9 +143,17 @@
     }
   ],
   "min_price_store_numbers": [
-    "042903"
+    "042903",
+    "042829"
   ],
   "priciest_stores": [
+    {
+      "store_number": "041260",
+      "name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "price": 10.99
+    },
     {
       "store_number": "041258",
       "name": "Taco Bell",
@@ -203,13 +211,6 @@
       "price": 10.29
     },
     {
-      "store_number": "024403",
-      "name": "Taco Bell",
-      "city": "Crossville",
-      "state": "TN",
-      "price": 10.29
-    },
-    {
       "store_number": "042119",
       "name": "Taco Bell",
       "city": "Hope Hull",
@@ -218,6 +219,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-05-25T21:21:41.532245+00:00"
+    },
+    {
+      "store_number": "042829",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-05-25T21:18:09.581229+00:00"
+    },
+    {
+      "store_number": "041260",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-25T21:13:55.039300+00:00"
+    },
     {
       "store_number": "043144",
       "store_name": "Taco Bell",
@@ -930,8 +961,8 @@
     }
   ],
   "activity_summary": {
-    "added": 41,
-    "removed": 30,
+    "added": 43,
+    "removed": 31,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -981,6 +1012,15 @@
       "GA"
     ],
     [
+      "042829",
+      30.458093509232302,
+      -87.29877294124185,
+      9.99,
+      "Taco Bell",
+      "Pensacola",
+      "FL"
+    ],
+    [
       "042119",
       32.270159,
       -86.355812,
@@ -988,15 +1028,6 @@
       "Taco Bell",
       "Hope Hull",
       "AL"
-    ],
-    [
-      "024403",
-      35.96722562647426,
-      -85.03864054957367,
-      10.29,
-      "Taco Bell",
-      "Crossville",
-      "TN"
     ],
     [
       "026432",
@@ -1069,9 +1100,18 @@
       "Taco Bell",
       "Peachtree Corners",
       "GA"
+    ],
+    [
+      "041260",
+      33.9951,
+      -83.3367,
+      10.99,
+      "Taco Bell",
+      "Athens",
+      "GA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-24",
+  "last_seen_date": "2026-05-25",
   "peak_availability_pct": 0.2
 }

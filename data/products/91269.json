@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.85,
+    "avg": 6.88,
     "min": 6.49,
     "max": 7.39,
     "median": 6.79,
-    "std_dev": 0.37,
-    "store_count": 12
+    "std_dev": 0.38,
+    "store_count": 13
   },
   "histogram": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$7.29",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$7.39",
@@ -48,8 +48,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 7.02,
-      "store_count": 7
+      "avg_price": 7.05,
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -82,13 +82,6 @@
       "price": 6.49
     },
     {
-      "store_number": "024403",
-      "name": "Taco Bell",
-      "city": "Crossville",
-      "state": "TN",
-      "price": 6.49
-    },
-    {
       "store_number": "026432",
       "name": "Taco Bell",
       "city": "Pigeon Forge",
@@ -99,6 +92,13 @@
       "store_number": "042123",
       "name": "Taco Bell",
       "city": "Niceville",
+      "state": "FL",
+      "price": 6.49
+    },
+    {
+      "store_number": "042829",
+      "name": "Taco Bell",
+      "city": "Pensacola",
       "state": "FL",
       "price": 6.49
     },
@@ -141,9 +141,9 @@
   "min_price_store_numbers": [
     "042903",
     "031389",
-    "024403",
     "026432",
-    "042123"
+    "042123",
+    "042829"
   ],
   "priciest_stores": [
     {
@@ -152,6 +152,13 @@
       "city": "Marietta",
       "state": "GA",
       "price": 7.39
+    },
+    {
+      "store_number": "041260",
+      "name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "price": 7.29
     },
     {
       "store_number": "041258",
@@ -196,28 +203,51 @@
       "price": 6.79
     },
     {
+      "store_number": "042829",
+      "name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "price": 6.49
+    },
+    {
       "store_number": "042123",
       "name": "Taco Bell",
       "city": "Niceville",
       "state": "FL",
       "price": 6.49
-    },
-    {
-      "store_number": "026432",
-      "name": "Taco Bell",
-      "city": "Pigeon Forge",
-      "state": "TN",
-      "price": 6.49
-    },
-    {
-      "store_number": "024403",
-      "name": "Taco Bell",
-      "city": "Crossville",
-      "state": "TN",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-05-25T21:21:41.532245+00:00"
+    },
+    {
+      "store_number": "042829",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-25T21:18:09.581229+00:00"
+    },
+    {
+      "store_number": "041260",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.29,
+      "observed_at": "2026-05-25T21:13:55.039300+00:00"
+    },
     {
       "store_number": "019713",
       "store_name": "Taco Bell",
@@ -830,8 +860,8 @@
     }
   ],
   "activity_summary": {
-    "added": 25,
-    "removed": 36,
+    "added": 27,
+    "removed": 37,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -878,15 +908,6 @@
       "GA"
     ],
     [
-      "024403",
-      35.96722562647426,
-      -85.03864054957367,
-      6.49,
-      "Taco Bell",
-      "Crossville",
-      "TN"
-    ],
-    [
       "026432",
       35.80377693492917,
       -83.58050286769867,
@@ -902,6 +923,15 @@
       6.49,
       "Taco Bell",
       "Niceville",
+      "FL"
+    ],
+    [
+      "042829",
+      30.458093509232302,
+      -87.29877294124185,
+      6.49,
+      "Taco Bell",
+      "Pensacola",
       "FL"
     ],
     [
@@ -956,6 +986,15 @@
       7.29,
       "Taco Bell",
       "Peachtree Corners",
+      "GA"
+    ],
+    [
+      "041260",
+      33.9951,
+      -83.3367,
+      7.29,
+      "Taco Bell",
+      "Athens",
       "GA"
     ],
     [
