@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.88,
+    "avg": 6.93,
     "min": 6.49,
-    "max": 7.39,
-    "median": 6.79,
-    "std_dev": 0.38,
-    "store_count": 13
+    "max": 7.49,
+    "median": 6.84,
+    "std_dev": 0.4,
+    "store_count": 14
   },
   "histogram": [
     {
@@ -43,13 +43,17 @@
     {
       "bucket": "$7.39",
       "count": 1
+    },
+    {
+      "bucket": "$7.49",
+      "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 7.05,
-      "store_count": 8
+      "avg_price": 7.1,
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -147,6 +151,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "041228",
+      "name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "price": 7.49
+    },
+    {
       "store_number": "003889",
       "name": "Taco Bell",
       "city": "Marietta",
@@ -208,16 +219,19 @@
       "city": "Pensacola",
       "state": "FL",
       "price": 6.49
-    },
-    {
-      "store_number": "042123",
-      "name": "Taco Bell",
-      "city": "Niceville",
-      "state": "FL",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041228",
+      "store_name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.49,
+      "observed_at": "2026-05-26T20:47:04.084495+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -860,7 +874,7 @@
     }
   ],
   "activity_summary": {
-    "added": 27,
+    "added": 28,
     "removed": 37,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1004,6 +1018,15 @@
       7.39,
       "Taco Bell",
       "Marietta",
+      "GA"
+    ],
+    [
+      "041228",
+      33.70089923153877,
+      -84.16987270116806,
+      7.49,
+      "Taco Bell",
+      "Lithonia",
       "GA"
     ]
   ],

@@ -16,17 +16,17 @@
   "first_seen_at": "2026-04-17T20:59:09.048162+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 12.05,
+    "avg": 11.99,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.97,
-    "store_count": 17
+    "std_dev": 0.85,
+    "store_count": 15
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$11.99",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$13.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
@@ -50,13 +50,6 @@
   ],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "039735",
-      "name": "Taco Bell / KFC",
-      "city": "Ruckersville",
-      "state": "VA",
-      "price": 10.99
-    },
     {
       "store_number": "003881",
       "name": "Taco Bell / KFC",
@@ -119,23 +112,22 @@
       "city": "Albuquerque",
       "state": "NM",
       "price": 11.99
+    },
+    {
+      "store_number": "017415",
+      "name": "Taco Bell / KFC",
+      "city": "Moriarty",
+      "state": "NM",
+      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
-    "039735",
     "003881",
     "028153",
     "024033",
     "020143"
   ],
   "priciest_stores": [
-    {
-      "store_number": "020974",
-      "name": "Taco Bell / KFC",
-      "city": "King George",
-      "state": "VA",
-      "price": 13.99
-    },
     {
       "store_number": "019680",
       "name": "Taco Bell / KFC",
@@ -198,9 +190,36 @@
       "city": "South Hill",
       "state": "VA",
       "price": 11.99
+    },
+    {
+      "store_number": "029483",
+      "name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020974",
+      "store_name": "Taco Bell / KFC",
+      "city": "King George",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 13.99,
+      "new_price": null,
+      "observed_at": "2026-05-26T20:47:03.951003+00:00"
+    },
+    {
+      "store_number": "039735",
+      "store_name": "Taco Bell / KFC",
+      "city": "Ruckersville",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-26T20:46:35.002706+00:00"
+    },
     {
       "store_number": "023838",
       "store_name": "Taco Bell",
@@ -934,7 +953,7 @@
   ],
   "activity_summary": {
     "added": 45,
-    "removed": 28,
+    "removed": 30,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -986,15 +1005,6 @@
     }
   ],
   "map_data": [
-    [
-      "039735",
-      38.22995077979435,
-      -78.37071418762207,
-      10.99,
-      "Taco Bell / KFC",
-      "Ruckersville",
-      "VA"
-    ],
     [
       "003881",
       44.24882764927901,
@@ -1129,18 +1139,9 @@
       "Taco Bell / KFC",
       "Stephens City",
       "VA"
-    ],
-    [
-      "020974",
-      38.33900959254854,
-      -77.0779993920587,
-      13.99,
-      "Taco Bell / KFC",
-      "King George",
-      "VA"
     ]
   ],
   "retired_at": "2026-04-18T22:12:40.299660+00:00",
-  "last_seen_date": "2026-05-25",
+  "last_seen_date": "2026-05-26",
   "peak_availability_pct": 0.4
 }

@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": 0.031,
+  "recent_price_change_pct": 0.0393,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 11.26,
+    "avg": 11.35,
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.96,
-    "store_count": 15
+    "std_dev": 0.93,
+    "store_count": 14
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$10.99",
@@ -63,13 +63,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "039735",
-      "name": "Taco Bell / KFC",
-      "city": "Ruckersville",
-      "state": "VA",
-      "price": 9.99
-    },
     {
       "store_number": "024033",
       "name": "Taco Bell",
@@ -132,10 +125,16 @@
       "city": "Pittsboro",
       "state": "NC",
       "price": 10.99
+    },
+    {
+      "store_number": "026028",
+      "name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
-    "039735",
     "024033",
     "020143"
   ],
@@ -212,6 +211,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039735",
+      "store_name": "Taco Bell / KFC",
+      "city": "Ruckersville",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-26T20:46:35.002706+00:00"
+    },
     {
       "store_number": "023838",
       "store_name": "Taco Bell",
@@ -905,7 +914,7 @@
   ],
   "activity_summary": {
     "added": 40,
-    "removed": 25,
+    "removed": 26,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -951,15 +960,6 @@
     }
   ],
   "map_data": [
-    [
-      "039735",
-      38.22995077979435,
-      -78.37071418762207,
-      9.99,
-      "Taco Bell / KFC",
-      "Ruckersville",
-      "VA"
-    ],
     [
       "024033",
       43.83808282529304,
@@ -1088,6 +1088,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-25",
+  "last_seen_date": "2026-05-26",
   "peak_availability_pct": 0.4
 }

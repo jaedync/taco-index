@@ -12,37 +12,37 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.0,
-  "recent_price_change_pct": 0.0495,
+  "recent_price_change_pct": 0.0494,
   "first_seen_at": "2026-04-16T21:05:38.080670+00:00",
-  "availability_pct": 0.6,
+  "availability_pct": 0.5,
   "price_stats": {
-    "avg": 11.31,
+    "avg": 11.3,
     "min": 10.99,
     "max": 11.99,
     "median": 10.99,
     "std_dev": 0.47,
-    "store_count": 44
+    "store_count": 39
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 30
+      "count": 27
     },
     {
       "bucket": "$11.99",
-      "count": 14
+      "count": 12
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 11.99,
-      "store_count": 12
+      "store_count": 10
     },
     {
       "state": "GA",
-      "avg_price": 11.05,
-      "store_count": 32
+      "avg_price": 11.06,
+      "store_count": 29
     }
   ],
   "nutrition": {
@@ -103,14 +103,14 @@
       "price": 10.99
     },
     {
-      "store_number": "042107",
+      "store_number": "041930",
       "name": "Taco Bell",
-      "city": "Cumming",
+      "city": "Carrollton",
       "state": "GA",
       "price": 10.99
     },
     {
-      "store_number": "041400",
+      "store_number": "042107",
       "name": "Taco Bell",
       "city": "Cumming",
       "state": "GA",
@@ -138,17 +138,14 @@
     "042583",
     "042581",
     "036011",
+    "041930",
     "042107",
-    "041400",
     "042351",
     "042580",
     "036290",
     "042578",
-    "042585",
     "042572",
-    "003859",
     "027711",
-    "004531",
     "002995",
     "027858",
     "023238",
@@ -200,13 +197,6 @@
       "price": 11.99
     },
     {
-      "store_number": "042920",
-      "name": "Taco Bell",
-      "city": "Palatka",
-      "state": "FL",
-      "price": 11.99
-    },
-    {
       "store_number": "042917",
       "name": "Taco Bell",
       "city": "Gainesville",
@@ -233,9 +223,86 @@
       "city": "Brunswick",
       "state": "GA",
       "price": 11.99
+    },
+    {
+      "store_number": "042845",
+      "name": "Taco Bell",
+      "city": "La Belle",
+      "state": "FL",
+      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004531",
+      "store_name": "Taco Bell",
+      "city": "Commerce",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-26T20:50:58.694011+00:00"
+    },
+    {
+      "store_number": "042920",
+      "store_name": "Taco Bell",
+      "city": "Palatka",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-26T20:50:45.392476+00:00"
+    },
+    {
+      "store_number": "003859",
+      "store_name": "Taco Bell",
+      "city": "Carrollton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-26T20:47:00.804387+00:00"
+    },
+    {
+      "store_number": "042890",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-26T20:46:59.689086+00:00"
+    },
+    {
+      "store_number": "042585",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-26T20:46:34.209211+00:00"
+    },
+    {
+      "store_number": "041400",
+      "store_name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-26T20:46:03.801588+00:00"
+    },
+    {
+      "store_number": "041930",
+      "store_name": "Taco Bell",
+      "city": "Carrollton",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-26T20:46:01.079126+00:00"
+    },
     {
       "store_number": "042966",
       "store_name": "Taco Bell",
@@ -3078,8 +3145,8 @@
     }
   ],
   "activity_summary": {
-    "added": 164,
-    "removed": 120,
+    "added": 165,
+    "removed": 126,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3092,6 +3159,12 @@
       "title": "Fountain Drink - Large",
       "default_product_code": "22902",
       "default_product_name": "Large Fountain Drink"
+    },
+    {
+      "group_id": "776",
+      "title": "5 Piece Diablo Dusted Crispy Chicken Nuggets",
+      "default_product_code": "29434",
+      "default_product_name": "5 Piece Diablo Dusted Crispy Chicken Nuggets"
     },
     {
       "group_id": "482",
@@ -3174,18 +3247,18 @@
       "GA"
     ],
     [
-      "042107",
-      34.189321,
-      -84.138955,
+      "041930",
+      33.6004053,
+      -85.0784935,
       10.99,
       "Taco Bell",
-      "Cumming",
+      "Carrollton",
       "GA"
     ],
     [
-      "041400",
-      34.23938946065471,
-      -84.22613464499771,
+      "042107",
+      34.189321,
+      -84.138955,
       10.99,
       "Taco Bell",
       "Cumming",
@@ -3228,15 +3301,6 @@
       "GA"
     ],
     [
-      "042585",
-      34.01047868053667,
-      -84.7536712245369,
-      10.99,
-      "Taco Bell",
-      "Dallas",
-      "GA"
-    ],
-    [
       "042572",
       33.53980644411624,
       -84.57611403902706,
@@ -3246,30 +3310,12 @@
       "GA"
     ],
     [
-      "003859",
-      33.586510422578534,
-      -85.05791187286377,
-      10.99,
-      "Taco Bell",
-      "Carrollton",
-      "GA"
-    ],
-    [
       "027711",
       34.03142591145449,
       -84.57802757626268,
       10.99,
       "Taco Bell",
       "Kennesaw",
-      "GA"
-    ],
-    [
-      "004531",
-      34.25022228804311,
-      -83.46128860119279,
-      10.99,
-      "Taco Bell",
-      "Commerce",
       "GA"
     ],
     [
@@ -3408,15 +3454,6 @@
       "FL"
     ],
     [
-      "042890",
-      30.477899238141998,
-      -81.63547008741952,
-      11.99,
-      "Taco Bell",
-      "Jacksonville",
-      "FL"
-    ],
-    [
       "042845",
       26.76223746126524,
       -81.4364568293422,
@@ -3459,15 +3496,6 @@
       11.99,
       "Taco Bell",
       "Gainesville",
-      "FL"
-    ],
-    [
-      "042920",
-      29.641947972239922,
-      -81.66475139561044,
-      11.99,
-      "Taco Bell",
-      "Palatka",
       "FL"
     ],
     [
@@ -3517,6 +3545,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-25",
+  "last_seen_date": "2026-05-26",
   "peak_availability_pct": 1.0
 }

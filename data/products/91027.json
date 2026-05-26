@@ -20,7 +20,7 @@
     "max": 6.79,
     "median": 5.59,
     "std_dev": 0.39,
-    "store_count": 492
+    "store_count": 491
   },
   "histogram": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$5.19",
@@ -58,10 +58,6 @@
     {
       "bucket": "$5.59",
       "count": 84
-    },
-    {
-      "bucket": "$5.67",
-      "count": 1
     },
     {
       "bucket": "$5.69",
@@ -97,7 +93,7 @@
     },
     {
       "bucket": "$6.79",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
@@ -123,8 +119,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 5.5,
-      "store_count": 32
+      "avg_price": 5.52,
+      "store_count": 31
     }
   ],
   "nutrition": {
@@ -226,6 +222,13 @@
       "price": 6.79
     },
     {
+      "store_number": "041488",
+      "name": "Taco Bell (ATL Airport)",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 6.79
+    },
+    {
       "store_number": "042578",
       "name": "Taco Bell",
       "city": "Atlanta",
@@ -280,16 +283,29 @@
       "city": "Marietta",
       "state": "GA",
       "price": 6.39
-    },
-    {
-      "store_number": "041321",
-      "name": "Taco Bell",
-      "city": "Grayson",
-      "state": "GA",
-      "price": 6.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019713",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-26T20:52:43.402083+00:00"
+    },
+    {
+      "store_number": "041488",
+      "store_name": "Taco Bell (ATL Airport)",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 5.67,
+      "new_price": 6.79,
+      "observed_at": "2026-05-26T20:45:15.869350+00:00"
+    },
     {
       "store_number": "031583",
       "store_name": "Taco Bell",
@@ -8633,8 +8649,8 @@
   ],
   "activity_summary": {
     "added": 514,
-    "removed": 22,
-    "price_changed": 298,
+    "removed": 23,
+    "price_changed": 299,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 480,
@@ -8856,15 +8872,6 @@
       4.99,
       "Taco Bell",
       "Panama City",
-      "FL"
-    ],
-    [
-      "019713",
-      30.231264247912293,
-      -85.8896670444301,
-      4.99,
-      "Taco Bell",
-      "Panama City Beach",
       "FL"
     ],
     [
@@ -10909,15 +10916,6 @@
       "Taco Bell",
       "Montevallo",
       "AL"
-    ],
-    [
-      "041488",
-      33.63840238391459,
-      -84.42932417361067,
-      5.67,
-      "Taco Bell (ATL Airport)",
-      "Atlanta",
-      "GA"
     ],
     [
       "040780",
@@ -13062,6 +13060,15 @@
       "GA"
     ],
     [
+      "041488",
+      33.63840238391459,
+      -84.42932417361067,
+      6.79,
+      "Taco Bell (ATL Airport)",
+      "Atlanta",
+      "GA"
+    ],
+    [
       "026073",
       33.7517493624465,
       -84.72289301460478,
@@ -13072,6 +13079,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-25",
+  "last_seen_date": "2026-05-26",
   "peak_availability_pct": 6.0
 }

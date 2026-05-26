@@ -36,13 +36,13 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.11,
-      "store_count": 9
+      "avg_price": 9.1,
+      "store_count": 10
     },
     {
       "state": "TN",
       "avg_price": 9.0,
-      "store_count": 7
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -96,6 +96,13 @@
       "price": 9.0
     },
     {
+      "store_number": "041249",
+      "name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "039923",
       "name": "Taco Bell",
       "city": "Statesboro",
@@ -122,13 +129,6 @@
       "city": "Beaufort",
       "state": "SC",
       "price": 9.0
-    },
-    {
-      "store_number": "041243",
-      "name": "Taco Bell",
-      "city": "Marietta",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -137,6 +137,7 @@
     "040962",
     "024403",
     "029050",
+    "041249",
     "039923",
     "039924",
     "039919",
@@ -147,7 +148,6 @@
     "041881",
     "029013",
     "029033",
-    "026837",
     "037050",
     "029098"
   ],
@@ -170,13 +170,6 @@
       "store_number": "037050",
       "name": "Taco Bell",
       "city": "Wartburg",
-      "state": "TN",
-      "price": 9.0
-    },
-    {
-      "store_number": "026837",
-      "name": "Taco Bell",
-      "city": "Alcoa",
       "state": "TN",
       "price": 9.0
     },
@@ -221,9 +214,36 @@
       "city": "Marietta",
       "state": "GA",
       "price": 9.0
+    },
+    {
+      "store_number": "031583",
+      "name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026837",
+      "store_name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-26T20:51:08.983199+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-26T20:46:50.614522+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -2896,8 +2916,8 @@
     }
   ],
   "activity_summary": {
-    "added": 113,
-    "removed": 154,
+    "added": 114,
+    "removed": 155,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2981,6 +3001,15 @@
       "Taco Bell",
       "Chattanooga",
       "TN"
+    ],
+    [
+      "041249",
+      33.96647033026141,
+      -84.010348240854,
+      9.0,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
     ],
     [
       "039923",
@@ -3073,15 +3102,6 @@
       "TN"
     ],
     [
-      "026837",
-      35.76009726491193,
-      -83.97547312083594,
-      9.0,
-      "Taco Bell",
-      "Alcoa",
-      "TN"
-    ],
-    [
       "037050",
       36.10306709232148,
       -84.58455685815763,
@@ -3110,6 +3130,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-25",
+  "last_seen_date": "2026-05-26",
   "peak_availability_pct": 1.1
 }

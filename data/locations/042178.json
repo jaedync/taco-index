@@ -9,7 +9,7 @@
   "lon": -84.967467,
   "phone": "+12313735258",
   "location_url": "https://locations.tacobell.com/mi/petoskey/2129-us-131.html",
-  "price_index": 0.96,
+  "price_index": 0.95,
   "amenities": {
     "has_drive_thru": true,
     "has_breakfast": false,
@@ -329,7 +329,7 @@
       ],
       "image_url": "https://www.tacobell.com/images/21961_cantina_chicken_mexican_pizza_269x269.jpg",
       "price": 6.49,
-      "national_avg": 6.93,
+      "national_avg": 6.94,
       "national_median": 6.99,
       "delta": -0.5,
       "calories": 520,
@@ -419,7 +419,7 @@
       ],
       "image_url": "https://www.tacobell.com/images/21962_cantina_veggie_mexican_pizza_269x269.jpg",
       "price": 6.49,
-      "national_avg": 6.88,
+      "national_avg": 6.87,
       "national_median": 6.99,
       "delta": -0.5,
       "calories": 450,
@@ -470,7 +470,7 @@
       ],
       "image_url": "https://www.tacobell.com/images/23955_discovery_luxe_box_269x269.jpg",
       "price": 9.0,
-      "national_avg": 9.31,
+      "national_avg": 9.32,
       "national_median": 9.0,
       "delta": 0.0,
       "calories": 1080,
@@ -616,6 +616,43 @@
           "size": "SMALL",
           "price": 2.69,
           "calories": 90,
+          "happier_hour_price": null
+        }
+      ]
+    },
+    {
+      "product_code": "1007Main",
+      "name": "Diet Pepsi\u00ae",
+      "category": "drinks",
+      "categories": [
+        "drinks",
+        "live-mas-cafe-and-drinks"
+      ],
+      "image_url": "https://www.tacobell.com/images/1007_diet_pepsi_new_269x269.jpg",
+      "price": 2.99,
+      "national_avg": 3.13,
+      "national_median": 3.19,
+      "delta": -0.2,
+      "calories": 0,
+      "calories_min": 0,
+      "calories_max": 0,
+      "drink_sizes": [
+        {
+          "size": "LARGE",
+          "price": 2.99,
+          "calories": 0,
+          "happier_hour_price": null
+        },
+        {
+          "size": "MEDIUM",
+          "price": 2.89,
+          "calories": 0,
+          "happier_hour_price": 1.0
+        },
+        {
+          "size": "SMALL",
+          "price": 2.69,
+          "calories": 0,
           "happier_hour_price": null
         }
       ]
@@ -895,43 +932,6 @@
           "size": "SMALL",
           "price": 2.69,
           "calories": 200,
-          "happier_hour_price": null
-        }
-      ]
-    },
-    {
-      "product_code": "1107Main",
-      "name": "Pepsi\u00ae Zero Sugar",
-      "category": "drinks",
-      "categories": [
-        "drinks",
-        "live-mas-cafe-and-drinks"
-      ],
-      "image_url": "https://www.tacobell.com/images/1107_pepsi_zero_sugar_269x269.jpg",
-      "price": 2.69,
-      "national_avg": 2.72,
-      "national_median": 2.79,
-      "delta": -0.1,
-      "calories": 0,
-      "calories_min": 0,
-      "calories_max": 0,
-      "drink_sizes": [
-        {
-          "size": "LARGE",
-          "price": 2.99,
-          "calories": 0,
-          "happier_hour_price": null
-        },
-        {
-          "size": "MEDIUM",
-          "price": 2.89,
-          "calories": 0,
-          "happier_hour_price": 1.0
-        },
-        {
-          "size": "SMALL",
-          "price": 2.69,
-          "calories": 0,
           "happier_hour_price": null
         }
       ]
@@ -1861,7 +1861,7 @@
       ],
       "image_url": "https://www.tacobell.com/images/30222_strawberry_cinnabon_delights%C2%AE_2pk_269x269.jpg",
       "price": 2.69,
-      "national_avg": 2.61,
+      "national_avg": 2.62,
       "national_median": 2.59,
       "delta": 0.1,
       "calories": 170,
@@ -1914,7 +1914,7 @@
       ],
       "image_url": "https://www.tacobell.com/images/23153_black_bean_chalupa_269x269.jpg",
       "price": 5.19,
-      "national_avg": 5.38,
+      "national_avg": 5.39,
       "national_median": 5.39,
       "delta": -0.2,
       "calories": 340,
@@ -1968,8 +1968,8 @@
       "image_url": "https://www.tacobell.com/images/22813_cheesy_gordita_crunch_269x269.jpg",
       "price": 5.59,
       "national_avg": 5.9,
-      "national_median": 5.89,
-      "delta": -0.3,
+      "national_median": 5.99,
+      "delta": -0.4,
       "calories": 480,
       "calories_min": 480,
       "calories_max": 480
@@ -2222,7 +2222,7 @@
       ],
       "image_url": "https://www.tacobell.com/images/22110_soft_taco_269x269.jpg",
       "price": 1.99,
-      "national_avg": 2.04,
+      "national_avg": 2.03,
       "national_median": 1.99,
       "delta": 0.0,
       "calories": 180,
@@ -2247,6 +2247,22 @@
     }
   ],
   "price_changes": [
+    {
+      "product_code": "1107Main",
+      "product_name": "Pepsi\u00ae Zero Sugar",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-05-26T20:46:01.260430+00:00"
+    },
+    {
+      "product_code": "1007Main",
+      "product_name": "Diet Pepsi\u00ae",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-26T20:46:01.260430+00:00"
+    },
     {
       "product_code": "1007Main",
       "product_name": "Diet Pepsi\u00ae",

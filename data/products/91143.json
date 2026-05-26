@@ -17,9 +17,9 @@
   "price_stats": {
     "avg": 9.94,
     "min": 7.99,
-    "max": 11.39,
+    "max": 11.89,
     "median": 9.99,
-    "std_dev": 0.58,
+    "std_dev": 0.59,
     "store_count": 493
   },
   "histogram": [
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 203
+      "count": 202
     },
     {
       "bucket": "$10.19",
@@ -88,26 +88,26 @@
       "count": 5
     },
     {
-      "bucket": "$10.69",
-      "count": 1
-    },
-    {
       "bucket": "$10.99",
       "count": 1
     },
     {
       "bucket": "$11.29",
-      "count": 41
+      "count": 42
     },
     {
       "bucket": "$11.39",
+      "count": 1
+    },
+    {
+      "bucket": "$11.89",
       "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.06,
+      "avg_price": 10.07,
       "store_count": 241
     },
     {
@@ -211,6 +211,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "041488",
+      "name": "Taco Bell (ATL Airport)",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 11.89
+    },
+    {
       "store_number": "042578",
       "name": "Taco Bell",
       "city": "Atlanta",
@@ -272,16 +279,39 @@
       "city": "Alpharetta",
       "state": "GA",
       "price": 11.29
-    },
-    {
-      "store_number": "041257",
-      "name": "Taco Bell",
-      "city": "Cumming",
-      "state": "GA",
-      "price": 11.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041235",
+      "store_name": "Taco Bell",
+      "city": "Suwanee",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.29,
+      "observed_at": "2026-05-26T20:48:09.046052+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-26T20:46:29.660483+00:00"
+    },
+    {
+      "store_number": "041488",
+      "store_name": "Taco Bell (ATL Airport)",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 10.69,
+      "new_price": 11.89,
+      "observed_at": "2026-05-26T20:45:15.869350+00:00"
+    },
     {
       "store_number": "031583",
       "store_name": "Taco Bell",
@@ -8584,9 +8614,9 @@
     }
   ],
   "activity_summary": {
-    "added": 509,
-    "removed": 16,
-    "price_changed": 305,
+    "added": 510,
+    "removed": 17,
+    "price_changed": 306,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 650,
@@ -11089,15 +11119,6 @@
       "TN"
     ],
     [
-      "003824",
-      33.77885297807616,
-      -84.60735438158736,
-      9.99,
-      "Taco Bell",
-      "Lithia Springs",
-      "GA"
-    ],
-    [
       "036370",
       31.32011689406289,
       -85.71096251539484,
@@ -12655,15 +12676,6 @@
       "GA"
     ],
     [
-      "041488",
-      33.63840238391459,
-      -84.42932417361067,
-      10.69,
-      "Taco Bell (ATL Airport)",
-      "Atlanta",
-      "GA"
-    ],
-    [
       "032542",
       32.31307877793498,
       -81.05568834507177,
@@ -12871,6 +12883,15 @@
       "GA"
     ],
     [
+      "041235",
+      34.07381942775987,
+      -84.16499994233163,
+      11.29,
+      "Taco Bell",
+      "Suwanee",
+      "GA"
+    ],
+    [
       "041255",
       34.03689757180433,
       -84.68522161245352,
@@ -13049,9 +13070,18 @@
       "Taco Bell",
       "Atlanta",
       "GA"
+    ],
+    [
+      "041488",
+      33.63840238391459,
+      -84.42932417361067,
+      11.89,
+      "Taco Bell (ATL Airport)",
+      "Atlanta",
+      "GA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-25",
+  "last_seen_date": "2026-05-26",
   "peak_availability_pct": 6.0
 }
