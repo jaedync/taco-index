@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 5.5,
-  "recent_price_change_pct": 0.0283,
+  "recent_price_change_pct": 0.0831,
   "first_seen_at": "2026-03-30T00:42:17.482555+00:00",
   "availability_pct": 3.6,
   "price_stats": {
-    "avg": 9.25,
+    "avg": 9.24,
     "min": 9.0,
     "max": 12.99,
     "median": 9.0,
-    "std_dev": 0.67,
-    "store_count": 275
+    "std_dev": 0.65,
+    "store_count": 276
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 214
+      "count": 216
     },
     {
       "bucket": "$9.10",
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$11.99",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$12.99",
@@ -80,8 +80,8 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 10.78,
-      "store_count": 13
+      "avg_price": 10.68,
+      "store_count": 12
     },
     {
       "state": "CA",
@@ -120,8 +120,8 @@
     },
     {
       "state": "OH",
-      "avg_price": 9.15,
-      "store_count": 25
+      "avg_price": 9.14,
+      "store_count": 26
     },
     {
       "state": "WI",
@@ -189,6 +189,13 @@
       "price": 9.0
     },
     {
+      "store_number": "040933",
+      "name": "Taco Bell",
+      "city": "Lorain",
+      "state": "OH",
+      "price": 9.0
+    },
+    {
       "store_number": "041619",
       "name": "Taco Bell",
       "city": "Mechanicsburg",
@@ -243,17 +250,11 @@
       "city": "Sparta",
       "state": "MI",
       "price": 9.0
-    },
-    {
-      "store_number": "037703",
-      "name": "Taco Bell",
-      "city": "Henderson",
-      "state": "KY",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "026132",
+    "040933",
     "041619",
     "042286",
     "034948",
@@ -466,7 +467,8 @@
     "003757",
     "040873",
     "040954",
-    "023886"
+    "023886",
+    "041189"
   ],
   "priciest_stores": [
     {
@@ -505,13 +507,6 @@
       "price": 11.99
     },
     {
-      "store_number": "042033",
-      "name": "Taco Bell",
-      "city": "Long Island",
-      "state": "NY",
-      "price": 11.99
-    },
-    {
       "store_number": "021401",
       "name": "Taco Bell",
       "city": "White City",
@@ -538,9 +533,46 @@
       "city": "North Pole",
       "state": "AK",
       "price": 11.0
+    },
+    {
+      "store_number": "031341",
+      "name": "Taco Bell",
+      "city": "Everett",
+      "state": "WA",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042033",
+      "store_name": "Taco Bell",
+      "city": "Long Island",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-27T21:46:45.410084+00:00"
+    },
+    {
+      "store_number": "040933",
+      "store_name": "Taco Bell",
+      "city": "Lorain",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-27T21:46:41.354826+00:00"
+    },
+    {
+      "store_number": "041189",
+      "store_name": "Taco Bell",
+      "city": "Billings",
+      "state": "MT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-27T21:46:40.242030+00:00"
+    },
     {
       "store_number": "042529",
       "store_name": "Taco Bell",
@@ -12563,8 +12595,8 @@
     }
   ],
   "activity_summary": {
-    "added": 738,
-    "removed": 463,
+    "added": 740,
+    "removed": 464,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12612,6 +12644,15 @@
       "Taco Bell",
       "Boynton Beach",
       "FL"
+    ],
+    [
+      "040933",
+      41.46510122044151,
+      -82.15740719027623,
+      9.0,
+      "Taco Bell",
+      "Lorain",
+      "OH"
     ],
     [
       "041619",
@@ -14531,6 +14572,15 @@
       "WV"
     ],
     [
+      "041189",
+      45.78536532266235,
+      -108.58981369705111,
+      9.0,
+      "Taco Bell",
+      "Billings",
+      "MT"
+    ],
+    [
       "028407",
       39.07241439182295,
       -84.32871289543758,
@@ -15026,15 +15076,6 @@
       "OR"
     ],
     [
-      "042033",
-      40.754870229712466,
-      -73.9413018984621,
-      11.99,
-      "Taco Bell",
-      "Long Island",
-      "NY"
-    ],
-    [
       "041334",
       40.69229211177486,
       -73.99141198374691,
@@ -15081,6 +15122,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-26",
+  "last_seen_date": "2026-05-27",
   "peak_availability_pct": 5.5
 }
