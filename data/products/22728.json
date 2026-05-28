@@ -11,7 +11,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 2.5,
-  "recent_price_change_pct": 0.0852,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
   "availability_pct": 2.6,
   "price_stats": {
@@ -20,7 +20,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 204
+    "store_count": 203
   },
   "histogram": [
     {
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 41
+      "count": 40
     },
     {
       "bucket": "$1.10",
@@ -106,7 +106,7 @@
     {
       "state": "MI",
       "avg_price": 1.08,
-      "store_count": 50
+      "store_count": 49
     },
     {
       "state": "TX",
@@ -311,6 +311,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040007",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:14:26.643919+00:00"
+    },
     {
       "store_number": "036203",
       "store_name": "Taco Bell",
@@ -4574,7 +4584,7 @@
   ],
   "activity_summary": {
     "added": 220,
-    "removed": 206,
+    "removed": 207,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6042,15 +6052,6 @@
       "KY"
     ],
     [
-      "040007",
-      42.773823760985884,
-      -83.23956324725259,
-      1.0,
-      "Taco Bell",
-      "Lake Orion",
-      "MI"
-    ],
-    [
       "041976",
       39.485068,
       -79.733975,
@@ -6421,6 +6422,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-27",
+  "last_seen_date": "2026-05-28",
   "peak_availability_pct": 2.5
 }

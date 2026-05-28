@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.9,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0222,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.1,
+  "availability_pct": 1.2,
   "price_stats": {
-    "avg": 6.55,
+    "avg": 6.51,
     "min": 5.29,
     "max": 7.99,
     "median": 6.19,
-    "std_dev": 0.79,
-    "store_count": 81
+    "std_dev": 0.77,
+    "store_count": 90
   },
   "histogram": [
     {
       "bucket": "$5.29",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$5.69",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$6.09",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 29
+      "count": 34
     },
     {
       "bucket": "$6.29",
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$6.39",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$6.49",
@@ -73,6 +73,10 @@
       "count": 3
     },
     {
+      "bucket": "$6.99",
+      "count": 1
+    },
+    {
       "bucket": "$7.99",
       "count": 17
     }
@@ -80,18 +84,18 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 7.08,
-      "store_count": 34
+      "avg_price": 7.01,
+      "store_count": 37
     },
     {
       "state": "TN",
-      "avg_price": 6.23,
-      "store_count": 5
+      "avg_price": 6.2,
+      "store_count": 8
     },
     {
       "state": "AL",
-      "avg_price": 6.16,
-      "store_count": 35
+      "avg_price": 6.17,
+      "store_count": 38
     },
     {
       "state": "FL",
@@ -106,6 +110,13 @@
       "name": "Taco Bell",
       "city": "Port St Joe",
       "state": "FL",
+      "price": 5.29
+    },
+    {
+      "store_number": "003824",
+      "name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
       "price": 5.29
     },
     {
@@ -163,17 +174,11 @@
       "city": "Selma",
       "state": "AL",
       "price": 5.99
-    },
-    {
-      "store_number": "026837",
-      "name": "Taco Bell",
-      "city": "Alcoa",
-      "state": "TN",
-      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "037369",
+    "003824",
     "002167",
     "019713"
   ],
@@ -250,6 +255,116 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029078",
+      "store_name": "Taco Bell",
+      "city": "Troy",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-05-28T21:18:23.921219+00:00"
+    },
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-28T21:18:01.813893+00:00"
+    },
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 6.29,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:17:26.199037+00:00"
+    },
+    {
+      "store_number": "018166",
+      "store_name": "Taco Bell",
+      "city": "Hiram",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.29,
+      "observed_at": "2026-05-28T21:15:48.538278+00:00"
+    },
+    {
+      "store_number": "026073",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-28T21:15:28.468053+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-05-28T21:15:05.125135+00:00"
+    },
+    {
+      "store_number": "026044",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.39,
+      "observed_at": "2026-05-28T21:14:48.371989+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.29,
+      "observed_at": "2026-05-28T21:14:33.196694+00:00"
+    },
+    {
+      "store_number": "029145",
+      "store_name": "Taco Bell",
+      "city": "Cullman",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-05-28T21:14:25.957578+00:00"
+    },
+    {
+      "store_number": "030296",
+      "store_name": "Taco Bell",
+      "city": "Fultondale",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-05-28T21:14:14.194633+00:00"
+    },
+    {
+      "store_number": "035461",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-05-28T21:13:23.742342+00:00"
+    },
     {
       "store_number": "041228",
       "store_name": "Taco Bell",
@@ -12542,12 +12657,12 @@
     }
   ],
   "activity_summary": {
-    "added": 575,
-    "removed": 494,
+    "added": 585,
+    "removed": 495,
     "price_changed": 160,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 530,
+  "calories_from_menu": 570,
   "calories_min": 530,
   "calories_max": 530,
   "combo_groups": [
@@ -12573,6 +12688,15 @@
       "Taco Bell",
       "Port St Joe",
       "FL"
+    ],
+    [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      5.29,
+      "Taco Bell",
+      "Lithia Springs",
+      "GA"
     ],
     [
       "002167",
@@ -12674,6 +12798,15 @@
       "AL"
     ],
     [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      5.99,
+      "Taco Bell",
+      "Crossville",
+      "TN"
+    ],
+    [
       "030451",
       32.64392390994919,
       -85.34819097147529,
@@ -12773,6 +12906,15 @@
       "AL"
     ],
     [
+      "035461",
+      35.75640600000001,
+      -83.9419497,
+      6.19,
+      "Taco Bell",
+      "Maryville",
+      "TN"
+    ],
+    [
       "036937",
       32.492787398157375,
       -86.40598023039077,
@@ -12836,6 +12978,24 @@
       "GA"
     ],
     [
+      "030296",
+      33.60825293197688,
+      -86.80203839207479,
+      6.19,
+      "Taco Bell",
+      "Fultondale",
+      "AL"
+    ],
+    [
+      "029145",
+      34.20658154557464,
+      -86.8747014343586,
+      6.19,
+      "Taco Bell",
+      "Cullman",
+      "AL"
+    ],
+    [
       "040113",
       31.181062668156088,
       -85.40264727043798,
@@ -12870,6 +13030,15 @@
       "Taco Bell",
       "Montgomery",
       "AL"
+    ],
+    [
+      "016335",
+      35.810910605655216,
+      -84.26391898537986,
+      6.19,
+      "Taco Bell",
+      "Lenoir City",
+      "TN"
     ],
     [
       "030463",
@@ -12971,6 +13140,15 @@
       "AL"
     ],
     [
+      "029078",
+      31.78387944696437,
+      -85.95728874206549,
+      6.19,
+      "Taco Bell",
+      "Troy",
+      "AL"
+    ],
+    [
       "029033",
       36.118403546259415,
       -84.11809736365875,
@@ -13007,6 +13185,15 @@
       "AL"
     ],
     [
+      "018166",
+      33.89149409475321,
+      -84.75320756435389,
+      6.29,
+      "Taco Bell",
+      "Hiram",
+      "GA"
+    ],
+    [
       "031633",
       33.73245285221801,
       -84.6678918600083,
@@ -13014,15 +13201,6 @@
       "Taco Bell",
       "Douglasville",
       "GA"
-    ],
-    [
-      "030359",
-      35.71724098570292,
-      -84.01247182491716,
-      6.29,
-      "Taco Bell",
-      "Maryville",
-      "TN"
     ],
     [
       "029115",
@@ -13049,6 +13227,15 @@
       6.39,
       "Taco Bell",
       "Chattanooga",
+      "TN"
+    ],
+    [
+      "026044",
+      35.75195423417623,
+      -83.9964301791224,
+      6.39,
+      "Taco Bell",
+      "Maryville",
       "TN"
     ],
     [
@@ -13139,6 +13326,15 @@
       6.69,
       "Taco Bell",
       "Hinesville",
+      "GA"
+    ],
+    [
+      "026073",
+      33.7517493624465,
+      -84.72289301460478,
+      6.99,
+      "Taco Bell",
+      "Douglasville",
       "GA"
     ],
     [
@@ -13296,6 +13492,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-27",
+  "last_seen_date": "2026-05-28",
   "peak_availability_pct": 5.9
 }

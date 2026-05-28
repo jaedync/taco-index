@@ -21,7 +21,7 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.17,
-    "store_count": 492
+    "store_count": 491
   },
   "histogram": [
     {
@@ -54,14 +54,14 @@
     },
     {
       "bucket": "$3.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 3.3,
-      "store_count": 241
+      "store_count": 240
     },
     {
       "state": "TN",
@@ -229,13 +229,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "042578",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 3.99
-    },
-    {
       "store_number": "026342",
       "name": "Taco Bell",
       "city": "Lawrenceville",
@@ -297,9 +290,46 @@
       "city": "Cumming",
       "state": "GA",
       "price": 3.59
+    },
+    {
+      "store_number": "041245",
+      "name": "Taco Bell",
+      "city": "Austell",
+      "state": "GA",
+      "price": 3.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-28T21:18:01.813893+00:00"
+    },
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:17:26.199037+00:00"
+    },
+    {
+      "store_number": "042578",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:14:37.083536+00:00"
+    },
     {
       "store_number": "033470",
       "store_name": "Taco Bell",
@@ -5282,8 +5312,8 @@
     }
   ],
   "activity_summary": {
-    "added": 495,
-    "removed": 3,
+    "added": 496,
+    "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7607,15 +7637,6 @@
       "AL"
     ],
     [
-      "030359",
-      35.71724098570292,
-      -84.01247182491716,
-      3.19,
-      "Taco Bell",
-      "Maryville",
-      "TN"
-    ],
-    [
       "043139",
       34.01707373238147,
       -85.2545475922229,
@@ -7839,6 +7860,15 @@
       "Taco Bell",
       "Albany",
       "GA"
+    ],
+    [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      3.19,
+      "Taco Bell",
+      "Crossville",
+      "TN"
     ],
     [
       "031757",
@@ -9729,18 +9759,9 @@
       "Taco Bell",
       "Lawrenceville",
       "GA"
-    ],
-    [
-      "042578",
-      33.78032506878061,
-      -84.38918335266644,
-      3.99,
-      "Taco Bell",
-      "Atlanta",
-      "GA"
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-05-27",
+  "last_seen_date": "2026-05-28",
   "peak_availability_pct": 6.0
 }

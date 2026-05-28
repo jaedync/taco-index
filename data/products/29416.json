@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 11.71,
+    "avg": 11.73,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
     "std_dev": 0.61,
-    "store_count": 36
+    "store_count": 35
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 12
+      "count": 11
     },
     {
       "bucket": "$11.99",
@@ -141,7 +141,6 @@
     "024033",
     "038897",
     "003881",
-    "020143",
     "003758"
   ],
   "priciest_stores": [
@@ -217,6 +216,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:17:28.880327+00:00"
+    },
     {
       "store_number": "038897",
       "store_name": "Taco Bell",
@@ -880,7 +889,7 @@
   ],
   "activity_summary": {
     "added": 51,
-    "removed": 15,
+    "removed": 16,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1021,15 +1030,6 @@
       "Taco Bell / KFC",
       "West Branch",
       "MI"
-    ],
-    [
-      "020143",
-      37.36829880068801,
-      -89.64276076441651,
-      10.99,
-      "Taco Bell",
-      "Jackson",
-      "MO"
     ],
     [
       "003758",
@@ -1258,6 +1258,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-26",
+  "last_seen_date": "2026-05-28",
   "peak_availability_pct": 0.4
 }

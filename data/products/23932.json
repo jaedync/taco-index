@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:07:42.045440+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.84,
+    "avg": 5.86,
     "min": 5.49,
     "max": 5.99,
     "median": 5.99,
     "std_dev": 0.23,
-    "store_count": 27
+    "store_count": 26
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$5.99",
@@ -105,13 +105,6 @@
       "price": 5.49
     },
     {
-      "store_number": "020143",
-      "name": "Taco Bell",
-      "city": "Jackson",
-      "state": "MO",
-      "price": 5.49
-    },
-    {
       "store_number": "039735",
       "name": "Taco Bell / KFC",
       "city": "Ruckersville",
@@ -124,6 +117,13 @@
       "city": "Miami",
       "state": "FL",
       "price": 5.99
+    },
+    {
+      "store_number": "028510",
+      "name": "Taco Bell / KFC",
+      "city": "Lebanon",
+      "state": "KY",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
@@ -133,8 +133,7 @@
     "028153",
     "003758",
     "024033",
-    "038897",
-    "020143"
+    "038897"
   ],
   "priciest_stores": [
     {
@@ -209,6 +208,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:17:28.880327+00:00"
+    },
     {
       "store_number": "019680",
       "store_name": "Taco Bell / KFC",
@@ -682,7 +691,7 @@
   ],
   "activity_summary": {
     "added": 37,
-    "removed": 10,
+    "removed": 11,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -753,15 +762,6 @@
       "Taco Bell",
       "Minerva",
       "OH"
-    ],
-    [
-      "020143",
-      37.36829880068801,
-      -89.64276076441651,
-      5.49,
-      "Taco Bell",
-      "Jackson",
-      "MO"
     ],
     [
       "039735",

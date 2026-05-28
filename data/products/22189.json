@@ -17,10 +17,10 @@
   "price_stats": {
     "avg": 22.44,
     "min": 11.88,
-    "max": 36.99,
+    "max": 41.99,
     "median": 22.99,
-    "std_dev": 1.83,
-    "store_count": 7682
+    "std_dev": 1.84,
+    "store_count": 7681
   },
   "histogram": [
     {
@@ -129,7 +129,7 @@
     },
     {
       "bucket": "$20.99",
-      "count": 743
+      "count": 742
     },
     {
       "bucket": "$21.09",
@@ -321,7 +321,7 @@
     },
     {
       "bucket": "$27.99",
-      "count": 62
+      "count": 61
     },
     {
       "bucket": "$28.49",
@@ -350,12 +350,16 @@
     {
       "bucket": "$36.99",
       "count": 1
+    },
+    {
+      "bucket": "$41.99",
+      "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 25.15,
+      "avg_price": 25.2,
       "store_count": 252
     },
     {
@@ -391,7 +395,7 @@
     {
       "state": "NH",
       "avg_price": 23.49,
-      "store_count": 11
+      "store_count": 12
     },
     {
       "state": "ME",
@@ -480,8 +484,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 22.22,
-      "store_count": 349
+      "avg_price": 22.21,
+      "store_count": 348
     },
     {
       "state": "WI",
@@ -541,7 +545,7 @@
     {
       "state": "NM",
       "avg_price": 21.4,
-      "store_count": 58
+      "store_count": 57
     },
     {
       "state": "TX",
@@ -682,6 +686,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "029968",
+      "name": "Taco Bell",
+      "city": "Manhattan",
+      "state": "NY",
+      "price": 41.99
+    },
+    {
       "store_number": "026759",
       "name": "Taco Bell",
       "city": "Universal City",
@@ -743,16 +754,39 @@
       "city": "Brooklyn",
       "state": "NY",
       "price": 32.19
-    },
-    {
-      "store_number": "041158",
-      "name": "Taco Bell",
-      "city": "Bronx",
-      "state": "NY",
-      "price": 32.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030951",
+      "store_name": "Taco Bell",
+      "city": "Laconia",
+      "state": "NH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 23.49,
+      "observed_at": "2026-05-28T21:18:12.281178+00:00"
+    },
+    {
+      "store_number": "029968",
+      "store_name": "Taco Bell",
+      "city": "Manhattan",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 27.99,
+      "new_price": 41.99,
+      "observed_at": "2026-05-28T21:18:01.586537+00:00"
+    },
+    {
+      "store_number": "043197",
+      "store_name": "Taco Bell",
+      "city": "Bernalillo",
+      "state": "NM",
+      "change_type": "item_removed",
+      "old_price": 20.99,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:17:23.599171+00:00"
+    },
     {
       "store_number": "040318",
       "store_name": "Taco Bell",
@@ -5605,9 +5639,9 @@
     }
   ],
   "activity_summary": {
-    "added": 112,
-    "removed": 91,
-    "price_changed": 282,
+    "added": 113,
+    "removed": 92,
+    "price_changed": 283,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 170,
@@ -20783,15 +20817,6 @@
       "Taco Bell",
       "Caseyville",
       "IL"
-    ],
-    [
-      "043197",
-      35.317196057394405,
-      -106.54172667864259,
-      20.99,
-      "Taco Bell",
-      "Bernalillo",
-      "NM"
     ],
     [
       "019443",
@@ -58153,15 +58178,6 @@
       "IN"
     ],
     [
-      "002945",
-      42.99177248653248,
-      -84.54689741134644,
-      23.49,
-      "Taco Bell",
-      "St. Johns",
-      "MI"
-    ],
-    [
       "036155",
       38.213276454229025,
       -85.58881223201752,
@@ -61841,6 +61857,15 @@
       "Taco Bell",
       "Vancouver",
       "WA"
+    ],
+    [
+      "030951",
+      43.56157669209464,
+      -71.45151478174002,
+      23.49,
+      "Taco Bell",
+      "Laconia",
+      "NH"
     ],
     [
       "039054",
@@ -74182,15 +74207,6 @@
       "CA"
     ],
     [
-      "029968",
-      40.78659053503455,
-      -73.95017016325893,
-      27.99,
-      "Taco Bell",
-      "Manhattan",
-      "NY"
-    ],
-    [
       "041354",
       38.45762500015582,
       -121.84211365884039,
@@ -74765,6 +74781,15 @@
       "Taco Bell",
       "Universal City",
       "CA"
+    ],
+    [
+      "029968",
+      40.78659053503455,
+      -73.95017016325893,
+      41.99,
+      "Taco Bell",
+      "Manhattan",
+      "NY"
     ]
   ],
   "retired_at": null,

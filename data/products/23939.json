@@ -16,17 +16,17 @@
   "first_seen_at": "2026-05-21T21:04:35.819716+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 5.92,
+    "avg": 5.94,
     "min": 5.49,
     "max": 7.29,
     "median": 5.99,
-    "std_dev": 0.33,
-    "store_count": 32
+    "std_dev": 0.32,
+    "store_count": 31
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$5.99",
@@ -71,13 +71,6 @@
       "name": "Taco Bell / KFC",
       "city": "West Branch",
       "state": "MI",
-      "price": 5.49
-    },
-    {
-      "store_number": "020143",
-      "name": "Taco Bell",
-      "city": "Jackson",
-      "state": "MO",
       "price": 5.49
     },
     {
@@ -128,12 +121,18 @@
       "city": "Lebanon",
       "state": "KY",
       "price": 5.99
+    },
+    {
+      "store_number": "039755",
+      "name": "Taco Bell / KFC",
+      "city": "Nags Head",
+      "state": "NC",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "035717",
     "003881",
-    "020143",
     "028153",
     "003758",
     "024033",
@@ -212,6 +211,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:17:28.880327+00:00"
+    },
     {
       "store_number": "029411",
       "store_name": "Taco Bell",
@@ -1215,7 +1224,7 @@
   ],
   "activity_summary": {
     "added": 66,
-    "removed": 34,
+    "removed": 35,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1241,15 +1250,6 @@
       "Taco Bell / KFC",
       "West Branch",
       "MI"
-    ],
-    [
-      "020143",
-      37.36829880068801,
-      -89.64276076441651,
-      5.49,
-      "Taco Bell",
-      "Jackson",
-      "MO"
     ],
     [
       "028153",
@@ -1514,6 +1514,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-05-26",
+  "last_seen_date": "2026-05-28",
   "peak_availability_pct": 0.4
 }

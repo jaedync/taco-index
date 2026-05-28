@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": -0.0438,
+  "recent_price_change_pct": -0.033,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 9.05,
+    "avg": 9.04,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.23,
-    "store_count": 19
+    "std_dev": 0.2,
+    "store_count": 24
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 18
+      "count": 23
     },
     {
       "bucket": "$9.99",
@@ -36,13 +36,13 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.1,
-      "store_count": 10
+      "avg_price": 9.08,
+      "store_count": 12
     },
     {
       "state": "TN",
       "avg_price": 9.0,
-      "store_count": 6
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -75,6 +75,13 @@
       "price": 9.0
     },
     {
+      "store_number": "029119",
+      "name": "Taco Bell",
+      "city": "Clanton",
+      "state": "AL",
+      "price": 9.0
+    },
+    {
       "store_number": "040962",
       "name": "Taco Bell",
       "city": "Franklin",
@@ -92,6 +99,13 @@
       "store_number": "029050",
       "name": "Taco Bell",
       "city": "Chattanooga",
+      "state": "TN",
+      "price": 9.0
+    },
+    {
+      "store_number": "016335",
+      "name": "Taco Bell",
+      "city": "Lenoir City",
       "state": "TN",
       "price": 9.0
     },
@@ -115,41 +129,32 @@
       "city": "Hinesville",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "039919",
-      "name": "Taco Bell",
-      "city": "Savannah",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "031583",
-      "name": "Taco Bell",
-      "city": "Beaufort",
-      "state": "SC",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "042019",
     "036415",
+    "029119",
     "040962",
     "024403",
     "029050",
+    "016335",
     "041249",
     "039923",
     "039924",
     "039919",
     "031583",
+    "026044",
     "041243",
     "002995",
+    "026073",
     "002167",
     "041881",
     "029013",
     "029033",
     "037050",
-    "029098"
+    "029098",
+    "024364"
   ],
   "priciest_stores": [
     {
@@ -158,6 +163,13 @@
       "city": "Baxley",
       "state": "GA",
       "price": 9.99
+    },
+    {
+      "store_number": "024364",
+      "name": "Taco Bell",
+      "city": "East Point",
+      "state": "GA",
+      "price": 9.0
     },
     {
       "store_number": "029098",
@@ -202,28 +214,71 @@
       "price": 9.0
     },
     {
+      "store_number": "026073",
+      "name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "002995",
       "name": "Taco Bell",
       "city": "Smyrna",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "041243",
-      "name": "Taco Bell",
-      "city": "Marietta",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "031583",
-      "name": "Taco Bell",
-      "city": "Beaufort",
-      "state": "SC",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024364",
+      "store_name": "Taco Bell",
+      "city": "East Point",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-28T21:16:27.184661+00:00"
+    },
+    {
+      "store_number": "026073",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-28T21:15:28.468053+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-28T21:15:05.125135+00:00"
+    },
+    {
+      "store_number": "026044",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-28T21:14:48.371989+00:00"
+    },
+    {
+      "store_number": "029119",
+      "store_name": "Taco Bell",
+      "city": "Clanton",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-28T21:14:15.938242+00:00"
+    },
     {
       "store_number": "026837",
       "store_name": "Taco Bell",
@@ -2916,7 +2971,7 @@
     }
   ],
   "activity_summary": {
-    "added": 114,
+    "added": 119,
     "removed": 155,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2976,6 +3031,15 @@
       "TN"
     ],
     [
+      "029119",
+      32.80258611131505,
+      -86.58641709948819,
+      9.0,
+      "Taco Bell",
+      "Clanton",
+      "AL"
+    ],
+    [
       "040962",
       35.18370637706397,
       -83.35587926686479,
@@ -3000,6 +3064,15 @@
       9.0,
       "Taco Bell",
       "Chattanooga",
+      "TN"
+    ],
+    [
+      "016335",
+      35.810910605655216,
+      -84.26391898537986,
+      9.0,
+      "Taco Bell",
+      "Lenoir City",
       "TN"
     ],
     [
@@ -3048,6 +3121,15 @@
       "SC"
     ],
     [
+      "026044",
+      35.75195423417623,
+      -83.9964301791224,
+      9.0,
+      "Taco Bell",
+      "Maryville",
+      "TN"
+    ],
+    [
       "041243",
       34.02333279764089,
       -84.52909384668487,
@@ -3063,6 +3145,15 @@
       9.0,
       "Taco Bell",
       "Smyrna",
+      "GA"
+    ],
+    [
+      "026073",
+      33.7517493624465,
+      -84.72289301460478,
+      9.0,
+      "Taco Bell",
+      "Douglasville",
       "GA"
     ],
     [
@@ -3120,6 +3211,15 @@
       "GA"
     ],
     [
+      "024364",
+      33.65548299964909,
+      -84.50117473305909,
+      9.0,
+      "Taco Bell",
+      "East Point",
+      "GA"
+    ],
+    [
       "042903",
       31.783928,
       -82.363196,
@@ -3130,6 +3230,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-27",
+  "last_seen_date": "2026-05-28",
   "peak_availability_pct": 1.1
 }

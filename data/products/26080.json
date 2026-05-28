@@ -21,19 +21,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 13
+    "store_count": 14
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 13
+      "count": 14
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 7.0,
-      "store_count": 13
+      "store_count": 14
     }
   ],
   "nutrition": {
@@ -134,6 +134,7 @@
     "033288",
     "033283",
     "033280",
+    "030384",
     "030390",
     "033285"
   ],
@@ -149,6 +150,13 @@
       "store_number": "030390",
       "name": "Taco Bell",
       "city": "Shawnee",
+      "state": "OK",
+      "price": 7.0
+    },
+    {
+      "store_number": "030384",
+      "name": "Taco Bell",
+      "city": "Yukon",
       "state": "OK",
       "price": 7.0
     },
@@ -200,16 +208,19 @@
       "city": "El Reno",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "028019",
-      "name": "Taco Bell",
-      "city": "Enid",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030384",
+      "store_name": "Taco Bell",
+      "city": "Yukon",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-05-28T21:14:33.893114+00:00"
+    },
     {
       "store_number": "030384",
       "store_name": "Taco Bell",
@@ -392,7 +403,7 @@
     }
   ],
   "activity_summary": {
-    "added": 12,
+    "added": 13,
     "removed": 6,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -530,6 +541,15 @@
       7.0,
       "Taco Bell",
       "Edmond",
+      "OK"
+    ],
+    [
+      "030384",
+      35.4971053401798,
+      -97.74209359411932,
+      7.0,
+      "Taco Bell",
+      "Yukon",
       "OK"
     ],
     [

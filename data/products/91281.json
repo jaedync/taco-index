@@ -13,16 +13,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.2,
-  "recent_price_change_pct": -0.0343,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 5.4,
   "price_stats": {
-    "avg": 12.96,
+    "avg": 12.95,
     "min": 12.5,
     "max": 19.99,
     "median": 12.5,
     "std_dev": 1.25,
-    "store_count": 417
+    "store_count": 416
   },
   "histogram": [
     {
@@ -39,7 +39,7 @@
     },
     {
       "bucket": "$14.99",
-      "count": 35
+      "count": 34
     },
     {
       "bucket": "$15.00",
@@ -84,8 +84,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 12.82,
-      "store_count": 208
+      "avg_price": 12.81,
+      "store_count": 207
     },
     {
       "state": "AL",
@@ -263,7 +263,6 @@
     "037191",
     "037127",
     "037047",
-    "037105",
     "037013",
     "037370",
     "037419",
@@ -343,6 +342,7 @@
     "039939",
     "029098",
     "041227",
+    "029137",
     "018678",
     "039945",
     "029057",
@@ -605,6 +605,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043136",
+      "store_name": "Taco Bell",
+      "city": "Martinez",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 14.99,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:16:02.642058+00:00"
+    },
+    {
+      "store_number": "029137",
+      "store_name": "Taco Bell",
+      "city": "Albertville",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-05-28T21:14:57.696568+00:00"
+    },
+    {
+      "store_number": "037105",
+      "store_name": "Taco Bell",
+      "city": "Talladega",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:14:02.953755+00:00"
+    },
     {
       "store_number": "027858",
       "store_name": "Taco Bell",
@@ -6217,8 +6247,8 @@
     }
   ],
   "activity_summary": {
-    "added": 489,
-    "removed": 72,
+    "added": 490,
+    "removed": 74,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7000,15 +7030,6 @@
       "GA"
     ],
     [
-      "037105",
-      33.4393026,
-      -86.0823143,
-      12.5,
-      "Taco Bell",
-      "Talladega",
-      "AL"
-    ],
-    [
       "037013",
       33.639036321195334,
       -86.6159612237478,
@@ -7718,6 +7739,15 @@
       "Taco Bell",
       "Jonesboro",
       "GA"
+    ],
+    [
+      "029137",
+      34.27997239166019,
+      -86.21699877084666,
+      12.5,
+      "Taco Bell",
+      "Albertville",
+      "AL"
     ],
     [
       "018678",
@@ -9709,15 +9739,6 @@
       "GA"
     ],
     [
-      "043136",
-      33.48541306309407,
-      -82.13366029551253,
-      14.99,
-      "Taco Bell",
-      "Martinez",
-      "GA"
-    ],
-    [
       "042825",
       30.67554927235233,
       -88.14249698887579,
@@ -10007,6 +10028,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-27",
+  "last_seen_date": "2026-05-28",
   "peak_availability_pct": 5.3
 }

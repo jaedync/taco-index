@@ -14,26 +14,26 @@
   "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-21T21:03:53.279722+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.3,
   "price_stats": {
     "avg": 9.0,
     "min": 9.0,
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 19
+    "store_count": 20
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 19
+      "count": 20
     }
   ],
   "state_prices": [
     {
       "state": "UT",
       "avg_price": 9.0,
-      "store_count": 19
+      "store_count": 20
     }
   ],
   "nutrition": {
@@ -138,6 +138,7 @@
     "032151",
     "033154",
     "033168",
+    "033177",
     "032051",
     "033175",
     "033163",
@@ -169,6 +170,13 @@
       "store_number": "032051",
       "name": "Taco Bell",
       "city": "Lehi",
+      "state": "UT",
+      "price": 9.0
+    },
+    {
+      "store_number": "033177",
+      "name": "Taco Bell",
+      "city": "Clinton",
       "state": "UT",
       "price": 9.0
     },
@@ -206,16 +214,19 @@
       "city": "Springville",
       "state": "UT",
       "price": 9.0
-    },
-    {
-      "store_number": "033180",
-      "name": "Taco Bell",
-      "city": "Magna",
-      "state": "UT",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033177",
+      "store_name": "Taco Bell",
+      "city": "Clinton",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-28T21:17:53.878460+00:00"
+    },
     {
       "store_number": "033177",
       "store_name": "Taco Bell",
@@ -828,7 +839,7 @@
     }
   ],
   "activity_summary": {
-    "added": 40,
+    "added": 41,
     "removed": 21,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -999,6 +1010,15 @@
       "UT"
     ],
     [
+      "033177",
+      41.13787879858887,
+      -112.06496975851218,
+      9.0,
+      "Taco Bell",
+      "Clinton",
+      "UT"
+    ],
+    [
       "032051",
       40.38919443952963,
       -111.82862001664034,
@@ -1036,6 +1056,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-05-27",
+  "last_seen_date": "2026-05-28",
   "peak_availability_pct": 0.2
 }

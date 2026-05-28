@@ -15,19 +15,19 @@
   "peak_30d_pct": 6.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.9,
+  "availability_pct": 1.1,
   "price_stats": {
-    "avg": 6.74,
+    "avg": 6.72,
     "min": 6.49,
     "max": 6.99,
     "median": 6.69,
     "std_dev": 0.21,
-    "store_count": 72
+    "store_count": 82
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 22
+      "count": 31
     },
     {
       "bucket": "$6.69",
@@ -35,19 +35,24 @@
     },
     {
       "bucket": "$6.99",
-      "count": 27
+      "count": 28
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.88,
-      "store_count": 31
+      "avg_price": 6.87,
+      "store_count": 33
     },
     {
       "state": "AL",
-      "avg_price": 6.62,
-      "store_count": 31
+      "avg_price": 6.6,
+      "store_count": 35
+    },
+    {
+      "state": "TN",
+      "avg_price": 6.52,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -66,10 +71,24 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "035465",
+      "name": "Taco Bell",
+      "city": "Hanceville",
+      "state": "AL",
+      "price": 6.49
+    },
+    {
       "store_number": "033481",
       "name": "Taco Bell",
       "city": "Villa Rica",
       "state": "GA",
+      "price": 6.49
+    },
+    {
+      "store_number": "035461",
+      "name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
       "price": 6.49
     },
     {
@@ -80,9 +99,23 @@
       "price": 6.49
     },
     {
+      "store_number": "030296",
+      "name": "Taco Bell",
+      "city": "Fultondale",
+      "state": "AL",
+      "price": 6.49
+    },
+    {
       "store_number": "029157",
       "name": "Taco Bell",
       "city": "Tuscaloosa",
+      "state": "AL",
+      "price": 6.49
+    },
+    {
+      "store_number": "029145",
+      "name": "Taco Bell",
+      "city": "Cullman",
       "state": "AL",
       "price": 6.49
     },
@@ -94,54 +127,33 @@
       "price": 6.49
     },
     {
-      "store_number": "030463",
+      "store_number": "026044",
       "name": "Taco Bell",
-      "city": "Atmore",
-      "state": "AL",
-      "price": 6.49
-    },
-    {
-      "store_number": "036369",
-      "name": "Taco Bell",
-      "city": "Dothan",
-      "state": "AL",
-      "price": 6.49
-    },
-    {
-      "store_number": "026837",
-      "name": "Taco Bell",
-      "city": "Alcoa",
+      "city": "Maryville",
       "state": "TN",
       "price": 6.49
     },
     {
-      "store_number": "029095",
+      "store_number": "016335",
       "name": "Taco Bell",
-      "city": "Valley",
-      "state": "AL",
-      "price": 6.49
-    },
-    {
-      "store_number": "031633",
-      "name": "Taco Bell",
-      "city": "Douglasville",
-      "state": "GA",
-      "price": 6.49
-    },
-    {
-      "store_number": "029071",
-      "name": "Taco Bell",
-      "city": "Auburn",
-      "state": "AL",
+      "city": "Lenoir City",
+      "state": "TN",
       "price": 6.49
     }
   ],
   "min_price_store_numbers": [
+    "035465",
     "033481",
+    "035461",
     "029008",
+    "030296",
     "029157",
+    "029145",
     "036370",
+    "026044",
+    "016335",
     "030463",
+    "026073",
     "036369",
     "026837",
     "029095",
@@ -155,7 +167,9 @@
     "029100",
     "002167",
     "019713",
+    "024403",
     "030451",
+    "029078",
     "036371",
     "029117",
     "031583"
@@ -233,6 +247,106 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029078",
+      "store_name": "Taco Bell",
+      "city": "Troy",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-28T21:18:23.921219+00:00"
+    },
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-28T21:18:01.813893+00:00"
+    },
+    {
+      "store_number": "026073",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-28T21:15:28.468053+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-28T21:15:05.125135+00:00"
+    },
+    {
+      "store_number": "041225",
+      "store_name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-28T21:14:55.436735+00:00"
+    },
+    {
+      "store_number": "026044",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-28T21:14:48.371989+00:00"
+    },
+    {
+      "store_number": "029145",
+      "store_name": "Taco Bell",
+      "city": "Cullman",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-28T21:14:25.957578+00:00"
+    },
+    {
+      "store_number": "030296",
+      "store_name": "Taco Bell",
+      "city": "Fultondale",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-28T21:14:14.194633+00:00"
+    },
+    {
+      "store_number": "035461",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-28T21:13:23.742342+00:00"
+    },
+    {
+      "store_number": "035465",
+      "store_name": "Taco Bell",
+      "city": "Hanceville",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-28T21:13:19.279549+00:00"
+    },
     {
       "store_number": "041219",
       "store_name": "Taco Bell",
@@ -10925,7 +11039,7 @@
     }
   ],
   "activity_summary": {
-    "added": 570,
+    "added": 580,
     "removed": 498,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
@@ -10955,6 +11069,15 @@
   ],
   "map_data": [
     [
+      "035465",
+      34.070653525367355,
+      -86.77579694396583,
+      6.49,
+      "Taco Bell",
+      "Hanceville",
+      "AL"
+    ],
+    [
       "033481",
       33.73376376352933,
       -84.90097259926127,
@@ -10962,6 +11085,15 @@
       "Taco Bell",
       "Villa Rica",
       "GA"
+    ],
+    [
+      "035461",
+      35.75640600000001,
+      -83.9419497,
+      6.49,
+      "Taco Bell",
+      "Maryville",
+      "TN"
     ],
     [
       "029008",
@@ -10973,12 +11105,30 @@
       "GA"
     ],
     [
+      "030296",
+      33.60825293197688,
+      -86.80203839207479,
+      6.49,
+      "Taco Bell",
+      "Fultondale",
+      "AL"
+    ],
+    [
       "029157",
       33.20571253256555,
       -87.56997630000114,
       6.49,
       "Taco Bell",
       "Tuscaloosa",
+      "AL"
+    ],
+    [
+      "029145",
+      34.20658154557464,
+      -86.8747014343586,
+      6.49,
+      "Taco Bell",
+      "Cullman",
       "AL"
     ],
     [
@@ -10991,6 +11141,24 @@
       "AL"
     ],
     [
+      "026044",
+      35.75195423417623,
+      -83.9964301791224,
+      6.49,
+      "Taco Bell",
+      "Maryville",
+      "TN"
+    ],
+    [
+      "016335",
+      35.810910605655216,
+      -84.26391898537986,
+      6.49,
+      "Taco Bell",
+      "Lenoir City",
+      "TN"
+    ],
+    [
       "030463",
       31.105415984250854,
       -87.47651986779147,
@@ -10998,6 +11166,15 @@
       "Taco Bell",
       "Atmore",
       "AL"
+    ],
+    [
+      "026073",
+      33.7517493624465,
+      -84.72289301460478,
+      6.49,
+      "Taco Bell",
+      "Douglasville",
+      "GA"
     ],
     [
       "036369",
@@ -11117,12 +11294,30 @@
       "FL"
     ],
     [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      6.49,
+      "Taco Bell",
+      "Crossville",
+      "TN"
+    ],
+    [
       "030451",
       32.64392390994919,
       -85.34819097147529,
       6.49,
       "Taco Bell",
       "Opelika",
+      "AL"
+    ],
+    [
+      "029078",
+      31.78387944696437,
+      -85.95728874206549,
+      6.49,
+      "Taco Bell",
+      "Troy",
       "AL"
     ],
     [
@@ -11432,6 +11627,15 @@
       "GA"
     ],
     [
+      "041225",
+      33.69407347096101,
+      -84.09623191507308,
+      6.99,
+      "Taco Bell",
+      "Lithonia",
+      "GA"
+    ],
+    [
       "039923",
       32.43643812662501,
       -81.75874776673481,
@@ -11604,6 +11808,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-27",
+  "last_seen_date": "2026-05-28",
   "peak_availability_pct": 6.0
 }

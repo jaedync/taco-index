@@ -27,7 +27,7 @@
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 218
+      "count": 219
     },
     {
       "bucket": "$10.29",
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$10.69",
-      "count": 136
+      "count": 135
     },
     {
       "bucket": "$10.99",
@@ -55,7 +55,7 @@
     {
       "state": "GA",
       "avg_price": 10.37,
-      "store_count": 242
+      "store_count": 241
     },
     {
       "state": "FL",
@@ -70,7 +70,7 @@
     {
       "state": "TN",
       "avg_price": 10.17,
-      "store_count": 87
+      "store_count": 88
     }
   ],
   "nutrition": {
@@ -350,6 +350,7 @@
     "030881",
     "004109",
     "029099",
+    "024403",
     "027506",
     "031757",
     "004317",
@@ -452,6 +453,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-05-28T21:18:01.813893+00:00"
+    },
+    {
+      "store_number": "042578",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.69,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:14:37.083536+00:00"
+    },
     {
       "store_number": "005482",
       "store_name": "Taco Bell",
@@ -5434,8 +5455,8 @@
     }
   ],
   "activity_summary": {
-    "added": 495,
-    "removed": 3,
+    "added": 496,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7192,6 +7213,15 @@
       "GA"
     ],
     [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      9.99,
+      "Taco Bell",
+      "Crossville",
+      "TN"
+    ],
+    [
       "027506",
       34.321927340275344,
       -83.83288894595358,
@@ -8893,15 +8923,6 @@
       "FL"
     ],
     [
-      "042578",
-      33.78032506878061,
-      -84.38918335266644,
-      10.69,
-      "Taco Bell",
-      "Atlanta",
-      "GA"
-    ],
-    [
       "041320",
       33.98718766651088,
       -83.98494833474453,
@@ -9911,6 +9932,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-05-27",
+  "last_seen_date": "2026-05-28",
   "peak_availability_pct": 6.0
 }

@@ -14,14 +14,14 @@
   "peak_30d_pct": 6.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.2,
+  "availability_pct": 1.3,
   "price_stats": {
-    "avg": 3.28,
+    "avg": 3.29,
     "min": 2.99,
-    "max": 3.59,
+    "max": 3.99,
     "median": 3.19,
     "std_dev": 0.19,
-    "store_count": 90
+    "store_count": 101
   },
   "histogram": [
     {
@@ -30,15 +30,15 @@
     },
     {
       "bucket": "$3.19",
-      "count": 49
+      "count": 54
     },
     {
       "bucket": "$3.29",
-      "count": 9
+      "count": 10
     },
     {
       "bucket": "$3.39",
-      "count": 1
+      "count": 4
     },
     {
       "bucket": "$3.49",
@@ -46,19 +46,23 @@
     },
     {
       "bucket": "$3.59",
-      "count": 20
+      "count": 21
+    },
+    {
+      "bucket": "$3.99",
+      "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 3.4,
-      "store_count": 38
+      "avg_price": 3.41,
+      "store_count": 42
     },
     {
       "state": "TN",
-      "avg_price": 3.22,
-      "store_count": 7
+      "avg_price": 3.27,
+      "store_count": 10
     },
     {
       "state": "FL",
@@ -68,7 +72,7 @@
     {
       "state": "AL",
       "avg_price": 3.19,
-      "store_count": 37
+      "store_count": 41
     }
   ],
   "nutrition": null,
@@ -156,6 +160,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "026342",
+      "name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "price": 3.99
+    },
+    {
       "store_number": "041241",
       "name": "Taco Bell",
       "city": "Athens",
@@ -173,6 +184,13 @@
       "store_number": "041231",
       "name": "Taco Bell",
       "city": "Athens",
+      "state": "GA",
+      "price": 3.59
+    },
+    {
+      "store_number": "039924",
+      "name": "Taco Bell",
+      "city": "Hinesville",
       "state": "GA",
       "price": 3.59
     },
@@ -210,23 +228,139 @@
       "city": "Bethlehem",
       "state": "GA",
       "price": 3.59
-    },
-    {
-      "store_number": "041233",
-      "name": "Taco Bell",
-      "city": "Buford",
-      "state": "GA",
-      "price": 3.59
-    },
-    {
-      "store_number": "041237",
-      "name": "Taco Bell",
-      "city": "Suwanee",
-      "state": "GA",
-      "price": 3.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029078",
+      "store_name": "Taco Bell",
+      "city": "Troy",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-28T21:18:23.921219+00:00"
+    },
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-05-28T21:18:01.813893+00:00"
+    },
+    {
+      "store_number": "039924",
+      "store_name": "Taco Bell",
+      "city": "Hinesville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-05-28T21:16:51.838531+00:00"
+    },
+    {
+      "store_number": "002302",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:15:49.683644+00:00"
+    },
+    {
+      "store_number": "018166",
+      "store_name": "Taco Bell",
+      "city": "Hiram",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-28T21:15:48.538278+00:00"
+    },
+    {
+      "store_number": "026073",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-05-28T21:15:28.468053+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-05-28T21:15:05.125135+00:00"
+    },
+    {
+      "store_number": "026044",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-05-28T21:14:48.371989+00:00"
+    },
+    {
+      "store_number": "029145",
+      "store_name": "Taco Bell",
+      "city": "Cullman",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-28T21:14:25.957578+00:00"
+    },
+    {
+      "store_number": "030296",
+      "store_name": "Taco Bell",
+      "city": "Fultondale",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-28T21:14:14.194633+00:00"
+    },
+    {
+      "store_number": "026342",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-28T21:14:01.067272+00:00"
+    },
+    {
+      "store_number": "037099",
+      "store_name": "Taco Bell",
+      "city": "Warrior",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-28T21:13:44.327316+00:00"
+    },
+    {
+      "store_number": "035461",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-05-28T21:13:23.742342+00:00"
+    },
     {
       "store_number": "005482",
       "store_name": "Taco Bell",
@@ -14319,12 +14453,12 @@
     }
   ],
   "activity_summary": {
-    "added": 596,
-    "removed": 506,
+    "added": 608,
+    "removed": 507,
     "price_changed": 307,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 270,
+  "calories_from_menu": 320,
   "calories_min": 270,
   "calories_max": 270,
   "combo_groups": [
@@ -14478,6 +14612,15 @@
       "GA"
     ],
     [
+      "037099",
+      33.81166490446357,
+      -86.8244321075842,
+      3.19,
+      "Taco Bell",
+      "Warrior",
+      "AL"
+    ],
+    [
       "036937",
       32.492787398157375,
       -86.40598023039077,
@@ -14541,12 +14684,30 @@
       "FL"
     ],
     [
+      "030296",
+      33.60825293197688,
+      -86.80203839207479,
+      3.19,
+      "Taco Bell",
+      "Fultondale",
+      "AL"
+    ],
+    [
       "029157",
       33.20571253256555,
       -87.56997630000114,
       3.19,
       "Taco Bell",
       "Tuscaloosa",
+      "AL"
+    ],
+    [
+      "029145",
+      34.20658154557464,
+      -86.8747014343586,
+      3.19,
+      "Taco Bell",
+      "Cullman",
       "AL"
     ],
     [
@@ -14664,6 +14825,15 @@
       3.19,
       "Taco Bell",
       "Dallas",
+      "GA"
+    ],
+    [
+      "018166",
+      33.89149409475321,
+      -84.75320756435389,
+      3.19,
+      "Taco Bell",
+      "Hiram",
       "GA"
     ],
     [
@@ -14820,6 +14990,15 @@
       "GA"
     ],
     [
+      "029078",
+      31.78387944696437,
+      -85.95728874206549,
+      3.19,
+      "Taco Bell",
+      "Troy",
+      "AL"
+    ],
+    [
       "029033",
       36.118403546259415,
       -84.11809736365875,
@@ -14892,6 +15071,15 @@
       "NC"
     ],
     [
+      "026073",
+      33.7517493624465,
+      -84.72289301460478,
+      3.29,
+      "Taco Bell",
+      "Douglasville",
+      "GA"
+    ],
+    [
       "042829",
       30.458093509232302,
       -87.29877294124185,
@@ -14901,15 +15089,6 @@
       "FL"
     ],
     [
-      "002302",
-      35.97311902232418,
-      -83.9845335127915,
-      3.29,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
-    ],
-    [
       "042831",
       30.670654044454654,
       -87.85164057593474,
@@ -14917,6 +15096,15 @@
       "Taco Bell",
       "Spanish Fort",
       "AL"
+    ],
+    [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      3.29,
+      "Taco Bell",
+      "Crossville",
+      "TN"
     ],
     [
       "042123",
@@ -14937,12 +15125,39 @@
       "TN"
     ],
     [
+      "035461",
+      35.75640600000001,
+      -83.9419497,
+      3.39,
+      "Taco Bell",
+      "Maryville",
+      "TN"
+    ],
+    [
       "029050",
       35.115167503435934,
       -85.25543691077918,
       3.39,
       "Taco Bell",
       "Chattanooga",
+      "TN"
+    ],
+    [
+      "026044",
+      35.75195423417623,
+      -83.9964301791224,
+      3.39,
+      "Taco Bell",
+      "Maryville",
+      "TN"
+    ],
+    [
+      "016335",
+      35.810910605655216,
+      -84.26391898537986,
+      3.39,
+      "Taco Bell",
+      "Lenoir City",
       "TN"
     ],
     [
@@ -15126,6 +15341,15 @@
       "GA"
     ],
     [
+      "039924",
+      31.84574482196275,
+      -81.60342658085327,
+      3.59,
+      "Taco Bell",
+      "Hinesville",
+      "GA"
+    ],
+    [
       "041231",
       33.94943524772819,
       -83.4091704313726,
@@ -15151,9 +15375,18 @@
       "Taco Bell",
       "Athens",
       "GA"
+    ],
+    [
+      "026342",
+      33.980636492251286,
+      -84.08123346241287,
+      3.99,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-27",
+  "last_seen_date": "2026-05-28",
   "peak_availability_pct": 6.0
 }

@@ -12,42 +12,32 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": 0.0395,
+  "recent_price_change_pct": 0.0577,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 11.35,
-    "min": 9.99,
+    "avg": 11.55,
+    "min": 10.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.93,
-    "store_count": 14
+    "std_dev": 0.88,
+    "store_count": 9
   },
   "histogram": [
     {
-      "bucket": "$9.99",
-      "count": 2
-    },
-    {
       "bucket": "$10.99",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$11.99",
-      "count": 3
+      "count": 1
     },
     {
       "bucket": "$12.99",
       "count": 2
     }
   ],
-  "state_prices": [
-    {
-      "state": "NC",
-      "avg_price": 10.99,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -63,20 +53,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "024033",
-      "name": "Taco Bell",
-      "city": "Clare",
-      "state": "MI",
-      "price": 9.99
-    },
-    {
-      "store_number": "020143",
-      "name": "Taco Bell",
-      "city": "Jackson",
-      "state": "MO",
-      "price": 9.99
-    },
     {
       "store_number": "029401",
       "name": "Taco Bell / KFC",
@@ -113,13 +89,6 @@
       "price": 10.99
     },
     {
-      "store_number": "029483",
-      "name": "Taco Bell",
-      "city": "Cary",
-      "state": "NC",
-      "price": 10.99
-    },
-    {
       "store_number": "029482",
       "name": "Taco Bell",
       "city": "Pittsboro",
@@ -132,11 +101,29 @@
       "city": "Chicago Ridge",
       "state": "IL",
       "price": 11.99
+    },
+    {
+      "store_number": "019680",
+      "name": "Taco Bell / KFC",
+      "city": "Stephens City",
+      "state": "VA",
+      "price": 12.99
+    },
+    {
+      "store_number": "020974",
+      "name": "Taco Bell / KFC",
+      "city": "King George",
+      "state": "VA",
+      "price": 12.99
     }
   ],
   "min_price_store_numbers": [
-    "024033",
-    "020143"
+    "029401",
+    "029406",
+    "041399",
+    "017415",
+    "029402",
+    "029482"
   ],
   "priciest_stores": [
     {
@@ -154,20 +141,6 @@
       "price": 12.99
     },
     {
-      "store_number": "041370",
-      "name": "Taco Bell / KFC",
-      "city": "Rio Vista",
-      "state": "CA",
-      "price": 11.99
-    },
-    {
-      "store_number": "041362",
-      "name": "Taco Bell / KFC",
-      "city": "Lockeford",
-      "state": "CA",
-      "price": 11.99
-    },
-    {
       "store_number": "026028",
       "name": "Taco Bell / KFC",
       "city": "Chicago Ridge",
@@ -178,13 +151,6 @@
       "store_number": "029482",
       "name": "Taco Bell",
       "city": "Pittsboro",
-      "state": "NC",
-      "price": 10.99
-    },
-    {
-      "store_number": "029483",
-      "name": "Taco Bell",
-      "city": "Cary",
       "state": "NC",
       "price": 10.99
     },
@@ -208,9 +174,73 @@
       "city": "Louisburg",
       "state": "NC",
       "price": 10.99
+    },
+    {
+      "store_number": "029406",
+      "name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "price": 10.99
+    },
+    {
+      "store_number": "029401",
+      "name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041370",
+      "store_name": "Taco Bell / KFC",
+      "city": "Rio Vista",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:18:31.180486+00:00"
+    },
+    {
+      "store_number": "029483",
+      "store_name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:18:30.551017+00:00"
+    },
+    {
+      "store_number": "024033",
+      "store_name": "Taco Bell",
+      "city": "Clare",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:18:29.486803+00:00"
+    },
+    {
+      "store_number": "041362",
+      "store_name": "Taco Bell / KFC",
+      "city": "Lockeford",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:17:46.889203+00:00"
+    },
+    {
+      "store_number": "020143",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:17:28.880327+00:00"
+    },
     {
       "store_number": "039735",
       "store_name": "Taco Bell / KFC",
@@ -914,7 +944,7 @@
   ],
   "activity_summary": {
     "added": 40,
-    "removed": 26,
+    "removed": 31,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -961,24 +991,6 @@
   ],
   "map_data": [
     [
-      "024033",
-      43.83808282529304,
-      -84.7689414024353,
-      9.99,
-      "Taco Bell",
-      "Clare",
-      "MI"
-    ],
-    [
-      "020143",
-      37.36829880068801,
-      -89.64276076441651,
-      9.99,
-      "Taco Bell",
-      "Jackson",
-      "MO"
-    ],
-    [
       "029401",
       36.72095995536841,
       -78.11828226665455,
@@ -1024,15 +1036,6 @@
       "NC"
     ],
     [
-      "029483",
-      35.80337775917284,
-      -78.78350347280502,
-      10.99,
-      "Taco Bell",
-      "Cary",
-      "NC"
-    ],
-    [
       "029482",
       35.7458677872077,
       -79.16668369436593,
@@ -1049,24 +1052,6 @@
       "Taco Bell / KFC",
       "Chicago Ridge",
       "IL"
-    ],
-    [
-      "041362",
-      38.154667826863104,
-      -121.15507706075726,
-      11.99,
-      "Taco Bell / KFC",
-      "Lockeford",
-      "CA"
-    ],
-    [
-      "041370",
-      38.16189749872865,
-      -121.69899008995465,
-      11.99,
-      "Taco Bell / KFC",
-      "Rio Vista",
-      "CA"
     ],
     [
       "019680",
@@ -1088,6 +1073,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-26",
+  "last_seen_date": "2026-05-28",
   "peak_availability_pct": 0.4
 }

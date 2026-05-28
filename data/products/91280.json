@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.6,
-  "recent_price_change_pct": -0.0252,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 5.9,
   "price_stats": {
@@ -93,14 +93,14 @@
       "store_count": 7
     },
     {
-      "state": "TN",
+      "state": "GA",
       "avg_price": 21.56,
-      "store_count": 81
+      "store_count": 222
     },
     {
-      "state": "GA",
+      "state": "TN",
       "avg_price": 21.55,
-      "store_count": 223
+      "store_count": 82
     },
     {
       "state": "AL",
@@ -273,6 +273,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002167",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 20.83,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:17:50.631632+00:00"
+    },
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 20.83,
+      "observed_at": "2026-05-28T21:17:26.199037+00:00"
+    },
     {
       "store_number": "041231",
       "store_name": "Taco Bell",
@@ -6045,8 +6065,8 @@
     }
   ],
   "activity_summary": {
-    "added": 515,
-    "removed": 62,
+    "added": 516,
+    "removed": 63,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8493,6 +8513,15 @@
       "AL"
     ],
     [
+      "030359",
+      35.71724098570292,
+      -84.01247182491716,
+      20.83,
+      "Taco Bell",
+      "Maryville",
+      "TN"
+    ],
+    [
       "041223",
       33.61940670172887,
       -84.24365535383913,
@@ -8652,15 +8681,6 @@
       20.83,
       "Taco Bell",
       "Madison",
-      "GA"
-    ],
-    [
-      "002167",
-      33.80207381502585,
-      -84.4147127866745,
-      20.83,
-      "Taco Bell",
-      "Atlanta",
       "GA"
     ],
     [
@@ -10159,6 +10179,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-27",
+  "last_seen_date": "2026-05-28",
   "peak_availability_pct": 5.8
 }

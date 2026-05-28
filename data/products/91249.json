@@ -12,15 +12,15 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.9,
-  "recent_price_change_pct": -0.0222,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 6.3,
   "price_stats": {
-    "avg": 2.37,
+    "avg": 2.38,
     "min": 2.29,
     "max": 3.99,
     "median": 2.29,
-    "std_dev": 0.15,
+    "std_dev": 0.16,
     "store_count": 489
   },
   "histogram": [
@@ -30,15 +30,15 @@
     },
     {
       "bucket": "$2.39",
-      "count": 102
+      "count": 103
     },
     {
       "bucket": "$2.49",
-      "count": 79
+      "count": 78
     },
     {
       "bucket": "$2.59",
-      "count": 19
+      "count": 16
     },
     {
       "bucket": "$2.69",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 5
+      "count": 8
     },
     {
       "bucket": "$2.99",
@@ -66,17 +66,17 @@
     {
       "state": "GA",
       "avg_price": 2.41,
-      "store_count": 239
+      "store_count": 238
+    },
+    {
+      "state": "TN",
+      "avg_price": 2.38,
+      "store_count": 89
     },
     {
       "state": "FL",
       "avg_price": 2.38,
-      "store_count": 29
-    },
-    {
-      "state": "TN",
-      "avg_price": 2.37,
-      "store_count": 89
+      "store_count": 30
     },
     {
       "state": "AL",
@@ -512,14 +512,64 @@
       "price": 2.79
     },
     {
-      "store_number": "021079",
+      "store_number": "037825",
       "name": "Taco Bell",
-      "city": "Knoxville",
+      "city": "Rockwood",
       "state": "TN",
       "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019713",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.39,
+      "observed_at": "2026-05-28T21:17:52.263440+00:00"
+    },
+    {
+      "store_number": "002167",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-28T21:17:50.631632+00:00"
+    },
+    {
+      "store_number": "037825",
+      "store_name": "Taco Bell",
+      "city": "Rockwood",
+      "state": "TN",
+      "change_type": "price_change",
+      "old_price": 2.59,
+      "new_price": 2.79,
+      "observed_at": "2026-05-28T21:14:09.646008+00:00"
+    },
+    {
+      "store_number": "037700",
+      "store_name": "Taco Bell",
+      "city": "Pikeville",
+      "state": "TN",
+      "change_type": "price_change",
+      "old_price": 2.59,
+      "new_price": 2.79,
+      "observed_at": "2026-05-28T21:14:09.195986+00:00"
+    },
+    {
+      "store_number": "036436",
+      "store_name": "Taco Bell",
+      "city": "Monterey",
+      "state": "TN",
+      "change_type": "price_change",
+      "old_price": 2.59,
+      "new_price": 2.79,
+      "observed_at": "2026-05-28T21:13:30.815382+00:00"
+    },
     {
       "store_number": "019713",
       "store_name": "Taco Bell",
@@ -5832,9 +5882,9 @@
     }
   ],
   "activity_summary": {
-    "added": 509,
-    "removed": 20,
-    "price_changed": 2,
+    "added": 510,
+    "removed": 21,
+    "price_changed": 5,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 320,
@@ -9092,6 +9142,15 @@
       "AL"
     ],
     [
+      "019713",
+      30.231264247912293,
+      -85.8896670444301,
+      2.39,
+      "Taco Bell",
+      "Panama City Beach",
+      "FL"
+    ],
+    [
       "042571",
       33.50439041324688,
       -84.23968769611292,
@@ -9785,15 +9844,6 @@
       "GA"
     ],
     [
-      "002167",
-      33.80207381502585,
-      -84.4147127866745,
-      2.49,
-      "Taco Bell",
-      "Atlanta",
-      "GA"
-    ],
-    [
       "023742",
       33.54462982748955,
       -85.07332757978452,
@@ -9965,15 +10015,6 @@
       "TN"
     ],
     [
-      "036436",
-      36.14145551456751,
-      -85.26785666312466,
-      2.59,
-      "Taco Bell",
-      "Monterey",
-      "TN"
-    ],
-    [
       "032055",
       34.0647052,
       -83.9841147,
@@ -10026,24 +10067,6 @@
       "Taco Bell",
       "Kennesaw",
       "GA"
-    ],
-    [
-      "037700",
-      35.61433908080971,
-      -85.18976798454919,
-      2.59,
-      "Taco Bell",
-      "Pikeville",
-      "TN"
-    ],
-    [
-      "037825",
-      35.8819,
-      -84.659,
-      2.59,
-      "Taco Bell",
-      "Rockwood",
-      "TN"
     ],
     [
       "017019",
@@ -10154,12 +10177,39 @@
       "FL"
     ],
     [
+      "036436",
+      36.14145551456751,
+      -85.26785666312466,
+      2.79,
+      "Taco Bell",
+      "Monterey",
+      "TN"
+    ],
+    [
       "021079",
       35.9255374321459,
       -84.03806300242616,
       2.79,
       "Taco Bell",
       "Knoxville",
+      "TN"
+    ],
+    [
+      "037700",
+      35.61433908080971,
+      -85.18976798454919,
+      2.79,
+      "Taco Bell",
+      "Pikeville",
+      "TN"
+    ],
+    [
+      "037825",
+      35.8819,
+      -84.659,
+      2.79,
+      "Taco Bell",
+      "Rockwood",
       "TN"
     ],
     [
@@ -10245,6 +10295,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-27",
+  "last_seen_date": "2026-05-28",
   "peak_availability_pct": 5.9
 }
