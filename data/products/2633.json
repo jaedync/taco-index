@@ -13,19 +13,19 @@
   "peak_30d_pct": 43.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 46.0,
+  "availability_pct": 46.1,
   "price_stats": {
     "avg": 0.0,
     "min": 0.0,
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3549
+    "store_count": 3550
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3549
+      "count": 3550
     }
   ],
   "state_prices": [
@@ -92,7 +92,7 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 214
+      "store_count": 215
     },
     {
       "state": "NY",
@@ -157,7 +157,7 @@
     {
       "state": "MA",
       "avg_price": 0.0,
-      "store_count": 30
+      "store_count": 31
     },
     {
       "state": "LA",
@@ -202,7 +202,7 @@
     {
       "state": "GA",
       "avg_price": 0.0,
-      "store_count": 65
+      "store_count": 64
     },
     {
       "state": "FL",
@@ -380,7 +380,6 @@
     "040373",
     "041205",
     "040723",
-    "042584",
     "041202",
     "041637",
     "039704",
@@ -915,6 +914,7 @@
     "009406",
     "004863",
     "022088",
+    "003791",
     "029469",
     "027042",
     "021299",
@@ -3875,9 +3875,17 @@
     "040351",
     "031425",
     "041883",
-    "026329"
+    "026329",
+    "035162"
   ],
   "priciest_stores": [
+    {
+      "store_number": "035162",
+      "name": "Taco Bell",
+      "city": "Boston",
+      "state": "MA",
+      "price": 0.0
+    },
     {
       "store_number": "026329",
       "name": "Taco Bell",
@@ -3940,16 +3948,39 @@
       "city": "Bolingbrook",
       "state": "IL",
       "price": 0.0
-    },
-    {
-      "store_number": "035682",
-      "name": "Taco Bell",
-      "city": "League City",
-      "state": "TX",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003791",
+      "store_name": "Taco Bell",
+      "city": "Middleburg Heights",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-29T21:20:28.137060+00:00"
+    },
+    {
+      "store_number": "035162",
+      "store_name": "Taco Bell",
+      "city": "Boston",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-29T21:19:59.922964+00:00"
+    },
+    {
+      "store_number": "042584",
+      "store_name": "Taco Bell",
+      "city": "McDonough",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-05-29T21:19:21.438320+00:00"
+    },
     {
       "store_number": "026840",
       "store_name": "Taco Bell",
@@ -7162,8 +7193,8 @@
     }
   ],
   "activity_summary": {
-    "added": 159,
-    "removed": 162,
+    "added": 161,
+    "removed": 163,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7648,15 +7679,6 @@
       "Taco Bell",
       "Plant City",
       "FL"
-    ],
-    [
-      "042584",
-      33.4647,
-      -84.2306,
-      0.0,
-      "Taco Bell",
-      "McDonough",
-      "GA"
     ],
     [
       "041202",
@@ -12463,6 +12485,15 @@
       "Taco Bell",
       "Manvel",
       "TX"
+    ],
+    [
+      "003791",
+      41.371406971460715,
+      -81.82330661718325,
+      0.0,
+      "Taco Bell",
+      "Middleburg Heights",
+      "OH"
     ],
     [
       "029469",
@@ -39112,6 +39143,15 @@
       "Taco Bell",
       "San Jose",
       "CA"
+    ],
+    [
+      "035162",
+      42.35407012501613,
+      -71.0582858261667,
+      0.0,
+      "Taco Bell",
+      "Boston",
+      "MA"
     ]
   ],
   "retired_at": null,

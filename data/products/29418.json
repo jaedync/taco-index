@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": 0.0577,
+  "recent_price_change_pct": 0.0984,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 11.55,
+    "avg": 11.62,
     "min": 10.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.88,
-    "store_count": 9
+    "std_dev": 0.92,
+    "store_count": 8
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$11.99",
@@ -89,13 +89,6 @@
       "price": 10.99
     },
     {
-      "store_number": "029482",
-      "name": "Taco Bell",
-      "city": "Pittsboro",
-      "state": "NC",
-      "price": 10.99
-    },
-    {
       "store_number": "026028",
       "name": "Taco Bell / KFC",
       "city": "Chicago Ridge",
@@ -122,8 +115,7 @@
     "029406",
     "041399",
     "017415",
-    "029402",
-    "029482"
+    "029402"
   ],
   "priciest_stores": [
     {
@@ -146,13 +138,6 @@
       "city": "Chicago Ridge",
       "state": "IL",
       "price": 11.99
-    },
-    {
-      "store_number": "029482",
-      "name": "Taco Bell",
-      "city": "Pittsboro",
-      "state": "NC",
-      "price": 10.99
     },
     {
       "store_number": "029402",
@@ -191,6 +176,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029482",
+      "store_name": "Taco Bell",
+      "city": "Pittsboro",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-29T21:20:57.649693+00:00"
+    },
     {
       "store_number": "041370",
       "store_name": "Taco Bell / KFC",
@@ -944,7 +939,7 @@
   ],
   "activity_summary": {
     "added": 40,
-    "removed": 31,
+    "removed": 32,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1036,15 +1031,6 @@
       "NC"
     ],
     [
-      "029482",
-      35.7458677872077,
-      -79.16668369436593,
-      10.99,
-      "Taco Bell",
-      "Pittsboro",
-      "NC"
-    ],
-    [
       "026028",
       41.71567814277641,
       -87.78261208259407,
@@ -1073,6 +1059,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-28",
+  "last_seen_date": "2026-05-29",
   "peak_availability_pct": 0.4
 }

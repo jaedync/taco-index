@@ -20,8 +20,8 @@
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.77,
-    "store_count": 11
+    "std_dev": 0.82,
+    "store_count": 10
   },
   "histogram": [
     {
@@ -30,20 +30,14 @@
     },
     {
       "bucket": "$11.99",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$13.99",
       "count": 1
     }
   ],
-  "state_prices": [
-    {
-      "state": "NC",
-      "avg_price": 11.99,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": null,
   "cheapest_stores": [
     {
@@ -82,13 +76,6 @@
       "price": 11.99
     },
     {
-      "store_number": "029482",
-      "name": "Taco Bell",
-      "city": "Pittsboro",
-      "state": "NC",
-      "price": 11.99
-    },
-    {
       "store_number": "004173",
       "name": "Taco Bell / KFC",
       "city": "Albuquerque",
@@ -115,6 +102,13 @@
       "city": "Creedmoor",
       "state": "NC",
       "price": 11.99
+    },
+    {
+      "store_number": "019680",
+      "name": "Taco Bell / KFC",
+      "city": "Stephens City",
+      "state": "VA",
+      "price": 13.99
     }
   ],
   "min_price_store_numbers": [
@@ -158,13 +152,6 @@
       "price": 11.99
     },
     {
-      "store_number": "029482",
-      "name": "Taco Bell",
-      "city": "Pittsboro",
-      "state": "NC",
-      "price": 11.99
-    },
-    {
       "store_number": "029401",
       "name": "Taco Bell / KFC",
       "city": "South Hill",
@@ -191,9 +178,26 @@
       "city": "Ithaca",
       "state": "MI",
       "price": 10.99
+    },
+    {
+      "store_number": "003881",
+      "name": "Taco Bell / KFC",
+      "city": "West Branch",
+      "state": "MI",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029482",
+      "store_name": "Taco Bell",
+      "city": "Pittsboro",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-29T21:20:57.649693+00:00"
+    },
     {
       "store_number": "041370",
       "store_name": "Taco Bell / KFC",
@@ -987,7 +991,7 @@
   ],
   "activity_summary": {
     "added": 45,
-    "removed": 34,
+    "removed": 35,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1085,15 +1089,6 @@
       "VA"
     ],
     [
-      "029482",
-      35.7458677872077,
-      -79.16668369436593,
-      11.99,
-      "Taco Bell",
-      "Pittsboro",
-      "NC"
-    ],
-    [
       "004173",
       35.024659261301075,
       -106.68138560141642,
@@ -1140,6 +1135,6 @@
     ]
   ],
   "retired_at": "2026-04-18T22:12:40.299660+00:00",
-  "last_seen_date": "2026-05-28",
+  "last_seen_date": "2026-05-29",
   "peak_availability_pct": 0.4
 }

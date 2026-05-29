@@ -21,7 +21,7 @@
     "max": 8.99,
     "median": 8.59,
     "std_dev": 0.28,
-    "store_count": 83
+    "store_count": 84
   },
   "histogram": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$8.59",
-      "count": 44
+      "count": 45
     },
     {
       "bucket": "$8.69",
@@ -53,7 +53,7 @@
     {
       "state": "MO",
       "avg_price": 8.42,
-      "store_count": 63
+      "store_count": 64
     },
     {
       "state": "IL",
@@ -223,6 +223,13 @@
       "price": 8.69
     },
     {
+      "store_number": "029649",
+      "name": "Taco Bell",
+      "city": "Saint Louis",
+      "state": "MO",
+      "price": 8.59
+    },
+    {
       "store_number": "029641",
       "name": "Taco Bell",
       "city": "Valley Park",
@@ -235,16 +242,19 @@
       "city": "Saint Louis",
       "state": "MO",
       "price": 8.59
-    },
-    {
-      "store_number": "029684",
-      "name": "Taco Bell",
-      "city": "Collinsville",
-      "state": "IL",
-      "price": 8.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029649",
+      "store_name": "Taco Bell",
+      "city": "Saint Louis",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.59,
+      "observed_at": "2026-05-29T21:20:38.090221+00:00"
+    },
     {
       "store_number": "004241",
       "store_name": "Taco Bell",
@@ -2777,7 +2787,7 @@
     }
   ],
   "activity_summary": {
-    "added": 168,
+    "added": 169,
     "removed": 85,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3485,6 +3495,15 @@
       "MO"
     ],
     [
+      "029649",
+      38.74778159924776,
+      -90.28012194264893,
+      8.59,
+      "Taco Bell",
+      "Saint Louis",
+      "MO"
+    ],
+    [
       "029638",
       38.65897254292612,
       -90.2990459473052,
@@ -3549,6 +3568,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-05-28",
+  "last_seen_date": "2026-05-29",
   "peak_availability_pct": 1.0
 }

@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.4,
+    "avg": 10.37,
     "min": 9.99,
     "max": 10.99,
     "median": 10.29,
     "std_dev": 0.33,
-    "store_count": 13
+    "store_count": 14
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$10.19",
@@ -52,8 +52,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.59,
-      "store_count": 5
+      "avg_price": 10.49,
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -83,6 +83,13 @@
       "name": "Taco Bell",
       "city": "Pensacola",
       "state": "FL",
+      "price": 9.99
+    },
+    {
+      "store_number": "026342",
+      "name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
       "price": 9.99
     },
     {
@@ -133,18 +140,12 @@
       "city": "Cullman",
       "state": "AL",
       "price": 10.29
-    },
-    {
-      "store_number": "042123",
-      "name": "Taco Bell",
-      "city": "Niceville",
-      "state": "FL",
-      "price": 10.59
     }
   ],
   "min_price_store_numbers": [
     "042903",
-    "042829"
+    "042829",
+    "026342"
   ],
   "priciest_stores": [
     {
@@ -219,6 +220,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026342",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-05-29T21:20:11.789130+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -991,7 +1002,7 @@
     }
   ],
   "activity_summary": {
-    "added": 45,
+    "added": 46,
     "removed": 32,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1049,6 +1060,15 @@
       "Taco Bell",
       "Pensacola",
       "FL"
+    ],
+    [
+      "026342",
+      33.980636492251286,
+      -84.08123346241287,
+      9.99,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
     ],
     [
       "042119",
@@ -1151,6 +1171,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-28",
+  "last_seen_date": "2026-05-29",
   "peak_availability_pct": 0.2
 }

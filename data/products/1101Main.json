@@ -11,18 +11,22 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0276,
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.54,
-    "min": 2.29,
+    "avg": 2.46,
+    "min": 2.0,
     "max": 2.79,
-    "median": 2.49,
-    "std_dev": 0.22,
-    "store_count": 6
+    "median": 2.39,
+    "std_dev": 0.28,
+    "store_count": 7
   },
   "histogram": [
+    {
+      "bucket": "$2.00",
+      "count": 1
+    },
     {
       "bucket": "$2.29",
       "count": 1
@@ -40,9 +44,22 @@
       "count": 2
     }
   ],
-  "state_prices": [],
+  "state_prices": [
+    {
+      "state": "NY",
+      "avg_price": 2.49,
+      "store_count": 5
+    }
+  ],
   "nutrition": null,
   "cheapest_stores": [
+    {
+      "store_number": "035069",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "Bronx",
+      "state": "NY",
+      "price": 2.0
+    },
     {
       "store_number": "040658",
       "name": "Taco Bell",
@@ -87,7 +104,7 @@
     }
   ],
   "min_price_store_numbers": [
-    "040658"
+    "035069"
   ],
   "priciest_stores": [
     {
@@ -131,9 +148,26 @@
       "city": "Bronx",
       "state": "NY",
       "price": 2.29
+    },
+    {
+      "store_number": "035069",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "Bronx",
+      "state": "NY",
+      "price": 2.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035069",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Bronx",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.0,
+      "observed_at": "2026-05-29T21:19:57.936894+00:00"
+    },
     {
       "store_number": "035828",
       "store_name": "Taco Bell",
@@ -256,7 +290,7 @@
     }
   ],
   "activity_summary": {
-    "added": 5,
+    "added": 6,
     "removed": 7,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -266,6 +300,15 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
+    [
+      "035069",
+      40.85349737814087,
+      -73.90731431902589,
+      2.0,
+      "Taco Bell Cantina Cantina",
+      "Bronx",
+      "NY"
+    ],
     [
       "040658",
       40.88004873961616,
@@ -327,8 +370,8 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 2.42,
-      "min_price": 2.19,
+      "avg_price": 2.38,
+      "min_price": 2.0,
       "max_price": 2.79,
       "calories": 0,
       "happier_hour_avg": 1.81

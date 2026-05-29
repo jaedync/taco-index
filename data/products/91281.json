@@ -22,12 +22,12 @@
     "max": 19.99,
     "median": 12.5,
     "std_dev": 1.25,
-    "store_count": 416
+    "store_count": 417
   },
   "histogram": [
     {
       "bucket": "$12.50",
-      "count": 351
+      "count": 352
     },
     {
       "bucket": "$12.99",
@@ -90,7 +90,7 @@
     {
       "state": "AL",
       "avg_price": 12.77,
-      "store_count": 101
+      "store_count": 102
     }
   ],
   "nutrition": {
@@ -263,6 +263,7 @@
     "037191",
     "037127",
     "037047",
+    "037105",
     "037013",
     "037370",
     "037419",
@@ -279,7 +280,6 @@
     "029111",
     "029027",
     "003969",
-    "029008",
     "029168",
     "029064",
     "030296",
@@ -360,7 +360,6 @@
     "031540",
     "036372",
     "041259",
-    "030463",
     "036486",
     "041248",
     "026073",
@@ -518,19 +517,21 @@
     "037214",
     "034026",
     "036937",
-    "039923",
     "041229",
     "041105",
     "030707",
     "037038",
+    "041246",
     "041881",
+    "041258",
     "039919",
     "041802",
     "042126",
     "029095",
     "029100",
     "031583",
-    "041231"
+    "041231",
+    "040780"
   ],
   "priciest_stores": [
     {
@@ -605,6 +606,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041258",
+      "store_name": "Taco Bell",
+      "city": "Peachtree Corners",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-05-29T21:21:04.119826+00:00"
+    },
+    {
+      "store_number": "030463",
+      "store_name": "Taco Bell",
+      "city": "Atmore",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-29T21:21:02.124982+00:00"
+    },
+    {
+      "store_number": "039923",
+      "store_name": "Taco Bell",
+      "city": "Statesboro",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-29T21:20:49.046156+00:00"
+    },
+    {
+      "store_number": "041246",
+      "store_name": "Taco Bell",
+      "city": "Roswell",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-05-29T21:20:36.216604+00:00"
+    },
+    {
+      "store_number": "029008",
+      "store_name": "Taco Bell",
+      "city": "Dalton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-29T21:20:27.358980+00:00"
+    },
+    {
+      "store_number": "037105",
+      "store_name": "Taco Bell",
+      "city": "Talladega",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-05-29T21:20:14.692210+00:00"
+    },
+    {
+      "store_number": "040780",
+      "store_name": "Taco Bell",
+      "city": "Oxford",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-05-29T21:19:20.130286+00:00"
+    },
     {
       "store_number": "043136",
       "store_name": "Taco Bell",
@@ -6247,8 +6318,8 @@
     }
   ],
   "activity_summary": {
-    "added": 490,
-    "removed": 74,
+    "added": 494,
+    "removed": 77,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7030,6 +7101,15 @@
       "GA"
     ],
     [
+      "037105",
+      33.4393026,
+      -86.0823143,
+      12.5,
+      "Taco Bell",
+      "Talladega",
+      "AL"
+    ],
+    [
       "037013",
       33.639036321195334,
       -86.6159612237478,
@@ -7172,15 +7252,6 @@
       "Taco Bell",
       "McMinnville",
       "TN"
-    ],
-    [
-      "029008",
-      34.76013214043802,
-      -84.99627450745888,
-      12.5,
-      "Taco Bell",
-      "Dalton",
-      "GA"
     ],
     [
       "029168",
@@ -7901,15 +7972,6 @@
       "Taco Bell",
       "Cleveland",
       "GA"
-    ],
-    [
-      "030463",
-      31.105415984250854,
-      -87.47651986779147,
-      12.5,
-      "Taco Bell",
-      "Atmore",
-      "AL"
     ],
     [
       "036486",
@@ -9325,15 +9387,6 @@
       "AL"
     ],
     [
-      "039923",
-      32.43643812662501,
-      -81.75874776673481,
-      12.5,
-      "Taco Bell",
-      "Statesboro",
-      "GA"
-    ],
-    [
       "041229",
       33.85923288371655,
       -84.67192824394984,
@@ -9370,12 +9423,30 @@
       "TN"
     ],
     [
+      "041246",
+      34.02688920225713,
+      -84.33440368976099,
+      12.5,
+      "Taco Bell",
+      "Roswell",
+      "GA"
+    ],
+    [
       "041881",
       32.566557,
       -84.933376,
       12.5,
       "Taco Bell",
       "Columbus",
+      "GA"
+    ],
+    [
+      "041258",
+      33.97117063099474,
+      -84.22011039686367,
+      12.5,
+      "Taco Bell",
+      "Peachtree Corners",
       "GA"
     ],
     [
@@ -9440,6 +9511,15 @@
       "Taco Bell",
       "Athens",
       "GA"
+    ],
+    [
+      "040780",
+      33.606317,
+      -85.786963,
+      12.5,
+      "Taco Bell",
+      "Oxford",
+      "AL"
     ],
     [
       "032143",
@@ -10028,6 +10108,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-28",
+  "last_seen_date": "2026-05-29",
   "peak_availability_pct": 5.3
 }

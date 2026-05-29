@@ -15,11 +15,11 @@
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 98.8,
   "price_stats": {
-    "avg": 22.45,
+    "avg": 22.46,
     "min": 17.09,
-    "max": 36.99,
+    "max": 41.99,
     "median": 22.99,
-    "std_dev": 1.91,
+    "std_dev": 1.93,
     "store_count": 7614
   },
   "histogram": [
@@ -333,7 +333,7 @@
     },
     {
       "bucket": "$28.49",
-      "count": 13
+      "count": 11
     },
     {
       "bucket": "$28.59",
@@ -370,12 +370,16 @@
     {
       "bucket": "$36.99",
       "count": 1
+    },
+    {
+      "bucket": "$41.99",
+      "count": 2
     }
   ],
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 25.46,
+      "avg_price": 25.57,
       "store_count": 250
     },
     {
@@ -702,6 +706,20 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "042237",
+      "name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "price": 41.99
+    },
+    {
+      "store_number": "041852",
+      "name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "price": 41.99
+    },
+    {
       "store_number": "026759",
       "name": "Taco Bell",
       "city": "Universal City",
@@ -756,23 +774,29 @@
       "city": "Yonkers",
       "state": "NY",
       "price": 32.99
-    },
-    {
-      "store_number": "038980",
-      "name": "Taco Bell",
-      "city": "Yonkers",
-      "state": "NY",
-      "price": 32.99
-    },
-    {
-      "store_number": "040572",
-      "name": "Taco Bell",
-      "city": "Bronx",
-      "state": "NY",
-      "price": 32.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042237",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 28.49,
+      "new_price": 41.99,
+      "observed_at": "2026-05-29T21:20:06.959138+00:00"
+    },
+    {
+      "store_number": "041852",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 28.49,
+      "new_price": 41.99,
+      "observed_at": "2026-05-29T21:19:30.738380+00:00"
+    },
     {
       "store_number": "034409",
       "store_name": "Taco Bell",
@@ -6017,7 +6041,7 @@
   "activity_summary": {
     "added": 154,
     "removed": 100,
-    "price_changed": 270,
+    "price_changed": 272,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 180,
@@ -56665,8 +56689,8 @@
     ],
     [
       "039113",
-      40.503095842309605,
-      -74.39996106878662,
+      40.50331742773686,
+      -74.39932488037395,
       23.49,
       "Taco Bell",
       "Edison",
@@ -73764,15 +73788,6 @@
       "NY"
     ],
     [
-      "041852",
-      40.7828764836163,
-      -73.94532976268749,
-      28.49,
-      "Taco Bell",
-      "New York",
-      "NY"
-    ],
-    [
       "035896",
       40.776311888569296,
       -73.95263852392519,
@@ -73794,15 +73809,6 @@
       "036708",
       40.76106882287041,
       -73.96878811804183,
-      28.49,
-      "Taco Bell",
-      "New York",
-      "NY"
-    ],
-    [
-      "042237",
-      40.7898669212316,
-      -73.94629680220903,
       28.49,
       "Taco Bell",
       "New York",
@@ -74563,6 +74569,24 @@
       "Taco Bell",
       "Universal City",
       "CA"
+    ],
+    [
+      "041852",
+      40.7828764836163,
+      -73.94532976268749,
+      41.99,
+      "Taco Bell",
+      "New York",
+      "NY"
+    ],
+    [
+      "042237",
+      40.7898669212316,
+      -73.94629680220903,
+      41.99,
+      "Taco Bell",
+      "New York",
+      "NY"
     ]
   ],
   "retired_at": null,

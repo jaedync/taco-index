@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.9,
-  "recent_price_change_pct": 0.0222,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.2,
   "price_stats": {
@@ -20,8 +20,8 @@
     "min": 5.29,
     "max": 7.99,
     "median": 6.19,
-    "std_dev": 0.77,
-    "store_count": 90
+    "std_dev": 0.76,
+    "store_count": 92
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 34
+      "count": 36
     },
     {
       "bucket": "$6.29",
@@ -95,7 +95,7 @@
     {
       "state": "AL",
       "avg_price": 6.17,
-      "store_count": 38
+      "store_count": 40
     },
     {
       "state": "FL",
@@ -255,6 +255,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029008",
+      "store_name": "Taco Bell",
+      "city": "Dalton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.19,
+      "new_price": null,
+      "observed_at": "2026-05-29T21:20:27.358980+00:00"
+    },
+    {
+      "store_number": "037105",
+      "store_name": "Taco Bell",
+      "city": "Talladega",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-05-29T21:20:14.692210+00:00"
+    },
+    {
+      "store_number": "026342",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-05-29T21:20:11.789130+00:00"
+    },
+    {
+      "store_number": "040780",
+      "store_name": "Taco Bell",
+      "city": "Oxford",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-05-29T21:19:20.130286+00:00"
+    },
     {
       "store_number": "029078",
       "store_name": "Taco Bell",
@@ -12657,8 +12697,8 @@
     }
   ],
   "activity_summary": {
-    "added": 585,
-    "removed": 495,
+    "added": 588,
+    "removed": 496,
     "price_changed": 160,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12870,6 +12910,15 @@
       "AL"
     ],
     [
+      "040780",
+      33.606317,
+      -85.786963,
+      6.19,
+      "Taco Bell",
+      "Oxford",
+      "AL"
+    ],
+    [
       "040418",
       32.6318,
       -85.4985,
@@ -12960,6 +13009,24 @@
       "AL"
     ],
     [
+      "026342",
+      33.980636492251286,
+      -84.08123346241287,
+      6.19,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
+    ],
+    [
+      "037105",
+      33.4393026,
+      -86.0823143,
+      6.19,
+      "Taco Bell",
+      "Talladega",
+      "AL"
+    ],
+    [
       "037357",
       31.260210432381527,
       -85.43750439907221,
@@ -12967,15 +13034,6 @@
       "Taco Bell",
       "Dothan",
       "AL"
-    ],
-    [
-      "029008",
-      34.76013214043802,
-      -84.99627450745888,
-      6.19,
-      "Taco Bell",
-      "Dalton",
-      "GA"
     ],
     [
       "030296",
@@ -13492,6 +13550,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-28",
+  "last_seen_date": "2026-05-29",
   "peak_availability_pct": 5.9
 }

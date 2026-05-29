@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.0,
-  "recent_price_change_pct": 0.049,
+  "recent_price_change_pct": 0.0403,
   "first_seen_at": "2026-04-16T21:05:38.080670+00:00",
   "availability_pct": 0.4,
   "price_stats": {
@@ -21,16 +21,16 @@
     "max": 11.99,
     "median": 10.99,
     "std_dev": 0.47,
-    "store_count": 33
+    "store_count": 30
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 23
+      "count": 21
     },
     {
       "bucket": "$11.99",
-      "count": 10
+      "count": 9
     }
   ],
   "state_prices": [
@@ -41,8 +41,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 11.07,
-      "store_count": 25
+      "avg_price": 11.04,
+      "store_count": 22
     }
   ],
   "nutrition": {
@@ -89,23 +89,9 @@
       "price": 10.99
     },
     {
-      "store_number": "036011",
-      "name": "Taco Bell",
-      "city": "Calhoun",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "042351",
       "name": "Taco Bell",
       "city": "Calhoun",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
-      "store_number": "042580",
-      "name": "Taco Bell",
-      "city": "Douglasville",
       "state": "GA",
       "price": 10.99
     },
@@ -129,6 +115,20 @@
       "city": "Fairburn",
       "state": "GA",
       "price": 10.99
+    },
+    {
+      "store_number": "027711",
+      "name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "price": 10.99
+    },
+    {
+      "store_number": "002995",
+      "name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -136,9 +136,7 @@
     "042584",
     "041088",
     "042581",
-    "036011",
     "042351",
-    "042580",
     "036290",
     "042578",
     "042572",
@@ -207,13 +205,6 @@
       "price": 11.99
     },
     {
-      "store_number": "042875",
-      "name": "Taco Bell",
-      "city": "Brunswick",
-      "state": "GA",
-      "price": 11.99
-    },
-    {
       "store_number": "042845",
       "name": "Taco Bell",
       "city": "La Belle",
@@ -226,9 +217,46 @@
       "city": "Miami",
       "state": "FL",
       "price": 11.99
+    },
+    {
+      "store_number": "042579",
+      "name": "Taco Bell",
+      "city": "Braselton",
+      "state": "GA",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042875",
+      "store_name": "Taco Bell",
+      "city": "Brunswick",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-29T21:21:08.928253+00:00"
+    },
+    {
+      "store_number": "042580",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-29T21:20:11.275171+00:00"
+    },
+    {
+      "store_number": "036011",
+      "store_name": "Taco Bell",
+      "city": "Calhoun",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-29T21:20:01.988050+00:00"
+    },
     {
       "store_number": "002425",
       "store_name": "Taco Bell",
@@ -3202,7 +3230,7 @@
   ],
   "activity_summary": {
     "added": 165,
-    "removed": 132,
+    "removed": 135,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3215,6 +3243,12 @@
       "title": "Fountain Drink - Large",
       "default_product_code": "22902",
       "default_product_name": "Large Fountain Drink"
+    },
+    {
+      "group_id": "776",
+      "title": "5 Piece Diablo Dusted Crispy Chicken Nuggets",
+      "default_product_code": "29434",
+      "default_product_name": "5 Piece Diablo Dusted Crispy Chicken Nuggets"
     },
     {
       "group_id": "482",
@@ -3279,30 +3313,12 @@
       "GA"
     ],
     [
-      "036011",
-      34.55949767322122,
-      -84.93729693025807,
-      10.99,
-      "Taco Bell",
-      "Calhoun",
-      "GA"
-    ],
-    [
       "042351",
       34.511577,
       -84.92265,
       10.99,
       "Taco Bell",
       "Calhoun",
-      "GA"
-    ],
-    [
-      "042580",
-      33.81750013314445,
-      -84.81123234148987,
-      10.99,
-      "Taco Bell",
-      "Douglasville",
       "GA"
     ],
     [
@@ -3468,15 +3484,6 @@
       "FL"
     ],
     [
-      "042875",
-      31.2167515667324,
-      -81.51767492294312,
-      11.99,
-      "Taco Bell",
-      "Brunswick",
-      "GA"
-    ],
-    [
       "042908",
       25.808503356372075,
       -80.32573870849768,
@@ -3541,6 +3548,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-28",
+  "last_seen_date": "2026-05-29",
   "peak_availability_pct": 1.0
 }

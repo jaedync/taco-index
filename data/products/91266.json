@@ -16,25 +16,25 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.2,
   "price_stats": {
-    "avg": 3.28,
+    "avg": 3.29,
     "min": 2.99,
-    "max": 3.59,
+    "max": 3.99,
     "median": 3.19,
-    "std_dev": 0.18,
-    "store_count": 92
+    "std_dev": 0.19,
+    "store_count": 95
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$3.19",
-      "count": 52
+      "count": 54
     },
     {
       "bucket": "$3.29",
-      "count": 6
+      "count": 7
     },
     {
       "bucket": "$3.39",
@@ -47,13 +47,17 @@
     {
       "bucket": "$3.59",
       "count": 18
+    },
+    {
+      "bucket": "$3.99",
+      "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 3.4,
-      "store_count": 38
+      "avg_price": 3.42,
+      "store_count": 39
     },
     {
       "state": "TN",
@@ -63,7 +67,12 @@
     {
       "state": "AL",
       "avg_price": 3.19,
-      "store_count": 40
+      "store_count": 41
+    },
+    {
+      "state": "FL",
+      "avg_price": 3.19,
+      "store_count": 5
     }
   ],
   "nutrition": null,
@@ -80,13 +89,6 @@
       "name": "Taco Bell",
       "city": "Wartburg",
       "state": "TN",
-      "price": 2.99
-    },
-    {
-      "store_number": "029008",
-      "name": "Taco Bell",
-      "city": "Dalton",
-      "state": "GA",
       "price": 2.99
     },
     {
@@ -125,6 +127,13 @@
       "price": 3.19
     },
     {
+      "store_number": "040780",
+      "name": "Taco Bell",
+      "city": "Oxford",
+      "state": "AL",
+      "price": 3.19
+    },
+    {
       "store_number": "040418",
       "name": "Taco Bell",
       "city": "Auburn",
@@ -142,13 +151,19 @@
   "min_price_store_numbers": [
     "033481",
     "037050",
-    "029008",
     "003824",
     "002167",
     "042126",
     "005482"
   ],
   "priciest_stores": [
+    {
+      "store_number": "026342",
+      "name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "price": 3.99
+    },
     {
       "store_number": "041241",
       "name": "Taco Bell",
@@ -211,16 +226,49 @@
       "city": "Buford",
       "state": "GA",
       "price": 3.59
-    },
-    {
-      "store_number": "041237",
-      "name": "Taco Bell",
-      "city": "Suwanee",
-      "state": "GA",
-      "price": 3.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029008",
+      "store_name": "Taco Bell",
+      "city": "Dalton",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 2.99,
+      "new_price": 3.19,
+      "observed_at": "2026-05-29T21:20:27.358980+00:00"
+    },
+    {
+      "store_number": "026342",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-29T21:20:11.789130+00:00"
+    },
+    {
+      "store_number": "042130",
+      "store_name": "Taco Bell",
+      "city": "Freeport",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-05-29T21:20:01.194818+00:00"
+    },
+    {
+      "store_number": "040780",
+      "store_name": "Taco Bell",
+      "city": "Oxford",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-29T21:19:20.130286+00:00"
+    },
     {
       "store_number": "029078",
       "store_name": "Taco Bell",
@@ -14123,14 +14171,14 @@
     }
   ],
   "activity_summary": {
-    "added": 588,
+    "added": 591,
     "removed": 496,
-    "price_changed": 306,
+    "price_changed": 307,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 260,
-  "calories_min": 260,
-  "calories_max": 260,
+  "calories_min": 210,
+  "calories_max": 210,
   "combo_groups": [
     {
       "group_id": "673",
@@ -14163,15 +14211,6 @@
       "Taco Bell",
       "Wartburg",
       "TN"
-    ],
-    [
-      "029008",
-      34.76013214043802,
-      -84.99627450745888,
-      2.99,
-      "Taco Bell",
-      "Dalton",
-      "GA"
     ],
     [
       "003824",
@@ -14216,6 +14255,15 @@
       3.19,
       "Taco Bell",
       "Auburn",
+      "AL"
+    ],
+    [
+      "040780",
+      33.606317,
+      -85.786963,
+      3.19,
+      "Taco Bell",
+      "Oxford",
       "AL"
     ],
     [
@@ -14343,6 +14391,15 @@
       "Taco Bell",
       "Port St Joe",
       "FL"
+    ],
+    [
+      "029008",
+      34.76013214043802,
+      -84.99627450745888,
+      3.19,
+      "Taco Bell",
+      "Dalton",
+      "GA"
     ],
     [
       "030296",
@@ -14678,6 +14735,15 @@
       "AL"
     ],
     [
+      "042130",
+      30.48627090853254,
+      -86.12258973436154,
+      3.29,
+      "Taco Bell",
+      "Freeport",
+      "FL"
+    ],
+    [
       "042903",
       31.783928,
       -82.363196,
@@ -14973,9 +15039,18 @@
       "Taco Bell",
       "Athens",
       "GA"
+    ],
+    [
+      "026342",
+      33.980636492251286,
+      -84.08123346241287,
+      3.99,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-28",
+  "last_seen_date": "2026-05-29",
   "peak_availability_pct": 5.9
 }

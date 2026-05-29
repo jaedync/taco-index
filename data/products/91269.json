@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.2,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.032,
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.9,
+    "avg": 6.94,
     "min": 6.49,
     "max": 7.49,
     "median": 6.79,
-    "std_dev": 0.41,
-    "store_count": 14
+    "std_dev": 0.43,
+    "store_count": 15
   },
   "histogram": [
     {
@@ -42,14 +42,14 @@
     },
     {
       "bucket": "$7.49",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 7.13,
-      "store_count": 8
+      "avg_price": 7.17,
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -148,6 +148,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "026342",
+      "name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "price": 7.49
+    },
+    {
       "store_number": "041228",
       "name": "Taco Bell",
       "city": "Lithonia",
@@ -209,16 +216,19 @@
       "city": "Pensacola",
       "state": "FL",
       "price": 6.49
-    },
-    {
-      "store_number": "042123",
-      "name": "Taco Bell",
-      "city": "Niceville",
-      "state": "FL",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026342",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.49,
+      "observed_at": "2026-05-29T21:20:11.789130+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -891,7 +901,7 @@
     }
   ],
   "activity_summary": {
-    "added": 29,
+    "added": 30,
     "removed": 38,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1044,6 +1054,15 @@
       7.49,
       "Taco Bell",
       "Lithonia",
+      "GA"
+    ],
+    [
+      "026342",
+      33.980636492251286,
+      -84.08123346241287,
+      7.49,
+      "Taco Bell",
+      "Lawrenceville",
       "GA"
     ]
   ],

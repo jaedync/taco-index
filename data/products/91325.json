@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": -0.033,
+  "recent_price_change_pct": -0.0292,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.3,
   "price_stats": {
@@ -42,7 +42,7 @@
     {
       "state": "TN",
       "avg_price": 9.0,
-      "store_count": 8
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -65,6 +65,13 @@
       "name": "Taco Bell",
       "city": "Ozark",
       "state": "AL",
+      "price": 9.0
+    },
+    {
+      "store_number": "034710",
+      "name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
       "price": 9.0
     },
     {
@@ -122,17 +129,11 @@
       "city": "Statesboro",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "039924",
-      "name": "Taco Bell",
-      "city": "Hinesville",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "042019",
+    "034710",
     "036415",
     "029119",
     "040962",
@@ -152,7 +153,6 @@
     "041881",
     "029013",
     "029033",
-    "037050",
     "029098",
     "024364"
   ],
@@ -176,13 +176,6 @@
       "name": "Taco Bell",
       "city": "Warner Robins",
       "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "037050",
-      "name": "Taco Bell",
-      "city": "Wartburg",
-      "state": "TN",
       "price": 9.0
     },
     {
@@ -226,9 +219,36 @@
       "city": "Smyrna",
       "state": "GA",
       "price": 9.0
+    },
+    {
+      "store_number": "041243",
+      "name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037050",
+      "store_name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-29T21:20:05.600666+00:00"
+    },
+    {
+      "store_number": "034710",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-29T21:19:57.657241+00:00"
+    },
     {
       "store_number": "024364",
       "store_name": "Taco Bell",
@@ -2971,8 +2991,8 @@
     }
   ],
   "activity_summary": {
-    "added": 119,
-    "removed": 155,
+    "added": 120,
+    "removed": 156,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3020,6 +3040,15 @@
       "Taco Bell",
       "Ozark",
       "AL"
+    ],
+    [
+      "034710",
+      32.40781978657577,
+      -80.63921262604607,
+      9.0,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
     ],
     [
       "036415",
@@ -3193,15 +3222,6 @@
       "TN"
     ],
     [
-      "037050",
-      36.10306709232148,
-      -84.58455685815763,
-      9.0,
-      "Taco Bell",
-      "Wartburg",
-      "TN"
-    ],
-    [
       "029098",
       32.59357327412922,
       -83.64075496791386,
@@ -3230,6 +3250,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-28",
+  "last_seen_date": "2026-05-29",
   "peak_availability_pct": 1.1
 }
