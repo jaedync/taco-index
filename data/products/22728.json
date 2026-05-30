@@ -11,7 +11,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 2.5,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0235,
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
   "availability_pct": 2.6,
   "price_stats": {
@@ -20,7 +20,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.2,
-    "store_count": 202
+    "store_count": 203
   },
   "histogram": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 58
+      "count": 59
     },
     {
       "bucket": "$0.95",
@@ -106,7 +106,7 @@
     {
       "state": "MI",
       "avg_price": 1.08,
-      "store_count": 49
+      "store_count": 50
     },
     {
       "state": "TX",
@@ -311,6 +311,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042769",
+      "store_name": "Taco Bell",
+      "city": "Sparta",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-05-30T20:53:46.061758+00:00"
+    },
     {
       "store_number": "034782",
       "store_name": "Taco Bell",
@@ -4593,7 +4603,7 @@
     }
   ],
   "activity_summary": {
-    "added": 220,
+    "added": 221,
     "removed": 208,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -5385,6 +5395,15 @@
       "Taco Bell",
       "Lincoln",
       "NE"
+    ],
+    [
+      "042769",
+      43.160614808378504,
+      -85.72218601200493,
+      0.9,
+      "Taco Bell",
+      "Sparta",
+      "MI"
     ],
     [
       "038871",
@@ -6423,6 +6442,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-29",
+  "last_seen_date": "2026-05-30",
   "peak_availability_pct": 2.5
 }
