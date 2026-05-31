@@ -13,14 +13,14 @@
   "peak_30d_pct": 93.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.7,
+  "availability_pct": 99.6,
   "price_stats": {
     "avg": 22.44,
     "min": 11.88,
-    "max": 41.99,
+    "max": 36.99,
     "median": 22.99,
-    "std_dev": 1.85,
-    "store_count": 7682
+    "std_dev": 1.84,
+    "store_count": 7679
   },
   "histogram": [
     {
@@ -93,7 +93,7 @@
     },
     {
       "bucket": "$19.99",
-      "count": 582
+      "count": 581
     },
     {
       "bucket": "$20.19",
@@ -121,7 +121,7 @@
     },
     {
       "bucket": "$20.89",
-      "count": 13
+      "count": 12
     },
     {
       "bucket": "$20.95",
@@ -205,7 +205,7 @@
     },
     {
       "bucket": "$22.99",
-      "count": 1812
+      "count": 1811
     },
     {
       "bucket": "$23.19",
@@ -349,21 +349,17 @@
     },
     {
       "bucket": "$34.99",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$36.99",
-      "count": 1
-    },
-    {
-      "bucket": "$41.99",
       "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 25.26,
+      "avg_price": 25.23,
       "store_count": 252
     },
     {
@@ -488,13 +484,13 @@
     },
     {
       "state": "MI",
-      "avg_price": 22.21,
-      "store_count": 348
+      "avg_price": 22.22,
+      "store_count": 347
     },
     {
       "state": "WI",
-      "avg_price": 22.12,
-      "store_count": 142
+      "avg_price": 22.13,
+      "store_count": 141
     },
     {
       "state": "IA",
@@ -527,14 +523,14 @@
       "store_count": 135
     },
     {
-      "state": "NC",
-      "avg_price": 21.55,
-      "store_count": 263
-    },
-    {
       "state": "SC",
       "avg_price": 21.55,
       "store_count": 117
+    },
+    {
+      "state": "NC",
+      "avg_price": 21.54,
+      "store_count": 262
     },
     {
       "state": "KY",
@@ -690,18 +686,18 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "029968",
-      "name": "Taco Bell",
-      "city": "Manhattan",
-      "state": "NY",
-      "price": 41.99
-    },
-    {
       "store_number": "026759",
       "name": "Taco Bell",
       "city": "Universal City",
       "state": "CA",
       "price": 36.99
+    },
+    {
+      "store_number": "029968",
+      "name": "Taco Bell",
+      "city": "Manhattan",
+      "state": "NY",
+      "price": 34.99
     },
     {
       "store_number": "042237",
@@ -761,6 +757,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033006",
+      "store_name": "Taco Bell",
+      "city": "South Haven",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 19.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:47:38.513855+00:00"
+    },
+    {
+      "store_number": "029968",
+      "store_name": "Taco Bell",
+      "city": "Manhattan",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 41.99,
+      "new_price": 34.99,
+      "observed_at": "2026-05-31T21:43:41.547707+00:00"
+    },
+    {
+      "store_number": "020165",
+      "store_name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 22.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:42:17.628223+00:00"
+    },
+    {
+      "store_number": "032092",
+      "store_name": "Taco Bell",
+      "city": "Portage",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 20.89,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:41:49.445299+00:00"
+    },
     {
       "store_number": "029649",
       "store_name": "Taco Bell",
@@ -5674,8 +5710,8 @@
   ],
   "activity_summary": {
     "added": 114,
-    "removed": 92,
-    "price_changed": 285,
+    "removed": 95,
+    "price_changed": 286,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 170,
@@ -14535,15 +14571,6 @@
       "TX"
     ],
     [
-      "033006",
-      42.403802328683945,
-      -86.25803037553845,
-      19.99,
-      "Taco Bell",
-      "South Haven",
-      "MI"
-    ],
-    [
       "028351",
       32.416693804909684,
       -97.22545844036533,
@@ -16152,15 +16179,6 @@
       20.89,
       "Taco Bell",
       "Madison",
-      "WI"
-    ],
-    [
-      "032092",
-      43.57078815044906,
-      -89.470567571009,
-      20.89,
-      "Taco Bell",
-      "Portage",
       "WI"
     ],
     [
@@ -51273,15 +51291,6 @@
       "OH"
     ],
     [
-      "020165",
-      35.756565884985335,
-      -78.74081303180901,
-      22.99,
-      "Taco Bell",
-      "Cary",
-      "NC"
-    ],
-    [
       "004257",
       35.90284200515392,
       -78.89466628432268,
@@ -74817,6 +74826,15 @@
       "NY"
     ],
     [
+      "029968",
+      40.78659053503455,
+      -73.95017016325893,
+      34.99,
+      "Taco Bell",
+      "Manhattan",
+      "NY"
+    ],
+    [
       "026759",
       34.1362129,
       -118.3522686,
@@ -74824,15 +74842,6 @@
       "Taco Bell",
       "Universal City",
       "CA"
-    ],
-    [
-      "029968",
-      40.78659053503455,
-      -73.95017016325893,
-      41.99,
-      "Taco Bell",
-      "Manhattan",
-      "NY"
     ]
   ],
   "retired_at": null,

@@ -20,7 +20,7 @@
     "min": 2.29,
     "max": 3.99,
     "median": 3.19,
-    "std_dev": 0.24,
+    "std_dev": 0.23,
     "store_count": 727
   },
   "histogram": [
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 15
+      "count": 14
     },
     {
       "bucket": "$2.59",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 107
+      "count": 109
     },
     {
       "bucket": "$3.09",
@@ -62,11 +62,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 188
+      "count": 187
     },
     {
       "bucket": "$3.29",
-      "count": 218
+      "count": 219
     },
     {
       "bucket": "$3.39",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$3.49",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$3.99",
@@ -99,8 +99,13 @@
     },
     {
       "state": "OK",
-      "avg_price": 3.23,
-      "store_count": 116
+      "avg_price": 3.24,
+      "store_count": 115
+    },
+    {
+      "state": "LA",
+      "avg_price": 3.07,
+      "store_count": 5
     },
     {
       "state": "FL",
@@ -115,7 +120,7 @@
     {
       "state": "TX",
       "avg_price": 2.99,
-      "store_count": 433
+      "store_count": 432
     },
     {
       "state": "GA",
@@ -213,13 +218,6 @@
       "price": 3.99
     },
     {
-      "store_number": "039048",
-      "name": "Taco Bell",
-      "city": "Howell",
-      "state": "NJ",
-      "price": 3.49
-    },
-    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
@@ -274,9 +272,76 @@
       "city": "Ruidoso",
       "state": "NM",
       "price": 3.39
+    },
+    {
+      "store_number": "039834",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mira Loma",
+      "state": "CA",
+      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041565",
+      "store_name": "Taco Bell",
+      "city": "Covington",
+      "state": "LA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-31T21:48:03.206286+00:00"
+    },
+    {
+      "store_number": "028361",
+      "store_name": "Taco Bell",
+      "city": "Elk City",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:47:44.284646+00:00"
+    },
+    {
+      "store_number": "037485",
+      "store_name": "Taco Bell",
+      "city": "Paducah",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-31T21:43:39.276344+00:00"
+    },
+    {
+      "store_number": "031619",
+      "store_name": "Taco Bell",
+      "city": "New Kensington",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-05-31T21:42:03.027406+00:00"
+    },
+    {
+      "store_number": "039048",
+      "store_name": "Taco Bell",
+      "city": "Howell",
+      "state": "NJ",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:41:32.989579+00:00"
+    },
+    {
+      "store_number": "036758",
+      "store_name": "Taco Bell",
+      "city": "Abilene",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:41:27.893408+00:00"
+    },
     {
       "store_number": "027978",
       "store_name": "Taco Bell",
@@ -5909,8 +5974,8 @@
     }
   ],
   "activity_summary": {
-    "added": 201,
-    "removed": 208,
+    "added": 204,
+    "removed": 211,
     "price_changed": 154,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6125,15 +6190,6 @@
       "Taco Bell",
       "Seminole",
       "TX"
-    ],
-    [
-      "028361",
-      35.411995466212105,
-      -99.41793618921909,
-      2.49,
-      "Taco Bell",
-      "Elk City",
-      "OK"
     ],
     [
       "031586",
@@ -8611,6 +8667,24 @@
       "CO"
     ],
     [
+      "037485",
+      37.05329364485004,
+      -88.64940403944378,
+      2.99,
+      "Taco Bell",
+      "Paducah",
+      "KY"
+    ],
+    [
+      "041565",
+      30.500131,
+      -90.10903,
+      2.99,
+      "Taco Bell",
+      "Covington",
+      "LA"
+    ],
+    [
       "022088",
       29.480563205666712,
       -95.3976809084395,
@@ -9712,15 +9786,6 @@
       "036763",
       32.45130276424157,
       -99.78083827174626,
-      3.19,
-      "Taco Bell",
-      "Abilene",
-      "TX"
-    ],
-    [
-      "036758",
-      32.40296583066449,
-      -99.7587239742279,
       3.19,
       "Taco Bell",
       "Abilene",
@@ -12292,6 +12357,15 @@
       "RI"
     ],
     [
+      "031619",
+      40.58711934877844,
+      -79.75004574152248,
+      3.29,
+      "Taco Bell",
+      "New Kensington",
+      "PA"
+    ],
+    [
       "036251",
       39.034202183610354,
       -94.53198025225383,
@@ -12443,15 +12517,6 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
-    ],
-    [
-      "039048",
-      40.15561012789292,
-      -74.23053570094453,
-      3.49,
-      "Taco Bell",
-      "Howell",
-      "NJ"
     ],
     [
       "042173",

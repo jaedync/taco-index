@@ -11,16 +11,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 1.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0286,
   "first_seen_at": "2026-03-30T00:40:09.662285+00:00",
   "availability_pct": 0.9,
   "price_stats": {
-    "avg": 7.43,
+    "avg": 7.46,
     "min": 5.79,
     "max": 8.49,
     "median": 7.49,
-    "std_dev": 0.58,
-    "store_count": 71
+    "std_dev": 0.56,
+    "store_count": 69
   },
   "histogram": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "bucket": "$6.29",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$6.79",
@@ -41,7 +41,11 @@
     },
     {
       "bucket": "$6.99",
-      "count": 21
+      "count": 19
+    },
+    {
+      "bucket": "$7.19",
+      "count": 1
     },
     {
       "bucket": "$7.39",
@@ -75,18 +79,18 @@
   "state_prices": [
     {
       "state": "TN",
-      "avg_price": 7.7,
+      "avg_price": 7.71,
       "store_count": 13
     },
     {
       "state": "GA",
-      "avg_price": 7.46,
-      "store_count": 48
+      "avg_price": 7.47,
+      "store_count": 47
     },
     {
       "state": "FL",
-      "avg_price": 6.52,
-      "store_count": 7
+      "avg_price": 6.56,
+      "store_count": 6
     }
   ],
   "nutrition": null,
@@ -107,13 +111,6 @@
     },
     {
       "store_number": "004370",
-      "name": "Taco Bell",
-      "city": "Panama City Beach",
-      "state": "FL",
-      "price": 6.29
-    },
-    {
-      "store_number": "030707",
       "name": "Taco Bell",
       "city": "Panama City Beach",
       "state": "FL",
@@ -158,6 +155,13 @@
       "store_number": "042575",
       "name": "Taco Bell",
       "city": "Cartersville",
+      "state": "GA",
+      "price": 6.99
+    },
+    {
+      "store_number": "042583",
+      "name": "Taco Bell",
+      "city": "Clarkesville",
       "state": "GA",
       "price": 6.99
     }
@@ -238,6 +242,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.19,
+      "observed_at": "2026-05-31T21:42:06.652372+00:00"
+    },
+    {
+      "store_number": "002302",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:41:24.800369+00:00"
+    },
+    {
+      "store_number": "030707",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.29,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:41:12.902829+00:00"
+    },
+    {
+      "store_number": "042585",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:40:42.940162+00:00"
+    },
     {
       "store_number": "042584",
       "store_name": "Taco Bell",
@@ -1800,8 +1844,8 @@
     }
   ],
   "activity_summary": {
-    "added": 111,
-    "removed": 40,
+    "added": 112,
+    "removed": 43,
     "price_changed": 5,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1851,15 +1895,6 @@
       "004370",
       30.189150774079152,
       -85.76022725986559,
-      6.29,
-      "Taco Bell",
-      "Panama City Beach",
-      "FL"
-    ],
-    [
-      "030707",
-      30.18565418903784,
-      -85.8179617328141,
       6.29,
       "Taco Bell",
       "Panama City Beach",
@@ -1938,15 +1973,6 @@
       "GA"
     ],
     [
-      "042585",
-      34.01047868053667,
-      -84.7536712245369,
-      6.99,
-      "Taco Bell",
-      "Dallas",
-      "GA"
-    ],
-    [
       "004170",
       30.606703421198663,
       -87.06246882677078,
@@ -1963,15 +1989,6 @@
       "Taco Bell",
       "Covington",
       "GA"
-    ],
-    [
-      "002302",
-      35.97311902232418,
-      -83.9845335127915,
-      6.99,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
     ],
     [
       "003874",
@@ -2071,6 +2088,15 @@
       "Taco Bell",
       "Toccoa",
       "GA"
+    ],
+    [
+      "030359",
+      35.71724098570292,
+      -84.01247182491716,
+      7.19,
+      "Taco Bell",
+      "Maryville",
+      "TN"
     ],
     [
       "009575",
@@ -2470,6 +2496,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-30",
+  "last_seen_date": "2026-05-31",
   "peak_availability_pct": 1.1
 }

@@ -14,19 +14,19 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.2,
+  "availability_pct": 1.1,
   "price_stats": {
     "avg": 11.15,
     "min": 10.49,
     "max": 11.89,
     "median": 11.19,
-    "std_dev": 0.33,
-    "store_count": 89
+    "std_dev": 0.35,
+    "store_count": 87
   },
   "histogram": [
     {
       "bucket": "$10.49",
-      "count": 6
+      "count": 8
     },
     {
       "bucket": "$10.69",
@@ -34,11 +34,11 @@
     },
     {
       "bucket": "$10.89",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$10.99",
-      "count": 31
+      "count": 25
     },
     {
       "bucket": "$11.19",
@@ -51,6 +51,10 @@
     {
       "bucket": "$11.69",
       "count": 12
+    },
+    {
+      "bucket": "$11.79",
+      "count": 1
     },
     {
       "bucket": "$11.89",
@@ -70,13 +74,13 @@
     },
     {
       "state": "GA",
-      "avg_price": 10.99,
-      "store_count": 35
+      "avg_price": 10.98,
+      "store_count": 32
     },
     {
       "state": "FL",
-      "avg_price": 10.83,
-      "store_count": 5
+      "avg_price": 10.84,
+      "store_count": 6
     }
   ],
   "nutrition": null,
@@ -124,6 +128,20 @@
       "price": 10.49
     },
     {
+      "store_number": "041212",
+      "name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "price": 10.49
+    },
+    {
+      "store_number": "005482",
+      "name": "Taco Bell",
+      "city": "Peachtree City",
+      "state": "GA",
+      "price": 10.49
+    },
+    {
       "store_number": "037050",
       "name": "Taco Bell",
       "city": "Wartburg",
@@ -136,20 +154,6 @@
       "city": "Port St Joe",
       "state": "FL",
       "price": 10.69
-    },
-    {
-      "store_number": "019713",
-      "name": "Taco Bell",
-      "city": "Panama City Beach",
-      "state": "FL",
-      "price": 10.69
-    },
-    {
-      "store_number": "042126",
-      "name": "Taco Bell",
-      "city": "Defuniak Springs",
-      "state": "FL",
-      "price": 10.89
     }
   ],
   "min_price_store_numbers": [
@@ -158,7 +162,9 @@
     "041228",
     "041223",
     "002167",
-    "041218"
+    "041218",
+    "041212",
+    "005482"
   ],
   "priciest_stores": [
     {
@@ -181,6 +187,13 @@
       "city": "Northport",
       "state": "AL",
       "price": 11.89
+    },
+    {
+      "store_number": "039921",
+      "name": "Taco Bell",
+      "city": "Pooler",
+      "state": "GA",
+      "price": 11.79
     },
     {
       "store_number": "036937",
@@ -223,16 +236,129 @@
       "city": "Wetumpka",
       "state": "AL",
       "price": 11.69
-    },
-    {
-      "store_number": "040382",
-      "name": "Taco Bell",
-      "city": "Tallassee",
-      "state": "AL",
-      "price": 11.69
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041241",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:48:17.132632+00:00"
+    },
+    {
+      "store_number": "039921",
+      "store_name": "Taco Bell",
+      "city": "Pooler",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.79,
+      "observed_at": "2026-05-31T21:48:03.748384+00:00"
+    },
+    {
+      "store_number": "005482",
+      "store_name": "Taco Bell",
+      "city": "Peachtree City",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-05-31T21:47:36.367654+00:00"
+    },
+    {
+      "store_number": "041212",
+      "store_name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-05-31T21:47:32.194863+00:00"
+    },
+    {
+      "store_number": "041238",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:42:21.608582+00:00"
+    },
+    {
+      "store_number": "041231",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:42:14.103684+00:00"
+    },
+    {
+      "store_number": "003874",
+      "store_name": "Taco Bell",
+      "city": "Crestview",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.89,
+      "observed_at": "2026-05-31T21:41:59.189701+00:00"
+    },
+    {
+      "store_number": "041234",
+      "store_name": "Taco Bell",
+      "city": "Winder",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:41:45.175576+00:00"
+    },
+    {
+      "store_number": "041240",
+      "store_name": "Taco Bell",
+      "city": "Bethlehem",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:41:32.432351+00:00"
+    },
+    {
+      "store_number": "041253",
+      "store_name": "Taco Bell",
+      "city": "Loganville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-31T21:41:25.620705+00:00"
+    },
+    {
+      "store_number": "041260",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:32:09.361050+00:00"
+    },
+    {
+      "store_number": "041868",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:32:06.410101+00:00"
+    },
     {
       "store_number": "030463",
       "store_name": "Taco Bell",
@@ -14265,8 +14391,8 @@
     }
   ],
   "activity_summary": {
-    "added": 595,
-    "removed": 506,
+    "added": 600,
+    "removed": 513,
     "price_changed": 302,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14361,6 +14487,24 @@
       "GA"
     ],
     [
+      "041212",
+      33.75484747709103,
+      -84.26683026558743,
+      10.49,
+      "Taco Bell",
+      "Decatur",
+      "GA"
+    ],
+    [
+      "005482",
+      33.37512829084298,
+      -84.5632732716386,
+      10.49,
+      "Taco Bell",
+      "Peachtree City",
+      "GA"
+    ],
+    [
       "037050",
       36.10306709232148,
       -84.58455685815763,
@@ -14388,6 +14532,15 @@
       "FL"
     ],
     [
+      "003874",
+      30.73358597166225,
+      -86.565745715733,
+      10.89,
+      "Taco Bell",
+      "Crestview",
+      "FL"
+    ],
+    [
       "042126",
       30.701080181738643,
       -86.12210662608975,
@@ -14406,30 +14559,12 @@
       "FL"
     ],
     [
-      "041868",
-      33.993356,
-      -83.437446,
-      10.99,
-      "Taco Bell",
-      "Athens",
-      "GA"
-    ],
-    [
       "042575",
       34.12172166930911,
       -84.74467018956662,
       10.99,
       "Taco Bell",
       "Cartersville",
-      "GA"
-    ],
-    [
-      "041260",
-      33.9951,
-      -83.3367,
-      10.99,
-      "Taco Bell",
-      "Athens",
       "GA"
     ],
     [
@@ -14559,21 +14694,21 @@
       "GA"
     ],
     [
+      "041253",
+      33.83904274650446,
+      -83.90541290674594,
+      10.99,
+      "Taco Bell",
+      "Loganville",
+      "GA"
+    ],
+    [
       "041233",
       34.094494431212155,
       -84.00964147877858,
       10.99,
       "Taco Bell",
       "Buford",
-      "GA"
-    ],
-    [
-      "041240",
-      33.94282699062857,
-      -83.74293341184966,
-      10.99,
-      "Taco Bell",
-      "Bethlehem",
       "GA"
     ],
     [
@@ -14592,15 +14727,6 @@
       10.99,
       "Taco Bell",
       "Acworth",
-      "GA"
-    ],
-    [
-      "041234",
-      33.98958032634979,
-      -83.721671149151,
-      10.99,
-      "Taco Bell",
-      "Winder",
       "GA"
     ],
     [
@@ -14640,24 +14766,6 @@
       "AL"
     ],
     [
-      "041231",
-      33.94943524772819,
-      -83.4091704313726,
-      10.99,
-      "Taco Bell",
-      "Athens",
-      "GA"
-    ],
-    [
-      "041238",
-      33.92281058279636,
-      -83.34047734737396,
-      10.99,
-      "Taco Bell",
-      "Athens",
-      "GA"
-    ],
-    [
       "024403",
       35.96722562647426,
       -85.03864054957367,
@@ -14674,15 +14782,6 @@
       "Taco Bell",
       "Opelika",
       "AL"
-    ],
-    [
-      "041241",
-      33.91608863570365,
-      -83.44928093433556,
-      10.99,
-      "Taco Bell",
-      "Athens",
-      "GA"
     ],
     [
       "040780",
@@ -15081,6 +15180,15 @@
       "AL"
     ],
     [
+      "039921",
+      32.112410602164445,
+      -81.23548958895492,
+      11.79,
+      "Taco Bell",
+      "Pooler",
+      "GA"
+    ],
+    [
       "029115",
       33.23958846617791,
       -87.57610286772149,
@@ -15109,6 +15217,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-30",
+  "last_seen_date": "2026-05-31",
   "peak_availability_pct": 5.9
 }

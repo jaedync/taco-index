@@ -16,11 +16,11 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.37,
+    "avg": 10.33,
     "min": 9.99,
     "max": 10.99,
     "median": 10.29,
-    "std_dev": 0.33,
+    "std_dev": 0.28,
     "store_count": 14
   },
   "histogram": [
@@ -37,6 +37,10 @@
       "count": 6
     },
     {
+      "bucket": "$10.49",
+      "count": 1
+    },
+    {
       "bucket": "$10.59",
       "count": 1
     },
@@ -46,13 +50,13 @@
     },
     {
       "bucket": "$10.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.49,
+      "avg_price": 10.41,
       "store_count": 6
     }
   ],
@@ -149,13 +153,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "041260",
-      "name": "Taco Bell",
-      "city": "Athens",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "041258",
       "name": "Taco Bell",
       "city": "Peachtree Corners",
@@ -175,6 +172,13 @@
       "city": "Niceville",
       "state": "FL",
       "price": 10.59
+    },
+    {
+      "store_number": "041212",
+      "name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "price": 10.49
     },
     {
       "store_number": "029145",
@@ -220,6 +224,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041212",
+      "store_name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-05-31T21:47:32.194863+00:00"
+    },
+    {
+      "store_number": "041260",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:32:09.361050+00:00"
+    },
     {
       "store_number": "026342",
       "store_name": "Taco Bell",
@@ -1002,8 +1026,8 @@
     }
   ],
   "activity_summary": {
-    "added": 46,
-    "removed": 32,
+    "added": 47,
+    "removed": 33,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1134,6 +1158,15 @@
       "AL"
     ],
     [
+      "041212",
+      33.75484747709103,
+      -84.26683026558743,
+      10.49,
+      "Taco Bell",
+      "Decatur",
+      "GA"
+    ],
+    [
       "042123",
       30.48259156216648,
       -86.41599865257577,
@@ -1159,18 +1192,9 @@
       "Taco Bell",
       "Peachtree Corners",
       "GA"
-    ],
-    [
-      "041260",
-      33.9951,
-      -83.3367,
-      10.99,
-      "Taco Bell",
-      "Athens",
-      "GA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-30",
+  "last_seen_date": "2026-05-31",
   "peak_availability_pct": 0.2
 }

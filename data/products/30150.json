@@ -13,26 +13,26 @@
   "peak_30d_pct": 3.8,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.959150+00:00",
-  "availability_pct": 4.0,
+  "availability_pct": 4.1,
   "price_stats": {
     "avg": 4.99,
     "min": 4.99,
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 312
+    "store_count": 313
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 312
+      "count": 313
     }
   ],
   "state_prices": [
     {
       "state": "OH",
       "avg_price": 4.99,
-      "store_count": 104
+      "store_count": 105
     },
     {
       "state": "MI",
@@ -443,9 +443,17 @@
     "042230",
     "040006",
     "041687",
-    "033316"
+    "033316",
+    "036406"
   ],
   "priciest_stores": [
+    {
+      "store_number": "036406",
+      "name": "Taco Bell",
+      "city": "Kent",
+      "state": "OH",
+      "price": 4.99
+    },
     {
       "store_number": "033316",
       "name": "Taco Bell",
@@ -508,16 +516,19 @@
       "city": "Sault Sainte Marie",
       "state": "MI",
       "price": 4.99
-    },
-    {
-      "store_number": "017105",
-      "name": "Taco Bell",
-      "city": "Garden City",
-      "state": "MI",
-      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036406",
+      "store_name": "Taco Bell",
+      "city": "Kent",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-31T21:32:32.656358+00:00"
+    },
     {
       "store_number": "003791",
       "store_name": "Taco Bell",
@@ -4300,7 +4311,7 @@
     }
   ],
   "activity_summary": {
-    "added": 345,
+    "added": 346,
     "removed": 33,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -7117,9 +7128,18 @@
       "Taco Bell",
       "Lake Orion",
       "MI"
+    ],
+    [
+      "036406",
+      41.15401065310127,
+      -81.34729524185467,
+      4.99,
+      "Taco Bell",
+      "Kent",
+      "OH"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-30",
+  "last_seen_date": "2026-05-31",
   "peak_availability_pct": 3.8
 }

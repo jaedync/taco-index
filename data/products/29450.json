@@ -12,25 +12,25 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.061,
   "first_seen_at": "2026-04-17T20:59:09.048162+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 11.99,
+    "avg": 12.12,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.82,
-    "store_count": 10
+    "std_dev": 0.83,
+    "store_count": 8
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$11.99",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$13.99",
@@ -41,25 +41,11 @@
   "nutrition": null,
   "cheapest_stores": [
     {
-      "store_number": "003881",
-      "name": "Taco Bell / KFC",
-      "city": "West Branch",
-      "state": "MI",
-      "price": 10.99
-    },
-    {
       "store_number": "028153",
       "name": "Taco Bell / KFC",
       "city": "Ithaca",
       "state": "MI",
       "price": 10.99
-    },
-    {
-      "store_number": "029406",
-      "name": "Taco Bell",
-      "city": "Durham",
-      "state": "NC",
-      "price": 11.99
     },
     {
       "store_number": "029483",
@@ -112,7 +98,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "003881",
     "028153"
   ],
   "priciest_stores": [
@@ -166,28 +151,34 @@
       "price": 11.99
     },
     {
-      "store_number": "029406",
-      "name": "Taco Bell",
-      "city": "Durham",
-      "state": "NC",
-      "price": 11.99
-    },
-    {
       "store_number": "028153",
       "name": "Taco Bell / KFC",
       "city": "Ithaca",
       "state": "MI",
       "price": 10.99
-    },
-    {
-      "store_number": "003881",
-      "name": "Taco Bell / KFC",
-      "city": "West Branch",
-      "state": "MI",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003881",
+      "store_name": "Taco Bell / KFC",
+      "city": "West Branch",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:41:48.693440+00:00"
+    },
+    {
+      "store_number": "029406",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:41:35.269147+00:00"
+    },
     {
       "store_number": "029482",
       "store_name": "Taco Bell",
@@ -991,7 +982,7 @@
   ],
   "activity_summary": {
     "added": 45,
-    "removed": 35,
+    "removed": 37,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1044,15 +1035,6 @@
   ],
   "map_data": [
     [
-      "003881",
-      44.24882764927901,
-      -84.22466313700662,
-      10.99,
-      "Taco Bell / KFC",
-      "West Branch",
-      "MI"
-    ],
-    [
       "028153",
       43.29202104434658,
       -84.58605750473907,
@@ -1060,15 +1042,6 @@
       "Taco Bell / KFC",
       "Ithaca",
       "MI"
-    ],
-    [
-      "029406",
-      36.022485677062306,
-      -78.95267031623126,
-      11.99,
-      "Taco Bell",
-      "Durham",
-      "NC"
     ],
     [
       "029483",
@@ -1135,6 +1108,6 @@
     ]
   ],
   "retired_at": "2026-04-18T22:12:40.299660+00:00",
-  "last_seen_date": "2026-05-30",
+  "last_seen_date": "2026-05-31",
   "peak_availability_pct": 0.4
 }

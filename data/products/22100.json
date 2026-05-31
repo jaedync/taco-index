@@ -21,12 +21,12 @@
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.2,
-    "store_count": 7708
+    "store_count": 7706
   },
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$1.59",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$1.69",
-      "count": 189
+      "count": 188
     },
     {
       "bucket": "$1.75",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4328
+      "count": 4326
     },
     {
       "bucket": "$2.00",
@@ -242,14 +242,14 @@
       "store_count": 49
     },
     {
-      "state": "IL",
-      "avg_price": 2.06,
-      "store_count": 289
-    },
-    {
       "state": "PA",
       "avg_price": 2.06,
       "store_count": 202
+    },
+    {
+      "state": "IL",
+      "avg_price": 2.06,
+      "store_count": 289
     },
     {
       "state": "NV",
@@ -269,7 +269,7 @@
     {
       "state": "MI",
       "avg_price": 2.01,
-      "store_count": 348
+      "store_count": 347
     },
     {
       "state": "NE",
@@ -359,7 +359,7 @@
     {
       "state": "WI",
       "avg_price": 1.95,
-      "store_count": 143
+      "store_count": 142
     },
     {
       "state": "MS",
@@ -433,6 +433,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "040318",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 0.99
+    },
+    {
       "store_number": "003056",
       "name": "Taco Bell",
       "city": "Whittier",
@@ -494,16 +501,10 @@
       "city": "Wyoming",
       "state": "MI",
       "price": 1.69
-    },
-    {
-      "store_number": "034828",
-      "name": "Taco Bell",
-      "city": "Battle Creek",
-      "state": "MI",
-      "price": 1.69
     }
   ],
   "min_price_store_numbers": [
+    "040318",
     "003056"
   ],
   "priciest_stores": [
@@ -579,6 +580,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033006",
+      "store_name": "Taco Bell",
+      "city": "South Haven",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.69,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:47:38.513855+00:00"
+    },
+    {
+      "store_number": "032092",
+      "store_name": "Taco Bell",
+      "city": "Portage",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:41:49.445299+00:00"
+    },
+    {
+      "store_number": "040318",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-05-31T21:32:00.407576+00:00"
+    },
     {
       "store_number": "041957",
       "store_name": "Taco Bell",
@@ -7342,8 +7373,8 @@
   ],
   "activity_summary": {
     "added": 70,
-    "removed": 50,
-    "price_changed": 556,
+    "removed": 52,
+    "price_changed": 557,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 170,
@@ -7351,6 +7382,15 @@
   "calories_max": 170,
   "combo_groups": [],
   "map_data": [
+    [
+      "040318",
+      41.807919921888036,
+      -87.74351908680534,
+      0.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
     [
       "003056",
       33.98985419924158,
@@ -8897,15 +8937,6 @@
       1.69,
       "Taco Bell",
       "Holland",
-      "MI"
-    ],
-    [
-      "033006",
-      42.403802328683945,
-      -86.25803037553845,
-      1.69,
-      "Taco Bell",
-      "South Haven",
       "MI"
     ],
     [
@@ -22281,15 +22312,6 @@
       "Taco Bell",
       "Little Rock",
       "AR"
-    ],
-    [
-      "040318",
-      41.807919921888036,
-      -87.74351908680534,
-      1.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
     ],
     [
       "041646",
@@ -45231,15 +45253,6 @@
       "Taco Bell",
       "Marietta",
       "GA"
-    ],
-    [
-      "032092",
-      43.57078815044906,
-      -89.470567571009,
-      1.99,
-      "Taco Bell",
-      "Portage",
-      "WI"
     ],
     [
       "030555",

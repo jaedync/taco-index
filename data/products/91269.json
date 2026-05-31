@@ -12,15 +12,15 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.2,
-  "recent_price_change_pct": 0.0221,
+  "recent_price_change_pct": 0.0352,
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.91,
+    "avg": 6.93,
     "min": 6.49,
     "max": 7.49,
     "median": 6.79,
-    "std_dev": 0.43,
+    "std_dev": 0.45,
     "store_count": 14
   },
   "histogram": [
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$7.29",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$7.39",
@@ -42,13 +42,13 @@
     },
     {
       "bucket": "$7.49",
-      "count": 2
+      "count": 3
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 7.15,
+      "avg_price": 7.18,
       "store_count": 8
     }
   ],
@@ -148,6 +148,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "041212",
+      "name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "price": 7.49
+    },
+    {
       "store_number": "026342",
       "name": "Taco Bell",
       "city": "Lawrenceville",
@@ -167,13 +174,6 @@
       "city": "Marietta",
       "state": "GA",
       "price": 7.39
-    },
-    {
-      "store_number": "041260",
-      "name": "Taco Bell",
-      "city": "Athens",
-      "state": "GA",
-      "price": 7.29
     },
     {
       "store_number": "041258",
@@ -219,6 +219,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041212",
+      "store_name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.49,
+      "observed_at": "2026-05-31T21:47:32.194863+00:00"
+    },
+    {
+      "store_number": "041260",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 7.29,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:32:09.361050+00:00"
+    },
     {
       "store_number": "041259",
       "store_name": "Taco Bell",
@@ -911,8 +931,8 @@
     }
   ],
   "activity_summary": {
-    "added": 30,
-    "removed": 39,
+    "added": 31,
+    "removed": 40,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1031,15 +1051,6 @@
       "GA"
     ],
     [
-      "041260",
-      33.9951,
-      -83.3367,
-      7.29,
-      "Taco Bell",
-      "Athens",
-      "GA"
-    ],
-    [
       "003889",
       33.966106,
       -84.410766,
@@ -1064,6 +1075,15 @@
       7.49,
       "Taco Bell",
       "Lawrenceville",
+      "GA"
+    ],
+    [
+      "041212",
+      33.75484747709103,
+      -84.26683026558743,
+      7.49,
+      "Taco Bell",
+      "Decatur",
       "GA"
     ]
   ],

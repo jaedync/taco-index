@@ -19,8 +19,8 @@
     "min": 17.09,
     "max": 41.99,
     "median": 22.99,
-    "std_dev": 1.93,
-    "store_count": 7615
+    "std_dev": 1.95,
+    "store_count": 7613
   },
   "histogram": [
     {
@@ -137,7 +137,7 @@
     },
     {
       "bucket": "$21.09",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$21.29",
@@ -197,7 +197,7 @@
     },
     {
       "bucket": "$22.99",
-      "count": 1816
+      "count": 1815
     },
     {
       "bucket": "$23.00",
@@ -333,7 +333,7 @@
     },
     {
       "bucket": "$28.49",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$28.59",
@@ -373,13 +373,13 @@
     },
     {
       "bucket": "$41.99",
-      "count": 2
+      "count": 3
     }
   ],
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 25.57,
+      "avg_price": 25.62,
       "store_count": 250
     },
     {
@@ -504,13 +504,13 @@
     },
     {
       "state": "MI",
-      "avg_price": 22.21,
-      "store_count": 346
+      "avg_price": 22.22,
+      "store_count": 345
     },
     {
       "state": "WI",
       "avg_price": 22.13,
-      "store_count": 141
+      "store_count": 140
     },
     {
       "state": "ID",
@@ -554,8 +554,8 @@
     },
     {
       "state": "NC",
-      "avg_price": 21.56,
-      "store_count": 264
+      "avg_price": 21.55,
+      "store_count": 263
     },
     {
       "state": "KY",
@@ -605,7 +605,7 @@
     {
       "state": "IN",
       "avg_price": 20.54,
-      "store_count": 257
+      "store_count": 258
     },
     {
       "state": "WY",
@@ -706,6 +706,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "029968",
+      "name": "Taco Bell",
+      "city": "Manhattan",
+      "state": "NY",
+      "price": 41.99
+    },
+    {
       "store_number": "042237",
       "name": "Taco Bell",
       "city": "New York",
@@ -767,16 +774,59 @@
       "city": "Jamaica",
       "state": "NY",
       "price": 32.99
-    },
-    {
-      "store_number": "037380",
-      "name": "Taco Bell",
-      "city": "Yonkers",
-      "state": "NY",
-      "price": 32.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035403",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 19.99,
+      "observed_at": "2026-05-31T21:47:59.710278+00:00"
+    },
+    {
+      "store_number": "033006",
+      "store_name": "Taco Bell",
+      "city": "South Haven",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 19.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:47:38.513855+00:00"
+    },
+    {
+      "store_number": "029968",
+      "store_name": "Taco Bell",
+      "city": "Manhattan",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 28.49,
+      "new_price": 41.99,
+      "observed_at": "2026-05-31T21:43:41.547707+00:00"
+    },
+    {
+      "store_number": "020165",
+      "store_name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 22.99,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:42:17.628223+00:00"
+    },
+    {
+      "store_number": "032092",
+      "store_name": "Taco Bell",
+      "city": "Portage",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 21.09,
+      "new_price": null,
+      "observed_at": "2026-05-31T21:41:49.445299+00:00"
+    },
     {
       "store_number": "030680",
       "store_name": "Taco Bell",
@@ -6049,9 +6099,9 @@
     }
   ],
   "activity_summary": {
-    "added": 155,
-    "removed": 100,
-    "price_changed": 272,
+    "added": 156,
+    "removed": 103,
+    "price_changed": 273,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 180,
@@ -15208,15 +15258,6 @@
       "TX"
     ],
     [
-      "033006",
-      42.403802328683945,
-      -86.25803037553845,
-      19.99,
-      "Taco Bell",
-      "South Haven",
-      "MI"
-    ],
-    [
       "028351",
       32.416693804909684,
       -97.22545844036533,
@@ -15440,6 +15481,15 @@
       "Taco Bell",
       "Three Rivers",
       "MI"
+    ],
+    [
+      "035403",
+      41.175720503572194,
+      -85.16652151010027,
+      19.99,
+      "Taco Bell",
+      "Fort Wayne",
+      "IN"
     ],
     [
       "035289",
@@ -23152,15 +23202,6 @@
       21.09,
       "Taco Bell",
       "Madison",
-      "WI"
-    ],
-    [
-      "032092",
-      43.57078815044906,
-      -89.470567571009,
-      21.09,
-      "Taco Bell",
-      "Portage",
       "WI"
     ],
     [
@@ -50911,15 +50952,6 @@
       "OH"
     ],
     [
-      "020165",
-      35.756565884985335,
-      -78.74081303180901,
-      22.99,
-      "Taco Bell",
-      "Cary",
-      "NC"
-    ],
-    [
       "004257",
       35.90284200515392,
       -78.89466628432268,
@@ -73888,15 +73920,6 @@
       "NY"
     ],
     [
-      "029968",
-      40.78659053503455,
-      -73.95017016325893,
-      28.49,
-      "Taco Bell",
-      "Manhattan",
-      "NY"
-    ],
-    [
       "034298",
       40.73426473770951,
       -73.98074499963467,
@@ -74605,6 +74628,15 @@
       41.99,
       "Taco Bell",
       "New York",
+      "NY"
+    ],
+    [
+      "029968",
+      40.78659053503455,
+      -73.95017016325893,
+      41.99,
+      "Taco Bell",
+      "Manhattan",
       "NY"
     ]
   ],
