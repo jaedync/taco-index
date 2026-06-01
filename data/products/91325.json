@@ -12,21 +12,25 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0222,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 9.12,
+    "avg": 9.14,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.47,
-    "store_count": 27
+    "std_dev": 0.46,
+    "store_count": 30
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 25
+      "count": 26
+    },
+    {
+      "bucket": "$9.49",
+      "count": 2
     },
     {
       "bucket": "$9.99",
@@ -40,8 +44,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.23,
-      "store_count": 14
+      "avg_price": 9.22,
+      "store_count": 15
     },
     {
       "state": "TN",
@@ -160,7 +164,8 @@
     "029033",
     "029098",
     "024364",
-    "029738"
+    "029738",
+    "041801"
   ],
   "priciest_stores": [
     {
@@ -176,6 +181,27 @@
       "city": "Baxley",
       "state": "GA",
       "price": 9.99
+    },
+    {
+      "store_number": "030707",
+      "name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "price": 9.49
+    },
+    {
+      "store_number": "004185",
+      "name": "Taco Bell",
+      "city": "Panama City",
+      "state": "FL",
+      "price": 9.49
+    },
+    {
+      "store_number": "041801",
+      "name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "price": 9.0
     },
     {
       "store_number": "029738",
@@ -211,30 +237,39 @@
       "city": "Chattanooga",
       "state": "TN",
       "price": 9.0
-    },
-    {
-      "store_number": "041881",
-      "name": "Taco Bell",
-      "city": "Columbus",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "002167",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "003889",
-      "name": "Taco Bell",
-      "city": "Marietta",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041801",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-01T21:05:09.675950+00:00"
+    },
+    {
+      "store_number": "004185",
+      "store_name": "Taco Bell",
+      "city": "Panama City",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-06-01T21:04:57.741688+00:00"
+    },
+    {
+      "store_number": "030707",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-06-01T21:04:48.785231+00:00"
+    },
     {
       "store_number": "039921",
       "store_name": "Taco Bell",
@@ -3047,7 +3082,7 @@
     }
   ],
   "activity_summary": {
-    "added": 124,
+    "added": 127,
     "removed": 157,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3314,6 +3349,33 @@
       "TN"
     ],
     [
+      "041801",
+      33.94497804839833,
+      -84.6247772276729,
+      9.0,
+      "Taco Bell",
+      "Marietta",
+      "GA"
+    ],
+    [
+      "004185",
+      30.138993189337146,
+      -85.59155344963074,
+      9.49,
+      "Taco Bell",
+      "Panama City",
+      "FL"
+    ],
+    [
+      "030707",
+      30.18565418903784,
+      -85.8179617328141,
+      9.49,
+      "Taco Bell",
+      "Panama City Beach",
+      "FL"
+    ],
+    [
       "042903",
       31.783928,
       -82.363196,
@@ -3333,6 +3395,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-05-31",
+  "last_seen_date": "2026-06-01",
   "peak_availability_pct": 1.1
 }

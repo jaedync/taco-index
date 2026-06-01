@@ -21,19 +21,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 18
+    "store_count": 16
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 18
+      "count": 16
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 10.99,
-      "store_count": 15
+      "store_count": 13
     }
   ],
   "nutrition": null,
@@ -67,13 +67,6 @@
       "price": 10.99
     },
     {
-      "store_number": "042351",
-      "name": "Taco Bell",
-      "city": "Calhoun",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "036290",
       "name": "Taco Bell",
       "city": "Conyers",
@@ -102,9 +95,16 @@
       "price": 10.99
     },
     {
-      "store_number": "027858",
+      "store_number": "023238",
       "name": "Taco Bell",
-      "city": "Buford",
+      "city": "Conyers",
+      "state": "GA",
+      "price": 10.99
+    },
+    {
+      "store_number": "042571",
+      "name": "Taco Bell",
+      "city": "Stockbridge",
       "state": "GA",
       "price": 10.99
     }
@@ -114,12 +114,10 @@
     "042584",
     "042575",
     "042581",
-    "042351",
     "036290",
     "042572",
     "003859",
     "027711",
-    "027858",
     "023238",
     "042571",
     "031473",
@@ -187,21 +185,41 @@
       "price": 10.99
     },
     {
-      "store_number": "027858",
-      "name": "Taco Bell",
-      "city": "Buford",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "027711",
       "name": "Taco Bell",
       "city": "Kennesaw",
       "state": "GA",
       "price": 10.99
+    },
+    {
+      "store_number": "003859",
+      "name": "Taco Bell",
+      "city": "Carrollton",
+      "state": "GA",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027858",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-01T21:05:27.892947+00:00"
+    },
+    {
+      "store_number": "042351",
+      "store_name": "Taco Bell",
+      "city": "Calhoun",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-01T21:03:44.803492+00:00"
+    },
     {
       "store_number": "042937",
       "store_name": "Taco Bell",
@@ -2305,7 +2323,7 @@
   ],
   "activity_summary": {
     "added": 114,
-    "removed": 96,
+    "removed": 98,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2382,15 +2400,6 @@
       "GA"
     ],
     [
-      "042351",
-      34.511577,
-      -84.92265,
-      10.99,
-      "Taco Bell",
-      "Calhoun",
-      "GA"
-    ],
-    [
       "036290",
       33.68525347160878,
       -84.00274201865803,
@@ -2424,15 +2433,6 @@
       10.99,
       "Taco Bell",
       "Kennesaw",
-      "GA"
-    ],
-    [
-      "027858",
-      34.07882955591635,
-      -83.91751042267758,
-      10.99,
-      "Taco Bell",
-      "Buford",
       "GA"
     ],
     [
@@ -2509,6 +2509,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-31",
+  "last_seen_date": "2026-06-01",
   "peak_availability_pct": 0.9
 }

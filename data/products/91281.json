@@ -15,19 +15,19 @@
   "peak_30d_pct": 5.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 5.3,
+  "availability_pct": 5.4,
   "price_stats": {
     "avg": 12.96,
     "min": 12.5,
     "max": 19.99,
     "median": 12.5,
-    "std_dev": 1.26,
-    "store_count": 412
+    "std_dev": 1.25,
+    "store_count": 413
   },
   "histogram": [
     {
       "bucket": "$12.50",
-      "count": 347
+      "count": 348
     },
     {
       "bucket": "$12.99",
@@ -68,14 +68,14 @@
   ],
   "state_prices": [
     {
-      "state": "FL",
-      "avg_price": 14.1,
-      "store_count": 23
-    },
-    {
       "state": "SC",
       "avg_price": 14.09,
       "store_count": 5
+    },
+    {
+      "state": "FL",
+      "avg_price": 13.98,
+      "store_count": 25
     },
     {
       "state": "TN",
@@ -90,7 +90,7 @@
     {
       "state": "AL",
       "avg_price": 12.77,
-      "store_count": 102
+      "store_count": 101
     }
   ],
   "nutrition": {
@@ -384,6 +384,7 @@
     "041215",
     "002302",
     "041253",
+    "004185",
     "003668",
     "041233",
     "029086",
@@ -524,9 +525,9 @@
     "041802",
     "042126",
     "029095",
-    "029100",
     "041231",
-    "040780"
+    "040780",
+    "037369"
   ],
   "priciest_stores": [
     {
@@ -601,6 +602,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029100",
+      "store_name": "Taco Bell",
+      "city": "Auburn",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-06-01T21:05:42.273529+00:00"
+    },
+    {
+      "store_number": "004185",
+      "store_name": "Taco Bell",
+      "city": "Panama City",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-06-01T21:04:57.741688+00:00"
+    },
+    {
+      "store_number": "037369",
+      "store_name": "Taco Bell",
+      "city": "Port St Joe",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-06-01T21:03:54.835653+00:00"
+    },
     {
       "store_number": "041212",
       "store_name": "Taco Bell",
@@ -6363,8 +6394,8 @@
     }
   ],
   "activity_summary": {
-    "added": 494,
-    "removed": 82,
+    "added": 496,
+    "removed": 83,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8235,6 +8266,15 @@
       "GA"
     ],
     [
+      "004185",
+      30.138993189337146,
+      -85.59155344963074,
+      12.5,
+      "Taco Bell",
+      "Panama City",
+      "FL"
+    ],
+    [
       "003668",
       33.77267954859662,
       -84.37298566102982,
@@ -9495,15 +9535,6 @@
       "AL"
     ],
     [
-      "029100",
-      32.566551566031926,
-      -85.50129443407059,
-      12.5,
-      "Taco Bell",
-      "Auburn",
-      "AL"
-    ],
-    [
       "041231",
       33.94943524772819,
       -83.4091704313726,
@@ -9520,6 +9551,15 @@
       "Taco Bell",
       "Oxford",
       "AL"
+    ],
+    [
+      "037369",
+      29.819161175123956,
+      -85.3058260644086,
+      12.5,
+      "Taco Bell",
+      "Port St Joe",
+      "FL"
     ],
     [
       "032143",
@@ -10108,6 +10148,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-31",
+  "last_seen_date": "2026-06-01",
   "peak_availability_pct": 5.3
 }

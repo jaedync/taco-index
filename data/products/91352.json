@@ -14,14 +14,14 @@
   "peak_30d_pct": 6.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
-  "availability_pct": 6.3,
+  "availability_pct": 6.2,
   "price_stats": {
     "avg": 9.76,
     "min": 8.99,
-    "max": 10.99,
+    "max": 11.99,
     "median": 9.79,
-    "std_dev": 0.4,
-    "store_count": 483
+    "std_dev": 0.41,
+    "store_count": 481
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$9.49",
-      "count": 75
+      "count": 74
     },
     {
       "bucket": "$9.59",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$9.69",
-      "count": 76
+      "count": 74
     },
     {
       "bucket": "$9.79",
@@ -83,6 +83,10 @@
     {
       "bucket": "$10.99",
       "count": 4
+    },
+    {
+      "bucket": "$11.99",
+      "count": 1
     }
   ],
   "state_prices": [
@@ -93,18 +97,18 @@
     },
     {
       "state": "GA",
-      "avg_price": 9.79,
+      "avg_price": 9.8,
       "store_count": 235
     },
     {
       "state": "AL",
       "avg_price": 9.77,
-      "store_count": 119
+      "store_count": 118
     },
     {
       "state": "TN",
       "avg_price": 9.68,
-      "store_count": 87
+      "store_count": 86
     },
     {
       "state": "FL",
@@ -245,6 +249,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "042578",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 11.99
+    },
+    {
       "store_number": "037728",
       "name": "Taco Bell",
       "city": "Kennesaw",
@@ -306,16 +317,49 @@
       "city": "Spanish Fort",
       "state": "AL",
       "price": 10.69
-    },
-    {
-      "store_number": "042825",
-      "name": "Taco Bell",
-      "city": "Mobile",
-      "state": "AL",
-      "price": 10.69
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.69,
+      "new_price": null,
+      "observed_at": "2026-06-01T21:05:32.691472+00:00"
+    },
+    {
+      "store_number": "039933",
+      "store_name": "Taco Bell",
+      "city": "La Grange",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.49,
+      "new_price": null,
+      "observed_at": "2026-06-01T21:05:17.659701+00:00"
+    },
+    {
+      "store_number": "042578",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-06-01T21:04:24.826512+00:00"
+    },
+    {
+      "store_number": "036502",
+      "store_name": "Taco Bell",
+      "city": "Columbiana",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 9.69,
+      "new_price": null,
+      "observed_at": "2026-06-01T21:03:39.105849+00:00"
+    },
     {
       "store_number": "031583",
       "store_name": "Taco Bell",
@@ -5628,8 +5672,8 @@
     }
   ],
   "activity_summary": {
-    "added": 507,
-    "removed": 24,
+    "added": 508,
+    "removed": 27,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6696,15 +6740,6 @@
       "AL"
     ],
     [
-      "039933",
-      33.04909770811266,
-      -85.028005516687,
-      9.49,
-      "Taco Bell",
-      "La Grange",
-      "GA"
-    ],
-    [
       "039947",
       34.88232473482627,
       -83.39660154061286,
@@ -7198,15 +7233,6 @@
       "Taco Bell",
       "Tifton",
       "GA"
-    ],
-    [
-      "036502",
-      33.18046008712423,
-      -86.61298093367881,
-      9.69,
-      "Taco Bell",
-      "Columbiana",
-      "AL"
     ],
     [
       "037099",
@@ -7782,15 +7808,6 @@
       9.69,
       "Taco Bell",
       "Athens",
-      "TN"
-    ],
-    [
-      "030359",
-      35.71724098570292,
-      -84.01247182491716,
-      9.69,
-      "Taco Bell",
-      "Maryville",
       "TN"
     ],
     [
@@ -10033,9 +10050,18 @@
       "Taco Bell",
       "Kennesaw",
       "GA"
+    ],
+    [
+      "042578",
+      33.78032506878061,
+      -84.38918335266644,
+      11.99,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-05-31",
+  "last_seen_date": "2026-06-01",
   "peak_availability_pct": 6.0
 }

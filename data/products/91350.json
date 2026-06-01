@@ -16,12 +16,12 @@
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
   "availability_pct": 6.3,
   "price_stats": {
-    "avg": 3.26,
+    "avg": 3.27,
     "min": 2.99,
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.17,
-    "store_count": 484
+    "store_count": 482
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 246
+      "count": 244
     },
     {
       "bucket": "$3.29",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 48
+      "count": 47
     },
     {
       "bucket": "$3.49",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
@@ -67,12 +67,12 @@
     {
       "state": "TN",
       "avg_price": 3.26,
-      "store_count": 87
+      "store_count": 86
     },
     {
       "state": "AL",
       "avg_price": 3.22,
-      "store_count": 119
+      "store_count": 118
     },
     {
       "state": "FL",
@@ -221,6 +221,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "042578",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 3.99
+    },
+    {
       "store_number": "026342",
       "name": "Taco Bell",
       "city": "Lawrenceville",
@@ -282,16 +289,49 @@
       "city": "Bluffton",
       "state": "SC",
       "price": 3.59
-    },
-    {
-      "store_number": "039920",
-      "name": "Taco Bell",
-      "city": "Savannah",
-      "state": "GA",
-      "price": 3.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-06-01T21:05:32.691472+00:00"
+    },
+    {
+      "store_number": "039933",
+      "store_name": "Taco Bell",
+      "city": "La Grange",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-06-01T21:05:17.659701+00:00"
+    },
+    {
+      "store_number": "042578",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-06-01T21:04:24.826512+00:00"
+    },
+    {
+      "store_number": "036502",
+      "store_name": "Taco Bell",
+      "city": "Columbiana",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-06-01T21:03:39.105849+00:00"
+    },
     {
       "store_number": "030359",
       "store_name": "Taco Bell",
@@ -5574,8 +5614,8 @@
     }
   ],
   "activity_summary": {
-    "added": 506,
-    "removed": 22,
+    "added": 507,
+    "removed": 25,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6394,15 +6434,6 @@
       "Taco Bell",
       "Clinton",
       "TN"
-    ],
-    [
-      "036502",
-      33.18046008712423,
-      -86.61298093367881,
-      3.19,
-      "Taco Bell",
-      "Columbiana",
-      "AL"
     ],
     [
       "036011",
@@ -8268,15 +8299,6 @@
       "GA"
     ],
     [
-      "030359",
-      35.71724098570292,
-      -84.01247182491716,
-      3.19,
-      "Taco Bell",
-      "Maryville",
-      "TN"
-    ],
-    [
       "038870",
       35.78569324608056,
       -83.98713379459087,
@@ -9049,15 +9071,6 @@
       "Taco Bell",
       "Knoxville",
       "TN"
-    ],
-    [
-      "039933",
-      33.04909770811266,
-      -85.028005516687,
-      3.39,
-      "Taco Bell",
-      "La Grange",
-      "GA"
     ],
     [
       "004531",
@@ -9958,9 +9971,18 @@
       "Taco Bell",
       "Lawrenceville",
       "GA"
+    ],
+    [
+      "042578",
+      33.78032506878061,
+      -84.38918335266644,
+      3.99,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-05-31",
+  "last_seen_date": "2026-06-01",
   "peak_availability_pct": 6.0
 }

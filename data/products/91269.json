@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.2,
-  "recent_price_change_pct": 0.0352,
+  "recent_price_change_pct": 0.0346,
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.93,
+    "avg": 7.08,
     "min": 6.49,
-    "max": 7.49,
+    "max": 9.99,
     "median": 6.79,
-    "std_dev": 0.45,
-    "store_count": 14
+    "std_dev": 0.91,
+    "store_count": 15
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 6
+      "count": 7
     },
     {
       "bucket": "$6.79",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$7.29",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$7.39",
@@ -43,13 +43,17 @@
     {
       "bucket": "$7.49",
       "count": 3
+    },
+    {
+      "bucket": "$9.99",
+      "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 7.18,
-      "store_count": 8
+      "avg_price": 7.4,
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -110,6 +114,13 @@
       "price": 6.49
     },
     {
+      "store_number": "042574",
+      "name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "price": 6.49
+    },
+    {
       "store_number": "042119",
       "name": "Taco Bell",
       "city": "Hope Hull",
@@ -122,13 +133,6 @@
       "city": "Montgomery",
       "state": "AL",
       "price": 6.79
-    },
-    {
-      "store_number": "041251",
-      "name": "Taco Bell",
-      "city": "Lawrenceville",
-      "state": "GA",
-      "price": 7.29
     },
     {
       "store_number": "041258",
@@ -144,9 +148,17 @@
     "024403",
     "026432",
     "042123",
-    "042829"
+    "042829",
+    "042574"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042578",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 9.99
+    },
     {
       "store_number": "041212",
       "name": "Taco Bell",
@@ -183,13 +195,6 @@
       "price": 7.29
     },
     {
-      "store_number": "041251",
-      "name": "Taco Bell",
-      "city": "Lawrenceville",
-      "state": "GA",
-      "price": 7.29
-    },
-    {
       "store_number": "036487",
       "name": "Taco Bell",
       "city": "Montgomery",
@@ -204,21 +209,51 @@
       "price": 6.79
     },
     {
+      "store_number": "042574",
+      "name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "price": 6.49
+    },
+    {
       "store_number": "042829",
       "name": "Taco Bell",
       "city": "Pensacola",
       "state": "FL",
       "price": 6.49
-    },
-    {
-      "store_number": "042123",
-      "name": "Taco Bell",
-      "city": "Niceville",
-      "state": "FL",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042574",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-06-01T21:04:56.873645+00:00"
+    },
+    {
+      "store_number": "041251",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 7.29,
+      "new_price": null,
+      "observed_at": "2026-06-01T21:04:54.539738+00:00"
+    },
+    {
+      "store_number": "042578",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-01T21:04:24.826512+00:00"
+    },
     {
       "store_number": "041212",
       "store_name": "Taco Bell",
@@ -931,8 +966,8 @@
     }
   ],
   "activity_summary": {
-    "added": 31,
-    "removed": 40,
+    "added": 33,
+    "removed": 41,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1015,6 +1050,15 @@
       "FL"
     ],
     [
+      "042574",
+      33.910308019300345,
+      -84.82438392472432,
+      6.49,
+      "Taco Bell",
+      "Dallas",
+      "GA"
+    ],
+    [
       "042119",
       32.270159,
       -86.355812,
@@ -1031,15 +1075,6 @@
       "Taco Bell",
       "Montgomery",
       "AL"
-    ],
-    [
-      "041251",
-      33.9548504761488,
-      -84.05577776243516,
-      7.29,
-      "Taco Bell",
-      "Lawrenceville",
-      "GA"
     ],
     [
       "041258",
@@ -1084,6 +1119,15 @@
       7.49,
       "Taco Bell",
       "Decatur",
+      "GA"
+    ],
+    [
+      "042578",
+      33.78032506878061,
+      -84.38918335266644,
+      9.99,
+      "Taco Bell",
+      "Atlanta",
       "GA"
     ]
   ],

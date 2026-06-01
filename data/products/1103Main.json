@@ -11,22 +11,18 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": -0.0453,
+  "recent_price_change_pct": -0.0201,
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.38,
-    "min": 2.0,
+    "avg": 2.44,
+    "min": 2.19,
     "max": 2.79,
-    "median": 2.29,
-    "std_dev": 0.31,
-    "store_count": 7
+    "median": 2.34,
+    "std_dev": 0.28,
+    "store_count": 6
   },
   "histogram": [
-    {
-      "bucket": "$2.00",
-      "count": 1
-    },
     {
       "bucket": "$2.19",
       "count": 2
@@ -47,13 +43,6 @@
   "state_prices": [],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "035069",
-      "name": "Taco Bell Cantina Cantina",
-      "city": "Bronx",
-      "state": "NY",
-      "price": 2.0
-    },
     {
       "store_number": "039656",
       "name": "Taco Bell",
@@ -98,7 +87,8 @@
     }
   ],
   "min_price_store_numbers": [
-    "035069"
+    "039656",
+    "034354"
   ],
   "priciest_stores": [
     {
@@ -142,16 +132,19 @@
       "city": "Denver",
       "state": "CO",
       "price": 2.19
-    },
-    {
-      "store_number": "035069",
-      "name": "Taco Bell Cantina Cantina",
-      "city": "Bronx",
-      "state": "NY",
-      "price": 2.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035069",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Bronx",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.0,
+      "new_price": null,
+      "observed_at": "2026-06-01T21:03:34.927878+00:00"
+    },
     {
       "store_number": "040994",
       "store_name": "Taco Bell Cantina Cantina",
@@ -375,7 +368,7 @@
   ],
   "activity_summary": {
     "added": 10,
-    "removed": 12,
+    "removed": 13,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -384,15 +377,6 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
-    [
-      "035069",
-      40.85349737814087,
-      -73.90731431902589,
-      2.0,
-      "Taco Bell Cantina Cantina",
-      "Bronx",
-      "NY"
-    ],
     [
       "039656",
       39.7439075,

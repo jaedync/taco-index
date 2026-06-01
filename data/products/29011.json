@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": -0.0321,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
   "availability_pct": 0.4,
   "price_stats": {
@@ -60,6 +60,13 @@
       "name": "Taco Bell",
       "city": "Norfolk",
       "state": "VA",
+      "price": 3.99
+    },
+    {
+      "store_number": "040730",
+      "name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
       "price": 3.99
     },
     {
@@ -117,17 +124,11 @@
       "city": "Winter Park",
       "state": "FL",
       "price": 3.99
-    },
-    {
-      "store_number": "027982",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 3.99
     }
   ],
   "min_price_store_numbers": [
     "021309",
+    "040730",
     "034859",
     "036232",
     "037110",
@@ -137,7 +138,6 @@
     "042941",
     "027981",
     "027982",
-    "022833",
     "023299",
     "027979",
     "028007",
@@ -228,6 +228,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022833",
+      "store_name": "Taco Bell",
+      "city": "Clermont",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-06-01T21:04:51.447653+00:00"
+    },
+    {
+      "store_number": "040730",
+      "store_name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-06-01T21:03:06.173001+00:00"
+    },
     {
       "store_number": "027990",
       "store_name": "Taco Bell",
@@ -810,8 +830,8 @@
     }
   ],
   "activity_summary": {
-    "added": 42,
-    "removed": 16,
+    "added": 43,
+    "removed": 17,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -841,6 +861,15 @@
       "Taco Bell",
       "Norfolk",
       "VA"
+    ],
+    [
+      "040730",
+      28.978999988269013,
+      -80.90048237483407,
+      3.99,
+      "Taco Bell",
+      "Edgewater",
+      "FL"
     ],
     [
       "034859",
@@ -921,15 +950,6 @@
       3.99,
       "Taco Bell",
       "Orlando",
-      "FL"
-    ],
-    [
-      "022833",
-      28.3538526090358,
-      -81.6757670044899,
-      3.99,
-      "Taco Bell",
-      "Clermont",
       "FL"
     ],
     [

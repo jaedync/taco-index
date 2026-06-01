@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.33,
+    "avg": 10.43,
     "min": 9.99,
-    "max": 10.99,
+    "max": 11.99,
     "median": 10.29,
-    "std_dev": 0.28,
-    "store_count": 14
+    "std_dev": 0.49,
+    "store_count": 16
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$10.29",
-      "count": 6
+      "count": 7
     },
     {
       "bucket": "$10.49",
@@ -51,13 +51,17 @@
     {
       "bucket": "$10.99",
       "count": 1
+    },
+    {
+      "bucket": "$11.99",
+      "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.41,
-      "store_count": 6
+      "avg_price": 10.59,
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -153,6 +157,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "042578",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 11.99
+    },
+    {
       "store_number": "041258",
       "name": "Taco Bell",
       "city": "Peachtree Corners",
@@ -181,6 +192,13 @@
       "price": 10.49
     },
     {
+      "store_number": "042574",
+      "name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "price": 10.29
+    },
+    {
       "store_number": "029145",
       "name": "Taco Bell",
       "city": "Cullman",
@@ -207,23 +225,29 @@
       "city": "Hartwell",
       "state": "GA",
       "price": 10.29
-    },
-    {
-      "store_number": "026432",
-      "name": "Taco Bell",
-      "city": "Pigeon Forge",
-      "state": "TN",
-      "price": 10.29
-    },
-    {
-      "store_number": "024403",
-      "name": "Taco Bell",
-      "city": "Crossville",
-      "state": "TN",
-      "price": 10.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042574",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.29,
+      "observed_at": "2026-06-01T21:04:56.873645+00:00"
+    },
+    {
+      "store_number": "042578",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-06-01T21:04:24.826512+00:00"
+    },
     {
       "store_number": "041212",
       "store_name": "Taco Bell",
@@ -1026,7 +1050,7 @@
     }
   ],
   "activity_summary": {
-    "added": 47,
+    "added": 49,
     "removed": 33,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1158,6 +1182,15 @@
       "AL"
     ],
     [
+      "042574",
+      33.910308019300345,
+      -84.82438392472432,
+      10.29,
+      "Taco Bell",
+      "Dallas",
+      "GA"
+    ],
+    [
       "041212",
       33.75484747709103,
       -84.26683026558743,
@@ -1192,9 +1225,18 @@
       "Taco Bell",
       "Peachtree Corners",
       "GA"
+    ],
+    [
+      "042578",
+      33.78032506878061,
+      -84.38918335266644,
+      11.99,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-31",
+  "last_seen_date": "2026-06-01",
   "peak_availability_pct": 0.2
 }

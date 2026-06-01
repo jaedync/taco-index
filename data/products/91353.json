@@ -20,7 +20,7 @@
     "min": 10.49,
     "max": 12.59,
     "median": 11.19,
-    "std_dev": 0.4,
+    "std_dev": 0.41,
     "store_count": 488
   },
   "histogram": [
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$10.69",
-      "count": 16
+      "count": 15
     },
     {
       "bucket": "$10.79",
@@ -69,6 +69,10 @@
       "count": 1
     },
     {
+      "bucket": "$12.29",
+      "count": 1
+    },
+    {
       "bucket": "$12.59",
       "count": 3
     }
@@ -81,8 +85,8 @@
     },
     {
       "state": "TN",
-      "avg_price": 11.24,
-      "store_count": 88
+      "avg_price": 11.25,
+      "store_count": 87
     },
     {
       "state": "SC",
@@ -92,7 +96,7 @@
     {
       "state": "GA",
       "avg_price": 11.06,
-      "store_count": 239
+      "store_count": 240
     },
     {
       "state": "FL",
@@ -269,6 +273,13 @@
       "price": 12.59
     },
     {
+      "store_number": "042578",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 12.29
+    },
+    {
       "store_number": "035461",
       "name": "Taco Bell",
       "city": "Maryville",
@@ -309,16 +320,29 @@
       "city": "Conyers",
       "state": "GA",
       "price": 11.89
-    },
-    {
-      "store_number": "027599",
-      "name": "Taco Bell",
-      "city": "Madison",
-      "state": "GA",
-      "price": 11.89
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042578",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.29,
+      "observed_at": "2026-06-01T21:04:24.826512+00:00"
+    },
+    {
+      "store_number": "037050",
+      "store_name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 10.69,
+      "new_price": null,
+      "observed_at": "2026-06-01T21:03:41.500894+00:00"
+    },
     {
       "store_number": "005482",
       "store_name": "Taco Bell",
@@ -5401,8 +5425,8 @@
     }
   ],
   "activity_summary": {
-    "added": 498,
-    "removed": 10,
+    "added": 499,
+    "removed": 11,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5986,15 +6010,6 @@
       10.69,
       "Taco Bell",
       "Knoxville",
-      "TN"
-    ],
-    [
-      "037050",
-      36.10306709232148,
-      -84.58455685815763,
-      10.69,
-      "Taco Bell",
-      "Wartburg",
       "TN"
     ],
     [
@@ -9814,6 +9829,15 @@
       "TN"
     ],
     [
+      "042578",
+      33.78032506878061,
+      -84.38918335266644,
+      12.29,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
+    ],
+    [
       "032055",
       34.0647052,
       -83.9841147,
@@ -9842,6 +9866,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-05-31",
+  "last_seen_date": "2026-06-01",
   "peak_availability_pct": 6.0
 }
