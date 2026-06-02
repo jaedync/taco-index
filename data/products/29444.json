@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.0,
-  "recent_price_change_pct": 0.0499,
+  "recent_price_change_pct": 0.0593,
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.2,
   "price_stats": {
-    "avg": 11.49,
+    "avg": 11.52,
     "min": 10.99,
     "max": 11.99,
-    "median": 11.49,
+    "median": 11.99,
     "std_dev": 0.51,
-    "store_count": 20
+    "store_count": 19
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 10
+      "count": 9
     },
     {
       "bucket": "$11.99",
@@ -36,8 +36,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 11.4,
-      "store_count": 17
+      "avg_price": 11.43,
+      "store_count": 16
     }
   ],
   "nutrition": null,
@@ -46,13 +46,6 @@
       "store_number": "041088",
       "name": "Taco Bell",
       "city": "Covington",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
-      "store_number": "042107",
-      "name": "Taco Bell",
-      "city": "Cumming",
       "state": "GA",
       "price": 10.99
     },
@@ -111,11 +104,17 @@
       "city": "Covington",
       "state": "GA",
       "price": 10.99
+    },
+    {
+      "store_number": "042582",
+      "name": "Taco Bell",
+      "city": "Dacula",
+      "state": "GA",
+      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
     "041088",
-    "042107",
     "036290",
     "003859",
     "027711",
@@ -198,6 +197,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042107",
+      "store_name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-02T21:38:20.485980+00:00"
+    },
     {
       "store_number": "027858",
       "store_name": "Taco Bell",
@@ -2241,7 +2250,7 @@
   ],
   "activity_summary": {
     "added": 112,
-    "removed": 92,
+    "removed": 93,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2294,15 +2303,6 @@
       10.99,
       "Taco Bell",
       "Covington",
-      "GA"
-    ],
-    [
-      "042107",
-      34.189321,
-      -84.138955,
-      10.99,
-      "Taco Bell",
-      "Cumming",
       "GA"
     ],
     [
@@ -2469,6 +2469,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-01",
+  "last_seen_date": "2026-06-02",
   "peak_availability_pct": 1.0
 }

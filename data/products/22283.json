@@ -15,7 +15,7 @@
   "is_meatless": true,
   "is_limited": false,
   "peak_30d_pct": 87.4,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0359,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 93.4,
   "price_stats": {
@@ -24,7 +24,7 @@
     "max": 6.99,
     "median": 1.59,
     "std_dev": 0.31,
-    "store_count": 7198
+    "store_count": 7196
   },
   "histogram": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "bucket": "$1.39",
-      "count": 323
+      "count": 324
     },
     {
       "bucket": "$1.43",
@@ -69,7 +69,7 @@
     },
     {
       "bucket": "$1.59",
-      "count": 1671
+      "count": 1669
     },
     {
       "bucket": "$1.61",
@@ -105,7 +105,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1028
+      "count": 1027
     },
     {
       "bucket": "$2.00",
@@ -281,7 +281,7 @@
     {
       "state": "WA",
       "avg_price": 1.84,
-      "store_count": 139
+      "store_count": 138
     },
     {
       "state": "IA",
@@ -289,14 +289,14 @@
       "store_count": 49
     },
     {
-      "state": "MI",
-      "avg_price": 1.76,
-      "store_count": 346
-    },
-    {
       "state": "OR",
       "avg_price": 1.76,
       "store_count": 122
+    },
+    {
+      "state": "MI",
+      "avg_price": 1.76,
+      "store_count": 345
     },
     {
       "state": "NV",
@@ -361,7 +361,7 @@
     {
       "state": "MO",
       "avg_price": 1.63,
-      "store_count": 226
+      "store_count": 225
     },
     {
       "state": "AR",
@@ -410,8 +410,8 @@
     },
     {
       "state": "WV",
-      "avg_price": 1.57,
-      "store_count": 72
+      "avg_price": 1.56,
+      "store_count": 73
     },
     {
       "state": "OK",
@@ -671,6 +671,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004863",
+      "store_name": "Taco Bell",
+      "city": "Statesville",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-06-02T21:38:31.170751+00:00"
+    },
+    {
+      "store_number": "040656",
+      "store_name": "Taco Bell",
+      "city": "Livonia",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-06-02T21:38:29.935189+00:00"
+    },
+    {
+      "store_number": "029867",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.59,
+      "observed_at": "2026-06-02T21:38:29.919762+00:00"
+    },
+    {
+      "store_number": "037069",
+      "store_name": "Taco Bell",
+      "city": "Dunbar",
+      "state": "WV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.39,
+      "observed_at": "2026-06-02T21:38:24.037803+00:00"
+    },
+    {
+      "store_number": "042803",
+      "store_name": "Taco Bell",
+      "city": "Eldon",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-06-02T21:38:21.127529+00:00"
+    },
+    {
+      "store_number": "036344",
+      "store_name": "Taco Bell",
+      "city": "Ridgefield",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-06-02T21:38:11.851768+00:00"
+    },
     {
       "store_number": "032105",
       "store_name": "Taco Bell",
@@ -11203,8 +11263,8 @@
     }
   ],
   "activity_summary": {
-    "added": 177,
-    "removed": 661,
+    "added": 179,
+    "removed": 665,
     "price_changed": 215,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13003,6 +13063,15 @@
       "Taco Bell",
       "Nicholasville",
       "KY"
+    ],
+    [
+      "037069",
+      38.3600200648876,
+      -81.7364445319791,
+      1.39,
+      "Taco Bell",
+      "Dunbar",
+      "WV"
     ],
     [
       "037342",
@@ -31842,15 +31911,6 @@
       "FL"
     ],
     [
-      "036344",
-      45.81521068263736,
-      -122.7031338757779,
-      1.59,
-      "Taco Bell",
-      "Ridgefield",
-      "WA"
-    ],
-    [
       "036451",
       34.04443,
       -94.32991,
@@ -32407,15 +32467,6 @@
       "Taco Bell",
       "Perkins",
       "OK"
-    ],
-    [
-      "042803",
-      38.33854211105616,
-      -92.58411423711986,
-      1.59,
-      "Taco Bell",
-      "Eldon",
-      "MO"
     ],
     [
       "042779",
@@ -33291,6 +33342,15 @@
       "MI"
     ],
     [
+      "029867",
+      35.10074468567441,
+      -80.99148988723755,
+      1.59,
+      "Taco Bell",
+      "Charlotte",
+      "NC"
+    ],
+    [
       "040535",
       41.52477514962175,
       -81.58726255092614,
@@ -33468,15 +33528,6 @@
       1.59,
       "Taco Bell",
       "Locust",
-      "NC"
-    ],
-    [
-      "004863",
-      35.81170499242083,
-      -80.87526569431576,
-      1.59,
-      "Taco Bell",
-      "Statesville",
       "NC"
     ],
     [
@@ -64051,15 +64102,6 @@
       "Taco Bell",
       "Akron",
       "OH"
-    ],
-    [
-      "040656",
-      42.3960747799699,
-      -83.33494661838544,
-      1.99,
-      "Taco Bell",
-      "Livonia",
-      "MI"
     ],
     [
       "035363",

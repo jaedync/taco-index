@@ -21,7 +21,7 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.19,
-    "store_count": 106
+    "store_count": 107
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 61
+      "count": 63
     },
     {
       "bucket": "$3.29",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$3.49",
@@ -57,12 +57,12 @@
     {
       "state": "GA",
       "avg_price": 3.39,
-      "store_count": 41
+      "store_count": 42
     },
     {
       "state": "TN",
-      "avg_price": 3.29,
-      "store_count": 10
+      "avg_price": 3.28,
+      "store_count": 9
     },
     {
       "state": "FL",
@@ -72,7 +72,7 @@
     {
       "state": "AL",
       "avg_price": 3.19,
-      "store_count": 42
+      "store_count": 43
     }
   ],
   "nutrition": null,
@@ -230,6 +230,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037419",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-06-02T21:38:25.191081+00:00"
+    },
+    {
+      "store_number": "042665",
+      "store_name": "Taco Bell",
+      "city": "McCalla",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-06-02T21:38:20.556988+00:00"
+    },
+    {
+      "store_number": "035461",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-06-02T21:38:09.475288+00:00"
+    },
     {
       "store_number": "039946",
       "store_name": "Taco Bell",
@@ -14712,14 +14742,14 @@
     }
   ],
   "activity_summary": {
-    "added": 623,
-    "removed": 517,
+    "added": 625,
+    "removed": 518,
     "price_changed": 308,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 270,
-  "calories_min": 270,
-  "calories_max": 270,
+  "calories_min": 320,
+  "calories_max": 320,
   "combo_groups": [
     {
       "group_id": "674",
@@ -14907,6 +14937,15 @@
       "AL"
     ],
     [
+      "042665",
+      33.280732,
+      -87.100325,
+      3.19,
+      "Taco Bell",
+      "McCalla",
+      "AL"
+    ],
+    [
       "042795",
       31.454788039519286,
       -86.96214342944774,
@@ -14941,6 +14980,15 @@
       "Taco Bell",
       "Talladega",
       "AL"
+    ],
+    [
+      "037419",
+      32.53776933341696,
+      -84.86787174979743,
+      3.19,
+      "Taco Bell",
+      "Midland",
+      "GA"
     ],
     [
       "037357",
@@ -15447,15 +15495,6 @@
       "TN"
     ],
     [
-      "035461",
-      35.75640600000001,
-      -83.9419497,
-      3.39,
-      "Taco Bell",
-      "Maryville",
-      "TN"
-    ],
-    [
       "003969",
       35.70288395093816,
       -85.78153502138795,
@@ -15691,6 +15730,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-01",
+  "last_seen_date": "2026-06-02",
   "peak_availability_pct": 6.0
 }
