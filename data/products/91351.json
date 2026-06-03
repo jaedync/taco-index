@@ -20,7 +20,7 @@
     "min": 5.19,
     "max": 11.69,
     "median": 6.19,
-    "std_dev": 0.64,
+    "std_dev": 0.65,
     "store_count": 490
   },
   "histogram": [
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$6.69",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$6.79",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 37
+      "count": 38
     },
     {
       "bucket": "$11.69",
@@ -117,7 +117,7 @@
     },
     {
       "state": "GA",
-      "avg_price": 6.5,
+      "avg_price": 6.51,
       "store_count": 240
     },
     {
@@ -301,6 +301,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041259",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-06-03T20:50:34.462126+00:00"
+    },
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.69,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:47:26.357498+00:00"
+    },
     {
       "store_number": "037419",
       "store_name": "Taco Bell",
@@ -5423,8 +5443,8 @@
     }
   ],
   "activity_summary": {
-    "added": 501,
-    "removed": 11,
+    "added": 502,
+    "removed": 12,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9053,15 +9073,6 @@
       "AL"
     ],
     [
-      "042903",
-      31.783928,
-      -82.363196,
-      6.69,
-      "Taco Bell",
-      "Baxley",
-      "GA"
-    ],
-    [
       "039923",
       32.43643812662501,
       -81.75874776673481,
@@ -9575,6 +9586,15 @@
       "GA"
     ],
     [
+      "041259",
+      34.57876717849458,
+      -83.76470231775006,
+      7.99,
+      "Taco Bell",
+      "Cleveland",
+      "GA"
+    ],
+    [
       "041256",
       34.16491976646548,
       -84.17636456542422,
@@ -9864,6 +9884,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-02",
+  "last_seen_date": "2026-06-03",
   "peak_availability_pct": 6.0
 }

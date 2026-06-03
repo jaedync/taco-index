@@ -11,7 +11,7 @@
   "is_meatless": true,
   "is_limited": false,
   "peak_30d_pct": 93.0,
-  "recent_price_change_pct": 0.0743,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 99.5,
   "price_stats": {
@@ -25,7 +25,7 @@
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 2096
+      "count": 2097
     },
     {
       "bucket": "$0.10",
@@ -49,7 +49,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 387
+      "count": 386
     },
     {
       "bucket": "$0.31",
@@ -210,7 +210,7 @@
     {
       "state": "MI",
       "avg_price": 0.4,
-      "store_count": 346
+      "store_count": 347
     },
     {
       "state": "MD",
@@ -350,7 +350,7 @@
     {
       "state": "OR",
       "avg_price": 0.21,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "MO",
@@ -2358,6 +2358,7 @@
     "031405",
     "033795",
     "041353",
+    "033013",
     "026082",
     "004238",
     "029078",
@@ -2665,6 +2666,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033013",
+      "store_name": "Taco Bell",
+      "city": "Wyoming",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-03T20:55:35.548194+00:00"
+    },
+    {
+      "store_number": "004402",
+      "store_name": "Taco Bell",
+      "city": "Ontario",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:52:25.778828+00:00"
+    },
     {
       "store_number": "042803",
       "store_name": "Taco Bell",
@@ -3887,8 +3908,8 @@
     }
   ],
   "activity_summary": {
-    "added": 41,
-    "removed": 26,
+    "added": 42,
+    "removed": 27,
     "price_changed": 55,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -20663,6 +20684,15 @@
       "Taco Bell",
       "Rancho Cordova",
       "CA"
+    ],
+    [
+      "033013",
+      42.935717821200605,
+      -85.69526909734122,
+      0.0,
+      "Taco Bell",
+      "Wyoming",
+      "MI"
     ],
     [
       "026082",
@@ -42218,15 +42248,6 @@
       "Taco Bell",
       "El Monte",
       "CA"
-    ],
-    [
-      "004402",
-      44.02520067918069,
-      -116.95665121078491,
-      0.3,
-      "Taco Bell",
-      "Ontario",
-      "OR"
     ],
     [
       "004430",

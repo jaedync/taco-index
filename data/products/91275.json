@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.43,
+    "avg": 10.47,
     "min": 9.99,
     "max": 11.99,
     "median": 10.29,
     "std_dev": 0.49,
-    "store_count": 16
+    "store_count": 17
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$11.99",
@@ -164,6 +164,13 @@
       "price": 11.99
     },
     {
+      "store_number": "035461",
+      "name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "price": 10.99
+    },
+    {
       "store_number": "041258",
       "name": "Taco Bell",
       "city": "Peachtree Corners",
@@ -218,16 +225,19 @@
       "city": "Montgomery",
       "state": "AL",
       "price": 10.29
-    },
-    {
-      "store_number": "034784",
-      "name": "Taco Bell",
-      "city": "Hartwell",
-      "state": "GA",
-      "price": 10.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035461",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-06-03T20:44:49.441042+00:00"
+    },
     {
       "store_number": "042574",
       "store_name": "Taco Bell",
@@ -1050,7 +1060,7 @@
     }
   ],
   "activity_summary": {
-    "added": 49,
+    "added": 50,
     "removed": 33,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1227,6 +1237,15 @@
       "GA"
     ],
     [
+      "035461",
+      35.75640600000001,
+      -83.9419497,
+      10.99,
+      "Taco Bell",
+      "Maryville",
+      "TN"
+    ],
+    [
       "042578",
       33.78032506878061,
       -84.38918335266644,
@@ -1237,6 +1256,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-02",
+  "last_seen_date": "2026-06-03",
   "peak_availability_pct": 0.2
 }

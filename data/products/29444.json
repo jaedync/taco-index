@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.0,
-  "recent_price_change_pct": 0.0593,
+  "recent_price_change_pct": 0.0422,
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 11.52,
+    "avg": 11.43,
     "min": 10.99,
     "max": 11.99,
-    "median": 11.99,
+    "median": 10.99,
     "std_dev": 0.51,
-    "store_count": 19
+    "store_count": 16
   },
   "histogram": [
     {
@@ -30,14 +30,14 @@
     },
     {
       "bucket": "$11.99",
-      "count": 10
+      "count": 7
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 11.43,
-      "store_count": 16
+      "avg_price": 11.35,
+      "store_count": 14
     }
   ],
   "nutrition": null,
@@ -126,13 +126,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "042945",
-      "name": "Taco Bell",
-      "city": "Lavonia",
-      "state": "GA",
-      "price": 11.99
-    },
-    {
       "store_number": "042909",
       "name": "Taco Bell",
       "city": "Miami",
@@ -144,20 +137,6 @@
       "name": "Taco Bell",
       "city": "Miami",
       "state": "FL",
-      "price": 11.99
-    },
-    {
-      "store_number": "042906",
-      "name": "Taco Bell",
-      "city": "Miami",
-      "state": "FL",
-      "price": 11.99
-    },
-    {
-      "store_number": "042579",
-      "name": "Taco Bell",
-      "city": "Braselton",
-      "state": "GA",
       "price": 11.99
     },
     {
@@ -194,9 +173,60 @@
       "city": "Dacula",
       "state": "GA",
       "price": 11.99
+    },
+    {
+      "store_number": "027509",
+      "name": "Taco Bell",
+      "city": "Covington",
+      "state": "GA",
+      "price": 10.99
+    },
+    {
+      "store_number": "027554",
+      "name": "Taco Bell",
+      "city": "Cornelia",
+      "state": "GA",
+      "price": 10.99
+    },
+    {
+      "store_number": "031473",
+      "name": "Taco Bell",
+      "city": "Covington",
+      "state": "GA",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042579",
+      "store_name": "Taco Bell",
+      "city": "Braselton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:56:14.079890+00:00"
+    },
+    {
+      "store_number": "042945",
+      "store_name": "Taco Bell",
+      "city": "Lavonia",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:54:57.548297+00:00"
+    },
+    {
+      "store_number": "042906",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:50:25.547339+00:00"
+    },
     {
       "store_number": "042107",
       "store_name": "Taco Bell",
@@ -2250,7 +2280,7 @@
   ],
   "activity_summary": {
     "added": 112,
-    "removed": 93,
+    "removed": 96,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2423,24 +2453,6 @@
       "GA"
     ],
     [
-      "042579",
-      34.12164984277345,
-      -83.764132739823,
-      11.99,
-      "Taco Bell",
-      "Braselton",
-      "GA"
-    ],
-    [
-      "042906",
-      25.84757960530985,
-      -80.18376678228378,
-      11.99,
-      "Taco Bell",
-      "Miami",
-      "FL"
-    ],
-    [
       "042908",
       25.808503356372075,
       -80.32573870849768,
@@ -2457,18 +2469,9 @@
       "Taco Bell",
       "Miami",
       "FL"
-    ],
-    [
-      "042945",
-      34.44515828481069,
-      -83.11913877725601,
-      11.99,
-      "Taco Bell",
-      "Lavonia",
-      "GA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-02",
+  "last_seen_date": "2026-06-03",
   "peak_availability_pct": 1.0
 }

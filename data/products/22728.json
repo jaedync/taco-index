@@ -11,7 +11,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 2.5,
-  "recent_price_change_pct": 0.0319,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
   "availability_pct": 2.6,
   "price_stats": {
@@ -20,7 +20,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.2,
-    "store_count": 201
+    "store_count": 204
   },
   "histogram": [
     {
@@ -53,11 +53,11 @@
     },
     {
       "bucket": "$0.90",
-      "count": 59
+      "count": 60
     },
     {
       "bucket": "$0.95",
-      "count": 33
+      "count": 32
     },
     {
       "bucket": "$0.99",
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 39
+      "count": 42
     },
     {
       "bucket": "$1.10",
@@ -126,7 +126,7 @@
     {
       "state": "MO",
       "avg_price": 0.94,
-      "store_count": 8
+      "store_count": 9
     },
     {
       "state": "TN",
@@ -142,6 +142,11 @@
       "state": "KS",
       "avg_price": 0.9,
       "store_count": 8
+    },
+    {
+      "state": "SC",
+      "avg_price": 0.88,
+      "store_count": 5
     },
     {
       "state": "WI",
@@ -311,6 +316,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033027",
+      "store_name": "Taco Bell",
+      "city": "Muskegon",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-06-03T20:54:10.648693+00:00"
+    },
+    {
+      "store_number": "032040",
+      "store_name": "Taco Bell",
+      "city": "Orangeburg",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-06-03T20:53:13.227453+00:00"
+    },
+    {
+      "store_number": "029650",
+      "store_name": "Taco Bell",
+      "city": "Saint Peters",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-06-03T20:51:26.817235+00:00"
+    },
+    {
+      "store_number": "031882",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-06-03T20:50:33.989355+00:00"
+    },
+    {
+      "store_number": "001732",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:47:14.457895+00:00"
+    },
     {
       "store_number": "034814",
       "store_name": "Taco Bell",
@@ -4643,8 +4698,8 @@
     }
   ],
   "activity_summary": {
-    "added": 222,
-    "removed": 211,
+    "added": 226,
+    "removed": 212,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5437,6 +5492,15 @@
       "MI"
     ],
     [
+      "033027",
+      43.20541969368313,
+      -86.19753323572108,
+      0.9,
+      "Taco Bell",
+      "Muskegon",
+      "MI"
+    ],
+    [
       "041086",
       39.72009668768734,
       -82.98767904100833,
@@ -5561,15 +5625,6 @@
       "Taco Bell",
       "Harrisburg",
       "NC"
-    ],
-    [
-      "001732",
-      42.32247892201157,
-      -83.48488225604342,
-      0.95,
-      "Taco Bell",
-      "Canton",
-      "MI"
     ],
     [
       "001279",
@@ -5950,6 +6005,15 @@
       "MI"
     ],
     [
+      "032040",
+      33.546534575312734,
+      -80.83066114786561,
+      1.0,
+      "Taco Bell",
+      "Orangeburg",
+      "SC"
+    ],
+    [
       "027557",
       40.21868790328381,
       -85.44321481885163,
@@ -6119,6 +6183,24 @@
       "Taco Bell",
       "Oakland",
       "CA"
+    ],
+    [
+      "031882",
+      36.100445510217455,
+      -115.22302687168121,
+      1.0,
+      "Taco Bell",
+      "Las Vegas",
+      "NV"
+    ],
+    [
+      "029650",
+      38.7916778356872,
+      -90.57457745075226,
+      1.0,
+      "Taco Bell",
+      "Saint Peters",
+      "MO"
     ],
     [
       "037042",
@@ -6464,6 +6546,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-02",
+  "last_seen_date": "2026-06-03",
   "peak_availability_pct": 2.5
 }

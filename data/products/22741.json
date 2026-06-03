@@ -11,7 +11,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 92.4,
-  "recent_price_change_pct": 0.0241,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 98.8,
   "price_stats": {
@@ -20,7 +20,7 @@
     "max": 1.79,
     "median": 0.6,
     "std_dev": 0.17,
-    "store_count": 7614
+    "store_count": 7617
   },
   "histogram": [
     {
@@ -69,7 +69,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 1100
+      "count": 1101
     },
     {
       "bucket": "$0.55",
@@ -105,7 +105,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 610
+      "count": 611
     },
     {
       "bucket": "$0.79",
@@ -113,7 +113,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 608
+      "count": 609
     },
     {
       "bucket": "$0.85",
@@ -205,8 +205,8 @@
     },
     {
       "state": "OR",
-      "avg_price": 0.67,
-      "store_count": 121
+      "avg_price": 0.68,
+      "store_count": 120
     },
     {
       "state": "MI",
@@ -229,11 +229,6 @@
       "store_count": 91
     },
     {
-      "state": "VA",
-      "avg_price": 0.66,
-      "store_count": 199
-    },
-    {
       "state": "DE",
       "avg_price": 0.66,
       "store_count": 16
@@ -244,6 +239,11 @@
       "store_count": 138
     },
     {
+      "state": "VA",
+      "avg_price": 0.66,
+      "store_count": 198
+    },
+    {
       "state": "CA",
       "avg_price": 0.66,
       "store_count": 829
@@ -251,17 +251,17 @@
     {
       "state": "OH",
       "avg_price": 0.64,
-      "store_count": 401
-    },
-    {
-      "state": "GA",
-      "avg_price": 0.64,
-      "store_count": 252
+      "store_count": 402
     },
     {
       "state": "FL",
       "avg_price": 0.64,
-      "store_count": 446
+      "store_count": 447
+    },
+    {
+      "state": "GA",
+      "avg_price": 0.64,
+      "store_count": 254
     },
     {
       "state": "NV",
@@ -309,14 +309,14 @@
       "store_count": 14
     },
     {
-      "state": "SC",
-      "avg_price": 0.6,
-      "store_count": 114
-    },
-    {
       "state": "NM",
       "avg_price": 0.6,
       "store_count": 57
+    },
+    {
+      "state": "SC",
+      "avg_price": 0.6,
+      "store_count": 115
     },
     {
       "state": "TN",
@@ -573,6 +573,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004402",
+      "store_name": "Taco Bell",
+      "city": "Ontario",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:52:25.778828+00:00"
+    },
+    {
+      "store_number": "041229",
+      "store_name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.75,
+      "observed_at": "2026-06-03T20:52:20.367996+00:00"
+    },
+    {
+      "store_number": "003889",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-06-03T20:51:02.791442+00:00"
+    },
+    {
+      "store_number": "042904",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-06-03T20:50:36.667611+00:00"
+    },
+    {
+      "store_number": "000597",
+      "store_name": "Taco Bell",
+      "city": "North Charleston",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-06-03T20:50:36.022292+00:00"
+    },
+    {
+      "store_number": "031463",
+      "store_name": "Taco Bell",
+      "city": "Suffolk",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 0.75,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:50:29.752077+00:00"
+    },
+    {
+      "store_number": "017500",
+      "store_name": "Taco Bell",
+      "city": "New Philadelphia",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.75,
+      "observed_at": "2026-06-03T20:46:18.071421+00:00"
+    },
     {
       "store_number": "003861",
       "store_name": "Taco Bell",
@@ -3005,8 +3075,8 @@
     }
   ],
   "activity_summary": {
-    "added": 106,
-    "removed": 99,
+    "added": 111,
+    "removed": 101,
     "price_changed": 38,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4285,15 +4355,6 @@
       "CA"
     ],
     [
-      "004402",
-      44.02520067918069,
-      -116.95665121078491,
-      0.3,
-      "Taco Bell",
-      "Ontario",
-      "OR"
-    ],
-    [
       "029889",
       33.12910967583168,
       -96.64967287278728,
@@ -5354,6 +5415,15 @@
       "Taco Bell",
       "Lawton",
       "OK"
+    ],
+    [
+      "003889",
+      33.966106,
+      -84.410766,
+      0.3,
+      "Taco Bell",
+      "Marietta",
+      "GA"
     ],
     [
       "041069",
@@ -23921,6 +23991,15 @@
       "Taco Bell",
       "Fayetteville",
       "NC"
+    ],
+    [
+      "000597",
+      32.90128585506651,
+      -80.01802732052056,
+      0.5,
+      "Taco Bell",
+      "North Charleston",
+      "SC"
     ],
     [
       "039998",
@@ -56935,6 +57014,15 @@
       "OH"
     ],
     [
+      "017500",
+      40.49618471957673,
+      -81.47287130355829,
+      0.75,
+      "Taco Bell",
+      "New Philadelphia",
+      "OH"
+    ],
+    [
       "002686",
       40.98427673448952,
       -81.49233065080807,
@@ -58012,15 +58100,6 @@
       0.75,
       "Taco Bell / Pizza Hut",
       "Front Royal",
-      "VA"
-    ],
-    [
-      "031463",
-      36.879049834421245,
-      -76.42300663281048,
-      0.75,
-      "Taco Bell",
-      "Suffolk",
       "VA"
     ],
     [
@@ -61309,6 +61388,15 @@
       "VA"
     ],
     [
+      "041229",
+      33.85923288371655,
+      -84.67192824394984,
+      0.75,
+      "Taco Bell",
+      "Powder Springs",
+      "GA"
+    ],
+    [
       "042080",
       41.780321132295974,
       -70.74298899627745,
@@ -63818,6 +63906,15 @@
       "Taco Bell",
       "Yucca Valley",
       "CA"
+    ],
+    [
+      "042904",
+      30.369598389917513,
+      -81.72297388315201,
+      0.8,
+      "Taco Bell",
+      "Jacksonville",
+      "FL"
     ],
     [
       "031501",

@@ -12,22 +12,18 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0304,
   "first_seen_at": "2026-04-17T20:59:09.048162+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 12.12,
-    "min": 10.99,
+    "avg": 12.28,
+    "min": 11.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.83,
-    "store_count": 8
+    "std_dev": 0.76,
+    "store_count": 7
   },
   "histogram": [
-    {
-      "bucket": "$10.99",
-      "count": 1
-    },
     {
       "bucket": "$11.99",
       "count": 6
@@ -40,13 +36,6 @@
   "state_prices": [],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "028153",
-      "name": "Taco Bell / KFC",
-      "city": "Ithaca",
-      "state": "MI",
-      "price": 10.99
-    },
     {
       "store_number": "029483",
       "name": "Taco Bell",
@@ -98,7 +87,12 @@
     }
   ],
   "min_price_store_numbers": [
-    "028153"
+    "029483",
+    "029401",
+    "004173",
+    "017415",
+    "041399",
+    "029402"
   ],
   "priciest_stores": [
     {
@@ -149,16 +143,19 @@
       "city": "Cary",
       "state": "NC",
       "price": 11.99
-    },
-    {
-      "store_number": "028153",
-      "name": "Taco Bell / KFC",
-      "city": "Ithaca",
-      "state": "MI",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028153",
+      "store_name": "Taco Bell / KFC",
+      "city": "Ithaca",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:55:04.925202+00:00"
+    },
     {
       "store_number": "003881",
       "store_name": "Taco Bell / KFC",
@@ -982,7 +979,7 @@
   ],
   "activity_summary": {
     "added": 45,
-    "removed": 37,
+    "removed": 38,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1034,15 +1031,6 @@
     }
   ],
   "map_data": [
-    [
-      "028153",
-      43.29202104434658,
-      -84.58605750473907,
-      10.99,
-      "Taco Bell / KFC",
-      "Ithaca",
-      "MI"
-    ],
     [
       "029483",
       35.80337775917284,
@@ -1108,6 +1096,6 @@
     ]
   ],
   "retired_at": "2026-04-18T22:12:40.299660+00:00",
-  "last_seen_date": "2026-06-01",
+  "last_seen_date": "2026-06-03",
   "peak_availability_pct": 0.4
 }

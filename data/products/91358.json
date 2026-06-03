@@ -12,29 +12,29 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 6.0,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0234,
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
-  "availability_pct": 6.1,
+  "availability_pct": 6.2,
   "price_stats": {
     "avg": 5.62,
     "min": 5.49,
     "max": 6.49,
     "median": 5.49,
     "std_dev": 0.23,
-    "store_count": 473
+    "store_count": 477
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 354
+      "count": 358
     },
     {
       "bucket": "$5.99",
-      "count": 115
+      "count": 114
     },
     {
       "bucket": "$6.19",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$6.49",
@@ -44,28 +44,28 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 5.78,
-      "store_count": 31
+      "avg_price": 5.77,
+      "store_count": 32
     },
     {
       "state": "GA",
       "avg_price": 5.64,
-      "store_count": 228
+      "store_count": 227
     },
     {
       "state": "TN",
       "avg_price": 5.61,
-      "store_count": 88
+      "store_count": 89
+    },
+    {
+      "state": "SC",
+      "avg_price": 5.59,
+      "store_count": 7
     },
     {
       "state": "AL",
       "avg_price": 5.54,
-      "store_count": 118
-    },
-    {
-      "state": "SC",
-      "avg_price": 5.49,
-      "store_count": 5
+      "store_count": 119
     }
   ],
   "nutrition": {
@@ -186,6 +186,7 @@
     "042575",
     "043146",
     "034827",
+    "035455",
     "042583",
     "035465",
     "034710",
@@ -203,6 +204,7 @@
     "036415",
     "036502",
     "036011",
+    "043148",
     "036519",
     "037099",
     "036937",
@@ -317,8 +319,10 @@
     "040162",
     "040382",
     "042577",
+    "040528",
     "040571",
     "040431",
+    "003824",
     "029083",
     "036370",
     "029036",
@@ -355,7 +359,6 @@
     "036372",
     "036486",
     "003859",
-    "041798",
     "030707",
     "041322",
     "041224",
@@ -385,6 +388,7 @@
     "036483",
     "029292",
     "029085",
+    "022073",
     "030252",
     "003648",
     "029107",
@@ -399,6 +403,7 @@
     "032206",
     "041802",
     "039933",
+    "043130",
     "036369",
     "039947",
     "036481",
@@ -418,7 +423,6 @@
     "002995",
     "015360",
     "003874",
-    "029970",
     "043135",
     "029029",
     "029084",
@@ -540,6 +544,20 @@
       "price": 6.19
     },
     {
+      "store_number": "039922",
+      "name": "Taco Bell",
+      "city": "Bluffton",
+      "state": "SC",
+      "price": 6.19
+    },
+    {
+      "store_number": "037100",
+      "name": "Taco Bell",
+      "city": "Dunlap",
+      "state": "TN",
+      "price": 5.99
+    },
+    {
       "store_number": "040900",
       "name": "Taco Bell",
       "city": "Blaine",
@@ -566,23 +584,129 @@
       "city": "Niceville",
       "state": "FL",
       "price": 5.99
-    },
-    {
-      "store_number": "039701",
-      "name": "Taco Bell",
-      "city": "Carrollton",
-      "state": "GA",
-      "price": 5.99
-    },
-    {
-      "store_number": "041241",
-      "name": "Taco Bell",
-      "city": "Athens",
-      "state": "GA",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039922",
+      "store_name": "Taco Bell",
+      "city": "Bluffton",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-06-03T20:55:42.812538+00:00"
+    },
+    {
+      "store_number": "029970",
+      "store_name": "Taco Bell",
+      "city": "Andalusia",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:53:44.671235+00:00"
+    },
+    {
+      "store_number": "041254",
+      "store_name": "Taco Bell",
+      "city": "Woodstock",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:53:25.393641+00:00"
+    },
+    {
+      "store_number": "043130",
+      "store_name": "Taco Bell",
+      "city": "Augusta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-03T20:53:21.755071+00:00"
+    },
+    {
+      "store_number": "022073",
+      "store_name": "Taco Bell",
+      "city": "Panama City",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-03T20:52:22.052450+00:00"
+    },
+    {
+      "store_number": "041798",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:50:39.399949+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-03T20:47:24.532542+00:00"
+    },
+    {
+      "store_number": "040528",
+      "store_name": "Taco Bell",
+      "city": "Arab",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-03T20:47:23.803699+00:00"
+    },
+    {
+      "store_number": "041246",
+      "store_name": "Taco Bell",
+      "city": "Roswell",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:47:22.193322+00:00"
+    },
+    {
+      "store_number": "037100",
+      "store_name": "Taco Bell",
+      "city": "Dunlap",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-06-03T20:45:02.859573+00:00"
+    },
+    {
+      "store_number": "043148",
+      "store_name": "Taco Bell",
+      "city": "Aiken",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-03T20:44:57.502331+00:00"
+    },
+    {
+      "store_number": "035455",
+      "store_name": "Taco Bell",
+      "city": "Pinson",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-03T20:43:16.711397+00:00"
+    },
     {
       "store_number": "029115",
       "store_name": "Taco Bell",
@@ -6035,8 +6159,8 @@
     }
   ],
   "activity_summary": {
-    "added": 509,
-    "removed": 36,
+    "added": 517,
+    "removed": 40,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6325,6 +6449,15 @@
       "TN"
     ],
     [
+      "035455",
+      33.69690488411811,
+      -86.60679751521161,
+      5.49,
+      "Taco Bell",
+      "Pinson",
+      "AL"
+    ],
+    [
       "042583",
       34.60104444338766,
       -83.51778554254794,
@@ -6476,6 +6609,15 @@
       "Taco Bell",
       "Calhoun",
       "GA"
+    ],
+    [
+      "043148",
+      33.51436354486988,
+      -81.71513920100077,
+      5.49,
+      "Taco Bell",
+      "Aiken",
+      "SC"
     ],
     [
       "036519",
@@ -7504,6 +7646,15 @@
       "GA"
     ],
     [
+      "040528",
+      34.33888861485186,
+      -86.50289138988649,
+      5.49,
+      "Taco Bell",
+      "Arab",
+      "AL"
+    ],
+    [
       "040571",
       35.06270588603029,
       -85.13815782883033,
@@ -7519,6 +7670,15 @@
       5.49,
       "Taco Bell",
       "Byron",
+      "GA"
+    ],
+    [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      5.49,
+      "Taco Bell",
+      "Lithia Springs",
       "GA"
     ],
     [
@@ -7846,15 +8006,6 @@
       "GA"
     ],
     [
-      "041798",
-      33.29478815954969,
-      -83.96059935717133,
-      5.49,
-      "Taco Bell",
-      "Jackson",
-      "GA"
-    ],
-    [
       "030707",
       30.18565418903784,
       -85.8179617328141,
@@ -8116,6 +8267,15 @@
       "GA"
     ],
     [
+      "022073",
+      30.190228522445892,
+      -85.71125165374724,
+      5.49,
+      "Taco Bell",
+      "Panama City",
+      "FL"
+    ],
+    [
       "030252",
       35.90411834296496,
       -84.14302812656382,
@@ -8239,6 +8399,15 @@
       5.49,
       "Taco Bell",
       "La Grange",
+      "GA"
+    ],
+    [
+      "043130",
+      33.41227235483598,
+      -82.02532054354764,
+      5.49,
+      "Taco Bell",
+      "Augusta",
       "GA"
     ],
     [
@@ -8411,15 +8580,6 @@
       "Taco Bell",
       "Crestview",
       "FL"
-    ],
-    [
-      "029970",
-      31.31086345173646,
-      -86.50004634264405,
-      5.49,
-      "Taco Bell",
-      "Andalusia",
-      "AL"
     ],
     [
       "043135",
@@ -9448,15 +9608,6 @@
       "GA"
     ],
     [
-      "041246",
-      34.02688920225713,
-      -84.33440368976099,
-      5.99,
-      "Taco Bell",
-      "Roswell",
-      "GA"
-    ],
-    [
       "042903",
       31.783928,
       -82.363196,
@@ -9952,15 +10103,6 @@
       "GA"
     ],
     [
-      "041254",
-      34.11227583037828,
-      -84.55985329084487,
-      5.99,
-      "Taco Bell",
-      "Woodstock",
-      "GA"
-    ],
-    [
       "039924",
       31.84574482196275,
       -81.60342658085327,
@@ -10267,6 +10409,24 @@
       "TN"
     ],
     [
+      "037100",
+      35.366584915695654,
+      -85.39338904355265,
+      5.99,
+      "Taco Bell",
+      "Dunlap",
+      "TN"
+    ],
+    [
+      "039922",
+      32.255501256143404,
+      -80.84758818964474,
+      6.19,
+      "Taco Bell",
+      "Bluffton",
+      "SC"
+    ],
+    [
       "039921",
       32.112410602164445,
       -81.23548958895492,
@@ -10304,6 +10464,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-02",
+  "last_seen_date": "2026-06-03",
   "peak_availability_pct": 6.0
 }

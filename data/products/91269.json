@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.2,
-  "recent_price_change_pct": 0.0403,
+  "recent_price_change_pct": 0.034,
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 7.08,
+    "avg": 7.03,
     "min": 6.49,
     "max": 9.99,
-    "median": 6.79,
-    "std_dev": 0.91,
-    "store_count": 15
+    "median": 6.64,
+    "std_dev": 0.89,
+    "store_count": 16
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$6.79",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$7.29",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$7.39",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$7.49",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$9.99",
@@ -52,7 +52,7 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 7.4,
+      "avg_price": 7.38,
       "store_count": 9
     }
   ],
@@ -121,6 +121,13 @@
       "price": 6.49
     },
     {
+      "store_number": "035461",
+      "name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "price": 6.49
+    },
+    {
       "store_number": "042119",
       "name": "Taco Bell",
       "city": "Hope Hull",
@@ -133,13 +140,6 @@
       "city": "Montgomery",
       "state": "AL",
       "price": 6.79
-    },
-    {
-      "store_number": "041258",
-      "name": "Taco Bell",
-      "city": "Peachtree Corners",
-      "state": "GA",
-      "price": 7.29
     }
   ],
   "min_price_store_numbers": [
@@ -149,7 +149,8 @@
     "026432",
     "042123",
     "042829",
-    "042574"
+    "042574",
+    "035461"
   ],
   "priciest_stores": [
     {
@@ -174,18 +175,18 @@
       "price": 7.49
     },
     {
-      "store_number": "041228",
-      "name": "Taco Bell",
-      "city": "Lithonia",
-      "state": "GA",
-      "price": 7.49
-    },
-    {
       "store_number": "003889",
       "name": "Taco Bell",
       "city": "Marietta",
       "state": "GA",
       "price": 7.39
+    },
+    {
+      "store_number": "041238",
+      "name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "price": 7.29
     },
     {
       "store_number": "041258",
@@ -209,21 +210,51 @@
       "price": 6.79
     },
     {
+      "store_number": "035461",
+      "name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "price": 6.49
+    },
+    {
       "store_number": "042574",
       "name": "Taco Bell",
       "city": "Dallas",
       "state": "GA",
       "price": 6.49
-    },
-    {
-      "store_number": "042829",
-      "name": "Taco Bell",
-      "city": "Pensacola",
-      "state": "FL",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041238",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.29,
+      "observed_at": "2026-06-03T20:54:00.690339+00:00"
+    },
+    {
+      "store_number": "041228",
+      "store_name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 7.49,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:50:44.905228+00:00"
+    },
+    {
+      "store_number": "035461",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-06-03T20:44:49.441042+00:00"
+    },
     {
       "store_number": "042574",
       "store_name": "Taco Bell",
@@ -966,8 +997,8 @@
     }
   ],
   "activity_summary": {
-    "added": 33,
-    "removed": 41,
+    "added": 35,
+    "removed": 42,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1059,6 +1090,15 @@
       "GA"
     ],
     [
+      "035461",
+      35.75640600000001,
+      -83.9419497,
+      6.49,
+      "Taco Bell",
+      "Maryville",
+      "TN"
+    ],
+    [
       "042119",
       32.270159,
       -86.355812,
@@ -1086,21 +1126,21 @@
       "GA"
     ],
     [
+      "041238",
+      33.92281058279636,
+      -83.34047734737396,
+      7.29,
+      "Taco Bell",
+      "Athens",
+      "GA"
+    ],
+    [
       "003889",
       33.966106,
       -84.410766,
       7.39,
       "Taco Bell",
       "Marietta",
-      "GA"
-    ],
-    [
-      "041228",
-      33.70089923153877,
-      -84.16987270116806,
-      7.49,
-      "Taco Bell",
-      "Lithonia",
       "GA"
     ],
     [

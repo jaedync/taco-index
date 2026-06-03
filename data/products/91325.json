@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": -0.0402,
+  "recent_price_change_pct": -0.024,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 9.14,
+    "avg": 9.15,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.46,
-    "store_count": 30
+    "std_dev": 0.47,
+    "store_count": 28
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 26
+      "count": 24
     },
     {
       "bucket": "$9.49",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.22,
-      "store_count": 15
+      "avg_price": 9.25,
+      "store_count": 13
     },
     {
       "state": "TN",
@@ -157,15 +157,13 @@
     "041243",
     "002995",
     "026073",
-    "003889",
     "002167",
     "041881",
     "029013",
     "029033",
     "029098",
     "024364",
-    "029738",
-    "041801"
+    "029738"
   ],
   "priciest_stores": [
     {
@@ -195,13 +193,6 @@
       "city": "Panama City",
       "state": "FL",
       "price": 9.49
-    },
-    {
-      "store_number": "041801",
-      "name": "Taco Bell",
-      "city": "Marietta",
-      "state": "GA",
-      "price": 9.0
     },
     {
       "store_number": "029738",
@@ -237,9 +228,36 @@
       "city": "Chattanooga",
       "state": "TN",
       "price": 9.0
+    },
+    {
+      "store_number": "041881",
+      "name": "Taco Bell",
+      "city": "Columbus",
+      "state": "GA",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041801",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:54:05.015407+00:00"
+    },
+    {
+      "store_number": "003889",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-03T20:51:02.791442+00:00"
+    },
     {
       "store_number": "041801",
       "store_name": "Taco Bell",
@@ -3083,7 +3101,7 @@
   ],
   "activity_summary": {
     "added": 127,
-    "removed": 157,
+    "removed": 159,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3277,15 +3295,6 @@
       "GA"
     ],
     [
-      "003889",
-      33.966106,
-      -84.410766,
-      9.0,
-      "Taco Bell",
-      "Marietta",
-      "GA"
-    ],
-    [
       "002167",
       33.80207381502585,
       -84.4147127866745,
@@ -3349,15 +3358,6 @@
       "TN"
     ],
     [
-      "041801",
-      33.94497804839833,
-      -84.6247772276729,
-      9.0,
-      "Taco Bell",
-      "Marietta",
-      "GA"
-    ],
-    [
       "004185",
       30.138993189337146,
       -85.59155344963074,
@@ -3395,6 +3395,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-02",
+  "last_seen_date": "2026-06-03",
   "peak_availability_pct": 1.1
 }
