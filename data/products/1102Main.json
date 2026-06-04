@@ -15,17 +15,17 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.49,
+    "avg": 2.44,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.39,
+    "median": 2.34,
     "std_dev": 0.28,
-    "store_count": 5
+    "store_count": 6
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$2.29",
@@ -48,6 +48,13 @@
       "name": "Taco Bell",
       "city": "Jamaica",
       "state": "NY",
+      "price": 2.19
+    },
+    {
+      "store_number": "035456",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "Phoenix",
+      "state": "AZ",
       "price": 2.19
     },
     {
@@ -80,7 +87,8 @@
     }
   ],
   "min_price_store_numbers": [
-    "038757"
+    "038757",
+    "035456"
   ],
   "priciest_stores": [
     {
@@ -112,6 +120,13 @@
       "price": 2.29
     },
     {
+      "store_number": "035456",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "Phoenix",
+      "state": "AZ",
+      "price": 2.19
+    },
+    {
       "store_number": "038757",
       "name": "Taco Bell",
       "city": "Jamaica",
@@ -120,6 +135,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035456",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Phoenix",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-06-04T21:50:25.739842+00:00"
+    },
     {
       "store_number": "035069",
       "store_name": "Taco Bell Cantina Cantina",
@@ -362,7 +387,7 @@
     }
   ],
   "activity_summary": {
-    "added": 10,
+    "added": 11,
     "removed": 14,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -380,6 +405,15 @@
       "Taco Bell",
       "Jamaica",
       "NY"
+    ],
+    [
+      "035456",
+      33.44756457602134,
+      -112.07061661109579,
+      2.19,
+      "Taco Bell Cantina Cantina",
+      "Phoenix",
+      "AZ"
     ],
     [
       "040658",
@@ -424,7 +458,7 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 2.37,
+      "avg_price": 2.36,
       "min_price": 2.0,
       "max_price": 2.79,
       "calories": 0,

@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 5.5,
-  "recent_price_change_pct": 0.0424,
+  "recent_price_change_pct": 0.045,
   "first_seen_at": "2026-03-30T00:42:17.482555+00:00",
-  "availability_pct": 2.5,
+  "availability_pct": 2.6,
   "price_stats": {
-    "avg": 9.66,
+    "avg": 9.68,
     "min": 9.0,
     "max": 14.99,
     "median": 9.0,
-    "std_dev": 1.01,
-    "store_count": 196
+    "std_dev": 1.06,
+    "store_count": 200
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 122
+      "count": 125
     },
     {
       "bucket": "$9.10",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 20
+      "count": 19
     },
     {
       "bucket": "$10.99",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$12.99",
-      "count": 2
+      "count": 4
     },
     {
       "bucket": "$14.99",
@@ -81,8 +81,8 @@
     },
     {
       "state": "NY",
-      "avg_price": 10.75,
-      "store_count": 11
+      "avg_price": 10.94,
+      "store_count": 14
     },
     {
       "state": "OR",
@@ -116,8 +116,8 @@
     },
     {
       "state": "OH",
-      "avg_price": 9.19,
-      "store_count": 10
+      "avg_price": 9.17,
+      "store_count": 11
     },
     {
       "state": "WI",
@@ -147,7 +147,7 @@
     {
       "state": "IN",
       "avg_price": 9.0,
-      "store_count": 6
+      "store_count": 7
     }
   ],
   "nutrition": null,
@@ -286,7 +286,6 @@
     "015843",
     "035281",
     "039090",
-    "036282",
     "031904",
     "004006",
     "028492",
@@ -345,7 +344,11 @@
     "017510",
     "026056",
     "038846",
-    "035249"
+    "035249",
+    "034648",
+    "036373",
+    "034816",
+    "040531"
   ],
   "priciest_stores": [
     {
@@ -359,6 +362,20 @@
       "store_number": "035457",
       "name": "Taco Bell",
       "city": "Far Rockaway",
+      "state": "NY",
+      "price": 12.99
+    },
+    {
+      "store_number": "037380",
+      "name": "Taco Bell",
+      "city": "Yonkers",
+      "state": "NY",
+      "price": 12.99
+    },
+    {
+      "store_number": "038980",
+      "name": "Taco Bell",
+      "city": "Yonkers",
       "state": "NY",
       "price": 12.99
     },
@@ -403,23 +420,89 @@
       "city": "Medford",
       "state": "OR",
       "price": 11.5
-    },
-    {
-      "store_number": "035896",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 11.29
-    },
-    {
-      "store_number": "038759",
-      "name": "Taco Bell",
-      "city": "East Haven",
-      "state": "CT",
-      "price": 11.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040531",
+      "store_name": "Taco Bell",
+      "city": "Chardon",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-04T21:50:57.284378+00:00"
+    },
+    {
+      "store_number": "034428",
+      "store_name": "Taco Bell",
+      "city": "Clarksville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-06-04T21:50:55.607305+00:00"
+    },
+    {
+      "store_number": "036282",
+      "store_name": "Taco Bell",
+      "city": "Downingtown",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-04T21:50:44.224262+00:00"
+    },
+    {
+      "store_number": "034816",
+      "store_name": "Taco Bell",
+      "city": "Freeport",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-04T21:50:31.739394+00:00"
+    },
+    {
+      "store_number": "036373",
+      "store_name": "Taco Bell",
+      "city": "Auburn",
+      "state": "ME",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-04T21:50:31.033550+00:00"
+    },
+    {
+      "store_number": "034648",
+      "store_name": "Taco Bell",
+      "city": "Muncie",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-04T21:50:20.390568+00:00"
+    },
+    {
+      "store_number": "037380",
+      "store_name": "Taco Bell",
+      "city": "Yonkers",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.99,
+      "observed_at": "2026-06-04T21:50:18.107915+00:00"
+    },
+    {
+      "store_number": "038980",
+      "store_name": "Taco Bell",
+      "city": "Yonkers",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.99,
+      "observed_at": "2026-06-04T21:50:17.594530+00:00"
+    },
     {
       "store_number": "036131",
       "store_name": "Taco Bell",
@@ -18852,8 +18935,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1019,
-    "removed": 823,
+    "added": 1025,
+    "removed": 825,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -19452,15 +19535,6 @@
       "VA"
     ],
     [
-      "036282",
-      40.0114,
-      -75.7207,
-      9.0,
-      "Taco Bell",
-      "Downingtown",
-      "PA"
-    ],
-    [
       "031904",
       36.143177213109794,
       -115.25935468962416,
@@ -19992,6 +20066,42 @@
       "PA"
     ],
     [
+      "034648",
+      40.218686400314986,
+      -85.37569523227864,
+      9.0,
+      "Taco Bell",
+      "Muncie",
+      "IN"
+    ],
+    [
+      "036373",
+      44.11774810704299,
+      -70.2255023030758,
+      9.0,
+      "Taco Bell",
+      "Auburn",
+      "ME"
+    ],
+    [
+      "034816",
+      40.652366165665356,
+      -73.5892257754631,
+      9.0,
+      "Taco Bell",
+      "Freeport",
+      "NY"
+    ],
+    [
+      "040531",
+      41.58128313422767,
+      -81.21314902764493,
+      9.0,
+      "Taco Bell",
+      "Chardon",
+      "OH"
+    ],
+    [
       "016940",
       39.106362366096604,
       -84.53397586941725,
@@ -20197,15 +20307,6 @@
       "Taco Bell",
       "Petaluma",
       "CA"
-    ],
-    [
-      "034428",
-      36.5936223016501,
-      -87.28837560117142,
-      9.99,
-      "Taco Bell",
-      "Clarksville",
-      "TN"
     ],
     [
       "031862",
@@ -20640,6 +20741,24 @@
       "NY"
     ],
     [
+      "038980",
+      40.9088609,
+      -73.8747205,
+      12.99,
+      "Taco Bell",
+      "Yonkers",
+      "NY"
+    ],
+    [
+      "037380",
+      40.9656474813647,
+      -73.87303188222636,
+      12.99,
+      "Taco Bell",
+      "Yonkers",
+      "NY"
+    ],
+    [
       "035457",
       40.60558119980972,
       -73.75547906198865,
@@ -20659,6 +20778,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-03",
+  "last_seen_date": "2026-06-04",
   "peak_availability_pct": 5.5
 }

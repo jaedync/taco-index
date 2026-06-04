@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": -0.024,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.4,
   "price_stats": {
@@ -21,12 +21,12 @@
     "max": 11.29,
     "median": 9.0,
     "std_dev": 0.47,
-    "store_count": 28
+    "store_count": 29
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 24
+      "count": 25
     },
     {
       "bucket": "$9.49",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.25,
-      "store_count": 13
+      "avg_price": 9.23,
+      "store_count": 14
     },
     {
       "state": "TN",
@@ -80,6 +80,13 @@
       "name": "Taco Bell",
       "city": "Beaufort",
       "state": "SC",
+      "price": 9.0
+    },
+    {
+      "store_number": "033481",
+      "name": "Taco Bell",
+      "city": "Villa Rica",
+      "state": "GA",
       "price": 9.0
     },
     {
@@ -130,18 +137,12 @@
       "city": "Lawrenceville",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "039923",
-      "name": "Taco Bell",
-      "city": "Statesboro",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "042019",
     "034710",
+    "033481",
     "036415",
     "029119",
     "040962",
@@ -238,6 +239,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033481",
+      "store_name": "Taco Bell",
+      "city": "Villa Rica",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-04T21:50:24.346551+00:00"
+    },
     {
       "store_number": "041801",
       "store_name": "Taco Bell",
@@ -3100,7 +3111,7 @@
     }
   ],
   "activity_summary": {
-    "added": 127,
+    "added": 128,
     "removed": 159,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3158,6 +3169,15 @@
       "Taco Bell",
       "Beaufort",
       "SC"
+    ],
+    [
+      "033481",
+      33.73376376352933,
+      -84.90097259926127,
+      9.0,
+      "Taco Bell",
+      "Villa Rica",
+      "GA"
     ],
     [
       "036415",
@@ -3395,6 +3415,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-03",
+  "last_seen_date": "2026-06-04",
   "peak_availability_pct": 1.1
 }

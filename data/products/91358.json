@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 6.0,
-  "recent_price_change_pct": 0.0234,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
   "availability_pct": 6.2,
   "price_stats": {
@@ -21,7 +21,7 @@
     "max": 6.49,
     "median": 5.49,
     "std_dev": 0.23,
-    "store_count": 477
+    "store_count": 478
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 114
+      "count": 115
     },
     {
       "bucket": "$6.19",
@@ -50,7 +50,7 @@
     {
       "state": "GA",
       "avg_price": 5.64,
-      "store_count": 227
+      "store_count": 228
     },
     {
       "state": "TN",
@@ -194,6 +194,7 @@
     "035882",
     "034808",
     "042581",
+    "033481",
     "035070",
     "030177",
     "036404",
@@ -259,7 +260,6 @@
     "005033",
     "029111",
     "029027",
-    "039938",
     "003969",
     "029168",
     "029064",
@@ -587,6 +587,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039938",
+      "store_name": "Taco Bell",
+      "city": "Summerville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-06-04T21:50:52.189591+00:00"
+    },
+    {
+      "store_number": "026342",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-06-04T21:50:45.194733+00:00"
+    },
+    {
+      "store_number": "033481",
+      "store_name": "Taco Bell",
+      "city": "Villa Rica",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-04T21:50:24.346551+00:00"
+    },
     {
       "store_number": "039922",
       "store_name": "Taco Bell",
@@ -6159,8 +6189,8 @@
     }
   ],
   "activity_summary": {
-    "added": 517,
-    "removed": 40,
+    "added": 519,
+    "removed": 41,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6518,6 +6548,15 @@
       5.49,
       "Taco Bell",
       "Canton",
+      "GA"
+    ],
+    [
+      "033481",
+      33.73376376352933,
+      -84.90097259926127,
+      5.49,
+      "Taco Bell",
+      "Villa Rica",
       "GA"
     ],
     [
@@ -7103,15 +7142,6 @@
       5.49,
       "Taco Bell",
       "Dalton",
-      "GA"
-    ],
-    [
-      "039938",
-      34.49523577676158,
-      -85.33594563603401,
-      5.49,
-      "Taco Bell",
-      "Summerville",
       "GA"
     ],
     [
@@ -9500,6 +9530,15 @@
       "TN"
     ],
     [
+      "026342",
+      33.980636492251286,
+      -84.08123346241287,
+      5.99,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
+    ],
+    [
       "021079",
       35.9255374321459,
       -84.03806300242616,
@@ -10464,6 +10503,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-03",
+  "last_seen_date": "2026-06-04",
   "peak_availability_pct": 6.0
 }

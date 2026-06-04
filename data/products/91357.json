@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 6.0,
-  "recent_price_change_pct": 0.0247,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
   "availability_pct": 6.2,
   "price_stats": {
@@ -21,12 +21,12 @@
     "max": 12.99,
     "median": 9.0,
     "std_dev": 0.6,
-    "store_count": 476
+    "store_count": 475
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 400
+      "count": 399
     },
     {
       "bucket": "$9.49",
@@ -63,7 +63,7 @@
     {
       "state": "GA",
       "avg_price": 9.33,
-      "store_count": 229
+      "store_count": 228
     },
     {
       "state": "AL",
@@ -275,7 +275,6 @@
     "005033",
     "029111",
     "029027",
-    "039938",
     "003969",
     "020054",
     "029168",
@@ -637,6 +636,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039938",
+      "store_name": "Taco Bell",
+      "city": "Summerville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-04T21:50:52.189591+00:00"
+    },
     {
       "store_number": "042126",
       "store_name": "Taco Bell",
@@ -6300,7 +6309,7 @@
   ],
   "activity_summary": {
     "added": 521,
-    "removed": 45,
+    "removed": 46,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7352,15 +7361,6 @@
       9.0,
       "Taco Bell",
       "Dalton",
-      "GA"
-    ],
-    [
-      "039938",
-      34.49523577676158,
-      -85.33594563603401,
-      9.0,
-      "Taco Bell",
-      "Summerville",
       "GA"
     ],
     [
@@ -10632,6 +10632,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-03",
+  "last_seen_date": "2026-06-04",
   "peak_availability_pct": 6.0
 }

@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 59.3,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.032,
   "first_seen_at": "2026-03-30T00:40:07.034886+00:00",
   "availability_pct": 63.5,
   "price_stats": {
@@ -21,7 +21,7 @@
     "max": 3.99,
     "median": 1.99,
     "std_dev": 0.37,
-    "store_count": 4894
+    "store_count": 4892
   },
   "histogram": [
     {
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$1.79",
-      "count": 372
+      "count": 373
     },
     {
       "bucket": "$1.89",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1508
+      "count": 1505
     },
     {
       "bucket": "$2.05",
@@ -106,7 +106,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 298
+      "count": 297
     },
     {
       "bucket": "$2.55",
@@ -130,7 +130,7 @@
     },
     {
       "bucket": "$2.89",
-      "count": 20
+      "count": 21
     },
     {
       "bucket": "$2.91",
@@ -168,8 +168,8 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 2.54,
-      "store_count": 150
+      "avg_price": 2.55,
+      "store_count": 149
     },
     {
       "state": "NH",
@@ -179,7 +179,7 @@
     {
       "state": "ME",
       "avg_price": 2.49,
-      "store_count": 7
+      "store_count": 6
     },
     {
       "state": "NJ",
@@ -284,7 +284,7 @@
     {
       "state": "AL",
       "avg_price": 2.0,
-      "store_count": 119
+      "store_count": 118
     },
     {
       "state": "NV",
@@ -299,12 +299,12 @@
     {
       "state": "OH",
       "avg_price": 1.97,
-      "store_count": 242
+      "store_count": 243
     },
     {
       "state": "NC",
       "avg_price": 1.89,
-      "store_count": 189
+      "store_count": 188
     },
     {
       "state": "WI",
@@ -314,7 +314,7 @@
     {
       "state": "IL",
       "avg_price": 1.87,
-      "store_count": 206
+      "store_count": 207
     },
     {
       "state": "UT",
@@ -589,6 +589,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027042",
+      "store_name": "Taco Bell",
+      "city": "Vermilion",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-06-04T21:50:53.237187+00:00"
+    },
+    {
+      "store_number": "037467",
+      "store_name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-06-04T21:50:50.185407+00:00"
+    },
+    {
+      "store_number": "037004",
+      "store_name": "Taco Bell",
+      "city": "Indian Trail",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-06-04T21:50:49.071601+00:00"
+    },
+    {
+      "store_number": "037141",
+      "store_name": "Taco Bell",
+      "city": "Hartselle",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-06-04T21:50:34.465229+00:00"
+    },
+    {
+      "store_number": "036317",
+      "store_name": "Taco Bell",
+      "city": "Rego Park",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-06-04T21:50:29.543078+00:00"
+    },
+    {
+      "store_number": "036029",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "ME",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-06-04T21:50:25.023289+00:00"
+    },
+    {
+      "store_number": "036262",
+      "store_name": "Taco Bell",
+      "city": "Mattoon",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-06-04T21:50:23.013920+00:00"
+    },
+    {
+      "store_number": "037380",
+      "store_name": "Taco Bell",
+      "city": "Yonkers",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-06-04T21:50:18.107915+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -39711,8 +39791,8 @@
     }
   ],
   "activity_summary": {
-    "added": 2852,
-    "removed": 1057,
+    "added": 2855,
+    "removed": 1062,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -52430,6 +52510,15 @@
       "TX"
     ],
     [
+      "027042",
+      41.403417895947996,
+      -82.36414696276597,
+      1.79,
+      "Taco Bell",
+      "Vermilion",
+      "OH"
+    ],
+    [
       "035706",
       30.056225778852344,
       -94.79723998910306,
@@ -57479,15 +57568,6 @@
       "TN"
     ],
     [
-      "037380",
-      40.9656474813647,
-      -73.87303188222636,
-      1.99,
-      "Taco Bell",
-      "Yonkers",
-      "NY"
-    ],
-    [
       "041689",
       31.56761993750363,
       -93.4897248386404,
@@ -58037,15 +58117,6 @@
       "GA"
     ],
     [
-      "037141",
-      34.45627571882622,
-      -86.94768905613421,
-      1.99,
-      "Taco Bell",
-      "Hartselle",
-      "AL"
-    ],
-    [
       "037044",
       42.35067263787159,
       -71.11442361105475,
@@ -58386,15 +58457,6 @@
       "Taco Bell",
       "Chicago",
       "IL"
-    ],
-    [
-      "037467",
-      40.8244,
-      -73.8916,
-      1.99,
-      "Taco Bell",
-      "Bronx",
-      "NY"
     ],
     [
       "037827",
@@ -66344,15 +66406,6 @@
       "IL"
     ],
     [
-      "037004",
-      35.0502267746598,
-      -80.64345900505425,
-      1.99,
-      "Taco Bell",
-      "Indian Trail",
-      "NC"
-    ],
-    [
       "041195",
       36.129705948374,
       -111.23936538399903,
@@ -66423,6 +66476,15 @@
       "Taco Bell",
       "Gonzales",
       "LA"
+    ],
+    [
+      "036262",
+      39.4836008,
+      -88.33129439999999,
+      1.99,
+      "Taco Bell",
+      "Mattoon",
+      "IL"
     ],
     [
       "002258",
@@ -80456,15 +80518,6 @@
       "CA"
     ],
     [
-      "036029",
-      43.6993839466971,
-      -70.28726846567676,
-      2.49,
-      "Taco Bell",
-      "Portland",
-      "ME"
-    ],
-    [
       "000114",
       33.75885968774702,
       -118.00356258453576,
@@ -82605,6 +82658,15 @@
       "Taco Bell",
       "Daytona Beach",
       "FL"
+    ],
+    [
+      "036317",
+      40.72940057187033,
+      -73.8624363824434,
+      2.89,
+      "Taco Bell",
+      "Rego Park",
+      "NY"
     ],
     [
       "022592",

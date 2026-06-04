@@ -11,16 +11,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 2.5,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0448,
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
-  "availability_pct": 2.6,
+  "availability_pct": 2.7,
   "price_stats": {
     "avg": 1.0,
     "min": 0.55,
     "max": 1.59,
     "median": 0.95,
-    "std_dev": 0.2,
-    "store_count": 204
+    "std_dev": 0.19,
+    "store_count": 205
   },
   "histogram": [
     {
@@ -53,11 +53,11 @@
     },
     {
       "bucket": "$0.90",
-      "count": 60
+      "count": 59
     },
     {
       "bucket": "$0.95",
-      "count": 32
+      "count": 34
     },
     {
       "bucket": "$0.99",
@@ -106,7 +106,7 @@
     {
       "state": "MI",
       "avg_price": 1.09,
-      "store_count": 50
+      "store_count": 51
     },
     {
       "state": "TX",
@@ -125,8 +125,8 @@
     },
     {
       "state": "MO",
-      "avg_price": 0.94,
-      "store_count": 9
+      "avg_price": 0.95,
+      "store_count": 8
     },
     {
       "state": "TN",
@@ -316,6 +316,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "001732",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.95,
+      "observed_at": "2026-06-04T21:50:56.853217+00:00"
+    },
+    {
+      "store_number": "042803",
+      "store_name": "Taco Bell",
+      "city": "Eldon",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-06-04T21:50:39.885605+00:00"
+    },
+    {
+      "store_number": "041189",
+      "store_name": "Taco Bell",
+      "city": "Billings",
+      "state": "MT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.95,
+      "observed_at": "2026-06-04T21:50:14.715949+00:00"
+    },
     {
       "store_number": "033027",
       "store_name": "Taco Bell",
@@ -4698,8 +4728,8 @@
     }
   ],
   "activity_summary": {
-    "added": 226,
-    "removed": 212,
+    "added": 228,
+    "removed": 213,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5004,15 +5034,6 @@
       "Taco Bell",
       "Columbus",
       "OH"
-    ],
-    [
-      "042803",
-      38.33854211105616,
-      -92.58411423711986,
-      0.9,
-      "Taco Bell",
-      "Eldon",
-      "MO"
     ],
     [
       "038792",
@@ -5627,6 +5648,15 @@
       "NC"
     ],
     [
+      "001732",
+      42.32247892201157,
+      -83.48488225604342,
+      0.95,
+      "Taco Bell",
+      "Canton",
+      "MI"
+    ],
+    [
       "001279",
       40.79441302771492,
       -81.43915767967599,
@@ -5787,6 +5817,15 @@
       "Taco Bell",
       "Roseville",
       "MI"
+    ],
+    [
+      "041189",
+      45.78536532266235,
+      -108.58981369705111,
+      0.95,
+      "Taco Bell",
+      "Billings",
+      "MT"
     ],
     [
       "036262",
@@ -6546,6 +6585,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-03",
+  "last_seen_date": "2026-06-04",
   "peak_availability_pct": 2.5
 }
