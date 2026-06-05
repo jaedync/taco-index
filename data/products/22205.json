@@ -11,16 +11,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 22.1,
-  "recent_price_change_pct": -0.0371,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 23.4,
+  "availability_pct": 23.3,
   "price_stats": {
     "avg": 3.41,
     "min": 1.79,
     "max": 4.89,
     "median": 3.39,
     "std_dev": 0.51,
-    "store_count": 1802
+    "store_count": 1800
   },
   "histogram": [
     {
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 44
+      "count": 43
     },
     {
       "bucket": "$2.89",
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 662
+      "count": 661
     },
     {
       "bucket": "$3.00",
@@ -109,7 +109,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 267
+      "count": 266
     },
     {
       "bucket": "$4.19",
@@ -129,7 +129,7 @@
     },
     {
       "bucket": "$4.59",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$4.69",
@@ -158,7 +158,7 @@
     {
       "state": "MN",
       "avg_price": 3.95,
-      "store_count": 96
+      "store_count": 95
     },
     {
       "state": "WY",
@@ -201,14 +201,14 @@
       "store_count": 161
     },
     {
+      "state": "WI",
+      "avg_price": 3.4,
+      "store_count": 70
+    },
+    {
       "state": "OH",
       "avg_price": 3.4,
       "store_count": 379
-    },
-    {
-      "state": "WI",
-      "avg_price": 3.39,
-      "store_count": 69
     },
     {
       "state": "MS",
@@ -218,7 +218,7 @@
     {
       "state": "MI",
       "avg_price": 3.25,
-      "store_count": 199
+      "store_count": 198
     },
     {
       "state": "KY",
@@ -422,6 +422,13 @@
       "price": 4.59
     },
     {
+      "store_number": "032092",
+      "name": "Taco Bell",
+      "city": "Portage",
+      "state": "WI",
+      "price": 4.59
+    },
+    {
       "store_number": "029625",
       "name": "Taco Bell",
       "city": "Saint Louis",
@@ -448,16 +455,69 @@
       "city": "Monroe",
       "state": "WI",
       "price": 4.59
-    },
-    {
-      "store_number": "032093",
-      "name": "Taco Bell",
-      "city": "West Baraboo",
-      "state": "WI",
-      "price": 4.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027586",
+      "store_name": "Taco Bell",
+      "city": "Eagan",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-06-05T21:53:37.232456+00:00"
+    },
+    {
+      "store_number": "032092",
+      "store_name": "Taco Bell",
+      "city": "Portage",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.59,
+      "observed_at": "2026-06-05T21:52:57.328434+00:00"
+    },
+    {
+      "store_number": "029564",
+      "store_name": "Taco Bell",
+      "city": "Clearwater",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-06-05T21:52:49.316811+00:00"
+    },
+    {
+      "store_number": "003335",
+      "store_name": "Taco Bell",
+      "city": "Reynoldsburg",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-06-05T21:52:21.740853+00:00"
+    },
+    {
+      "store_number": "033315",
+      "store_name": "Taco Bell",
+      "city": "White Lake",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-06-05T21:51:40.540806+00:00"
+    },
+    {
+      "store_number": "002084",
+      "store_name": "Taco Bell",
+      "city": "Parma",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-05T21:51:38.838678+00:00"
+    },
     {
       "store_number": "001732",
       "store_name": "Taco Bell",
@@ -21610,8 +21670,8 @@
     }
   ],
   "activity_summary": {
-    "added": 971,
-    "removed": 1016,
+    "added": 973,
+    "removed": 1020,
     "price_changed": 128,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -22806,15 +22866,6 @@
       2.79,
       "Taco Bell",
       "Clarkston",
-      "MI"
-    ],
-    [
-      "033315",
-      42.65798086181296,
-      -83.46379458904266,
-      2.79,
-      "Taco Bell",
-      "White Lake",
       "MI"
     ],
     [
@@ -25023,6 +25074,15 @@
       "TX"
     ],
     [
+      "002084",
+      41.380222974929936,
+      -81.73560440540314,
+      2.99,
+      "Taco Bell",
+      "Parma",
+      "OH"
+    ],
+    [
       "041877",
       42.61500229165498,
       -82.54280849362203,
@@ -25758,15 +25818,6 @@
       2.99,
       "Taco Bell",
       "Marengo",
-      "OH"
-    ],
-    [
-      "003335",
-      39.95448915785347,
-      -82.82650233061759,
-      2.99,
-      "Taco Bell",
-      "Reynoldsburg",
       "OH"
     ],
     [
@@ -26506,15 +26557,6 @@
       "Taco Bell",
       "Youngstown",
       "OH"
-    ],
-    [
-      "029564",
-      27.89321997312307,
-      -82.6816070527002,
-      2.99,
-      "Taco Bell",
-      "Clearwater",
-      "FL"
     ],
     [
       "003845",
@@ -36480,15 +36522,6 @@
       "MI"
     ],
     [
-      "027586",
-      44.831778195539044,
-      -93.1637776624281,
-      3.99,
-      "Taco Bell",
-      "Eagan",
-      "MN"
-    ],
-    [
       "032298",
       38.61539046252217,
       -86.08357635992334,
@@ -37792,6 +37825,15 @@
       "Taco Bell",
       "Saint Louis",
       "MO"
+    ],
+    [
+      "032092",
+      43.57078815044906,
+      -89.470567571009,
+      4.59,
+      "Taco Bell",
+      "Portage",
+      "WI"
     ],
     [
       "029626",

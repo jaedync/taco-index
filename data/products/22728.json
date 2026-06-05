@@ -11,7 +11,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 2.5,
-  "recent_price_change_pct": 0.0448,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
   "availability_pct": 2.7,
   "price_stats": {
@@ -20,7 +20,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 205
+    "store_count": 206
   },
   "histogram": [
     {
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 42
+      "count": 43
     },
     {
       "bucket": "$1.10",
@@ -316,6 +316,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029263",
+      "store_name": "Taco Bell",
+      "city": "Salem",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-06-05T21:53:01.653424+00:00"
+    },
     {
       "store_number": "001732",
       "store_name": "Taco Bell",
@@ -4728,7 +4738,7 @@
     }
   ],
   "activity_summary": {
-    "added": 228,
+    "added": 229,
     "removed": 213,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -6242,6 +6252,15 @@
       "MO"
     ],
     [
+      "029263",
+      42.50358312787979,
+      -70.92246077476568,
+      1.0,
+      "Taco Bell",
+      "Salem",
+      "MA"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -6585,6 +6604,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-04",
+  "last_seen_date": "2026-06-05",
   "peak_availability_pct": 2.5
 }

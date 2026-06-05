@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.23,
-      "store_count": 14
+      "avg_price": 9.22,
+      "store_count": 15
     },
     {
       "state": "TN",
@@ -152,7 +152,6 @@
     "041249",
     "039923",
     "039919",
-    "031583",
     "039921",
     "026044",
     "041243",
@@ -164,7 +163,8 @@
     "029033",
     "029098",
     "024364",
-    "029738"
+    "029738",
+    "031473"
   ],
   "priciest_stores": [
     {
@@ -194,6 +194,13 @@
       "city": "Panama City",
       "state": "FL",
       "price": 9.49
+    },
+    {
+      "store_number": "031473",
+      "name": "Taco Bell",
+      "city": "Covington",
+      "state": "GA",
+      "price": 9.0
     },
     {
       "store_number": "029738",
@@ -229,16 +236,29 @@
       "city": "Chattanooga",
       "state": "TN",
       "price": 9.0
-    },
-    {
-      "store_number": "041881",
-      "name": "Taco Bell",
-      "city": "Columbus",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031473",
+      "store_name": "Taco Bell",
+      "city": "Covington",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-05T21:53:39.090888+00:00"
+    },
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-05T21:53:14.418193+00:00"
+    },
     {
       "store_number": "033481",
       "store_name": "Taco Bell",
@@ -3111,8 +3131,8 @@
     }
   ],
   "activity_summary": {
-    "added": 128,
-    "removed": 159,
+    "added": 129,
+    "removed": 160,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3261,15 +3281,6 @@
       "GA"
     ],
     [
-      "031583",
-      32.42953531961479,
-      -80.71891911656758,
-      9.0,
-      "Taco Bell",
-      "Beaufort",
-      "SC"
-    ],
-    [
       "039921",
       32.112410602164445,
       -81.23548958895492,
@@ -3378,6 +3389,15 @@
       "TN"
     ],
     [
+      "031473",
+      33.57876111209195,
+      -83.96172523498535,
+      9.0,
+      "Taco Bell",
+      "Covington",
+      "GA"
+    ],
+    [
       "004185",
       30.138993189337146,
       -85.59155344963074,
@@ -3415,6 +3435,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-04",
+  "last_seen_date": "2026-06-05",
   "peak_availability_pct": 1.1
 }
