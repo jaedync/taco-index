@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.83,
+    "avg": 6.78,
     "min": 6.49,
     "max": 7.49,
     "median": 6.49,
-    "std_dev": 0.43,
+    "std_dev": 0.41,
     "store_count": 15
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$6.79",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$7.29",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$7.39",
@@ -48,8 +48,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 7.05,
-      "store_count": 8
+      "avg_price": 7.02,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -124,16 +124,16 @@
       "price": 6.49
     },
     {
+      "store_number": "037369",
+      "name": "Taco Bell",
+      "city": "Port St Joe",
+      "state": "FL",
+      "price": 6.49
+    },
+    {
       "store_number": "042119",
       "name": "Taco Bell",
       "city": "Hope Hull",
-      "state": "AL",
-      "price": 6.79
-    },
-    {
-      "store_number": "036487",
-      "name": "Taco Bell",
-      "city": "Montgomery",
       "state": "AL",
       "price": 6.79
     }
@@ -146,7 +146,8 @@
     "042123",
     "042829",
     "042574",
-    "035461"
+    "035461",
+    "037369"
   ],
   "priciest_stores": [
     {
@@ -178,13 +179,6 @@
       "price": 7.29
     },
     {
-      "store_number": "041258",
-      "name": "Taco Bell",
-      "city": "Peachtree Corners",
-      "state": "GA",
-      "price": 7.29
-    },
-    {
       "store_number": "036487",
       "name": "Taco Bell",
       "city": "Montgomery",
@@ -197,6 +191,13 @@
       "city": "Hope Hull",
       "state": "AL",
       "price": 6.79
+    },
+    {
+      "store_number": "037369",
+      "name": "Taco Bell",
+      "city": "Port St Joe",
+      "state": "FL",
+      "price": 6.49
     },
     {
       "store_number": "035461",
@@ -221,6 +222,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041258",
+      "store_name": "Taco Bell",
+      "city": "Peachtree Corners",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 7.29,
+      "new_price": null,
+      "observed_at": "2026-06-06T21:27:16.517152+00:00"
+    },
+    {
+      "store_number": "037369",
+      "store_name": "Taco Bell",
+      "city": "Port St Joe",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-06-06T21:25:20.107862+00:00"
+    },
     {
       "store_number": "042578",
       "store_name": "Taco Bell",
@@ -1003,8 +1024,8 @@
     }
   ],
   "activity_summary": {
-    "added": 35,
-    "removed": 43,
+    "added": 36,
+    "removed": 44,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1105,6 +1126,15 @@
       "TN"
     ],
     [
+      "037369",
+      29.819161175123956,
+      -85.3058260644086,
+      6.49,
+      "Taco Bell",
+      "Port St Joe",
+      "FL"
+    ],
+    [
       "042119",
       32.270159,
       -86.355812,
@@ -1121,15 +1151,6 @@
       "Taco Bell",
       "Montgomery",
       "AL"
-    ],
-    [
-      "041258",
-      33.97117063099474,
-      -84.22011039686367,
-      7.29,
-      "Taco Bell",
-      "Peachtree Corners",
-      "GA"
     ],
     [
       "041238",

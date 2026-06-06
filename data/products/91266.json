@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.9,
-  "recent_price_change_pct": -0.0334,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.4,
   "price_stats": {
-    "avg": 3.28,
+    "avg": 3.27,
     "min": 2.99,
     "max": 3.99,
     "median": 3.19,
-    "std_dev": 0.18,
-    "store_count": 106
+    "std_dev": 0.19,
+    "store_count": 107
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 6
+      "count": 7
     },
     {
       "bucket": "$3.09",
@@ -96,6 +96,13 @@
       "price": 2.99
     },
     {
+      "store_number": "032542",
+      "name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "price": 2.99
+    },
+    {
       "store_number": "003824",
       "name": "Taco Bell",
       "city": "Lithia Springs",
@@ -143,18 +150,12 @@
       "city": "Oxford",
       "state": "AL",
       "price": 3.19
-    },
-    {
-      "store_number": "040418",
-      "name": "Taco Bell",
-      "city": "Auburn",
-      "state": "AL",
-      "price": 3.19
     }
   ],
   "min_price_store_numbers": [
     "033481",
     "037050",
+    "032542",
     "003824",
     "002167",
     "042126",
@@ -233,6 +234,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-06T21:24:48.133235+00:00"
+    },
     {
       "store_number": "030359",
       "store_name": "Taco Bell",
@@ -14485,14 +14496,14 @@
     }
   ],
   "activity_summary": {
-    "added": 612,
+    "added": 613,
     "removed": 506,
     "price_changed": 307,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 260,
-  "calories_min": 260,
-  "calories_max": 260,
+  "calories_from_menu": 210,
+  "calories_min": 210,
+  "calories_max": 210,
   "combo_groups": [
     {
       "group_id": "673",
@@ -14525,6 +14536,15 @@
       "Taco Bell",
       "Wartburg",
       "TN"
+    ],
+    [
+      "032542",
+      32.31307877793498,
+      -81.05568834507177,
+      2.99,
+      "Taco Bell",
+      "Hardeeville",
+      "SC"
     ],
     [
       "003824",
@@ -15464,6 +15484,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-05",
+  "last_seen_date": "2026-06-06",
   "peak_availability_pct": 5.9
 }

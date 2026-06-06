@@ -15,19 +15,19 @@
   "peak_30d_pct": 6.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.4,
+  "availability_pct": 1.5,
   "price_stats": {
     "avg": 10.27,
     "min": 9.99,
     "max": 10.69,
     "median": 10.29,
     "std_dev": 0.28,
-    "store_count": 111
+    "store_count": 112
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 46
+      "count": 47
     },
     {
       "bucket": "$10.29",
@@ -111,6 +111,13 @@
       "price": 9.99
     },
     {
+      "store_number": "032542",
+      "name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "price": 9.99
+    },
+    {
       "store_number": "029111",
       "name": "Taco Bell",
       "city": "Birmingham",
@@ -137,13 +144,6 @@
       "city": "Fultondale",
       "state": "AL",
       "price": 9.99
-    },
-    {
-      "store_number": "029157",
-      "name": "Taco Bell",
-      "city": "Tuscaloosa",
-      "state": "AL",
-      "price": 9.99
     }
   ],
   "min_price_store_numbers": [
@@ -152,6 +152,7 @@
     "033481",
     "035461",
     "026342",
+    "032542",
     "029111",
     "003969",
     "029168",
@@ -267,6 +268,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-06T21:24:48.133235+00:00"
+    },
     {
       "store_number": "030359",
       "store_name": "Taco Bell",
@@ -11589,7 +11600,7 @@
     }
   ],
   "activity_summary": {
-    "added": 621,
+    "added": 622,
     "removed": 510,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
@@ -11674,6 +11685,15 @@
       "Taco Bell",
       "Lawrenceville",
       "GA"
+    ],
+    [
+      "032542",
+      32.31307877793498,
+      -81.05568834507177,
+      9.99,
+      "Taco Bell",
+      "Hardeeville",
+      "SC"
     ],
     [
       "029111",
@@ -12631,6 +12651,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-05",
+  "last_seen_date": "2026-06-06",
   "peak_availability_pct": 6.0
 }

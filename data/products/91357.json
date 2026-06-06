@@ -16,17 +16,17 @@
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
   "availability_pct": 6.2,
   "price_stats": {
-    "avg": 9.22,
+    "avg": 9.23,
     "min": 9.0,
     "max": 12.99,
     "median": 9.0,
-    "std_dev": 0.6,
+    "std_dev": 0.61,
     "store_count": 475
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 400
+      "count": 399
     },
     {
       "bucket": "$9.49",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$11.29",
-      "count": 17
+      "count": 18
     },
     {
       "bucket": "$11.99",
@@ -62,7 +62,7 @@
     },
     {
       "state": "GA",
-      "avg_price": 9.32,
+      "avg_price": 9.33,
       "store_count": 230
     },
     {
@@ -451,7 +451,6 @@
     "039934",
     "039936",
     "030467",
-    "031633",
     "029071",
     "029101",
     "036484",
@@ -622,21 +621,41 @@
       "price": 11.29
     },
     {
+      "store_number": "041223",
+      "name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "price": 11.29
+    },
+    {
       "store_number": "041216",
       "name": "Taco Bell",
       "city": "Decatur",
       "state": "GA",
       "price": 11.29
-    },
-    {
-      "store_number": "041220",
-      "name": "Taco Bell",
-      "city": "Fayetteville",
-      "state": "GA",
-      "price": 11.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041223",
+      "store_name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.29,
+      "observed_at": "2026-06-06T21:29:13.385028+00:00"
+    },
+    {
+      "store_number": "031633",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-06T21:28:51.095675+00:00"
+    },
     {
       "store_number": "039922",
       "store_name": "Taco Bell",
@@ -6369,8 +6388,8 @@
     }
   ],
   "activity_summary": {
-    "added": 524,
-    "removed": 49,
+    "added": 525,
+    "removed": 50,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9009,15 +9028,6 @@
       "GA"
     ],
     [
-      "031633",
-      33.73245285221801,
-      -84.6678918600083,
-      9.0,
-      "Taco Bell",
-      "Douglasville",
-      "GA"
-    ],
-    [
       "029071",
       32.601756220043065,
       -85.47965371385469,
@@ -10620,6 +10630,15 @@
       "GA"
     ],
     [
+      "041223",
+      33.61940670172887,
+      -84.24365535383913,
+      11.29,
+      "Taco Bell",
+      "Ellenwood",
+      "GA"
+    ],
+    [
       "041221",
       33.868823724211396,
       -84.01605924344685,
@@ -10693,6 +10712,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-05",
+  "last_seen_date": "2026-06-06",
   "peak_availability_pct": 6.0
 }

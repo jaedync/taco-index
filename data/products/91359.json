@@ -14,14 +14,14 @@
   "peak_30d_pct": 1.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:05:38.080670+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 11.16,
+    "avg": 11.08,
     "min": 10.99,
     "max": 11.99,
     "median": 10.99,
-    "std_dev": 0.39,
-    "store_count": 12
+    "std_dev": 0.3,
+    "store_count": 11
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$11.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
@@ -140,13 +140,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "042909",
-      "name": "Taco Bell",
-      "city": "Miami",
-      "state": "FL",
-      "price": 11.99
-    },
-    {
       "store_number": "042908",
       "name": "Taco Bell",
       "city": "Miami",
@@ -208,9 +201,26 @@
       "city": "Canton",
       "state": "GA",
       "price": 10.99
+    },
+    {
+      "store_number": "042584",
+      "name": "Taco Bell",
+      "city": "McDonough",
+      "state": "GA",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042909",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-06-06T21:28:31.112868+00:00"
+    },
     {
       "store_number": "042945",
       "store_name": "Taco Bell",
@@ -3394,7 +3404,7 @@
   ],
   "activity_summary": {
     "added": 165,
-    "removed": 153,
+    "removed": 154,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3538,18 +3548,9 @@
       "Taco Bell",
       "Miami",
       "FL"
-    ],
-    [
-      "042909",
-      25.74976682549731,
-      -80.2461174219596,
-      11.99,
-      "Taco Bell",
-      "Miami",
-      "FL"
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-06-05",
+  "last_seen_date": "2026-06-06",
   "peak_availability_pct": 1.0
 }

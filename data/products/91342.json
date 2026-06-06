@@ -15,19 +15,19 @@
   "peak_30d_pct": 6.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.2,
+  "availability_pct": 1.3,
   "price_stats": {
     "avg": 6.67,
     "min": 6.49,
     "max": 6.99,
     "median": 6.69,
     "std_dev": 0.2,
-    "store_count": 96
+    "store_count": 98
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 44
+      "count": 45
     },
     {
       "bucket": "$6.69",
@@ -35,14 +35,14 @@
     },
     {
       "bucket": "$6.99",
-      "count": 23
+      "count": 24
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 6.81,
-      "store_count": 32
+      "store_count": 33
     },
     {
       "state": "FL",
@@ -111,6 +111,13 @@
       "price": 6.49
     },
     {
+      "store_number": "032542",
+      "name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "price": 6.49
+    },
+    {
       "store_number": "029111",
       "name": "Taco Bell",
       "city": "Birmingham",
@@ -137,13 +144,6 @@
       "city": "Fultondale",
       "state": "AL",
       "price": 6.49
-    },
-    {
-      "store_number": "029157",
-      "name": "Taco Bell",
-      "city": "Tuscaloosa",
-      "state": "AL",
-      "price": 6.49
     }
   ],
   "min_price_store_numbers": [
@@ -152,6 +152,7 @@
     "033481",
     "035461",
     "026342",
+    "032542",
     "029111",
     "003969",
     "029168",
@@ -265,6 +266,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041258",
+      "store_name": "Taco Bell",
+      "city": "Peachtree Corners",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-06-06T21:27:16.517152+00:00"
+    },
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-06-06T21:24:48.133235+00:00"
+    },
     {
       "store_number": "030359",
       "store_name": "Taco Bell",
@@ -11497,7 +11518,7 @@
     }
   ],
   "activity_summary": {
-    "added": 609,
+    "added": 611,
     "removed": 513,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
@@ -11570,6 +11591,15 @@
       "Taco Bell",
       "Lawrenceville",
       "GA"
+    ],
+    [
+      "032542",
+      32.31307877793498,
+      -81.05568834507177,
+      6.49,
+      "Taco Bell",
+      "Hardeeville",
+      "SC"
     ],
     [
       "029111",
@@ -12283,6 +12313,15 @@
       "GA"
     ],
     [
+      "041258",
+      33.97117063099474,
+      -84.22011039686367,
+      6.99,
+      "Taco Bell",
+      "Peachtree Corners",
+      "GA"
+    ],
+    [
       "042122",
       30.393123641742402,
       -86.49879455566406,
@@ -12392,6 +12431,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-05",
+  "last_seen_date": "2026-06-06",
   "peak_availability_pct": 6.0
 }

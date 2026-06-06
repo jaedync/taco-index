@@ -12,17 +12,17 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 0.0,
-  "recent_price_change_pct": -0.0349,
+  "peak_30d_pct": 0.1,
+  "recent_price_change_pct": -0.0362,
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.92,
+    "avg": 3.91,
     "min": 3.49,
     "max": 4.29,
-    "median": 3.94,
-    "std_dev": 0.43,
-    "store_count": 4
+    "median": 3.89,
+    "std_dev": 0.38,
+    "store_count": 5
   },
   "histogram": [
     {
@@ -31,6 +31,10 @@
     },
     {
       "bucket": "$3.59",
+      "count": 1
+    },
+    {
+      "bucket": "$3.89",
       "count": 1
     },
     {
@@ -69,6 +73,13 @@
       "price": 3.59
     },
     {
+      "store_number": "002851",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Humble",
+      "state": "TX",
+      "price": 3.89
+    },
+    {
       "store_number": "032170",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -102,6 +113,13 @@
       "price": 4.29
     },
     {
+      "store_number": "002851",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Humble",
+      "state": "TX",
+      "price": 3.89
+    },
+    {
       "store_number": "024393",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Katy",
@@ -117,6 +135,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002851",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Humble",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.89,
+      "observed_at": "2026-06-06T21:26:16.834189+00:00"
+    },
     {
       "store_number": "021196",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -139,7 +167,7 @@
     }
   ],
   "activity_summary": {
-    "added": 1,
+    "added": 2,
     "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -168,6 +196,15 @@
       "TX"
     ],
     [
+      "002851",
+      29.9977979971997,
+      -95.16799039678068,
+      3.89,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Humble",
+      "TX"
+    ],
+    [
       "032170",
       28.446748,
       -81.393772,
@@ -192,7 +229,7 @@
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 4.26,
+      "avg_price": 4.25,
       "min_price": 3.69,
       "max_price": 5.09,
       "calories": 220,
@@ -200,11 +237,11 @@
     },
     {
       "size": "REGULAR",
-      "avg_price": 3.85,
+      "avg_price": 3.86,
       "min_price": 3.49,
       "max_price": 4.29,
       "calories": 180,
-      "happier_hour_avg": 2.2
+      "happier_hour_avg": 2.16
     }
   ]
 }
