@@ -20,12 +20,12 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 311
+    "store_count": 312
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 311
+      "count": 312
     }
   ],
   "state_prices": [
@@ -37,7 +37,7 @@
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 184
+      "store_count": 185
     },
     {
       "state": "IN",
@@ -434,6 +434,7 @@
     "032632",
     "033999",
     "004161",
+    "017105",
     "004399",
     "033312",
     "033808",
@@ -509,14 +510,24 @@
       "price": 4.99
     },
     {
-      "store_number": "004161",
+      "store_number": "017105",
       "name": "Taco Bell",
-      "city": "Rochester Hills",
+      "city": "Garden City",
       "state": "MI",
       "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "017105",
+      "store_name": "Taco Bell",
+      "city": "Garden City",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-06-07T21:23:17.407956+00:00"
+    },
     {
       "store_number": "017105",
       "store_name": "Taco Bell",
@@ -4369,7 +4380,7 @@
     }
   ],
   "activity_summary": {
-    "added": 348,
+    "added": 349,
     "removed": 37,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -7098,6 +7109,15 @@
       "MI"
     ],
     [
+      "017105",
+      42.325364416289936,
+      -83.32727551460266,
+      4.99,
+      "Taco Bell",
+      "Garden City",
+      "MI"
+    ],
+    [
       "004399",
       46.474895137706675,
       -84.35584594310967,
@@ -7180,6 +7200,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-06",
+  "last_seen_date": "2026-06-07",
   "peak_availability_pct": 3.8
 }

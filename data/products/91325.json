@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 9.15,
+    "avg": 9.14,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.47,
-    "store_count": 29
+    "std_dev": 0.46,
+    "store_count": 30
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 25
+      "count": 26
     },
     {
       "bucket": "$9.49",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.22,
-      "store_count": 15
+      "avg_price": 9.21,
+      "store_count": 16
     },
     {
       "state": "TN",
@@ -164,7 +164,8 @@
     "029098",
     "024364",
     "029738",
-    "031473"
+    "031473",
+    "037419"
   ],
   "priciest_stores": [
     {
@@ -194,6 +195,13 @@
       "city": "Panama City",
       "state": "FL",
       "price": 9.49
+    },
+    {
+      "store_number": "037419",
+      "name": "Taco Bell",
+      "city": "Midland",
+      "state": "GA",
+      "price": 9.0
     },
     {
       "store_number": "031473",
@@ -229,16 +237,19 @@
       "city": "Clinton",
       "state": "TN",
       "price": 9.0
-    },
-    {
-      "store_number": "029013",
-      "name": "Taco Bell",
-      "city": "Chattanooga",
-      "state": "TN",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037419",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-07T21:22:15.683455+00:00"
+    },
     {
       "store_number": "031473",
       "store_name": "Taco Bell",
@@ -3131,7 +3142,7 @@
     }
   ],
   "activity_summary": {
-    "added": 129,
+    "added": 130,
     "removed": 160,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3398,6 +3409,15 @@
       "GA"
     ],
     [
+      "037419",
+      32.53776933341696,
+      -84.86787174979743,
+      9.0,
+      "Taco Bell",
+      "Midland",
+      "GA"
+    ],
+    [
       "004185",
       30.138993189337146,
       -85.59155344963074,
@@ -3435,6 +3455,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-06",
+  "last_seen_date": "2026-06-07",
   "peak_availability_pct": 1.1
 }

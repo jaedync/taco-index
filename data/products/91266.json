@@ -21,12 +21,12 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.19,
-    "store_count": 107
+    "store_count": 110
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$3.09",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 63
+      "count": 65
     },
     {
       "bucket": "$3.29",
@@ -60,8 +60,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 3.39,
-      "store_count": 38
+      "avg_price": 3.37,
+      "store_count": 41
     },
     {
       "state": "TN",
@@ -110,6 +110,13 @@
       "price": 2.99
     },
     {
+      "store_number": "041798",
+      "name": "Taco Bell",
+      "city": "Jackson",
+      "state": "GA",
+      "price": 2.99
+    },
+    {
       "store_number": "002167",
       "name": "Taco Bell",
       "city": "Atlanta",
@@ -143,13 +150,6 @@
       "city": "Auburn",
       "state": "AL",
       "price": 3.19
-    },
-    {
-      "store_number": "040780",
-      "name": "Taco Bell",
-      "city": "Oxford",
-      "state": "AL",
-      "price": 3.19
     }
   ],
   "min_price_store_numbers": [
@@ -157,6 +157,7 @@
     "037050",
     "032542",
     "003824",
+    "041798",
     "002167",
     "042126",
     "005482"
@@ -234,6 +235,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041798",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-07T21:25:16.774552+00:00"
+    },
+    {
+      "store_number": "037419",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-06-07T21:22:15.683455+00:00"
+    },
+    {
+      "store_number": "041105",
+      "store_name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-06-07T21:20:00.498166+00:00"
+    },
     {
       "store_number": "032542",
       "store_name": "Taco Bell",
@@ -14496,7 +14527,7 @@
     }
   ],
   "activity_summary": {
-    "added": 613,
+    "added": 616,
     "removed": 506,
     "price_changed": 307,
     "since": "2026-03-31T00:00:00+00:00"
@@ -14553,6 +14584,15 @@
       2.99,
       "Taco Bell",
       "Lithia Springs",
+      "GA"
+    ],
+    [
+      "041798",
+      33.29478815954969,
+      -83.96059935717133,
+      2.99,
+      "Taco Bell",
+      "Jackson",
       "GA"
     ],
     [
@@ -14646,6 +14686,15 @@
       "GA"
     ],
     [
+      "041105",
+      34.123606790741,
+      -83.60452047516594,
+      3.19,
+      "Taco Bell",
+      "Jefferson",
+      "GA"
+    ],
+    [
       "042019",
       31.443187,
       -85.651524,
@@ -14724,6 +14773,15 @@
       3.19,
       "Taco Bell",
       "Douglasville",
+      "GA"
+    ],
+    [
+      "037419",
+      32.53776933341696,
+      -84.86787174979743,
+      3.19,
+      "Taco Bell",
+      "Midland",
       "GA"
     ],
     [
@@ -15484,6 +15542,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-06",
+  "last_seen_date": "2026-06-07",
   "peak_availability_pct": 5.9
 }

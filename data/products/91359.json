@@ -12,25 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.0,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0266,
   "first_seen_at": "2026-04-16T21:05:38.080670+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 11.08,
+    "avg": 10.99,
     "min": 10.99,
-    "max": 11.99,
+    "max": 10.99,
     "median": 10.99,
-    "std_dev": 0.3,
-    "store_count": 11
+    "std_dev": 0.0,
+    "store_count": 10
   },
   "histogram": [
     {
       "bucket": "$10.99",
       "count": 10
-    },
-    {
-      "bucket": "$11.99",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -140,13 +136,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "042908",
-      "name": "Taco Bell",
-      "city": "Miami",
-      "state": "FL",
-      "price": 11.99
-    },
-    {
       "store_number": "027509",
       "name": "Taco Bell",
       "city": "Covington",
@@ -208,9 +197,26 @@
       "city": "McDonough",
       "state": "GA",
       "price": 10.99
+    },
+    {
+      "store_number": "042582",
+      "name": "Taco Bell",
+      "city": "Dacula",
+      "state": "GA",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042908",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-06-07T21:25:38.680823+00:00"
+    },
     {
       "store_number": "042909",
       "store_name": "Taco Bell",
@@ -3404,7 +3410,7 @@
   ],
   "activity_summary": {
     "added": 165,
-    "removed": 154,
+    "removed": 155,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3539,18 +3545,9 @@
       "Taco Bell",
       "Covington",
       "GA"
-    ],
-    [
-      "042908",
-      25.808503356372075,
-      -80.32573870849768,
-      11.99,
-      "Taco Bell",
-      "Miami",
-      "FL"
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-06-06",
+  "last_seen_date": "2026-06-07",
   "peak_availability_pct": 1.0
 }

@@ -14,16 +14,20 @@
   "peak_30d_pct": 93.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.9,
+  "availability_pct": 100.0,
   "price_stats": {
     "avg": 2.04,
-    "min": 1.59,
+    "min": 0.99,
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.21,
-    "store_count": 7705
+    "store_count": 7707
   },
   "histogram": [
+    {
+      "bucket": "$0.99",
+      "count": 1
+    },
     {
       "bucket": "$1.59",
       "count": 1
@@ -46,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4348
+      "count": 4350
     },
     {
       "bucket": "$2.00",
@@ -142,7 +146,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 65
+      "count": 64
     },
     {
       "bucket": "$3.09",
@@ -188,7 +192,7 @@
     {
       "state": "CA",
       "avg_price": 2.23,
-      "store_count": 838
+      "store_count": 837
     },
     {
       "state": "MT",
@@ -278,7 +282,7 @@
     {
       "state": "NE",
       "avg_price": 2.01,
-      "store_count": 43
+      "store_count": 44
     },
     {
       "state": "OR",
@@ -343,7 +347,7 @@
     {
       "state": "NC",
       "avg_price": 1.98,
-      "store_count": 263
+      "store_count": 264
     },
     {
       "state": "VA",
@@ -353,7 +357,7 @@
     {
       "state": "GA",
       "avg_price": 1.96,
-      "store_count": 258
+      "store_count": 259
     },
     {
       "state": "TX",
@@ -437,6 +441,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "040318",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 0.99
+    },
+    {
       "store_number": "031484",
       "name": "Taco Bell",
       "city": "Window Rock",
@@ -498,17 +509,10 @@
       "city": "Battle Creek",
       "state": "MI",
       "price": 1.69
-    },
-    {
-      "store_number": "040891",
-      "name": "Taco Bell",
-      "city": "Lakeville",
-      "state": "MN",
-      "price": 1.69
     }
   ],
   "min_price_store_numbers": [
-    "031484"
+    "040318"
   ],
   "priciest_stores": [
     {
@@ -583,6 +587,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042251",
+      "store_name": "Taco Bell",
+      "city": "Alpharetta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-06-07T21:33:54.185847+00:00"
+    },
+    {
+      "store_number": "035270",
+      "store_name": "Taco Bell",
+      "city": "Omaha",
+      "state": "NE",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-06-07T21:26:22.352314+00:00"
+    },
+    {
+      "store_number": "020165",
+      "store_name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-06-07T21:26:07.454490+00:00"
+    },
+    {
+      "store_number": "003991",
+      "store_name": "Taco Bell",
+      "city": "Susanville",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-06-07T21:25:50.156079+00:00"
+    },
+    {
+      "store_number": "040318",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-06-07T21:19:59.425173+00:00"
+    },
     {
       "store_number": "033338",
       "store_name": "Taco Bell",
@@ -8115,9 +8169,9 @@
     }
   ],
   "activity_summary": {
-    "added": 100,
-    "removed": 82,
-    "price_changed": 571,
+    "added": 103,
+    "removed": 83,
+    "price_changed": 572,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 180,
@@ -8125,6 +8179,15 @@
   "calories_max": 180,
   "combo_groups": [],
   "map_data": [
+    [
+      "040318",
+      41.807919921888036,
+      -87.74351908680534,
+      0.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
     [
       "031484",
       35.66402882084004,
@@ -22812,15 +22875,6 @@
       "Taco Bell",
       "Little Rock",
       "AR"
-    ],
-    [
-      "040318",
-      41.807919921888036,
-      -87.74351908680534,
-      1.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
     ],
     [
       "041646",
@@ -49202,6 +49256,15 @@
       "OH"
     ],
     [
+      "020165",
+      35.756565884985335,
+      -78.74081303180901,
+      1.99,
+      "Taco Bell",
+      "Cary",
+      "NC"
+    ],
+    [
       "000328",
       31.772606730130583,
       -106.49979610742776,
@@ -53597,6 +53660,15 @@
       "035283",
       41.292712313998464,
       -96.14230982961999,
+      1.99,
+      "Taco Bell",
+      "Omaha",
+      "NE"
+    ],
+    [
+      "035270",
+      41.23443163312327,
+      -96.1424195766449,
       1.99,
       "Taco Bell",
       "Omaha",
@@ -60999,6 +61071,15 @@
       "Taco Bell",
       "Etna",
       "OH"
+    ],
+    [
+      "042251",
+      34.151386,
+      -84.251532,
+      1.99,
+      "Taco Bell",
+      "Alpharetta",
+      "GA"
     ],
     [
       "037042",
@@ -76821,15 +76902,6 @@
       "Taco Bell",
       "Port Chester",
       "NY"
-    ],
-    [
-      "003991",
-      40.405731305744325,
-      -120.6333485870065,
-      2.99,
-      "Taco Bell",
-      "Susanville",
-      "CA"
     ],
     [
       "029309",
