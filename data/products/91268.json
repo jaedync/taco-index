@@ -12,21 +12,25 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.9,
-  "recent_price_change_pct": -0.0204,
+  "recent_price_change_pct": -0.0354,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.4,
+  "availability_pct": 1.5,
   "price_stats": {
     "avg": 6.37,
     "min": 5.29,
     "max": 7.99,
     "median": 6.19,
     "std_dev": 0.67,
-    "store_count": 109
+    "store_count": 113
   },
   "histogram": [
     {
       "bucket": "$5.29",
       "count": 8
+    },
+    {
+      "bucket": "$5.49",
+      "count": 1
     },
     {
       "bucket": "$5.69",
@@ -66,7 +70,7 @@
     },
     {
       "bucket": "$6.59",
-      "count": 2
+      "count": 5
     },
     {
       "bucket": "$6.69",
@@ -92,8 +96,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.72,
-      "store_count": 42
+      "avg_price": 6.69,
+      "store_count": 43
     },
     {
       "state": "TN",
@@ -107,8 +111,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 5.79,
-      "store_count": 9
+      "avg_price": 5.99,
+      "store_count": 12
     }
   ],
   "nutrition": null,
@@ -170,18 +174,18 @@
       "price": 5.29
     },
     {
+      "store_number": "041837",
+      "name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "price": 5.49
+    },
+    {
       "store_number": "033481",
       "name": "Taco Bell",
       "city": "Villa Rica",
       "state": "GA",
       "price": 5.69
-    },
-    {
-      "store_number": "042580",
-      "name": "Taco Bell",
-      "city": "Douglasville",
-      "state": "GA",
-      "price": 5.79
     }
   ],
   "min_price_store_numbers": [
@@ -267,6 +271,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042124",
+      "store_name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.59,
+      "observed_at": "2026-06-08T21:25:13.485584+00:00"
+    },
+    {
+      "store_number": "041837",
+      "store_name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-08T21:24:59.679878+00:00"
+    },
+    {
+      "store_number": "042122",
+      "store_name": "Taco Bell",
+      "city": "Destin",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.59,
+      "observed_at": "2026-06-08T21:24:02.145976+00:00"
+    },
+    {
+      "store_number": "042121",
+      "store_name": "Taco Bell",
+      "city": "Fort Walton Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.59,
+      "observed_at": "2026-06-08T21:23:44.914188+00:00"
+    },
     {
       "store_number": "041105",
       "store_name": "Taco Bell",
@@ -13079,7 +13123,7 @@
     }
   ],
   "activity_summary": {
-    "added": 615,
+    "added": 619,
     "removed": 506,
     "price_changed": 160,
     "since": "2026-03-31T00:00:00+00:00"
@@ -13172,6 +13216,15 @@
       5.29,
       "Taco Bell",
       "Peachtree City",
+      "GA"
+    ],
+    [
+      "041837",
+      30.85502172223534,
+      -83.94673973321909,
+      5.49,
+      "Taco Bell",
+      "Thomasville",
       "GA"
     ],
     [
@@ -13877,12 +13930,39 @@
       "FL"
     ],
     [
+      "042121",
+      30.415996791776298,
+      -86.60656302491896,
+      6.59,
+      "Taco Bell",
+      "Fort Walton Beach",
+      "FL"
+    ],
+    [
       "042829",
       30.458093509232302,
       -87.29877294124185,
       6.59,
       "Taco Bell",
       "Pensacola",
+      "FL"
+    ],
+    [
+      "042122",
+      30.393123641742402,
+      -86.49879455566406,
+      6.59,
+      "Taco Bell",
+      "Destin",
+      "FL"
+    ],
+    [
+      "042124",
+      30.522978445511598,
+      -86.49525940418243,
+      6.59,
+      "Taco Bell",
+      "Niceville",
       "FL"
     ],
     [
@@ -14085,6 +14165,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-07",
+  "last_seen_date": "2026-06-08",
   "peak_availability_pct": 5.9
 }

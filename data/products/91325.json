@@ -11,22 +11,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 0.4,
-  "recent_price_change_pct": null,
+  "peak_30d_pct": 0.5,
+  "recent_price_change_pct": 0.0239,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.5,
   "price_stats": {
-    "avg": 9.14,
+    "avg": 9.27,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.46,
-    "store_count": 30
+    "std_dev": 0.52,
+    "store_count": 38
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 26
+      "count": 28
     },
     {
       "bucket": "$9.49",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 1
+      "count": 7
     },
     {
       "bucket": "$11.29",
@@ -42,6 +42,11 @@
     }
   ],
   "state_prices": [
+    {
+      "state": "FL",
+      "avg_price": 9.66,
+      "store_count": 9
+    },
     {
       "state": "GA",
       "avg_price": 9.21,
@@ -165,7 +170,9 @@
     "024364",
     "029738",
     "031473",
-    "037419"
+    "037419",
+    "042121",
+    "042125"
   ],
   "priciest_stores": [
     {
@@ -174,6 +181,48 @@
       "city": "Ellenwood",
       "state": "GA",
       "price": 11.29
+    },
+    {
+      "store_number": "042830",
+      "name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "price": 9.99
+    },
+    {
+      "store_number": "042824",
+      "name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "price": 9.99
+    },
+    {
+      "store_number": "042826",
+      "name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "price": 9.99
+    },
+    {
+      "store_number": "042829",
+      "name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "price": 9.99
+    },
+    {
+      "store_number": "042827",
+      "name": "Taco Bell",
+      "city": "Foley",
+      "state": "AL",
+      "price": 9.99
+    },
+    {
+      "store_number": "042832",
+      "name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "price": 9.99
     },
     {
       "store_number": "042903",
@@ -195,51 +244,89 @@
       "city": "Panama City",
       "state": "FL",
       "price": 9.49
-    },
-    {
-      "store_number": "037419",
-      "name": "Taco Bell",
-      "city": "Midland",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "031473",
-      "name": "Taco Bell",
-      "city": "Covington",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "029738",
-      "name": "Taco Bell",
-      "city": "Oneida",
-      "state": "TN",
-      "price": 9.0
-    },
-    {
-      "store_number": "024364",
-      "name": "Taco Bell",
-      "city": "East Point",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "029098",
-      "name": "Taco Bell",
-      "city": "Warner Robins",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "029033",
-      "name": "Taco Bell",
-      "city": "Clinton",
-      "state": "TN",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042830",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-08T21:29:21.081151+00:00"
+    },
+    {
+      "store_number": "042125",
+      "store_name": "Taco Bell",
+      "city": "Crestview",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-08T21:25:07.765186+00:00"
+    },
+    {
+      "store_number": "042824",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-08T21:24:46.031361+00:00"
+    },
+    {
+      "store_number": "042826",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-08T21:24:26.786686+00:00"
+    },
+    {
+      "store_number": "042829",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-08T21:23:56.894689+00:00"
+    },
+    {
+      "store_number": "042121",
+      "store_name": "Taco Bell",
+      "city": "Fort Walton Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-08T21:23:44.914188+00:00"
+    },
+    {
+      "store_number": "042827",
+      "store_name": "Taco Bell",
+      "city": "Foley",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-08T21:22:48.598014+00:00"
+    },
+    {
+      "store_number": "042832",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-08T21:22:48.533239+00:00"
+    },
     {
       "store_number": "037419",
       "store_name": "Taco Bell",
@@ -3142,7 +3229,7 @@
     }
   ],
   "activity_summary": {
-    "added": 130,
+    "added": 138,
     "removed": 160,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3418,6 +3505,24 @@
       "GA"
     ],
     [
+      "042121",
+      30.415996791776298,
+      -86.60656302491896,
+      9.0,
+      "Taco Bell",
+      "Fort Walton Beach",
+      "FL"
+    ],
+    [
+      "042125",
+      30.786388890498326,
+      -86.5598059594958,
+      9.0,
+      "Taco Bell",
+      "Crestview",
+      "FL"
+    ],
+    [
       "004185",
       30.138993189337146,
       -85.59155344963074,
@@ -3445,6 +3550,60 @@
       "GA"
     ],
     [
+      "042832",
+      30.5336733589741,
+      -87.27316802173264,
+      9.99,
+      "Taco Bell",
+      "Pensacola",
+      "FL"
+    ],
+    [
+      "042827",
+      30.393152,
+      -87.681808,
+      9.99,
+      "Taco Bell",
+      "Foley",
+      "AL"
+    ],
+    [
+      "042829",
+      30.458093509232302,
+      -87.29877294124185,
+      9.99,
+      "Taco Bell",
+      "Pensacola",
+      "FL"
+    ],
+    [
+      "042826",
+      30.403916243280175,
+      -87.27756415309159,
+      9.99,
+      "Taco Bell",
+      "Pensacola",
+      "FL"
+    ],
+    [
+      "042824",
+      30.478227174952746,
+      -87.20678776502609,
+      9.99,
+      "Taco Bell",
+      "Pensacola",
+      "FL"
+    ],
+    [
+      "042830",
+      30.42369262233515,
+      -87.20223457405697,
+      9.99,
+      "Taco Bell",
+      "Pensacola",
+      "FL"
+    ],
+    [
       "041223",
       33.61940670172887,
       -84.24365535383913,
@@ -3455,6 +3614,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-07",
+  "last_seen_date": "2026-06-08",
   "peak_availability_pct": 1.1
 }

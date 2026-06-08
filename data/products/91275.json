@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.28,
+    "avg": 10.3,
     "min": 9.49,
     "max": 10.99,
     "median": 10.29,
     "std_dev": 0.34,
-    "store_count": 16
+    "store_count": 15
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$10.19",
@@ -60,8 +60,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.29,
-      "store_count": 6
+      "avg_price": 10.35,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -85,13 +85,6 @@
       "city": "Port St Joe",
       "state": "FL",
       "price": 9.49
-    },
-    {
-      "store_number": "042903",
-      "name": "Taco Bell",
-      "city": "Baxley",
-      "state": "GA",
-      "price": 9.99
     },
     {
       "store_number": "042829",
@@ -146,6 +139,13 @@
       "store_number": "043144",
       "name": "Taco Bell",
       "city": "Oneonta",
+      "state": "AL",
+      "price": 10.29
+    },
+    {
+      "store_number": "029145",
+      "name": "Taco Bell",
+      "city": "Cullman",
       "state": "AL",
       "price": 10.29
     }
@@ -226,6 +226,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-06-08T21:23:17.027897+00:00"
+    },
     {
       "store_number": "041258",
       "store_name": "Taco Bell",
@@ -1089,7 +1099,7 @@
   ],
   "activity_summary": {
     "added": 51,
-    "removed": 35,
+    "removed": 36,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1137,15 +1147,6 @@
       "Taco Bell",
       "Port St Joe",
       "FL"
-    ],
-    [
-      "042903",
-      31.783928,
-      -82.363196,
-      9.99,
-      "Taco Bell",
-      "Baxley",
-      "GA"
     ],
     [
       "042829",
@@ -1275,6 +1276,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-07",
+  "last_seen_date": "2026-06-08",
   "peak_availability_pct": 0.2
 }

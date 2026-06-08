@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
   "availability_pct": 2.7,
   "price_stats": {
-    "avg": 1.0,
+    "avg": 0.99,
     "min": 0.55,
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 208
+    "store_count": 207
   },
   "histogram": [
     {
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$0.95",
-      "count": 35
+      "count": 34
     },
     {
       "bucket": "$0.99",
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 43
+      "count": 44
     },
     {
       "bucket": "$1.10",
@@ -81,7 +81,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$1.49",
@@ -116,7 +116,7 @@
     {
       "state": "IN",
       "avg_price": 0.99,
-      "store_count": 22
+      "store_count": 23
     },
     {
       "state": "OH",
@@ -316,6 +316,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003991",
+      "store_name": "Taco Bell",
+      "city": "Susanville",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.29,
+      "new_price": null,
+      "observed_at": "2026-06-08T21:24:28.931298+00:00"
+    },
+    {
+      "store_number": "034648",
+      "store_name": "Taco Bell",
+      "city": "Muncie",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-06-08T21:18:08.680186+00:00"
+    },
+    {
+      "store_number": "041189",
+      "store_name": "Taco Bell",
+      "city": "Billings",
+      "state": "MT",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-06-08T21:17:33.767242+00:00"
+    },
     {
       "store_number": "042803",
       "store_name": "Taco Bell",
@@ -4758,8 +4788,8 @@
     }
   ],
   "activity_summary": {
-    "added": 231,
-    "removed": 213,
+    "added": 232,
+    "removed": 215,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5867,15 +5897,6 @@
       "MI"
     ],
     [
-      "041189",
-      45.78536532266235,
-      -108.58981369705111,
-      0.95,
-      "Taco Bell",
-      "Billings",
-      "MT"
-    ],
-    [
       "036262",
       39.4836008,
       -88.33129439999999,
@@ -6299,6 +6320,15 @@
       "MA"
     ],
     [
+      "034648",
+      40.218686400314986,
+      -85.37569523227864,
+      1.0,
+      "Taco Bell",
+      "Muncie",
+      "IN"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -6441,15 +6471,6 @@
       "Taco Bell",
       "Shepherdsville",
       "KY"
-    ],
-    [
-      "003991",
-      40.405731305744325,
-      -120.6333485870065,
-      1.29,
-      "Taco Bell",
-      "Susanville",
-      "CA"
     ],
     [
       "034678",
@@ -6642,6 +6663,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-07",
+  "last_seen_date": "2026-06-08",
   "peak_availability_pct": 2.5
 }

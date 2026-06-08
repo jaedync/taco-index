@@ -14,19 +14,19 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.4,
+  "availability_pct": 1.5,
   "price_stats": {
-    "avg": 11.18,
+    "avg": 11.16,
     "min": 10.49,
     "max": 12.29,
     "median": 11.19,
-    "std_dev": 0.38,
-    "store_count": 105
+    "std_dev": 0.37,
+    "store_count": 113
   },
   "histogram": [
     {
       "bucket": "$10.49",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$10.69",
@@ -34,15 +34,15 @@
     },
     {
       "bucket": "$10.89",
-      "count": 3
+      "count": 6
     },
     {
       "bucket": "$10.99",
-      "count": 30
+      "count": 33
     },
     {
       "bucket": "$11.19",
-      "count": 26
+      "count": 27
     },
     {
       "bucket": "$11.29",
@@ -72,8 +72,8 @@
   "state_prices": [
     {
       "state": "AL",
-      "avg_price": 11.35,
-      "store_count": 48
+      "avg_price": 11.33,
+      "store_count": 51
     },
     {
       "state": "TN",
@@ -82,13 +82,13 @@
     },
     {
       "state": "GA",
-      "avg_price": 11.03,
-      "store_count": 39
+      "avg_price": 11.02,
+      "store_count": 41
     },
     {
       "state": "FL",
-      "avg_price": 10.79,
-      "store_count": 9
+      "avg_price": 10.81,
+      "store_count": 12
     }
   ],
   "nutrition": null,
@@ -136,6 +136,13 @@
       "price": 10.49
     },
     {
+      "store_number": "041837",
+      "name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "price": 10.49
+    },
+    {
       "store_number": "041212",
       "name": "Taco Bell",
       "city": "Decatur",
@@ -155,13 +162,6 @@
       "city": "Port St Joe",
       "state": "FL",
       "price": 10.69
-    },
-    {
-      "store_number": "004370",
-      "name": "Taco Bell",
-      "city": "Panama City Beach",
-      "state": "FL",
-      "price": 10.69
     }
   ],
   "min_price_store_numbers": [
@@ -171,6 +171,7 @@
     "041223",
     "002167",
     "041218",
+    "041837",
     "041212",
     "005482"
   ],
@@ -247,6 +248,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042124",
+      "store_name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.89,
+      "observed_at": "2026-06-08T21:25:13.485584+00:00"
+    },
+    {
+      "store_number": "042818",
+      "store_name": "Taco Bell",
+      "city": "Mobile",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-06-08T21:25:12.160828+00:00"
+    },
+    {
+      "store_number": "039946",
+      "store_name": "Taco Bell",
+      "city": "Monroe",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.19,
+      "observed_at": "2026-06-08T21:25:05.626872+00:00"
+    },
+    {
+      "store_number": "041837",
+      "store_name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-06-08T21:24:59.679878+00:00"
+    },
+    {
+      "store_number": "042122",
+      "store_name": "Taco Bell",
+      "city": "Destin",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.89,
+      "observed_at": "2026-06-08T21:24:02.145976+00:00"
+    },
+    {
+      "store_number": "042821",
+      "store_name": "Taco Bell",
+      "city": "Mobile",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-06-08T21:23:58.386803+00:00"
+    },
+    {
+      "store_number": "042121",
+      "store_name": "Taco Bell",
+      "city": "Fort Walton Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.89,
+      "observed_at": "2026-06-08T21:23:44.914188+00:00"
+    },
+    {
+      "store_number": "038735",
+      "store_name": "Taco Bell",
+      "city": "Grand Bay",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-06-08T21:17:37.480808+00:00"
+    },
     {
       "store_number": "041105",
       "store_name": "Taco Bell",
@@ -14599,7 +14680,7 @@
     }
   ],
   "activity_summary": {
-    "added": 619,
+    "added": 627,
     "removed": 514,
     "price_changed": 302,
     "since": "2026-03-31T00:00:00+00:00"
@@ -14695,6 +14776,15 @@
       "GA"
     ],
     [
+      "041837",
+      30.85502172223534,
+      -83.94673973321909,
+      10.49,
+      "Taco Bell",
+      "Thomasville",
+      "GA"
+    ],
+    [
       "041212",
       33.75484747709103,
       -84.26683026558743,
@@ -14758,6 +14848,24 @@
       "FL"
     ],
     [
+      "042121",
+      30.415996791776298,
+      -86.60656302491896,
+      10.89,
+      "Taco Bell",
+      "Fort Walton Beach",
+      "FL"
+    ],
+    [
+      "042122",
+      30.393123641742402,
+      -86.49879455566406,
+      10.89,
+      "Taco Bell",
+      "Destin",
+      "FL"
+    ],
+    [
       "003874",
       30.73358597166225,
       -86.565745715733,
@@ -14776,6 +14884,15 @@
       "FL"
     ],
     [
+      "042124",
+      30.522978445511598,
+      -86.49525940418243,
+      10.89,
+      "Taco Bell",
+      "Niceville",
+      "FL"
+    ],
+    [
       "042123",
       30.48259156216648,
       -86.41599865257577,
@@ -14783,6 +14900,15 @@
       "Taco Bell",
       "Niceville",
       "FL"
+    ],
+    [
+      "038735",
+      30.4997,
+      -88.3352,
+      10.99,
+      "Taco Bell",
+      "Grand Bay",
+      "AL"
     ],
     [
       "042575",
@@ -14938,6 +15064,15 @@
       "GA"
     ],
     [
+      "042821",
+      30.590763308910145,
+      -88.17006348098568,
+      10.99,
+      "Taco Bell",
+      "Mobile",
+      "AL"
+    ],
+    [
       "041232",
       34.027792990034094,
       -84.0467861294747,
@@ -15052,6 +15187,15 @@
       10.99,
       "Taco Bell",
       "Opelika",
+      "AL"
+    ],
+    [
+      "042818",
+      30.68370406040473,
+      -88.06090991476809,
+      10.99,
+      "Taco Bell",
+      "Mobile",
       "AL"
     ],
     [
@@ -15260,6 +15404,15 @@
       "Taco Bell",
       "Auburn",
       "AL"
+    ],
+    [
+      "039946",
+      33.79201875090728,
+      -83.73402078556178,
+      11.19,
+      "Taco Bell",
+      "Monroe",
+      "GA"
     ],
     [
       "029078",
@@ -15587,6 +15740,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-07",
+  "last_seen_date": "2026-06-08",
   "peak_availability_pct": 5.9
 }

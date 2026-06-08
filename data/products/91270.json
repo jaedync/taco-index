@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.4,
   "price_stats": {
-    "avg": 8.69,
+    "avg": 8.66,
     "min": 7.79,
     "max": 10.49,
     "median": 8.69,
-    "std_dev": 0.48,
-    "store_count": 108
+    "std_dev": 0.5,
+    "store_count": 110
   },
   "histogram": [
     {
       "bucket": "$7.79",
-      "count": 1
+      "count": 4
     },
     {
       "bucket": "$7.89",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$8.49",
-      "count": 10
+      "count": 11
     },
     {
       "bucket": "$8.59",
@@ -62,11 +62,11 @@
     },
     {
       "bucket": "$8.79",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$8.89",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$8.99",
@@ -80,7 +80,7 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 8.96,
+      "avg_price": 8.93,
       "store_count": 42
     },
     {
@@ -95,8 +95,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 8.05,
-      "store_count": 8
+      "avg_price": 8.0,
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -115,9 +115,30 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "042121",
+      "name": "Taco Bell",
+      "city": "Fort Walton Beach",
+      "state": "FL",
+      "price": 7.79
+    },
+    {
+      "store_number": "041837",
+      "name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "price": 7.79
+    },
+    {
       "store_number": "042126",
       "name": "Taco Bell",
       "city": "Defuniak Springs",
+      "state": "FL",
+      "price": 7.79
+    },
+    {
+      "store_number": "042124",
+      "name": "Taco Bell",
+      "city": "Niceville",
       "state": "FL",
       "price": 7.79
     },
@@ -162,31 +183,13 @@
       "city": "Panama City",
       "state": "FL",
       "price": 7.99
-    },
-    {
-      "store_number": "003874",
-      "name": "Taco Bell",
-      "city": "Crestview",
-      "state": "FL",
-      "price": 7.99
-    },
-    {
-      "store_number": "019713",
-      "name": "Taco Bell",
-      "city": "Panama City Beach",
-      "state": "FL",
-      "price": 7.99
-    },
-    {
-      "store_number": "031583",
-      "name": "Taco Bell",
-      "city": "Beaufort",
-      "state": "SC",
-      "price": 8.19
     }
   ],
   "min_price_store_numbers": [
-    "042126"
+    "042121",
+    "041837",
+    "042126",
+    "042124"
   ],
   "priciest_stores": [
     {
@@ -261,6 +264,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042124",
+      "store_name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-06-08T21:25:13.485584+00:00"
+    },
+    {
+      "store_number": "039946",
+      "store_name": "Taco Bell",
+      "city": "Monroe",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.49,
+      "observed_at": "2026-06-08T21:25:05.626872+00:00"
+    },
+    {
+      "store_number": "041837",
+      "store_name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-06-08T21:24:59.679878+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 8.89,
+      "new_price": null,
+      "observed_at": "2026-06-08T21:24:33.278095+00:00"
+    },
+    {
+      "store_number": "042121",
+      "store_name": "Taco Bell",
+      "city": "Fort Walton Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-06-08T21:23:44.914188+00:00"
+    },
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 8.79,
+      "new_price": null,
+      "observed_at": "2026-06-08T21:23:17.027897+00:00"
+    },
     {
       "store_number": "043135",
       "store_name": "Taco Bell",
@@ -14323,8 +14386,8 @@
     }
   ],
   "activity_summary": {
-    "added": 624,
-    "removed": 516,
+    "added": 628,
+    "removed": 518,
     "price_changed": 266,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14347,12 +14410,39 @@
   ],
   "map_data": [
     [
+      "042121",
+      30.415996791776298,
+      -86.60656302491896,
+      7.79,
+      "Taco Bell",
+      "Fort Walton Beach",
+      "FL"
+    ],
+    [
+      "041837",
+      30.85502172223534,
+      -83.94673973321909,
+      7.79,
+      "Taco Bell",
+      "Thomasville",
+      "GA"
+    ],
+    [
       "042126",
       30.701080181738643,
       -86.12210662608975,
       7.79,
       "Taco Bell",
       "Defuniak Springs",
+      "FL"
+    ],
+    [
+      "042124",
+      30.522978445511598,
+      -86.49525940418243,
+      7.79,
+      "Taco Bell",
+      "Niceville",
       "FL"
     ],
     [
@@ -14651,6 +14741,15 @@
       "Taco Bell",
       "Auburn",
       "AL"
+    ],
+    [
+      "039946",
+      33.79201875090728,
+      -83.73402078556178,
+      8.49,
+      "Taco Bell",
+      "Monroe",
+      "GA"
     ],
     [
       "042019",
@@ -15058,15 +15157,6 @@
       "NC"
     ],
     [
-      "042903",
-      31.783928,
-      -82.363196,
-      8.79,
-      "Taco Bell",
-      "Baxley",
-      "GA"
-    ],
-    [
       "042958",
       34.57130151774336,
       -83.30742357913648,
@@ -15127,15 +15217,6 @@
       8.89,
       "Taco Bell",
       "Douglasville",
-      "GA"
-    ],
-    [
-      "002995",
-      33.88866329031674,
-      -84.47492127122132,
-      8.89,
-      "Taco Bell",
-      "Smyrna",
       "GA"
     ],
     [
@@ -15320,6 +15401,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-07",
+  "last_seen_date": "2026-06-08",
   "peak_availability_pct": 6.0
 }
