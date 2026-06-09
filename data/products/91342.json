@@ -15,19 +15,19 @@
   "peak_30d_pct": 6.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.3,
+  "availability_pct": 1.4,
   "price_stats": {
     "avg": 6.68,
     "min": 6.49,
     "max": 6.99,
     "median": 6.69,
-    "std_dev": 0.2,
-    "store_count": 102
+    "std_dev": 0.21,
+    "store_count": 105
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 46
+      "count": 47
     },
     {
       "bucket": "$6.69",
@@ -35,14 +35,14 @@
     },
     {
       "bucket": "$6.99",
-      "count": 26
+      "count": 28
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 6.81,
-      "store_count": 34
+      "store_count": 36
     },
     {
       "state": "FL",
@@ -163,6 +163,7 @@
     "029140",
     "029145",
     "029110",
+    "003824",
     "036370",
     "026044",
     "016335",
@@ -252,21 +253,51 @@
       "price": 6.99
     },
     {
+      "store_number": "039919",
+      "name": "Taco Bell",
+      "city": "Savannah",
+      "state": "GA",
+      "price": 6.99
+    },
+    {
       "store_number": "039924",
       "name": "Taco Bell",
       "city": "Hinesville",
       "state": "GA",
       "price": 6.99
-    },
-    {
-      "store_number": "041255",
-      "name": "Taco Bell",
-      "city": "Acworth",
-      "state": "GA",
-      "price": 6.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039919",
+      "store_name": "Taco Bell",
+      "city": "Savannah",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-06-09T20:55:38.552287+00:00"
+    },
+    {
+      "store_number": "040967",
+      "store_name": "Taco Bell",
+      "city": "Sylva",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-06-09T20:55:26.534784+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-06-09T20:54:54.106191+00:00"
+    },
     {
       "store_number": "042124",
       "store_name": "Taco Bell",
@@ -11579,7 +11610,7 @@
     }
   ],
   "activity_summary": {
-    "added": 616,
+    "added": 619,
     "removed": 514,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
@@ -11751,6 +11782,15 @@
       "Taco Bell",
       "Birmingham",
       "AL"
+    ],
+    [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      6.49,
+      "Taco Bell",
+      "Lithia Springs",
+      "GA"
     ],
     [
       "036370",
@@ -12428,6 +12468,15 @@
       "GA"
     ],
     [
+      "040967",
+      35.37256754318715,
+      -83.20724665070884,
+      6.99,
+      "Taco Bell",
+      "Sylva",
+      "NC"
+    ],
+    [
       "041247",
       34.22726084330739,
       -83.86797934770584,
@@ -12452,6 +12501,15 @@
       6.99,
       "Taco Bell",
       "Hinesville",
+      "GA"
+    ],
+    [
+      "039919",
+      32.04206596405184,
+      -81.06397350134102,
+      6.99,
+      "Taco Bell",
+      "Savannah",
       "GA"
     ],
     [
@@ -12528,6 +12586,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-08",
+  "last_seen_date": "2026-06-09",
   "peak_availability_pct": 6.0
 }

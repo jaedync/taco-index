@@ -21,12 +21,12 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.18,
-    "store_count": 114
+    "store_count": 116
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 9
+      "count": 10
     },
     {
       "bucket": "$3.09",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$3.39",
@@ -60,8 +60,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 3.37,
-      "store_count": 41
+      "avg_price": 3.36,
+      "store_count": 42
     },
     {
       "state": "TN",
@@ -81,6 +81,13 @@
   ],
   "nutrition": null,
   "cheapest_stores": [
+    {
+      "store_number": "042582",
+      "name": "Taco Bell",
+      "city": "Dacula",
+      "state": "GA",
+      "price": 2.99
+    },
     {
       "store_number": "033481",
       "name": "Taco Bell",
@@ -143,16 +150,10 @@
       "city": "Peachtree City",
       "state": "GA",
       "price": 2.99
-    },
-    {
-      "store_number": "003874",
-      "name": "Taco Bell",
-      "city": "Crestview",
-      "state": "FL",
-      "price": 3.09
     }
   ],
   "min_price_store_numbers": [
+    "042582",
     "033481",
     "037050",
     "032542",
@@ -236,6 +237,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040967",
+      "store_name": "Taco Bell",
+      "city": "Sylva",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-06-09T20:55:26.534784+00:00"
+    },
+    {
+      "store_number": "042582",
+      "store_name": "Taco Bell",
+      "city": "Dacula",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-09T20:53:40.602102+00:00"
+    },
     {
       "store_number": "042124",
       "store_name": "Taco Bell",
@@ -14608,7 +14629,7 @@
     }
   ],
   "activity_summary": {
-    "added": 622,
+    "added": 624,
     "removed": 508,
     "price_changed": 307,
     "since": "2026-03-31T00:00:00+00:00"
@@ -14631,6 +14652,15 @@
     }
   ],
   "map_data": [
+    [
+      "042582",
+      34.03186002111262,
+      -83.88571668620189,
+      2.99,
+      "Taco Bell",
+      "Dacula",
+      "GA"
+    ],
     [
       "033481",
       33.73376376352933,
@@ -15388,6 +15418,15 @@
       "FL"
     ],
     [
+      "040967",
+      35.37256754318715,
+      -83.20724665070884,
+      3.29,
+      "Taco Bell",
+      "Sylva",
+      "NC"
+    ],
+    [
       "042831",
       30.670654044454654,
       -87.85164057593474,
@@ -15659,6 +15698,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-08",
+  "last_seen_date": "2026-06-09",
   "peak_availability_pct": 5.9
 }

@@ -16,39 +16,32 @@
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 11.35,
+    "avg": 11.32,
     "min": 10.99,
     "max": 11.99,
     "median": 10.99,
-    "std_dev": 0.5,
-    "store_count": 14
+    "std_dev": 0.49,
+    "store_count": 12
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 9
+      "count": 8
     },
     {
       "bucket": "$11.99",
-      "count": 5
+      "count": 4
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 11.35,
-      "store_count": 14
+      "avg_price": 11.32,
+      "store_count": 12
     }
   ],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "041088",
-      "name": "Taco Bell",
-      "city": "Covington",
-      "state": "GA",
-      "price": 10.99
-    },
     {
       "store_number": "036290",
       "name": "Taco Bell",
@@ -111,10 +104,16 @@
       "city": "Dacula",
       "state": "GA",
       "price": 11.99
+    },
+    {
+      "store_number": "042584",
+      "name": "Taco Bell",
+      "city": "McDonough",
+      "state": "GA",
+      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
-    "041088",
     "036290",
     "003859",
     "027711",
@@ -136,13 +135,6 @@
       "store_number": "042572",
       "name": "Taco Bell",
       "city": "Fairburn",
-      "state": "GA",
-      "price": 11.99
-    },
-    {
-      "store_number": "042581",
-      "name": "Taco Bell",
-      "city": "Canton",
       "state": "GA",
       "price": 11.99
     },
@@ -194,9 +186,36 @@
       "city": "Cumming",
       "state": "GA",
       "price": 10.99
+    },
+    {
+      "store_number": "027711",
+      "name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042581",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-06-09T20:54:00.756974+00:00"
+    },
+    {
+      "store_number": "041088",
+      "store_name": "Taco Bell",
+      "city": "Covington",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-09T20:53:45.441842+00:00"
+    },
     {
       "store_number": "042909",
       "store_name": "Taco Bell",
@@ -2300,7 +2319,7 @@
   ],
   "activity_summary": {
     "added": 112,
-    "removed": 98,
+    "removed": 100,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2346,15 +2365,6 @@
     }
   ],
   "map_data": [
-    [
-      "041088",
-      33.57060583649051,
-      -83.85142853497027,
-      10.99,
-      "Taco Bell",
-      "Covington",
-      "GA"
-    ],
     [
       "036290",
       33.68525347160878,
@@ -2446,15 +2456,6 @@
       "GA"
     ],
     [
-      "042581",
-      34.256253,
-      -84.35856199999999,
-      11.99,
-      "Taco Bell",
-      "Canton",
-      "GA"
-    ],
-    [
       "042572",
       33.53980644411624,
       -84.57611403902706,
@@ -2474,6 +2475,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-08",
+  "last_seen_date": "2026-06-09",
   "peak_availability_pct": 1.0
 }

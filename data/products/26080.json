@@ -14,26 +14,26 @@
   "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:48:25.343572+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.2,
   "price_stats": {
     "avg": 7.0,
     "min": 7.0,
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 11
+    "store_count": 12
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 11
+      "count": 12
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 7.0,
-      "store_count": 11
+      "store_count": 12
     }
   ],
   "nutrition": {
@@ -133,9 +133,17 @@
     "033280",
     "030384",
     "030390",
-    "033285"
+    "033285",
+    "030377"
   ],
   "priciest_stores": [
+    {
+      "store_number": "030377",
+      "name": "Taco Bell",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "price": 7.0
+    },
     {
       "store_number": "033285",
       "name": "Taco Bell",
@@ -198,16 +206,19 @@
       "city": "Oklahoma City",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "026022",
-      "name": "Taco Bell",
-      "city": "Stillwater",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030377",
+      "store_name": "Taco Bell",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-06-09T20:55:45.005508+00:00"
+    },
     {
       "store_number": "031699",
       "store_name": "Taco Bell",
@@ -450,7 +461,7 @@
     }
   ],
   "activity_summary": {
-    "added": 14,
+    "added": 15,
     "removed": 10,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -588,6 +599,15 @@
       7.0,
       "Taco Bell",
       "Del City",
+      "OK"
+    ],
+    [
+      "030377",
+      35.492975342988565,
+      -97.51663152875153,
+      7.0,
+      "Taco Bell",
+      "Oklahoma City",
       "OK"
     ]
   ],

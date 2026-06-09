@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.0,
-  "recent_price_change_pct": -0.0281,
+  "recent_price_change_pct": -0.0272,
   "first_seen_at": "2026-04-16T21:05:38.080670+00:00",
   "availability_pct": 0.1,
   "price_stats": {
@@ -21,19 +21,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 10
+    "store_count": 9
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 10
+      "count": 9
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 10.99,
-      "store_count": 10
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -62,13 +62,6 @@
       "store_number": "042584",
       "name": "Taco Bell",
       "city": "McDonough",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
-      "store_number": "042581",
-      "name": "Taco Bell",
-      "city": "Canton",
       "state": "GA",
       "price": 10.99
     },
@@ -125,7 +118,6 @@
   "min_price_store_numbers": [
     "042582",
     "042584",
-    "042581",
     "036290",
     "042572",
     "027711",
@@ -185,13 +177,6 @@
       "price": 10.99
     },
     {
-      "store_number": "042581",
-      "name": "Taco Bell",
-      "city": "Canton",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "042584",
       "name": "Taco Bell",
       "city": "McDonough",
@@ -207,6 +192,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042581",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-09T20:54:00.756974+00:00"
+    },
     {
       "store_number": "042908",
       "store_name": "Taco Bell",
@@ -3410,7 +3405,7 @@
   ],
   "activity_summary": {
     "added": 165,
-    "removed": 155,
+    "removed": 156,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3472,15 +3467,6 @@
       10.99,
       "Taco Bell",
       "McDonough",
-      "GA"
-    ],
-    [
-      "042581",
-      34.256253,
-      -84.35856199999999,
-      10.99,
-      "Taco Bell",
-      "Canton",
       "GA"
     ],
     [
@@ -3548,6 +3534,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-06-08",
+  "last_seen_date": "2026-06-09",
   "peak_availability_pct": 1.0
 }

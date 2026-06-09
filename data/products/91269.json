@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.8,
+    "avg": 6.82,
     "min": 6.49,
     "max": 7.49,
     "median": 6.49,
-    "std_dev": 0.42,
-    "store_count": 14
+    "std_dev": 0.43,
+    "store_count": 13
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$6.79",
@@ -48,8 +48,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 7.11,
-      "store_count": 6
+      "avg_price": 7.23,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -103,13 +103,6 @@
       "price": 6.49
     },
     {
-      "store_number": "042574",
-      "name": "Taco Bell",
-      "city": "Dallas",
-      "state": "GA",
-      "price": 6.49
-    },
-    {
       "store_number": "035461",
       "name": "Taco Bell",
       "city": "Maryville",
@@ -136,6 +129,13 @@
       "city": "Montgomery",
       "state": "AL",
       "price": 6.79
+    },
+    {
+      "store_number": "041238",
+      "name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "price": 7.29
     }
   ],
   "min_price_store_numbers": [
@@ -144,7 +144,6 @@
     "026432",
     "042123",
     "042829",
-    "042574",
     "035461",
     "037369"
   ],
@@ -206,21 +205,31 @@
       "price": 6.49
     },
     {
-      "store_number": "042574",
-      "name": "Taco Bell",
-      "city": "Dallas",
-      "state": "GA",
-      "price": 6.49
-    },
-    {
       "store_number": "042829",
       "name": "Taco Bell",
       "city": "Pensacola",
       "state": "FL",
       "price": 6.49
+    },
+    {
+      "store_number": "042123",
+      "name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042574",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-06-09T20:55:20.358479+00:00"
+    },
     {
       "store_number": "042903",
       "store_name": "Taco Bell",
@@ -1034,7 +1043,7 @@
   ],
   "activity_summary": {
     "added": 36,
-    "removed": 45,
+    "removed": 46,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1106,15 +1115,6 @@
       "Taco Bell",
       "Pensacola",
       "FL"
-    ],
-    [
-      "042574",
-      33.910308019300345,
-      -84.82438392472432,
-      6.49,
-      "Taco Bell",
-      "Dallas",
-      "GA"
     ],
     [
       "035461",

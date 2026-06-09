@@ -20,8 +20,8 @@
     "min": 9.49,
     "max": 10.99,
     "median": 10.29,
-    "std_dev": 0.34,
-    "store_count": 15
+    "std_dev": 0.35,
+    "store_count": 14
   },
   "histogram": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$10.29",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$10.49",
@@ -57,13 +57,7 @@
       "count": 1
     }
   ],
-  "state_prices": [
-    {
-      "state": "GA",
-      "avg_price": 10.35,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -183,13 +177,6 @@
       "price": 10.49
     },
     {
-      "store_number": "042574",
-      "name": "Taco Bell",
-      "city": "Dallas",
-      "state": "GA",
-      "price": 10.29
-    },
-    {
       "store_number": "029145",
       "name": "Taco Bell",
       "city": "Cullman",
@@ -223,9 +210,26 @@
       "city": "Pigeon Forge",
       "state": "TN",
       "price": 10.29
+    },
+    {
+      "store_number": "024403",
+      "name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "price": 10.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042574",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-06-09T20:55:20.358479+00:00"
+    },
     {
       "store_number": "042903",
       "store_name": "Taco Bell",
@@ -1099,7 +1103,7 @@
   ],
   "activity_summary": {
     "added": 51,
-    "removed": 36,
+    "removed": 37,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1230,15 +1234,6 @@
       "AL"
     ],
     [
-      "042574",
-      33.910308019300345,
-      -84.82438392472432,
-      10.29,
-      "Taco Bell",
-      "Dallas",
-      "GA"
-    ],
-    [
       "041212",
       33.75484747709103,
       -84.26683026558743,
@@ -1276,6 +1271,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-08",
+  "last_seen_date": "2026-06-09",
   "peak_availability_pct": 0.2
 }

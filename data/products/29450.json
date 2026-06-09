@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": 0.0283,
+  "recent_price_change_pct": 0.0417,
   "first_seen_at": "2026-04-17T20:59:09.048162+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 12.39,
+    "avg": 12.49,
     "min": 11.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.89,
-    "store_count": 5
+    "std_dev": 1.0,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$11.99",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$13.99",
@@ -51,13 +51,6 @@
       "price": 11.99
     },
     {
-      "store_number": "017415",
-      "name": "Taco Bell / KFC",
-      "city": "Moriarty",
-      "state": "NM",
-      "price": 11.99
-    },
-    {
       "store_number": "041399",
       "name": "Taco Bell",
       "city": "Louisburg",
@@ -75,7 +68,6 @@
   "min_price_store_numbers": [
     "029401",
     "004173",
-    "017415",
     "041399"
   ],
   "priciest_stores": [
@@ -94,13 +86,6 @@
       "price": 11.99
     },
     {
-      "store_number": "017415",
-      "name": "Taco Bell / KFC",
-      "city": "Moriarty",
-      "state": "NM",
-      "price": 11.99
-    },
-    {
       "store_number": "004173",
       "name": "Taco Bell / KFC",
       "city": "Albuquerque",
@@ -116,6 +101,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "017415",
+      "store_name": "Taco Bell / KFC",
+      "city": "Moriarty",
+      "state": "NM",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-06-09T20:55:55.071077+00:00"
+    },
     {
       "store_number": "029483",
       "store_name": "Taco Bell",
@@ -969,7 +964,7 @@
   ],
   "activity_summary": {
     "added": 45,
-    "removed": 40,
+    "removed": 41,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1040,15 +1035,6 @@
       "NM"
     ],
     [
-      "017415",
-      35.00966699999999,
-      -106.06256782209016,
-      11.99,
-      "Taco Bell / KFC",
-      "Moriarty",
-      "NM"
-    ],
-    [
       "041399",
       36.092859272524684,
       -78.29832382505629,
@@ -1068,6 +1054,6 @@
     ]
   ],
   "retired_at": "2026-04-18T22:12:40.299660+00:00",
-  "last_seen_date": "2026-06-08",
+  "last_seen_date": "2026-06-09",
   "peak_availability_pct": 0.4
 }
