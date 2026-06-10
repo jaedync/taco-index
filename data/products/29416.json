@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 11.71,
+    "avg": 11.73,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
     "std_dev": 0.63,
-    "store_count": 32
+    "store_count": 31
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$11.99",
@@ -59,13 +59,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "035717",
-      "name": "Taco Bell / KFC",
-      "city": "Cypress",
-      "state": "TX",
-      "price": 10.99
-    },
     {
       "store_number": "039735",
       "name": "Taco Bell / KFC",
@@ -128,10 +121,16 @@
       "city": "West Branch",
       "state": "MI",
       "price": 10.99
+    },
+    {
+      "store_number": "003758",
+      "name": "Taco Bell / KFC",
+      "city": "Petoskey",
+      "state": "MI",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
-    "035717",
     "039735",
     "028510",
     "039755",
@@ -216,6 +215,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035717",
+      "store_name": "Taco Bell / KFC",
+      "city": "Cypress",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-10T21:27:51.642057+00:00"
+    },
     {
       "store_number": "029402",
       "store_name": "Taco Bell",
@@ -919,7 +928,7 @@
   ],
   "activity_summary": {
     "added": 51,
-    "removed": 19,
+    "removed": 20,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -971,15 +980,6 @@
     }
   ],
   "map_data": [
-    [
-      "035717",
-      29.995722509460837,
-      -95.62410682439804,
-      10.99,
-      "Taco Bell / KFC",
-      "Cypress",
-      "TX"
-    ],
     [
       "039735",
       38.22995077979435,
@@ -1261,6 +1261,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-09",
+  "last_seen_date": "2026-06-10",
   "peak_availability_pct": 0.4
 }

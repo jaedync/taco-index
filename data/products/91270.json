@@ -16,11 +16,11 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.5,
   "price_stats": {
-    "avg": 8.66,
+    "avg": 8.68,
     "min": 7.79,
     "max": 10.49,
     "median": 8.69,
-    "std_dev": 0.5,
+    "std_dev": 0.52,
     "store_count": 112
   },
   "histogram": [
@@ -37,20 +37,16 @@
       "count": 7
     },
     {
-      "bucket": "$8.19",
-      "count": 1
-    },
-    {
       "bucket": "$8.29",
       "count": 3
     },
     {
       "bucket": "$8.39",
-      "count": 11
+      "count": 12
     },
     {
       "bucket": "$8.49",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$8.59",
@@ -58,7 +54,7 @@
     },
     {
       "bucket": "$8.69",
-      "count": 32
+      "count": 33
     },
     {
       "bucket": "$8.79",
@@ -70,18 +66,18 @@
     },
     {
       "bucket": "$8.99",
-      "count": 14
+      "count": 13
     },
     {
       "bucket": "$10.49",
-      "count": 5
+      "count": 6
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 8.92,
-      "store_count": 43
+      "avg_price": 8.97,
+      "store_count": 42
     },
     {
       "state": "AL",
@@ -91,7 +87,7 @@
     {
       "state": "TN",
       "avg_price": 8.4,
-      "store_count": 8
+      "store_count": 9
     },
     {
       "state": "FL",
@@ -228,6 +224,13 @@
       "price": 10.49
     },
     {
+      "store_number": "041226",
+      "name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "price": 10.49
+    },
+    {
       "store_number": "041255",
       "name": "Taco Bell",
       "city": "Acworth",
@@ -254,16 +257,59 @@
       "city": "Loganville",
       "state": "GA",
       "price": 8.99
-    },
-    {
-      "store_number": "041237",
-      "name": "Taco Bell",
-      "city": "Suwanee",
-      "state": "GA",
-      "price": 8.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 8.19,
+      "new_price": 8.69,
+      "observed_at": "2026-06-10T21:29:19.046752+00:00"
+    },
+    {
+      "store_number": "026837",
+      "store_name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.39,
+      "observed_at": "2026-06-10T21:29:08.690702+00:00"
+    },
+    {
+      "store_number": "042574",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 8.49,
+      "new_price": null,
+      "observed_at": "2026-06-10T21:28:53.028757+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-06-10T21:28:33.356824+00:00"
+    },
+    {
+      "store_number": "041226",
+      "store_name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-06-10T21:27:42.607003+00:00"
+    },
     {
       "store_number": "039919",
       "store_name": "Taco Bell",
@@ -14406,14 +14452,14 @@
     }
   ],
   "activity_summary": {
-    "added": 630,
-    "removed": 518,
-    "price_changed": 266,
+    "added": 632,
+    "removed": 520,
+    "price_changed": 267,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 480,
-  "calories_min": 480,
-  "calories_max": 480,
+  "calories_from_menu": 530,
+  "calories_min": 530,
+  "calories_max": 530,
   "combo_groups": [
     {
       "group_id": "675",
@@ -14538,15 +14584,6 @@
       "FL"
     ],
     [
-      "031583",
-      32.42953531961479,
-      -80.71891911656758,
-      8.19,
-      "Taco Bell",
-      "Beaufort",
-      "SC"
-    ],
-    [
       "036488",
       32.36500582432918,
       -86.14135493339745,
@@ -14655,6 +14692,15 @@
       "TN"
     ],
     [
+      "026837",
+      35.76009726491193,
+      -83.97547312083594,
+      8.39,
+      "Taco Bell",
+      "Alcoa",
+      "TN"
+    ],
+    [
       "002167",
       33.80207381502585,
       -84.4147127866745,
@@ -14734,15 +14780,6 @@
       "Taco Bell",
       "Lenoir City",
       "TN"
-    ],
-    [
-      "042574",
-      33.910308019300345,
-      -84.82438392472432,
-      8.49,
-      "Taco Bell",
-      "Dallas",
-      "GA"
     ],
     [
       "043135",
@@ -15150,6 +15187,15 @@
       "AL"
     ],
     [
+      "031583",
+      32.42953531961479,
+      -80.71891911656758,
+      8.69,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
+    ],
+    [
       "042945",
       34.44515828481069,
       -83.11913877725601,
@@ -15312,15 +15358,6 @@
       "GA"
     ],
     [
-      "041249",
-      33.96647033026141,
-      -84.010348240854,
-      8.99,
-      "Taco Bell",
-      "Lawrenceville",
-      "GA"
-    ],
-    [
       "041259",
       34.57876717849458,
       -83.76470231775006,
@@ -15393,6 +15430,15 @@
       "GA"
     ],
     [
+      "041226",
+      33.63425717999579,
+      -84.29043754019565,
+      10.49,
+      "Taco Bell",
+      "Ellenwood",
+      "GA"
+    ],
+    [
       "042578",
       33.78032506878061,
       -84.38918335266644,
@@ -15439,6 +15485,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-09",
+  "last_seen_date": "2026-06-10",
   "peak_availability_pct": 6.0
 }

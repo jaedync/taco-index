@@ -16,7 +16,7 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.5,
   "price_stats": {
-    "avg": 11.17,
+    "avg": 11.16,
     "min": 10.49,
     "max": 12.29,
     "median": 11.19,
@@ -26,7 +26,7 @@
   "histogram": [
     {
       "bucket": "$10.49",
-      "count": 9
+      "count": 10
     },
     {
       "bucket": "$10.69",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 33
+      "count": 32
     },
     {
       "bucket": "$11.19",
@@ -82,7 +82,7 @@
     },
     {
       "state": "GA",
-      "avg_price": 11.03,
+      "avg_price": 11.02,
       "store_count": 42
     },
     {
@@ -97,6 +97,13 @@
       "store_number": "033481",
       "name": "Taco Bell",
       "city": "Villa Rica",
+      "state": "GA",
+      "price": 10.49
+    },
+    {
+      "store_number": "041226",
+      "name": "Taco Bell",
+      "city": "Ellenwood",
       "state": "GA",
       "price": 10.49
     },
@@ -155,17 +162,11 @@
       "city": "Peachtree City",
       "state": "GA",
       "price": 10.49
-    },
-    {
-      "store_number": "037369",
-      "name": "Taco Bell",
-      "city": "Port St Joe",
-      "state": "FL",
-      "price": 10.69
     }
   ],
   "min_price_store_numbers": [
     "033481",
+    "041226",
     "041219",
     "041228",
     "041223",
@@ -248,6 +249,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-10T21:28:33.356824+00:00"
+    },
+    {
+      "store_number": "041226",
+      "store_name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-06-10T21:27:42.607003+00:00"
+    },
     {
       "store_number": "039919",
       "store_name": "Taco Bell",
@@ -14700,8 +14721,8 @@
     }
   ],
   "activity_summary": {
-    "added": 629,
-    "removed": 514,
+    "added": 630,
+    "removed": 515,
     "price_changed": 302,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14748,6 +14769,15 @@
       10.49,
       "Taco Bell",
       "Villa Rica",
+      "GA"
+    ],
+    [
+      "041226",
+      33.63425717999579,
+      -84.29043754019565,
+      10.49,
+      "Taco Bell",
+      "Ellenwood",
       "GA"
     ],
     [
@@ -15037,15 +15067,6 @@
       "Taco Bell",
       "Lenoir City",
       "TN"
-    ],
-    [
-      "041249",
-      33.96647033026141,
-      -84.010348240854,
-      10.99,
-      "Taco Bell",
-      "Lawrenceville",
-      "GA"
     ],
     [
       "041259",
@@ -15778,6 +15799,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-09",
+  "last_seen_date": "2026-06-10",
   "peak_availability_pct": 5.9
 }

@@ -13,21 +13,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0341,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 5.2,
   "price_stats": {
-    "avg": 12.94,
+    "avg": 12.93,
     "min": 12.5,
     "max": 19.99,
     "median": 12.5,
-    "std_dev": 1.25,
+    "std_dev": 1.24,
     "store_count": 404
   },
   "histogram": [
     {
       "bucket": "$12.50",
-      "count": 344
+      "count": 346
     },
     {
       "bucket": "$12.99",
@@ -39,7 +39,7 @@
     },
     {
       "bucket": "$14.99",
-      "count": 30
+      "count": 28
     },
     {
       "bucket": "$15.00",
@@ -74,18 +74,18 @@
     },
     {
       "state": "TN",
-      "avg_price": 13.11,
-      "store_count": 75
+      "avg_price": 13.1,
+      "store_count": 76
     },
     {
       "state": "GA",
-      "avg_price": 12.8,
-      "store_count": 199
+      "avg_price": 12.79,
+      "store_count": 198
     },
     {
       "state": "AL",
       "avg_price": 12.75,
-      "store_count": 100
+      "store_count": 101
     }
   ],
   "nutrition": {
@@ -306,6 +306,7 @@
     "029140",
     "029030",
     "029034",
+    "029145",
     "029022",
     "029037",
     "029024",
@@ -344,6 +345,7 @@
     "041838",
     "004370",
     "041211",
+    "041249",
     "029026",
     "029068",
     "041219",
@@ -408,6 +410,8 @@
     "041254",
     "039924",
     "005623",
+    "026837",
+    "041243",
     "041210",
     "039936",
     "030467",
@@ -460,7 +464,6 @@
     "030881",
     "004109",
     "041836",
-    "039940",
     "029099",
     "024403",
     "027506",
@@ -484,7 +487,6 @@
     "041230",
     "039932",
     "029117",
-    "003734",
     "039921",
     "037526",
     "038801",
@@ -593,6 +595,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003734",
+      "store_name": "Taco Bell",
+      "city": "Woodstock",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-06-10T21:29:50.000263+00:00"
+    },
+    {
+      "store_number": "039940",
+      "store_name": "Taco Bell",
+      "city": "Forsyth",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-06-10T21:29:33.875471+00:00"
+    },
+    {
+      "store_number": "041243",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-06-10T21:29:09.060484+00:00"
+    },
+    {
+      "store_number": "026837",
+      "store_name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-06-10T21:29:08.690702+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-06-10T21:28:33.356824+00:00"
+    },
+    {
+      "store_number": "042958",
+      "store_name": "Taco Bell",
+      "city": "Toccoa",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 14.99,
+      "new_price": null,
+      "observed_at": "2026-06-10T21:28:28.393647+00:00"
+    },
+    {
+      "store_number": "029145",
+      "store_name": "Taco Bell",
+      "city": "Cullman",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-06-10T21:28:00.290488+00:00"
+    },
+    {
+      "store_number": "040957",
+      "store_name": "Taco Bell",
+      "city": "Murphy",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 14.99,
+      "new_price": null,
+      "observed_at": "2026-06-10T21:27:53.688974+00:00"
+    },
     {
       "store_number": "041243",
       "store_name": "Taco Bell",
@@ -6595,8 +6677,8 @@
     }
   ],
   "activity_summary": {
-    "added": 502,
-    "removed": 98,
+    "added": 506,
+    "removed": 102,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7810,6 +7892,15 @@
       "TN"
     ],
     [
+      "029145",
+      34.20658154557464,
+      -86.8747014343586,
+      12.5,
+      "Taco Bell",
+      "Cullman",
+      "AL"
+    ],
+    [
       "029022",
       34.989430945933755,
       -85.21288587714031,
@@ -8149,6 +8240,15 @@
       12.5,
       "Taco Bell",
       "Riverdale",
+      "GA"
+    ],
+    [
+      "041249",
+      33.96647033026141,
+      -84.010348240854,
+      12.5,
+      "Taco Bell",
+      "Lawrenceville",
       "GA"
     ],
     [
@@ -8728,6 +8828,24 @@
       "GA"
     ],
     [
+      "026837",
+      35.76009726491193,
+      -83.97547312083594,
+      12.5,
+      "Taco Bell",
+      "Alcoa",
+      "TN"
+    ],
+    [
+      "041243",
+      34.02333279764089,
+      -84.52909384668487,
+      12.5,
+      "Taco Bell",
+      "Marietta",
+      "GA"
+    ],
+    [
       "041210",
       33.88940114988308,
       -84.05845613598764,
@@ -9196,15 +9314,6 @@
       "FL"
     ],
     [
-      "039940",
-      33.038108852808925,
-      -83.9388614826846,
-      12.5,
-      "Taco Bell",
-      "Forsyth",
-      "GA"
-    ],
-    [
       "029099",
       31.59780741136821,
       -84.17633609719978,
@@ -9410,15 +9519,6 @@
       "Taco Bell",
       "Greenville",
       "AL"
-    ],
-    [
-      "003734",
-      34.08553773853305,
-      -84.5209095997575,
-      12.5,
-      "Taco Bell",
-      "Woodstock",
-      "GA"
     ],
     [
       "039921",
@@ -9880,15 +9980,6 @@
       "AL"
     ],
     [
-      "040957",
-      35.10588277807757,
-      -84.00896564126015,
-      14.99,
-      "Taco Bell",
-      "Murphy",
-      "NC"
-    ],
-    [
       "043138",
       35.03969381670109,
       -85.68549963639703,
@@ -9923,15 +10014,6 @@
       "Taco Bell",
       "Mobile",
       "AL"
-    ],
-    [
-      "042958",
-      34.57130151774336,
-      -83.30742357913648,
-      14.99,
-      "Taco Bell",
-      "Toccoa",
-      "GA"
     ],
     [
       "042822",
@@ -10268,6 +10350,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-09",
+  "last_seen_date": "2026-06-10",
   "peak_availability_pct": 5.3
 }

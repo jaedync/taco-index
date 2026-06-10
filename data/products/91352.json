@@ -21,7 +21,7 @@
     "max": 11.99,
     "median": 9.79,
     "std_dev": 0.41,
-    "store_count": 483
+    "store_count": 482
   },
   "histogram": [
     {
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 67
+      "count": 66
     },
     {
       "bucket": "$10.19",
@@ -92,7 +92,7 @@
   "state_prices": [
     {
       "state": "SC",
-      "avg_price": 10.13,
+      "avg_price": 10.18,
       "store_count": 7
     },
     {
@@ -103,7 +103,7 @@
     {
       "state": "AL",
       "avg_price": 9.77,
-      "store_count": 119
+      "store_count": 118
     },
     {
       "state": "TN",
@@ -320,6 +320,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043137",
+      "store_name": "Taco Bell",
+      "city": "Fort Payne",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-06-10T21:28:40.976237+00:00"
+    },
+    {
+      "store_number": "034710",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 9.99,
+      "new_price": 10.29,
+      "observed_at": "2026-06-10T21:27:28.157370+00:00"
+    },
     {
       "store_number": "036416",
       "store_name": "Taco Bell",
@@ -5813,8 +5833,8 @@
   ],
   "activity_summary": {
     "added": 516,
-    "removed": 33,
-    "price_changed": 0,
+    "removed": 34,
+    "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 940,
@@ -8977,15 +8997,6 @@
       "GA"
     ],
     [
-      "034710",
-      32.40781978657577,
-      -80.63921262604607,
-      9.99,
-      "Taco Bell",
-      "Beaufort",
-      "SC"
-    ],
-    [
       "042581",
       34.256253,
       -84.35856199999999,
@@ -9634,6 +9645,15 @@
       "GA"
     ],
     [
+      "034710",
+      32.40781978657577,
+      -80.63921262604607,
+      10.29,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
+    ],
+    [
       "036011",
       34.55949767322122,
       -84.93729693025807,
@@ -9695,15 +9715,6 @@
       "Taco Bell",
       "Covington",
       "GA"
-    ],
-    [
-      "043137",
-      34.4358610180417,
-      -85.73963016271591,
-      10.29,
-      "Taco Bell",
-      "Fort Payne",
-      "AL"
     ],
     [
       "003859",
@@ -10220,6 +10231,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-09",
+  "last_seen_date": "2026-06-10",
   "peak_availability_pct": 6.0
 }

@@ -23,12 +23,12 @@
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7080
+    "store_count": 7079
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5238
+      "count": 5239
     },
     {
       "bucket": "$4.19",
@@ -124,7 +124,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 537
+      "count": 536
     },
     {
       "bucket": "$8.00",
@@ -156,7 +156,7 @@
     },
     {
       "bucket": "$11.99",
-      "count": 14
+      "count": 13
     },
     {
       "bucket": "$12.00",
@@ -186,7 +186,7 @@
     {
       "state": "FL",
       "avg_price": 5.74,
-      "store_count": 431
+      "store_count": 429
     },
     {
       "state": "CA",
@@ -245,7 +245,7 @@
     },
     {
       "state": "IL",
-      "avg_price": 4.59,
+      "avg_price": 4.56,
       "store_count": 273
     },
     {
@@ -351,7 +351,7 @@
     {
       "state": "TX",
       "avg_price": 4.01,
-      "store_count": 649
+      "store_count": 650
     },
     {
       "state": "MN",
@@ -5695,7 +5695,6 @@
     "003164",
     "035268",
     "020826",
-    "040419",
     "015885",
     "002580",
     "027808",
@@ -5730,7 +5729,9 @@
     "003294",
     "030680",
     "003897",
-    "042251"
+    "042251",
+    "027890",
+    "042609"
   ],
   "priciest_stores": [
     {
@@ -5769,13 +5770,6 @@
       "price": 11.99
     },
     {
-      "store_number": "036430",
-      "name": "Taco Bell",
-      "city": "Chicago",
-      "state": "IL",
-      "price": 11.99
-    },
-    {
       "store_number": "041824",
       "name": "Taco Bell",
       "city": "Chicago",
@@ -5802,9 +5796,66 @@
       "city": "Chicago",
       "state": "IL",
       "price": 11.99
+    },
+    {
+      "store_number": "037116",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042609",
+      "store_name": "Taco Bell",
+      "city": "Odessa",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-06-10T21:29:59.199755+00:00"
+    },
+    {
+      "store_number": "040419",
+      "store_name": "Taco Bell",
+      "city": "San Antonio",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-06-10T21:29:59.144459+00:00"
+    },
+    {
+      "store_number": "042860",
+      "store_name": "Taco Bell",
+      "city": "Port Charlotte",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-06-10T21:29:27.452500+00:00"
+    },
+    {
+      "store_number": "027890",
+      "store_name": "Taco Bell",
+      "city": "Morris",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-06-10T21:29:24.974857+00:00"
+    },
+    {
+      "store_number": "036430",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-06-10T21:27:49.304669+00:00"
+    },
     {
       "store_number": "032587",
       "store_name": "Taco Bell",
@@ -8917,8 +8968,8 @@
     }
   ],
   "activity_summary": {
-    "added": 150,
-    "removed": 145,
+    "added": 152,
+    "removed": 148,
     "price_changed": 16,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -55771,15 +55822,6 @@
       "NC"
     ],
     [
-      "040419",
-      28.3266,
-      -82.3199,
-      4.0,
-      "Taco Bell",
-      "San Antonio",
-      "FL"
-    ],
-    [
       "015885",
       40.635697428209575,
       -75.48713678732513,
@@ -56093,6 +56135,24 @@
       "Taco Bell",
       "Alpharetta",
       "GA"
+    ],
+    [
+      "027890",
+      41.37861390785616,
+      -88.42254728078842,
+      4.0,
+      "Taco Bell",
+      "Morris",
+      "IL"
+    ],
+    [
+      "042609",
+      31.91607005,
+      -102.30417235,
+      4.0,
+      "Taco Bell",
+      "Odessa",
+      "TX"
     ],
     [
       "040310",
@@ -70540,15 +70600,6 @@
       "AZ"
     ],
     [
-      "042860",
-      27.0089991533431,
-      -82.13644839358494,
-      7.99,
-      "Taco Bell",
-      "Port Charlotte",
-      "FL"
-    ],
-    [
       "033107",
       26.78173177952827,
       -80.08349331779101,
@@ -72613,15 +72664,6 @@
       "041824",
       41.91836393738077,
       -87.65278630613425,
-      11.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
-      "036430",
-      41.9037,
-      -87.6317,
       11.99,
       "Taco Bell",
       "Chicago",

@@ -17,17 +17,17 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.4,
   "price_stats": {
-    "avg": 6.68,
+    "avg": 6.69,
     "min": 6.49,
     "max": 6.99,
     "median": 6.69,
     "std_dev": 0.21,
-    "store_count": 105
+    "store_count": 106
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 47
+      "count": 46
     },
     {
       "bucket": "$6.69",
@@ -35,14 +35,14 @@
     },
     {
       "bucket": "$6.99",
-      "count": 28
+      "count": 30
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 6.81,
-      "store_count": 36
+      "store_count": 37
     },
     {
       "state": "FL",
@@ -192,10 +192,16 @@
     "030451",
     "029078",
     "036371",
-    "029117",
-    "031583"
+    "029117"
   ],
   "priciest_stores": [
+    {
+      "store_number": "031583",
+      "name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "price": 6.99
+    },
     {
       "store_number": "041229",
       "name": "Taco Bell",
@@ -258,16 +264,29 @@
       "city": "Savannah",
       "state": "GA",
       "price": 6.99
-    },
-    {
-      "store_number": "039924",
-      "name": "Taco Bell",
-      "city": "Hinesville",
-      "state": "GA",
-      "price": 6.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 6.49,
+      "new_price": 6.99,
+      "observed_at": "2026-06-10T21:29:19.046752+00:00"
+    },
+    {
+      "store_number": "041226",
+      "store_name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-06-10T21:27:42.607003+00:00"
+    },
     {
       "store_number": "039919",
       "store_name": "Taco Bell",
@@ -11610,9 +11629,9 @@
     }
   ],
   "activity_summary": {
-    "added": 619,
+    "added": 620,
     "removed": 514,
-    "price_changed": 1,
+    "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 650,
@@ -12054,15 +12073,6 @@
       "AL"
     ],
     [
-      "031583",
-      32.42953531961479,
-      -80.71891911656758,
-      6.49,
-      "Taco Bell",
-      "Beaufort",
-      "SC"
-    ],
-    [
       "040910",
       32.609436224631345,
       -85.44885283067111,
@@ -12342,6 +12352,15 @@
       "GA"
     ],
     [
+      "041226",
+      33.63425717999579,
+      -84.29043754019565,
+      6.99,
+      "Taco Bell",
+      "Ellenwood",
+      "GA"
+    ],
+    [
       "040957",
       35.10588277807757,
       -84.00896564126015,
@@ -12583,9 +12602,18 @@
       "Taco Bell",
       "Powder Springs",
       "GA"
+    ],
+    [
+      "031583",
+      32.42953531961479,
+      -80.71891911656758,
+      6.99,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-09",
+  "last_seen_date": "2026-06-10",
   "peak_availability_pct": 6.0
 }
