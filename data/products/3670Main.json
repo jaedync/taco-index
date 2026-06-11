@@ -13,16 +13,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": -0.037,
+  "recent_price_change_pct": -0.034,
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.91,
+    "avg": 3.92,
     "min": 3.49,
     "max": 4.29,
     "median": 3.89,
-    "std_dev": 0.34,
-    "store_count": 6
+    "std_dev": 0.31,
+    "store_count": 7
   },
   "histogram": [
     {
@@ -36,6 +36,10 @@
     {
       "bucket": "$3.89",
       "count": 2
+    },
+    {
+      "bucket": "$3.99",
+      "count": 1
     },
     {
       "bucket": "$4.29",
@@ -87,6 +91,13 @@
       "price": 3.89
     },
     {
+      "store_number": "027505",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irvine",
+      "state": "CA",
+      "price": 3.99
+    },
+    {
       "store_number": "032170",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -120,6 +131,13 @@
       "price": 4.29
     },
     {
+      "store_number": "027505",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irvine",
+      "state": "CA",
+      "price": 3.99
+    },
+    {
       "store_number": "027489",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Mesquite",
@@ -149,6 +167,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027505",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irvine",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-06-11T21:16:26.018585+00:00"
+    },
     {
       "store_number": "027489",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -191,7 +219,7 @@
     }
   ],
   "activity_summary": {
-    "added": 3,
+    "added": 4,
     "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -238,6 +266,15 @@
       "TX"
     ],
     [
+      "027505",
+      33.650962951678,
+      -117.8408906281372,
+      3.99,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Irvine",
+      "CA"
+    ],
+    [
       "032170",
       28.446748,
       -81.393772,
@@ -262,7 +299,7 @@
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 4.24,
+      "avg_price": 4.23,
       "min_price": 3.69,
       "max_price": 5.09,
       "calories": 220,
@@ -270,11 +307,11 @@
     },
     {
       "size": "REGULAR",
-      "avg_price": 3.86,
+      "avg_price": 3.88,
       "min_price": 3.49,
       "max_price": 4.29,
       "calories": 180,
-      "happier_hour_avg": 2.14
+      "happier_hour_avg": 2.12
     }
   ]
 }

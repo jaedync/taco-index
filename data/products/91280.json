@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.5,
-  "recent_price_change_pct": 0.0261,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 5.9,
   "price_stats": {
@@ -21,7 +21,7 @@
     "max": 34.99,
     "median": 20.83,
     "std_dev": 1.65,
-    "store_count": 453
+    "store_count": 452
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$20.83",
-      "count": 336
+      "count": 335
     },
     {
       "bucket": "$20.99",
@@ -100,7 +100,7 @@
     {
       "state": "GA",
       "avg_price": 21.55,
-      "store_count": 222
+      "store_count": 221
     },
     {
       "state": "AL",
@@ -273,6 +273,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041228",
+      "store_name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 20.83,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:16:06.591382+00:00"
+    },
     {
       "store_number": "042831",
       "store_name": "Taco Bell",
@@ -6186,7 +6196,7 @@
   ],
   "activity_summary": {
     "added": 522,
-    "removed": 69,
+    "removed": 70,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8063,15 +8073,6 @@
       20.83,
       "Taco Bell",
       "Norcross",
-      "GA"
-    ],
-    [
-      "041228",
-      33.70089923153877,
-      -84.16987270116806,
-      20.83,
-      "Taco Bell",
-      "Lithonia",
       "GA"
     ],
     [
@@ -10299,6 +10300,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-10",
+  "last_seen_date": "2026-06-11",
   "peak_availability_pct": 5.8
 }

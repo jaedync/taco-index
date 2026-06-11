@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.5,
-  "recent_price_change_pct": 0.0336,
+  "recent_price_change_pct": 0.03,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 9.3,
+    "avg": 9.31,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.6,
-    "store_count": 38
+    "std_dev": 0.65,
+    "store_count": 41
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 28
+      "count": 31
     },
     {
       "bucket": "$9.49",
@@ -34,28 +34,28 @@
     },
     {
       "bucket": "$9.99",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$11.29",
-      "count": 2
+      "count": 3
     }
   ],
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.62,
-      "store_count": 8
+      "avg_price": 9.56,
+      "store_count": 7
     },
     {
       "state": "GA",
-      "avg_price": 9.33,
-      "store_count": 17
+      "avg_price": 9.41,
+      "store_count": 19
     },
     {
       "state": "TN",
       "avg_price": 9.0,
-      "store_count": 8
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -137,9 +137,9 @@
       "price": 9.0
     },
     {
-      "store_number": "041249",
+      "store_number": "033348",
       "name": "Taco Bell",
-      "city": "Lawrenceville",
+      "city": "Albany",
       "state": "GA",
       "price": 9.0
     }
@@ -154,6 +154,7 @@
     "024403",
     "029050",
     "016335",
+    "033348",
     "041249",
     "039923",
     "039919",
@@ -172,7 +173,9 @@
     "031473",
     "037419",
     "042121",
-    "042125"
+    "042125",
+    "035465",
+    "029028"
   ],
   "priciest_stores": [
     {
@@ -190,11 +193,11 @@
       "price": 11.29
     },
     {
-      "store_number": "042830",
+      "store_number": "041219",
       "name": "Taco Bell",
-      "city": "Pensacola",
-      "state": "FL",
-      "price": 9.99
+      "city": "Morrow",
+      "state": "GA",
+      "price": 11.29
     },
     {
       "store_number": "042824",
@@ -247,6 +250,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033348",
+      "store_name": "Taco Bell",
+      "city": "Albany",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-11T21:18:41.021134+00:00"
+    },
+    {
+      "store_number": "041219",
+      "store_name": "Taco Bell",
+      "city": "Morrow",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.29,
+      "observed_at": "2026-06-11T21:15:54.785157+00:00"
+    },
+    {
+      "store_number": "029028",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-11T21:15:18.323146+00:00"
+    },
+    {
+      "store_number": "035465",
+      "store_name": "Taco Bell",
+      "city": "Hanceville",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-11T21:14:17.177895+00:00"
+    },
+    {
+      "store_number": "042830",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:14:15.979962+00:00"
+    },
     {
       "store_number": "041212",
       "store_name": "Taco Bell",
@@ -3269,8 +3322,8 @@
     }
   ],
   "activity_summary": {
-    "added": 140,
-    "removed": 162,
+    "added": 144,
+    "removed": 163,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3390,6 +3443,15 @@
       "Taco Bell",
       "Lenoir City",
       "TN"
+    ],
+    [
+      "033348",
+      31.608568026873176,
+      -84.21019037591977,
+      9.0,
+      "Taco Bell",
+      "Albany",
+      "GA"
     ],
     [
       "041249",
@@ -3563,6 +3625,24 @@
       "FL"
     ],
     [
+      "035465",
+      34.070653525367355,
+      -86.77579694396583,
+      9.0,
+      "Taco Bell",
+      "Hanceville",
+      "AL"
+    ],
+    [
+      "029028",
+      35.2016819814788,
+      -84.8442515283864,
+      9.0,
+      "Taco Bell",
+      "Cleveland",
+      "TN"
+    ],
+    [
       "004185",
       30.138993189337146,
       -85.59155344963074,
@@ -3626,13 +3706,13 @@
       "FL"
     ],
     [
-      "042830",
-      30.42369262233515,
-      -87.20223457405697,
-      9.99,
+      "041219",
+      33.584363343354084,
+      -84.33958505094665,
+      11.29,
       "Taco Bell",
-      "Pensacola",
-      "FL"
+      "Morrow",
+      "GA"
     ],
     [
       "041223",
@@ -3654,6 +3734,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-10",
+  "last_seen_date": "2026-06-11",
   "peak_availability_pct": 1.1
 }

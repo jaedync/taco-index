@@ -37,7 +37,7 @@
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 184
+      "store_count": 185
     },
     {
       "state": "IN",
@@ -434,6 +434,7 @@
     "032632",
     "033999",
     "004161",
+    "017105",
     "004399",
     "033312",
     "033808",
@@ -442,17 +443,9 @@
     "042230",
     "040006",
     "041687",
-    "033316",
-    "026119"
+    "033316"
   ],
   "priciest_stores": [
-    {
-      "store_number": "026119",
-      "name": "Taco Bell",
-      "city": "Edinboro",
-      "state": "PA",
-      "price": 4.99
-    },
     {
       "store_number": "033316",
       "name": "Taco Bell",
@@ -515,9 +508,36 @@
       "city": "Sault Sainte Marie",
       "state": "MI",
       "price": 4.99
+    },
+    {
+      "store_number": "017105",
+      "name": "Taco Bell",
+      "city": "Garden City",
+      "state": "MI",
+      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026119",
+      "store_name": "Taco Bell",
+      "city": "Edinboro",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:17:23.098846+00:00"
+    },
+    {
+      "store_number": "017105",
+      "store_name": "Taco Bell",
+      "city": "Garden City",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-06-11T21:15:15.646210+00:00"
+    },
     {
       "store_number": "017105",
       "store_name": "Taco Bell",
@@ -4400,8 +4420,8 @@
     }
   ],
   "activity_summary": {
-    "added": 350,
-    "removed": 38,
+    "added": 351,
+    "removed": 39,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7129,6 +7149,15 @@
       "MI"
     ],
     [
+      "017105",
+      42.325364416289936,
+      -83.32727551460266,
+      4.99,
+      "Taco Bell",
+      "Garden City",
+      "MI"
+    ],
+    [
       "004399",
       46.474895137706675,
       -84.35584594310967,
@@ -7208,18 +7237,9 @@
       "Taco Bell",
       "Lake Orion",
       "MI"
-    ],
-    [
-      "026119",
-      41.87626890952581,
-      -80.13382293286668,
-      4.99,
-      "Taco Bell",
-      "Edinboro",
-      "PA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-10",
+  "last_seen_date": "2026-06-11",
   "peak_availability_pct": 3.8
 }

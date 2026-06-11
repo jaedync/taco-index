@@ -12,25 +12,25 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 6.0,
-  "recent_price_change_pct": 0.0205,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
-  "availability_pct": 6.1,
+  "availability_pct": 6.0,
   "price_stats": {
     "avg": 5.62,
     "min": 5.49,
     "max": 6.49,
     "median": 5.49,
     "std_dev": 0.23,
-    "store_count": 467
+    "store_count": 464
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 349
+      "count": 348
     },
     {
       "bucket": "$5.99",
-      "count": 113
+      "count": 111
     },
     {
       "bucket": "$6.19",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 5.76,
-      "store_count": 31
+      "avg_price": 5.77,
+      "store_count": 32
     },
     {
       "state": "GA",
@@ -54,8 +54,8 @@
     },
     {
       "state": "TN",
-      "avg_price": 5.61,
-      "store_count": 86
+      "avg_price": 5.6,
+      "store_count": 84
     },
     {
       "state": "SC",
@@ -65,7 +65,7 @@
     {
       "state": "AL",
       "avg_price": 5.54,
-      "store_count": 117
+      "store_count": 115
     }
   ],
   "nutrition": {
@@ -211,7 +211,6 @@
     "036937",
     "037155",
     "034555",
-    "037192",
     "037130",
     "037161",
     "041963",
@@ -353,7 +352,6 @@
     "041319",
     "003717",
     "031540",
-    "043137",
     "036372",
     "036486",
     "003859",
@@ -364,6 +362,7 @@
     "041228",
     "036482",
     "041213",
+    "004740",
     "016289",
     "029108",
     "003841",
@@ -404,7 +403,6 @@
     "005623",
     "039934",
     "041210",
-    "029095",
     "039936",
     "043131",
     "030467",
@@ -439,6 +437,7 @@
     "003408",
     "031583",
     "029081",
+    "029100",
     "041221",
     "019753",
     "029738",
@@ -578,6 +577,96 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042126",
+      "store_name": "Taco Bell",
+      "city": "Defuniak Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-06-11T21:17:50.805860+00:00"
+    },
+    {
+      "store_number": "029100",
+      "store_name": "Taco Bell",
+      "city": "Auburn",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-11T21:17:25.504035+00:00"
+    },
+    {
+      "store_number": "029095",
+      "store_name": "Taco Bell",
+      "city": "Valley",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:16:54.356713+00:00"
+    },
+    {
+      "store_number": "041243",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:16:52.758332+00:00"
+    },
+    {
+      "store_number": "004740",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-11T21:16:09.917860+00:00"
+    },
+    {
+      "store_number": "043137",
+      "store_name": "Taco Bell",
+      "city": "Fort Payne",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:15:56.367930+00:00"
+    },
+    {
+      "store_number": "016818",
+      "store_name": "Taco Bell",
+      "city": "Dayton",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:15:20.380991+00:00"
+    },
+    {
+      "store_number": "037192",
+      "store_name": "Taco Bell",
+      "city": "Montgomery",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:14:54.290563+00:00"
+    },
+    {
+      "store_number": "035461",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:14:46.150895+00:00"
+    },
     {
       "store_number": "042126",
       "store_name": "Taco Bell",
@@ -6610,8 +6699,8 @@
     }
   ],
   "activity_summary": {
-    "added": 535,
-    "removed": 68,
+    "added": 538,
+    "removed": 74,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7123,15 +7212,6 @@
       "Taco Bell",
       "Perry",
       "GA"
-    ],
-    [
-      "037192",
-      32.338344929298856,
-      -86.1755813462282,
-      5.49,
-      "Taco Bell",
-      "Montgomery",
-      "AL"
     ],
     [
       "037130",
@@ -8403,15 +8483,6 @@
       "TN"
     ],
     [
-      "043137",
-      34.4358610180417,
-      -85.73963016271591,
-      5.49,
-      "Taco Bell",
-      "Fort Payne",
-      "AL"
-    ],
-    [
       "036372",
       31.315457449306592,
       -85.82937418366782,
@@ -8499,6 +8570,15 @@
       5.49,
       "Taco Bell",
       "Stone Mountain",
+      "GA"
+    ],
+    [
+      "004740",
+      33.82945940070232,
+      -84.49174582958227,
+      5.49,
+      "Taco Bell",
+      "Smyrna",
       "GA"
     ],
     [
@@ -8862,15 +8942,6 @@
       "GA"
     ],
     [
-      "029095",
-      32.84469762076043,
-      -85.18216542902337,
-      5.49,
-      "Taco Bell",
-      "Valley",
-      "AL"
-    ],
-    [
       "039936",
       34.94349151286595,
       -83.75131439277456,
@@ -9174,6 +9245,15 @@
       5.49,
       "Taco Bell",
       "Phenix City",
+      "AL"
+    ],
+    [
+      "029100",
+      32.566551566031926,
+      -85.50129443407059,
+      5.49,
+      "Taco Bell",
+      "Auburn",
       "AL"
     ],
     [
@@ -9834,15 +9914,6 @@
       "FL"
     ],
     [
-      "035461",
-      35.75640600000001,
-      -83.9419497,
-      5.99,
-      "Taco Bell",
-      "Maryville",
-      "TN"
-    ],
-    [
       "042130",
       30.48627090853254,
       -86.12258973436154,
@@ -9967,15 +10038,6 @@
       "Taco Bell",
       "Murphy",
       "NC"
-    ],
-    [
-      "016818",
-      35.51297706558932,
-      -84.99908131874218,
-      5.99,
-      "Taco Bell",
-      "Dayton",
-      "TN"
     ],
     [
       "004142",
@@ -10491,15 +10553,6 @@
       "GA"
     ],
     [
-      "041243",
-      34.02333279764089,
-      -84.52909384668487,
-      5.99,
-      "Taco Bell",
-      "Marietta",
-      "GA"
-    ],
-    [
       "039919",
       32.04206596405184,
       -81.06397350134102,
@@ -10642,6 +10695,15 @@
       "Taco Bell",
       "Conyers",
       "GA"
+    ],
+    [
+      "042126",
+      30.701080181738643,
+      -86.12210662608975,
+      5.99,
+      "Taco Bell",
+      "Defuniak Springs",
+      "FL"
     ],
     [
       "027506",
@@ -10825,6 +10887,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-10",
+  "last_seen_date": "2026-06-11",
   "peak_availability_pct": 6.0
 }

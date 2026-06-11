@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 4.11,
+    "avg": 4.12,
     "min": 3.79,
     "max": 4.49,
-    "median": 3.79,
+    "median": 3.89,
     "std_dev": 0.35,
-    "store_count": 33
+    "store_count": 34
   },
   "histogram": [
     {
@@ -38,14 +38,14 @@
     },
     {
       "bucket": "$4.49",
-      "count": 14
+      "count": 15
     }
   ],
   "state_prices": [
     {
       "state": "CA",
       "avg_price": 4.35,
-      "store_count": 16
+      "store_count": 17
     },
     {
       "state": "TX",
@@ -160,6 +160,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "039835",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Rancho Cucamonga",
+      "state": "CA",
+      "price": 4.49
+    },
+    {
       "store_number": "041597",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "San Diego",
@@ -221,16 +228,19 @@
       "city": "Newhall",
       "state": "CA",
       "price": 4.49
-    },
-    {
-      "store_number": "041611",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "El Cajon",
-      "state": "CA",
-      "price": 4.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039835",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Rancho Cucamonga",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-06-11T21:15:23.711316+00:00"
+    },
     {
       "store_number": "001089",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -273,7 +283,7 @@
     }
   ],
   "activity_summary": {
-    "added": 2,
+    "added": 3,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -579,6 +589,15 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "San Diego",
       "CA"
+    ],
+    [
+      "039835",
+      34.12121122880951,
+      -117.59313364328591,
+      4.49,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Rancho Cucamonga",
+      "CA"
     ]
   ],
   "retired_at": null,
@@ -587,7 +606,7 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 4.1,
+      "avg_price": 4.11,
       "min_price": 3.79,
       "max_price": 4.49,
       "calories": 90,

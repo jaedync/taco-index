@@ -12,25 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": 0.0417,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-04-17T20:59:09.048162+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
-    "avg": 12.49,
+    "avg": 11.99,
     "min": 11.99,
-    "max": 13.99,
+    "max": 11.99,
     "median": 11.99,
-    "std_dev": 1.0,
-    "store_count": 4
+    "std_dev": 0.0,
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$11.99",
       "count": 3
-    },
-    {
-      "bucket": "$13.99",
-      "count": 1
     }
   ],
   "state_prices": [],
@@ -56,13 +52,6 @@
       "city": "Louisburg",
       "state": "NC",
       "price": 11.99
-    },
-    {
-      "store_number": "019680",
-      "name": "Taco Bell / KFC",
-      "city": "Stephens City",
-      "state": "VA",
-      "price": 13.99
     }
   ],
   "min_price_store_numbers": [
@@ -71,13 +60,6 @@
     "041399"
   ],
   "priciest_stores": [
-    {
-      "store_number": "019680",
-      "name": "Taco Bell / KFC",
-      "city": "Stephens City",
-      "state": "VA",
-      "price": 13.99
-    },
     {
       "store_number": "041399",
       "name": "Taco Bell",
@@ -101,6 +83,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019680",
+      "store_name": "Taco Bell / KFC",
+      "city": "Stephens City",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 13.99,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:18:12.584766+00:00"
+    },
     {
       "store_number": "017415",
       "store_name": "Taco Bell / KFC",
@@ -964,7 +956,7 @@
   ],
   "activity_summary": {
     "added": 45,
-    "removed": 41,
+    "removed": 42,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1042,18 +1034,9 @@
       "Taco Bell",
       "Louisburg",
       "NC"
-    ],
-    [
-      "019680",
-      39.08047189154303,
-      -78.21409679707143,
-      13.99,
-      "Taco Bell / KFC",
-      "Stephens City",
-      "VA"
     ]
   ],
   "retired_at": "2026-04-18T22:12:40.299660+00:00",
-  "last_seen_date": "2026-06-10",
+  "last_seen_date": "2026-06-11",
   "peak_availability_pct": 0.4
 }

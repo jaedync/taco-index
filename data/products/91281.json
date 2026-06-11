@@ -13,7 +13,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.1,
-  "recent_price_change_pct": 0.0341,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 5.2,
   "price_stats": {
@@ -85,7 +85,7 @@
     {
       "state": "AL",
       "avg_price": 12.75,
-      "store_count": 101
+      "store_count": 100
     }
   ],
   "nutrition": {
@@ -303,7 +303,6 @@
     "004254",
     "029147",
     "029166",
-    "029140",
     "029030",
     "029034",
     "029145",
@@ -518,6 +517,7 @@
     "041802",
     "042126",
     "029095",
+    "031583",
     "041231",
     "040780",
     "040430"
@@ -595,6 +595,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-06-11T21:17:23.093759+00:00"
+    },
+    {
+      "store_number": "029140",
+      "store_name": "Taco Bell",
+      "city": "Gardendale",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:15:18.683551+00:00"
+    },
     {
       "store_number": "003734",
       "store_name": "Taco Bell",
@@ -6677,8 +6697,8 @@
     }
   ],
   "activity_summary": {
-    "added": 506,
-    "removed": 102,
+    "added": 507,
+    "removed": 103,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7862,15 +7882,6 @@
       12.5,
       "Taco Bell",
       "Bessemer",
-      "AL"
-    ],
-    [
-      "029140",
-      33.65166734960094,
-      -86.8197226077308,
-      12.5,
-      "Taco Bell",
-      "Gardendale",
       "AL"
     ],
     [
@@ -9800,6 +9811,15 @@
       "AL"
     ],
     [
+      "031583",
+      32.42953531961479,
+      -80.71891911656758,
+      12.5,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
+    ],
+    [
       "041231",
       33.94943524772819,
       -83.4091704313726,
@@ -10350,6 +10370,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-10",
+  "last_seen_date": "2026-06-11",
   "peak_availability_pct": 5.3
 }

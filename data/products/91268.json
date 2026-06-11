@@ -12,15 +12,15 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.9,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0269,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.5,
   "price_stats": {
-    "avg": 6.35,
+    "avg": 6.34,
     "min": 5.29,
     "max": 7.99,
     "median": 6.19,
-    "std_dev": 0.65,
+    "std_dev": 0.63,
     "store_count": 115
   },
   "histogram": [
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 39
+      "count": 40
     },
     {
       "bucket": "$6.29",
@@ -90,14 +90,14 @@
     },
     {
       "bucket": "$7.99",
-      "count": 11
+      "count": 10
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.65,
-      "store_count": 44
+      "avg_price": 6.62,
+      "store_count": 43
     },
     {
       "state": "TN",
@@ -107,7 +107,7 @@
     {
       "state": "AL",
       "avg_price": 6.19,
-      "store_count": 46
+      "store_count": 47
     },
     {
       "state": "FL",
@@ -200,6 +200,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "041252",
+      "name": "Taco Bell",
+      "city": "Alpharetta",
+      "state": "GA",
+      "price": 7.99
+    },
+    {
       "store_number": "041255",
       "name": "Taco Bell",
       "city": "Acworth",
@@ -249,13 +256,6 @@
       "price": 7.99
     },
     {
-      "store_number": "041259",
-      "name": "Taco Bell",
-      "city": "Cleveland",
-      "state": "GA",
-      "price": 7.99
-    },
-    {
       "store_number": "041320",
       "name": "Taco Bell",
       "city": "Lawrenceville",
@@ -271,6 +271,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041252",
+      "store_name": "Taco Bell",
+      "city": "Alpharetta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-06-11T21:18:20.742981+00:00"
+    },
+    {
+      "store_number": "041259",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:15:58.914038+00:00"
+    },
+    {
+      "store_number": "035465",
+      "store_name": "Taco Bell",
+      "city": "Hanceville",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-06-11T21:14:17.177895+00:00"
+    },
+    {
+      "store_number": "041260",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:14:15.528197+00:00"
+    },
     {
       "store_number": "041249",
       "store_name": "Taco Bell",
@@ -13163,8 +13203,8 @@
     }
   ],
   "activity_summary": {
-    "added": 622,
-    "removed": 507,
+    "added": 624,
+    "removed": 509,
     "price_changed": 160,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13526,6 +13566,15 @@
       6.19,
       "Taco Bell",
       "Hope Hull",
+      "AL"
+    ],
+    [
+      "035465",
+      34.070653525367355,
+      -86.77579694396583,
+      6.19,
+      "Taco Bell",
+      "Hanceville",
       "AL"
     ],
     [
@@ -14123,15 +14172,6 @@
       "GA"
     ],
     [
-      "041260",
-      33.9951,
-      -83.3367,
-      7.99,
-      "Taco Bell",
-      "Athens",
-      "GA"
-    ],
-    [
       "041261",
       34.103918515573575,
       -83.97431800962246,
@@ -14147,15 +14187,6 @@
       7.99,
       "Taco Bell",
       "Lawrenceville",
-      "GA"
-    ],
-    [
-      "041259",
-      34.57876717849458,
-      -83.76470231775006,
-      7.99,
-      "Taco Bell",
-      "Cleveland",
       "GA"
     ],
     [
@@ -14220,9 +14251,18 @@
       "Taco Bell",
       "Acworth",
       "GA"
+    ],
+    [
+      "041252",
+      34.04979486358939,
+      -84.28692698478699,
+      7.99,
+      "Taco Bell",
+      "Alpharetta",
+      "GA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-10",
+  "last_seen_date": "2026-06-11",
   "peak_availability_pct": 5.9
 }

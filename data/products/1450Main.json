@@ -11,21 +11,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 7.4,
-  "recent_price_change_pct": 0.2057,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.824257+00:00",
-  "availability_pct": 7.9,
+  "availability_pct": 7.8,
   "price_stats": {
     "avg": 1.19,
     "min": 0.69,
     "max": 2.39,
     "median": 1.05,
     "std_dev": 0.38,
-    "store_count": 607
+    "store_count": 605
   },
   "histogram": [
     {
       "bucket": "$0.69",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$0.79",
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 67
+      "count": 66
     },
     {
       "bucket": "$1.39",
@@ -132,7 +132,7 @@
     {
       "state": "CA",
       "avg_price": 1.35,
-      "store_count": 152
+      "store_count": 151
     },
     {
       "state": "MI",
@@ -176,8 +176,8 @@
     },
     {
       "state": "MO",
-      "avg_price": 0.93,
-      "store_count": 9
+      "avg_price": 0.96,
+      "store_count": 8
     },
     {
       "state": "SD",
@@ -215,13 +215,6 @@
       "name": "Taco Bell",
       "city": "Belleville",
       "state": "IL",
-      "price": 0.69
-    },
-    {
-      "store_number": "016169",
-      "name": "Taco Bell",
-      "city": "Branson West",
-      "state": "MO",
       "price": 0.69
     },
     {
@@ -279,11 +272,17 @@
       "city": "Rochester",
       "state": "MN",
       "price": 0.79
+    },
+    {
+      "store_number": "036305",
+      "name": "Taco Bell",
+      "city": "Oakdale",
+      "state": "MN",
+      "price": 0.79
     }
   ],
   "min_price_store_numbers": [
-    "028497",
-    "016169"
+    "028497"
   ],
   "priciest_stores": [
     {
@@ -358,6 +357,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016929",
+      "store_name": "Taco Bell",
+      "city": "Clearlake",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.29,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:17:48.974880+00:00"
+    },
     {
       "store_number": "005714",
       "store_name": "Taco Bell",
@@ -2481,7 +2490,7 @@
   ],
   "activity_summary": {
     "added": 92,
-    "removed": 118,
+    "removed": 119,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2498,15 +2507,6 @@
       "Taco Bell",
       "Belleville",
       "IL"
-    ],
-    [
-      "016169",
-      36.69643160342592,
-      -93.36322990944609,
-      0.69,
-      "Taco Bell",
-      "Branson West",
-      "MO"
     ],
     [
       "040584",
@@ -6205,15 +6205,6 @@
       1.29,
       "Taco Bell",
       "Auburn",
-      "CA"
-    ],
-    [
-      "016929",
-      38.94958255178735,
-      -122.63059079647064,
-      1.29,
-      "Taco Bell",
-      "Clearlake",
       "CA"
     ],
     [

@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.3,
+    "avg": 10.28,
     "min": 9.49,
     "max": 10.99,
     "median": 10.29,
     "std_dev": 0.35,
-    "store_count": 14
+    "store_count": 15
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$10.19",
@@ -57,7 +57,13 @@
       "count": 1
     }
   ],
-  "state_prices": [],
+  "state_prices": [
+    {
+      "state": "GA",
+      "avg_price": 10.29,
+      "store_count": 5
+    }
+  ],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -79,6 +85,13 @@
       "city": "Port St Joe",
       "state": "FL",
       "price": 9.49
+    },
+    {
+      "store_number": "042903",
+      "name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "price": 9.99
     },
     {
       "store_number": "042829",
@@ -133,13 +146,6 @@
       "store_number": "043144",
       "name": "Taco Bell",
       "city": "Oneonta",
-      "state": "AL",
-      "price": 10.29
-    },
-    {
-      "store_number": "029145",
-      "name": "Taco Bell",
-      "city": "Cullman",
       "state": "AL",
       "price": 10.29
     }
@@ -220,6 +226,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-11T21:15:24.634088+00:00"
+    },
     {
       "store_number": "042574",
       "store_name": "Taco Bell",
@@ -1102,7 +1118,7 @@
     }
   ],
   "activity_summary": {
-    "added": 51,
+    "added": 52,
     "removed": 37,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1151,6 +1167,15 @@
       "Taco Bell",
       "Port St Joe",
       "FL"
+    ],
+    [
+      "042903",
+      31.783928,
+      -82.363196,
+      9.99,
+      "Taco Bell",
+      "Baxley",
+      "GA"
     ],
     [
       "042829",
@@ -1271,6 +1296,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-10",
+  "last_seen_date": "2026-06-11",
   "peak_availability_pct": 0.2
 }

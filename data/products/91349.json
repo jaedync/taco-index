@@ -21,7 +21,7 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.17,
-    "store_count": 488
+    "store_count": 487
   },
   "histogram": [
     {
@@ -34,11 +34,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 249
+      "count": 248
     },
     {
       "bucket": "$3.29",
-      "count": 45
+      "count": 46
     },
     {
       "bucket": "$3.39",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 42
+      "count": 41
     },
     {
       "bucket": "$3.99",
@@ -60,13 +60,13 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 3.3,
+      "avg_price": 3.29,
       "store_count": 238
     },
     {
       "state": "TN",
       "avg_price": 3.26,
-      "store_count": 87
+      "store_count": 86
     },
     {
       "state": "SC",
@@ -300,6 +300,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029052",
+      "store_name": "Taco Bell",
+      "city": "Sevierville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:17:53.748507+00:00"
+    },
+    {
+      "store_number": "041259",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-06-11T21:15:58.914038+00:00"
+    },
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-06-11T21:15:24.634088+00:00"
+    },
     {
       "store_number": "034710",
       "store_name": "Taco Bell",
@@ -5532,8 +5562,8 @@
     }
   ],
   "activity_summary": {
-    "added": 505,
-    "removed": 17,
+    "added": 506,
+    "removed": 19,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8109,15 +8139,6 @@
       "GA"
     ],
     [
-      "029052",
-      35.90558945648954,
-      -83.58061645926682,
-      3.19,
-      "Taco Bell",
-      "Sevierville",
-      "TN"
-    ],
-    [
       "029091",
       31.13833223297051,
       -83.44266531766124,
@@ -8503,6 +8524,15 @@
       "Taco Bell",
       "Birmingham",
       "AL"
+    ],
+    [
+      "042903",
+      31.783928,
+      -82.363196,
+      3.29,
+      "Taco Bell",
+      "Baxley",
+      "GA"
     ],
     [
       "042127",
@@ -9612,15 +9642,6 @@
       "GA"
     ],
     [
-      "041259",
-      34.57876717849458,
-      -83.76470231775006,
-      3.59,
-      "Taco Bell",
-      "Cleveland",
-      "GA"
-    ],
-    [
       "041256",
       34.16491976646548,
       -84.17636456542422,
@@ -9955,6 +9976,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-10",
+  "last_seen_date": "2026-06-11",
   "peak_availability_pct": 6.0
 }
