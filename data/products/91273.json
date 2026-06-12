@@ -20,7 +20,7 @@
     "min": 8.99,
     "max": 11.99,
     "median": 9.69,
-    "std_dev": 0.42,
+    "std_dev": 0.41,
     "store_count": 123
   },
   "histogram": [
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$9.69",
-      "count": 31
+      "count": 30
     },
     {
       "bucket": "$9.79",
@@ -58,11 +58,11 @@
     },
     {
       "bucket": "$9.99",
-      "count": 23
+      "count": 25
     },
     {
       "bucket": "$10.29",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$10.39",
@@ -84,18 +84,18 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.82,
-      "store_count": 46
+      "avg_price": 9.83,
+      "store_count": 48
     },
     {
       "state": "AL",
       "avg_price": 9.73,
-      "store_count": 51
+      "store_count": 52
     },
     {
       "state": "TN",
-      "avg_price": 9.6,
-      "store_count": 9
+      "avg_price": 9.58,
+      "store_count": 7
     },
     {
       "state": "FL",
@@ -237,13 +237,6 @@
       "price": 10.29
     },
     {
-      "store_number": "043129",
-      "name": "Taco Bell",
-      "city": "Aiken",
-      "state": "SC",
-      "price": 10.29
-    },
-    {
       "store_number": "002995",
       "name": "Taco Bell",
       "city": "Smyrna",
@@ -256,9 +249,76 @@
       "city": "Oneonta",
       "state": "AL",
       "price": 10.29
+    },
+    {
+      "store_number": "041105",
+      "name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "price": 10.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.69,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:30:52.602397+00:00"
+    },
+    {
+      "store_number": "043129",
+      "store_name": "Taco Bell",
+      "city": "Aiken",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:30:49.649365+00:00"
+    },
+    {
+      "store_number": "041257",
+      "store_name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-12T21:30:46.673715+00:00"
+    },
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.69,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:30:18.208252+00:00"
+    },
+    {
+      "store_number": "041243",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-12T21:30:02.764004+00:00"
+    },
+    {
+      "store_number": "036372",
+      "store_name": "Taco Bell",
+      "city": "Enterprise",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.69,
+      "observed_at": "2026-06-12T21:29:16.027747+00:00"
+    },
     {
       "store_number": "041228",
       "store_name": "Taco Bell",
@@ -15271,8 +15331,8 @@
     }
   ],
   "activity_summary": {
-    "added": 648,
-    "removed": 525,
+    "added": 651,
+    "removed": 528,
     "price_changed": 328,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15859,6 +15919,15 @@
       "TN"
     ],
     [
+      "036372",
+      31.315457449306592,
+      -85.82937418366782,
+      9.69,
+      "Taco Bell",
+      "Enterprise",
+      "AL"
+    ],
+    [
       "036485",
       32.36012088788699,
       -86.21740935137495,
@@ -15904,15 +15973,6 @@
       "AL"
     ],
     [
-      "030359",
-      35.71724098570292,
-      -84.01247182491716,
-      9.69,
-      "Taco Bell",
-      "Maryville",
-      "TN"
-    ],
-    [
       "031394",
       31.141078130371458,
       -87.06821591276761,
@@ -15929,15 +15989,6 @@
       "Taco Bell",
       "Auburn",
       "AL"
-    ],
-    [
-      "024403",
-      35.96722562647426,
-      -85.03864054957367,
-      9.69,
-      "Taco Bell",
-      "Crossville",
-      "TN"
     ],
     [
       "029078",
@@ -16309,12 +16360,30 @@
       "GA"
     ],
     [
+      "041243",
+      34.02333279764089,
+      -84.52909384668487,
+      9.99,
+      "Taco Bell",
+      "Marietta",
+      "GA"
+    ],
+    [
       "031633",
       33.73245285221801,
       -84.6678918600083,
       9.99,
       "Taco Bell",
       "Douglasville",
+      "GA"
+    ],
+    [
+      "041257",
+      34.164623445272696,
+      -84.11864787340164,
+      9.99,
+      "Taco Bell",
+      "Cumming",
       "GA"
     ],
     [
@@ -16352,15 +16421,6 @@
       "Taco Bell",
       "Smyrna",
       "GA"
-    ],
-    [
-      "043129",
-      33.56501819417912,
-      -81.7408172681462,
-      10.29,
-      "Taco Bell",
-      "Aiken",
-      "SC"
     ],
     [
       "027506",
@@ -16427,6 +16487,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-11",
+  "last_seen_date": "2026-06-12",
   "peak_availability_pct": 5.9
 }

@@ -15,11 +15,11 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 6.0,
   "price_stats": {
-    "avg": 5.94,
+    "avg": 5.95,
     "min": 3.39,
     "max": 6.99,
     "median": 5.89,
-    "std_dev": 0.45,
+    "std_dev": 0.44,
     "store_count": 463
   },
   "histogram": [
@@ -29,7 +29,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$4.79",
@@ -89,7 +89,7 @@
     },
     {
       "bucket": "$6.59",
-      "count": 43
+      "count": 44
     },
     {
       "bucket": "$6.69",
@@ -112,7 +112,7 @@
     {
       "state": "GA",
       "avg_price": 6.05,
-      "store_count": 226
+      "store_count": 227
     },
     {
       "state": "SC",
@@ -120,14 +120,14 @@
       "store_count": 5
     },
     {
+      "state": "TN",
+      "avg_price": 5.85,
+      "store_count": 79
+    },
+    {
       "state": "AL",
       "avg_price": 5.85,
       "store_count": 118
-    },
-    {
-      "state": "TN",
-      "avg_price": 5.82,
-      "store_count": 80
     },
     {
       "state": "FL",
@@ -172,13 +172,6 @@
       "price": 3.59
     },
     {
-      "store_number": "024403",
-      "name": "Taco Bell",
-      "city": "Crossville",
-      "state": "TN",
-      "price": 3.59
-    },
-    {
       "store_number": "041798",
       "name": "Taco Bell",
       "city": "Jackson",
@@ -219,6 +212,13 @@
       "city": "Fort Valley",
       "state": "GA",
       "price": 4.79
+    },
+    {
+      "store_number": "026342",
+      "name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "price": 4.89
     }
   ],
   "min_price_store_numbers": [
@@ -298,6 +298,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:30:52.602397+00:00"
+    },
+    {
+      "store_number": "041257",
+      "store_name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.59,
+      "observed_at": "2026-06-12T21:30:46.673715+00:00"
+    },
     {
       "store_number": "041252",
       "store_name": "Taco Bell",
@@ -10830,8 +10850,8 @@
     }
   ],
   "activity_summary": {
-    "added": 612,
-    "removed": 149,
+    "added": 613,
+    "removed": 150,
     "price_changed": 292,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10865,15 +10885,6 @@
       3.59,
       "Taco Bell",
       "Alcoa",
-      "TN"
-    ],
-    [
-      "024403",
-      35.96722562647426,
-      -85.03864054957367,
-      3.59,
-      "Taco Bell",
-      "Crossville",
       "TN"
     ],
     [
@@ -14738,6 +14749,15 @@
       "GA"
     ],
     [
+      "041257",
+      34.164623445272696,
+      -84.11864787340164,
+      6.59,
+      "Taco Bell",
+      "Cumming",
+      "GA"
+    ],
+    [
       "027506",
       34.321927340275344,
       -83.83288894595358,
@@ -15009,6 +15029,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-11",
+  "last_seen_date": "2026-06-12",
   "peak_availability_pct": 5.9
 }

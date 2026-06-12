@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.5,
-  "recent_price_change_pct": 0.03,
+  "recent_price_change_pct": 0.0263,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 9.31,
+    "avg": 9.3,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
     "std_dev": 0.65,
-    "store_count": 41
+    "store_count": 42
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 31
+      "count": 32
     },
     {
       "bucket": "$9.49",
@@ -53,6 +53,11 @@
       "store_count": 19
     },
     {
+      "state": "AL",
+      "avg_price": 9.2,
+      "store_count": 5
+    },
+    {
       "state": "TN",
       "avg_price": 9.0,
       "store_count": 9
@@ -73,6 +78,13 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
+    {
+      "store_number": "041491",
+      "name": "Taco Bell",
+      "city": "Calera",
+      "state": "AL",
+      "price": 9.0
+    },
     {
       "store_number": "042019",
       "name": "Taco Bell",
@@ -135,16 +147,10 @@
       "city": "Lenoir City",
       "state": "TN",
       "price": 9.0
-    },
-    {
-      "store_number": "033348",
-      "name": "Taco Bell",
-      "city": "Albany",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
+    "041491",
     "042019",
     "034710",
     "033481",
@@ -250,6 +256,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041491",
+      "store_name": "Taco Bell",
+      "city": "Calera",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-12T21:26:16.135133+00:00"
+    },
     {
       "store_number": "033348",
       "store_name": "Taco Bell",
@@ -3322,7 +3338,7 @@
     }
   ],
   "activity_summary": {
-    "added": 144,
+    "added": 145,
     "removed": 163,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3363,6 +3379,15 @@
     }
   ],
   "map_data": [
+    [
+      "041491",
+      33.14910162393743,
+      -86.7490076451195,
+      9.0,
+      "Taco Bell",
+      "Calera",
+      "AL"
+    ],
     [
       "042019",
       31.443187,
@@ -3734,6 +3759,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-11",
+  "last_seen_date": "2026-06-12",
   "peak_availability_pct": 1.1
 }

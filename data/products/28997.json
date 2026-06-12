@@ -20,13 +20,13 @@
     "min": 7.99,
     "max": 8.99,
     "median": 8.59,
-    "std_dev": 0.29,
-    "store_count": 80
+    "std_dev": 0.28,
+    "store_count": 78
   },
   "histogram": [
     {
       "bucket": "$7.99",
-      "count": 23
+      "count": 22
     },
     {
       "bucket": "$8.19",
@@ -34,11 +34,11 @@
     },
     {
       "bucket": "$8.39",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$8.59",
-      "count": 44
+      "count": 42
     },
     {
       "bucket": "$8.69",
@@ -52,13 +52,13 @@
   "state_prices": [
     {
       "state": "MO",
-      "avg_price": 8.41,
-      "store_count": 61
+      "avg_price": 8.42,
+      "store_count": 58
     },
     {
       "state": "IL",
       "avg_price": 8.35,
-      "store_count": 19
+      "store_count": 20
     }
   ],
   "nutrition": {
@@ -158,7 +158,6 @@
     "029677",
     "028498",
     "029632",
-    "029659",
     "028492",
     "029634",
     "028496",
@@ -245,6 +244,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "018367",
+      "store_name": "Taco Bell",
+      "city": "Columbia",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.39,
+      "observed_at": "2026-06-12T21:30:31.254018+00:00"
+    },
+    {
+      "store_number": "029650",
+      "store_name": "Taco Bell",
+      "city": "Saint Peters",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 8.59,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:29:39.005747+00:00"
+    },
+    {
+      "store_number": "029659",
+      "store_name": "Taco Bell",
+      "city": "Byrnes Mill",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:29:31.363398+00:00"
+    },
+    {
+      "store_number": "031700",
+      "store_name": "Taco Bell",
+      "city": "Hazelwood",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 8.59,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:29:17.423025+00:00"
+    },
     {
       "store_number": "029626",
       "store_name": "Taco Bell",
@@ -2827,8 +2866,8 @@
     }
   ],
   "activity_summary": {
-    "added": 169,
-    "removed": 89,
+    "added": 170,
+    "removed": 92,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2939,15 +2978,6 @@
       "Taco Bell",
       "Belleville",
       "IL"
-    ],
-    [
-      "029659",
-      38.41366579116861,
-      -90.58245469631402,
-      7.99,
-      "Taco Bell",
-      "Byrnes Mill",
-      "MO"
     ],
     [
       "028492",
@@ -3112,6 +3142,15 @@
       "IL"
     ],
     [
+      "018367",
+      38.44643662631198,
+      -90.2194704828137,
+      8.39,
+      "Taco Bell",
+      "Columbia",
+      "IL"
+    ],
+    [
       "032142",
       39.10354468638638,
       -90.31481462723605,
@@ -3238,15 +3277,6 @@
       "MO"
     ],
     [
-      "031700",
-      38.78120111235762,
-      -90.38855016231537,
-      8.59,
-      "Taco Bell",
-      "Hazelwood",
-      "MO"
-    ],
-    [
       "029654",
       38.47339552648474,
       -90.30502080917358,
@@ -3271,15 +3301,6 @@
       8.59,
       "Taco Bell",
       "Saint Louis",
-      "MO"
-    ],
-    [
-      "029650",
-      38.7916778356872,
-      -90.57457745075226,
-      8.59,
-      "Taco Bell",
-      "Saint Peters",
       "MO"
     ],
     [
@@ -3572,6 +3593,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-06-11",
+  "last_seen_date": "2026-06-12",
   "peak_availability_pct": 1.0
 }

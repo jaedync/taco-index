@@ -21,7 +21,7 @@
     "max": 6.49,
     "median": 5.49,
     "std_dev": 0.23,
-    "store_count": 464
+    "store_count": 465
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 111
+      "count": 112
     },
     {
       "bucket": "$6.19",
@@ -44,18 +44,18 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 5.77,
-      "store_count": 32
+      "avg_price": 5.78,
+      "store_count": 31
     },
     {
       "state": "GA",
       "avg_price": 5.64,
-      "store_count": 223
+      "store_count": 222
     },
     {
       "state": "TN",
-      "avg_price": 5.6,
-      "store_count": 84
+      "avg_price": 5.61,
+      "store_count": 85
     },
     {
       "state": "SC",
@@ -65,7 +65,7 @@
     {
       "state": "AL",
       "avg_price": 5.54,
-      "store_count": 115
+      "store_count": 117
     }
   ],
   "nutrition": {
@@ -88,13 +88,6 @@
       "name": "Taco Bell",
       "city": "Monteagle",
       "state": "TN",
-      "price": 5.49
-    },
-    {
-      "store_number": "041154",
-      "name": "Taco Bell",
-      "city": "Columbus",
-      "state": "GA",
       "price": 5.49
     },
     {
@@ -152,11 +145,17 @@
       "city": "Sylacauga",
       "state": "AL",
       "price": 5.49
+    },
+    {
+      "store_number": "038870",
+      "name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "price": 5.49
     }
   ],
   "min_price_store_numbers": [
     "037020",
-    "041154",
     "040910",
     "040780",
     "041488",
@@ -211,6 +210,7 @@
     "036937",
     "037155",
     "034555",
+    "037192",
     "037130",
     "037161",
     "041963",
@@ -254,7 +254,6 @@
     "038733",
     "037486",
     "039116",
-    "037369",
     "029118",
     "005033",
     "029111",
@@ -359,7 +358,6 @@
     "041322",
     "041224",
     "043140",
-    "041228",
     "036482",
     "041213",
     "004740",
@@ -403,6 +401,7 @@
     "005623",
     "039934",
     "041210",
+    "029095",
     "039936",
     "043131",
     "030467",
@@ -448,6 +447,7 @@
     "004091",
     "041321",
     "043132",
+    "002167",
     "043143",
     "041218",
     "019713",
@@ -577,6 +577,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002167",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-12T21:30:39.658686+00:00"
+    },
+    {
+      "store_number": "029095",
+      "store_name": "Taco Bell",
+      "city": "Valley",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-12T21:30:03.801062+00:00"
+    },
+    {
+      "store_number": "041228",
+      "store_name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:29:21.915196+00:00"
+    },
+    {
+      "store_number": "016818",
+      "store_name": "Taco Bell",
+      "city": "Dayton",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-06-12T21:28:29.364384+00:00"
+    },
+    {
+      "store_number": "037369",
+      "store_name": "Taco Bell",
+      "city": "Port St Joe",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:27:25.992087+00:00"
+    },
+    {
+      "store_number": "037192",
+      "store_name": "Taco Bell",
+      "city": "Montgomery",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-12T21:26:50.475165+00:00"
+    },
+    {
+      "store_number": "041154",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:26:14.644856+00:00"
+    },
     {
       "store_number": "042126",
       "store_name": "Taco Bell",
@@ -6699,8 +6769,8 @@
     }
   ],
   "activity_summary": {
-    "added": 538,
-    "removed": 74,
+    "added": 542,
+    "removed": 77,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6717,15 +6787,6 @@
       "Taco Bell",
       "Monteagle",
       "TN"
-    ],
-    [
-      "041154",
-      32.473945760941746,
-      -84.9882127315456,
-      5.49,
-      "Taco Bell",
-      "Columbus",
-      "GA"
     ],
     [
       "040910",
@@ -7214,6 +7275,15 @@
       "GA"
     ],
     [
+      "037192",
+      32.338344929298856,
+      -86.1755813462282,
+      5.49,
+      "Taco Bell",
+      "Montgomery",
+      "AL"
+    ],
+    [
       "037130",
       35.43148035713793,
       -84.58559950824514,
@@ -7599,15 +7669,6 @@
       "Taco Bell",
       "Hoover",
       "AL"
-    ],
-    [
-      "037369",
-      29.819161175123956,
-      -85.3058260644086,
-      5.49,
-      "Taco Bell",
-      "Port St Joe",
-      "FL"
     ],
     [
       "029118",
@@ -8546,15 +8607,6 @@
       "GA"
     ],
     [
-      "041228",
-      33.70089923153877,
-      -84.16987270116806,
-      5.49,
-      "Taco Bell",
-      "Lithonia",
-      "GA"
-    ],
-    [
       "036482",
       32.3812724349357,
       -86.21568946984615,
@@ -8940,6 +8992,15 @@
       "Taco Bell",
       "Lawrenceville",
       "GA"
+    ],
+    [
+      "029095",
+      32.84469762076043,
+      -85.18216542902337,
+      5.49,
+      "Taco Bell",
+      "Valley",
+      "AL"
     ],
     [
       "039936",
@@ -9344,6 +9405,15 @@
       5.49,
       "Taco Bell",
       "Thomson",
+      "GA"
+    ],
+    [
+      "002167",
+      33.80207381502585,
+      -84.4147127866745,
+      5.49,
+      "Taco Bell",
+      "Atlanta",
       "GA"
     ],
     [
@@ -10038,6 +10108,15 @@
       "Taco Bell",
       "Murphy",
       "NC"
+    ],
+    [
+      "016818",
+      35.51297706558932,
+      -84.99908131874218,
+      5.99,
+      "Taco Bell",
+      "Dayton",
+      "TN"
     ],
     [
       "004142",
@@ -10887,6 +10966,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-11",
+  "last_seen_date": "2026-06-12",
   "peak_availability_pct": 6.0
 }

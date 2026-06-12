@@ -20,7 +20,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 208
+    "store_count": 209
   },
   "histogram": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 21
+      "count": 22
     },
     {
       "bucket": "$0.85",
@@ -53,11 +53,11 @@
     },
     {
       "bucket": "$0.90",
-      "count": 59
+      "count": 60
     },
     {
       "bucket": "$0.95",
-      "count": 34
+      "count": 32
     },
     {
       "bucket": "$0.99",
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 46
+      "count": 47
     },
     {
       "bucket": "$1.10",
@@ -105,8 +105,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 1.08,
-      "store_count": 52
+      "avg_price": 1.09,
+      "store_count": 51
     },
     {
       "state": "TX",
@@ -120,8 +120,8 @@
     },
     {
       "state": "OH",
-      "avg_price": 0.98,
-      "store_count": 26
+      "avg_price": 0.97,
+      "store_count": 28
     },
     {
       "state": "MO",
@@ -316,6 +316,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016801",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "NE",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-06-12T21:29:51.075184+00:00"
+    },
+    {
+      "store_number": "003335",
+      "store_name": "Taco Bell",
+      "city": "Reynoldsburg",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-06-12T21:29:11.197363+00:00"
+    },
+    {
+      "store_number": "022926",
+      "store_name": "Taco Bell",
+      "city": "Harrisburg",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:27:53.530453+00:00"
+    },
+    {
+      "store_number": "001469",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:27:34.497518+00:00"
+    },
+    {
+      "store_number": "035354",
+      "store_name": "Taco Bell",
+      "city": "Painesville",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-06-12T21:27:26.045172+00:00"
+    },
     {
       "store_number": "020394",
       "store_name": "Taco Bell",
@@ -4818,8 +4868,8 @@
     }
   ],
   "activity_summary": {
-    "added": 234,
-    "removed": 216,
+    "added": 237,
+    "removed": 218,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5070,6 +5120,15 @@
       "Taco Bell",
       "Lynnwood",
       "WA"
+    ],
+    [
+      "003335",
+      39.95448915785347,
+      -82.82650233061759,
+      0.8,
+      "Taco Bell",
+      "Reynoldsburg",
+      "OH"
     ],
     [
       "041558",
@@ -5612,6 +5671,15 @@
       "MI"
     ],
     [
+      "016801",
+      41.43907335975899,
+      -97.37050572040971,
+      0.9,
+      "Taco Bell",
+      "Columbus",
+      "NE"
+    ],
+    [
       "041086",
       39.72009668768734,
       -82.98767904100833,
@@ -5720,15 +5788,6 @@
       "MI"
     ],
     [
-      "001469",
-      42.291758682661715,
-      -83.38639006018644,
-      0.95,
-      "Taco Bell",
-      "Westland",
-      "MI"
-    ],
-    [
       "021229",
       42.56092585729545,
       -83.02868924570248,
@@ -5736,15 +5795,6 @@
       "Taco Bell",
       "Sterling Heights",
       "MI"
-    ],
-    [
-      "022926",
-      35.32334088342363,
-      -80.64282081556712,
-      0.95,
-      "Taco Bell",
-      "Harrisburg",
-      "NC"
     ],
     [
       "001732",
@@ -6368,6 +6418,15 @@
       "IN"
     ],
     [
+      "035354",
+      41.72530588612707,
+      -81.24734465829262,
+      1.0,
+      "Taco Bell",
+      "Painesville",
+      "OH"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -6702,6 +6761,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-11",
+  "last_seen_date": "2026-06-12",
   "peak_availability_pct": 2.5
 }

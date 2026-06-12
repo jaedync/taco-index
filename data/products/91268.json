@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.9,
-  "recent_price_change_pct": -0.0269,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.5,
   "price_stats": {
-    "avg": 6.34,
+    "avg": 6.35,
     "min": 5.29,
     "max": 7.99,
     "median": 6.19,
-    "std_dev": 0.63,
-    "store_count": 115
+    "std_dev": 0.64,
+    "store_count": 116
   },
   "histogram": [
     {
@@ -90,14 +90,14 @@
     },
     {
       "bucket": "$7.99",
-      "count": 10
+      "count": 11
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.62,
-      "store_count": 43
+      "avg_price": 6.65,
+      "store_count": 44
     },
     {
       "state": "TN",
@@ -207,6 +207,13 @@
       "price": 7.99
     },
     {
+      "store_number": "041243",
+      "name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "price": 7.99
+    },
+    {
       "store_number": "041255",
       "name": "Taco Bell",
       "city": "Acworth",
@@ -261,16 +268,19 @@
       "city": "Lawrenceville",
       "state": "GA",
       "price": 7.99
-    },
-    {
-      "store_number": "041261",
-      "name": "Taco Bell",
-      "city": "Buford",
-      "state": "GA",
-      "price": 7.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041243",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-06-12T21:30:02.764004+00:00"
+    },
     {
       "store_number": "041252",
       "store_name": "Taco Bell",
@@ -13203,7 +13213,7 @@
     }
   ],
   "activity_summary": {
-    "added": 624,
+    "added": 625,
     "removed": 509,
     "price_changed": 160,
     "since": "2026-03-31T00:00:00+00:00"
@@ -14253,6 +14263,15 @@
       "GA"
     ],
     [
+      "041243",
+      34.02333279764089,
+      -84.52909384668487,
+      7.99,
+      "Taco Bell",
+      "Marietta",
+      "GA"
+    ],
+    [
       "041252",
       34.04979486358939,
       -84.28692698478699,
@@ -14263,6 +14282,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-11",
+  "last_seen_date": "2026-06-12",
   "peak_availability_pct": 5.9
 }

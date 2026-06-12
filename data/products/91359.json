@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.0,
-  "recent_price_change_pct": -0.0268,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:05:38.080670+00:00",
   "availability_pct": 0.1,
   "price_stats": {
@@ -21,19 +21,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 9
+    "store_count": 8
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 9
+      "count": 8
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 10.99,
-      "store_count": 9
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -106,13 +106,6 @@
       "city": "Covington",
       "state": "GA",
       "price": 10.99
-    },
-    {
-      "store_number": "027509",
-      "name": "Taco Bell",
-      "city": "Covington",
-      "state": "GA",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -123,17 +116,9 @@
     "027711",
     "023238",
     "042571",
-    "031473",
-    "027509"
+    "031473"
   ],
   "priciest_stores": [
-    {
-      "store_number": "027509",
-      "name": "Taco Bell",
-      "city": "Covington",
-      "state": "GA",
-      "price": 10.99
-    },
     {
       "store_number": "031473",
       "name": "Taco Bell",
@@ -192,6 +177,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027509",
+      "store_name": "Taco Bell",
+      "city": "Covington",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:31:18.710030+00:00"
+    },
     {
       "store_number": "042581",
       "store_name": "Taco Bell",
@@ -3405,7 +3400,7 @@
   ],
   "activity_summary": {
     "added": 165,
-    "removed": 156,
+    "removed": 157,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3522,18 +3517,9 @@
       "Taco Bell",
       "Covington",
       "GA"
-    ],
-    [
-      "027509",
-      33.6079883806077,
-      -83.82737691574002,
-      10.99,
-      "Taco Bell",
-      "Covington",
-      "GA"
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-06-11",
+  "last_seen_date": "2026-06-12",
   "peak_availability_pct": 1.0
 }

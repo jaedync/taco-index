@@ -16,12 +16,12 @@
   "first_seen_at": "2026-05-21T21:04:35.819716+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 5.93,
+    "avg": 5.88,
     "min": 5.49,
-    "max": 7.29,
+    "max": 5.99,
     "median": 5.99,
-    "std_dev": 0.33,
-    "store_count": 29
+    "std_dev": 0.21,
+    "store_count": 28
   },
   "histogram": [
     {
@@ -31,10 +31,6 @@
     {
       "bucket": "$5.99",
       "count": 22
-    },
-    {
-      "bucket": "$7.29",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -140,13 +136,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "029323",
-      "name": "Taco Bell / KFC",
-      "city": "Northampton",
-      "state": "MA",
-      "price": 7.29
-    },
-    {
       "store_number": "041370",
       "name": "Taco Bell / KFC",
       "city": "Rio Vista",
@@ -208,9 +197,26 @@
       "city": "Louisburg",
       "state": "NC",
       "price": 5.99
+    },
+    {
+      "store_number": "004173",
+      "name": "Taco Bell / KFC",
+      "city": "Albuquerque",
+      "state": "NM",
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029323",
+      "store_name": "Taco Bell / KFC",
+      "city": "Northampton",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 7.29,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:30:29.068420+00:00"
+    },
     {
       "store_number": "029482",
       "store_name": "Taco Bell",
@@ -1284,7 +1290,7 @@
   ],
   "activity_summary": {
     "added": 68,
-    "removed": 39,
+    "removed": 40,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1544,18 +1550,9 @@
       "Taco Bell / KFC",
       "Rio Vista",
       "CA"
-    ],
-    [
-      "029323",
-      42.32848585134205,
-      -72.63313342632506,
-      7.29,
-      "Taco Bell / KFC",
-      "Northampton",
-      "MA"
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-06-11",
+  "last_seen_date": "2026-06-12",
   "peak_availability_pct": 0.4
 }

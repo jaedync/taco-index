@@ -15,14 +15,14 @@
   "peak_30d_pct": 5.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 5.2,
+  "availability_pct": 5.3,
   "price_stats": {
-    "avg": 12.93,
+    "avg": 12.94,
     "min": 12.5,
     "max": 19.99,
     "median": 12.5,
-    "std_dev": 1.24,
-    "store_count": 404
+    "std_dev": 1.25,
+    "store_count": 406
   },
   "histogram": [
     {
@@ -39,7 +39,7 @@
     },
     {
       "bucket": "$14.99",
-      "count": 28
+      "count": 30
     },
     {
       "bucket": "$15.00",
@@ -71,6 +71,11 @@
       "state": "FL",
       "avg_price": 14.04,
       "store_count": 24
+    },
+    {
+      "state": "SC",
+      "avg_price": 13.83,
+      "store_count": 6
     },
     {
       "state": "TN",
@@ -340,6 +345,7 @@
     "039945",
     "029057",
     "029105",
+    "016335",
     "029291",
     "041838",
     "004370",
@@ -464,7 +470,6 @@
     "004109",
     "041836",
     "029099",
-    "024403",
     "027506",
     "031757",
     "004317",
@@ -595,6 +600,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:30:52.602397+00:00"
+    },
+    {
+      "store_number": "043129",
+      "store_name": "Taco Bell",
+      "city": "Aiken",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 14.99,
+      "observed_at": "2026-06-12T21:30:49.649365+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-06-12T21:29:02.396378+00:00"
+    },
+    {
+      "store_number": "043148",
+      "store_name": "Taco Bell",
+      "city": "Aiken",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 14.99,
+      "observed_at": "2026-06-12T21:26:47.517664+00:00"
+    },
     {
       "store_number": "031583",
       "store_name": "Taco Bell",
@@ -6697,8 +6742,8 @@
     }
   ],
   "activity_summary": {
-    "added": 507,
-    "removed": 103,
+    "added": 510,
+    "removed": 104,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8218,6 +8263,15 @@
       "GA"
     ],
     [
+      "016335",
+      35.810910605655216,
+      -84.26391898537986,
+      12.5,
+      "Taco Bell",
+      "Lenoir City",
+      "TN"
+    ],
+    [
       "029291",
       32.55325361777326,
       -83.69175633305075,
@@ -9334,15 +9388,6 @@
       "GA"
     ],
     [
-      "024403",
-      35.96722562647426,
-      -85.03864054957367,
-      12.5,
-      "Taco Bell",
-      "Crossville",
-      "TN"
-    ],
-    [
       "027506",
       34.321927340275344,
       -83.83288894595358,
@@ -9982,6 +10027,15 @@
       "FL"
     ],
     [
+      "043148",
+      33.51436354486988,
+      -81.71513920100077,
+      14.99,
+      "Taco Bell",
+      "Aiken",
+      "SC"
+    ],
+    [
       "042832",
       30.5336733589741,
       -87.27316802173264,
@@ -10180,6 +10234,15 @@
       "FL"
     ],
     [
+      "043129",
+      33.56501819417912,
+      -81.7408172681462,
+      14.99,
+      "Taco Bell",
+      "Aiken",
+      "SC"
+    ],
+    [
       "042945",
       34.44515828481069,
       -83.11913877725601,
@@ -10370,6 +10433,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-11",
+  "last_seen_date": "2026-06-12",
   "peak_availability_pct": 5.3
 }

@@ -21,7 +21,7 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.18,
-    "store_count": 131
+    "store_count": 133
   },
   "histogram": [
     {
@@ -30,11 +30,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 69
+      "count": 70
     },
     {
       "bucket": "$3.29",
-      "count": 21
+      "count": 20
     },
     {
       "bucket": "$3.39",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 16
+      "count": 18
     },
     {
       "bucket": "$3.99",
@@ -56,13 +56,13 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 3.37,
-      "store_count": 48
+      "avg_price": 3.38,
+      "store_count": 50
     },
     {
       "state": "TN",
       "avg_price": 3.29,
-      "store_count": 10
+      "store_count": 9
     },
     {
       "state": "FL",
@@ -72,7 +72,7 @@
     {
       "state": "AL",
       "avg_price": 3.21,
-      "store_count": 55
+      "store_count": 56
     }
   ],
   "nutrition": null,
@@ -196,9 +196,23 @@
       "price": 3.59
     },
     {
+      "store_number": "041257",
+      "name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "price": 3.59
+    },
+    {
       "store_number": "039919",
       "name": "Taco Bell",
       "city": "Savannah",
+      "state": "GA",
+      "price": 3.59
+    },
+    {
+      "store_number": "041243",
+      "name": "Taco Bell",
+      "city": "Marietta",
       "state": "GA",
       "price": 3.59
     },
@@ -215,23 +229,49 @@
       "city": "Woodstock",
       "state": "GA",
       "price": 3.59
-    },
-    {
-      "store_number": "041255",
-      "name": "Taco Bell",
-      "city": "Acworth",
-      "state": "GA",
-      "price": 3.59
-    },
-    {
-      "store_number": "041247",
-      "name": "Taco Bell",
-      "city": "Oakwood",
-      "state": "GA",
-      "price": 3.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-06-12T21:30:52.602397+00:00"
+    },
+    {
+      "store_number": "041257",
+      "store_name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-06-12T21:30:46.673715+00:00"
+    },
+    {
+      "store_number": "041243",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-06-12T21:30:02.764004+00:00"
+    },
+    {
+      "store_number": "036372",
+      "store_name": "Taco Bell",
+      "city": "Enterprise",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-06-12T21:29:16.027747+00:00"
+    },
     {
       "store_number": "041252",
       "store_name": "Taco Bell",
@@ -15064,8 +15104,8 @@
     }
   ],
   "activity_summary": {
-    "added": 653,
-    "removed": 522,
+    "added": 656,
+    "removed": 523,
     "price_changed": 308,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15520,6 +15560,15 @@
       "FL"
     ],
     [
+      "036372",
+      31.315457449306592,
+      -85.82937418366782,
+      3.19,
+      "Taco Bell",
+      "Enterprise",
+      "AL"
+    ],
+    [
       "036486",
       32.52636196976751,
       -86.20746475961995,
@@ -15934,15 +15983,6 @@
       "AL"
     ],
     [
-      "024403",
-      35.96722562647426,
-      -85.03864054957367,
-      3.29,
-      "Taco Bell",
-      "Crossville",
-      "TN"
-    ],
-    [
       "042818",
       30.68370406040473,
       -88.06090991476809,
@@ -16213,12 +16253,30 @@
       "GA"
     ],
     [
+      "041243",
+      34.02333279764089,
+      -84.52909384668487,
+      3.59,
+      "Taco Bell",
+      "Marietta",
+      "GA"
+    ],
+    [
       "039919",
       32.04206596405184,
       -81.06397350134102,
       3.59,
       "Taco Bell",
       "Savannah",
+      "GA"
+    ],
+    [
+      "041257",
+      34.164623445272696,
+      -84.11864787340164,
+      3.59,
+      "Taco Bell",
+      "Cumming",
       "GA"
     ],
     [
@@ -16268,6 +16326,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-11",
+  "last_seen_date": "2026-06-12",
   "peak_availability_pct": 6.0
 }
