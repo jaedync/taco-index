@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.3,
-  "recent_price_change_pct": -0.0334,
+  "recent_price_change_pct": -0.0218,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 11.59,
+    "avg": 11.24,
     "min": 10.99,
-    "max": 12.99,
+    "max": 11.99,
     "median": 10.99,
-    "std_dev": 0.89,
-    "store_count": 5
+    "std_dev": 0.5,
+    "store_count": 4
   },
   "histogram": [
     {
@@ -30,10 +30,6 @@
     },
     {
       "bucket": "$11.99",
-      "count": 1
-    },
-    {
-      "bucket": "$12.99",
       "count": 1
     }
   ],
@@ -80,13 +76,6 @@
       "city": "Chicago Ridge",
       "state": "IL",
       "price": 11.99
-    },
-    {
-      "store_number": "020974",
-      "name": "Taco Bell / KFC",
-      "city": "King George",
-      "state": "VA",
-      "price": 12.99
     }
   ],
   "min_price_store_numbers": [
@@ -95,13 +84,6 @@
     "041399"
   ],
   "priciest_stores": [
-    {
-      "store_number": "020974",
-      "name": "Taco Bell / KFC",
-      "city": "King George",
-      "state": "VA",
-      "price": 12.99
-    },
     {
       "store_number": "026028",
       "name": "Taco Bell / KFC",
@@ -132,6 +114,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020974",
+      "store_name": "Taco Bell / KFC",
+      "city": "King George",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 12.99,
+      "new_price": null,
+      "observed_at": "2026-06-13T21:53:29.448441+00:00"
+    },
     {
       "store_number": "019680",
       "store_name": "Taco Bell / KFC",
@@ -945,7 +937,7 @@
   ],
   "activity_summary": {
     "added": 41,
-    "removed": 36,
+    "removed": 37,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1026,18 +1018,9 @@
       "Taco Bell / KFC",
       "Chicago Ridge",
       "IL"
-    ],
-    [
-      "020974",
-      38.33900959254854,
-      -77.0779993920587,
-      12.99,
-      "Taco Bell / KFC",
-      "King George",
-      "VA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-12",
+  "last_seen_date": "2026-06-13",
   "peak_availability_pct": 0.4
 }

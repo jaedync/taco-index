@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.5,
-  "recent_price_change_pct": 0.0263,
+  "recent_price_change_pct": 0.0244,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.5,
+  "availability_pct": 0.6,
   "price_stats": {
     "avg": 9.3,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.65,
-    "store_count": 42
+    "std_dev": 0.64,
+    "store_count": 43
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 32
+      "count": 33
     },
     {
       "bucket": "$9.49",
@@ -54,8 +54,8 @@
     },
     {
       "state": "AL",
-      "avg_price": 9.2,
-      "store_count": 5
+      "avg_price": 9.17,
+      "store_count": 6
     },
     {
       "state": "TN",
@@ -114,6 +114,13 @@
       "price": 9.0
     },
     {
+      "store_number": "037192",
+      "name": "Taco Bell",
+      "city": "Montgomery",
+      "state": "AL",
+      "price": 9.0
+    },
+    {
       "store_number": "029119",
       "name": "Taco Bell",
       "city": "Clanton",
@@ -140,13 +147,6 @@
       "city": "Chattanooga",
       "state": "TN",
       "price": 9.0
-    },
-    {
-      "store_number": "016335",
-      "name": "Taco Bell",
-      "city": "Lenoir City",
-      "state": "TN",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -155,6 +155,7 @@
     "034710",
     "033481",
     "036415",
+    "037192",
     "029119",
     "040962",
     "024403",
@@ -256,6 +257,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037192",
+      "store_name": "Taco Bell",
+      "city": "Montgomery",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-13T21:44:15.093954+00:00"
+    },
     {
       "store_number": "041491",
       "store_name": "Taco Bell",
@@ -3338,7 +3349,7 @@
     }
   ],
   "activity_summary": {
-    "added": 145,
+    "added": 146,
     "removed": 163,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3423,6 +3434,15 @@
       "Taco Bell",
       "Clinton",
       "TN"
+    ],
+    [
+      "037192",
+      32.338344929298856,
+      -86.1755813462282,
+      9.0,
+      "Taco Bell",
+      "Montgomery",
+      "AL"
     ],
     [
       "029119",
@@ -3759,6 +3779,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-12",
+  "last_seen_date": "2026-06-13",
   "peak_availability_pct": 1.1
 }

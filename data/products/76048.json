@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.3,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0228,
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
   "availability_pct": 0.3,
   "price_stats": {
@@ -21,7 +21,7 @@
     "max": 2.89,
     "median": 2.79,
     "std_dev": 0.15,
-    "store_count": 23
+    "store_count": 24
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$2.89",
@@ -52,8 +52,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 2.74,
-      "store_count": 6
+      "avg_price": 2.75,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -155,6 +155,13 @@
       "price": 2.89
     },
     {
+      "store_number": "029354",
+      "name": "Taco Bell",
+      "city": "Holly Springs",
+      "state": "NC",
+      "price": 2.79
+    },
+    {
       "store_number": "030424",
       "name": "Taco Bell / KFC",
       "city": "Osceola",
@@ -209,16 +216,19 @@
       "city": "Garner",
       "state": "NC",
       "price": 2.79
-    },
-    {
-      "store_number": "023838",
-      "name": "Taco Bell",
-      "city": "Albuquerque",
-      "state": "NM",
-      "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029354",
+      "store_name": "Taco Bell",
+      "city": "Holly Springs",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-06-13T21:52:03.211395+00:00"
+    },
     {
       "store_number": "003881",
       "store_name": "Taco Bell / KFC",
@@ -771,7 +781,7 @@
     }
   ],
   "activity_summary": {
-    "added": 39,
+    "added": 40,
     "removed": 15,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
@@ -993,6 +1003,15 @@
       "IA"
     ],
     [
+      "029354",
+      35.63581374810407,
+      -78.83095175027847,
+      2.79,
+      "Taco Bell",
+      "Holly Springs",
+      "NC"
+    ],
+    [
       "029323",
       42.32848585134205,
       -72.63313342632506,
@@ -1003,6 +1022,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-12",
+  "last_seen_date": "2026-06-13",
   "peak_availability_pct": 0.3
 }
