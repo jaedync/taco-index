@@ -20,24 +20,24 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 312
+    "store_count": 311
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 312
+      "count": 311
     }
   ],
   "state_prices": [
     {
       "state": "OH",
       "avg_price": 4.99,
-      "store_count": 104
+      "store_count": 103
     },
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 185
+      "store_count": 184
     },
     {
       "state": "IN",
@@ -262,7 +262,6 @@
     "026663",
     "002114",
     "021229",
-    "029743",
     "002279",
     "001738",
     "002494",
@@ -303,7 +302,6 @@
     "032394",
     "024598",
     "019798",
-    "032107",
     "002661",
     "016184",
     "021200",
@@ -443,9 +441,17 @@
     "042230",
     "040006",
     "041687",
-    "033316"
+    "033316",
+    "031601"
   ],
   "priciest_stores": [
+    {
+      "store_number": "031601",
+      "name": "Taco Bell",
+      "city": "Erie",
+      "state": "PA",
+      "price": 4.99
+    },
     {
       "store_number": "033316",
       "name": "Taco Bell",
@@ -508,16 +514,39 @@
       "city": "Sault Sainte Marie",
       "state": "MI",
       "price": 4.99
-    },
-    {
-      "store_number": "017105",
-      "name": "Taco Bell",
-      "city": "Garden City",
-      "state": "MI",
-      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032107",
+      "store_name": "Taco Bell",
+      "city": "Watervliet",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:20:00.598211+00:00"
+    },
+    {
+      "store_number": "031601",
+      "store_name": "Taco Bell",
+      "city": "Erie",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-06-14T21:19:54.271278+00:00"
+    },
+    {
+      "store_number": "029743",
+      "store_name": "Taco Bell",
+      "city": "Lorain",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:19:40.831381+00:00"
+    },
     {
       "store_number": "026119",
       "store_name": "Taco Bell",
@@ -4420,8 +4449,8 @@
     }
   ],
   "activity_summary": {
-    "added": 351,
-    "removed": 39,
+    "added": 352,
+    "removed": 41,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5601,15 +5630,6 @@
       "MI"
     ],
     [
-      "029743",
-      41.43733761298764,
-      -82.18502319884499,
-      4.99,
-      "Taco Bell",
-      "Lorain",
-      "OH"
-    ],
-    [
       "002279",
       41.451856968768816,
       -81.80180139375352,
@@ -5968,15 +5988,6 @@
       "Taco Bell",
       "Galion",
       "OH"
-    ],
-    [
-      "032107",
-      42.180071475785965,
-      -86.26249767316433,
-      4.99,
-      "Taco Bell",
-      "Watervliet",
-      "MI"
     ],
     [
       "002661",
@@ -7237,9 +7248,18 @@
       "Taco Bell",
       "Lake Orion",
       "MI"
+    ],
+    [
+      "031601",
+      42.06802643041463,
+      -80.03905543688234,
+      4.99,
+      "Taco Bell",
+      "Erie",
+      "PA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-13",
+  "last_seen_date": "2026-06-14",
   "peak_availability_pct": 3.8
 }

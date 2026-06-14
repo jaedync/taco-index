@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.32,
+    "avg": 10.33,
     "min": 9.49,
     "max": 10.99,
     "median": 10.29,
-    "std_dev": 0.39,
-    "store_count": 15
+    "std_dev": 0.41,
+    "store_count": 14
   },
   "histogram": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$10.29",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$10.49",
@@ -60,8 +60,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.41,
-      "store_count": 6
+      "avg_price": 10.43,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -122,13 +122,6 @@
       "price": 10.29
     },
     {
-      "store_number": "034784",
-      "name": "Taco Bell",
-      "city": "Hartwell",
-      "state": "GA",
-      "price": 10.29
-    },
-    {
       "store_number": "036487",
       "name": "Taco Bell",
       "city": "Montgomery",
@@ -148,6 +141,13 @@
       "city": "Cullman",
       "state": "AL",
       "price": 10.29
+    },
+    {
+      "store_number": "041212",
+      "name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "price": 10.49
     }
   ],
   "min_price_store_numbers": [
@@ -211,21 +211,31 @@
       "price": 10.29
     },
     {
-      "store_number": "034784",
-      "name": "Taco Bell",
-      "city": "Hartwell",
-      "state": "GA",
-      "price": 10.29
-    },
-    {
       "store_number": "026432",
       "name": "Taco Bell",
       "city": "Pigeon Forge",
       "state": "TN",
       "price": 10.29
+    },
+    {
+      "store_number": "042119",
+      "name": "Taco Bell",
+      "city": "Hope Hull",
+      "state": "AL",
+      "price": 10.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034784",
+      "store_name": "Taco Bell",
+      "city": "Hartwell",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:19:11.531910+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -1139,7 +1149,7 @@
   ],
   "activity_summary": {
     "added": 53,
-    "removed": 38,
+    "removed": 39,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1234,15 +1244,6 @@
       "TN"
     ],
     [
-      "034784",
-      34.353384638255136,
-      -82.92974342113956,
-      10.29,
-      "Taco Bell",
-      "Hartwell",
-      "GA"
-    ],
-    [
       "036487",
       32.32585303107889,
       -86.32691858103499,
@@ -1316,6 +1317,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-13",
+  "last_seen_date": "2026-06-14",
   "peak_availability_pct": 0.2
 }

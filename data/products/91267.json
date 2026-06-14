@@ -21,12 +21,12 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.18,
-    "store_count": 136
+    "store_count": 138
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 9
+      "count": 10
     },
     {
       "bucket": "$3.19",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 21
+      "count": 22
     },
     {
       "bucket": "$3.39",
@@ -57,7 +57,7 @@
     {
       "state": "GA",
       "avg_price": 3.37,
-      "store_count": 52
+      "store_count": 54
     },
     {
       "state": "TN",
@@ -113,6 +113,13 @@
       "price": 2.99
     },
     {
+      "store_number": "003404",
+      "name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "price": 2.99
+    },
+    {
       "store_number": "002167",
       "name": "Taco Bell",
       "city": "Atlanta",
@@ -139,13 +146,6 @@
       "city": "Peachtree City",
       "state": "GA",
       "price": 2.99
-    },
-    {
-      "store_number": "040910",
-      "name": "Taco Bell",
-      "city": "Auburn",
-      "state": "AL",
-      "price": 3.19
     }
   ],
   "min_price_store_numbers": [
@@ -154,6 +154,7 @@
     "003824",
     "041798",
     "003652",
+    "003404",
     "002167",
     "041837",
     "042126",
@@ -232,6 +233,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003404",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-14T21:23:30.422512+00:00"
+    },
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-06-14T21:19:49.003653+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -15154,7 +15175,7 @@
     }
   ],
   "activity_summary": {
-    "added": 660,
+    "added": 662,
     "removed": 524,
     "price_changed": 308,
     "since": "2026-03-31T00:00:00+00:00"
@@ -15220,6 +15241,15 @@
       2.99,
       "Taco Bell",
       "Atlanta",
+      "GA"
+    ],
+    [
+      "003404",
+      33.96928449342534,
+      -84.48970459062367,
+      2.99,
+      "Taco Bell",
+      "Marietta",
       "GA"
     ],
     [
@@ -15988,6 +16018,15 @@
       "AL"
     ],
     [
+      "042903",
+      31.783928,
+      -82.363196,
+      3.29,
+      "Taco Bell",
+      "Baxley",
+      "GA"
+    ],
+    [
       "042127",
       30.452715860396843,
       -86.63803450768683,
@@ -16403,6 +16442,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-13",
+  "last_seen_date": "2026-06-14",
   "peak_availability_pct": 6.0
 }

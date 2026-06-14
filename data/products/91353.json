@@ -20,8 +20,8 @@
     "min": 10.49,
     "max": 12.59,
     "median": 11.19,
-    "std_dev": 0.41,
-    "store_count": 484
+    "std_dev": 0.4,
+    "store_count": 482
   },
   "histogram": [
     {
@@ -30,11 +30,11 @@
     },
     {
       "bucket": "$10.69",
-      "count": 15
+      "count": 14
     },
     {
       "bucket": "$10.79",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$10.89",
@@ -50,11 +50,11 @@
     },
     {
       "bucket": "$11.29",
-      "count": 56
+      "count": 57
     },
     {
       "bucket": "$11.69",
-      "count": 68
+      "count": 67
     },
     {
       "bucket": "$11.79",
@@ -81,7 +81,7 @@
     {
       "state": "AL",
       "avg_price": 11.35,
-      "store_count": 119
+      "store_count": 118
     },
     {
       "state": "SC",
@@ -90,12 +90,12 @@
     },
     {
       "state": "TN",
-      "avg_price": 11.25,
-      "store_count": 86
+      "avg_price": 11.26,
+      "store_count": 85
     },
     {
       "state": "GA",
-      "avg_price": 11.06,
+      "avg_price": 11.07,
       "store_count": 238
     },
     {
@@ -322,6 +322,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.29,
+      "observed_at": "2026-06-14T21:19:49.003653+00:00"
+    },
+    {
+      "store_number": "037100",
+      "store_name": "Taco Bell",
+      "city": "Dunlap",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 10.69,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:19:17.906507+00:00"
+    },
+    {
+      "store_number": "034784",
+      "store_name": "Taco Bell",
+      "city": "Hartwell",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.79,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:19:11.531910+00:00"
+    },
+    {
+      "store_number": "041739",
+      "store_name": "Taco Bell",
+      "city": "Centreville",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 11.69,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:18:38.769007+00:00"
+    },
     {
       "store_number": "041246",
       "store_name": "Taco Bell",
@@ -5624,8 +5664,8 @@
     }
   ],
   "activity_summary": {
-    "added": 506,
-    "removed": 22,
+    "added": 507,
+    "removed": 25,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6203,15 +6243,6 @@
       "TN"
     ],
     [
-      "037100",
-      35.366584915695654,
-      -85.39338904355265,
-      10.69,
-      "Taco Bell",
-      "Dunlap",
-      "TN"
-    ],
-    [
       "037038",
       36.43596602758595,
       -84.93641937395971,
@@ -6318,15 +6349,6 @@
       "Taco Bell",
       "Blaine",
       "TN"
-    ],
-    [
-      "034784",
-      34.353384638255136,
-      -82.92974342113956,
-      10.79,
-      "Taco Bell",
-      "Hartwell",
-      "GA"
     ],
     [
       "042131",
@@ -8741,6 +8763,15 @@
       "AL"
     ],
     [
+      "042903",
+      31.783928,
+      -82.363196,
+      11.29,
+      "Taco Bell",
+      "Baxley",
+      "GA"
+    ],
+    [
       "029036",
       35.86363478663094,
       -83.54427691083401,
@@ -9098,15 +9129,6 @@
       11.69,
       "Taco Bell",
       "Sylacauga",
-      "AL"
-    ],
-    [
-      "041739",
-      32.9445258,
-      -87.14302183956661,
-      11.69,
-      "Taco Bell",
-      "Centreville",
       "AL"
     ],
     [
@@ -10029,6 +10051,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-13",
+  "last_seen_date": "2026-06-14",
   "peak_availability_pct": 6.0
 }

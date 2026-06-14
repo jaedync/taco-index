@@ -14,19 +14,19 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.5,
+  "availability_pct": 1.6,
   "price_stats": {
-    "avg": 11.17,
+    "avg": 11.16,
     "min": 10.49,
     "max": 12.29,
     "median": 11.19,
-    "std_dev": 0.37,
-    "store_count": 119
+    "std_dev": 0.38,
+    "store_count": 120
   },
   "histogram": [
     {
       "bucket": "$10.49",
-      "count": 9
+      "count": 10
     },
     {
       "bucket": "$10.69",
@@ -82,8 +82,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 11.03,
-      "store_count": 44
+      "avg_price": 11.01,
+      "store_count": 45
     },
     {
       "state": "FL",
@@ -122,6 +122,13 @@
       "price": 10.49
     },
     {
+      "store_number": "003404",
+      "name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "price": 10.49
+    },
+    {
       "store_number": "002167",
       "name": "Taco Bell",
       "city": "Atlanta",
@@ -155,13 +162,6 @@
       "city": "Peachtree City",
       "state": "GA",
       "price": 10.49
-    },
-    {
-      "store_number": "037369",
-      "name": "Taco Bell",
-      "city": "Port St Joe",
-      "state": "FL",
-      "price": 10.69
     }
   ],
   "min_price_store_numbers": [
@@ -169,6 +169,7 @@
     "041226",
     "041219",
     "041223",
+    "003404",
     "002167",
     "041218",
     "041837",
@@ -248,6 +249,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003404",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-06-14T21:23:30.422512+00:00"
+    },
     {
       "store_number": "043130",
       "store_name": "Taco Bell",
@@ -14800,7 +14811,7 @@
     }
   ],
   "activity_summary": {
-    "added": 636,
+    "added": 637,
     "removed": 517,
     "price_changed": 302,
     "since": "2026-03-31T00:00:00+00:00"
@@ -14875,6 +14886,15 @@
       10.49,
       "Taco Bell",
       "Ellenwood",
+      "GA"
+    ],
+    [
+      "003404",
+      33.96928449342534,
+      -84.48970459062367,
+      10.49,
+      "Taco Bell",
+      "Marietta",
       "GA"
     ],
     [
@@ -15914,6 +15934,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-13",
+  "last_seen_date": "2026-06-14",
   "peak_availability_pct": 5.9
 }

@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7657
+    "store_count": 7656
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7657
+      "count": 7656
     }
   ],
   "state_prices": [
@@ -102,7 +102,7 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 402
+      "store_count": 403
     },
     {
       "state": "NY",
@@ -112,7 +112,7 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 86
+      "store_count": 85
     },
     {
       "state": "NM",
@@ -162,7 +162,7 @@
     {
       "state": "MN",
       "avg_price": 0.0,
-      "store_count": 98
+      "store_count": 99
     },
     {
       "state": "MI",
@@ -252,12 +252,12 @@
     {
       "state": "CO",
       "avg_price": 0.0,
-      "store_count": 159
+      "store_count": 158
     },
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 836
+      "store_count": 835
     },
     {
       "state": "AZ",
@@ -673,6 +673,7 @@
     "041986",
     "041884",
     "039942",
+    "041745",
     "041652",
     "037713",
     "041921",
@@ -1850,7 +1851,6 @@
     "034430",
     "034427",
     "030115",
-    "024649",
     "035685",
     "035686",
     "035724",
@@ -2171,6 +2171,7 @@
     "024650",
     "026836",
     "035681",
+    "002279",
     "037840",
     "001738",
     "005169",
@@ -3743,7 +3744,6 @@
     "020532",
     "032988",
     "031267",
-    "033838",
     "033176",
     "001360",
     "005716",
@@ -5454,7 +5454,6 @@
     "029639",
     "022267",
     "038931",
-    "030751",
     "030359",
     "031299",
     "034690",
@@ -5779,7 +5778,6 @@
     "024287",
     "041568",
     "019410",
-    "031868",
     "036300",
     "039081",
     "030831",
@@ -6049,7 +6047,6 @@
     "039713",
     "018272",
     "021472",
-    "039845",
     "035071",
     "002149",
     "039806",
@@ -7765,6 +7762,7 @@
     "039696",
     "038913",
     "039102",
+    "033441",
     "039747",
     "032888",
     "039748",
@@ -8023,9 +8021,17 @@
     "042251",
     "029482",
     "042609",
-    "037704"
+    "037704",
+    "042154"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042154",
+      "name": "Taco Bell",
+      "city": "Redding",
+      "state": "CA",
+      "price": 0.0
+    },
     {
       "store_number": "037704",
       "name": "Taco Bell",
@@ -8088,16 +8094,99 @@
       "city": "Thornton",
       "state": "CO",
       "price": 0.0
-    },
-    {
-      "store_number": "042080",
-      "name": "Taco Bell",
-      "city": "Wareham",
-      "state": "MA",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042154",
+      "store_name": "Taco Bell",
+      "city": "Redding",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-14T21:28:07.753270+00:00"
+    },
+    {
+      "store_number": "033441",
+      "store_name": "Taco Bell",
+      "city": "Lakeville",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-14T21:28:02.819346+00:00"
+    },
+    {
+      "store_number": "039845",
+      "store_name": "Taco Bell",
+      "city": "Riverside",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:27:12.258477+00:00"
+    },
+    {
+      "store_number": "031868",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:27:03.369991+00:00"
+    },
+    {
+      "store_number": "030751",
+      "store_name": "Taco Bell",
+      "city": "Scotts Valley",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:21:28.974057+00:00"
+    },
+    {
+      "store_number": "033838",
+      "store_name": "Taco Bell",
+      "city": "Northglenn",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:20:20.910583+00:00"
+    },
+    {
+      "store_number": "002279",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-14T21:19:40.983388+00:00"
+    },
+    {
+      "store_number": "024649",
+      "store_name": "Taco Bell",
+      "city": "Warren",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:19:33.429047+00:00"
+    },
+    {
+      "store_number": "041745",
+      "store_name": "Taco Bell",
+      "city": "Walled Lake",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-14T21:19:08.994501+00:00"
+    },
     {
       "store_number": "002384",
       "store_name": "Taco Bell",
@@ -14420,8 +14509,8 @@
     }
   ],
   "activity_summary": {
-    "added": 311,
-    "removed": 321,
+    "added": 315,
+    "removed": 326,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17183,6 +17272,15 @@
       "Taco Bell",
       "Newnan",
       "GA"
+    ],
+    [
+      "041745",
+      42.538476867889386,
+      -83.48039326911228,
+      0.0,
+      "Taco Bell",
+      "Walled Lake",
+      "MI"
     ],
     [
       "041652",
@@ -27778,15 +27876,6 @@
       "TX"
     ],
     [
-      "024649",
-      42.52178106926556,
-      -83.00523649155991,
-      0.0,
-      "Taco Bell",
-      "Warren",
-      "MI"
-    ],
-    [
       "035685",
       29.711046155001814,
       -95.20156905055046,
@@ -30665,6 +30754,15 @@
       "Taco Bell",
       "Pasadena",
       "TX"
+    ],
+    [
+      "002279",
+      41.451856968768816,
+      -81.80180139375352,
+      0.0,
+      "Taco Bell",
+      "Cleveland",
+      "OH"
     ],
     [
       "037840",
@@ -44813,15 +44911,6 @@
       "Taco Bell",
       "Laie",
       "HI"
-    ],
-    [
-      "033838",
-      39.88566571920117,
-      -104.99421988429276,
-      0.0,
-      "Taco Bell",
-      "Northglenn",
-      "CO"
     ],
     [
       "033176",
@@ -60214,15 +60303,6 @@
       "MT"
     ],
     [
-      "030751",
-      37.045575267916306,
-      -122.02823464574067,
-      0.0,
-      "Taco Bell",
-      "Scotts Valley",
-      "CA"
-    ],
-    [
       "030359",
       35.71724098570292,
       -84.01247182491716,
@@ -63139,15 +63219,6 @@
       "CA"
     ],
     [
-      "031868",
-      36.1971141533937,
-      -115.2608603686258,
-      0.0,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
-    ],
-    [
       "036300",
       29.499343592274975,
       -82.86923924091752,
@@ -65567,15 +65638,6 @@
       "Taco Bell",
       "Clermont",
       "FL"
-    ],
-    [
-      "039845",
-      33.91588620517834,
-      -117.32942729140632,
-      0.0,
-      "Taco Bell",
-      "Riverside",
-      "CA"
     ],
     [
       "035071",
@@ -81013,6 +81075,15 @@
       "MD"
     ],
     [
+      "033441",
+      44.715933490445444,
+      -93.17222504592026,
+      0.0,
+      "Taco Bell",
+      "Lakeville",
+      "MN"
+    ],
+    [
       "039747",
       36.76206928829071,
       -80.73388583304357,
@@ -83342,6 +83413,15 @@
       "Taco Bell",
       "Fayette",
       "AL"
+    ],
+    [
+      "042154",
+      40.6092669,
+      -122.3782195,
+      0.0,
+      "Taco Bell",
+      "Redding",
+      "CA"
     ]
   ],
   "retired_at": null,

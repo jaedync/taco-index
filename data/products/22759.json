@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7669
+    "store_count": 7668
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7669
+      "count": 7668
     }
   ],
   "state_prices": [
@@ -112,7 +112,7 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 87
+      "store_count": 86
     },
     {
       "state": "NM",
@@ -5450,7 +5450,6 @@
     "029447",
     "015248",
     "022587",
-    "031872",
     "030368",
     "036115",
     "031472",
@@ -5467,7 +5466,6 @@
     "029639",
     "022267",
     "038931",
-    "030751",
     "030359",
     "031299",
     "034690",
@@ -8035,9 +8033,17 @@
     "042808",
     "043044",
     "042251",
-    "042609"
+    "042609",
+    "042154"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042154",
+      "name": "Taco Bell",
+      "city": "Redding",
+      "state": "CA",
+      "price": 0.0
+    },
     {
       "store_number": "042609",
       "name": "Taco Bell",
@@ -8100,16 +8106,39 @@
       "city": "Denver",
       "state": "CO",
       "price": 0.0
-    },
-    {
-      "store_number": "042686",
-      "name": "Taco Bell",
-      "city": "Charleston",
-      "state": "WV",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042154",
+      "store_name": "Taco Bell",
+      "city": "Redding",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-14T21:28:07.753270+00:00"
+    },
+    {
+      "store_number": "030751",
+      "store_name": "Taco Bell",
+      "city": "Scotts Valley",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:21:28.974057+00:00"
+    },
+    {
+      "store_number": "031872",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:21:28.521857+00:00"
+    },
     {
       "store_number": "002384",
       "store_name": "Taco Bell",
@@ -13122,8 +13151,8 @@
     }
   ],
   "activity_summary": {
-    "added": 252,
-    "removed": 249,
+    "added": 253,
+    "removed": 251,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -58880,15 +58909,6 @@
       "FL"
     ],
     [
-      "031872",
-      36.146352834081505,
-      -115.2981501312828,
-      0.0,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
-    ],
-    [
       "030368",
       42.6125058358983,
       -73.78748124026131,
@@ -59031,15 +59051,6 @@
       "Taco Bell",
       "Billings",
       "MT"
-    ],
-    [
-      "030751",
-      37.045575267916306,
-      -122.02823464574067,
-      0.0,
-      "Taco Bell",
-      "Scotts Valley",
-      "CA"
     ],
     [
       "030359",
@@ -82152,6 +82163,15 @@
       "Taco Bell",
       "Odessa",
       "TX"
+    ],
+    [
+      "042154",
+      40.6092669,
+      -122.3782195,
+      0.0,
+      "Taco Bell",
+      "Redding",
+      "CA"
     ]
   ],
   "retired_at": null,

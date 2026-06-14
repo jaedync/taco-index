@@ -14,19 +14,19 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.5,
+  "availability_pct": 1.6,
   "price_stats": {
     "avg": 6.36,
     "min": 5.29,
     "max": 7.99,
     "median": 6.19,
-    "std_dev": 0.65,
-    "store_count": 119
+    "std_dev": 0.66,
+    "store_count": 120
   },
   "histogram": [
     {
       "bucket": "$5.29",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$5.49",
@@ -96,8 +96,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.66,
-      "store_count": 47
+      "avg_price": 6.63,
+      "store_count": 48
     },
     {
       "state": "TN",
@@ -153,6 +153,13 @@
       "price": 5.29
     },
     {
+      "store_number": "003404",
+      "name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "price": 5.29
+    },
+    {
       "store_number": "002167",
       "name": "Taco Bell",
       "city": "Atlanta",
@@ -179,13 +186,6 @@
       "city": "Thomasville",
       "state": "GA",
       "price": 5.49
-    },
-    {
-      "store_number": "033481",
-      "name": "Taco Bell",
-      "city": "Villa Rica",
-      "state": "GA",
-      "price": 5.69
     }
   ],
   "min_price_store_numbers": [
@@ -194,6 +194,7 @@
     "004370",
     "030707",
     "004185",
+    "003404",
     "002167",
     "019713",
     "005482"
@@ -271,6 +272,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003404",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.29,
+      "observed_at": "2026-06-14T21:23:30.422512+00:00"
+    },
     {
       "store_number": "043130",
       "store_name": "Taco Bell",
@@ -13243,7 +13254,7 @@
     }
   ],
   "activity_summary": {
-    "added": 628,
+    "added": 629,
     "removed": 509,
     "price_changed": 160,
     "since": "2026-03-31T00:00:00+00:00"
@@ -13310,6 +13321,15 @@
       "Taco Bell",
       "Panama City",
       "FL"
+    ],
+    [
+      "003404",
+      33.96928449342534,
+      -84.48970459062367,
+      5.29,
+      "Taco Bell",
+      "Marietta",
+      "GA"
     ],
     [
       "002167",
@@ -14339,6 +14359,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-13",
+  "last_seen_date": "2026-06-14",
   "peak_availability_pct": 5.9
 }

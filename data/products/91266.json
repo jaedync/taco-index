@@ -21,12 +21,12 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.19,
-    "store_count": 123
+    "store_count": 124
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 10
+      "count": 11
     },
     {
       "bucket": "$3.09",
@@ -60,8 +60,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 3.37,
-      "store_count": 47
+      "avg_price": 3.36,
+      "store_count": 48
     },
     {
       "state": "TN",
@@ -162,7 +162,8 @@
     "002167",
     "041837",
     "042126",
-    "005482"
+    "005482",
+    "003404"
   ],
   "priciest_stores": [
     {
@@ -237,6 +238,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003404",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-14T21:23:30.422512+00:00"
+    },
     {
       "store_number": "041246",
       "store_name": "Taco Bell",
@@ -14739,7 +14750,7 @@
     }
   ],
   "activity_summary": {
-    "added": 633,
+    "added": 634,
     "removed": 510,
     "price_changed": 307,
     "since": "2026-03-31T00:00:00+00:00"
@@ -14850,6 +14861,15 @@
       2.99,
       "Taco Bell",
       "Peachtree City",
+      "GA"
+    ],
+    [
+      "003404",
+      33.96928449342534,
+      -84.48970459062367,
+      2.99,
+      "Taco Bell",
+      "Marietta",
       "GA"
     ],
     [
@@ -15871,6 +15891,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-13",
+  "last_seen_date": "2026-06-14",
   "peak_availability_pct": 5.9
 }

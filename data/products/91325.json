@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.5,
-  "recent_price_change_pct": 0.0244,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.6,
   "price_stats": {
@@ -165,7 +165,6 @@
     "041249",
     "039923",
     "039919",
-    "039921",
     "026044",
     "041243",
     "002995",
@@ -182,7 +181,8 @@
     "042121",
     "042125",
     "035465",
-    "029028"
+    "029028",
+    "003404"
   ],
   "priciest_stores": [
     {
@@ -257,6 +257,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039921",
+      "store_name": "Taco Bell",
+      "city": "Pooler",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:27:58.053204+00:00"
+    },
+    {
+      "store_number": "003404",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-14T21:23:30.422512+00:00"
+    },
     {
       "store_number": "037192",
       "store_name": "Taco Bell",
@@ -3349,8 +3369,8 @@
     }
   ],
   "activity_summary": {
-    "added": 146,
-    "removed": 163,
+    "added": 147,
+    "removed": 164,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3526,15 +3546,6 @@
       "GA"
     ],
     [
-      "039921",
-      32.112410602164445,
-      -81.23548958895492,
-      9.0,
-      "Taco Bell",
-      "Pooler",
-      "GA"
-    ],
-    [
       "026044",
       35.75195423417623,
       -83.9964301791224,
@@ -3688,6 +3699,15 @@
       "TN"
     ],
     [
+      "003404",
+      33.96928449342534,
+      -84.48970459062367,
+      9.0,
+      "Taco Bell",
+      "Marietta",
+      "GA"
+    ],
+    [
       "004185",
       30.138993189337146,
       -85.59155344963074,
@@ -3779,6 +3799,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-13",
+  "last_seen_date": "2026-06-14",
   "peak_availability_pct": 1.1
 }

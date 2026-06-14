@@ -11,9 +11,9 @@
   "is_meatless": true,
   "is_limited": false,
   "peak_30d_pct": 93.2,
-  "recent_price_change_pct": -0.0517,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.698758+00:00",
-  "availability_pct": 99.2,
+  "availability_pct": 99.1,
   "price_stats": {
     "avg": 0.3,
     "min": 0.0,
@@ -25,7 +25,7 @@
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 1721
+      "count": 1722
     },
     {
       "bucket": "$0.10",
@@ -53,7 +53,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 1155
+      "count": 1153
     },
     {
       "bucket": "$0.35",
@@ -101,7 +101,7 @@
     },
     {
       "bucket": "$0.70",
-      "count": 42
+      "count": 43
     },
     {
       "bucket": "$0.73",
@@ -161,8 +161,8 @@
     },
     {
       "state": "MT",
-      "avg_price": 0.53,
-      "store_count": 26
+      "avg_price": 0.54,
+      "store_count": 27
     },
     {
       "state": "NV",
@@ -232,7 +232,7 @@
     {
       "state": "FL",
       "avg_price": 0.33,
-      "store_count": 448
+      "store_count": 447
     },
     {
       "state": "CA",
@@ -297,7 +297,7 @@
     {
       "state": "OH",
       "avg_price": 0.28,
-      "store_count": 406
+      "store_count": 405
     },
     {
       "state": "WY",
@@ -321,8 +321,8 @@
     },
     {
       "state": "NC",
-      "avg_price": 0.25,
-      "store_count": 261
+      "avg_price": 0.24,
+      "store_count": 262
     },
     {
       "state": "WV",
@@ -1376,6 +1376,7 @@
     "037573",
     "022950",
     "039613",
+    "030563",
     "037565",
     "028019",
     "020585",
@@ -2282,6 +2283,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042154",
+      "store_name": "Taco Bell",
+      "city": "Redding",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.45,
+      "observed_at": "2026-06-14T21:28:07.753270+00:00"
+    },
+    {
+      "store_number": "031624",
+      "store_name": "Taco Bell",
+      "city": "Polson",
+      "state": "MT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-06-14T21:27:54.700102+00:00"
+    },
+    {
+      "store_number": "038905",
+      "store_name": "Taco Bell",
+      "city": "Zanesville",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:23:30.587218+00:00"
+    },
+    {
+      "store_number": "042852",
+      "store_name": "Taco Bell",
+      "city": "Lehigh Acres",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.45,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:21:11.530094+00:00"
+    },
+    {
+      "store_number": "030563",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-14T21:20:45.254448+00:00"
+    },
+    {
+      "store_number": "041594",
+      "store_name": "Taco Bell",
+      "city": "San Diego",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:20:13.620532+00:00"
+    },
     {
       "store_number": "039087",
       "store_name": "Taco Bell",
@@ -80424,8 +80485,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7474,
-    "removed": 114,
+    "added": 7477,
+    "removed": 117,
     "price_changed": 226,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -88434,6 +88495,15 @@
       "Taco Bell",
       "Orange",
       "CA"
+    ],
+    [
+      "030563",
+      34.75148700561307,
+      -77.44658232957893,
+      0.0,
+      "Taco Bell",
+      "Jacksonville",
+      "NC"
     ],
     [
       "037565",
@@ -116912,15 +116982,6 @@
       "SD"
     ],
     [
-      "041594",
-      32.75323619567367,
-      -117.06435491146294,
-      0.3,
-      "Taco Bell",
-      "San Diego",
-      "CA"
-    ],
-    [
       "027988",
       28.47491997799977,
       -81.28932432086913,
@@ -119826,15 +119887,6 @@
       "Taco Bell",
       "Minneapolis",
       "MN"
-    ],
-    [
-      "038905",
-      39.90956567545612,
-      -82.01559309663025,
-      0.3,
-      "Taco Bell",
-      "Zanesville",
-      "OH"
     ],
     [
       "031751",
@@ -130637,15 +130689,6 @@
       "FL"
     ],
     [
-      "042852",
-      26.61774397988473,
-      -81.66949962081162,
-      0.45,
-      "Taco Bell",
-      "Lehigh Acres",
-      "FL"
-    ],
-    [
       "024596",
       34.2514831908549,
       -84.08800439400908,
@@ -131931,6 +131974,15 @@
       "Taco Bell",
       "Port Saint Lucie",
       "FL"
+    ],
+    [
+      "042154",
+      40.6092669,
+      -122.3782195,
+      0.45,
+      "Taco Bell",
+      "Redding",
+      "CA"
     ],
     [
       "035255",
@@ -146484,6 +146536,15 @@
       "Taco Bell",
       "Hillsboro",
       "OH"
+    ],
+    [
+      "031624",
+      47.682629,
+      -114.122911,
+      0.7,
+      "Taco Bell",
+      "Polson",
+      "MT"
     ],
     [
       "019428",

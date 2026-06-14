@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7652
+    "store_count": 7654
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7652
+      "count": 7654
     }
   ],
   "state_prices": [
@@ -132,7 +132,7 @@
     {
       "state": "NE",
       "avg_price": 0.0,
-      "store_count": 43
+      "store_count": 44
     },
     {
       "state": "ND",
@@ -167,7 +167,7 @@
     {
       "state": "MI",
       "avg_price": 0.0,
-      "store_count": 346
+      "store_count": 347
     },
     {
       "state": "ME",
@@ -676,6 +676,7 @@
     "041986",
     "041884",
     "039942",
+    "041745",
     "041652",
     "037713",
     "041921",
@@ -4040,6 +4041,7 @@
     "032577",
     "039035",
     "031822",
+    "035281",
     "030141",
     "020088",
     "004882",
@@ -5510,7 +5512,6 @@
     "031984",
     "041350",
     "001683",
-    "030648",
     "043077",
     "019662",
     "022448",
@@ -8018,9 +8019,17 @@
     "032117",
     "043044",
     "042251",
-    "042609"
+    "042609",
+    "042154"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042154",
+      "name": "Taco Bell",
+      "city": "Redding",
+      "state": "CA",
+      "price": 0.0
+    },
     {
       "store_number": "042609",
       "name": "Taco Bell",
@@ -8083,16 +8092,49 @@
       "city": "Wareham",
       "state": "MA",
       "price": 0.0
-    },
-    {
-      "store_number": "043047",
-      "name": "Taco Bell",
-      "city": "London",
-      "state": "KY",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042154",
+      "store_name": "Taco Bell",
+      "city": "Redding",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-14T21:28:07.753270+00:00"
+    },
+    {
+      "store_number": "030648",
+      "store_name": "Taco Bell",
+      "city": "San Jose",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-14T21:23:03.962451+00:00"
+    },
+    {
+      "store_number": "035281",
+      "store_name": "Taco Bell",
+      "city": "Omaha",
+      "state": "NE",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-14T21:20:33.451227+00:00"
+    },
+    {
+      "store_number": "041745",
+      "store_name": "Taco Bell",
+      "city": "Walled Lake",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-14T21:19:08.994501+00:00"
+    },
     {
       "store_number": "034354",
       "store_name": "Taco Bell Cantina",
@@ -12665,8 +12707,8 @@
     }
   ],
   "activity_summary": {
-    "added": 220,
-    "removed": 237,
+    "added": 223,
+    "removed": 238,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15455,6 +15497,15 @@
       "Taco Bell",
       "Newnan",
       "GA"
+    ],
+    [
+      "041745",
+      42.538476867889386,
+      -83.48039326911228,
+      0.0,
+      "Taco Bell",
+      "Walled Lake",
+      "MI"
     ],
     [
       "041652",
@@ -45733,6 +45784,15 @@
       "NM"
     ],
     [
+      "035281",
+      41.21216556400048,
+      -95.98636383157171,
+      0.0,
+      "Taco Bell",
+      "Omaha",
+      "NE"
+    ],
+    [
       "030141",
       30.400225224917854,
       -97.74727870525567,
@@ -58961,15 +59021,6 @@
       "Taco Bell",
       "Ashland",
       "OR"
-    ],
-    [
-      "030648",
-      37.302334194852214,
-      -121.85949593782425,
-      0.0,
-      "Taco Bell",
-      "San Jose",
-      "CA"
     ],
     [
       "043077",
@@ -81542,6 +81593,15 @@
       "Taco Bell",
       "Odessa",
       "TX"
+    ],
+    [
+      "042154",
+      40.6092669,
+      -122.3782195,
+      0.0,
+      "Taco Bell",
+      "Redding",
+      "CA"
     ]
   ],
   "retired_at": null,
