@@ -12,24 +12,42 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 6.5,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0601,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.49,
-    "min": 9.49,
+    "avg": 8.92,
+    "min": 8.19,
     "max": 9.49,
-    "median": 9.49,
-    "std_dev": 0.0,
-    "store_count": 1
+    "median": 8.99,
+    "std_dev": 0.54,
+    "store_count": 10
   },
   "histogram": [
     {
-      "bucket": "$9.49",
+      "bucket": "$8.19",
+      "count": 3
+    },
+    {
+      "bucket": "$8.99",
+      "count": 3
+    },
+    {
+      "bucket": "$9.19",
       "count": 1
+    },
+    {
+      "bucket": "$9.49",
+      "count": 3
     }
   ],
-  "state_prices": [],
+  "state_prices": [
+    {
+      "state": "MI",
+      "avg_price": 8.91,
+      "store_count": 9
+    }
+  ],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -46,17 +64,68 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "001880",
+      "store_number": "036418",
       "name": "Taco Bell",
-      "city": "East Lansing",
+      "city": "Caledonia",
+      "state": "MI",
+      "price": 8.19
+    },
+    {
+      "store_number": "033043",
+      "name": "Taco Bell",
+      "city": "Wayland",
+      "state": "MI",
+      "price": 8.19
+    },
+    {
+      "store_number": "033075",
+      "name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "price": 8.19
+    },
+    {
+      "store_number": "041829",
+      "name": "Taco Bell",
+      "city": "Wellsburg",
+      "state": "WV",
+      "price": 8.99
+    },
+    {
+      "store_number": "032107",
+      "name": "Taco Bell",
+      "city": "Watervliet",
+      "state": "MI",
+      "price": 8.99
+    },
+    {
+      "store_number": "017105",
+      "name": "Taco Bell",
+      "city": "Garden City",
+      "state": "MI",
+      "price": 8.99
+    },
+    {
+      "store_number": "021162",
+      "name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "price": 9.19
+    },
+    {
+      "store_number": "003190",
+      "name": "Taco Bell",
+      "city": "Roseville",
       "state": "MI",
       "price": 9.49
-    }
-  ],
-  "min_price_store_numbers": [
-    "001880"
-  ],
-  "priciest_stores": [
+    },
+    {
+      "store_number": "001661",
+      "name": "Taco Bell",
+      "city": "Dearborn Heights",
+      "state": "MI",
+      "price": 9.49
+    },
     {
       "store_number": "001880",
       "name": "Taco Bell",
@@ -65,7 +134,174 @@
       "price": 9.49
     }
   ],
+  "min_price_store_numbers": [
+    "036418",
+    "033043",
+    "033075"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "001880",
+      "name": "Taco Bell",
+      "city": "East Lansing",
+      "state": "MI",
+      "price": 9.49
+    },
+    {
+      "store_number": "001661",
+      "name": "Taco Bell",
+      "city": "Dearborn Heights",
+      "state": "MI",
+      "price": 9.49
+    },
+    {
+      "store_number": "003190",
+      "name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MI",
+      "price": 9.49
+    },
+    {
+      "store_number": "021162",
+      "name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "price": 9.19
+    },
+    {
+      "store_number": "017105",
+      "name": "Taco Bell",
+      "city": "Garden City",
+      "state": "MI",
+      "price": 8.99
+    },
+    {
+      "store_number": "032107",
+      "name": "Taco Bell",
+      "city": "Watervliet",
+      "state": "MI",
+      "price": 8.99
+    },
+    {
+      "store_number": "041829",
+      "name": "Taco Bell",
+      "city": "Wellsburg",
+      "state": "WV",
+      "price": 8.99
+    },
+    {
+      "store_number": "033075",
+      "name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "price": 8.19
+    },
+    {
+      "store_number": "033043",
+      "name": "Taco Bell",
+      "city": "Wayland",
+      "state": "MI",
+      "price": 8.19
+    },
+    {
+      "store_number": "036418",
+      "name": "Taco Bell",
+      "city": "Caledonia",
+      "state": "MI",
+      "price": 8.19
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "033075",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.19,
+      "observed_at": "2026-06-15T20:58:33.802929+00:00"
+    },
+    {
+      "store_number": "033043",
+      "store_name": "Taco Bell",
+      "city": "Wayland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.19,
+      "observed_at": "2026-06-15T20:58:18.370883+00:00"
+    },
+    {
+      "store_number": "032107",
+      "store_name": "Taco Bell",
+      "city": "Watervliet",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-06-15T20:56:43.974051+00:00"
+    },
+    {
+      "store_number": "001661",
+      "store_name": "Taco Bell",
+      "city": "Dearborn Heights",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-06-15T20:56:22.290228+00:00"
+    },
+    {
+      "store_number": "021162",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.19,
+      "observed_at": "2026-06-15T20:56:20.871197+00:00"
+    },
+    {
+      "store_number": "017105",
+      "store_name": "Taco Bell",
+      "city": "Garden City",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-06-15T20:56:13.213702+00:00"
+    },
+    {
+      "store_number": "003190",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-06-15T20:56:11.832601+00:00"
+    },
+    {
+      "store_number": "036418",
+      "store_name": "Taco Bell",
+      "city": "Caledonia",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.19,
+      "observed_at": "2026-06-15T20:55:43.409509+00:00"
+    },
+    {
+      "store_number": "041829",
+      "store_name": "Taco Bell",
+      "city": "Wellsburg",
+      "state": "WV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-06-15T20:55:21.185648+00:00"
+    },
     {
       "store_number": "040524",
       "store_name": "Taco Bell",
@@ -16778,7 +17014,7 @@
     }
   ],
   "activity_summary": {
-    "added": 570,
+    "added": 579,
     "removed": 568,
     "price_changed": 533,
     "since": "2026-03-31T00:00:00+00:00"
@@ -16802,6 +17038,87 @@
   ],
   "map_data": [
     [
+      "036418",
+      42.80602736486148,
+      -85.50658579751232,
+      8.19,
+      "Taco Bell",
+      "Caledonia",
+      "MI"
+    ],
+    [
+      "033043",
+      42.67365292260149,
+      -85.65788559621069,
+      8.19,
+      "Taco Bell",
+      "Wayland",
+      "MI"
+    ],
+    [
+      "033075",
+      42.91239617566594,
+      -85.51890074553435,
+      8.19,
+      "Taco Bell",
+      "Grand Rapids",
+      "MI"
+    ],
+    [
+      "041829",
+      40.284352,
+      -80.60844,
+      8.99,
+      "Taco Bell",
+      "Wellsburg",
+      "WV"
+    ],
+    [
+      "032107",
+      42.180071475785965,
+      -86.26249767316433,
+      8.99,
+      "Taco Bell",
+      "Watervliet",
+      "MI"
+    ],
+    [
+      "017105",
+      42.325364416289936,
+      -83.32727551460266,
+      8.99,
+      "Taco Bell",
+      "Garden City",
+      "MI"
+    ],
+    [
+      "021162",
+      42.336587950303986,
+      -83.3853131532669,
+      9.19,
+      "Taco Bell",
+      "Westland",
+      "MI"
+    ],
+    [
+      "003190",
+      42.48379808690309,
+      -82.94468663168573,
+      9.49,
+      "Taco Bell",
+      "Roseville",
+      "MI"
+    ],
+    [
+      "001661",
+      42.35000651139183,
+      -83.27328178973356,
+      9.49,
+      "Taco Bell",
+      "Dearborn Heights",
+      "MI"
+    ],
+    [
       "001880",
       42.719425184444525,
       -84.49754077274494,
@@ -16812,6 +17129,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-14",
+  "last_seen_date": "2026-06-15",
   "peak_availability_pct": 6.6
 }

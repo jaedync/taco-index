@@ -21,19 +21,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 12
+    "store_count": 13
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 12
+      "count": 13
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 7.0,
-      "store_count": 12
+      "store_count": 13
     }
   ],
   "nutrition": {
@@ -134,9 +134,17 @@
     "030384",
     "030390",
     "033285",
-    "030377"
+    "030377",
+    "033500"
   ],
   "priciest_stores": [
+    {
+      "store_number": "033500",
+      "name": "Taco Bell",
+      "city": "Guthrie",
+      "state": "OK",
+      "price": 7.0
+    },
     {
       "store_number": "030377",
       "name": "Taco Bell",
@@ -199,16 +207,19 @@
       "city": "Enid",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "031460",
-      "name": "Taco Bell",
-      "city": "Oklahoma City",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033500",
+      "store_name": "Taco Bell",
+      "city": "Guthrie",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-06-15T20:57:50.732723+00:00"
+    },
     {
       "store_number": "030377",
       "store_name": "Taco Bell",
@@ -461,12 +472,12 @@
     }
   ],
   "activity_summary": {
-    "added": 15,
+    "added": 16,
     "removed": 10,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 0,
+  "calories_from_menu": 920,
   "calories_min": 920,
   "calories_max": 1200,
   "combo_groups": [
@@ -608,6 +619,15 @@
       7.0,
       "Taco Bell",
       "Oklahoma City",
+      "OK"
+    ],
+    [
+      "033500",
+      35.85858525937852,
+      -97.4248494207859,
+      7.0,
+      "Taco Bell",
+      "Guthrie",
       "OK"
     ]
   ],

@@ -27,7 +27,7 @@
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 216
+      "count": 217
     },
     {
       "bucket": "$10.29",
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$10.69",
-      "count": 134
+      "count": 133
     },
     {
       "bucket": "$10.99",
@@ -54,7 +54,7 @@
     },
     {
       "state": "GA",
-      "avg_price": 10.37,
+      "avg_price": 10.36,
       "store_count": 239
     },
     {
@@ -210,6 +210,7 @@
     "024725",
     "029010",
     "029141",
+    "034784",
     "029113",
     "029112",
     "021287",
@@ -450,6 +451,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041243",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.69,
+      "new_price": null,
+      "observed_at": "2026-06-15T20:57:30.119551+00:00"
+    },
+    {
+      "store_number": "041254",
+      "store_name": "Taco Bell",
+      "city": "Woodstock",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.69,
+      "new_price": null,
+      "observed_at": "2026-06-15T20:57:29.105024+00:00"
+    },
+    {
+      "store_number": "041229",
+      "store_name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.69,
+      "observed_at": "2026-06-15T20:57:16.254588+00:00"
+    },
+    {
+      "store_number": "034784",
+      "store_name": "Taco Bell",
+      "city": "Hartwell",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-15T20:55:36.578024+00:00"
+    },
     {
       "store_number": "037100",
       "store_name": "Taco Bell",
@@ -5722,8 +5763,8 @@
     }
   ],
   "activity_summary": {
-    "added": 506,
-    "removed": 20,
+    "added": 508,
+    "removed": 22,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6218,6 +6259,15 @@
       "Taco Bell",
       "Hueytown",
       "AL"
+    ],
+    [
+      "034784",
+      34.353384638255136,
+      -82.92974342113956,
+      9.99,
+      "Taco Bell",
+      "Hartwell",
+      "GA"
     ],
     [
       "029113",
@@ -9469,6 +9519,15 @@
       "GA"
     ],
     [
+      "041229",
+      33.85923288371655,
+      -84.67192824394984,
+      10.69,
+      "Taco Bell",
+      "Powder Springs",
+      "GA"
+    ],
+    [
       "041240",
       33.94282699062857,
       -83.74293341184966,
@@ -9595,30 +9654,12 @@
       "GA"
     ],
     [
-      "041254",
-      34.11227583037828,
-      -84.55985329084487,
-      10.69,
-      "Taco Bell",
-      "Woodstock",
-      "GA"
-    ],
-    [
       "039924",
       31.84574482196275,
       -81.60342658085327,
       10.69,
       "Taco Bell",
       "Hinesville",
-      "GA"
-    ],
-    [
-      "041243",
-      34.02333279764089,
-      -84.52909384668487,
-      10.69,
-      "Taco Bell",
-      "Marietta",
       "GA"
     ],
     [
@@ -10145,6 +10186,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-14",
+  "last_seen_date": "2026-06-15",
   "peak_availability_pct": 6.0
 }

@@ -21,12 +21,12 @@
     "max": 9.99,
     "median": 8.79,
     "std_dev": 0.62,
-    "store_count": 601
+    "store_count": 600
   },
   "histogram": [
     {
       "bucket": "$7.59",
-      "count": 78
+      "count": 79
     },
     {
       "bucket": "$7.79",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$8.49",
-      "count": 26
+      "count": 25
     },
     {
       "bucket": "$8.59",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$9.39",
-      "count": 127
+      "count": 126
     },
     {
       "bucket": "$9.99",
@@ -89,7 +89,7 @@
     },
     {
       "state": "MI",
-      "avg_price": 8.72,
+      "avg_price": 8.71,
       "store_count": 334
     },
     {
@@ -100,7 +100,7 @@
     {
       "state": "OH",
       "avg_price": 8.41,
-      "store_count": 206
+      "store_count": 205
     }
   ],
   "nutrition": {
@@ -252,6 +252,7 @@
     "002187",
     "039685",
     "004046",
+    "040152",
     "039688",
     "032101",
     "024659",
@@ -342,6 +343,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040152",
+      "store_name": "Taco Bell",
+      "city": "Saint Ignace",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.59,
+      "observed_at": "2026-06-15T20:56:26.636504+00:00"
+    },
+    {
+      "store_number": "002100",
+      "store_name": "Taco Bell",
+      "city": "Elyria",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 8.49,
+      "new_price": null,
+      "observed_at": "2026-06-15T20:56:22.931209+00:00"
+    },
+    {
+      "store_number": "041875",
+      "store_name": "Taco Bell",
+      "city": "Fort Gratiot",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.39,
+      "new_price": null,
+      "observed_at": "2026-06-15T20:56:16.734552+00:00"
+    },
     {
       "store_number": "001661",
       "store_name": "Taco Bell",
@@ -11534,8 +11565,8 @@
     }
   ],
   "activity_summary": {
-    "added": 624,
-    "removed": 20,
+    "added": 625,
+    "removed": 22,
     "price_changed": 475,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12101,6 +12132,15 @@
       "Taco Bell",
       "Cuyahoga Falls",
       "OH"
+    ],
+    [
+      "040152",
+      45.85709426444748,
+      -84.7355944528726,
+      7.59,
+      "Taco Bell",
+      "Saint Ignace",
+      "MI"
     ],
     [
       "039688",
@@ -13672,15 +13712,6 @@
       "031602",
       41.34728105434414,
       -82.0674370466271,
-      8.49,
-      "Taco Bell",
-      "Elyria",
-      "OH"
-    ],
-    [
-      "002100",
-      41.379946246404096,
-      -82.06992566585541,
       8.49,
       "Taco Bell",
       "Elyria",
@@ -16252,15 +16283,6 @@
       "MI"
     ],
     [
-      "041875",
-      43.02456381414757,
-      -82.45632998180554,
-      9.39,
-      "Taco Bell",
-      "Fort Gratiot",
-      "MI"
-    ],
-    [
       "003296",
       42.37675575824454,
       -83.46110030079672,
@@ -16955,6 +16977,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-14",
+  "last_seen_date": "2026-06-15",
   "peak_availability_pct": 7.3
 }

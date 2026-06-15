@@ -15,7 +15,7 @@
   "first_seen_at": "2026-04-16T21:07:40.032903+00:00",
   "availability_pct": 1.7,
   "price_stats": {
-    "avg": 7.15,
+    "avg": 7.16,
     "min": 6.29,
     "max": 7.69,
     "median": 6.99,
@@ -29,7 +29,7 @@
     },
     {
       "bucket": "$6.39",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$6.49",
@@ -53,7 +53,7 @@
     },
     {
       "bucket": "$7.69",
-      "count": 49
+      "count": 50
     }
   ],
   "state_prices": [
@@ -65,12 +65,12 @@
     {
       "state": "MO",
       "avg_price": 7.45,
-      "store_count": 64
+      "store_count": 65
     },
     {
       "state": "TX",
       "avg_price": 6.63,
-      "store_count": 48
+      "store_count": 47
     }
   ],
   "nutrition": {
@@ -124,13 +124,6 @@
       "price": 6.39
     },
     {
-      "store_number": "030116",
-      "name": "Taco Bell",
-      "city": "Austin",
-      "state": "TX",
-      "price": 6.39
-    },
-    {
       "store_number": "030124",
       "name": "Taco Bell",
       "city": "Round Rock",
@@ -155,6 +148,13 @@
       "store_number": "030086",
       "name": "Taco Bell",
       "city": "Buda",
+      "state": "TX",
+      "price": 6.49
+    },
+    {
+      "store_number": "030149",
+      "name": "Taco Bell",
+      "city": "Bastrop",
       "state": "TX",
       "price": 6.49
     }
@@ -236,6 +236,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030116",
+      "store_name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.39,
+      "new_price": null,
+      "observed_at": "2026-06-15T20:58:08.368046+00:00"
+    },
+    {
+      "store_number": "029651",
+      "store_name": "Taco Bell",
+      "city": "Saint Charles",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.69,
+      "observed_at": "2026-06-15T20:57:42.470550+00:00"
+    },
     {
       "store_number": "029651",
       "store_name": "Taco Bell",
@@ -2558,8 +2578,8 @@
     }
   ],
   "activity_summary": {
-    "added": 182,
-    "removed": 50,
+    "added": 183,
+    "removed": 51,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2611,15 +2631,6 @@
       6.39,
       "Taco Bell",
       "Round Rock",
-      "TX"
-    ],
-    [
-      "030116",
-      30.461639201649003,
-      -97.79508287230081,
-      6.39,
-      "Taco Bell",
-      "Austin",
       "TX"
     ],
     [
@@ -3577,6 +3588,15 @@
       "MO"
     ],
     [
+      "029651",
+      38.787524406443445,
+      -90.51241502171251,
+      7.69,
+      "Taco Bell",
+      "Saint Charles",
+      "MO"
+    ],
+    [
       "029655",
       38.78272745202827,
       -90.53278058767319,
@@ -3758,6 +3778,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-06-14",
+  "last_seen_date": "2026-06-15",
   "peak_availability_pct": 1.6
 }

@@ -21,8 +21,8 @@
     "min": 6.49,
     "max": 7.29,
     "median": 6.69,
-    "std_dev": 0.22,
-    "store_count": 486
+    "std_dev": 0.21,
+    "store_count": 485
   },
   "histogram": [
     {
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$6.99",
-      "count": 140
+      "count": 139
     },
     {
       "bucket": "$7.29",
@@ -46,7 +46,7 @@
     {
       "state": "GA",
       "avg_price": 6.75,
-      "store_count": 239
+      "store_count": 238
     },
     {
       "state": "SC",
@@ -449,6 +449,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041243",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-06-15T20:57:30.119551+00:00"
+    },
+    {
+      "store_number": "041254",
+      "store_name": "Taco Bell",
+      "city": "Woodstock",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-06-15T20:57:29.105024+00:00"
+    },
+    {
+      "store_number": "041232",
+      "store_name": "Taco Bell",
+      "city": "Suwanee",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-06-15T20:57:06.020514+00:00"
+    },
     {
       "store_number": "037100",
       "store_name": "Taco Bell",
@@ -5731,8 +5761,8 @@
     }
   ],
   "activity_summary": {
-    "added": 507,
-    "removed": 21,
+    "added": 508,
+    "removed": 23,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9430,6 +9460,15 @@
       "GA"
     ],
     [
+      "041232",
+      34.027792990034094,
+      -84.0467861294747,
+      6.99,
+      "Taco Bell",
+      "Suwanee",
+      "GA"
+    ],
+    [
       "041251",
       33.9548504761488,
       -84.05577776243516,
@@ -9628,30 +9667,12 @@
       "GA"
     ],
     [
-      "041254",
-      34.11227583037828,
-      -84.55985329084487,
-      6.99,
-      "Taco Bell",
-      "Woodstock",
-      "GA"
-    ],
-    [
       "039924",
       31.84574482196275,
       -81.60342658085327,
       6.99,
       "Taco Bell",
       "Hinesville",
-      "GA"
-    ],
-    [
-      "041243",
-      34.02333279764089,
-      -84.52909384668487,
-      6.99,
-      "Taco Bell",
-      "Marietta",
       "GA"
     ],
     [
@@ -10142,6 +10163,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-14",
+  "last_seen_date": "2026-06-15",
   "peak_availability_pct": 6.0
 }

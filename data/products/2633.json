@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3545
+    "store_count": 3546
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3545
+      "count": 3546
     }
   ],
   "state_prices": [
@@ -57,7 +57,7 @@
     {
       "state": "TX",
       "avg_price": 0.0,
-      "store_count": 101
+      "store_count": 100
     },
     {
       "state": "TN",
@@ -92,7 +92,7 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 215
+      "store_count": 217
     },
     {
       "state": "NY",
@@ -202,12 +202,12 @@
     {
       "state": "GA",
       "avg_price": 0.0,
-      "store_count": 67
+      "store_count": 66
     },
     {
       "state": "FL",
       "avg_price": 0.0,
-      "store_count": 258
+      "store_count": 259
     },
     {
       "state": "DC",
@@ -923,7 +923,6 @@
     "030680",
     "019252",
     "034440",
-    "029863",
     "003990",
     "003858",
     "005500",
@@ -997,6 +996,7 @@
     "002114",
     "018721",
     "021229",
+    "029743",
     "026836",
     "002279",
     "001738",
@@ -1622,6 +1622,7 @@
     "032950",
     "040028",
     "039052",
+    "033777",
     "033169",
     "040958",
     "003026",
@@ -1831,7 +1832,6 @@
     "034193",
     "005646",
     "023965",
-    "042875",
     "031719",
     "022607",
     "032944",
@@ -3871,9 +3871,17 @@
     "040431",
     "038889",
     "031601",
-    "042154"
+    "042154",
+    "030999"
   ],
   "priciest_stores": [
+    {
+      "store_number": "030999",
+      "name": "Taco Bell",
+      "city": "Apopka",
+      "state": "FL",
+      "price": 0.0
+    },
     {
       "store_number": "042154",
       "name": "Taco Bell",
@@ -3936,16 +3944,59 @@
       "city": "Sherman",
       "state": "TX",
       "price": 0.0
-    },
-    {
-      "store_number": "035162",
-      "name": "Taco Bell",
-      "city": "Boston",
-      "state": "MA",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030999",
+      "store_name": "Taco Bell",
+      "city": "Apopka",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-15T20:58:05.286770+00:00"
+    },
+    {
+      "store_number": "042875",
+      "store_name": "Taco Bell",
+      "city": "Brunswick",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-15T20:57:06.180594+00:00"
+    },
+    {
+      "store_number": "033777",
+      "store_name": "Taco Bell",
+      "city": "Centerville",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-15T20:56:51.560496+00:00"
+    },
+    {
+      "store_number": "029743",
+      "store_name": "Taco Bell",
+      "city": "Lorain",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-15T20:56:16.159029+00:00"
+    },
+    {
+      "store_number": "029863",
+      "store_name": "Taco Bell",
+      "city": "New Caney",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-15T20:56:07.721543+00:00"
+    },
     {
       "store_number": "042154",
       "store_name": "Taco Bell",
@@ -8018,8 +8069,8 @@
     }
   ],
   "activity_summary": {
-    "added": 200,
-    "removed": 207,
+    "added": 203,
+    "removed": 209,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13393,15 +13444,6 @@
       "TN"
     ],
     [
-      "029863",
-      30.152615,
-      -95.216012,
-      0.0,
-      "Taco Bell",
-      "New Caney",
-      "TX"
-    ],
-    [
       "003990",
       42.17169338970902,
       -83.18975723815129,
@@ -14057,6 +14099,15 @@
       "Taco Bell",
       "Sterling Heights",
       "MI"
+    ],
+    [
+      "029743",
+      41.43733761298764,
+      -82.18502319884499,
+      0.0,
+      "Taco Bell",
+      "Lorain",
+      "OH"
     ],
     [
       "026836",
@@ -19684,6 +19735,15 @@
       "MD"
     ],
     [
+      "033777",
+      39.64820094904587,
+      -84.10982206463814,
+      0.0,
+      "Taco Bell",
+      "Centerville",
+      "OH"
+    ],
+    [
       "033169",
       40.76097776098179,
       -111.87306777577128,
@@ -21563,15 +21623,6 @@
       "Taco Bell",
       "Fort Mohave",
       "AZ"
-    ],
-    [
-      "042875",
-      31.2167515667324,
-      -81.51767492294312,
-      0.0,
-      "Taco Bell",
-      "Brunswick",
-      "GA"
     ],
     [
       "031719",
@@ -39932,6 +39983,15 @@
       "Taco Bell",
       "Redding",
       "CA"
+    ],
+    [
+      "030999",
+      28.686286463032623,
+      -81.5344682335853,
+      0.0,
+      "Taco Bell",
+      "Apopka",
+      "FL"
     ]
   ],
   "retired_at": null,

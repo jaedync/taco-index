@@ -17,14 +17,19 @@
   "first_seen_at": "2026-06-05T21:51:38.977171+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 6.49,
-    "min": 6.49,
-    "max": 6.49,
-    "median": 6.49,
-    "std_dev": null,
+    "avg": 5.99,
+    "min": 5.99,
+    "max": 5.99,
+    "median": 5.99,
+    "std_dev": 0.0,
     "store_count": 1
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$5.99",
+      "count": 1
+    }
+  ],
   "state_prices": [],
   "nutrition": {
     "calories": 161.4298,
@@ -40,10 +45,38 @@
     "protein_g": 8.4508,
     "serving_size_g": 111.9807
   },
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "032107",
+      "name": "Taco Bell",
+      "city": "Watervliet",
+      "state": "MI",
+      "price": 5.99
+    }
+  ],
+  "min_price_store_numbers": [
+    "032107"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "032107",
+      "name": "Taco Bell",
+      "city": "Watervliet",
+      "state": "MI",
+      "price": 5.99
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "032107",
+      "store_name": "Taco Bell",
+      "city": "Watervliet",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-06-15T20:56:43.974051+00:00"
+    },
     {
       "store_number": "029324",
       "store_name": "Taco Bell",
@@ -106,17 +139,27 @@
     }
   ],
   "activity_summary": {
-    "added": 3,
+    "added": 4,
     "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
+  "calories_from_menu": 720,
   "calories_min": 720,
   "calories_max": 720,
   "combo_groups": [],
-  "map_data": [],
+  "map_data": [
+    [
+      "032107",
+      42.180071475785965,
+      -86.26249767316433,
+      5.99,
+      "Taco Bell",
+      "Watervliet",
+      "MI"
+    ]
+  ],
   "retired_at": "2026-06-06T21:45:34.217874+00:00",
-  "last_seen_date": "2026-06-12",
+  "last_seen_date": "2026-06-15",
   "peak_availability_pct": 0.0
 }

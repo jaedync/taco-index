@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.6,
   "price_stats": {
-    "avg": 9.3,
+    "avg": 9.29,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
     "std_dev": 0.64,
-    "store_count": 43
+    "store_count": 44
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 33
+      "count": 34
     },
     {
       "bucket": "$9.49",
@@ -49,8 +49,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 9.41,
-      "store_count": 19
+      "avg_price": 9.39,
+      "store_count": 20
     },
     {
       "state": "AL",
@@ -135,16 +135,16 @@
       "price": 9.0
     },
     {
-      "store_number": "024403",
+      "store_number": "041229",
       "name": "Taco Bell",
-      "city": "Crossville",
-      "state": "TN",
+      "city": "Powder Springs",
+      "state": "GA",
       "price": 9.0
     },
     {
-      "store_number": "029050",
+      "store_number": "024403",
       "name": "Taco Bell",
-      "city": "Chattanooga",
+      "city": "Crossville",
       "state": "TN",
       "price": 9.0
     }
@@ -158,6 +158,7 @@
     "037192",
     "029119",
     "040962",
+    "041229",
     "024403",
     "029050",
     "016335",
@@ -169,6 +170,7 @@
     "041243",
     "002995",
     "026073",
+    "016289",
     "002167",
     "041881",
     "029013",
@@ -177,7 +179,6 @@
     "024364",
     "029738",
     "031473",
-    "037419",
     "042121",
     "042125",
     "035465",
@@ -257,6 +258,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041229",
+      "store_name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-15T20:57:16.254588+00:00"
+    },
+    {
+      "store_number": "016289",
+      "store_name": "Taco Bell",
+      "city": "College Park",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-15T20:57:04.085722+00:00"
+    },
+    {
+      "store_number": "037419",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-15T20:55:56.009670+00:00"
+    },
     {
       "store_number": "039921",
       "store_name": "Taco Bell",
@@ -3369,8 +3400,8 @@
     }
   ],
   "activity_summary": {
-    "added": 147,
-    "removed": 164,
+    "added": 149,
+    "removed": 165,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3483,6 +3514,15 @@
       "NC"
     ],
     [
+      "041229",
+      33.85923288371655,
+      -84.67192824394984,
+      9.0,
+      "Taco Bell",
+      "Powder Springs",
+      "GA"
+    ],
+    [
       "024403",
       35.96722562647426,
       -85.03864054957367,
@@ -3582,6 +3622,15 @@
       "GA"
     ],
     [
+      "016289",
+      33.61549907748702,
+      -84.47322343291489,
+      9.0,
+      "Taco Bell",
+      "College Park",
+      "GA"
+    ],
+    [
       "002167",
       33.80207381502585,
       -84.4147127866745,
@@ -3651,15 +3700,6 @@
       9.0,
       "Taco Bell",
       "Covington",
-      "GA"
-    ],
-    [
-      "037419",
-      32.53776933341696,
-      -84.86787174979743,
-      9.0,
-      "Taco Bell",
-      "Midland",
       "GA"
     ],
     [
@@ -3799,6 +3839,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-14",
+  "last_seen_date": "2026-06-15",
   "peak_availability_pct": 1.1
 }
