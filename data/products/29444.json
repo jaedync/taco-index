@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.0,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0259,
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 11.35,
+    "avg": 11.29,
     "min": 10.99,
     "max": 11.99,
     "median": 10.99,
-    "std_dev": 0.5,
-    "store_count": 11
+    "std_dev": 0.48,
+    "store_count": 10
   },
   "histogram": [
     {
@@ -30,14 +30,14 @@
     },
     {
       "bucket": "$11.99",
-      "count": 4
+      "count": 3
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 11.35,
-      "store_count": 11
+      "avg_price": 11.29,
+      "store_count": 10
     }
   ],
   "nutrition": null,
@@ -124,13 +124,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "042571",
-      "name": "Taco Bell",
-      "city": "Stockbridge",
-      "state": "GA",
-      "price": 11.99
-    },
-    {
       "store_number": "042572",
       "name": "Taco Bell",
       "city": "Fairburn",
@@ -192,9 +185,26 @@
       "city": "Carrollton",
       "state": "GA",
       "price": 10.99
+    },
+    {
+      "store_number": "036290",
+      "name": "Taco Bell",
+      "city": "Conyers",
+      "state": "GA",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042571",
+      "store_name": "Taco Bell",
+      "city": "Stockbridge",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-06-16T21:40:11.284267+00:00"
+    },
     {
       "store_number": "024596",
       "store_name": "Taco Bell",
@@ -2328,7 +2338,7 @@
   ],
   "activity_summary": {
     "added": 112,
-    "removed": 101,
+    "removed": 102,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2463,18 +2473,9 @@
       "Taco Bell",
       "Fairburn",
       "GA"
-    ],
-    [
-      "042571",
-      33.50439041324688,
-      -84.23968769611292,
-      11.99,
-      "Taco Bell",
-      "Stockbridge",
-      "GA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-15",
+  "last_seen_date": "2026-06-16",
   "peak_availability_pct": 1.0
 }

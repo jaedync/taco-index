@@ -21,7 +21,7 @@
     "max": 11.99,
     "median": 9.69,
     "std_dev": 0.42,
-    "store_count": 128
+    "store_count": 129
   },
   "histogram": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 25
+      "count": 26
     },
     {
       "bucket": "$10.29",
@@ -84,8 +84,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.82,
-      "store_count": 52
+      "avg_price": 9.83,
+      "store_count": 53
     },
     {
       "state": "AL",
@@ -113,9 +113,9 @@
       "price": 8.99
     },
     {
-      "store_number": "037050",
+      "store_number": "037100",
       "name": "Taco Bell",
-      "city": "Wartburg",
+      "city": "Dunlap",
       "state": "TN",
       "price": 8.99
     },
@@ -178,7 +178,7 @@
   ],
   "min_price_store_numbers": [
     "033481",
-    "037050",
+    "037100",
     "003824",
     "041798",
     "024364",
@@ -260,6 +260,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041259",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-16T21:38:57.242548+00:00"
+    },
+    {
+      "store_number": "037100",
+      "store_name": "Taco Bell",
+      "city": "Dunlap",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-06-16T21:37:43.866925+00:00"
+    },
+    {
+      "store_number": "037050",
+      "store_name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-06-16T21:37:43.820603+00:00"
+    },
     {
       "store_number": "039623",
       "store_name": "Taco Bell",
@@ -15442,8 +15472,8 @@
     }
   ],
   "activity_summary": {
-    "added": 659,
-    "removed": 531,
+    "added": 661,
+    "removed": 532,
     "price_changed": 328,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15499,12 +15529,12 @@
       "GA"
     ],
     [
-      "037050",
-      36.10306709232148,
-      -84.58455685815763,
+      "037100",
+      35.366584915695654,
+      -85.39338904355265,
       8.99,
       "Taco Bell",
-      "Wartburg",
+      "Dunlap",
       "TN"
     ],
     [
@@ -16390,6 +16420,15 @@
       "GA"
     ],
     [
+      "041259",
+      34.57876717849458,
+      -83.76470231775006,
+      9.99,
+      "Taco Bell",
+      "Cleveland",
+      "GA"
+    ],
+    [
       "040962",
       35.18370637706397,
       -83.35587926686479,
@@ -16643,6 +16682,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-15",
+  "last_seen_date": "2026-06-16",
   "peak_availability_pct": 5.9
 }

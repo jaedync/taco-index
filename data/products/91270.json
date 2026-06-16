@@ -14,14 +14,14 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.5,
+  "availability_pct": 1.6,
   "price_stats": {
     "avg": 8.68,
     "min": 7.79,
     "max": 10.49,
     "median": 8.69,
     "std_dev": 0.51,
-    "store_count": 119
+    "store_count": 121
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$7.89",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$7.99",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$8.99",
-      "count": 14
+      "count": 15
     },
     {
       "bucket": "$10.49",
@@ -76,8 +76,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 8.93,
-      "store_count": 47
+      "avg_price": 8.94,
+      "store_count": 48
     },
     {
       "state": "AL",
@@ -86,8 +86,8 @@
     },
     {
       "state": "TN",
-      "avg_price": 8.4,
-      "store_count": 9
+      "avg_price": 8.35,
+      "store_count": 10
     },
     {
       "state": "FL",
@@ -146,6 +146,13 @@
       "price": 7.89
     },
     {
+      "store_number": "037100",
+      "name": "Taco Bell",
+      "city": "Dunlap",
+      "state": "TN",
+      "price": 7.89
+    },
+    {
       "store_number": "037369",
       "name": "Taco Bell",
       "city": "Port St Joe",
@@ -170,13 +177,6 @@
       "store_number": "042122",
       "name": "Taco Bell",
       "city": "Destin",
-      "state": "FL",
-      "price": 7.99
-    },
-    {
-      "store_number": "004185",
-      "name": "Taco Bell",
-      "city": "Panama City",
       "state": "FL",
       "price": 7.99
     }
@@ -260,6 +260,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041259",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-06-16T21:38:57.242548+00:00"
+    },
+    {
+      "store_number": "037100",
+      "store_name": "Taco Bell",
+      "city": "Dunlap",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.89,
+      "observed_at": "2026-06-16T21:37:43.866925+00:00"
+    },
     {
       "store_number": "039623",
       "store_name": "Taco Bell",
@@ -14582,14 +14602,14 @@
     }
   ],
   "activity_summary": {
-    "added": 642,
+    "added": 644,
     "removed": 523,
     "price_changed": 267,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 530,
-  "calories_min": 530,
-  "calories_max": 530,
+  "calories_min": 480,
+  "calories_max": 480,
   "combo_groups": [
     {
       "group_id": "675",
@@ -14648,6 +14668,15 @@
       7.89,
       "Taco Bell",
       "Wartburg",
+      "TN"
+    ],
+    [
+      "037100",
+      35.366584915695654,
+      -85.39338904355265,
+      7.89,
+      "Taco Bell",
+      "Dunlap",
       "TN"
     ],
     [
@@ -15542,6 +15571,15 @@
       "GA"
     ],
     [
+      "041259",
+      34.57876717849458,
+      -83.76470231775006,
+      8.99,
+      "Taco Bell",
+      "Cleveland",
+      "GA"
+    ],
+    [
       "041258",
       33.97117063099474,
       -84.22011039686367,
@@ -15678,6 +15716,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-15",
+  "last_seen_date": "2026-06-16",
   "peak_availability_pct": 6.0
 }

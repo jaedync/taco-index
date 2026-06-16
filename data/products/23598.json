@@ -17,16 +17,20 @@
   "first_seen_at": "2026-06-05T21:51:38.977171+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 5.99,
+    "avg": 6.24,
     "min": 5.99,
-    "max": 5.99,
-    "median": 5.99,
-    "std_dev": 0.0,
-    "store_count": 1
+    "max": 6.49,
+    "median": 6.24,
+    "std_dev": 0.35,
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$5.99",
+      "count": 1
+    },
+    {
+      "bucket": "$6.49",
       "count": 1
     }
   ],
@@ -52,12 +56,26 @@
       "city": "Watervliet",
       "state": "MI",
       "price": 5.99
+    },
+    {
+      "store_number": "041876",
+      "name": "Taco Bell",
+      "city": "Saint Clair",
+      "state": "MI",
+      "price": 6.49
     }
   ],
   "min_price_store_numbers": [
     "032107"
   ],
   "priciest_stores": [
+    {
+      "store_number": "041876",
+      "name": "Taco Bell",
+      "city": "Saint Clair",
+      "state": "MI",
+      "price": 6.49
+    },
     {
       "store_number": "032107",
       "name": "Taco Bell",
@@ -67,6 +85,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041876",
+      "store_name": "Taco Bell",
+      "city": "Saint Clair",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-06-16T21:40:40.727462+00:00"
+    },
     {
       "store_number": "032107",
       "store_name": "Taco Bell",
@@ -139,7 +167,7 @@
     }
   ],
   "activity_summary": {
-    "added": 4,
+    "added": 5,
     "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -157,9 +185,18 @@
       "Taco Bell",
       "Watervliet",
       "MI"
+    ],
+    [
+      "041876",
+      42.818952130237165,
+      -82.50440999865538,
+      6.49,
+      "Taco Bell",
+      "Saint Clair",
+      "MI"
     ]
   ],
   "retired_at": "2026-06-06T21:45:34.217874+00:00",
-  "last_seen_date": "2026-06-15",
+  "last_seen_date": "2026-06-16",
   "peak_availability_pct": 0.0
 }

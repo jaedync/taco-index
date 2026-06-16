@@ -11,16 +11,16 @@
   "is_meatless": true,
   "is_limited": false,
   "peak_30d_pct": 6.0,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0219,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 6.4,
+  "availability_pct": 6.3,
   "price_stats": {
     "avg": 0.62,
     "min": 0.2,
     "max": 0.99,
     "median": 0.6,
     "std_dev": 0.14,
-    "store_count": 490
+    "store_count": 489
   },
   "histogram": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "bucket": "$0.45",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$0.50",
@@ -103,8 +103,8 @@
   "state_prices": [
     {
       "state": "TN",
-      "avg_price": 0.66,
-      "store_count": 88
+      "avg_price": 0.67,
+      "store_count": 87
     },
     {
       "state": "AL",
@@ -292,6 +292,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037050",
+      "store_name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 0.45,
+      "new_price": null,
+      "observed_at": "2026-06-16T21:37:43.820603+00:00"
+    },
     {
       "store_number": "039924",
       "store_name": "Taco Bell",
@@ -5435,7 +5445,7 @@
   ],
   "activity_summary": {
     "added": 501,
-    "removed": 11,
+    "removed": 12,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5775,15 +5785,6 @@
       0.45,
       "Taco Bell",
       "Knoxville",
-      "TN"
-    ],
-    [
-      "037050",
-      36.10306709232148,
-      -84.58455685815763,
-      0.45,
-      "Taco Bell",
-      "Wartburg",
       "TN"
     ],
     [
@@ -9856,6 +9857,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-15",
+  "last_seen_date": "2026-06-16",
   "peak_availability_pct": 6.0
 }

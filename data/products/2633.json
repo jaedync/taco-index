@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3546
+    "store_count": 3547
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3546
+      "count": 3547
     }
   ],
   "state_prices": [
@@ -57,7 +57,7 @@
     {
       "state": "TX",
       "avg_price": 0.0,
-      "store_count": 100
+      "store_count": 101
     },
     {
       "state": "TN",
@@ -72,7 +72,7 @@
     {
       "state": "SC",
       "avg_price": 0.0,
-      "store_count": 60
+      "store_count": 61
     },
     {
       "state": "PA",
@@ -232,7 +232,7 @@
     {
       "state": "AZ",
       "avg_price": 0.0,
-      "store_count": 177
+      "store_count": 176
     },
     {
       "state": "AK",
@@ -923,6 +923,7 @@
     "030680",
     "019252",
     "034440",
+    "029863",
     "003990",
     "003858",
     "005500",
@@ -1980,7 +1981,6 @@
     "042926",
     "036195",
     "032564",
-    "037532",
     "015353",
     "031630",
     "029534",
@@ -3872,9 +3872,17 @@
     "038889",
     "031601",
     "042154",
-    "030999"
+    "030999",
+    "031791"
   ],
   "priciest_stores": [
+    {
+      "store_number": "031791",
+      "name": "Taco Bell",
+      "city": "Columbia",
+      "state": "SC",
+      "price": 0.0
+    },
     {
       "store_number": "030999",
       "name": "Taco Bell",
@@ -3937,16 +3945,39 @@
       "city": "Burke",
       "state": "VA",
       "price": 0.0
-    },
-    {
-      "store_number": "034593",
-      "name": "Taco Bell",
-      "city": "Sherman",
-      "state": "TX",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031791",
+      "store_name": "Taco Bell",
+      "city": "Columbia",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-16T21:39:35.556660+00:00"
+    },
+    {
+      "store_number": "037532",
+      "store_name": "Taco Bell",
+      "city": "Phoenix",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-16T21:39:17.523615+00:00"
+    },
+    {
+      "store_number": "029863",
+      "store_name": "Taco Bell",
+      "city": "New Caney",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-16T21:38:02.585265+00:00"
+    },
     {
       "store_number": "030999",
       "store_name": "Taco Bell",
@@ -8069,8 +8100,8 @@
     }
   ],
   "activity_summary": {
-    "added": 203,
-    "removed": 209,
+    "added": 205,
+    "removed": 210,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13442,6 +13473,15 @@
       "Taco Bell",
       "Smyrna",
       "TN"
+    ],
+    [
+      "029863",
+      30.152615,
+      -95.216012,
+      0.0,
+      "Taco Bell",
+      "New Caney",
+      "TX"
     ],
     [
       "003990",
@@ -22955,15 +22995,6 @@
       "Taco Bell",
       "Springfield",
       "OR"
-    ],
-    [
-      "037532",
-      33.63965554349426,
-      -112.08032910527436,
-      0.0,
-      "Taco Bell",
-      "Phoenix",
-      "AZ"
     ],
     [
       "015353",
@@ -39992,6 +40023,15 @@
       "Taco Bell",
       "Apopka",
       "FL"
+    ],
+    [
+      "031791",
+      34.06353546239675,
+      -80.9546967226825,
+      0.0,
+      "Taco Bell",
+      "Columbia",
+      "SC"
     ]
   ],
   "retired_at": null,

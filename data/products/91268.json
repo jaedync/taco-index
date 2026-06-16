@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.6,
   "price_stats": {
-    "avg": 6.36,
+    "avg": 6.37,
     "min": 5.29,
     "max": 7.99,
     "median": 6.19,
-    "std_dev": 0.65,
-    "store_count": 121
+    "std_dev": 0.67,
+    "store_count": 123
   },
   "histogram": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$6.29",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$6.39",
@@ -90,19 +90,19 @@
     },
     {
       "bucket": "$7.99",
-      "count": 12
+      "count": 13
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.63,
-      "store_count": 49
+      "avg_price": 6.66,
+      "store_count": 50
     },
     {
       "state": "TN",
       "avg_price": 6.28,
-      "store_count": 9
+      "store_count": 10
     },
     {
       "state": "AL",
@@ -264,14 +264,34 @@
       "price": 7.99
     },
     {
-      "store_number": "041320",
+      "store_number": "041259",
       "name": "Taco Bell",
-      "city": "Lawrenceville",
+      "city": "Cleveland",
       "state": "GA",
       "price": 7.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041259",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-06-16T21:38:57.242548+00:00"
+    },
+    {
+      "store_number": "037100",
+      "store_name": "Taco Bell",
+      "city": "Dunlap",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.29,
+      "observed_at": "2026-06-16T21:37:43.866925+00:00"
+    },
     {
       "store_number": "039623",
       "store_name": "Taco Bell",
@@ -13284,7 +13304,7 @@
     }
   ],
   "activity_summary": {
-    "added": 631,
+    "added": 633,
     "removed": 510,
     "price_changed": 160,
     "since": "2026-03-31T00:00:00+00:00"
@@ -13974,6 +13994,15 @@
       "GA"
     ],
     [
+      "037100",
+      35.366584915695654,
+      -85.39338904355265,
+      6.29,
+      "Taco Bell",
+      "Dunlap",
+      "TN"
+    ],
+    [
       "041930",
       33.6004053,
       -85.0784935,
@@ -14316,6 +14345,15 @@
       "GA"
     ],
     [
+      "041259",
+      34.57876717849458,
+      -83.76470231775006,
+      7.99,
+      "Taco Bell",
+      "Cleveland",
+      "GA"
+    ],
+    [
       "041258",
       33.97117063099474,
       -84.22011039686367,
@@ -14398,6 +14436,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-15",
+  "last_seen_date": "2026-06-16",
   "peak_availability_pct": 5.9
 }

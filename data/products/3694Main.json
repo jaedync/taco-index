@@ -12,15 +12,15 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.3,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0255,
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 4.15,
+    "avg": 4.21,
     "min": 3.59,
     "max": 4.29,
     "median": 4.29,
-    "std_dev": 0.29,
+    "std_dev": 0.23,
     "store_count": 9
   },
   "histogram": [
@@ -29,19 +29,15 @@
       "count": 1
     },
     {
-      "bucket": "$3.69",
-      "count": 1
-    },
-    {
       "bucket": "$4.29",
-      "count": 7
+      "count": 8
     }
   ],
   "state_prices": [
     {
       "state": "CA",
       "avg_price": 4.29,
-      "store_count": 7
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -67,13 +63,6 @@
       "price": 3.59
     },
     {
-      "store_number": "027416",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Irving",
-      "state": "TX",
-      "price": 3.69
-    },
-    {
       "store_number": "039811",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Palmdale",
@@ -119,6 +108,13 @@
       "store_number": "041597",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "San Diego",
+      "state": "CA",
+      "price": 4.29
+    },
+    {
+      "store_number": "039851",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Lake Forest",
       "state": "CA",
       "price": 4.29
     }
@@ -128,6 +124,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "039851",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Lake Forest",
+      "state": "CA",
+      "price": 4.29
+    },
+    {
       "store_number": "041597",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "San Diego",
@@ -175,13 +178,6 @@
       "city": "Palmdale",
       "state": "CA",
       "price": 4.29
-    },
-    {
-      "store_number": "027416",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Irving",
-      "state": "TX",
-      "price": 3.69
     },
     {
       "store_number": "002981",
@@ -192,6 +188,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027416",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.69,
+      "new_price": null,
+      "observed_at": "2026-06-16T21:40:36.173952+00:00"
+    },
+    {
+      "store_number": "039851",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Lake Forest",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.29,
+      "observed_at": "2026-06-16T21:39:44.200110+00:00"
+    },
     {
       "store_number": "021422",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -734,8 +750,8 @@
     }
   ],
   "activity_summary": {
-    "added": 18,
-    "removed": 36,
+    "added": 19,
+    "removed": 37,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -751,15 +767,6 @@
       3.59,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Watauga",
-      "TX"
-    ],
-    [
-      "027416",
-      32.83776989676744,
-      -96.95856750011444,
-      3.69,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Irving",
       "TX"
     ],
     [
@@ -824,6 +831,15 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "San Diego",
       "CA"
+    ],
+    [
+      "039851",
+      33.630566284560075,
+      -117.71737631448545,
+      4.29,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Lake Forest",
+      "CA"
     ]
   ],
   "retired_at": null,
@@ -832,7 +848,7 @@
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 4.25,
+      "avg_price": 4.26,
       "min_price": 3.79,
       "max_price": 4.49,
       "calories": 220,
@@ -844,7 +860,7 @@
       "min_price": 3.59,
       "max_price": 4.29,
       "calories": 190,
-      "happier_hour_avg": 2.2
+      "happier_hour_avg": 2.21
     }
   ]
 }

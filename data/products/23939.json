@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0673,
   "first_seen_at": "2026-05-21T21:04:35.819716+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.87,
+    "avg": 5.86,
     "min": 5.49,
     "max": 5.99,
     "median": 5.99,
     "std_dev": 0.22,
-    "store_count": 25
+    "store_count": 23
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 19
+      "count": 17
     }
   ],
   "state_prices": [
@@ -150,13 +150,6 @@
       "price": 5.99
     },
     {
-      "store_number": "030424",
-      "name": "Taco Bell / KFC",
-      "city": "Osceola",
-      "state": "IA",
-      "price": 5.99
-    },
-    {
       "store_number": "029412",
       "name": "Taco Bell",
       "city": "Durham",
@@ -204,9 +197,36 @@
       "city": "Albuquerque",
       "state": "NM",
       "price": 5.99
+    },
+    {
+      "store_number": "041398",
+      "name": "Taco Bell",
+      "city": "Oxford",
+      "state": "NC",
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030424",
+      "store_name": "Taco Bell / KFC",
+      "city": "Osceola",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-06-16T21:40:34.608484+00:00"
+    },
+    {
+      "store_number": "020974",
+      "store_name": "Taco Bell / KFC",
+      "city": "King George",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-06-16T21:39:04.826940+00:00"
+    },
     {
       "store_number": "029406",
       "store_name": "Taco Bell",
@@ -1320,7 +1340,7 @@
   ],
   "activity_summary": {
     "added": 68,
-    "removed": 43,
+    "removed": 45,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1447,15 +1467,6 @@
       "KY"
     ],
     [
-      "020974",
-      38.33900959254854,
-      -77.0779993920587,
-      5.99,
-      "Taco Bell / KFC",
-      "King George",
-      "VA"
-    ],
-    [
       "041398",
       36.29845084379178,
       -78.58481152503262,
@@ -1528,15 +1539,6 @@
       "NC"
     ],
     [
-      "030424",
-      41.02537540476871,
-      -93.79682839663474,
-      5.99,
-      "Taco Bell / KFC",
-      "Osceola",
-      "IA"
-    ],
-    [
       "029483",
       35.80337775917284,
       -78.78350347280502,
@@ -1556,6 +1558,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-06-15",
+  "last_seen_date": "2026-06-16",
   "peak_availability_pct": 0.4
 }

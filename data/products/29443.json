@@ -14,28 +14,22 @@
   "peak_30d_pct": 0.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
     "avg": 10.99,
     "min": 10.99,
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 5
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 5
+      "count": 3
     }
   ],
-  "state_prices": [
-    {
-      "state": "GA",
-      "avg_price": 10.99,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": null,
   "cheapest_stores": [
     {
@@ -53,20 +47,6 @@
       "price": 10.99
     },
     {
-      "store_number": "027711",
-      "name": "Taco Bell",
-      "city": "Kennesaw",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
-      "store_number": "042571",
-      "name": "Taco Bell",
-      "city": "Stockbridge",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "031473",
       "name": "Taco Bell",
       "city": "Covington",
@@ -77,8 +57,6 @@
   "min_price_store_numbers": [
     "042584",
     "036290",
-    "027711",
-    "042571",
     "031473"
   ],
   "priciest_stores": [
@@ -86,20 +64,6 @@
       "store_number": "031473",
       "name": "Taco Bell",
       "city": "Covington",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
-      "store_number": "042571",
-      "name": "Taco Bell",
-      "city": "Stockbridge",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
-      "store_number": "027711",
-      "name": "Taco Bell",
-      "city": "Kennesaw",
       "state": "GA",
       "price": 10.99
     },
@@ -119,6 +83,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042571",
+      "store_name": "Taco Bell",
+      "city": "Stockbridge",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-16T21:40:11.284267+00:00"
+    },
+    {
+      "store_number": "027711",
+      "store_name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-16T21:39:28.291420+00:00"
+    },
     {
       "store_number": "042572",
       "store_name": "Taco Bell",
@@ -2352,7 +2336,7 @@
   ],
   "activity_summary": {
     "added": 114,
-    "removed": 109,
+    "removed": 111,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2411,24 +2395,6 @@
       "GA"
     ],
     [
-      "027711",
-      34.03142591145449,
-      -84.57802757626268,
-      10.99,
-      "Taco Bell",
-      "Kennesaw",
-      "GA"
-    ],
-    [
-      "042571",
-      33.50439041324688,
-      -84.23968769611292,
-      10.99,
-      "Taco Bell",
-      "Stockbridge",
-      "GA"
-    ],
-    [
       "031473",
       33.57876111209195,
       -83.96172523498535,
@@ -2439,6 +2405,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-15",
+  "last_seen_date": "2026-06-16",
   "peak_availability_pct": 0.9
 }

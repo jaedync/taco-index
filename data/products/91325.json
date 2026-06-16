@@ -11,22 +11,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 0.5,
-  "recent_price_change_pct": null,
+  "peak_30d_pct": 0.6,
+  "recent_price_change_pct": 0.0309,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.6,
   "price_stats": {
-    "avg": 9.29,
+    "avg": 9.28,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.64,
-    "store_count": 44
+    "std_dev": 0.62,
+    "store_count": 46
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 34
+      "count": 36
     },
     {
       "bucket": "$9.49",
@@ -49,8 +49,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 9.39,
-      "store_count": 20
+      "avg_price": 9.37,
+      "store_count": 21
     },
     {
       "state": "AL",
@@ -167,7 +167,6 @@
     "039923",
     "039919",
     "026044",
-    "041243",
     "002995",
     "026073",
     "016289",
@@ -183,7 +182,10 @@
     "042125",
     "035465",
     "029028",
-    "003404"
+    "003404",
+    "041656",
+    "002994",
+    "043129"
   ],
   "priciest_stores": [
     {
@@ -258,6 +260,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043129",
+      "store_name": "Taco Bell",
+      "city": "Aiken",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-16T21:40:13.570729+00:00"
+    },
+    {
+      "store_number": "041243",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-16T21:39:33.548865+00:00"
+    },
+    {
+      "store_number": "002994",
+      "store_name": "Taco Bell",
+      "city": "Sandy Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-16T21:38:47.363021+00:00"
+    },
+    {
+      "store_number": "041656",
+      "store_name": "Taco Bell",
+      "city": "Sandersville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-16T21:37:05.102229+00:00"
+    },
     {
       "store_number": "041229",
       "store_name": "Taco Bell",
@@ -3400,8 +3442,8 @@
     }
   ],
   "activity_summary": {
-    "added": 149,
-    "removed": 165,
+    "added": 152,
+    "removed": 166,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3595,15 +3637,6 @@
       "TN"
     ],
     [
-      "041243",
-      34.02333279764089,
-      -84.52909384668487,
-      9.0,
-      "Taco Bell",
-      "Marietta",
-      "GA"
-    ],
-    [
       "002995",
       33.88866329031674,
       -84.47492127122132,
@@ -3748,6 +3781,33 @@
       "GA"
     ],
     [
+      "041656",
+      32.96917704231388,
+      -82.80917443343239,
+      9.0,
+      "Taco Bell",
+      "Sandersville",
+      "GA"
+    ],
+    [
+      "002994",
+      33.93489996800895,
+      -84.38015961393242,
+      9.0,
+      "Taco Bell",
+      "Sandy Springs",
+      "GA"
+    ],
+    [
+      "043129",
+      33.56501819417912,
+      -81.7408172681462,
+      9.0,
+      "Taco Bell",
+      "Aiken",
+      "SC"
+    ],
+    [
       "004185",
       30.138993189337146,
       -85.59155344963074,
@@ -3839,6 +3899,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-15",
+  "last_seen_date": "2026-06-16",
   "peak_availability_pct": 1.1
 }

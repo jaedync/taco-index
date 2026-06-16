@@ -17,17 +17,21 @@
   "first_seen_at": "2026-06-09T20:55:24.693977+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 5.99,
+    "avg": 6.32,
     "min": 5.99,
-    "max": 5.99,
-    "median": 5.99,
-    "std_dev": 0.0,
-    "store_count": 1
+    "max": 6.49,
+    "median": 6.49,
+    "std_dev": 0.29,
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$5.99",
       "count": 1
+    },
+    {
+      "bucket": "$6.49",
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -52,12 +56,40 @@
       "city": "Pontotoc",
       "state": "MS",
       "price": 5.99
+    },
+    {
+      "store_number": "030405",
+      "name": "Taco Bell",
+      "city": "Waterloo",
+      "state": "IA",
+      "price": 6.49
+    },
+    {
+      "store_number": "041876",
+      "name": "Taco Bell",
+      "city": "Saint Clair",
+      "state": "MI",
+      "price": 6.49
     }
   ],
   "min_price_store_numbers": [
     "032639"
   ],
   "priciest_stores": [
+    {
+      "store_number": "041876",
+      "name": "Taco Bell",
+      "city": "Saint Clair",
+      "state": "MI",
+      "price": 6.49
+    },
+    {
+      "store_number": "030405",
+      "name": "Taco Bell",
+      "city": "Waterloo",
+      "state": "IA",
+      "price": 6.49
+    },
     {
       "store_number": "032639",
       "name": "Taco Bell",
@@ -67,6 +99,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041876",
+      "store_name": "Taco Bell",
+      "city": "Saint Clair",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-06-16T21:40:40.727462+00:00"
+    },
+    {
+      "store_number": "030405",
+      "store_name": "Taco Bell",
+      "city": "Waterloo",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-06-16T21:40:03.065722+00:00"
+    },
     {
       "store_number": "032639",
       "store_name": "Taco Bell",
@@ -119,7 +171,7 @@
     }
   ],
   "activity_summary": {
-    "added": 3,
+    "added": 5,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -137,9 +189,27 @@
       "Taco Bell",
       "Pontotoc",
       "MS"
+    ],
+    [
+      "030405",
+      42.46834407476158,
+      -92.32113920157644,
+      6.49,
+      "Taco Bell",
+      "Waterloo",
+      "IA"
+    ],
+    [
+      "041876",
+      42.818952130237165,
+      -82.50440999865538,
+      6.49,
+      "Taco Bell",
+      "Saint Clair",
+      "MI"
     ]
   ],
   "retired_at": "2026-06-10T21:32:54.893870+00:00",
-  "last_seen_date": "2026-06-15",
+  "last_seen_date": "2026-06-16",
   "peak_availability_pct": 0.0
 }
