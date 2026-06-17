@@ -11,21 +11,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": -0.0487,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.44,
+    "avg": 2.4,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.34,
-    "std_dev": 0.28,
-    "store_count": 6
+    "median": 2.29,
+    "std_dev": 0.27,
+    "store_count": 7
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$2.29",
@@ -55,6 +55,13 @@
       "name": "Taco Bell Cantina",
       "city": "Madison",
       "state": "WI",
+      "price": 2.19
+    },
+    {
+      "store_number": "034859",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "Orlando",
+      "state": "FL",
       "price": 2.19
     },
     {
@@ -88,7 +95,8 @@
   ],
   "min_price_store_numbers": [
     "039656",
-    "034354"
+    "034354",
+    "034859"
   ],
   "priciest_stores": [
     {
@@ -120,6 +128,13 @@
       "price": 2.29
     },
     {
+      "store_number": "034859",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 2.19
+    },
+    {
       "store_number": "034354",
       "name": "Taco Bell Cantina",
       "city": "Madison",
@@ -135,6 +150,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034859",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-06-17T20:54:51.212734+00:00"
+    },
     {
       "store_number": "035069",
       "store_name": "Taco Bell Cantina Cantina",
@@ -367,7 +392,7 @@
     }
   ],
   "activity_summary": {
-    "added": 10,
+    "added": 11,
     "removed": 13,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -394,6 +419,15 @@
       "Taco Bell Cantina",
       "Madison",
       "WI"
+    ],
+    [
+      "034859",
+      28.59831098412045,
+      -81.20885426661394,
+      2.19,
+      "Taco Bell Cantina Cantina",
+      "Orlando",
+      "FL"
     ],
     [
       "040658",
@@ -438,7 +472,7 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 2.37,
+      "avg_price": 2.36,
       "min_price": 2.0,
       "max_price": 2.79,
       "calories": 0,

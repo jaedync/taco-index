@@ -17,20 +17,20 @@
   "first_seen_at": "2026-06-05T21:51:38.977171+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 6.24,
+    "avg": 6.06,
     "min": 5.99,
-    "max": 6.49,
-    "median": 6.24,
-    "std_dev": 0.35,
-    "store_count": 2
+    "max": 6.19,
+    "median": 5.99,
+    "std_dev": 0.12,
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 1
+      "count": 2
     },
     {
-      "bucket": "$6.49",
+      "bucket": "$6.19",
       "count": 1
     }
   ],
@@ -58,23 +58,38 @@
       "price": 5.99
     },
     {
-      "store_number": "041876",
+      "store_number": "037473",
       "name": "Taco Bell",
-      "city": "Saint Clair",
-      "state": "MI",
-      "price": 6.49
+      "city": "Norfolk",
+      "state": "NE",
+      "price": 5.99
+    },
+    {
+      "store_number": "018603",
+      "name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "price": 6.19
     }
   ],
   "min_price_store_numbers": [
-    "032107"
+    "032107",
+    "037473"
   ],
   "priciest_stores": [
     {
-      "store_number": "041876",
+      "store_number": "018603",
       "name": "Taco Bell",
-      "city": "Saint Clair",
-      "state": "MI",
-      "price": 6.49
+      "city": "Fort Worth",
+      "state": "TX",
+      "price": 6.19
+    },
+    {
+      "store_number": "037473",
+      "name": "Taco Bell",
+      "city": "Norfolk",
+      "state": "NE",
+      "price": 5.99
     },
     {
       "store_number": "032107",
@@ -85,6 +100,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041876",
+      "store_name": "Taco Bell",
+      "city": "Saint Clair",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-06-17T21:05:21.850374+00:00"
+    },
+    {
+      "store_number": "037473",
+      "store_name": "Taco Bell",
+      "city": "Norfolk",
+      "state": "NE",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-06-17T21:04:26.692792+00:00"
+    },
+    {
+      "store_number": "018603",
+      "store_name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-06-17T20:56:58.322414+00:00"
+    },
     {
       "store_number": "041876",
       "store_name": "Taco Bell",
@@ -167,8 +212,8 @@
     }
   ],
   "activity_summary": {
-    "added": 5,
-    "removed": 3,
+    "added": 7,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -187,16 +232,25 @@
       "MI"
     ],
     [
-      "041876",
-      42.818952130237165,
-      -82.50440999865538,
-      6.49,
+      "037473",
+      42.0186139978818,
+      -97.42937006061766,
+      5.99,
       "Taco Bell",
-      "Saint Clair",
-      "MI"
+      "Norfolk",
+      "NE"
+    ],
+    [
+      "018603",
+      32.6633045095449,
+      -97.4031565715894,
+      6.19,
+      "Taco Bell",
+      "Fort Worth",
+      "TX"
     ]
   ],
   "retired_at": "2026-06-06T21:45:34.217874+00:00",
-  "last_seen_date": "2026-06-16",
+  "last_seen_date": "2026-06-17",
   "peak_availability_pct": 0.0
 }

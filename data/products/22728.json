@@ -11,7 +11,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 2.5,
-  "recent_price_change_pct": -0.0246,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
   "availability_pct": 2.7,
   "price_stats": {
@@ -20,7 +20,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 210
+    "store_count": 208
   },
   "histogram": [
     {
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 49
+      "count": 48
     },
     {
       "bucket": "$1.10",
@@ -85,7 +85,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 19
+      "count": 18
     },
     {
       "bucket": "$1.59",
@@ -106,7 +106,7 @@
     {
       "state": "MI",
       "avg_price": 1.08,
-      "store_count": 52
+      "store_count": 51
     },
     {
       "state": "TX",
@@ -316,6 +316,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031882",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-06-17T20:56:59.107060+00:00"
+    },
+    {
+      "store_number": "031393",
+      "store_name": "Taco Bell",
+      "city": "Novi",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-06-17T20:55:45.652712+00:00"
+    },
     {
       "store_number": "031418",
       "store_name": "Taco Bell",
@@ -4919,7 +4939,7 @@
   ],
   "activity_summary": {
     "added": 240,
-    "removed": 220,
+    "removed": 222,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6405,15 +6425,6 @@
       "CA"
     ],
     [
-      "031882",
-      36.100445510217455,
-      -115.22302687168121,
-      1.0,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
-    ],
-    [
       "029650",
       38.7916778356872,
       -90.57457745075226,
@@ -6684,15 +6695,6 @@
       "MI"
     ],
     [
-      "031393",
-      42.52250692725211,
-      -83.51690554232789,
-      1.49,
-      "Taco Bell",
-      "Novi",
-      "MI"
-    ],
-    [
       "003584",
       42.283657013486945,
       -83.36389831734891,
@@ -6820,6 +6822,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-16",
+  "last_seen_date": "2026-06-17",
   "peak_availability_pct": 2.5
 }

@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.6,
   "price_stats": {
-    "avg": 8.68,
+    "avg": 8.67,
     "min": 7.79,
     "max": 10.49,
     "median": 8.69,
-    "std_dev": 0.51,
-    "store_count": 121
+    "std_dev": 0.5,
+    "store_count": 125
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$8.39",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$8.49",
@@ -50,11 +50,11 @@
     },
     {
       "bucket": "$8.59",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$8.69",
-      "count": 36
+      "count": 37
     },
     {
       "bucket": "$8.79",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$8.99",
-      "count": 15
+      "count": 16
     },
     {
       "bucket": "$10.49",
@@ -76,13 +76,13 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 8.94,
-      "store_count": 48
+      "avg_price": 8.93,
+      "store_count": 50
     },
     {
       "state": "AL",
       "avg_price": 8.61,
-      "store_count": 48
+      "store_count": 50
     },
     {
       "state": "TN",
@@ -238,6 +238,13 @@
       "price": 8.99
     },
     {
+      "store_number": "041250",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 8.99
+    },
+    {
       "store_number": "041255",
       "name": "Taco Bell",
       "city": "Acworth",
@@ -250,16 +257,49 @@
       "city": "Oakwood",
       "state": "GA",
       "price": 8.99
-    },
-    {
-      "store_number": "041229",
-      "name": "Taco Bell",
-      "city": "Powder Springs",
-      "state": "GA",
-      "price": 8.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "005482",
+      "store_name": "Taco Bell",
+      "city": "Peachtree City",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.39,
+      "observed_at": "2026-06-17T21:04:54.250857+00:00"
+    },
+    {
+      "store_number": "041250",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-06-17T20:58:31.718613+00:00"
+    },
+    {
+      "store_number": "037341",
+      "store_name": "Taco Bell",
+      "city": "Northport",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.69,
+      "observed_at": "2026-06-17T20:55:29.345538+00:00"
+    },
+    {
+      "store_number": "041739",
+      "store_name": "Taco Bell",
+      "city": "Centreville",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.59,
+      "observed_at": "2026-06-17T20:55:19.817449+00:00"
+    },
     {
       "store_number": "041259",
       "store_name": "Taco Bell",
@@ -14602,14 +14642,14 @@
     }
   ],
   "activity_summary": {
-    "added": 644,
+    "added": 648,
     "removed": 523,
     "price_changed": 267,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 530,
-  "calories_min": 480,
-  "calories_max": 480,
+  "calories_min": 530,
+  "calories_max": 530,
   "combo_groups": [
     {
       "group_id": "675",
@@ -14887,6 +14927,15 @@
       "TN"
     ],
     [
+      "005482",
+      33.37512829084298,
+      -84.5632732716386,
+      8.39,
+      "Taco Bell",
+      "Peachtree City",
+      "GA"
+    ],
+    [
       "033481",
       33.73376376352933,
       -84.90097259926127,
@@ -14984,6 +15033,15 @@
       "Taco Bell",
       "Monroe",
       "GA"
+    ],
+    [
+      "041739",
+      32.9445258,
+      -87.14302183956661,
+      8.59,
+      "Taco Bell",
+      "Centreville",
+      "AL"
     ],
     [
       "042019",
@@ -15190,6 +15248,15 @@
       8.69,
       "Taco Bell",
       "Jackson",
+      "AL"
+    ],
+    [
+      "037341",
+      33.30176426190872,
+      -87.57140720141786,
+      8.69,
+      "Taco Bell",
+      "Northport",
       "AL"
     ],
     [
@@ -15652,6 +15719,15 @@
       "GA"
     ],
     [
+      "041250",
+      33.84333333909708,
+      -84.32758668293847,
+      8.99,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
+    ],
+    [
       "041252",
       34.04979486358939,
       -84.28692698478699,
@@ -15716,6 +15792,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-16",
+  "last_seen_date": "2026-06-17",
   "peak_availability_pct": 6.0
 }

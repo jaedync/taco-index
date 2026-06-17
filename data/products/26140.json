@@ -15,12 +15,12 @@
   "first_seen_at": "2026-04-16T21:05:37.421561+00:00",
   "availability_pct": 1.3,
   "price_stats": {
-    "avg": 11.03,
+    "avg": 11.04,
     "min": 10.19,
     "max": 12.59,
     "median": 10.99,
-    "std_dev": 0.74,
-    "store_count": 99
+    "std_dev": 0.75,
+    "store_count": 100
   },
   "histogram": [
     {
@@ -57,14 +57,14 @@
     },
     {
       "bucket": "$12.59",
-      "count": 8
+      "count": 9
     }
   ],
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 11.03,
-      "store_count": 99
+      "avg_price": 11.04,
+      "store_count": 100
     }
   ],
   "nutrition": null,
@@ -174,6 +174,13 @@
       "price": 12.59
     },
     {
+      "store_number": "042942",
+      "name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "price": 12.59
+    },
+    {
       "store_number": "042924",
       "name": "Taco Bell",
       "city": "Ocala",
@@ -228,16 +235,19 @@
       "city": "Palm Coast",
       "state": "FL",
       "price": 12.29
-    },
-    {
-      "store_number": "042928",
-      "name": "Taco Bell",
-      "city": "Palm Coast",
-      "state": "FL",
-      "price": 12.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042942",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.59,
+      "observed_at": "2026-06-17T21:04:30.412491+00:00"
+    },
     {
       "store_number": "042942",
       "store_name": "Taco Bell",
@@ -3610,7 +3620,7 @@
     }
   ],
   "activity_summary": {
-    "added": 218,
+    "added": 219,
     "removed": 119,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4528,6 +4538,15 @@
       "FL"
     ],
     [
+      "042942",
+      29.024994683187042,
+      -82.15455534110447,
+      12.59,
+      "Taco Bell",
+      "Ocala",
+      "FL"
+    ],
+    [
       "042927",
       29.07398294969833,
       -82.07236339153496,
@@ -4538,6 +4557,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-06-16",
+  "last_seen_date": "2026-06-17",
   "peak_availability_pct": 1.2
 }

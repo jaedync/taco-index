@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.0,
-  "recent_price_change_pct": -0.0259,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 11.29,
+    "avg": 11.32,
     "min": 10.99,
     "max": 11.99,
     "median": 10.99,
-    "std_dev": 0.48,
-    "store_count": 10
+    "std_dev": 0.5,
+    "store_count": 9
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$11.99",
@@ -36,8 +36,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 11.29,
-      "store_count": 10
+      "avg_price": 11.32,
+      "store_count": 9
     }
   ],
   "nutrition": null,
@@ -53,13 +53,6 @@
       "store_number": "003859",
       "name": "Taco Bell",
       "city": "Carrollton",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
-      "store_number": "027711",
-      "name": "Taco Bell",
-      "city": "Kennesaw",
       "state": "GA",
       "price": 10.99
     },
@@ -116,7 +109,6 @@
   "min_price_store_numbers": [
     "036290",
     "003859",
-    "027711",
     "023238",
     "031473",
     "027554",
@@ -173,13 +165,6 @@
       "price": 10.99
     },
     {
-      "store_number": "027711",
-      "name": "Taco Bell",
-      "city": "Kennesaw",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "003859",
       "name": "Taco Bell",
       "city": "Carrollton",
@@ -195,6 +180,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027711",
+      "store_name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-17T20:58:33.727467+00:00"
+    },
     {
       "store_number": "042571",
       "store_name": "Taco Bell",
@@ -2338,7 +2333,7 @@
   ],
   "activity_summary": {
     "added": 112,
-    "removed": 102,
+    "removed": 103,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2400,15 +2395,6 @@
       10.99,
       "Taco Bell",
       "Carrollton",
-      "GA"
-    ],
-    [
-      "027711",
-      34.03142591145449,
-      -84.57802757626268,
-      10.99,
-      "Taco Bell",
-      "Kennesaw",
       "GA"
     ],
     [
@@ -2476,6 +2462,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-16",
+  "last_seen_date": "2026-06-17",
   "peak_availability_pct": 1.0
 }

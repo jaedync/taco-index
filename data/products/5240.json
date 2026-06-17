@@ -11,20 +11,24 @@
   "is_meatless": true,
   "is_limited": false,
   "peak_30d_pct": 0.0,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.09,
   "first_seen_at": "2026-03-30T00:58:16.238260+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 0.5,
+    "avg": 0.54,
     "min": 0.5,
-    "max": 0.5,
-    "median": 0.5,
-    "std_dev": 0.0,
-    "store_count": 1
+    "max": 0.59,
+    "median": 0.54,
+    "std_dev": 0.06,
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$0.50",
+      "count": 1
+    },
+    {
+      "bucket": "$0.59",
       "count": 1
     }
   ],
@@ -37,12 +41,26 @@
       "city": "Norfolk",
       "state": "VA",
       "price": 0.5
+    },
+    {
+      "store_number": "018603",
+      "name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "price": 0.59
     }
   ],
   "min_price_store_numbers": [
     "021309"
   ],
   "priciest_stores": [
+    {
+      "store_number": "018603",
+      "name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "price": 0.59
+    },
     {
       "store_number": "021309",
       "name": "Taco Bell",
@@ -51,9 +69,20 @@
       "price": 0.5
     }
   ],
-  "price_changes": [],
+  "price_changes": [
+    {
+      "store_number": "018603",
+      "store_name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.59,
+      "observed_at": "2026-06-17T20:56:58.322414+00:00"
+    }
+  ],
   "activity_summary": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -71,6 +100,15 @@
       "Taco Bell",
       "Norfolk",
       "VA"
+    ],
+    [
+      "018603",
+      32.6633045095449,
+      -97.4031565715894,
+      0.59,
+      "Taco Bell",
+      "Fort Worth",
+      "TX"
     ]
   ],
   "retired_at": null,
