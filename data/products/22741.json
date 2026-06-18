@@ -10,17 +10,17 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 92.4,
-  "recent_price_change_pct": null,
+  "peak_30d_pct": 92.3,
+  "recent_price_change_pct": -0.0283,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 98.7,
+  "availability_pct": 98.8,
   "price_stats": {
     "avg": 0.61,
     "min": 0.0,
     "max": 1.79,
     "median": 0.6,
     "std_dev": 0.17,
-    "store_count": 7614
+    "store_count": 7615
   },
   "histogram": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "bucket": "$0.40",
-      "count": 501
+      "count": 502
     },
     {
       "bucket": "$0.45",
@@ -81,7 +81,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 936
+      "count": 937
     },
     {
       "bucket": "$0.61",
@@ -125,7 +125,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 61
+      "count": 60
     },
     {
       "bucket": "$0.91",
@@ -234,11 +234,6 @@
       "store_count": 90
     },
     {
-      "state": "CA",
-      "avg_price": 0.66,
-      "store_count": 827
-    },
-    {
       "state": "VA",
       "avg_price": 0.66,
       "store_count": 197
@@ -247,6 +242,11 @@
       "state": "WA",
       "avg_price": 0.66,
       "store_count": 136
+    },
+    {
+      "state": "CA",
+      "avg_price": 0.66,
+      "store_count": 827
     },
     {
       "state": "OH",
@@ -321,22 +321,22 @@
     {
       "state": "TN",
       "avg_price": 0.58,
-      "store_count": 251
+      "store_count": 252
     },
     {
       "state": "PA",
       "avg_price": 0.58,
-      "store_count": 199
+      "store_count": 198
     },
     {
       "state": "MO",
       "avg_price": 0.56,
-      "store_count": 226
+      "store_count": 227
     },
     {
       "state": "NC",
       "avg_price": 0.56,
-      "store_count": 257
+      "store_count": 258
     },
     {
       "state": "KY",
@@ -376,7 +376,7 @@
     {
       "state": "AR",
       "avg_price": 0.5,
-      "store_count": 113
+      "store_count": 112
     },
     {
       "state": "MN",
@@ -573,6 +573,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043335",
+      "store_name": "Taco Bell",
+      "city": "Wellston",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.55,
+      "observed_at": "2026-06-18T21:28:11.431424+00:00"
+    },
+    {
+      "store_number": "043358",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.55,
+      "observed_at": "2026-06-18T21:28:11.187913+00:00"
+    },
+    {
+      "store_number": "041353",
+      "store_name": "Taco Bell",
+      "city": "Rancho Cordova",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.65,
+      "new_price": null,
+      "observed_at": "2026-06-18T21:27:54.212536+00:00"
+    },
+    {
+      "store_number": "035240",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-06-18T21:27:10.044502+00:00"
+    },
+    {
+      "store_number": "003144",
+      "store_name": "Taco Bell",
+      "city": "Culver City",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-06-18T21:26:51.602243+00:00"
+    },
+    {
+      "store_number": "023691",
+      "store_name": "Taco Bell / Long John Silver's",
+      "city": "Hamburg",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-06-18T21:26:36.796979+00:00"
+    },
+    {
+      "store_number": "036936",
+      "store_name": "Taco Bell",
+      "city": "Cherry Point",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-06-18T21:25:40.118263+00:00"
+    },
+    {
+      "store_number": "035461",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.65,
+      "observed_at": "2026-06-18T21:25:21.179870+00:00"
+    },
     {
       "store_number": "040634",
       "store_name": "Taco Bell",
@@ -3605,8 +3685,8 @@
     }
   ],
   "activity_summary": {
-    "added": 134,
-    "removed": 126,
+    "added": 140,
+    "removed": 128,
     "price_changed": 43,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12263,6 +12343,15 @@
       "Taco Bell",
       "Arlington",
       "TX"
+    ],
+    [
+      "003144",
+      34.00326725847459,
+      -118.40690553188324,
+      0.4,
+      "Taco Bell",
+      "Culver City",
+      "CA"
     ],
     [
       "040799",
@@ -21949,6 +22038,15 @@
       "CA"
     ],
     [
+      "036936",
+      34.897824734973454,
+      -76.90725582737257,
+      0.5,
+      "Taco Bell",
+      "Cherry Point",
+      "NC"
+    ],
+    [
       "041083",
       43.02826677399522,
       -78.69630200404012,
@@ -25097,15 +25195,6 @@
       "Taco Bell",
       "Memphis",
       "TN"
-    ],
-    [
-      "016275",
-      36.175597856843936,
-      -94.17835056781769,
-      0.5,
-      "Taco Bell",
-      "Springdale",
-      "AR"
     ],
     [
       "031785",
@@ -30859,15 +30948,6 @@
       "TN"
     ],
     [
-      "038883",
-      39.112355205791765,
-      -82.53524858319321,
-      0.55,
-      "Taco Bell",
-      "Wellston",
-      "OH"
-    ],
-    [
       "035710",
       29.790176900114467,
       -95.5450513958931,
@@ -31966,15 +32046,6 @@
       "TX"
     ],
     [
-      "038907",
-      40.051813129266314,
-      -83.05018048419738,
-      0.55,
-      "Taco Bell",
-      "Columbus",
-      "OH"
-    ],
-    [
       "035739",
       30.128734167245973,
       -94.0150060565317,
@@ -32800,6 +32871,24 @@
       0.55,
       "Taco Bell",
       "Etna",
+      "OH"
+    ],
+    [
+      "043358",
+      40.051813129266314,
+      -83.05018048419738,
+      0.55,
+      "Taco Bell",
+      "Columbus",
+      "OH"
+    ],
+    [
+      "043335",
+      39.1123707,
+      -82.5352759,
+      0.55,
+      "Taco Bell",
+      "Wellston",
       "OH"
     ],
     [
@@ -41236,6 +41325,15 @@
       "LA"
     ],
     [
+      "035240",
+      39.18715097015936,
+      -94.54660139585388,
+      0.6,
+      "Taco Bell",
+      "Kansas City",
+      "MO"
+    ],
+    [
       "038844",
       39.02309298359616,
       -104.8183364856189,
@@ -41846,6 +41944,15 @@
       "Taco Bell",
       "Wintersville",
       "OH"
+    ],
+    [
+      "035461",
+      35.75640600000001,
+      -83.9419497,
+      0.65,
+      "Taco Bell",
+      "Maryville",
+      "TN"
     ],
     [
       "034949",
@@ -47966,15 +48073,6 @@
       "Taco Bell",
       "Reston",
       "VA"
-    ],
-    [
-      "041353",
-      38.5977696795677,
-      -121.26620955303224,
-      0.65,
-      "Taco Bell",
-      "Rancho Cordova",
-      "CA"
     ],
     [
       "027509",
@@ -68531,15 +68629,6 @@
       "Taco Bell",
       "Portland",
       "OR"
-    ],
-    [
-      "023691",
-      40.561379863678205,
-      -76.00224043693395,
-      0.9,
-      "Taco Bell / Long John Silver's",
-      "Hamburg",
-      "PA"
     ],
     [
       "015521",

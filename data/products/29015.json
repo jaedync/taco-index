@@ -4,6 +4,7 @@
   "description": "",
   "category": "tacos",
   "categories": [
+    "luxe-value-menu",
     "new",
     "tacos"
   ],
@@ -20,13 +21,13 @@
     "min": 2.99,
     "max": 3.79,
     "median": 2.99,
-    "std_dev": 0.09,
-    "store_count": 143
+    "std_dev": 0.08,
+    "store_count": 144
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 140
+      "count": 141
     },
     {
       "bucket": "$3.39",
@@ -279,7 +280,8 @@
     "027989",
     "033163",
     "032472",
-    "038835"
+    "038835",
+    "018603"
   ],
   "priciest_stores": [
     {
@@ -302,6 +304,13 @@
       "city": "Norfolk",
       "state": "VA",
       "price": 3.39
+    },
+    {
+      "store_number": "018603",
+      "name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "price": 2.99
     },
     {
       "store_number": "038835",
@@ -344,16 +353,19 @@
       "city": "South Jordan",
       "state": "UT",
       "price": 2.99
-    },
-    {
-      "store_number": "033175",
-      "name": "Taco Bell",
-      "city": "Layton",
-      "state": "UT",
-      "price": 2.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "018603",
+      "store_name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-18T21:26:40.124552+00:00"
+    },
     {
       "store_number": "034783",
       "store_name": "Taco Bell",
@@ -2176,7 +2188,7 @@
     }
   ],
   "activity_summary": {
-    "added": 161,
+    "added": 162,
     "removed": 21,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3445,6 +3457,15 @@
       "Taco Bell",
       "Kaysville",
       "UT"
+    ],
+    [
+      "018603",
+      32.6633045095449,
+      -97.4031565715894,
+      2.99,
+      "Taco Bell",
+      "Fort Worth",
+      "TX"
     ],
     [
       "021309",
