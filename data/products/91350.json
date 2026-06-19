@@ -21,20 +21,20 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.18,
-    "store_count": 475
+    "store_count": 478
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 50
+      "count": 51
     },
     {
       "bucket": "$3.19",
-      "count": 240
+      "count": 243
     },
     {
       "bucket": "$3.29",
-      "count": 53
+      "count": 52
     },
     {
       "bucket": "$3.39",
@@ -66,17 +66,17 @@
     {
       "state": "GA",
       "avg_price": 3.31,
-      "store_count": 232
+      "store_count": 233
     },
     {
       "state": "TN",
       "avg_price": 3.26,
-      "store_count": 85
+      "store_count": 88
     },
     {
       "state": "AL",
-      "avg_price": 3.22,
-      "store_count": 117
+      "avg_price": 3.21,
+      "store_count": 116
     },
     {
       "state": "FL",
@@ -190,6 +190,7 @@
     "041838",
     "002994",
     "041798",
+    "004740",
     "016289",
     "003889",
     "032577",
@@ -295,6 +296,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029052",
+      "store_name": "Taco Bell",
+      "city": "Sevierville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-06-19T21:26:48.506639+00:00"
+    },
+    {
+      "store_number": "004740",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-19T21:25:59.763214+00:00"
+    },
+    {
+      "store_number": "029068",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-06-19T21:25:50.271958+00:00"
+    },
+    {
+      "store_number": "042823",
+      "store_name": "Taco Bell",
+      "city": "Saraland",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:25:40.115846+00:00"
+    },
+    {
+      "store_number": "037130",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-06-19T21:25:04.563431+00:00"
+    },
     {
       "store_number": "041241",
       "store_name": "Taco Bell",
@@ -6367,8 +6418,8 @@
     }
   ],
   "activity_summary": {
-    "added": 523,
-    "removed": 48,
+    "added": 527,
+    "removed": 49,
     "price_changed": 36,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6565,6 +6616,15 @@
       2.99,
       "Taco Bell",
       "Jackson",
+      "GA"
+    ],
+    [
+      "004740",
+      33.82945940070232,
+      -84.49174582958227,
+      2.99,
+      "Taco Bell",
+      "Smyrna",
       "GA"
     ],
     [
@@ -7250,6 +7310,15 @@
       "Taco Bell",
       "Montgomery",
       "AL"
+    ],
+    [
+      "037130",
+      35.43148035713793,
+      -84.58559950824514,
+      3.19,
+      "Taco Bell",
+      "Athens",
+      "TN"
     ],
     [
       "037161",
@@ -8071,6 +8140,15 @@
       "TN"
     ],
     [
+      "029068",
+      35.92157105733978,
+      -83.8660991191864,
+      3.19,
+      "Taco Bell",
+      "Knoxville",
+      "TN"
+    ],
+    [
       "004170",
       30.606703421198663,
       -87.06246882677078,
@@ -8764,6 +8842,15 @@
       "GA"
     ],
     [
+      "029052",
+      35.90558945648954,
+      -83.58061645926682,
+      3.19,
+      "Taco Bell",
+      "Sevierville",
+      "TN"
+    ],
+    [
       "029091",
       31.13833223297051,
       -83.44266531766124,
@@ -9212,15 +9299,6 @@
       "Taco Bell",
       "Fort Walton Beach",
       "FL"
-    ],
-    [
-      "042823",
-      30.802412695504476,
-      -88.07241439819336,
-      3.29,
-      "Taco Bell",
-      "Saraland",
-      "AL"
     ],
     [
       "042820",
@@ -10673,6 +10751,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-18",
+  "last_seen_date": "2026-06-19",
   "peak_availability_pct": 6.0
 }

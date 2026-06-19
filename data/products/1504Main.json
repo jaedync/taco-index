@@ -11,37 +11,25 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 19.7,
-  "recent_price_change_pct": null,
+  "peak_30d_pct": 19.2,
+  "recent_price_change_pct": -0.036,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 4.14,
+    "avg": 4.02,
     "min": 3.99,
-    "max": 4.79,
+    "max": 4.19,
     "median": 3.99,
-    "std_dev": 0.27,
-    "store_count": 13
+    "std_dev": 0.07,
+    "store_count": 8
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 9
+      "count": 7
     },
     {
       "bucket": "$4.19",
-      "count": 1
-    },
-    {
-      "bucket": "$4.39",
-      "count": 1
-    },
-    {
-      "bucket": "$4.59",
-      "count": 1
-    },
-    {
-      "bucket": "$4.79",
       "count": 1
     }
   ],
@@ -89,13 +77,6 @@
       "price": 3.99
     },
     {
-      "store_number": "026351",
-      "name": "Taco Bell",
-      "city": "Clifton Park",
-      "state": "NY",
-      "price": 3.99
-    },
-    {
       "store_number": "035748",
       "name": "Taco Bell",
       "city": "Beaumont",
@@ -114,13 +95,6 @@
       "name": "Taco Bell",
       "city": "Beaumont",
       "state": "TX",
-      "price": 3.99
-    },
-    {
-      "store_number": "034623",
-      "name": "Taco Bell",
-      "city": "Gulfport",
-      "state": "MS",
       "price": 3.99
     },
     {
@@ -142,35 +116,12 @@
     "035691",
     "035709",
     "035712",
-    "026351",
     "035748",
     "035750",
     "035749",
-    "034623",
     "035735"
   ],
   "priciest_stores": [
-    {
-      "store_number": "030479",
-      "name": "Taco Bell",
-      "city": "Sacramento",
-      "state": "CA",
-      "price": 4.79
-    },
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 4.59
-    },
-    {
-      "store_number": "029535",
-      "name": "Taco Bell",
-      "city": "Tamarac",
-      "state": "FL",
-      "price": 4.39
-    },
     {
       "store_number": "042808",
       "name": "Taco Bell",
@@ -183,13 +134,6 @@
       "name": "Taco Bell",
       "city": "Mont Belvieu",
       "state": "TX",
-      "price": 3.99
-    },
-    {
-      "store_number": "034623",
-      "name": "Taco Bell",
-      "city": "Gulfport",
-      "state": "MS",
       "price": 3.99
     },
     {
@@ -214,14 +158,78 @@
       "price": 3.99
     },
     {
-      "store_number": "026351",
+      "store_number": "035712",
       "name": "Taco Bell",
-      "city": "Clifton Park",
-      "state": "NY",
+      "city": "Missouri City",
+      "state": "TX",
+      "price": 3.99
+    },
+    {
+      "store_number": "035709",
+      "name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "price": 3.99
+    },
+    {
+      "store_number": "035691",
+      "name": "Taco Bell",
+      "city": "Lake Jackson",
+      "state": "TX",
       "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034623",
+      "store_name": "Taco Bell",
+      "city": "Gulfport",
+      "state": "MS",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:26:25.179800+00:00"
+    },
+    {
+      "store_number": "029535",
+      "store_name": "Taco Bell",
+      "city": "Tamarac",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 4.39,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:25:43.754860+00:00"
+    },
+    {
+      "store_number": "026351",
+      "store_name": "Taco Bell",
+      "city": "Clifton Park",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:25:41.251703+00:00"
+    },
+    {
+      "store_number": "029049",
+      "store_name": "Taco Bell",
+      "city": "Red Bank",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 4.59,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:25:25.385351+00:00"
+    },
+    {
+      "store_number": "030479",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.79,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:25:12.751224+00:00"
+    },
     {
       "store_number": "042080",
       "store_name": "Taco Bell",
@@ -100085,7 +100093,7 @@
   ],
   "activity_summary": {
     "added": 1223,
-    "removed": 7767,
+    "removed": 7772,
     "price_changed": 996,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -100122,15 +100130,6 @@
       "TX"
     ],
     [
-      "026351",
-      42.86296460000001,
-      -73.78085779999999,
-      3.99,
-      "Taco Bell",
-      "Clifton Park",
-      "NY"
-    ],
-    [
       "035748",
       30.077777314215904,
       -94.1689118638169,
@@ -100158,15 +100157,6 @@
       "TX"
     ],
     [
-      "034623",
-      30.379302577206232,
-      -89.09343843163697,
-      3.99,
-      "Taco Bell",
-      "Gulfport",
-      "MS"
-    ],
-    [
       "035735",
       29.83327669805186,
       -94.84887507318278,
@@ -100183,33 +100173,6 @@
       "Taco Bell",
       "Etna",
       "OH"
-    ],
-    [
-      "029535",
-      26.19420037978799,
-      -80.25327891111374,
-      4.39,
-      "Taco Bell",
-      "Tamarac",
-      "FL"
-    ],
-    [
-      "029049",
-      35.09495908908517,
-      -85.30757497250931,
-      4.59,
-      "Taco Bell",
-      "Red Bank",
-      "TN"
-    ],
-    [
-      "030479",
-      38.6017353264456,
-      -121.42743280306085,
-      4.79,
-      "Taco Bell",
-      "Sacramento",
-      "CA"
     ]
   ],
   "retired_at": null,

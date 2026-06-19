@@ -11,7 +11,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 2.5,
-  "recent_price_change_pct": -0.0409,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
   "availability_pct": 2.7,
   "price_stats": {
@@ -53,7 +53,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 59
+      "count": 58
     },
     {
       "bucket": "$0.95",
@@ -65,11 +65,11 @@
     },
     {
       "bucket": "$1.00",
-      "count": 47
+      "count": 48
     },
     {
       "bucket": "$1.10",
-      "count": 9
+      "count": 8
     },
     {
       "bucket": "$1.19",
@@ -85,7 +85,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 18
+      "count": 19
     },
     {
       "bucket": "$1.59",
@@ -105,7 +105,7 @@
     },
     {
       "state": "MI",
-      "avg_price": 1.08,
+      "avg_price": 1.09,
       "store_count": 51
     },
     {
@@ -115,8 +115,8 @@
     },
     {
       "state": "IN",
-      "avg_price": 0.99,
-      "store_count": 25
+      "avg_price": 0.98,
+      "store_count": 24
     },
     {
       "state": "OH",
@@ -252,6 +252,13 @@
       "price": 1.59
     },
     {
+      "store_number": "042632",
+      "name": "Taco Bell",
+      "city": "Ludington",
+      "state": "MI",
+      "price": 1.49
+    },
+    {
       "store_number": "042631",
       "name": "Taco Bell",
       "city": "Traverse City",
@@ -306,16 +313,49 @@
       "city": "Traverse City",
       "state": "MI",
       "price": 1.49
-    },
-    {
-      "store_number": "042624",
-      "name": "Taco Bell",
-      "city": "Wabash",
-      "state": "IN",
-      "price": 1.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042632",
+      "store_name": "Taco Bell",
+      "city": "Ludington",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-06-19T21:26:04.256947+00:00"
+    },
+    {
+      "store_number": "040702",
+      "store_name": "Taco Bell",
+      "city": "Jasper",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-06-19T21:25:32.366092+00:00"
+    },
+    {
+      "store_number": "042769",
+      "store_name": "Taco Bell",
+      "city": "Sparta",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:25:11.244872+00:00"
+    },
+    {
+      "store_number": "043007",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 1.1,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:25:01.762309+00:00"
+    },
     {
       "store_number": "029165",
       "store_name": "Taco Bell",
@@ -4948,8 +4988,8 @@
     }
   ],
   "activity_summary": {
-    "added": 240,
-    "removed": 223,
+    "added": 242,
+    "removed": 225,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5724,15 +5764,6 @@
       "NE"
     ],
     [
-      "042769",
-      43.160614808378504,
-      -85.72218601200493,
-      0.9,
-      "Taco Bell",
-      "Sparta",
-      "MI"
-    ],
-    [
       "033027",
       43.20541969368313,
       -86.19753323572108,
@@ -6489,6 +6520,15 @@
       "IN"
     ],
     [
+      "040702",
+      33.791869,
+      -87.241236,
+      1.0,
+      "Taco Bell",
+      "Jasper",
+      "AL"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -6532,15 +6572,6 @@
       "Taco Bell",
       "Covington",
       "KY"
-    ],
-    [
-      "043007",
-      39.85505652122834,
-      -86.24080654485579,
-      1.1,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "042727",
@@ -6804,6 +6835,15 @@
       "MI"
     ],
     [
+      "042632",
+      43.956594474298996,
+      -86.3898915052414,
+      1.49,
+      "Taco Bell",
+      "Ludington",
+      "MI"
+    ],
+    [
       "041883",
       48.173424515469144,
       -103.62728089416856,
@@ -6814,6 +6854,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-18",
+  "last_seen_date": "2026-06-19",
   "peak_availability_pct": 2.5
 }

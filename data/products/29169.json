@@ -16,17 +16,17 @@
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 9.05,
+    "avg": 9.07,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.23,
-    "store_count": 18
+    "std_dev": 0.26,
+    "store_count": 15
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 17
+      "count": 14
     },
     {
       "bucket": "$9.99",
@@ -36,8 +36,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.05,
-      "store_count": 18
+      "avg_price": 9.07,
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -59,13 +59,6 @@
       "store_number": "040730",
       "name": "Taco Bell",
       "city": "Edgewater",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "030349",
-      "name": "Taco Bell",
-      "city": "Melbourne",
       "state": "FL",
       "price": 9.0
     },
@@ -98,13 +91,6 @@
       "price": 9.0
     },
     {
-      "store_number": "027970",
-      "name": "Taco Bell",
-      "city": "Merritt Island",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "027971",
       "name": "Taco Bell",
       "city": "Cocoa Beach",
@@ -124,21 +110,32 @@
       "city": "Cocoa",
       "state": "FL",
       "price": 9.0
+    },
+    {
+      "store_number": "022589",
+      "name": "Taco Bell",
+      "city": "Sanford",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
+      "store_number": "027969",
+      "name": "Taco Bell",
+      "city": "Titusville",
+      "state": "FL",
+      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "040730",
-    "030349",
     "023302",
     "028353",
     "027975",
     "027988",
-    "027970",
     "027971",
     "039584",
     "027974",
     "022589",
-    "022594",
     "027969",
     "027990",
     "039585",
@@ -189,13 +186,6 @@
       "price": 9.0
     },
     {
-      "store_number": "022594",
-      "name": "Taco Bell",
-      "city": "Daytona Beach",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "022589",
       "name": "Taco Bell",
       "city": "Sanford",
@@ -215,9 +205,46 @@
       "city": "Saint Cloud",
       "state": "FL",
       "price": 9.0
+    },
+    {
+      "store_number": "027971",
+      "name": "Taco Bell",
+      "city": "Cocoa Beach",
+      "state": "FL",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022594",
+      "store_name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:26:29.406405+00:00"
+    },
+    {
+      "store_number": "027970",
+      "store_name": "Taco Bell",
+      "city": "Merritt Island",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:26:07.537291+00:00"
+    },
+    {
+      "store_number": "030349",
+      "store_name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:25:42.741559+00:00"
+    },
     {
       "store_number": "038869",
       "store_name": "Taco Bell",
@@ -4341,7 +4368,7 @@
   ],
   "activity_summary": {
     "added": 215,
-    "removed": 197,
+    "removed": 200,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4391,15 +4418,6 @@
       "FL"
     ],
     [
-      "030349",
-      28.231152164188327,
-      -80.70049432232909,
-      9.0,
-      "Taco Bell",
-      "Melbourne",
-      "FL"
-    ],
-    [
       "023302",
       28.340028098278022,
       -81.59762848915307,
@@ -4436,15 +4454,6 @@
       "FL"
     ],
     [
-      "027970",
-      28.36376816960354,
-      -80.69987878203392,
-      9.0,
-      "Taco Bell",
-      "Merritt Island",
-      "FL"
-    ],
-    [
       "027971",
       28.352087603671087,
       -80.60836730221422,
@@ -4478,15 +4487,6 @@
       9.0,
       "Taco Bell",
       "Sanford",
-      "FL"
-    ],
-    [
-      "022594",
-      29.188448184353764,
-      -81.07624427230803,
-      9.0,
-      "Taco Bell",
-      "Daytona Beach",
       "FL"
     ],
     [
@@ -4545,6 +4545,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-06-18",
+  "last_seen_date": "2026-06-19",
   "peak_availability_pct": 1.2
 }

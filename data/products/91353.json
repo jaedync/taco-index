@@ -21,12 +21,12 @@
     "max": 12.59,
     "median": 11.19,
     "std_dev": 0.4,
-    "store_count": 483
+    "store_count": 484
   },
   "histogram": [
     {
       "bucket": "$10.49",
-      "count": 55
+      "count": 56
     },
     {
       "bucket": "$10.69",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 151
+      "count": 150
     },
     {
       "bucket": "$11.19",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$11.29",
-      "count": 57
+      "count": 58
     },
     {
       "bucket": "$11.69",
@@ -80,8 +80,8 @@
   "state_prices": [
     {
       "state": "AL",
-      "avg_price": 11.35,
-      "store_count": 119
+      "avg_price": 11.36,
+      "store_count": 118
     },
     {
       "state": "SC",
@@ -91,12 +91,12 @@
     {
       "state": "TN",
       "avg_price": 11.25,
-      "store_count": 87
+      "store_count": 88
     },
     {
       "state": "GA",
       "avg_price": 11.07,
-      "store_count": 236
+      "store_count": 237
     },
     {
       "state": "FL",
@@ -208,6 +208,7 @@
     "041224",
     "041209",
     "041213",
+    "004740",
     "016289",
     "003889",
     "032577",
@@ -320,6 +321,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029052",
+      "store_name": "Taco Bell",
+      "city": "Sevierville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.29,
+      "observed_at": "2026-06-19T21:26:48.506639+00:00"
+    },
+    {
+      "store_number": "004740",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-06-19T21:25:59.763214+00:00"
+    },
+    {
+      "store_number": "042823",
+      "store_name": "Taco Bell",
+      "city": "Saraland",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:25:40.115846+00:00"
+    },
     {
       "store_number": "019713",
       "store_name": "Taco Bell",
@@ -5832,8 +5863,8 @@
     }
   ],
   "activity_summary": {
-    "added": 513,
-    "removed": 30,
+    "added": 515,
+    "removed": 31,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6030,6 +6061,15 @@
       10.49,
       "Taco Bell",
       "Stone Mountain",
+      "GA"
+    ],
+    [
+      "004740",
+      33.82945940070232,
+      -84.49174582958227,
+      10.49,
+      "Taco Bell",
+      "Smyrna",
       "GA"
     ],
     [
@@ -7111,15 +7151,6 @@
       "Taco Bell",
       "McDonough",
       "GA"
-    ],
-    [
-      "042823",
-      30.802412695504476,
-      -88.07241439819336,
-      10.99,
-      "Taco Bell",
-      "Saraland",
-      "AL"
     ],
     [
       "029098",
@@ -9210,6 +9241,15 @@
       "GA"
     ],
     [
+      "029052",
+      35.90558945648954,
+      -83.58061645926682,
+      11.29,
+      "Taco Bell",
+      "Sevierville",
+      "TN"
+    ],
+    [
       "039920",
       31.981552075862567,
       -81.16996265483067,
@@ -10228,6 +10268,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-18",
+  "last_seen_date": "2026-06-19",
   "peak_availability_pct": 6.0
 }

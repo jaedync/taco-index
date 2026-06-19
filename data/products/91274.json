@@ -14,19 +14,19 @@
   "peak_30d_pct": 5.8,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.6,
+  "availability_pct": 1.7,
   "price_stats": {
     "avg": 11.17,
     "min": 10.49,
     "max": 12.29,
     "median": 11.19,
     "std_dev": 0.36,
-    "store_count": 127
+    "store_count": 129
   },
   "histogram": [
     {
       "bucket": "$10.49",
-      "count": 10
+      "count": 11
     },
     {
       "bucket": "$10.69",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$11.29",
-      "count": 15
+      "count": 16
     },
     {
       "bucket": "$11.69",
@@ -82,8 +82,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 11.02,
-      "store_count": 47
+      "avg_price": 11.01,
+      "store_count": 49
     },
     {
       "state": "FL",
@@ -111,6 +111,13 @@
       "store_number": "041219",
       "name": "Taco Bell",
       "city": "Morrow",
+      "state": "GA",
+      "price": 10.49
+    },
+    {
+      "store_number": "004740",
+      "name": "Taco Bell",
+      "city": "Smyrna",
       "state": "GA",
       "price": 10.49
     },
@@ -155,19 +162,13 @@
       "city": "Decatur",
       "state": "GA",
       "price": 10.49
-    },
-    {
-      "store_number": "005482",
-      "name": "Taco Bell",
-      "city": "Peachtree City",
-      "state": "GA",
-      "price": 10.49
     }
   ],
   "min_price_store_numbers": [
     "033481",
     "041226",
     "041219",
+    "004740",
     "041223",
     "003404",
     "002167",
@@ -249,6 +250,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026676",
+      "store_name": "Taco Bell",
+      "city": "Rome",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.29,
+      "observed_at": "2026-06-19T21:26:28.488946+00:00"
+    },
+    {
+      "store_number": "004740",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-06-19T21:25:59.763214+00:00"
+    },
     {
       "store_number": "019713",
       "store_name": "Taco Bell",
@@ -14951,7 +14972,7 @@
     }
   ],
   "activity_summary": {
-    "added": 645,
+    "added": 647,
     "removed": 518,
     "price_changed": 307,
     "since": "2026-03-31T00:00:00+00:00"
@@ -15017,6 +15038,15 @@
       10.49,
       "Taco Bell",
       "Morrow",
+      "GA"
+    ],
+    [
+      "004740",
+      33.82945940070232,
+      -84.49174582958227,
+      10.49,
+      "Taco Bell",
+      "Smyrna",
       "GA"
     ],
     [
@@ -15911,6 +15941,15 @@
       "AL"
     ],
     [
+      "026676",
+      34.27174398822544,
+      -85.22953189920372,
+      11.29,
+      "Taco Bell",
+      "Rome",
+      "GA"
+    ],
+    [
       "026432",
       35.80377693492917,
       -83.58050286769867,
@@ -16137,6 +16176,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-18",
+  "last_seen_date": "2026-06-19",
   "peak_availability_pct": 5.9
 }

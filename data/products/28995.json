@@ -22,24 +22,24 @@
     "max": 3.49,
     "median": 3.49,
     "std_dev": 0.0,
-    "store_count": 40
+    "store_count": 39
   },
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 40
+      "count": 39
     }
   ],
   "state_prices": [
     {
+      "state": "MO",
+      "avg_price": 3.49,
+      "store_count": 27
+    },
+    {
       "state": "IL",
       "avg_price": 3.49,
       "store_count": 12
-    },
-    {
-      "state": "MO",
-      "avg_price": 3.49,
-      "store_count": 28
     }
   ],
   "nutrition": {
@@ -75,13 +75,6 @@
       "store_number": "036427",
       "name": "Taco Bell",
       "city": "Rolla",
-      "state": "MO",
-      "price": 3.49
-    },
-    {
-      "store_number": "039544",
-      "name": "Taco Bell",
-      "city": "O'Fallon",
       "state": "MO",
       "price": 3.49
     },
@@ -126,13 +119,19 @@
       "city": "Alton",
       "state": "IL",
       "price": 3.49
+    },
+    {
+      "store_number": "029683",
+      "name": "Taco Bell",
+      "city": "Fairview Heights",
+      "state": "IL",
+      "price": 3.49
     }
   ],
   "min_price_store_numbers": [
     "035014",
     "035013",
     "036427",
-    "039544",
     "039578",
     "028490",
     "029638",
@@ -243,6 +242,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039544",
+      "store_name": "Taco Bell",
+      "city": "O'Fallon",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:25:19.750352+00:00"
+    },
     {
       "store_number": "029650",
       "store_name": "Taco Bell",
@@ -786,7 +795,7 @@
   ],
   "activity_summary": {
     "added": 47,
-    "removed": 7,
+    "removed": 8,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -833,15 +842,6 @@
       3.49,
       "Taco Bell",
       "Rolla",
-      "MO"
-    ],
-    [
-      "039544",
-      38.72393574966144,
-      -90.69920365583707,
-      3.49,
-      "Taco Bell",
-      "O'Fallon",
       "MO"
     ],
     [

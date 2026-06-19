@@ -13,14 +13,14 @@
   "peak_30d_pct": 1.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:09.662285+00:00",
-  "availability_pct": 0.8,
+  "availability_pct": 0.9,
   "price_stats": {
-    "avg": 7.41,
+    "avg": 7.39,
     "min": 5.79,
     "max": 8.49,
     "median": 7.49,
-    "std_dev": 0.56,
-    "store_count": 65
+    "std_dev": 0.57,
+    "store_count": 66
   },
   "histogram": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "bucket": "$6.39",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$6.79",
@@ -79,18 +79,18 @@
   "state_prices": [
     {
       "state": "TN",
-      "avg_price": 7.69,
-      "store_count": 12
+      "avg_price": 7.64,
+      "store_count": 13
     },
     {
       "state": "GA",
-      "avg_price": 7.43,
-      "store_count": 45
+      "avg_price": 7.44,
+      "store_count": 44
     },
     {
       "state": "FL",
-      "avg_price": 6.59,
-      "store_count": 6
+      "avg_price": 6.56,
+      "store_count": 7
     }
   ],
   "nutrition": null,
@@ -124,6 +124,13 @@
       "price": 6.39
     },
     {
+      "store_number": "019713",
+      "name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "price": 6.39
+    },
+    {
       "store_number": "042125",
       "name": "Taco Bell",
       "city": "Crestview",
@@ -153,13 +160,6 @@
     },
     {
       "store_number": "042577",
-      "name": "Taco Bell",
-      "city": "Dallas",
-      "state": "GA",
-      "price": 6.99
-    },
-    {
-      "store_number": "042585",
       "name": "Taco Bell",
       "city": "Dallas",
       "state": "GA",
@@ -242,6 +242,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019713",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.39,
+      "observed_at": "2026-06-19T21:26:39.175497+00:00"
+    },
+    {
+      "store_number": "042576",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:26:25.273132+00:00"
+    },
+    {
+      "store_number": "002302",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-06-19T21:26:04.343062+00:00"
+    },
     {
       "store_number": "004185",
       "store_name": "Taco Bell",
@@ -2184,8 +2214,8 @@
     }
   ],
   "activity_summary": {
-    "added": 126,
-    "removed": 61,
+    "added": 128,
+    "removed": 62,
     "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2247,6 +2277,15 @@
       6.39,
       "Taco Bell",
       "Panama City",
+      "FL"
+    ],
+    [
+      "019713",
+      30.231264247912293,
+      -85.8896670444301,
+      6.39,
+      "Taco Bell",
+      "Panama City Beach",
       "FL"
     ],
     [
@@ -2331,6 +2370,15 @@
       "GA"
     ],
     [
+      "002302",
+      35.97311902232418,
+      -83.9845335127915,
+      6.99,
+      "Taco Bell",
+      "Knoxville",
+      "TN"
+    ],
+    [
       "026837",
       35.76009726491193,
       -83.97547312083594,
@@ -2347,15 +2395,6 @@
       "Taco Bell",
       "Crestview",
       "FL"
-    ],
-    [
-      "042576",
-      34.10871458788698,
-      -83.87817268075196,
-      6.99,
-      "Taco Bell",
-      "Buford",
-      "GA"
     ],
     [
       "026676",
@@ -2800,6 +2839,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-18",
+  "last_seen_date": "2026-06-19",
   "peak_availability_pct": 1.1
 }

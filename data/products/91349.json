@@ -26,7 +26,7 @@
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 52
+      "count": 53
     },
     {
       "bucket": "$3.09",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 46
+      "count": 45
     },
     {
       "bucket": "$3.39",
@@ -65,7 +65,7 @@
     {
       "state": "GA",
       "avg_price": 3.31,
-      "store_count": 237
+      "store_count": 238
     },
     {
       "state": "TN",
@@ -80,7 +80,7 @@
     {
       "state": "AL",
       "avg_price": 3.21,
-      "store_count": 120
+      "store_count": 119
     },
     {
       "state": "FL",
@@ -195,6 +195,7 @@
     "041838",
     "002994",
     "041798",
+    "004740",
     "016289",
     "003889",
     "032577",
@@ -301,6 +302,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004740",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-19T21:25:59.763214+00:00"
+    },
+    {
+      "store_number": "042823",
+      "store_name": "Taco Bell",
+      "city": "Saraland",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:25:40.115846+00:00"
+    },
     {
       "store_number": "041241",
       "store_name": "Taco Bell",
@@ -6073,8 +6094,8 @@
     }
   ],
   "activity_summary": {
-    "added": 512,
-    "removed": 28,
+    "added": 513,
+    "removed": 29,
     "price_changed": 37,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6280,6 +6301,15 @@
       2.99,
       "Taco Bell",
       "Jackson",
+      "GA"
+    ],
+    [
+      "004740",
+      33.82945940070232,
+      -84.49174582958227,
+      2.99,
+      "Taco Bell",
+      "Smyrna",
       "GA"
     ],
     [
@@ -9028,15 +9058,6 @@
       "FL"
     ],
     [
-      "042823",
-      30.802412695504476,
-      -88.07241439819336,
-      3.29,
-      "Taco Bell",
-      "Saraland",
-      "AL"
-    ],
-    [
       "042820",
       30.508382312694913,
       -87.22087264807669,
@@ -10460,6 +10481,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-18",
+  "last_seen_date": "2026-06-19",
   "peak_availability_pct": 6.0
 }

@@ -26,7 +26,7 @@
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 32
+      "count": 33
     },
     {
       "bucket": "$9.19",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$10.69",
-      "count": 18
+      "count": 17
     },
     {
       "bucket": "$10.99",
@@ -93,13 +93,13 @@
     },
     {
       "state": "GA",
-      "avg_price": 9.85,
-      "store_count": 230
+      "avg_price": 9.84,
+      "store_count": 231
     },
     {
       "state": "AL",
-      "avg_price": 9.77,
-      "store_count": 117
+      "avg_price": 9.76,
+      "store_count": 116
     },
     {
       "state": "TN",
@@ -177,6 +177,13 @@
       "price": 8.99
     },
     {
+      "store_number": "004740",
+      "name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "price": 8.99
+    },
+    {
       "store_number": "016289",
       "name": "Taco Bell",
       "city": "College Park",
@@ -189,13 +196,6 @@
       "city": "Marietta",
       "state": "GA",
       "price": 8.99
-    },
-    {
-      "store_number": "032577",
-      "name": "Taco Bell",
-      "city": "Holly Springs",
-      "state": "GA",
-      "price": 8.99
     }
   ],
   "min_price_store_numbers": [
@@ -206,6 +206,7 @@
     "003824",
     "002994",
     "041798",
+    "004740",
     "016289",
     "003889",
     "032577",
@@ -305,6 +306,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004740",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-06-19T21:25:59.763214+00:00"
+    },
+    {
+      "store_number": "042823",
+      "store_name": "Taco Bell",
+      "city": "Saraland",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 10.69,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:25:40.115846+00:00"
+    },
     {
       "store_number": "040900",
       "store_name": "Taco Bell",
@@ -6607,8 +6628,8 @@
     }
   ],
   "activity_summary": {
-    "added": 526,
-    "removed": 53,
+    "added": 527,
+    "removed": 54,
     "price_changed": 51,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6727,6 +6748,15 @@
       8.99,
       "Taco Bell",
       "Jackson",
+      "GA"
+    ],
+    [
+      "004740",
+      33.82945940070232,
+      -84.49174582958227,
+      8.99,
+      "Taco Bell",
+      "Smyrna",
       "GA"
     ],
     [
@@ -10744,15 +10774,6 @@
       "AL"
     ],
     [
-      "042823",
-      30.802412695504476,
-      -88.07241439819336,
-      10.69,
-      "Taco Bell",
-      "Saraland",
-      "AL"
-    ],
-    [
       "042820",
       30.508382312694913,
       -87.22087264807669,
@@ -10925,6 +10946,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-18",
+  "last_seen_date": "2026-06-19",
   "peak_availability_pct": 6.0
 }

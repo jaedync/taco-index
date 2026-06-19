@@ -21,7 +21,7 @@
     "max": 10.49,
     "median": 8.69,
     "std_dev": 0.5,
-    "store_count": 126
+    "store_count": 127
   },
   "histogram": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$8.89",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$8.99",
@@ -72,8 +72,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 8.93,
-      "store_count": 50
+      "avg_price": 8.91,
+      "store_count": 52
     },
     {
       "state": "AL",
@@ -83,7 +83,7 @@
     {
       "state": "TN",
       "avg_price": 8.4,
-      "store_count": 11
+      "store_count": 10
     },
     {
       "state": "FL",
@@ -256,6 +256,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 8.39,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:26:45.694598+00:00"
+    },
+    {
+      "store_number": "026676",
+      "store_name": "Taco Bell",
+      "city": "Rome",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.89,
+      "observed_at": "2026-06-19T21:26:28.488946+00:00"
+    },
+    {
+      "store_number": "004740",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.39,
+      "observed_at": "2026-06-19T21:25:59.763214+00:00"
+    },
     {
       "store_number": "026432",
       "store_name": "Taco Bell",
@@ -14668,12 +14698,12 @@
     }
   ],
   "activity_summary": {
-    "added": 649,
-    "removed": 523,
+    "added": 651,
+    "removed": 524,
     "price_changed": 269,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 530,
+  "calories_from_menu": 480,
   "calories_min": 530,
   "calories_max": 530,
   "combo_groups": [
@@ -14926,6 +14956,15 @@
       "TN"
     ],
     [
+      "004740",
+      33.82945940070232,
+      -84.49174582958227,
+      8.39,
+      "Taco Bell",
+      "Smyrna",
+      "GA"
+    ],
+    [
       "026837",
       35.76009726491193,
       -83.97547312083594,
@@ -14942,15 +14981,6 @@
       "Taco Bell",
       "Atlanta",
       "GA"
-    ],
-    [
-      "024403",
-      35.96722562647426,
-      -85.03864054957367,
-      8.39,
-      "Taco Bell",
-      "Crossville",
-      "TN"
     ],
     [
       "005482",
@@ -15619,6 +15649,15 @@
       "GA"
     ],
     [
+      "026676",
+      34.27174398822544,
+      -85.22953189920372,
+      8.89,
+      "Taco Bell",
+      "Rome",
+      "GA"
+    ],
+    [
       "039921",
       32.112410602164445,
       -81.23548958895492,
@@ -15827,6 +15866,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-18",
+  "last_seen_date": "2026-06-19",
   "peak_availability_pct": 6.0
 }

@@ -27,11 +27,11 @@
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 214
+      "count": 215
     },
     {
       "bucket": "$6.69",
-      "count": 128
+      "count": 127
     },
     {
       "bucket": "$6.99",
@@ -46,7 +46,7 @@
     {
       "state": "GA",
       "avg_price": 6.75,
-      "store_count": 237
+      "store_count": 238
     },
     {
       "state": "SC",
@@ -61,7 +61,7 @@
     {
       "state": "AL",
       "avg_price": 6.62,
-      "store_count": 120
+      "store_count": 119
     },
     {
       "state": "TN",
@@ -267,6 +267,7 @@
     "030463",
     "026073",
     "003859",
+    "004740",
     "016289",
     "029108",
     "003889",
@@ -444,6 +445,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004740",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-06-19T21:25:59.763214+00:00"
+    },
+    {
+      "store_number": "042823",
+      "store_name": "Taco Bell",
+      "city": "Saraland",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 6.69,
+      "new_price": null,
+      "observed_at": "2026-06-19T21:25:40.115846+00:00"
+    },
     {
       "store_number": "019713",
       "store_name": "Taco Bell",
@@ -5836,8 +5857,8 @@
     }
   ],
   "activity_summary": {
-    "added": 510,
-    "removed": 25,
+    "added": 511,
+    "removed": 26,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6868,6 +6889,15 @@
       6.49,
       "Taco Bell",
       "Carrollton",
+      "GA"
+    ],
+    [
+      "004740",
+      33.82945940070232,
+      -84.49174582958227,
+      6.49,
+      "Taco Bell",
+      "Smyrna",
       "GA"
     ],
     [
@@ -8506,15 +8536,6 @@
       6.69,
       "Taco Bell",
       "Montgomery",
-      "AL"
-    ],
-    [
-      "042823",
-      30.802412695504476,
-      -88.07241439819336,
-      6.69,
-      "Taco Bell",
-      "Saraland",
       "AL"
     ],
     [
@@ -10238,6 +10259,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-18",
+  "last_seen_date": "2026-06-19",
   "peak_availability_pct": 6.0
 }
