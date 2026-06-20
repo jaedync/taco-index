@@ -20,7 +20,7 @@
     "max": 11.89,
     "median": 9.99,
     "std_dev": 0.63,
-    "store_count": 493
+    "store_count": 492
   },
   "histogram": [
     {
@@ -88,10 +88,6 @@
       "count": 5
     },
     {
-      "bucket": "$10.99",
-      "count": 1
-    },
-    {
       "bucket": "$11.29",
       "count": 3
     },
@@ -112,22 +108,22 @@
     {
       "state": "GA",
       "avg_price": 10.12,
-      "store_count": 242
+      "store_count": 241
     },
     {
       "state": "TN",
       "avg_price": 9.97,
-      "store_count": 88
-    },
-    {
-      "state": "SC",
-      "avg_price": 9.83,
-      "store_count": 7
+      "store_count": 89
     },
     {
       "state": "AL",
       "avg_price": 9.78,
       "store_count": 121
+    },
+    {
+      "state": "SC",
+      "avg_price": 9.64,
+      "store_count": 6
     },
     {
       "state": "FL",
@@ -286,6 +282,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-20T21:16:00.015724+00:00"
+    },
+    {
+      "store_number": "041835",
+      "store_name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:15:38.350267+00:00"
+    },
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:14:52.719771+00:00"
+    },
     {
       "store_number": "040900",
       "store_name": "Taco Bell",
@@ -9298,8 +9324,8 @@
     }
   ],
   "activity_summary": {
-    "added": 516,
-    "removed": 23,
+    "added": 517,
+    "removed": 25,
     "price_changed": 362,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12226,15 +12252,6 @@
       "GA"
     ],
     [
-      "041835",
-      30.885261549808035,
-      -84.20397450008613,
-      9.99,
-      "Taco Bell",
-      "Cairo",
-      "GA"
-    ],
-    [
       "030272",
       34.648568120065626,
       -86.03355829419343,
@@ -12539,6 +12556,15 @@
       "Taco Bell",
       "Thomasville",
       "GA"
+    ],
+    [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      9.99,
+      "Taco Bell",
+      "Crossville",
+      "TN"
     ],
     [
       "042126",
@@ -13360,15 +13386,6 @@
       "GA"
     ],
     [
-      "032542",
-      32.31307877793498,
-      -81.05568834507177,
-      10.99,
-      "Taco Bell",
-      "Hardeeville",
-      "SC"
-    ],
-    [
       "032055",
       34.0647052,
       -83.9841147,
@@ -13766,6 +13783,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-19",
+  "last_seen_date": "2026-06-20",
   "peak_availability_pct": 6.0
 }

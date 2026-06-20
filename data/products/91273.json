@@ -11,7 +11,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 5.8,
+  "peak_30d_pct": 1.7,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.8,
@@ -21,7 +21,7 @@
     "max": 11.99,
     "median": 9.69,
     "std_dev": 0.44,
-    "store_count": 135
+    "store_count": 137
   },
   "histogram": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$9.49",
-      "count": 24
+      "count": 25
     },
     {
       "bucket": "$9.59",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$9.69",
-      "count": 32
+      "count": 31
     },
     {
       "bucket": "$9.79",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$10.29",
-      "count": 20
+      "count": 22
     },
     {
       "bucket": "$10.39",
@@ -85,7 +85,7 @@
     {
       "state": "GA",
       "avg_price": 9.9,
-      "store_count": 56
+      "store_count": 59
     },
     {
       "state": "AL",
@@ -94,8 +94,8 @@
     },
     {
       "state": "TN",
-      "avg_price": 9.64,
-      "store_count": 10
+      "avg_price": 9.63,
+      "store_count": 9
     },
     {
       "state": "FL",
@@ -238,6 +238,13 @@
       "price": 10.39
     },
     {
+      "store_number": "041245",
+      "name": "Taco Bell",
+      "city": "Austell",
+      "state": "GA",
+      "price": 10.29
+    },
+    {
       "store_number": "027506",
       "name": "Taco Bell",
       "city": "Gainesville",
@@ -250,16 +257,49 @@
       "city": "Cumming",
       "state": "GA",
       "price": 10.29
-    },
-    {
-      "store_number": "026432",
-      "name": "Taco Bell",
-      "city": "Pigeon Forge",
-      "state": "TN",
-      "price": 10.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041245",
+      "store_name": "Taco Bell",
+      "city": "Austell",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.29,
+      "observed_at": "2026-06-20T21:15:57.357973+00:00"
+    },
+    {
+      "store_number": "041835",
+      "store_name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-06-20T21:15:38.350267+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.29,
+      "observed_at": "2026-06-20T21:15:19.219732+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.69,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:15:17.921879+00:00"
+    },
     {
       "store_number": "026676",
       "store_name": "Taco Bell",
@@ -15732,8 +15772,8 @@
     }
   ],
   "activity_summary": {
-    "added": 667,
-    "removed": 532,
+    "added": 670,
+    "removed": 533,
     "price_changed": 348,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16077,6 +16117,15 @@
       "GA"
     ],
     [
+      "041835",
+      30.885261549808035,
+      -84.20397450008613,
+      9.49,
+      "Taco Bell",
+      "Cairo",
+      "GA"
+    ],
+    [
       "029095",
       32.84469762076043,
       -85.18216542902337,
@@ -16335,15 +16384,6 @@
       9.69,
       "Taco Bell",
       "Maryville",
-      "TN"
-    ],
-    [
-      "016335",
-      35.810910605655216,
-      -84.26391898537986,
-      9.69,
-      "Taco Bell",
-      "Lenoir City",
       "TN"
     ],
     [
@@ -16797,6 +16837,15 @@
       "GA"
     ],
     [
+      "041249",
+      33.96647033026141,
+      -84.010348240854,
+      10.29,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
+    ],
+    [
       "041259",
       34.57876717849458,
       -83.76470231775006,
@@ -16932,6 +16981,15 @@
       "GA"
     ],
     [
+      "041245",
+      33.85866928729595,
+      -84.6006282372764,
+      10.29,
+      "Taco Bell",
+      "Austell",
+      "GA"
+    ],
+    [
       "042903",
       31.783928,
       -82.363196,
@@ -16996,6 +17054,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-19",
+  "last_seen_date": "2026-06-20",
   "peak_availability_pct": 5.9
 }

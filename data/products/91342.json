@@ -12,7 +12,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 6.0,
+  "peak_30d_pct": 1.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.5,
@@ -22,7 +22,7 @@
     "max": 6.99,
     "median": 6.69,
     "std_dev": 0.2,
-    "store_count": 114
+    "store_count": 115
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$6.69",
-      "count": 37
+      "count": 38
     },
     {
       "bucket": "$6.99",
@@ -42,7 +42,7 @@
     {
       "state": "GA",
       "avg_price": 6.8,
-      "store_count": 43
+      "store_count": 44
     },
     {
       "state": "FL",
@@ -166,7 +166,6 @@
     "003824",
     "036370",
     "026044",
-    "016335",
     "036372",
     "030463",
     "026073",
@@ -186,6 +185,7 @@
     "031394",
     "029100",
     "002167",
+    "024403",
     "027506",
     "030451",
     "029078",
@@ -265,6 +265,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-06-20T21:16:00.015724+00:00"
+    },
+    {
+      "store_number": "041835",
+      "store_name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.69,
+      "observed_at": "2026-06-20T21:15:38.350267+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:15:17.921879+00:00"
+    },
     {
       "store_number": "026676",
       "store_name": "Taco Bell",
@@ -11847,8 +11877,8 @@
     }
   ],
   "activity_summary": {
-    "added": 633,
-    "removed": 519,
+    "added": 635,
+    "removed": 520,
     "price_changed": 6,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12048,15 +12078,6 @@
       "TN"
     ],
     [
-      "016335",
-      35.810910605655216,
-      -84.26391898537986,
-      6.49,
-      "Taco Bell",
-      "Lenoir City",
-      "TN"
-    ],
-    [
       "036372",
       31.315457449306592,
       -85.82937418366782,
@@ -12226,6 +12247,15 @@
       "Taco Bell",
       "Atlanta",
       "GA"
+    ],
+    [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      6.49,
+      "Taco Bell",
+      "Crossville",
+      "TN"
     ],
     [
       "027506",
@@ -12550,6 +12580,15 @@
       "Taco Bell",
       "Prattville",
       "AL"
+    ],
+    [
+      "041835",
+      30.885261549808035,
+      -84.20397450008613,
+      6.69,
+      "Taco Bell",
+      "Cairo",
+      "GA"
     ],
     [
       "042831",
@@ -12904,6 +12943,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-19",
+  "last_seen_date": "2026-06-20",
   "peak_availability_pct": 6.0
 }

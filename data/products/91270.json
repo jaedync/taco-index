@@ -11,22 +11,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 5.9,
+  "peak_30d_pct": 1.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.6,
+  "availability_pct": 1.7,
   "price_stats": {
     "avg": 8.68,
     "min": 7.79,
     "max": 10.49,
     "median": 8.69,
     "std_dev": 0.5,
-    "store_count": 127
+    "store_count": 128
   },
   "histogram": [
     {
       "bucket": "$7.79",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$7.99",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$8.49",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$8.59",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$8.99",
-      "count": 16
+      "count": 17
     },
     {
       "bucket": "$10.49",
@@ -72,8 +72,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 8.91,
-      "store_count": 52
+      "avg_price": 8.9,
+      "store_count": 54
     },
     {
       "state": "AL",
@@ -82,8 +82,8 @@
     },
     {
       "state": "TN",
-      "avg_price": 8.4,
-      "store_count": 10
+      "avg_price": 8.39,
+      "store_count": 9
     },
     {
       "state": "FL",
@@ -111,6 +111,13 @@
       "name": "Taco Bell",
       "city": "Fort Walton Beach",
       "state": "FL",
+      "price": 7.79
+    },
+    {
+      "store_number": "041835",
+      "name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
       "price": 7.79
     },
     {
@@ -168,17 +175,11 @@
       "city": "Jackson",
       "state": "GA",
       "price": 7.99
-    },
-    {
-      "store_number": "042122",
-      "name": "Taco Bell",
-      "city": "Destin",
-      "state": "FL",
-      "price": 7.99
     }
   ],
   "min_price_store_numbers": [
     "042121",
+    "041835",
     "041837",
     "042126",
     "042124"
@@ -256,6 +257,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041835",
+      "store_name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-06-20T21:15:38.350267+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-06-20T21:15:19.219732+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 8.49,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:15:17.921879+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -14698,8 +14729,8 @@
     }
   ],
   "activity_summary": {
-    "added": 651,
-    "removed": 524,
+    "added": 653,
+    "removed": 525,
     "price_changed": 269,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14729,6 +14760,15 @@
       "Taco Bell",
       "Fort Walton Beach",
       "FL"
+    ],
+    [
+      "041835",
+      30.885261549808035,
+      -84.20397450008613,
+      7.79,
+      "Taco Bell",
+      "Cairo",
+      "GA"
     ],
     [
       "041837",
@@ -15044,15 +15084,6 @@
       "Taco Bell",
       "Gray",
       "GA"
-    ],
-    [
-      "016335",
-      35.810910605655216,
-      -84.26391898537986,
-      8.49,
-      "Taco Bell",
-      "Lenoir City",
-      "TN"
     ],
     [
       "042574",
@@ -15712,6 +15743,15 @@
       "GA"
     ],
     [
+      "041249",
+      33.96647033026141,
+      -84.010348240854,
+      8.99,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
+    ],
+    [
       "041259",
       34.57876717849458,
       -83.76470231775006,
@@ -15866,6 +15906,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-19",
+  "last_seen_date": "2026-06-20",
   "peak_availability_pct": 6.0
 }

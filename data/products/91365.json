@@ -17,13 +17,22 @@
   "availability_pct": 0.0,
   "price_stats": {
     "avg": 5.74,
-    "min": 5.54,
-    "max": 5.94,
+    "min": 5.49,
+    "max": 5.99,
     "median": 5.74,
-    "std_dev": null,
+    "std_dev": 0.35,
     "store_count": 2
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$5.49",
+      "count": 1
+    },
+    {
+      "bucket": "$5.99",
+      "count": 1
+    }
+  ],
   "state_prices": [],
   "nutrition": {
     "calories": 542.77,
@@ -39,10 +48,62 @@
     "protein_g": 14.1749,
     "serving_size_g": 257.9803
   },
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "031389",
+      "name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "price": 5.49
+    },
+    {
+      "store_number": "002649",
+      "name": "Taco Bell / KFC",
+      "city": "Charleston",
+      "state": "SC",
+      "price": 5.99
+    }
+  ],
+  "min_price_store_numbers": [
+    "031389"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "002649",
+      "name": "Taco Bell / KFC",
+      "city": "Charleston",
+      "state": "SC",
+      "price": 5.99
+    },
+    {
+      "store_number": "031389",
+      "name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "price": 5.49
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "002649",
+      "store_name": "Taco Bell / KFC",
+      "city": "Charleston",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-06-20T21:15:48.370182+00:00"
+    },
+    {
+      "store_number": "031389",
+      "store_name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-20T21:15:39.437157+00:00"
+    },
     {
       "store_number": "002649",
       "store_name": "Taco Bell / KFC",
@@ -85,17 +146,36 @@
     }
   ],
   "activity_summary": {
-    "added": 2,
+    "added": 4,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
-  "calories_min": 0,
-  "calories_max": 0,
+  "calories_from_menu": 540,
+  "calories_min": 540,
+  "calories_max": 540,
   "combo_groups": [],
-  "map_data": [],
+  "map_data": [
+    [
+      "031389",
+      33.352032936024656,
+      -84.120770439522,
+      5.49,
+      "Taco Bell / KFC",
+      "Locust Grove",
+      "GA"
+    ],
+    [
+      "002649",
+      32.787389264873106,
+      -79.95377679524928,
+      5.99,
+      "Taco Bell / KFC",
+      "Charleston",
+      "SC"
+    ]
+  ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-06-18",
+  "last_seen_date": "2026-06-20",
   "peak_availability_pct": 0.0
 }

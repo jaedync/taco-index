@@ -12,7 +12,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 6.0,
+  "peak_30d_pct": 1.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.7,
@@ -27,11 +27,11 @@
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 51
+      "count": 50
     },
     {
       "bucket": "$10.29",
-      "count": 40
+      "count": 41
     },
     {
       "bucket": "$10.69",
@@ -45,8 +45,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.54,
-      "store_count": 52
+      "avg_price": 10.53,
+      "store_count": 53
     },
     {
       "state": "FL",
@@ -115,13 +115,6 @@
       "price": 9.99
     },
     {
-      "store_number": "032542",
-      "name": "Taco Bell",
-      "city": "Hardeeville",
-      "state": "SC",
-      "price": 9.99
-    },
-    {
       "store_number": "029111",
       "name": "Taco Bell",
       "city": "Birmingham",
@@ -148,6 +141,13 @@
       "city": "Fultondale",
       "state": "AL",
       "price": 9.99
+    },
+    {
+      "store_number": "029157",
+      "name": "Taco Bell",
+      "city": "Tuscaloosa",
+      "state": "AL",
+      "price": 9.99
     }
   ],
   "min_price_store_numbers": [
@@ -156,7 +156,6 @@
     "033481",
     "035461",
     "026342",
-    "032542",
     "029111",
     "003969",
     "029168",
@@ -170,7 +169,6 @@
     "036370",
     "009539",
     "026044",
-    "016335",
     "004370",
     "036372",
     "030463",
@@ -195,6 +193,7 @@
     "029100",
     "002167",
     "019713",
+    "024403",
     "027506",
     "030451",
     "005482",
@@ -276,6 +275,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-20T21:16:00.015724+00:00"
+    },
+    {
+      "store_number": "041835",
+      "store_name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.29,
+      "observed_at": "2026-06-20T21:15:38.350267+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:15:17.921879+00:00"
+    },
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:14:52.719771+00:00"
+    },
     {
       "store_number": "026676",
       "store_name": "Taco Bell",
@@ -12048,8 +12087,8 @@
     }
   ],
   "activity_summary": {
-    "added": 645,
-    "removed": 515,
+    "added": 647,
+    "removed": 517,
     "price_changed": 17,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12133,15 +12172,6 @@
       "Taco Bell",
       "Lawrenceville",
       "GA"
-    ],
-    [
-      "032542",
-      32.31307877793498,
-      -81.05568834507177,
-      9.99,
-      "Taco Bell",
-      "Hardeeville",
-      "SC"
     ],
     [
       "029111",
@@ -12258,15 +12288,6 @@
       9.99,
       "Taco Bell",
       "Maryville",
-      "TN"
-    ],
-    [
-      "016335",
-      35.810910605655216,
-      -84.26391898537986,
-      9.99,
-      "Taco Bell",
-      "Lenoir City",
       "TN"
     ],
     [
@@ -12484,6 +12505,15 @@
       "Taco Bell",
       "Panama City Beach",
       "FL"
+    ],
+    [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      9.99,
+      "Taco Bell",
+      "Crossville",
+      "TN"
     ],
     [
       "027506",
@@ -12844,6 +12874,15 @@
       "Taco Bell",
       "Prattville",
       "AL"
+    ],
+    [
+      "041835",
+      30.885261549808035,
+      -84.20397450008613,
+      10.29,
+      "Taco Bell",
+      "Cairo",
+      "GA"
     ],
     [
       "042831",
@@ -13261,6 +13300,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-19",
+  "last_seen_date": "2026-06-20",
   "peak_availability_pct": 6.0
 }

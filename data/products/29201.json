@@ -11,26 +11,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 6.5,
-  "recent_price_change_pct": -0.0332,
+  "peak_30d_pct": 2.0,
+  "recent_price_change_pct": -0.0359,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 2.0,
+  "availability_pct": 2.1,
   "price_stats": {
-    "avg": 9.17,
+    "avg": 9.15,
     "min": 7.79,
     "max": 9.49,
     "median": 9.49,
-    "std_dev": 0.55,
-    "store_count": 158
+    "std_dev": 0.57,
+    "store_count": 165
   },
   "histogram": [
     {
       "bucket": "$7.79",
-      "count": 12
+      "count": 14
     },
     {
       "bucket": "$8.19",
-      "count": 14
+      "count": 15
     },
     {
       "bucket": "$8.79",
@@ -38,11 +38,11 @@
     },
     {
       "bucket": "$8.89",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$8.99",
-      "count": 13
+      "count": 15
     },
     {
       "bucket": "$9.19",
@@ -50,24 +50,24 @@
     },
     {
       "bucket": "$9.49",
-      "count": 108
+      "count": 109
     }
   ],
   "state_prices": [
     {
       "state": "MI",
-      "avg_price": 9.32,
-      "store_count": 122
+      "avg_price": 9.3,
+      "store_count": 125
     },
     {
       "state": "IN",
-      "avg_price": 9.12,
-      "store_count": 6
+      "avg_price": 8.93,
+      "store_count": 7
     },
     {
       "state": "OH",
-      "avg_price": 8.5,
-      "store_count": 25
+      "avg_price": 8.52,
+      "store_count": 28
     }
   ],
   "nutrition": {
@@ -90,6 +90,13 @@
       "name": "Taco Bell",
       "city": "Painesville",
       "state": "OH",
+      "price": 7.79
+    },
+    {
+      "store_number": "023198",
+      "name": "Taco Bell",
+      "city": "Auburn Hills",
+      "state": "MI",
       "price": 7.79
     },
     {
@@ -147,17 +154,11 @@
       "city": "North Madison",
       "state": "OH",
       "price": 7.79
-    },
-    {
-      "store_number": "022455",
-      "name": "Taco Bell",
-      "city": "Mentor",
-      "state": "OH",
-      "price": 7.79
     }
   ],
   "min_price_store_numbers": [
     "041987",
+    "023198",
     "021478",
     "001937",
     "040534",
@@ -167,6 +168,7 @@
     "040531",
     "040536",
     "022455",
+    "035411",
     "035399",
     "040530"
   ],
@@ -243,6 +245,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035411",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-06-20T21:15:32.777109+00:00"
+    },
+    {
+      "store_number": "024598",
+      "store_name": "Taco Bell",
+      "city": "Toledo",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.19,
+      "observed_at": "2026-06-20T21:15:17.545379+00:00"
+    },
+    {
+      "store_number": "002440",
+      "store_name": "Taco Bell",
+      "city": "Brighton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-06-20T21:15:06.952649+00:00"
+    },
+    {
+      "store_number": "028231",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-06-20T21:15:02.308410+00:00"
+    },
+    {
+      "store_number": "037663",
+      "store_name": "Taco Bell",
+      "city": "Lincoln Park",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-06-20T21:14:57.523092+00:00"
+    },
+    {
+      "store_number": "036793",
+      "store_name": "Taco Bell",
+      "city": "Medina",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.89,
+      "observed_at": "2026-06-20T21:14:56.921721+00:00"
+    },
+    {
+      "store_number": "023198",
+      "store_name": "Taco Bell",
+      "city": "Auburn Hills",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-06-20T21:14:52.402235+00:00"
+    },
     {
       "store_number": "040524",
       "store_name": "Taco Bell",
@@ -18615,7 +18687,7 @@
     }
   ],
   "activity_summary": {
-    "added": 729,
+    "added": 736,
     "removed": 570,
     "price_changed": 538,
     "since": "2026-03-31T00:00:00+00:00"
@@ -18646,6 +18718,15 @@
       "Taco Bell",
       "Painesville",
       "OH"
+    ],
+    [
+      "023198",
+      42.70269199136886,
+      -83.29697758335479,
+      7.79,
+      "Taco Bell",
+      "Auburn Hills",
+      "MI"
     ],
     [
       "021478",
@@ -18729,6 +18810,15 @@
       "OH"
     ],
     [
+      "035411",
+      41.17861965285655,
+      -85.094513297081,
+      7.79,
+      "Taco Bell",
+      "Fort Wayne",
+      "IN"
+    ],
+    [
       "035399",
       41.36720774498745,
       -85.07850967353079,
@@ -18744,6 +18834,15 @@
       7.79,
       "Taco Bell",
       "Cleveland",
+      "OH"
+    ],
+    [
+      "024598",
+      41.674432845957156,
+      -83.71705064180787,
+      8.19,
+      "Taco Bell",
+      "Toledo",
       "OH"
     ],
     [
@@ -18900,6 +18999,15 @@
       "OH"
     ],
     [
+      "036793",
+      41.15633214157802,
+      -81.86314942119543,
+      8.89,
+      "Taco Bell",
+      "Medina",
+      "OH"
+    ],
+    [
       "018677",
       43.6151257926232,
       -83.91407579183578,
@@ -18952,6 +19060,24 @@
       "Taco Bell",
       "Wyandotte",
       "MI"
+    ],
+    [
+      "037663",
+      42.25149994869898,
+      -83.18267856558234,
+      8.99,
+      "Taco Bell",
+      "Lincoln Park",
+      "MI"
+    ],
+    [
+      "028231",
+      40.8357645,
+      -81.3361133,
+      8.99,
+      "Taco Bell",
+      "Canton",
+      "OH"
     ],
     [
       "003290",
@@ -19584,6 +19710,15 @@
       "MI"
     ],
     [
+      "002440",
+      42.54203523725801,
+      -83.78660045097604,
+      9.49,
+      "Taco Bell",
+      "Brighton",
+      "MI"
+    ],
+    [
       "029334",
       42.231617860525866,
       -83.38627657450499,
@@ -20062,6 +20197,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-19",
+  "last_seen_date": "2026-06-20",
   "peak_availability_pct": 6.6
 }

@@ -18,9 +18,9 @@
   "price_stats": {
     "avg": 3.08,
     "min": 2.39,
-    "max": 3.49,
+    "max": 4.29,
     "median": 3.19,
-    "std_dev": 0.23,
+    "std_dev": 0.24,
     "store_count": 744
   },
   "histogram": [
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$2.89",
-      "count": 89
+      "count": 88
     },
     {
       "bucket": "$2.99",
@@ -58,11 +58,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 194
+      "count": 193
     },
     {
       "bucket": "$3.29",
-      "count": 225
+      "count": 226
     },
     {
       "bucket": "$3.39",
@@ -70,6 +70,10 @@
     },
     {
       "bucket": "$3.49",
+      "count": 1
+    },
+    {
+      "bucket": "$4.29",
       "count": 1
     }
   ],
@@ -82,7 +86,7 @@
     {
       "state": "AR",
       "avg_price": 3.28,
-      "store_count": 95
+      "store_count": 96
     },
     {
       "state": "CA",
@@ -101,8 +105,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 3.03,
-      "store_count": 7
+      "avg_price": 3.06,
+      "store_count": 6
     },
     {
       "state": "KS",
@@ -213,6 +217,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "036430",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 4.29
+    },
+    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
@@ -274,16 +285,49 @@
       "city": "Kansas City",
       "state": "MO",
       "price": 3.39
-    },
-    {
-      "store_number": "039811",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Palmdale",
-      "state": "CA",
-      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "018019",
+      "store_name": "Taco Bell",
+      "city": "Greenbrier",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-06-20T21:15:32.336977+00:00"
+    },
+    {
+      "store_number": "026044",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:15:14.207377+00:00"
+    },
+    {
+      "store_number": "036430",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.29,
+      "observed_at": "2026-06-20T21:14:56.606264+00:00"
+    },
+    {
+      "store_number": "034859",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:14:35.798718+00:00"
+    },
     {
       "store_number": "027878",
       "store_name": "Taco Bell",
@@ -7306,8 +7350,8 @@
     }
   ],
   "activity_summary": {
-    "added": 277,
-    "removed": 266,
+    "added": 279,
+    "removed": 268,
     "price_changed": 159,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9115,15 +9159,6 @@
       "Taco Bell",
       "La Grange",
       "TX"
-    ],
-    [
-      "034859",
-      28.59831098412045,
-      -81.20885426661394,
-      2.89,
-      "Taco Bell Cantina Cantina",
-      "Orlando",
-      "FL"
     ],
     [
       "040361",
@@ -11862,15 +11897,6 @@
       "FL"
     ],
     [
-      "026044",
-      35.75195423417623,
-      -83.9964301791224,
-      3.19,
-      "Taco Bell",
-      "Maryville",
-      "TN"
-    ],
-    [
       "030711",
       35.73958700000001,
       -86.89300854232789,
@@ -12795,6 +12821,15 @@
       3.29,
       "Taco Bell",
       "Hot Springs",
+      "AR"
+    ],
+    [
+      "018019",
+      35.234397735582995,
+      -92.38737635319922,
+      3.29,
+      "Taco Bell",
+      "Greenbrier",
       "AR"
     ],
     [
@@ -14011,6 +14046,15 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
+    ],
+    [
+      "036430",
+      41.9037,
+      -87.6317,
+      4.29,
+      "Taco Bell",
+      "Chicago",
+      "IL"
     ]
   ],
   "retired_at": null,
@@ -14021,7 +14065,7 @@
       "size": "LARGE",
       "avg_price": 3.09,
       "min_price": 2.39,
-      "max_price": 3.99,
+      "max_price": 4.29,
       "calories": 0,
       "happier_hour_avg": null
     },
@@ -14029,7 +14073,7 @@
       "size": "MEDIUM",
       "avg_price": 2.87,
       "min_price": 2.19,
-      "max_price": 3.59,
+      "max_price": 3.69,
       "calories": 0,
       "happier_hour_avg": 1.06
     },

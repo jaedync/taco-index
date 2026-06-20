@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 97.8,
   "price_stats": {
-    "avg": 22.02,
+    "avg": 22.01,
     "min": 12.95,
-    "max": 51.99,
+    "max": 36.99,
     "median": 21.99,
-    "std_dev": 2.88,
-    "store_count": 7544
+    "std_dev": 2.82,
+    "store_count": 7542
   },
   "histogram": [
     {
@@ -77,7 +77,7 @@
     },
     {
       "bucket": "$15.99",
-      "count": 143
+      "count": 144
     },
     {
       "bucket": "$16.09",
@@ -241,7 +241,7 @@
     },
     {
       "bucket": "$21.99",
-      "count": 1515
+      "count": 1512
     },
     {
       "bucket": "$22.10",
@@ -305,7 +305,7 @@
     },
     {
       "bucket": "$24.99",
-      "count": 540
+      "count": 539
     },
     {
       "bucket": "$25.00",
@@ -353,7 +353,7 @@
     },
     {
       "bucket": "$28.99",
-      "count": 1
+      "count": 5
     },
     {
       "bucket": "$29.00",
@@ -370,10 +370,6 @@
     {
       "bucket": "$36.99",
       "count": 1
-    },
-    {
-      "bucket": "$51.99",
-      "count": 3
     }
   ],
   "state_prices": [
@@ -513,11 +509,6 @@
       "store_count": 57
     },
     {
-      "state": "NY",
-      "avg_price": 22.14,
-      "store_count": 247
-    },
-    {
       "state": "MN",
       "avg_price": 22.03,
       "store_count": 99
@@ -525,7 +516,7 @@
     {
       "state": "SD",
       "avg_price": 21.99,
-      "store_count": 16
+      "store_count": 15
     },
     {
       "state": "ND",
@@ -536,6 +527,11 @@
       "state": "AL",
       "avg_price": 21.88,
       "store_count": 159
+    },
+    {
+      "state": "NY",
+      "avg_price": 21.85,
+      "store_count": 248
     },
     {
       "state": "VA",
@@ -579,8 +575,8 @@
     },
     {
       "state": "KS",
-      "avg_price": 20.44,
-      "store_count": 91
+      "avg_price": 20.42,
+      "store_count": 90
     },
     {
       "state": "GA",
@@ -604,8 +600,8 @@
     },
     {
       "state": "SC",
-      "avg_price": 19.07,
-      "store_count": 110
+      "avg_price": 19.05,
+      "store_count": 109
     },
     {
       "state": "MS",
@@ -706,27 +702,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "029968",
-      "name": "Taco Bell",
-      "city": "Manhattan",
-      "state": "NY",
-      "price": 51.99
-    },
-    {
-      "store_number": "042237",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 51.99
-    },
-    {
-      "store_number": "041852",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 51.99
-    },
-    {
       "store_number": "026759",
       "name": "Taco Bell",
       "city": "Universal City",
@@ -774,9 +749,110 @@
       "city": "Prunedale",
       "state": "CA",
       "price": 29.99
+    },
+    {
+      "store_number": "028754",
+      "name": "Taco Bell",
+      "city": "West Sacramento",
+      "state": "CA",
+      "price": 29.99
+    },
+    {
+      "store_number": "028748",
+      "name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "price": 29.99
+    },
+    {
+      "store_number": "028108",
+      "name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "price": 29.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040118",
+      "store_name": "Taco Bell",
+      "city": "De Soto",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 21.99,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:16:19.267444+00:00"
+    },
+    {
+      "store_number": "039054",
+      "store_name": "Taco Bell",
+      "city": "West Haverstraw",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 15.99,
+      "observed_at": "2026-06-20T21:16:07.815294+00:00"
+    },
+    {
+      "store_number": "029968",
+      "store_name": "Taco Bell",
+      "city": "Manhattan",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 51.99,
+      "new_price": 28.99,
+      "observed_at": "2026-06-20T21:15:59.870200+00:00"
+    },
+    {
+      "store_number": "037585",
+      "store_name": "Taco Bell",
+      "city": "Aberdeen",
+      "state": "SD",
+      "change_type": "item_removed",
+      "old_price": 21.99,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:15:21.421093+00:00"
+    },
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 21.99,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:14:52.719771+00:00"
+    },
+    {
+      "store_number": "026091",
+      "store_name": "Taco Bell",
+      "city": "West Nyack",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 24.99,
+      "new_price": 28.99,
+      "observed_at": "2026-06-20T21:14:52.562377+00:00"
+    },
+    {
+      "store_number": "042237",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 51.99,
+      "new_price": 28.99,
+      "observed_at": "2026-06-20T21:14:48.212565+00:00"
+    },
+    {
+      "store_number": "041852",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 51.99,
+      "new_price": 28.99,
+      "observed_at": "2026-06-20T21:14:37.291626+00:00"
+    },
     {
       "store_number": "042654",
       "store_name": "Taco Bell",
@@ -13239,9 +13315,9 @@
     }
   ],
   "activity_summary": {
-    "added": 349,
-    "removed": 335,
-    "price_changed": 562,
+    "added": 350,
+    "removed": 338,
+    "price_changed": 566,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 170,
@@ -16321,6 +16397,15 @@
       "Taco Bell",
       "Roselle",
       "NJ"
+    ],
+    [
+      "039054",
+      41.20042753359659,
+      -73.98381442578278,
+      15.99,
+      "Taco Bell",
+      "West Haverstraw",
+      "NY"
     ],
     [
       "039097",
@@ -37932,15 +38017,6 @@
       "AL"
     ],
     [
-      "032542",
-      32.31307877793498,
-      -81.05568834507177,
-      21.99,
-      "Taco Bell",
-      "Hardeeville",
-      "SC"
-    ],
-    [
       "036438",
       28.576159566371096,
       -81.74960673084662,
@@ -41836,15 +41912,6 @@
       "Taco Bell",
       "Cambridge",
       "OH"
-    ],
-    [
-      "037585",
-      45.45867887917884,
-      -98.43785085732596,
-      21.99,
-      "Taco Bell",
-      "Aberdeen",
-      "SD"
     ],
     [
       "035745",
@@ -48577,15 +48644,6 @@
       "Taco Bell",
       "West Seneca",
       "NY"
-    ],
-    [
-      "040118",
-      38.96203014735696,
-      -94.9796348542477,
-      21.99,
-      "Taco Bell",
-      "De Soto",
-      "KS"
     ],
     [
       "040356",
@@ -70773,15 +70831,6 @@
       "NY"
     ],
     [
-      "026091",
-      41.09729780995129,
-      -73.95559536932538,
-      24.99,
-      "Taco Bell",
-      "West Nyack",
-      "NY"
-    ],
-    [
       "036408",
       39.798931005966864,
       -104.88161552643076,
@@ -80754,6 +80803,42 @@
       "CO"
     ],
     [
+      "041852",
+      40.7828764836163,
+      -73.94532976268749,
+      28.99,
+      "Taco Bell",
+      "New York",
+      "NY"
+    ],
+    [
+      "042237",
+      40.7898669212316,
+      -73.94629680220903,
+      28.99,
+      "Taco Bell",
+      "New York",
+      "NY"
+    ],
+    [
+      "026091",
+      41.09729780995129,
+      -73.95559536932538,
+      28.99,
+      "Taco Bell",
+      "West Nyack",
+      "NY"
+    ],
+    [
+      "029968",
+      40.78659053503455,
+      -73.95017016325893,
+      28.99,
+      "Taco Bell",
+      "Manhattan",
+      "NY"
+    ],
+    [
       "040414",
       34.10180629629277,
       -118.3371865171793,
@@ -81130,33 +81215,6 @@
       "Taco Bell",
       "Universal City",
       "CA"
-    ],
-    [
-      "041852",
-      40.7828764836163,
-      -73.94532976268749,
-      51.99,
-      "Taco Bell",
-      "New York",
-      "NY"
-    ],
-    [
-      "042237",
-      40.7898669212316,
-      -73.94629680220903,
-      51.99,
-      "Taco Bell",
-      "New York",
-      "NY"
-    ],
-    [
-      "029968",
-      40.78659053503455,
-      -73.95017016325893,
-      51.99,
-      "Taco Bell",
-      "Manhattan",
-      "NY"
     ]
   ],
   "retired_at": null,

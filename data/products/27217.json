@@ -18,21 +18,25 @@
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
   "availability_pct": 1.1,
   "price_stats": {
-    "avg": 2.83,
-    "min": 2.59,
+    "avg": 2.82,
+    "min": 1.99,
     "max": 3.49,
     "median": 2.89,
-    "std_dev": 0.16,
-    "store_count": 82
+    "std_dev": 0.18,
+    "store_count": 85
   },
   "histogram": [
+    {
+      "bucket": "$1.99",
+      "count": 1
+    },
     {
       "bucket": "$2.59",
       "count": 3
     },
     {
       "bucket": "$2.69",
-      "count": 35
+      "count": 36
     },
     {
       "bucket": "$2.79",
@@ -44,7 +48,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 28
+      "count": 29
     },
     {
       "bucket": "$3.49",
@@ -54,13 +58,13 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 2.99,
-      "store_count": 24
+      "avg_price": 2.95,
+      "store_count": 26
     },
     {
       "state": "GA",
       "avg_price": 2.76,
-      "store_count": 56
+      "store_count": 57
     }
   ],
   "nutrition": {
@@ -78,6 +82,13 @@
     "serving_size_g": 138.9125
   },
   "cheapest_stores": [
+    {
+      "store_number": "042982",
+      "name": "Taco Bell",
+      "city": "Naranja",
+      "state": "FL",
+      "price": 1.99
+    },
     {
       "store_number": "041088",
       "name": "Taco Bell",
@@ -140,19 +151,10 @@
       "city": "Canton",
       "state": "GA",
       "price": 2.69
-    },
-    {
-      "store_number": "036011",
-      "name": "Taco Bell",
-      "city": "Calhoun",
-      "state": "GA",
-      "price": 2.69
     }
   ],
   "min_price_store_numbers": [
-    "041088",
-    "041930",
-    "042107"
+    "042982"
   ],
   "priciest_stores": [
     {
@@ -161,6 +163,13 @@
       "city": "Atlanta",
       "state": "GA",
       "price": 3.49
+    },
+    {
+      "store_number": "042970",
+      "name": "Taco Bell",
+      "city": "Port Saint Lucie",
+      "state": "FL",
+      "price": 2.99
     },
     {
       "store_number": "042878",
@@ -217,16 +226,39 @@
       "city": "Fernandina Beach",
       "state": "FL",
       "price": 2.99
-    },
-    {
-      "store_number": "042896",
-      "name": "Taco Bell",
-      "city": "Vero Beach",
-      "state": "FL",
-      "price": 2.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042970",
+      "store_name": "Taco Bell",
+      "city": "Port Saint Lucie",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-20T21:17:36.960150+00:00"
+    },
+    {
+      "store_number": "042982",
+      "store_name": "Taco Bell",
+      "city": "Naranja",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-06-20T21:17:33.960771+00:00"
+    },
+    {
+      "store_number": "042571",
+      "store_name": "Taco Bell",
+      "city": "Stockbridge",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-06-20T21:15:57.707376+00:00"
+    },
     {
       "store_number": "042970",
       "store_name": "Taco Bell",
@@ -1209,7 +1241,7 @@
     }
   ],
   "activity_summary": {
-    "added": 49,
+    "added": 52,
     "removed": 25,
     "price_changed": 24,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1219,6 +1251,15 @@
   "calories_max": 350,
   "combo_groups": [],
   "map_data": [
+    [
+      "042982",
+      25.521211092046975,
+      -80.42459113961212,
+      1.99,
+      "Taco Bell",
+      "Naranja",
+      "FL"
+    ],
     [
       "041088",
       33.57060583649051,
@@ -1514,6 +1555,15 @@
       2.69,
       "Taco Bell",
       "Kennesaw",
+      "GA"
+    ],
+    [
+      "042571",
+      33.50439041324688,
+      -84.23968769611292,
+      2.69,
+      "Taco Bell",
+      "Stockbridge",
       "GA"
     ],
     [
@@ -1946,6 +1996,15 @@
       2.99,
       "Taco Bell",
       "Jacksonville",
+      "FL"
+    ],
+    [
+      "042970",
+      27.27428750457316,
+      -80.34850978217297,
+      2.99,
+      "Taco Bell",
+      "Port Saint Lucie",
       "FL"
     ],
     [

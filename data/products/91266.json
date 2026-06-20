@@ -11,7 +11,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 5.9,
+  "peak_30d_pct": 1.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.7,
@@ -20,13 +20,13 @@
     "min": 2.99,
     "max": 3.99,
     "median": 3.19,
-    "std_dev": 0.2,
-    "store_count": 131
+    "std_dev": 0.21,
+    "store_count": 132
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 11
+      "count": 12
     },
     {
       "bucket": "$3.09",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$3.49",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$3.69",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$3.99",
@@ -65,12 +65,12 @@
     {
       "state": "GA",
       "avg_price": 3.38,
-      "store_count": 53
+      "store_count": 55
     },
     {
       "state": "TN",
-      "avg_price": 3.28,
-      "store_count": 11
+      "avg_price": 3.27,
+      "store_count": 10
     },
     {
       "state": "FL",
@@ -135,6 +135,13 @@
       "price": 2.99
     },
     {
+      "store_number": "041835",
+      "name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "price": 2.99
+    },
+    {
       "store_number": "002167",
       "name": "Taco Bell",
       "city": "Atlanta",
@@ -147,13 +154,6 @@
       "city": "Thomasville",
       "state": "GA",
       "price": 2.99
-    },
-    {
-      "store_number": "005482",
-      "name": "Taco Bell",
-      "city": "Peachtree City",
-      "state": "GA",
-      "price": 2.99
     }
   ],
   "min_price_store_numbers": [
@@ -164,6 +164,7 @@
     "003824",
     "041798",
     "004740",
+    "041835",
     "002167",
     "041837",
     "005482",
@@ -242,6 +243,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041835",
+      "store_name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-20T21:15:38.350267+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-06-20T21:15:19.219732+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:15:17.921879+00:00"
+    },
     {
       "store_number": "026676",
       "store_name": "Taco Bell",
@@ -14994,12 +15025,12 @@
     }
   ],
   "activity_summary": {
-    "added": 643,
-    "removed": 512,
+    "added": 645,
+    "removed": 513,
     "price_changed": 320,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 210,
+  "calories_from_menu": 260,
   "calories_min": 260,
   "calories_max": 260,
   "combo_groups": [
@@ -15078,6 +15109,15 @@
       2.99,
       "Taco Bell",
       "Smyrna",
+      "GA"
+    ],
+    [
+      "041835",
+      30.885261549808035,
+      -84.20397450008613,
+      2.99,
+      "Taco Bell",
+      "Cairo",
       "GA"
     ],
     [
@@ -15936,15 +15976,6 @@
       "TN"
     ],
     [
-      "016335",
-      35.810910605655216,
-      -84.26391898537986,
-      3.39,
-      "Taco Bell",
-      "Lenoir City",
-      "TN"
-    ],
-    [
       "026432",
       35.80377693492917,
       -83.58050286769867,
@@ -16089,6 +16120,15 @@
       "GA"
     ],
     [
+      "041249",
+      33.96647033026141,
+      -84.010348240854,
+      3.69,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
+    ],
+    [
       "041259",
       34.57876717849458,
       -83.76470231775006,
@@ -16198,6 +16238,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-19",
+  "last_seen_date": "2026-06-20",
   "peak_availability_pct": 5.9
 }

@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 150
+      "count": 151
     },
     {
       "bucket": "$11.19",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$11.29",
-      "count": 58
+      "count": 57
     },
     {
       "bucket": "$11.69",
@@ -80,13 +80,13 @@
   "state_prices": [
     {
       "state": "AL",
-      "avg_price": 11.36,
-      "store_count": 118
+      "avg_price": 11.35,
+      "store_count": 119
     },
     {
       "state": "SC",
       "avg_price": 11.29,
-      "store_count": 7
+      "store_count": 6
     },
     {
       "state": "TN",
@@ -321,6 +321,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042823",
+      "store_name": "Taco Bell",
+      "city": "Saraland",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-06-20T21:15:13.944154+00:00"
+    },
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 11.29,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:14:52.719771+00:00"
+    },
     {
       "store_number": "029052",
       "store_name": "Taco Bell",
@@ -5863,8 +5883,8 @@
     }
   ],
   "activity_summary": {
-    "added": 515,
-    "removed": 31,
+    "added": 516,
+    "removed": 32,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7151,6 +7171,15 @@
       "Taco Bell",
       "McDonough",
       "GA"
+    ],
+    [
+      "042823",
+      30.802412695504476,
+      -88.07241439819336,
+      10.99,
+      "Taco Bell",
+      "Saraland",
+      "AL"
     ],
     [
       "029098",
@@ -8899,15 +8928,6 @@
       "GA"
     ],
     [
-      "032542",
-      32.31307877793498,
-      -81.05568834507177,
-      11.29,
-      "Taco Bell",
-      "Hardeeville",
-      "SC"
-    ],
-    [
       "037127",
       32.47625266396425,
       -84.94885432212624,
@@ -10268,6 +10288,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-19",
+  "last_seen_date": "2026-06-20",
   "peak_availability_pct": 6.0
 }

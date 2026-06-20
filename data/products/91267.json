@@ -11,7 +11,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 5.9,
+  "peak_30d_pct": 1.8,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.9,
@@ -20,13 +20,13 @@
     "min": 2.99,
     "max": 3.99,
     "median": 3.19,
-    "std_dev": 0.2,
-    "store_count": 146
+    "std_dev": 0.21,
+    "store_count": 148
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$3.19",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$3.49",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$3.69",
-      "count": 15
+      "count": 17
     },
     {
       "bucket": "$3.99",
@@ -61,12 +61,12 @@
     {
       "state": "GA",
       "avg_price": 3.39,
-      "store_count": 58
+      "store_count": 61
     },
     {
       "state": "TN",
-      "avg_price": 3.27,
-      "store_count": 12
+      "avg_price": 3.26,
+      "store_count": 11
     },
     {
       "state": "FL",
@@ -124,6 +124,13 @@
       "price": 2.99
     },
     {
+      "store_number": "041835",
+      "name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "price": 2.99
+    },
+    {
       "store_number": "003652",
       "name": "Taco Bell",
       "city": "Atlanta",
@@ -143,13 +150,6 @@
       "city": "Atlanta",
       "state": "GA",
       "price": 2.99
-    },
-    {
-      "store_number": "041837",
-      "name": "Taco Bell",
-      "city": "Thomasville",
-      "state": "GA",
-      "price": 2.99
     }
   ],
   "min_price_store_numbers": [
@@ -159,6 +159,7 @@
     "003824",
     "041798",
     "004740",
+    "041835",
     "003652",
     "003404",
     "002167",
@@ -180,6 +181,13 @@
       "city": "Lawrenceville",
       "state": "GA",
       "price": 3.99
+    },
+    {
+      "store_number": "041245",
+      "name": "Taco Bell",
+      "city": "Austell",
+      "state": "GA",
+      "price": 3.69
     },
     {
       "store_number": "041252",
@@ -229,16 +237,49 @@
       "city": "Buford",
       "state": "GA",
       "price": 3.69
-    },
-    {
-      "store_number": "041253",
-      "name": "Taco Bell",
-      "city": "Loganville",
-      "state": "GA",
-      "price": 3.69
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041245",
+      "store_name": "Taco Bell",
+      "city": "Austell",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-06-20T21:15:57.357973+00:00"
+    },
+    {
+      "store_number": "041835",
+      "store_name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-20T21:15:38.350267+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-06-20T21:15:19.219732+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:15:17.921879+00:00"
+    },
     {
       "store_number": "026676",
       "store_name": "Taco Bell",
@@ -15471,14 +15512,14 @@
     }
   ],
   "activity_summary": {
-    "added": 673,
-    "removed": 527,
+    "added": 676,
+    "removed": 528,
     "price_changed": 323,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 270,
-  "calories_min": 270,
-  "calories_max": 270,
+  "calories_min": 320,
+  "calories_max": 320,
   "combo_groups": [
     {
       "group_id": "674",
@@ -15546,6 +15587,15 @@
       2.99,
       "Taco Bell",
       "Smyrna",
+      "GA"
+    ],
+    [
+      "041835",
+      30.885261549808035,
+      -84.20397450008613,
+      2.99,
+      "Taco Bell",
+      "Cairo",
       "GA"
     ],
     [
@@ -16512,15 +16562,6 @@
       "TN"
     ],
     [
-      "016335",
-      35.810910605655216,
-      -84.26391898537986,
-      3.39,
-      "Taco Bell",
-      "Lenoir City",
-      "TN"
-    ],
-    [
       "026432",
       35.80377693492917,
       -83.58050286769867,
@@ -16683,6 +16724,15 @@
       "GA"
     ],
     [
+      "041249",
+      33.96647033026141,
+      -84.010348240854,
+      3.69,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
+    ],
+    [
       "041259",
       34.57876717849458,
       -83.76470231775006,
@@ -16791,6 +16841,15 @@
       "GA"
     ],
     [
+      "041245",
+      33.85866928729595,
+      -84.6006282372764,
+      3.69,
+      "Taco Bell",
+      "Austell",
+      "GA"
+    ],
+    [
       "026342",
       33.980636492251286,
       -84.08123346241287,
@@ -16810,6 +16869,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-19",
+  "last_seen_date": "2026-06-20",
   "peak_availability_pct": 6.0
 }

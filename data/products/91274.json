@@ -11,22 +11,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 5.8,
+  "peak_30d_pct": 1.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.7,
   "price_stats": {
-    "avg": 11.17,
+    "avg": 11.16,
     "min": 10.49,
     "max": 12.29,
     "median": 11.19,
-    "std_dev": 0.36,
+    "std_dev": 0.37,
     "store_count": 129
   },
   "histogram": [
     {
       "bucket": "$10.49",
-      "count": 11
+      "count": 12
     },
     {
       "bucket": "$10.69",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 41
+      "count": 40
     },
     {
       "bucket": "$11.19",
@@ -77,13 +77,13 @@
     },
     {
       "state": "TN",
-      "avg_price": 11.15,
-      "store_count": 10
+      "avg_price": 11.17,
+      "store_count": 9
     },
     {
       "state": "GA",
-      "avg_price": 11.01,
-      "store_count": 49
+      "avg_price": 11.0,
+      "store_count": 51
     },
     {
       "state": "FL",
@@ -122,6 +122,13 @@
       "price": 10.49
     },
     {
+      "store_number": "041835",
+      "name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "price": 10.49
+    },
+    {
       "store_number": "041223",
       "name": "Taco Bell",
       "city": "Ellenwood",
@@ -155,13 +162,6 @@
       "city": "Thomasville",
       "state": "GA",
       "price": 10.49
-    },
-    {
-      "store_number": "041212",
-      "name": "Taco Bell",
-      "city": "Decatur",
-      "state": "GA",
-      "price": 10.49
     }
   ],
   "min_price_store_numbers": [
@@ -169,6 +169,7 @@
     "041226",
     "041219",
     "004740",
+    "041835",
     "041223",
     "003404",
     "002167",
@@ -250,6 +251,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041835",
+      "store_name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-06-20T21:15:38.350267+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-06-20T21:15:19.219732+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:15:17.921879+00:00"
+    },
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-20T21:14:52.719771+00:00"
+    },
     {
       "store_number": "026676",
       "store_name": "Taco Bell",
@@ -14972,8 +15013,8 @@
     }
   ],
   "activity_summary": {
-    "added": 647,
-    "removed": 518,
+    "added": 649,
+    "removed": 520,
     "price_changed": 307,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15047,6 +15088,15 @@
       10.49,
       "Taco Bell",
       "Smyrna",
+      "GA"
+    ],
+    [
+      "041835",
+      30.885261549808035,
+      -84.20397450008613,
+      10.49,
+      "Taco Bell",
+      "Cairo",
       "GA"
     ],
     [
@@ -15230,15 +15280,6 @@
       "GA"
     ],
     [
-      "032542",
-      32.31307877793498,
-      -81.05568834507177,
-      10.99,
-      "Taco Bell",
-      "Hardeeville",
-      "SC"
-    ],
-    [
       "037419",
       32.53776933341696,
       -84.86787174979743,
@@ -15311,15 +15352,6 @@
       "TN"
     ],
     [
-      "016335",
-      35.810910605655216,
-      -84.26391898537986,
-      10.99,
-      "Taco Bell",
-      "Lenoir City",
-      "TN"
-    ],
-    [
       "004370",
       30.189150774079152,
       -85.76022725986559,
@@ -15327,6 +15359,15 @@
       "Taco Bell",
       "Panama City Beach",
       "FL"
+    ],
+    [
+      "041249",
+      33.96647033026141,
+      -84.010348240854,
+      10.99,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
     ],
     [
       "041259",
@@ -16176,6 +16217,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-19",
+  "last_seen_date": "2026-06-20",
   "peak_availability_pct": 5.9
 }
