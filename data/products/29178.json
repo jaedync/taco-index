@@ -21,19 +21,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 28
+    "store_count": 27
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 28
+      "count": 27
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 28
+      "store_count": 27
     }
   ],
   "nutrition": {
@@ -148,7 +148,6 @@
     "030999",
     "023304",
     "042928",
-    "023300",
     "034163",
     "042971"
   ],
@@ -164,13 +163,6 @@
       "store_number": "034163",
       "name": "Taco Bell",
       "city": "Saint Cloud",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "023300",
-      "name": "Taco Bell",
-      "city": "Palm Bay",
       "state": "FL",
       "price": 10.99
     },
@@ -222,9 +214,26 @@
       "city": "Orange City",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "027986",
+      "name": "Taco Bell",
+      "city": "Deltona",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023300",
+      "store_name": "Taco Bell",
+      "city": "Palm Bay",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-21T20:43:45.428374+00:00"
+    },
     {
       "store_number": "042942",
       "store_name": "Taco Bell",
@@ -1388,7 +1397,7 @@
   ],
   "activity_summary": {
     "added": 72,
-    "removed": 44,
+    "removed": 45,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1654,15 +1663,6 @@
       "FL"
     ],
     [
-      "023300",
-      27.99815047734223,
-      -80.63776654322986,
-      10.99,
-      "Taco Bell",
-      "Palm Bay",
-      "FL"
-    ],
-    [
       "034163",
       28.24668494787806,
       -81.24437438517288,
@@ -1682,6 +1682,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-06-20",
+  "last_seen_date": "2026-06-21",
   "peak_availability_pct": 0.4
 }

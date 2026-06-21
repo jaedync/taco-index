@@ -13,14 +13,14 @@
   "peak_30d_pct": 2.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
-  "availability_pct": 2.6,
+  "availability_pct": 2.7,
   "price_stats": {
-    "avg": 0.99,
+    "avg": 1.0,
     "min": 0.55,
     "max": 1.59,
     "median": 0.95,
-    "std_dev": 0.19,
-    "store_count": 204
+    "std_dev": 0.2,
+    "store_count": 206
   },
   "histogram": [
     {
@@ -85,7 +85,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 19
+      "count": 21
     },
     {
       "bucket": "$1.59",
@@ -105,8 +105,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 1.09,
-      "store_count": 49
+      "avg_price": 1.11,
+      "store_count": 51
     },
     {
       "state": "TX",
@@ -252,6 +252,13 @@
       "price": 1.59
     },
     {
+      "store_number": "002440",
+      "name": "Taco Bell",
+      "city": "Brighton",
+      "state": "MI",
+      "price": 1.49
+    },
+    {
       "store_number": "042632",
       "name": "Taco Bell",
       "city": "Ludington",
@@ -306,16 +313,49 @@
       "city": "Joliet",
       "state": "IL",
       "price": 1.49
-    },
-    {
-      "store_number": "042621",
-      "name": "Taco Bell",
-      "city": "Traverse City",
-      "state": "MI",
-      "price": 1.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029263",
+      "store_name": "Taco Bell",
+      "city": "Salem",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-06-21T20:41:20.079086+00:00"
+    },
+    {
+      "store_number": "002440",
+      "store_name": "Taco Bell",
+      "city": "Brighton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-06-21T20:38:58.236851+00:00"
+    },
+    {
+      "store_number": "029145",
+      "store_name": "Taco Bell",
+      "city": "Cullman",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-06-21T20:38:54.468254+00:00"
+    },
+    {
+      "store_number": "031393",
+      "store_name": "Taco Bell",
+      "city": "Novi",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-06-21T20:38:47.609264+00:00"
+    },
     {
       "store_number": "033315",
       "store_name": "Taco Bell",
@@ -5008,8 +5048,8 @@
     }
   ],
   "activity_summary": {
-    "added": 242,
-    "removed": 227,
+    "added": 245,
+    "removed": 228,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6459,15 +6499,6 @@
       "MO"
     ],
     [
-      "029263",
-      42.50358312787979,
-      -70.92246077476568,
-      1.0,
-      "Taco Bell",
-      "Salem",
-      "MA"
-    ],
-    [
       "034648",
       40.218686400314986,
       -85.37569523227864,
@@ -6528,6 +6559,15 @@
       1.0,
       "Taco Bell",
       "Jasper",
+      "AL"
+    ],
+    [
+      "029145",
+      34.20658154557464,
+      -86.8747014343586,
+      1.0,
+      "Taco Bell",
+      "Cullman",
       "AL"
     ],
     [
@@ -6720,6 +6760,15 @@
       "MI"
     ],
     [
+      "031393",
+      42.52250692725211,
+      -83.51690554232789,
+      1.49,
+      "Taco Bell",
+      "Novi",
+      "MI"
+    ],
+    [
       "003584",
       42.283657013486945,
       -83.36389831734891,
@@ -6846,6 +6895,15 @@
       "MI"
     ],
     [
+      "002440",
+      42.54203523725801,
+      -83.78660045097604,
+      1.49,
+      "Taco Bell",
+      "Brighton",
+      "MI"
+    ],
+    [
       "041883",
       48.173424515469144,
       -103.62728089416856,
@@ -6856,6 +6914,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-20",
+  "last_seen_date": "2026-06-21",
   "peak_availability_pct": 2.5
 }

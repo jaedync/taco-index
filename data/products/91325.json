@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.6,
-  "recent_price_change_pct": 0.0369,
+  "recent_price_change_pct": 0.0345,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 9.48,
+    "avg": 9.46,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.67,
-    "store_count": 17
+    "std_dev": 0.66,
+    "store_count": 18
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 10
+      "count": 11
     },
     {
       "bucket": "$9.99",
@@ -42,6 +42,11 @@
       "state": "FL",
       "avg_price": 9.66,
       "store_count": 6
+    },
+    {
+      "state": "GA",
+      "avg_price": 9.46,
+      "store_count": 5
     },
     {
       "state": "TN",
@@ -145,7 +150,8 @@
     "041837",
     "042121",
     "042125",
-    "034026"
+    "034026",
+    "029074"
   ],
   "priciest_stores": [
     {
@@ -198,6 +204,13 @@
       "price": 9.99
     },
     {
+      "store_number": "029074",
+      "name": "Taco Bell",
+      "city": "Bainbridge",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "034026",
       "name": "Taco Bell",
       "city": "Chattanooga",
@@ -210,16 +223,19 @@
       "city": "Crestview",
       "state": "FL",
       "price": 9.0
-    },
-    {
-      "store_number": "042121",
-      "name": "Taco Bell",
-      "city": "Fort Walton Beach",
-      "state": "FL",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029074",
+      "store_name": "Taco Bell",
+      "city": "Bainbridge",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-21T20:42:53.631545+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -4032,7 +4048,7 @@
     }
   ],
   "activity_summary": {
-    "added": 169,
+    "added": 170,
     "removed": 212,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4164,6 +4180,15 @@
       "TN"
     ],
     [
+      "029074",
+      30.9034516811486,
+      -84.5552379994604,
+      9.0,
+      "Taco Bell",
+      "Bainbridge",
+      "GA"
+    ],
+    [
       "042831",
       30.670654044454654,
       -87.85164057593474,
@@ -4228,6 +4253,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-20",
+  "last_seen_date": "2026-06-21",
   "peak_availability_pct": 1.1
 }

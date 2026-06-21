@@ -22,12 +22,12 @@
     "max": 10.99,
     "median": 10.29,
     "std_dev": 0.35,
-    "store_count": 130
+    "store_count": 133
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 50
+      "count": 52
     },
     {
       "bucket": "$10.29",
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$10.69",
-      "count": 23
+      "count": 24
     },
     {
       "bucket": "$10.99",
@@ -46,7 +46,7 @@
     {
       "state": "GA",
       "avg_price": 10.53,
-      "store_count": 53
+      "store_count": 55
     },
     {
       "state": "FL",
@@ -61,7 +61,7 @@
     {
       "state": "TN",
       "avg_price": 10.06,
-      "store_count": 8
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -195,6 +195,8 @@
     "019713",
     "024403",
     "027506",
+    "031757",
+    "029074",
     "030451",
     "005482",
     "029078",
@@ -275,6 +277,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029074",
+      "store_name": "Taco Bell",
+      "city": "Bainbridge",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-21T20:42:53.631545+00:00"
+    },
+    {
+      "store_number": "031757",
+      "store_name": "Taco Bell",
+      "city": "Kodak",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-21T20:42:48.324841+00:00"
+    },
+    {
+      "store_number": "041216",
+      "store_name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.69,
+      "observed_at": "2026-06-21T20:41:26.772482+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -12087,7 +12119,7 @@
     }
   ],
   "activity_summary": {
-    "added": 647,
+    "added": 650,
     "removed": 517,
     "price_changed": 17,
     "since": "2026-03-31T00:00:00+00:00"
@@ -12522,6 +12554,24 @@
       9.99,
       "Taco Bell",
       "Gainesville",
+      "GA"
+    ],
+    [
+      "031757",
+      35.987211413309275,
+      -83.60585430267747,
+      9.99,
+      "Taco Bell",
+      "Kodak",
+      "TN"
+    ],
+    [
+      "029074",
+      30.9034516811486,
+      -84.5552379994604,
+      9.99,
+      "Taco Bell",
+      "Bainbridge",
       "GA"
     ],
     [
@@ -13101,6 +13151,15 @@
       "GA"
     ],
     [
+      "041216",
+      33.71689565332906,
+      -84.21496087389771,
+      10.69,
+      "Taco Bell",
+      "Decatur",
+      "GA"
+    ],
+    [
       "041223",
       33.61940670172887,
       -84.24365535383913,
@@ -13300,6 +13359,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-20",
+  "last_seen_date": "2026-06-21",
   "peak_availability_pct": 6.0
 }

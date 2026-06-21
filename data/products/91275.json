@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.33,
+    "avg": 10.4,
     "min": 9.49,
     "max": 10.99,
     "median": 10.29,
-    "std_dev": 0.41,
-    "store_count": 14
+    "std_dev": 0.43,
+    "store_count": 16
   },
   "histogram": [
     {
@@ -53,15 +53,19 @@
       "count": 1
     },
     {
+      "bucket": "$10.89",
+      "count": 1
+    },
+    {
       "bucket": "$10.99",
-      "count": 2
+      "count": 3
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.43,
-      "store_count": 5
+      "avg_price": 10.52,
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -169,6 +173,20 @@
       "price": 10.99
     },
     {
+      "store_number": "041229",
+      "name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
+      "price": 10.99
+    },
+    {
+      "store_number": "031757",
+      "name": "Taco Bell",
+      "city": "Kodak",
+      "state": "TN",
+      "price": 10.89
+    },
+    {
       "store_number": "031389",
       "name": "Taco Bell / KFC",
       "city": "Locust Grove",
@@ -209,23 +227,29 @@
       "city": "Montgomery",
       "state": "AL",
       "price": 10.29
-    },
-    {
-      "store_number": "026432",
-      "name": "Taco Bell",
-      "city": "Pigeon Forge",
-      "state": "TN",
-      "price": 10.29
-    },
-    {
-      "store_number": "042119",
-      "name": "Taco Bell",
-      "city": "Hope Hull",
-      "state": "AL",
-      "price": 10.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031757",
+      "store_name": "Taco Bell",
+      "city": "Kodak",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.89,
+      "observed_at": "2026-06-21T20:42:48.324841+00:00"
+    },
+    {
+      "store_number": "041229",
+      "store_name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-06-21T20:40:50.551621+00:00"
+    },
     {
       "store_number": "034784",
       "store_name": "Taco Bell",
@@ -1148,7 +1172,7 @@
     }
   ],
   "activity_summary": {
-    "added": 53,
+    "added": 55,
     "removed": 39,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1298,6 +1322,24 @@
       "GA"
     ],
     [
+      "031757",
+      35.987211413309275,
+      -83.60585430267747,
+      10.89,
+      "Taco Bell",
+      "Kodak",
+      "TN"
+    ],
+    [
+      "041229",
+      33.85923288371655,
+      -84.67192824394984,
+      10.99,
+      "Taco Bell",
+      "Powder Springs",
+      "GA"
+    ],
+    [
       "035461",
       35.75640600000001,
       -83.9419497,
@@ -1317,6 +1359,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-20",
+  "last_seen_date": "2026-06-21",
   "peak_availability_pct": 0.2
 }

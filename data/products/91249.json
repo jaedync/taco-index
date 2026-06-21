@@ -21,7 +21,7 @@
     "max": 3.99,
     "median": 2.29,
     "std_dev": 0.16,
-    "store_count": 485
+    "store_count": 486
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 77
+      "count": 78
     },
     {
       "bucket": "$2.59",
@@ -66,7 +66,7 @@
     {
       "state": "GA",
       "avg_price": 2.41,
-      "store_count": 234
+      "store_count": 236
     },
     {
       "state": "TN",
@@ -76,7 +76,7 @@
     {
       "state": "FL",
       "avg_price": 2.38,
-      "store_count": 31
+      "store_count": 30
     },
     {
       "state": "AL",
@@ -350,7 +350,6 @@
     "036482",
     "041213",
     "036485",
-    "042122",
     "029108",
     "016498",
     "042131",
@@ -411,6 +410,7 @@
     "041836",
     "039940",
     "029099",
+    "041837",
     "042126",
     "029091",
     "029074",
@@ -518,6 +518,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041837",
+      "store_name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.29,
+      "observed_at": "2026-06-21T20:42:45.371526+00:00"
+    },
+    {
+      "store_number": "041229",
+      "store_name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-06-21T20:40:50.551621+00:00"
+    },
+    {
+      "store_number": "042122",
+      "store_name": "Taco Bell",
+      "city": "Destin",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.29,
+      "new_price": null,
+      "observed_at": "2026-06-21T20:40:36.078236+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -6080,8 +6110,8 @@
     }
   ],
   "activity_summary": {
-    "added": 518,
-    "removed": 33,
+    "added": 520,
+    "removed": 34,
     "price_changed": 5,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7702,15 +7732,6 @@
       "AL"
     ],
     [
-      "042122",
-      30.393123641742402,
-      -86.49879455566406,
-      2.29,
-      "Taco Bell",
-      "Destin",
-      "FL"
-    ],
-    [
       "029108",
       31.190916123045028,
       -83.76187942924844,
@@ -8248,6 +8269,15 @@
       2.29,
       "Taco Bell",
       "Albany",
+      "GA"
+    ],
+    [
+      "041837",
+      30.85502172223534,
+      -83.94673973321909,
+      2.29,
+      "Taco Bell",
+      "Thomasville",
       "GA"
     ],
     [
@@ -9772,6 +9802,15 @@
       "GA"
     ],
     [
+      "041229",
+      33.85923288371655,
+      -84.67192824394984,
+      2.49,
+      "Taco Bell",
+      "Powder Springs",
+      "GA"
+    ],
+    [
       "003779",
       34.16686405454833,
       -84.78785862030236,
@@ -10457,6 +10496,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-20",
+  "last_seen_date": "2026-06-21",
   "peak_availability_pct": 6.0
 }
