@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.6,
-  "recent_price_change_pct": 0.0204,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 9.46,
+    "avg": 9.39,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.66,
-    "store_count": 18
+    "std_dev": 0.63,
+    "store_count": 21
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 11
+      "count": 14
     },
     {
       "bucket": "$9.99",
@@ -40,13 +40,13 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.66,
-      "store_count": 6
+      "avg_price": 9.57,
+      "store_count": 7
     },
     {
       "state": "GA",
-      "avg_price": 9.46,
-      "store_count": 5
+      "avg_price": 9.38,
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -79,6 +79,13 @@
       "price": 9.0
     },
     {
+      "store_number": "040967",
+      "name": "Taco Bell",
+      "city": "Sylva",
+      "state": "NC",
+      "price": 9.0
+    },
+    {
       "store_number": "016335",
       "name": "Taco Bell",
       "city": "Lenoir City",
@@ -107,6 +114,13 @@
       "price": 9.0
     },
     {
+      "store_number": "041243",
+      "name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "041837",
       "name": "Taco Bell",
       "city": "Thomasville",
@@ -119,34 +133,23 @@
       "city": "Fort Walton Beach",
       "state": "FL",
       "price": 9.0
-    },
-    {
-      "store_number": "042125",
-      "name": "Taco Bell",
-      "city": "Crestview",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "034026",
-      "name": "Taco Bell",
-      "city": "Chattanooga",
-      "state": "TN",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "034710",
     "036415",
+    "040967",
     "016335",
     "041249",
     "039919",
     "026044",
+    "041243",
     "041837",
     "042121",
     "042125",
     "034026",
-    "029074"
+    "029074",
+    "042124"
   ],
   "priciest_stores": [
     {
@@ -199,6 +202,13 @@
       "price": 9.99
     },
     {
+      "store_number": "042124",
+      "name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "029074",
       "name": "Taco Bell",
       "city": "Bainbridge",
@@ -211,16 +221,39 @@
       "city": "Chattanooga",
       "state": "TN",
       "price": 9.0
-    },
-    {
-      "store_number": "042125",
-      "name": "Taco Bell",
-      "city": "Crestview",
-      "state": "FL",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042124",
+      "store_name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-23T21:33:54.726410+00:00"
+    },
+    {
+      "store_number": "041243",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-23T21:32:56.669275+00:00"
+    },
+    {
+      "store_number": "040967",
+      "store_name": "Taco Bell",
+      "city": "Sylva",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-23T21:32:44.214339+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -4063,7 +4096,7 @@
     }
   ],
   "activity_summary": {
-    "added": 171,
+    "added": 174,
     "removed": 213,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4123,6 +4156,15 @@
       "TN"
     ],
     [
+      "040967",
+      35.37256754318715,
+      -83.20724665070884,
+      9.0,
+      "Taco Bell",
+      "Sylva",
+      "NC"
+    ],
+    [
       "016335",
       35.810910605655216,
       -84.26391898537986,
@@ -4157,6 +4199,15 @@
       "Taco Bell",
       "Maryville",
       "TN"
+    ],
+    [
+      "041243",
+      34.02333279764089,
+      -84.52909384668487,
+      9.0,
+      "Taco Bell",
+      "Marietta",
+      "GA"
     ],
     [
       "041837",
@@ -4202,6 +4253,15 @@
       "Taco Bell",
       "Bainbridge",
       "GA"
+    ],
+    [
+      "042124",
+      30.522978445511598,
+      -86.49525940418243,
+      9.0,
+      "Taco Bell",
+      "Niceville",
+      "FL"
     ],
     [
       "042831",
@@ -4268,6 +4328,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-22",
+  "last_seen_date": "2026-06-23",
   "peak_availability_pct": 1.1
 }

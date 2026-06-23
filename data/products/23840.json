@@ -21,19 +21,19 @@
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 26
+    "store_count": 24
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 26
+      "count": 24
     }
   ],
   "state_prices": [
     {
       "state": "IL",
       "avg_price": 11.0,
-      "store_count": 22
+      "store_count": 20
     }
   ],
   "nutrition": {
@@ -80,13 +80,6 @@
       "price": 11.0
     },
     {
-      "store_number": "030407",
-      "name": "Taco Bell",
-      "city": "Chicago",
-      "state": "IL",
-      "price": 11.0
-    },
-    {
       "store_number": "026744",
       "name": "Taco Bell",
       "city": "Hanover Park",
@@ -108,16 +101,23 @@
       "price": 11.0
     },
     {
-      "store_number": "026757",
+      "store_number": "032106",
       "name": "Taco Bell",
-      "city": "Tinley Park",
+      "city": "Wauconda",
       "state": "IL",
       "price": 11.0
     },
     {
-      "store_number": "032106",
+      "store_number": "002513",
       "name": "Taco Bell",
-      "city": "Wauconda",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 11.0
+    },
+    {
+      "store_number": "027898",
+      "name": "Taco Bell",
+      "city": "Peru",
       "state": "IL",
       "price": 11.0
     }
@@ -127,17 +127,14 @@
     "040018",
     "041795",
     "041497",
-    "030407",
     "026744",
     "026752",
     "002873",
-    "026757",
     "032106",
     "002513",
     "027898",
     "026742",
     "032084",
-    "027896",
     "030401",
     "042745",
     "019629",
@@ -147,6 +144,7 @@
     "030539",
     "032031",
     "031070",
+    "037359",
     "042746",
     "032134"
   ],
@@ -162,6 +160,13 @@
       "store_number": "042746",
       "name": "Taco Bell",
       "city": "Naperville",
+      "state": "IL",
+      "price": 11.0
+    },
+    {
+      "store_number": "037359",
+      "name": "Taco Bell",
+      "city": "North Aurora",
       "state": "IL",
       "price": 11.0
     },
@@ -213,16 +218,49 @@
       "city": "Aurora",
       "state": "IL",
       "price": 11.0
-    },
-    {
-      "store_number": "042745",
-      "name": "Taco Bell",
-      "city": "Yorkville",
-      "state": "IL",
-      "price": 11.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037359",
+      "store_name": "Taco Bell",
+      "city": "North Aurora",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.0,
+      "observed_at": "2026-06-23T21:33:59.694046+00:00"
+    },
+    {
+      "store_number": "027896",
+      "store_name": "Taco Bell",
+      "city": "Ottawa",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-06-23T21:32:40.776334+00:00"
+    },
+    {
+      "store_number": "026757",
+      "store_name": "Taco Bell",
+      "city": "Tinley Park",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-06-23T21:32:13.324263+00:00"
+    },
+    {
+      "store_number": "030407",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-06-23T21:32:09.854180+00:00"
+    },
     {
       "store_number": "037359",
       "store_name": "Taco Bell",
@@ -1045,8 +1083,8 @@
     }
   ],
   "activity_summary": {
-    "added": 54,
-    "removed": 28,
+    "added": 55,
+    "removed": 31,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1117,15 +1155,6 @@
       "IL"
     ],
     [
-      "030407",
-      41.75244929284412,
-      -87.58651092281517,
-      11.0,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
       "026744",
       42.00995049608011,
       -88.14510753090164,
@@ -1150,15 +1179,6 @@
       11.0,
       "Taco Bell",
       "Darien",
-      "IL"
-    ],
-    [
-      "026757",
-      41.54604572788319,
-      -87.79340699315071,
-      11.0,
-      "Taco Bell",
-      "Tinley Park",
       "IL"
     ],
     [
@@ -1204,15 +1224,6 @@
       11.0,
       "Taco Bell",
       "McHenry",
-      "IL"
-    ],
-    [
-      "027896",
-      41.38015114984622,
-      -88.83644212596955,
-      11.0,
-      "Taco Bell",
-      "Ottawa",
       "IL"
     ],
     [
@@ -1297,6 +1308,15 @@
       "IN"
     ],
     [
+      "037359",
+      41.80790930328174,
+      -88.37245950240897,
+      11.0,
+      "Taco Bell",
+      "North Aurora",
+      "IL"
+    ],
+    [
       "042746",
       41.708142656164135,
       -88.20640262836726,
@@ -1316,6 +1336,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-06-22",
+  "last_seen_date": "2026-06-23",
   "peak_availability_pct": 0.3
 }

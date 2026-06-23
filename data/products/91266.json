@@ -26,7 +26,7 @@
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$3.09",
@@ -34,11 +34,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 75
+      "count": 74
     },
     {
       "bucket": "$3.29",
-      "count": 14
+      "count": 13
     },
     {
       "bucket": "$3.39",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$3.69",
-      "count": 14
+      "count": 15
     },
     {
       "bucket": "$3.99",
@@ -65,12 +65,12 @@
     {
       "state": "GA",
       "avg_price": 3.37,
-      "store_count": 58
+      "store_count": 59
     },
     {
       "state": "TN",
-      "avg_price": 3.26,
-      "store_count": 12
+      "avg_price": 3.24,
+      "store_count": 13
     },
     {
       "state": "FL",
@@ -80,7 +80,7 @@
     {
       "state": "AL",
       "avg_price": 3.21,
-      "store_count": 52
+      "store_count": 51
     }
   ],
   "nutrition": null,
@@ -121,6 +121,13 @@
       "price": 2.99
     },
     {
+      "store_number": "037038",
+      "name": "Taco Bell",
+      "city": "Jamestown",
+      "state": "TN",
+      "price": 2.99
+    },
+    {
       "store_number": "003824",
       "name": "Taco Bell",
       "city": "Lithia Springs",
@@ -147,13 +154,6 @@
       "city": "Cairo",
       "state": "GA",
       "price": 2.99
-    },
-    {
-      "store_number": "002167",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 2.99
     }
   ],
   "min_price_store_numbers": [
@@ -162,6 +162,7 @@
     "033481",
     "037050",
     "032542",
+    "037038",
     "003824",
     "041798",
     "004740",
@@ -190,6 +191,13 @@
       "store_number": "041257",
       "name": "Taco Bell",
       "city": "Cumming",
+      "state": "GA",
+      "price": 3.69
+    },
+    {
+      "store_number": "041243",
+      "name": "Taco Bell",
+      "city": "Marietta",
       "state": "GA",
       "price": 3.69
     },
@@ -234,16 +242,49 @@
       "city": "Suwanee",
       "state": "GA",
       "price": 3.69
-    },
-    {
-      "store_number": "041232",
-      "name": "Taco Bell",
-      "city": "Suwanee",
-      "state": "GA",
-      "price": 3.69
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041243",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-06-23T21:32:56.669275+00:00"
+    },
+    {
+      "store_number": "040967",
+      "store_name": "Taco Bell",
+      "city": "Sylva",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-06-23T21:32:44.214339+00:00"
+    },
+    {
+      "store_number": "043144",
+      "store_name": "Taco Bell",
+      "city": "Oneonta",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-06-23T21:31:53.329717+00:00"
+    },
+    {
+      "store_number": "037038",
+      "store_name": "Taco Bell",
+      "city": "Jamestown",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-23T21:31:36.125902+00:00"
+    },
     {
       "store_number": "029074",
       "store_name": "Taco Bell",
@@ -15076,12 +15117,12 @@
     }
   ],
   "activity_summary": {
-    "added": 650,
-    "removed": 513,
+    "added": 652,
+    "removed": 515,
     "price_changed": 320,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 260,
+  "calories_from_menu": 210,
   "calories_min": 260,
   "calories_max": 260,
   "combo_groups": [
@@ -15143,6 +15184,15 @@
       "Taco Bell",
       "Hardeeville",
       "SC"
+    ],
+    [
+      "037038",
+      36.43596602758595,
+      -84.93641937395971,
+      2.99,
+      "Taco Bell",
+      "Jamestown",
+      "TN"
     ],
     [
       "003824",
@@ -15475,15 +15525,6 @@
       3.19,
       "Taco Bell",
       "Cullman",
-      "AL"
-    ],
-    [
-      "043144",
-      33.948889116027075,
-      -86.4707882609855,
-      3.19,
-      "Taco Bell",
-      "Oneonta",
       "AL"
     ],
     [
@@ -15991,15 +16032,6 @@
       "FL"
     ],
     [
-      "040967",
-      35.37256754318715,
-      -83.20724665070884,
-      3.29,
-      "Taco Bell",
-      "Sylva",
-      "NC"
-    ],
-    [
       "042831",
       30.670654044454654,
       -87.85164057593474,
@@ -16306,6 +16338,15 @@
       "GA"
     ],
     [
+      "041243",
+      34.02333279764089,
+      -84.52909384668487,
+      3.69,
+      "Taco Bell",
+      "Marietta",
+      "GA"
+    ],
+    [
       "041257",
       34.164623445272696,
       -84.11864787340164,
@@ -16334,6 +16375,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-22",
+  "last_seen_date": "2026-06-23",
   "peak_availability_pct": 5.9
 }

@@ -11,22 +11,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 1.6,
+  "peak_30d_pct": 1.7,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.8,
   "price_stats": {
-    "avg": 6.39,
+    "avg": 6.4,
     "min": 5.29,
     "max": 8.19,
     "median": 6.19,
-    "std_dev": 0.7,
-    "store_count": 136
+    "std_dev": 0.72,
+    "store_count": 137
   },
   "histogram": [
     {
       "bucket": "$5.29",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$5.49",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$6.39",
-      "count": 10
+      "count": 9
     },
     {
       "bucket": "$6.49",
@@ -94,24 +94,24 @@
     },
     {
       "bucket": "$8.19",
-      "count": 14
+      "count": 15
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 6.65,
-      "store_count": 57
+      "store_count": 59
     },
     {
       "state": "TN",
       "avg_price": 6.32,
-      "store_count": 13
+      "store_count": 14
     },
     {
       "state": "AL",
-      "avg_price": 6.2,
-      "store_count": 50
+      "avg_price": 6.19,
+      "store_count": 49
     },
     {
       "state": "FL",
@@ -121,6 +121,13 @@
   ],
   "nutrition": null,
   "cheapest_stores": [
+    {
+      "store_number": "037332",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 5.29
+    },
     {
       "store_number": "003824",
       "name": "Taco Bell",
@@ -183,16 +190,10 @@
       "city": "Panama City",
       "state": "FL",
       "price": 5.49
-    },
-    {
-      "store_number": "041835",
-      "name": "Taco Bell",
-      "city": "Cairo",
-      "state": "GA",
-      "price": 5.49
     }
   ],
   "min_price_store_numbers": [
+    "037332",
     "003824",
     "004740",
     "003404",
@@ -204,6 +205,13 @@
       "store_number": "041252",
       "name": "Taco Bell",
       "city": "Alpharetta",
+      "state": "GA",
+      "price": 8.19
+    },
+    {
+      "store_number": "041243",
+      "name": "Taco Bell",
+      "city": "Marietta",
       "state": "GA",
       "price": 8.19
     },
@@ -262,16 +270,59 @@
       "city": "Peachtree Corners",
       "state": "GA",
       "price": 8.19
-    },
-    {
-      "store_number": "041259",
-      "name": "Taco Bell",
-      "city": "Cleveland",
-      "state": "GA",
-      "price": 8.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041243",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.19,
+      "observed_at": "2026-06-23T21:32:56.669275+00:00"
+    },
+    {
+      "store_number": "040967",
+      "store_name": "Taco Bell",
+      "city": "Sylva",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 6.39,
+      "new_price": null,
+      "observed_at": "2026-06-23T21:32:44.214339+00:00"
+    },
+    {
+      "store_number": "043144",
+      "store_name": "Taco Bell",
+      "city": "Oneonta",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 6.29,
+      "new_price": null,
+      "observed_at": "2026-06-23T21:31:53.329717+00:00"
+    },
+    {
+      "store_number": "037332",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.29,
+      "observed_at": "2026-06-23T21:31:37.823922+00:00"
+    },
+    {
+      "store_number": "037038",
+      "store_name": "Taco Bell",
+      "city": "Jamestown",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.29,
+      "observed_at": "2026-06-23T21:31:36.125902+00:00"
+    },
     {
       "store_number": "042831",
       "store_name": "Taco Bell",
@@ -13634,12 +13685,12 @@
     }
   ],
   "activity_summary": {
-    "added": 647,
-    "removed": 511,
+    "added": 650,
+    "removed": 513,
     "price_changed": 178,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 530,
+  "calories_from_menu": 570,
   "calories_min": 570,
   "calories_max": 570,
   "combo_groups": [
@@ -13657,6 +13708,15 @@
     }
   ],
   "map_data": [
+    [
+      "037332",
+      33.72820549105344,
+      -84.57252377913323,
+      5.29,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
+    ],
     [
       "003824",
       33.77885297807616,
@@ -14414,13 +14474,13 @@
       "GA"
     ],
     [
-      "043144",
-      33.948889116027075,
-      -86.4707882609855,
+      "037038",
+      36.43596602758595,
+      -84.93641937395971,
       6.29,
       "Taco Bell",
-      "Oneonta",
-      "AL"
+      "Jamestown",
+      "TN"
     ],
     [
       "018166",
@@ -14546,15 +14606,6 @@
       6.39,
       "Taco Bell",
       "Franklin",
-      "NC"
-    ],
-    [
-      "040967",
-      35.37256754318715,
-      -83.20724665070884,
-      6.39,
-      "Taco Bell",
-      "Sylva",
       "NC"
     ],
     [
@@ -14873,6 +14924,15 @@
       "GA"
     ],
     [
+      "041243",
+      34.02333279764089,
+      -84.52909384668487,
+      8.19,
+      "Taco Bell",
+      "Marietta",
+      "GA"
+    ],
+    [
       "041252",
       34.04979486358939,
       -84.28692698478699,
@@ -14883,6 +14943,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-22",
+  "last_seen_date": "2026-06-23",
   "peak_availability_pct": 5.9
 }

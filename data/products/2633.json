@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3534
+    "store_count": 3531
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3534
+      "count": 3531
     }
   ],
   "state_prices": [
@@ -72,7 +72,7 @@
     {
       "state": "SC",
       "avg_price": 0.0,
-      "store_count": 59
+      "store_count": 60
     },
     {
       "state": "PA",
@@ -97,12 +97,12 @@
     {
       "state": "NY",
       "avg_price": 0.0,
-      "store_count": 121
+      "store_count": 120
     },
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 76
+      "store_count": 75
     },
     {
       "state": "NM",
@@ -217,7 +217,7 @@
     {
       "state": "CT",
       "avg_price": 0.0,
-      "store_count": 41
+      "store_count": 40
     },
     {
       "state": "CO",
@@ -227,7 +227,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 622
+      "store_count": 621
     },
     {
       "state": "AZ",
@@ -1363,6 +1363,7 @@
     "004718",
     "030774",
     "037584",
+    "031434",
     "035614",
     "023201",
     "031717",
@@ -1468,7 +1469,6 @@
     "004072",
     "037535",
     "016335",
-    "030845",
     "042761",
     "004259",
     "033860",
@@ -1662,7 +1662,6 @@
     "042485",
     "032990",
     "030782",
-    "031858",
     "003212",
     "018735",
     "022919",
@@ -2580,7 +2579,6 @@
     "004636",
     "009492",
     "033502",
-    "028754",
     "004642",
     "018365",
     "039850",
@@ -3275,7 +3273,6 @@
     "031890",
     "035235",
     "042853",
-    "029241",
     "023836",
     "039830",
     "026843",
@@ -3382,7 +3379,6 @@
     "003394",
     "041597",
     "029403",
-    "016099",
     "035308",
     "042872",
     "032732",
@@ -3860,9 +3856,17 @@
     "002617",
     "043358",
     "042688",
-    "030395"
+    "030395",
+    "030987"
   ],
   "priciest_stores": [
+    {
+      "store_number": "030987",
+      "name": "Taco Bell",
+      "city": "Fishers",
+      "state": "IN",
+      "price": 0.0
+    },
     {
       "store_number": "030395",
       "name": "Taco Bell",
@@ -3925,16 +3929,79 @@
       "city": "Odessa",
       "state": "TX",
       "price": 0.0
-    },
-    {
-      "store_number": "004024",
-      "name": "Taco Bell",
-      "city": "Tallmadge",
-      "state": "OH",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016099",
+      "store_name": "Taco Bell",
+      "city": "Rome",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-23T21:33:45.707671+00:00"
+    },
+    {
+      "store_number": "029241",
+      "store_name": "Taco Bell",
+      "city": "Vernon Rockville",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-23T21:33:39.596919+00:00"
+    },
+    {
+      "store_number": "030987",
+      "store_name": "Taco Bell",
+      "city": "Fishers",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-23T21:33:36.650038+00:00"
+    },
+    {
+      "store_number": "028754",
+      "store_name": "Taco Bell",
+      "city": "West Sacramento",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-23T21:33:11.604026+00:00"
+    },
+    {
+      "store_number": "031858",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-23T21:32:25.126495+00:00"
+    },
+    {
+      "store_number": "030845",
+      "store_name": "Taco Bell",
+      "city": "Pendleton",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-23T21:32:13.854568+00:00"
+    },
+    {
+      "store_number": "031434",
+      "store_name": "Taco Bell",
+      "city": "Spartanburg",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-23T21:32:08.769397+00:00"
+    },
     {
       "store_number": "040504",
       "store_name": "Taco Bell",
@@ -8467,8 +8534,8 @@
     }
   ],
   "activity_summary": {
-    "added": 218,
-    "removed": 235,
+    "added": 220,
+    "removed": 240,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17802,6 +17869,15 @@
       "ND"
     ],
     [
+      "031434",
+      34.96795052038225,
+      -81.93305013542891,
+      0.0,
+      "Taco Bell",
+      "Spartanburg",
+      "SC"
+    ],
+    [
       "035614",
       34.102393,
       -117.300255,
@@ -18745,15 +18821,6 @@
       "Taco Bell",
       "Lenoir City",
       "TN"
-    ],
-    [
-      "030845",
-      40.00056465287073,
-      -85.73499087741163,
-      0.0,
-      "Taco Bell",
-      "Pendleton",
-      "IN"
     ],
     [
       "042761",
@@ -20491,15 +20558,6 @@
       "Taco Bell",
       "Livermore",
       "CA"
-    ],
-    [
-      "031858",
-      39.49330801654719,
-      -119.78853004445779,
-      0.0,
-      "Taco Bell",
-      "Reno",
-      "NV"
     ],
     [
       "003212",
@@ -28755,15 +28813,6 @@
       "CA"
     ],
     [
-      "028754",
-      38.557331203468785,
-      -121.53989290372965,
-      0.0,
-      "Taco Bell",
-      "West Sacramento",
-      "CA"
-    ],
-    [
       "004642",
       26.093065886559707,
       -80.25040854515282,
@@ -35010,15 +35059,6 @@
       "FL"
     ],
     [
-      "029241",
-      41.830853,
-      -72.495434,
-      0.0,
-      "Taco Bell",
-      "Vernon Rockville",
-      "CT"
-    ],
-    [
       "023836",
       39.03242183143864,
       -122.92588301008436,
@@ -35971,15 +36011,6 @@
       "Taco Bell",
       "Clayton",
       "NC"
-    ],
-    [
-      "016099",
-      43.225415686241206,
-      -75.48612691467491,
-      0.0,
-      "Taco Bell",
-      "Rome",
-      "NY"
     ],
     [
       "035308",
@@ -40282,6 +40313,15 @@
       "Taco Bell",
       "Oklahoma City",
       "OK"
+    ],
+    [
+      "030987",
+      39.98369425652976,
+      -86.00301325332117,
+      0.0,
+      "Taco Bell",
+      "Fishers",
+      "IN"
     ]
   ],
   "retired_at": null,

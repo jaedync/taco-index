@@ -13,14 +13,14 @@
   "peak_30d_pct": 1.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:09.662285+00:00",
-  "availability_pct": 0.8,
+  "availability_pct": 0.9,
   "price_stats": {
-    "avg": 7.38,
+    "avg": 7.41,
     "min": 5.79,
     "max": 8.49,
     "median": 7.49,
-    "std_dev": 0.58,
-    "store_count": 64
+    "std_dev": 0.59,
+    "store_count": 66
   },
   "histogram": [
     {
@@ -36,12 +36,8 @@
       "count": 4
     },
     {
-      "bucket": "$6.79",
-      "count": 1
-    },
-    {
       "bucket": "$6.99",
-      "count": 19
+      "count": 20
     },
     {
       "bucket": "$7.19",
@@ -61,7 +57,7 @@
     },
     {
       "bucket": "$7.69",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$7.79",
@@ -73,7 +69,7 @@
     },
     {
       "bucket": "$8.49",
-      "count": 3
+      "count": 4
     }
   ],
   "state_prices": [
@@ -85,12 +81,12 @@
     {
       "state": "GA",
       "avg_price": 7.45,
-      "store_count": 41
+      "store_count": 43
     },
     {
       "state": "FL",
-      "avg_price": 6.54,
-      "store_count": 8
+      "avg_price": 6.5,
+      "store_count": 7
     }
   ],
   "nutrition": null,
@@ -138,13 +134,6 @@
       "price": 6.39
     },
     {
-      "store_number": "042125",
-      "name": "Taco Bell",
-      "city": "Crestview",
-      "state": "FL",
-      "price": 6.79
-    },
-    {
       "store_number": "042584",
       "name": "Taco Bell",
       "city": "McDonough",
@@ -163,6 +152,13 @@
       "name": "Taco Bell",
       "city": "Canton",
       "state": "GA",
+      "price": 6.99
+    },
+    {
+      "store_number": "004170",
+      "name": "Taco Bell",
+      "city": "Milton",
+      "state": "FL",
       "price": 6.99
     }
   ],
@@ -189,6 +185,13 @@
       "name": "Taco Bell",
       "city": "Buford",
       "state": "GA",
+      "price": 8.49
+    },
+    {
+      "store_number": "040967",
+      "name": "Taco Bell",
+      "city": "Sylva",
+      "state": "NC",
       "price": 8.49
     },
     {
@@ -232,16 +235,49 @@
       "city": "Kingston",
       "state": "TN",
       "price": 7.99
-    },
-    {
-      "store_number": "026073",
-      "name": "Taco Bell",
-      "city": "Douglasville",
-      "state": "GA",
-      "price": 7.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042125",
+      "store_name": "Taco Bell",
+      "city": "Crestview",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.79,
+      "new_price": null,
+      "observed_at": "2026-06-23T21:33:41.886721+00:00"
+    },
+    {
+      "store_number": "042576",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-06-23T21:33:08.129767+00:00"
+    },
+    {
+      "store_number": "024596",
+      "store_name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.69,
+      "observed_at": "2026-06-23T21:33:01.594292+00:00"
+    },
+    {
+      "store_number": "040967",
+      "store_name": "Taco Bell",
+      "city": "Sylva",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.49,
+      "observed_at": "2026-06-23T21:32:44.214339+00:00"
+    },
     {
       "store_number": "003859",
       "store_name": "Taco Bell",
@@ -2254,8 +2290,8 @@
     }
   ],
   "activity_summary": {
-    "added": 129,
-    "removed": 65,
+    "added": 132,
+    "removed": 66,
     "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2338,15 +2374,6 @@
       "FL"
     ],
     [
-      "042125",
-      30.786388890498326,
-      -86.5598059594958,
-      6.79,
-      "Taco Bell",
-      "Crestview",
-      "FL"
-    ],
-    [
       "042584",
       33.4647,
       -84.2306,
@@ -2426,6 +2453,15 @@
       "Taco Bell",
       "Crestview",
       "FL"
+    ],
+    [
+      "042576",
+      34.10871458788698,
+      -83.87817268075196,
+      6.99,
+      "Taco Bell",
+      "Buford",
+      "GA"
     ],
     [
       "026676",
@@ -2662,6 +2698,15 @@
       "GA"
     ],
     [
+      "024596",
+      34.2514831908549,
+      -84.08800439400908,
+      7.69,
+      "Taco Bell",
+      "Cumming",
+      "GA"
+    ],
+    [
       "016335",
       35.810910605655216,
       -84.26391898537986,
@@ -2833,6 +2878,15 @@
       "GA"
     ],
     [
+      "040967",
+      35.37256754318715,
+      -83.20724665070884,
+      8.49,
+      "Taco Bell",
+      "Sylva",
+      "NC"
+    ],
+    [
       "027858",
       34.07882955591635,
       -83.91751042267758,
@@ -2861,6 +2915,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-22",
+  "last_seen_date": "2026-06-23",
   "peak_availability_pct": 1.1
 }
