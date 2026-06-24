@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.4,
   "price_stats": {
-    "avg": 9.39,
+    "avg": 9.27,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.63,
-    "store_count": 21
+    "std_dev": 0.55,
+    "store_count": 31
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 14
+      "count": 24
     },
     {
       "bucket": "$9.99",
@@ -45,7 +45,17 @@
     },
     {
       "state": "GA",
-      "avg_price": 9.38,
+      "avg_price": 9.29,
+      "store_count": 8
+    },
+    {
+      "state": "AL",
+      "avg_price": 9.25,
+      "store_count": 8
+    },
+    {
+      "state": "TN",
+      "avg_price": 9.0,
       "store_count": 6
     }
   ],
@@ -86,6 +96,13 @@
       "price": 9.0
     },
     {
+      "store_number": "024403",
+      "name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "price": 9.0
+    },
+    {
       "store_number": "016335",
       "name": "Taco Bell",
       "city": "Lenoir City",
@@ -96,6 +113,13 @@
       "store_number": "041249",
       "name": "Taco Bell",
       "city": "Lawrenceville",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
+      "store_number": "039924",
+      "name": "Taco Bell",
+      "city": "Hinesville",
       "state": "GA",
       "price": 9.0
     },
@@ -119,37 +143,33 @@
       "city": "Marietta",
       "state": "GA",
       "price": 9.0
-    },
-    {
-      "store_number": "041837",
-      "name": "Taco Bell",
-      "city": "Thomasville",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "042121",
-      "name": "Taco Bell",
-      "city": "Fort Walton Beach",
-      "state": "FL",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "034710",
     "036415",
     "040967",
+    "024403",
     "016335",
     "041249",
+    "039924",
     "039919",
     "026044",
     "041243",
+    "002995",
     "041837",
+    "029033",
     "042121",
     "042125",
     "034026",
     "029074",
-    "042124"
+    "042124",
+    "036416",
+    "037486",
+    "029118",
+    "029153",
+    "029167",
+    "037526"
   ],
   "priciest_stores": [
     {
@@ -202,28 +222,128 @@
       "price": 9.99
     },
     {
-      "store_number": "042124",
+      "store_number": "037526",
       "name": "Taco Bell",
-      "city": "Niceville",
-      "state": "FL",
+      "city": "Homewood",
+      "state": "AL",
       "price": 9.0
     },
     {
-      "store_number": "029074",
+      "store_number": "029167",
       "name": "Taco Bell",
-      "city": "Bainbridge",
-      "state": "GA",
+      "city": "Helena",
+      "state": "AL",
       "price": 9.0
     },
     {
-      "store_number": "034026",
+      "store_number": "029153",
       "name": "Taco Bell",
-      "city": "Chattanooga",
-      "state": "TN",
+      "city": "Hoover",
+      "state": "AL",
       "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037526",
+      "store_name": "Taco Bell",
+      "city": "Homewood",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-24T21:55:36.513809+00:00"
+    },
+    {
+      "store_number": "029033",
+      "store_name": "Taco Bell",
+      "city": "Clinton",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-24T21:55:30.345972+00:00"
+    },
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-24T21:55:16.570708+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-24T21:54:44.721083+00:00"
+    },
+    {
+      "store_number": "039924",
+      "store_name": "Taco Bell",
+      "city": "Hinesville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-24T21:54:41.053148+00:00"
+    },
+    {
+      "store_number": "029167",
+      "store_name": "Taco Bell",
+      "city": "Helena",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-24T21:53:20.303053+00:00"
+    },
+    {
+      "store_number": "029153",
+      "store_name": "Taco Bell",
+      "city": "Hoover",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-24T21:53:14.468376+00:00"
+    },
+    {
+      "store_number": "029118",
+      "store_name": "Taco Bell",
+      "city": "Pelham",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-24T21:53:11.535238+00:00"
+    },
+    {
+      "store_number": "037486",
+      "store_name": "Taco Bell",
+      "city": "Irondale",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-24T21:53:09.380968+00:00"
+    },
+    {
+      "store_number": "036416",
+      "store_name": "Taco Bell",
+      "city": "Birmingham",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-24T21:52:32.174626+00:00"
+    },
     {
       "store_number": "042124",
       "store_name": "Taco Bell",
@@ -4096,7 +4216,7 @@
     }
   ],
   "activity_summary": {
-    "added": 174,
+    "added": 184,
     "removed": 213,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4165,6 +4285,15 @@
       "NC"
     ],
     [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      9.0,
+      "Taco Bell",
+      "Crossville",
+      "TN"
+    ],
+    [
       "016335",
       35.810910605655216,
       -84.26391898537986,
@@ -4180,6 +4309,15 @@
       9.0,
       "Taco Bell",
       "Lawrenceville",
+      "GA"
+    ],
+    [
+      "039924",
+      31.84574482196275,
+      -81.60342658085327,
+      9.0,
+      "Taco Bell",
+      "Hinesville",
       "GA"
     ],
     [
@@ -4210,6 +4348,15 @@
       "GA"
     ],
     [
+      "002995",
+      33.88866329031674,
+      -84.47492127122132,
+      9.0,
+      "Taco Bell",
+      "Smyrna",
+      "GA"
+    ],
+    [
       "041837",
       30.85502172223534,
       -83.94673973321909,
@@ -4217,6 +4364,15 @@
       "Taco Bell",
       "Thomasville",
       "GA"
+    ],
+    [
+      "029033",
+      36.118403546259415,
+      -84.11809736365875,
+      9.0,
+      "Taco Bell",
+      "Clinton",
+      "TN"
     ],
     [
       "042121",
@@ -4262,6 +4418,60 @@
       "Taco Bell",
       "Niceville",
       "FL"
+    ],
+    [
+      "036416",
+      33.42380135750282,
+      -86.66897602460242,
+      9.0,
+      "Taco Bell",
+      "Birmingham",
+      "AL"
+    ],
+    [
+      "037486",
+      33.5265,
+      -86.6642,
+      9.0,
+      "Taco Bell",
+      "Irondale",
+      "AL"
+    ],
+    [
+      "029118",
+      33.33522426257691,
+      -86.78426210693365,
+      9.0,
+      "Taco Bell",
+      "Pelham",
+      "AL"
+    ],
+    [
+      "029153",
+      33.37553645889424,
+      -86.80206133982665,
+      9.0,
+      "Taco Bell",
+      "Hoover",
+      "AL"
+    ],
+    [
+      "029167",
+      33.28195843067458,
+      -86.85372591018677,
+      9.0,
+      "Taco Bell",
+      "Helena",
+      "AL"
+    ],
+    [
+      "037526",
+      33.44981817730104,
+      -86.82213632080311,
+      9.0,
+      "Taco Bell",
+      "Homewood",
+      "AL"
     ],
     [
       "042831",
@@ -4328,6 +4538,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-23",
+  "last_seen_date": "2026-06-24",
   "peak_availability_pct": 1.1
 }

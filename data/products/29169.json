@@ -14,19 +14,19 @@
   "peak_30d_pct": 1.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.08,
+    "avg": 9.09,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.29,
-    "store_count": 12
+    "std_dev": 0.3,
+    "store_count": 11
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$9.99",
@@ -36,8 +36,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.08,
-      "store_count": 12
+      "avg_price": 9.09,
+      "store_count": 11
     }
   ],
   "nutrition": {
@@ -66,13 +66,6 @@
       "store_number": "023302",
       "name": "Taco Bell",
       "city": "Kissimmee",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "028353",
-      "name": "Taco Bell",
-      "city": "Leesburg",
       "state": "FL",
       "price": 9.0
     },
@@ -124,12 +117,18 @@
       "city": "Kissimmee",
       "state": "FL",
       "price": 9.0
+    },
+    {
+      "store_number": "034163",
+      "name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "040730",
     "023302",
-    "028353",
     "027988",
     "027971",
     "039584",
@@ -204,14 +203,24 @@
       "price": 9.0
     },
     {
-      "store_number": "028353",
+      "store_number": "023302",
       "name": "Taco Bell",
-      "city": "Leesburg",
+      "city": "Kissimmee",
       "state": "FL",
       "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028353",
+      "store_name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-24T21:54:09.649392+00:00"
+    },
     {
       "store_number": "023300",
       "store_name": "Taco Bell",
@@ -4395,7 +4404,7 @@
   ],
   "activity_summary": {
     "added": 215,
-    "removed": 203,
+    "removed": 204,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4451,15 +4460,6 @@
       9.0,
       "Taco Bell",
       "Kissimmee",
-      "FL"
-    ],
-    [
-      "028353",
-      28.81817457980822,
-      -81.88791497494094,
-      9.0,
-      "Taco Bell",
-      "Leesburg",
       "FL"
     ],
     [
@@ -4545,6 +4545,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-06-23",
+  "last_seen_date": "2026-06-24",
   "peak_availability_pct": 1.2
 }

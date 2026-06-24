@@ -22,20 +22,20 @@
     "max": 7.29,
     "median": 6.69,
     "std_dev": 0.21,
-    "store_count": 484
+    "store_count": 483
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 215
+      "count": 216
     },
     {
       "bucket": "$6.69",
-      "count": 129
+      "count": 128
     },
     {
       "bucket": "$6.99",
-      "count": 137
+      "count": 136
     },
     {
       "bucket": "$7.29",
@@ -46,7 +46,7 @@
     {
       "state": "GA",
       "avg_price": 6.75,
-      "store_count": 236
+      "store_count": 234
     },
     {
       "state": "SC",
@@ -60,8 +60,8 @@
     },
     {
       "state": "AL",
-      "avg_price": 6.62,
-      "store_count": 120
+      "avg_price": 6.61,
+      "store_count": 121
     },
     {
       "state": "TN",
@@ -194,6 +194,7 @@
     "029153",
     "029114",
     "017019",
+    "029115",
     "029119",
     "030297",
     "029135",
@@ -445,6 +446,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040706",
+      "store_name": "Taco Bell",
+      "city": "Bonaire",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.69,
+      "new_price": null,
+      "observed_at": "2026-06-24T21:55:37.364574+00:00"
+    },
+    {
+      "store_number": "041248",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-06-24T21:54:15.576315+00:00"
+    },
+    {
+      "store_number": "029115",
+      "store_name": "Taco Bell",
+      "city": "Northport",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-06-24T21:53:14.755862+00:00"
+    },
     {
       "store_number": "041243",
       "store_name": "Taco Bell",
@@ -5947,8 +5978,8 @@
     }
   ],
   "activity_summary": {
-    "added": 515,
-    "removed": 31,
+    "added": 516,
+    "removed": 33,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6323,6 +6354,15 @@
       "Taco Bell",
       "Trenton",
       "GA"
+    ],
+    [
+      "029115",
+      33.23958846617791,
+      -87.57610286772149,
+      6.49,
+      "Taco Bell",
+      "Northport",
+      "AL"
     ],
     [
       "029119",
@@ -9016,15 +9056,6 @@
       "AL"
     ],
     [
-      "040706",
-      32.54757441016544,
-      -83.59649819664405,
-      6.69,
-      "Taco Bell",
-      "Bonaire",
-      "GA"
-    ],
-    [
       "024747",
       33.50836652192516,
       -84.14265096187592,
@@ -9544,15 +9575,6 @@
       6.99,
       "Taco Bell",
       "Cumming",
-      "GA"
-    ],
-    [
-      "041248",
-      33.71830055882164,
-      -84.76882606744766,
-      6.99,
-      "Taco Bell",
-      "Douglasville",
       "GA"
     ],
     [
@@ -10340,6 +10362,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-23",
+  "last_seen_date": "2026-06-24",
   "peak_availability_pct": 6.0
 }

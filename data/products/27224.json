@@ -12,22 +12,22 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 1.0,
+  "peak_30d_pct": 1.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
   "availability_pct": 1.1,
   "price_stats": {
-    "avg": 3.79,
+    "avg": 3.77,
     "min": 2.99,
     "max": 4.99,
     "median": 3.89,
-    "std_dev": 0.24,
-    "store_count": 84
+    "std_dev": 0.27,
+    "store_count": 87
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 1
+      "count": 3
     },
     {
       "bucket": "$3.49",
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 27
+      "count": 28
     },
     {
       "bucket": "$3.69",
@@ -57,13 +57,13 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 3.95,
-      "store_count": 25
+      "avg_price": 3.88,
+      "store_count": 27
     },
     {
       "state": "GA",
       "avg_price": 3.71,
-      "store_count": 57
+      "store_count": 58
     }
   ],
   "nutrition": {
@@ -85,6 +85,20 @@
       "store_number": "042982",
       "name": "Taco Bell",
       "city": "Naranja",
+      "state": "FL",
+      "price": 2.99
+    },
+    {
+      "store_number": "042888",
+      "name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "price": 2.99
+    },
+    {
+      "store_number": "042872",
+      "name": "Taco Bell",
+      "city": "Jacksonville",
       "state": "FL",
       "price": 2.99
     },
@@ -136,24 +150,12 @@
       "city": "Jefferson",
       "state": "GA",
       "price": 3.59
-    },
-    {
-      "store_number": "041088",
-      "name": "Taco Bell",
-      "city": "Covington",
-      "state": "GA",
-      "price": 3.59
-    },
-    {
-      "store_number": "042575",
-      "name": "Taco Bell",
-      "city": "Cartersville",
-      "state": "GA",
-      "price": 3.59
     }
   ],
   "min_price_store_numbers": [
-    "042982"
+    "042982",
+    "042888",
+    "042872"
   ],
   "priciest_stores": [
     {
@@ -228,6 +230,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042872",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-24T21:55:28.707417+00:00"
+    },
+    {
+      "store_number": "042888",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-24T21:55:22.355477+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-06-24T21:54:44.721083+00:00"
+    },
     {
       "store_number": "042845",
       "store_name": "Taco Bell",
@@ -1430,7 +1462,7 @@
     }
   ],
   "activity_summary": {
-    "added": 51,
+    "added": 54,
     "removed": 22,
     "price_changed": 47,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1447,6 +1479,24 @@
       2.99,
       "Taco Bell",
       "Naranja",
+      "FL"
+    ],
+    [
+      "042888",
+      30.319520012610628,
+      -81.4639876635829,
+      2.99,
+      "Taco Bell",
+      "Jacksonville",
+      "FL"
+    ],
+    [
+      "042872",
+      30.161101689358315,
+      -81.63309768588988,
+      2.99,
+      "Taco Bell",
+      "Jacksonville",
       "FL"
     ],
     [
@@ -1663,6 +1713,15 @@
       3.59,
       "Taco Bell",
       "Cumming",
+      "GA"
+    ],
+    [
+      "002995",
+      33.88866329031674,
+      -84.47492127122132,
+      3.59,
+      "Taco Bell",
+      "Smyrna",
       "GA"
     ],
     [

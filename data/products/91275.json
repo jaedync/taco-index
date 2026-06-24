@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.41,
+    "avg": 10.4,
     "min": 9.49,
     "max": 10.99,
     "median": 10.29,
-    "std_dev": 0.45,
-    "store_count": 15
+    "std_dev": 0.43,
+    "store_count": 16
   },
   "histogram": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$10.29",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$10.49",
@@ -119,6 +119,13 @@
       "price": 10.19
     },
     {
+      "store_number": "024403",
+      "name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "price": 10.29
+    },
+    {
       "store_number": "026432",
       "name": "Taco Bell",
       "city": "Pigeon Forge",
@@ -145,13 +152,6 @@
       "city": "Decatur",
       "state": "GA",
       "price": 10.49
-    },
-    {
-      "store_number": "042123",
-      "name": "Taco Bell",
-      "city": "Niceville",
-      "state": "FL",
-      "price": 10.59
     }
   ],
   "min_price_store_numbers": [
@@ -230,6 +230,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.29,
+      "observed_at": "2026-06-24T21:55:16.570708+00:00"
+    },
     {
       "store_number": "043144",
       "store_name": "Taco Bell",
@@ -1182,7 +1192,7 @@
     }
   ],
   "activity_summary": {
-    "added": 55,
+    "added": 56,
     "removed": 40,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1267,6 +1277,15 @@
       "Taco Bell",
       "Hope Hull",
       "AL"
+    ],
+    [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      10.29,
+      "Taco Bell",
+      "Crossville",
+      "TN"
     ],
     [
       "026432",
@@ -1360,6 +1379,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-23",
+  "last_seen_date": "2026-06-24",
   "peak_availability_pct": 0.2
 }

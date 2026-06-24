@@ -16,21 +16,25 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.86,
+    "avg": 6.84,
     "min": 6.49,
     "max": 7.49,
     "median": 6.64,
-    "std_dev": 0.43,
-    "store_count": 16
+    "std_dev": 0.41,
+    "store_count": 18
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$6.79",
       "count": 2
+    },
+    {
+      "bucket": "$6.89",
+      "count": 1
     },
     {
       "bucket": "$7.29",
@@ -48,8 +52,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 7.08,
-      "store_count": 9
+      "avg_price": 7.06,
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -79,6 +83,13 @@
       "name": "Taco Bell / KFC",
       "city": "Locust Grove",
       "state": "GA",
+      "price": 6.49
+    },
+    {
+      "store_number": "024403",
+      "name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
       "price": 6.49
     },
     {
@@ -129,18 +140,12 @@
       "city": "Hope Hull",
       "state": "AL",
       "price": 6.79
-    },
-    {
-      "store_number": "036487",
-      "name": "Taco Bell",
-      "city": "Montgomery",
-      "state": "AL",
-      "price": 6.79
     }
   ],
   "min_price_store_numbers": [
     "042903",
     "031389",
+    "024403",
     "026432",
     "042123",
     "042829",
@@ -192,6 +197,13 @@
       "price": 7.29
     },
     {
+      "store_number": "002995",
+      "name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "price": 6.89
+    },
+    {
       "store_number": "036487",
       "name": "Taco Bell",
       "city": "Montgomery",
@@ -211,16 +223,29 @@
       "city": "Clarkesville",
       "state": "GA",
       "price": 6.49
-    },
-    {
-      "store_number": "037369",
-      "name": "Taco Bell",
-      "city": "Port St Joe",
-      "state": "FL",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-06-24T21:55:16.570708+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.89,
+      "observed_at": "2026-06-24T21:54:44.721083+00:00"
+    },
     {
       "store_number": "041243",
       "store_name": "Taco Bell",
@@ -1113,7 +1138,7 @@
     }
   ],
   "activity_summary": {
-    "added": 41,
+    "added": 43,
     "removed": 48,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1159,6 +1184,15 @@
       "Taco Bell / KFC",
       "Locust Grove",
       "GA"
+    ],
+    [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      6.49,
+      "Taco Bell",
+      "Crossville",
+      "TN"
     ],
     [
       "026432",
@@ -1231,6 +1265,15 @@
       "Taco Bell",
       "Montgomery",
       "AL"
+    ],
+    [
+      "002995",
+      33.88866329031674,
+      -84.47492127122132,
+      6.89,
+      "Taco Bell",
+      "Smyrna",
+      "GA"
     ],
     [
       "041229",

@@ -22,16 +22,16 @@
     "max": 11.49,
     "median": 10.29,
     "std_dev": 0.35,
-    "store_count": 481
+    "store_count": 480
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 215
+      "count": 216
     },
     {
       "bucket": "$10.29",
-      "count": 126
+      "count": 125
     },
     {
       "bucket": "$10.69",
@@ -39,7 +39,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 42
+      "count": 41
     },
     {
       "bucket": "$11.49",
@@ -55,7 +55,7 @@
     {
       "state": "GA",
       "avg_price": 10.4,
-      "store_count": 236
+      "store_count": 234
     },
     {
       "state": "FL",
@@ -70,7 +70,7 @@
     {
       "state": "TN",
       "avg_price": 10.17,
-      "store_count": 84
+      "store_count": 85
     }
   ],
   "nutrition": {
@@ -347,6 +347,7 @@
     "030881",
     "004109",
     "029099",
+    "024403",
     "027506",
     "031757",
     "004317",
@@ -449,6 +450,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040706",
+      "store_name": "Taco Bell",
+      "city": "Bonaire",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-06-24T21:55:37.364574+00:00"
+    },
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-24T21:55:16.570708+00:00"
+    },
+    {
+      "store_number": "041248",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-24T21:54:15.576315+00:00"
+    },
     {
       "store_number": "041243",
       "store_name": "Taco Bell",
@@ -6281,8 +6312,8 @@
     }
   ],
   "activity_summary": {
-    "added": 513,
-    "removed": 32,
+    "added": 514,
+    "removed": 34,
     "price_changed": 38,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8012,6 +8043,15 @@
       "GA"
     ],
     [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      9.99,
+      "Taco Bell",
+      "Crossville",
+      "TN"
+    ],
+    [
       "027506",
       34.321927340275344,
       -83.83288894595358,
@@ -9335,15 +9375,6 @@
       "AL"
     ],
     [
-      "040706",
-      32.54757441016544,
-      -83.59649819664405,
-      10.29,
-      "Taco Bell",
-      "Bonaire",
-      "GA"
-    ],
-    [
       "041839",
       30.209777100072273,
       -84.36565016453422,
@@ -10361,15 +10392,6 @@
       "GA"
     ],
     [
-      "041248",
-      33.71830055882164,
-      -84.76882606744766,
-      10.99,
-      "Taco Bell",
-      "Douglasville",
-      "GA"
-    ],
-    [
       "041322",
       34.00032217144678,
       -83.90880189647538,
@@ -10659,6 +10681,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-23",
+  "last_seen_date": "2026-06-24",
   "peak_availability_pct": 6.0
 }

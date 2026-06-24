@@ -20,15 +20,15 @@
   "price_stats": {
     "avg": 4.64,
     "min": 4.0,
-    "max": 19.99,
+    "max": 12.99,
     "median": 4.0,
-    "std_dev": 1.33,
-    "store_count": 7077
+    "std_dev": 1.32,
+    "store_count": 7082
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5237
+      "count": 5241
     },
     {
       "bucket": "$4.19",
@@ -36,7 +36,7 @@
     },
     {
       "bucket": "$4.20",
-      "count": 6
+      "count": 7
     },
     {
       "bucket": "$4.25",
@@ -159,7 +159,7 @@
       "count": 1
     },
     {
-      "bucket": "$19.99",
+      "bucket": "$12.99",
       "count": 1
     }
   ],
@@ -181,7 +181,7 @@
     },
     {
       "state": "FL",
-      "avg_price": 5.74,
+      "avg_price": 5.73,
       "store_count": 430
     },
     {
@@ -242,7 +242,7 @@
     {
       "state": "IL",
       "avg_price": 4.56,
-      "store_count": 271
+      "store_count": 272
     },
     {
       "state": "AL",
@@ -277,7 +277,7 @@
     {
       "state": "TN",
       "avg_price": 4.23,
-      "store_count": 217
+      "store_count": 218
     },
     {
       "state": "DC",
@@ -297,12 +297,12 @@
     {
       "state": "PA",
       "avg_price": 4.13,
-      "store_count": 181
+      "store_count": 182
     },
     {
       "state": "MA",
       "avg_price": 4.09,
-      "store_count": 64
+      "store_count": 65
     },
     {
       "state": "IN",
@@ -407,7 +407,7 @@
     {
       "state": "KY",
       "avg_price": 4.0,
-      "store_count": 150
+      "store_count": 151
     },
     {
       "state": "DE",
@@ -2044,6 +2044,7 @@
     "027369",
     "032537",
     "005569",
+    "026756",
     "029031",
     "023837",
     "032675",
@@ -2900,6 +2901,7 @@
     "033044",
     "035425",
     "029316",
+    "034667",
     "003452",
     "036139",
     "031280",
@@ -5725,7 +5727,9 @@
     "043358",
     "043335",
     "038749",
-    "043049"
+    "043049",
+    "031715",
+    "029785"
   ],
   "priciest_stores": [
     {
@@ -5733,7 +5737,7 @@
       "name": "Taco Bell Cantina",
       "city": "Fort Lauderdale",
       "state": "FL",
-      "price": 19.99
+      "price": 12.99
     },
     {
       "store_number": "041429",
@@ -5800,6 +5804,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.2,
+      "observed_at": "2026-06-24T21:55:16.570708+00:00"
+    },
+    {
+      "store_number": "029785",
+      "store_name": "Taco Bell",
+      "city": "Reading",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-06-24T21:54:30.661474+00:00"
+    },
+    {
+      "store_number": "034667",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-06-24T21:54:18.309128+00:00"
+    },
+    {
+      "store_number": "031715",
+      "store_name": "Taco Bell",
+      "city": "Marlborough",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-06-24T21:53:59.267953+00:00"
+    },
+    {
+      "store_number": "026756",
+      "store_name": "Taco Bell",
+      "city": "Shorewood",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-06-24T21:53:39.272322+00:00"
+    },
+    {
+      "store_number": "036291",
+      "store_name": "Taco Bell Cantina",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "change_type": "price_change",
+      "old_price": 19.99,
+      "new_price": 12.99,
+      "observed_at": "2026-06-24T21:52:29.275528+00:00"
+    },
     {
       "store_number": "043049",
       "store_name": "Taco Bell",
@@ -9642,9 +9706,9 @@
     }
   ],
   "activity_summary": {
-    "added": 179,
+    "added": 184,
     "removed": 173,
-    "price_changed": 32,
+    "price_changed": 33,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 0,
@@ -23673,6 +23737,15 @@
       "PA"
     ],
     [
+      "026756",
+      41.53826942978163,
+      -88.19869814207777,
+      4.0,
+      "Taco Bell",
+      "Shorewood",
+      "IL"
+    ],
+    [
       "029031",
       36.348693377695604,
       -82.24180703905958,
@@ -31375,6 +31448,15 @@
       "Taco Bell",
       "Milford",
       "CT"
+    ],
+    [
+      "034667",
+      38.1497547205775,
+      -85.7765616629217,
+      4.0,
+      "Taco Bell",
+      "Louisville",
+      "KY"
     ],
     [
       "003452",
@@ -56811,6 +56893,24 @@
       "AL"
     ],
     [
+      "031715",
+      42.35034979667174,
+      -71.49922460317612,
+      4.0,
+      "Taco Bell",
+      "Marlborough",
+      "MA"
+    ],
+    [
+      "029785",
+      40.3741355250324,
+      -75.92743098735804,
+      4.0,
+      "Taco Bell",
+      "Reading",
+      "PA"
+    ],
+    [
       "040310",
       38.82654633392733,
       -104.7287764914666,
@@ -57375,6 +57475,15 @@
       4.2,
       "Taco Bell",
       "Alcoa",
+      "TN"
+    ],
+    [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      4.2,
+      "Taco Bell",
+      "Crossville",
       "TN"
     ],
     [
@@ -73365,7 +73474,7 @@
       "036291",
       26.122362,
       -80.105114,
-      19.99,
+      12.99,
       "Taco Bell Cantina",
       "Fort Lauderdale",
       "FL"

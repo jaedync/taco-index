@@ -21,10 +21,15 @@
     "min": 3.0,
     "max": 3.0,
     "median": 3.0,
-    "std_dev": null,
+    "std_dev": 0.0,
     "store_count": 1
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$3.00",
+      "count": 1
+    }
+  ],
   "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
@@ -40,10 +45,38 @@
     "protein_g": 8.7145,
     "serving_size_g": 92.1358
   },
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "041835",
+      "name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "price": 3.0
+    }
+  ],
+  "min_price_store_numbers": [
+    "041835"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "041835",
+      "name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "price": 3.0
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "041835",
+      "store_name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-06-24T21:54:36.920565+00:00"
+    },
     {
       "store_number": "035461",
       "store_name": "Taco Bell",
@@ -66,17 +99,27 @@
     }
   ],
   "activity_summary": {
-    "added": 1,
+    "added": 2,
     "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
-  "calories_min": 0,
-  "calories_max": 0,
+  "calories_from_menu": 500,
+  "calories_min": 500,
+  "calories_max": 500,
   "combo_groups": [],
-  "map_data": [],
+  "map_data": [
+    [
+      "041835",
+      30.885261549808035,
+      -84.20397450008613,
+      3.0,
+      "Taco Bell",
+      "Cairo",
+      "GA"
+    ]
+  ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-06-18",
+  "last_seen_date": "2026-06-24",
   "peak_availability_pct": 0.0
 }

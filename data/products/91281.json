@@ -21,13 +21,13 @@
     "min": 12.5,
     "max": 19.99,
     "median": 12.5,
-    "std_dev": 1.25,
-    "store_count": 401
+    "std_dev": 1.24,
+    "store_count": 404
   },
   "histogram": [
     {
       "bucket": "$12.50",
-      "count": 343
+      "count": 345
     },
     {
       "bucket": "$12.99",
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$13.99",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$14.99",
@@ -84,13 +84,13 @@
     },
     {
       "state": "GA",
-      "avg_price": 12.78,
-      "store_count": 194
+      "avg_price": 12.79,
+      "store_count": 195
     },
     {
       "state": "AL",
-      "avg_price": 12.75,
-      "store_count": 101
+      "avg_price": 12.74,
+      "store_count": 103
     }
   ],
   "nutrition": {
@@ -509,6 +509,8 @@
     "037214",
     "034026",
     "036937",
+    "029115",
+    "029150",
     "041105",
     "030707",
     "037038",
@@ -597,6 +599,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041322",
+      "store_name": "Taco Bell",
+      "city": "Dacula",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 13.99,
+      "observed_at": "2026-06-24T21:54:17.444215+00:00"
+    },
+    {
+      "store_number": "029150",
+      "store_name": "Taco Bell",
+      "city": "Tuscaloosa",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-06-24T21:53:15.544884+00:00"
+    },
+    {
+      "store_number": "029115",
+      "store_name": "Taco Bell",
+      "city": "Northport",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-06-24T21:53:14.755862+00:00"
+    },
     {
       "store_number": "041243",
       "store_name": "Taco Bell",
@@ -6949,7 +6981,7 @@
     }
   ],
   "activity_summary": {
-    "added": 518,
+    "added": 521,
     "removed": 117,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -9946,6 +9978,24 @@
       "AL"
     ],
     [
+      "029115",
+      33.23958846617791,
+      -87.57610286772149,
+      12.5,
+      "Taco Bell",
+      "Northport",
+      "AL"
+    ],
+    [
+      "029150",
+      33.198890030908586,
+      -87.5387504249801,
+      12.5,
+      "Taco Bell",
+      "Tuscaloosa",
+      "AL"
+    ],
+    [
       "041105",
       34.123606790741,
       -83.60452047516594,
@@ -10150,6 +10200,15 @@
       13.99,
       "Taco Bell",
       "Lawrenceville",
+      "GA"
+    ],
+    [
+      "041322",
+      34.00032217144678,
+      -83.90880189647538,
+      13.99,
+      "Taco Bell",
+      "Dacula",
       "GA"
     ],
     [
@@ -10595,6 +10654,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-23",
+  "last_seen_date": "2026-06-24",
   "peak_availability_pct": 5.3
 }
