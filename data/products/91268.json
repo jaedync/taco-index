@@ -20,13 +20,13 @@
     "min": 5.29,
     "max": 8.19,
     "median": 6.19,
-    "std_dev": 0.73,
+    "std_dev": 0.72,
     "store_count": 148
   },
   "histogram": [
     {
       "bucket": "$5.29",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$5.49",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$6.09",
@@ -100,7 +100,7 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.71,
+      "avg_price": 6.72,
       "store_count": 62
     },
     {
@@ -125,13 +125,6 @@
       "store_number": "037332",
       "name": "Taco Bell",
       "city": "Atlanta",
-      "state": "GA",
-      "price": 5.29
-    },
-    {
-      "store_number": "003824",
-      "name": "Taco Bell",
-      "city": "Lithia Springs",
       "state": "GA",
       "price": 5.29
     },
@@ -190,11 +183,17 @@
       "city": "Panama City",
       "state": "FL",
       "price": 5.49
+    },
+    {
+      "store_number": "041835",
+      "name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "price": 5.49
     }
   ],
   "min_price_store_numbers": [
     "037332",
-    "003824",
     "004740",
     "003404",
     "002167",
@@ -273,6 +272,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041799",
+      "store_name": "Taco Bell",
+      "city": "Doraville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-06-25T21:25:25.791696+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.29,
+      "new_price": null,
+      "observed_at": "2026-06-25T21:24:27.787809+00:00"
+    },
     {
       "store_number": "037526",
       "store_name": "Taco Bell",
@@ -13855,8 +13874,8 @@
     }
   ],
   "activity_summary": {
-    "added": 664,
-    "removed": 516,
+    "added": 665,
+    "removed": 517,
     "price_changed": 178,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13885,15 +13904,6 @@
       5.29,
       "Taco Bell",
       "Atlanta",
-      "GA"
-    ],
-    [
-      "003824",
-      33.77885297807616,
-      -84.60735438158736,
-      5.29,
-      "Taco Bell",
-      "Lithia Springs",
       "GA"
     ],
     [
@@ -14084,6 +14094,15 @@
       "Taco Bell",
       "Montgomery",
       "AL"
+    ],
+    [
+      "041799",
+      33.885857333198175,
+      -84.24760736527782,
+      5.99,
+      "Taco Bell",
+      "Doraville",
+      "GA"
     ],
     [
       "036481",
@@ -15212,6 +15231,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-24",
+  "last_seen_date": "2026-06-25",
   "peak_availability_pct": 5.9
 }

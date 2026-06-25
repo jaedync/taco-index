@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7661
+    "store_count": 7660
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7661
+      "count": 7660
     }
   ],
   "state_prices": [
@@ -87,7 +87,7 @@
     {
       "state": "PA",
       "avg_price": 0.0,
-      "store_count": 201
+      "store_count": 200
     },
     {
       "state": "OR",
@@ -112,7 +112,7 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 83
+      "store_count": 82
     },
     {
       "state": "NM",
@@ -187,7 +187,7 @@
     {
       "state": "LA",
       "avg_price": 0.0,
-      "store_count": 135
+      "store_count": 136
     },
     {
       "state": "KY",
@@ -2912,7 +2912,6 @@
     "032942",
     "016995",
     "019755",
-    "031912",
     "030891",
     "042621",
     "033772",
@@ -5358,7 +5357,6 @@
     "030187",
     "027303",
     "029590",
-    "031619",
     "023057",
     "028108",
     "028526",
@@ -8027,9 +8025,17 @@
     "043335",
     "042688",
     "038749",
-    "043049"
+    "043049",
+    "042607"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042607",
+      "name": "Taco Bell",
+      "city": "Shreveport",
+      "state": "LA",
+      "price": 0.0
+    },
     {
       "store_number": "043049",
       "name": "Taco Bell",
@@ -8092,16 +8098,39 @@
       "city": "Alpharetta",
       "state": "GA",
       "price": 0.0
-    },
-    {
-      "store_number": "043044",
-      "name": "Taco Bell",
-      "city": "Unadilla",
-      "state": "GA",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042607",
+      "store_name": "Taco Bell",
+      "city": "Shreveport",
+      "state": "LA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-06-25T21:26:36.058326+00:00"
+    },
+    {
+      "store_number": "031619",
+      "store_name": "Taco Bell",
+      "city": "New Kensington",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-25T21:25:35.237830+00:00"
+    },
+    {
+      "store_number": "031912",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-06-25T21:24:42.250496+00:00"
+    },
     {
       "store_number": "039106",
       "store_name": "Taco Bell",
@@ -13354,8 +13383,8 @@
     }
   ],
   "activity_summary": {
-    "added": 260,
-    "removed": 265,
+    "added": 261,
+    "removed": 267,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -36270,15 +36299,6 @@
       "MI"
     ],
     [
-      "031912",
-      36.020728911391764,
-      -115.26904709639894,
-      0.0,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
-    ],
-    [
       "030891",
       35.2169532435832,
       -94.26962882280344,
@@ -58282,15 +58302,6 @@
       "Taco Bell",
       "Plant City",
       "FL"
-    ],
-    [
-      "031619",
-      40.58711934877844,
-      -79.75004574152248,
-      0.0,
-      "Taco Bell",
-      "New Kensington",
-      "PA"
     ],
     [
       "023057",
@@ -82312,6 +82323,15 @@
       "Taco Bell",
       "Cullman",
       "AL"
+    ],
+    [
+      "042607",
+      32.445497,
+      -93.745415,
+      0.0,
+      "Taco Bell",
+      "Shreveport",
+      "LA"
     ]
   ],
   "retired_at": null,

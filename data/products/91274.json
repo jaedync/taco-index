@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.8,
   "price_stats": {
-    "avg": 11.15,
+    "avg": 11.14,
     "min": 10.49,
     "max": 12.29,
     "median": 11.19,
-    "std_dev": 0.36,
-    "store_count": 141
+    "std_dev": 0.37,
+    "store_count": 142
   },
   "histogram": [
     {
       "bucket": "$10.49",
-      "count": 14
+      "count": 15
     },
     {
       "bucket": "$10.69",
@@ -82,8 +82,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 10.99,
-      "store_count": 58
+      "avg_price": 10.98,
+      "store_count": 59
     },
     {
       "state": "FL",
@@ -129,6 +129,13 @@
       "price": 10.49
     },
     {
+      "store_number": "041799",
+      "name": "Taco Bell",
+      "city": "Doraville",
+      "state": "GA",
+      "price": 10.49
+    },
+    {
       "store_number": "041835",
       "name": "Taco Bell",
       "city": "Cairo",
@@ -155,13 +162,6 @@
       "city": "Marietta",
       "state": "GA",
       "price": 10.49
-    },
-    {
-      "store_number": "002167",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 10.49
     }
   ],
   "min_price_store_numbers": [
@@ -170,6 +170,7 @@
     "037332",
     "041219",
     "004740",
+    "041799",
     "041835",
     "041216",
     "041223",
@@ -253,6 +254,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041799",
+      "store_name": "Taco Bell",
+      "city": "Doraville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-06-25T21:25:25.791696+00:00"
+    },
     {
       "store_number": "037526",
       "store_name": "Taco Bell",
@@ -15195,7 +15206,7 @@
     }
   ],
   "activity_summary": {
-    "added": 664,
+    "added": 665,
     "removed": 523,
     "price_changed": 307,
     "since": "2026-03-31T00:00:00+00:00"
@@ -15279,6 +15290,15 @@
       10.49,
       "Taco Bell",
       "Smyrna",
+      "GA"
+    ],
+    [
+      "041799",
+      33.885857333198175,
+      -84.24760736527782,
+      10.49,
+      "Taco Bell",
+      "Doraville",
       "GA"
     ],
     [
@@ -16507,6 +16527,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-24",
+  "last_seen_date": "2026-06-25",
   "peak_availability_pct": 5.9
 }

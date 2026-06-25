@@ -14,14 +14,14 @@
   "peak_30d_pct": 1.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-21T21:03:57.254711+00:00",
-  "availability_pct": 1.0,
+  "availability_pct": 1.1,
   "price_stats": {
     "avg": 8.4,
     "min": 7.99,
     "max": 8.99,
     "median": 8.59,
     "std_dev": 0.29,
-    "store_count": 80
+    "store_count": 81
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$8.69",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$8.99",
@@ -52,8 +52,8 @@
   "state_prices": [
     {
       "state": "MO",
-      "avg_price": 8.41,
-      "store_count": 61
+      "avg_price": 8.42,
+      "store_count": 62
     },
     {
       "state": "IL",
@@ -181,6 +181,13 @@
       "price": 8.99
     },
     {
+      "store_number": "029626",
+      "name": "Taco Bell",
+      "city": "Saint Louis",
+      "state": "MO",
+      "price": 8.69
+    },
+    {
       "store_number": "029625",
       "name": "Taco Bell",
       "city": "Saint Louis",
@@ -235,16 +242,19 @@
       "city": "Saint Louis",
       "state": "MO",
       "price": 8.59
-    },
-    {
-      "store_number": "029684",
-      "name": "Taco Bell",
-      "city": "Collinsville",
-      "state": "IL",
-      "price": 8.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029626",
+      "store_name": "Taco Bell",
+      "city": "Saint Louis",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.69,
+      "observed_at": "2026-06-25T21:26:06.561773+00:00"
+    },
     {
       "store_number": "018366",
       "store_name": "Taco Bell",
@@ -2947,7 +2957,7 @@
     }
   ],
   "activity_summary": {
-    "added": 175,
+    "added": 176,
     "removed": 95,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3682,6 +3692,15 @@
       "MO"
     ],
     [
+      "029626",
+      38.62593379754423,
+      -90.28742852504365,
+      8.69,
+      "Taco Bell",
+      "Saint Louis",
+      "MO"
+    ],
+    [
       "035014",
       38.61148186033553,
       -90.32276848222637,
@@ -3692,6 +3711,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-06-24",
+  "last_seen_date": "2026-06-25",
   "peak_availability_pct": 1.0
 }

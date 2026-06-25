@@ -15,14 +15,18 @@
   "first_seen_at": "2026-03-30T00:40:09.662285+00:00",
   "availability_pct": 1.2,
   "price_stats": {
-    "avg": 4.78,
-    "min": 3.39,
+    "avg": 4.75,
+    "min": 2.49,
     "max": 5.89,
     "median": 4.89,
-    "std_dev": 0.46,
-    "store_count": 93
+    "std_dev": 0.52,
+    "store_count": 95
   },
   "histogram": [
+    {
+      "bucket": "$2.49",
+      "count": 1
+    },
     {
       "bucket": "$3.39",
       "count": 1
@@ -37,7 +41,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$4.39",
@@ -79,13 +83,13 @@
   "state_prices": [
     {
       "state": "TN",
-      "avg_price": 4.91,
-      "store_count": 17
+      "avg_price": 4.86,
+      "store_count": 18
     },
     {
       "state": "GA",
-      "avg_price": 4.88,
-      "store_count": 60
+      "avg_price": 4.84,
+      "store_count": 61
     },
     {
       "state": "FL",
@@ -108,6 +112,13 @@
     "serving_size_g": 206.9513
   },
   "cheapest_stores": [
+    {
+      "store_number": "042578",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 2.49
+    },
     {
       "store_number": "041488",
       "name": "Taco Bell (ATL Airport)",
@@ -170,17 +181,10 @@
       "city": "Lynn Haven",
       "state": "FL",
       "price": 3.99
-    },
-    {
-      "store_number": "042125",
-      "name": "Taco Bell",
-      "city": "Crestview",
-      "state": "FL",
-      "price": 3.99
     }
   ],
   "min_price_store_numbers": [
-    "041488"
+    "042578"
   ],
   "priciest_stores": [
     {
@@ -255,6 +259,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026432",
+      "store_name": "Taco Bell",
+      "city": "Pigeon Forge",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-06-25T21:25:43.789399+00:00"
+    },
+    {
+      "store_number": "042578",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-06-25T21:24:29.744693+00:00"
+    },
     {
       "store_number": "002302",
       "store_name": "Taco Bell",
@@ -1487,7 +1511,7 @@
     }
   ],
   "activity_summary": {
-    "added": 106,
+    "added": 108,
     "removed": 13,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1497,6 +1521,15 @@
   "calories_max": 660,
   "combo_groups": [],
   "map_data": [
+    [
+      "042578",
+      33.78032506878061,
+      -84.38918335266644,
+      2.49,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
+    ],
     [
       "041488",
       33.63840238391459,
@@ -1586,6 +1619,15 @@
       "Taco Bell",
       "Crestview",
       "FL"
+    ],
+    [
+      "026432",
+      35.80377693492917,
+      -83.58050286769867,
+      3.99,
+      "Taco Bell",
+      "Pigeon Forge",
+      "TN"
     ],
     [
       "004370",
@@ -2336,6 +2378,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-24",
+  "last_seen_date": "2026-06-25",
   "peak_availability_pct": 1.1
 }

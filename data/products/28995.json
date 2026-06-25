@@ -22,24 +22,24 @@
     "max": 3.49,
     "median": 3.49,
     "std_dev": 0.0,
-    "store_count": 39
+    "store_count": 40
   },
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 39
+      "count": 40
     }
   ],
   "state_prices": [
     {
-      "state": "MO",
-      "avg_price": 3.49,
-      "store_count": 27
-    },
-    {
       "state": "IL",
       "avg_price": 3.49,
       "store_count": 12
+    },
+    {
+      "state": "MO",
+      "avg_price": 3.49,
+      "store_count": 28
     }
   ],
   "nutrition": {
@@ -160,6 +160,7 @@
     "029680",
     "032142",
     "029666",
+    "029626",
     "029668",
     "029647",
     "028488",
@@ -227,21 +228,31 @@
       "price": 3.49
     },
     {
+      "store_number": "029626",
+      "name": "Taco Bell",
+      "city": "Saint Louis",
+      "state": "MO",
+      "price": 3.49
+    },
+    {
       "store_number": "029666",
       "name": "Taco Bell",
       "city": "Ballwin",
       "state": "MO",
       "price": 3.49
-    },
-    {
-      "store_number": "032142",
-      "name": "Taco Bell",
-      "city": "Jerseyville",
-      "state": "IL",
-      "price": 3.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029626",
+      "store_name": "Taco Bell",
+      "city": "Saint Louis",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-06-25T21:26:06.561773+00:00"
+    },
     {
       "store_number": "018367",
       "store_name": "Taco Bell",
@@ -814,7 +825,7 @@
     }
   ],
   "activity_summary": {
-    "added": 48,
+    "added": 49,
     "removed": 9,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1114,6 +1125,15 @@
       3.49,
       "Taco Bell",
       "Ballwin",
+      "MO"
+    ],
+    [
+      "029626",
+      38.62593379754423,
+      -90.28742852504365,
+      3.49,
+      "Taco Bell",
+      "Saint Louis",
       "MO"
     ],
     [

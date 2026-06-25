@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:07.824257+00:00",
   "availability_pct": 7.9,
   "price_stats": {
-    "avg": 1.2,
+    "avg": 1.21,
     "min": 0.69,
     "max": 7.99,
     "median": 1.05,
-    "std_dev": 0.47,
-    "store_count": 608
+    "std_dev": 0.54,
+    "store_count": 609
   },
   "histogram": [
     {
@@ -109,7 +109,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
@@ -149,6 +149,11 @@
       "store_count": 12
     },
     {
+      "state": "KS",
+      "avg_price": 1.27,
+      "store_count": 25
+    },
+    {
       "state": "NY",
       "avg_price": 1.21,
       "store_count": 21
@@ -172,11 +177,6 @@
       "state": "IL",
       "avg_price": 1.13,
       "store_count": 30
-    },
-    {
-      "state": "KS",
-      "avg_price": 0.99,
-      "store_count": 24
     },
     {
       "state": "WI",
@@ -290,6 +290,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "034394",
+      "name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "price": 7.99
+    },
+    {
       "store_number": "034405",
       "name": "Taco Bell",
       "city": "Kansas City",
@@ -351,16 +358,19 @@
       "city": "Glendale",
       "state": "AZ",
       "price": 2.09
-    },
-    {
-      "store_number": "004445",
-      "name": "Taco Bell",
-      "city": "Milpitas",
-      "state": "CA",
-      "price": 2.09
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034394",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-06-25T21:26:20.054862+00:00"
+    },
     {
       "store_number": "021487",
       "store_name": "Taco Bell",
@@ -2823,7 +2833,7 @@
     }
   ],
   "activity_summary": {
-    "added": 110,
+    "added": 111,
     "removed": 134,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
@@ -8304,6 +8314,15 @@
       "Taco Bell",
       "Kansas City",
       "MO"
+    ],
+    [
+      "034394",
+      39.12901809821786,
+      -94.82332013550149,
+      7.99,
+      "Taco Bell",
+      "Kansas City",
+      "KS"
     ]
   ],
   "retired_at": null,
@@ -8312,7 +8331,7 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 1.2,
+      "avg_price": 1.21,
       "min_price": 0.69,
       "max_price": 7.99,
       "calories": 80,
