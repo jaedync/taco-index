@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.4,
+    "avg": 10.36,
     "min": 9.49,
     "max": 10.99,
     "median": 10.29,
-    "std_dev": 0.43,
-    "store_count": 16
+    "std_dev": 0.42,
+    "store_count": 15
   },
   "histogram": [
     {
@@ -34,11 +34,11 @@
     },
     {
       "bucket": "$10.19",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$10.29",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$10.49",
@@ -58,13 +58,13 @@
     },
     {
       "bucket": "$10.99",
-      "count": 3
+      "count": 2
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.52,
+      "avg_price": 10.39,
       "store_count": 6
     }
   ],
@@ -119,11 +119,11 @@
       "price": 10.19
     },
     {
-      "store_number": "024403",
+      "store_number": "040706",
       "name": "Taco Bell",
-      "city": "Crossville",
-      "state": "TN",
-      "price": 10.29
+      "city": "Bonaire",
+      "state": "GA",
+      "price": 10.19
     },
     {
       "store_number": "026432",
@@ -170,13 +170,6 @@
       "name": "Taco Bell",
       "city": "Maryville",
       "state": "TN",
-      "price": 10.99
-    },
-    {
-      "store_number": "041229",
-      "name": "Taco Bell",
-      "city": "Powder Springs",
-      "state": "GA",
       "price": 10.99
     },
     {
@@ -227,9 +220,46 @@
       "city": "Pigeon Forge",
       "state": "TN",
       "price": 10.29
+    },
+    {
+      "store_number": "040706",
+      "name": "Taco Bell",
+      "city": "Bonaire",
+      "state": "GA",
+      "price": 10.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040706",
+      "store_name": "Taco Bell",
+      "city": "Bonaire",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.19,
+      "observed_at": "2026-06-26T20:53:40.139514+00:00"
+    },
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-06-26T20:53:06.900474+00:00"
+    },
+    {
+      "store_number": "041229",
+      "store_name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-26T20:52:26.210893+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -1192,8 +1222,8 @@
     }
   ],
   "activity_summary": {
-    "added": 56,
-    "removed": 40,
+    "added": 57,
+    "removed": 42,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1279,13 +1309,13 @@
       "AL"
     ],
     [
-      "024403",
-      35.96722562647426,
-      -85.03864054957367,
-      10.29,
+      "040706",
+      32.54757441016544,
+      -83.59649819664405,
+      10.19,
       "Taco Bell",
-      "Crossville",
-      "TN"
+      "Bonaire",
+      "GA"
     ],
     [
       "026432",
@@ -1351,15 +1381,6 @@
       "TN"
     ],
     [
-      "041229",
-      33.85923288371655,
-      -84.67192824394984,
-      10.99,
-      "Taco Bell",
-      "Powder Springs",
-      "GA"
-    ],
-    [
       "035461",
       35.75640600000001,
       -83.9419497,
@@ -1379,6 +1400,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-25",
+  "last_seen_date": "2026-06-26",
   "peak_availability_pct": 0.2
 }

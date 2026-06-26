@@ -15,14 +15,14 @@
   "peak_30d_pct": 1.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
-  "availability_pct": 1.1,
+  "availability_pct": 1.2,
   "price_stats": {
-    "avg": 3.78,
+    "avg": 3.77,
     "min": 2.99,
     "max": 4.99,
     "median": 3.89,
     "std_dev": 0.27,
-    "store_count": 87
+    "store_count": 89
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$3.49",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$3.59",
@@ -47,7 +47,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 30
+      "count": 31
     },
     {
       "bucket": "$4.99",
@@ -57,13 +57,13 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 3.88,
-      "store_count": 28
+      "avg_price": 3.89,
+      "store_count": 29
     },
     {
       "state": "GA",
       "avg_price": 3.71,
-      "store_count": 57
+      "store_count": 58
     }
   ],
   "nutrition": {
@@ -131,6 +131,13 @@
       "price": 3.49
     },
     {
+      "store_number": "042579",
+      "name": "Taco Bell",
+      "city": "Braselton",
+      "state": "GA",
+      "price": 3.49
+    },
+    {
       "store_number": "040929",
       "name": "Taco Bell",
       "city": "Greensboro",
@@ -141,13 +148,6 @@
       "store_number": "041105",
       "name": "Taco Bell",
       "city": "Jefferson",
-      "state": "GA",
-      "price": 3.59
-    },
-    {
-      "store_number": "041088",
-      "name": "Taco Bell",
-      "city": "Covington",
       "state": "GA",
       "price": 3.59
     }
@@ -222,14 +222,34 @@
       "price": 3.99
     },
     {
-      "store_number": "042896",
+      "store_number": "042873",
       "name": "Taco Bell",
-      "city": "Vero Beach",
+      "city": "Fernandina Beach",
       "state": "FL",
       "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042579",
+      "store_name": "Taco Bell",
+      "city": "Braselton",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-06-26T20:53:43.590417+00:00"
+    },
+    {
+      "store_number": "042873",
+      "store_name": "Taco Bell",
+      "city": "Fernandina Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-06-26T20:52:52.531929+00:00"
+    },
     {
       "store_number": "042579",
       "store_name": "Taco Bell",
@@ -1482,7 +1502,7 @@
     }
   ],
   "activity_summary": {
-    "added": 55,
+    "added": 57,
     "removed": 23,
     "price_changed": 47,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1553,6 +1573,15 @@
       3.49,
       "Taco Bell",
       "Gainesville",
+      "GA"
+    ],
+    [
+      "042579",
+      34.12164984277345,
+      -83.764132739823,
+      3.49,
+      "Taco Bell",
+      "Braselton",
       "GA"
     ],
     [
@@ -2192,6 +2221,15 @@
       3.99,
       "Taco Bell",
       "Vero Beach",
+      "FL"
+    ],
+    [
+      "042873",
+      30.64416933181493,
+      -81.4587006671718,
+      3.99,
+      "Taco Bell",
+      "Fernandina Beach",
       "FL"
     ],
     [

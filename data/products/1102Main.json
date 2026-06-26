@@ -15,17 +15,17 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.4,
+    "avg": 2.44,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.29,
-    "std_dev": 0.27,
-    "store_count": 7
+    "median": 2.34,
+    "std_dev": 0.28,
+    "store_count": 6
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$2.29",
@@ -43,13 +43,6 @@
   "state_prices": [],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "038757",
-      "name": "Taco Bell",
-      "city": "Jamaica",
-      "state": "NY",
-      "price": 2.19
-    },
     {
       "store_number": "035456",
       "name": "Taco Bell Cantina Cantina",
@@ -94,7 +87,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "038757",
     "035456",
     "034859"
   ],
@@ -140,16 +132,19 @@
       "city": "Phoenix",
       "state": "AZ",
       "price": 2.19
-    },
-    {
-      "store_number": "038757",
-      "name": "Taco Bell",
-      "city": "Jamaica",
-      "state": "NY",
-      "price": 2.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038757",
+      "store_name": "Taco Bell",
+      "city": "Jamaica",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-06-26T20:53:39.558385+00:00"
+    },
     {
       "store_number": "040994",
       "store_name": "Taco Bell Cantina Cantina",
@@ -433,7 +428,7 @@
   ],
   "activity_summary": {
     "added": 13,
-    "removed": 15,
+    "removed": 16,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -442,15 +437,6 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
-    [
-      "038757",
-      40.70585013667496,
-      -73.79174928226273,
-      2.19,
-      "Taco Bell",
-      "Jamaica",
-      "NY"
-    ],
     [
       "035456",
       33.44756457602134,

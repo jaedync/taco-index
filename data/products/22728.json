@@ -20,7 +20,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 223
+    "store_count": 224
   },
   "histogram": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 62
+      "count": 63
     },
     {
       "bucket": "$0.95",
@@ -150,6 +150,11 @@
     },
     {
       "state": "SC",
+      "avg_price": 0.88,
+      "store_count": 5
+    },
+    {
+      "state": "NE",
       "avg_price": 0.88,
       "store_count": 5
     },
@@ -321,6 +326,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016957",
+      "store_name": "Taco Bell",
+      "city": "Grand Island",
+      "state": "NE",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-06-26T20:52:50.602441+00:00"
+    },
     {
       "store_number": "021459",
       "store_name": "Taco Bell",
@@ -5283,7 +5298,7 @@
     }
   ],
   "activity_summary": {
-    "added": 265,
+    "added": 266,
     "removed": 231,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -6129,6 +6144,15 @@
       "Taco Bell",
       "Blaine",
       "MN"
+    ],
+    [
+      "016957",
+      40.93906940950212,
+      -98.3840382099151,
+      0.9,
+      "Taco Bell",
+      "Grand Island",
+      "NE"
     ],
     [
       "041086",
@@ -7302,6 +7326,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-25",
+  "last_seen_date": "2026-06-26",
   "peak_availability_pct": 2.7
 }

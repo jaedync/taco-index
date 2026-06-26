@@ -14,19 +14,19 @@
   "peak_30d_pct": 6.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-06-18T21:25:00.941035+00:00",
-  "availability_pct": 6.3,
+  "availability_pct": 6.2,
   "price_stats": {
-    "avg": 9.18,
+    "avg": 9.2,
     "min": 9.0,
-    "max": 11.99,
+    "max": 12.99,
     "median": 9.0,
-    "std_dev": 0.53,
-    "store_count": 483
+    "std_dev": 0.61,
+    "store_count": 481
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 422
+      "count": 418
     },
     {
       "bucket": "$9.49",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 35
+      "count": 34
     },
     {
       "bucket": "$11.29",
@@ -43,6 +43,10 @@
     {
       "bucket": "$11.99",
       "count": 1
+    },
+    {
+      "bucket": "$12.99",
+      "count": 3
     }
   ],
   "state_prices": [
@@ -58,18 +62,18 @@
     },
     {
       "state": "GA",
-      "avg_price": 9.25,
-      "store_count": 236
+      "avg_price": 9.3,
+      "store_count": 234
     },
     {
       "state": "AL",
-      "avg_price": 9.1,
-      "store_count": 118
+      "avg_price": 9.09,
+      "store_count": 117
     },
     {
       "state": "TN",
       "avg_price": 9.01,
-      "store_count": 86
+      "store_count": 87
     }
   ],
   "nutrition": {
@@ -218,7 +222,6 @@
     "036011",
     "036519",
     "037099",
-    "032055",
     "036937",
     "037100",
     "037050",
@@ -246,7 +249,6 @@
     "033295",
     "037153",
     "042580",
-    "032598",
     "021079",
     "036290",
     "032542",
@@ -266,7 +268,6 @@
     "037332",
     "037341",
     "037460",
-    "037728",
     "038733",
     "037835",
     "037486",
@@ -403,14 +404,12 @@
     "029108",
     "041232",
     "041251",
-    "003889",
     "016498",
     "032577",
     "003841",
     "041800",
     "005323",
     "042131",
-    "042574",
     "041237",
     "018166",
     "002302",
@@ -482,6 +481,7 @@
     "003652",
     "023238",
     "029082",
+    "030359",
     "039931",
     "026676",
     "041236",
@@ -584,6 +584,27 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "037728",
+      "name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "price": 12.99
+    },
+    {
+      "store_number": "032598",
+      "name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "price": 12.99
+    },
+    {
+      "store_number": "032055",
+      "name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "price": 12.99
+    },
+    {
       "store_number": "026342",
       "name": "Taco Bell",
       "city": "Lawrenceville",
@@ -631,30 +652,79 @@
       "city": "Decatur",
       "state": "GA",
       "price": 11.29
-    },
-    {
-      "store_number": "041220",
-      "name": "Taco Bell",
-      "city": "Fayetteville",
-      "state": "GA",
-      "price": 11.29
-    },
-    {
-      "store_number": "041210",
-      "name": "Taco Bell",
-      "city": "Lawrenceville",
-      "state": "GA",
-      "price": 11.29
-    },
-    {
-      "store_number": "041214",
-      "name": "Taco Bell",
-      "city": "Decatur",
-      "state": "GA",
-      "price": 11.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-06-26T20:52:43.201177+00:00"
+    },
+    {
+      "store_number": "042574",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-26T20:52:22.915614+00:00"
+    },
+    {
+      "store_number": "003889",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-06-26T20:52:20.809453+00:00"
+    },
+    {
+      "store_number": "043141",
+      "store_name": "Taco Bell",
+      "city": "Rainsville",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-06-26T20:52:06.491012+00:00"
+    },
+    {
+      "store_number": "037728",
+      "store_name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 9.0,
+      "new_price": 12.99,
+      "observed_at": "2026-06-26T20:51:29.053336+00:00"
+    },
+    {
+      "store_number": "032598",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 9.0,
+      "new_price": 12.99,
+      "observed_at": "2026-06-26T20:51:23.364864+00:00"
+    },
+    {
+      "store_number": "032055",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 9.0,
+      "new_price": 12.99,
+      "observed_at": "2026-06-26T20:51:12.637667+00:00"
+    },
     {
       "store_number": "039701",
       "store_name": "Taco Bell",
@@ -15747,9 +15817,9 @@
     }
   ],
   "activity_summary": {
-    "added": 996,
-    "removed": 513,
-    "price_changed": 0,
+    "added": 997,
+    "removed": 516,
+    "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 1290,
@@ -16314,15 +16384,6 @@
       "AL"
     ],
     [
-      "032055",
-      34.0647052,
-      -83.9841147,
-      9.0,
-      "Taco Bell",
-      "Buford",
-      "GA"
-    ],
-    [
       "036937",
       32.492787398157375,
       -86.40598023039077,
@@ -16566,15 +16627,6 @@
       "GA"
     ],
     [
-      "032598",
-      33.7277324733473,
-      -84.74573254884817,
-      9.0,
-      "Taco Bell",
-      "Douglasville",
-      "GA"
-    ],
-    [
       "021079",
       35.9255374321459,
       -84.03806300242616,
@@ -16744,15 +16796,6 @@
       "Taco Bell",
       "Tuscaloosa",
       "AL"
-    ],
-    [
-      "037728",
-      34.01794478344271,
-      -84.56413769853002,
-      9.0,
-      "Taco Bell",
-      "Kennesaw",
-      "GA"
     ],
     [
       "038733",
@@ -17979,15 +18022,6 @@
       "GA"
     ],
     [
-      "003889",
-      33.966106,
-      -84.410766,
-      9.0,
-      "Taco Bell",
-      "Marietta",
-      "GA"
-    ],
-    [
       "016498",
       36.02763070798266,
       -83.92744351247065,
@@ -18040,15 +18074,6 @@
       "Taco Bell",
       "Marianna",
       "FL"
-    ],
-    [
-      "042574",
-      33.910308019300345,
-      -84.82438392472432,
-      9.0,
-      "Taco Bell",
-      "Dallas",
-      "GA"
     ],
     [
       "041237",
@@ -18688,6 +18713,15 @@
       "Taco Bell",
       "Opelika",
       "AL"
+    ],
+    [
+      "030359",
+      35.71724098570292,
+      -84.01247182491716,
+      9.0,
+      "Taco Bell",
+      "Maryville",
+      "TN"
     ],
     [
       "039931",
@@ -19725,15 +19759,6 @@
       "AL"
     ],
     [
-      "043141",
-      34.49514403660317,
-      -85.84738254547119,
-      9.99,
-      "Taco Bell",
-      "Rainsville",
-      "AL"
-    ],
-    [
       "042819",
       30.63995901293325,
       -88.18682670593262,
@@ -20128,9 +20153,36 @@
       "Taco Bell",
       "Lawrenceville",
       "GA"
+    ],
+    [
+      "032055",
+      34.0647052,
+      -83.9841147,
+      12.99,
+      "Taco Bell",
+      "Buford",
+      "GA"
+    ],
+    [
+      "032598",
+      33.7277324733473,
+      -84.74573254884817,
+      12.99,
+      "Taco Bell",
+      "Douglasville",
+      "GA"
+    ],
+    [
+      "037728",
+      34.01794478344271,
+      -84.56413769853002,
+      12.99,
+      "Taco Bell",
+      "Kennesaw",
+      "GA"
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-06-25",
+  "last_seen_date": "2026-06-26",
   "peak_availability_pct": 6.0
 }

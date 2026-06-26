@@ -21,12 +21,12 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 45
+    "store_count": 44
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 45
+      "count": 44
     }
   ],
   "state_prices": [
@@ -38,7 +38,7 @@
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 18
+      "store_count": 17
     },
     {
       "state": "IN",
@@ -72,13 +72,6 @@
       "store_number": "041027",
       "name": "Taco Bell",
       "city": "Monroe",
-      "state": "MI",
-      "price": 4.99
-    },
-    {
-      "store_number": "040463",
-      "name": "Taco Bell",
-      "city": "Trenton",
       "state": "MI",
       "price": 4.99
     },
@@ -130,12 +123,18 @@
       "city": "Parma",
       "state": "OH",
       "price": 4.99
+    },
+    {
+      "store_number": "033308",
+      "name": "Taco Bell",
+      "city": "Clawson",
+      "state": "MI",
+      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
     "040933",
     "041027",
-    "040463",
     "042062",
     "040932",
     "034276",
@@ -252,6 +251,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040463",
+      "store_name": "Taco Bell",
+      "city": "Trenton",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-06-26T20:50:58.427604+00:00"
+    },
     {
       "store_number": "035411",
       "store_name": "Taco Bell",
@@ -15775,7 +15784,7 @@
   ],
   "activity_summary": {
     "added": 799,
-    "removed": 753,
+    "removed": 754,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15800,15 +15809,6 @@
       4.99,
       "Taco Bell",
       "Monroe",
-      "MI"
-    ],
-    [
-      "040463",
-      42.12725380858466,
-      -83.20273352527417,
-      4.99,
-      "Taco Bell",
-      "Trenton",
       "MI"
     ],
     [
@@ -16191,6 +16191,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-25",
+  "last_seen_date": "2026-06-26",
   "peak_availability_pct": 7.0
 }

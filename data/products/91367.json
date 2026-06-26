@@ -18,7 +18,7 @@
   "price_stats": {
     "avg": 6.12,
     "min": 5.99,
-    "max": 6.49,
+    "max": 6.79,
     "median": 5.99,
     "std_dev": 0.22,
     "store_count": 488
@@ -30,7 +30,11 @@
     },
     {
       "bucket": "$6.49",
-      "count": 124
+      "count": 121
+    },
+    {
+      "bucket": "$6.79",
+      "count": 3
     }
   ],
   "state_prices": [
@@ -41,8 +45,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 6.17,
-      "store_count": 239
+      "avg_price": 6.18,
+      "store_count": 238
     },
     {
       "state": "FL",
@@ -52,7 +56,7 @@
     {
       "state": "TN",
       "avg_price": 6.11,
-      "store_count": 88
+      "store_count": 89
     },
     {
       "state": "AL",
@@ -370,7 +374,6 @@
     "016289",
     "042828",
     "029108",
-    "003889",
     "016498",
     "032577",
     "041800",
@@ -434,6 +437,7 @@
     "041216",
     "003652",
     "029082",
+    "030359",
     "041223",
     "039931",
     "043139",
@@ -514,6 +518,27 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "037728",
+      "name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "price": 6.79
+    },
+    {
+      "store_number": "032598",
+      "name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "price": 6.79
+    },
+    {
+      "store_number": "032055",
+      "name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "price": 6.79
+    },
+    {
       "store_number": "031583",
       "name": "Taco Bell",
       "city": "Beaufort",
@@ -561,30 +586,59 @@
       "city": "Carrollton",
       "state": "GA",
       "price": 6.49
-    },
-    {
-      "store_number": "041241",
-      "name": "Taco Bell",
-      "city": "Athens",
-      "state": "GA",
-      "price": 6.49
-    },
-    {
-      "store_number": "039921",
-      "name": "Taco Bell",
-      "city": "Pooler",
-      "state": "GA",
-      "price": 6.49
-    },
-    {
-      "store_number": "041230",
-      "name": "Taco Bell",
-      "city": "Alpharetta",
-      "state": "GA",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-06-26T20:52:43.201177+00:00"
+    },
+    {
+      "store_number": "003889",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-06-26T20:52:20.809453+00:00"
+    },
+    {
+      "store_number": "037728",
+      "store_name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 6.49,
+      "new_price": 6.79,
+      "observed_at": "2026-06-26T20:51:29.053336+00:00"
+    },
+    {
+      "store_number": "032598",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 6.49,
+      "new_price": 6.79,
+      "observed_at": "2026-06-26T20:51:23.364864+00:00"
+    },
+    {
+      "store_number": "032055",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 6.49,
+      "new_price": 6.79,
+      "observed_at": "2026-06-26T20:51:12.637667+00:00"
+    },
     {
       "store_number": "003824",
       "store_name": "Taco Bell",
@@ -5687,9 +5741,9 @@
     }
   ],
   "activity_summary": {
-    "added": 499,
-    "removed": 11,
-    "price_changed": 0,
+    "added": 500,
+    "removed": 12,
+    "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 720,
@@ -7705,15 +7759,6 @@
       "GA"
     ],
     [
-      "003889",
-      33.966106,
-      -84.410766,
-      5.99,
-      "Taco Bell",
-      "Marietta",
-      "GA"
-    ],
-    [
       "016498",
       36.02763070798266,
       -83.92744351247065,
@@ -8279,6 +8324,15 @@
       "Taco Bell",
       "Opelika",
       "AL"
+    ],
+    [
+      "030359",
+      35.71724098570292,
+      -84.01247182491716,
+      5.99,
+      "Taco Bell",
+      "Maryville",
+      "TN"
     ],
     [
       "041223",
@@ -9118,15 +9172,6 @@
       "GA"
     ],
     [
-      "032055",
-      34.0647052,
-      -83.9841147,
-      6.49,
-      "Taco Bell",
-      "Buford",
-      "GA"
-    ],
-    [
       "037100",
       35.366584915695654,
       -85.39338904355265,
@@ -9143,15 +9188,6 @@
       "Taco Bell",
       "Wartburg",
       "TN"
-    ],
-    [
-      "032598",
-      33.7277324733473,
-      -84.74573254884817,
-      6.49,
-      "Taco Bell",
-      "Douglasville",
-      "GA"
     ],
     [
       "036290",
@@ -9187,15 +9223,6 @@
       6.49,
       "Taco Bell",
       "Buford",
-      "GA"
-    ],
-    [
-      "037728",
-      34.01794478344271,
-      -84.56413769853002,
-      6.49,
-      "Taco Bell",
-      "Kennesaw",
       "GA"
     ],
     [
@@ -10088,6 +10115,33 @@
       "Taco Bell",
       "Beaufort",
       "SC"
+    ],
+    [
+      "032055",
+      34.0647052,
+      -83.9841147,
+      6.79,
+      "Taco Bell",
+      "Buford",
+      "GA"
+    ],
+    [
+      "032598",
+      33.7277324733473,
+      -84.74573254884817,
+      6.79,
+      "Taco Bell",
+      "Douglasville",
+      "GA"
+    ],
+    [
+      "037728",
+      34.01794478344271,
+      -84.56413769853002,
+      6.79,
+      "Taco Bell",
+      "Kennesaw",
+      "GA"
     ]
   ],
   "retired_at": null,

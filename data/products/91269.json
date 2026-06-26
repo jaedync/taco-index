@@ -16,17 +16,21 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.84,
+    "avg": 6.83,
     "min": 6.49,
     "max": 7.49,
-    "median": 6.64,
-    "std_dev": 0.41,
-    "store_count": 18
+    "median": 6.69,
+    "std_dev": 0.4,
+    "store_count": 17
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 9
+      "count": 8
+    },
+    {
+      "bucket": "$6.69",
+      "count": 1
     },
     {
       "bucket": "$6.79",
@@ -38,7 +42,7 @@
     },
     {
       "bucket": "$7.29",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$7.39",
@@ -52,7 +56,7 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 7.06,
+      "avg_price": 7.0,
       "store_count": 10
     }
   ],
@@ -83,13 +87,6 @@
       "name": "Taco Bell / KFC",
       "city": "Locust Grove",
       "state": "GA",
-      "price": 6.49
-    },
-    {
-      "store_number": "024403",
-      "name": "Taco Bell",
-      "city": "Crossville",
-      "state": "TN",
       "price": 6.49
     },
     {
@@ -135,6 +132,13 @@
       "price": 6.49
     },
     {
+      "store_number": "040706",
+      "name": "Taco Bell",
+      "city": "Bonaire",
+      "state": "GA",
+      "price": 6.69
+    },
+    {
       "store_number": "042119",
       "name": "Taco Bell",
       "city": "Hope Hull",
@@ -145,7 +149,6 @@
   "min_price_store_numbers": [
     "042903",
     "031389",
-    "024403",
     "026432",
     "042123",
     "042829",
@@ -190,13 +193,6 @@
       "price": 7.29
     },
     {
-      "store_number": "041229",
-      "name": "Taco Bell",
-      "city": "Powder Springs",
-      "state": "GA",
-      "price": 7.29
-    },
-    {
       "store_number": "002995",
       "name": "Taco Bell",
       "city": "Smyrna",
@@ -218,6 +214,13 @@
       "price": 6.79
     },
     {
+      "store_number": "040706",
+      "name": "Taco Bell",
+      "city": "Bonaire",
+      "state": "GA",
+      "price": 6.69
+    },
+    {
       "store_number": "042583",
       "name": "Taco Bell",
       "city": "Clarkesville",
@@ -226,6 +229,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040706",
+      "store_name": "Taco Bell",
+      "city": "Bonaire",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.69,
+      "observed_at": "2026-06-26T20:53:40.139514+00:00"
+    },
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-06-26T20:53:06.900474+00:00"
+    },
+    {
+      "store_number": "041229",
+      "store_name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 7.29,
+      "new_price": null,
+      "observed_at": "2026-06-26T20:52:26.210893+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -1138,8 +1171,8 @@
     }
   ],
   "activity_summary": {
-    "added": 43,
-    "removed": 48,
+    "added": 44,
+    "removed": 50,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1184,15 +1217,6 @@
       "Taco Bell / KFC",
       "Locust Grove",
       "GA"
-    ],
-    [
-      "024403",
-      35.96722562647426,
-      -85.03864054957367,
-      6.49,
-      "Taco Bell",
-      "Crossville",
-      "TN"
     ],
     [
       "026432",
@@ -1249,6 +1273,15 @@
       "GA"
     ],
     [
+      "040706",
+      32.54757441016544,
+      -83.59649819664405,
+      6.69,
+      "Taco Bell",
+      "Bonaire",
+      "GA"
+    ],
+    [
       "042119",
       32.270159,
       -86.355812,
@@ -1273,15 +1306,6 @@
       6.89,
       "Taco Bell",
       "Smyrna",
-      "GA"
-    ],
-    [
-      "041229",
-      33.85923288371655,
-      -84.67192824394984,
-      7.29,
-      "Taco Bell",
-      "Powder Springs",
       "GA"
     ],
     [
