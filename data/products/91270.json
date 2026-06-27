@@ -21,7 +21,7 @@
     "max": 10.49,
     "median": 8.69,
     "std_dev": 0.5,
-    "store_count": 150
+    "store_count": 149
   },
   "histogram": [
     {
@@ -38,11 +38,11 @@
     },
     {
       "bucket": "$8.39",
-      "count": 18
+      "count": 17
     },
     {
       "bucket": "$8.49",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$8.59",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$8.99",
-      "count": 20
+      "count": 19
     },
     {
       "bucket": "$10.49",
@@ -73,12 +73,12 @@
     {
       "state": "GA",
       "avg_price": 8.89,
-      "store_count": 67
+      "store_count": 65
     },
     {
       "state": "AL",
       "avg_price": 8.6,
-      "store_count": 56
+      "store_count": 57
     },
     {
       "state": "TN",
@@ -235,13 +235,6 @@
       "price": 10.49
     },
     {
-      "store_number": "041252",
-      "name": "Taco Bell",
-      "city": "Alpharetta",
-      "state": "GA",
-      "price": 8.99
-    },
-    {
       "store_number": "041239",
       "name": "Taco Bell",
       "city": "Marietta",
@@ -254,9 +247,46 @@
       "city": "Marietta",
       "state": "GA",
       "price": 8.99
+    },
+    {
+      "store_number": "041250",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 8.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041252",
+      "store_name": "Taco Bell",
+      "city": "Alpharetta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-06-27T20:54:03.988503+00:00"
+    },
+    {
+      "store_number": "005482",
+      "store_name": "Taco Bell",
+      "city": "Peachtree City",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 8.39,
+      "new_price": null,
+      "observed_at": "2026-06-27T20:53:56.900524+00:00"
+    },
+    {
+      "store_number": "043141",
+      "store_name": "Taco Bell",
+      "city": "Rainsville",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.49,
+      "observed_at": "2026-06-27T20:43:49.148136+00:00"
+    },
     {
       "store_number": "040706",
       "store_name": "Taco Bell",
@@ -15109,8 +15139,8 @@
     }
   ],
   "activity_summary": {
-    "added": 683,
-    "removed": 533,
+    "added": 684,
+    "removed": 535,
     "price_changed": 269,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15118,12 +15148,6 @@
   "calories_min": 530,
   "calories_max": 530,
   "combo_groups": [
-    {
-      "group_id": "675",
-      "title": "Cantina Chicken Bowl",
-      "default_product_code": "91261",
-      "default_product_name": "Cantina Chicken Bowl"
-    },
     {
       "group_id": "451",
       "title": "Avocado Verde Salsa Sauce Packet",
@@ -15457,15 +15481,6 @@
       "TN"
     ],
     [
-      "005482",
-      33.37512829084298,
-      -84.5632732716386,
-      8.39,
-      "Taco Bell",
-      "Peachtree City",
-      "GA"
-    ],
-    [
       "033481",
       33.73376376352933,
       -84.90097259926127,
@@ -15527,6 +15542,15 @@
       "Taco Bell",
       "Griffin",
       "GA"
+    ],
+    [
+      "043141",
+      34.49514403660317,
+      -85.84738254547119,
+      8.49,
+      "Taco Bell",
+      "Rainsville",
+      "AL"
     ],
     [
       "042574",
@@ -16411,15 +16435,6 @@
       "GA"
     ],
     [
-      "041252",
-      34.04979486358939,
-      -84.28692698478699,
-      8.99,
-      "Taco Bell",
-      "Alpharetta",
-      "GA"
-    ],
-    [
       "041226",
       33.63425717999579,
       -84.29043754019565,
@@ -16484,6 +16499,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-26",
+  "last_seen_date": "2026-06-27",
   "peak_availability_pct": 6.0
 }

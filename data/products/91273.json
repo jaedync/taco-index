@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.9,
   "price_stats": {
-    "avg": 9.78,
+    "avg": 9.8,
     "min": 8.99,
     "max": 11.99,
     "median": 9.69,
     "std_dev": 0.43,
-    "store_count": 149
+    "store_count": 148
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 9
+      "count": 8
     },
     {
       "bucket": "$9.19",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$9.29",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$9.49",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$10.29",
-      "count": 25
+      "count": 26
     },
     {
       "bucket": "$10.39",
@@ -88,13 +88,13 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.92,
-      "store_count": 66
+      "avg_price": 9.94,
+      "store_count": 65
     },
     {
       "state": "AL",
-      "avg_price": 9.71,
-      "store_count": 56
+      "avg_price": 9.72,
+      "store_count": 57
     },
     {
       "state": "TN",
@@ -103,8 +103,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 9.51,
-      "store_count": 12
+      "avg_price": 9.53,
+      "store_count": 11
     }
   ],
   "nutrition": null,
@@ -166,16 +166,16 @@
       "price": 8.99
     },
     {
-      "store_number": "005482",
-      "name": "Taco Bell",
-      "city": "Peachtree City",
-      "state": "GA",
-      "price": 8.99
-    },
-    {
       "store_number": "037050",
       "name": "Taco Bell",
       "city": "Wartburg",
+      "state": "TN",
+      "price": 9.19
+    },
+    {
+      "store_number": "037100",
+      "name": "Taco Bell",
+      "city": "Dunlap",
       "state": "TN",
       "price": 9.19
     }
@@ -188,8 +188,7 @@
     "041799",
     "003652",
     "003404",
-    "002167",
-    "005482"
+    "002167"
   ],
   "priciest_stores": [
     {
@@ -264,6 +263,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "005482",
+      "store_name": "Taco Bell",
+      "city": "Peachtree City",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-06-27T20:53:56.900524+00:00"
+    },
+    {
+      "store_number": "043141",
+      "store_name": "Taco Bell",
+      "city": "Rainsville",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.29,
+      "observed_at": "2026-06-27T20:43:49.148136+00:00"
+    },
+    {
+      "store_number": "042127",
+      "store_name": "Taco Bell",
+      "city": "Fort Walton Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.29,
+      "new_price": null,
+      "observed_at": "2026-06-27T20:43:19.953733+00:00"
+    },
     {
       "store_number": "040706",
       "store_name": "Taco Bell",
@@ -15976,8 +16005,8 @@
     }
   ],
   "activity_summary": {
-    "added": 686,
-    "removed": 537,
+    "added": 687,
+    "removed": 539,
     "price_changed": 348,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15990,18 +16019,6 @@
       "title": "Fountain Drink - Large",
       "default_product_code": "22902",
       "default_product_name": "Large Fountain Drink"
-    },
-    {
-      "group_id": "658",
-      "title": "Cantina Chicken Crispy Taco",
-      "default_product_code": "91253",
-      "default_product_name": "Cantina Chicken Crispy Taco"
-    },
-    {
-      "group_id": "658",
-      "title": "Cantina Chicken Crispy Taco",
-      "default_product_code": "91253",
-      "default_product_name": "Cantina Chicken Crispy Taco"
     },
     {
       "group_id": "451",
@@ -16096,15 +16113,6 @@
       "GA"
     ],
     [
-      "005482",
-      33.37512829084298,
-      -84.5632732716386,
-      8.99,
-      "Taco Bell",
-      "Peachtree City",
-      "GA"
-    ],
-    [
       "037050",
       36.10306709232148,
       -84.58455685815763,
@@ -16138,15 +16146,6 @@
       9.29,
       "Taco Bell",
       "Freeport",
-      "FL"
-    ],
-    [
-      "042127",
-      30.452715860396843,
-      -86.63803450768683,
-      9.29,
-      "Taco Bell",
-      "Fort Walton Beach",
       "FL"
     ],
     [
@@ -17113,6 +17112,15 @@
       "GA"
     ],
     [
+      "043141",
+      34.49514403660317,
+      -85.84738254547119,
+      10.29,
+      "Taco Bell",
+      "Rainsville",
+      "AL"
+    ],
+    [
       "041249",
       33.96647033026141,
       -84.010348240854,
@@ -17366,6 +17374,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-26",
+  "last_seen_date": "2026-06-27",
   "peak_availability_pct": 5.9
 }

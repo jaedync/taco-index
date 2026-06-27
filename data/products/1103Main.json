@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.4,
+    "avg": 2.42,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.29,
-    "std_dev": 0.27,
-    "store_count": 7
+    "median": 2.34,
+    "std_dev": 0.25,
+    "store_count": 8
   },
   "histogram": [
     {
@@ -33,6 +33,10 @@
     },
     {
       "bucket": "$2.39",
+      "count": 1
+    },
+    {
+      "bucket": "$2.49",
       "count": 1
     },
     {
@@ -79,6 +83,13 @@
       "price": 2.39
     },
     {
+      "store_number": "037832",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 2.49
+    },
+    {
       "store_number": "034273",
       "name": "Taco Bell Cantina Cantina",
       "city": "New York",
@@ -112,6 +123,13 @@
       "city": "New York",
       "state": "NY",
       "price": 2.79
+    },
+    {
+      "store_number": "037832",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 2.49
     },
     {
       "store_number": "041337",
@@ -150,6 +168,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037832",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-06-27T20:43:15.892043+00:00"
+    },
     {
       "store_number": "034859",
       "store_name": "Taco Bell Cantina Cantina",
@@ -392,7 +420,7 @@
     }
   ],
   "activity_summary": {
-    "added": 11,
+    "added": 12,
     "removed": 13,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -448,6 +476,15 @@
       "DC"
     ],
     [
+      "037832",
+      40.70879208796513,
+      -73.95847624080733,
+      2.49,
+      "Taco Bell",
+      "Brooklyn",
+      "NY"
+    ],
+    [
       "034273",
       40.7624,
       -73.9854,
@@ -472,11 +509,11 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 2.36,
+      "avg_price": 2.37,
       "min_price": 2.0,
       "max_price": 2.79,
       "calories": 0,
-      "happier_hour_avg": 1.88
+      "happier_hour_avg": 1.89
     }
   ]
 }

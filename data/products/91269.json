@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.83,
+    "avg": 6.81,
     "min": 6.49,
     "max": 7.49,
-    "median": 6.69,
+    "median": 6.59,
     "std_dev": 0.4,
-    "store_count": 17
+    "store_count": 18
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$6.69",
@@ -132,18 +132,18 @@
       "price": 6.49
     },
     {
+      "store_number": "043141",
+      "name": "Taco Bell",
+      "city": "Rainsville",
+      "state": "AL",
+      "price": 6.49
+    },
+    {
       "store_number": "040706",
       "name": "Taco Bell",
       "city": "Bonaire",
       "state": "GA",
       "price": 6.69
-    },
-    {
-      "store_number": "042119",
-      "name": "Taco Bell",
-      "city": "Hope Hull",
-      "state": "AL",
-      "price": 6.79
     }
   ],
   "min_price_store_numbers": [
@@ -154,7 +154,8 @@
     "042829",
     "035461",
     "037369",
-    "042583"
+    "042583",
+    "043141"
   ],
   "priciest_stores": [
     {
@@ -221,14 +222,24 @@
       "price": 6.69
     },
     {
-      "store_number": "042583",
+      "store_number": "043141",
       "name": "Taco Bell",
-      "city": "Clarkesville",
-      "state": "GA",
+      "city": "Rainsville",
+      "state": "AL",
       "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043141",
+      "store_name": "Taco Bell",
+      "city": "Rainsville",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-06-27T20:43:49.148136+00:00"
+    },
     {
       "store_number": "040706",
       "store_name": "Taco Bell",
@@ -1171,7 +1182,7 @@
     }
   ],
   "activity_summary": {
-    "added": 44,
+    "added": 45,
     "removed": 50,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1180,12 +1191,6 @@
   "calories_min": 640,
   "calories_max": 640,
   "combo_groups": [
-    {
-      "group_id": "677",
-      "title": "Cantina Chicken Quesadilla",
-      "default_product_code": "91260",
-      "default_product_name": "Cantina Chicken Quesadilla"
-    },
     {
       "group_id": "390",
       "title": "Reduced Fat Sour Cream",
@@ -1271,6 +1276,15 @@
       "Taco Bell",
       "Clarkesville",
       "GA"
+    ],
+    [
+      "043141",
+      34.49514403660317,
+      -85.84738254547119,
+      6.49,
+      "Taco Bell",
+      "Rainsville",
+      "AL"
     ],
     [
       "040706",

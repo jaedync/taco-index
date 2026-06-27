@@ -20,7 +20,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 224
+    "store_count": 225
   },
   "histogram": [
     {
@@ -53,11 +53,11 @@
     },
     {
       "bucket": "$0.90",
-      "count": 63
+      "count": 65
     },
     {
       "bucket": "$0.95",
-      "count": 30
+      "count": 29
     },
     {
       "bucket": "$0.99",
@@ -135,13 +135,13 @@
     },
     {
       "state": "TN",
-      "avg_price": 0.91,
-      "store_count": 7
+      "avg_price": 0.9,
+      "store_count": 6
     },
     {
       "state": "MN",
       "avg_price": 0.9,
-      "store_count": 7
+      "store_count": 8
     },
     {
       "state": "KS",
@@ -326,6 +326,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029050",
+      "store_name": "Taco Bell",
+      "city": "Chattanooga",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-06-27T20:43:10.093438+00:00"
+    },
+    {
+      "store_number": "037186",
+      "store_name": "Taco Bell",
+      "city": "Carlsbad",
+      "state": "NM",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-06-27T20:42:41.639895+00:00"
+    },
+    {
+      "store_number": "042769",
+      "store_name": "Taco Bell",
+      "city": "Sparta",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-06-27T20:42:36.060695+00:00"
+    },
+    {
+      "store_number": "041027",
+      "store_name": "Taco Bell",
+      "city": "Monroe",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-06-27T20:40:38.771505+00:00"
+    },
+    {
+      "store_number": "040584",
+      "store_name": "Taco Bell",
+      "city": "Duluth",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-06-27T20:40:36.285935+00:00"
+    },
     {
       "store_number": "016957",
       "store_name": "Taco Bell",
@@ -5298,8 +5348,8 @@
     }
   ],
   "activity_summary": {
-    "added": 266,
-    "removed": 231,
+    "added": 269,
+    "removed": 233,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6092,6 +6142,15 @@
       "NE"
     ],
     [
+      "042769",
+      43.160614808378504,
+      -85.72218601200493,
+      0.9,
+      "Taco Bell",
+      "Sparta",
+      "MI"
+    ],
+    [
       "033027",
       43.20541969368313,
       -86.19753323572108,
@@ -6155,6 +6214,15 @@
       "NE"
     ],
     [
+      "040584",
+      46.8046,
+      -92.0697,
+      0.9,
+      "Taco Bell",
+      "Duluth",
+      "MN"
+    ],
+    [
       "041086",
       39.72009668768734,
       -82.98767904100833,
@@ -6170,15 +6238,6 @@
       0.95,
       "Taco Bell",
       "Macomb",
-      "MI"
-    ],
-    [
-      "041027",
-      41.9491,
-      -83.401,
-      0.95,
-      "Taco Bell",
-      "Monroe",
       "MI"
     ],
     [
@@ -6504,15 +6563,6 @@
       "Taco Bell",
       "Texas City",
       "TX"
-    ],
-    [
-      "029050",
-      35.115167503435934,
-      -85.25543691077918,
-      1.0,
-      "Taco Bell",
-      "Chattanooga",
-      "TN"
     ],
     [
       "033316",
@@ -6974,6 +7024,15 @@
       "AL"
     ],
     [
+      "037186",
+      32.41280702387556,
+      -104.2293097558067,
+      1.0,
+      "Taco Bell",
+      "Carlsbad",
+      "NM"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -7326,6 +7385,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-26",
+  "last_seen_date": "2026-06-27",
   "peak_availability_pct": 2.7
 }

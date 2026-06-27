@@ -16,7 +16,7 @@
   "first_seen_at": "2026-03-30T00:43:53.681925+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 3.68,
+    "avg": 3.66,
     "min": 3.49,
     "max": 3.79,
     "median": 3.69,
@@ -26,7 +26,7 @@
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 6
+      "count": 7
     },
     {
       "bucket": "$3.69",
@@ -34,14 +34,14 @@
     },
     {
       "bucket": "$3.79",
-      "count": 9
+      "count": 8
     }
   ],
   "state_prices": [
     {
       "state": "TX",
-      "avg_price": 3.76,
-      "store_count": 9
+      "avg_price": 3.75,
+      "store_count": 8
     },
     {
       "state": "CA",
@@ -107,6 +107,13 @@
       "price": 3.49
     },
     {
+      "store_number": "031895",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Las Vegas",
+      "state": "NV",
+      "price": 3.49
+    },
+    {
       "store_number": "041611",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "El Cajon",
@@ -126,13 +133,6 @@
       "city": "San Diego",
       "state": "CA",
       "price": 3.69
-    },
-    {
-      "store_number": "039841",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Riverside",
-      "state": "CA",
-      "price": 3.69
     }
   ],
   "min_price_store_numbers": [
@@ -141,7 +141,8 @@
     "039804",
     "027505",
     "039852",
-    "039795"
+    "039795",
+    "031895"
   ],
   "priciest_stores": [
     {
@@ -169,13 +170,6 @@
       "store_number": "021196",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Irving",
-      "state": "TX",
-      "price": 3.79
-    },
-    {
-      "store_number": "002981",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Watauga",
       "state": "TX",
       "price": 3.79
     },
@@ -213,9 +207,36 @@
       "city": "Rancho Cucamonga",
       "state": "CA",
       "price": 3.69
+    },
+    {
+      "store_number": "039841",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Riverside",
+      "state": "CA",
+      "price": 3.69
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031895",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-06-27T20:53:13.545596+00:00"
+    },
+    {
+      "store_number": "002981",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Watauga",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.79,
+      "new_price": null,
+      "observed_at": "2026-06-27T20:44:01.824115+00:00"
+    },
     {
       "store_number": "031895",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -608,8 +629,8 @@
     }
   ],
   "activity_summary": {
-    "added": 14,
-    "removed": 25,
+    "added": 15,
+    "removed": 26,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -671,6 +692,15 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Newhall",
       "CA"
+    ],
+    [
+      "031895",
+      36.02096277494928,
+      -115.12727299472317,
+      3.49,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Las Vegas",
+      "NV"
     ],
     [
       "041611",
@@ -751,15 +781,6 @@
       3.79,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "La Porte",
-      "TX"
-    ],
-    [
-      "002981",
-      32.859492632046816,
-      -97.23851025851218,
-      3.79,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Watauga",
       "TX"
     ],
     [

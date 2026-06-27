@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.9,
   "price_stats": {
-    "avg": 6.42,
+    "avg": 6.41,
     "min": 5.29,
     "max": 8.19,
     "median": 6.19,
-    "std_dev": 0.72,
-    "store_count": 149
+    "std_dev": 0.7,
+    "store_count": 148
   },
   "histogram": [
     {
       "bucket": "$5.29",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$5.49",
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$6.29",
-      "count": 10
+      "count": 11
     },
     {
       "bucket": "$6.39",
@@ -94,14 +94,14 @@
     },
     {
       "bucket": "$8.19",
-      "count": 17
+      "count": 16
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 6.71,
-      "store_count": 63
+      "store_count": 61
     },
     {
       "state": "TN",
@@ -110,8 +110,8 @@
     },
     {
       "state": "AL",
-      "avg_price": 6.2,
-      "store_count": 58
+      "avg_price": 6.21,
+      "store_count": 59
     },
     {
       "state": "FL",
@@ -150,13 +150,6 @@
       "price": 5.29
     },
     {
-      "store_number": "005482",
-      "name": "Taco Bell",
-      "city": "Peachtree City",
-      "state": "GA",
-      "price": 5.29
-    },
-    {
       "store_number": "037369",
       "name": "Taco Bell",
       "city": "Port St Joe",
@@ -190,23 +183,22 @@
       "city": "Cairo",
       "state": "GA",
       "price": 5.49
+    },
+    {
+      "store_number": "019713",
+      "name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "price": 5.49
     }
   ],
   "min_price_store_numbers": [
     "037332",
     "004740",
     "003404",
-    "002167",
-    "005482"
+    "002167"
   ],
   "priciest_stores": [
-    {
-      "store_number": "041252",
-      "name": "Taco Bell",
-      "city": "Alpharetta",
-      "state": "GA",
-      "price": 8.19
-    },
     {
       "store_number": "041239",
       "name": "Taco Bell",
@@ -269,9 +261,46 @@
       "city": "Suwanee",
       "state": "GA",
       "price": 8.19
+    },
+    {
+      "store_number": "041258",
+      "name": "Taco Bell",
+      "city": "Peachtree Corners",
+      "state": "GA",
+      "price": 8.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041252",
+      "store_name": "Taco Bell",
+      "city": "Alpharetta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 8.19,
+      "new_price": null,
+      "observed_at": "2026-06-27T20:54:03.988503+00:00"
+    },
+    {
+      "store_number": "005482",
+      "store_name": "Taco Bell",
+      "city": "Peachtree City",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.29,
+      "new_price": null,
+      "observed_at": "2026-06-27T20:53:56.900524+00:00"
+    },
+    {
+      "store_number": "043141",
+      "store_name": "Taco Bell",
+      "city": "Rainsville",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.29,
+      "observed_at": "2026-06-27T20:43:49.148136+00:00"
+    },
     {
       "store_number": "040706",
       "store_name": "Taco Bell",
@@ -13884,8 +13913,8 @@
     }
   ],
   "activity_summary": {
-    "added": 666,
-    "removed": 517,
+    "added": 667,
+    "removed": 519,
     "price_changed": 178,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13893,12 +13922,6 @@
   "calories_min": 570,
   "calories_max": 570,
   "combo_groups": [
-    {
-      "group_id": "657",
-      "title": "Cantina Chicken Burrito",
-      "default_product_code": "91254",
-      "default_product_name": "Cantina Chicken Burrito"
-    },
     {
       "group_id": "451",
       "title": "Avocado Verde Salsa Sauce Packet",
@@ -13941,15 +13964,6 @@
       5.29,
       "Taco Bell",
       "Atlanta",
-      "GA"
-    ],
-    [
-      "005482",
-      33.37512829084298,
-      -84.5632732716386,
-      5.29,
-      "Taco Bell",
-      "Peachtree City",
       "GA"
     ],
     [
@@ -14745,6 +14759,15 @@
       "TN"
     ],
     [
+      "043141",
+      34.49514403660317,
+      -85.84738254547119,
+      6.29,
+      "Taco Bell",
+      "Rainsville",
+      "AL"
+    ],
+    [
       "018166",
       33.89149409475321,
       -84.75320756435389,
@@ -15238,18 +15261,9 @@
       "Taco Bell",
       "Marietta",
       "GA"
-    ],
-    [
-      "041252",
-      34.04979486358939,
-      -84.28692698478699,
-      8.19,
-      "Taco Bell",
-      "Alpharetta",
-      "GA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-26",
+  "last_seen_date": "2026-06-27",
   "peak_availability_pct": 5.9
 }

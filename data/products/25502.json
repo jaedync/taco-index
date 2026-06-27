@@ -27,7 +27,7 @@
   "histogram": [
     {
       "bucket": "$2.49",
-      "count": 4551
+      "count": 4552
     },
     {
       "bucket": "$2.50",
@@ -43,7 +43,7 @@
     },
     {
       "bucket": "$2.59",
-      "count": 141
+      "count": 140
     },
     {
       "bucket": "$2.62",
@@ -153,14 +153,14 @@
       "store_count": 121
     },
     {
-      "state": "OR",
-      "avg_price": 2.78,
-      "store_count": 120
-    },
-    {
       "state": "DE",
       "avg_price": 2.78,
       "store_count": 16
+    },
+    {
+      "state": "OR",
+      "avg_price": 2.78,
+      "store_count": 121
     },
     {
       "state": "MD",
@@ -265,7 +265,7 @@
     {
       "state": "KY",
       "avg_price": 2.56,
-      "store_count": 161
+      "store_count": 160
     },
     {
       "state": "MO",
@@ -305,7 +305,7 @@
     {
       "state": "IN",
       "avg_price": 2.5,
-      "store_count": 257
+      "store_count": 256
     },
     {
       "state": "MN",
@@ -320,7 +320,7 @@
     {
       "state": "OK",
       "avg_price": 2.49,
-      "store_count": 126
+      "store_count": 127
     },
     {
       "state": "WY",
@@ -1358,7 +1358,6 @@
     "025505",
     "027539",
     "004014",
-    "003292",
     "020212",
     "031265",
     "027634",
@@ -1513,6 +1512,7 @@
     "021342",
     "002965",
     "001567",
+    "001896",
     "027796",
     "019191",
     "004590",
@@ -2543,7 +2543,6 @@
     "034182",
     "030898",
     "027366",
-    "032114",
     "031488",
     "016605",
     "030426",
@@ -2893,6 +2892,7 @@
     "026911",
     "001715",
     "018696",
+    "004402",
     "002952",
     "028278",
     "043024",
@@ -4391,6 +4391,7 @@
     "028884",
     "004665",
     "031405",
+    "033275",
     "034669",
     "029492",
     "042874",
@@ -4467,7 +4468,6 @@
     "038896",
     "028500",
     "030830",
-    "034661",
     "024769",
     "030071",
     "019310",
@@ -5015,7 +5015,8 @@
     "043049",
     "035832",
     "036405",
-    "042607"
+    "042607",
+    "042835"
   ],
   "priciest_stores": [
     {
@@ -5090,6 +5091,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042835",
+      "store_name": "Taco Bell",
+      "city": "Lexington",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-06-27T20:54:32.356307+00:00"
+    },
+    {
+      "store_number": "034661",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-06-27T20:54:04.080195+00:00"
+    },
+    {
+      "store_number": "033275",
+      "store_name": "Taco Bell",
+      "city": "Duncan",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-06-27T20:53:58.814995+00:00"
+    },
+    {
+      "store_number": "004402",
+      "store_name": "Taco Bell",
+      "city": "Ontario",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-06-27T20:44:57.755966+00:00"
+    },
+    {
+      "store_number": "032114",
+      "store_name": "Taco Bell",
+      "city": "South Bend",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-06-27T20:44:20.484153+00:00"
+    },
+    {
+      "store_number": "001896",
+      "store_name": "Taco Bell",
+      "city": "Farmington Hills",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-06-27T20:43:05.540248+00:00"
+    },
+    {
+      "store_number": "003292",
+      "store_name": "Taco Bell",
+      "city": "Clawson",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-06-27T20:42:56.407357+00:00"
+    },
+    {
+      "store_number": "034777",
+      "store_name": "Taco Bell",
+      "city": "Goose Creek",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 2.59,
+      "new_price": null,
+      "observed_at": "2026-06-27T20:42:13.060324+00:00"
+    },
     {
       "store_number": "026748",
       "store_name": "Taco Bell",
@@ -29822,8 +29903,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1009,
-    "removed": 1364,
+    "added": 1013,
+    "removed": 1368,
     "price_changed": 100,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -37870,15 +37951,6 @@
       "MI"
     ],
     [
-      "003292",
-      42.54632942443898,
-      -83.14733684062958,
-      2.49,
-      "Taco Bell",
-      "Clawson",
-      "MI"
-    ],
-    [
       "020212",
       41.881507763972365,
       -83.39580192232916,
@@ -39262,6 +39334,15 @@
       2.49,
       "Taco Bell",
       "Roseville",
+      "MI"
+    ],
+    [
+      "001896",
+      42.51641840702473,
+      -83.36022384000444,
+      2.49,
+      "Taco Bell",
+      "Farmington Hills",
       "MI"
     ],
     [
@@ -48535,15 +48616,6 @@
       "NY"
     ],
     [
-      "032114",
-      41.6724770623205,
-      -86.32028549909592,
-      2.49,
-      "Taco Bell",
-      "South Bend",
-      "IN"
-    ],
-    [
       "031488",
       43.03672898655349,
       -88.04666732277433,
@@ -51683,6 +51755,15 @@
       "Taco Bell",
       "Texarkana",
       "TX"
+    ],
+    [
+      "004402",
+      44.02520067918069,
+      -116.95665121078491,
+      2.49,
+      "Taco Bell",
+      "Ontario",
+      "OR"
     ],
     [
       "002952",
@@ -65167,6 +65248,15 @@
       "TX"
     ],
     [
+      "033275",
+      34.516303864265566,
+      -97.9673474282572,
+      2.49,
+      "Taco Bell",
+      "Duncan",
+      "OK"
+    ],
+    [
       "034669",
       38.086454816129006,
       -85.6685771048069,
@@ -65849,15 +65939,6 @@
       "Taco Bell",
       "Rock Springs",
       "WY"
-    ],
-    [
-      "034661",
-      38.245380554984266,
-      -85.75267374515533,
-      2.49,
-      "Taco Bell",
-      "Louisville",
-      "KY"
     ],
     [
       "024769",
@@ -70792,6 +70873,15 @@
       "LA"
     ],
     [
+      "042835",
+      33.979827,
+      -81.308142,
+      2.49,
+      "Taco Bell",
+      "Lexington",
+      "SC"
+    ],
+    [
       "037015",
       46.9533,
       -114.133,
@@ -71005,15 +71095,6 @@
       2.59,
       "Taco Bell",
       "Mount Pleasant",
-      "SC"
-    ],
-    [
-      "034777",
-      33.03984927121388,
-      -80.0706573075425,
-      2.59,
-      "Taco Bell",
-      "Goose Creek",
       "SC"
     ],
     [
