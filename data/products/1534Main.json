@@ -12,17 +12,17 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 37.5,
+  "peak_30d_pct": 37.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 40.2,
+  "availability_pct": 40.3,
   "price_stats": {
     "avg": 2.21,
     "min": 1.0,
-    "max": 4.99,
+    "max": 3.72,
     "median": 2.19,
     "std_dev": 0.36,
-    "store_count": 3103
+    "store_count": 3106
   },
   "histogram": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 797
+      "count": 796
     },
     {
       "bucket": "$2.03",
@@ -63,7 +63,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 505
+      "count": 507
     },
     {
       "bucket": "$2.20",
@@ -79,7 +79,7 @@
     },
     {
       "bucket": "$2.39",
-      "count": 153
+      "count": 155
     },
     {
       "bucket": "$2.40",
@@ -87,7 +87,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 161
+      "count": 162
     },
     {
       "bucket": "$2.50",
@@ -156,10 +156,6 @@
     {
       "bucket": "$3.72",
       "count": 5
-    },
-    {
-      "bucket": "$4.99",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -186,7 +182,7 @@
     {
       "state": "CA",
       "avg_price": 2.53,
-      "store_count": 586
+      "store_count": 587
     },
     {
       "state": "UT",
@@ -219,11 +215,6 @@
       "store_count": 20
     },
     {
-      "state": "GA",
-      "avg_price": 2.22,
-      "store_count": 54
-    },
-    {
       "state": "OR",
       "avg_price": 2.21,
       "store_count": 104
@@ -246,7 +237,12 @@
     {
       "state": "AK",
       "avg_price": 2.19,
-      "store_count": 9
+      "store_count": 10
+    },
+    {
+      "state": "GA",
+      "avg_price": 2.16,
+      "store_count": 53
     },
     {
       "state": "FL",
@@ -290,8 +286,8 @@
     },
     {
       "state": "OH",
-      "avg_price": 1.99,
-      "store_count": 172
+      "avg_price": 2.0,
+      "store_count": 173
     },
     {
       "state": "MA",
@@ -309,14 +305,14 @@
       "store_count": 9
     },
     {
+      "state": "NC",
+      "avg_price": 1.98,
+      "store_count": 114
+    },
+    {
       "state": "MN",
       "avg_price": 1.98,
       "store_count": 93
-    },
-    {
-      "state": "NC",
-      "avg_price": 1.98,
-      "store_count": 113
     },
     {
       "state": "MO",
@@ -461,13 +457,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "042578",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 4.99
-    },
-    {
       "store_number": "040381",
       "name": "Taco Bell",
       "city": "New York",
@@ -529,9 +518,86 @@
       "city": "La Canada Flintridge",
       "state": "CA",
       "price": 3.69
+    },
+    {
+      "store_number": "039853",
+      "name": "Taco Bell",
+      "city": "Yorba Linda",
+      "state": "CA",
+      "price": 3.69
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033024",
+      "store_name": "Taco Bell",
+      "city": "Muskegon",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-06-28T20:33:08.240097+00:00"
+    },
+    {
+      "store_number": "021032",
+      "store_name": "Taco Bell",
+      "city": "Essexville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-06-28T20:33:05.666888+00:00"
+    },
+    {
+      "store_number": "015852",
+      "store_name": "Taco Bell",
+      "city": "Soldotna",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-06-28T20:32:32.303169+00:00"
+    },
+    {
+      "store_number": "034177",
+      "store_name": "Taco Bell",
+      "city": "Modesto",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-06-28T20:32:09.440543+00:00"
+    },
+    {
+      "store_number": "042578",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-06-28T20:32:02.591637+00:00"
+    },
+    {
+      "store_number": "030925",
+      "store_name": "Taco Bell",
+      "city": "Coventry Township",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.39,
+      "observed_at": "2026-06-28T20:31:40.931290+00:00"
+    },
+    {
+      "store_number": "042116",
+      "store_name": "Taco Bell",
+      "city": "Statesville",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.39,
+      "observed_at": "2026-06-28T20:31:15.352431+00:00"
+    },
     {
       "store_number": "042835",
       "store_name": "Taco Bell",
@@ -23844,8 +23910,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1053,
-    "removed": 1016,
+    "added": 1058,
+    "removed": 1018,
     "price_changed": 262,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -33674,15 +33740,6 @@
       "MI"
     ],
     [
-      "033024",
-      43.23386120824614,
-      -86.20837729305946,
-      1.99,
-      "Taco Bell",
-      "Muskegon",
-      "MI"
-    ],
-    [
       "004436",
       35.78450239652823,
       -80.2598056644365,
@@ -37724,6 +37781,15 @@
       "NV"
     ],
     [
+      "015852",
+      60.48912768024368,
+      -151.05179637918272,
+      2.19,
+      "Taco Bell",
+      "Soldotna",
+      "AK"
+    ],
+    [
       "025398",
       40.239419397931236,
       -111.6435352666258,
@@ -38955,6 +39021,15 @@
       "Taco Bell",
       "Las Cruces",
       "NM"
+    ],
+    [
+      "021032",
+      43.593737876766774,
+      -83.83880227804184,
+      2.19,
+      "Taco Bell",
+      "Essexville",
+      "MI"
     ],
     [
       "003384",
@@ -44321,6 +44396,15 @@
       "OH"
     ],
     [
+      "030925",
+      41.00900500746464,
+      -81.55470454043967,
+      2.39,
+      "Taco Bell",
+      "Coventry Township",
+      "OH"
+    ],
+    [
       "029743",
       41.43733761298764,
       -82.18502319884499,
@@ -45300,6 +45384,15 @@
       "Taco Bell",
       "Toledo",
       "OH"
+    ],
+    [
+      "042116",
+      35.79414938769125,
+      -80.9382823171793,
+      2.39,
+      "Taco Bell",
+      "Statesville",
+      "NC"
     ],
     [
       "041494",
@@ -46766,6 +46859,15 @@
       2.49,
       "Taco Bell",
       "Redding",
+      "CA"
+    ],
+    [
+      "034177",
+      37.63838722522282,
+      -121.00022345781326,
+      2.49,
+      "Taco Bell",
+      "Modesto",
       "CA"
     ],
     [
@@ -51771,15 +51873,6 @@
       "Taco Bell",
       "New York",
       "NY"
-    ],
-    [
-      "042578",
-      33.78032506878061,
-      -84.38918335266644,
-      4.99,
-      "Taco Bell",
-      "Atlanta",
-      "GA"
     ]
   ],
   "retired_at": null,

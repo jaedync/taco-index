@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.9,
   "price_stats": {
-    "avg": 6.41,
+    "avg": 6.4,
     "min": 5.29,
     "max": 8.19,
     "median": 6.19,
     "std_dev": 0.7,
-    "store_count": 148
+    "store_count": 150
   },
   "histogram": [
     {
       "bucket": "$5.29",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$5.49",
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$6.29",
-      "count": 11
+      "count": 12
     },
     {
       "bucket": "$6.39",
@@ -100,8 +100,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.71,
-      "store_count": 61
+      "avg_price": 6.68,
+      "store_count": 63
     },
     {
       "state": "TN",
@@ -125,6 +125,13 @@
       "store_number": "037332",
       "name": "Taco Bell",
       "city": "Atlanta",
+      "state": "GA",
+      "price": 5.29
+    },
+    {
+      "store_number": "003824",
+      "name": "Taco Bell",
+      "city": "Lithia Springs",
       "state": "GA",
       "price": 5.29
     },
@@ -183,17 +190,11 @@
       "city": "Cairo",
       "state": "GA",
       "price": 5.49
-    },
-    {
-      "store_number": "019713",
-      "name": "Taco Bell",
-      "city": "Panama City Beach",
-      "state": "FL",
-      "price": 5.49
     }
   ],
   "min_price_store_numbers": [
     "037332",
+    "003824",
     "004740",
     "003404",
     "002167"
@@ -271,6 +272,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043133",
+      "store_name": "Taco Bell",
+      "city": "Augusta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.29,
+      "observed_at": "2026-06-28T20:32:42.194415+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.29,
+      "observed_at": "2026-06-28T20:31:58.103900+00:00"
+    },
     {
       "store_number": "041252",
       "store_name": "Taco Bell",
@@ -13913,7 +13934,7 @@
     }
   ],
   "activity_summary": {
-    "added": 667,
+    "added": 669,
     "removed": 519,
     "price_changed": 178,
     "since": "2026-03-31T00:00:00+00:00"
@@ -13922,6 +13943,12 @@
   "calories_min": 570,
   "calories_max": 570,
   "combo_groups": [
+    {
+      "group_id": "657",
+      "title": "Cantina Chicken Burrito",
+      "default_product_code": "91254",
+      "default_product_name": "Cantina Chicken Burrito"
+    },
     {
       "group_id": "451",
       "title": "Avocado Verde Salsa Sauce Packet",
@@ -13937,6 +13964,15 @@
       5.29,
       "Taco Bell",
       "Atlanta",
+      "GA"
+    ],
+    [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      5.29,
+      "Taco Bell",
+      "Lithia Springs",
       "GA"
     ],
     [
@@ -14777,6 +14813,15 @@
       "GA"
     ],
     [
+      "043133",
+      33.46912773500816,
+      -82.06502409700109,
+      6.29,
+      "Taco Bell",
+      "Augusta",
+      "GA"
+    ],
+    [
       "043130",
       33.41227235483598,
       -82.02532054354764,
@@ -15264,6 +15309,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-27",
+  "last_seen_date": "2026-06-28",
   "peak_availability_pct": 5.9
 }

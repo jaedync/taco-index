@@ -21,12 +21,12 @@
     "max": 11.99,
     "median": 9.69,
     "std_dev": 0.43,
-    "store_count": 148
+    "store_count": 149
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$9.19",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$9.69",
-      "count": 34
+      "count": 33
     },
     {
       "bucket": "$9.79",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$10.29",
-      "count": 26
+      "count": 27
     },
     {
       "bucket": "$10.39",
@@ -88,8 +88,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.94,
-      "store_count": 65
+      "avg_price": 9.93,
+      "store_count": 66
     },
     {
       "state": "AL",
@@ -113,6 +113,13 @@
       "store_number": "033481",
       "name": "Taco Bell",
       "city": "Villa Rica",
+      "state": "GA",
+      "price": 8.99
+    },
+    {
+      "store_number": "003824",
+      "name": "Taco Bell",
+      "city": "Lithia Springs",
       "state": "GA",
       "price": 8.99
     },
@@ -171,17 +178,11 @@
       "city": "Wartburg",
       "state": "TN",
       "price": 9.19
-    },
-    {
-      "store_number": "037100",
-      "name": "Taco Bell",
-      "city": "Dunlap",
-      "state": "TN",
-      "price": 9.19
     }
   ],
   "min_price_store_numbers": [
     "033481",
+    "003824",
     "041798",
     "004740",
     "024364",
@@ -263,6 +264,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039623",
+      "store_name": "Taco Bell",
+      "city": "Cartersville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.69,
+      "new_price": null,
+      "observed_at": "2026-06-28T20:33:26.814727+00:00"
+    },
+    {
+      "store_number": "043133",
+      "store_name": "Taco Bell",
+      "city": "Augusta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.29,
+      "observed_at": "2026-06-28T20:32:42.194415+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-06-28T20:31:58.103900+00:00"
+    },
     {
       "store_number": "005482",
       "store_name": "Taco Bell",
@@ -16005,8 +16036,8 @@
     }
   ],
   "activity_summary": {
-    "added": 687,
-    "removed": 539,
+    "added": 689,
+    "removed": 540,
     "price_changed": 348,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16019,6 +16050,18 @@
       "title": "Fountain Drink - Large",
       "default_product_code": "22902",
       "default_product_name": "Large Fountain Drink"
+    },
+    {
+      "group_id": "658",
+      "title": "Cantina Chicken Crispy Taco",
+      "default_product_code": "91253",
+      "default_product_name": "Cantina Chicken Crispy Taco"
+    },
+    {
+      "group_id": "658",
+      "title": "Cantina Chicken Crispy Taco",
+      "default_product_code": "91253",
+      "default_product_name": "Cantina Chicken Crispy Taco"
     },
     {
       "group_id": "451",
@@ -16047,6 +16090,15 @@
       8.99,
       "Taco Bell",
       "Villa Rica",
+      "GA"
+    ],
+    [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      8.99,
+      "Taco Bell",
+      "Lithia Springs",
       "GA"
     ],
     [
@@ -16743,15 +16795,6 @@
       "AL"
     ],
     [
-      "039623",
-      34.196491,
-      -84.789276,
-      9.69,
-      "Taco Bell",
-      "Cartersville",
-      "GA"
-    ],
-    [
       "026837",
       35.76009726491193,
       -83.97547312083594,
@@ -17220,6 +17263,15 @@
       "GA"
     ],
     [
+      "043133",
+      33.46912773500816,
+      -82.06502409700109,
+      10.29,
+      "Taco Bell",
+      "Augusta",
+      "GA"
+    ],
+    [
       "043130",
       33.41227235483598,
       -82.02532054354764,
@@ -17374,6 +17426,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-27",
+  "last_seen_date": "2026-06-28",
   "peak_availability_pct": 5.9
 }

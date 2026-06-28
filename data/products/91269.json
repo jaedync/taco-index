@@ -14,14 +14,14 @@
   "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 6.81,
+    "avg": 6.86,
     "min": 6.49,
     "max": 7.49,
-    "median": 6.59,
-    "std_dev": 0.4,
-    "store_count": 18
+    "median": 6.74,
+    "std_dev": 0.41,
+    "store_count": 20
   },
   "histogram": [
     {
@@ -42,11 +42,11 @@
     },
     {
       "bucket": "$7.29",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$7.39",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$7.49",
@@ -56,8 +56,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 7.0,
-      "store_count": 10
+      "avg_price": 7.06,
+      "store_count": 12
     }
   ],
   "nutrition": {
@@ -180,6 +180,20 @@
       "price": 7.39
     },
     {
+      "store_number": "003824",
+      "name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "price": 7.39
+    },
+    {
+      "store_number": "041249",
+      "name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "price": 7.29
+    },
+    {
       "store_number": "041243",
       "name": "Taco Bell",
       "city": "Marietta",
@@ -213,23 +227,29 @@
       "city": "Hope Hull",
       "state": "AL",
       "price": 6.79
-    },
-    {
-      "store_number": "040706",
-      "name": "Taco Bell",
-      "city": "Bonaire",
-      "state": "GA",
-      "price": 6.69
-    },
-    {
-      "store_number": "043141",
-      "name": "Taco Bell",
-      "city": "Rainsville",
-      "state": "AL",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.29,
+      "observed_at": "2026-06-28T20:32:16.190623+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.39,
+      "observed_at": "2026-06-28T20:31:58.103900+00:00"
+    },
     {
       "store_number": "043141",
       "store_name": "Taco Bell",
@@ -1182,7 +1202,7 @@
     }
   ],
   "activity_summary": {
-    "added": 45,
+    "added": 47,
     "removed": 50,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1191,6 +1211,12 @@
   "calories_min": 640,
   "calories_max": 640,
   "combo_groups": [
+    {
+      "group_id": "677",
+      "title": "Cantina Chicken Quesadilla",
+      "default_product_code": "91260",
+      "default_product_name": "Cantina Chicken Quesadilla"
+    },
     {
       "group_id": "390",
       "title": "Reduced Fat Sour Cream",
@@ -1338,6 +1364,24 @@
       7.29,
       "Taco Bell",
       "Marietta",
+      "GA"
+    ],
+    [
+      "041249",
+      33.96647033026141,
+      -84.010348240854,
+      7.29,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
+    ],
+    [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      7.39,
+      "Taco Bell",
+      "Lithia Springs",
       "GA"
     ],
     [

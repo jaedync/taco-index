@@ -26,11 +26,11 @@
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 14
+      "count": 15
     },
     {
       "bucket": "$3.19",
-      "count": 90
+      "count": 89
     },
     {
       "bucket": "$3.29",
@@ -117,6 +117,13 @@
       "price": 2.99
     },
     {
+      "store_number": "003824",
+      "name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "price": 2.99
+    },
+    {
       "store_number": "041798",
       "name": "Taco Bell",
       "city": "Jackson",
@@ -143,13 +150,6 @@
       "city": "Cairo",
       "state": "GA",
       "price": 2.99
-    },
-    {
-      "store_number": "003652",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 2.99
     }
   ],
   "min_price_store_numbers": [
@@ -158,6 +158,7 @@
     "037100",
     "037038",
     "037332",
+    "003824",
     "041798",
     "004740",
     "041799",
@@ -241,6 +242,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039623",
+      "store_name": "Taco Bell",
+      "city": "Cartersville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-06-28T20:33:26.814727+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-28T20:31:58.103900+00:00"
+    },
     {
       "store_number": "041252",
       "store_name": "Taco Bell",
@@ -15853,8 +15874,8 @@
     }
   ],
   "activity_summary": {
-    "added": 703,
-    "removed": 535,
+    "added": 704,
+    "removed": 536,
     "price_changed": 323,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15862,6 +15883,12 @@
   "calories_min": 320,
   "calories_max": 320,
   "combo_groups": [
+    {
+      "group_id": "674",
+      "title": "Cantina Chicken Crispy Taco",
+      "default_product_code": "91253",
+      "default_product_name": "Cantina Chicken Crispy Taco"
+    },
     {
       "group_id": "451",
       "title": "Avocado Verde Salsa Sauce Packet",
@@ -15913,6 +15940,15 @@
       2.99,
       "Taco Bell",
       "Atlanta",
+      "GA"
+    ],
+    [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      2.99,
+      "Taco Bell",
+      "Lithia Springs",
       "GA"
     ],
     [
@@ -16798,15 +16834,6 @@
       "GA"
     ],
     [
-      "039623",
-      34.196491,
-      -84.789276,
-      3.19,
-      "Taco Bell",
-      "Cartersville",
-      "GA"
-    ],
-    [
       "041105",
       34.123606790741,
       -83.60452047516594,
@@ -17384,6 +17411,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-27",
+  "last_seen_date": "2026-06-28",
   "peak_availability_pct": 6.0
 }

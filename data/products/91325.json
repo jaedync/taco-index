@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 9.27,
+    "avg": 9.33,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.55,
-    "store_count": 31
+    "std_dev": 0.65,
+    "store_count": 32
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$11.29",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
@@ -45,8 +45,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 9.25,
-      "store_count": 9
+      "avg_price": 9.46,
+      "store_count": 10
     },
     {
       "state": "AL",
@@ -180,6 +180,13 @@
       "price": 11.29
     },
     {
+      "store_number": "041223",
+      "name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "price": 11.29
+    },
+    {
       "store_number": "042830",
       "name": "Taco Bell",
       "city": "Pensacola",
@@ -234,16 +241,19 @@
       "city": "Homewood",
       "state": "AL",
       "price": 9.0
-    },
-    {
-      "store_number": "029167",
-      "name": "Taco Bell",
-      "city": "Helena",
-      "state": "AL",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041223",
+      "store_name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.29,
+      "observed_at": "2026-06-28T20:32:51.917043+00:00"
+    },
     {
       "store_number": "040967",
       "store_name": "Taco Bell",
@@ -4236,7 +4246,7 @@
     }
   ],
   "activity_summary": {
-    "added": 185,
+    "added": 186,
     "removed": 214,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4548,6 +4558,15 @@
       "FL"
     ],
     [
+      "041223",
+      33.61940670172887,
+      -84.24365535383913,
+      11.29,
+      "Taco Bell",
+      "Ellenwood",
+      "GA"
+    ],
+    [
       "041226",
       33.63425717999579,
       -84.29043754019565,
@@ -4558,6 +4577,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-27",
+  "last_seen_date": "2026-06-28",
   "peak_availability_pct": 1.1
 }

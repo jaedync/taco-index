@@ -15,18 +15,14 @@
   "first_seen_at": "2026-03-30T00:40:09.662285+00:00",
   "availability_pct": 1.2,
   "price_stats": {
-    "avg": 4.75,
-    "min": 2.49,
+    "avg": 4.77,
+    "min": 3.39,
     "max": 5.89,
     "median": 4.89,
-    "std_dev": 0.52,
-    "store_count": 94
+    "std_dev": 0.47,
+    "store_count": 93
   },
   "histogram": [
-    {
-      "bucket": "$2.49",
-      "count": 1
-    },
     {
       "bucket": "$3.39",
       "count": 1
@@ -82,14 +78,14 @@
   ],
   "state_prices": [
     {
+      "state": "GA",
+      "avg_price": 4.88,
+      "store_count": 60
+    },
+    {
       "state": "TN",
       "avg_price": 4.87,
       "store_count": 17
-    },
-    {
-      "state": "GA",
-      "avg_price": 4.84,
-      "store_count": 61
     },
     {
       "state": "FL",
@@ -112,13 +108,6 @@
     "serving_size_g": 206.9513
   },
   "cheapest_stores": [
-    {
-      "store_number": "042578",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 2.49
-    },
     {
       "store_number": "041488",
       "name": "Taco Bell (ATL Airport)",
@@ -181,10 +170,17 @@
       "city": "Lynn Haven",
       "state": "FL",
       "price": 3.99
+    },
+    {
+      "store_number": "042125",
+      "name": "Taco Bell",
+      "city": "Crestview",
+      "state": "FL",
+      "price": 3.99
     }
   ],
   "min_price_store_numbers": [
-    "042578"
+    "041488"
   ],
   "priciest_stores": [
     {
@@ -259,6 +255,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042578",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-06-28T20:32:02.591637+00:00"
+    },
     {
       "store_number": "009575",
       "store_name": "Taco Bell",
@@ -1522,7 +1528,7 @@
   ],
   "activity_summary": {
     "added": 108,
-    "removed": 14,
+    "removed": 15,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1531,15 +1537,6 @@
   "calories_max": 660,
   "combo_groups": [],
   "map_data": [
-    [
-      "042578",
-      33.78032506878061,
-      -84.38918335266644,
-      2.49,
-      "Taco Bell",
-      "Atlanta",
-      "GA"
-    ],
     [
       "041488",
       33.63840238391459,
@@ -2379,6 +2376,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-27",
+  "last_seen_date": "2026-06-28",
   "peak_availability_pct": 1.1
 }

@@ -14,19 +14,19 @@
   "peak_30d_pct": 1.8,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.9,
+  "availability_pct": 2.0,
   "price_stats": {
     "avg": 3.28,
     "min": 2.99,
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.21,
-    "store_count": 149
+    "store_count": 151
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$3.09",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 83
+      "count": 84
     },
     {
       "bucket": "$3.29",
@@ -64,8 +64,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 3.39,
-      "store_count": 62
+      "avg_price": 3.38,
+      "store_count": 64
     },
     {
       "state": "TN",
@@ -128,6 +128,13 @@
       "price": 2.99
     },
     {
+      "store_number": "003824",
+      "name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "price": 2.99
+    },
+    {
       "store_number": "041798",
       "name": "Taco Bell",
       "city": "Jackson",
@@ -147,13 +154,6 @@
       "city": "Doraville",
       "state": "GA",
       "price": 2.99
-    },
-    {
-      "store_number": "041835",
-      "name": "Taco Bell",
-      "city": "Cairo",
-      "state": "GA",
-      "price": 2.99
     }
   ],
   "min_price_store_numbers": [
@@ -163,6 +163,7 @@
     "037050",
     "032542",
     "037038",
+    "003824",
     "041798",
     "004740",
     "041799",
@@ -244,6 +245,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043133",
+      "store_name": "Taco Bell",
+      "city": "Augusta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-06-28T20:32:42.194415+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-28T20:31:58.103900+00:00"
+    },
     {
       "store_number": "005482",
       "store_name": "Taco Bell",
@@ -15296,7 +15317,7 @@
     }
   ],
   "activity_summary": {
-    "added": 667,
+    "added": 669,
     "removed": 518,
     "price_changed": 320,
     "since": "2026-03-31T00:00:00+00:00"
@@ -15305,6 +15326,12 @@
   "calories_min": 260,
   "calories_max": 260,
   "combo_groups": [
+    {
+      "group_id": "673",
+      "title": "Cantina Chicken Soft Taco",
+      "default_product_code": "91252",
+      "default_product_name": "Cantina Chicken Soft Taco"
+    },
     {
       "group_id": "451",
       "title": "Avocado Verde Salsa Sauce Packet",
@@ -15366,6 +15393,15 @@
       "Taco Bell",
       "Jamestown",
       "TN"
+    ],
+    [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      2.99,
+      "Taco Bell",
+      "Lithia Springs",
+      "GA"
     ],
     [
       "041798",
@@ -15942,6 +15978,15 @@
       "Taco Bell",
       "Prattville",
       "AL"
+    ],
+    [
+      "043133",
+      33.46912773500816,
+      -82.06502409700109,
+      3.19,
+      "Taco Bell",
+      "Augusta",
+      "GA"
     ],
     [
       "036369",
@@ -16656,6 +16701,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-27",
+  "last_seen_date": "2026-06-28",
   "peak_availability_pct": 5.9
 }

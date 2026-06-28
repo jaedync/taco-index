@@ -59,6 +59,13 @@
       "price": 11.0
     },
     {
+      "store_number": "040018",
+      "name": "Taco Bell",
+      "city": "Lansing",
+      "state": "IL",
+      "price": 11.0
+    },
+    {
       "store_number": "041795",
       "name": "Taco Bell",
       "city": "Hazel Crest",
@@ -113,17 +120,11 @@
       "city": "Chicago",
       "state": "IL",
       "price": 11.0
-    },
-    {
-      "store_number": "027898",
-      "name": "Taco Bell",
-      "city": "Peru",
-      "state": "IL",
-      "price": 11.0
     }
   ],
   "min_price_store_numbers": [
     "040019",
+    "040018",
     "041795",
     "041497",
     "030407",
@@ -143,7 +144,6 @@
     "026734",
     "032082",
     "030539",
-    "032031",
     "031070",
     "037359",
     "042746",
@@ -176,13 +176,6 @@
       "name": "Taco Bell",
       "city": "Highland",
       "state": "IN",
-      "price": 11.0
-    },
-    {
-      "store_number": "032031",
-      "name": "Taco Bell",
-      "city": "Alsip",
-      "state": "IL",
       "price": 11.0
     },
     {
@@ -219,9 +212,36 @@
       "city": "Aurora",
       "state": "IL",
       "price": 11.0
+    },
+    {
+      "store_number": "042745",
+      "name": "Taco Bell",
+      "city": "Yorkville",
+      "state": "IL",
+      "price": 11.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032031",
+      "store_name": "Taco Bell",
+      "city": "Alsip",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-06-28T20:33:16.741951+00:00"
+    },
+    {
+      "store_number": "040018",
+      "store_name": "Taco Bell",
+      "city": "Lansing",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.0,
+      "observed_at": "2026-06-28T20:30:54.692945+00:00"
+    },
     {
       "store_number": "040018",
       "store_name": "Taco Bell",
@@ -1114,8 +1134,8 @@
     }
   ],
   "activity_summary": {
-    "added": 57,
-    "removed": 32,
+    "added": 58,
+    "removed": 33,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1157,6 +1177,15 @@
       "Taco Bell",
       "Cedar Lake",
       "IN"
+    ],
+    [
+      "040018",
+      41.568922522295324,
+      -87.55837966195392,
+      11.0,
+      "Taco Bell",
+      "Lansing",
+      "IL"
     ],
     [
       "041795",
@@ -1330,15 +1359,6 @@
       "IL"
     ],
     [
-      "032031",
-      41.67910169304596,
-      -87.72018933312398,
-      11.0,
-      "Taco Bell",
-      "Alsip",
-      "IL"
-    ],
-    [
       "031070",
       41.529048819700705,
       -87.47169573606698,
@@ -1376,6 +1396,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-06-27",
+  "last_seen_date": "2026-06-28",
   "peak_availability_pct": 0.3
 }
