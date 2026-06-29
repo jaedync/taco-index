@@ -20,12 +20,12 @@
     "max": 6.99,
     "median": 5.99,
     "std_dev": 0.1,
-    "store_count": 98
+    "store_count": 99
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 97
+      "count": 98
     },
     {
       "bucket": "$6.99",
@@ -36,7 +36,7 @@
     {
       "state": "FL",
       "avg_price": 6.0,
-      "store_count": 98
+      "store_count": 99
     }
   ],
   "nutrition": {
@@ -222,7 +222,8 @@
     "034163",
     "042971",
     "032959",
-    "038869"
+    "038869",
+    "032354"
   ],
   "priciest_stores": [
     {
@@ -231,6 +232,13 @@
       "city": "Boynton Beach",
       "state": "FL",
       "price": 6.99
+    },
+    {
+      "store_number": "032354",
+      "name": "Taco Bell",
+      "city": "Wildwood",
+      "state": "FL",
+      "price": 5.99
     },
     {
       "store_number": "038869",
@@ -287,16 +295,19 @@
       "city": "Satellite Beach",
       "state": "FL",
       "price": 5.99
-    },
-    {
-      "store_number": "037822",
-      "name": "Taco Bell",
-      "city": "Lady Lake",
-      "state": "FL",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032354",
+      "store_name": "Taco Bell",
+      "city": "Wildwood",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-06-29T20:37:56.273910+00:00"
+    },
     {
       "store_number": "023300",
       "store_name": "Taco Bell",
@@ -1749,7 +1760,7 @@
     }
   ],
   "activity_summary": {
-    "added": 121,
+    "added": 122,
     "removed": 24,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2630,6 +2641,15 @@
       5.99,
       "Taco Bell",
       "Winter Garden",
+      "FL"
+    ],
+    [
+      "032354",
+      28.87513427067012,
+      -82.09626495838165,
+      5.99,
+      "Taco Bell",
+      "Wildwood",
       "FL"
     ],
     [

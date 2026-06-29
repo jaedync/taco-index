@@ -21,7 +21,7 @@
     "max": 4.29,
     "median": 3.19,
     "std_dev": 0.24,
-    "store_count": 747
+    "store_count": 749
   },
   "histogram": [
     {
@@ -66,11 +66,15 @@
     },
     {
       "bucket": "$3.39",
-      "count": 11
+      "count": 12
     },
     {
       "bucket": "$3.49",
       "count": 2
+    },
+    {
+      "bucket": "$3.59",
+      "count": 1
     },
     {
       "bucket": "$4.29",
@@ -79,14 +83,14 @@
   ],
   "state_prices": [
     {
+      "state": "CA",
+      "avg_price": 3.32,
+      "store_count": 11
+    },
+    {
       "state": "MO",
       "avg_price": 3.3,
       "store_count": 12
-    },
-    {
-      "state": "CA",
-      "avg_price": 3.29,
-      "store_count": 10
     },
     {
       "state": "AR",
@@ -105,13 +109,13 @@
     },
     {
       "state": "FL",
-      "avg_price": 3.03,
-      "store_count": 5
+      "avg_price": 3.06,
+      "store_count": 6
     },
     {
       "state": "TX",
       "avg_price": 2.99,
-      "store_count": 444
+      "store_count": 443
     },
     {
       "state": "GA",
@@ -224,6 +228,13 @@
       "price": 4.29
     },
     {
+      "store_number": "026240",
+      "name": "Taco Bell",
+      "city": "San Diego",
+      "state": "CA",
+      "price": 3.59
+    },
+    {
       "store_number": "003991",
       "name": "Taco Bell",
       "city": "Susanville",
@@ -236,6 +247,13 @@
       "city": "Kansas City",
       "state": "MO",
       "price": 3.49
+    },
+    {
+      "store_number": "037044",
+      "name": "Taco Bell",
+      "city": "Brookline",
+      "state": "MA",
+      "price": 3.39
     },
     {
       "store_number": "030742",
@@ -271,23 +289,89 @@
       "city": "Kansas City",
       "state": "MO",
       "price": 3.39
-    },
-    {
-      "store_number": "035232",
-      "name": "Taco Bell",
-      "city": "Liberty",
-      "state": "MO",
-      "price": 3.39
-    },
-    {
-      "store_number": "035243",
-      "name": "Taco Bell",
-      "city": "Independence",
-      "state": "MO",
-      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040167",
+      "store_name": "Taco Bell",
+      "city": "East Orange",
+      "state": "NJ",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-06-29T20:39:02.663507+00:00"
+    },
+    {
+      "store_number": "034588",
+      "store_name": "Taco Bell",
+      "city": "Azle",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-29T20:38:57.844006+00:00"
+    },
+    {
+      "store_number": "026240",
+      "store_name": "Taco Bell",
+      "city": "San Diego",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-06-29T20:38:07.645934+00:00"
+    },
+    {
+      "store_number": "004402",
+      "store_name": "Taco Bell",
+      "city": "Ontario",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-29T20:37:59.882544+00:00"
+    },
+    {
+      "store_number": "030098",
+      "store_name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-06-29T20:37:30.271990+00:00"
+    },
+    {
+      "store_number": "031264",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-06-29T20:36:56.430158+00:00"
+    },
+    {
+      "store_number": "037044",
+      "store_name": "Taco Bell",
+      "city": "Brookline",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-06-29T20:36:53.538956+00:00"
+    },
+    {
+      "store_number": "036309",
+      "store_name": "Taco Bell",
+      "city": "Zephyrhills",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-06-29T20:36:50.841771+00:00"
+    },
     {
       "store_number": "033463",
       "store_name": "Taco Bell",
@@ -7990,8 +8074,8 @@
     }
   ],
   "activity_summary": {
-    "added": 312,
-    "removed": 298,
+    "added": 317,
+    "removed": 301,
     "price_changed": 160,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9972,15 +10056,6 @@
       "TX"
     ],
     [
-      "031264",
-      29.96719834986143,
-      -95.53208113301126,
-      2.99,
-      "Taco Bell",
-      "Houston",
-      "TX"
-    ],
-    [
       "031263",
       29.587847037001225,
       -95.6477434410149,
@@ -10140,15 +10215,6 @@
       2.99,
       "Taco Bell",
       "Sherman",
-      "TX"
-    ],
-    [
-      "030098",
-      30.486569333698586,
-      -97.77010470628744,
-      2.99,
-      "Taco Bell",
-      "Austin",
       "TX"
     ],
     [
@@ -10339,6 +10405,15 @@
       "Taco Bell",
       "Austin",
       "TX"
+    ],
+    [
+      "004402",
+      44.02520067918069,
+      -116.95665121078491,
+      2.99,
+      "Taco Bell",
+      "Ontario",
+      "OR"
     ],
     [
       "030139",
@@ -10590,6 +10665,15 @@
       2.99,
       "Taco Bell",
       "Austin",
+      "TX"
+    ],
+    [
+      "034588",
+      32.891357868115264,
+      -97.54111112483768,
+      2.99,
+      "Taco Bell",
+      "Azle",
       "TX"
     ],
     [
@@ -12510,15 +12594,6 @@
       "TX"
     ],
     [
-      "040167",
-      40.7575144659978,
-      -74.21826440260041,
-      3.19,
-      "Taco Bell",
-      "East Orange",
-      "NJ"
-    ],
-    [
       "034587",
       32.59499289347514,
       -96.82170510292053,
@@ -12562,6 +12637,15 @@
       "Taco Bell",
       "Kailua",
       "HI"
+    ],
+    [
+      "036309",
+      28.2192,
+      -82.2504,
+      3.19,
+      "Taco Bell",
+      "Zephyrhills",
+      "FL"
     ],
     [
       "041134",
@@ -14697,6 +14781,15 @@
       "CA"
     ],
     [
+      "037044",
+      42.35067263787159,
+      -71.11442361105475,
+      3.39,
+      "Taco Bell",
+      "Brookline",
+      "MA"
+    ],
+    [
       "038783",
       39.050835,
       -94.5884833,
@@ -14712,6 +14805,15 @@
       3.49,
       "Taco Bell",
       "Susanville",
+      "CA"
+    ],
+    [
+      "026240",
+      32.75061018589438,
+      -117.20830118661118,
+      3.59,
+      "Taco Bell",
+      "San Diego",
       "CA"
     ],
     [

@@ -13,16 +13,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": 0.0237,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.96,
+    "avg": 3.92,
     "min": 3.49,
     "max": 4.29,
     "median": 3.89,
     "std_dev": 0.34,
-    "store_count": 9
+    "store_count": 8
   },
   "histogram": [
     {
@@ -39,7 +39,7 @@
     },
     {
       "bucket": "$4.29",
-      "count": 4
+      "count": 3
     }
   ],
   "state_prices": [
@@ -119,26 +119,12 @@
       "city": "Lake Forest",
       "state": "CA",
       "price": 4.29
-    },
-    {
-      "store_number": "031895",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Las Vegas",
-      "state": "NV",
-      "price": 4.29
     }
   ],
   "min_price_store_numbers": [
     "001089"
   ],
   "priciest_stores": [
-    {
-      "store_number": "031895",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Las Vegas",
-      "state": "NV",
-      "price": 4.29
-    },
     {
       "store_number": "039851",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -197,6 +183,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031895",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-06-29T20:38:25.130615+00:00"
+    },
     {
       "store_number": "027505",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -310,7 +306,7 @@
   ],
   "activity_summary": {
     "added": 8,
-    "removed": 3,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -390,15 +386,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Lake Forest",
       "CA"
-    ],
-    [
-      "031895",
-      36.02096277494928,
-      -115.12727299472317,
-      4.29,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Las Vegas",
-      "NV"
     ]
   ],
   "retired_at": null,

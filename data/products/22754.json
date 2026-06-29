@@ -20,12 +20,12 @@
     "max": 1.7,
     "median": 0.89,
     "std_dev": 0.16,
-    "store_count": 7672
+    "store_count": 7671
   },
   "histogram": [
     {
       "bucket": "$0.30",
-      "count": 6
+      "count": 2
     },
     {
       "bucket": "$0.35",
@@ -101,7 +101,7 @@
     },
     {
       "bucket": "$0.89",
-      "count": 126
+      "count": 125
     },
     {
       "bucket": "$0.90",
@@ -113,7 +113,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 478
+      "count": 482
     },
     {
       "bucket": "$1.00",
@@ -285,7 +285,7 @@
     {
       "state": "MO",
       "avg_price": 0.85,
-      "store_count": 228
+      "store_count": 227
     },
     {
       "state": "OR",
@@ -348,6 +348,11 @@
       "store_count": 57
     },
     {
+      "state": "AZ",
+      "avg_price": 0.78,
+      "store_count": 192
+    },
+    {
       "state": "MS",
       "avg_price": 0.77,
       "store_count": 81
@@ -361,11 +366,6 @@
       "state": "WA",
       "avg_price": 0.76,
       "store_count": 138
-    },
-    {
-      "state": "AZ",
-      "avg_price": 0.76,
-      "store_count": 192
     },
     {
       "state": "SC",
@@ -451,34 +451,6 @@
       "price": 0.3
     },
     {
-      "store_number": "041882",
-      "name": "Taco Bell",
-      "city": "Benson",
-      "state": "AZ",
-      "price": 0.3
-    },
-    {
-      "store_number": "041850",
-      "name": "Taco Bell",
-      "city": "Willcox",
-      "state": "AZ",
-      "price": 0.3
-    },
-    {
-      "store_number": "036501",
-      "name": "Taco Bell",
-      "city": "Marana",
-      "state": "AZ",
-      "price": 0.3
-    },
-    {
-      "store_number": "030945",
-      "name": "Taco Bell",
-      "city": "Tucson",
-      "state": "AZ",
-      "price": 0.3
-    },
-    {
       "store_number": "031780",
       "name": "Taco Bell",
       "city": "Chicago",
@@ -512,14 +484,38 @@
       "city": "Chicago Ridge",
       "state": "IL",
       "price": 0.35
+    },
+    {
+      "store_number": "009539",
+      "name": "Taco Bell",
+      "city": "Navarre",
+      "state": "FL",
+      "price": 0.35
+    },
+    {
+      "store_number": "004170",
+      "name": "Taco Bell",
+      "city": "Milton",
+      "state": "FL",
+      "price": 0.35
+    },
+    {
+      "store_number": "003874",
+      "name": "Taco Bell",
+      "city": "Crestview",
+      "state": "FL",
+      "price": 0.35
+    },
+    {
+      "store_number": "023972",
+      "name": "Taco Bell",
+      "city": "Saugus",
+      "state": "MA",
+      "price": 0.39
     }
   ],
   "min_price_store_numbers": [
     "036276",
-    "041882",
-    "041850",
-    "036501",
-    "030945",
     "031780"
   ],
   "priciest_stores": [
@@ -595,6 +591,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034387",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 0.89,
+      "new_price": null,
+      "observed_at": "2026-06-29T20:38:39.587235+00:00"
+    },
+    {
+      "store_number": "030945",
+      "store_name": "Taco Bell",
+      "city": "Tucson",
+      "state": "AZ",
+      "change_type": "price_change",
+      "old_price": 0.3,
+      "new_price": 0.99,
+      "observed_at": "2026-06-29T20:37:35.805771+00:00"
+    },
+    {
+      "store_number": "036501",
+      "store_name": "Taco Bell",
+      "city": "Marana",
+      "state": "AZ",
+      "change_type": "price_change",
+      "old_price": 0.3,
+      "new_price": 0.99,
+      "observed_at": "2026-06-29T20:36:47.097297+00:00"
+    },
+    {
+      "store_number": "041850",
+      "store_name": "Taco Bell",
+      "city": "Willcox",
+      "state": "AZ",
+      "change_type": "price_change",
+      "old_price": 0.3,
+      "new_price": 0.99,
+      "observed_at": "2026-06-29T20:36:27.572988+00:00"
+    },
+    {
+      "store_number": "041882",
+      "store_name": "Taco Bell",
+      "city": "Benson",
+      "state": "AZ",
+      "change_type": "price_change",
+      "old_price": 0.3,
+      "new_price": 0.99,
+      "observed_at": "2026-06-29T20:36:24.255645+00:00"
+    },
     {
       "store_number": "002076",
       "store_name": "Taco Bell",
@@ -12028,8 +12074,8 @@
   ],
   "activity_summary": {
     "added": 127,
-    "removed": 79,
-    "price_changed": 937,
+    "removed": 80,
+    "price_changed": 941,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 35,
@@ -12045,42 +12091,6 @@
       "Taco Bell",
       "Albert Lea",
       "MN"
-    ],
-    [
-      "041882",
-      31.9694585,
-      -110.3039098,
-      0.3,
-      "Taco Bell",
-      "Benson",
-      "AZ"
-    ],
-    [
-      "041850",
-      32.2694,
-      -109.8459,
-      0.3,
-      "Taco Bell",
-      "Willcox",
-      "AZ"
-    ],
-    [
-      "036501",
-      32.45908731430905,
-      -111.2161373653339,
-      0.3,
-      "Taco Bell",
-      "Marana",
-      "AZ"
-    ],
-    [
-      "030945",
-      32.353568392234436,
-      -111.09420812923422,
-      0.3,
-      "Taco Bell",
-      "Tucson",
-      "AZ"
     ],
     [
       "031780",
@@ -46580,15 +46590,6 @@
       "OR"
     ],
     [
-      "034387",
-      38.94175942100975,
-      -94.6077268471742,
-      0.89,
-      "Taco Bell",
-      "Kansas City",
-      "MO"
-    ],
-    [
       "034391",
       38.889636125982115,
       -94.6074275567662,
@@ -69800,6 +69801,15 @@
       "TN"
     ],
     [
+      "041882",
+      31.9694585,
+      -110.3039098,
+      0.99,
+      "Taco Bell",
+      "Benson",
+      "AZ"
+    ],
+    [
       "042003",
       34.723605296026115,
       -81.6398366465861,
@@ -69879,6 +69889,15 @@
       "Taco Bell",
       "Randolph",
       "NJ"
+    ],
+    [
+      "041850",
+      32.2694,
+      -109.8459,
+      0.99,
+      "Taco Bell",
+      "Willcox",
+      "AZ"
     ],
     [
       "042304",
@@ -70023,6 +70042,15 @@
       "Taco Bell",
       "Cherryville",
       "NC"
+    ],
+    [
+      "036501",
+      32.45908731430905,
+      -111.2161373653339,
+      0.99,
+      "Taco Bell",
+      "Marana",
+      "AZ"
     ],
     [
       "037004",
@@ -71445,6 +71473,15 @@
       "Taco Bell",
       "Amityville",
       "NY"
+    ],
+    [
+      "030945",
+      32.353568392234436,
+      -111.09420812923422,
+      0.99,
+      "Taco Bell",
+      "Tucson",
+      "AZ"
     ],
     [
       "038951",

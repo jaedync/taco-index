@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.36,
+    "avg": 10.38,
     "min": 9.49,
     "max": 10.99,
     "median": 10.29,
     "std_dev": 0.42,
-    "store_count": 15
+    "store_count": 16
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$10.69",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$10.89",
@@ -64,8 +64,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.39,
-      "store_count": 6
+      "avg_price": 10.43,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -180,6 +180,13 @@
       "price": 10.89
     },
     {
+      "store_number": "027599",
+      "name": "Taco Bell",
+      "city": "Madison",
+      "state": "GA",
+      "price": 10.69
+    },
+    {
       "store_number": "031389",
       "name": "Taco Bell / KFC",
       "city": "Locust Grove",
@@ -220,16 +227,19 @@
       "city": "Pigeon Forge",
       "state": "TN",
       "price": 10.29
-    },
-    {
-      "store_number": "040706",
-      "name": "Taco Bell",
-      "city": "Bonaire",
-      "state": "GA",
-      "price": 10.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027599",
+      "store_name": "Taco Bell",
+      "city": "Madison",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.69,
+      "observed_at": "2026-06-29T20:38:26.700561+00:00"
+    },
     {
       "store_number": "040706",
       "store_name": "Taco Bell",
@@ -1222,7 +1232,7 @@
     }
   ],
   "activity_summary": {
-    "added": 57,
+    "added": 58,
     "removed": 42,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1372,6 +1382,15 @@
       "GA"
     ],
     [
+      "027599",
+      33.56344645271083,
+      -83.4796367994174,
+      10.69,
+      "Taco Bell",
+      "Madison",
+      "GA"
+    ],
+    [
       "031757",
       35.987211413309275,
       -83.60585430267747,
@@ -1400,6 +1419,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-28",
+  "last_seen_date": "2026-06-29",
   "peak_availability_pct": 0.2
 }
