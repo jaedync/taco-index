@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.38,
+    "avg": 10.35,
     "min": 9.49,
     "max": 10.99,
     "median": 10.29,
-    "std_dev": 0.42,
-    "store_count": 16
+    "std_dev": 0.41,
+    "store_count": 17
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$10.19",
@@ -64,8 +64,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.43,
-      "store_count": 7
+      "avg_price": 10.38,
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -112,6 +112,13 @@
       "price": 9.99
     },
     {
+      "store_number": "041838",
+      "name": "Taco Bell",
+      "city": "Camilla",
+      "state": "GA",
+      "price": 9.99
+    },
+    {
       "store_number": "042119",
       "name": "Taco Bell",
       "city": "Hope Hull",
@@ -145,13 +152,6 @@
       "city": "Cullman",
       "state": "AL",
       "price": 10.29
-    },
-    {
-      "store_number": "041212",
-      "name": "Taco Bell",
-      "city": "Decatur",
-      "state": "GA",
-      "price": 10.49
     }
   ],
   "min_price_store_numbers": [
@@ -159,17 +159,17 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "041257",
-      "name": "Taco Bell",
-      "city": "Cumming",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "035461",
       "name": "Taco Bell",
       "city": "Maryville",
       "state": "TN",
+      "price": 10.99
+    },
+    {
+      "store_number": "041229",
+      "name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
       "price": 10.99
     },
     {
@@ -230,6 +230,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041257",
+      "store_name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-06-30T21:29:22.493048+00:00"
+    },
+    {
+      "store_number": "041229",
+      "store_name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-06-30T21:28:39.978070+00:00"
+    },
+    {
+      "store_number": "041838",
+      "store_name": "Taco Bell",
+      "city": "Camilla",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-06-30T21:28:22.929726+00:00"
+    },
     {
       "store_number": "027599",
       "store_name": "Taco Bell",
@@ -1232,8 +1262,8 @@
     }
   ],
   "activity_summary": {
-    "added": 58,
-    "removed": 42,
+    "added": 60,
+    "removed": 43,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1307,6 +1337,15 @@
       9.99,
       "Taco Bell",
       "Lawrenceville",
+      "GA"
+    ],
+    [
+      "041838",
+      31.233460931909427,
+      -84.19954658301322,
+      9.99,
+      "Taco Bell",
+      "Camilla",
       "GA"
     ],
     [
@@ -1400,6 +1439,15 @@
       "TN"
     ],
     [
+      "041229",
+      33.85923288371655,
+      -84.67192824394984,
+      10.99,
+      "Taco Bell",
+      "Powder Springs",
+      "GA"
+    ],
+    [
       "035461",
       35.75640600000001,
       -83.9419497,
@@ -1407,18 +1455,9 @@
       "Taco Bell",
       "Maryville",
       "TN"
-    ],
-    [
-      "041257",
-      34.164623445272696,
-      -84.11864787340164,
-      10.99,
-      "Taco Bell",
-      "Cumming",
-      "GA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-29",
+  "last_seen_date": "2026-06-30",
   "peak_availability_pct": 0.2
 }

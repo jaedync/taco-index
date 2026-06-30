@@ -20,7 +20,7 @@
     "max": 7.69,
     "median": 6.99,
     "std_dev": 0.48,
-    "store_count": 131
+    "store_count": 133
   },
   "histogram": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "bucket": "$6.39",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$6.49",
@@ -41,7 +41,7 @@
     },
     {
       "bucket": "$6.89",
-      "count": 6
+      "count": 7
     },
     {
       "bucket": "$6.99",
@@ -70,7 +70,7 @@
     {
       "state": "TX",
       "avg_price": 6.63,
-      "store_count": 46
+      "store_count": 48
     }
   ],
   "nutrition": {
@@ -124,6 +124,13 @@
       "price": 6.39
     },
     {
+      "store_number": "030116",
+      "name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "price": 6.39
+    },
+    {
       "store_number": "030124",
       "name": "Taco Bell",
       "city": "Round Rock",
@@ -148,13 +155,6 @@
       "store_number": "030086",
       "name": "Taco Bell",
       "city": "Buda",
-      "state": "TX",
-      "price": 6.49
-    },
-    {
-      "store_number": "030149",
-      "name": "Taco Bell",
-      "city": "Bastrop",
       "state": "TX",
       "price": 6.49
     }
@@ -236,6 +236,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030116",
+      "store_name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.39,
+      "observed_at": "2026-06-30T21:29:34.630398+00:00"
+    },
+    {
+      "store_number": "030146",
+      "store_name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.89,
+      "observed_at": "2026-06-30T21:28:24.872655+00:00"
+    },
     {
       "store_number": "030116",
       "store_name": "Taco Bell",
@@ -2608,7 +2628,7 @@
     }
   ],
   "activity_summary": {
-    "added": 184,
+    "added": 186,
     "removed": 53,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2661,6 +2681,15 @@
       6.39,
       "Taco Bell",
       "Round Rock",
+      "TX"
+    ],
+    [
+      "030116",
+      30.461639201649003,
+      -97.79508287230081,
+      6.39,
+      "Taco Bell",
+      "Austin",
       "TX"
     ],
     [
@@ -2974,6 +3003,15 @@
       30.337112522034236,
       -97.69432015252278,
       6.79,
+      "Taco Bell",
+      "Austin",
+      "TX"
+    ],
+    [
+      "030146",
+      30.190870049620756,
+      -97.76904053514583,
+      6.89,
       "Taco Bell",
       "Austin",
       "TX"
@@ -3799,6 +3837,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-06-29",
+  "last_seen_date": "2026-06-30",
   "peak_availability_pct": 1.6
 }

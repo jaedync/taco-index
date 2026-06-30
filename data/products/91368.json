@@ -20,8 +20,8 @@
     "min": 9.0,
     "max": 12.99,
     "median": 9.0,
-    "std_dev": 0.61,
-    "store_count": 470
+    "std_dev": 0.6,
+    "store_count": 469
   },
   "histogram": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$11.29",
-      "count": 19
+      "count": 18
     },
     {
       "bucket": "$11.99",
@@ -62,8 +62,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 9.3,
-      "store_count": 228
+      "avg_price": 9.29,
+      "store_count": 227
     },
     {
       "state": "AL",
@@ -636,14 +636,24 @@
       "price": 11.29
     },
     {
-      "store_number": "041216",
+      "store_number": "041220",
       "name": "Taco Bell",
-      "city": "Decatur",
+      "city": "Fayetteville",
       "state": "GA",
       "price": 11.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041216",
+      "store_name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.29,
+      "new_price": null,
+      "observed_at": "2026-06-30T21:29:01.856118+00:00"
+    },
     {
       "store_number": "033994",
       "store_name": "Taco Bell",
@@ -16037,7 +16047,7 @@
   ],
   "activity_summary": {
     "added": 1003,
-    "removed": 533,
+    "removed": 534,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -20212,15 +20222,6 @@
       "GA"
     ],
     [
-      "041216",
-      33.71689565332906,
-      -84.21496087389771,
-      11.29,
-      "Taco Bell",
-      "Decatur",
-      "GA"
-    ],
-    [
       "041223",
       33.61940670172887,
       -84.24365535383913,
@@ -20303,6 +20304,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-06-29",
+  "last_seen_date": "2026-06-30",
   "peak_availability_pct": 6.0
 }

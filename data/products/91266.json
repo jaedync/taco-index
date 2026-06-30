@@ -11,7 +11,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 1.8,
+  "peak_30d_pct": 1.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 2.0,
@@ -21,12 +21,12 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.21,
-    "store_count": 152
+    "store_count": 154
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 14
+      "count": 16
     },
     {
       "bucket": "$3.09",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 85
+      "count": 84
     },
     {
       "bucket": "$3.29",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 6
+      "count": 7
     },
     {
       "bucket": "$3.49",
@@ -64,8 +64,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 3.37,
-      "store_count": 65
+      "avg_price": 3.36,
+      "store_count": 68
     },
     {
       "state": "TN",
@@ -80,7 +80,7 @@
     {
       "state": "AL",
       "avg_price": 3.21,
-      "store_count": 61
+      "store_count": 60
     }
   ],
   "nutrition": null,
@@ -135,6 +135,13 @@
       "price": 2.99
     },
     {
+      "store_number": "041838",
+      "name": "Taco Bell",
+      "city": "Camilla",
+      "state": "GA",
+      "price": 2.99
+    },
+    {
       "store_number": "041798",
       "name": "Taco Bell",
       "city": "Jackson",
@@ -147,13 +154,6 @@
       "city": "Smyrna",
       "state": "GA",
       "price": 2.99
-    },
-    {
-      "store_number": "041799",
-      "name": "Taco Bell",
-      "city": "Doraville",
-      "state": "GA",
-      "price": 2.99
     }
   ],
   "min_price_store_numbers": [
@@ -164,12 +164,14 @@
     "032542",
     "037038",
     "003824",
+    "041838",
     "041798",
     "004740",
     "041799",
     "041835",
     "002167",
     "041837",
+    "005482",
     "003404"
   ],
   "priciest_stores": [
@@ -245,6 +247,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "005482",
+      "store_name": "Taco Bell",
+      "city": "Peachtree City",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-30T21:29:46.687479+00:00"
+    },
+    {
+      "store_number": "041838",
+      "store_name": "Taco Bell",
+      "city": "Camilla",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-30T21:28:22.929726+00:00"
+    },
+    {
+      "store_number": "039938",
+      "store_name": "Taco Bell",
+      "city": "Summerville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-06-30T21:27:39.480062+00:00"
+    },
+    {
+      "store_number": "029111",
+      "store_name": "Taco Bell",
+      "city": "Birmingham",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-06-30T21:27:38.649534+00:00"
+    },
     {
       "store_number": "033348",
       "store_name": "Taco Bell",
@@ -15327,8 +15369,8 @@
     }
   ],
   "activity_summary": {
-    "added": 670,
-    "removed": 518,
+    "added": 673,
+    "removed": 519,
     "price_changed": 320,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15414,6 +15456,15 @@
       "GA"
     ],
     [
+      "041838",
+      31.233460931909427,
+      -84.19954658301322,
+      2.99,
+      "Taco Bell",
+      "Camilla",
+      "GA"
+    ],
+    [
       "041798",
       33.29478815954969,
       -83.96059935717133,
@@ -15465,6 +15516,15 @@
       2.99,
       "Taco Bell",
       "Thomasville",
+      "GA"
+    ],
+    [
+      "005482",
+      33.37512829084298,
+      -84.5632732716386,
+      2.99,
+      "Taco Bell",
+      "Peachtree City",
       "GA"
     ],
     [
@@ -15717,15 +15777,6 @@
       3.19,
       "Taco Bell",
       "Pelham",
-      "AL"
-    ],
-    [
-      "029111",
-      33.55784678574716,
-      -86.88956658200459,
-      3.19,
-      "Taco Bell",
-      "Birmingham",
       "AL"
     ],
     [
@@ -16386,6 +16437,15 @@
       "TN"
     ],
     [
+      "039938",
+      34.49523577676158,
+      -85.33594563603401,
+      3.39,
+      "Taco Bell",
+      "Summerville",
+      "GA"
+    ],
+    [
       "003969",
       35.70288395093816,
       -85.78153502138795,
@@ -16720,6 +16780,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-29",
+  "last_seen_date": "2026-06-30",
   "peak_availability_pct": 5.9
 }

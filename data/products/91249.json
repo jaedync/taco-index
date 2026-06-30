@@ -26,7 +26,7 @@
   "histogram": [
     {
       "bucket": "$2.29",
-      "count": 273
+      "count": 274
     },
     {
       "bucket": "$2.39",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$2.59",
-      "count": 16
+      "count": 15
     },
     {
       "bucket": "$2.69",
@@ -69,19 +69,19 @@
       "store_count": 238
     },
     {
-      "state": "TN",
-      "avg_price": 2.38,
-      "store_count": 88
-    },
-    {
       "state": "FL",
       "avg_price": 2.38,
       "store_count": 30
     },
     {
+      "state": "TN",
+      "avg_price": 2.38,
+      "store_count": 87
+    },
+    {
       "state": "AL",
       "avg_price": 2.3,
-      "store_count": 120
+      "store_count": 121
     }
   ],
   "nutrition": {
@@ -376,6 +376,7 @@
     "039947",
     "039934",
     "041210",
+    "029095",
     "039936",
     "029071",
     "029101",
@@ -518,6 +519,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029095",
+      "store_name": "Taco Bell",
+      "city": "Valley",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.29,
+      "observed_at": "2026-06-30T21:28:55.071902+00:00"
+    },
+    {
+      "store_number": "019292",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.59,
+      "new_price": null,
+      "observed_at": "2026-06-30T21:27:11.218890+00:00"
+    },
     {
       "store_number": "041835",
       "store_name": "Taco Bell",
@@ -6140,8 +6161,8 @@
     }
   ],
   "activity_summary": {
-    "added": 522,
-    "removed": 35,
+    "added": 523,
+    "removed": 36,
     "price_changed": 5,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7994,6 +8015,15 @@
       "Taco Bell",
       "Lawrenceville",
       "GA"
+    ],
+    [
+      "029095",
+      32.84469762076043,
+      -85.18216542902337,
+      2.29,
+      "Taco Bell",
+      "Valley",
+      "AL"
     ],
     [
       "039936",
@@ -10246,15 +10276,6 @@
       "TN"
     ],
     [
-      "019292",
-      36.03309999284835,
-      -83.86894236495063,
-      2.59,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
-    ],
-    [
       "032055",
       34.0647052,
       -83.9841147,
@@ -10535,6 +10556,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-29",
+  "last_seen_date": "2026-06-30",
   "peak_availability_pct": 6.0
 }

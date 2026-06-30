@@ -14,23 +14,23 @@
   "peak_30d_pct": 1.8,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.9,
+  "availability_pct": 2.0,
   "price_stats": {
-    "avg": 6.42,
+    "avg": 6.4,
     "min": 5.29,
     "max": 8.19,
     "median": 6.19,
-    "std_dev": 0.7,
-    "store_count": 150
+    "std_dev": 0.71,
+    "store_count": 152
   },
   "histogram": [
     {
       "bucket": "$5.29",
-      "count": 4
+      "count": 6
     },
     {
       "bucket": "$5.49",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$5.69",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 50
+      "count": 49
     },
     {
       "bucket": "$6.29",
@@ -100,8 +100,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.71,
-      "store_count": 63
+      "avg_price": 6.65,
+      "store_count": 66
     },
     {
       "state": "TN",
@@ -111,7 +111,7 @@
     {
       "state": "AL",
       "avg_price": 6.21,
-      "store_count": 59
+      "store_count": 58
     },
     {
       "state": "FL",
@@ -125,6 +125,13 @@
       "store_number": "037332",
       "name": "Taco Bell",
       "city": "Atlanta",
+      "state": "GA",
+      "price": 5.29
+    },
+    {
+      "store_number": "003824",
+      "name": "Taco Bell",
+      "city": "Lithia Springs",
       "state": "GA",
       "price": 5.29
     },
@@ -150,10 +157,24 @@
       "price": 5.29
     },
     {
+      "store_number": "005482",
+      "name": "Taco Bell",
+      "city": "Peachtree City",
+      "state": "GA",
+      "price": 5.29
+    },
+    {
       "store_number": "037369",
       "name": "Taco Bell",
       "city": "Port St Joe",
       "state": "FL",
+      "price": 5.49
+    },
+    {
+      "store_number": "041838",
+      "name": "Taco Bell",
+      "city": "Camilla",
+      "state": "GA",
       "price": 5.49
     },
     {
@@ -169,34 +190,15 @@
       "city": "Panama City Beach",
       "state": "FL",
       "price": 5.49
-    },
-    {
-      "store_number": "004185",
-      "name": "Taco Bell",
-      "city": "Panama City",
-      "state": "FL",
-      "price": 5.49
-    },
-    {
-      "store_number": "041835",
-      "name": "Taco Bell",
-      "city": "Cairo",
-      "state": "GA",
-      "price": 5.49
-    },
-    {
-      "store_number": "019713",
-      "name": "Taco Bell",
-      "city": "Panama City Beach",
-      "state": "FL",
-      "price": 5.49
     }
   ],
   "min_price_store_numbers": [
     "037332",
+    "003824",
     "004740",
     "003404",
-    "002167"
+    "002167",
+    "005482"
   ],
   "priciest_stores": [
     {
@@ -271,6 +273,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "005482",
+      "store_name": "Taco Bell",
+      "city": "Peachtree City",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.29,
+      "observed_at": "2026-06-30T21:29:46.687479+00:00"
+    },
+    {
+      "store_number": "041838",
+      "store_name": "Taco Bell",
+      "city": "Camilla",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-06-30T21:28:22.929726+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.29,
+      "observed_at": "2026-06-30T21:28:05.961380+00:00"
+    },
+    {
+      "store_number": "029111",
+      "store_name": "Taco Bell",
+      "city": "Birmingham",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 6.19,
+      "new_price": null,
+      "observed_at": "2026-06-30T21:27:38.649534+00:00"
+    },
     {
       "store_number": "027599",
       "store_name": "Taco Bell",
@@ -13953,12 +13995,12 @@
     }
   ],
   "activity_summary": {
-    "added": 670,
-    "removed": 520,
+    "added": 673,
+    "removed": 521,
     "price_changed": 178,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 530,
+  "calories_from_menu": 570,
   "calories_min": 570,
   "calories_max": 570,
   "combo_groups": [
@@ -13983,6 +14025,15 @@
       5.29,
       "Taco Bell",
       "Atlanta",
+      "GA"
+    ],
+    [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      5.29,
+      "Taco Bell",
+      "Lithia Springs",
       "GA"
     ],
     [
@@ -14013,6 +14064,15 @@
       "GA"
     ],
     [
+      "005482",
+      33.37512829084298,
+      -84.5632732716386,
+      5.29,
+      "Taco Bell",
+      "Peachtree City",
+      "GA"
+    ],
+    [
       "037369",
       29.819161175123956,
       -85.3058260644086,
@@ -14020,6 +14080,15 @@
       "Taco Bell",
       "Port St Joe",
       "FL"
+    ],
+    [
+      "041838",
+      31.233460931909427,
+      -84.19954658301322,
+      5.49,
+      "Taco Bell",
+      "Camilla",
+      "GA"
     ],
     [
       "004370",
@@ -14496,15 +14565,6 @@
       6.19,
       "Taco Bell",
       "Pelham",
-      "AL"
-    ],
-    [
-      "029111",
-      33.55784678574716,
-      -86.88956658200459,
-      6.19,
-      "Taco Bell",
-      "Birmingham",
       "AL"
     ],
     [
@@ -15328,6 +15388,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-29",
+  "last_seen_date": "2026-06-30",
   "peak_availability_pct": 5.9
 }

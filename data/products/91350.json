@@ -20,17 +20,17 @@
     "min": 2.99,
     "max": 3.99,
     "median": 3.19,
-    "std_dev": 0.18,
-    "store_count": 477
+    "std_dev": 0.19,
+    "store_count": 476
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 48
+      "count": 50
     },
     {
       "bucket": "$3.19",
-      "count": 245
+      "count": 243
     },
     {
       "bucket": "$3.29",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 49
+      "count": 48
     },
     {
       "bucket": "$3.49",
@@ -65,18 +65,18 @@
     },
     {
       "state": "GA",
-      "avg_price": 3.32,
-      "store_count": 230
+      "avg_price": 3.31,
+      "store_count": 231
     },
     {
       "state": "TN",
       "avg_price": 3.26,
-      "store_count": 88
+      "store_count": 87
     },
     {
       "state": "AL",
       "avg_price": 3.22,
-      "store_count": 119
+      "store_count": 118
     },
     {
       "state": "FL",
@@ -186,6 +186,7 @@
     "016818",
     "004142",
     "018678",
+    "041838",
     "002994",
     "041798",
     "004740",
@@ -218,7 +219,8 @@
     "041839",
     "033933",
     "040900",
-    "041836"
+    "041836",
+    "005482"
   ],
   "priciest_stores": [
     {
@@ -293,6 +295,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034026",
+      "store_name": "Taco Bell",
+      "city": "Chattanooga",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-06-30T21:30:18.834280+00:00"
+    },
+    {
+      "store_number": "005482",
+      "store_name": "Taco Bell",
+      "city": "Peachtree City",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-30T21:29:46.687479+00:00"
+    },
+    {
+      "store_number": "041838",
+      "store_name": "Taco Bell",
+      "city": "Camilla",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-06-30T21:28:22.929726+00:00"
+    },
+    {
+      "store_number": "029097",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-06-30T21:28:21.310369+00:00"
+    },
+    {
+      "store_number": "029111",
+      "store_name": "Taco Bell",
+      "city": "Birmingham",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-06-30T21:27:38.649534+00:00"
+    },
     {
       "store_number": "039623",
       "store_name": "Taco Bell",
@@ -6765,8 +6817,8 @@
     }
   ],
   "activity_summary": {
-    "added": 544,
-    "removed": 67,
+    "added": 546,
+    "removed": 70,
     "price_changed": 36,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6927,6 +6979,15 @@
       2.99,
       "Taco Bell",
       "Adairsville",
+      "GA"
+    ],
+    [
+      "041838",
+      31.233460931909427,
+      -84.19954658301322,
+      2.99,
+      "Taco Bell",
+      "Camilla",
       "GA"
     ],
     [
@@ -7225,6 +7286,15 @@
       "Taco Bell",
       "Quincy",
       "FL"
+    ],
+    [
+      "005482",
+      33.37512829084298,
+      -84.5632732716386,
+      2.99,
+      "Taco Bell",
+      "Peachtree City",
+      "GA"
     ],
     [
       "037020",
@@ -7965,15 +8035,6 @@
       "GA"
     ],
     [
-      "029111",
-      33.55784678574716,
-      -86.88956658200459,
-      3.19,
-      "Taco Bell",
-      "Birmingham",
-      "AL"
-    ],
-    [
       "029027",
       34.795373624737906,
       -84.96162227843519,
@@ -8403,15 +8464,6 @@
       3.19,
       "Taco Bell",
       "Fairburn",
-      "GA"
-    ],
-    [
-      "029097",
-      32.553512189214764,
-      -84.94693011045456,
-      3.19,
-      "Taco Bell",
-      "Columbus",
       "GA"
     ],
     [
@@ -10341,15 +10393,6 @@
       "TN"
     ],
     [
-      "034026",
-      35.01884593369719,
-      -85.37105996148682,
-      3.39,
-      "Taco Bell",
-      "Chattanooga",
-      "TN"
-    ],
-    [
       "041222",
       33.80204066127045,
       -84.04311550539077,
@@ -11089,6 +11132,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-06-29",
+  "last_seen_date": "2026-06-30",
   "peak_availability_pct": 6.0
 }

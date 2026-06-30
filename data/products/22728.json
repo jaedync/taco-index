@@ -20,7 +20,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 223
+    "store_count": 225
   },
   "histogram": [
     {
@@ -65,11 +65,11 @@
     },
     {
       "bucket": "$1.00",
-      "count": 57
+      "count": 58
     },
     {
       "bucket": "$1.10",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$1.19",
@@ -100,8 +100,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 1.1,
-      "store_count": 52
+      "avg_price": 1.11,
+      "store_count": 51
     },
     {
       "state": "IL",
@@ -124,13 +124,18 @@
       "store_count": 24
     },
     {
+      "state": "MO",
+      "avg_price": 0.96,
+      "store_count": 10
+    },
+    {
       "state": "OH",
       "avg_price": 0.96,
       "store_count": 29
     },
     {
-      "state": "MO",
-      "avg_price": 0.94,
+      "state": "KS",
+      "avg_price": 0.91,
       "store_count": 9
     },
     {
@@ -140,11 +145,6 @@
     },
     {
       "state": "MN",
-      "avg_price": 0.9,
-      "store_count": 7
-    },
-    {
-      "state": "KS",
       "avg_price": 0.9,
       "store_count": 8
     },
@@ -321,6 +321,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033000",
+      "store_name": "Taco Bell",
+      "city": "Coopersville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-06-30T21:29:44.026958+00:00"
+    },
+    {
+      "store_number": "024465",
+      "store_name": "Taco Bell",
+      "city": "Emporia",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-06-30T21:29:32.998987+00:00"
+    },
+    {
+      "store_number": "000456",
+      "store_name": "Taco Bell",
+      "city": "Columbia",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.1,
+      "observed_at": "2026-06-30T21:28:39.287702+00:00"
+    },
+    {
+      "store_number": "040584",
+      "store_name": "Taco Bell",
+      "city": "Duluth",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-06-30T21:26:36.629128+00:00"
+    },
     {
       "store_number": "016957",
       "store_name": "Taco Bell",
@@ -5403,8 +5443,8 @@
     }
   ],
   "activity_summary": {
-    "added": 271,
-    "removed": 237,
+    "added": 274,
+    "removed": 238,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6008,15 +6048,6 @@
       "OH"
     ],
     [
-      "033000",
-      43.0588918419283,
-      -85.95632582902908,
-      0.9,
-      "Taco Bell",
-      "Coopersville",
-      "MI"
-    ],
-    [
       "033043",
       42.67365292260149,
       -85.65788559621069,
@@ -6248,6 +6279,15 @@
       0.9,
       "Taco Bell",
       "Blaine",
+      "MN"
+    ],
+    [
+      "040584",
+      46.8046,
+      -92.0697,
+      0.9,
+      "Taco Bell",
+      "Duluth",
       "MN"
     ],
     [
@@ -7070,6 +7110,15 @@
       "TX"
     ],
     [
+      "024465",
+      38.404629048244445,
+      -96.19775354862213,
+      1.0,
+      "Taco Bell",
+      "Emporia",
+      "KS"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -7140,6 +7189,15 @@
       "Taco Bell",
       "Eugene",
       "OR"
+    ],
+    [
+      "000456",
+      38.94675185782623,
+      -92.33476102352142,
+      1.1,
+      "Taco Bell",
+      "Columbia",
+      "MO"
     ],
     [
       "041835",
@@ -7422,6 +7480,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-29",
+  "last_seen_date": "2026-06-30",
   "peak_availability_pct": 2.7
 }

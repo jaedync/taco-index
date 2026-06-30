@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.9,
   "price_stats": {
-    "avg": 11.15,
+    "avg": 11.14,
     "min": 10.49,
     "max": 12.29,
     "median": 11.19,
-    "std_dev": 0.36,
-    "store_count": 145
+    "std_dev": 0.37,
+    "store_count": 147
   },
   "histogram": [
     {
       "bucket": "$10.49",
-      "count": 14
+      "count": 17
     },
     {
       "bucket": "$10.69",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$11.19",
-      "count": 34
+      "count": 33
     },
     {
       "bucket": "$11.29",
@@ -73,7 +73,7 @@
     {
       "state": "AL",
       "avg_price": 11.32,
-      "store_count": 59
+      "store_count": 58
     },
     {
       "state": "TN",
@@ -82,8 +82,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 11.01,
-      "store_count": 61
+      "avg_price": 10.98,
+      "store_count": 64
     },
     {
       "state": "FL",
@@ -111,6 +111,20 @@
       "store_number": "037332",
       "name": "Taco Bell",
       "city": "Atlanta",
+      "state": "GA",
+      "price": 10.49
+    },
+    {
+      "store_number": "003824",
+      "name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "price": 10.49
+    },
+    {
+      "store_number": "041838",
+      "name": "Taco Bell",
+      "city": "Camilla",
       "state": "GA",
       "price": 10.49
     },
@@ -148,26 +162,14 @@
       "city": "Decatur",
       "state": "GA",
       "price": 10.49
-    },
-    {
-      "store_number": "041223",
-      "name": "Taco Bell",
-      "city": "Ellenwood",
-      "state": "GA",
-      "price": 10.49
-    },
-    {
-      "store_number": "003404",
-      "name": "Taco Bell",
-      "city": "Marietta",
-      "state": "GA",
-      "price": 10.49
     }
   ],
   "min_price_store_numbers": [
     "033481",
     "041226",
     "037332",
+    "003824",
+    "041838",
     "041219",
     "004740",
     "041799",
@@ -178,7 +180,8 @@
     "002167",
     "041218",
     "041837",
-    "041212"
+    "041212",
+    "005482"
   ],
   "priciest_stores": [
     {
@@ -253,6 +256,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "005482",
+      "store_name": "Taco Bell",
+      "city": "Peachtree City",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-06-30T21:29:46.687479+00:00"
+    },
+    {
+      "store_number": "041838",
+      "store_name": "Taco Bell",
+      "city": "Camilla",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-06-30T21:28:22.929726+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-06-30T21:28:05.961380+00:00"
+    },
+    {
+      "store_number": "029111",
+      "store_name": "Taco Bell",
+      "city": "Birmingham",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 11.19,
+      "new_price": null,
+      "observed_at": "2026-06-30T21:27:38.649534+00:00"
+    },
     {
       "store_number": "027599",
       "store_name": "Taco Bell",
@@ -15255,8 +15298,8 @@
     }
   ],
   "activity_summary": {
-    "added": 669,
-    "removed": 524,
+    "added": 672,
+    "removed": 525,
     "price_changed": 307,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15321,6 +15364,24 @@
       10.49,
       "Taco Bell",
       "Atlanta",
+      "GA"
+    ],
+    [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      10.49,
+      "Taco Bell",
+      "Lithia Springs",
+      "GA"
+    ],
+    [
+      "041838",
+      31.233460931909427,
+      -84.19954658301322,
+      10.49,
+      "Taco Bell",
+      "Camilla",
       "GA"
     ],
     [
@@ -15420,6 +15481,15 @@
       10.49,
       "Taco Bell",
       "Decatur",
+      "GA"
+    ],
+    [
+      "005482",
+      33.37512829084298,
+      -84.5632732716386,
+      10.49,
+      "Taco Bell",
+      "Peachtree City",
       "GA"
     ],
     [
@@ -15996,15 +16066,6 @@
       11.19,
       "Taco Bell",
       "Pelham",
-      "AL"
-    ],
-    [
-      "029111",
-      33.55784678574716,
-      -86.88956658200459,
-      11.19,
-      "Taco Bell",
-      "Birmingham",
       "AL"
     ],
     [
@@ -16603,6 +16664,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-29",
+  "last_seen_date": "2026-06-30",
   "peak_availability_pct": 5.9
 }

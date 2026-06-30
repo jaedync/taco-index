@@ -22,12 +22,12 @@
     "max": 7.49,
     "median": 7.49,
     "std_dev": 0.0,
-    "store_count": 1
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$7.49",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -47,6 +47,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "030146",
+      "name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "price": 7.49
+    },
+    {
       "store_number": "030086",
       "name": "Taco Bell",
       "city": "Buda",
@@ -55,6 +62,7 @@
     }
   ],
   "min_price_store_numbers": [
+    "030146",
     "030086"
   ],
   "priciest_stores": [
@@ -64,9 +72,26 @@
       "city": "Buda",
       "state": "TX",
       "price": 7.49
+    },
+    {
+      "store_number": "030146",
+      "name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "price": 7.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030146",
+      "store_name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.49,
+      "observed_at": "2026-06-30T21:28:24.872655+00:00"
+    },
     {
       "store_number": "030146",
       "store_name": "Taco Bell",
@@ -1039,7 +1064,7 @@
     }
   ],
   "activity_summary": {
-    "added": 49,
+    "added": 50,
     "removed": 48,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1062,6 +1087,15 @@
     }
   ],
   "map_data": [
+    [
+      "030146",
+      30.190870049620756,
+      -97.76904053514583,
+      7.49,
+      "Taco Bell",
+      "Austin",
+      "TX"
+    ],
     [
       "030086",
       30.085444990817958,
