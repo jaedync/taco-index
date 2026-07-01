@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 10.35,
+    "avg": 10.38,
     "min": 9.49,
     "max": 10.99,
     "median": 10.29,
-    "std_dev": 0.41,
-    "store_count": 17
+    "std_dev": 0.39,
+    "store_count": 18
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$10.19",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$10.29",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$10.49",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$10.59",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$10.69",
@@ -64,7 +64,7 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.38,
+      "avg_price": 10.41,
       "store_count": 8
     }
   ],
@@ -89,13 +89,6 @@
       "city": "Port St Joe",
       "state": "FL",
       "price": 9.49
-    },
-    {
-      "store_number": "042903",
-      "name": "Taco Bell",
-      "city": "Baxley",
-      "state": "GA",
-      "price": 9.99
     },
     {
       "store_number": "042829",
@@ -152,6 +145,13 @@
       "city": "Cullman",
       "state": "AL",
       "price": 10.29
+    },
+    {
+      "store_number": "042577",
+      "name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "price": 10.29
     }
   ],
   "min_price_store_numbers": [
@@ -194,6 +194,13 @@
       "price": 10.69
     },
     {
+      "store_number": "042126",
+      "name": "Taco Bell",
+      "city": "Defuniak Springs",
+      "state": "FL",
+      "price": 10.59
+    },
+    {
       "store_number": "042123",
       "name": "Taco Bell",
       "city": "Niceville",
@@ -208,28 +215,51 @@
       "price": 10.49
     },
     {
+      "store_number": "042577",
+      "name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "price": 10.29
+    },
+    {
       "store_number": "029145",
       "name": "Taco Bell",
       "city": "Cullman",
       "state": "AL",
       "price": 10.29
-    },
-    {
-      "store_number": "036487",
-      "name": "Taco Bell",
-      "city": "Montgomery",
-      "state": "AL",
-      "price": 10.29
-    },
-    {
-      "store_number": "026432",
-      "name": "Taco Bell",
-      "city": "Pigeon Forge",
-      "state": "TN",
-      "price": 10.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042126",
+      "store_name": "Taco Bell",
+      "city": "Defuniak Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.59,
+      "observed_at": "2026-07-01T20:42:55.524363+00:00"
+    },
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-07-01T20:41:34.344143+00:00"
+    },
+    {
+      "store_number": "042577",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.29,
+      "observed_at": "2026-07-01T20:41:31.894580+00:00"
+    },
     {
       "store_number": "041257",
       "store_name": "Taco Bell",
@@ -1262,14 +1292,14 @@
     }
   ],
   "activity_summary": {
-    "added": 60,
-    "removed": 43,
+    "added": 62,
+    "removed": 44,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 800,
-  "calories_min": 800,
-  "calories_max": 1230,
+  "calories_from_menu": 250,
+  "calories_min": 250,
+  "calories_max": 670,
   "combo_groups": [
     {
       "group_id": "1",
@@ -1311,15 +1341,6 @@
       "Taco Bell",
       "Port St Joe",
       "FL"
-    ],
-    [
-      "042903",
-      31.783928,
-      -82.363196,
-      9.99,
-      "Taco Bell",
-      "Baxley",
-      "GA"
     ],
     [
       "042829",
@@ -1394,6 +1415,15 @@
       "AL"
     ],
     [
+      "042577",
+      33.92625404412495,
+      -84.74611869194156,
+      10.29,
+      "Taco Bell",
+      "Dallas",
+      "GA"
+    ],
+    [
       "041212",
       33.75484747709103,
       -84.26683026558743,
@@ -1409,6 +1439,15 @@
       10.59,
       "Taco Bell",
       "Niceville",
+      "FL"
+    ],
+    [
+      "042126",
+      30.701080181738643,
+      -86.12210662608975,
+      10.59,
+      "Taco Bell",
+      "Defuniak Springs",
       "FL"
     ],
     [
@@ -1458,6 +1497,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-30",
+  "last_seen_date": "2026-07-01",
   "peak_availability_pct": 0.2
 }

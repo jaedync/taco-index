@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 9.27,
+    "avg": 9.29,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
     "std_dev": 0.63,
-    "store_count": 32
+    "store_count": 33
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$11.29",
@@ -45,8 +45,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 9.46,
-      "store_count": 10
+      "avg_price": 9.51,
+      "store_count": 11
     },
     {
       "state": "TN",
@@ -217,6 +217,13 @@
       "price": 9.99
     },
     {
+      "store_number": "042903",
+      "name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "price": 9.99
+    },
+    {
       "store_number": "040957",
       "name": "Taco Bell",
       "city": "Murphy",
@@ -236,16 +243,19 @@
       "city": "Homewood",
       "state": "AL",
       "price": 9.0
-    },
-    {
-      "store_number": "029167",
-      "name": "Taco Bell",
-      "city": "Helena",
-      "state": "AL",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-07-01T20:41:34.344143+00:00"
+    },
     {
       "store_number": "040962",
       "store_name": "Taco Bell",
@@ -4288,7 +4298,7 @@
     }
   ],
   "activity_summary": {
-    "added": 188,
+    "added": 189,
     "removed": 216,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4564,6 +4574,15 @@
       "NC"
     ],
     [
+      "042903",
+      31.783928,
+      -82.363196,
+      9.99,
+      "Taco Bell",
+      "Baxley",
+      "GA"
+    ],
+    [
       "042832",
       30.5336733589741,
       -87.27316802173264,
@@ -4619,6 +4638,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-30",
+  "last_seen_date": "2026-07-01",
   "peak_availability_pct": 1.1
 }

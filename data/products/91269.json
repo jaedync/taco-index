@@ -11,22 +11,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 0.2,
+  "peak_30d_pct": 0.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 6.82,
+    "avg": 6.8,
     "min": 6.49,
     "max": 7.49,
-    "median": 6.59,
-    "std_dev": 0.4,
-    "store_count": 20
+    "median": 6.49,
+    "std_dev": 0.39,
+    "store_count": 21
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 10
+      "count": 11
     },
     {
       "bucket": "$6.69",
@@ -75,13 +75,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "042903",
-      "name": "Taco Bell",
-      "city": "Baxley",
-      "state": "GA",
-      "price": 6.49
-    },
     {
       "store_number": "031389",
       "name": "Taco Bell / KFC",
@@ -144,10 +137,16 @@
       "city": "Camilla",
       "state": "GA",
       "price": 6.49
+    },
+    {
+      "store_number": "042577",
+      "name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "price": 6.49
     }
   ],
   "min_price_store_numbers": [
-    "042903",
     "031389",
     "026432",
     "042123",
@@ -156,7 +155,9 @@
     "037369",
     "042583",
     "043141",
-    "041838"
+    "041838",
+    "042577",
+    "042126"
   ],
   "priciest_stores": [
     {
@@ -231,6 +232,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042126",
+      "store_name": "Taco Bell",
+      "city": "Defuniak Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-07-01T20:42:55.524363+00:00"
+    },
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-07-01T20:41:34.344143+00:00"
+    },
+    {
+      "store_number": "042577",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-07-01T20:41:31.894580+00:00"
+    },
     {
       "store_number": "041257",
       "store_name": "Taco Bell",
@@ -1263,8 +1294,8 @@
     }
   ],
   "activity_summary": {
-    "added": 50,
-    "removed": 53,
+    "added": 52,
+    "removed": 54,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1292,15 +1323,6 @@
     }
   ],
   "map_data": [
-    [
-      "042903",
-      31.783928,
-      -82.363196,
-      6.49,
-      "Taco Bell",
-      "Baxley",
-      "GA"
-    ],
     [
       "031389",
       33.352032936024656,
@@ -1381,6 +1403,24 @@
       "Taco Bell",
       "Camilla",
       "GA"
+    ],
+    [
+      "042577",
+      33.92625404412495,
+      -84.74611869194156,
+      6.49,
+      "Taco Bell",
+      "Dallas",
+      "GA"
+    ],
+    [
+      "042126",
+      30.701080181738643,
+      -86.12210662608975,
+      6.49,
+      "Taco Bell",
+      "Defuniak Springs",
+      "FL"
     ],
     [
       "040706",

@@ -21,12 +21,12 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.21,
-    "store_count": 154
+    "store_count": 155
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 16
+      "count": 17
     },
     {
       "bucket": "$3.09",
@@ -34,11 +34,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 84
+      "count": 85
     },
     {
       "bucket": "$3.29",
-      "count": 14
+      "count": 13
     },
     {
       "bucket": "$3.39",
@@ -65,22 +65,22 @@
     {
       "state": "GA",
       "avg_price": 3.36,
-      "store_count": 68
+      "store_count": 67
     },
     {
       "state": "TN",
       "avg_price": 3.22,
-      "store_count": 12
-    },
-    {
-      "state": "FL",
-      "avg_price": 3.22,
-      "store_count": 11
+      "store_count": 13
     },
     {
       "state": "AL",
       "avg_price": 3.21,
       "store_count": 60
+    },
+    {
+      "state": "FL",
+      "avg_price": 3.2,
+      "store_count": 12
     }
   ],
   "nutrition": null,
@@ -171,6 +171,7 @@
     "041835",
     "002167",
     "041837",
+    "042126",
     "005482",
     "003404"
   ],
@@ -247,6 +248,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042126",
+      "store_name": "Taco Bell",
+      "city": "Defuniak Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-07-01T20:42:55.524363+00:00"
+    },
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-07-01T20:41:34.344143+00:00"
+    },
+    {
+      "store_number": "037130",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-07-01T20:41:04.673196+00:00"
+    },
     {
       "store_number": "005482",
       "store_name": "Taco Bell",
@@ -15369,14 +15400,14 @@
     }
   ],
   "activity_summary": {
-    "added": 673,
-    "removed": 519,
+    "added": 675,
+    "removed": 520,
     "price_changed": 320,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 260,
-  "calories_min": 260,
-  "calories_max": 260,
+  "calories_from_menu": 210,
+  "calories_min": 210,
+  "calories_max": 210,
   "combo_groups": [
     {
       "group_id": "673",
@@ -15517,6 +15548,15 @@
       "Taco Bell",
       "Thomasville",
       "GA"
+    ],
+    [
+      "042126",
+      30.701080181738643,
+      -86.12210662608975,
+      2.99,
+      "Taco Bell",
+      "Defuniak Springs",
+      "FL"
     ],
     [
       "005482",
@@ -15670,6 +15710,15 @@
       "Taco Bell",
       "Montgomery",
       "AL"
+    ],
+    [
+      "037130",
+      35.43148035713793,
+      -84.58559950824514,
+      3.19,
+      "Taco Bell",
+      "Athens",
+      "TN"
     ],
     [
       "042356",
@@ -16356,15 +16405,6 @@
       "AL"
     ],
     [
-      "042903",
-      31.783928,
-      -82.363196,
-      3.29,
-      "Taco Bell",
-      "Baxley",
-      "GA"
-    ],
-    [
       "042121",
       30.415996791776298,
       -86.60656302491896,
@@ -16780,6 +16820,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-30",
+  "last_seen_date": "2026-07-01",
   "peak_availability_pct": 5.9
 }

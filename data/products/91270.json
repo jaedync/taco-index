@@ -11,22 +11,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 1.9,
+  "peak_30d_pct": 2.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 2.1,
   "price_stats": {
-    "avg": 8.67,
+    "avg": 8.66,
     "min": 7.79,
     "max": 10.49,
     "median": 8.69,
     "std_dev": 0.51,
-    "store_count": 161
+    "store_count": 164
   },
   "histogram": [
     {
       "bucket": "$7.79",
-      "count": 6
+      "count": 7
     },
     {
       "bucket": "$7.99",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$8.39",
-      "count": 23
+      "count": 24
     },
     {
       "bucket": "$8.49",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$8.59",
-      "count": 17
+      "count": 18
     },
     {
       "bucket": "$8.69",
@@ -72,8 +72,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 8.87,
-      "store_count": 72
+      "avg_price": 8.86,
+      "store_count": 73
     },
     {
       "state": "AL",
@@ -82,13 +82,13 @@
     },
     {
       "state": "TN",
-      "avg_price": 8.4,
-      "store_count": 13
+      "avg_price": 8.41,
+      "store_count": 14
     },
     {
       "state": "FL",
-      "avg_price": 8.0,
-      "store_count": 10
+      "avg_price": 7.98,
+      "store_count": 11
     }
   ],
   "nutrition": {
@@ -125,6 +125,13 @@
       "name": "Taco Bell",
       "city": "Cairo",
       "state": "GA",
+      "price": 7.79
+    },
+    {
+      "store_number": "019753",
+      "name": "Taco Bell",
+      "city": "Lynn Haven",
+      "state": "FL",
       "price": 7.79
     },
     {
@@ -168,19 +175,13 @@
       "city": "Jamestown",
       "state": "TN",
       "price": 7.99
-    },
-    {
-      "store_number": "037369",
-      "name": "Taco Bell",
-      "city": "Port St Joe",
-      "state": "FL",
-      "price": 7.99
     }
   ],
   "min_price_store_numbers": [
     "041838",
     "042121",
     "041835",
+    "019753",
     "041837",
     "042126",
     "042124"
@@ -258,6 +259,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019753",
+      "store_name": "Taco Bell",
+      "city": "Lynn Haven",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-07-01T20:42:41.771287+00:00"
+    },
+    {
+      "store_number": "005323",
+      "store_name": "Taco Bell",
+      "city": "Union City",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.39,
+      "observed_at": "2026-07-01T20:42:07.196049+00:00"
+    },
+    {
+      "store_number": "037130",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.59,
+      "observed_at": "2026-07-01T20:41:04.673196+00:00"
+    },
     {
       "store_number": "005482",
       "store_name": "Taco Bell",
@@ -15280,14 +15311,14 @@
     }
   ],
   "activity_summary": {
-    "added": 697,
+    "added": 700,
     "removed": 536,
     "price_changed": 269,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 480,
-  "calories_min": 530,
-  "calories_max": 530,
+  "calories_min": 480,
+  "calories_max": 480,
   "combo_groups": [
     {
       "group_id": "675",
@@ -15329,6 +15360,15 @@
       "Taco Bell",
       "Cairo",
       "GA"
+    ],
+    [
+      "019753",
+      30.227894887892266,
+      -85.64869236143993,
+      7.79,
+      "Taco Bell",
+      "Lynn Haven",
+      "FL"
     ],
     [
       "041837",
@@ -15619,6 +15659,15 @@
       "GA"
     ],
     [
+      "005323",
+      33.56937733716951,
+      -84.54044566996062,
+      8.39,
+      "Taco Bell",
+      "Union City",
+      "GA"
+    ],
+    [
       "026837",
       35.76009726491193,
       -83.97547312083594,
@@ -15860,6 +15909,15 @@
       "Taco Bell",
       "Millbrook",
       "AL"
+    ],
+    [
+      "037130",
+      35.43148035713793,
+      -84.58559950824514,
+      8.59,
+      "Taco Bell",
+      "Athens",
+      "TN"
     ],
     [
       "042665",
@@ -16754,6 +16812,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-30",
+  "last_seen_date": "2026-07-01",
   "peak_availability_pct": 6.0
 }

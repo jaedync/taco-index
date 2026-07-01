@@ -20,7 +20,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 225
+    "store_count": 226
   },
   "histogram": [
     {
@@ -53,11 +53,11 @@
     },
     {
       "bucket": "$0.90",
-      "count": 63
+      "count": 64
     },
     {
       "bucket": "$0.95",
-      "count": 30
+      "count": 29
     },
     {
       "bucket": "$0.99",
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 58
+      "count": 59
     },
     {
       "bucket": "$1.10",
@@ -101,7 +101,7 @@
     {
       "state": "MI",
       "avg_price": 1.11,
-      "store_count": 51
+      "store_count": 50
     },
     {
       "state": "IL",
@@ -124,14 +124,14 @@
       "store_count": 24
     },
     {
+      "state": "OH",
+      "avg_price": 0.96,
+      "store_count": 30
+    },
+    {
       "state": "MO",
       "avg_price": 0.96,
       "store_count": 10
-    },
-    {
-      "state": "OH",
-      "avg_price": 0.96,
-      "store_count": 29
     },
     {
       "state": "KS",
@@ -321,6 +321,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004274",
+      "store_name": "Taco Bell",
+      "city": "Starkville",
+      "state": "MS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-07-01T20:42:40.303631+00:00"
+    },
+    {
+      "store_number": "035196",
+      "store_name": "Taco Bell",
+      "city": "Bellefontaine",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-07-01T20:40:54.032258+00:00"
+    },
+    {
+      "store_number": "041027",
+      "store_name": "Taco Bell",
+      "city": "Monroe",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-07-01T20:40:43.252433+00:00"
+    },
     {
       "store_number": "033000",
       "store_name": "Taco Bell",
@@ -5443,8 +5473,8 @@
     }
   ],
   "activity_summary": {
-    "added": 274,
-    "removed": 238,
+    "added": 276,
+    "removed": 239,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6291,6 +6321,15 @@
       "MN"
     ],
     [
+      "004274",
+      33.45365710660152,
+      -88.81976500153542,
+      0.9,
+      "Taco Bell",
+      "Starkville",
+      "MS"
+    ],
+    [
       "041086",
       39.72009668768734,
       -82.98767904100833,
@@ -6306,15 +6345,6 @@
       0.95,
       "Taco Bell",
       "Macomb",
-      "MI"
-    ],
-    [
-      "041027",
-      41.9491,
-      -83.401,
-      0.95,
-      "Taco Bell",
-      "Monroe",
       "MI"
     ],
     [
@@ -7119,6 +7149,15 @@
       "KS"
     ],
     [
+      "035196",
+      40.33927887177419,
+      -83.76249309501566,
+      1.0,
+      "Taco Bell",
+      "Bellefontaine",
+      "OH"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -7480,6 +7519,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-06-30",
+  "last_seen_date": "2026-07-01",
   "peak_availability_pct": 2.7
 }

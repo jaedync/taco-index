@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:09.662285+00:00",
   "availability_pct": 0.8,
   "price_stats": {
-    "avg": 7.42,
+    "avg": 7.39,
     "min": 5.79,
     "max": 8.49,
     "median": 7.49,
-    "std_dev": 0.6,
-    "store_count": 62
+    "std_dev": 0.62,
+    "store_count": 63
   },
   "histogram": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$6.39",
@@ -85,8 +85,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 6.5,
-      "store_count": 7
+      "avg_price": 6.44,
+      "store_count": 8
     }
   ],
   "nutrition": null,
@@ -102,6 +102,13 @@
       "store_number": "022073",
       "name": "Taco Bell",
       "city": "Panama City",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "019753",
+      "name": "Taco Bell",
+      "city": "Lynn Haven",
       "state": "FL",
       "price": 5.99
     },
@@ -152,13 +159,6 @@
       "name": "Taco Bell",
       "city": "Canton",
       "state": "GA",
-      "price": 6.99
-    },
-    {
-      "store_number": "004170",
-      "name": "Taco Bell",
-      "city": "Milton",
-      "state": "FL",
       "price": 6.99
     }
   ],
@@ -238,6 +238,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019753",
+      "store_name": "Taco Bell",
+      "city": "Lynn Haven",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-07-01T20:42:41.771287+00:00"
+    },
     {
       "store_number": "042574",
       "store_name": "Taco Bell",
@@ -2330,7 +2340,7 @@
     }
   ],
   "activity_summary": {
-    "added": 132,
+    "added": 133,
     "removed": 70,
     "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2375,6 +2385,15 @@
       5.99,
       "Taco Bell",
       "Panama City",
+      "FL"
+    ],
+    [
+      "019753",
+      30.227894887892266,
+      -85.64869236143993,
+      5.99,
+      "Taco Bell",
+      "Lynn Haven",
       "FL"
     ],
     [
@@ -2919,6 +2938,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-06-30",
+  "last_seen_date": "2026-07-01",
   "peak_availability_pct": 1.1
 }
