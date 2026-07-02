@@ -17,12 +17,12 @@
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.92,
+    "avg": 3.88,
     "min": 3.49,
     "max": 4.29,
     "median": 3.89,
     "std_dev": 0.34,
-    "store_count": 8
+    "store_count": 9
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$3.89",
@@ -45,8 +45,8 @@
   "state_prices": [
     {
       "state": "TX",
-      "avg_price": 3.69,
-      "store_count": 5
+      "avg_price": 3.67,
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -82,6 +82,13 @@
       "store_number": "009406",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Houston",
+      "state": "TX",
+      "price": 3.59
+    },
+    {
+      "store_number": "027416",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
       "state": "TX",
       "price": 3.59
     },
@@ -161,6 +168,13 @@
       "price": 3.89
     },
     {
+      "store_number": "027416",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
+      "state": "TX",
+      "price": 3.59
+    },
+    {
       "store_number": "009406",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Houston",
@@ -183,6 +197,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027416",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-07-02T20:53:09.224371+00:00"
+    },
     {
       "store_number": "031895",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -305,7 +329,7 @@
     }
   ],
   "activity_summary": {
-    "added": 8,
+    "added": 9,
     "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -340,6 +364,15 @@
       3.59,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Houston",
+      "TX"
+    ],
+    [
+      "027416",
+      32.83776989676744,
+      -96.95856750011444,
+      3.59,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Irving",
       "TX"
     ],
     [
@@ -394,7 +427,7 @@
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 4.19,
+      "avg_price": 4.16,
       "min_price": 3.69,
       "max_price": 5.09,
       "calories": 220,
@@ -402,11 +435,11 @@
     },
     {
       "size": "REGULAR",
-      "avg_price": 3.89,
+      "avg_price": 3.87,
       "min_price": 3.49,
       "max_price": 4.29,
       "calories": 180,
-      "happier_hour_avg": 2.12
+      "happier_hour_avg": 2.11
     }
   ]
 }

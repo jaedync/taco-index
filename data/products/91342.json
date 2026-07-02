@@ -22,12 +22,12 @@
     "max": 6.99,
     "median": 6.69,
     "std_dev": 0.2,
-    "store_count": 133
+    "store_count": 135
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 52
+      "count": 54
     },
     {
       "bucket": "$6.69",
@@ -41,8 +41,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.79,
-      "store_count": 54
+      "avg_price": 6.78,
+      "store_count": 56
     },
     {
       "state": "FL",
@@ -167,8 +167,10 @@
     "029144",
     "029717",
     "029110",
+    "003824",
     "036370",
     "026044",
+    "029097",
     "029057",
     "036372",
     "030463",
@@ -206,13 +208,6 @@
       "name": "Taco Bell",
       "city": "Beaufort",
       "state": "SC",
-      "price": 6.99
-    },
-    {
-      "store_number": "041229",
-      "name": "Taco Bell",
-      "city": "Powder Springs",
-      "state": "GA",
       "price": 6.99
     },
     {
@@ -258,6 +253,13 @@
       "price": 6.99
     },
     {
+      "store_number": "039944",
+      "name": "Taco Bell",
+      "city": "Griffin",
+      "state": "GA",
+      "price": 6.99
+    },
+    {
       "store_number": "041239",
       "name": "Taco Bell",
       "city": "Marietta",
@@ -273,6 +275,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039944",
+      "store_name": "Taco Bell",
+      "city": "Griffin",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-07-02T20:52:30.443892+00:00"
+    },
+    {
+      "store_number": "041229",
+      "store_name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-07-02T20:51:50.023164+00:00"
+    },
+    {
+      "store_number": "029097",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-07-02T20:51:32.098963+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-07-02T20:51:20.414233+00:00"
+    },
     {
       "store_number": "042903",
       "store_name": "Taco Bell",
@@ -12185,8 +12227,8 @@
     }
   ],
   "activity_summary": {
-    "added": 659,
-    "removed": 526,
+    "added": 662,
+    "removed": 527,
     "price_changed": 6,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12395,6 +12437,15 @@
       "AL"
     ],
     [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      6.49,
+      "Taco Bell",
+      "Lithia Springs",
+      "GA"
+    ],
+    [
       "036370",
       31.32011689406289,
       -85.71096251539484,
@@ -12411,6 +12462,15 @@
       "Taco Bell",
       "Maryville",
       "TN"
+    ],
+    [
+      "029097",
+      32.553512189214764,
+      -84.94693011045456,
+      6.49,
+      "Taco Bell",
+      "Columbus",
+      "GA"
     ],
     [
       "029057",
@@ -13340,6 +13400,15 @@
       "GA"
     ],
     [
+      "039944",
+      33.27618130148277,
+      -84.29192100855713,
+      6.99,
+      "Taco Bell",
+      "Griffin",
+      "GA"
+    ],
+    [
       "041257",
       34.164623445272696,
       -84.11864787340164,
@@ -13394,15 +13463,6 @@
       "GA"
     ],
     [
-      "041229",
-      33.85923288371655,
-      -84.67192824394984,
-      6.99,
-      "Taco Bell",
-      "Powder Springs",
-      "GA"
-    ],
-    [
       "031583",
       32.42953531961479,
       -80.71891911656758,
@@ -13413,6 +13473,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-01",
+  "last_seen_date": "2026-07-02",
   "peak_availability_pct": 6.0
 }

@@ -10,8 +10,8 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 59.8,
-  "recent_price_change_pct": -0.042,
+  "peak_30d_pct": 57.2,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 0.6,
   "price_stats": {
@@ -20,12 +20,12 @@
     "max": 0.5,
     "median": 0.25,
     "std_dev": 0.04,
-    "store_count": 46
+    "store_count": 45
   },
   "histogram": [
     {
       "bucket": "$0.25",
-      "count": 45
+      "count": 44
     },
     {
       "bucket": "$0.50",
@@ -36,7 +36,7 @@
     {
       "state": "TX",
       "avg_price": 0.25,
-      "store_count": 37
+      "store_count": 36
     },
     {
       "state": "OH",
@@ -174,8 +174,7 @@
     "038882",
     "038897",
     "038888",
-    "035752",
-    "035735"
+    "035752"
   ],
   "priciest_stores": [
     {
@@ -184,13 +183,6 @@
       "city": "Chicago Ridge",
       "state": "IL",
       "price": 0.5
-    },
-    {
-      "store_number": "035735",
-      "name": "Taco Bell",
-      "city": "Mont Belvieu",
-      "state": "TX",
-      "price": 0.25
     },
     {
       "store_number": "035752",
@@ -247,9 +239,26 @@
       "city": "Nederland",
       "state": "TX",
       "price": 0.25
+    },
+    {
+      "store_number": "035746",
+      "name": "Taco Bell",
+      "city": "Orange",
+      "state": "TX",
+      "price": 0.25
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035735",
+      "store_name": "Taco Bell",
+      "city": "Mont Belvieu",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.25,
+      "new_price": null,
+      "observed_at": "2026-07-02T20:53:22.631031+00:00"
+    },
     {
       "store_number": "035749",
       "store_name": "Taco Bell",
@@ -110043,7 +110052,7 @@
   ],
   "activity_summary": {
     "added": 1621,
-    "removed": 9240,
+    "removed": 9241,
     "price_changed": 118,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -110446,15 +110455,6 @@
       0.25,
       "Taco Bell",
       "Clute",
-      "TX"
-    ],
-    [
-      "035735",
-      29.83327669805186,
-      -94.84887507318278,
-      0.25,
-      "Taco Bell",
-      "Mont Belvieu",
       "TX"
     ],
     [

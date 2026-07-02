@@ -21,16 +21,16 @@
     "max": 6.79,
     "median": 5.99,
     "std_dev": 0.22,
-    "store_count": 479
+    "store_count": 477
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 357
+      "count": 354
     },
     {
       "bucket": "$6.49",
-      "count": 119
+      "count": 120
     },
     {
       "bucket": "$6.79",
@@ -40,7 +40,7 @@
   "state_prices": [
     {
       "state": "SC",
-      "avg_price": 6.2,
+      "avg_price": 6.28,
       "store_count": 7
     },
     {
@@ -56,12 +56,12 @@
     {
       "state": "TN",
       "avg_price": 6.11,
-      "store_count": 88
+      "store_count": 87
     },
     {
       "state": "AL",
       "avg_price": 5.99,
-      "store_count": 117
+      "store_count": 116
     }
   ],
   "nutrition": {
@@ -176,7 +176,6 @@
     "040384",
     "041088",
     "042575",
-    "043146",
     "034827",
     "042830",
     "034784",
@@ -313,6 +312,7 @@
     "040431",
     "040571",
     "042577",
+    "003824",
     "029083",
     "042903",
     "036370",
@@ -336,7 +336,6 @@
     "029057",
     "029105",
     "016335",
-    "042958",
     "029291",
     "043141",
     "004370",
@@ -411,9 +410,7 @@
     "036369",
     "042826",
     "039947",
-    "036481",
     "005623",
-    "026837",
     "039934",
     "041210",
     "029095",
@@ -430,6 +427,7 @@
     "029084",
     "041220",
     "029070",
+    "041216",
     "003652",
     "029082",
     "041223",
@@ -442,7 +440,6 @@
     "029069",
     "003408",
     "029081",
-    "041221",
     "042824",
     "019753",
     "029738",
@@ -532,6 +529,13 @@
       "price": 6.79
     },
     {
+      "store_number": "031583",
+      "name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "price": 6.49
+    },
+    {
       "store_number": "040900",
       "name": "Taco Bell",
       "city": "Blaine",
@@ -572,16 +576,89 @@
       "city": "Carrollton",
       "state": "GA",
       "price": 6.49
-    },
-    {
-      "store_number": "041241",
-      "name": "Taco Bell",
-      "city": "Athens",
-      "state": "GA",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041221",
+      "store_name": "Taco Bell",
+      "city": "Snellville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-07-02T20:52:19.133267+00:00"
+    },
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-07-02T20:52:17.872664+00:00"
+    },
+    {
+      "store_number": "041216",
+      "store_name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-07-02T20:52:11.243483+00:00"
+    },
+    {
+      "store_number": "026837",
+      "store_name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-07-02T20:52:04.150132+00:00"
+    },
+    {
+      "store_number": "036481",
+      "store_name": "Taco Bell",
+      "city": "Selma",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-07-02T20:52:03.055291+00:00"
+    },
+    {
+      "store_number": "042958",
+      "store_name": "Taco Bell",
+      "city": "Toccoa",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-07-02T20:51:32.665740+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-07-02T20:51:20.414233+00:00"
+    },
+    {
+      "store_number": "043146",
+      "store_name": "Taco Bell",
+      "city": "North Augusta",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-07-02T20:50:30.171001+00:00"
+    },
     {
       "store_number": "026044",
       "store_name": "Taco Bell",
@@ -5924,8 +6001,8 @@
     }
   ],
   "activity_summary": {
-    "added": 505,
-    "removed": 26,
+    "added": 508,
+    "removed": 31,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6158,15 +6235,6 @@
       "Taco Bell",
       "Cartersville",
       "GA"
-    ],
-    [
-      "043146",
-      33.496707406828776,
-      -81.9589194641649,
-      5.99,
-      "Taco Bell",
-      "North Augusta",
-      "SC"
     ],
     [
       "034827",
@@ -7393,6 +7461,15 @@
       "GA"
     ],
     [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      5.99,
+      "Taco Bell",
+      "Lithia Springs",
+      "GA"
+    ],
+    [
       "029083",
       32.85328018744699,
       -83.61857011914253,
@@ -7598,15 +7675,6 @@
       "Taco Bell",
       "Lenoir City",
       "TN"
-    ],
-    [
-      "042958",
-      34.57130151774336,
-      -83.30742357913648,
-      5.99,
-      "Taco Bell",
-      "Toccoa",
-      "GA"
     ],
     [
       "029291",
@@ -8275,15 +8343,6 @@
       "GA"
     ],
     [
-      "036481",
-      32.43162441618136,
-      -87.03538213671891,
-      5.99,
-      "Taco Bell",
-      "Selma",
-      "AL"
-    ],
-    [
       "005623",
       34.0366508931735,
       -84.46423148151278,
@@ -8291,15 +8350,6 @@
       "Taco Bell",
       "Marietta",
       "GA"
-    ],
-    [
-      "026837",
-      35.76009726491193,
-      -83.97547312083594,
-      5.99,
-      "Taco Bell",
-      "Alcoa",
-      "TN"
     ],
     [
       "039934",
@@ -8446,6 +8496,15 @@
       "GA"
     ],
     [
+      "041216",
+      33.71689565332906,
+      -84.21496087389771,
+      5.99,
+      "Taco Bell",
+      "Decatur",
+      "GA"
+    ],
+    [
       "003652",
       33.82720920627591,
       -84.32565768064705,
@@ -8552,15 +8611,6 @@
       "Taco Bell",
       "Phenix City",
       "AL"
-    ],
-    [
-      "041221",
-      33.868823724211396,
-      -84.01605924344685,
-      5.99,
-      "Taco Bell",
-      "Snellville",
-      "GA"
     ],
     [
       "042824",
@@ -10217,6 +10267,15 @@
       "Taco Bell",
       "Blaine",
       "TN"
+    ],
+    [
+      "031583",
+      32.42953531961479,
+      -80.71891911656758,
+      6.49,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
     ],
     [
       "032055",

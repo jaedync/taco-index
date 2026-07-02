@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.6,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0379,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.5,
   "price_stats": {
-    "avg": 9.29,
+    "avg": 9.26,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.63,
-    "store_count": 33
+    "std_dev": 0.61,
+    "store_count": 36
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 26
+      "count": 29
     },
     {
       "bucket": "$9.99",
@@ -45,8 +45,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 9.51,
-      "store_count": 11
+      "avg_price": 9.46,
+      "store_count": 12
     },
     {
       "state": "TN",
@@ -56,7 +56,7 @@
     {
       "state": "AL",
       "avg_price": 9.0,
-      "store_count": 6
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -131,17 +131,17 @@
       "price": 9.0
     },
     {
+      "store_number": "031583",
+      "name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "price": 9.0
+    },
+    {
       "store_number": "026044",
       "name": "Taco Bell",
       "city": "Maryville",
       "state": "TN",
-      "price": 9.0
-    },
-    {
-      "store_number": "041243",
-      "name": "Taco Bell",
-      "city": "Marietta",
-      "state": "GA",
       "price": 9.0
     }
   ],
@@ -154,6 +154,7 @@
     "041249",
     "039924",
     "039919",
+    "031583",
     "026044",
     "041243",
     "002995",
@@ -171,7 +172,9 @@
     "029167",
     "037526",
     "041799",
-    "040957"
+    "040957",
+    "029097",
+    "032206"
   ],
   "priciest_stores": [
     {
@@ -224,28 +227,58 @@
       "price": 9.99
     },
     {
+      "store_number": "032206",
+      "name": "Taco Bell",
+      "city": "Roanoke",
+      "state": "AL",
+      "price": 9.0
+    },
+    {
+      "store_number": "029097",
+      "name": "Taco Bell",
+      "city": "Columbus",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "040957",
       "name": "Taco Bell",
       "city": "Murphy",
       "state": "NC",
       "price": 9.0
-    },
-    {
-      "store_number": "041799",
-      "name": "Taco Bell",
-      "city": "Doraville",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "037526",
-      "name": "Taco Bell",
-      "city": "Homewood",
-      "state": "AL",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-02T20:52:17.872664+00:00"
+    },
+    {
+      "store_number": "032206",
+      "store_name": "Taco Bell",
+      "city": "Roanoke",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-02T20:51:59.674153+00:00"
+    },
+    {
+      "store_number": "029097",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-02T20:51:32.098963+00:00"
+    },
     {
       "store_number": "042903",
       "store_name": "Taco Bell",
@@ -4298,7 +4331,7 @@
     }
   ],
   "activity_summary": {
-    "added": 189,
+    "added": 192,
     "removed": 216,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4410,6 +4443,15 @@
       "Taco Bell",
       "Savannah",
       "GA"
+    ],
+    [
+      "031583",
+      32.42953531961479,
+      -80.71891911656758,
+      9.0,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
     ],
     [
       "026044",
@@ -4574,6 +4616,24 @@
       "NC"
     ],
     [
+      "029097",
+      32.553512189214764,
+      -84.94693011045456,
+      9.0,
+      "Taco Bell",
+      "Columbus",
+      "GA"
+    ],
+    [
+      "032206",
+      33.15078573691271,
+      -85.35986222453687,
+      9.0,
+      "Taco Bell",
+      "Roanoke",
+      "AL"
+    ],
+    [
       "042903",
       31.783928,
       -82.363196,
@@ -4638,6 +4698,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-07-01",
+  "last_seen_date": "2026-07-02",
   "peak_availability_pct": 1.1
 }

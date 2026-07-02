@@ -10,8 +10,8 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 58.8,
-  "recent_price_change_pct": -0.0512,
+  "peak_30d_pct": 56.3,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 0.6,
   "price_stats": {
@@ -20,19 +20,19 @@
     "max": 0.25,
     "median": 0.25,
     "std_dev": 0.0,
-    "store_count": 46
+    "store_count": 45
   },
   "histogram": [
     {
       "bucket": "$0.25",
-      "count": 46
+      "count": 45
     }
   ],
   "state_prices": [
     {
       "state": "TX",
       "avg_price": 0.25,
-      "store_count": 38
+      "store_count": 37
     },
     {
       "state": "OH",
@@ -171,17 +171,9 @@
     "038884",
     "038897",
     "038888",
-    "035752",
-    "035735"
+    "035752"
   ],
   "priciest_stores": [
-    {
-      "store_number": "035735",
-      "name": "Taco Bell",
-      "city": "Mont Belvieu",
-      "state": "TX",
-      "price": 0.25
-    },
     {
       "store_number": "035752",
       "name": "Taco Bell",
@@ -244,9 +236,26 @@
       "city": "Vidor",
       "state": "TX",
       "price": 0.25
+    },
+    {
+      "store_number": "035743",
+      "name": "Taco Bell",
+      "city": "Groves",
+      "state": "TX",
+      "price": 0.25
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035735",
+      "store_name": "Taco Bell",
+      "city": "Mont Belvieu",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.25,
+      "new_price": null,
+      "observed_at": "2026-07-02T20:53:22.631031+00:00"
+    },
     {
       "store_number": "035749",
       "store_name": "Taco Bell",
@@ -135240,7 +135249,7 @@
   ],
   "activity_summary": {
     "added": 2812,
-    "removed": 10433,
+    "removed": 10434,
     "price_changed": 254,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -135652,15 +135661,6 @@
       0.25,
       "Taco Bell",
       "Clute",
-      "TX"
-    ],
-    [
-      "035735",
-      29.83327669805186,
-      -94.84887507318278,
-      0.25,
-      "Taco Bell",
-      "Mont Belvieu",
       "TX"
     ]
   ],
