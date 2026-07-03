@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 2.0,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0525,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 1.9,
+  "availability_pct": 2.0,
   "price_stats": {
     "avg": 8.69,
     "min": 7.79,
     "max": 9.49,
     "median": 8.89,
-    "std_dev": 0.63,
-    "store_count": 149
+    "std_dev": 0.62,
+    "store_count": 152
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$8.19",
-      "count": 19
+      "count": 20
     },
     {
       "bucket": "$8.59",
@@ -46,11 +46,11 @@
     },
     {
       "bucket": "$8.89",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$8.99",
-      "count": 24
+      "count": 25
     },
     {
       "bucket": "$9.19",
@@ -71,8 +71,13 @@
   ],
   "state_prices": [
     {
+      "state": "PA",
+      "avg_price": 9.15,
+      "store_count": 5
+    },
+    {
       "state": "MI",
-      "avg_price": 9.0,
+      "avg_price": 8.99,
       "store_count": 78
     },
     {
@@ -82,8 +87,8 @@
     },
     {
       "state": "OH",
-      "avg_price": 8.25,
-      "store_count": 56
+      "avg_price": 8.27,
+      "store_count": 58
     }
   ],
   "nutrition": {
@@ -282,6 +287,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035360",
+      "store_name": "Taco Bell",
+      "city": "Hermitage",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.19,
+      "observed_at": "2026-07-03T21:19:28.336963+00:00"
+    },
+    {
+      "store_number": "032983",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.19,
+      "observed_at": "2026-07-03T21:19:09.424175+00:00"
+    },
+    {
+      "store_number": "021299",
+      "store_name": "Taco Bell",
+      "city": "Eastpointe",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-07-03T21:15:43.433896+00:00"
+    },
+    {
+      "store_number": "021292",
+      "store_name": "Taco Bell",
+      "city": "Southgate",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.19,
+      "new_price": null,
+      "observed_at": "2026-07-03T21:15:39.338742+00:00"
+    },
+    {
+      "store_number": "042062",
+      "store_name": "Taco Bell",
+      "city": "Conneaut",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-07-03T21:14:58.977358+00:00"
+    },
+    {
+      "store_number": "038871",
+      "store_name": "Taco Bell",
+      "city": "Grosse Pointe",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-07-03T21:14:52.464195+00:00"
+    },
+    {
+      "store_number": "040500",
+      "store_name": "Taco Bell",
+      "city": "Elyria",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.89,
+      "observed_at": "2026-07-03T21:14:51.993257+00:00"
+    },
     {
       "store_number": "038762",
       "store_name": "Taco Bell",
@@ -21864,8 +21939,8 @@
     }
   ],
   "activity_summary": {
-    "added": 885,
-    "removed": 735,
+    "added": 890,
+    "removed": 737,
     "price_changed": 538,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -21873,12 +21948,6 @@
   "calories_min": 530,
   "calories_max": 530,
   "combo_groups": [
-    {
-      "group_id": "883",
-      "title": "Cantina Chicken Bowl",
-      "default_product_code": "29199",
-      "default_product_name": "Cantina Chicken Bowl"
-    },
     {
       "group_id": "451",
       "title": "Avocado Verde Salsa Sauce Packet",
@@ -22374,6 +22443,15 @@
       "MI"
     ],
     [
+      "032983",
+      42.91307739875615,
+      -85.59700463713853,
+      8.19,
+      "Taco Bell",
+      "Grand Rapids",
+      "MI"
+    ],
+    [
       "041937",
       45.627258,
       -84.479413,
@@ -22491,6 +22569,15 @@
       "OH"
     ],
     [
+      "040500",
+      41.3961,
+      -82.1065,
+      8.89,
+      "Taco Bell",
+      "Elyria",
+      "OH"
+    ],
+    [
       "036793",
       41.15633214157802,
       -81.86314942119543,
@@ -22563,6 +22650,15 @@
       "OH"
     ],
     [
+      "038871",
+      42.411818264438004,
+      -82.91333451525527,
+      8.99,
+      "Taco Bell",
+      "Grosse Pointe",
+      "MI"
+    ],
+    [
       "041027",
       41.9491,
       -83.401,
@@ -22579,6 +22675,15 @@
       "Taco Bell",
       "Trenton",
       "MI"
+    ],
+    [
+      "042062",
+      41.923254104099996,
+      -80.56952688307153,
+      8.99,
+      "Taco Bell",
+      "Conneaut",
+      "OH"
     ],
     [
       "034611",
@@ -22651,15 +22756,6 @@
       "Taco Bell / Long John Silver's",
       "North Canton",
       "OH"
-    ],
-    [
-      "021299",
-      42.46538675040142,
-      -82.93832356192854,
-      8.99,
-      "Taco Bell",
-      "Eastpointe",
-      "MI"
     ],
     [
       "028231",
@@ -22824,15 +22920,6 @@
       "MI"
     ],
     [
-      "021292",
-      42.215707493747495,
-      -83.18165165889548,
-      9.19,
-      "Taco Bell",
-      "Southgate",
-      "MI"
-    ],
-    [
       "033300",
       42.46193494922249,
       -83.09213429689413,
@@ -22957,6 +23044,15 @@
       "Taco Bell",
       "Weirton",
       "WV"
+    ],
+    [
+      "035360",
+      41.23295511976543,
+      -80.47276407480246,
+      9.19,
+      "Taco Bell",
+      "Hermitage",
+      "PA"
     ],
     [
       "033319",
@@ -23230,6 +23326,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-02",
+  "last_seen_date": "2026-07-03",
   "peak_availability_pct": 6.6
 }

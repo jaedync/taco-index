@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.6,
-  "recent_price_change_pct": -0.0379,
+  "recent_price_change_pct": -0.0202,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 9.26,
+    "avg": 9.3,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
     "std_dev": 0.61,
-    "store_count": 36
+    "store_count": 38
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 5
+      "count": 7
     },
     {
       "bucket": "$11.29",
@@ -40,13 +40,13 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.57,
-      "store_count": 7
+      "avg_price": 9.62,
+      "store_count": 8
     },
     {
       "state": "GA",
-      "avg_price": 9.46,
-      "store_count": 12
+      "avg_price": 9.47,
+      "store_count": 14
     },
     {
       "state": "TN",
@@ -131,17 +131,17 @@
       "price": 9.0
     },
     {
-      "store_number": "031583",
-      "name": "Taco Bell",
-      "city": "Beaufort",
-      "state": "SC",
-      "price": 9.0
-    },
-    {
       "store_number": "026044",
       "name": "Taco Bell",
       "city": "Maryville",
       "state": "TN",
+      "price": 9.0
+    },
+    {
+      "store_number": "041243",
+      "name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
       "price": 9.0
     }
   ],
@@ -154,10 +154,10 @@
     "041249",
     "039924",
     "039919",
-    "031583",
     "026044",
     "041243",
     "002995",
+    "026073",
     "041837",
     "029033",
     "042121",
@@ -192,6 +192,13 @@
       "price": 11.29
     },
     {
+      "store_number": "042129",
+      "name": "Taco Bell",
+      "city": "Miramar Beach",
+      "state": "FL",
+      "price": 9.99
+    },
+    {
       "store_number": "042830",
       "name": "Taco Bell",
       "city": "Pensacola",
@@ -220,6 +227,13 @@
       "price": 9.99
     },
     {
+      "store_number": "042881",
+      "name": "Taco Bell",
+      "city": "Jesup",
+      "state": "GA",
+      "price": 9.99
+    },
+    {
       "store_number": "042903",
       "name": "Taco Bell",
       "city": "Baxley",
@@ -232,23 +246,49 @@
       "city": "Roanoke",
       "state": "AL",
       "price": 9.0
-    },
-    {
-      "store_number": "029097",
-      "name": "Taco Bell",
-      "city": "Columbus",
-      "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "040957",
-      "name": "Taco Bell",
-      "city": "Murphy",
-      "state": "NC",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042881",
+      "store_name": "Taco Bell",
+      "city": "Jesup",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-07-03T21:19:58.492425+00:00"
+    },
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-03T21:19:24.738007+00:00"
+    },
+    {
+      "store_number": "026073",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-03T21:18:37.905373+00:00"
+    },
+    {
+      "store_number": "042129",
+      "store_name": "Taco Bell",
+      "city": "Miramar Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-07-03T21:15:03.500047+00:00"
+    },
     {
       "store_number": "031583",
       "store_name": "Taco Bell",
@@ -4331,8 +4371,8 @@
     }
   ],
   "activity_summary": {
-    "added": 192,
-    "removed": 216,
+    "added": 195,
+    "removed": 217,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4445,15 +4485,6 @@
       "GA"
     ],
     [
-      "031583",
-      32.42953531961479,
-      -80.71891911656758,
-      9.0,
-      "Taco Bell",
-      "Beaufort",
-      "SC"
-    ],
-    [
       "026044",
       35.75195423417623,
       -83.9964301791224,
@@ -4478,6 +4509,15 @@
       9.0,
       "Taco Bell",
       "Smyrna",
+      "GA"
+    ],
+    [
+      "026073",
+      33.7517493624465,
+      -84.72289301460478,
+      9.0,
+      "Taco Bell",
+      "Douglasville",
       "GA"
     ],
     [
@@ -4643,6 +4683,15 @@
       "GA"
     ],
     [
+      "042881",
+      31.616911784903458,
+      -81.87382091583459,
+      9.99,
+      "Taco Bell",
+      "Jesup",
+      "GA"
+    ],
+    [
       "042832",
       30.5336733589741,
       -87.27316802173264,
@@ -4679,6 +4728,15 @@
       "FL"
     ],
     [
+      "042129",
+      30.379298489060574,
+      -86.35501163024036,
+      9.99,
+      "Taco Bell",
+      "Miramar Beach",
+      "FL"
+    ],
+    [
       "041223",
       33.61940670172887,
       -84.24365535383913,
@@ -4698,6 +4756,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-07-02",
+  "last_seen_date": "2026-07-03",
   "peak_availability_pct": 1.1
 }

@@ -21,19 +21,19 @@
     "max": 3.19,
     "median": 3.19,
     "std_dev": 0.0,
-    "store_count": 53
+    "store_count": 55
   },
   "histogram": [
     {
       "bucket": "$3.19",
-      "count": 53
+      "count": 55
     }
   ],
   "state_prices": [
     {
       "state": "UT",
       "avg_price": 3.19,
-      "store_count": 51
+      "store_count": 53
     }
   ],
   "nutrition": {
@@ -143,6 +143,7 @@
     "033169",
     "030456",
     "033156",
+    "033176",
     "030426",
     "025398",
     "033161",
@@ -175,9 +176,17 @@
     "033174",
     "033163",
     "032472",
-    "032388"
+    "032388",
+    "038835"
   ],
   "priciest_stores": [
+    {
+      "store_number": "038835",
+      "name": "Taco Bell",
+      "city": "Kaysville",
+      "state": "UT",
+      "price": 3.19
+    },
     {
       "store_number": "032388",
       "name": "Taco Bell",
@@ -240,16 +249,29 @@
       "city": "Price",
       "state": "UT",
       "price": 3.19
-    },
-    {
-      "store_number": "025390",
-      "name": "Taco Bell",
-      "city": "Provo",
-      "state": "UT",
-      "price": 3.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038835",
+      "store_name": "Taco Bell",
+      "city": "Kaysville",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-07-03T21:20:14.638320+00:00"
+    },
+    {
+      "store_number": "033176",
+      "store_name": "Taco Bell",
+      "city": "Kearns",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-07-03T21:18:38.613829+00:00"
+    },
     {
       "store_number": "033176",
       "store_name": "Taco Bell",
@@ -962,7 +984,7 @@
     }
   ],
   "activity_summary": {
-    "added": 62,
+    "added": 64,
     "removed": 9,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1150,6 +1172,15 @@
       3.19,
       "Taco Bell",
       "Roy",
+      "UT"
+    ],
+    [
+      "033176",
+      40.639016191881026,
+      -112.02314615249634,
+      3.19,
+      "Taco Bell",
+      "Kearns",
       "UT"
     ],
     [
@@ -1448,6 +1479,15 @@
       "Taco Bell",
       "Green River",
       "WY"
+    ],
+    [
+      "038835",
+      41.0396379,
+      -111.946692,
+      3.19,
+      "Taco Bell",
+      "Kaysville",
+      "UT"
     ]
   ],
   "retired_at": null,

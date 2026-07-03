@@ -20,13 +20,13 @@
     "min": 9.0,
     "max": 12.99,
     "median": 9.0,
-    "std_dev": 0.6,
+    "std_dev": 0.61,
     "store_count": 463
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 403
+      "count": 402
     },
     {
       "bucket": "$9.49",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$11.29",
-      "count": 18
+      "count": 19
     },
     {
       "bucket": "$11.99",
@@ -56,19 +56,19 @@
       "store_count": 29
     },
     {
-      "state": "SC",
-      "avg_price": 9.33,
-      "store_count": 6
+      "state": "GA",
+      "avg_price": 9.3,
+      "store_count": 226
     },
     {
-      "state": "GA",
-      "avg_price": 9.29,
-      "store_count": 226
+      "state": "SC",
+      "avg_price": 9.28,
+      "store_count": 7
     },
     {
       "state": "AL",
       "avg_price": 9.1,
-      "store_count": 115
+      "store_count": 114
     },
     {
       "state": "TN",
@@ -242,12 +242,12 @@
     "042795",
     "042757",
     "041400",
-    "036938",
     "033295",
     "037153",
     "042580",
     "021079",
     "036290",
+    "032542",
     "036497",
     "037191",
     "037008",
@@ -357,7 +357,6 @@
     "029098",
     "042572",
     "018678",
-    "009575",
     "029097",
     "039945",
     "039923",
@@ -444,11 +443,11 @@
     "004531",
     "041234",
     "036369",
-    "039947",
     "041254",
     "039918",
     "039924",
     "005623",
+    "026837",
     "041243",
     "039934",
     "029095",
@@ -466,7 +465,6 @@
     "003874",
     "029970",
     "029029",
-    "029084",
     "029070",
     "041244",
     "042576",
@@ -533,6 +531,7 @@
     "027509",
     "029078",
     "029033",
+    "042881",
     "042124",
     "041318",
     "039922",
@@ -618,6 +617,13 @@
       "price": 11.29
     },
     {
+      "store_number": "041221",
+      "name": "Taco Bell",
+      "city": "Snellville",
+      "state": "GA",
+      "price": 11.29
+    },
+    {
       "store_number": "041223",
       "name": "Taco Bell",
       "city": "Ellenwood",
@@ -630,16 +636,79 @@
       "city": "Decatur",
       "state": "GA",
       "price": 11.29
-    },
-    {
-      "store_number": "041220",
-      "name": "Taco Bell",
-      "city": "Fayetteville",
-      "state": "GA",
-      "price": 11.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042881",
+      "store_name": "Taco Bell",
+      "city": "Jesup",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-03T21:19:58.492425+00:00"
+    },
+    {
+      "store_number": "041221",
+      "store_name": "Taco Bell",
+      "city": "Snellville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.29,
+      "observed_at": "2026-07-03T21:19:26.558822+00:00"
+    },
+    {
+      "store_number": "029084",
+      "store_name": "Taco Bell",
+      "city": "Milledgeville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-03T21:19:15.708410+00:00"
+    },
+    {
+      "store_number": "026837",
+      "store_name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-03T21:19:07.934320+00:00"
+    },
+    {
+      "store_number": "039947",
+      "store_name": "Taco Bell",
+      "city": "Clayton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-03T21:19:06.597177+00:00"
+    },
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-03T21:15:28.966464+00:00"
+    },
+    {
+      "store_number": "036938",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-03T21:15:27.560363+00:00"
+    },
     {
       "store_number": "042881",
       "store_name": "Taco Bell",
@@ -16162,8 +16231,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1006,
-    "removed": 543,
+    "added": 1010,
+    "removed": 546,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16909,15 +16978,6 @@
       "GA"
     ],
     [
-      "036938",
-      31.548500956912463,
-      -87.87966792883607,
-      9.0,
-      "Taco Bell",
-      "Jackson",
-      "AL"
-    ],
-    [
       "033295",
       35.2144,
       -84.8686,
@@ -16961,6 +17021,15 @@
       "Taco Bell",
       "Conyers",
       "GA"
+    ],
+    [
+      "032542",
+      32.31307877793498,
+      -81.05568834507177,
+      9.0,
+      "Taco Bell",
+      "Hardeeville",
+      "SC"
     ],
     [
       "036497",
@@ -17944,15 +18013,6 @@
       "GA"
     ],
     [
-      "009575",
-      35.92910610401162,
-      -84.03315244256207,
-      9.0,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
-    ],
-    [
       "029097",
       32.553512189214764,
       -84.94693011045456,
@@ -18727,15 +18787,6 @@
       "AL"
     ],
     [
-      "039947",
-      34.88232473482627,
-      -83.39660154061286,
-      9.0,
-      "Taco Bell",
-      "Clayton",
-      "GA"
-    ],
-    [
       "041254",
       34.11227583037828,
       -84.55985329084487,
@@ -18770,6 +18821,15 @@
       "Taco Bell",
       "Marietta",
       "GA"
+    ],
+    [
+      "026837",
+      35.76009726491193,
+      -83.97547312083594,
+      9.0,
+      "Taco Bell",
+      "Alcoa",
+      "TN"
     ],
     [
       "041243",
@@ -18923,15 +18983,6 @@
       "Taco Bell",
       "Jacksboro",
       "TN"
-    ],
-    [
-      "029084",
-      33.11238276913683,
-      -83.25743977727143,
-      9.0,
-      "Taco Bell",
-      "Milledgeville",
-      "GA"
     ],
     [
       "029070",
@@ -19526,6 +19577,15 @@
       "Taco Bell",
       "Clinton",
       "TN"
+    ],
+    [
+      "042881",
+      31.616911784903458,
+      -81.87382091583459,
+      9.0,
+      "Taco Bell",
+      "Jesup",
+      "GA"
     ],
     [
       "042124",
@@ -20302,6 +20362,15 @@
       "GA"
     ],
     [
+      "041221",
+      33.868823724211396,
+      -84.01605924344685,
+      11.29,
+      "Taco Bell",
+      "Snellville",
+      "GA"
+    ],
+    [
       "041217",
       33.56822447321639,
       -84.33043962106589,
@@ -20366,6 +20435,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-02",
+  "last_seen_date": "2026-07-03",
   "peak_availability_pct": 6.0
 }

@@ -13,19 +13,19 @@
   "peak_30d_pct": 92.8,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.2,
+  "availability_pct": 99.3,
   "price_stats": {
     "avg": 0.0,
     "min": 0.0,
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7657
+    "store_count": 7660
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7657
+      "count": 7660
     }
   ],
   "state_prices": [
@@ -67,7 +67,7 @@
     {
       "state": "TN",
       "avg_price": 0.0,
-      "store_count": 254
+      "store_count": 253
     },
     {
       "state": "SD",
@@ -102,12 +102,12 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 408
+      "store_count": 409
     },
     {
       "state": "NY",
       "avg_price": 0.0,
-      "store_count": 250
+      "store_count": 251
     },
     {
       "state": "NV",
@@ -157,7 +157,7 @@
     {
       "state": "MO",
       "avg_price": 0.0,
-      "store_count": 226
+      "store_count": 227
     },
     {
       "state": "MN",
@@ -217,7 +217,7 @@
     {
       "state": "IA",
       "avg_price": 0.0,
-      "store_count": 48
+      "store_count": 49
     },
     {
       "state": "HI",
@@ -742,7 +742,6 @@
     "041901",
     "041951",
     "040721",
-    "042033",
     "041753",
     "041844",
     "040384",
@@ -1371,6 +1370,7 @@
     "042481",
     "042562",
     "042528",
+    "041334",
     "042554",
     "035167",
     "042417",
@@ -1603,6 +1603,7 @@
     "039994",
     "037523",
     "039114",
+    "037215",
     "037744",
     "036165",
     "039783",
@@ -2055,6 +2056,7 @@
     "016667",
     "029116",
     "031111",
+    "001590",
     "035725",
     "004939",
     "034569",
@@ -3115,7 +3117,6 @@
     "016635",
     "031341",
     "022592",
-    "009575",
     "023049",
     "028285",
     "031023",
@@ -3491,6 +3492,7 @@
     "017183",
     "023140",
     "029546",
+    "037052",
     "032118",
     "032950",
     "041219",
@@ -8023,9 +8025,17 @@
     "042835",
     "028280",
     "042675",
-    "042552"
+    "042552",
+    "020679"
   ],
   "priciest_stores": [
+    {
+      "store_number": "020679",
+      "name": "Taco Bell",
+      "city": "Lindenhurst",
+      "state": "NY",
+      "price": 0.0
+    },
     {
       "store_number": "042552",
       "name": "Taco Bell",
@@ -8088,16 +8098,69 @@
       "city": "Wellston",
       "state": "OH",
       "price": 0.0
-    },
-    {
-      "store_number": "043358",
-      "name": "Taco Bell",
-      "city": "Columbus",
-      "state": "OH",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020679",
+      "store_name": "Taco Bell",
+      "city": "Lindenhurst",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-07-03T21:20:15.681179+00:00"
+    },
+    {
+      "store_number": "037052",
+      "store_name": "Taco Bell",
+      "city": "Cedar Rapids",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-07-03T21:18:33.262836+00:00"
+    },
+    {
+      "store_number": "001590",
+      "store_name": "Taco Bell",
+      "city": "North Olmsted",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-07-03T21:15:46.415160+00:00"
+    },
+    {
+      "store_number": "037215",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-07-03T21:15:29.633744+00:00"
+    },
+    {
+      "store_number": "041334",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-07-03T21:15:26.278491+00:00"
+    },
+    {
+      "store_number": "042033",
+      "store_name": "Taco Bell",
+      "city": "Long Island",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-07-03T21:14:59.385870+00:00"
+    },
     {
       "store_number": "042552",
       "store_name": "Taco Bell",
@@ -13820,8 +13883,8 @@
     }
   ],
   "activity_summary": {
-    "added": 282,
-    "removed": 290,
+    "added": 287,
+    "removed": 291,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17204,15 +17267,6 @@
       "Taco Bell",
       "Seabrook",
       "TX"
-    ],
-    [
-      "042033",
-      40.754870229712466,
-      -73.9413018984621,
-      0.0,
-      "Taco Bell",
-      "Long Island",
-      "NY"
     ],
     [
       "041753",
@@ -22867,6 +22921,15 @@
       "CA"
     ],
     [
+      "041334",
+      40.69229211177486,
+      -73.99141198374691,
+      0.0,
+      "Taco Bell",
+      "Brooklyn",
+      "NY"
+    ],
+    [
       "042554",
       30.9659987,
       -97.5329573,
@@ -24953,6 +25016,15 @@
       "Taco Bell",
       "Linden",
       "NJ"
+    ],
+    [
+      "037215",
+      38.953427857480506,
+      -94.52352726163319,
+      0.0,
+      "Taco Bell",
+      "Kansas City",
+      "MO"
     ],
     [
       "037744",
@@ -29021,6 +29093,15 @@
       "Taco Bell",
       "Hickory",
       "NC"
+    ],
+    [
+      "001590",
+      41.42821201754905,
+      -81.89038395881659,
+      0.0,
+      "Taco Bell",
+      "North Olmsted",
+      "OH"
     ],
     [
       "035725",
@@ -38563,15 +38644,6 @@
       "FL"
     ],
     [
-      "009575",
-      35.92910610401162,
-      -84.03315244256207,
-      0.0,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
-    ],
-    [
       "023049",
       35.48305766738045,
       -120.65993258785319,
@@ -41945,6 +42017,15 @@
       "Taco Bell",
       "Asheboro",
       "NC"
+    ],
+    [
+      "037052",
+      41.98198548377206,
+      -91.66368036414497,
+      0.0,
+      "Taco Bell",
+      "Cedar Rapids",
+      "IA"
     ],
     [
       "032118",
@@ -82742,6 +82823,15 @@
       "Taco Bell",
       "Eaton Rapids",
       "MI"
+    ],
+    [
+      "020679",
+      40.701095664100166,
+      -73.37790517753122,
+      0.0,
+      "Taco Bell",
+      "Lindenhurst",
+      "NY"
     ]
   ],
   "retired_at": null,

@@ -22,17 +22,17 @@
     "min": 2.79,
     "max": 3.99,
     "median": 2.79,
-    "std_dev": 0.1,
+    "std_dev": 0.11,
     "store_count": 469
   },
   "histogram": [
     {
       "bucket": "$2.79",
-      "count": 455
+      "count": 454
     },
     {
       "bucket": "$2.99",
-      "count": 10
+      "count": 11
     },
     {
       "bucket": "$3.49",
@@ -47,7 +47,7 @@
     {
       "state": "FL",
       "avg_price": 2.85,
-      "store_count": 29
+      "store_count": 30
     },
     {
       "state": "GA",
@@ -57,7 +57,7 @@
     {
       "state": "TN",
       "avg_price": 2.79,
-      "store_count": 85
+      "store_count": 84
     },
     {
       "state": "SC",
@@ -364,7 +364,6 @@
     "042572",
     "018678",
     "042833",
-    "009575",
     "029097",
     "039945",
     "029057",
@@ -657,6 +656,13 @@
       "price": 2.99
     },
     {
+      "store_number": "019713",
+      "name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "price": 2.99
+    },
+    {
       "store_number": "003874",
       "name": "Taco Bell",
       "city": "Crestview",
@@ -676,16 +682,19 @@
       "city": "Panama City",
       "state": "FL",
       "price": 2.99
-    },
-    {
-      "store_number": "030707",
-      "name": "Taco Bell",
-      "city": "Panama City Beach",
-      "state": "FL",
-      "price": 2.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019713",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-07-03T21:19:35.193314+00:00"
+    },
     {
       "store_number": "019713",
       "store_name": "Taco Bell",
@@ -7798,7 +7807,7 @@
     }
   ],
   "activity_summary": {
-    "added": 589,
+    "added": 590,
     "removed": 120,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
@@ -9670,15 +9679,6 @@
       "Taco Bell",
       "Mobile",
       "AL"
-    ],
-    [
-      "009575",
-      35.92910610401162,
-      -84.03315244256207,
-      2.79,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
     ],
     [
       "029097",
@@ -11976,6 +11976,15 @@
       "FL"
     ],
     [
+      "019713",
+      30.231264247912293,
+      -85.8896670444301,
+      2.99,
+      "Taco Bell",
+      "Panama City Beach",
+      "FL"
+    ],
+    [
       "024747",
       33.50836652192516,
       -84.14265096187592,
@@ -12031,6 +12040,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-02",
+  "last_seen_date": "2026-07-03",
   "peak_availability_pct": 5.9
 }

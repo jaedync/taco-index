@@ -23,12 +23,12 @@
     "max": 12.99,
     "median": 4.0,
     "std_dev": 1.32,
-    "store_count": 7093
+    "store_count": 7094
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5249
+      "count": 5250
     },
     {
       "bucket": "$4.19",
@@ -221,8 +221,8 @@
     },
     {
       "state": "NY",
-      "avg_price": 4.99,
-      "store_count": 223
+      "avg_price": 4.98,
+      "store_count": 224
     },
     {
       "state": "KS",
@@ -307,7 +307,7 @@
     {
       "state": "IN",
       "avg_price": 4.06,
-      "store_count": 249
+      "store_count": 248
     },
     {
       "state": "MT",
@@ -387,7 +387,7 @@
     {
       "state": "NH",
       "avg_price": 4.0,
-      "store_count": 11
+      "store_count": 12
     },
     {
       "state": "ND",
@@ -2254,6 +2254,7 @@
     "004438",
     "027999",
     "032492",
+    "027040",
     "040872",
     "036376",
     "020000",
@@ -2454,7 +2455,6 @@
     "002873",
     "026740",
     "016635",
-    "009575",
     "028285",
     "031023",
     "026355",
@@ -2671,7 +2671,6 @@
     "001498",
     "002669",
     "029591",
-    "036197",
     "035748",
     "042646",
     "017118",
@@ -5095,7 +5094,6 @@
     "027870",
     "034628",
     "015854",
-    "028893",
     "005482",
     "029914",
     "032119",
@@ -5737,7 +5735,10 @@
     "042835",
     "042675",
     "040167",
-    "042552"
+    "042552",
+    "026742",
+    "032062",
+    "020679"
   ],
   "priciest_stores": [
     {
@@ -5812,6 +5813,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020679",
+      "store_name": "Taco Bell",
+      "city": "Lindenhurst",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-07-03T21:20:15.681179+00:00"
+    },
+    {
+      "store_number": "028893",
+      "store_name": "Taco Bell",
+      "city": "Fishers",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-07-03T21:19:56.620443+00:00"
+    },
+    {
+      "store_number": "032062",
+      "store_name": "Taco Bell",
+      "city": "North Conway",
+      "state": "NH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-07-03T21:19:37.282302+00:00"
+    },
+    {
+      "store_number": "026742",
+      "store_name": "Taco Bell",
+      "city": "New Lenox",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-07-03T21:18:51.023547+00:00"
+    },
+    {
+      "store_number": "036197",
+      "store_name": "Taco Bell",
+      "city": "Gurnee",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-07-03T21:18:30.520309+00:00"
+    },
+    {
+      "store_number": "027040",
+      "store_name": "Taco Bell",
+      "city": "Martin",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-07-03T21:17:54.672560+00:00"
+    },
     {
       "store_number": "042552",
       "store_name": "Taco Bell",
@@ -10034,8 +10095,8 @@
     }
   ],
   "activity_summary": {
-    "added": 206,
-    "removed": 183,
+    "added": 210,
+    "removed": 185,
     "price_changed": 33,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25955,6 +26016,15 @@
       "IN"
     ],
     [
+      "027040",
+      36.34919839614983,
+      -88.8749301515054,
+      4.0,
+      "Taco Bell",
+      "Martin",
+      "TN"
+    ],
+    [
       "040872",
       41.65710710754818,
       -70.92017229656201,
@@ -27753,15 +27823,6 @@
       "Taco Bell",
       "Mechanicsville",
       "VA"
-    ],
-    [
-      "009575",
-      35.92910610401162,
-      -84.03315244256207,
-      4.0,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
     ],
     [
       "028285",
@@ -29706,15 +29767,6 @@
       "Taco Bell",
       "Palmetto",
       "FL"
-    ],
-    [
-      "036197",
-      42.38568450837375,
-      -87.9592042468585,
-      4.0,
-      "Taco Bell",
-      "Gurnee",
-      "IL"
     ],
     [
       "035748",
@@ -51524,15 +51576,6 @@
       "VA"
     ],
     [
-      "028893",
-      39.95391533947413,
-      -86.04067158219901,
-      4.0,
-      "Taco Bell",
-      "Fishers",
-      "IN"
-    ],
-    [
       "005482",
       33.37512829084298,
       -84.5632732716386,
@@ -57309,6 +57352,33 @@
       "Taco Bell",
       "Eaton Rapids",
       "MI"
+    ],
+    [
+      "026742",
+      41.51709918259192,
+      -87.97966361045832,
+      4.0,
+      "Taco Bell",
+      "New Lenox",
+      "IL"
+    ],
+    [
+      "032062",
+      44.02475,
+      -71.118342,
+      4.0,
+      "Taco Bell",
+      "North Conway",
+      "NH"
+    ],
+    [
+      "020679",
+      40.701095664100166,
+      -73.37790517753122,
+      4.0,
+      "Taco Bell",
+      "Lindenhurst",
+      "NY"
     ],
     [
       "040310",
