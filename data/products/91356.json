@@ -21,16 +21,16 @@
     "max": 4.49,
     "median": 4.29,
     "std_dev": 0.1,
-    "store_count": 135
+    "store_count": 131
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 17
+      "count": 15
     },
     {
       "bucket": "$4.29",
-      "count": 116
+      "count": 114
     },
     {
       "bucket": "$4.49",
@@ -41,17 +41,17 @@
     {
       "state": "AL",
       "avg_price": 4.27,
-      "store_count": 32
-    },
-    {
-      "state": "TN",
-      "avg_price": 4.26,
-      "store_count": 23
+      "store_count": 31
     },
     {
       "state": "GA",
+      "avg_price": 4.26,
+      "store_count": 70
+    },
+    {
+      "state": "TN",
       "avg_price": 4.25,
-      "store_count": 72
+      "store_count": 22
     },
     {
       "state": "FL",
@@ -96,13 +96,6 @@
       "price": 3.99
     },
     {
-      "store_number": "041838",
-      "name": "Taco Bell",
-      "city": "Camilla",
-      "state": "GA",
-      "price": 3.99
-    },
-    {
       "store_number": "016289",
       "name": "Taco Bell",
       "city": "College Park",
@@ -113,13 +106,6 @@
       "store_number": "005323",
       "name": "Taco Bell",
       "city": "Union City",
-      "state": "GA",
-      "price": 3.99
-    },
-    {
-      "store_number": "003668",
-      "name": "Taco Bell",
-      "city": "Atlanta",
       "state": "GA",
       "price": 3.99
     },
@@ -143,16 +129,28 @@
       "city": "Canton",
       "state": "GA",
       "price": 3.99
+    },
+    {
+      "store_number": "041836",
+      "name": "Taco Bell",
+      "city": "Quincy",
+      "state": "FL",
+      "price": 3.99
+    },
+    {
+      "store_number": "004431",
+      "name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "price": 3.99
     }
   ],
   "min_price_store_numbers": [
     "037050",
     "037038",
     "038733",
-    "041838",
     "016289",
     "005323",
-    "003668",
     "032323",
     "041802",
     "004091",
@@ -237,6 +235,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003668",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-07-04T20:59:45.136617+00:00"
+    },
+    {
+      "store_number": "041838",
+      "store_name": "Taco Bell",
+      "city": "Camilla",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-07-04T20:58:21.618463+00:00"
+    },
+    {
+      "store_number": "036487",
+      "store_name": "Taco Bell",
+      "city": "Montgomery",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-07-04T20:57:44.329619+00:00"
+    },
+    {
+      "store_number": "041333",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-07-04T20:52:58.668419+00:00"
+    },
     {
       "store_number": "041234",
       "store_name": "Taco Bell",
@@ -19620,7 +19658,7 @@
   ],
   "activity_summary": {
     "added": 1037,
-    "removed": 901,
+    "removed": 905,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -19670,15 +19708,6 @@
       "AL"
     ],
     [
-      "041838",
-      31.233460931909427,
-      -84.19954658301322,
-      3.99,
-      "Taco Bell",
-      "Camilla",
-      "GA"
-    ],
-    [
       "016289",
       33.61549907748702,
       -84.47322343291489,
@@ -19694,15 +19723,6 @@
       3.99,
       "Taco Bell",
       "Union City",
-      "GA"
-    ],
-    [
-      "003668",
-      33.77267954859662,
-      -84.37298566102982,
-      3.99,
-      "Taco Bell",
-      "Atlanta",
       "GA"
     ],
     [
@@ -19793,15 +19813,6 @@
       3.99,
       "Taco Bell",
       "Blaine",
-      "TN"
-    ],
-    [
-      "041333",
-      35.9877670904,
-      -84.0492502669,
-      4.29,
-      "Taco Bell",
-      "Knoxville",
       "TN"
     ],
     [
@@ -20345,15 +20356,6 @@
       "GA"
     ],
     [
-      "036487",
-      32.32585303107889,
-      -86.32691858103499,
-      4.29,
-      "Taco Bell",
-      "Montgomery",
-      "AL"
-    ],
-    [
       "036488",
       32.36500582432918,
       -86.14135493339745,
@@ -20859,6 +20861,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-03",
+  "last_seen_date": "2026-07-04",
   "peak_availability_pct": 6.0
 }

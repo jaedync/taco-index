@@ -21,12 +21,12 @@
     "max": 12.99,
     "median": 9.0,
     "std_dev": 0.61,
-    "store_count": 463
+    "store_count": 462
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 402
+      "count": 400
     },
     {
       "bucket": "$9.49",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 33
+      "count": 34
     },
     {
       "bucket": "$11.29",
@@ -51,6 +51,11 @@
   ],
   "state_prices": [
     {
+      "state": "SC",
+      "avg_price": 9.37,
+      "store_count": 8
+    },
+    {
       "state": "FL",
       "avg_price": 9.36,
       "store_count": 29
@@ -58,12 +63,7 @@
     {
       "state": "GA",
       "avg_price": 9.3,
-      "store_count": 226
-    },
-    {
-      "state": "SC",
-      "avg_price": 9.28,
-      "store_count": 7
+      "store_count": 225
     },
     {
       "state": "AL",
@@ -73,7 +73,7 @@
     {
       "state": "TN",
       "avg_price": 9.01,
-      "store_count": 84
+      "store_count": 83
     }
   ],
   "nutrition": {
@@ -262,7 +262,6 @@
     "039948",
     "041261",
     "037332",
-    "037341",
     "037460",
     "038733",
     "037835",
@@ -385,7 +384,6 @@
     "026073",
     "003859",
     "041798",
-    "041322",
     "041258",
     "036482",
     "036485",
@@ -443,11 +441,11 @@
     "004531",
     "041234",
     "036369",
+    "036481",
     "041254",
     "039918",
     "039924",
     "005623",
-    "026837",
     "041243",
     "039934",
     "029095",
@@ -639,6 +637,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026837",
+      "store_name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-04T21:01:13.236176+00:00"
+    },
+    {
+      "store_number": "036481",
+      "store_name": "Taco Bell",
+      "city": "Selma",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-04T21:01:11.930139+00:00"
+    },
+    {
+      "store_number": "041322",
+      "store_name": "Taco Bell",
+      "city": "Dacula",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-04T20:59:03.917284+00:00"
+    },
+    {
+      "store_number": "037341",
+      "store_name": "Taco Bell",
+      "city": "Northport",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-04T20:55:02.791176+00:00"
+    },
+    {
+      "store_number": "043146",
+      "store_name": "Taco Bell",
+      "city": "North Augusta",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-07-04T20:53:34.777994+00:00"
+    },
     {
       "store_number": "042881",
       "store_name": "Taco Bell",
@@ -16231,8 +16279,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1010,
-    "removed": 546,
+    "added": 1012,
+    "removed": 549,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17156,15 +17204,6 @@
       "Taco Bell",
       "Atlanta",
       "GA"
-    ],
-    [
-      "037341",
-      33.30176426190872,
-      -87.57140720141786,
-      9.0,
-      "Taco Bell",
-      "Northport",
-      "AL"
     ],
     [
       "037460",
@@ -18265,15 +18304,6 @@
       "GA"
     ],
     [
-      "041322",
-      34.00032217144678,
-      -83.90880189647538,
-      9.0,
-      "Taco Bell",
-      "Dacula",
-      "GA"
-    ],
-    [
       "041258",
       33.97117063099474,
       -84.22011039686367,
@@ -18787,6 +18817,15 @@
       "AL"
     ],
     [
+      "036481",
+      32.43162441618136,
+      -87.03538213671891,
+      9.0,
+      "Taco Bell",
+      "Selma",
+      "AL"
+    ],
+    [
       "041254",
       34.11227583037828,
       -84.55985329084487,
@@ -18821,15 +18860,6 @@
       "Taco Bell",
       "Marietta",
       "GA"
-    ],
-    [
-      "026837",
-      35.76009726491193,
-      -83.97547312083594,
-      9.0,
-      "Taco Bell",
-      "Alcoa",
-      "TN"
     ],
     [
       "041243",
@@ -19930,6 +19960,15 @@
       "FL"
     ],
     [
+      "043146",
+      33.496707406828776,
+      -81.9589194641649,
+      9.99,
+      "Taco Bell",
+      "North Augusta",
+      "SC"
+    ],
+    [
       "042830",
       30.42369262233515,
       -87.20223457405697,
@@ -20435,6 +20474,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-03",
+  "last_seen_date": "2026-07-04",
   "peak_availability_pct": 6.0
 }

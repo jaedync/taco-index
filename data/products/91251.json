@@ -27,11 +27,11 @@
   "histogram": [
     {
       "bucket": "$1.29",
-      "count": 27
+      "count": 28
     },
     {
       "bucket": "$1.39",
-      "count": 305
+      "count": 304
     },
     {
       "bucket": "$1.49",
@@ -76,7 +76,7 @@
     {
       "state": "FL",
       "avg_price": 1.44,
-      "store_count": 30
+      "store_count": 31
     },
     {
       "state": "TN",
@@ -86,7 +86,7 @@
     {
       "state": "AL",
       "avg_price": 1.39,
-      "store_count": 119
+      "store_count": 118
     }
   ],
   "nutrition": {
@@ -187,6 +187,7 @@
     "004370",
     "030707",
     "004185",
+    "022073",
     "032323",
     "041835",
     "039918",
@@ -277,6 +278,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022073",
+      "store_name": "Taco Bell",
+      "city": "Panama City",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.29,
+      "observed_at": "2026-07-04T20:59:55.227034+00:00"
+    },
+    {
+      "store_number": "029160",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 1.39,
+      "new_price": null,
+      "observed_at": "2026-07-04T20:55:12.542557+00:00"
+    },
     {
       "store_number": "042881",
       "store_name": "Taco Bell",
@@ -7239,8 +7260,8 @@
     }
   ],
   "activity_summary": {
-    "added": 578,
-    "removed": 103,
+    "added": 579,
+    "removed": 104,
     "price_changed": 15,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7343,6 +7364,15 @@
       "004185",
       30.138993189337146,
       -85.59155344963074,
+      1.29,
+      "Taco Bell",
+      "Panama City",
+      "FL"
+    ],
+    [
+      "022073",
+      30.190228522445892,
+      -85.71125165374724,
       1.29,
       "Taco Bell",
       "Panama City",
@@ -8372,15 +8402,6 @@
       1.39,
       "Taco Bell",
       "Fultondale",
-      "AL"
-    ],
-    [
-      "029160",
-      33.788466847530394,
-      -85.76192594599888,
-      1.39,
-      "Taco Bell",
-      "Jacksonville",
       "AL"
     ],
     [
@@ -11517,6 +11538,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-03",
+  "last_seen_date": "2026-07-04",
   "peak_availability_pct": 5.9
 }

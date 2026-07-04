@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 6.77,
+    "avg": 6.78,
     "min": 6.49,
     "max": 7.49,
     "median": 6.49,
     "std_dev": 0.4,
-    "store_count": 19
+    "store_count": 21
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 11
+      "count": 12
     },
     {
       "bucket": "$6.69",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$7.29",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$7.39",
@@ -52,8 +52,13 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.96,
-      "store_count": 10
+      "avg_price": 6.99,
+      "store_count": 11
+    },
+    {
+      "state": "FL",
+      "avg_price": 6.49,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -153,7 +158,8 @@
     "043141",
     "041838",
     "042577",
-    "042126"
+    "042126",
+    "030707"
   ],
   "priciest_stores": [
     {
@@ -192,6 +198,13 @@
       "price": 7.29
     },
     {
+      "store_number": "041322",
+      "name": "Taco Bell",
+      "city": "Dacula",
+      "state": "GA",
+      "price": 7.29
+    },
+    {
       "store_number": "036487",
       "name": "Taco Bell",
       "city": "Montgomery",
@@ -213,21 +226,34 @@
       "price": 6.69
     },
     {
-      "store_number": "042126",
+      "store_number": "030707",
       "name": "Taco Bell",
-      "city": "Defuniak Springs",
+      "city": "Panama City Beach",
       "state": "FL",
-      "price": 6.49
-    },
-    {
-      "store_number": "042577",
-      "name": "Taco Bell",
-      "city": "Dallas",
-      "state": "GA",
       "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041322",
+      "store_name": "Taco Bell",
+      "city": "Dacula",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.29,
+      "observed_at": "2026-07-04T20:59:03.917284+00:00"
+    },
+    {
+      "store_number": "030707",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-07-04T20:59:02.068711+00:00"
+    },
     {
       "store_number": "027599",
       "store_name": "Taco Bell",
@@ -1310,7 +1336,7 @@
     }
   ],
   "activity_summary": {
-    "added": 52,
+    "added": 54,
     "removed": 56,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1439,6 +1465,15 @@
       "FL"
     ],
     [
+      "030707",
+      30.18565418903784,
+      -85.8179617328141,
+      6.49,
+      "Taco Bell",
+      "Panama City Beach",
+      "FL"
+    ],
+    [
       "040706",
       32.54757441016544,
       -83.59649819664405,
@@ -1464,6 +1499,15 @@
       "Taco Bell",
       "Montgomery",
       "AL"
+    ],
+    [
+      "041322",
+      34.00032217144678,
+      -83.90880189647538,
+      7.29,
+      "Taco Bell",
+      "Dacula",
+      "GA"
     ],
     [
       "041243",

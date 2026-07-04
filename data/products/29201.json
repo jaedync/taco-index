@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 2.0,
-  "recent_price_change_pct": -0.0525,
+  "recent_price_change_pct": -0.0506,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 2.0,
   "price_stats": {
@@ -21,16 +21,16 @@
     "max": 9.49,
     "median": 8.89,
     "std_dev": 0.62,
-    "store_count": 152
+    "store_count": 155
   },
   "histogram": [
     {
       "bucket": "$7.79",
-      "count": 35
+      "count": 36
     },
     {
       "bucket": "$8.19",
-      "count": 20
+      "count": 21
     },
     {
       "bucket": "$8.59",
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$8.69",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$8.79",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$9.19",
-      "count": 21
+      "count": 20
     },
     {
       "bucket": "$9.29",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$9.49",
-      "count": 22
+      "count": 23
     }
   ],
   "state_prices": [
@@ -77,8 +77,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 8.99,
-      "store_count": 78
+      "avg_price": 8.97,
+      "store_count": 79
     },
     {
       "state": "IN",
@@ -87,8 +87,8 @@
     },
     {
       "state": "OH",
-      "avg_price": 8.27,
-      "store_count": 58
+      "avg_price": 8.29,
+      "store_count": 60
     }
   ],
   "nutrition": {
@@ -188,6 +188,7 @@
     "001937",
     "040535",
     "040534",
+    "002086",
     "028400",
     "001590",
     "002147",
@@ -258,6 +259,13 @@
       "price": 9.49
     },
     {
+      "store_number": "032350",
+      "name": "Taco Bell",
+      "city": "Delphos",
+      "state": "OH",
+      "price": 9.49
+    },
+    {
       "store_number": "004360",
       "name": "Taco Bell",
       "city": "Lansing",
@@ -277,16 +285,79 @@
       "city": "Jackson",
       "state": "MI",
       "price": 9.49
-    },
-    {
-      "store_number": "042621",
-      "name": "Taco Bell",
-      "city": "Traverse City",
-      "state": "MI",
-      "price": 9.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032350",
+      "store_name": "Taco Bell",
+      "city": "Delphos",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-07-04T21:01:29.960833+00:00"
+    },
+    {
+      "store_number": "001288",
+      "store_name": "Taco Bell",
+      "city": "Saginaw",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.69,
+      "observed_at": "2026-07-04T20:59:17.757574+00:00"
+    },
+    {
+      "store_number": "033044",
+      "store_name": "Taco Bell",
+      "city": "Fruitport",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.19,
+      "observed_at": "2026-07-04T20:59:06.134144+00:00"
+    },
+    {
+      "store_number": "002086",
+      "store_name": "Taco Bell",
+      "city": "Lakewood",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-07-04T20:55:12.252139+00:00"
+    },
+    {
+      "store_number": "035098",
+      "store_name": "Taco Bell",
+      "city": "Warren",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-07-04T20:54:13.163928+00:00"
+    },
+    {
+      "store_number": "034021",
+      "store_name": "Taco Bell",
+      "city": "White Lake",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.19,
+      "new_price": null,
+      "observed_at": "2026-07-04T20:54:04.968792+00:00"
+    },
+    {
+      "store_number": "038871",
+      "store_name": "Taco Bell",
+      "city": "Grosse Pointe",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-07-04T20:52:58.673585+00:00"
+    },
     {
       "store_number": "035360",
       "store_name": "Taco Bell",
@@ -21939,8 +22010,8 @@
     }
   ],
   "activity_summary": {
-    "added": 890,
-    "removed": 737,
+    "added": 895,
+    "removed": 739,
     "price_changed": 538,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -21948,6 +22019,12 @@
   "calories_min": 530,
   "calories_max": 530,
   "combo_groups": [
+    {
+      "group_id": "883",
+      "title": "Cantina Chicken Bowl",
+      "default_product_code": "29199",
+      "default_product_name": "Cantina Chicken Bowl"
+    },
     {
       "group_id": "451",
       "title": "Avocado Verde Salsa Sauce Packet",
@@ -22044,6 +22121,15 @@
       7.79,
       "Taco Bell",
       "Cleveland",
+      "OH"
+    ],
+    [
+      "002086",
+      41.48532906027964,
+      -81.80523935465062,
+      7.79,
+      "Taco Bell",
+      "Lakewood",
       "OH"
     ],
     [
@@ -22452,6 +22538,15 @@
       "MI"
     ],
     [
+      "033044",
+      43.15370637942406,
+      -86.19871665538994,
+      8.19,
+      "Taco Bell",
+      "Fruitport",
+      "MI"
+    ],
+    [
       "041937",
       45.627258,
       -84.479413,
@@ -22503,6 +22598,15 @@
       8.69,
       "Taco Bell",
       "Plymouth",
+      "MI"
+    ],
+    [
+      "001288",
+      43.43724058123171,
+      -84.01602655649185,
+      8.69,
+      "Taco Bell",
+      "Saginaw",
       "MI"
     ],
     [
@@ -22650,15 +22754,6 @@
       "OH"
     ],
     [
-      "038871",
-      42.411818264438004,
-      -82.91333451525527,
-      8.99,
-      "Taco Bell",
-      "Grosse Pointe",
-      "MI"
-    ],
-    [
       "041027",
       41.9491,
       -83.401,
@@ -22693,6 +22788,15 @@
       "Taco Bell",
       "Wintersville",
       "OH"
+    ],
+    [
+      "035098",
+      42.478732,
+      -82.988893,
+      8.99,
+      "Taco Bell",
+      "Warren",
+      "MI"
     ],
     [
       "036328",
@@ -22882,15 +22986,6 @@
       "Taco Bell",
       "Wellsburg",
       "WV"
-    ],
-    [
-      "034021",
-      42.614842963738916,
-      -83.44493113404984,
-      9.19,
-      "Taco Bell",
-      "White Lake",
-      "MI"
     ],
     [
       "036386",
@@ -23271,6 +23366,15 @@
       "MI"
     ],
     [
+      "032350",
+      40.842405715345144,
+      -84.32434111833578,
+      9.49,
+      "Taco Bell",
+      "Delphos",
+      "OH"
+    ],
+    [
       "042638",
       41.06244631149003,
       -84.98149037361145,
@@ -23326,6 +23430,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-03",
+  "last_seen_date": "2026-07-04",
   "peak_availability_pct": 6.6
 }
