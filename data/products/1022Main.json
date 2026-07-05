@@ -21,7 +21,7 @@
     "max": 3.59,
     "median": 3.19,
     "std_dev": 0.23,
-    "store_count": 740
+    "store_count": 737
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 109
+      "count": 108
     },
     {
       "bucket": "$3.09",
@@ -58,11 +58,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 191
+      "count": 189
     },
     {
       "bucket": "$3.29",
-      "count": 224
+      "count": 223
     },
     {
       "bucket": "$3.39",
@@ -74,19 +74,19 @@
     },
     {
       "bucket": "$3.59",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
     {
+      "state": "MO",
+      "avg_price": 3.33,
+      "store_count": 10
+    },
+    {
       "state": "CA",
       "avg_price": 3.31,
       "store_count": 9
-    },
-    {
-      "state": "MO",
-      "avg_price": 3.3,
-      "store_count": 11
     },
     {
       "state": "AR",
@@ -96,7 +96,7 @@
     {
       "state": "OK",
       "avg_price": 3.23,
-      "store_count": 117
+      "store_count": 116
     },
     {
       "state": "LA",
@@ -111,7 +111,7 @@
     {
       "state": "TX",
       "avg_price": 2.99,
-      "store_count": 445
+      "store_count": 444
     },
     {
       "state": "AL",
@@ -217,6 +217,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "039093",
+      "name": "Taco Bell",
+      "city": "Binghamton",
+      "state": "NY",
+      "price": 3.59
+    },
+    {
       "store_number": "026240",
       "name": "Taco Bell",
       "city": "San Diego",
@@ -278,16 +285,59 @@
       "city": "Lake Forest",
       "state": "CA",
       "price": 3.39
-    },
-    {
-      "store_number": "035240",
-      "name": "Taco Bell",
-      "city": "Kansas City",
-      "state": "MO",
-      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003985",
+      "store_name": "Taco Bell",
+      "city": "Claremore",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-07-05T20:51:57.120213+00:00"
+    },
+    {
+      "store_number": "036281",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-07-05T20:51:54.777324+00:00"
+    },
+    {
+      "store_number": "032951",
+      "store_name": "Taco Bell",
+      "city": "Gladstone",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-07-05T20:48:54.976724+00:00"
+    },
+    {
+      "store_number": "039093",
+      "store_name": "Taco Bell",
+      "city": "Binghamton",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-07-05T20:48:02.365084+00:00"
+    },
+    {
+      "store_number": "034587",
+      "store_name": "Taco Bell",
+      "city": "Lancaster",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-07-05T20:47:53.598471+00:00"
+    },
     {
       "store_number": "033275",
       "store_name": "Taco Bell",
@@ -8590,8 +8640,8 @@
     }
   ],
   "activity_summary": {
-    "added": 338,
-    "removed": 331,
+    "added": 339,
+    "removed": 335,
     "price_changed": 161,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11139,15 +11189,6 @@
       "TX"
     ],
     [
-      "036281",
-      37.31734759051579,
-      -91.95969850637772,
-      2.99,
-      "Taco Bell",
-      "Houston",
-      "MO"
-    ],
-    [
       "030124",
       30.517350232746903,
       -97.68934316938612,
@@ -13083,15 +13124,6 @@
       "TX"
     ],
     [
-      "034587",
-      32.59499289347514,
-      -96.82170510292053,
-      3.19,
-      "Taco Bell",
-      "Lancaster",
-      "TX"
-    ],
-    [
       "015522",
       21.4441962330697,
       -157.74382084608078,
@@ -13108,15 +13140,6 @@
       "Taco Bell",
       "Midlothian",
       "VA"
-    ],
-    [
-      "032951",
-      45.37749259642241,
-      -122.60302471811883,
-      3.19,
-      "Taco Bell",
-      "Gladstone",
-      "OR"
     ],
     [
       "041134",
@@ -14694,15 +14717,6 @@
       "AR"
     ],
     [
-      "003985",
-      36.315581102115026,
-      -95.62417117645964,
-      3.29,
-      "Taco Bell",
-      "Claremore",
-      "OK"
-    ],
-    [
       "030392",
       36.738192001107684,
       -97.06987380981445,
@@ -15259,6 +15273,15 @@
       "Taco Bell",
       "San Diego",
       "CA"
+    ],
+    [
+      "039093",
+      42.10472328061413,
+      -75.88103741356564,
+      3.59,
+      "Taco Bell",
+      "Binghamton",
+      "NY"
     ]
   ],
   "retired_at": null,

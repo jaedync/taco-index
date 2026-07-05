@@ -21,12 +21,12 @@
     "max": 12.99,
     "median": 9.0,
     "std_dev": 0.61,
-    "store_count": 462
+    "store_count": 463
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 400
+      "count": 402
     },
     {
       "bucket": "$9.49",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 34
+      "count": 33
     },
     {
       "bucket": "$11.29",
@@ -51,11 +51,6 @@
   ],
   "state_prices": [
     {
-      "state": "SC",
-      "avg_price": 9.37,
-      "store_count": 8
-    },
-    {
       "state": "FL",
       "avg_price": 9.36,
       "store_count": 29
@@ -66,14 +61,19 @@
       "store_count": 225
     },
     {
+      "state": "SC",
+      "avg_price": 9.28,
+      "store_count": 7
+    },
+    {
       "state": "AL",
       "avg_price": 9.1,
-      "store_count": 114
+      "store_count": 115
     },
     {
       "state": "TN",
       "avg_price": 9.01,
-      "store_count": 83
+      "store_count": 84
     }
   ],
   "nutrition": {
@@ -110,6 +110,13 @@
       "name": "Taco Bell",
       "city": "Oxford",
       "state": "AL",
+      "price": 9.0
+    },
+    {
+      "store_number": "041154",
+      "name": "Taco Bell",
+      "city": "Columbus",
+      "state": "GA",
       "price": 9.0
     },
     {
@@ -153,19 +160,13 @@
       "city": "Sylacauga",
       "state": "AL",
       "price": 9.0
-    },
-    {
-      "store_number": "041656",
-      "name": "Taco Bell",
-      "city": "Sandersville",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "040910",
     "041488",
     "040780",
+    "041154",
     "037020",
     "041333",
     "040418",
@@ -338,7 +339,6 @@
     "040431",
     "040571",
     "042577",
-    "003824",
     "029083",
     "042127",
     "042903",
@@ -355,6 +355,7 @@
     "026044",
     "029098",
     "042572",
+    "029137",
     "018678",
     "029097",
     "039945",
@@ -469,6 +470,7 @@
     "003652",
     "023238",
     "029082",
+    "030359",
     "039931",
     "026676",
     "041236",
@@ -637,6 +639,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043129",
+      "store_name": "Taco Bell",
+      "city": "Aiken",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-07-05T20:51:03.739879+00:00"
+    },
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-05T20:48:37.003110+00:00"
+    },
+    {
+      "store_number": "029137",
+      "store_name": "Taco Bell",
+      "city": "Albertville",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-05T20:47:34.907036+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-05T20:47:27.512544+00:00"
+    },
+    {
+      "store_number": "041154",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-05T20:45:44.075095+00:00"
+    },
     {
       "store_number": "026837",
       "store_name": "Taco Bell",
@@ -16279,8 +16331,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1012,
-    "removed": 549,
+    "added": 1015,
+    "removed": 551,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16340,6 +16392,15 @@
       "Taco Bell",
       "Oxford",
       "AL"
+    ],
+    [
+      "041154",
+      32.473945760941746,
+      -84.9882127315456,
+      9.0,
+      "Taco Bell",
+      "Columbus",
+      "GA"
     ],
     [
       "037020",
@@ -17890,15 +17951,6 @@
       "GA"
     ],
     [
-      "003824",
-      33.77885297807616,
-      -84.60735438158736,
-      9.0,
-      "Taco Bell",
-      "Lithia Springs",
-      "GA"
-    ],
-    [
       "029083",
       32.85328018744699,
       -83.61857011914253,
@@ -18041,6 +18093,15 @@
       "Taco Bell",
       "Fairburn",
       "GA"
+    ],
+    [
+      "029137",
+      34.27997239166019,
+      -86.21699877084666,
+      9.0,
+      "Taco Bell",
+      "Albertville",
+      "AL"
     ],
     [
       "018678",
@@ -19067,6 +19128,15 @@
       "Taco Bell",
       "Opelika",
       "AL"
+    ],
+    [
+      "030359",
+      35.71724098570292,
+      -84.01247182491716,
+      9.0,
+      "Taco Bell",
+      "Maryville",
+      "TN"
     ],
     [
       "039931",
@@ -20239,15 +20309,6 @@
       "AL"
     ],
     [
-      "043129",
-      33.56501819417912,
-      -81.7408172681462,
-      9.99,
-      "Taco Bell",
-      "Aiken",
-      "SC"
-    ],
-    [
       "042818",
       30.68370406040473,
       -88.06090991476809,
@@ -20474,6 +20535,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-04",
+  "last_seen_date": "2026-07-05",
   "peak_availability_pct": 6.0
 }

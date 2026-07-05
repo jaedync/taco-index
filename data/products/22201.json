@@ -19,8 +19,8 @@
     "min": 3.89,
     "max": 8.49,
     "median": 5.99,
-    "std_dev": 0.6,
-    "store_count": 7704
+    "std_dev": 0.61,
+    "store_count": 7701
   },
   "histogram": [
     {
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 365
+      "count": 366
     },
     {
       "bucket": "$5.00",
@@ -77,7 +77,7 @@
     },
     {
       "bucket": "$5.19",
-      "count": 129
+      "count": 128
     },
     {
       "bucket": "$5.29",
@@ -97,7 +97,7 @@
     },
     {
       "bucket": "$5.48",
-      "count": 9
+      "count": 8
     },
     {
       "bucket": "$5.49",
@@ -109,7 +109,7 @@
     },
     {
       "bucket": "$5.69",
-      "count": 517
+      "count": 516
     },
     {
       "bucket": "$5.79",
@@ -145,7 +145,7 @@
     },
     {
       "bucket": "$6.29",
-      "count": 707
+      "count": 706
     },
     {
       "bucket": "$6.30",
@@ -320,7 +320,7 @@
     {
       "state": "MI",
       "avg_price": 6.37,
-      "store_count": 348
+      "store_count": 347
     },
     {
       "state": "IA",
@@ -358,6 +358,11 @@
       "store_count": 409
     },
     {
+      "state": "WI",
+      "avg_price": 6.17,
+      "store_count": 141
+    },
+    {
       "state": "DC",
       "avg_price": 6.16,
       "store_count": 7
@@ -366,11 +371,6 @@
       "state": "MN",
       "avg_price": 6.16,
       "store_count": 99
-    },
-    {
-      "state": "WI",
-      "avg_price": 6.16,
-      "store_count": 142
     },
     {
       "state": "UT",
@@ -395,7 +395,7 @@
     {
       "state": "VA",
       "avg_price": 6.07,
-      "store_count": 201
+      "store_count": 200
     },
     {
       "state": "NJ",
@@ -435,7 +435,7 @@
     {
       "state": "MO",
       "avg_price": 5.77,
-      "store_count": 228
+      "store_count": 227
     },
     {
       "state": "TN",
@@ -475,7 +475,7 @@
     {
       "state": "IN",
       "avg_price": 5.57,
-      "store_count": 259
+      "store_count": 260
     },
     {
       "state": "SC",
@@ -650,6 +650,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032092",
+      "store_name": "Taco Bell",
+      "city": "Portage",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 5.19,
+      "new_price": null,
+      "observed_at": "2026-07-05T20:48:24.938927+00:00"
+    },
+    {
+      "store_number": "028909",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-07-05T20:48:00.613047+00:00"
+    },
+    {
+      "store_number": "027641",
+      "store_name": "Taco Bell",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 5.48,
+      "new_price": null,
+      "observed_at": "2026-07-05T20:47:54.632913+00:00"
+    },
+    {
+      "store_number": "032987",
+      "store_name": "Taco Bell",
+      "city": "Paw Paw",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 6.29,
+      "new_price": null,
+      "observed_at": "2026-07-05T20:47:32.762486+00:00"
+    },
+    {
+      "store_number": "034411",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 5.69,
+      "new_price": null,
+      "observed_at": "2026-07-05T20:47:28.595130+00:00"
+    },
     {
       "store_number": "042172",
       "store_name": "Taco Bell",
@@ -45822,8 +45872,8 @@
     }
   ],
   "activity_summary": {
-    "added": 297,
-    "removed": 265,
+    "added": 298,
+    "removed": 269,
     "price_changed": 3955,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -49181,6 +49231,15 @@
       "IN"
     ],
     [
+      "028909",
+      39.693524271197724,
+      -86.14933316411225,
+      4.99,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "030573",
       34.175208075665594,
       -77.89268007762655,
@@ -51998,15 +52057,6 @@
       "FL"
     ],
     [
-      "032092",
-      43.57078815044906,
-      -89.470567571009,
-      5.19,
-      "Taco Bell",
-      "Portage",
-      "WI"
-    ],
-    [
       "029095",
       32.84469762076043,
       -85.18216542902337,
@@ -54395,15 +54445,6 @@
       "031811",
       36.88031907524723,
       -76.18730196228681,
-      5.48,
-      "Taco Bell",
-      "Virginia Beach",
-      "VA"
-    ],
-    [
-      "027641",
-      36.90594685598158,
-      -76.15080495180337,
       5.48,
       "Taco Bell",
       "Virginia Beach",
@@ -64038,15 +64079,6 @@
       "Taco Bell",
       "Washington",
       "DC"
-    ],
-    [
-      "034411",
-      39.26627528508462,
-      -94.57636316122262,
-      5.69,
-      "Taco Bell",
-      "Kansas City",
-      "MO"
     ],
     [
       "033272",
@@ -88248,15 +88280,6 @@
       "Taco Bell",
       "West Palm Beach",
       "FL"
-    ],
-    [
-      "032987",
-      42.20922238068181,
-      -85.89087433979921,
-      6.29,
-      "Taco Bell",
-      "Paw Paw",
-      "MI"
     ],
     [
       "031992",

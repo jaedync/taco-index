@@ -21,13 +21,13 @@
     "min": 12.5,
     "max": 19.99,
     "median": 12.5,
-    "std_dev": 1.24,
-    "store_count": 402
+    "std_dev": 1.25,
+    "store_count": 401
   },
   "histogram": [
     {
       "bucket": "$12.50",
-      "count": 343
+      "count": 342
     },
     {
       "bucket": "$12.99",
@@ -85,7 +85,7 @@
     {
       "state": "GA",
       "avg_price": 12.79,
-      "store_count": 194
+      "store_count": 193
     },
     {
       "state": "AL",
@@ -513,7 +513,6 @@
     "030707",
     "037038",
     "041881",
-    "041258",
     "039919",
     "041802",
     "042126",
@@ -597,6 +596,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041258",
+      "store_name": "Taco Bell",
+      "city": "Peachtree Corners",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-07-05T20:47:51.650844+00:00"
+    },
     {
       "store_number": "004185",
       "store_name": "Taco Bell",
@@ -7060,7 +7069,7 @@
   ],
   "activity_summary": {
     "added": 524,
-    "removed": 122,
+    "removed": 123,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10092,15 +10101,6 @@
       "GA"
     ],
     [
-      "041258",
-      33.97117063099474,
-      -84.22011039686367,
-      12.5,
-      "Taco Bell",
-      "Peachtree Corners",
-      "GA"
-    ],
-    [
       "039919",
       32.04206596405184,
       -81.06397350134102,
@@ -10714,6 +10714,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-04",
+  "last_seen_date": "2026-07-05",
   "peak_availability_pct": 5.3
 }
