@@ -16,21 +16,21 @@
   "first_seen_at": "2026-06-18T21:25:52.078312+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 5.89,
+    "avg": 5.9,
     "min": 5.49,
     "max": 7.29,
     "median": 5.99,
     "std_dev": 0.35,
-    "store_count": 31
+    "store_count": 29
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 9
+      "count": 8
     },
     {
       "bucket": "$5.99",
-      "count": 19
+      "count": 18
     },
     {
       "bucket": "$6.09",
@@ -45,7 +45,7 @@
     {
       "state": "NC",
       "avg_price": 5.94,
-      "store_count": 11
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -120,17 +120,17 @@
       "price": 5.49
     },
     {
-      "store_number": "024033",
-      "name": "Taco Bell",
-      "city": "Clare",
-      "state": "MI",
-      "price": 5.49
-    },
-    {
       "store_number": "029536",
       "name": "Taco Bell / KFC",
       "city": "Miami",
       "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "029354",
+      "name": "Taco Bell",
+      "city": "Holly Springs",
+      "state": "NC",
       "price": 5.99
     }
   ],
@@ -142,8 +142,7 @@
     "021493",
     "003881",
     "028153",
-    "003758",
-    "024033"
+    "003758"
   ],
   "priciest_stores": [
     {
@@ -218,6 +217,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024033",
+      "store_name": "Taco Bell",
+      "city": "Clare",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-07-06T21:14:10.589891+00:00"
+    },
+    {
+      "store_number": "029406",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-07-06T21:10:12.538209+00:00"
+    },
     {
       "store_number": "029354",
       "store_name": "Taco Bell",
@@ -1171,7 +1190,7 @@
   ],
   "activity_summary": {
     "added": 63,
-    "removed": 32,
+    "removed": 34,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1250,15 +1269,6 @@
       5.49,
       "Taco Bell / KFC",
       "Petoskey",
-      "MI"
-    ],
-    [
-      "024033",
-      43.83808282529304,
-      -84.7689414024353,
-      5.49,
-      "Taco Bell",
-      "Clare",
       "MI"
     ],
     [
@@ -1350,15 +1360,6 @@
       "Taco Bell / KFC",
       "Albuquerque",
       "NM"
-    ],
-    [
-      "029406",
-      36.022485677062306,
-      -78.95267031623126,
-      5.99,
-      "Taco Bell",
-      "Durham",
-      "NC"
     ],
     [
       "041399",
@@ -1461,6 +1462,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-05",
+  "last_seen_date": "2026-07-06",
   "peak_availability_pct": 0.4
 }

@@ -21,19 +21,19 @@
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 25
+    "store_count": 26
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 25
+      "count": 26
     }
   ],
   "state_prices": [
     {
       "state": "IL",
       "avg_price": 11.0,
-      "store_count": 21
+      "store_count": 22
     }
   ],
   "nutrition": {
@@ -139,6 +139,7 @@
     "026755",
     "027897",
     "032111",
+    "027900",
     "002051",
     "032357",
     "026735",
@@ -214,14 +215,24 @@
       "price": 11.0
     },
     {
-      "store_number": "032111",
+      "store_number": "027900",
       "name": "Taco Bell",
-      "city": "Zion",
+      "city": "Chicago",
       "state": "IL",
       "price": 11.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027900",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.0,
+      "observed_at": "2026-07-06T21:11:50.994840+00:00"
+    },
     {
       "store_number": "027900",
       "store_name": "Taco Bell",
@@ -1054,7 +1065,7 @@
     }
   ],
   "activity_summary": {
-    "added": 54,
+    "added": 55,
     "removed": 29,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1240,6 +1251,15 @@
       "IL"
     ],
     [
+      "027900",
+      41.721495915090145,
+      -87.66450754836114,
+      11.0,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
+    [
       "002051",
       41.64277138037502,
       -87.73733675479889,
@@ -1322,6 +1342,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-05",
+  "last_seen_date": "2026-07-06",
   "peak_availability_pct": 0.3
 }

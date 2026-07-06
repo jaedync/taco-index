@@ -20,7 +20,7 @@
     "max": 0.99,
     "median": 0.6,
     "std_dev": 0.14,
-    "store_count": 481
+    "store_count": 480
   },
   "histogram": [
     {
@@ -89,7 +89,7 @@
     },
     {
       "bucket": "$0.85",
-      "count": 10
+      "count": 9
     },
     {
       "bucket": "$0.89",
@@ -112,14 +112,14 @@
       "store_count": 120
     },
     {
-      "state": "GA",
-      "avg_price": 0.6,
-      "store_count": 237
-    },
-    {
       "state": "FL",
       "avg_price": 0.6,
       "store_count": 30
+    },
+    {
+      "state": "GA",
+      "avg_price": 0.6,
+      "store_count": 236
     },
     {
       "state": "SC",
@@ -270,13 +270,6 @@
       "price": 0.85
     },
     {
-      "store_number": "002995",
-      "name": "Taco Bell",
-      "city": "Smyrna",
-      "state": "GA",
-      "price": 0.85
-    },
-    {
       "store_number": "031633",
       "name": "Taco Bell",
       "city": "Douglasville",
@@ -289,9 +282,26 @@
       "city": "Kennesaw",
       "state": "GA",
       "price": 0.85
+    },
+    {
+      "store_number": "018166",
+      "name": "Taco Bell",
+      "city": "Hiram",
+      "state": "GA",
+      "price": 0.85
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 0.85,
+      "new_price": null,
+      "observed_at": "2026-07-06T21:10:51.607984+00:00"
+    },
     {
       "store_number": "043129",
       "store_name": "Taco Bell",
@@ -5635,7 +5645,7 @@
   ],
   "activity_summary": {
     "added": 506,
-    "removed": 24,
+    "removed": 25,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9902,15 +9912,6 @@
       "GA"
     ],
     [
-      "002995",
-      33.88866329031674,
-      -84.47492127122132,
-      0.85,
-      "Taco Bell",
-      "Smyrna",
-      "GA"
-    ],
-    [
       "027858",
       34.07882955591635,
       -83.91751042267758,
@@ -9975,6 +9976,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-05",
+  "last_seen_date": "2026-07-06",
   "peak_availability_pct": 6.0
 }

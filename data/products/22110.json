@@ -14,16 +14,20 @@
   "peak_30d_pct": 93.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 100.0,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 2.04,
-    "min": 1.59,
+    "min": 0.99,
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.21,
-    "store_count": 7714
+    "store_count": 7711
   },
   "histogram": [
+    {
+      "bucket": "$0.99",
+      "count": 2
+    },
     {
       "bucket": "$1.59",
       "count": 1
@@ -46,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4371
+      "count": 4369
     },
     {
       "bucket": "$2.00",
@@ -78,11 +82,11 @@
     },
     {
       "bucket": "$2.29",
-      "count": 321
+      "count": 320
     },
     {
       "bucket": "$2.30",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$2.39",
@@ -98,7 +102,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 108
+      "count": 107
     },
     {
       "bucket": "$2.50",
@@ -176,8 +180,8 @@
   "state_prices": [
     {
       "state": "CT",
-      "avg_price": 2.82,
-      "store_count": 49
+      "avg_price": 2.83,
+      "store_count": 48
     },
     {
       "state": "NY",
@@ -241,7 +245,7 @@
     },
     {
       "state": "IL",
-      "avg_price": 2.08,
+      "avg_price": 2.07,
       "store_count": 289
     },
     {
@@ -256,8 +260,8 @@
     },
     {
       "state": "PA",
-      "avg_price": 2.07,
-      "store_count": 201
+      "avg_price": 2.06,
+      "store_count": 200
     },
     {
       "state": "NV",
@@ -282,7 +286,7 @@
     {
       "state": "MI",
       "avg_price": 2.01,
-      "store_count": 348
+      "store_count": 349
     },
     {
       "state": "NE",
@@ -292,12 +296,12 @@
     {
       "state": "OR",
       "avg_price": 2.0,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "FL",
       "avg_price": 2.0,
-      "store_count": 452
+      "store_count": 451
     },
     {
       "state": "CO",
@@ -335,14 +339,14 @@
       "store_count": 128
     },
     {
-      "state": "IN",
-      "avg_price": 1.99,
-      "store_count": 261
-    },
-    {
       "state": "TN",
       "avg_price": 1.98,
       "store_count": 255
+    },
+    {
+      "state": "IN",
+      "avg_price": 1.98,
+      "store_count": 261
     },
     {
       "state": "NC",
@@ -441,6 +445,20 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "040318",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 0.99
+    },
+    {
+      "store_number": "043006",
+      "name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "price": 0.99
+    },
+    {
       "store_number": "031484",
       "name": "Taco Bell",
       "city": "Window Rock",
@@ -495,24 +513,11 @@
       "city": "Wyoming",
       "state": "MI",
       "price": 1.69
-    },
-    {
-      "store_number": "034828",
-      "name": "Taco Bell",
-      "city": "Battle Creek",
-      "state": "MI",
-      "price": 1.69
-    },
-    {
-      "store_number": "040891",
-      "name": "Taco Bell",
-      "city": "Lakeville",
-      "state": "MN",
-      "price": 1.69
     }
   ],
   "min_price_store_numbers": [
-    "031484"
+    "040318",
+    "043006"
   ],
   "priciest_stores": [
     {
@@ -587,6 +592,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041839",
+      "store_name": "Taco Bell",
+      "city": "Crawfordville",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-07-06T21:14:28.485206+00:00"
+    },
+    {
+      "store_number": "029256",
+      "store_name": "Taco Bell",
+      "city": "New Britain",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-07-06T21:11:27.272694+00:00"
+    },
+    {
+      "store_number": "033309",
+      "store_name": "Taco Bell",
+      "city": "Clarkston",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-07-06T21:03:11.711252+00:00"
+    },
+    {
+      "store_number": "043006",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-07-06T20:59:20.533310+00:00"
+    },
+    {
+      "store_number": "034924",
+      "store_name": "Taco Bell",
+      "city": "Klamath Falls",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 2.3,
+      "new_price": null,
+      "observed_at": "2026-07-06T20:59:15.790460+00:00"
+    },
+    {
+      "store_number": "039550",
+      "store_name": "Taco Bell",
+      "city": "Carbondale",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 2.29,
+      "new_price": null,
+      "observed_at": "2026-07-06T20:58:44.258558+00:00"
+    },
+    {
+      "store_number": "040318",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-07-06T20:58:40.302803+00:00"
+    },
     {
       "store_number": "030785",
       "store_name": "Taco Bell",
@@ -10779,9 +10854,9 @@
     }
   ],
   "activity_summary": {
-    "added": 160,
-    "removed": 126,
-    "price_changed": 733,
+    "added": 161,
+    "removed": 130,
+    "price_changed": 735,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 180,
@@ -10789,6 +10864,24 @@
   "calories_max": 180,
   "combo_groups": [],
   "map_data": [
+    [
+      "040318",
+      41.807919921888036,
+      -87.74351908680534,
+      0.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
+    [
+      "043006",
+      39.79695284567275,
+      -86.01268830428725,
+      0.99,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
     [
       "031484",
       35.66402882084004,
@@ -25199,15 +25292,6 @@
       "AR"
     ],
     [
-      "040318",
-      41.807919921888036,
-      -87.74351908680534,
-      1.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
       "041646",
       36.132926,
       -95.924655,
@@ -28523,15 +28607,6 @@
       "043007",
       39.85505652122834,
       -86.24080654485579,
-      1.99,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
-    ],
-    [
-      "043006",
-      39.79695284567275,
-      -86.01268830428725,
       1.99,
       "Taco Bell",
       "Indianapolis",
@@ -33900,6 +33975,15 @@
       "Taco Bell",
       "Canton",
       "OH"
+    ],
+    [
+      "033309",
+      42.71648404100356,
+      -83.41300829315969,
+      1.99,
+      "Taco Bell",
+      "Clarkston",
+      "MI"
     ],
     [
       "040006",
@@ -62171,15 +62255,6 @@
       "FL"
     ],
     [
-      "041839",
-      30.209777100072273,
-      -84.36565016453422,
-      1.99,
-      "Taco Bell",
-      "Crawfordville",
-      "FL"
-    ],
-    [
       "032208",
       40.05600377829216,
       -78.51077195739651,
@@ -74357,15 +74432,6 @@
       "CA"
     ],
     [
-      "039550",
-      41.56687421357309,
-      -75.51512035560056,
-      2.29,
-      "Taco Bell",
-      "Carbondale",
-      "PA"
-    ],
-    [
       "034357",
       33.83167247983563,
       -118.00498963246525,
@@ -77165,15 +77231,6 @@
       "OR"
     ],
     [
-      "034924",
-      42.19827424653977,
-      -121.75775284203476,
-      2.3,
-      "Taco Bell",
-      "Klamath Falls",
-      "OR"
-    ],
-    [
       "003536",
       45.150069807109425,
       -122.87792556600297,
@@ -78297,15 +78354,6 @@
       "Taco Bell",
       "Manteca",
       "CA"
-    ],
-    [
-      "029256",
-      41.67060373448976,
-      -72.78081624652259,
-      2.49,
-      "Taco Bell",
-      "New Britain",
-      "CT"
     ],
     [
       "041357",

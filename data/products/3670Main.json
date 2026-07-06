@@ -13,16 +13,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": -0.0217,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.88,
+    "avg": 3.92,
     "min": 3.49,
     "max": 4.29,
     "median": 3.89,
     "std_dev": 0.34,
-    "store_count": 9
+    "store_count": 8
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$3.89",
@@ -45,8 +45,8 @@
   "state_prices": [
     {
       "state": "TX",
-      "avg_price": 3.67,
-      "store_count": 6
+      "avg_price": 3.69,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -75,13 +75,6 @@
       "store_number": "024393",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Katy",
-      "state": "TX",
-      "price": 3.59
-    },
-    {
-      "store_number": "009406",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Houston",
       "state": "TX",
       "price": 3.59
     },
@@ -175,13 +168,6 @@
       "price": 3.59
     },
     {
-      "store_number": "009406",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Houston",
-      "state": "TX",
-      "price": 3.59
-    },
-    {
       "store_number": "024393",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Katy",
@@ -197,6 +183,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "009406",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-07-06T21:02:26.283760+00:00"
+    },
     {
       "store_number": "027416",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -330,7 +326,7 @@
   ],
   "activity_summary": {
     "added": 9,
-    "removed": 4,
+    "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -355,15 +351,6 @@
       3.59,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Katy",
-      "TX"
-    ],
-    [
-      "009406",
-      29.79106516817246,
-      -95.71860010921853,
-      3.59,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Houston",
       "TX"
     ],
     [
