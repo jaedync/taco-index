@@ -13,11 +13,11 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.7,
-  "recent_price_change_pct": 0.0273,
+  "recent_price_change_pct": 0.028,
   "first_seen_at": "2026-03-30T00:42:17.482555+00:00",
   "availability_pct": 1.9,
   "price_stats": {
-    "avg": 3.08,
+    "avg": 3.09,
     "min": 2.99,
     "max": 3.79,
     "median": 2.99,
@@ -27,11 +27,15 @@
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 102
+      "count": 101
     },
     {
       "bucket": "$3.19",
       "count": 20
+    },
+    {
+      "bucket": "$3.29",
+      "count": 1
     },
     {
       "bucket": "$3.39",
@@ -59,7 +63,7 @@
     {
       "state": "FL",
       "avg_price": 3.0,
-      "store_count": 103
+      "store_count": 102
     }
   ],
   "nutrition": {
@@ -177,7 +181,6 @@
     "032177",
     "031840",
     "023290",
-    "030349",
     "023302",
     "042941",
     "022592",
@@ -325,6 +328,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030349",
+      "store_name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-07-07T22:00:55.103857+00:00"
+    },
+    {
+      "store_number": "036454",
+      "store_name": "Taco Bell",
+      "city": "Omaha",
+      "state": "NE",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-07-07T22:00:16.685268+00:00"
+    },
     {
       "store_number": "033160",
       "store_name": "Taco Bell",
@@ -2667,8 +2690,8 @@
     }
   ],
   "activity_summary": {
-    "added": 169,
-    "removed": 28,
+    "added": 170,
+    "removed": 29,
     "price_changed": 37,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2927,15 +2950,6 @@
       2.99,
       "Taco Bell",
       "Orlando",
-      "FL"
-    ],
-    [
-      "030349",
-      28.231152164188327,
-      -80.70049432232909,
-      2.99,
-      "Taco Bell",
-      "Melbourne",
       "FL"
     ],
     [
@@ -3774,6 +3788,15 @@
       "Taco Bell",
       "Lehi",
       "UT"
+    ],
+    [
+      "036454",
+      41.21104041452265,
+      -96.02446104598793,
+      3.29,
+      "Taco Bell",
+      "Omaha",
+      "NE"
     ],
     [
       "021309",

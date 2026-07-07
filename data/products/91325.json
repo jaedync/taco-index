@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 9.37,
+    "avg": 9.35,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.68,
-    "store_count": 39
+    "std_dev": 0.67,
+    "store_count": 41
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 28
+      "count": 30
     },
     {
       "bucket": "$9.49",
@@ -55,12 +55,12 @@
     {
       "state": "TN",
       "avg_price": 9.0,
-      "store_count": 5
+      "store_count": 6
     },
     {
       "state": "AL",
       "avg_price": 9.0,
-      "store_count": 7
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -114,6 +114,13 @@
       "price": 9.0
     },
     {
+      "store_number": "016335",
+      "name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "price": 9.0
+    },
+    {
       "store_number": "041249",
       "name": "Taco Bell",
       "city": "Lawrenceville",
@@ -140,13 +147,6 @@
       "city": "Maryville",
       "state": "TN",
       "price": 9.0
-    },
-    {
-      "store_number": "041243",
-      "name": "Taco Bell",
-      "city": "Marietta",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -155,6 +155,7 @@
     "042511",
     "040962",
     "024403",
+    "016335",
     "041249",
     "039924",
     "039919",
@@ -177,7 +178,8 @@
     "041799",
     "040957",
     "029097",
-    "032206"
+    "032206",
+    "037341"
   ],
   "priciest_stores": [
     {
@@ -252,6 +254,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-07T22:00:59.295158+00:00"
+    },
+    {
+      "store_number": "037341",
+      "store_name": "Taco Bell",
+      "city": "Northport",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-07T22:00:27.366311+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -4424,7 +4446,7 @@
     }
   ],
   "activity_summary": {
-    "added": 198,
+    "added": 200,
     "removed": 219,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4508,6 +4530,15 @@
       9.0,
       "Taco Bell",
       "Crossville",
+      "TN"
+    ],
+    [
+      "016335",
+      35.810910605655216,
+      -84.26391898537986,
+      9.0,
+      "Taco Bell",
+      "Lenoir City",
       "TN"
     ],
     [
@@ -4718,6 +4749,15 @@
       "AL"
     ],
     [
+      "037341",
+      33.30176426190872,
+      -87.57140720141786,
+      9.0,
+      "Taco Bell",
+      "Northport",
+      "AL"
+    ],
+    [
       "030707",
       30.18565418903784,
       -85.8179617328141,
@@ -4818,6 +4858,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-07-06",
+  "last_seen_date": "2026-07-07",
   "peak_availability_pct": 1.1
 }

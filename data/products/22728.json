@@ -20,7 +20,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 233
+    "store_count": 234
   },
   "histogram": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$0.65",
@@ -61,19 +61,19 @@
     },
     {
       "bucket": "$0.90",
-      "count": 66
+      "count": 67
     },
     {
       "bucket": "$0.95",
-      "count": 30
+      "count": 28
     },
     {
       "bucket": "$0.99",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$1.00",
-      "count": 61
+      "count": 62
     },
     {
       "bucket": "$1.10",
@@ -93,7 +93,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 21
+      "count": 20
     },
     {
       "bucket": "$1.59",
@@ -107,19 +107,19 @@
       "store_count": 8
     },
     {
-      "state": "MI",
-      "avg_price": 1.11,
-      "store_count": 50
-    },
-    {
       "state": "IL",
       "avg_price": 1.1,
       "store_count": 9
     },
     {
+      "state": "MI",
+      "avg_price": 1.09,
+      "store_count": 49
+    },
+    {
       "state": "AL",
       "avg_price": 1.01,
-      "store_count": 17
+      "store_count": 18
     },
     {
       "state": "IN",
@@ -132,14 +132,14 @@
       "store_count": 10
     },
     {
+      "state": "TX",
+      "avg_price": 0.96,
+      "store_count": 9
+    },
+    {
       "state": "OH",
       "avg_price": 0.96,
       "store_count": 31
-    },
-    {
-      "state": "TX",
-      "avg_price": 0.95,
-      "store_count": 8
     },
     {
       "state": "KS",
@@ -204,6 +204,13 @@
       "price": 0.6
     },
     {
+      "store_number": "041828",
+      "name": "Taco Bell",
+      "city": "Yale",
+      "state": "MI",
+      "price": 0.6
+    },
+    {
       "store_number": "027876",
       "name": "Taco Bell",
       "city": "Dallas",
@@ -243,13 +250,6 @@
       "name": "Taco Bell",
       "city": "Portland",
       "state": "OR",
-      "price": 0.8
-    },
-    {
-      "store_number": "019292",
-      "name": "Taco Bell",
-      "city": "Knoxville",
-      "state": "TN",
       "price": 0.8
     }
   ],
@@ -329,6 +329,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043048",
+      "store_name": "Taco Bell",
+      "city": "Heflin",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-07-07T22:02:45.243354+00:00"
+    },
+    {
+      "store_number": "001732",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-07-07T22:00:38.873397+00:00"
+    },
+    {
+      "store_number": "037839",
+      "store_name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-07-07T22:00:38.085969+00:00"
+    },
+    {
+      "store_number": "039000",
+      "store_name": "Taco Bell",
+      "city": "Zeeland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-07-07T22:00:29.070728+00:00"
+    },
+    {
+      "store_number": "041828",
+      "store_name": "Taco Bell",
+      "city": "Yale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-07-07T22:00:21.258577+00:00"
+    },
+    {
+      "store_number": "041027",
+      "store_name": "Taco Bell",
+      "city": "Monroe",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-07-07T22:00:01.110127+00:00"
+    },
+    {
+      "store_number": "041081",
+      "store_name": "Taco Bell",
+      "city": "Argyle",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-07-07T22:00:00.054602+00:00"
+    },
     {
       "store_number": "040463",
       "store_name": "Taco Bell",
@@ -5591,8 +5661,8 @@
     }
   ],
   "activity_summary": {
-    "added": 285,
-    "removed": 241,
+    "added": 289,
+    "removed": 244,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5626,6 +5696,15 @@
       0.6,
       "Taco Bell",
       "Port Huron",
+      "MI"
+    ],
+    [
+      "041828",
+      43.13369395718771,
+      -82.79883646585634,
+      0.6,
+      "Taco Bell",
+      "Yale",
       "MI"
     ],
     [
@@ -6484,6 +6563,15 @@
       "WY"
     ],
     [
+      "039000",
+      42.81166301012327,
+      -85.98939847057564,
+      0.9,
+      "Taco Bell",
+      "Zeeland",
+      "MI"
+    ],
+    [
       "041086",
       39.72009668768734,
       -82.98767904100833,
@@ -6499,15 +6587,6 @@
       0.95,
       "Taco Bell",
       "Macomb",
-      "MI"
-    ],
-    [
-      "041027",
-      41.9491,
-      -83.401,
-      0.95,
-      "Taco Bell",
-      "Monroe",
       "MI"
     ],
     [
@@ -6571,15 +6650,6 @@
       0.95,
       "Taco Bell",
       "Sterling Heights",
-      "MI"
-    ],
-    [
-      "001732",
-      42.32247892201157,
-      -83.48488225604342,
-      0.95,
-      "Taco Bell",
-      "Canton",
       "MI"
     ],
     [
@@ -6788,6 +6858,15 @@
       "Taco Bell",
       "Champaign",
       "IL"
+    ],
+    [
+      "041081",
+      33.1000287,
+      -97.21650740000001,
+      0.99,
+      "Taco Bell",
+      "Argyle",
+      "TX"
     ],
     [
       "042001",
@@ -7339,6 +7418,15 @@
       "AL"
     ],
     [
+      "043048",
+      33.625962,
+      -85.5954,
+      1.0,
+      "Taco Bell",
+      "Heflin",
+      "AL"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -7564,15 +7652,6 @@
       "MI"
     ],
     [
-      "037839",
-      42.23087868339839,
-      -83.73982473278835,
-      1.49,
-      "Taco Bell",
-      "Ann Arbor",
-      "MI"
-    ],
-    [
       "001439",
       42.53594917872571,
       -83.06661828431061,
@@ -7700,6 +7779,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-07-06",
+  "last_seen_date": "2026-07-07",
   "peak_availability_pct": 2.8
 }

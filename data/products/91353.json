@@ -20,13 +20,13 @@
     "min": 10.49,
     "max": 12.59,
     "median": 11.19,
-    "std_dev": 0.41,
-    "store_count": 469
+    "std_dev": 0.4,
+    "store_count": 471
   },
   "histogram": [
     {
       "bucket": "$10.49",
-      "count": 54
+      "count": 51
     },
     {
       "bucket": "$10.69",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$10.79",
-      "count": 4
+      "count": 7
     },
     {
       "bucket": "$10.89",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$11.29",
-      "count": 55
+      "count": 57
     },
     {
       "bucket": "$11.69",
@@ -96,11 +96,11 @@
     {
       "state": "GA",
       "avg_price": 11.07,
-      "store_count": 227
+      "store_count": 229
     },
     {
       "state": "FL",
-      "avg_price": 10.86,
+      "avg_price": 10.89,
       "store_count": 30
     }
   ],
@@ -131,13 +131,6 @@
       "name": "Taco Bell",
       "city": "Snellville",
       "state": "GA",
-      "price": 10.49
-    },
-    {
-      "store_number": "034808",
-      "name": "Taco Bell",
-      "city": "Panama City",
-      "state": "FL",
       "price": 10.49
     },
     {
@@ -188,12 +181,18 @@
       "city": "Camilla",
       "state": "GA",
       "price": 10.49
+    },
+    {
+      "store_number": "041211",
+      "name": "Taco Bell",
+      "city": "Riverdale",
+      "state": "GA",
+      "price": 10.49
     }
   ],
   "min_price_store_numbers": [
     "041488",
     "041222",
-    "034808",
     "041226",
     "037332",
     "038733",
@@ -214,7 +213,6 @@
     "005323",
     "041215",
     "003668",
-    "022073",
     "041214",
     "024364",
     "041801",
@@ -232,7 +230,6 @@
     "003404",
     "003408",
     "041221",
-    "019753",
     "041217",
     "004091",
     "002167",
@@ -319,6 +316,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019753",
+      "store_name": "Taco Bell",
+      "city": "Lynn Haven",
+      "state": "FL",
+      "change_type": "price_change",
+      "old_price": 10.49,
+      "new_price": 10.79,
+      "observed_at": "2026-07-07T22:02:02.392675+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.29,
+      "observed_at": "2026-07-07T22:01:40.307856+00:00"
+    },
+    {
+      "store_number": "039919",
+      "store_name": "Taco Bell",
+      "city": "Savannah",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.29,
+      "observed_at": "2026-07-07T22:01:40.297119+00:00"
+    },
+    {
+      "store_number": "022073",
+      "store_name": "Taco Bell",
+      "city": "Panama City",
+      "state": "FL",
+      "change_type": "price_change",
+      "old_price": 10.49,
+      "new_price": 10.79,
+      "observed_at": "2026-07-07T22:01:23.849470+00:00"
+    },
+    {
+      "store_number": "034808",
+      "store_name": "Taco Bell",
+      "city": "Panama City",
+      "state": "FL",
+      "change_type": "price_change",
+      "old_price": 10.49,
+      "new_price": 10.79,
+      "observed_at": "2026-07-07T22:00:11.887012+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -6301,9 +6348,9 @@
     }
   ],
   "activity_summary": {
-    "added": 530,
+    "added": 532,
     "removed": 60,
-    "price_changed": 8,
+    "price_changed": 11,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 1000,
@@ -6365,15 +6412,6 @@
       "Taco Bell",
       "Snellville",
       "GA"
-    ],
-    [
-      "034808",
-      30.22636410542137,
-      -85.58955673190881,
-      10.49,
-      "Taco Bell",
-      "Panama City",
-      "FL"
     ],
     [
       "041226",
@@ -6556,15 +6594,6 @@
       "GA"
     ],
     [
-      "022073",
-      30.190228522445892,
-      -85.71125165374724,
-      10.49,
-      "Taco Bell",
-      "Panama City",
-      "FL"
-    ],
-    [
       "041214",
       33.7017783646953,
       -84.26797441673443,
@@ -6716,15 +6745,6 @@
       "Taco Bell",
       "Snellville",
       "GA"
-    ],
-    [
-      "019753",
-      30.227894887892266,
-      -85.64869236143993,
-      10.49,
-      "Taco Bell",
-      "Lynn Haven",
-      "FL"
     ],
     [
       "041217",
@@ -6934,6 +6954,15 @@
       "TN"
     ],
     [
+      "034808",
+      30.22636410542137,
+      -85.58955673190881,
+      10.79,
+      "Taco Bell",
+      "Panama City",
+      "FL"
+    ],
+    [
       "021079",
       35.9255374321459,
       -84.03806300242616,
@@ -6958,6 +6987,24 @@
       10.79,
       "Taco Bell",
       "Marianna",
+      "FL"
+    ],
+    [
+      "022073",
+      30.190228522445892,
+      -85.71125165374724,
+      10.79,
+      "Taco Bell",
+      "Panama City",
+      "FL"
+    ],
+    [
+      "019753",
+      30.227894887892266,
+      -85.64869236143993,
+      10.79,
+      "Taco Bell",
+      "Lynn Haven",
       "FL"
     ],
     [
@@ -9463,6 +9510,24 @@
       "GA"
     ],
     [
+      "039919",
+      32.04206596405184,
+      -81.06397350134102,
+      11.29,
+      "Taco Bell",
+      "Savannah",
+      "GA"
+    ],
+    [
+      "002995",
+      33.88866329031674,
+      -84.47492127122132,
+      11.29,
+      "Taco Bell",
+      "Smyrna",
+      "GA"
+    ],
+    [
       "023238",
       33.624919000000006,
       -83.97712250429907,
@@ -10571,6 +10636,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-07-06",
+  "last_seen_date": "2026-07-07",
   "peak_availability_pct": 6.0
 }
