@@ -20,8 +20,8 @@
     "min": 5.99,
     "max": 8.19,
     "median": 5.99,
-    "std_dev": 0.22,
-    "store_count": 121
+    "std_dev": 0.23,
+    "store_count": 122
   },
   "histogram": [
     {
@@ -30,6 +30,10 @@
     },
     {
       "bucket": "$6.19",
+      "count": 1
+    },
+    {
+      "bucket": "$6.69",
       "count": 1
     },
     {
@@ -275,6 +279,13 @@
       "price": 6.99
     },
     {
+      "store_number": "029401",
+      "name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "price": 6.69
+    },
+    {
       "store_number": "021309",
       "name": "Taco Bell",
       "city": "Norfolk",
@@ -322,16 +333,19 @@
       "city": "Salt Lake City",
       "state": "UT",
       "price": 5.99
-    },
-    {
-      "store_number": "033154",
-      "name": "Taco Bell",
-      "city": "Salt Lake City",
-      "state": "UT",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029401",
+      "store_name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.69,
+      "observed_at": "2026-07-08T20:32:44.993260+00:00"
+    },
     {
       "store_number": "030349",
       "store_name": "Taco Bell",
@@ -2404,7 +2418,7 @@
     }
   ],
   "activity_summary": {
-    "added": 142,
+    "added": 143,
     "removed": 24,
     "price_changed": 41,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3483,6 +3497,15 @@
       6.19,
       "Taco Bell",
       "Norfolk",
+      "VA"
+    ],
+    [
+      "029401",
+      36.72095995536841,
+      -78.11828226665455,
+      6.69,
+      "Taco Bell / KFC",
+      "South Hill",
       "VA"
     ],
     [

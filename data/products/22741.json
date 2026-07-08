@@ -20,7 +20,7 @@
     "max": 1.79,
     "median": 0.6,
     "std_dev": 0.17,
-    "store_count": 7613
+    "store_count": 7614
   },
   "histogram": [
     {
@@ -37,7 +37,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 247
+      "count": 248
     },
     {
       "bucket": "$0.35",
@@ -81,7 +81,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 939
+      "count": 938
     },
     {
       "bucket": "$0.61",
@@ -89,7 +89,7 @@
     },
     {
       "bucket": "$0.65",
-      "count": 848
+      "count": 847
     },
     {
       "bucket": "$0.69",
@@ -121,7 +121,7 @@
     },
     {
       "bucket": "$0.89",
-      "count": 21
+      "count": 22
     },
     {
       "bucket": "$0.90",
@@ -145,7 +145,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 261
+      "count": 262
     },
     {
       "bucket": "$1.00",
@@ -196,7 +196,7 @@
     {
       "state": "NY",
       "avg_price": 0.72,
-      "store_count": 251
+      "store_count": 252
     },
     {
       "state": "AL",
@@ -226,17 +226,17 @@
     {
       "state": "CA",
       "avg_price": 0.66,
-      "store_count": 829
+      "store_count": 828
+    },
+    {
+      "state": "MD",
+      "avg_price": 0.66,
+      "store_count": 89
     },
     {
       "state": "DE",
       "avg_price": 0.66,
       "store_count": 16
-    },
-    {
-      "state": "MD",
-      "avg_price": 0.66,
-      "store_count": 90
     },
     {
       "state": "VA",
@@ -290,8 +290,8 @@
     },
     {
       "state": "IL",
-      "avg_price": 0.61,
-      "store_count": 280
+      "avg_price": 0.62,
+      "store_count": 281
     },
     {
       "state": "IN",
@@ -321,7 +321,7 @@
     {
       "state": "TN",
       "avg_price": 0.58,
-      "store_count": 250
+      "store_count": 251
     },
     {
       "state": "PA",
@@ -573,6 +573,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039547",
+      "store_name": "Taco Bell",
+      "city": "Ellenville",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.89,
+      "observed_at": "2026-07-08T20:35:23.307255+00:00"
+    },
+    {
+      "store_number": "041597",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "San Diego",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-07-08T20:35:02.272761+00:00"
+    },
+    {
+      "store_number": "040057",
+      "store_name": "Taco Bell",
+      "city": "Frederick",
+      "state": "MD",
+      "change_type": "item_removed",
+      "old_price": 0.65,
+      "new_price": null,
+      "observed_at": "2026-07-08T20:34:54.628252+00:00"
+    },
+    {
+      "store_number": "027897",
+      "store_name": "Taco Bell",
+      "city": "Manteno",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-07-08T20:34:31.638971+00:00"
+    },
+    {
+      "store_number": "034438",
+      "store_name": "Taco Bell",
+      "city": "Clarksville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-07-08T20:32:07.412301+00:00"
+    },
     {
       "store_number": "043048",
       "store_name": "Taco Bell",
@@ -4535,8 +4585,8 @@
     }
   ],
   "activity_summary": {
-    "added": 178,
-    "removed": 164,
+    "added": 181,
+    "removed": 166,
     "price_changed": 54,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4867,6 +4917,15 @@
       0.3,
       "Taco Bell",
       "Dickson",
+      "TN"
+    ],
+    [
+      "034438",
+      36.62678745203232,
+      -87.37362451386844,
+      0.3,
+      "Taco Bell",
+      "Clarksville",
       "TN"
     ],
     [
@@ -41158,15 +41217,6 @@
       "UT"
     ],
     [
-      "041597",
-      32.97991222759036,
-      -117.07994344047877,
-      0.6,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "San Diego",
-      "CA"
-    ],
-    [
       "016099",
       43.225415686241206,
       -75.48612691467491,
@@ -48518,15 +48568,6 @@
       "Taco Bell",
       "Saint Louis",
       "MO"
-    ],
-    [
-      "040057",
-      39.40632507150494,
-      -77.38667472149245,
-      0.65,
-      "Taco Bell",
-      "Frederick",
-      "MD"
     ],
     [
       "029454",
@@ -69283,6 +69324,15 @@
       "FL"
     ],
     [
+      "039547",
+      41.72179754512469,
+      -74.39257890092622,
+      0.89,
+      "Taco Bell",
+      "Ellenville",
+      "NY"
+    ],
+    [
       "041378",
       44.78154,
       -117.82173,
@@ -71818,6 +71868,15 @@
       0.99,
       "Taco Bell",
       "Montgomery",
+      "IL"
+    ],
+    [
+      "027897",
+      41.24933685049473,
+      -87.84809210796925,
+      0.99,
+      "Taco Bell",
+      "Manteno",
       "IL"
     ],
     [

@@ -10,17 +10,17 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 2.8,
+  "peak_30d_pct": 2.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
-  "availability_pct": 3.0,
+  "availability_pct": 3.1,
   "price_stats": {
     "avg": 0.99,
     "min": 0.5,
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 234
+    "store_count": 238
   },
   "histogram": [
     {
@@ -34,10 +34,6 @@
     {
       "bucket": "$0.60",
       "count": 2
-    },
-    {
-      "bucket": "$0.65",
-      "count": 1
     },
     {
       "bucket": "$0.70",
@@ -73,7 +69,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 62
+      "count": 67
     },
     {
       "bucket": "$1.10",
@@ -119,7 +115,12 @@
     {
       "state": "AL",
       "avg_price": 1.01,
-      "store_count": 18
+      "store_count": 23
+    },
+    {
+      "state": "TX",
+      "avg_price": 1.0,
+      "store_count": 8
     },
     {
       "state": "IN",
@@ -130,11 +131,6 @@
       "state": "MO",
       "avg_price": 0.96,
       "store_count": 10
-    },
-    {
-      "state": "TX",
-      "avg_price": 0.96,
-      "store_count": 9
     },
     {
       "state": "OH",
@@ -211,13 +207,6 @@
       "price": 0.6
     },
     {
-      "store_number": "027876",
-      "name": "Taco Bell",
-      "city": "Dallas",
-      "state": "TX",
-      "price": 0.65
-    },
-    {
       "store_number": "035012",
       "name": "Taco Bell",
       "city": "Grand Junction",
@@ -250,6 +239,13 @@
       "name": "Taco Bell",
       "city": "Portland",
       "state": "OR",
+      "price": 0.8
+    },
+    {
+      "store_number": "019292",
+      "name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
       "price": 0.8
     }
   ],
@@ -329,6 +325,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027876",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.65,
+      "new_price": null,
+      "observed_at": "2026-07-08T20:35:02.063273+00:00"
+    },
+    {
+      "store_number": "029112",
+      "store_name": "Taco Bell",
+      "city": "Birmingham",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-07-08T20:32:15.338060+00:00"
+    },
+    {
+      "store_number": "029113",
+      "store_name": "Taco Bell",
+      "city": "Childersburg",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-07-08T20:32:14.716527+00:00"
+    },
+    {
+      "store_number": "039116",
+      "store_name": "Taco Bell",
+      "city": "Hoover",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-07-08T20:32:00.038479+00:00"
+    },
+    {
+      "store_number": "037008",
+      "store_name": "Taco Bell",
+      "city": "Hoover",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-07-08T20:31:46.794051+00:00"
+    },
+    {
+      "store_number": "041685",
+      "store_name": "Taco Bell",
+      "city": "Sylacauga",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-07-08T20:30:58.040196+00:00"
+    },
     {
       "store_number": "043048",
       "store_name": "Taco Bell",
@@ -5661,8 +5717,8 @@
     }
   ],
   "activity_summary": {
-    "added": 289,
-    "removed": 244,
+    "added": 294,
+    "removed": 245,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5706,15 +5762,6 @@
       "Taco Bell",
       "Yale",
       "MI"
-    ],
-    [
-      "027876",
-      32.90809928035997,
-      -96.69998591060927,
-      0.65,
-      "Taco Bell",
-      "Dallas",
-      "TX"
     ],
     [
       "035012",
@@ -7427,6 +7474,51 @@
       "AL"
     ],
     [
+      "041685",
+      33.1715584091,
+      -86.2821782065,
+      1.0,
+      "Taco Bell",
+      "Sylacauga",
+      "AL"
+    ],
+    [
+      "037008",
+      33.358462822648114,
+      -86.85306624544107,
+      1.0,
+      "Taco Bell",
+      "Hoover",
+      "AL"
+    ],
+    [
+      "039116",
+      33.4062840036626,
+      -86.80573087852459,
+      1.0,
+      "Taco Bell",
+      "Hoover",
+      "AL"
+    ],
+    [
+      "029113",
+      33.26801699343382,
+      -86.35387494231509,
+      1.0,
+      "Taco Bell",
+      "Childersburg",
+      "AL"
+    ],
+    [
+      "029112",
+      33.468575587285244,
+      -86.81857690215111,
+      1.0,
+      "Taco Bell",
+      "Birmingham",
+      "AL"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -7779,6 +7871,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-07-07",
-  "peak_availability_pct": 2.8
+  "last_seen_date": "2026-07-08",
+  "peak_availability_pct": 2.9
 }

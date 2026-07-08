@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.5,
+  "availability_pct": 0.6,
   "price_stats": {
-    "avg": 9.35,
+    "avg": 9.38,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.67,
-    "store_count": 41
+    "std_dev": 0.71,
+    "store_count": 44
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 30
+      "count": 32
     },
     {
       "bucket": "$9.49",
@@ -38,19 +38,19 @@
     },
     {
       "bucket": "$11.29",
-      "count": 3
+      "count": 4
     }
   ],
   "state_prices": [
     {
+      "state": "GA",
+      "avg_price": 9.62,
+      "store_count": 18
+    },
+    {
       "state": "FL",
       "avg_price": 9.6,
       "store_count": 9
-    },
-    {
-      "state": "GA",
-      "avg_price": 9.59,
-      "store_count": 15
     },
     {
       "state": "TN",
@@ -114,13 +114,6 @@
       "price": 9.0
     },
     {
-      "store_number": "016335",
-      "name": "Taco Bell",
-      "city": "Lenoir City",
-      "state": "TN",
-      "price": 9.0
-    },
-    {
       "store_number": "041249",
       "name": "Taco Bell",
       "city": "Lawrenceville",
@@ -147,6 +140,13 @@
       "city": "Maryville",
       "state": "TN",
       "price": 9.0
+    },
+    {
+      "store_number": "041243",
+      "name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -155,15 +155,17 @@
     "042511",
     "040962",
     "024403",
-    "016335",
     "041249",
     "039924",
     "039919",
     "026044",
     "041243",
     "026073",
+    "016289",
     "041837",
+    "003668",
     "029033",
+    "037050",
     "042121",
     "042125",
     "034026",
@@ -186,6 +188,13 @@
       "store_number": "041222",
       "name": "Taco Bell",
       "city": "Snellville",
+      "state": "GA",
+      "price": 11.29
+    },
+    {
+      "store_number": "041212",
+      "name": "Taco Bell",
+      "city": "Decatur",
       "state": "GA",
       "price": 11.29
     },
@@ -244,16 +253,59 @@
       "city": "Jesup",
       "state": "GA",
       "price": 9.99
-    },
-    {
-      "store_number": "042903",
-      "name": "Taco Bell",
-      "city": "Baxley",
-      "state": "GA",
-      "price": 9.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041212",
+      "store_name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.29,
+      "observed_at": "2026-07-08T20:35:02.312809+00:00"
+    },
+    {
+      "store_number": "003668",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-08T20:33:47.948049+00:00"
+    },
+    {
+      "store_number": "016289",
+      "store_name": "Taco Bell",
+      "city": "College Park",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-08T20:33:22.544783+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-08T20:32:42.355073+00:00"
+    },
+    {
+      "store_number": "037050",
+      "store_name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-08T20:31:22.765994+00:00"
+    },
     {
       "store_number": "016335",
       "store_name": "Taco Bell",
@@ -4446,8 +4498,8 @@
     }
   ],
   "activity_summary": {
-    "added": 200,
-    "removed": 219,
+    "added": 204,
+    "removed": 220,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4533,15 +4585,6 @@
       "TN"
     ],
     [
-      "016335",
-      35.810910605655216,
-      -84.26391898537986,
-      9.0,
-      "Taco Bell",
-      "Lenoir City",
-      "TN"
-    ],
-    [
       "041249",
       33.96647033026141,
       -84.010348240854,
@@ -4596,6 +4639,15 @@
       "GA"
     ],
     [
+      "016289",
+      33.61549907748702,
+      -84.47322343291489,
+      9.0,
+      "Taco Bell",
+      "College Park",
+      "GA"
+    ],
+    [
       "041837",
       30.85502172223534,
       -83.94673973321909,
@@ -4605,12 +4657,30 @@
       "GA"
     ],
     [
+      "003668",
+      33.77267954859662,
+      -84.37298566102982,
+      9.0,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
+    ],
+    [
       "029033",
       36.118403546259415,
       -84.11809736365875,
       9.0,
       "Taco Bell",
       "Clinton",
+      "TN"
+    ],
+    [
+      "037050",
+      36.10306709232148,
+      -84.58455685815763,
+      9.0,
+      "Taco Bell",
+      "Wartburg",
       "TN"
     ],
     [
@@ -4848,6 +4918,15 @@
       "GA"
     ],
     [
+      "041212",
+      33.75484747709103,
+      -84.26683026558743,
+      11.29,
+      "Taco Bell",
+      "Decatur",
+      "GA"
+    ],
+    [
       "041222",
       33.80204066127045,
       -84.04311550539077,
@@ -4858,6 +4937,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-07-07",
+  "last_seen_date": "2026-07-08",
   "peak_availability_pct": 1.1
 }

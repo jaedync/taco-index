@@ -22,13 +22,13 @@
     "min": 2.79,
     "max": 3.99,
     "median": 2.79,
-    "std_dev": 0.11,
-    "store_count": 469
+    "std_dev": 0.1,
+    "store_count": 470
   },
   "histogram": [
     {
       "bucket": "$2.79",
-      "count": 454
+      "count": 455
     },
     {
       "bucket": "$2.99",
@@ -47,7 +47,7 @@
     {
       "state": "FL",
       "avg_price": 2.85,
-      "store_count": 30
+      "store_count": 31
     },
     {
       "state": "GA",
@@ -55,19 +55,19 @@
       "store_count": 230
     },
     {
-      "state": "SC",
-      "avg_price": 2.79,
-      "store_count": 6
-    },
-    {
       "state": "TN",
       "avg_price": 2.79,
       "store_count": 84
     },
     {
+      "state": "SC",
+      "avg_price": 2.79,
+      "store_count": 7
+    },
+    {
       "state": "AL",
       "avg_price": 2.79,
-      "store_count": 117
+      "store_count": 116
     }
   ],
   "nutrition": {
@@ -207,6 +207,7 @@
     "030177",
     "035461",
     "036404",
+    "042130",
     "036403",
     "036409",
     "036416",
@@ -390,7 +391,6 @@
     "040962",
     "041256",
     "042944",
-    "030463",
     "036486",
     "041248",
     "026073",
@@ -545,6 +545,7 @@
     "032029",
     "003742",
     "030881",
+    "043129",
     "004109",
     "041836",
     "029099",
@@ -685,6 +686,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043129",
+      "store_name": "Taco Bell",
+      "city": "Aiken",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-07-08T20:34:45.096627+00:00"
+    },
+    {
+      "store_number": "030463",
+      "store_name": "Taco Bell",
+      "city": "Atmore",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-07-08T20:33:10.207274+00:00"
+    },
+    {
+      "store_number": "042130",
+      "store_name": "Taco Bell",
+      "city": "Freeport",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-07-08T20:31:11.004033+00:00"
+    },
     {
       "store_number": "043129",
       "store_name": "Taco Bell",
@@ -7887,8 +7918,8 @@
     }
   ],
   "activity_summary": {
-    "added": 594,
-    "removed": 124,
+    "added": 596,
+    "removed": 125,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8346,6 +8377,15 @@
       "Taco Bell",
       "Seymour",
       "TN"
+    ],
+    [
+      "042130",
+      30.48627090853254,
+      -86.12258973436154,
+      2.79,
+      "Taco Bell",
+      "Freeport",
+      "FL"
     ],
     [
       "036403",
@@ -9995,15 +10035,6 @@
       "GA"
     ],
     [
-      "030463",
-      31.105415984250854,
-      -87.47651986779147,
-      2.79,
-      "Taco Bell",
-      "Atmore",
-      "AL"
-    ],
-    [
       "036486",
       32.52636196976751,
       -86.20746475961995,
@@ -11390,6 +11421,15 @@
       "GA"
     ],
     [
+      "043129",
+      33.56501819417912,
+      -81.7408172681462,
+      2.79,
+      "Taco Bell",
+      "Aiken",
+      "SC"
+    ],
+    [
       "004109",
       33.64955627801561,
       -84.01091118158547,
@@ -12120,6 +12160,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-07",
+  "last_seen_date": "2026-07-08",
   "peak_availability_pct": 5.9
 }

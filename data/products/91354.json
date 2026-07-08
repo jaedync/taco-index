@@ -22,16 +22,16 @@
     "max": 11.49,
     "median": 10.29,
     "std_dev": 0.35,
-    "store_count": 475
+    "store_count": 476
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 212
+      "count": 214
     },
     {
       "bucket": "$10.29",
-      "count": 127
+      "count": 126
     },
     {
       "bucket": "$10.69",
@@ -63,14 +63,14 @@
       "store_count": 31
     },
     {
+      "state": "AL",
+      "avg_price": 10.17,
+      "store_count": 119
+    },
+    {
       "state": "TN",
       "avg_price": 10.17,
       "store_count": 84
-    },
-    {
-      "state": "AL",
-      "avg_price": 10.17,
-      "store_count": 118
     }
   ],
   "nutrition": {
@@ -196,6 +196,7 @@
     "029153",
     "029114",
     "017019",
+    "029115",
     "029119",
     "030297",
     "029135",
@@ -369,6 +370,7 @@
     "033445",
     "033643",
     "033994",
+    "034026",
     "030272",
     "005482",
     "029008"
@@ -446,6 +448,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034026",
+      "store_name": "Taco Bell",
+      "city": "Chattanooga",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-07-08T20:35:23.379593+00:00"
+    },
+    {
+      "store_number": "029115",
+      "store_name": "Taco Bell",
+      "city": "Northport",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-07-08T20:32:09.690293+00:00"
+    },
+    {
+      "store_number": "042226",
+      "store_name": "Taco Bell",
+      "city": "Ooltewah",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-07-08T20:31:26.309490+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -6708,8 +6740,8 @@
     }
   ],
   "activity_summary": {
-    "added": 532,
-    "removed": 56,
+    "added": 534,
+    "removed": 57,
     "price_changed": 38,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7078,6 +7110,15 @@
       "Taco Bell",
       "Trenton",
       "GA"
+    ],
+    [
+      "029115",
+      33.23958846617791,
+      -87.57610286772149,
+      9.99,
+      "Taco Bell",
+      "Northport",
+      "AL"
     ],
     [
       "029119",
@@ -8637,6 +8678,15 @@
       "TN"
     ],
     [
+      "034026",
+      35.01884593369719,
+      -85.37105996148682,
+      9.99,
+      "Taco Bell",
+      "Chattanooga",
+      "TN"
+    ],
+    [
       "030272",
       34.648568120065626,
       -86.03355829419343,
@@ -8986,15 +9036,6 @@
       "Taco Bell",
       "Albany",
       "GA"
-    ],
-    [
-      "042226",
-      35.088708,
-      -85.064803,
-      10.29,
-      "Taco Bell",
-      "Ooltewah",
-      "TN"
     ],
     [
       "042273",
@@ -11032,6 +11073,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-07-07",
+  "last_seen_date": "2026-07-08",
   "peak_availability_pct": 6.0
 }

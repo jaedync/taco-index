@@ -20,12 +20,12 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 311
+    "store_count": 312
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 311
+      "count": 312
     }
   ],
   "state_prices": [
@@ -37,7 +37,7 @@
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 182
+      "store_count": 183
     },
     {
       "state": "IN",
@@ -191,6 +191,7 @@
     "039555",
     "037663",
     "039123",
+    "001510",
     "001971",
     "022262",
     "023745",
@@ -342,7 +343,6 @@
     "033306",
     "035408",
     "033015",
-    "030922",
     "002500",
     "032090",
     "035394",
@@ -430,6 +430,7 @@
     "032632",
     "033999",
     "004161",
+    "017105",
     "004399",
     "033312",
     "033808",
@@ -517,6 +518,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030922",
+      "store_name": "Taco Bell",
+      "city": "Chesterfield",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-07-08T20:33:58.538620+00:00"
+    },
+    {
+      "store_number": "017105",
+      "store_name": "Taco Bell",
+      "city": "Garden City",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-07-08T20:32:13.255570+00:00"
+    },
+    {
+      "store_number": "001510",
+      "store_name": "Taco Bell",
+      "city": "Taylor",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-07-08T20:32:04.288038+00:00"
+    },
     {
       "store_number": "037663",
       "store_name": "Taco Bell",
@@ -4989,8 +5020,8 @@
     }
   ],
   "activity_summary": {
-    "added": 379,
-    "removed": 68,
+    "added": 381,
+    "removed": 69,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5528,6 +5559,15 @@
       4.99,
       "Taco Bell",
       "Flint",
+      "MI"
+    ],
+    [
+      "001510",
+      42.232941229526915,
+      -83.2700921595096,
+      4.99,
+      "Taco Bell",
+      "Taylor",
       "MI"
     ],
     [
@@ -6890,15 +6930,6 @@
       "MI"
     ],
     [
-      "030922",
-      42.67539268951849,
-      -82.76109713322512,
-      4.99,
-      "Taco Bell",
-      "Chesterfield",
-      "MI"
-    ],
-    [
       "002500",
       41.62488264892056,
       -83.62539996208397,
@@ -7682,6 +7713,15 @@
       "MI"
     ],
     [
+      "017105",
+      42.325364416289936,
+      -83.32727551460266,
+      4.99,
+      "Taco Bell",
+      "Garden City",
+      "MI"
+    ],
+    [
       "004399",
       46.474895137706675,
       -84.35584594310967,
@@ -7800,6 +7840,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-07",
+  "last_seen_date": "2026-07-08",
   "peak_availability_pct": 3.8
 }

@@ -21,12 +21,12 @@
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 26
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 26
+      "count": 25
     }
   ],
   "state_prices": [
@@ -51,13 +51,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "040019",
-      "name": "Taco Bell",
-      "city": "Cedar Lake",
-      "state": "IN",
-      "price": 11.0
-    },
     {
       "store_number": "040018",
       "name": "Taco Bell",
@@ -120,10 +113,16 @@
       "city": "Wauconda",
       "state": "IL",
       "price": 11.0
+    },
+    {
+      "store_number": "002513",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 11.0
     }
   ],
   "min_price_store_numbers": [
-    "040019",
     "040018",
     "041795",
     "041497",
@@ -223,6 +222,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040019",
+      "store_name": "Taco Bell",
+      "city": "Cedar Lake",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-07-08T20:30:57.517996+00:00"
+    },
     {
       "store_number": "026757",
       "store_name": "Taco Bell",
@@ -1166,7 +1175,7 @@
   ],
   "activity_summary": {
     "added": 60,
-    "removed": 34,
+    "removed": 35,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1200,15 +1209,6 @@
     }
   ],
   "map_data": [
-    [
-      "040019",
-      41.37634875376213,
-      -87.46939630871344,
-      11.0,
-      "Taco Bell",
-      "Cedar Lake",
-      "IN"
-    ],
     [
       "040018",
       41.568922522295324,
@@ -1436,6 +1436,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-07",
+  "last_seen_date": "2026-07-08",
   "peak_availability_pct": 0.3
 }

@@ -21,19 +21,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 28
+    "store_count": 29
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 28
+      "count": 29
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 28
+      "store_count": 29
     }
   ],
   "nutrition": {
@@ -147,6 +147,7 @@
     "030999",
     "023304",
     "042928",
+    "023291",
     "023300",
     "034163",
     "042971",
@@ -178,6 +179,13 @@
       "store_number": "023300",
       "name": "Taco Bell",
       "city": "Palm Bay",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "023291",
+      "name": "Taco Bell",
+      "city": "Satellite Beach",
       "state": "FL",
       "price": 10.99
     },
@@ -215,16 +223,19 @@
       "city": "Melbourne",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "023296",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023291",
+      "store_name": "Taco Bell",
+      "city": "Satellite Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-07-08T20:35:12.796402+00:00"
+    },
     {
       "store_number": "032177",
       "store_name": "Taco Bell",
@@ -1447,7 +1458,7 @@
     }
   ],
   "activity_summary": {
-    "added": 75,
+    "added": 76,
     "removed": 47,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1705,6 +1716,15 @@
       "FL"
     ],
     [
+      "023291",
+      28.186290819898744,
+      -80.59330917430088,
+      10.99,
+      "Taco Bell",
+      "Satellite Beach",
+      "FL"
+    ],
+    [
       "023300",
       27.99815047734223,
       -80.63776654322986,
@@ -1742,6 +1762,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-07-07",
+  "last_seen_date": "2026-07-08",
   "peak_availability_pct": 0.4
 }

@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 10.36,
+    "avg": 10.4,
     "min": 9.49,
     "max": 10.99,
     "median": 10.29,
-    "std_dev": 0.43,
-    "store_count": 22
+    "std_dev": 0.39,
+    "store_count": 21
   },
   "histogram": [
     {
       "bucket": "$9.49",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$9.99",
@@ -66,11 +66,6 @@
       "state": "GA",
       "avg_price": 10.4,
       "store_count": 9
-    },
-    {
-      "state": "FL",
-      "avg_price": 10.03,
-      "store_count": 5
     }
   ],
   "nutrition": {
@@ -92,13 +87,6 @@
       "store_number": "037369",
       "name": "Taco Bell",
       "city": "Port St Joe",
-      "state": "FL",
-      "price": 9.49
-    },
-    {
-      "store_number": "030707",
-      "name": "Taco Bell",
-      "city": "Panama City Beach",
       "state": "FL",
       "price": 9.49
     },
@@ -157,11 +145,17 @@
       "city": "Smyrna",
       "state": "GA",
       "price": 10.29
+    },
+    {
+      "store_number": "036487",
+      "name": "Taco Bell",
+      "city": "Montgomery",
+      "state": "AL",
+      "price": 10.29
     }
   ],
   "min_price_store_numbers": [
-    "037369",
-    "030707"
+    "037369"
   ],
   "priciest_stores": [
     {
@@ -236,6 +230,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030707",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.49,
+      "new_price": null,
+      "observed_at": "2026-07-08T20:33:11.707343+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -1379,7 +1383,7 @@
   ],
   "activity_summary": {
     "added": 68,
-    "removed": 46,
+    "removed": 47,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1426,15 +1430,6 @@
       9.49,
       "Taco Bell",
       "Port St Joe",
-      "FL"
-    ],
-    [
-      "030707",
-      30.18565418903784,
-      -85.8179617328141,
-      9.49,
-      "Taco Bell",
-      "Panama City Beach",
       "FL"
     ],
     [
@@ -1619,6 +1614,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-07",
+  "last_seen_date": "2026-07-08",
   "peak_availability_pct": 0.3
 }
