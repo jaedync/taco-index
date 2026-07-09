@@ -20,7 +20,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 238
+    "store_count": 240
   },
   "histogram": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 23
+      "count": 21
     },
     {
       "bucket": "$0.85",
@@ -64,12 +64,16 @@
       "count": 28
     },
     {
+      "bucket": "$0.98",
+      "count": 1
+    },
+    {
       "bucket": "$0.99",
       "count": 5
     },
     {
       "bucket": "$1.00",
-      "count": 67
+      "count": 69
     },
     {
       "bucket": "$1.10",
@@ -89,7 +93,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 20
+      "count": 21
     },
     {
       "bucket": "$1.59",
@@ -103,19 +107,19 @@
       "store_count": 8
     },
     {
+      "state": "MI",
+      "avg_price": 1.1,
+      "store_count": 50
+    },
+    {
       "state": "IL",
       "avg_price": 1.1,
       "store_count": 9
     },
     {
-      "state": "MI",
-      "avg_price": 1.09,
-      "store_count": 49
-    },
-    {
       "state": "AL",
       "avg_price": 1.01,
-      "store_count": 23
+      "store_count": 25
     },
     {
       "state": "TX",
@@ -128,14 +132,14 @@
       "store_count": 25
     },
     {
+      "state": "OH",
+      "avg_price": 0.96,
+      "store_count": 30
+    },
+    {
       "state": "MO",
       "avg_price": 0.96,
       "store_count": 10
-    },
-    {
-      "state": "OH",
-      "avg_price": 0.96,
-      "store_count": 31
     },
     {
       "state": "KS",
@@ -261,6 +265,13 @@
       "price": 1.59
     },
     {
+      "store_number": "037841",
+      "name": "Taco Bell",
+      "city": "Ypsilanti",
+      "state": "MI",
+      "price": 1.49
+    },
+    {
       "store_number": "002440",
       "name": "Taco Bell",
       "city": "Brighton",
@@ -315,16 +326,69 @@
       "city": "Van Wert",
       "state": "OH",
       "price": 1.49
-    },
-    {
-      "store_number": "026745",
-      "name": "Taco Bell",
-      "city": "Joliet",
-      "state": "IL",
-      "price": 1.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038801",
+      "store_name": "Taco Bell",
+      "city": "Anniston",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-07-09T20:34:57.402418+00:00"
+    },
+    {
+      "store_number": "027690",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.8,
+      "new_price": null,
+      "observed_at": "2026-07-09T20:34:20.691922+00:00"
+    },
+    {
+      "store_number": "031450",
+      "store_name": "Taco Bell",
+      "city": "Pleasant Hill",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.98,
+      "observed_at": "2026-07-09T20:33:35.104981+00:00"
+    },
+    {
+      "store_number": "037841",
+      "store_name": "Taco Bell",
+      "city": "Ypsilanti",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-07-09T20:32:56.654775+00:00"
+    },
+    {
+      "store_number": "036405",
+      "store_name": "Taco Bell",
+      "city": "North Randall",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 0.8,
+      "new_price": null,
+      "observed_at": "2026-07-09T20:32:34.646376+00:00"
+    },
+    {
+      "store_number": "040780",
+      "store_name": "Taco Bell",
+      "city": "Oxford",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-07-09T20:31:53.047811+00:00"
+    },
     {
       "store_number": "027876",
       "store_name": "Taco Bell",
@@ -5717,8 +5781,8 @@
     }
   ],
   "activity_summary": {
-    "added": 294,
-    "removed": 245,
+    "added": 298,
+    "removed": 247,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5899,15 +5963,6 @@
       "OH"
     ],
     [
-      "027690",
-      25.68487907748535,
-      -80.41769548329285,
-      0.8,
-      "Taco Bell",
-      "Miami",
-      "FL"
-    ],
-    [
       "024222",
       33.697474108369384,
       -78.87839560212342,
@@ -5986,15 +6041,6 @@
       0.8,
       "Taco Bell",
       "Reynoldsburg",
-      "OH"
-    ],
-    [
-      "036405",
-      41.430209826857606,
-      -81.52590698069181,
-      0.8,
-      "Taco Bell",
-      "North Randall",
       "OH"
     ],
     [
@@ -6871,6 +6917,15 @@
       "IN"
     ],
     [
+      "031450",
+      37.981232772108676,
+      -122.06749427858549,
+      0.98,
+      "Taco Bell",
+      "Pleasant Hill",
+      "CA"
+    ],
+    [
       "036262",
       39.4836008,
       -88.33129439999999,
@@ -7519,6 +7574,24 @@
       "AL"
     ],
     [
+      "040780",
+      33.606317,
+      -85.786963,
+      1.0,
+      "Taco Bell",
+      "Oxford",
+      "AL"
+    ],
+    [
+      "038801",
+      33.7190015,
+      -85.81864569999999,
+      1.0,
+      "Taco Bell",
+      "Anniston",
+      "AL"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -7861,6 +7934,15 @@
       "MI"
     ],
     [
+      "037841",
+      42.230159041627104,
+      -83.64784951507943,
+      1.49,
+      "Taco Bell",
+      "Ypsilanti",
+      "MI"
+    ],
+    [
       "041883",
       48.173424515469144,
       -103.62728089416856,
@@ -7871,6 +7953,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-07-08",
+  "last_seen_date": "2026-07-09",
   "peak_availability_pct": 2.9
 }

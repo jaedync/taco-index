@@ -16,17 +16,17 @@
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.11,
+    "avg": 9.12,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.33,
-    "store_count": 9
+    "std_dev": 0.35,
+    "store_count": 8
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$9.99",
@@ -36,8 +36,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.11,
-      "store_count": 9
+      "avg_price": 9.12,
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -91,13 +91,6 @@
       "price": 9.0
     },
     {
-      "store_number": "027969",
-      "name": "Taco Bell",
-      "city": "Titusville",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "039585",
       "name": "Taco Bell",
       "city": "Kissimmee",
@@ -125,7 +118,6 @@
     "027988",
     "027971",
     "027974",
-    "027969",
     "039585",
     "034163"
   ],
@@ -148,13 +140,6 @@
       "store_number": "039585",
       "name": "Taco Bell",
       "city": "Kissimmee",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "027969",
-      "name": "Taco Bell",
-      "city": "Titusville",
       "state": "FL",
       "price": 9.0
     },
@@ -195,6 +180,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027969",
+      "store_name": "Taco Bell",
+      "city": "Titusville",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-09T20:34:06.610324+00:00"
+    },
     {
       "store_number": "039584",
       "store_name": "Taco Bell",
@@ -4428,7 +4423,7 @@
   ],
   "activity_summary": {
     "added": 216,
-    "removed": 207,
+    "removed": 208,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4514,15 +4509,6 @@
       "FL"
     ],
     [
-      "027969",
-      28.590950152596594,
-      -80.80342124933513,
-      9.0,
-      "Taco Bell",
-      "Titusville",
-      "FL"
-    ],
-    [
       "039585",
       28.304853694257584,
       -81.42185122376063,
@@ -4551,6 +4537,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-08",
+  "last_seen_date": "2026-07-09",
   "peak_availability_pct": 1.2
 }

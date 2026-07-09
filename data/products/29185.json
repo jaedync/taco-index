@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-21T21:03:53.279722+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
     "avg": 9.0,
     "min": 9.0,
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 3
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 3
+      "count": 4
     }
   ],
   "state_prices": [],
@@ -53,6 +53,13 @@
       "price": 9.0
     },
     {
+      "store_number": "033154",
+      "name": "Taco Bell",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "price": 9.0
+    },
+    {
       "store_number": "033177",
       "name": "Taco Bell",
       "city": "Clinton",
@@ -69,6 +76,7 @@
   ],
   "min_price_store_numbers": [
     "033161",
+    "033154",
     "033177",
     "033175"
   ],
@@ -88,6 +96,13 @@
       "price": 9.0
     },
     {
+      "store_number": "033154",
+      "name": "Taco Bell",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "price": 9.0
+    },
+    {
       "store_number": "033161",
       "name": "Taco Bell",
       "city": "Ogden",
@@ -96,6 +111,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033154",
+      "store_name": "Taco Bell",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-09T20:34:07.048984+00:00"
+    },
     {
       "store_number": "033154",
       "store_name": "Taco Bell",
@@ -888,7 +913,7 @@
     }
   ],
   "activity_summary": {
-    "added": 41,
+    "added": 42,
     "removed": 38,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -933,6 +958,15 @@
       "UT"
     ],
     [
+      "033154",
+      40.62400716412134,
+      -111.83524762095658,
+      9.0,
+      "Taco Bell",
+      "Salt Lake City",
+      "UT"
+    ],
+    [
       "033177",
       41.13787879858887,
       -112.06496975851218,
@@ -952,6 +986,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-08",
+  "last_seen_date": "2026-07-09",
   "peak_availability_pct": 0.2
 }

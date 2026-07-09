@@ -16,7 +16,7 @@
   "first_seen_at": "2026-03-30T00:42:17.482555+00:00",
   "availability_pct": 1.6,
   "price_stats": {
-    "avg": 6.02,
+    "avg": 6.03,
     "min": 5.99,
     "max": 8.19,
     "median": 5.99,
@@ -26,10 +26,14 @@
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 118
+      "count": 117
     },
     {
       "bucket": "$6.19",
+      "count": 1
+    },
+    {
+      "bucket": "$6.49",
       "count": 1
     },
     {
@@ -49,7 +53,7 @@
     {
       "state": "FL",
       "avg_price": 6.02,
-      "store_count": 101
+      "store_count": 100
     },
     {
       "state": "UT",
@@ -209,7 +213,6 @@
     "023298",
     "042914",
     "022587",
-    "022594",
     "042924",
     "023289",
     "027969",
@@ -286,6 +289,13 @@
       "price": 6.69
     },
     {
+      "store_number": "041745",
+      "name": "Taco Bell",
+      "city": "Walled Lake",
+      "state": "MI",
+      "price": 6.49
+    },
+    {
       "store_number": "021309",
       "name": "Taco Bell",
       "city": "Norfolk",
@@ -326,16 +336,29 @@
       "city": "Clinton",
       "state": "UT",
       "price": 5.99
-    },
-    {
-      "store_number": "033168",
-      "name": "Taco Bell",
-      "city": "Salt Lake City",
-      "state": "UT",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022594",
+      "store_name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-07-09T20:34:03.495070+00:00"
+    },
+    {
+      "store_number": "041745",
+      "store_name": "Taco Bell",
+      "city": "Walled Lake",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-07-09T20:31:57.393527+00:00"
+    },
     {
       "store_number": "029401",
       "store_name": "Taco Bell / KFC",
@@ -2418,8 +2441,8 @@
     }
   ],
   "activity_summary": {
-    "added": 143,
-    "removed": 24,
+    "added": 144,
+    "removed": 25,
     "price_changed": 41,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3014,15 +3037,6 @@
       "FL"
     ],
     [
-      "022594",
-      29.188448184353764,
-      -81.07624427230803,
-      5.99,
-      "Taco Bell",
-      "Daytona Beach",
-      "FL"
-    ],
-    [
       "042924",
       29.186555502770133,
       -82.10967413442167,
@@ -3498,6 +3512,15 @@
       "Taco Bell",
       "Norfolk",
       "VA"
+    ],
+    [
+      "041745",
+      42.538476867889386,
+      -83.48039326911228,
+      6.49,
+      "Taco Bell",
+      "Walled Lake",
+      "MI"
     ],
     [
       "029401",

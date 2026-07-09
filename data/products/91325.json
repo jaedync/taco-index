@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.6,
+  "availability_pct": 0.5,
   "price_stats": {
-    "avg": 9.38,
+    "avg": 9.34,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.71,
-    "store_count": 44
+    "std_dev": 0.66,
+    "store_count": 42
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 32
+      "count": 31
     },
     {
       "bucket": "$9.49",
@@ -38,19 +38,19 @@
     },
     {
       "bucket": "$11.29",
-      "count": 4
+      "count": 3
     }
   ],
   "state_prices": [
     {
-      "state": "GA",
-      "avg_price": 9.62,
-      "store_count": 18
-    },
-    {
       "state": "FL",
       "avg_price": 9.6,
       "store_count": 9
+    },
+    {
+      "state": "GA",
+      "avg_price": 9.55,
+      "store_count": 16
     },
     {
       "state": "TN",
@@ -114,6 +114,13 @@
       "price": 9.0
     },
     {
+      "store_number": "016335",
+      "name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "price": 9.0
+    },
+    {
       "store_number": "041249",
       "name": "Taco Bell",
       "city": "Lawrenceville",
@@ -140,13 +147,6 @@
       "city": "Maryville",
       "state": "TN",
       "price": 9.0
-    },
-    {
-      "store_number": "041243",
-      "name": "Taco Bell",
-      "city": "Marietta",
-      "state": "GA",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -155,6 +155,7 @@
     "042511",
     "040962",
     "024403",
+    "016335",
     "041249",
     "039924",
     "039919",
@@ -162,10 +163,8 @@
     "041243",
     "026073",
     "016289",
-    "041837",
     "003668",
     "029033",
-    "037050",
     "042121",
     "042125",
     "034026",
@@ -184,13 +183,6 @@
     "037341"
   ],
   "priciest_stores": [
-    {
-      "store_number": "041222",
-      "name": "Taco Bell",
-      "city": "Snellville",
-      "state": "GA",
-      "price": 11.29
-    },
     {
       "store_number": "041212",
       "name": "Taco Bell",
@@ -253,9 +245,56 @@
       "city": "Jesup",
       "state": "GA",
       "price": 9.99
+    },
+    {
+      "store_number": "042903",
+      "name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "price": 9.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041837",
+      "store_name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-09T20:34:17.301525+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-09T20:33:20.425916+00:00"
+    },
+    {
+      "store_number": "037050",
+      "store_name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-09T20:32:36.542777+00:00"
+    },
+    {
+      "store_number": "041222",
+      "store_name": "Taco Bell",
+      "city": "Snellville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.29,
+      "new_price": null,
+      "observed_at": "2026-07-09T20:31:56.411175+00:00"
+    },
     {
       "store_number": "041212",
       "store_name": "Taco Bell",
@@ -4498,8 +4537,8 @@
     }
   ],
   "activity_summary": {
-    "added": 204,
-    "removed": 220,
+    "added": 205,
+    "removed": 223,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4585,6 +4624,15 @@
       "TN"
     ],
     [
+      "016335",
+      35.810910605655216,
+      -84.26391898537986,
+      9.0,
+      "Taco Bell",
+      "Lenoir City",
+      "TN"
+    ],
+    [
       "041249",
       33.96647033026141,
       -84.010348240854,
@@ -4648,15 +4696,6 @@
       "GA"
     ],
     [
-      "041837",
-      30.85502172223534,
-      -83.94673973321909,
-      9.0,
-      "Taco Bell",
-      "Thomasville",
-      "GA"
-    ],
-    [
       "003668",
       33.77267954859662,
       -84.37298566102982,
@@ -4672,15 +4711,6 @@
       9.0,
       "Taco Bell",
       "Clinton",
-      "TN"
-    ],
-    [
-      "037050",
-      36.10306709232148,
-      -84.58455685815763,
-      9.0,
-      "Taco Bell",
-      "Wartburg",
       "TN"
     ],
     [
@@ -4925,18 +4955,9 @@
       "Taco Bell",
       "Decatur",
       "GA"
-    ],
-    [
-      "041222",
-      33.80204066127045,
-      -84.04311550539077,
-      11.29,
-      "Taco Bell",
-      "Snellville",
-      "GA"
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-07-08",
+  "last_seen_date": "2026-07-09",
   "peak_availability_pct": 1.1
 }

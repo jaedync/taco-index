@@ -22,12 +22,12 @@
     "max": 7.49,
     "median": 7.49,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$7.49",
-      "count": 2
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -59,13 +59,28 @@
       "city": "Buda",
       "state": "TX",
       "price": 7.49
+    },
+    {
+      "store_number": "030128",
+      "name": "Taco Bell",
+      "city": "Marble Falls",
+      "state": "TX",
+      "price": 7.49
     }
   ],
   "min_price_store_numbers": [
     "030146",
-    "030086"
+    "030086",
+    "030128"
   ],
   "priciest_stores": [
+    {
+      "store_number": "030128",
+      "name": "Taco Bell",
+      "city": "Marble Falls",
+      "state": "TX",
+      "price": 7.49
+    },
     {
       "store_number": "030086",
       "name": "Taco Bell",
@@ -82,6 +97,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030128",
+      "store_name": "Taco Bell",
+      "city": "Marble Falls",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.49,
+      "observed_at": "2026-07-09T20:34:16.949729+00:00"
+    },
     {
       "store_number": "030146",
       "store_name": "Taco Bell",
@@ -1064,7 +1089,7 @@
     }
   ],
   "activity_summary": {
-    "added": 50,
+    "added": 51,
     "removed": 48,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1073,12 +1098,6 @@
   "calories_min": 800,
   "calories_max": 800,
   "combo_groups": [
-    {
-      "group_id": "901",
-      "title": "Cantina Chicken Verde Nachos",
-      "default_product_code": "23933",
-      "default_product_name": "Cantina Chicken Verde Nachos"
-    },
     {
       "group_id": "451",
       "title": "Avocado Verde Salsa Sauce Packet",
@@ -1103,6 +1122,15 @@
       7.49,
       "Taco Bell",
       "Buda",
+      "TX"
+    ],
+    [
+      "030128",
+      30.581708587443302,
+      -98.2807201221749,
+      7.49,
+      "Taco Bell",
+      "Marble Falls",
       "TX"
     ]
   ],
