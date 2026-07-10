@@ -22,12 +22,12 @@
     "max": 6.99,
     "median": 6.69,
     "std_dev": 0.2,
-    "store_count": 140
+    "store_count": 139
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 55
+      "count": 54
     },
     {
       "bucket": "$6.69",
@@ -40,14 +40,14 @@
   ],
   "state_prices": [
     {
+      "state": "GA",
+      "avg_price": 6.78,
+      "store_count": 56
+    },
+    {
       "state": "FL",
       "avg_price": 6.78,
       "store_count": 14
-    },
-    {
-      "state": "GA",
-      "avg_price": 6.78,
-      "store_count": 57
     },
     {
       "state": "AL",
@@ -183,7 +183,6 @@
     "029095",
     "031633",
     "029071",
-    "002995",
     "003874",
     "029970",
     "029082",
@@ -276,6 +275,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-07-10T21:48:09.427867+00:00"
+    },
     {
       "store_number": "038801",
       "store_name": "Taco Bell",
@@ -12319,7 +12328,7 @@
   ],
   "activity_summary": {
     "added": 669,
-    "removed": 529,
+    "removed": 530,
     "price_changed": 6,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12670,15 +12679,6 @@
       "Taco Bell",
       "Auburn",
       "AL"
-    ],
-    [
-      "002995",
-      33.88866329031674,
-      -84.47492127122132,
-      6.49,
-      "Taco Bell",
-      "Smyrna",
-      "GA"
     ],
     [
       "003874",
@@ -13609,6 +13609,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-09",
+  "last_seen_date": "2026-07-10",
   "peak_availability_pct": 6.0
 }

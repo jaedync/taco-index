@@ -21,7 +21,7 @@
     "max": 3.59,
     "median": 3.19,
     "std_dev": 0.23,
-    "store_count": 743
+    "store_count": 742
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$2.59",
-      "count": 12
+      "count": 11
     },
     {
       "bucket": "$2.69",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 106
+      "count": 107
     },
     {
       "bucket": "$3.09",
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 193
+      "count": 194
     },
     {
       "bucket": "$3.29",
@@ -66,11 +66,11 @@
     },
     {
       "bucket": "$3.39",
-      "count": 12
+      "count": 11
     },
     {
       "bucket": "$3.49",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$3.59",
@@ -80,18 +80,23 @@
   "state_prices": [
     {
       "state": "MO",
-      "avg_price": 3.3,
-      "store_count": 11
+      "avg_price": 3.29,
+      "store_count": 10
     },
     {
       "state": "CA",
       "avg_price": 3.29,
-      "store_count": 10
+      "store_count": 9
     },
     {
       "state": "AR",
       "avg_price": 3.28,
       "store_count": 96
+    },
+    {
+      "state": "NV",
+      "avg_price": 3.27,
+      "store_count": 5
     },
     {
       "state": "OK",
@@ -111,7 +116,7 @@
     {
       "state": "TX",
       "avg_price": 2.99,
-      "store_count": 443
+      "store_count": 442
     },
     {
       "state": "AL",
@@ -238,13 +243,6 @@
       "price": 3.49
     },
     {
-      "store_number": "019282",
-      "name": "Taco Bell",
-      "city": "Anchorage",
-      "state": "AK",
-      "price": 3.49
-    },
-    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
@@ -285,9 +283,106 @@
       "city": "Scotts Valley",
       "state": "CA",
       "price": 3.39
+    },
+    {
+      "store_number": "033932",
+      "name": "Taco Bell",
+      "city": "Ruidoso",
+      "state": "NM",
+      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002531",
+      "store_name": "Taco Bell",
+      "city": "Victorville",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-07-10T21:50:20.849776+00:00"
+    },
+    {
+      "store_number": "026664",
+      "store_name": "Taco Bell",
+      "city": "Vancouver",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-07-10T21:50:19.316569+00:00"
+    },
+    {
+      "store_number": "035612",
+      "store_name": "Taco Bell",
+      "city": "Big Bear Lake",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-07-10T21:47:30.354897+00:00"
+    },
+    {
+      "store_number": "031898",
+      "store_name": "Taco Bell",
+      "city": "Henderson",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-07-10T21:47:17.346112+00:00"
+    },
+    {
+      "store_number": "019282",
+      "store_name": "Taco Bell",
+      "city": "Anchorage",
+      "state": "AK",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-07-10T21:44:47.419833+00:00"
+    },
+    {
+      "store_number": "042464",
+      "store_name": "Taco Bell",
+      "city": "Ashland",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-07-10T21:42:00.364822+00:00"
+    },
+    {
+      "store_number": "019685",
+      "store_name": "Taco Bell",
+      "city": "Ventura",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-07-10T21:41:13.814064+00:00"
+    },
+    {
+      "store_number": "036251",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-07-10T21:41:09.600484+00:00"
+    },
+    {
+      "store_number": "034950",
+      "store_name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.59,
+      "new_price": null,
+      "observed_at": "2026-07-10T21:40:38.231863+00:00"
+    },
     {
       "store_number": "039042",
       "store_name": "Taco Bell",
@@ -8960,8 +9055,8 @@
     }
   ],
   "activity_summary": {
-    "added": 358,
-    "removed": 348,
+    "added": 362,
+    "removed": 353,
     "price_changed": 161,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9311,15 +9406,6 @@
       "Taco Bell",
       "Farmington",
       "NM"
-    ],
-    [
-      "034950",
-      32.62975618072312,
-      -97.4110991533318,
-      2.59,
-      "Taco Bell",
-      "Fort Worth",
-      "TX"
     ],
     [
       "037167",
@@ -11716,6 +11802,15 @@
       "AL"
     ],
     [
+      "042464",
+      38.48348849999973,
+      -82.65922370000484,
+      2.99,
+      "Taco Bell",
+      "Ashland",
+      "KY"
+    ],
+    [
       "022088",
       29.480563205666712,
       -95.3976809084395,
@@ -13478,6 +13573,15 @@
       "Taco Bell",
       "Nampa",
       "ID"
+    ],
+    [
+      "031898",
+      36.04406330681321,
+      -114.97495740652084,
+      3.19,
+      "Taco Bell",
+      "Henderson",
+      "NV"
     ],
     [
       "041134",
@@ -15478,24 +15582,6 @@
       "AR"
     ],
     [
-      "002531",
-      34.50674250807087,
-      -117.32778941096512,
-      3.29,
-      "Taco Bell",
-      "Victorville",
-      "CA"
-    ],
-    [
-      "019685",
-      34.28117928284997,
-      -119.19101393561668,
-      3.29,
-      "Taco Bell",
-      "Ventura",
-      "CA"
-    ],
-    [
       "026113",
       40.34794133511918,
       -79.94779542088509,
@@ -15505,13 +15591,22 @@
       "PA"
     ],
     [
-      "036251",
-      39.034202183610354,
-      -94.53198025225383,
-      3.39,
+      "035612",
+      34.24388626360949,
+      -116.90388678456657,
+      3.29,
       "Taco Bell",
-      "Kansas City",
-      "MO"
+      "Big Bear Lake",
+      "CA"
+    ],
+    [
+      "026664",
+      45.67258471564297,
+      -122.512868642807,
+      3.29,
+      "Taco Bell",
+      "Vancouver",
+      "WA"
     ],
     [
       "034420",
@@ -15620,15 +15715,6 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
-    ],
-    [
-      "019282",
-      61.195547234572096,
-      -149.90132898619726,
-      3.49,
-      "Taco Bell",
-      "Anchorage",
-      "AK"
     ],
     [
       "003190",

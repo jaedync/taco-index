@@ -11,7 +11,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 2.2,
+  "peak_30d_pct": 2.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 2.4,
@@ -19,18 +19,18 @@
     "avg": 8.73,
     "min": 7.79,
     "max": 9.49,
-    "median": 8.89,
-    "std_dev": 0.61,
-    "store_count": 182
+    "median": 8.99,
+    "std_dev": 0.62,
+    "store_count": 187
   },
   "histogram": [
     {
       "bucket": "$7.79",
-      "count": 35
+      "count": 36
     },
     {
       "bucket": "$8.19",
-      "count": 29
+      "count": 30
     },
     {
       "bucket": "$8.59",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$8.79",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$8.89",
@@ -50,11 +50,11 @@
     },
     {
       "bucket": "$8.99",
-      "count": 29
+      "count": 30
     },
     {
       "bucket": "$9.19",
-      "count": 21
+      "count": 22
     },
     {
       "bucket": "$9.29",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$9.49",
-      "count": 33
+      "count": 35
     }
   ],
   "state_prices": [
@@ -77,8 +77,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 8.95,
-      "store_count": 99
+      "avg_price": 8.96,
+      "store_count": 103
     },
     {
       "state": "IN",
@@ -87,7 +87,7 @@
     },
     {
       "state": "OH",
-      "avg_price": 8.36,
+      "avg_price": 8.34,
       "store_count": 63
     }
   ],
@@ -190,6 +190,7 @@
     "040535",
     "002086",
     "028400",
+    "001590",
     "002147",
     "003825",
     "002114",
@@ -287,6 +288,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032045",
+      "store_name": "Taco Bell",
+      "city": "Toledo",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 8.79,
+      "new_price": null,
+      "observed_at": "2026-07-10T21:50:49.600201+00:00"
+    },
+    {
+      "store_number": "032988",
+      "store_name": "Taco Bell",
+      "city": "Battle Creek",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.19,
+      "observed_at": "2026-07-10T21:47:14.077159+00:00"
+    },
+    {
+      "store_number": "032107",
+      "store_name": "Taco Bell",
+      "city": "Watervliet",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-07-10T21:45:54.542033+00:00"
+    },
+    {
+      "store_number": "001651",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-07-10T21:45:37.600481+00:00"
+    },
+    {
+      "store_number": "001590",
+      "store_name": "Taco Bell",
+      "city": "North Olmsted",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-07-10T21:44:17.079321+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-07-10T21:41:15.331557+00:00"
+    },
+    {
+      "store_number": "041829",
+      "store_name": "Taco Bell",
+      "city": "Wellsburg",
+      "state": "WV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.19,
+      "observed_at": "2026-07-10T21:40:36.604550+00:00"
+    },
     {
       "store_number": "040389",
       "store_name": "Taco Bell",
@@ -22479,8 +22550,8 @@
     }
   ],
   "activity_summary": {
-    "added": 932,
-    "removed": 749,
+    "added": 938,
+    "removed": 750,
     "price_changed": 538,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -22608,6 +22679,15 @@
       7.79,
       "Taco Bell",
       "Akron",
+      "OH"
+    ],
+    [
+      "001590",
+      41.42821201754905,
+      -81.89038395881659,
+      7.79,
+      "Taco Bell",
+      "North Olmsted",
       "OH"
     ],
     [
@@ -23079,6 +23159,15 @@
       "MI"
     ],
     [
+      "032988",
+      42.260658101733554,
+      -85.18805533647543,
+      8.19,
+      "Taco Bell",
+      "Battle Creek",
+      "MI"
+    ],
+    [
       "041937",
       45.627258,
       -84.479413,
@@ -23217,15 +23306,6 @@
       "022737",
       41.72189475493799,
       -83.5720289647702,
-      8.79,
-      "Taco Bell",
-      "Toledo",
-      "OH"
-    ],
-    [
-      "032045",
-      41.7015,
-      -83.6571,
       8.79,
       "Taco Bell",
       "Toledo",
@@ -23493,6 +23573,15 @@
       "OH"
     ],
     [
+      "032107",
+      42.180071475785965,
+      -86.26249767316433,
+      8.99,
+      "Taco Bell",
+      "Watervliet",
+      "MI"
+    ],
+    [
       "032091",
       41.45104454034972,
       -85.24693863738355,
@@ -23599,6 +23688,15 @@
       "Taco Bell",
       "Meadville",
       "PA"
+    ],
+    [
+      "041829",
+      40.284352,
+      -80.60844,
+      9.19,
+      "Taco Bell",
+      "Wellsburg",
+      "WV"
     ],
     [
       "036386",
@@ -23853,6 +23951,15 @@
       "MI"
     ],
     [
+      "037166",
+      41.9426279,
+      -84.648124,
+      9.49,
+      "Taco Bell",
+      "Hillsdale",
+      "MI"
+    ],
+    [
       "037169",
       42.55079380279747,
       -82.9623918026545,
@@ -23994,6 +24101,15 @@
       9.49,
       "Taco Bell",
       "Traverse City",
+      "MI"
+    ],
+    [
+      "001651",
+      42.25422907874331,
+      -84.4236646592617,
+      9.49,
+      "Taco Bell",
+      "Jackson",
       "MI"
     ],
     [
@@ -24142,6 +24258,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-09",
+  "last_seen_date": "2026-07-10",
   "peak_availability_pct": 6.6
 }

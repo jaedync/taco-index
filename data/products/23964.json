@@ -16,17 +16,17 @@
   "first_seen_at": "2026-06-18T21:25:52.078312+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 5.9,
+    "avg": 5.92,
     "min": 5.49,
     "max": 7.29,
     "median": 5.99,
     "std_dev": 0.35,
-    "store_count": 29
+    "store_count": 28
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$5.99",
@@ -68,13 +68,6 @@
       "name": "Taco Bell / KFC",
       "city": "Cypress",
       "state": "TX",
-      "price": 5.49
-    },
-    {
-      "store_number": "039735",
-      "name": "Taco Bell / KFC",
-      "city": "Ruckersville",
-      "state": "VA",
       "price": 5.49
     },
     {
@@ -132,11 +125,17 @@
       "city": "Holly Springs",
       "state": "NC",
       "price": 5.99
+    },
+    {
+      "store_number": "029401",
+      "name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "035717",
-    "039735",
     "028510",
     "039755",
     "021493",
@@ -217,6 +216,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039735",
+      "store_name": "Taco Bell / KFC",
+      "city": "Ruckersville",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-07-10T21:44:53.714770+00:00"
+    },
     {
       "store_number": "024033",
       "store_name": "Taco Bell",
@@ -1190,7 +1199,7 @@
   ],
   "activity_summary": {
     "added": 63,
-    "removed": 34,
+    "removed": 35,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1207,15 +1216,6 @@
       "Taco Bell / KFC",
       "Cypress",
       "TX"
-    ],
-    [
-      "039735",
-      38.22995077979435,
-      -78.37071418762207,
-      5.49,
-      "Taco Bell / KFC",
-      "Ruckersville",
-      "VA"
     ],
     [
       "028510",
@@ -1462,6 +1462,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-09",
+  "last_seen_date": "2026-07-10",
   "peak_availability_pct": 0.4
 }
