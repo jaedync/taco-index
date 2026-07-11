@@ -16,17 +16,17 @@
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.12,
+    "avg": 9.14,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.35,
-    "store_count": 8
+    "std_dev": 0.37,
+    "store_count": 7
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$9.99",
@@ -36,8 +36,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.12,
-      "store_count": 8
+      "avg_price": 9.14,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -84,13 +84,6 @@
       "price": 9.0
     },
     {
-      "store_number": "027974",
-      "name": "Taco Bell",
-      "city": "Cocoa",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "039585",
       "name": "Taco Bell",
       "city": "Kissimmee",
@@ -117,7 +110,6 @@
     "023302",
     "027988",
     "027971",
-    "027974",
     "039585",
     "034163"
   ],
@@ -140,13 +132,6 @@
       "store_number": "039585",
       "name": "Taco Bell",
       "city": "Kissimmee",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "027974",
-      "name": "Taco Bell",
-      "city": "Cocoa",
       "state": "FL",
       "price": 9.0
     },
@@ -180,6 +165,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027974",
+      "store_name": "Taco Bell",
+      "city": "Cocoa",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-11T20:48:51.779163+00:00"
+    },
     {
       "store_number": "027969",
       "store_name": "Taco Bell",
@@ -4423,7 +4418,7 @@
   ],
   "activity_summary": {
     "added": 216,
-    "removed": 208,
+    "removed": 209,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4500,15 +4495,6 @@
       "FL"
     ],
     [
-      "027974",
-      28.395896484504984,
-      -80.75560703873629,
-      9.0,
-      "Taco Bell",
-      "Cocoa",
-      "FL"
-    ],
-    [
       "039585",
       28.304853694257584,
       -81.42185122376063,
@@ -4537,6 +4523,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-10",
+  "last_seen_date": "2026-07-11",
   "peak_availability_pct": 1.2
 }

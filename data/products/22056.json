@@ -21,12 +21,12 @@
     "max": 13.0,
     "median": 13.0,
     "std_dev": 0.0,
-    "store_count": 24
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$13.00",
-      "count": 24
+      "count": 25
     }
   ],
   "state_prices": [
@@ -63,6 +63,13 @@
       "name": "Taco Bell",
       "city": "Aurora",
       "state": "IL",
+      "price": 13.0
+    },
+    {
+      "store_number": "032495",
+      "name": "Taco Bell",
+      "city": "Rensselaer",
+      "state": "IN",
       "price": 13.0
     },
     {
@@ -113,18 +120,12 @@
       "city": "Countryside",
       "state": "IL",
       "price": 13.0
-    },
-    {
-      "store_number": "032086",
-      "name": "Taco Bell",
-      "city": "Fox Lake",
-      "state": "IL",
-      "price": 13.0
     }
   ],
   "min_price_store_numbers": [
     "034772",
     "037826",
+    "032495",
     "002872",
     "032492",
     "002747",
@@ -221,6 +222,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032495",
+      "store_name": "Taco Bell",
+      "city": "Rensselaer",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 13.0,
+      "observed_at": "2026-07-11T20:47:57.713493+00:00"
+    },
     {
       "store_number": "032102",
       "store_name": "Taco Bell",
@@ -523,7 +534,7 @@
     }
   ],
   "activity_summary": {
-    "added": 27,
+    "added": 28,
     "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -599,6 +610,15 @@
       "Taco Bell",
       "Aurora",
       "IL"
+    ],
+    [
+      "032495",
+      40.940316,
+      -87.215662,
+      13.0,
+      "Taco Bell",
+      "Rensselaer",
+      "IN"
     ],
     [
       "002872",

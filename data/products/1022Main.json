@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$2.59",
-      "count": 11
+      "count": 12
     },
     {
       "bucket": "$2.69",
@@ -42,11 +42,11 @@
     },
     {
       "bucket": "$2.79",
-      "count": 41
+      "count": 42
     },
     {
       "bucket": "$2.89",
-      "count": 86
+      "count": 85
     },
     {
       "bucket": "$2.99",
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 194
+      "count": 193
     },
     {
       "bucket": "$3.29",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 11
+      "count": 12
     },
     {
       "bucket": "$3.49",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
@@ -111,6 +111,11 @@
     {
       "state": "FL",
       "avg_price": 3.03,
+      "store_count": 5
+    },
+    {
+      "state": "KS",
+      "avg_price": 3.01,
       "store_count": 5
     },
     {
@@ -222,13 +227,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "039062",
-      "name": "Taco Bell",
-      "city": "Wilkes Barre",
-      "state": "PA",
-      "price": 3.59
-    },
-    {
       "store_number": "026240",
       "name": "Taco Bell",
       "city": "San Diego",
@@ -248,6 +246,13 @@
       "city": "Kansas City",
       "state": "MO",
       "price": 3.49
+    },
+    {
+      "store_number": "034150",
+      "name": "Taco Bell Cantina",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 3.39
     },
     {
       "store_number": "031861",
@@ -293,6 +298,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030263",
+      "store_name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-07-11T20:49:24.747810+00:00"
+    },
+    {
+      "store_number": "004120",
+      "store_name": "Taco Bell",
+      "city": "Topeka",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-07-11T20:49:24.247690+00:00"
+    },
+    {
+      "store_number": "030720",
+      "store_name": "Taco Bell",
+      "city": "Nampa",
+      "state": "ID",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-07-11T20:48:25.433789+00:00"
+    },
+    {
+      "store_number": "039062",
+      "store_name": "Taco Bell",
+      "city": "Wilkes Barre",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-07-11T20:48:24.063744+00:00"
+    },
+    {
+      "store_number": "031798",
+      "store_name": "Taco Bell",
+      "city": "McKinney",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-07-11T20:48:10.092740+00:00"
+    },
+    {
+      "store_number": "034150",
+      "store_name": "Taco Bell Cantina",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-07-11T20:42:50.053337+00:00"
+    },
     {
       "store_number": "002531",
       "store_name": "Taco Bell",
@@ -9055,8 +9120,8 @@
     }
   ],
   "activity_summary": {
-    "added": 362,
-    "removed": 353,
+    "added": 365,
+    "removed": 356,
     "price_changed": 161,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9406,6 +9471,15 @@
       "Taco Bell",
       "Farmington",
       "NM"
+    ],
+    [
+      "004120",
+      39.03836518191212,
+      -95.76130165064725,
+      2.59,
+      "Taco Bell",
+      "Topeka",
+      "KS"
     ],
     [
       "037167",
@@ -10047,6 +10121,15 @@
       "OK"
     ],
     [
+      "031798",
+      33.17356669559879,
+      -96.69555886011887,
+      2.79,
+      "Taco Bell",
+      "McKinney",
+      "TX"
+    ],
+    [
       "041213",
       33.82367652593412,
       -84.10772882404672,
@@ -10620,15 +10703,6 @@
       2.89,
       "Taco Bell",
       "Leander",
-      "TX"
-    ],
-    [
-      "030263",
-      30.3890732069639,
-      -97.65077903872225,
-      2.89,
-      "Taco Bell",
-      "Austin",
       "TX"
     ],
     [
@@ -13566,15 +13640,6 @@
       "NV"
     ],
     [
-      "030720",
-      43.59456638247691,
-      -116.51856064796448,
-      3.19,
-      "Taco Bell",
-      "Nampa",
-      "ID"
-    ],
-    [
       "031898",
       36.04406330681321,
       -114.97495740652084,
@@ -15708,6 +15773,15 @@
       "NV"
     ],
     [
+      "034150",
+      40.64580109531123,
+      -73.95834142593563,
+      3.39,
+      "Taco Bell Cantina",
+      "Brooklyn",
+      "NY"
+    ],
+    [
       "038783",
       39.050835,
       -94.5884833,
@@ -15733,15 +15807,6 @@
       "Taco Bell",
       "San Diego",
       "CA"
-    ],
-    [
-      "039062",
-      41.250723509747644,
-      -75.85466533899307,
-      3.59,
-      "Taco Bell",
-      "Wilkes Barre",
-      "PA"
     ]
   ],
   "retired_at": null,

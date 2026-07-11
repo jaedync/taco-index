@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 10.41,
+    "avg": 10.4,
     "min": 9.49,
     "max": 10.99,
     "median": 10.29,
-    "std_dev": 0.4,
-    "store_count": 20
+    "std_dev": 0.39,
+    "store_count": 21
   },
   "histogram": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$10.29",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$10.49",
@@ -64,8 +64,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.41,
-      "store_count": 8
+      "avg_price": 10.4,
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -140,16 +140,16 @@
       "price": 10.29
     },
     {
-      "store_number": "036487",
+      "store_number": "002995",
       "name": "Taco Bell",
-      "city": "Montgomery",
-      "state": "AL",
+      "city": "Smyrna",
+      "state": "GA",
       "price": 10.29
     },
     {
-      "store_number": "029145",
+      "store_number": "036487",
       "name": "Taco Bell",
-      "city": "Cullman",
+      "city": "Montgomery",
       "state": "AL",
       "price": 10.29
     }
@@ -230,6 +230,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.29,
+      "observed_at": "2026-07-11T20:48:54.975293+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -1392,7 +1402,7 @@
     }
   ],
   "activity_summary": {
-    "added": 68,
+    "added": 69,
     "removed": 48,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1506,6 +1516,15 @@
       "TN"
     ],
     [
+      "002995",
+      33.88866329031674,
+      -84.47492127122132,
+      10.29,
+      "Taco Bell",
+      "Smyrna",
+      "GA"
+    ],
+    [
       "036487",
       32.32585303107889,
       -86.32691858103499,
@@ -1615,6 +1634,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-10",
+  "last_seen_date": "2026-07-11",
   "peak_availability_pct": 0.3
 }

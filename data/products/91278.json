@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:09.662285+00:00",
   "availability_pct": 0.9,
   "price_stats": {
-    "avg": 7.43,
+    "avg": 7.45,
     "min": 5.79,
     "max": 8.49,
     "median": 7.49,
     "std_dev": 0.59,
-    "store_count": 66
+    "store_count": 67
   },
   "histogram": [
     {
@@ -69,7 +69,7 @@
     },
     {
       "bucket": "$8.49",
-      "count": 4
+      "count": 5
     }
   ],
   "state_prices": [
@@ -195,6 +195,13 @@
       "price": 8.49
     },
     {
+      "store_number": "040962",
+      "name": "Taco Bell",
+      "city": "Franklin",
+      "state": "NC",
+      "price": 8.49
+    },
+    {
       "store_number": "027509",
       "name": "Taco Bell",
       "city": "Covington",
@@ -228,16 +235,19 @@
       "city": "Kennesaw",
       "state": "GA",
       "price": 7.99
-    },
-    {
-      "store_number": "019694",
-      "name": "Taco Bell",
-      "city": "Kingston",
-      "state": "TN",
-      "price": 7.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040962",
+      "store_name": "Taco Bell",
+      "city": "Franklin",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.49,
+      "observed_at": "2026-07-11T20:48:11.549741+00:00"
+    },
     {
       "store_number": "018166",
       "store_name": "Taco Bell",
@@ -2470,7 +2480,7 @@
     }
   ],
   "activity_summary": {
-    "added": 141,
+    "added": 142,
     "removed": 75,
     "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3058,6 +3068,15 @@
       "GA"
     ],
     [
+      "040962",
+      35.18370637706397,
+      -83.35587926686479,
+      8.49,
+      "Taco Bell",
+      "Franklin",
+      "NC"
+    ],
+    [
       "040967",
       35.37256754318715,
       -83.20724665070884,
@@ -3095,6 +3114,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-10",
+  "last_seen_date": "2026-07-11",
   "peak_availability_pct": 1.1
 }
