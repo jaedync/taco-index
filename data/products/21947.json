@@ -22,12 +22,12 @@
     "max": 3.0,
     "median": 3.0,
     "std_dev": 0.0,
-    "store_count": 131
+    "store_count": 130
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 131
+      "count": 130
     }
   ],
   "state_prices": [
@@ -39,7 +39,7 @@
     {
       "state": "IN",
       "avg_price": 3.0,
-      "store_count": 18
+      "store_count": 17
     },
     {
       "state": "AL",
@@ -256,7 +256,6 @@
     "034662",
     "034674",
     "019608",
-    "004100",
     "036781",
     "038801",
     "037526",
@@ -324,21 +323,31 @@
       "price": 3.0
     },
     {
-      "store_number": "004100",
-      "name": "Taco Bell",
-      "city": "Madison",
-      "state": "IN",
-      "price": 3.0
-    },
-    {
       "store_number": "019608",
       "name": "Taco Bell",
       "city": "La Grange",
       "state": "KY",
       "price": 3.0
+    },
+    {
+      "store_number": "034674",
+      "name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "price": 3.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004100",
+      "store_name": "Taco Bell",
+      "city": "Madison",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 3.0,
+      "new_price": null,
+      "observed_at": "2026-07-12T21:50:24.931433+00:00"
+    },
     {
       "store_number": "042410",
       "store_name": "Taco Bell",
@@ -1712,7 +1721,7 @@
   ],
   "activity_summary": {
     "added": 134,
-    "removed": 3,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2818,15 +2827,6 @@
       "Taco Bell",
       "La Grange",
       "KY"
-    ],
-    [
-      "004100",
-      38.77592348891178,
-      -85.38694918155676,
-      3.0,
-      "Taco Bell",
-      "Madison",
-      "IN"
     ],
     [
       "036781",

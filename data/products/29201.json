@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 2.3,
-  "recent_price_change_pct": 0.027,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 2.5,
   "price_stats": {
-    "avg": 8.74,
+    "avg": 8.73,
     "min": 7.79,
     "max": 9.49,
     "median": 8.99,
     "std_dev": 0.61,
-    "store_count": 190
+    "store_count": 192
   },
   "histogram": [
     {
       "bucket": "$7.79",
-      "count": 35
+      "count": 36
     },
     {
       "bucket": "$8.19",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$9.19",
-      "count": 23
+      "count": 24
     },
     {
       "bucket": "$9.29",
@@ -72,13 +72,13 @@
   "state_prices": [
     {
       "state": "PA",
-      "avg_price": 9.13,
-      "store_count": 7
+      "avg_price": 9.12,
+      "store_count": 8
     },
     {
       "state": "MI",
       "avg_price": 8.96,
-      "store_count": 106
+      "store_count": 107
     },
     {
       "state": "IN",
@@ -87,7 +87,7 @@
     },
     {
       "state": "OH",
-      "avg_price": 8.35,
+      "avg_price": 8.33,
       "store_count": 63
     }
   ],
@@ -203,6 +203,7 @@
     "004024",
     "040536",
     "024764",
+    "002084",
     "002982",
     "022455",
     "002187",
@@ -287,6 +288,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040005",
+      "store_name": "Taco Bell",
+      "city": "Grand Blanc",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.19,
+      "observed_at": "2026-07-12T21:47:58.092841+00:00"
+    },
+    {
+      "store_number": "002084",
+      "store_name": "Taco Bell",
+      "city": "Parma",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-07-12T21:47:51.219567+00:00"
+    },
+    {
+      "store_number": "042062",
+      "store_name": "Taco Bell",
+      "city": "Conneaut",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-07-12T21:46:26.459997+00:00"
+    },
+    {
+      "store_number": "041864",
+      "store_name": "Taco Bell",
+      "city": "Aliquippa",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-07-12T21:46:21.561850+00:00"
+    },
     {
       "store_number": "032972",
       "store_name": "Taco Bell",
@@ -22599,8 +22640,8 @@
     }
   ],
   "activity_summary": {
-    "added": 942,
-    "removed": 751,
+    "added": 945,
+    "removed": 752,
     "price_changed": 538,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -22845,6 +22886,15 @@
       7.79,
       "Taco Bell",
       "Cleveland",
+      "OH"
+    ],
+    [
+      "002084",
+      41.380222974929936,
+      -81.73560440540314,
+      7.79,
+      "Taco Bell",
+      "Parma",
       "OH"
     ],
     [
@@ -23496,13 +23546,13 @@
       "MI"
     ],
     [
-      "042062",
-      41.923254104099996,
-      -80.56952688307153,
+      "041864",
+      40.60283510187722,
+      -80.27814342446456,
       8.99,
       "Taco Bell",
-      "Conneaut",
-      "OH"
+      "Aliquippa",
+      "PA"
     ],
     [
       "034611",
@@ -23898,6 +23948,15 @@
       9.19,
       "Taco Bell",
       "Lake Orion",
+      "MI"
+    ],
+    [
+      "040005",
+      42.901168929591954,
+      -83.63108554232781,
+      9.19,
+      "Taco Bell",
+      "Grand Blanc",
       "MI"
     ],
     [
@@ -24334,6 +24393,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-11",
+  "last_seen_date": "2026-07-12",
   "peak_availability_pct": 6.6
 }

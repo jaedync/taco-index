@@ -21,19 +21,19 @@
     "max": 13.0,
     "median": 13.0,
     "std_dev": 0.0,
-    "store_count": 25
+    "store_count": 26
   },
   "histogram": [
     {
       "bucket": "$13.00",
-      "count": 25
+      "count": 26
     }
   ],
   "state_prices": [
     {
       "state": "IL",
       "avg_price": 13.0,
-      "store_count": 21
+      "store_count": 22
     }
   ],
   "nutrition": {
@@ -141,6 +141,7 @@
     "004442",
     "032108",
     "002360",
+    "032102",
     "005514",
     "032488",
     "042743",
@@ -200,6 +201,13 @@
       "price": 13.0
     },
     {
+      "store_number": "032102",
+      "name": "Taco Bell",
+      "city": "Lindenhurst",
+      "state": "IL",
+      "price": 13.0
+    },
+    {
       "store_number": "002360",
       "name": "Taco Bell",
       "city": "Glendale Heights",
@@ -212,16 +220,19 @@
       "city": "Waukegan",
       "state": "IL",
       "price": 13.0
-    },
-    {
-      "store_number": "004442",
-      "name": "Taco Bell",
-      "city": "Westchester",
-      "state": "IL",
-      "price": 13.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032102",
+      "store_name": "Taco Bell",
+      "city": "Lindenhurst",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 13.0,
+      "observed_at": "2026-07-12T21:49:17.486837+00:00"
+    },
     {
       "store_number": "032495",
       "store_name": "Taco Bell",
@@ -534,7 +545,7 @@
     }
   ],
   "activity_summary": {
-    "added": 28,
+    "added": 29,
     "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -753,6 +764,15 @@
       13.0,
       "Taco Bell",
       "Glendale Heights",
+      "IL"
+    ],
+    [
+      "032102",
+      42.40826086317455,
+      -88.03142331546042,
+      13.0,
+      "Taco Bell",
+      "Lindenhurst",
       "IL"
     ],
     [

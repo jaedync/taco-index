@@ -20,7 +20,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 241
+    "store_count": 243
   },
   "histogram": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 21
+      "count": 20
     },
     {
       "bucket": "$0.85",
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 68
+      "count": 70
     },
     {
       "bucket": "$0.95",
@@ -73,7 +73,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 69
+      "count": 70
     },
     {
       "bucket": "$1.10",
@@ -129,7 +129,7 @@
     {
       "state": "IN",
       "avg_price": 0.98,
-      "store_count": 26
+      "store_count": 27
     },
     {
       "state": "OH",
@@ -158,6 +158,11 @@
     },
     {
       "state": "SC",
+      "avg_price": 0.88,
+      "store_count": 5
+    },
+    {
+      "state": "NE",
       "avg_price": 0.88,
       "store_count": 5
     },
@@ -329,6 +334,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022603",
+      "store_name": "Taco Bell",
+      "city": "Lynnwood",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 0.8,
+      "new_price": null,
+      "observed_at": "2026-07-12T21:50:10.008422+00:00"
+    },
+    {
+      "store_number": "020394",
+      "store_name": "Taco Bell",
+      "city": "Lincoln",
+      "state": "NE",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-07-12T21:48:07.749162+00:00"
+    },
+    {
+      "store_number": "002124",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-07-12T21:48:03.979071+00:00"
+    },
+    {
+      "store_number": "034351",
+      "store_name": "Taco Bell",
+      "city": "Kuna",
+      "state": "ID",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-07-12T21:46:18.533917+00:00"
+    },
     {
       "store_number": "028923",
       "store_name": "Taco Bell",
@@ -5811,8 +5856,8 @@
     }
   ],
   "activity_summary": {
-    "added": 300,
-    "removed": 248,
+    "added": 303,
+    "removed": 249,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6056,15 +6101,6 @@
       "OH"
     ],
     [
-      "022603",
-      47.863294804877654,
-      -122.28221123345702,
-      0.8,
-      "Taco Bell",
-      "Lynnwood",
-      "WA"
-    ],
-    [
       "003335",
       39.95448915785347,
       -82.82650233061759,
@@ -6234,6 +6270,15 @@
       "Taco Bell",
       "Grand Rapids",
       "MI"
+    ],
+    [
+      "020394",
+      40.74263768049874,
+      -96.68183410732884,
+      0.9,
+      "Taco Bell",
+      "Lincoln",
+      "NE"
     ],
     [
       "023229",
@@ -6702,6 +6747,15 @@
       "Taco Bell",
       "Indianapolis",
       "IN"
+    ],
+    [
+      "034351",
+      43.497828931010595,
+      -116.39446353863995,
+      0.9,
+      "Taco Bell",
+      "Kuna",
+      "ID"
     ],
     [
       "041086",
@@ -7631,6 +7685,15 @@
       "AL"
     ],
     [
+      "002124",
+      39.7788468180602,
+      -86.28846361303658,
+      1.0,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -7992,6 +8055,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-07-11",
+  "last_seen_date": "2026-07-12",
   "peak_availability_pct": 2.9
 }
