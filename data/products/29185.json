@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-21T21:03:53.279722+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
     "avg": 9.0,
     "min": 9.0,
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 4
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 4
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -45,13 +45,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "033161",
-      "name": "Taco Bell",
-      "city": "Ogden",
-      "state": "UT",
-      "price": 9.0
-    },
     {
       "store_number": "033154",
       "name": "Taco Bell",
@@ -75,7 +68,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "033161",
     "033154",
     "033177",
     "033175"
@@ -101,16 +93,19 @@
       "city": "Salt Lake City",
       "state": "UT",
       "price": 9.0
-    },
-    {
-      "store_number": "033161",
-      "name": "Taco Bell",
-      "city": "Ogden",
-      "state": "UT",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033161",
+      "store_name": "Taco Bell",
+      "city": "Ogden",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:07:23.205443+00:00"
+    },
     {
       "store_number": "033154",
       "store_name": "Taco Bell",
@@ -914,7 +909,7 @@
   ],
   "activity_summary": {
     "added": 42,
-    "removed": 38,
+    "removed": 39,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -949,15 +944,6 @@
   ],
   "map_data": [
     [
-      "033161",
-      41.184418020988225,
-      -111.9487016648327,
-      9.0,
-      "Taco Bell",
-      "Ogden",
-      "UT"
-    ],
-    [
       "033154",
       40.62400716412134,
       -111.83524762095658,
@@ -986,6 +972,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-12",
+  "last_seen_date": "2026-07-13",
   "peak_availability_pct": 0.2
 }

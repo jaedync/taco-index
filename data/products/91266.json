@@ -21,12 +21,12 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.2,
-    "store_count": 162
+    "store_count": 160
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 18
+      "count": 16
     },
     {
       "bucket": "$3.09",
@@ -64,8 +64,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 3.35,
-      "store_count": 71
+      "avg_price": 3.36,
+      "store_count": 68
     },
     {
       "state": "TN",
@@ -75,7 +75,7 @@
     {
       "state": "AL",
       "avg_price": 3.21,
-      "store_count": 61
+      "store_count": 62
     },
     {
       "state": "FL",
@@ -96,13 +96,6 @@
       "store_number": "042583",
       "name": "Taco Bell",
       "city": "Clarkesville",
-      "state": "GA",
-      "price": 2.99
-    },
-    {
-      "store_number": "033481",
-      "name": "Taco Bell",
-      "city": "Villa Rica",
       "state": "GA",
       "price": 2.99
     },
@@ -154,12 +147,18 @@
       "city": "Smyrna",
       "state": "GA",
       "price": 2.99
+    },
+    {
+      "store_number": "041799",
+      "name": "Taco Bell",
+      "city": "Doraville",
+      "state": "GA",
+      "price": 2.99
     }
   ],
   "min_price_store_numbers": [
     "042582",
     "042583",
-    "033481",
     "037050",
     "032542",
     "037038",
@@ -173,7 +172,6 @@
     "041837",
     "042126",
     "005482",
-    "042579",
     "003404"
   ],
   "priciest_stores": [
@@ -249,6 +247,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042579",
+      "store_name": "Taco Bell",
+      "city": "Braselton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:08:33.651225+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:07:47.813304+00:00"
+    },
+    {
+      "store_number": "033481",
+      "store_name": "Taco Bell",
+      "city": "Villa Rica",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:05:28.038383+00:00"
+    },
+    {
+      "store_number": "041491",
+      "store_name": "Taco Bell",
+      "city": "Calera",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-07-13T21:04:56.149380+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -15531,14 +15569,14 @@
     }
   ],
   "activity_summary": {
-    "added": 685,
-    "removed": 523,
+    "added": 686,
+    "removed": 526,
     "price_changed": 320,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 260,
-  "calories_min": 260,
-  "calories_max": 260,
+  "calories_min": 210,
+  "calories_max": 210,
   "combo_groups": [
     {
       "group_id": "673",
@@ -15570,15 +15608,6 @@
       2.99,
       "Taco Bell",
       "Clarkesville",
-      "GA"
-    ],
-    [
-      "033481",
-      33.73376376352933,
-      -84.90097259926127,
-      2.99,
-      "Taco Bell",
-      "Villa Rica",
       "GA"
     ],
     [
@@ -15699,15 +15728,6 @@
       "GA"
     ],
     [
-      "042579",
-      34.12164984277345,
-      -83.764132739823,
-      2.99,
-      "Taco Bell",
-      "Braselton",
-      "GA"
-    ],
-    [
       "003404",
       33.96928449342534,
       -84.48970459062367,
@@ -15759,6 +15779,15 @@
       3.19,
       "Taco Bell",
       "Dothan",
+      "AL"
+    ],
+    [
+      "041491",
+      33.14910162393743,
+      -86.7490076451195,
+      3.19,
+      "Taco Bell",
+      "Calera",
       "AL"
     ],
     [
@@ -16327,15 +16356,6 @@
       "Taco Bell",
       "Montgomery",
       "AL"
-    ],
-    [
-      "002995",
-      33.88866329031674,
-      -84.47492127122132,
-      3.19,
-      "Taco Bell",
-      "Smyrna",
-      "GA"
     ],
     [
       "029970",
@@ -17014,6 +17034,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-12",
+  "last_seen_date": "2026-07-13",
   "peak_availability_pct": 5.9
 }

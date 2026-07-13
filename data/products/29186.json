@@ -21,19 +21,19 @@
     "max": 6.99,
     "median": 6.99,
     "std_dev": 0.0,
-    "store_count": 36
+    "store_count": 35
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 36
+      "count": 35
     }
   ],
   "state_prices": [
     {
       "state": "UT",
       "avg_price": 6.99,
-      "store_count": 34
+      "store_count": 33
     }
   ],
   "nutrition": {
@@ -134,7 +134,9 @@
     "030829",
     "031548",
     "027887",
+    "033160",
     "033169",
+    "033156",
     "030426",
     "004062",
     "025398",
@@ -147,8 +149,6 @@
     "030725",
     "033178",
     "033170",
-    "003988",
-    "033157",
     "025389",
     "025390",
     "025394",
@@ -156,7 +156,6 @@
     "030457",
     "033179",
     "030830",
-    "033174",
     "032472",
     "032388"
   ],
@@ -172,13 +171,6 @@
       "store_number": "032472",
       "name": "Taco Bell",
       "city": "Lehi",
-      "state": "UT",
-      "price": 6.99
-    },
-    {
-      "store_number": "033174",
-      "name": "Taco Bell",
-      "city": "Sandy",
       "state": "UT",
       "price": 6.99
     },
@@ -230,9 +222,66 @@
       "city": "Draper",
       "state": "UT",
       "price": 6.99
+    },
+    {
+      "store_number": "033170",
+      "name": "Taco Bell",
+      "city": "West Jordan",
+      "state": "UT",
+      "price": 6.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033174",
+      "store_name": "Taco Bell",
+      "city": "Sandy",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:11:13.946171+00:00"
+    },
+    {
+      "store_number": "033157",
+      "store_name": "Taco Bell",
+      "city": "Logan",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:08:12.114038+00:00"
+    },
+    {
+      "store_number": "003988",
+      "store_name": "Taco Bell",
+      "city": "West Jordan",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:08:08.392118+00:00"
+    },
+    {
+      "store_number": "033156",
+      "store_name": "Taco Bell",
+      "city": "Roy",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-07-13T21:07:09.703637+00:00"
+    },
+    {
+      "store_number": "033160",
+      "store_name": "Taco Bell",
+      "city": "Clearfield",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-07-13T21:07:03.871776+00:00"
+    },
     {
       "store_number": "033155",
       "store_name": "Taco Bell",
@@ -735,8 +784,8 @@
     }
   ],
   "activity_summary": {
-    "added": 43,
-    "removed": 7,
+    "added": 45,
+    "removed": 10,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -845,12 +894,30 @@
       "UT"
     ],
     [
+      "033160",
+      41.12274815245364,
+      -112.02555437387673,
+      6.99,
+      "Taco Bell",
+      "Clearfield",
+      "UT"
+    ],
+    [
       "033169",
       40.76097776098179,
       -111.87306777577128,
       6.99,
       "Taco Bell",
       "Salt Lake City",
+      "UT"
+    ],
+    [
+      "033156",
+      41.16073868533017,
+      -112.02648662186803,
+      6.99,
+      "Taco Bell",
+      "Roy",
       "UT"
     ],
     [
@@ -962,24 +1029,6 @@
       "UT"
     ],
     [
-      "003988",
-      40.58735559508269,
-      -111.93753703504626,
-      6.99,
-      "Taco Bell",
-      "West Jordan",
-      "UT"
-    ],
-    [
-      "033157",
-      41.76001434504368,
-      -111.8338370874817,
-      6.99,
-      "Taco Bell",
-      "Logan",
-      "UT"
-    ],
-    [
       "025389",
       40.5286378891216,
       -111.85510636122672,
@@ -1041,15 +1090,6 @@
       "Taco Bell",
       "Rock Springs",
       "WY"
-    ],
-    [
-      "033174",
-      40.55808521663122,
-      -111.89041529597489,
-      6.99,
-      "Taco Bell",
-      "Sandy",
-      "UT"
     ],
     [
       "032472",

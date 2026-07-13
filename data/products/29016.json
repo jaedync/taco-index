@@ -16,24 +16,20 @@
   "first_seen_at": "2026-03-30T00:42:17.482555+00:00",
   "availability_pct": 1.6,
   "price_stats": {
-    "avg": 6.03,
+    "avg": 6.02,
     "min": 5.99,
     "max": 8.19,
     "median": 5.99,
     "std_dev": 0.23,
-    "store_count": 121
+    "store_count": 123
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 116
+      "count": 119
     },
     {
       "bucket": "$6.19",
-      "count": 1
-    },
-    {
-      "bucket": "$6.49",
       "count": 1
     },
     {
@@ -53,7 +49,7 @@
     {
       "state": "FL",
       "avg_price": 6.02,
-      "store_count": 99
+      "store_count": 101
     },
     {
       "state": "UT",
@@ -98,6 +94,13 @@
       "price": 5.99
     },
     {
+      "store_number": "034859",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
       "store_number": "041844",
       "name": "Taco Bell",
       "city": "Winter Springs",
@@ -138,19 +141,13 @@
       "city": "Longwood",
       "state": "FL",
       "price": 5.99
-    },
-    {
-      "store_number": "035177",
-      "name": "Taco Bell",
-      "city": "Palm Bay",
-      "state": "FL",
-      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "039700",
     "040730",
     "040450",
+    "034859",
     "041844",
     "039586",
     "042753",
@@ -212,6 +209,7 @@
     "023298",
     "042914",
     "022587",
+    "022594",
     "042924",
     "023289",
     "027969",
@@ -263,7 +261,8 @@
     "032051",
     "033175",
     "033163",
-    "032354"
+    "032354",
+    "039832"
   ],
   "priciest_stores": [
     {
@@ -288,18 +287,18 @@
       "price": 6.69
     },
     {
-      "store_number": "041745",
-      "name": "Taco Bell",
-      "city": "Walled Lake",
-      "state": "MI",
-      "price": 6.49
-    },
-    {
       "store_number": "021309",
       "name": "Taco Bell",
       "city": "Norfolk",
       "state": "VA",
       "price": 6.19
+    },
+    {
+      "store_number": "039832",
+      "name": "Taco Bell",
+      "city": "Fontana",
+      "state": "CA",
+      "price": 5.99
     },
     {
       "store_number": "032354",
@@ -338,6 +337,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039832",
+      "store_name": "Taco Bell",
+      "city": "Fontana",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-07-13T21:08:11.640232+00:00"
+    },
+    {
+      "store_number": "022594",
+      "store_name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-07-13T21:07:56.943848+00:00"
+    },
+    {
+      "store_number": "041745",
+      "store_name": "Taco Bell",
+      "city": "Walled Lake",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:05:05.421890+00:00"
+    },
+    {
+      "store_number": "034859",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-07-13T21:04:58.190067+00:00"
+    },
     {
       "store_number": "034859",
       "store_name": "Taco Bell Cantina Cantina",
@@ -2450,8 +2489,8 @@
     }
   ],
   "activity_summary": {
-    "added": 144,
-    "removed": 26,
+    "added": 147,
+    "removed": 27,
     "price_changed": 41,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2485,6 +2524,15 @@
       5.99,
       "Taco Bell",
       "Deltona",
+      "FL"
+    ],
+    [
+      "034859",
+      28.59831098412045,
+      -81.20885426661394,
+      5.99,
+      "Taco Bell Cantina Cantina",
+      "Orlando",
       "FL"
     ],
     [
@@ -3037,6 +3085,15 @@
       "FL"
     ],
     [
+      "022594",
+      29.188448184353764,
+      -81.07624427230803,
+      5.99,
+      "Taco Bell",
+      "Daytona Beach",
+      "FL"
+    ],
+    [
       "042924",
       29.186555502770133,
       -82.10967413442167,
@@ -3505,6 +3562,15 @@
       "FL"
     ],
     [
+      "039832",
+      34.14891295006897,
+      -117.47444555910079,
+      5.99,
+      "Taco Bell",
+      "Fontana",
+      "CA"
+    ],
+    [
       "021309",
       36.86049756823483,
       -76.21043890714645,
@@ -3512,15 +3578,6 @@
       "Taco Bell",
       "Norfolk",
       "VA"
-    ],
-    [
-      "041745",
-      42.538476867889386,
-      -83.48039326911228,
-      6.49,
-      "Taco Bell",
-      "Walled Lake",
-      "MI"
     ],
     [
       "029401",

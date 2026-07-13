@@ -21,7 +21,7 @@
     "max": 8.19,
     "median": 6.19,
     "std_dev": 0.68,
-    "store_count": 160
+    "store_count": 159
   },
   "histogram": [
     {
@@ -31,10 +31,6 @@
     {
       "bucket": "$5.49",
       "count": 8
-    },
-    {
-      "bucket": "$5.69",
-      "count": 1
     },
     {
       "bucket": "$5.79",
@@ -54,7 +50,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 53
+      "count": 54
     },
     {
       "bucket": "$6.29",
@@ -66,7 +62,7 @@
     },
     {
       "bucket": "$6.49",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$6.59",
@@ -100,8 +96,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.62,
-      "store_count": 67
+      "avg_price": 6.64,
+      "store_count": 65
     },
     {
       "state": "TN",
@@ -110,8 +106,8 @@
     },
     {
       "state": "AL",
-      "avg_price": 6.21,
-      "store_count": 60
+      "avg_price": 6.2,
+      "store_count": 61
     },
     {
       "state": "FL",
@@ -273,6 +269,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:07:47.813304+00:00"
+    },
+    {
+      "store_number": "033481",
+      "store_name": "Taco Bell",
+      "city": "Villa Rica",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.69,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:05:28.038383+00:00"
+    },
+    {
+      "store_number": "041491",
+      "store_name": "Taco Bell",
+      "city": "Calera",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-07-13T21:04:56.149380+00:00"
+    },
     {
       "store_number": "036371",
       "store_name": "Taco Bell",
@@ -14155,14 +14181,14 @@
     }
   ],
   "activity_summary": {
-    "added": 685,
-    "removed": 525,
+    "added": 686,
+    "removed": 527,
     "price_changed": 178,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 570,
-  "calories_min": 570,
-  "calories_max": 570,
+  "calories_min": 530,
+  "calories_max": 530,
   "combo_groups": [
     {
       "group_id": "657",
@@ -14302,15 +14328,6 @@
       5.49,
       "Taco Bell",
       "Thomasville",
-      "GA"
-    ],
-    [
-      "033481",
-      33.73376376352933,
-      -84.90097259926127,
-      5.69,
-      "Taco Bell",
-      "Villa Rica",
       "GA"
     ],
     [
@@ -14581,6 +14598,15 @@
       6.19,
       "Taco Bell",
       "Dothan",
+      "AL"
+    ],
+    [
+      "041491",
+      33.14910162393743,
+      -86.7490076451195,
+      6.19,
+      "Taco Bell",
+      "Calera",
       "AL"
     ],
     [
@@ -15259,15 +15285,6 @@
       "GA"
     ],
     [
-      "002995",
-      33.88866329031674,
-      -84.47492127122132,
-      6.49,
-      "Taco Bell",
-      "Smyrna",
-      "GA"
-    ],
-    [
       "026676",
       34.27174398822544,
       -85.22953189920372,
@@ -15620,6 +15637,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-12",
+  "last_seen_date": "2026-07-13",
   "peak_availability_pct": 5.9
 }

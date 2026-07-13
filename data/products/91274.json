@@ -21,12 +21,12 @@
     "max": 12.29,
     "median": 11.19,
     "std_dev": 0.37,
-    "store_count": 156
+    "store_count": 155
   },
   "histogram": [
     {
       "bucket": "$10.49",
-      "count": 17
+      "count": 16
     },
     {
       "bucket": "$10.69",
@@ -46,11 +46,11 @@
     },
     {
       "bucket": "$11.19",
-      "count": 35
+      "count": 36
     },
     {
       "bucket": "$11.29",
-      "count": 18
+      "count": 17
     },
     {
       "bucket": "$11.69",
@@ -77,7 +77,7 @@
     {
       "state": "AL",
       "avg_price": 11.33,
-      "store_count": 59
+      "store_count": 60
     },
     {
       "state": "TN",
@@ -87,7 +87,7 @@
     {
       "state": "GA",
       "avg_price": 11.0,
-      "store_count": 66
+      "store_count": 64
     },
     {
       "state": "FL",
@@ -97,13 +97,6 @@
   ],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "033481",
-      "name": "Taco Bell",
-      "city": "Villa Rica",
-      "state": "GA",
-      "price": 10.49
-    },
     {
       "store_number": "041226",
       "name": "Taco Bell",
@@ -166,10 +159,16 @@
       "city": "Decatur",
       "state": "GA",
       "price": 10.49
+    },
+    {
+      "store_number": "041223",
+      "name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "price": 10.49
     }
   ],
   "min_price_store_numbers": [
-    "033481",
     "041226",
     "037332",
     "003824",
@@ -260,6 +259,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.29,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:07:47.813304+00:00"
+    },
+    {
+      "store_number": "033481",
+      "store_name": "Taco Bell",
+      "city": "Villa Rica",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.49,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:05:28.038383+00:00"
+    },
+    {
+      "store_number": "041491",
+      "store_name": "Taco Bell",
+      "city": "Calera",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.19,
+      "observed_at": "2026-07-13T21:04:56.149380+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -15472,8 +15501,8 @@
     }
   ],
   "activity_summary": {
-    "added": 685,
-    "removed": 529,
+    "added": 686,
+    "removed": 531,
     "price_changed": 307,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15513,15 +15542,6 @@
     }
   ],
   "map_data": [
-    [
-      "033481",
-      33.73376376352933,
-      -84.90097259926127,
-      10.49,
-      "Taco Bell",
-      "Villa Rica",
-      "GA"
-    ],
     [
       "041226",
       33.63425717999579,
@@ -16216,6 +16236,15 @@
       "AL"
     ],
     [
+      "041491",
+      33.14910162393743,
+      -86.7490076451195,
+      11.19,
+      "Taco Bell",
+      "Calera",
+      "AL"
+    ],
+    [
       "035465",
       34.070653525367355,
       -86.77579694396583,
@@ -16612,15 +16641,6 @@
       "GA"
     ],
     [
-      "002995",
-      33.88866329031674,
-      -84.47492127122132,
-      11.29,
-      "Taco Bell",
-      "Smyrna",
-      "GA"
-    ],
-    [
       "029082",
       32.638646788741525,
       -85.41154660287248,
@@ -16919,6 +16939,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-12",
+  "last_seen_date": "2026-07-13",
   "peak_availability_pct": 5.9
 }

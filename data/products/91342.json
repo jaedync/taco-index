@@ -17,17 +17,17 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 1.8,
   "price_stats": {
-    "avg": 6.69,
+    "avg": 6.7,
     "min": 6.49,
     "max": 6.99,
     "median": 6.69,
     "std_dev": 0.2,
-    "store_count": 140
+    "store_count": 137
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 55
+      "count": 52
     },
     {
       "bucket": "$6.69",
@@ -40,14 +40,14 @@
   ],
   "state_prices": [
     {
+      "state": "GA",
+      "avg_price": 6.79,
+      "store_count": 55
+    },
+    {
       "state": "FL",
       "avg_price": 6.78,
       "store_count": 14
-    },
-    {
-      "state": "GA",
-      "avg_price": 6.78,
-      "store_count": 57
     },
     {
       "state": "AL",
@@ -56,8 +56,8 @@
     },
     {
       "state": "TN",
-      "avg_price": 6.55,
-      "store_count": 11
+      "avg_price": 6.56,
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -87,13 +87,6 @@
       "name": "Taco Bell",
       "city": "Hanceville",
       "state": "AL",
-      "price": 6.49
-    },
-    {
-      "store_number": "033481",
-      "name": "Taco Bell",
-      "city": "Villa Rica",
-      "state": "GA",
       "price": 6.49
     },
     {
@@ -144,12 +137,18 @@
       "city": "Fultondale",
       "state": "AL",
       "price": 6.49
+    },
+    {
+      "store_number": "029115",
+      "name": "Taco Bell",
+      "city": "Northport",
+      "state": "AL",
+      "price": 6.49
     }
   ],
   "min_price_store_numbers": [
     "035455",
     "035465",
-    "033481",
     "035461",
     "026342",
     "032542",
@@ -176,14 +175,12 @@
     "030463",
     "026073",
     "004740",
-    "016498",
     "018166",
     "036369",
     "026837",
     "029095",
     "031633",
     "029071",
-    "002995",
     "003874",
     "029970",
     "029082",
@@ -276,6 +273,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:07:47.813304+00:00"
+    },
+    {
+      "store_number": "016498",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:07:18.205350+00:00"
+    },
+    {
+      "store_number": "033481",
+      "store_name": "Taco Bell",
+      "city": "Villa Rica",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-07-13T21:05:28.038383+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -12339,7 +12366,7 @@
   ],
   "activity_summary": {
     "added": 670,
-    "removed": 530,
+    "removed": 533,
     "price_changed": 6,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12384,15 +12411,6 @@
       "Taco Bell",
       "Hanceville",
       "AL"
-    ],
-    [
-      "033481",
-      33.73376376352933,
-      -84.90097259926127,
-      6.49,
-      "Taco Bell",
-      "Villa Rica",
-      "GA"
     ],
     [
       "035461",
@@ -12629,15 +12647,6 @@
       "GA"
     ],
     [
-      "016498",
-      36.02763070798266,
-      -83.92744351247065,
-      6.49,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
-    ],
-    [
       "018166",
       33.89149409475321,
       -84.75320756435389,
@@ -12690,15 +12699,6 @@
       "Taco Bell",
       "Auburn",
       "AL"
-    ],
-    [
-      "002995",
-      33.88866329031674,
-      -84.47492127122132,
-      6.49,
-      "Taco Bell",
-      "Smyrna",
-      "GA"
     ],
     [
       "003874",
@@ -13629,6 +13629,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-12",
+  "last_seen_date": "2026-07-13",
   "peak_availability_pct": 6.0
 }

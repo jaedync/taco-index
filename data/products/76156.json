@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 3.52,
+    "avg": 3.53,
     "min": 3.19,
     "max": 3.79,
     "median": 3.59,
     "std_dev": 0.22,
-    "store_count": 25
+    "store_count": 26
   },
   "histogram": [
     {
@@ -50,14 +50,14 @@
     },
     {
       "bucket": "$3.79",
-      "count": 7
+      "count": 8
     }
   ],
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 3.74,
-      "store_count": 6
+      "avg_price": 3.75,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -167,6 +167,13 @@
       "price": 3.79
     },
     {
+      "store_number": "029483",
+      "name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "price": 3.79
+    },
+    {
       "store_number": "029411",
       "name": "Taco Bell",
       "city": "Benson",
@@ -214,16 +221,19 @@
       "city": "Moriarty",
       "state": "NM",
       "price": 3.59
-    },
-    {
-      "store_number": "031389",
-      "name": "Taco Bell / KFC",
-      "city": "Locust Grove",
-      "state": "GA",
-      "price": 3.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029483",
+      "store_name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.79,
+      "observed_at": "2026-07-13T21:08:28.779514+00:00"
+    },
     {
       "store_number": "029406",
       "store_name": "Taco Bell",
@@ -856,7 +866,7 @@
     }
   ],
   "activity_summary": {
-    "added": 44,
+    "added": 45,
     "removed": 18,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1087,6 +1097,15 @@
       "NC"
     ],
     [
+      "029483",
+      35.80337775917284,
+      -78.78350347280502,
+      3.79,
+      "Taco Bell",
+      "Cary",
+      "NC"
+    ],
+    [
       "029482",
       35.7458677872077,
       -79.16668369436593,
@@ -1106,6 +1125,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-12",
+  "last_seen_date": "2026-07-13",
   "peak_availability_pct": 0.3
 }
