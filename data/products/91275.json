@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 10.41,
+    "avg": 10.4,
     "min": 9.49,
     "max": 10.99,
     "median": 10.29,
-    "std_dev": 0.4,
-    "store_count": 20
+    "std_dev": 0.39,
+    "store_count": 22
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$10.19",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$10.59",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$10.69",
@@ -64,8 +64,13 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.41,
-      "store_count": 8
+      "avg_price": 10.37,
+      "store_count": 9
+    },
+    {
+      "state": "FL",
+      "avg_price": 10.25,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -89,6 +94,13 @@
       "city": "Port St Joe",
       "state": "FL",
       "price": 9.49
+    },
+    {
+      "store_number": "042903",
+      "name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "price": 9.99
     },
     {
       "store_number": "042829",
@@ -145,13 +157,6 @@
       "city": "Montgomery",
       "state": "AL",
       "price": 10.29
-    },
-    {
-      "store_number": "029145",
-      "name": "Taco Bell",
-      "city": "Cullman",
-      "state": "AL",
-      "price": 10.29
     }
   ],
   "min_price_store_numbers": [
@@ -201,6 +206,13 @@
       "price": 10.69
     },
     {
+      "store_number": "042127",
+      "name": "Taco Bell",
+      "city": "Fort Walton Beach",
+      "state": "FL",
+      "price": 10.59
+    },
+    {
       "store_number": "042126",
       "name": "Taco Bell",
       "city": "Defuniak Springs",
@@ -220,16 +232,29 @@
       "city": "Decatur",
       "state": "GA",
       "price": 10.49
-    },
-    {
-      "store_number": "042577",
-      "name": "Taco Bell",
-      "city": "Dallas",
-      "state": "GA",
-      "price": 10.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042127",
+      "store_name": "Taco Bell",
+      "city": "Fort Walton Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.59,
+      "observed_at": "2026-07-14T21:19:22.061434+00:00"
+    },
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-07-14T21:19:21.818876+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -1412,7 +1437,7 @@
     }
   ],
   "activity_summary": {
-    "added": 69,
+    "added": 71,
     "removed": 49,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1461,6 +1486,15 @@
       "Taco Bell",
       "Port St Joe",
       "FL"
+    ],
+    [
+      "042903",
+      31.783928,
+      -82.363196,
+      9.99,
+      "Taco Bell",
+      "Baxley",
+      "GA"
     ],
     [
       "042829",
@@ -1580,6 +1614,15 @@
       "FL"
     ],
     [
+      "042127",
+      30.452715860396843,
+      -86.63803450768683,
+      10.59,
+      "Taco Bell",
+      "Fort Walton Beach",
+      "FL"
+    ],
+    [
       "031389",
       33.352032936024656,
       -84.120770439522,
@@ -1635,6 +1678,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-13",
+  "last_seen_date": "2026-07-14",
   "peak_availability_pct": 0.3
 }

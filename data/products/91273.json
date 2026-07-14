@@ -21,7 +21,7 @@
     "max": 11.99,
     "median": 9.69,
     "std_dev": 0.42,
-    "store_count": 161
+    "store_count": 162
   },
   "histogram": [
     {
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$10.39",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$10.69",
@@ -88,8 +88,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.89,
-      "store_count": 72
+      "avg_price": 9.9,
+      "store_count": 73
     },
     {
       "state": "AL",
@@ -235,6 +235,13 @@
       "price": 10.39
     },
     {
+      "store_number": "042903",
+      "name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "price": 10.39
+    },
+    {
       "store_number": "041245",
       "name": "Taco Bell",
       "city": "Austell",
@@ -254,16 +261,39 @@
       "city": "Cumming",
       "state": "GA",
       "price": 10.29
-    },
-    {
-      "store_number": "041239",
-      "name": "Taco Bell",
-      "city": "Marietta",
-      "state": "GA",
-      "price": 10.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026837",
+      "store_name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.69,
+      "new_price": null,
+      "observed_at": "2026-07-14T21:20:41.243451+00:00"
+    },
+    {
+      "store_number": "016498",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.69,
+      "observed_at": "2026-07-14T21:20:14.494777+00:00"
+    },
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.39,
+      "observed_at": "2026-07-14T21:19:21.818876+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -16356,8 +16386,8 @@
     }
   ],
   "activity_summary": {
-    "added": 711,
-    "removed": 550,
+    "added": 713,
+    "removed": 551,
     "price_changed": 348,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17097,6 +17127,15 @@
       "AL"
     ],
     [
+      "016498",
+      36.02763070798266,
+      -83.92744351247065,
+      9.69,
+      "Taco Bell",
+      "Knoxville",
+      "TN"
+    ],
+    [
       "036483",
       32.462079349360415,
       -86.45031628897414,
@@ -17212,15 +17251,6 @@
       "Taco Bell",
       "Cartersville",
       "GA"
-    ],
-    [
-      "026837",
-      35.76009726491193,
-      -83.97547312083594,
-      9.69,
-      "Taco Bell",
-      "Alcoa",
-      "TN"
     ],
     [
       "041739",
@@ -17799,6 +17829,15 @@
       "GA"
     ],
     [
+      "042903",
+      31.783928,
+      -82.363196,
+      10.39,
+      "Taco Bell",
+      "Baxley",
+      "GA"
+    ],
+    [
       "039921",
       32.112410602164445,
       -81.23548958895492,
@@ -17854,6 +17893,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-13",
+  "last_seen_date": "2026-07-14",
   "peak_availability_pct": 5.9
 }

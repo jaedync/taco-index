@@ -20,21 +20,21 @@
     "min": 5.49,
     "max": 6.69,
     "median": 5.49,
-    "std_dev": 0.22,
-    "store_count": 467
+    "std_dev": 0.23,
+    "store_count": 468
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 364
+      "count": 363
     },
     {
       "bucket": "$5.99",
-      "count": 99
+      "count": 100
     },
     {
       "bucket": "$6.19",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$6.69",
@@ -49,18 +49,23 @@
     },
     {
       "state": "GA",
-      "avg_price": 5.63,
+      "avg_price": 5.64,
       "store_count": 230
+    },
+    {
+      "state": "SC",
+      "avg_price": 5.63,
+      "store_count": 5
     },
     {
       "state": "TN",
       "avg_price": 5.55,
-      "store_count": 84
+      "store_count": 83
     },
     {
       "state": "AL",
       "avg_price": 5.54,
-      "store_count": 115
+      "store_count": 116
     }
   ],
   "nutrition": {
@@ -192,7 +197,6 @@
     "042581",
     "035070",
     "030177",
-    "036404",
     "036403",
     "036409",
     "036415",
@@ -234,6 +238,7 @@
     "036290",
     "032542",
     "036497",
+    "037191",
     "037008",
     "037127",
     "037047",
@@ -339,11 +344,9 @@
     "029097",
     "039945",
     "029057",
-    "029105",
     "029291",
     "041838",
     "004370",
-    "041211",
     "029026",
     "002994",
     "029068",
@@ -428,6 +431,7 @@
     "029084",
     "041220",
     "029070",
+    "042576",
     "041216",
     "003652",
     "023238",
@@ -545,6 +549,13 @@
       "price": 6.19
     },
     {
+      "store_number": "039922",
+      "name": "Taco Bell",
+      "city": "Bluffton",
+      "state": "SC",
+      "price": 6.19
+    },
+    {
       "store_number": "039925",
       "name": "Taco Bell",
       "city": "Claxton",
@@ -578,16 +589,99 @@
       "city": "Alpharetta",
       "state": "GA",
       "price": 5.99
-    },
-    {
-      "store_number": "041252",
-      "name": "Taco Bell",
-      "city": "Alpharetta",
-      "state": "GA",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039922",
+      "store_name": "Taco Bell",
+      "city": "Bluffton",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-07-14T21:21:33.197487+00:00"
+    },
+    {
+      "store_number": "027599",
+      "store_name": "Taco Bell",
+      "city": "Madison",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-07-14T21:21:06.200835+00:00"
+    },
+    {
+      "store_number": "042576",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-07-14T21:20:50.089499+00:00"
+    },
+    {
+      "store_number": "027858",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-07-14T21:20:47.297333+00:00"
+    },
+    {
+      "store_number": "041211",
+      "store_name": "Taco Bell",
+      "city": "Riverdale",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-07-14T21:19:54.568962+00:00"
+    },
+    {
+      "store_number": "029105",
+      "store_name": "Taco Bell",
+      "city": "Americus",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-07-14T21:19:50.609091+00:00"
+    },
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-07-14T21:19:21.818876+00:00"
+    },
+    {
+      "store_number": "037191",
+      "store_name": "Taco Bell",
+      "city": "Sumiton",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-07-14T21:18:33.116253+00:00"
+    },
+    {
+      "store_number": "036404",
+      "store_name": "Taco Bell",
+      "city": "Seymour",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-07-14T21:17:28.252327+00:00"
+    },
     {
       "store_number": "039922",
       "store_name": "Taco Bell",
@@ -16560,8 +16654,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1031,
-    "removed": 563,
+    "added": 1036,
+    "removed": 567,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16949,15 +17043,6 @@
       "AL"
     ],
     [
-      "036404",
-      35.8693721126172,
-      -83.75398028038393,
-      5.49,
-      "Taco Bell",
-      "Seymour",
-      "TN"
-    ],
-    [
       "036403",
       33.594254422820626,
       -86.283264543764,
@@ -17325,6 +17410,15 @@
       "Taco Bell",
       "Knoxville",
       "TN"
+    ],
+    [
+      "037191",
+      33.74337865146394,
+      -87.04113685105219,
+      5.49,
+      "Taco Bell",
+      "Sumiton",
+      "AL"
     ],
     [
       "037008",
@@ -18272,15 +18366,6 @@
       "TN"
     ],
     [
-      "029105",
-      32.0730196921722,
-      -84.22198068627826,
-      5.49,
-      "Taco Bell",
-      "Americus",
-      "GA"
-    ],
-    [
       "029291",
       32.55325361777326,
       -83.69175633305075,
@@ -18306,15 +18391,6 @@
       "Taco Bell",
       "Panama City Beach",
       "FL"
-    ],
-    [
-      "041211",
-      33.567360192982974,
-      -84.4135187218403,
-      5.49,
-      "Taco Bell",
-      "Riverdale",
-      "GA"
     ],
     [
       "029026",
@@ -19070,6 +19146,15 @@
       5.49,
       "Taco Bell",
       "Columbus",
+      "GA"
+    ],
+    [
+      "042576",
+      34.10871458788698,
+      -83.87817268075196,
+      5.49,
+      "Taco Bell",
+      "Buford",
       "GA"
     ],
     [
@@ -20018,15 +20103,6 @@
       "FL"
     ],
     [
-      "042903",
-      31.783928,
-      -82.363196,
-      5.99,
-      "Taco Bell",
-      "Baxley",
-      "GA"
-    ],
-    [
       "042578",
       33.78032506878061,
       -84.38918335266644,
@@ -20513,6 +20589,15 @@
       "GA"
     ],
     [
+      "027858",
+      34.07882955591635,
+      -83.91751042267758,
+      5.99,
+      "Taco Bell",
+      "Buford",
+      "GA"
+    ],
+    [
       "041236",
       33.90099978026089,
       -84.54167340697495,
@@ -20564,6 +20649,15 @@
       5.99,
       "Taco Bell",
       "Rome",
+      "GA"
+    ],
+    [
+      "027599",
+      33.56344645271083,
+      -83.4796367994174,
+      5.99,
+      "Taco Bell",
+      "Madison",
       "GA"
     ],
     [
@@ -20738,6 +20832,15 @@
       "GA"
     ],
     [
+      "039922",
+      32.255501256143404,
+      -80.84758818964474,
+      6.19,
+      "Taco Bell",
+      "Bluffton",
+      "SC"
+    ],
+    [
       "039921",
       32.112410602164445,
       -81.23548958895492,
@@ -20775,6 +20878,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-13",
+  "last_seen_date": "2026-07-14",
   "peak_availability_pct": 5.9
 }

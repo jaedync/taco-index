@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:09.662285+00:00",
   "availability_pct": 0.9,
   "price_stats": {
-    "avg": 7.43,
+    "avg": 7.41,
     "min": 5.79,
     "max": 8.49,
     "median": 7.49,
-    "std_dev": 0.6,
-    "store_count": 68
+    "std_dev": 0.59,
+    "store_count": 69
   },
   "histogram": [
     {
@@ -37,11 +37,11 @@
     },
     {
       "bucket": "$6.99",
-      "count": 19
+      "count": 20
     },
     {
       "bucket": "$7.19",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$7.39",
@@ -69,19 +69,19 @@
     },
     {
       "bucket": "$8.49",
-      "count": 5
+      "count": 4
     }
   ],
   "state_prices": [
     {
       "state": "TN",
-      "avg_price": 7.72,
-      "store_count": 11
+      "avg_price": 7.67,
+      "store_count": 12
     },
     {
       "state": "GA",
-      "avg_price": 7.45,
-      "store_count": 46
+      "avg_price": 7.44,
+      "store_count": 47
     },
     {
       "state": "FL",
@@ -195,13 +195,6 @@
       "price": 8.49
     },
     {
-      "store_number": "040962",
-      "name": "Taco Bell",
-      "city": "Franklin",
-      "state": "NC",
-      "price": 8.49
-    },
-    {
       "store_number": "027509",
       "name": "Taco Bell",
       "city": "Covington",
@@ -235,9 +228,46 @@
       "city": "Kennesaw",
       "state": "GA",
       "price": 7.99
+    },
+    {
+      "store_number": "019694",
+      "name": "Taco Bell",
+      "city": "Kingston",
+      "state": "TN",
+      "price": 7.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026432",
+      "store_name": "Taco Bell",
+      "city": "Pigeon Forge",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.19,
+      "observed_at": "2026-07-14T21:20:58.280711+00:00"
+    },
+    {
+      "store_number": "040962",
+      "store_name": "Taco Bell",
+      "city": "Franklin",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 8.49,
+      "new_price": null,
+      "observed_at": "2026-07-14T21:20:31.461972+00:00"
+    },
+    {
+      "store_number": "042585",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-07-14T21:19:29.267237+00:00"
+    },
     {
       "store_number": "030707",
       "store_name": "Taco Bell",
@@ -2490,8 +2520,8 @@
     }
   ],
   "activity_summary": {
-    "added": 143,
-    "removed": 75,
+    "added": 145,
+    "removed": 76,
     "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2607,6 +2637,15 @@
       6.99,
       "Taco Bell",
       "Clarkesville",
+      "GA"
+    ],
+    [
+      "042585",
+      34.01047868053667,
+      -84.7536712245369,
+      6.99,
+      "Taco Bell",
+      "Dallas",
       "GA"
     ],
     [
@@ -2751,6 +2790,15 @@
       7.19,
       "Taco Bell",
       "Maryville",
+      "TN"
+    ],
+    [
+      "026432",
+      35.80377693492917,
+      -83.58050286769867,
+      7.19,
+      "Taco Bell",
+      "Pigeon Forge",
       "TN"
     ],
     [
@@ -3087,15 +3135,6 @@
       "GA"
     ],
     [
-      "040962",
-      35.18370637706397,
-      -83.35587926686479,
-      8.49,
-      "Taco Bell",
-      "Franklin",
-      "NC"
-    ],
-    [
       "040967",
       35.37256754318715,
       -83.20724665070884,
@@ -3133,6 +3172,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-13",
+  "last_seen_date": "2026-07-14",
   "peak_availability_pct": 1.1
 }
