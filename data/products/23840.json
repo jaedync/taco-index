@@ -21,19 +21,19 @@
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 26
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 26
+      "count": 25
     }
   ],
   "state_prices": [
     {
       "state": "IL",
       "avg_price": 11.0,
-      "store_count": 22
+      "store_count": 21
     }
   ],
   "nutrition": {
@@ -56,13 +56,6 @@
       "name": "Taco Bell",
       "city": "Cedar Lake",
       "state": "IN",
-      "price": 11.0
-    },
-    {
-      "store_number": "040018",
-      "name": "Taco Bell",
-      "city": "Lansing",
-      "state": "IL",
       "price": 11.0
     },
     {
@@ -120,11 +113,17 @@
       "city": "Wauconda",
       "state": "IL",
       "price": 11.0
+    },
+    {
+      "store_number": "002513",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 11.0
     }
   ],
   "min_price_store_numbers": [
     "040019",
-    "040018",
     "041795",
     "041497",
     "030407",
@@ -223,6 +222,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040018",
+      "store_name": "Taco Bell",
+      "city": "Lansing",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-07-15T21:36:33.132324+00:00"
+    },
     {
       "store_number": "040019",
       "store_name": "Taco Bell",
@@ -1186,7 +1195,7 @@
   ],
   "activity_summary": {
     "added": 61,
-    "removed": 35,
+    "removed": 36,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1228,15 +1237,6 @@
       "Taco Bell",
       "Cedar Lake",
       "IN"
-    ],
-    [
-      "040018",
-      41.568922522295324,
-      -87.55837966195392,
-      11.0,
-      "Taco Bell",
-      "Lansing",
-      "IL"
     ],
     [
       "041795",
@@ -1456,6 +1456,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-14",
+  "last_seen_date": "2026-07-15",
   "peak_availability_pct": 0.3
 }

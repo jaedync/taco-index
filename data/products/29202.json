@@ -21,16 +21,16 @@
     "max": 9.99,
     "median": 8.79,
     "std_dev": 0.64,
-    "store_count": 587
+    "store_count": 588
   },
   "histogram": [
     {
       "bucket": "$7.59",
-      "count": 76
+      "count": 77
     },
     {
       "bucket": "$7.79",
-      "count": 54
+      "count": 55
     },
     {
       "bucket": "$7.89",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$9.39",
-      "count": 122
+      "count": 121
     },
     {
       "bucket": "$9.99",
@@ -94,7 +94,7 @@
     {
       "state": "MI",
       "avg_price": 8.75,
-      "store_count": 326
+      "store_count": 327
     },
     {
       "state": "IN",
@@ -269,6 +269,7 @@
     "040445",
     "032972",
     "032365",
+    "032105",
     "022262"
   ],
   "priciest_stores": [
@@ -344,6 +345,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042641",
+      "store_name": "Taco Bell",
+      "city": "Alpena",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.39,
+      "new_price": null,
+      "observed_at": "2026-07-15T21:41:31.392879+00:00"
+    },
+    {
+      "store_number": "032105",
+      "store_name": "Taco Bell",
+      "city": "Dowagiac",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.59,
+      "observed_at": "2026-07-15T21:41:28.965167+00:00"
+    },
+    {
+      "store_number": "032995",
+      "store_name": "Taco Bell",
+      "city": "Plainwell",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-07-15T21:41:19.491109+00:00"
+    },
     {
       "store_number": "042636",
       "store_name": "Taco Bell",
@@ -12536,8 +12567,8 @@
     }
   ],
   "activity_summary": {
-    "added": 645,
-    "removed": 54,
+    "added": 647,
+    "removed": 55,
     "price_changed": 520,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13222,6 +13253,15 @@
       "OH"
     ],
     [
+      "032105",
+      41.984759,
+      -86.124384,
+      7.59,
+      "Taco Bell",
+      "Dowagiac",
+      "MI"
+    ],
+    [
       "022262",
       40.40994355707365,
       -81.34797289967543,
@@ -13714,6 +13754,15 @@
       7.79,
       "Taco Bell",
       "Rockford",
+      "MI"
+    ],
+    [
+      "032995",
+      42.449620559119886,
+      -85.67205101450486,
+      7.79,
+      "Taco Bell",
+      "Plainwell",
       "MI"
     ],
     [
@@ -17650,15 +17699,6 @@
       "OH"
     ],
     [
-      "042641",
-      45.04514546485744,
-      -83.452195953373,
-      9.39,
-      "Taco Bell",
-      "Alpena",
-      "MI"
-    ],
-    [
       "031390",
       41.90827167329248,
       -84.03040172432834,
@@ -17831,6 +17871,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-14",
+  "last_seen_date": "2026-07-15",
   "peak_availability_pct": 7.3
 }

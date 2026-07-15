@@ -21,20 +21,20 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.18,
-    "store_count": 477
+    "store_count": 476
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 52
+      "count": 53
     },
     {
       "bucket": "$3.09",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$3.19",
-      "count": 245
+      "count": 244
     },
     {
       "bucket": "$3.29",
@@ -65,7 +65,7 @@
     {
       "state": "GA",
       "avg_price": 3.31,
-      "store_count": 230
+      "store_count": 229
     },
     {
       "state": "TN",
@@ -146,6 +146,13 @@
       "price": 2.99
     },
     {
+      "store_number": "033481",
+      "name": "Taco Bell",
+      "city": "Villa Rica",
+      "state": "GA",
+      "price": 2.99
+    },
+    {
       "store_number": "037050",
       "name": "Taco Bell",
       "city": "Wartburg",
@@ -165,13 +172,6 @@
       "city": "Hardeeville",
       "state": "SC",
       "price": 2.99
-    },
-    {
-      "store_number": "037038",
-      "name": "Taco Bell",
-      "city": "Jamestown",
-      "state": "TN",
-      "price": 2.99
     }
   ],
   "min_price_store_numbers": [
@@ -181,6 +181,7 @@
     "042583",
     "042128",
     "034808",
+    "033481",
     "037050",
     "021079",
     "032542",
@@ -301,6 +302,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004317",
+      "store_name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-07-15T21:41:15.030260+00:00"
+    },
+    {
+      "store_number": "033481",
+      "store_name": "Taco Bell",
+      "city": "Villa Rica",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-07-15T21:38:00.713311+00:00"
+    },
+    {
+      "store_number": "034784",
+      "store_name": "Taco Bell",
+      "city": "Hartwell",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.09,
+      "new_price": null,
+      "observed_at": "2026-07-15T21:37:49.376483+00:00"
+    },
     {
       "store_number": "016498",
       "store_name": "Taco Bell",
@@ -6673,8 +6704,8 @@
     }
   ],
   "activity_summary": {
-    "added": 539,
-    "removed": 61,
+    "added": 540,
+    "removed": 63,
     "price_changed": 37,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6755,6 +6786,15 @@
       "Taco Bell",
       "Panama City",
       "FL"
+    ],
+    [
+      "033481",
+      33.73376376352933,
+      -84.90097259926127,
+      2.99,
+      "Taco Bell",
+      "Villa Rica",
+      "GA"
     ],
     [
       "037050",
@@ -7178,15 +7218,6 @@
       "Taco Bell",
       "Pace",
       "FL"
-    ],
-    [
-      "034784",
-      34.353384638255136,
-      -82.92974342113956,
-      3.09,
-      "Taco Bell",
-      "Hartwell",
-      "GA"
     ],
     [
       "009539",
@@ -9187,15 +9218,6 @@
       "TN"
     ],
     [
-      "004317",
-      34.286228837677136,
-      -83.84069511297639,
-      3.19,
-      "Taco Bell",
-      "Gainesville",
-      "GA"
-    ],
-    [
       "029091",
       31.13833223297051,
       -83.44266531766124,
@@ -10997,6 +11019,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-07-14",
+  "last_seen_date": "2026-07-15",
   "peak_availability_pct": 6.0
 }

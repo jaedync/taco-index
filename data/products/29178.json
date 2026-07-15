@@ -21,19 +21,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 29
+    "store_count": 30
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 29
+      "count": 30
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 29
+      "store_count": 30
     }
   ],
   "nutrition": {
@@ -147,6 +147,7 @@
     "027985",
     "030999",
     "023304",
+    "042928",
     "023291",
     "023300",
     "034163",
@@ -190,6 +191,13 @@
       "price": 10.99
     },
     {
+      "store_number": "042928",
+      "name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "023304",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -216,16 +224,19 @@
       "city": "Melbourne",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "023296",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042928",
+      "store_name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-07-15T21:41:37.381760+00:00"
+    },
     {
       "store_number": "042928",
       "store_name": "Taco Bell",
@@ -1478,7 +1489,7 @@
     }
   ],
   "activity_summary": {
-    "added": 77,
+    "added": 78,
     "removed": 48,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1736,6 +1747,15 @@
       "FL"
     ],
     [
+      "042928",
+      29.5540650252999,
+      -81.22845753097863,
+      10.99,
+      "Taco Bell",
+      "Palm Coast",
+      "FL"
+    ],
+    [
       "023291",
       28.186290819898744,
       -80.59330917430088,
@@ -1782,6 +1802,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-07-14",
+  "last_seen_date": "2026-07-15",
   "peak_availability_pct": 0.4
 }

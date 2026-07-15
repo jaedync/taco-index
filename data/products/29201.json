@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 2.5,
   "price_stats": {
-    "avg": 8.72,
+    "avg": 8.73,
     "min": 7.79,
     "max": 9.49,
-    "median": 8.94,
+    "median": 8.89,
     "std_dev": 0.61,
-    "store_count": 190
+    "store_count": 191
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$8.79",
-      "count": 6
+      "count": 7
     },
     {
       "bucket": "$8.89",
@@ -54,11 +54,11 @@
     },
     {
       "bucket": "$9.19",
-      "count": 24
+      "count": 23
     },
     {
       "bucket": "$9.29",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$9.39",
@@ -72,13 +72,13 @@
   "state_prices": [
     {
       "state": "PA",
-      "avg_price": 9.12,
-      "store_count": 8
+      "avg_price": 9.1,
+      "store_count": 7
     },
     {
       "state": "MI",
       "avg_price": 8.95,
-      "store_count": 105
+      "store_count": 107
     },
     {
       "state": "IN",
@@ -273,21 +273,71 @@
       "price": 9.49
     },
     {
-      "store_number": "042641",
-      "name": "Taco Bell",
-      "city": "Alpena",
-      "state": "MI",
-      "price": 9.49
-    },
-    {
       "store_number": "042625",
       "name": "Taco Bell",
       "city": "Gaylord",
       "state": "MI",
       "price": 9.49
+    },
+    {
+      "store_number": "032351",
+      "name": "Taco Bell",
+      "city": "Wauseon",
+      "state": "OH",
+      "price": 9.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042641",
+      "store_name": "Taco Bell",
+      "city": "Alpena",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.49,
+      "new_price": null,
+      "observed_at": "2026-07-15T21:41:31.392879+00:00"
+    },
+    {
+      "store_number": "035360",
+      "store_name": "Taco Bell",
+      "city": "Hermitage",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 9.19,
+      "new_price": null,
+      "observed_at": "2026-07-15T21:41:00.478700+00:00"
+    },
+    {
+      "store_number": "033306",
+      "store_name": "Taco Bell",
+      "city": "Flint",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.29,
+      "observed_at": "2026-07-15T21:40:12.977070+00:00"
+    },
+    {
+      "store_number": "042650",
+      "store_name": "Taco Bell",
+      "city": "Birch Run",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-07-15T21:39:05.856346+00:00"
+    },
+    {
+      "store_number": "004161",
+      "store_name": "Taco Bell",
+      "city": "Rochester Hills",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.79,
+      "observed_at": "2026-07-15T21:38:39.236911+00:00"
+    },
     {
       "store_number": "035350",
       "store_name": "Taco Bell",
@@ -22740,8 +22790,8 @@
     }
   ],
   "activity_summary": {
-    "added": 949,
-    "removed": 758,
+    "added": 952,
+    "removed": 760,
     "price_changed": 538,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -23511,6 +23561,15 @@
       "OH"
     ],
     [
+      "004161",
+      42.638053116470445,
+      -83.1311120791861,
+      8.79,
+      "Taco Bell",
+      "Rochester Hills",
+      "MI"
+    ],
+    [
       "040500",
       41.3961,
       -82.1065,
@@ -24105,15 +24164,6 @@
       "WV"
     ],
     [
-      "035360",
-      41.23295511976543,
-      -80.47276407480246,
-      9.19,
-      "Taco Bell",
-      "Hermitage",
-      "PA"
-    ],
-    [
       "033319",
       43.06051052292668,
       -83.81567625096068,
@@ -24126,6 +24176,15 @@
       "033304",
       43.060967521639306,
       -83.76767657702658,
+      9.29,
+      "Taco Bell",
+      "Flint",
+      "MI"
+    ],
+    [
+      "033306",
+      43.0025989132295,
+      -83.73376190503772,
       9.29,
       "Taco Bell",
       "Flint",
@@ -24312,6 +24371,15 @@
       "MI"
     ],
     [
+      "042650",
+      43.24982523046068,
+      -83.77950936555857,
+      9.49,
+      "Taco Bell",
+      "Birch Run",
+      "MI"
+    ],
+    [
       "042621",
       44.76379966169099,
       -85.60430386665757,
@@ -24393,15 +24461,6 @@
       "MI"
     ],
     [
-      "042641",
-      45.04514546485744,
-      -83.452195953373,
-      9.49,
-      "Taco Bell",
-      "Alpena",
-      "MI"
-    ],
-    [
       "031269",
       42.827935934601626,
       -84.54133071008073,
@@ -24475,6 +24534,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-14",
+  "last_seen_date": "2026-07-15",
   "peak_availability_pct": 6.6
 }

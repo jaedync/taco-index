@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3534
+    "store_count": 3531
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3534
+      "count": 3531
     }
   ],
   "state_prices": [
@@ -42,7 +42,7 @@
     {
       "state": "WA",
       "avg_price": 0.0,
-      "store_count": 131
+      "store_count": 133
     },
     {
       "state": "VA",
@@ -92,7 +92,7 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 215
+      "store_count": 213
     },
     {
       "state": "NY",
@@ -122,7 +122,7 @@
     {
       "state": "NC",
       "avg_price": 0.0,
-      "store_count": 126
+      "store_count": 125
     },
     {
       "state": "MT",
@@ -167,7 +167,7 @@
     {
       "state": "KS",
       "avg_price": 0.0,
-      "store_count": 73
+      "store_count": 72
     },
     {
       "state": "IN",
@@ -222,7 +222,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 620
+      "store_count": 619
     },
     {
       "state": "AZ",
@@ -1013,7 +1013,6 @@
     "003162",
     "001591",
     "034439",
-    "026049",
     "040531",
     "017751",
     "024458",
@@ -1609,7 +1608,6 @@
     "040028",
     "039052",
     "036358",
-    "033777",
     "033169",
     "040958",
     "003026",
@@ -2036,7 +2034,6 @@
     "029386",
     "033088",
     "041614",
-    "034178",
     "030358",
     "035284",
     "003648",
@@ -3334,7 +3331,6 @@
     "035276",
     "030732",
     "036202",
-    "034401",
     "027554",
     "009455",
     "035413",
@@ -3428,7 +3424,6 @@
     "031347",
     "000071",
     "034402",
-    "001204",
     "004177",
     "033770",
     "027509",
@@ -3455,6 +3450,7 @@
     "034189",
     "032938",
     "028525",
+    "022608",
     "003148",
     "036539",
     "042281",
@@ -3855,9 +3851,17 @@
     "009435",
     "032322",
     "032030",
-    "031811"
+    "031811",
+    "031326"
   ],
   "priciest_stores": [
+    {
+      "store_number": "031326",
+      "name": "Taco Bell",
+      "city": "Shelton",
+      "state": "WA",
+      "price": 0.0
+    },
     {
       "store_number": "031811",
       "name": "Taco Bell",
@@ -3920,16 +3924,79 @@
       "city": "East Peoria",
       "state": "IL",
       "price": 0.0
-    },
-    {
-      "store_number": "026432",
-      "name": "Taco Bell",
-      "city": "Pigeon Forge",
-      "state": "TN",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031326",
+      "store_name": "Taco Bell",
+      "city": "Shelton",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-07-15T21:41:43.902663+00:00"
+    },
+    {
+      "store_number": "022608",
+      "store_name": "Taco Bell",
+      "city": "Snohomish",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-07-15T21:41:33.255556+00:00"
+    },
+    {
+      "store_number": "001204",
+      "store_name": "Taco Bell",
+      "city": "Findlay",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-07-15T21:41:30.562577+00:00"
+    },
+    {
+      "store_number": "034401",
+      "store_name": "Taco Bell",
+      "city": "Olathe",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-07-15T21:41:25.282747+00:00"
+    },
+    {
+      "store_number": "034178",
+      "store_name": "Taco Bell",
+      "city": "Modesto",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-07-15T21:40:08.660200+00:00"
+    },
+    {
+      "store_number": "033777",
+      "store_name": "Taco Bell",
+      "city": "Centerville",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-07-15T21:39:30.072578+00:00"
+    },
+    {
+      "store_number": "026049",
+      "store_name": "Taco Bell",
+      "city": "Salisbury",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-07-15T21:38:44.320775+00:00"
+    },
     {
       "store_number": "039055",
       "store_name": "Taco Bell",
@@ -9882,8 +9949,8 @@
     }
   ],
   "activity_summary": {
-    "added": 289,
-    "removed": 306,
+    "added": 291,
+    "removed": 311,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16112,15 +16179,6 @@
       "KY"
     ],
     [
-      "026049",
-      35.660837550134715,
-      -80.49988649320767,
-      0.0,
-      "Taco Bell",
-      "Salisbury",
-      "NC"
-    ],
-    [
       "040531",
       41.58128313422767,
       -81.21314902764493,
@@ -21476,15 +21534,6 @@
       "IL"
     ],
     [
-      "033777",
-      39.64820094904587,
-      -84.10982206463814,
-      0.0,
-      "Taco Bell",
-      "Centerville",
-      "OH"
-    ],
-    [
       "033169",
       40.76097776098179,
       -111.87306777577128,
@@ -25316,15 +25365,6 @@
       0.0,
       "Taco Bell",
       "Murrieta",
-      "CA"
-    ],
-    [
-      "034178",
-      37.69926171327539,
-      -121.068428546223,
-      0.0,
-      "Taco Bell",
-      "Modesto",
       "CA"
     ],
     [
@@ -37001,15 +37041,6 @@
       "IL"
     ],
     [
-      "034401",
-      38.909992641575855,
-      -94.76036846637726,
-      0.0,
-      "Taco Bell",
-      "Olathe",
-      "KS"
-    ],
-    [
       "027554",
       34.53558421107505,
       -83.53455302820122,
@@ -37847,15 +37878,6 @@
       "KS"
     ],
     [
-      "001204",
-      41.04895769542847,
-      -83.62901813819917,
-      0.0,
-      "Taco Bell",
-      "Findlay",
-      "OH"
-    ],
-    [
       "004177",
       37.3977737492647,
       -94.7045007138513,
@@ -38088,6 +38110,15 @@
       "Taco Bell",
       "Norwalk",
       "CA"
+    ],
+    [
+      "022608",
+      47.924857437965144,
+      -122.09822550418721,
+      0.0,
+      "Taco Bell",
+      "Snohomish",
+      "WA"
     ],
     [
       "003148",
@@ -41697,6 +41728,15 @@
       "Taco Bell",
       "Virginia Beach",
       "VA"
+    ],
+    [
+      "031326",
+      47.23133846398098,
+      -123.12308972883608,
+      0.0,
+      "Taco Bell",
+      "Shelton",
+      "WA"
     ]
   ],
   "retired_at": null,

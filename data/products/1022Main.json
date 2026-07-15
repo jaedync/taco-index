@@ -21,7 +21,7 @@
     "max": 3.59,
     "median": 3.19,
     "std_dev": 0.23,
-    "store_count": 739
+    "store_count": 737
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 111
+      "count": 109
     },
     {
       "bucket": "$3.09",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 220
+      "count": 219
     },
     {
       "bucket": "$3.39",
@@ -74,24 +74,24 @@
     },
     {
       "bucket": "$3.59",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
+    {
+      "state": "CA",
+      "avg_price": 3.32,
+      "store_count": 9
+    },
     {
       "state": "MO",
       "avg_price": 3.29,
       "store_count": 10
     },
     {
-      "state": "CA",
-      "avg_price": 3.29,
-      "store_count": 8
-    },
-    {
       "state": "AR",
       "avg_price": 3.28,
-      "store_count": 96
+      "store_count": 95
     },
     {
       "state": "OK",
@@ -99,14 +99,14 @@
       "store_count": 114
     },
     {
+      "state": "FL",
+      "avg_price": 3.08,
+      "store_count": 7
+    },
+    {
       "state": "LA",
       "avg_price": 3.07,
       "store_count": 5
-    },
-    {
-      "state": "FL",
-      "avg_price": 3.06,
-      "store_count": 6
     },
     {
       "state": "TX",
@@ -217,6 +217,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "023050",
+      "name": "Taco Bell",
+      "city": "Paso Robles",
+      "state": "CA",
+      "price": 3.59
+    },
+    {
       "store_number": "026240",
       "name": "Taco Bell",
       "city": "San Diego",
@@ -278,16 +285,59 @@
       "city": "Ruidoso",
       "state": "NM",
       "price": 3.39
-    },
-    {
-      "store_number": "039851",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Lake Forest",
-      "state": "CA",
-      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034163",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-07-15T21:41:49.202668+00:00"
+    },
+    {
+      "store_number": "023050",
+      "store_name": "Taco Bell",
+      "city": "Paso Robles",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-07-15T21:41:31.868865+00:00"
+    },
+    {
+      "store_number": "029976",
+      "store_name": "Taco Bell",
+      "city": "Fort Wright",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-07-15T21:40:17.676871+00:00"
+    },
+    {
+      "store_number": "031898",
+      "store_name": "Taco Bell",
+      "city": "Henderson",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-07-15T21:39:44.108754+00:00"
+    },
+    {
+      "store_number": "042464",
+      "store_name": "Taco Bell",
+      "city": "Ashland",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-07-15T21:38:14.103696+00:00"
+    },
     {
       "store_number": "030389",
       "store_name": "Taco Bell",
@@ -9300,8 +9350,8 @@
     }
   ],
   "activity_summary": {
-    "added": 373,
-    "removed": 367,
+    "added": 375,
+    "removed": 370,
     "price_changed": 161,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12074,15 +12124,6 @@
       "AL"
     ],
     [
-      "042464",
-      38.48348849999973,
-      -82.65922370000484,
-      2.99,
-      "Taco Bell",
-      "Ashland",
-      "KY"
-    ],
-    [
       "024229",
       35.978147266980216,
       -77.97354340553284,
@@ -12090,15 +12131,6 @@
       "Taco Bell",
       "Nashville",
       "NC"
-    ],
-    [
-      "029976",
-      39.03646700436083,
-      -84.53178414149959,
-      2.99,
-      "Taco Bell",
-      "Fort Wright",
-      "KY"
     ],
     [
       "022088",
@@ -13838,21 +13870,21 @@
       "NV"
     ],
     [
-      "031898",
-      36.04406330681321,
-      -114.97495740652084,
-      3.19,
-      "Taco Bell",
-      "Henderson",
-      "NV"
-    ],
-    [
       "039596",
       28.52005490737105,
       -81.31093749407222,
       3.19,
       "Taco Bell",
       "Orlando",
+      "FL"
+    ],
+    [
+      "034163",
+      28.24668494787806,
+      -81.24437438517288,
+      3.19,
+      "Taco Bell",
+      "Saint Cloud",
       "FL"
     ],
     [
@@ -14762,15 +14794,6 @@
       3.29,
       "Taco Bell",
       "Hot Springs",
-      "AR"
-    ],
-    [
-      "018019",
-      35.234397735582995,
-      -92.38737635319922,
-      3.29,
-      "Taco Bell",
-      "Greenbrier",
       "AR"
     ],
     [
@@ -15959,6 +15982,15 @@
       3.59,
       "Taco Bell",
       "San Diego",
+      "CA"
+    ],
+    [
+      "023050",
+      35.64029622449355,
+      -120.6879911149355,
+      3.59,
+      "Taco Bell",
+      "Paso Robles",
       "CA"
     ]
   ],
