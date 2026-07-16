@@ -14,14 +14,14 @@
   "peak_30d_pct": 9.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.034886+00:00",
-  "availability_pct": 9.6,
+  "availability_pct": 9.5,
   "price_stats": {
     "avg": 3.08,
     "min": 2.39,
     "max": 3.59,
     "median": 3.19,
     "std_dev": 0.23,
-    "store_count": 737
+    "store_count": 735
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 109
+      "count": 108
     },
     {
       "bucket": "$3.09",
@@ -58,19 +58,23 @@
     },
     {
       "bucket": "$3.19",
-      "count": 192
+      "count": 191
+    },
+    {
+      "bucket": "$3.25",
+      "count": 1
     },
     {
       "bucket": "$3.29",
-      "count": 219
+      "count": 220
     },
     {
       "bucket": "$3.39",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$3.49",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$3.59",
@@ -96,17 +100,17 @@
     {
       "state": "OK",
       "avg_price": 3.23,
-      "store_count": 114
-    },
-    {
-      "state": "FL",
-      "avg_price": 3.08,
-      "store_count": 7
+      "store_count": 115
     },
     {
       "state": "LA",
       "avg_price": 3.07,
       "store_count": 5
+    },
+    {
+      "state": "FL",
+      "avg_price": 3.06,
+      "store_count": 6
     },
     {
       "state": "TX",
@@ -231,13 +235,6 @@
       "price": 3.59
     },
     {
-      "store_number": "003190",
-      "name": "Taco Bell",
-      "city": "Roseville",
-      "state": "MI",
-      "price": 3.49
-    },
-    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
@@ -249,13 +246,6 @@
       "name": "Taco Bell Cantina",
       "city": "Brooklyn",
       "state": "NY",
-      "price": 3.39
-    },
-    {
-      "store_number": "031861",
-      "name": "Taco Bell",
-      "city": "Reno",
-      "state": "NV",
       "price": 3.39
     },
     {
@@ -285,9 +275,83 @@
       "city": "Ruidoso",
       "state": "NM",
       "price": 3.39
+    },
+    {
+      "store_number": "039851",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Lake Forest",
+      "state": "CA",
+      "price": 3.39
+    },
+    {
+      "store_number": "035240",
+      "name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034163",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-07-16T21:54:28.458927+00:00"
+    },
+    {
+      "store_number": "030389",
+      "store_name": "Taco Bell",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-07-16T21:53:38.937092+00:00"
+    },
+    {
+      "store_number": "018619",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.25,
+      "observed_at": "2026-07-16T21:53:10.761260+00:00"
+    },
+    {
+      "store_number": "037485",
+      "store_name": "Taco Bell",
+      "city": "Paducah",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-07-16T21:52:41.864073+00:00"
+    },
+    {
+      "store_number": "031861",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-07-16T21:50:10.761721+00:00"
+    },
+    {
+      "store_number": "003190",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-07-16T21:49:41.199286+00:00"
+    },
     {
       "store_number": "034163",
       "store_name": "Taco Bell",
@@ -9350,8 +9414,8 @@
     }
   ],
   "activity_summary": {
-    "added": 375,
-    "removed": 370,
+    "added": 377,
+    "removed": 374,
     "price_changed": 161,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12070,15 +12134,6 @@
       "CO"
     ],
     [
-      "037485",
-      37.05329364485004,
-      -88.64940403944378,
-      2.99,
-      "Taco Bell",
-      "Paducah",
-      "KY"
-    ],
-    [
       "030114",
       30.196683342851397,
       -97.78586402535439,
@@ -13879,13 +13934,13 @@
       "FL"
     ],
     [
-      "034163",
-      28.24668494787806,
-      -81.24437438517288,
-      3.19,
+      "018619",
+      45.52651651124257,
+      -122.53934533150641,
+      3.25,
       "Taco Bell",
-      "Saint Cloud",
-      "FL"
+      "Portland",
+      "OR"
     ],
     [
       "041134",
@@ -15544,6 +15599,15 @@
       "AR"
     ],
     [
+      "030389",
+      35.36363502065983,
+      -97.53063976764685,
+      3.29,
+      "Taco Bell",
+      "Oklahoma City",
+      "OK"
+    ],
+    [
       "032156",
       35.39474414858871,
       -97.5660236817833,
@@ -15940,15 +16004,6 @@
       "NC"
     ],
     [
-      "031861",
-      39.46760685855642,
-      -119.78517545254003,
-      3.39,
-      "Taco Bell",
-      "Reno",
-      "NV"
-    ],
-    [
       "034150",
       40.64580109531123,
       -73.95834142593563,
@@ -15965,15 +16020,6 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
-    ],
-    [
-      "003190",
-      42.48379808690309,
-      -82.94468663168573,
-      3.49,
-      "Taco Bell",
-      "Roseville",
-      "MI"
     ],
     [
       "026240",

@@ -13,15 +13,15 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0243,
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.92,
+    "avg": 3.97,
     "min": 3.49,
     "max": 4.29,
-    "median": 3.94,
-    "std_dev": 0.4,
+    "median": 4.09,
+    "std_dev": 0.37,
     "store_count": 6
   },
   "histogram": [
@@ -31,7 +31,11 @@
     },
     {
       "bucket": "$3.59",
-      "count": 2
+      "count": 1
+    },
+    {
+      "bucket": "$3.89",
+      "count": 1
     },
     {
       "bucket": "$4.29",
@@ -69,11 +73,11 @@
       "price": 3.59
     },
     {
-      "store_number": "027416",
+      "store_number": "019252",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Irving",
+      "city": "Spring",
       "state": "TX",
-      "price": 3.59
+      "price": 3.89
     },
     {
       "store_number": "032170",
@@ -123,11 +127,11 @@
       "price": 4.29
     },
     {
-      "store_number": "027416",
+      "store_number": "019252",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Irving",
+      "city": "Spring",
       "state": "TX",
-      "price": 3.59
+      "price": 3.89
     },
     {
       "store_number": "024393",
@@ -145,6 +149,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027416",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-07-16T21:53:42.598504+00:00"
+    },
+    {
+      "store_number": "019252",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Spring",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.89,
+      "observed_at": "2026-07-16T21:49:39.081056+00:00"
+    },
     {
       "store_number": "027489",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -307,8 +331,8 @@
     }
   ],
   "activity_summary": {
-    "added": 9,
-    "removed": 7,
+    "added": 10,
+    "removed": 8,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -336,12 +360,12 @@
       "TX"
     ],
     [
-      "027416",
-      32.83776989676744,
-      -96.95856750011444,
-      3.59,
+      "019252",
+      30.049133798997953,
+      -95.43046756650256,
+      3.89,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Irving",
+      "Spring",
       "TX"
     ],
     [
@@ -390,7 +414,7 @@
       "min_price": 3.49,
       "max_price": 4.29,
       "calories": 180,
-      "happier_hour_avg": 2.11
+      "happier_hour_avg": 2.1
     }
   ]
 }

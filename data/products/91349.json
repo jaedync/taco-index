@@ -14,14 +14,14 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
-  "availability_pct": 6.2,
+  "availability_pct": 6.1,
   "price_stats": {
-    "avg": 3.27,
+    "avg": 3.26,
     "min": 2.99,
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.18,
-    "store_count": 476
+    "store_count": 474
   },
   "histogram": [
     {
@@ -34,19 +34,19 @@
     },
     {
       "bucket": "$3.19",
-      "count": 244
+      "count": 245
     },
     {
       "bucket": "$3.29",
-      "count": 47
-    },
-    {
-      "bucket": "$3.39",
       "count": 46
     },
     {
+      "bucket": "$3.39",
+      "count": 45
+    },
+    {
       "bucket": "$3.49",
-      "count": 40
+      "count": 39
     },
     {
       "bucket": "$3.59",
@@ -65,12 +65,12 @@
     {
       "state": "GA",
       "avg_price": 3.31,
-      "store_count": 229
+      "store_count": 230
     },
     {
       "state": "TN",
-      "avg_price": 3.26,
-      "store_count": 84
+      "avg_price": 3.25,
+      "store_count": 82
     },
     {
       "state": "SC",
@@ -80,7 +80,7 @@
     {
       "state": "AL",
       "avg_price": 3.21,
-      "store_count": 121
+      "store_count": 120
     },
     {
       "state": "FL",
@@ -302,6 +302,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004317",
+      "store_name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-07-16T21:52:51.544899+00:00"
+    },
+    {
+      "store_number": "004789",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-07-16T21:50:08.108817+00:00"
+    },
+    {
+      "store_number": "029150",
+      "store_name": "Taco Bell",
+      "city": "Tuscaloosa",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-07-16T21:49:40.391995+00:00"
+    },
+    {
+      "store_number": "037700",
+      "store_name": "Taco Bell",
+      "city": "Pikeville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-07-16T21:49:33.698304+00:00"
+    },
     {
       "store_number": "004317",
       "store_name": "Taco Bell",
@@ -6704,8 +6744,8 @@
     }
   ],
   "activity_summary": {
-    "added": 540,
-    "removed": 63,
+    "added": 541,
+    "removed": 66,
     "price_changed": 37,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9218,6 +9258,15 @@
       "TN"
     ],
     [
+      "004317",
+      34.286228837677136,
+      -83.84069511297639,
+      3.19,
+      "Taco Bell",
+      "Gainesville",
+      "GA"
+    ],
+    [
       "029091",
       31.13833223297051,
       -83.44266531766124,
@@ -9548,15 +9597,6 @@
       3.29,
       "Taco Bell",
       "Birmingham",
-      "AL"
-    ],
-    [
-      "029150",
-      33.198890030908586,
-      -87.5387504249801,
-      3.29,
-      "Taco Bell",
-      "Tuscaloosa",
       "AL"
     ],
     [
@@ -10100,15 +10140,6 @@
       "TN"
     ],
     [
-      "004789",
-      36.006749947092004,
-      -84.02767806197517,
-      3.39,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
-    ],
-    [
       "016498",
       36.02763070798266,
       -83.92744351247065,
@@ -10341,15 +10372,6 @@
       "Taco Bell",
       "Kennesaw",
       "GA"
-    ],
-    [
-      "037700",
-      35.61433908080971,
-      -85.18976798454919,
-      3.49,
-      "Taco Bell",
-      "Pikeville",
-      "TN"
     ],
     [
       "037825",
@@ -11019,6 +11041,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-07-15",
+  "last_seen_date": "2026-07-16",
   "peak_availability_pct": 6.0
 }

@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.2,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0202,
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.16,
+    "avg": 9.28,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.4,
-    "store_count": 6
+    "std_dev": 0.48,
+    "store_count": 7
   },
   "histogram": [
     {
@@ -30,14 +30,14 @@
     },
     {
       "bucket": "$9.99",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.17,
-      "store_count": 6
+      "avg_price": 9.28,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -96,6 +96,13 @@
       "city": "Ocala",
       "state": "FL",
       "price": 9.99
+    },
+    {
+      "store_number": "042928",
+      "name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "price": 9.99
     }
   ],
   "min_price_store_numbers": [
@@ -106,6 +113,13 @@
     "034163"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042928",
+      "name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "price": 9.99
+    },
     {
       "store_number": "042942",
       "name": "Taco Bell",
@@ -150,6 +164,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042928",
+      "store_name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-07-16T21:53:44.824031+00:00"
+    },
     {
       "store_number": "039585",
       "store_name": "Taco Bell",
@@ -4412,7 +4436,7 @@
     }
   ],
   "activity_summary": {
-    "added": 216,
+    "added": 217,
     "removed": 210,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4506,9 +4530,18 @@
       "Taco Bell",
       "Ocala",
       "FL"
+    ],
+    [
+      "042928",
+      29.5540650252999,
+      -81.22845753097863,
+      9.99,
+      "Taco Bell",
+      "Palm Coast",
+      "FL"
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-15",
+  "last_seen_date": "2026-07-16",
   "peak_availability_pct": 1.2
 }

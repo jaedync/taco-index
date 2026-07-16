@@ -21,12 +21,12 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 3
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 3
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -58,28 +58,13 @@
       "city": "Clinton",
       "state": "UT",
       "price": 9.0
-    },
-    {
-      "store_number": "033175",
-      "name": "Taco Bell",
-      "city": "Layton",
-      "state": "UT",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "033154",
-    "033177",
-    "033175"
+    "033177"
   ],
   "priciest_stores": [
-    {
-      "store_number": "033175",
-      "name": "Taco Bell",
-      "city": "Layton",
-      "state": "UT",
-      "price": 9.0
-    },
     {
       "store_number": "033177",
       "name": "Taco Bell",
@@ -96,6 +81,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033175",
+      "store_name": "Taco Bell",
+      "city": "Layton",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-16T21:53:12.808808+00:00"
+    },
     {
       "store_number": "033161",
       "store_name": "Taco Bell",
@@ -909,7 +904,7 @@
   ],
   "activity_summary": {
     "added": 42,
-    "removed": 39,
+    "removed": 40,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -960,18 +955,9 @@
       "Taco Bell",
       "Clinton",
       "UT"
-    ],
-    [
-      "033175",
-      41.101155649575446,
-      -111.94409891426162,
-      9.0,
-      "Taco Bell",
-      "Layton",
-      "UT"
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-15",
+  "last_seen_date": "2026-07-16",
   "peak_availability_pct": 0.2
 }

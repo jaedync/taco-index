@@ -15,17 +15,17 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.45,
+    "avg": 2.41,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.29,
-    "std_dev": 0.31,
-    "store_count": 5
+    "median": 2.24,
+    "std_dev": 0.3,
+    "store_count": 6
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$2.29",
@@ -54,6 +54,13 @@
       "price": 2.19
     },
     {
+      "store_number": "036455",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 2.19
+    },
+    {
       "store_number": "040658",
       "name": "Taco Bell",
       "city": "Bronx",
@@ -77,7 +84,8 @@
   ],
   "min_price_store_numbers": [
     "035456",
-    "034859"
+    "034859",
+    "036455"
   ],
   "priciest_stores": [
     {
@@ -102,6 +110,13 @@
       "price": 2.29
     },
     {
+      "store_number": "036455",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 2.19
+    },
+    {
       "store_number": "034859",
       "name": "Taco Bell Cantina Cantina",
       "city": "Orlando",
@@ -117,6 +132,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036455",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-07-16T21:49:16.383777+00:00"
+    },
     {
       "store_number": "036909",
       "store_name": "Taco Bell",
@@ -439,7 +464,7 @@
     }
   ],
   "activity_summary": {
-    "added": 14,
+    "added": 15,
     "removed": 18,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -466,6 +491,15 @@
       "Taco Bell Cantina Cantina",
       "Orlando",
       "FL"
+    ],
+    [
+      "036455",
+      40.6697473363658,
+      -73.91195812676696,
+      2.19,
+      "Taco Bell",
+      "Brooklyn",
+      "NY"
     ],
     [
       "040658",
@@ -501,11 +535,11 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 2.36,
+      "avg_price": 2.35,
       "min_price": 2.0,
       "max_price": 2.79,
       "calories": 0,
-      "happier_hour_avg": 1.96
+      "happier_hour_avg": 1.92
     }
   ]
 }

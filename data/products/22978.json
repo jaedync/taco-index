@@ -16,17 +16,17 @@
   "first_seen_at": "2026-05-21T21:04:04.459773+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 9.92,
+    "avg": 9.98,
     "min": 9.69,
     "max": 10.19,
-    "median": 9.69,
+    "median": 10.19,
     "std_dev": 0.26,
-    "store_count": 15
+    "store_count": 12
   },
   "histogram": [
     {
       "bucket": "$9.69",
-      "count": 8
+      "count": 5
     },
     {
       "bucket": "$10.19",
@@ -36,8 +36,8 @@
   "state_prices": [
     {
       "state": "HI",
-      "avg_price": 9.92,
-      "store_count": 15
+      "avg_price": 9.98,
+      "store_count": 12
     }
   ],
   "nutrition": {
@@ -77,13 +77,6 @@
       "price": 9.69
     },
     {
-      "store_number": "004071",
-      "name": "Taco Bell",
-      "city": "Waipahu",
-      "state": "HI",
-      "price": 9.69
-    },
-    {
       "store_number": "001281",
       "name": "Taco Bell",
       "city": "Honolulu",
@@ -94,20 +87,6 @@
       "store_number": "004072",
       "name": "Taco Bell",
       "city": "Honolulu",
-      "state": "HI",
-      "price": 9.69
-    },
-    {
-      "store_number": "001413",
-      "name": "Taco Bell",
-      "city": "Wahiawa",
-      "state": "HI",
-      "price": 9.69
-    },
-    {
-      "store_number": "015522",
-      "name": "Taco Bell",
-      "city": "Kailua",
       "state": "HI",
       "price": 9.69
     },
@@ -124,17 +103,35 @@
       "city": "Hilo",
       "state": "HI",
       "price": 10.19
+    },
+    {
+      "store_number": "003975",
+      "name": "Taco Bell",
+      "city": "Kailua Kona",
+      "state": "HI",
+      "price": 10.19
+    },
+    {
+      "store_number": "004865",
+      "name": "Taco Bell",
+      "city": "Kapaa",
+      "state": "HI",
+      "price": 10.19
+    },
+    {
+      "store_number": "003488",
+      "name": "Taco Bell",
+      "city": "Lihue",
+      "state": "HI",
+      "price": 10.19
     }
   ],
   "min_price_store_numbers": [
     "036239",
     "002491",
     "004454",
-    "004071",
     "001281",
-    "004072",
-    "001413",
-    "015522"
+    "004072"
   ],
   "priciest_stores": [
     {
@@ -187,28 +184,58 @@
       "price": 10.19
     },
     {
-      "store_number": "015522",
-      "name": "Taco Bell",
-      "city": "Kailua",
-      "state": "HI",
-      "price": 9.69
-    },
-    {
-      "store_number": "001413",
-      "name": "Taco Bell",
-      "city": "Wahiawa",
-      "state": "HI",
-      "price": 9.69
-    },
-    {
       "store_number": "004072",
       "name": "Taco Bell",
       "city": "Honolulu",
       "state": "HI",
       "price": 9.69
+    },
+    {
+      "store_number": "001281",
+      "name": "Taco Bell",
+      "city": "Honolulu",
+      "state": "HI",
+      "price": 9.69
+    },
+    {
+      "store_number": "004454",
+      "name": "Taco Bell",
+      "city": "Mililani",
+      "state": "HI",
+      "price": 9.69
     }
   ],
   "price_changes": [
+    {
+      "store_number": "015522",
+      "store_name": "Taco Bell",
+      "city": "Kailua",
+      "state": "HI",
+      "change_type": "item_removed",
+      "old_price": 9.69,
+      "new_price": null,
+      "observed_at": "2026-07-16T21:54:24.542564+00:00"
+    },
+    {
+      "store_number": "001413",
+      "store_name": "Taco Bell",
+      "city": "Wahiawa",
+      "state": "HI",
+      "change_type": "item_removed",
+      "old_price": 9.69,
+      "new_price": null,
+      "observed_at": "2026-07-16T21:52:47.224650+00:00"
+    },
+    {
+      "store_number": "004071",
+      "store_name": "Taco Bell",
+      "city": "Waipahu",
+      "state": "HI",
+      "change_type": "item_removed",
+      "old_price": 9.69,
+      "new_price": null,
+      "observed_at": "2026-07-16T21:49:50.921535+00:00"
+    },
     {
       "store_number": "004267",
       "store_name": "Taco Bell",
@@ -662,7 +689,7 @@
   ],
   "activity_summary": {
     "added": 30,
-    "removed": 15,
+    "removed": 18,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -699,15 +726,6 @@
       "HI"
     ],
     [
-      "004071",
-      21.37707100464458,
-      -158.02612008465576,
-      9.69,
-      "Taco Bell",
-      "Waipahu",
-      "HI"
-    ],
-    [
       "001281",
       21.280319540592494,
       -157.81392170931213,
@@ -723,24 +741,6 @@
       9.69,
       "Taco Bell",
       "Honolulu",
-      "HI"
-    ],
-    [
-      "001413",
-      21.49382879639314,
-      -158.0286231637001,
-      9.69,
-      "Taco Bell",
-      "Wahiawa",
-      "HI"
-    ],
-    [
-      "015522",
-      21.4441962330697,
-      -157.74382084608078,
-      9.69,
-      "Taco Bell",
-      "Kailua",
       "HI"
     ],
     [
