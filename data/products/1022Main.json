@@ -21,7 +21,7 @@
     "max": 3.59,
     "median": 3.19,
     "std_dev": 0.23,
-    "store_count": 735
+    "store_count": 736
   },
   "histogram": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 191
+      "count": 192
     },
     {
       "bucket": "$3.25",
@@ -66,11 +66,11 @@
     },
     {
       "bucket": "$3.29",
-      "count": 220
+      "count": 222
     },
     {
       "bucket": "$3.39",
-      "count": 10
+      "count": 9
     },
     {
       "bucket": "$3.49",
@@ -78,19 +78,19 @@
     },
     {
       "bucket": "$3.59",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
     {
-      "state": "CA",
-      "avg_price": 3.32,
-      "store_count": 9
-    },
-    {
       "state": "MO",
       "avg_price": 3.29,
       "store_count": 10
+    },
+    {
+      "state": "CA",
+      "avg_price": 3.29,
+      "store_count": 8
     },
     {
       "state": "AR",
@@ -100,17 +100,17 @@
     {
       "state": "OK",
       "avg_price": 3.23,
-      "store_count": 115
+      "store_count": 117
+    },
+    {
+      "state": "FL",
+      "avg_price": 3.08,
+      "store_count": 7
     },
     {
       "state": "LA",
       "avg_price": 3.07,
       "store_count": 5
-    },
-    {
-      "state": "FL",
-      "avg_price": 3.06,
-      "store_count": 6
     },
     {
       "state": "TX",
@@ -221,13 +221,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "023050",
-      "name": "Taco Bell",
-      "city": "Paso Robles",
-      "state": "CA",
-      "price": 3.59
-    },
-    {
       "store_number": "026240",
       "name": "Taco Bell",
       "city": "San Diego",
@@ -240,13 +233,6 @@
       "city": "Kansas City",
       "state": "MO",
       "price": 3.49
-    },
-    {
-      "store_number": "034150",
-      "name": "Taco Bell Cantina",
-      "city": "Brooklyn",
-      "state": "NY",
-      "price": 3.39
     },
     {
       "store_number": "030557",
@@ -289,9 +275,73 @@
       "city": "Kansas City",
       "state": "MO",
       "price": 3.39
+    },
+    {
+      "store_number": "035232",
+      "name": "Taco Bell",
+      "city": "Liberty",
+      "state": "MO",
+      "price": 3.39
+    },
+    {
+      "store_number": "035243",
+      "name": "Taco Bell",
+      "city": "Independence",
+      "state": "MO",
+      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023050",
+      "store_name": "Taco Bell",
+      "city": "Paso Robles",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-07-17T21:27:49.739074+00:00"
+    },
+    {
+      "store_number": "031459",
+      "store_name": "Taco Bell",
+      "city": "Altus",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-07-17T21:27:15.073311+00:00"
+    },
+    {
+      "store_number": "004462",
+      "store_name": "Taco Bell",
+      "city": "Ada",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-07-17T21:25:48.425021+00:00"
+    },
+    {
+      "store_number": "033095",
+      "store_name": "Taco Bell",
+      "city": "Greenacres",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-07-17T21:25:31.864845+00:00"
+    },
+    {
+      "store_number": "034150",
+      "store_name": "Taco Bell Cantina",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-07-17T21:23:39.788610+00:00"
+    },
     {
       "store_number": "034163",
       "store_name": "Taco Bell",
@@ -9414,8 +9464,8 @@
     }
   ],
   "activity_summary": {
-    "added": 377,
-    "removed": 374,
+    "added": 380,
+    "removed": 376,
     "price_changed": 161,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13934,6 +13984,15 @@
       "FL"
     ],
     [
+      "033095",
+      26.619665670053507,
+      -80.14290332794195,
+      3.19,
+      "Taco Bell",
+      "Greenacres",
+      "FL"
+    ],
+    [
       "018619",
       45.52651651124257,
       -122.53934533150641,
@@ -14733,6 +14792,15 @@
       "Taco Bell",
       "Texarkana",
       "TX"
+    ],
+    [
+      "004462",
+      34.77922321676458,
+      -96.66959092767684,
+      3.29,
+      "Taco Bell",
+      "Ada",
+      "OK"
     ],
     [
       "002439",
@@ -15923,6 +15991,15 @@
       "MA"
     ],
     [
+      "031459",
+      34.656000269026165,
+      -99.3346157670021,
+      3.29,
+      "Taco Bell",
+      "Altus",
+      "OK"
+    ],
+    [
       "034420",
       39.16812123369118,
       -94.49613853359551,
@@ -16004,15 +16081,6 @@
       "NC"
     ],
     [
-      "034150",
-      40.64580109531123,
-      -73.95834142593563,
-      3.39,
-      "Taco Bell Cantina",
-      "Brooklyn",
-      "NY"
-    ],
-    [
       "038783",
       39.050835,
       -94.5884833,
@@ -16028,15 +16096,6 @@
       3.59,
       "Taco Bell",
       "San Diego",
-      "CA"
-    ],
-    [
-      "023050",
-      35.64029622449355,
-      -120.6879911149355,
-      3.59,
-      "Taco Bell",
-      "Paso Robles",
       "CA"
     ]
   ],

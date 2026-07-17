@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.2,
-  "recent_price_change_pct": 0.0202,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.28,
+    "avg": 9.25,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.48,
-    "store_count": 7
+    "std_dev": 0.46,
+    "store_count": 8
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$9.99",
@@ -36,8 +36,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.28,
-      "store_count": 7
+      "avg_price": 9.25,
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -77,6 +77,13 @@
       "price": 9.0
     },
     {
+      "store_number": "027970",
+      "name": "Taco Bell",
+      "city": "Merritt Island",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "027971",
       "name": "Taco Bell",
       "city": "Cocoa Beach",
@@ -109,6 +116,7 @@
     "040730",
     "023302",
     "027988",
+    "027970",
     "027971",
     "034163"
   ],
@@ -142,6 +150,13 @@
       "price": 9.0
     },
     {
+      "store_number": "027970",
+      "name": "Taco Bell",
+      "city": "Merritt Island",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "027988",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -164,6 +179,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027970",
+      "store_name": "Taco Bell",
+      "city": "Merritt Island",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-17T21:26:02.485870+00:00"
+    },
     {
       "store_number": "042928",
       "store_name": "Taco Bell",
@@ -4436,7 +4461,7 @@
     }
   ],
   "activity_summary": {
-    "added": 217,
+    "added": 218,
     "removed": 210,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4505,6 +4530,15 @@
       "FL"
     ],
     [
+      "027970",
+      28.36376816960354,
+      -80.69987878203392,
+      9.0,
+      "Taco Bell",
+      "Merritt Island",
+      "FL"
+    ],
+    [
       "027971",
       28.352087603671087,
       -80.60836730221422,
@@ -4542,6 +4576,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-16",
+  "last_seen_date": "2026-07-17",
   "peak_availability_pct": 1.2
 }

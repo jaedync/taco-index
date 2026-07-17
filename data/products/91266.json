@@ -21,12 +21,12 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.2,
-    "store_count": 161
+    "store_count": 162
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 16
+      "count": 15
     },
     {
       "bucket": "$3.09",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 89
+      "count": 90
     },
     {
       "bucket": "$3.29",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$3.69",
-      "count": 16
+      "count": 17
     },
     {
       "bucket": "$3.99",
@@ -65,12 +65,12 @@
     {
       "state": "GA",
       "avg_price": 3.36,
-      "store_count": 69
+      "store_count": 71
     },
     {
       "state": "TN",
-      "avg_price": 3.24,
-      "store_count": 13
+      "avg_price": 3.26,
+      "store_count": 12
     },
     {
       "state": "AL",
@@ -97,13 +97,6 @@
       "name": "Taco Bell",
       "city": "Clarkesville",
       "state": "GA",
-      "price": 2.99
-    },
-    {
-      "store_number": "037050",
-      "name": "Taco Bell",
-      "city": "Wartburg",
-      "state": "TN",
       "price": 2.99
     },
     {
@@ -154,12 +147,18 @@
       "city": "Doraville",
       "state": "GA",
       "price": 2.99
+    },
+    {
+      "store_number": "041835",
+      "name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "price": 2.99
     }
   ],
   "min_price_store_numbers": [
     "042582",
     "042583",
-    "037050",
     "032542",
     "037038",
     "003824",
@@ -247,6 +246,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003779",
+      "store_name": "Taco Bell",
+      "city": "Cartersville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-07-17T21:26:04.065400+00:00"
+    },
+    {
+      "store_number": "037050",
+      "store_name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-07-17T21:24:15.761984+00:00"
+    },
+    {
+      "store_number": "041260",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-07-17T21:23:39.861845+00:00"
+    },
     {
       "store_number": "026837",
       "store_name": "Taco Bell",
@@ -15599,14 +15628,14 @@
     }
   ],
   "activity_summary": {
-    "added": 688,
-    "removed": 527,
+    "added": 690,
+    "removed": 528,
     "price_changed": 320,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 260,
-  "calories_min": 260,
-  "calories_max": 260,
+  "calories_from_menu": 210,
+  "calories_min": 210,
+  "calories_max": 210,
   "combo_groups": [
     {
       "group_id": "673",
@@ -15639,15 +15668,6 @@
       "Taco Bell",
       "Clarkesville",
       "GA"
-    ],
-    [
-      "037050",
-      36.10306709232148,
-      -84.58455685815763,
-      2.99,
-      "Taco Bell",
-      "Wartburg",
-      "TN"
     ],
     [
       "032542",
@@ -16316,6 +16336,15 @@
       "AL"
     ],
     [
+      "003779",
+      34.16686405454833,
+      -84.78785862030236,
+      3.19,
+      "Taco Bell",
+      "Cartersville",
+      "GA"
+    ],
+    [
       "043133",
       33.46912773500816,
       -82.06502409700109,
@@ -16910,6 +16939,15 @@
       "GA"
     ],
     [
+      "041260",
+      33.9951,
+      -83.3367,
+      3.69,
+      "Taco Bell",
+      "Athens",
+      "GA"
+    ],
+    [
       "041261",
       34.103918515573575,
       -83.97431800962246,
@@ -17073,6 +17111,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-16",
+  "last_seen_date": "2026-07-17",
   "peak_availability_pct": 5.9
 }
