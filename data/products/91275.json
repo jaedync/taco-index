@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 10.43,
+    "avg": 10.41,
     "min": 9.49,
     "max": 10.99,
-    "median": 10.39,
+    "median": 10.29,
     "std_dev": 0.39,
-    "store_count": 24
+    "store_count": 23
   },
   "histogram": [
     {
@@ -53,10 +53,6 @@
       "count": 3
     },
     {
-      "bucket": "$10.79",
-      "count": 1
-    },
-    {
       "bucket": "$10.89",
       "count": 1
     },
@@ -68,8 +64,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 10.44,
-      "store_count": 11
+      "avg_price": 10.4,
+      "store_count": 10
     },
     {
       "state": "FL",
@@ -196,13 +192,6 @@
       "price": 10.89
     },
     {
-      "store_number": "004317",
-      "name": "Taco Bell",
-      "city": "Gainesville",
-      "state": "GA",
-      "price": 10.79
-    },
-    {
       "store_number": "026073",
       "name": "Taco Bell",
       "city": "Douglasville",
@@ -236,9 +225,26 @@
       "city": "Defuniak Springs",
       "state": "FL",
       "price": 10.59
+    },
+    {
+      "store_number": "042123",
+      "name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "price": 10.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004317",
+      "store_name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.79,
+      "new_price": null,
+      "observed_at": "2026-07-18T22:20:09.910254+00:00"
+    },
     {
       "store_number": "004317",
       "store_name": "Taco Bell",
@@ -1462,7 +1468,7 @@
   ],
   "activity_summary": {
     "added": 73,
-    "removed": 49,
+    "removed": 50,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1674,15 +1680,6 @@
       "GA"
     ],
     [
-      "004317",
-      34.286228837677136,
-      -83.84069511297639,
-      10.79,
-      "Taco Bell",
-      "Gainesville",
-      "GA"
-    ],
-    [
       "031757",
       35.987211413309275,
       -83.60585430267747,
@@ -1720,6 +1717,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-17",
+  "last_seen_date": "2026-07-18",
   "peak_availability_pct": 0.3
 }

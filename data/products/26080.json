@@ -21,19 +21,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 14
+    "store_count": 15
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 14
+      "count": 15
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 7.0,
-      "store_count": 14
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -136,9 +136,17 @@
     "030390",
     "033285",
     "030377",
-    "033500"
+    "033500",
+    "030392"
   ],
   "priciest_stores": [
+    {
+      "store_number": "030392",
+      "name": "Taco Bell",
+      "city": "Ponca City",
+      "state": "OK",
+      "price": 7.0
+    },
     {
       "store_number": "033500",
       "name": "Taco Bell",
@@ -201,16 +209,19 @@
       "city": "Chickasha",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "033499",
-      "name": "Taco Bell",
-      "city": "Seminole",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030392",
+      "store_name": "Taco Bell",
+      "city": "Ponca City",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-18T22:20:14.042670+00:00"
+    },
     {
       "store_number": "034943",
       "store_name": "Taco Bell",
@@ -523,7 +534,7 @@
     }
   ],
   "activity_summary": {
-    "added": 19,
+    "added": 20,
     "removed": 12,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -688,6 +699,15 @@
       7.0,
       "Taco Bell",
       "Guthrie",
+      "OK"
+    ],
+    [
+      "030392",
+      36.738192001107684,
+      -97.06987380981445,
+      7.0,
+      "Taco Bell",
+      "Ponca City",
       "OK"
     ]
   ],

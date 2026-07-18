@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 2.5,
   "price_stats": {
-    "avg": 8.75,
+    "avg": 8.76,
     "min": 7.79,
     "max": 9.49,
     "median": 8.99,
     "std_dev": 0.59,
-    "store_count": 195
+    "store_count": 196
   },
   "histogram": [
     {
       "bucket": "$7.79",
-      "count": 32
+      "count": 31
     },
     {
       "bucket": "$8.19",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$8.89",
-      "count": 14
+      "count": 15
     },
     {
       "bucket": "$8.99",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$9.49",
-      "count": 34
+      "count": 35
     }
   ],
   "state_prices": [
@@ -77,18 +77,18 @@
     },
     {
       "state": "MI",
-      "avg_price": 8.94,
-      "store_count": 114
+      "avg_price": 8.95,
+      "store_count": 115
+    },
+    {
+      "state": "OH",
+      "avg_price": 8.39,
+      "store_count": 60
     },
     {
       "state": "IN",
       "avg_price": 8.39,
       "store_count": 10
-    },
-    {
-      "state": "OH",
-      "avg_price": 8.38,
-      "store_count": 60
     }
   ],
   "nutrition": {
@@ -142,13 +142,6 @@
       "price": 7.79
     },
     {
-      "store_number": "001937",
-      "name": "Taco Bell",
-      "city": "Ashtabula",
-      "state": "OH",
-      "price": 7.79
-    },
-    {
       "store_number": "040535",
       "name": "Taco Bell",
       "city": "East Cleveland",
@@ -170,9 +163,16 @@
       "price": 7.79
     },
     {
-      "store_number": "001590",
+      "store_number": "002147",
       "name": "Taco Bell",
-      "city": "North Olmsted",
+      "city": "Euclid",
+      "state": "OH",
+      "price": 7.79
+    },
+    {
+      "store_number": "003825",
+      "name": "Taco Bell",
+      "city": "Cuyahoga Falls",
       "state": "OH",
       "price": 7.79
     }
@@ -183,11 +183,9 @@
     "023198",
     "021478",
     "017264",
-    "001937",
     "040535",
     "002086",
     "028400",
-    "001590",
     "002147",
     "003825",
     "002114",
@@ -197,6 +195,7 @@
     "003804",
     "001988",
     "004024",
+    "026277",
     "040536",
     "024764",
     "002084",
@@ -284,6 +283,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026277",
+      "store_name": "Taco Bell",
+      "city": "North Royalton",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-07-18T22:23:14.237888+00:00"
+    },
+    {
+      "store_number": "002762",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-07-18T22:19:41.091213+00:00"
+    },
+    {
+      "store_number": "001279",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.89,
+      "observed_at": "2026-07-18T22:08:42.459526+00:00"
+    },
+    {
+      "store_number": "001590",
+      "store_name": "Taco Bell",
+      "city": "North Olmsted",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 7.79,
+      "new_price": null,
+      "observed_at": "2026-07-18T22:08:27.136186+00:00"
+    },
+    {
+      "store_number": "001937",
+      "store_name": "Taco Bell",
+      "city": "Ashtabula",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 7.79,
+      "new_price": null,
+      "observed_at": "2026-07-18T22:07:54.179145+00:00"
+    },
     {
       "store_number": "020199",
       "store_name": "Taco Bell",
@@ -22946,8 +22995,8 @@
     }
   ],
   "activity_summary": {
-    "added": 962,
-    "removed": 766,
+    "added": 965,
+    "removed": 768,
     "price_changed": 538,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -23015,15 +23064,6 @@
       "OH"
     ],
     [
-      "001937",
-      41.86218318727714,
-      -80.79882144927979,
-      7.79,
-      "Taco Bell",
-      "Ashtabula",
-      "OH"
-    ],
-    [
       "040535",
       41.52477514962175,
       -81.58726255092614,
@@ -23048,15 +23088,6 @@
       7.79,
       "Taco Bell",
       "Akron",
-      "OH"
-    ],
-    [
-      "001590",
-      41.42821201754905,
-      -81.89038395881659,
-      7.79,
-      "Taco Bell",
-      "North Olmsted",
       "OH"
     ],
     [
@@ -23138,6 +23169,15 @@
       7.79,
       "Taco Bell",
       "Tallmadge",
+      "OH"
+    ],
+    [
+      "026277",
+      41.31343693356127,
+      -81.73114904220498,
+      7.79,
+      "Taco Bell",
+      "North Royalton",
       "OH"
     ],
     [
@@ -23795,6 +23835,15 @@
       8.89,
       "Taco Bell",
       "Akron",
+      "OH"
+    ],
+    [
+      "001279",
+      40.79441302771492,
+      -81.43915767967599,
+      8.89,
+      "Taco Bell",
+      "Canton",
       "OH"
     ],
     [
@@ -24581,6 +24630,15 @@
       "MI"
     ],
     [
+      "002762",
+      42.25524077268508,
+      -84.36797891558854,
+      9.49,
+      "Taco Bell",
+      "Jackson",
+      "MI"
+    ],
+    [
       "023362",
       42.835950413677665,
       -84.21738092602936,
@@ -24726,6 +24784,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-17",
+  "last_seen_date": "2026-07-18",
   "peak_availability_pct": 6.6
 }

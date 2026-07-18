@@ -20,13 +20,13 @@
     "min": 7.59,
     "max": 9.99,
     "median": 8.79,
-    "std_dev": 0.63,
-    "store_count": 583
+    "std_dev": 0.64,
+    "store_count": 590
   },
   "histogram": [
     {
       "bucket": "$7.59",
-      "count": 70
+      "count": 76
     },
     {
       "bucket": "$7.79",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$9.39",
-      "count": 124
+      "count": 125
     },
     {
       "bucket": "$9.99",
@@ -93,8 +93,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 8.75,
-      "store_count": 329
+      "avg_price": 8.76,
+      "store_count": 330
     },
     {
       "state": "IN",
@@ -103,8 +103,8 @@
     },
     {
       "state": "OH",
-      "avg_price": 8.43,
-      "store_count": 193
+      "avg_price": 8.41,
+      "store_count": 199
     }
   ],
   "nutrition": {
@@ -144,10 +144,24 @@
       "price": 7.59
     },
     {
+      "store_number": "041372",
+      "name": "Taco Bell",
+      "city": "Grafton",
+      "state": "OH",
+      "price": 7.59
+    },
+    {
       "store_number": "041864",
       "name": "Taco Bell",
       "city": "Aliquippa",
       "state": "PA",
+      "price": 7.59
+    },
+    {
+      "store_number": "041751",
+      "name": "Taco Bell",
+      "city": "Aurora",
+      "state": "OH",
       "price": 7.59
     },
     {
@@ -172,23 +186,9 @@
       "price": 7.59
     },
     {
-      "store_number": "036406",
+      "store_number": "036303",
       "name": "Taco Bell",
-      "city": "Kent",
-      "state": "OH",
-      "price": 7.59
-    },
-    {
-      "store_number": "036405",
-      "name": "Taco Bell",
-      "city": "North Randall",
-      "state": "OH",
-      "price": 7.59
-    },
-    {
-      "store_number": "042063",
-      "name": "Taco Bell",
-      "city": "North Royalton",
+      "city": "Mentor",
       "state": "OH",
       "price": 7.59
     }
@@ -197,10 +197,13 @@
     "041112",
     "041411",
     "040613",
+    "041372",
     "041864",
+    "041751",
     "041937",
     "035832",
     "036302",
+    "036303",
     "036406",
     "036405",
     "042063",
@@ -224,10 +227,12 @@
     "002147",
     "022444",
     "030174",
+    "004848",
     "002114",
     "002279",
     "040530",
     "026426",
+    "005283",
     "020465",
     "040531",
     "024235",
@@ -241,6 +246,7 @@
     "039687",
     "024764",
     "002084",
+    "015453",
     "002982",
     "020014",
     "022455",
@@ -272,6 +278,13 @@
       "city": "Novi",
       "state": "MI",
       "price": 9.99
+    },
+    {
+      "store_number": "002762",
+      "name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MI",
+      "price": 9.39
     },
     {
       "store_number": "042634",
@@ -328,16 +341,79 @@
       "city": "Dearborn",
       "state": "MI",
       "price": 9.39
-    },
-    {
-      "store_number": "040524",
-      "name": "Taco Bell",
-      "city": "Corunna",
-      "state": "MI",
-      "price": 9.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041751",
+      "store_name": "Taco Bell",
+      "city": "Aurora",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.59,
+      "observed_at": "2026-07-18T22:23:09.706241+00:00"
+    },
+    {
+      "store_number": "002762",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.39,
+      "observed_at": "2026-07-18T22:19:41.091213+00:00"
+    },
+    {
+      "store_number": "015453",
+      "store_name": "Taco Bell",
+      "city": "Twinsburg",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.59,
+      "observed_at": "2026-07-18T22:13:18.946587+00:00"
+    },
+    {
+      "store_number": "005283",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.59,
+      "observed_at": "2026-07-18T22:08:42.546663+00:00"
+    },
+    {
+      "store_number": "004848",
+      "store_name": "Taco Bell",
+      "city": "Brunswick",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.59,
+      "observed_at": "2026-07-18T22:08:34.189227+00:00"
+    },
+    {
+      "store_number": "036303",
+      "store_name": "Taco Bell",
+      "city": "Mentor",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.59,
+      "observed_at": "2026-07-18T22:06:11.849431+00:00"
+    },
+    {
+      "store_number": "041372",
+      "store_name": "Taco Bell",
+      "city": "Grafton",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.59,
+      "observed_at": "2026-07-18T21:56:35.157746+00:00"
+    },
     {
       "store_number": "020199",
       "store_name": "Taco Bell",
@@ -12670,7 +12746,7 @@
     }
   ],
   "activity_summary": {
-    "added": 650,
+    "added": 657,
     "removed": 63,
     "price_changed": 520,
     "since": "2026-03-31T00:00:00+00:00"
@@ -12708,6 +12784,15 @@
       "MI"
     ],
     [
+      "041372",
+      41.28488281299361,
+      -82.06365215828382,
+      7.59,
+      "Taco Bell",
+      "Grafton",
+      "OH"
+    ],
+    [
       "041864",
       40.60283510187722,
       -80.27814342446456,
@@ -12715,6 +12800,15 @@
       "Taco Bell",
       "Aliquippa",
       "PA"
+    ],
+    [
+      "041751",
+      41.35231616568379,
+      -81.38958916669499,
+      7.59,
+      "Taco Bell",
+      "Aurora",
+      "OH"
     ],
     [
       "041937",
@@ -12741,6 +12835,15 @@
       7.59,
       "Taco Bell",
       "Brunswick",
+      "OH"
+    ],
+    [
+      "036303",
+      41.68321629509504,
+      -81.34072896588685,
+      7.59,
+      "Taco Bell",
+      "Mentor",
       "OH"
     ],
     [
@@ -12951,6 +13054,15 @@
       "OH"
     ],
     [
+      "004848",
+      41.23790110654136,
+      -81.80281962454217,
+      7.59,
+      "Taco Bell",
+      "Brunswick",
+      "OH"
+    ],
+    [
       "002114",
       41.62477718703549,
       -81.43878176808357,
@@ -12984,6 +13096,15 @@
       7.59,
       "Taco Bell",
       "Stow",
+      "OH"
+    ],
+    [
+      "005283",
+      41.52009893986867,
+      -81.51647195888482,
+      7.59,
+      "Taco Bell",
+      "Cleveland",
       "OH"
     ],
     [
@@ -13101,6 +13222,15 @@
       7.59,
       "Taco Bell",
       "Parma",
+      "OH"
+    ],
+    [
+      "015453",
+      41.30800921718368,
+      -81.44084371161853,
+      7.59,
+      "Taco Bell",
+      "Twinsburg",
       "OH"
     ],
     [
@@ -17919,6 +18049,15 @@
       "MI"
     ],
     [
+      "002762",
+      42.25524077268508,
+      -84.36797891558854,
+      9.39,
+      "Taco Bell",
+      "Jackson",
+      "MI"
+    ],
+    [
       "023248",
       42.49201883496908,
       -83.46934098565771,
@@ -17929,6 +18068,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-17",
+  "last_seen_date": "2026-07-18",
   "peak_availability_pct": 7.3
 }

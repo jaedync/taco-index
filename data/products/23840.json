@@ -21,19 +21,19 @@
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 25
+    "store_count": 24
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 25
+      "count": 24
     }
   ],
   "state_prices": [
     {
       "state": "IL",
       "avg_price": 11.0,
-      "store_count": 21
+      "store_count": 20
     }
   ],
   "nutrition": {
@@ -146,7 +146,6 @@
     "030539",
     "031070",
     "037359",
-    "042746",
     "032134"
   ],
   "priciest_stores": [
@@ -154,13 +153,6 @@
       "store_number": "032134",
       "name": "Taco Bell",
       "city": "Calumet Park",
-      "state": "IL",
-      "price": 11.0
-    },
-    {
-      "store_number": "042746",
-      "name": "Taco Bell",
-      "city": "Naperville",
       "state": "IL",
       "price": 11.0
     },
@@ -219,9 +211,26 @@
       "city": "Yorkville",
       "state": "IL",
       "price": 11.0
+    },
+    {
+      "store_number": "027896",
+      "name": "Taco Bell",
+      "city": "Ottawa",
+      "state": "IL",
+      "price": 11.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042746",
+      "store_name": "Taco Bell",
+      "city": "Naperville",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-07-18T22:20:28.392912+00:00"
+    },
     {
       "store_number": "030401",
       "store_name": "Taco Bell",
@@ -1215,7 +1224,7 @@
   ],
   "activity_summary": {
     "added": 62,
-    "removed": 37,
+    "removed": 38,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1457,15 +1466,6 @@
       "IL"
     ],
     [
-      "042746",
-      41.708142656164135,
-      -88.20640262836726,
-      11.0,
-      "Taco Bell",
-      "Naperville",
-      "IL"
-    ],
-    [
       "032134",
       41.66128890772303,
       -87.6612511867838,
@@ -1476,6 +1476,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-17",
+  "last_seen_date": "2026-07-18",
   "peak_availability_pct": 0.3
 }

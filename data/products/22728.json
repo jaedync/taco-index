@@ -13,20 +13,16 @@
   "peak_30d_pct": 3.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
-  "availability_pct": 3.3,
+  "availability_pct": 3.2,
   "price_stats": {
-    "avg": 0.99,
-    "min": 0.5,
+    "avg": 1.0,
+    "min": 0.55,
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 251
+    "store_count": 250
   },
   "histogram": [
-    {
-      "bucket": "$0.50",
-      "count": 1
-    },
     {
       "bucket": "$0.55",
       "count": 1
@@ -41,7 +37,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$0.79",
@@ -93,7 +89,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 21
+      "count": 22
     },
     {
       "bucket": "$1.59",
@@ -128,8 +124,8 @@
     },
     {
       "state": "IN",
-      "avg_price": 0.98,
-      "store_count": 27
+      "avg_price": 0.99,
+      "store_count": 28
     },
     {
       "state": "OH",
@@ -142,14 +138,14 @@
       "store_count": 10
     },
     {
+      "state": "TN",
+      "avg_price": 0.93,
+      "store_count": 5
+    },
+    {
       "state": "KS",
       "avg_price": 0.91,
       "store_count": 9
-    },
-    {
-      "state": "TN",
-      "avg_price": 0.9,
-      "store_count": 6
     },
     {
       "state": "MN",
@@ -188,13 +184,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "042841",
-      "name": "Taco Bell",
-      "city": "Cape Coral",
-      "state": "FL",
-      "price": 0.5
-    },
-    {
       "store_number": "030443",
       "name": "Taco Bell",
       "city": "Eagle",
@@ -230,13 +219,6 @@
       "price": 0.75
     },
     {
-      "store_number": "034436",
-      "name": "Taco Bell",
-      "city": "La Vergne",
-      "state": "TN",
-      "price": 0.75
-    },
-    {
       "store_number": "042476",
       "name": "Taco Bell",
       "city": "Newcastle",
@@ -256,10 +238,24 @@
       "city": "Knoxville",
       "state": "TN",
       "price": 0.8
+    },
+    {
+      "store_number": "035832",
+      "name": "Taco Bell",
+      "city": "Rocky River",
+      "state": "OH",
+      "price": 0.8
+    },
+    {
+      "store_number": "021478",
+      "name": "Taco Bell",
+      "city": "Sandusky",
+      "state": "OH",
+      "price": 0.8
     }
   ],
   "min_price_store_numbers": [
-    "042841"
+    "030443"
   ],
   "priciest_stores": [
     {
@@ -268,6 +264,13 @@
       "city": "Williston",
       "state": "ND",
       "price": 1.59
+    },
+    {
+      "store_number": "042633",
+      "name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "price": 1.49
     },
     {
       "store_number": "037841",
@@ -324,16 +327,39 @@
       "city": "Delphos",
       "state": "OH",
       "price": 1.49
-    },
-    {
-      "store_number": "042654",
-      "name": "Taco Bell",
-      "city": "Van Wert",
-      "state": "OH",
-      "price": 1.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042841",
+      "store_name": "Taco Bell",
+      "city": "Cape Coral",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-07-18T22:20:03.930462+00:00"
+    },
+    {
+      "store_number": "042633",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-07-18T22:16:59.412236+00:00"
+    },
+    {
+      "store_number": "034436",
+      "store_name": "Taco Bell",
+      "city": "La Vergne",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 0.75,
+      "new_price": null,
+      "observed_at": "2026-07-18T22:08:42.929645+00:00"
+    },
     {
       "store_number": "017387",
       "store_name": "Taco Bell",
@@ -6016,8 +6042,8 @@
     }
   ],
   "activity_summary": {
-    "added": 315,
-    "removed": 253,
+    "added": 316,
+    "removed": 255,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6026,15 +6052,6 @@
   "calories_max": 60,
   "combo_groups": [],
   "map_data": [
-    [
-      "042841",
-      26.621883702519558,
-      -81.94119036197668,
-      0.5,
-      "Taco Bell",
-      "Cape Coral",
-      "FL"
-    ],
     [
       "030443",
       43.66429300343321,
@@ -6079,15 +6096,6 @@
       "Taco Bell",
       "Oconomowoc",
       "WI"
-    ],
-    [
-      "034436",
-      36.02089662405677,
-      -86.57775200438664,
-      0.75,
-      "Taco Bell",
-      "La Vergne",
-      "TN"
     ],
     [
       "042476",
@@ -8277,6 +8285,15 @@
       "MI"
     ],
     [
+      "042633",
+      41.027042755310184,
+      -85.1680694595143,
+      1.49,
+      "Taco Bell",
+      "Fort Wayne",
+      "IN"
+    ],
+    [
       "041883",
       48.173424515469144,
       -103.62728089416856,
@@ -8287,6 +8304,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-07-17",
+  "last_seen_date": "2026-07-18",
   "peak_availability_pct": 3.0
 }
