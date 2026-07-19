@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 6.74,
+    "avg": 6.73,
     "min": 6.49,
     "max": 7.49,
     "median": 6.49,
-    "std_dev": 0.39,
-    "store_count": 21
+    "std_dev": 0.38,
+    "store_count": 22
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$6.69",
@@ -155,7 +155,8 @@
     "043141",
     "041838",
     "042577",
-    "042126"
+    "042126",
+    "037050"
   ],
   "priciest_stores": [
     {
@@ -215,21 +216,31 @@
       "price": 6.69
     },
     {
+      "store_number": "037050",
+      "name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "price": 6.49
+    },
+    {
       "store_number": "042126",
       "name": "Taco Bell",
       "city": "Defuniak Springs",
       "state": "FL",
       "price": 6.49
-    },
-    {
-      "store_number": "042577",
-      "name": "Taco Bell",
-      "city": "Dallas",
-      "state": "GA",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037050",
+      "store_name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-07-19T21:38:29.879185+00:00"
+    },
     {
       "store_number": "039919",
       "store_name": "Taco Bell",
@@ -1432,12 +1443,12 @@
     }
   ],
   "activity_summary": {
-    "added": 59,
+    "added": 60,
     "removed": 61,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 90,
+  "calories_from_menu": 640,
   "calories_min": 90,
   "calories_max": 90,
   "combo_groups": [
@@ -1577,6 +1588,15 @@
       "Taco Bell",
       "Defuniak Springs",
       "FL"
+    ],
+    [
+      "037050",
+      36.10306709232148,
+      -84.58455685815763,
+      6.49,
+      "Taco Bell",
+      "Wartburg",
+      "TN"
     ],
     [
       "040706",

@@ -14,14 +14,14 @@
   "peak_30d_pct": 2.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 2.1,
+  "availability_pct": 2.2,
   "price_stats": {
-    "avg": 6.4,
+    "avg": 6.41,
     "min": 5.29,
     "max": 8.19,
     "median": 6.19,
-    "std_dev": 0.69,
-    "store_count": 164
+    "std_dev": 0.7,
+    "store_count": 167
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 56
+      "count": 57
     },
     {
       "bucket": "$6.29",
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$6.39",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$6.49",
@@ -90,19 +90,19 @@
     },
     {
       "bucket": "$8.19",
-      "count": 16
+      "count": 17
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.65,
-      "store_count": 70
+      "avg_price": 6.68,
+      "store_count": 71
     },
     {
       "state": "TN",
-      "avg_price": 6.33,
-      "store_count": 14
+      "avg_price": 6.32,
+      "store_count": 16
     },
     {
       "state": "AL",
@@ -205,6 +205,13 @@
       "price": 8.19
     },
     {
+      "store_number": "041321",
+      "name": "Taco Bell",
+      "city": "Grayson",
+      "state": "GA",
+      "price": 8.19
+    },
+    {
       "store_number": "041243",
       "name": "Taco Bell",
       "city": "Marietta",
@@ -259,16 +266,39 @@
       "city": "Peachtree Corners",
       "state": "GA",
       "price": 8.19
-    },
-    {
-      "store_number": "041322",
-      "name": "Taco Bell",
-      "city": "Dacula",
-      "state": "GA",
-      "price": 8.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041321",
+      "store_name": "Taco Bell",
+      "city": "Grayson",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.19,
+      "observed_at": "2026-07-19T21:40:13.146621+00:00"
+    },
+    {
+      "store_number": "029022",
+      "store_name": "Taco Bell",
+      "city": "East Ridge",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.39,
+      "observed_at": "2026-07-19T21:38:51.690854+00:00"
+    },
+    {
+      "store_number": "029971",
+      "store_name": "Taco Bell",
+      "city": "Madisonville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-07-19T21:38:50.129426+00:00"
+    },
     {
       "store_number": "041213",
       "store_name": "Taco Bell",
@@ -14271,7 +14301,7 @@
     }
   ],
   "activity_summary": {
-    "added": 693,
+    "added": 696,
     "removed": 529,
     "price_changed": 178,
     "since": "2026-03-31T00:00:00+00:00"
@@ -14907,6 +14937,15 @@
       "AL"
     ],
     [
+      "029971",
+      35.517340593671896,
+      -84.357991317791,
+      6.19,
+      "Taco Bell",
+      "Madisonville",
+      "TN"
+    ],
+    [
       "029144",
       33.16753465984693,
       -87.52459099562482,
@@ -15328,6 +15367,15 @@
       "Taco Bell",
       "Gardendale",
       "AL"
+    ],
+    [
+      "029022",
+      34.989430945933755,
+      -85.21288587714031,
+      6.39,
+      "Taco Bell",
+      "East Ridge",
+      "TN"
     ],
     [
       "029717",
@@ -15762,6 +15810,15 @@
       "GA"
     ],
     [
+      "041321",
+      33.89951093273385,
+      -83.96198987746997,
+      8.19,
+      "Taco Bell",
+      "Grayson",
+      "GA"
+    ],
+    [
       "041239",
       33.947912340193156,
       -84.51838984153255,
@@ -15772,6 +15829,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-18",
+  "last_seen_date": "2026-07-19",
   "peak_availability_pct": 5.9
 }

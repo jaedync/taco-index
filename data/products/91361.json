@@ -22,19 +22,19 @@
     "max": 3.0,
     "median": 3.0,
     "std_dev": 0.0,
-    "store_count": 115
+    "store_count": 117
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 115
+      "count": 117
     }
   ],
   "state_prices": [
     {
       "state": "TN",
       "avg_price": 3.0,
-      "store_count": 58
+      "store_count": 59
     },
     {
       "state": "GA",
@@ -243,9 +243,25 @@
     "034026",
     "041215",
     "039924",
-    "041220"
+    "041220",
+    "037050",
+    "042124"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042124",
+      "name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "price": 3.0
+    },
+    {
+      "store_number": "037050",
+      "name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "price": 3.0
+    },
     {
       "store_number": "041220",
       "name": "Taco Bell",
@@ -301,23 +317,29 @@
       "city": "Oak Ridge",
       "state": "TN",
       "price": 3.0
-    },
-    {
-      "store_number": "040706",
-      "name": "Taco Bell",
-      "city": "Bonaire",
-      "state": "GA",
-      "price": 3.0
-    },
-    {
-      "store_number": "029033",
-      "name": "Taco Bell",
-      "city": "Clinton",
-      "state": "TN",
-      "price": 3.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042124",
+      "store_name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-19T21:40:50.761630+00:00"
+    },
+    {
+      "store_number": "037050",
+      "store_name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-19T21:38:29.879185+00:00"
+    },
     {
       "store_number": "041220",
       "store_name": "Taco Bell",
@@ -1550,7 +1572,7 @@
     }
   ],
   "activity_summary": {
-    "added": 119,
+    "added": 121,
     "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2594,9 +2616,27 @@
       "Taco Bell",
       "Fayetteville",
       "GA"
+    ],
+    [
+      "037050",
+      36.10306709232148,
+      -84.58455685815763,
+      3.0,
+      "Taco Bell",
+      "Wartburg",
+      "TN"
+    ],
+    [
+      "042124",
+      30.522978445511598,
+      -86.49525940418243,
+      3.0,
+      "Taco Bell",
+      "Niceville",
+      "FL"
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-18",
+  "last_seen_date": "2026-07-19",
   "peak_availability_pct": 1.4
 }
