@@ -21,19 +21,19 @@
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 24
+    "store_count": 21
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 24
+      "count": 21
     }
   ],
   "state_prices": [
     {
       "state": "IL",
       "avg_price": 11.0,
-      "store_count": 20
+      "store_count": 19
     }
   ],
   "nutrition": {
@@ -51,13 +51,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "040019",
-      "name": "Taco Bell",
-      "city": "Cedar Lake",
-      "state": "IN",
-      "price": 11.0
-    },
     {
       "store_number": "040018",
       "name": "Taco Bell",
@@ -120,10 +113,16 @@
       "city": "Wauconda",
       "state": "IL",
       "price": 11.0
+    },
+    {
+      "store_number": "002513",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 11.0
     }
   ],
   "min_price_store_numbers": [
-    "040019",
     "040018",
     "041795",
     "041497",
@@ -141,9 +140,7 @@
     "042745",
     "019629",
     "032491",
-    "026734",
     "032082",
-    "030539",
     "031070",
     "037359",
     "032134"
@@ -171,24 +168,10 @@
       "price": 11.0
     },
     {
-      "store_number": "030539",
-      "name": "Taco Bell",
-      "city": "Streator",
-      "state": "IL",
-      "price": 11.0
-    },
-    {
       "store_number": "032082",
       "name": "Taco Bell",
       "city": "Mundelein",
       "state": "IL",
-      "price": 11.0
-    },
-    {
-      "store_number": "026734",
-      "name": "Taco Bell",
-      "city": "La Porte",
-      "state": "IN",
       "price": 11.0
     },
     {
@@ -218,9 +201,53 @@
       "city": "Ottawa",
       "state": "IL",
       "price": 11.0
+    },
+    {
+      "store_number": "032084",
+      "name": "Taco Bell",
+      "city": "McHenry",
+      "state": "IL",
+      "price": 11.0
+    },
+    {
+      "store_number": "026742",
+      "name": "Taco Bell",
+      "city": "New Lenox",
+      "state": "IL",
+      "price": 11.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030539",
+      "store_name": "Taco Bell",
+      "city": "Streator",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-07-20T21:47:21.897410+00:00"
+    },
+    {
+      "store_number": "026734",
+      "store_name": "Taco Bell",
+      "city": "La Porte",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-07-20T21:47:20.904515+00:00"
+    },
+    {
+      "store_number": "040019",
+      "store_name": "Taco Bell",
+      "city": "Cedar Lake",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-07-20T21:42:33.897623+00:00"
+    },
     {
       "store_number": "042746",
       "store_name": "Taco Bell",
@@ -1224,7 +1251,7 @@
   ],
   "activity_summary": {
     "added": 62,
-    "removed": 38,
+    "removed": 41,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1258,15 +1285,6 @@
     }
   ],
   "map_data": [
-    [
-      "040019",
-      41.37634875376213,
-      -87.46939630871344,
-      11.0,
-      "Taco Bell",
-      "Cedar Lake",
-      "IN"
-    ],
     [
       "040018",
       41.568922522295324,
@@ -1421,30 +1439,12 @@
       "IN"
     ],
     [
-      "026734",
-      41.616210338805615,
-      -86.73256748915264,
-      11.0,
-      "Taco Bell",
-      "La Porte",
-      "IN"
-    ],
-    [
       "032082",
       42.239322778359394,
       -87.99372491240774,
       11.0,
       "Taco Bell",
       "Mundelein",
-      "IL"
-    ],
-    [
-      "030539",
-      41.14373364756433,
-      -88.83622653320339,
-      11.0,
-      "Taco Bell",
-      "Streator",
       "IL"
     ],
     [
@@ -1476,6 +1476,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-19",
+  "last_seen_date": "2026-07-20",
   "peak_availability_pct": 0.3
 }

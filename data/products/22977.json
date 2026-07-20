@@ -16,30 +16,24 @@
   "first_seen_at": "2026-05-21T21:04:04.459773+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 7.97,
+    "avg": 8.02,
     "min": 7.79,
     "max": 8.09,
     "median": 8.09,
-    "std_dev": 0.16,
-    "store_count": 5
+    "std_dev": 0.15,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$7.79",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$8.09",
       "count": 3
     }
   ],
-  "state_prices": [
-    {
-      "state": "HI",
-      "avg_price": 7.97,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": {
     "calories": 475.0861,
     "total_fat_g": 17.573,
@@ -59,13 +53,6 @@
       "store_number": "036239",
       "name": "Taco Bell",
       "city": "Kaneohe",
-      "state": "HI",
-      "price": 7.79
-    },
-    {
-      "store_number": "004454",
-      "name": "Taco Bell",
-      "city": "Mililani",
       "state": "HI",
       "price": 7.79
     },
@@ -92,8 +79,7 @@
     }
   ],
   "min_price_store_numbers": [
-    "036239",
-    "004454"
+    "036239"
   ],
   "priciest_stores": [
     {
@@ -118,13 +104,6 @@
       "price": 8.09
     },
     {
-      "store_number": "004454",
-      "name": "Taco Bell",
-      "city": "Mililani",
-      "state": "HI",
-      "price": 7.79
-    },
-    {
       "store_number": "036239",
       "name": "Taco Bell",
       "city": "Kaneohe",
@@ -133,6 +112,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004454",
+      "store_name": "Taco Bell",
+      "city": "Mililani",
+      "state": "HI",
+      "change_type": "item_removed",
+      "old_price": 7.79,
+      "new_price": null,
+      "observed_at": "2026-07-20T21:43:55.180018+00:00"
+    },
     {
       "store_number": "004072",
       "store_name": "Taco Bell",
@@ -686,7 +675,7 @@
   ],
   "activity_summary": {
     "added": 30,
-    "removed": 25,
+    "removed": 26,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -702,15 +691,6 @@
       7.79,
       "Taco Bell",
       "Kaneohe",
-      "HI"
-    ],
-    [
-      "004454",
-      21.45213294067119,
-      -158.0074867846928,
-      7.79,
-      "Taco Bell",
-      "Mililani",
       "HI"
     ],
     [

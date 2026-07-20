@@ -21,12 +21,12 @@
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 1
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -51,12 +51,27 @@
       "city": "McHenry",
       "state": "IL",
       "price": 11.0
+    },
+    {
+      "store_number": "026734",
+      "name": "Taco Bell",
+      "city": "La Porte",
+      "state": "IN",
+      "price": 11.0
     }
   ],
   "min_price_store_numbers": [
-    "032084"
+    "032084",
+    "026734"
   ],
   "priciest_stores": [
+    {
+      "store_number": "026734",
+      "name": "Taco Bell",
+      "city": "La Porte",
+      "state": "IN",
+      "price": 11.0
+    },
     {
       "store_number": "032084",
       "name": "Taco Bell",
@@ -66,6 +81,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026734",
+      "store_name": "Taco Bell",
+      "city": "La Porte",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.0,
+      "observed_at": "2026-07-20T21:47:20.904515+00:00"
+    },
     {
       "store_number": "032084",
       "store_name": "Taco Bell",
@@ -78,7 +103,7 @@
     }
   ],
   "activity_summary": {
-    "added": 1,
+    "added": 2,
     "removed": 0,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -127,6 +152,15 @@
       "Taco Bell",
       "McHenry",
       "IL"
+    ],
+    [
+      "026734",
+      41.616210338805615,
+      -86.73256748915264,
+      11.0,
+      "Taco Bell",
+      "La Porte",
+      "IN"
     ]
   ],
   "retired_at": null,

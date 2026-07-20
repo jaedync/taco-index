@@ -22,12 +22,12 @@
     "max": 3.0,
     "median": 3.0,
     "std_dev": 0.0,
-    "store_count": 117
+    "store_count": 119
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 117
+      "count": 119
     }
   ],
   "state_prices": [
@@ -39,7 +39,7 @@
     {
       "state": "GA",
       "avg_price": 3.0,
-      "store_count": 53
+      "store_count": 54
     }
   ],
   "nutrition": {
@@ -245,9 +245,25 @@
     "039924",
     "041220",
     "037050",
-    "042124"
+    "042124",
+    "040528",
+    "041238"
   ],
   "priciest_stores": [
+    {
+      "store_number": "041238",
+      "name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "price": 3.0
+    },
+    {
+      "store_number": "040528",
+      "name": "Taco Bell",
+      "city": "Arab",
+      "state": "AL",
+      "price": 3.0
+    },
     {
       "store_number": "042124",
       "name": "Taco Bell",
@@ -303,23 +319,29 @@
       "city": "Hixson",
       "state": "TN",
       "price": 3.0
-    },
-    {
-      "store_number": "033348",
-      "name": "Taco Bell",
-      "city": "Albany",
-      "state": "GA",
-      "price": 3.0
-    },
-    {
-      "store_number": "029040",
-      "name": "Taco Bell",
-      "city": "Oak Ridge",
-      "state": "TN",
-      "price": 3.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041238",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-20T21:47:18.308441+00:00"
+    },
+    {
+      "store_number": "040528",
+      "store_name": "Taco Bell",
+      "city": "Arab",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-20T21:43:47.169845+00:00"
+    },
     {
       "store_number": "042124",
       "store_name": "Taco Bell",
@@ -1572,7 +1594,7 @@
     }
   ],
   "activity_summary": {
-    "added": 121,
+    "added": 123,
     "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2634,9 +2656,27 @@
       "Taco Bell",
       "Niceville",
       "FL"
+    ],
+    [
+      "040528",
+      34.33888861485186,
+      -86.50289138988649,
+      3.0,
+      "Taco Bell",
+      "Arab",
+      "AL"
+    ],
+    [
+      "041238",
+      33.92281058279636,
+      -83.34047734737396,
+      3.0,
+      "Taco Bell",
+      "Athens",
+      "GA"
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-19",
+  "last_seen_date": "2026-07-20",
   "peak_availability_pct": 1.4
 }
