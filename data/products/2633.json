@@ -10,7 +10,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 42.9,
+  "peak_30d_pct": 42.8,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
   "availability_pct": 45.7,
@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3525
+    "store_count": 3524
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3525
+      "count": 3524
     }
   ],
   "state_prices": [
@@ -92,7 +92,7 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 210
+      "store_count": 209
     },
     {
       "state": "NY",
@@ -108,6 +108,11 @@
       "state": "NM",
       "avg_price": 0.0,
       "store_count": 31
+    },
+    {
+      "state": "NJ",
+      "avg_price": 0.0,
+      "store_count": 5
     },
     {
       "state": "NE",
@@ -137,7 +142,7 @@
     {
       "state": "MO",
       "avg_price": 0.0,
-      "store_count": 64
+      "store_count": 63
     },
     {
       "state": "MN",
@@ -2156,7 +2161,6 @@
     "019957",
     "031555",
     "031114",
-    "018941",
     "029952",
     "041612",
     "036211",
@@ -2264,6 +2268,7 @@
     "040059",
     "021199",
     "028508",
+    "030265",
     "030544",
     "016276",
     "026839",
@@ -2557,7 +2562,6 @@
     "030648",
     "043077",
     "019662",
-    "022448",
     "004636",
     "009492",
     "033502",
@@ -3527,7 +3531,6 @@
     "034201",
     "032517",
     "033647",
-    "030522",
     "039813",
     "042927",
     "020901",
@@ -3846,9 +3849,17 @@
     "031811",
     "031326",
     "039762",
-    "042095"
+    "042095",
+    "039644"
   ],
   "priciest_stores": [
+    {
+      "store_number": "039644",
+      "name": "Taco Bell",
+      "city": "Paterson",
+      "state": "NJ",
+      "price": 0.0
+    },
     {
       "store_number": "042095",
       "name": "Taco Bell",
@@ -3911,16 +3922,59 @@
       "city": "Lexington",
       "state": "SC",
       "price": 0.0
-    },
-    {
-      "store_number": "042748",
-      "name": "Taco Bell",
-      "city": "Lakeview",
-      "state": "MI",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030522",
+      "store_name": "Taco Bell",
+      "city": "Greenfield",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-07-21T21:12:25.126756+00:00"
+    },
+    {
+      "store_number": "022448",
+      "store_name": "Taco Bell",
+      "city": "Fremont",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-07-21T21:11:59.112064+00:00"
+    },
+    {
+      "store_number": "030265",
+      "store_name": "Taco Bell",
+      "city": "Greenwood",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-07-21T21:11:52.510496+00:00"
+    },
+    {
+      "store_number": "018941",
+      "store_name": "Taco Bell",
+      "city": "Cape Girardeau",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-07-21T21:11:48.793651+00:00"
+    },
+    {
+      "store_number": "039644",
+      "store_name": "Taco Bell",
+      "city": "Paterson",
+      "state": "NJ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-07-21T21:10:27.202272+00:00"
+    },
     {
       "store_number": "038947",
       "store_name": "Taco Bell",
@@ -10243,8 +10297,8 @@
     }
   ],
   "activity_summary": {
-    "added": 303,
-    "removed": 329,
+    "added": 305,
+    "removed": 332,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -26760,15 +26814,6 @@
       "CA"
     ],
     [
-      "018941",
-      37.31184510679485,
-      -89.55276787606707,
-      0.0,
-      "Taco Bell",
-      "Cape Girardeau",
-      "MO"
-    ],
-    [
       "029952",
       32.36261181395126,
       -106.74723914106971,
@@ -27730,6 +27775,15 @@
       "Taco Bell",
       "East Northport",
       "NY"
+    ],
+    [
+      "030265",
+      39.57819010748275,
+      -86.15959261359421,
+      0.0,
+      "Taco Bell",
+      "Greenwood",
+      "IN"
     ],
     [
       "030544",
@@ -30367,15 +30421,6 @@
       "Taco Bell",
       "Red Bluff",
       "CA"
-    ],
-    [
-      "022448",
-      41.35923978953679,
-      -83.14333324135987,
-      0.0,
-      "Taco Bell",
-      "Fremont",
-      "OH"
     ],
     [
       "004636",
@@ -39099,15 +39144,6 @@
       "IN"
     ],
     [
-      "030522",
-      39.784209261175086,
-      -85.78479990363115,
-      0.0,
-      "Taco Bell",
-      "Greenfield",
-      "IN"
-    ],
-    [
       "039813",
       34.57943060559188,
       -118.12988962028878,
@@ -41977,6 +42013,15 @@
       "Taco Bell",
       "Chula Vista",
       "CA"
+    ],
+    [
+      "039644",
+      40.91870719915534,
+      -74.15517429271429,
+      0.0,
+      "Taco Bell",
+      "Paterson",
+      "NJ"
     ]
   ],
   "retired_at": null,

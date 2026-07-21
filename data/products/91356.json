@@ -11,26 +11,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 3.5,
+  "peak_30d_pct": 3.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
-  "availability_pct": 0.9,
+  "availability_pct": 0.8,
   "price_stats": {
     "avg": 4.25,
     "min": 3.99,
     "max": 4.49,
     "median": 4.29,
-    "std_dev": 0.12,
-    "store_count": 71
+    "std_dev": 0.11,
+    "store_count": 65
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 11
+      "count": 9
     },
     {
       "bucket": "$4.29",
-      "count": 58
+      "count": 54
     },
     {
       "bucket": "$4.49",
@@ -41,17 +41,17 @@
     {
       "state": "AL",
       "avg_price": 4.27,
-      "store_count": 18
+      "store_count": 17
     },
     {
       "state": "GA",
-      "avg_price": 4.24,
-      "store_count": 39
+      "avg_price": 4.26,
+      "store_count": 35
     },
     {
       "state": "TN",
       "avg_price": 4.22,
-      "store_count": 12
+      "store_count": 11
     }
   ],
   "nutrition": {
@@ -105,23 +105,9 @@
       "price": 3.99
     },
     {
-      "store_number": "041802",
-      "name": "Taco Bell",
-      "city": "Athens",
-      "state": "GA",
-      "price": 3.99
-    },
-    {
       "store_number": "004091",
       "name": "Taco Bell",
       "city": "Canton",
-      "state": "GA",
-      "price": 3.99
-    },
-    {
-      "store_number": "004431",
-      "name": "Taco Bell",
-      "city": "Marietta",
       "state": "GA",
       "price": 3.99
     },
@@ -138,6 +124,20 @@
       "city": "Knoxville",
       "state": "TN",
       "price": 3.99
+    },
+    {
+      "store_number": "040900",
+      "name": "Taco Bell",
+      "city": "Blaine",
+      "state": "TN",
+      "price": 3.99
+    },
+    {
+      "store_number": "041488",
+      "name": "Taco Bell (ATL Airport)",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 4.29
     }
   ],
   "min_price_store_numbers": [
@@ -146,9 +146,7 @@
     "038733",
     "016289",
     "005323",
-    "041802",
     "004091",
-    "004431",
     "005482",
     "033470",
     "040900"
@@ -218,14 +216,74 @@
       "price": 4.29
     },
     {
-      "store_number": "032029",
+      "store_number": "029100",
       "name": "Taco Bell",
-      "city": "Cordele",
-      "state": "GA",
+      "city": "Auburn",
+      "state": "AL",
       "price": 4.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004431",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-07-21T21:12:20.332329+00:00"
+    },
+    {
+      "store_number": "032029",
+      "store_name": "Taco Bell",
+      "city": "Cordele",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-07-21T21:12:09.554946+00:00"
+    },
+    {
+      "store_number": "041802",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-07-21T21:11:50.098971+00:00"
+    },
+    {
+      "store_number": "029064",
+      "store_name": "Taco Bell",
+      "city": "Chickamauga",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-07-21T21:11:02.502104+00:00"
+    },
+    {
+      "store_number": "042239",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-07-21T21:10:49.606341+00:00"
+    },
+    {
+      "store_number": "036502",
+      "store_name": "Taco Bell",
+      "city": "Columbiana",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-07-21T21:10:38.537287+00:00"
+    },
     {
       "store_number": "029102",
       "store_name": "Taco Bell",
@@ -20249,7 +20307,7 @@
   ],
   "activity_summary": {
     "added": 1037,
-    "removed": 965,
+    "removed": 971,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -20317,30 +20375,12 @@
       "GA"
     ],
     [
-      "041802",
-      33.94081012771555,
-      -83.45053468646256,
-      3.99,
-      "Taco Bell",
-      "Athens",
-      "GA"
-    ],
-    [
       "004091",
       34.221497971686475,
       -84.50486448559575,
       3.99,
       "Taco Bell",
       "Canton",
-      "GA"
-    ],
-    [
-      "004431",
-      33.92456432368397,
-      -84.57523492863402,
-      3.99,
-      "Taco Bell",
-      "Marietta",
       "GA"
     ],
     [
@@ -20452,15 +20492,6 @@
       "GA"
     ],
     [
-      "036502",
-      33.18046008712423,
-      -86.61298093367881,
-      4.29,
-      "Taco Bell",
-      "Columbiana",
-      "AL"
-    ],
-    [
       "036011",
       34.55949767322122,
       -84.93729693025807,
@@ -20495,15 +20526,6 @@
       "Taco Bell",
       "Cumming",
       "GA"
-    ],
-    [
-      "042239",
-      35.9475555,
-      -83.9123659,
-      4.29,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
     ],
     [
       "042795",
@@ -20603,15 +20625,6 @@
       "Taco Bell",
       "Birmingham",
       "AL"
-    ],
-    [
-      "029064",
-      34.88717781011883,
-      -85.26810780034826,
-      4.29,
-      "Taco Bell",
-      "Chickamauga",
-      "GA"
     ],
     [
       "029153",
@@ -20821,15 +20834,6 @@
       "AL"
     ],
     [
-      "032029",
-      31.961358899105427,
-      -83.75691857937062,
-      4.29,
-      "Taco Bell",
-      "Cordele",
-      "GA"
-    ],
-    [
       "029099",
       31.59780741136821,
       -84.17633609719978,
@@ -20912,6 +20916,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-20",
+  "last_seen_date": "2026-07-21",
   "peak_availability_pct": 6.0
 }

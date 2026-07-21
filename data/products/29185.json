@@ -21,12 +21,12 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -46,13 +46,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "033154",
-      "name": "Taco Bell",
-      "city": "Salt Lake City",
-      "state": "UT",
-      "price": 9.0
-    },
-    {
       "store_number": "033177",
       "name": "Taco Bell",
       "city": "Clinton",
@@ -61,7 +54,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "033154",
     "033177"
   ],
   "priciest_stores": [
@@ -71,16 +63,19 @@
       "city": "Clinton",
       "state": "UT",
       "price": 9.0
-    },
-    {
-      "store_number": "033154",
-      "name": "Taco Bell",
-      "city": "Salt Lake City",
-      "state": "UT",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033154",
+      "store_name": "Taco Bell",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-21T21:12:03.130030+00:00"
+    },
     {
       "store_number": "033175",
       "store_name": "Taco Bell",
@@ -904,7 +899,7 @@
   ],
   "activity_summary": {
     "added": 42,
-    "removed": 40,
+    "removed": 41,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -939,15 +934,6 @@
   ],
   "map_data": [
     [
-      "033154",
-      40.62400716412134,
-      -111.83524762095658,
-      9.0,
-      "Taco Bell",
-      "Salt Lake City",
-      "UT"
-    ],
-    [
       "033177",
       41.13787879858887,
       -112.06496975851218,
@@ -958,6 +944,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-20",
+  "last_seen_date": "2026-07-21",
   "peak_availability_pct": 0.2
 }

@@ -14,14 +14,14 @@
   "peak_30d_pct": 2.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 2.1,
+  "availability_pct": 2.2,
   "price_stats": {
     "avg": 3.28,
     "min": 2.99,
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.2,
-    "store_count": 165
+    "store_count": 167
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 92
+      "count": 93
     },
     {
       "bucket": "$3.29",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 11
+      "count": 13
     },
     {
       "bucket": "$3.49",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$3.69",
-      "count": 18
+      "count": 17
     },
     {
       "bucket": "$3.99",
@@ -64,13 +64,13 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 3.37,
+      "avg_price": 3.36,
       "store_count": 73
     },
     {
       "state": "TN",
-      "avg_price": 3.26,
-      "store_count": 14
+      "avg_price": 3.27,
+      "store_count": 16
     },
     {
       "state": "AL",
@@ -203,13 +203,6 @@
       "price": 3.69
     },
     {
-      "store_number": "041321",
-      "name": "Taco Bell",
-      "city": "Grayson",
-      "state": "GA",
-      "price": 3.69
-    },
-    {
       "store_number": "041243",
       "name": "Taco Bell",
       "city": "Marietta",
@@ -243,9 +236,56 @@
       "city": "Loganville",
       "state": "GA",
       "price": 3.69
+    },
+    {
+      "store_number": "041237",
+      "name": "Taco Bell",
+      "city": "Suwanee",
+      "state": "GA",
+      "price": 3.69
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041321",
+      "store_name": "Taco Bell",
+      "city": "Grayson",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.69,
+      "new_price": null,
+      "observed_at": "2026-07-21T21:12:04.376722+00:00"
+    },
+    {
+      "store_number": "029028",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-07-21T21:11:07.701157+00:00"
+    },
+    {
+      "store_number": "029050",
+      "store_name": "Taco Bell",
+      "city": "Chattanooga",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-07-21T21:11:07.188544+00:00"
+    },
+    {
+      "store_number": "039942",
+      "store_name": "Taco Bell",
+      "city": "Newnan",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-07-21T21:10:27.982330+00:00"
+    },
     {
       "store_number": "041321",
       "store_name": "Taco Bell",
@@ -15678,8 +15718,8 @@
     }
   ],
   "activity_summary": {
-    "added": 694,
-    "removed": 529,
+    "added": 697,
+    "removed": 530,
     "price_changed": 320,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16158,6 +16198,15 @@
       3.19,
       "Taco Bell",
       "Madisonville",
+      "TN"
+    ],
+    [
+      "029028",
+      35.2016819814788,
+      -84.8442515283864,
+      3.19,
+      "Taco Bell",
+      "Cleveland",
       "TN"
     ],
     [
@@ -16791,6 +16840,15 @@
       "FL"
     ],
     [
+      "039942",
+      33.374945210605844,
+      -84.75347885434401,
+      3.39,
+      "Taco Bell",
+      "Newnan",
+      "GA"
+    ],
+    [
       "035461",
       35.75640600000001,
       -83.9419497,
@@ -16815,6 +16873,15 @@
       3.39,
       "Taco Bell",
       "McMinnville",
+      "TN"
+    ],
+    [
+      "029050",
+      35.115167503435934,
+      -85.25543691077918,
+      3.39,
+      "Taco Bell",
+      "Chattanooga",
       "TN"
     ],
     [
@@ -17142,15 +17209,6 @@
       "GA"
     ],
     [
-      "041321",
-      33.89951093273385,
-      -83.96198987746997,
-      3.69,
-      "Taco Bell",
-      "Grayson",
-      "GA"
-    ],
-    [
       "041239",
       33.947912340193156,
       -84.51838984153255,
@@ -17188,6 +17246,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-20",
+  "last_seen_date": "2026-07-21",
   "peak_availability_pct": 5.9
 }

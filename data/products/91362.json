@@ -22,24 +22,24 @@
     "max": 3.0,
     "median": 3.0,
     "std_dev": 0.0,
-    "store_count": 23
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 23
+      "count": 25
     }
   ],
   "state_prices": [
     {
       "state": "TN",
       "avg_price": 3.0,
-      "store_count": 9
+      "store_count": 10
     },
     {
       "state": "GA",
       "avg_price": 3.0,
-      "store_count": 10
+      "store_count": 11
     }
   ],
   "nutrition": {
@@ -151,9 +151,25 @@
     "037050",
     "042124",
     "040962",
-    "041238"
+    "041238",
+    "041802",
+    "026837"
   ],
   "priciest_stores": [
+    {
+      "store_number": "026837",
+      "name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "price": 3.0
+    },
+    {
+      "store_number": "041802",
+      "name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "price": 3.0
+    },
     {
       "store_number": "041238",
       "name": "Taco Bell",
@@ -209,23 +225,29 @@
       "city": "Knoxville",
       "state": "TN",
       "price": 3.0
-    },
-    {
-      "store_number": "041333",
-      "name": "Taco Bell",
-      "city": "Knoxville",
-      "state": "TN",
-      "price": 3.0
-    },
-    {
-      "store_number": "042576",
-      "name": "Taco Bell",
-      "city": "Buford",
-      "state": "GA",
-      "price": 3.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026837",
+      "store_name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-21T21:11:53.630127+00:00"
+    },
+    {
+      "store_number": "041802",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-21T21:11:50.098971+00:00"
+    },
     {
       "store_number": "041238",
       "store_name": "Taco Bell",
@@ -518,7 +540,7 @@
     }
   ],
   "activity_summary": {
-    "added": 26,
+    "added": 28,
     "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -734,9 +756,27 @@
       "Taco Bell",
       "Athens",
       "GA"
+    ],
+    [
+      "041802",
+      33.94081012771555,
+      -83.45053468646256,
+      3.0,
+      "Taco Bell",
+      "Athens",
+      "GA"
+    ],
+    [
+      "026837",
+      35.76009726491193,
+      -83.97547312083594,
+      3.0,
+      "Taco Bell",
+      "Alcoa",
+      "TN"
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-20",
+  "last_seen_date": "2026-07-21",
   "peak_availability_pct": 0.3
 }

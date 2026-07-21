@@ -12,22 +12,18 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": 0.0311,
+  "recent_price_change_pct": 0.0475,
   "first_seen_at": "2026-05-21T21:04:04.459773+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
-    "avg": 7.87,
-    "min": 7.49,
+    "avg": 7.99,
+    "min": 7.99,
     "max": 7.99,
     "median": 7.99,
-    "std_dev": 0.25,
-    "store_count": 4
+    "std_dev": 0.0,
+    "store_count": 3
   },
   "histogram": [
-    {
-      "bucket": "$7.49",
-      "count": 1
-    },
     {
       "bucket": "$7.99",
       "count": 3
@@ -49,13 +45,6 @@
     "serving_size_g": 175.767
   },
   "cheapest_stores": [
-    {
-      "store_number": "036239",
-      "name": "Taco Bell",
-      "city": "Kaneohe",
-      "state": "HI",
-      "price": 7.49
-    },
     {
       "store_number": "003975",
       "name": "Taco Bell",
@@ -79,7 +68,9 @@
     }
   ],
   "min_price_store_numbers": [
-    "036239"
+    "003975",
+    "004865",
+    "003488"
   ],
   "priciest_stores": [
     {
@@ -102,16 +93,19 @@
       "city": "Kailua Kona",
       "state": "HI",
       "price": 7.99
-    },
-    {
-      "store_number": "036239",
-      "name": "Taco Bell",
-      "city": "Kaneohe",
-      "state": "HI",
-      "price": 7.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036239",
+      "store_name": "Taco Bell",
+      "city": "Kaneohe",
+      "state": "HI",
+      "change_type": "item_removed",
+      "old_price": 7.49,
+      "new_price": null,
+      "observed_at": "2026-07-21T21:10:58.672100+00:00"
+    },
     {
       "store_number": "004072",
       "store_name": "Taco Bell",
@@ -675,7 +669,7 @@
   ],
   "activity_summary": {
     "added": 30,
-    "removed": 26,
+    "removed": 27,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -684,15 +678,6 @@
   "calories_max": 660,
   "combo_groups": [],
   "map_data": [
-    [
-      "036239",
-      21.41734275803624,
-      -157.8019557505467,
-      7.49,
-      "Taco Bell",
-      "Kaneohe",
-      "HI"
-    ],
     [
       "003975",
       19.6430611818485,

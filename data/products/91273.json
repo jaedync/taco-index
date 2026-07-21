@@ -21,7 +21,7 @@
     "max": 11.99,
     "median": 9.69,
     "std_dev": 0.42,
-    "store_count": 167
+    "store_count": 169
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$9.59",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$9.69",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$9.79",
-      "count": 16
+      "count": 18
     },
     {
       "bucket": "$9.89",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$10.29",
-      "count": 31
+      "count": 30
     },
     {
       "bucket": "$10.39",
@@ -88,7 +88,7 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.92,
+      "avg_price": 9.91,
       "store_count": 78
     },
     {
@@ -99,7 +99,7 @@
     {
       "state": "TN",
       "avg_price": 9.68,
-      "store_count": 16
+      "store_count": 18
     },
     {
       "state": "FL",
@@ -264,6 +264,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041321",
+      "store_name": "Taco Bell",
+      "city": "Grayson",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-07-21T21:12:04.376722+00:00"
+    },
+    {
+      "store_number": "029028",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.79,
+      "observed_at": "2026-07-21T21:11:07.701157+00:00"
+    },
+    {
+      "store_number": "029050",
+      "store_name": "Taco Bell",
+      "city": "Chattanooga",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.59,
+      "observed_at": "2026-07-21T21:11:07.188544+00:00"
+    },
+    {
+      "store_number": "039942",
+      "store_name": "Taco Bell",
+      "city": "Newnan",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.79,
+      "observed_at": "2026-07-21T21:10:27.982330+00:00"
+    },
     {
       "store_number": "041321",
       "store_name": "Taco Bell",
@@ -16476,8 +16516,8 @@
     }
   ],
   "activity_summary": {
-    "added": 720,
-    "removed": 553,
+    "added": 723,
+    "removed": 554,
     "price_changed": 348,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16965,6 +17005,15 @@
       "GA"
     ],
     [
+      "029050",
+      35.115167503435934,
+      -85.25543691077918,
+      9.59,
+      "Taco Bell",
+      "Chattanooga",
+      "TN"
+    ],
+    [
       "029022",
       34.989430945933755,
       -85.21288587714031,
@@ -17370,6 +17419,15 @@
       "AL"
     ],
     [
+      "039942",
+      33.374945210605844,
+      -84.75347885434401,
+      9.79,
+      "Taco Bell",
+      "Newnan",
+      "GA"
+    ],
+    [
       "042119",
       32.270159,
       -86.355812,
@@ -17421,6 +17479,15 @@
       9.79,
       "Taco Bell",
       "Madisonville",
+      "TN"
+    ],
+    [
+      "029028",
+      35.2016819814788,
+      -84.8442515283864,
+      9.79,
+      "Taco Bell",
+      "Cleveland",
       "TN"
     ],
     [
@@ -17901,15 +17968,6 @@
       "TN"
     ],
     [
-      "041321",
-      33.89951093273385,
-      -83.96198987746997,
-      10.29,
-      "Taco Bell",
-      "Grayson",
-      "GA"
-    ],
-    [
       "027599",
       33.56344645271083,
       -83.4796367994174,
@@ -18028,6 +18086,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-20",
+  "last_seen_date": "2026-07-21",
   "peak_availability_pct": 5.9
 }

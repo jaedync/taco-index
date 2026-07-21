@@ -22,19 +22,19 @@
     "max": 3.0,
     "median": 3.0,
     "std_dev": 0.0,
-    "store_count": 113
+    "store_count": 114
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 113
+      "count": 114
     }
   ],
   "state_prices": [
     {
       "state": "TN",
       "avg_price": 3.0,
-      "store_count": 55
+      "store_count": 56
     },
     {
       "state": "GA",
@@ -241,9 +241,17 @@
     "037050",
     "042124",
     "040528",
-    "041238"
+    "041238",
+    "026837"
   ],
   "priciest_stores": [
+    {
+      "store_number": "026837",
+      "name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "price": 3.0
+    },
     {
       "store_number": "041238",
       "name": "Taco Bell",
@@ -306,16 +314,19 @@
       "city": "Albany",
       "state": "GA",
       "price": 3.0
-    },
-    {
-      "store_number": "029040",
-      "name": "Taco Bell",
-      "city": "Oak Ridge",
-      "state": "TN",
-      "price": 3.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026837",
+      "store_name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-21T21:11:53.630127+00:00"
+    },
     {
       "store_number": "041238",
       "store_name": "Taco Bell",
@@ -1508,7 +1519,7 @@
     }
   ],
   "activity_summary": {
-    "added": 116,
+    "added": 117,
     "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2534,9 +2545,18 @@
       "Taco Bell",
       "Athens",
       "GA"
+    ],
+    [
+      "026837",
+      35.76009726491193,
+      -83.97547312083594,
+      3.0,
+      "Taco Bell",
+      "Alcoa",
+      "TN"
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-20",
+  "last_seen_date": "2026-07-21",
   "peak_availability_pct": 1.4
 }
