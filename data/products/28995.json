@@ -22,24 +22,24 @@
     "max": 3.49,
     "median": 3.49,
     "std_dev": 0.0,
-    "store_count": 40
+    "store_count": 39
   },
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 40
+      "count": 39
     }
   ],
   "state_prices": [
     {
+      "state": "IL",
+      "avg_price": 3.49,
+      "store_count": 10
+    },
+    {
       "state": "MO",
       "avg_price": 3.49,
       "store_count": 29
-    },
-    {
-      "state": "IL",
-      "avg_price": 3.49,
-      "store_count": 11
     }
   ],
   "nutrition": {
@@ -114,17 +114,17 @@
       "price": 3.49
     },
     {
-      "store_number": "029636",
+      "store_number": "029658",
       "name": "Taco Bell",
-      "city": "Warrenton",
+      "city": "Hazelwood",
       "state": "MO",
       "price": 3.49
     },
     {
-      "store_number": "029677",
+      "store_number": "029636",
       "name": "Taco Bell",
-      "city": "Alton",
-      "state": "IL",
+      "city": "Warrenton",
+      "state": "MO",
       "price": 3.49
     }
   ],
@@ -137,6 +137,7 @@
     "028490",
     "029638",
     "020142",
+    "029658",
     "029636",
     "029677",
     "029683",
@@ -153,10 +154,8 @@
     "029651",
     "018367",
     "029646",
-    "029676",
     "031606",
     "029661",
-    "029656",
     "029664",
     "029680",
     "032142",
@@ -243,6 +242,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029656",
+      "store_name": "Taco Bell",
+      "city": "Ballwin",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-07-22T21:43:24.107487+00:00"
+    },
+    {
+      "store_number": "029676",
+      "store_name": "Taco Bell",
+      "city": "Bethalto",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-07-22T21:43:13.597014+00:00"
+    },
+    {
+      "store_number": "029658",
+      "store_name": "Taco Bell",
+      "city": "Hazelwood",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-07-22T21:41:31.059236+00:00"
+    },
     {
       "store_number": "029656",
       "store_name": "Taco Bell",
@@ -885,8 +914,8 @@
     }
   ],
   "activity_summary": {
-    "added": 52,
-    "removed": 12,
+    "added": 53,
+    "removed": 14,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -978,6 +1007,15 @@
       3.49,
       "Taco Bell",
       "Saint Clair",
+      "MO"
+    ],
+    [
+      "029658",
+      38.78676020515745,
+      -90.35157206993851,
+      3.49,
+      "Taco Bell",
+      "Hazelwood",
       "MO"
     ],
     [
@@ -1125,15 +1163,6 @@
       "IL"
     ],
     [
-      "029676",
-      38.90187788430495,
-      -90.06056883934434,
-      3.49,
-      "Taco Bell",
-      "Bethalto",
-      "IL"
-    ],
-    [
       "031606",
       38.55325052216471,
       -90.16614058617051,
@@ -1149,15 +1178,6 @@
       3.49,
       "Taco Bell",
       "Saint Peters",
-      "MO"
-    ],
-    [
-      "029656",
-      38.59328130298637,
-      -90.5558052495067,
-      3.49,
-      "Taco Bell",
-      "Ballwin",
       "MO"
     ],
     [

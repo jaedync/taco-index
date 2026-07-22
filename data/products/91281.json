@@ -21,13 +21,13 @@
     "min": 12.5,
     "max": 19.99,
     "median": 12.5,
-    "std_dev": 1.27,
-    "store_count": 387
+    "std_dev": 1.26,
+    "store_count": 389
   },
   "histogram": [
     {
       "bucket": "$12.50",
-      "count": 329
+      "count": 331
     },
     {
       "bucket": "$12.99",
@@ -90,7 +90,7 @@
     {
       "state": "AL",
       "avg_price": 12.77,
-      "store_count": 101
+      "store_count": 103
     }
   ],
   "nutrition": {
@@ -508,7 +508,9 @@
     "040780",
     "040430",
     "002994",
-    "039934"
+    "039934",
+    "036403",
+    "029160"
   ],
   "priciest_stores": [
     {
@@ -583,6 +585,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029160",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-07-22T21:40:54.223012+00:00"
+    },
+    {
+      "store_number": "036403",
+      "store_name": "Taco Bell",
+      "city": "Pell City",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-07-22T21:40:28.976675+00:00"
+    },
     {
       "store_number": "037008",
       "store_name": "Taco Bell",
@@ -7395,7 +7417,7 @@
     }
   ],
   "activity_summary": {
-    "added": 534,
+    "added": 536,
     "removed": 147,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -10392,6 +10414,24 @@
       "GA"
     ],
     [
+      "036403",
+      33.594254422820626,
+      -86.283264543764,
+      12.5,
+      "Taco Bell",
+      "Pell City",
+      "AL"
+    ],
+    [
+      "029160",
+      33.788466847530394,
+      -85.76192594599888,
+      12.5,
+      "Taco Bell",
+      "Jacksonville",
+      "AL"
+    ],
+    [
       "032143",
       34.153327,
       -84.821585,
@@ -10915,6 +10955,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-21",
+  "last_seen_date": "2026-07-22",
   "peak_availability_pct": 5.3
 }

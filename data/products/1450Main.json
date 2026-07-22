@@ -20,7 +20,7 @@
     "max": 7.99,
     "median": 1.05,
     "std_dev": 0.54,
-    "store_count": 617
+    "store_count": 618
   },
   "histogram": [
     {
@@ -36,8 +36,12 @@
       "count": 6
     },
     {
+      "bucket": "$0.95",
+      "count": 1
+    },
+    {
       "bucket": "$0.99",
-      "count": 130
+      "count": 129
     },
     {
       "bucket": "$1.00",
@@ -69,7 +73,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 57
+      "count": 58
     },
     {
       "bucket": "$1.59",
@@ -170,8 +174,8 @@
     },
     {
       "state": "OR",
-      "avg_price": 1.15,
-      "store_count": 52
+      "avg_price": 1.14,
+      "store_count": 53
     },
     {
       "state": "IL",
@@ -366,6 +370,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022939",
+      "store_name": "Taco Bell",
+      "city": "Angels Camp",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-07-22T21:43:00.657139+00:00"
+    },
+    {
+      "store_number": "038829",
+      "store_name": "Taco Bell",
+      "city": "Prineville",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.95,
+      "observed_at": "2026-07-22T21:42:56.514177+00:00"
+    },
+    {
+      "store_number": "030798",
+      "store_name": "Taco Bell",
+      "city": "San Jose",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-07-22T21:42:31.946784+00:00"
+    },
     {
       "store_number": "041978",
       "store_name": "Taco Bell",
@@ -3538,8 +3572,8 @@
     }
   ],
   "activity_summary": {
-    "added": 150,
-    "removed": 164,
+    "added": 152,
+    "removed": 165,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5043,6 +5077,15 @@
       "MI"
     ],
     [
+      "038829",
+      44.302581057027055,
+      -120.8218445681228,
+      0.95,
+      "Taco Bell",
+      "Prineville",
+      "OR"
+    ],
+    [
       "038965",
       44.49259564914186,
       -88.09692264986174,
@@ -5689,15 +5732,6 @@
       "Taco Bell",
       "Goddard",
       "KS"
-    ],
-    [
-      "022939",
-      38.07992083308512,
-      -120.55579845608918,
-      0.99,
-      "Taco Bell",
-      "Angels Camp",
-      "CA"
     ],
     [
       "024461",
@@ -7795,6 +7829,15 @@
       "Taco Bell",
       "Burlington",
       "IA"
+    ],
+    [
+      "030798",
+      37.31417153364949,
+      -121.79288823904244,
+      1.49,
+      "Taco Bell",
+      "San Jose",
+      "CA"
     ],
     [
       "030770",

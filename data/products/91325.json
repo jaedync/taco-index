@@ -11,22 +11,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 0.7,
+  "peak_30d_pct": 0.8,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.8,
   "price_stats": {
-    "avg": 9.35,
+    "avg": 9.33,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.72,
-    "store_count": 61
+    "std_dev": 0.7,
+    "store_count": 65
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 47
+      "count": 51
     },
     {
       "bucket": "$9.49",
@@ -49,18 +49,18 @@
     },
     {
       "state": "GA",
-      "avg_price": 9.54,
-      "store_count": 29
+      "avg_price": 9.52,
+      "store_count": 30
     },
     {
       "state": "TN",
       "avg_price": 9.0,
-      "store_count": 10
+      "store_count": 11
     },
     {
       "state": "AL",
       "avg_price": 9.0,
-      "store_count": 10
+      "store_count": 12
     }
   ],
   "nutrition": {
@@ -100,6 +100,13 @@
       "price": 9.0
     },
     {
+      "store_number": "036937",
+      "name": "Taco Bell",
+      "city": "Millbrook",
+      "state": "AL",
+      "price": 9.0
+    },
+    {
       "store_number": "037192",
       "name": "Taco Bell",
       "city": "Montgomery",
@@ -111,6 +118,13 @@
       "name": "Taco Bell",
       "city": "Dalton",
       "state": "GA",
+      "price": 9.0
+    },
+    {
+      "store_number": "037357",
+      "name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
       "price": 9.0
     },
     {
@@ -128,24 +142,10 @@
       "price": 9.0
     },
     {
-      "store_number": "026432",
+      "store_number": "041242",
       "name": "Taco Bell",
-      "city": "Pigeon Forge",
-      "state": "TN",
-      "price": 9.0
-    },
-    {
-      "store_number": "024403",
-      "name": "Taco Bell",
-      "city": "Crossville",
-      "state": "TN",
-      "price": 9.0
-    },
-    {
-      "store_number": "016335",
-      "name": "Taco Bell",
-      "city": "Lenoir City",
-      "state": "TN",
+      "city": "Acworth",
+      "state": "GA",
       "price": 9.0
     }
   ],
@@ -153,10 +153,13 @@
     "034710",
     "033481",
     "036415",
+    "036937",
     "037192",
     "042511",
+    "037357",
     "042578",
     "040962",
+    "041242",
     "026432",
     "024403",
     "016335",
@@ -167,13 +170,14 @@
     "041243",
     "026073",
     "003889",
-    "016289",
     "041837",
     "003668",
     "029033",
+    "041801",
     "042121",
     "042125",
     "035465",
+    "002302",
     "034026",
     "029074",
     "042124",
@@ -271,6 +275,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041801",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-22T21:42:17.581433+00:00"
+    },
+    {
+      "store_number": "002302",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-22T21:42:05.057415+00:00"
+    },
+    {
+      "store_number": "041242",
+      "store_name": "Taco Bell",
+      "city": "Acworth",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-22T21:41:58.544240+00:00"
+    },
+    {
+      "store_number": "016289",
+      "store_name": "Taco Bell",
+      "city": "College Park",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-22T21:41:58.421597+00:00"
+    },
+    {
+      "store_number": "037357",
+      "store_name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-22T21:40:48.110462+00:00"
+    },
+    {
+      "store_number": "036937",
+      "store_name": "Taco Bell",
+      "city": "Millbrook",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-22T21:40:33.994587+00:00"
+    },
     {
       "store_number": "029091",
       "store_name": "Taco Bell",
@@ -4783,8 +4847,8 @@
     }
   ],
   "activity_summary": {
-    "added": 226,
-    "removed": 225,
+    "added": 231,
+    "removed": 226,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4852,6 +4916,15 @@
       "TN"
     ],
     [
+      "036937",
+      32.492787398157375,
+      -86.40598023039077,
+      9.0,
+      "Taco Bell",
+      "Millbrook",
+      "AL"
+    ],
+    [
       "037192",
       32.338344929298856,
       -86.1755813462282,
@@ -4870,6 +4943,15 @@
       "GA"
     ],
     [
+      "037357",
+      31.260210432381527,
+      -85.43750439907221,
+      9.0,
+      "Taco Bell",
+      "Dothan",
+      "AL"
+    ],
+    [
       "042578",
       33.78032506878061,
       -84.38918335266644,
@@ -4886,6 +4968,15 @@
       "Taco Bell",
       "Franklin",
       "NC"
+    ],
+    [
+      "041242",
+      34.0761456410671,
+      -84.6762931912813,
+      9.0,
+      "Taco Bell",
+      "Acworth",
+      "GA"
     ],
     [
       "026432",
@@ -4978,15 +5069,6 @@
       "GA"
     ],
     [
-      "016289",
-      33.61549907748702,
-      -84.47322343291489,
-      9.0,
-      "Taco Bell",
-      "College Park",
-      "GA"
-    ],
-    [
       "041837",
       30.85502172223534,
       -83.94673973321909,
@@ -5014,6 +5096,15 @@
       "TN"
     ],
     [
+      "041801",
+      33.94497804839833,
+      -84.6247772276729,
+      9.0,
+      "Taco Bell",
+      "Marietta",
+      "GA"
+    ],
+    [
       "042121",
       30.415996791776298,
       -86.60656302491896,
@@ -5039,6 +5130,15 @@
       "Taco Bell",
       "Hanceville",
       "AL"
+    ],
+    [
+      "002302",
+      35.97311902232418,
+      -83.9845335127915,
+      9.0,
+      "Taco Bell",
+      "Knoxville",
+      "TN"
     ],
     [
       "034026",
@@ -5375,6 +5475,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-07-21",
+  "last_seen_date": "2026-07-22",
   "peak_availability_pct": 1.1
 }

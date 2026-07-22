@@ -11,7 +11,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 2.4,
+  "peak_30d_pct": 2.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 2.6,
@@ -21,12 +21,12 @@
     "max": 9.49,
     "median": 8.99,
     "std_dev": 0.59,
-    "store_count": 202
+    "store_count": 204
   },
   "histogram": [
     {
       "bucket": "$7.79",
-      "count": 31
+      "count": 32
     },
     {
       "bucket": "$8.19",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$9.49",
-      "count": 38
+      "count": 39
     }
   ],
   "state_prices": [
@@ -77,13 +77,13 @@
     },
     {
       "state": "MI",
-      "avg_price": 8.95,
-      "store_count": 119
+      "avg_price": 8.96,
+      "store_count": 120
     },
     {
       "state": "OH",
-      "avg_price": 8.42,
-      "store_count": 62
+      "avg_price": 8.41,
+      "store_count": 63
     },
     {
       "state": "IN",
@@ -149,6 +149,13 @@
       "price": 7.79
     },
     {
+      "store_number": "040529",
+      "name": "Taco Bell",
+      "city": "Brook Park",
+      "state": "OH",
+      "price": 7.79
+    },
+    {
       "store_number": "002086",
       "name": "Taco Bell",
       "city": "Lakewood",
@@ -168,13 +175,6 @@
       "city": "Euclid",
       "state": "OH",
       "price": 7.79
-    },
-    {
-      "store_number": "003825",
-      "name": "Taco Bell",
-      "city": "Cuyahoga Falls",
-      "state": "OH",
-      "price": 7.79
     }
   ],
   "min_price_store_numbers": [
@@ -184,6 +184,7 @@
     "021478",
     "017264",
     "040535",
+    "040529",
     "002086",
     "028400",
     "002147",
@@ -283,6 +284,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003620",
+      "store_name": "Taco Bell",
+      "city": "Owosso",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-07-22T21:42:59.351382+00:00"
+    },
+    {
+      "store_number": "040529",
+      "store_name": "Taco Bell",
+      "city": "Brook Park",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-07-22T21:40:53.502589+00:00"
+    },
     {
       "store_number": "032352",
       "store_name": "Taco Bell",
@@ -23095,7 +23116,7 @@
     }
   ],
   "activity_summary": {
-    "added": 973,
+    "added": 975,
     "removed": 770,
     "price_changed": 538,
     "since": "2026-03-31T00:00:00+00:00"
@@ -23170,6 +23191,15 @@
       7.79,
       "Taco Bell",
       "East Cleveland",
+      "OH"
+    ],
+    [
+      "040529",
+      41.40407178109061,
+      -81.79804760342202,
+      7.79,
+      "Taco Bell",
+      "Brook Park",
       "OH"
     ],
     [
@@ -24829,6 +24859,15 @@
       "OH"
     ],
     [
+      "003620",
+      42.997815292161384,
+      -84.16901139119805,
+      9.49,
+      "Taco Bell",
+      "Owosso",
+      "MI"
+    ],
+    [
       "032352",
       41.020012886778076,
       -84.02654141934363,
@@ -24938,6 +24977,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-21",
+  "last_seen_date": "2026-07-22",
   "peak_availability_pct": 6.6
 }

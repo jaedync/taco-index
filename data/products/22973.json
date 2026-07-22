@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": 0.0305,
+  "recent_price_change_pct": 0.0251,
   "first_seen_at": "2026-05-21T21:04:04.459773+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
-    "avg": 11.21,
+    "avg": 11.16,
     "min": 10.69,
     "max": 11.39,
     "median": 11.39,
-    "std_dev": 0.35,
-    "store_count": 4
+    "std_dev": 0.4,
+    "store_count": 3
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$11.39",
-      "count": 3
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -69,26 +69,12 @@
       "city": "Kapaa",
       "state": "HI",
       "price": 11.39
-    },
-    {
-      "store_number": "003488",
-      "name": "Taco Bell",
-      "city": "Lihue",
-      "state": "HI",
-      "price": 11.39
     }
   ],
   "min_price_store_numbers": [
     "001281"
   ],
   "priciest_stores": [
-    {
-      "store_number": "003488",
-      "name": "Taco Bell",
-      "city": "Lihue",
-      "state": "HI",
-      "price": 11.39
-    },
     {
       "store_number": "004865",
       "name": "Taco Bell",
@@ -112,6 +98,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003488",
+      "store_name": "Taco Bell",
+      "city": "Lihue",
+      "state": "HI",
+      "change_type": "item_removed",
+      "old_price": 11.39,
+      "new_price": null,
+      "observed_at": "2026-07-22T21:42:04.929501+00:00"
+    },
     {
       "store_number": "036239",
       "store_name": "Taco Bell",
@@ -675,7 +671,7 @@
   ],
   "activity_summary": {
     "added": 30,
-    "removed": 26,
+    "removed": 27,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -728,15 +724,6 @@
       11.39,
       "Taco Bell",
       "Kapaa",
-      "HI"
-    ],
-    [
-      "003488",
-      21.972641623092205,
-      -159.37809264654246,
-      11.39,
-      "Taco Bell",
-      "Lihue",
       "HI"
     ]
   ],

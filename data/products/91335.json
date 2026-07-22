@@ -28,7 +28,11 @@
   "histogram": [
     {
       "bucket": "$2.79",
-      "count": 453
+      "count": 451
+    },
+    {
+      "bucket": "$2.89",
+      "count": 2
     },
     {
       "bucket": "$2.99",
@@ -50,6 +54,11 @@
       "store_count": 31
     },
     {
+      "state": "SC",
+      "avg_price": 2.82,
+      "store_count": 7
+    },
+    {
       "state": "GA",
       "avg_price": 2.81,
       "store_count": 230
@@ -57,17 +66,12 @@
     {
       "state": "TN",
       "avg_price": 2.79,
-      "store_count": 84
-    },
-    {
-      "state": "SC",
-      "avg_price": 2.79,
-      "store_count": 7
+      "store_count": 83
     },
     {
       "state": "AL",
       "avg_price": 2.79,
-      "store_count": 114
+      "store_count": 115
     }
   ],
   "nutrition": {
@@ -196,7 +200,6 @@
     "042583",
     "035465",
     "032143",
-    "034710",
     "039943",
     "035882",
     "042128",
@@ -251,6 +254,7 @@
     "036497",
     "037191",
     "037127",
+    "037008",
     "037047",
     "037105",
     "037038",
@@ -513,9 +517,7 @@
     "002425",
     "029069",
     "003408",
-    "031583",
     "041238",
-    "026432",
     "029081",
     "041221",
     "042824",
@@ -684,6 +686,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026432",
+      "store_name": "Taco Bell",
+      "city": "Pigeon Forge",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-07-22T21:42:55.803767+00:00"
+    },
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 2.79,
+      "new_price": 2.89,
+      "observed_at": "2026-07-22T21:42:55.356873+00:00"
+    },
+    {
+      "store_number": "037008",
+      "store_name": "Taco Bell",
+      "city": "Hoover",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-07-22T21:40:46.719507+00:00"
+    },
+    {
+      "store_number": "034710",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 2.79,
+      "new_price": 2.89,
+      "observed_at": "2026-07-22T21:40:23.451449+00:00"
+    },
     {
       "store_number": "042574",
       "store_name": "Taco Bell",
@@ -8216,9 +8258,9 @@
     }
   ],
   "activity_summary": {
-    "added": 610,
-    "removed": 141,
-    "price_changed": 2,
+    "added": 611,
+    "removed": 142,
+    "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 480,
@@ -8576,15 +8618,6 @@
       "Taco Bell",
       "Cartersville",
       "GA"
-    ],
-    [
-      "034710",
-      32.40781978657577,
-      -80.63921262604607,
-      2.79,
-      "Taco Bell",
-      "Beaufort",
-      "SC"
     ],
     [
       "039943",
@@ -9071,6 +9104,15 @@
       "Taco Bell",
       "Columbus",
       "GA"
+    ],
+    [
+      "037008",
+      33.358462822648114,
+      -86.85306624544107,
+      2.79,
+      "Taco Bell",
+      "Hoover",
+      "AL"
     ],
     [
       "037047",
@@ -11431,15 +11473,6 @@
       "GA"
     ],
     [
-      "031583",
-      32.42953531961479,
-      -80.71891911656758,
-      2.79,
-      "Taco Bell",
-      "Beaufort",
-      "SC"
-    ],
-    [
       "041238",
       33.92281058279636,
       -83.34047734737396,
@@ -11447,15 +11480,6 @@
       "Taco Bell",
       "Athens",
       "GA"
-    ],
-    [
-      "026432",
-      35.80377693492917,
-      -83.58050286769867,
-      2.79,
-      "Taco Bell",
-      "Pigeon Forge",
-      "TN"
     ],
     [
       "029081",
@@ -12304,6 +12328,24 @@
       "GA"
     ],
     [
+      "034710",
+      32.40781978657577,
+      -80.63921262604607,
+      2.89,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
+    ],
+    [
+      "031583",
+      32.42953531961479,
+      -80.71891911656758,
+      2.89,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
+    ],
+    [
       "035070",
       30.5990890797966,
       -87.16322283975093,
@@ -12440,6 +12482,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-21",
+  "last_seen_date": "2026-07-22",
   "peak_availability_pct": 5.9
 }

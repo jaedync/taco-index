@@ -12,37 +12,41 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 1.8,
+  "peak_30d_pct": 1.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.9,
+  "availability_pct": 2.0,
   "price_stats": {
-    "avg": 6.69,
+    "avg": 6.7,
     "min": 6.49,
-    "max": 6.99,
+    "max": 7.29,
     "median": 6.69,
-    "std_dev": 0.2,
-    "store_count": 146
+    "std_dev": 0.21,
+    "store_count": 155
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 58
+      "count": 63
     },
     {
       "bucket": "$6.69",
-      "count": 47
+      "count": 49
     },
     {
       "bucket": "$6.99",
       "count": 41
+    },
+    {
+      "bucket": "$7.29",
+      "count": 2
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 6.79,
-      "store_count": 61
+      "store_count": 65
     },
     {
       "state": "FL",
@@ -52,12 +56,12 @@
     {
       "state": "AL",
       "avg_price": 6.59,
-      "store_count": 54
+      "store_count": 56
     },
     {
       "state": "TN",
-      "avg_price": 6.53,
-      "store_count": 13
+      "avg_price": 6.54,
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -159,6 +163,8 @@
     "029115",
     "029150",
     "029157",
+    "029044",
+    "029063",
     "029141",
     "029050",
     "029971",
@@ -175,6 +181,7 @@
     "026044",
     "029097",
     "029057",
+    "029068",
     "036372",
     "030463",
     "026073",
@@ -182,6 +189,7 @@
     "016498",
     "018166",
     "003779",
+    "032206",
     "036369",
     "029095",
     "031633",
@@ -191,6 +199,7 @@
     "029082",
     "030359",
     "026676",
+    "029093",
     "031394",
     "029100",
     "027599",
@@ -212,7 +221,14 @@
       "name": "Taco Bell",
       "city": "Beaufort",
       "state": "SC",
-      "price": 6.99
+      "price": 7.29
+    },
+    {
+      "store_number": "026432",
+      "name": "Taco Bell",
+      "city": "Pigeon Forge",
+      "state": "TN",
+      "price": 7.29
     },
     {
       "store_number": "039921",
@@ -269,16 +285,119 @@
       "city": "Marietta",
       "state": "GA",
       "price": 6.99
-    },
-    {
-      "store_number": "026432",
-      "name": "Taco Bell",
-      "city": "Pigeon Forge",
-      "state": "TN",
-      "price": 6.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026432",
+      "store_name": "Taco Bell",
+      "city": "Pigeon Forge",
+      "state": "TN",
+      "change_type": "price_change",
+      "old_price": 6.99,
+      "new_price": 7.29,
+      "observed_at": "2026-07-22T21:42:55.803767+00:00"
+    },
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 6.99,
+      "new_price": 7.29,
+      "observed_at": "2026-07-22T21:42:55.356873+00:00"
+    },
+    {
+      "store_number": "029093",
+      "store_name": "Taco Bell",
+      "city": "Dublin",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-07-22T21:42:52.464644+00:00"
+    },
+    {
+      "store_number": "042576",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.69,
+      "observed_at": "2026-07-22T21:42:41.830131+00:00"
+    },
+    {
+      "store_number": "032206",
+      "store_name": "Taco Bell",
+      "city": "Roanoke",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-07-22T21:42:21.835417+00:00"
+    },
+    {
+      "store_number": "040967",
+      "store_name": "Taco Bell",
+      "city": "Sylva",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-07-22T21:42:13.957479+00:00"
+    },
+    {
+      "store_number": "041242",
+      "store_name": "Taco Bell",
+      "city": "Acworth",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-07-22T21:41:58.544240+00:00"
+    },
+    {
+      "store_number": "042819",
+      "store_name": "Taco Bell",
+      "city": "Mobile",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.69,
+      "observed_at": "2026-07-22T21:41:45.288075+00:00"
+    },
+    {
+      "store_number": "029068",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-07-22T21:41:43.247053+00:00"
+    },
+    {
+      "store_number": "029063",
+      "store_name": "Taco Bell",
+      "city": "Dalton",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-07-22T21:40:57.772402+00:00"
+    },
+    {
+      "store_number": "029044",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-07-22T21:40:57.151684+00:00"
+    },
     {
       "store_number": "041321",
       "store_name": "Taco Bell",
@@ -12521,9 +12640,9 @@
     }
   ],
   "activity_summary": {
-    "added": 682,
+    "added": 691,
     "removed": 536,
-    "price_changed": 6,
+    "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 650,
@@ -12657,6 +12776,24 @@
       "Taco Bell",
       "Tuscaloosa",
       "AL"
+    ],
+    [
+      "029044",
+      35.13055752147114,
+      -84.87646358908727,
+      6.49,
+      "Taco Bell",
+      "Cleveland",
+      "TN"
+    ],
+    [
+      "029063",
+      34.77120971818972,
+      -84.92270722056674,
+      6.49,
+      "Taco Bell",
+      "Dalton",
+      "GA"
     ],
     [
       "029141",
@@ -12803,6 +12940,15 @@
       "TN"
     ],
     [
+      "029068",
+      35.92157105733978,
+      -83.8660991191864,
+      6.49,
+      "Taco Bell",
+      "Knoxville",
+      "TN"
+    ],
+    [
       "036372",
       31.315457449306592,
       -85.82937418366782,
@@ -12864,6 +13010,15 @@
       "Taco Bell",
       "Cartersville",
       "GA"
+    ],
+    [
+      "032206",
+      33.15078573691271,
+      -85.35986222453687,
+      6.49,
+      "Taco Bell",
+      "Roanoke",
+      "AL"
     ],
     [
       "036369",
@@ -12944,6 +13099,15 @@
       6.49,
       "Taco Bell",
       "Rome",
+      "GA"
+    ],
+    [
+      "029093",
+      32.492022353342755,
+      -82.93276817149301,
+      6.49,
+      "Taco Bell",
+      "Dublin",
       "GA"
     ],
     [
@@ -13343,6 +13507,15 @@
       "FL"
     ],
     [
+      "042819",
+      30.63995901293325,
+      -88.18682670593262,
+      6.69,
+      "Taco Bell",
+      "Mobile",
+      "AL"
+    ],
+    [
       "030707",
       30.18565418903784,
       -85.8179617328141,
@@ -13440,6 +13613,15 @@
       "Taco Bell",
       "Selma",
       "AL"
+    ],
+    [
+      "042576",
+      34.10871458788698,
+      -83.87817268075196,
+      6.69,
+      "Taco Bell",
+      "Buford",
+      "GA"
     ],
     [
       "019713",
@@ -13676,6 +13858,15 @@
       "FL"
     ],
     [
+      "041242",
+      34.0761456410671,
+      -84.6762931912813,
+      6.99,
+      "Taco Bell",
+      "Acworth",
+      "GA"
+    ],
+    [
       "041251",
       33.9548504761488,
       -84.05577776243516,
@@ -13692,6 +13883,15 @@
       "Taco Bell",
       "Loganville",
       "GA"
+    ],
+    [
+      "040967",
+      35.37256754318715,
+      -83.20724665070884,
+      6.99,
+      "Taco Bell",
+      "Sylva",
+      "NC"
     ],
     [
       "041255",
@@ -13775,15 +13975,6 @@
       "GA"
     ],
     [
-      "026432",
-      35.80377693492917,
-      -83.58050286769867,
-      6.99,
-      "Taco Bell",
-      "Pigeon Forge",
-      "TN"
-    ],
-    [
       "041239",
       33.947912340193156,
       -84.51838984153255,
@@ -13856,16 +14047,25 @@
       "GA"
     ],
     [
+      "026432",
+      35.80377693492917,
+      -83.58050286769867,
+      7.29,
+      "Taco Bell",
+      "Pigeon Forge",
+      "TN"
+    ],
+    [
       "031583",
       32.42953531961479,
       -80.71891911656758,
-      6.99,
+      7.29,
       "Taco Bell",
       "Beaufort",
       "SC"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-21",
+  "last_seen_date": "2026-07-22",
   "peak_availability_pct": 6.0
 }

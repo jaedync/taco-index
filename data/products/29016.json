@@ -14,14 +14,14 @@
   "peak_30d_pct": 1.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:42:17.482555+00:00",
-  "availability_pct": 1.5,
+  "availability_pct": 1.6,
   "price_stats": {
-    "avg": 6.01,
+    "avg": 6.02,
     "min": 5.49,
     "max": 8.19,
     "median": 5.99,
     "std_dev": 0.23,
-    "store_count": 119
+    "store_count": 120
   },
   "histogram": [
     {
@@ -34,6 +34,10 @@
     },
     {
       "bucket": "$6.19",
+      "count": 1
+    },
+    {
+      "bucket": "$6.49",
       "count": 1
     },
     {
@@ -162,6 +166,13 @@
       "price": 6.99
     },
     {
+      "store_number": "027668",
+      "name": "Taco Bell",
+      "city": "Rochester Hills",
+      "state": "MI",
+      "price": 6.49
+    },
+    {
       "store_number": "021309",
       "name": "Taco Bell",
       "city": "Norfolk",
@@ -209,16 +220,19 @@
       "city": "Layton",
       "state": "UT",
       "price": 5.99
-    },
-    {
-      "store_number": "033177",
-      "name": "Taco Bell",
-      "city": "Clinton",
-      "state": "UT",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027668",
+      "store_name": "Taco Bell",
+      "city": "Rochester Hills",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-07-22T21:40:52.978625+00:00"
+    },
     {
       "store_number": "032051",
       "store_name": "Taco Bell",
@@ -2481,7 +2495,7 @@
     }
   ],
   "activity_summary": {
-    "added": 150,
+    "added": 151,
     "removed": 34,
     "price_changed": 42,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3543,6 +3557,15 @@
       "Taco Bell",
       "Norfolk",
       "VA"
+    ],
+    [
+      "027668",
+      42.68118035670236,
+      -83.15248829755953,
+      6.49,
+      "Taco Bell",
+      "Rochester Hills",
+      "MI"
     ],
     [
       "026132",

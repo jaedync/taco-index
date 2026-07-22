@@ -18,7 +18,7 @@
   "price_stats": {
     "avg": 3.08,
     "min": 2.39,
-    "max": 3.59,
+    "max": 3.49,
     "median": 3.19,
     "std_dev": 0.23,
     "store_count": 733
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 106
+      "count": 107
     },
     {
       "bucket": "$3.09",
@@ -75,10 +75,6 @@
     {
       "bucket": "$3.49",
       "count": 1
-    },
-    {
-      "bucket": "$3.59",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -88,14 +84,14 @@
       "store_count": 10
     },
     {
-      "state": "CA",
-      "avg_price": 3.29,
-      "store_count": 8
-    },
-    {
       "state": "AR",
       "avg_price": 3.28,
       "store_count": 95
+    },
+    {
+      "state": "CA",
+      "avg_price": 3.25,
+      "store_count": 7
     },
     {
       "state": "OK",
@@ -110,7 +106,7 @@
     {
       "state": "TX",
       "avg_price": 2.99,
-      "store_count": 445
+      "store_count": 446
     },
     {
       "state": "AL",
@@ -216,13 +212,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "026240",
-      "name": "Taco Bell",
-      "city": "San Diego",
-      "state": "CA",
-      "price": 3.59
-    },
-    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
@@ -284,9 +273,36 @@
       "city": "Independence",
       "state": "MO",
       "price": 3.39
+    },
+    {
+      "store_number": "034420",
+      "name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035071",
+      "store_name": "Taco Bell",
+      "city": "Del Rio",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-07-22T21:43:08.946677+00:00"
+    },
+    {
+      "store_number": "026240",
+      "store_name": "Taco Bell",
+      "city": "San Diego",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-07-22T21:42:23.634045+00:00"
+    },
     {
       "store_number": "038749",
       "store_name": "Taco Bell",
@@ -9589,8 +9605,8 @@
     }
   ],
   "activity_summary": {
-    "added": 385,
-    "removed": 384,
+    "added": 386,
+    "removed": 385,
     "price_changed": 161,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12072,6 +12088,15 @@
       2.99,
       "Taco Bell",
       "Austin",
+      "TX"
+    ],
+    [
+      "035071",
+      29.38134420175439,
+      -100.90459451079369,
+      2.99,
+      "Taco Bell",
+      "Del Rio",
       "TX"
     ],
     [
@@ -16186,15 +16211,6 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
-    ],
-    [
-      "026240",
-      32.75061018589438,
-      -117.20830118661118,
-      3.59,
-      "Taco Bell",
-      "San Diego",
-      "CA"
     ]
   ],
   "retired_at": null,

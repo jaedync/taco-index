@@ -17,17 +17,13 @@
   "availability_pct": 6.3,
   "price_stats": {
     "avg": 8.15,
-    "min": 6.99,
+    "min": 7.39,
     "max": 9.99,
     "median": 7.99,
-    "std_dev": 0.37,
+    "std_dev": 0.36,
     "store_count": 490
   },
   "histogram": [
-    {
-      "bucket": "$6.99",
-      "count": 1
-    },
     {
       "bucket": "$7.39",
       "count": 12
@@ -50,11 +46,11 @@
     },
     {
       "bucket": "$7.99",
-      "count": 271
+      "count": 270
     },
     {
       "bucket": "$8.19",
-      "count": 72
+      "count": 74
     },
     {
       "bucket": "$8.29",
@@ -91,14 +87,14 @@
   ],
   "state_prices": [
     {
+      "state": "SC",
+      "avg_price": 8.4,
+      "store_count": 8
+    },
+    {
       "state": "GA",
       "avg_price": 8.32,
       "store_count": 241
-    },
-    {
-      "state": "SC",
-      "avg_price": 8.23,
-      "store_count": 8
     },
     {
       "state": "TN",
@@ -118,13 +114,6 @@
   ],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "034710",
-      "name": "Taco Bell",
-      "city": "Beaufort",
-      "state": "SC",
-      "price": 6.99
-    },
     {
       "store_number": "042129",
       "name": "Taco Bell",
@@ -187,10 +176,28 @@
       "city": "Defuniak Springs",
       "state": "FL",
       "price": 7.39
+    },
+    {
+      "store_number": "042125",
+      "name": "Taco Bell",
+      "city": "Crestview",
+      "state": "FL",
+      "price": 7.39
     }
   ],
   "min_price_store_numbers": [
-    "034710"
+    "042129",
+    "042128",
+    "042130",
+    "042127",
+    "042121",
+    "042122",
+    "042131",
+    "042134",
+    "042126",
+    "042125",
+    "042124",
+    "042123"
   ],
   "priciest_stores": [
     {
@@ -265,6 +272,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 7.99,
+      "new_price": 8.19,
+      "observed_at": "2026-07-22T21:42:55.356873+00:00"
+    },
+    {
+      "store_number": "034710",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 6.99,
+      "new_price": 8.19,
+      "observed_at": "2026-07-22T21:40:23.451449+00:00"
+    },
     {
       "store_number": "037050",
       "store_name": "Taco Bell",
@@ -6029,7 +6056,7 @@
   "activity_summary": {
     "added": 508,
     "removed": 17,
-    "price_changed": 51,
+    "price_changed": 53,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 420,
@@ -6037,15 +6064,6 @@
   "calories_max": 420,
   "combo_groups": [],
   "map_data": [
-    [
-      "034710",
-      32.40781978657577,
-      -80.63921262604607,
-      6.99,
-      "Taco Bell",
-      "Beaufort",
-      "SC"
-    ],
     [
       "042129",
       30.379298489060574,
@@ -8342,15 +8360,6 @@
       "TN"
     ],
     [
-      "031583",
-      32.42953531961479,
-      -80.71891911656758,
-      7.99,
-      "Taco Bell",
-      "Beaufort",
-      "SC"
-    ],
-    [
       "029081",
       32.481908052772376,
       -85.03176999935995,
@@ -8864,6 +8873,15 @@
       "GA"
     ],
     [
+      "034710",
+      32.40781978657577,
+      -80.63921262604607,
+      8.19,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
+    ],
+    [
       "042581",
       34.256253,
       -84.35856199999999,
@@ -9285,6 +9303,15 @@
       "Taco Bell",
       "Duluth",
       "GA"
+    ],
+    [
+      "031583",
+      32.42953531961479,
+      -80.71891911656758,
+      8.19,
+      "Taco Bell",
+      "Beaufort",
+      "SC"
     ],
     [
       "042824",
@@ -10449,6 +10476,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-21",
+  "last_seen_date": "2026-07-22",
   "peak_availability_pct": 6.0
 }
