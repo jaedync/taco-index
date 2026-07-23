@@ -20,12 +20,12 @@
     "max": 4.12,
     "median": 1.99,
     "std_dev": 0.35,
-    "store_count": 3404
+    "store_count": 3406
   },
   "histogram": [
     {
       "bucket": "$1.00",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$1.10",
@@ -69,7 +69,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1327
+      "count": 1326
     },
     {
       "bucket": "$2.00",
@@ -105,7 +105,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 143
+      "count": 144
     },
     {
       "bucket": "$2.59",
@@ -133,7 +133,7 @@
     },
     {
       "bucket": "$2.90",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$2.99",
@@ -179,8 +179,8 @@
     },
     {
       "state": "MT",
-      "avg_price": 2.26,
-      "store_count": 26
+      "avg_price": 2.28,
+      "store_count": 27
     },
     {
       "state": "OR",
@@ -208,14 +208,14 @@
       "store_count": 12
     },
     {
-      "state": "OH",
-      "avg_price": 2.1,
-      "store_count": 196
+      "state": "IL",
+      "avg_price": 2.11,
+      "store_count": 117
     },
     {
-      "state": "IL",
+      "state": "OH",
       "avg_price": 2.1,
-      "store_count": 116
+      "store_count": 195
     },
     {
       "state": "TN",
@@ -359,8 +359,8 @@
     },
     {
       "state": "MS",
-      "avg_price": 1.22,
-      "store_count": 9
+      "avg_price": 1.2,
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -378,6 +378,13 @@
     "serving_size_g": 151.6697
   },
   "cheapest_stores": [
+    {
+      "store_number": "003924",
+      "name": "Taco Bell",
+      "city": "Brookhaven",
+      "state": "MS",
+      "price": 1.0
+    },
     {
       "store_number": "043080",
       "name": "Taco Bell",
@@ -440,16 +447,10 @@
       "city": "Evansville",
       "state": "IN",
       "price": 1.1
-    },
-    {
-      "store_number": "042835",
-      "name": "Taco Bell",
-      "city": "Lexington",
-      "state": "SC",
-      "price": 1.1
     }
   ],
   "min_price_store_numbers": [
+    "003924",
     "043080",
     "004760",
     "019737",
@@ -532,6 +533,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024079",
+      "store_name": "Taco Bell",
+      "city": "Northwood",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-07-23T20:49:06.153421+00:00"
+    },
+    {
+      "store_number": "036204",
+      "store_name": "Taco Bell",
+      "city": "Sterling",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-07-23T20:48:45.569163+00:00"
+    },
+    {
+      "store_number": "009552",
+      "store_name": "Taco Bell",
+      "city": "Kalispell",
+      "state": "MT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.9,
+      "observed_at": "2026-07-23T20:48:32.562124+00:00"
+    },
+    {
+      "store_number": "003924",
+      "store_name": "Taco Bell",
+      "city": "Brookhaven",
+      "state": "MS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-07-23T20:47:54.857042+00:00"
+    },
     {
       "store_number": "026432",
       "store_name": "Taco Bell",
@@ -22054,8 +22095,8 @@
     }
   ],
   "activity_summary": {
-    "added": 960,
-    "removed": 888,
+    "added": 963,
+    "removed": 889,
     "price_changed": 304,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -22064,6 +22105,15 @@
   "calories_max": 340,
   "combo_groups": [],
   "map_data": [
+    [
+      "003924",
+      31.578578240993373,
+      -90.467773572389,
+      1.0,
+      "Taco Bell",
+      "Brookhaven",
+      "MS"
+    ],
     [
       "043080",
       34.18945413292766,
@@ -37959,15 +38009,6 @@
       "WA"
     ],
     [
-      "024079",
-      41.61444837117477,
-      -83.48383381968233,
-      1.99,
-      "Taco Bell",
-      "Northwood",
-      "OH"
-    ],
-    [
       "037560",
       33.29781822662079,
       -111.74567149837131,
@@ -51171,6 +51212,15 @@
       "IL"
     ],
     [
+      "036204",
+      41.788945512505826,
+      -89.69694583251564,
+      2.49,
+      "Taco Bell",
+      "Sterling",
+      "IL"
+    ],
+    [
       "039704",
       42.67261,
       -82.947206,
@@ -52002,6 +52052,15 @@
       "038742",
       48.2329,
       -114.334,
+      2.9,
+      "Taco Bell",
+      "Kalispell",
+      "MT"
+    ],
+    [
+      "009552",
+      48.203751946103424,
+      -114.30690340575218,
       2.9,
       "Taco Bell",
       "Kalispell",

@@ -19,10 +19,10 @@
   "price_stats": {
     "avg": 2.21,
     "min": 1.0,
-    "max": 3.99,
+    "max": 3.39,
     "median": 2.19,
     "std_dev": 0.34,
-    "store_count": 3119
+    "store_count": 3118
   },
   "histogram": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 808
+      "count": 809
     },
     {
       "bucket": "$2.03",
@@ -67,7 +67,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 578
+      "count": 577
     },
     {
       "bucket": "$2.20",
@@ -152,10 +152,6 @@
     {
       "bucket": "$3.39",
       "count": 2
-    },
-    {
-      "bucket": "$3.99",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -206,8 +202,8 @@
     },
     {
       "state": "MD",
-      "avg_price": 2.28,
-      "store_count": 24
+      "avg_price": 2.3,
+      "store_count": 23
     },
     {
       "state": "HI",
@@ -240,11 +236,6 @@
       "store_count": 13
     },
     {
-      "state": "GA",
-      "avg_price": 2.18,
-      "store_count": 52
-    },
-    {
       "state": "NM",
       "avg_price": 2.18,
       "store_count": 21
@@ -253,6 +244,11 @@
       "state": "FL",
       "avg_price": 2.14,
       "store_count": 217
+    },
+    {
+      "state": "GA",
+      "avg_price": 2.14,
+      "store_count": 51
     },
     {
       "state": "TN",
@@ -277,7 +273,7 @@
     {
       "state": "MI",
       "avg_price": 2.04,
-      "store_count": 177
+      "store_count": 178
     },
     {
       "state": "CT",
@@ -291,13 +287,13 @@
     },
     {
       "state": "OH",
-      "avg_price": 2.0,
-      "store_count": 171
+      "avg_price": 1.99,
+      "store_count": 170
     },
     {
       "state": "MA",
       "avg_price": 1.99,
-      "store_count": 24
+      "store_count": 25
     },
     {
       "state": "SD",
@@ -461,13 +457,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "042578",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 3.99
-    },
-    {
       "store_number": "032759",
       "name": "Taco Bell Cantina",
       "city": "Berkeley",
@@ -529,9 +518,66 @@
       "city": "Merced",
       "state": "CA",
       "price": 3.29
+    },
+    {
+      "store_number": "039798",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "La Canada Flintridge",
+      "state": "CA",
+      "price": 3.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040608",
+      "store_name": "Taco Bell",
+      "city": "Holly",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-07-23T20:50:12.060228+00:00"
+    },
+    {
+      "store_number": "036539",
+      "store_name": "Taco Bell",
+      "city": "Rockville",
+      "state": "MD",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-07-23T20:50:05.278181+00:00"
+    },
+    {
+      "store_number": "031222",
+      "store_name": "Taco Bell",
+      "city": "West Springfield",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-07-23T20:49:15.204800+00:00"
+    },
+    {
+      "store_number": "024079",
+      "store_name": "Taco Bell",
+      "city": "Northwood",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-07-23T20:49:06.153421+00:00"
+    },
+    {
+      "store_number": "042578",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-07-23T20:47:56.975963+00:00"
+    },
     {
       "store_number": "039055",
       "store_name": "Taco Bell",
@@ -27244,8 +27290,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1180,
-    "removed": 1134,
+    "added": 1182,
+    "removed": 1137,
     "price_changed": 357,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -35841,6 +35887,15 @@
       "MI"
     ],
     [
+      "031222",
+      42.129457090737375,
+      -72.6279038305677,
+      1.99,
+      "Taco Bell",
+      "West Springfield",
+      "MA"
+    ],
+    [
       "002080",
       39.090120042818434,
       -108.60433464068318,
@@ -37587,15 +37642,6 @@
       "OR"
     ],
     [
-      "036539",
-      39.07199629891333,
-      -77.13248272241799,
-      1.99,
-      "Taco Bell",
-      "Rockville",
-      "MD"
-    ],
-    [
       "002471",
       39.235476426144174,
       -121.03791760601138,
@@ -37936,6 +37982,15 @@
       "Taco Bell",
       "Mountain Home",
       "ID"
+    ],
+    [
+      "040608",
+      42.806939499151795,
+      -83.6245848816147,
+      1.99,
+      "Taco Bell",
+      "Holly",
+      "MI"
     ],
     [
       "038759",
@@ -41878,15 +41933,6 @@
       "Taco Bell",
       "Miami",
       "FL"
-    ],
-    [
-      "024079",
-      41.61444837117477,
-      -83.48383381968233,
-      2.19,
-      "Taco Bell",
-      "Northwood",
-      "OH"
     ],
     [
       "025396",
@@ -55315,15 +55361,6 @@
       "Taco Bell Cantina",
       "Berkeley",
       "CA"
-    ],
-    [
-      "042578",
-      33.78032506878061,
-      -84.38918335266644,
-      3.99,
-      "Taco Bell",
-      "Atlanta",
-      "GA"
     ]
   ],
   "retired_at": null,

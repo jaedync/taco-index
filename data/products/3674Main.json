@@ -15,17 +15,17 @@
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 3.93,
+    "avg": 3.92,
     "min": 3.49,
     "max": 4.99,
     "median": 3.99,
-    "std_dev": 0.25,
-    "store_count": 26
+    "std_dev": 0.26,
+    "store_count": 27
   },
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$3.79",
@@ -59,6 +59,13 @@
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Spring",
       "state": "TX",
+      "price": 3.49
+    },
+    {
+      "store_number": "031968",
+      "name": "Taco Bell",
+      "city": "Rockford",
+      "state": "IL",
       "price": 3.49
     },
     {
@@ -116,17 +123,11 @@
       "city": "Dallas",
       "state": "TX",
       "price": 3.79
-    },
-    {
-      "store_number": "027489",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Mesquite",
-      "state": "TX",
-      "price": 3.79
     }
   ],
   "min_price_store_numbers": [
-    "022811"
+    "022811",
+    "031968"
   ],
   "priciest_stores": [
     {
@@ -201,6 +202,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031968",
+      "store_name": "Taco Bell",
+      "city": "Rockford",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-07-23T20:50:12.238872+00:00"
+    },
     {
       "store_number": "031895",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -493,7 +504,7 @@
     }
   ],
   "activity_summary": {
-    "added": 11,
+    "added": 12,
     "removed": 18,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -511,6 +522,15 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Spring",
       "TX"
+    ],
+    [
+      "031968",
+      42.26557140542666,
+      -89.0384048464727,
+      3.49,
+      "Taco Bell",
+      "Rockford",
+      "IL"
     ],
     [
       "021176",
@@ -744,7 +764,7 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 3.9,
+      "avg_price": 3.89,
       "min_price": 3.49,
       "max_price": 4.99,
       "calories": 0,

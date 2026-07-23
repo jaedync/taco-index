@@ -19,10 +19,10 @@
   "price_stats": {
     "avg": 2.21,
     "min": 1.0,
-    "max": 4.99,
+    "max": 3.72,
     "median": 2.19,
     "std_dev": 0.36,
-    "store_count": 3121
+    "store_count": 3120
   },
   "histogram": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 797
+      "count": 798
     },
     {
       "bucket": "$2.03",
@@ -63,7 +63,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 508
+      "count": 507
     },
     {
       "bucket": "$2.20",
@@ -156,10 +156,6 @@
     {
       "bucket": "$3.72",
       "count": 5
-    },
-    {
-      "bucket": "$4.99",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -191,7 +187,7 @@
     {
       "state": "CA",
       "avg_price": 2.52,
-      "store_count": 588
+      "store_count": 587
     },
     {
       "state": "UT",
@@ -210,8 +206,8 @@
     },
     {
       "state": "MD",
-      "avg_price": 2.31,
-      "store_count": 25
+      "avg_price": 2.33,
+      "store_count": 24
     },
     {
       "state": "NM",
@@ -222,11 +218,6 @@
       "state": "HI",
       "avg_price": 2.26,
       "store_count": 20
-    },
-    {
-      "state": "GA",
-      "avg_price": 2.22,
-      "store_count": 56
     },
     {
       "state": "OR",
@@ -254,9 +245,14 @@
       "store_count": 11
     },
     {
+      "state": "GA",
+      "avg_price": 2.17,
+      "store_count": 55
+    },
+    {
       "state": "FL",
-      "avg_price": 2.14,
-      "store_count": 220
+      "avg_price": 2.15,
+      "store_count": 221
     },
     {
       "state": "ID",
@@ -291,17 +287,17 @@
     {
       "state": "MI",
       "avg_price": 2.03,
-      "store_count": 175
+      "store_count": 176
     },
     {
       "state": "OH",
       "avg_price": 2.01,
-      "store_count": 171
+      "store_count": 170
     },
     {
       "state": "MA",
       "avg_price": 2.0,
-      "store_count": 24
+      "store_count": 25
     },
     {
       "state": "SD",
@@ -465,13 +461,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "042578",
-      "name": "Taco Bell",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 4.99
-    },
-    {
       "store_number": "040381",
       "name": "Taco Bell",
       "city": "New York",
@@ -533,9 +522,86 @@
       "city": "La Canada Flintridge",
       "state": "CA",
       "price": 3.69
+    },
+    {
+      "store_number": "039853",
+      "name": "Taco Bell",
+      "city": "Yorba Linda",
+      "state": "CA",
+      "price": 3.69
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040608",
+      "store_name": "Taco Bell",
+      "city": "Holly",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-07-23T20:50:12.060228+00:00"
+    },
+    {
+      "store_number": "036539",
+      "store_name": "Taco Bell",
+      "city": "Rockville",
+      "state": "MD",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-07-23T20:50:05.278181+00:00"
+    },
+    {
+      "store_number": "031222",
+      "store_name": "Taco Bell",
+      "city": "West Springfield",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-07-23T20:49:15.204800+00:00"
+    },
+    {
+      "store_number": "024079",
+      "store_name": "Taco Bell",
+      "city": "Northwood",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-07-23T20:49:06.153421+00:00"
+    },
+    {
+      "store_number": "042893",
+      "store_name": "Taco Bell",
+      "city": "Jensen Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.29,
+      "observed_at": "2026-07-23T20:49:05.525256+00:00"
+    },
+    {
+      "store_number": "030785",
+      "store_name": "Taco Bell",
+      "city": "South San Francisco",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 2.29,
+      "new_price": null,
+      "observed_at": "2026-07-23T20:48:39.204756+00:00"
+    },
+    {
+      "store_number": "042578",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-07-23T20:47:56.975963+00:00"
+    },
     {
       "store_number": "039055",
       "store_name": "Taco Bell",
@@ -27358,8 +27424,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1224,
-    "removed": 1169,
+    "added": 1227,
+    "removed": 1173,
     "price_changed": 289,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -36009,6 +36075,15 @@
       "MI"
     ],
     [
+      "031222",
+      42.129457090737375,
+      -72.6279038305677,
+      1.99,
+      "Taco Bell",
+      "West Springfield",
+      "MA"
+    ],
+    [
       "029538",
       26.1542511341579,
       -80.25770612063752,
@@ -37764,15 +37839,6 @@
       "OR"
     ],
     [
-      "036539",
-      39.07199629891333,
-      -77.13248272241799,
-      1.99,
-      "Taco Bell",
-      "Rockville",
-      "MD"
-    ],
-    [
       "002471",
       39.235476426144174,
       -121.03791760601138,
@@ -38113,6 +38179,15 @@
       "Taco Bell",
       "Mountain Home",
       "ID"
+    ],
+    [
+      "040608",
+      42.806939499151795,
+      -83.6245848816147,
+      1.99,
+      "Taco Bell",
+      "Holly",
+      "MI"
     ],
     [
       "038759",
@@ -41643,15 +41718,6 @@
       "FL"
     ],
     [
-      "024079",
-      41.61444837117477,
-      -83.48383381968233,
-      2.19,
-      "Taco Bell",
-      "Northwood",
-      "OH"
-    ],
-    [
       "025396",
       40.170321461373085,
       -111.61104539040025,
@@ -44793,15 +44859,6 @@
       "CA"
     ],
     [
-      "030785",
-      37.64683879461168,
-      -122.42873983838048,
-      2.29,
-      "Taco Bell",
-      "South San Francisco",
-      "CA"
-    ],
-    [
       "020020",
       45.5565070528215,
       -122.68185352536929,
@@ -47059,6 +47116,15 @@
       "Taco Bell",
       "Chula Vista",
       "CA"
+    ],
+    [
+      "042893",
+      27.240240039501263,
+      -80.27085234226433,
+      2.29,
+      "Taco Bell",
+      "Jensen Beach",
+      "FL"
     ],
     [
       "041644",
@@ -55447,15 +55513,6 @@
       "Taco Bell",
       "New York",
       "NY"
-    ],
-    [
-      "042578",
-      33.78032506878061,
-      -84.38918335266644,
-      4.99,
-      "Taco Bell",
-      "Atlanta",
-      "GA"
     ]
   ],
   "retired_at": null,
