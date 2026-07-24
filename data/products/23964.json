@@ -17,12 +17,12 @@
   "first_seen_at": "2026-06-18T21:25:52.078312+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.84,
+    "avg": 5.83,
     "min": 5.49,
     "max": 6.09,
     "median": 5.99,
     "std_dev": 0.25,
-    "store_count": 22
+    "store_count": 20
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 13
+      "count": 11
     },
     {
       "bucket": "$6.09",
@@ -41,8 +41,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 5.91,
-      "store_count": 6
+      "avg_price": 5.89,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -198,21 +198,41 @@
       "price": 5.99
     },
     {
-      "store_number": "020974",
-      "name": "Taco Bell / KFC",
-      "city": "King George",
-      "state": "VA",
+      "store_number": "029482",
+      "name": "Taco Bell",
+      "city": "Pittsboro",
+      "state": "NC",
       "price": 5.99
     },
     {
-      "store_number": "029404",
+      "store_number": "023838",
       "name": "Taco Bell",
-      "city": "Garner",
-      "state": "NC",
+      "city": "Albuquerque",
+      "state": "NM",
       "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020974",
+      "store_name": "Taco Bell / KFC",
+      "city": "King George",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-07-24T21:36:59.662109+00:00"
+    },
+    {
+      "store_number": "029404",
+      "store_name": "Taco Bell",
+      "city": "Garner",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-07-24T21:36:58.891659+00:00"
+    },
     {
       "store_number": "029483",
       "store_name": "Taco Bell",
@@ -1256,7 +1276,7 @@
   ],
   "activity_summary": {
     "added": 63,
-    "removed": 41,
+    "removed": 43,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1374,24 +1394,6 @@
       "NC"
     ],
     [
-      "029404",
-      35.60550043842093,
-      -78.56779754161835,
-      5.99,
-      "Taco Bell",
-      "Garner",
-      "NC"
-    ],
-    [
-      "020974",
-      38.33900959254854,
-      -77.0779993920587,
-      5.99,
-      "Taco Bell / KFC",
-      "King George",
-      "VA"
-    ],
-    [
       "041398",
       36.29845084379178,
       -78.58481152503262,
@@ -1465,6 +1467,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-23",
+  "last_seen_date": "2026-07-24",
   "peak_availability_pct": 0.4
 }

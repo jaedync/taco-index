@@ -23,21 +23,15 @@
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 7
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 7
+      "count": 4
     }
   ],
-  "state_prices": [
-    {
-      "state": "IL",
-      "avg_price": 11.0,
-      "store_count": 7
-    }
-  ],
+  "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -54,13 +48,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "040018",
-      "name": "Taco Bell",
-      "city": "Lansing",
-      "state": "IL",
-      "price": 11.0
-    },
-    {
       "store_number": "030407",
       "name": "Taco Bell",
       "city": "Chicago",
@@ -75,23 +62,9 @@
       "price": 11.0
     },
     {
-      "store_number": "032084",
-      "name": "Taco Bell",
-      "city": "McHenry",
-      "state": "IL",
-      "price": 11.0
-    },
-    {
       "store_number": "027896",
       "name": "Taco Bell",
       "city": "Ottawa",
-      "state": "IL",
-      "price": 11.0
-    },
-    {
-      "store_number": "032082",
-      "name": "Taco Bell",
-      "city": "Mundelein",
       "state": "IL",
       "price": 11.0
     },
@@ -104,12 +77,9 @@
     }
   ],
   "min_price_store_numbers": [
-    "040018",
     "030407",
     "026757",
-    "032084",
     "027896",
-    "032082",
     "037359"
   ],
   "priciest_stores": [
@@ -121,23 +91,9 @@
       "price": 11.0
     },
     {
-      "store_number": "032082",
-      "name": "Taco Bell",
-      "city": "Mundelein",
-      "state": "IL",
-      "price": 11.0
-    },
-    {
       "store_number": "027896",
       "name": "Taco Bell",
       "city": "Ottawa",
-      "state": "IL",
-      "price": 11.0
-    },
-    {
-      "store_number": "032084",
-      "name": "Taco Bell",
-      "city": "McHenry",
       "state": "IL",
       "price": 11.0
     },
@@ -154,16 +110,39 @@
       "city": "Chicago",
       "state": "IL",
       "price": 11.0
-    },
-    {
-      "store_number": "040018",
-      "name": "Taco Bell",
-      "city": "Lansing",
-      "state": "IL",
-      "price": 11.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032082",
+      "store_name": "Taco Bell",
+      "city": "Mundelein",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-07-24T21:37:56.820078+00:00"
+    },
+    {
+      "store_number": "032084",
+      "store_name": "Taco Bell",
+      "city": "McHenry",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-07-24T21:37:14.389601+00:00"
+    },
+    {
+      "store_number": "040018",
+      "store_name": "Taco Bell",
+      "city": "Lansing",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-07-24T21:34:38.741328+00:00"
+    },
     {
       "store_number": "032134",
       "store_name": "Taco Bell",
@@ -1337,7 +1316,7 @@
   ],
   "activity_summary": {
     "added": 62,
-    "removed": 55,
+    "removed": 58,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1372,15 +1351,6 @@
   ],
   "map_data": [
     [
-      "040018",
-      41.568922522295324,
-      -87.55837966195392,
-      11.0,
-      "Taco Bell",
-      "Lansing",
-      "IL"
-    ],
-    [
       "030407",
       41.75244929284412,
       -87.58651092281517,
@@ -1399,30 +1369,12 @@
       "IL"
     ],
     [
-      "032084",
-      42.3456536208302,
-      -88.27804996515624,
-      11.0,
-      "Taco Bell",
-      "McHenry",
-      "IL"
-    ],
-    [
       "027896",
       41.38015114984622,
       -88.83644212596955,
       11.0,
       "Taco Bell",
       "Ottawa",
-      "IL"
-    ],
-    [
-      "032082",
-      42.239322778359394,
-      -87.99372491240774,
-      11.0,
-      "Taco Bell",
-      "Mundelein",
       "IL"
     ],
     [
@@ -1436,6 +1388,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-23",
+  "last_seen_date": "2026-07-24",
   "peak_availability_pct": 0.3
 }

@@ -14,26 +14,26 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-07-23T20:47:07.898814+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.5,
   "price_stats": {
     "avg": 1.99,
     "min": 1.99,
     "max": 1.99,
     "median": 1.99,
     "std_dev": 0.0,
-    "store_count": 34
+    "store_count": 35
   },
   "histogram": [
     {
       "bucket": "$1.99",
-      "count": 34
+      "count": 35
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 1.99,
-      "store_count": 34
+      "store_count": 35
     }
   ],
   "nutrition": {
@@ -156,9 +156,17 @@
     "033006",
     "033013",
     "033008",
-    "040369"
+    "040369",
+    "033043"
   ],
   "priciest_stores": [
+    {
+      "store_number": "033043",
+      "name": "Taco Bell",
+      "city": "Wayland",
+      "state": "MI",
+      "price": 1.99
+    },
     {
       "store_number": "040369",
       "name": "Taco Bell",
@@ -221,16 +229,19 @@
       "city": "Jenison",
       "state": "MI",
       "price": 1.99
-    },
-    {
-      "store_number": "033027",
-      "name": "Taco Bell",
-      "city": "Muskegon",
-      "state": "MI",
-      "price": 1.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033043",
+      "store_name": "Taco Bell",
+      "city": "Wayland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-07-24T21:38:32.062685+00:00"
+    },
     {
       "store_number": "040369",
       "store_name": "Taco Bell",
@@ -573,7 +584,7 @@
     }
   ],
   "activity_summary": {
-    "added": 34,
+    "added": 35,
     "removed": 0,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -887,6 +898,15 @@
       1.99,
       "Taco Bell",
       "Battle Creek",
+      "MI"
+    ],
+    [
+      "033043",
+      42.67365292260149,
+      -85.65788559621069,
+      1.99,
+      "Taco Bell",
+      "Wayland",
       "MI"
     ]
   ],

@@ -23,12 +23,12 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -53,27 +53,12 @@
       "city": "Kailua Kona",
       "state": "HI",
       "price": 10.99
-    },
-    {
-      "store_number": "004865",
-      "name": "Taco Bell",
-      "city": "Kapaa",
-      "state": "HI",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
-    "003975",
-    "004865"
+    "003975"
   ],
   "priciest_stores": [
-    {
-      "store_number": "004865",
-      "name": "Taco Bell",
-      "city": "Kapaa",
-      "state": "HI",
-      "price": 10.99
-    },
     {
       "store_number": "003975",
       "name": "Taco Bell",
@@ -83,6 +68,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004865",
+      "store_name": "Taco Bell",
+      "city": "Kapaa",
+      "state": "HI",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-07-24T21:37:04.093906+00:00"
+    },
     {
       "store_number": "003488",
       "store_name": "Taco Bell",
@@ -666,7 +661,7 @@
   ],
   "activity_summary": {
     "added": 30,
-    "removed": 28,
+    "removed": 29,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -701,15 +696,6 @@
       10.99,
       "Taco Bell",
       "Kailua Kona",
-      "HI"
-    ],
-    [
-      "004865",
-      22.064134108499736,
-      -159.31989405975298,
-      10.99,
-      "Taco Bell",
-      "Kapaa",
       "HI"
     ]
   ],

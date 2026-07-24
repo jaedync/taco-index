@@ -23,19 +23,19 @@
     "max": 8.99,
     "median": 8.99,
     "std_dev": 0.0,
-    "store_count": 11
+    "store_count": 8
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 11
+      "count": 8
     }
   ],
   "state_prices": [
     {
       "state": "MO",
       "avg_price": 8.99,
-      "store_count": 8
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -103,24 +103,10 @@
       "price": 8.99
     },
     {
-      "store_number": "034788",
-      "name": "Taco Bell",
-      "city": "Saint Louis",
-      "state": "MO",
-      "price": 8.99
-    },
-    {
       "store_number": "018367",
       "name": "Taco Bell",
       "city": "Columbia",
       "state": "IL",
-      "price": 8.99
-    },
-    {
-      "store_number": "029661",
-      "name": "Taco Bell",
-      "city": "Saint Peters",
-      "state": "MO",
       "price": 8.99
     }
   ],
@@ -132,38 +118,14 @@
     "031700",
     "029659",
     "029650",
-    "034788",
-    "018367",
-    "029661",
-    "029626"
+    "018367"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029626",
-      "name": "Taco Bell",
-      "city": "Saint Louis",
-      "state": "MO",
-      "price": 8.99
-    },
-    {
-      "store_number": "029661",
-      "name": "Taco Bell",
-      "city": "Saint Peters",
-      "state": "MO",
-      "price": 8.99
-    },
     {
       "store_number": "018367",
       "name": "Taco Bell",
       "city": "Columbia",
       "state": "IL",
-      "price": 8.99
-    },
-    {
-      "store_number": "034788",
-      "name": "Taco Bell",
-      "city": "Saint Louis",
-      "state": "MO",
       "price": 8.99
     },
     {
@@ -207,9 +169,46 @@
       "city": "Hazelwood",
       "state": "MO",
       "price": 8.99
+    },
+    {
+      "store_number": "018366",
+      "name": "Taco Bell",
+      "city": "Troy",
+      "state": "IL",
+      "price": 8.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029626",
+      "store_name": "Taco Bell",
+      "city": "Saint Louis",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-07-24T21:38:23.778343+00:00"
+    },
+    {
+      "store_number": "029661",
+      "store_name": "Taco Bell",
+      "city": "Saint Peters",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-07-24T21:38:11.829306+00:00"
+    },
+    {
+      "store_number": "034788",
+      "store_name": "Taco Bell",
+      "city": "Saint Louis",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-07-24T21:37:35.549861+00:00"
+    },
     {
       "store_number": "033469",
       "store_name": "Taco Bell",
@@ -2163,7 +2162,7 @@
   ],
   "activity_summary": {
     "added": 103,
-    "removed": 92,
+    "removed": 95,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2171,6 +2170,12 @@
   "calories_min": 580,
   "calories_max": 580,
   "combo_groups": [
+    {
+      "group_id": "930",
+      "title": "Cantina Chicken Caesar Bowl",
+      "default_product_code": "29188",
+      "default_product_name": "Cantina Chicken Caesar Bowl"
+    },
     {
       "group_id": "451",
       "title": "Avocado Verde Salsa Sauce Packet",
@@ -2243,15 +2248,6 @@
       "MO"
     ],
     [
-      "034788",
-      38.56840362885565,
-      -90.47632907332627,
-      8.99,
-      "Taco Bell",
-      "Saint Louis",
-      "MO"
-    ],
-    [
       "018367",
       38.44643662631198,
       -90.2194704828137,
@@ -2259,24 +2255,6 @@
       "Taco Bell",
       "Columbia",
       "IL"
-    ],
-    [
-      "029661",
-      38.797203263688786,
-      -90.62123139202185,
-      8.99,
-      "Taco Bell",
-      "Saint Peters",
-      "MO"
-    ],
-    [
-      "029626",
-      38.62593379754423,
-      -90.28742852504365,
-      8.99,
-      "Taco Bell",
-      "Saint Louis",
-      "MO"
     ]
   ],
   "retired_at": null,
