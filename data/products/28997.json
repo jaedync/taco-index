@@ -16,18 +16,14 @@
   "first_seen_at": "2026-05-21T21:03:57.254711+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 8.49,
-    "min": 7.99,
+    "avg": 8.54,
+    "min": 8.19,
     "max": 8.69,
     "median": 8.59,
-    "std_dev": 0.21,
-    "store_count": 11
+    "std_dev": 0.14,
+    "store_count": 10
   },
   "histogram": [
-    {
-      "bucket": "$7.99",
-      "count": 1
-    },
     {
       "bucket": "$8.19",
       "count": 1
@@ -48,8 +44,8 @@
   "state_prices": [
     {
       "state": "MO",
-      "avg_price": 8.5,
-      "store_count": 10
+      "avg_price": 8.56,
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -67,13 +63,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "029659",
-      "name": "Taco Bell",
-      "city": "Byrnes Mill",
-      "state": "MO",
-      "price": 7.99
-    },
     {
       "store_number": "020142",
       "name": "Taco Bell",
@@ -136,10 +125,17 @@
       "city": "Saint Louis",
       "state": "MO",
       "price": 8.59
+    },
+    {
+      "store_number": "029626",
+      "name": "Taco Bell",
+      "city": "Saint Louis",
+      "state": "MO",
+      "price": 8.69
     }
   ],
   "min_price_store_numbers": [
-    "029659"
+    "020142"
   ],
   "priciest_stores": [
     {
@@ -214,6 +210,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029659",
+      "store_name": "Taco Bell",
+      "city": "Byrnes Mill",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-07-25T20:59:56.411677+00:00"
+    },
     {
       "store_number": "033469",
       "store_name": "Taco Bell",
@@ -3687,7 +3693,7 @@
   ],
   "activity_summary": {
     "added": 179,
-    "removed": 168,
+    "removed": 169,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3703,15 +3709,6 @@
     }
   ],
   "map_data": [
-    [
-      "029659",
-      38.41366579116861,
-      -90.58245469631402,
-      7.99,
-      "Taco Bell",
-      "Byrnes Mill",
-      "MO"
-    ],
     [
       "020142",
       38.36238753976561,
@@ -3804,6 +3801,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-24",
+  "last_seen_date": "2026-07-25",
   "peak_availability_pct": 1.0
 }

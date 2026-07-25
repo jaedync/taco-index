@@ -14,24 +14,20 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": 0.0246,
+  "recent_price_change_pct": 0.0352,
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
-    "avg": 4.01,
+    "avg": 4.06,
     "min": 3.59,
     "max": 4.29,
-    "median": 4.09,
-    "std_dev": 0.34,
-    "store_count": 4
+    "median": 4.29,
+    "std_dev": 0.4,
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$3.59",
-      "count": 1
-    },
-    {
-      "bucket": "$3.89",
       "count": 1
     },
     {
@@ -61,13 +57,6 @@
       "city": "Katy",
       "state": "TX",
       "price": 3.59
-    },
-    {
-      "store_number": "019252",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Spring",
-      "state": "TX",
-      "price": 3.89
     },
     {
       "store_number": "032170",
@@ -103,13 +92,6 @@
       "price": 4.29
     },
     {
-      "store_number": "019252",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Spring",
-      "state": "TX",
-      "price": 3.89
-    },
-    {
       "store_number": "024393",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Katy",
@@ -118,6 +100,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019252",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Spring",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.89,
+      "new_price": null,
+      "observed_at": "2026-07-25T20:59:00.533415+00:00"
+    },
     {
       "store_number": "039851",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -321,7 +313,7 @@
   ],
   "activity_summary": {
     "added": 10,
-    "removed": 10,
+    "removed": 11,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -337,15 +329,6 @@
       3.59,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Katy",
-      "TX"
-    ],
-    [
-      "019252",
-      30.049133798997953,
-      -95.43046756650256,
-      3.89,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Spring",
       "TX"
     ],
     [
@@ -376,7 +359,7 @@
       "avg_price": 4.16,
       "min_price": 3.69,
       "max_price": 5.09,
-      "calories": 220,
+      "calories": 230,
       "happier_hour_avg": null
     },
     {
@@ -384,7 +367,7 @@
       "avg_price": 3.87,
       "min_price": 3.49,
       "max_price": 4.29,
-      "calories": 180,
+      "calories": 190,
       "happier_hour_avg": 2.1
     }
   ]

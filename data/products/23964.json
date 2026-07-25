@@ -15,14 +15,14 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-06-18T21:25:52.078312+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.2,
   "price_stats": {
-    "avg": 5.83,
+    "avg": 5.82,
     "min": 5.49,
     "max": 6.09,
     "median": 5.99,
-    "std_dev": 0.25,
-    "store_count": 20
+    "std_dev": 0.26,
+    "store_count": 19
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$6.09",
@@ -163,13 +163,6 @@
       "price": 5.99
     },
     {
-      "store_number": "019680",
-      "name": "Taco Bell / KFC",
-      "city": "Stephens City",
-      "state": "VA",
-      "price": 5.99
-    },
-    {
       "store_number": "029402",
       "name": "Taco Bell",
       "city": "Creedmoor",
@@ -210,9 +203,26 @@
       "city": "Albuquerque",
       "state": "NM",
       "price": 5.99
+    },
+    {
+      "store_number": "029401",
+      "name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019680",
+      "store_name": "Taco Bell / KFC",
+      "city": "Stephens City",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-07-25T21:01:22.214575+00:00"
+    },
     {
       "store_number": "020974",
       "store_name": "Taco Bell / KFC",
@@ -1276,11 +1286,11 @@
   ],
   "activity_summary": {
     "added": 63,
-    "removed": 43,
+    "removed": 44,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 540,
+  "calories_from_menu": 0,
   "calories_min": 540,
   "calories_max": 540,
   "combo_groups": [],
@@ -1430,15 +1440,6 @@
       "NC"
     ],
     [
-      "019680",
-      39.08047189154303,
-      -78.21409679707143,
-      5.99,
-      "Taco Bell / KFC",
-      "Stephens City",
-      "VA"
-    ],
-    [
       "030424",
       41.02537540476871,
       -93.79682839663474,
@@ -1467,6 +1468,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-24",
+  "last_seen_date": "2026-07-25",
   "peak_availability_pct": 0.4
 }

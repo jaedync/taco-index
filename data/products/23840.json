@@ -16,19 +16,19 @@
   "peak_30d_pct": 0.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-06-18T21:25:02.231476+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
     "avg": 11.0,
     "min": 11.0,
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 4
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 4
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -47,13 +47,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "030407",
-      "name": "Taco Bell",
-      "city": "Chicago",
-      "state": "IL",
-      "price": 11.0
-    },
     {
       "store_number": "026757",
       "name": "Taco Bell",
@@ -77,7 +70,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "030407",
     "026757",
     "027896",
     "037359"
@@ -103,16 +95,19 @@
       "city": "Tinley Park",
       "state": "IL",
       "price": 11.0
-    },
-    {
-      "store_number": "030407",
-      "name": "Taco Bell",
-      "city": "Chicago",
-      "state": "IL",
-      "price": 11.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030407",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-07-25T20:59:33.124516+00:00"
+    },
     {
       "store_number": "032082",
       "store_name": "Taco Bell",
@@ -1316,25 +1311,19 @@
   ],
   "activity_summary": {
     "added": 62,
-    "removed": 58,
+    "removed": 59,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 1340,
-  "calories_min": 1340,
-  "calories_max": 1620,
+  "calories_min": 610,
+  "calories_max": 890,
   "combo_groups": [
     {
       "group_id": "23",
       "title": "Fountain Drink - Medium",
       "default_product_code": "22901",
       "default_product_name": "Medium Fountain Drink"
-    },
-    {
-      "group_id": "952",
-      "title": "Slow-Roasted Chicken Fajita Street Chalupas",
-      "default_product_code": "23598",
-      "default_product_name": "Slow-Roasted Chicken Fajita Street Chalupas"
     },
     {
       "group_id": "3",
@@ -1350,15 +1339,6 @@
     }
   ],
   "map_data": [
-    [
-      "030407",
-      41.75244929284412,
-      -87.58651092281517,
-      11.0,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
     [
       "026757",
       41.54604572788319,
@@ -1388,6 +1368,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-24",
+  "last_seen_date": "2026-07-25",
   "peak_availability_pct": 0.3
 }

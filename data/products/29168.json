@@ -14,20 +14,16 @@
   "peak_30d_pct": 1.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-21T21:03:57.254711+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
-    "avg": 8.21,
-    "min": 7.89,
+    "avg": 8.32,
+    "min": 7.99,
     "max": 8.49,
-    "median": 8.24,
-    "std_dev": 0.32,
-    "store_count": 4
+    "median": 8.49,
+    "std_dev": 0.29,
+    "store_count": 3
   },
   "histogram": [
-    {
-      "bucket": "$7.89",
-      "count": 1
-    },
     {
       "bucket": "$7.99",
       "count": 1
@@ -40,13 +36,6 @@
   "state_prices": [],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "029659",
-      "name": "Taco Bell",
-      "city": "Byrnes Mill",
-      "state": "MO",
-      "price": 7.89
-    },
     {
       "store_number": "018367",
       "name": "Taco Bell",
@@ -70,7 +59,7 @@
     }
   ],
   "min_price_store_numbers": [
-    "029659"
+    "018367"
   ],
   "priciest_stores": [
     {
@@ -93,16 +82,19 @@
       "city": "Columbia",
       "state": "IL",
       "price": 7.99
-    },
-    {
-      "store_number": "029659",
-      "name": "Taco Bell",
-      "city": "Byrnes Mill",
-      "state": "MO",
-      "price": 7.89
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029659",
+      "store_name": "Taco Bell",
+      "city": "Byrnes Mill",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 7.89,
+      "new_price": null,
+      "observed_at": "2026-07-25T20:59:56.411677+00:00"
+    },
     {
       "store_number": "033469",
       "store_name": "Taco Bell",
@@ -3506,7 +3498,7 @@
   ],
   "activity_summary": {
     "added": 172,
-    "removed": 168,
+    "removed": 169,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3515,15 +3507,6 @@
   "calories_max": 420,
   "combo_groups": [],
   "map_data": [
-    [
-      "029659",
-      38.41366579116861,
-      -90.58245469631402,
-      7.89,
-      "Taco Bell",
-      "Byrnes Mill",
-      "MO"
-    ],
     [
       "018367",
       38.44643662631198,
@@ -3553,6 +3536,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-24",
+  "last_seen_date": "2026-07-25",
   "peak_availability_pct": 1.0
 }
