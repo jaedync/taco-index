@@ -21,12 +21,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7663
+    "store_count": 7664
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7663
+      "count": 7664
     }
   ],
   "state_prices": [
@@ -268,7 +268,7 @@
     {
       "state": "AR",
       "avg_price": 0.0,
-      "store_count": 110
+      "store_count": 111
     },
     {
       "state": "AL",
@@ -3519,7 +3519,6 @@
     "003026",
     "040052",
     "035342",
-    "031865",
     "031463",
     "021193",
     "031335",
@@ -4762,6 +4761,7 @@
     "032040",
     "031908",
     "033864",
+    "031900",
     "003178",
     "024751",
     "039792",
@@ -8030,9 +8030,17 @@
     "043048",
     "042421",
     "043192",
-    "042095"
+    "042095",
+    "043114"
   ],
   "priciest_stores": [
+    {
+      "store_number": "043114",
+      "name": "Taco Bell",
+      "city": "Paragould",
+      "state": "AR",
+      "price": 0.0
+    },
     {
       "store_number": "042095",
       "name": "Taco Bell",
@@ -8095,16 +8103,39 @@
       "city": "Tyler",
       "state": "TX",
       "price": 0.0
-    },
-    {
-      "store_number": "042835",
-      "name": "Taco Bell",
-      "city": "Lexington",
-      "state": "SC",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043114",
+      "store_name": "Taco Bell",
+      "city": "Paragould",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-07-26T21:52:38.007163+00:00"
+    },
+    {
+      "store_number": "031900",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-07-26T21:51:46.232780+00:00"
+    },
+    {
+      "store_number": "031865",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:51:26.531674+00:00"
+    },
     {
       "store_number": "031871",
       "store_name": "Taco Bell",
@@ -14687,8 +14718,8 @@
     }
   ],
   "activity_summary": {
-    "added": 331,
-    "removed": 327,
+    "added": 333,
+    "removed": 328,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -43057,15 +43088,6 @@
       "TX"
     ],
     [
-      "031865",
-      36.196183550294315,
-      -115.22690780466291,
-      0.0,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
-    ],
-    [
       "031463",
       36.879049834421245,
       -76.42300663281048,
@@ -54242,6 +54264,15 @@
       "Taco Bell",
       "Aurora",
       "CO"
+    ],
+    [
+      "031900",
+      36.220552568519345,
+      -115.27835735681947,
+      0.0,
+      "Taco Bell",
+      "Las Vegas",
+      "NV"
     ],
     [
       "003178",
@@ -83663,6 +83694,15 @@
       "Taco Bell",
       "Chula Vista",
       "CA"
+    ],
+    [
+      "043114",
+      36.023738,
+      -90.524231,
+      0.0,
+      "Taco Bell",
+      "Paragould",
+      "AR"
     ]
   ],
   "retired_at": null,

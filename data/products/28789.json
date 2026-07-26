@@ -13,22 +13,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 0.1,
+  "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-06-17T20:56:58.322414+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 3.0,
+    "avg": 3.02,
     "min": 3.0,
-    "max": 3.0,
+    "max": 3.49,
     "median": 3.0,
-    "std_dev": 0.0,
-    "store_count": 7
+    "std_dev": 0.11,
+    "store_count": 20
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 7
+      "count": 19
+    },
+    {
+      "bucket": "$3.49",
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -95,6 +99,27 @@
       "city": "Louisville",
       "state": "KY",
       "price": 3.0
+    },
+    {
+      "store_number": "034021",
+      "name": "Taco Bell",
+      "city": "White Lake",
+      "state": "MI",
+      "price": 3.0
+    },
+    {
+      "store_number": "036029",
+      "name": "Taco Bell",
+      "city": "Portland",
+      "state": "ME",
+      "price": 3.0
+    },
+    {
+      "store_number": "037154",
+      "name": "Taco Bell",
+      "city": "Kingsport",
+      "state": "TN",
+      "price": 3.0
     }
   ],
   "min_price_store_numbers": [
@@ -104,60 +129,223 @@
     "036318",
     "035355",
     "035311",
-    "034661"
+    "034661",
+    "034021",
+    "036029",
+    "037154",
+    "040529",
+    "029050",
+    "035234",
+    "033843",
+    "028891",
+    "033790",
+    "036539",
+    "032045",
+    "033999"
   ],
   "priciest_stores": [
     {
-      "store_number": "034661",
+      "store_number": "036124",
       "name": "Taco Bell",
-      "city": "Louisville",
-      "state": "KY",
+      "city": "Kings Beach",
+      "state": "CA",
+      "price": 3.49
+    },
+    {
+      "store_number": "033999",
+      "name": "Taco Bell",
+      "city": "Grand Blanc",
+      "state": "MI",
       "price": 3.0
     },
     {
-      "store_number": "035311",
+      "store_number": "032045",
       "name": "Taco Bell",
-      "city": "Seatac",
-      "state": "WA",
-      "price": 3.0
-    },
-    {
-      "store_number": "035355",
-      "name": "Taco Bell",
-      "city": "Cleveland",
+      "city": "Toledo",
       "state": "OH",
       "price": 3.0
     },
     {
-      "store_number": "036318",
+      "store_number": "036539",
       "name": "Taco Bell",
-      "city": "Wind Gap",
-      "state": "PA",
+      "city": "Rockville",
+      "state": "MD",
       "price": 3.0
     },
     {
-      "store_number": "016950",
+      "store_number": "033790",
       "name": "Taco Bell",
-      "city": "Georgetown",
+      "city": "Sidney",
+      "state": "OH",
+      "price": 3.0
+    },
+    {
+      "store_number": "028891",
+      "name": "Taco Bell",
+      "city": "Owensboro",
       "state": "KY",
       "price": 3.0
     },
     {
-      "store_number": "031264",
+      "store_number": "033843",
       "name": "Taco Bell",
-      "city": "Houston",
-      "state": "TX",
+      "city": "Littleton",
+      "state": "CO",
       "price": 3.0
     },
     {
-      "store_number": "041773",
+      "store_number": "035234",
       "name": "Taco Bell",
-      "city": "Valparaiso",
-      "state": "IN",
+      "city": "Kansas City",
+      "state": "MO",
+      "price": 3.0
+    },
+    {
+      "store_number": "029050",
+      "name": "Taco Bell",
+      "city": "Chattanooga",
+      "state": "TN",
+      "price": 3.0
+    },
+    {
+      "store_number": "040529",
+      "name": "Taco Bell",
+      "city": "Brook Park",
+      "state": "OH",
       "price": 3.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033999",
+      "store_name": "Taco Bell",
+      "city": "Grand Blanc",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-26T21:52:35.504225+00:00"
+    },
+    {
+      "store_number": "032045",
+      "store_name": "Taco Bell",
+      "city": "Toledo",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-26T21:52:34.304718+00:00"
+    },
+    {
+      "store_number": "036539",
+      "store_name": "Taco Bell",
+      "city": "Rockville",
+      "state": "MD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-26T21:52:23.953782+00:00"
+    },
+    {
+      "store_number": "033790",
+      "store_name": "Taco Bell",
+      "city": "Sidney",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-26T21:52:06.825719+00:00"
+    },
+    {
+      "store_number": "028891",
+      "store_name": "Taco Bell",
+      "city": "Owensboro",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-26T21:51:53.123321+00:00"
+    },
+    {
+      "store_number": "033843",
+      "store_name": "Taco Bell",
+      "city": "Littleton",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-26T21:51:34.019446+00:00"
+    },
+    {
+      "store_number": "035234",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-26T21:51:25.149702+00:00"
+    },
+    {
+      "store_number": "036124",
+      "store_name": "Taco Bell",
+      "city": "Kings Beach",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-07-26T21:51:16.106145+00:00"
+    },
+    {
+      "store_number": "029050",
+      "store_name": "Taco Bell",
+      "city": "Chattanooga",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-26T21:51:04.186393+00:00"
+    },
+    {
+      "store_number": "040529",
+      "store_name": "Taco Bell",
+      "city": "Brook Park",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-26T21:50:57.855239+00:00"
+    },
+    {
+      "store_number": "037154",
+      "store_name": "Taco Bell",
+      "city": "Kingsport",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-26T21:50:51.132707+00:00"
+    },
+    {
+      "store_number": "036029",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "ME",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-26T21:50:39.772146+00:00"
+    },
+    {
+      "store_number": "034021",
+      "store_name": "Taco Bell",
+      "city": "White Lake",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-07-26T21:50:36.973623+00:00"
+    },
     {
       "store_number": "034661",
       "store_name": "Taco Bell",
@@ -250,7 +438,7 @@
     }
   ],
   "activity_summary": {
-    "added": 8,
+    "added": 21,
     "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -322,9 +510,126 @@
       "Taco Bell",
       "Louisville",
       "KY"
+    ],
+    [
+      "034021",
+      42.614842963738916,
+      -83.44493113404984,
+      3.0,
+      "Taco Bell",
+      "White Lake",
+      "MI"
+    ],
+    [
+      "036029",
+      43.6993839466971,
+      -70.28726846567676,
+      3.0,
+      "Taco Bell",
+      "Portland",
+      "ME"
+    ],
+    [
+      "037154",
+      36.55230389848276,
+      -82.62671504535244,
+      3.0,
+      "Taco Bell",
+      "Kingsport",
+      "TN"
+    ],
+    [
+      "040529",
+      41.40407178109061,
+      -81.79804760342202,
+      3.0,
+      "Taco Bell",
+      "Brook Park",
+      "OH"
+    ],
+    [
+      "029050",
+      35.115167503435934,
+      -85.25543691077918,
+      3.0,
+      "Taco Bell",
+      "Chattanooga",
+      "TN"
+    ],
+    [
+      "035234",
+      39.24752391464825,
+      -94.65407518437132,
+      3.0,
+      "Taco Bell",
+      "Kansas City",
+      "MO"
+    ],
+    [
+      "033843",
+      39.625192231161876,
+      -105.10940238833427,
+      3.0,
+      "Taco Bell",
+      "Littleton",
+      "CO"
+    ],
+    [
+      "028891",
+      37.75765017889054,
+      -87.14294542373858,
+      3.0,
+      "Taco Bell",
+      "Owensboro",
+      "KY"
+    ],
+    [
+      "033790",
+      40.28834650150431,
+      -84.18456047773361,
+      3.0,
+      "Taco Bell",
+      "Sidney",
+      "OH"
+    ],
+    [
+      "036539",
+      39.07199629891333,
+      -77.13248272241799,
+      3.0,
+      "Taco Bell",
+      "Rockville",
+      "MD"
+    ],
+    [
+      "032045",
+      41.7015,
+      -83.6571,
+      3.0,
+      "Taco Bell",
+      "Toledo",
+      "OH"
+    ],
+    [
+      "033999",
+      42.94361483006382,
+      -83.6899741213718,
+      3.0,
+      "Taco Bell",
+      "Grand Blanc",
+      "MI"
+    ],
+    [
+      "036124",
+      39.236527690952,
+      -120.02351179718966,
+      3.49,
+      "Taco Bell",
+      "Kings Beach",
+      "CA"
     ]
   ],
   "retired_at": "2026-06-18T21:30:28.046340+00:00",
-  "last_seen_date": "2026-07-25",
-  "peak_availability_pct": 0.1
+  "last_seen_date": "2026-07-26",
+  "peak_availability_pct": 0.2
 }

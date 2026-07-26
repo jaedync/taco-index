@@ -59,6 +59,13 @@
       "price": 1.99
     },
     {
+      "store_number": "036418",
+      "name": "Taco Bell",
+      "city": "Caledonia",
+      "state": "MI",
+      "price": 1.99
+    },
+    {
       "store_number": "042751",
       "name": "Taco Bell",
       "city": "Hudsonville",
@@ -113,17 +120,11 @@
       "city": "Grand Rapids",
       "state": "MI",
       "price": 1.99
-    },
-    {
-      "store_number": "032989",
-      "name": "Taco Bell",
-      "city": "Coldwater",
-      "state": "MI",
-      "price": 1.99
     }
   ],
   "min_price_store_numbers": [
     "034828",
+    "036418",
     "042751",
     "042768",
     "042748",
@@ -155,17 +156,9 @@
     "033006",
     "033013",
     "033008",
-    "040369",
-    "033043"
+    "040369"
   ],
   "priciest_stores": [
-    {
-      "store_number": "033043",
-      "name": "Taco Bell",
-      "city": "Wayland",
-      "state": "MI",
-      "price": 1.99
-    },
     {
       "store_number": "040369",
       "name": "Taco Bell",
@@ -228,9 +221,36 @@
       "city": "Jenison",
       "state": "MI",
       "price": 1.99
+    },
+    {
+      "store_number": "033027",
+      "name": "Taco Bell",
+      "city": "Muskegon",
+      "state": "MI",
+      "price": 1.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033043",
+      "store_name": "Taco Bell",
+      "city": "Wayland",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:52:20.983502+00:00"
+    },
+    {
+      "store_number": "036418",
+      "store_name": "Taco Bell",
+      "city": "Caledonia",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-07-26T21:50:40.894999+00:00"
+    },
     {
       "store_number": "036418",
       "store_name": "Taco Bell",
@@ -593,8 +613,8 @@
     }
   ],
   "activity_summary": {
-    "added": 35,
-    "removed": 1,
+    "added": 36,
+    "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -610,6 +630,15 @@
       1.99,
       "Taco Bell",
       "Battle Creek",
+      "MI"
+    ],
+    [
+      "036418",
+      42.80602736486148,
+      -85.50658579751232,
+      1.99,
+      "Taco Bell",
+      "Caledonia",
       "MI"
     ],
     [
@@ -898,15 +927,6 @@
       1.99,
       "Taco Bell",
       "Battle Creek",
-      "MI"
-    ],
-    [
-      "033043",
-      42.67365292260149,
-      -85.65788559621069,
-      1.99,
-      "Taco Bell",
-      "Wayland",
       "MI"
     ]
   ],

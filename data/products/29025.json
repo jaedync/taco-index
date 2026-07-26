@@ -22,21 +22,15 @@
     "max": 3.19,
     "median": 3.19,
     "std_dev": 0.0,
-    "store_count": 5
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$3.19",
-      "count": 5
+      "count": 4
     }
   ],
-  "state_prices": [
-    {
-      "state": "UT",
-      "avg_price": 3.19,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": {
     "calories": 289.6678,
     "total_fat_g": 11.6339,
@@ -52,13 +46,6 @@
     "serving_size_g": 136.3611
   },
   "cheapest_stores": [
-    {
-      "store_number": "040295",
-      "name": "Taco Bell",
-      "city": "Roy",
-      "state": "UT",
-      "price": 3.19
-    },
     {
       "store_number": "033164",
       "name": "Taco Bell",
@@ -89,7 +76,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "040295",
     "033164",
     "033176",
     "004062",
@@ -123,16 +109,19 @@
       "city": "Park City",
       "state": "UT",
       "price": 3.19
-    },
-    {
-      "store_number": "040295",
-      "name": "Taco Bell",
-      "city": "Roy",
-      "state": "UT",
-      "price": 3.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040295",
+      "store_name": "Taco Bell",
+      "city": "Roy",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:50:04.636503+00:00"
+    },
     {
       "store_number": "040368",
       "store_name": "Taco Bell",
@@ -1526,7 +1515,7 @@
   ],
   "activity_summary": {
     "added": 72,
-    "removed": 67,
+    "removed": 68,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1535,15 +1524,6 @@
   "calories_max": 290,
   "combo_groups": [],
   "map_data": [
-    [
-      "040295",
-      41.1909,
-      -112.046,
-      3.19,
-      "Taco Bell",
-      "Roy",
-      "UT"
-    ],
     [
       "033164",
       40.724775848437275,

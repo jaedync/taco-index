@@ -13,19 +13,19 @@
   "peak_30d_pct": 91.7,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-07-23T20:47:01.330963+00:00",
-  "availability_pct": 98.4,
+  "availability_pct": 98.3,
   "price_stats": {
     "avg": 0.99,
     "min": 0.99,
     "max": 1.99,
     "median": 0.99,
     "std_dev": 0.04,
-    "store_count": 7591
+    "store_count": 7587
   },
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 7454
+      "count": 7450
     },
     {
       "bucket": "$1.00",
@@ -144,9 +144,9 @@
       "store_count": 11
     },
     {
-      "state": "MN",
+      "state": "IN",
       "avg_price": 0.99,
-      "store_count": 99
+      "store_count": 259
     },
     {
       "state": "GA",
@@ -166,7 +166,7 @@
     {
       "state": "VA",
       "avg_price": 0.99,
-      "store_count": 178
+      "store_count": 177
     },
     {
       "state": "UT",
@@ -224,6 +224,11 @@
       "store_count": 80
     },
     {
+      "state": "MN",
+      "avg_price": 0.99,
+      "store_count": 98
+    },
+    {
       "state": "ME",
       "avg_price": 0.99,
       "store_count": 7
@@ -231,17 +236,12 @@
     {
       "state": "MD",
       "avg_price": 0.99,
-      "store_count": 91
+      "store_count": 90
     },
     {
       "state": "KS",
       "avg_price": 0.99,
       "store_count": 91
-    },
-    {
-      "state": "ID",
-      "avg_price": 0.99,
-      "store_count": 35
     },
     {
       "state": "HI",
@@ -276,7 +276,7 @@
     {
       "state": "AR",
       "avg_price": 0.99,
-      "store_count": 112
+      "store_count": 113
     },
     {
       "state": "AL",
@@ -314,9 +314,9 @@
       "store_count": 161
     },
     {
-      "state": "IN",
+      "state": "ID",
       "avg_price": 0.99,
-      "store_count": 260
+      "store_count": 34
     },
     {
       "state": "IA",
@@ -3346,7 +3346,6 @@
     "028916",
     "036158",
     "024311",
-    "015877",
     "030706",
     "005599",
     "023691",
@@ -3448,7 +3447,6 @@
     "033777",
     "036358",
     "029094",
-    "042633",
     "016286",
     "030488",
     "040046",
@@ -4380,7 +4378,6 @@
     "035284",
     "037414",
     "041560",
-    "020952",
     "021504",
     "030358",
     "034178",
@@ -4809,7 +4806,6 @@
     "031006",
     "030167",
     "028901",
-    "039968",
     "030272",
     "029262",
     "041196",
@@ -5974,7 +5970,6 @@
     "042839",
     "030387",
     "032528",
-    "019676",
     "033851",
     "042940",
     "042954",
@@ -7864,7 +7859,8 @@
     "027786",
     "034015",
     "035446",
-    "036259"
+    "036259",
+    "043114"
   ],
   "priciest_stores": [
     {
@@ -7939,6 +7935,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043114",
+      "store_name": "Taco Bell",
+      "city": "Paragould",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-07-26T21:52:38.007163+00:00"
+    },
+    {
+      "store_number": "019676",
+      "store_name": "Taco Bell",
+      "city": "Post Falls",
+      "state": "ID",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:52:06.353018+00:00"
+    },
+    {
+      "store_number": "039968",
+      "store_name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "MD",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:51:47.932924+00:00"
+    },
+    {
+      "store_number": "020952",
+      "store_name": "Taco Bell",
+      "city": "North Branch",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:51:42.111295+00:00"
+    },
+    {
+      "store_number": "042633",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:51:26.499936+00:00"
+    },
+    {
+      "store_number": "015877",
+      "store_name": "Taco Bell",
+      "city": "Chesterfield",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:51:24.646067+00:00"
+    },
     {
       "store_number": "036259",
       "store_name": "Taco Bell",
@@ -83901,8 +83957,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7594,
-    "removed": 2,
+    "added": 7595,
+    "removed": 7,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -110327,15 +110383,6 @@
       "OH"
     ],
     [
-      "015877",
-      37.37259807879464,
-      -77.50088681282244,
-      0.99,
-      "Taco Bell",
-      "Chesterfield",
-      "VA"
-    ],
-    [
       "030706",
       40.39974089640272,
       -79.58371868889675,
@@ -111243,15 +111290,6 @@
       "Taco Bell",
       "Macon",
       "GA"
-    ],
-    [
-      "042633",
-      41.027042755310184,
-      -85.1680694595143,
-      0.99,
-      "Taco Bell",
-      "Fort Wayne",
-      "IN"
     ],
     [
       "016286",
@@ -119633,15 +119671,6 @@
       "LA"
     ],
     [
-      "020952",
-      45.50928559966961,
-      -92.99142562669374,
-      0.99,
-      "Taco Bell",
-      "North Branch",
-      "MN"
-    ],
-    [
       "021504",
       34.79107859034437,
       -92.22937432816252,
@@ -123492,15 +123521,6 @@
       "Taco Bell",
       "Bloomington",
       "IN"
-    ],
-    [
-      "039968",
-      38.93978055137319,
-      -76.56381870703385,
-      0.99,
-      "Taco Bell",
-      "Edgewater",
-      "MD"
     ],
     [
       "030272",
@@ -133977,15 +133997,6 @@
       "Taco Bell",
       "Hanford",
       "CA"
-    ],
-    [
-      "019676",
-      47.71087140879771,
-      -116.9187907781361,
-      0.99,
-      "Taco Bell",
-      "Post Falls",
-      "ID"
     ],
     [
       "033851",
@@ -150996,6 +151007,15 @@
       "Taco Bell",
       "Moscow",
       "ID"
+    ],
+    [
+      "043114",
+      36.023738,
+      -90.524231,
+      0.99,
+      "Taco Bell",
+      "Paragould",
+      "AR"
     ],
     [
       "040572",

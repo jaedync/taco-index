@@ -14,19 +14,19 @@
   "peak_30d_pct": 6.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-07-16T21:48:31.177665+00:00",
-  "availability_pct": 2.1,
+  "availability_pct": 2.5,
   "price_stats": {
-    "avg": 7.23,
+    "avg": 7.25,
     "min": 7.0,
-    "max": 9.79,
+    "max": 9.99,
     "median": 7.0,
-    "std_dev": 0.55,
-    "store_count": 165
+    "std_dev": 0.58,
+    "store_count": 196
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 134
+      "count": 158
     },
     {
       "bucket": "$7.49",
@@ -42,11 +42,15 @@
     },
     {
       "bucket": "$7.99",
-      "count": 16
+      "count": 20
+    },
+    {
+      "bucket": "$8.49",
+      "count": 1
     },
     {
       "bucket": "$8.99",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$9.49",
@@ -54,6 +58,10 @@
     },
     {
       "bucket": "$9.79",
+      "count": 1
+    },
+    {
+      "bucket": "$9.99",
       "count": 1
     }
   ],
@@ -65,8 +73,18 @@
     },
     {
       "state": "CA",
-      "avg_price": 7.73,
-      "store_count": 15
+      "avg_price": 7.77,
+      "store_count": 18
+    },
+    {
+      "state": "IL",
+      "avg_price": 7.76,
+      "store_count": 5
+    },
+    {
+      "state": "NY",
+      "avg_price": 7.6,
+      "store_count": 5
     },
     {
       "state": "FL",
@@ -74,14 +92,19 @@
       "store_count": 24
     },
     {
+      "state": "SC",
+      "avg_price": 7.33,
+      "store_count": 6
+    },
+    {
       "state": "OH",
-      "avg_price": 7.12,
-      "store_count": 13
+      "avg_price": 7.1,
+      "store_count": 15
     },
     {
       "state": "TX",
       "avg_price": 7.0,
-      "store_count": 7
+      "store_count": 8
     },
     {
       "state": "TN",
@@ -99,9 +122,19 @@
       "store_count": 9
     },
     {
+      "state": "MO",
+      "avg_price": 7.0,
+      "store_count": 11
+    },
+    {
+      "state": "MN",
+      "avg_price": 7.0,
+      "store_count": 5
+    },
+    {
       "state": "MI",
       "avg_price": 7.0,
-      "store_count": 16
+      "store_count": 18
     },
     {
       "state": "IN",
@@ -223,7 +256,6 @@
     "042859",
     "043026",
     "027972",
-    "028863",
     "029651",
     "039962",
     "002329",
@@ -306,8 +338,6 @@
     "037814",
     "029140",
     "031454",
-    "004647",
-    "001651",
     "042121",
     "035288",
     "042689",
@@ -329,9 +359,43 @@
     "032180",
     "032662",
     "042529",
-    "042609"
+    "042609",
+    "041152",
+    "036029",
+    "042205",
+    "037169",
+    "035306",
+    "038975",
+    "026663",
+    "040116",
+    "040464",
+    "031437",
+    "034411",
+    "028888",
+    "028225",
+    "035173",
+    "032586",
+    "024230",
+    "035450",
+    "027911",
+    "031789",
+    "030187",
+    "032706",
+    "027906",
+    "030951",
+    "026736",
+    "031569",
+    "030185",
+    "040919"
   ],
   "priciest_stores": [
+    {
+      "store_number": "037094",
+      "name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "price": 9.99
+    },
     {
       "store_number": "027614",
       "name": "Taco Bell",
@@ -345,6 +409,13 @@
       "city": "Rifle",
       "state": "CO",
       "price": 9.49
+    },
+    {
+      "store_number": "042947",
+      "name": "Taco Bell",
+      "city": "Piedmont",
+      "state": "SC",
+      "price": 8.99
     },
     {
       "store_number": "042824",
@@ -387,23 +458,379 @@
       "city": "Jacksonville",
       "state": "FL",
       "price": 8.99
-    },
-    {
-      "store_number": "042819",
-      "name": "Taco Bell",
-      "city": "Mobile",
-      "state": "AL",
-      "price": 8.99
-    },
-    {
-      "store_number": "039835",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Rancho Cucamonga",
-      "state": "CA",
-      "price": 7.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035320",
+      "store_name": "Taco Bell",
+      "city": "Tacoma",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.49,
+      "observed_at": "2026-07-26T21:52:33.733124+00:00"
+    },
+    {
+      "store_number": "040919",
+      "store_name": "Taco Bell",
+      "city": "Ashland",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:52:28.426391+00:00"
+    },
+    {
+      "store_number": "030185",
+      "store_name": "Taco Bell",
+      "city": "Fulton",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:52:26.826870+00:00"
+    },
+    {
+      "store_number": "031569",
+      "store_name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:52:25.207670+00:00"
+    },
+    {
+      "store_number": "026736",
+      "store_name": "Taco Bell",
+      "city": "Bensenville",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:52:21.441323+00:00"
+    },
+    {
+      "store_number": "030951",
+      "store_name": "Taco Bell",
+      "city": "Laconia",
+      "state": "NH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:52:16.240884+00:00"
+    },
+    {
+      "store_number": "030784",
+      "store_name": "Taco Bell",
+      "city": "San Leandro",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-07-26T21:52:10.659760+00:00"
+    },
+    {
+      "store_number": "030938",
+      "store_name": "Taco Bell",
+      "city": "Rohnert Park",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-07-26T21:52:08.268593+00:00"
+    },
+    {
+      "store_number": "027906",
+      "store_name": "Taco Bell",
+      "city": "Jefferson City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:52:04.157980+00:00"
+    },
+    {
+      "store_number": "032706",
+      "store_name": "Taco Bell",
+      "city": "Jefferson City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:52:02.224549+00:00"
+    },
+    {
+      "store_number": "028863",
+      "store_name": "Taco Bell",
+      "city": "Vincennes",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 7.0,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:51:55.891107+00:00"
+    },
+    {
+      "store_number": "030187",
+      "store_name": "Taco Bell",
+      "city": "Boonville",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:51:53.909344+00:00"
+    },
+    {
+      "store_number": "031789",
+      "store_name": "Taco Bell",
+      "city": "Sumter",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:51:53.603912+00:00"
+    },
+    {
+      "store_number": "027911",
+      "store_name": "Taco Bell",
+      "city": "Jefferson City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:51:52.356956+00:00"
+    },
+    {
+      "store_number": "033649",
+      "store_name": "Taco Bell",
+      "city": "Hebron",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-07-26T21:51:47.853122+00:00"
+    },
+    {
+      "store_number": "042947",
+      "store_name": "Taco Bell",
+      "city": "Piedmont",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-07-26T21:51:45.184632+00:00"
+    },
+    {
+      "store_number": "035450",
+      "store_name": "Taco Bell",
+      "city": "The Colony",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:51:43.609857+00:00"
+    },
+    {
+      "store_number": "040799",
+      "store_name": "Taco Bell",
+      "city": "San Diego",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-07-26T21:51:38.026867+00:00"
+    },
+    {
+      "store_number": "024230",
+      "store_name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:51:36.183173+00:00"
+    },
+    {
+      "store_number": "032586",
+      "store_name": "Taco Bell",
+      "city": "Syracuse",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:51:36.153508+00:00"
+    },
+    {
+      "store_number": "035173",
+      "store_name": "Taco Bell",
+      "city": "Southaven",
+      "state": "MS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:51:28.959842+00:00"
+    },
+    {
+      "store_number": "028225",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:51:23.425878+00:00"
+    },
+    {
+      "store_number": "001651",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 7.0,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:51:18.091201+00:00"
+    },
+    {
+      "store_number": "004647",
+      "store_name": "Taco Bell",
+      "city": "Saginaw",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 7.0,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:51:18.039085+00:00"
+    },
+    {
+      "store_number": "028888",
+      "store_name": "Taco Bell",
+      "city": "Newburgh",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:51:17.491087+00:00"
+    },
+    {
+      "store_number": "034411",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:51:11.260967+00:00"
+    },
+    {
+      "store_number": "031437",
+      "store_name": "Taco Bell",
+      "city": "Summerville",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:51:10.411395+00:00"
+    },
+    {
+      "store_number": "040464",
+      "store_name": "Taco Bell",
+      "city": "Lenox",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:51:09.541985+00:00"
+    },
+    {
+      "store_number": "040116",
+      "store_name": "Taco Bell",
+      "city": "Cambridge",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:51:08.657751+00:00"
+    },
+    {
+      "store_number": "037094",
+      "store_name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-07-26T21:51:08.317573+00:00"
+    },
+    {
+      "store_number": "026663",
+      "store_name": "Taco Bell",
+      "city": "Massillon",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:51:03.127294+00:00"
+    },
+    {
+      "store_number": "038975",
+      "store_name": "Taco Bell",
+      "city": "Pontiac",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:50:56.732390+00:00"
+    },
+    {
+      "store_number": "035306",
+      "store_name": "Taco Bell",
+      "city": "Brownstown",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:50:54.545523+00:00"
+    },
+    {
+      "store_number": "037169",
+      "store_name": "Taco Bell",
+      "city": "Fraser",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:50:48.816035+00:00"
+    },
+    {
+      "store_number": "042205",
+      "store_name": "Taco Bell",
+      "city": "Kaukauna",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:50:46.887611+00:00"
+    },
+    {
+      "store_number": "036029",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "ME",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:50:39.772146+00:00"
+    },
+    {
+      "store_number": "041152",
+      "store_name": "Taco Bell",
+      "city": "Versailles",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-07-26T21:50:01.513765+00:00"
+    },
     {
       "store_number": "042609",
       "store_name": "Taco Bell",
@@ -14656,8 +15083,8 @@
     }
   ],
   "activity_summary": {
-    "added": 795,
-    "removed": 630,
+    "added": 829,
+    "removed": 633,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14939,15 +15366,6 @@
       "Taco Bell",
       "Melbourne",
       "FL"
-    ],
-    [
-      "028863",
-      38.68984275350118,
-      -87.50482235850541,
-      7.0,
-      "Taco Bell",
-      "Vincennes",
-      "IN"
     ],
     [
       "029651",
@@ -15688,24 +16106,6 @@
       "CA"
     ],
     [
-      "004647",
-      43.41630406152423,
-      -84.07199849189965,
-      7.0,
-      "Taco Bell",
-      "Saginaw",
-      "MI"
-    ],
-    [
-      "001651",
-      42.25422907874331,
-      -84.4236646592617,
-      7.0,
-      "Taco Bell",
-      "Jackson",
-      "MI"
-    ],
-    [
       "042121",
       30.415996791776298,
       -86.60656302491896,
@@ -15902,6 +16302,249 @@
       "Taco Bell",
       "Odessa",
       "TX"
+    ],
+    [
+      "041152",
+      38.426933,
+      -92.852604,
+      7.0,
+      "Taco Bell",
+      "Versailles",
+      "MO"
+    ],
+    [
+      "036029",
+      43.6993839466971,
+      -70.28726846567676,
+      7.0,
+      "Taco Bell",
+      "Portland",
+      "ME"
+    ],
+    [
+      "042205",
+      44.264314115339026,
+      -88.273236069932,
+      7.0,
+      "Taco Bell",
+      "Kaukauna",
+      "WI"
+    ],
+    [
+      "037169",
+      42.55079380279747,
+      -82.9623918026545,
+      7.0,
+      "Taco Bell",
+      "Fraser",
+      "MI"
+    ],
+    [
+      "035306",
+      42.0953,
+      -83.2378,
+      7.0,
+      "Taco Bell",
+      "Brownstown",
+      "MI"
+    ],
+    [
+      "038975",
+      42.62029219023837,
+      -83.2493157684803,
+      7.0,
+      "Taco Bell",
+      "Pontiac",
+      "MI"
+    ],
+    [
+      "026663",
+      40.75651618665258,
+      -81.51691331530856,
+      7.0,
+      "Taco Bell",
+      "Massillon",
+      "OH"
+    ],
+    [
+      "040116",
+      45.57177819592835,
+      -93.20054883902868,
+      7.0,
+      "Taco Bell",
+      "Cambridge",
+      "MN"
+    ],
+    [
+      "040464",
+      42.72108350076686,
+      -82.74466964079721,
+      7.0,
+      "Taco Bell",
+      "Lenox",
+      "MI"
+    ],
+    [
+      "031437",
+      32.99673031624207,
+      -80.18525809049606,
+      7.0,
+      "Taco Bell",
+      "Summerville",
+      "SC"
+    ],
+    [
+      "034411",
+      39.26627528508462,
+      -94.57636316122262,
+      7.0,
+      "Taco Bell",
+      "Kansas City",
+      "MO"
+    ],
+    [
+      "028888",
+      37.976139492895044,
+      -87.39745191573785,
+      7.0,
+      "Taco Bell",
+      "Newburgh",
+      "IN"
+    ],
+    [
+      "028225",
+      39.98294685125434,
+      -82.81683236360544,
+      7.0,
+      "Taco Bell",
+      "Columbus",
+      "OH"
+    ],
+    [
+      "035173",
+      34.933964653754835,
+      -89.99996497297616,
+      7.0,
+      "Taco Bell",
+      "Southaven",
+      "MS"
+    ],
+    [
+      "032586",
+      43.0337542728402,
+      -76.1891152951952,
+      7.0,
+      "Taco Bell",
+      "Syracuse",
+      "NY"
+    ],
+    [
+      "024230",
+      33.683782293854335,
+      -78.99491250514984,
+      7.0,
+      "Taco Bell",
+      "Myrtle Beach",
+      "SC"
+    ],
+    [
+      "035450",
+      33.06960504544646,
+      -96.87392599999998,
+      7.0,
+      "Taco Bell",
+      "The Colony",
+      "TX"
+    ],
+    [
+      "027911",
+      38.58174429137641,
+      -92.2195034176275,
+      7.0,
+      "Taco Bell",
+      "Jefferson City",
+      "MO"
+    ],
+    [
+      "031789",
+      33.9211985602327,
+      -80.33542044463502,
+      7.0,
+      "Taco Bell",
+      "Sumter",
+      "SC"
+    ],
+    [
+      "030187",
+      38.93832829284112,
+      -92.74339713158952,
+      7.0,
+      "Taco Bell",
+      "Boonville",
+      "MO"
+    ],
+    [
+      "032706",
+      38.54822097966061,
+      -92.14979738811962,
+      7.0,
+      "Taco Bell",
+      "Jefferson City",
+      "MO"
+    ],
+    [
+      "027906",
+      38.55488098106194,
+      -92.19907473736711,
+      7.0,
+      "Taco Bell",
+      "Jefferson City",
+      "MO"
+    ],
+    [
+      "030951",
+      43.56157669209464,
+      -71.45151478174002,
+      7.0,
+      "Taco Bell",
+      "Laconia",
+      "NH"
+    ],
+    [
+      "026736",
+      41.93226129783192,
+      -87.94010431321112,
+      7.0,
+      "Taco Bell",
+      "Bensenville",
+      "IL"
+    ],
+    [
+      "031569",
+      33.753597971429095,
+      -78.96264781059472,
+      7.0,
+      "Taco Bell",
+      "Myrtle Beach",
+      "SC"
+    ],
+    [
+      "030185",
+      38.856289608157226,
+      -91.94452106952667,
+      7.0,
+      "Taco Bell",
+      "Fulton",
+      "MO"
+    ],
+    [
+      "040919",
+      38.774,
+      -92.2505,
+      7.0,
+      "Taco Bell",
+      "Ashland",
+      "MO"
     ],
     [
       "035226",
@@ -16102,6 +16745,51 @@
       "CA"
     ],
     [
+      "040799",
+      32.79513246402263,
+      -117.25483908201568,
+      7.99,
+      "Taco Bell",
+      "San Diego",
+      "CA"
+    ],
+    [
+      "033649",
+      39.06502967743446,
+      -84.70417329672273,
+      7.99,
+      "Taco Bell",
+      "Hebron",
+      "KY"
+    ],
+    [
+      "030938",
+      38.33571275069874,
+      -122.67768992279339,
+      7.99,
+      "Taco Bell",
+      "Rohnert Park",
+      "CA"
+    ],
+    [
+      "030784",
+      37.68964688186491,
+      -122.13063508272171,
+      7.99,
+      "Taco Bell",
+      "San Leandro",
+      "CA"
+    ],
+    [
+      "035320",
+      47.09585058787434,
+      -122.35877305269241,
+      8.49,
+      "Taco Bell",
+      "Tacoma",
+      "WA"
+    ],
+    [
       "042819",
       30.63995901293325,
       -88.18682670593262,
@@ -16165,6 +16853,15 @@
       "FL"
     ],
     [
+      "042947",
+      34.78697225672237,
+      -82.48021740022571,
+      8.99,
+      "Taco Bell",
+      "Piedmont",
+      "SC"
+    ],
+    [
       "023263",
       39.522072854378855,
       -107.77535555757223,
@@ -16181,9 +16878,18 @@
       "Taco Bell",
       "North Riverside",
       "IL"
+    ],
+    [
+      "037094",
+      40.89282138313724,
+      -73.85743711239971,
+      9.99,
+      "Taco Bell",
+      "Bronx",
+      "NY"
     ]
   ],
   "retired_at": "2026-07-17T21:30:44.339821+00:00",
-  "last_seen_date": "2026-07-25",
+  "last_seen_date": "2026-07-26",
   "peak_availability_pct": 6.2
 }

@@ -21,7 +21,7 @@
     "max": 1.79,
     "median": 0.6,
     "std_dev": 0.17,
-    "store_count": 7608
+    "store_count": 7606
   },
   "histogram": [
     {
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$0.40",
-      "count": 502
+      "count": 501
     },
     {
       "bucket": "$0.45",
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 934
+      "count": 932
     },
     {
       "bucket": "$0.61",
@@ -146,7 +146,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 260
+      "count": 261
     },
     {
       "bucket": "$1.00",
@@ -197,7 +197,7 @@
     {
       "state": "NY",
       "avg_price": 0.72,
-      "store_count": 250
+      "store_count": 249
     },
     {
       "state": "AL",
@@ -232,7 +232,12 @@
     {
       "state": "CA",
       "avg_price": 0.66,
-      "store_count": 825
+      "store_count": 824
+    },
+    {
+      "state": "WA",
+      "avg_price": 0.66,
+      "store_count": 137
     },
     {
       "state": "MD",
@@ -243,11 +248,6 @@
       "state": "DE",
       "avg_price": 0.66,
       "store_count": 16
-    },
-    {
-      "state": "WA",
-      "avg_price": 0.66,
-      "store_count": 138
     },
     {
       "state": "VA",
@@ -270,14 +270,14 @@
       "store_count": 257
     },
     {
+      "state": "WI",
+      "avg_price": 0.63,
+      "store_count": 140
+    },
+    {
       "state": "NV",
       "avg_price": 0.63,
       "store_count": 85
-    },
-    {
-      "state": "WI",
-      "avg_price": 0.63,
-      "store_count": 139
     },
     {
       "state": "IA",
@@ -312,7 +312,7 @@
     {
       "state": "SC",
       "avg_price": 0.6,
-      "store_count": 115
+      "store_count": 114
     },
     {
       "state": "NM",
@@ -377,7 +377,7 @@
     {
       "state": "AR",
       "avg_price": 0.5,
-      "store_count": 112
+      "store_count": 113
     },
     {
       "state": "MN",
@@ -574,6 +574,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043114",
+      "store_name": "Taco Bell",
+      "city": "Paragould",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-07-26T21:52:38.007163+00:00"
+    },
+    {
+      "store_number": "039922",
+      "store_name": "Taco Bell",
+      "city": "Bluffton",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:52:24.201513+00:00"
+    },
+    {
+      "store_number": "024298",
+      "store_name": "Taco Bell",
+      "city": "Sheboygan",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-07-26T21:51:48.427126+00:00"
+    },
+    {
+      "store_number": "017313",
+      "store_name": "Taco Bell",
+      "city": "Batavia",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:51:40.026869+00:00"
+    },
+    {
+      "store_number": "003144",
+      "store_name": "Taco Bell",
+      "city": "Culver City",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.4,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:51:37.675532+00:00"
+    },
+    {
+      "store_number": "035310",
+      "store_name": "Taco Bell",
+      "city": "Auburn",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-07-26T21:51:21.934101+00:00"
+    },
     {
       "store_number": "034425",
       "store_name": "Taco Bell",
@@ -5196,8 +5256,8 @@
     }
   ],
   "activity_summary": {
-    "added": 203,
-    "removed": 191,
+    "added": 205,
+    "removed": 195,
     "price_changed": 68,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13836,15 +13896,6 @@
       "Taco Bell",
       "Arlington",
       "TX"
-    ],
-    [
-      "003144",
-      34.00326725847459,
-      -118.40690553188324,
-      0.4,
-      "Taco Bell",
-      "Culver City",
-      "CA"
     ],
     [
       "040799",
@@ -30533,15 +30584,6 @@
       "AR"
     ],
     [
-      "039922",
-      32.255501256143404,
-      -80.84758818964474,
-      0.5,
-      "Taco Bell",
-      "Bluffton",
-      "SC"
-    ],
-    [
       "043196",
       35.23856421220278,
       -106.65728241205215,
@@ -31790,6 +31832,15 @@
       0.5,
       "Taco Bell",
       "Greenbrier",
+      "AR"
+    ],
+    [
+      "043114",
+      36.023738,
+      -90.524231,
+      0.5,
+      "Taco Bell",
+      "Paragould",
       "AR"
     ],
     [
@@ -37589,15 +37640,6 @@
       "FL"
     ],
     [
-      "035310",
-      47.30063775943571,
-      -122.22394108772278,
-      0.6,
-      "Taco Bell",
-      "Auburn",
-      "WA"
-    ],
-    [
       "003781",
       40.10685040773018,
       -83.73721896554343,
@@ -38676,15 +38718,6 @@
       "Taco Bell",
       "Colorado Springs",
       "CO"
-    ],
-    [
-      "017313",
-      43.00489960861637,
-      -78.2043171261237,
-      0.6,
-      "Taco Bell",
-      "Batavia",
-      "NY"
     ],
     [
       "000456",
@@ -72228,6 +72261,15 @@
       "Taco Bell",
       "Elgin",
       "IL"
+    ],
+    [
+      "024298",
+      43.72236651468486,
+      -87.73689606789048,
+      0.99,
+      "Taco Bell",
+      "Sheboygan",
+      "WI"
     ],
     [
       "042649",
