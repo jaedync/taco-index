@@ -11,21 +11,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0265,
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.45,
+    "avg": 2.52,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.29,
-    "std_dev": 0.31,
-    "store_count": 5
+    "median": 2.54,
+    "std_dev": 0.32,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$2.29",
@@ -39,13 +39,6 @@
   "state_prices": [],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "034859",
-      "name": "Taco Bell Cantina Cantina",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 2.19
-    },
     {
       "store_number": "036455",
       "name": "Taco Bell",
@@ -76,7 +69,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "034859",
     "036455"
   ],
   "priciest_stores": [
@@ -107,16 +99,19 @@
       "city": "Brooklyn",
       "state": "NY",
       "price": 2.19
-    },
-    {
-      "store_number": "034859",
-      "name": "Taco Bell Cantina Cantina",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 2.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034859",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-07-27T20:41:34.371532+00:00"
+    },
     {
       "store_number": "035456",
       "store_name": "Taco Bell Cantina Cantina",
@@ -460,7 +455,7 @@
   ],
   "activity_summary": {
     "added": 15,
-    "removed": 19,
+    "removed": 20,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -469,15 +464,6 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
-    [
-      "034859",
-      28.59831098412045,
-      -81.20885426661394,
-      2.19,
-      "Taco Bell Cantina Cantina",
-      "Orlando",
-      "FL"
-    ],
     [
       "036455",
       40.6697473363658,

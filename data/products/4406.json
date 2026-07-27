@@ -25,7 +25,7 @@
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 7450
+      "count": 7451
     },
     {
       "bucket": "$1.00",
@@ -37,7 +37,7 @@
     },
     {
       "bucket": "$1.10",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$1.19",
@@ -104,14 +104,14 @@
       "store_count": 27
     },
     {
-      "state": "CO",
-      "avg_price": 0.99,
-      "store_count": 159
-    },
-    {
       "state": "NY",
       "avg_price": 0.99,
       "store_count": 255
+    },
+    {
+      "state": "CO",
+      "avg_price": 0.99,
+      "store_count": 158
     },
     {
       "state": "SC",
@@ -244,6 +244,11 @@
       "store_count": 91
     },
     {
+      "state": "ID",
+      "avg_price": 0.99,
+      "store_count": 35
+    },
+    {
       "state": "HI",
       "avg_price": 0.99,
       "store_count": 29
@@ -312,11 +317,6 @@
       "state": "KY",
       "avg_price": 0.99,
       "store_count": 161
-    },
-    {
-      "state": "ID",
-      "avg_price": 0.99,
-      "store_count": 34
     },
     {
       "state": "IA",
@@ -3808,7 +3808,6 @@
     "042889",
     "030151",
     "035274",
-    "003307",
     "031336",
     "031327",
     "015843",
@@ -4378,6 +4377,7 @@
     "035284",
     "037414",
     "041560",
+    "020952",
     "021504",
     "030358",
     "034178",
@@ -5970,6 +5970,7 @@
     "042839",
     "030387",
     "032528",
+    "019676",
     "033851",
     "042940",
     "042954",
@@ -7935,6 +7936,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019676",
+      "store_name": "Taco Bell",
+      "city": "Post Falls",
+      "state": "ID",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-07-27T20:44:02.033547+00:00"
+    },
+    {
+      "store_number": "020952",
+      "store_name": "Taco Bell",
+      "city": "North Branch",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-07-27T20:43:16.956617+00:00"
+    },
+    {
+      "store_number": "003307",
+      "store_name": "Taco Bell",
+      "city": "Rochester",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-07-27T20:43:05.245859+00:00"
+    },
+    {
+      "store_number": "022348",
+      "store_name": "Taco Bell",
+      "city": "Eagle",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 1.1,
+      "new_price": null,
+      "observed_at": "2026-07-27T20:42:46.104529+00:00"
+    },
     {
       "store_number": "043114",
       "store_name": "Taco Bell",
@@ -83957,8 +83998,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7595,
-    "removed": 7,
+    "added": 7597,
+    "removed": 9,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -114541,15 +114582,6 @@
       "NE"
     ],
     [
-      "003307",
-      44.02872890101641,
-      -92.46248863175424,
-      0.99,
-      "Taco Bell",
-      "Rochester",
-      "MN"
-    ],
-    [
       "031336",
       47.88228681872977,
       -122.24091142416,
@@ -119669,6 +119701,15 @@
       "Taco Bell",
       "Metairie",
       "LA"
+    ],
+    [
+      "020952",
+      45.50928559966961,
+      -92.99142562669374,
+      0.99,
+      "Taco Bell",
+      "North Branch",
+      "MN"
     ],
     [
       "021504",
@@ -133997,6 +134038,15 @@
       "Taco Bell",
       "Hanford",
       "CA"
+    ],
+    [
+      "019676",
+      47.71087140879771,
+      -116.9187907781361,
+      0.99,
+      "Taco Bell",
+      "Post Falls",
+      "ID"
     ],
     [
       "033851",
@@ -151456,15 +151506,6 @@
       1.1,
       "Taco Bell",
       "Frisco",
-      "CO"
-    ],
-    [
-      "022348",
-      39.662509,
-      -106.819427,
-      1.1,
-      "Taco Bell",
-      "Eagle",
       "CO"
     ],
     [

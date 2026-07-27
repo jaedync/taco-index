@@ -22,12 +22,12 @@
     "max": 6.99,
     "median": 6.99,
     "std_dev": 0.0,
-    "store_count": 3
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 3
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -59,28 +59,13 @@
       "city": "Salt Lake City",
       "state": "UT",
       "price": 6.99
-    },
-    {
-      "store_number": "029608",
-      "name": "Taco Bell",
-      "city": "South Jordan",
-      "state": "UT",
-      "price": 6.99
     }
   ],
   "min_price_store_numbers": [
     "004062",
-    "004303",
-    "029608"
+    "004303"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029608",
-      "name": "Taco Bell",
-      "city": "South Jordan",
-      "state": "UT",
-      "price": 6.99
-    },
     {
       "store_number": "004303",
       "name": "Taco Bell",
@@ -97,6 +82,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029608",
+      "store_name": "Taco Bell",
+      "city": "South Jordan",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-07-27T20:44:31.093554+00:00"
+    },
     {
       "store_number": "040368",
       "store_name": "Taco Bell",
@@ -990,7 +985,7 @@
   ],
   "activity_summary": {
     "added": 46,
-    "removed": 43,
+    "removed": 44,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1015,15 +1010,6 @@
       6.99,
       "Taco Bell",
       "Salt Lake City",
-      "UT"
-    ],
-    [
-      "029608",
-      40.54310410068464,
-      -111.98292122354377,
-      6.99,
-      "Taco Bell",
-      "South Jordan",
       "UT"
     ]
   ],

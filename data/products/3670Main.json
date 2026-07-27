@@ -14,16 +14,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": 0.0352,
+  "recent_price_change_pct": 0.0501,
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 4.06,
+    "avg": 4.12,
     "min": 3.59,
     "max": 4.29,
     "median": 4.29,
-    "std_dev": 0.4,
-    "store_count": 3
+    "std_dev": 0.35,
+    "store_count": 4
   },
   "histogram": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "bucket": "$4.29",
-      "count": 2
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -71,12 +71,26 @@
       "city": "Simi Valley",
       "state": "CA",
       "price": 4.29
+    },
+    {
+      "store_number": "039811",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Palmdale",
+      "state": "CA",
+      "price": 4.29
     }
   ],
   "min_price_store_numbers": [
     "024393"
   ],
   "priciest_stores": [
+    {
+      "store_number": "039811",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Palmdale",
+      "state": "CA",
+      "price": 4.29
+    },
     {
       "store_number": "039797",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -100,6 +114,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039811",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Palmdale",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.29,
+      "observed_at": "2026-07-27T20:42:48.046796+00:00"
+    },
     {
       "store_number": "019252",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -312,7 +336,7 @@
     }
   ],
   "activity_summary": {
-    "added": 10,
+    "added": 11,
     "removed": 11,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -348,6 +372,15 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Simi Valley",
       "CA"
+    ],
+    [
+      "039811",
+      34.60209988736434,
+      -118.14504776896683,
+      4.29,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Palmdale",
+      "CA"
     ]
   ],
   "retired_at": null,
@@ -356,7 +389,7 @@
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 4.16,
+      "avg_price": 4.18,
       "min_price": 3.69,
       "max_price": 5.09,
       "calories": 230,
@@ -364,11 +397,11 @@
     },
     {
       "size": "REGULAR",
-      "avg_price": 3.87,
+      "avg_price": 3.9,
       "min_price": 3.49,
       "max_price": 4.29,
       "calories": 190,
-      "happier_hour_avg": 2.1
+      "happier_hour_avg": 2.13
     }
   ]
 }

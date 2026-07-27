@@ -23,12 +23,12 @@
     "max": 8.99,
     "median": 8.99,
     "std_dev": 0.0,
-    "store_count": 5
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 5
+      "count": 4
     }
   ],
   "state_prices": [],
@@ -74,30 +74,15 @@
       "city": "Saint Peters",
       "state": "MO",
       "price": 8.99
-    },
-    {
-      "store_number": "018367",
-      "name": "Taco Bell",
-      "city": "Columbia",
-      "state": "IL",
-      "price": 8.99
     }
   ],
   "min_price_store_numbers": [
     "018366",
     "029678",
     "029673",
-    "029650",
-    "018367"
+    "029650"
   ],
   "priciest_stores": [
-    {
-      "store_number": "018367",
-      "name": "Taco Bell",
-      "city": "Columbia",
-      "state": "IL",
-      "price": 8.99
-    },
     {
       "store_number": "029650",
       "name": "Taco Bell",
@@ -128,6 +113,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "018367",
+      "store_name": "Taco Bell",
+      "city": "Columbia",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-07-27T20:43:56.254195+00:00"
+    },
     {
       "store_number": "029658",
       "store_name": "Taco Bell",
@@ -2141,7 +2136,7 @@
   ],
   "activity_summary": {
     "added": 103,
-    "removed": 98,
+    "removed": 99,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2198,15 +2193,6 @@
       "Taco Bell",
       "Saint Peters",
       "MO"
-    ],
-    [
-      "018367",
-      38.44643662631198,
-      -90.2194704828137,
-      8.99,
-      "Taco Bell",
-      "Columbia",
-      "IL"
     ]
   ],
   "retired_at": null,

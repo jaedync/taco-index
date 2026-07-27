@@ -23,12 +23,12 @@
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 3
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 3
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -48,13 +48,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "026757",
-      "name": "Taco Bell",
-      "city": "Tinley Park",
-      "state": "IL",
-      "price": 11.0
-    },
-    {
       "store_number": "027896",
       "name": "Taco Bell",
       "city": "Ottawa",
@@ -70,7 +63,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "026757",
     "027896",
     "037359"
   ],
@@ -88,16 +80,19 @@
       "city": "Ottawa",
       "state": "IL",
       "price": 11.0
-    },
-    {
-      "store_number": "026757",
-      "name": "Taco Bell",
-      "city": "Tinley Park",
-      "state": "IL",
-      "price": 11.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026757",
+      "store_name": "Taco Bell",
+      "city": "Tinley Park",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-07-27T20:42:48.654680+00:00"
+    },
     {
       "store_number": "030407",
       "store_name": "Taco Bell",
@@ -1311,11 +1306,11 @@
   ],
   "activity_summary": {
     "added": 62,
-    "removed": 59,
+    "removed": 60,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 1340,
+  "calories_from_menu": 610,
   "calories_min": 610,
   "calories_max": 890,
   "combo_groups": [
@@ -1340,15 +1335,6 @@
   ],
   "map_data": [
     [
-      "026757",
-      41.54604572788319,
-      -87.79340699315071,
-      11.0,
-      "Taco Bell",
-      "Tinley Park",
-      "IL"
-    ],
-    [
       "027896",
       41.38015114984622,
       -88.83644212596955,
@@ -1368,6 +1354,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-26",
+  "last_seen_date": "2026-07-27",
   "peak_availability_pct": 0.3
 }

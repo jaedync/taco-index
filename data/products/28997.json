@@ -16,12 +16,12 @@
   "first_seen_at": "2026-05-21T21:03:57.254711+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 8.54,
+    "avg": 8.53,
     "min": 8.19,
     "max": 8.69,
     "median": 8.59,
     "std_dev": 0.14,
-    "store_count": 10
+    "store_count": 11
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$8.39",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$8.59",
@@ -69,6 +69,13 @@
       "city": "Saint Clair",
       "state": "MO",
       "price": 8.19
+    },
+    {
+      "store_number": "018366",
+      "name": "Taco Bell",
+      "city": "Troy",
+      "state": "IL",
+      "price": 8.39
     },
     {
       "store_number": "018367",
@@ -125,13 +132,6 @@
       "city": "Saint Louis",
       "state": "MO",
       "price": 8.59
-    },
-    {
-      "store_number": "029626",
-      "name": "Taco Bell",
-      "city": "Saint Louis",
-      "state": "MO",
-      "price": 8.69
     }
   ],
   "min_price_store_numbers": [
@@ -202,14 +202,24 @@
       "price": 8.39
     },
     {
-      "store_number": "020142",
+      "store_number": "018366",
       "name": "Taco Bell",
-      "city": "Saint Clair",
-      "state": "MO",
-      "price": 8.19
+      "city": "Troy",
+      "state": "IL",
+      "price": 8.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "018366",
+      "store_name": "Taco Bell",
+      "city": "Troy",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.39,
+      "observed_at": "2026-07-27T20:42:35.341358+00:00"
+    },
     {
       "store_number": "029659",
       "store_name": "Taco Bell",
@@ -3692,14 +3702,14 @@
     }
   ],
   "activity_summary": {
-    "added": 179,
+    "added": 180,
     "removed": 169,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 530,
-  "calories_min": 530,
-  "calories_max": 530,
+  "calories_from_menu": 520,
+  "calories_min": 520,
+  "calories_max": 520,
   "combo_groups": [
     {
       "group_id": "451",
@@ -3717,6 +3727,15 @@
       "Taco Bell",
       "Saint Clair",
       "MO"
+    ],
+    [
+      "018366",
+      38.73344817763037,
+      -89.91594336932394,
+      8.39,
+      "Taco Bell",
+      "Troy",
+      "IL"
     ],
     [
       "018367",
@@ -3801,6 +3820,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-26",
+  "last_seen_date": "2026-07-27",
   "peak_availability_pct": 1.0
 }

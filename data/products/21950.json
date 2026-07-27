@@ -153,12 +153,19 @@
     "033025",
     "033026",
     "033000",
-    "033006",
     "033013",
     "033008",
-    "040369"
+    "040369",
+    "033043"
   ],
   "priciest_stores": [
+    {
+      "store_number": "033043",
+      "name": "Taco Bell",
+      "city": "Wayland",
+      "state": "MI",
+      "price": 1.99
+    },
     {
       "store_number": "040369",
       "name": "Taco Bell",
@@ -177,13 +184,6 @@
       "store_number": "033013",
       "name": "Taco Bell",
       "city": "Wyoming",
-      "state": "MI",
-      "price": 1.99
-    },
-    {
-      "store_number": "033006",
-      "name": "Taco Bell",
-      "city": "South Haven",
       "state": "MI",
       "price": 1.99
     },
@@ -231,6 +231,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033006",
+      "store_name": "Taco Bell",
+      "city": "South Haven",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-07-27T20:44:31.800649+00:00"
+    },
+    {
+      "store_number": "033043",
+      "store_name": "Taco Bell",
+      "city": "Wayland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-07-27T20:44:30.796122+00:00"
+    },
     {
       "store_number": "033043",
       "store_name": "Taco Bell",
@@ -613,8 +633,8 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
-    "removed": 2,
+    "added": 37,
+    "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -894,15 +914,6 @@
       "MI"
     ],
     [
-      "033006",
-      42.403802328683945,
-      -86.25803037553845,
-      1.99,
-      "Taco Bell",
-      "South Haven",
-      "MI"
-    ],
-    [
       "033013",
       42.935717821200605,
       -85.69526909734122,
@@ -927,6 +938,15 @@
       1.99,
       "Taco Bell",
       "Battle Creek",
+      "MI"
+    ],
+    [
+      "033043",
+      42.67365292260149,
+      -85.65788559621069,
+      1.99,
+      "Taco Bell",
+      "Wayland",
       "MI"
     ]
   ],

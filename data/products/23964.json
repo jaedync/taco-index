@@ -17,17 +17,17 @@
   "first_seen_at": "2026-06-18T21:25:52.078312+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 5.82,
+    "avg": 5.83,
     "min": 5.49,
     "max": 6.09,
     "median": 5.99,
-    "std_dev": 0.26,
-    "store_count": 19
+    "std_dev": 0.25,
+    "store_count": 18
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$5.99",
@@ -82,13 +82,6 @@
       "price": 5.49
     },
     {
-      "store_number": "021493",
-      "name": "Taco Bell / KFC",
-      "city": "Harrodsburg",
-      "state": "KY",
-      "price": 5.49
-    },
-    {
       "store_number": "003881",
       "name": "Taco Bell / KFC",
       "city": "West Branch",
@@ -129,13 +122,19 @@
       "city": "South Hill",
       "state": "VA",
       "price": 5.99
+    },
+    {
+      "store_number": "023838",
+      "name": "Taco Bell",
+      "city": "Albuquerque",
+      "state": "NM",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "035717",
     "028510",
     "039755",
-    "021493",
     "003881",
     "028153",
     "003758"
@@ -213,6 +212,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "021493",
+      "store_name": "Taco Bell / KFC",
+      "city": "Harrodsburg",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-07-27T20:42:56.640792+00:00"
+    },
     {
       "store_number": "019680",
       "store_name": "Taco Bell / KFC",
@@ -1286,7 +1295,7 @@
   ],
   "activity_summary": {
     "added": 63,
-    "removed": 44,
+    "removed": 45,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1321,15 +1330,6 @@
       "Taco Bell / KFC",
       "Nags Head",
       "NC"
-    ],
-    [
-      "021493",
-      37.75330172495423,
-      -84.84560079742943,
-      5.49,
-      "Taco Bell / KFC",
-      "Harrodsburg",
-      "KY"
     ],
     [
       "003881",
@@ -1468,6 +1468,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-26",
+  "last_seen_date": "2026-07-27",
   "peak_availability_pct": 0.4
 }
