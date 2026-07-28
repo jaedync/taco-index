@@ -18,17 +18,17 @@
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.2,
+    "avg": 9.18,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.42,
-    "store_count": 10
+    "std_dev": 0.4,
+    "store_count": 11
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$9.99",
@@ -38,8 +38,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.2,
-      "store_count": 10
+      "avg_price": 9.18,
+      "store_count": 11
     }
   ],
   "nutrition": {
@@ -93,6 +93,13 @@
       "price": 9.0
     },
     {
+      "store_number": "027972",
+      "name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "039585",
       "name": "Taco Bell",
       "city": "Kissimmee",
@@ -119,13 +126,6 @@
       "city": "Ocala",
       "state": "FL",
       "price": 9.99
-    },
-    {
-      "store_number": "042928",
-      "name": "Taco Bell",
-      "city": "Palm Coast",
-      "state": "FL",
-      "price": 9.99
     }
   ],
   "min_price_store_numbers": [
@@ -134,6 +134,7 @@
     "027988",
     "027970",
     "027971",
+    "027972",
     "039585",
     "004435",
     "034163"
@@ -175,6 +176,13 @@
       "price": 9.0
     },
     {
+      "store_number": "027972",
+      "name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "027971",
       "name": "Taco Bell",
       "city": "Cocoa Beach",
@@ -201,16 +209,19 @@
       "city": "Kissimmee",
       "state": "FL",
       "price": 9.0
-    },
-    {
-      "store_number": "040730",
-      "name": "Taco Bell",
-      "city": "Edgewater",
-      "state": "FL",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027972",
+      "store_name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-07-28T21:07:37.377679+00:00"
+    },
     {
       "store_number": "039585",
       "store_name": "Taco Bell",
@@ -4533,7 +4544,7 @@
     }
   ],
   "activity_summary": {
-    "added": 221,
+    "added": 222,
     "removed": 211,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4620,6 +4631,15 @@
       "FL"
     ],
     [
+      "027972",
+      28.14532685391547,
+      -80.67222346367089,
+      9.0,
+      "Taco Bell",
+      "Melbourne",
+      "FL"
+    ],
+    [
       "039585",
       28.304853694257584,
       -81.42185122376063,
@@ -4666,6 +4686,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-27",
+  "last_seen_date": "2026-07-28",
   "peak_availability_pct": 1.2
 }

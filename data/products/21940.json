@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 23
+    "store_count": 22
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 23
+      "count": 22
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 9.0,
-      "store_count": 23
+      "store_count": 22
     }
   ],
   "nutrition": {
@@ -137,7 +137,6 @@
     "018462",
     "043060",
     "029992",
-    "036133",
     "002163",
     "043066",
     "036136",
@@ -205,21 +204,31 @@
       "price": 9.0
     },
     {
-      "store_number": "036133",
-      "name": "Taco Bell",
-      "city": "Tampa",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "029992",
       "name": "Taco Bell",
       "city": "Davenport",
       "state": "FL",
       "price": 9.0
+    },
+    {
+      "store_number": "043060",
+      "name": "Taco Bell",
+      "city": "Sarasota",
+      "state": "FL",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036133",
+      "store_name": "Taco Bell",
+      "city": "Tampa",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-07-28T21:07:48.445608+00:00"
+    },
     {
       "store_number": "040419",
       "store_name": "Taco Bell",
@@ -913,7 +922,7 @@
   ],
   "activity_summary": {
     "added": 46,
-    "removed": 23,
+    "removed": 24,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1086,15 +1095,6 @@
       "FL"
     ],
     [
-      "036133",
-      28.080011366489263,
-      -82.43543522453689,
-      9.0,
-      "Taco Bell",
-      "Tampa",
-      "FL"
-    ],
-    [
       "002163",
       28.004325020857483,
       -81.73122969587502,
@@ -1168,6 +1168,6 @@
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-07-27",
+  "last_seen_date": "2026-07-28",
   "peak_availability_pct": 0.3
 }
