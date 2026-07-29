@@ -16,17 +16,17 @@
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.24,
+    "avg": 3.25,
     "min": 3.19,
     "max": 3.39,
     "median": 3.19,
     "std_dev": 0.07,
-    "store_count": 10
+    "store_count": 9
   },
   "histogram": [
     {
       "bucket": "$3.19",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$3.29",
@@ -64,13 +64,6 @@
       "store_number": "043141",
       "name": "Taco Bell",
       "city": "Rainsville",
-      "state": "AL",
-      "price": 3.19
-    },
-    {
-      "store_number": "043137",
-      "name": "Taco Bell",
-      "city": "Fort Payne",
       "state": "AL",
       "price": 3.19
     },
@@ -127,7 +120,6 @@
   "min_price_store_numbers": [
     "043148",
     "043141",
-    "043137",
     "043133",
     "043130",
     "043139"
@@ -183,13 +175,6 @@
       "price": 3.19
     },
     {
-      "store_number": "043137",
-      "name": "Taco Bell",
-      "city": "Fort Payne",
-      "state": "AL",
-      "price": 3.19
-    },
-    {
       "store_number": "043141",
       "name": "Taco Bell",
       "city": "Rainsville",
@@ -205,6 +190,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043137",
+      "store_name": "Taco Bell",
+      "city": "Fort Payne",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-07-29T21:53:37.656596+00:00"
+    },
     {
       "store_number": "034026",
       "store_name": "Taco Bell",
@@ -11808,7 +11803,7 @@
   ],
   "activity_summary": {
     "added": 566,
-    "removed": 555,
+    "removed": 556,
     "price_changed": 39,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11846,15 +11841,6 @@
       3.19,
       "Taco Bell",
       "Rainsville",
-      "AL"
-    ],
-    [
-      "043137",
-      34.4358610180417,
-      -85.73963016271591,
-      3.19,
-      "Taco Bell",
-      "Fort Payne",
       "AL"
     ],
     [
@@ -11922,6 +11908,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-07-28",
+  "last_seen_date": "2026-07-29",
   "peak_availability_pct": 6.0
 }

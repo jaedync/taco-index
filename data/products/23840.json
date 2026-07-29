@@ -23,12 +23,12 @@
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -48,13 +48,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "027896",
-      "name": "Taco Bell",
-      "city": "Ottawa",
-      "state": "IL",
-      "price": 11.0
-    },
-    {
       "store_number": "037359",
       "name": "Taco Bell",
       "city": "North Aurora",
@@ -63,7 +56,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "027896",
     "037359"
   ],
   "priciest_stores": [
@@ -73,16 +65,19 @@
       "city": "North Aurora",
       "state": "IL",
       "price": 11.0
-    },
-    {
-      "store_number": "027896",
-      "name": "Taco Bell",
-      "city": "Ottawa",
-      "state": "IL",
-      "price": 11.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027896",
+      "store_name": "Taco Bell",
+      "city": "Ottawa",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-07-29T21:54:00.863123+00:00"
+    },
     {
       "store_number": "026757",
       "store_name": "Taco Bell",
@@ -1306,7 +1301,7 @@
   ],
   "activity_summary": {
     "added": 62,
-    "removed": 60,
+    "removed": 61,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1335,15 +1330,6 @@
   ],
   "map_data": [
     [
-      "027896",
-      41.38015114984622,
-      -88.83644212596955,
-      11.0,
-      "Taco Bell",
-      "Ottawa",
-      "IL"
-    ],
-    [
       "037359",
       41.80790930328174,
       -88.37245950240897,
@@ -1354,6 +1340,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-28",
+  "last_seen_date": "2026-07-29",
   "peak_availability_pct": 0.3
 }
