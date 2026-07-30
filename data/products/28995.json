@@ -23,12 +23,12 @@
     "max": 3.49,
     "median": 3.49,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -48,13 +48,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "029650",
-      "name": "Taco Bell",
-      "city": "Saint Peters",
-      "state": "MO",
-      "price": 3.49
-    },
-    {
       "store_number": "029626",
       "name": "Taco Bell",
       "city": "Saint Louis",
@@ -63,7 +56,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "029650",
     "029626"
   ],
   "priciest_stores": [
@@ -73,16 +65,19 @@
       "city": "Saint Louis",
       "state": "MO",
       "price": 3.49
-    },
-    {
-      "store_number": "029650",
-      "name": "Taco Bell",
-      "city": "Saint Peters",
-      "state": "MO",
-      "price": 3.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029650",
+      "store_name": "Taco Bell",
+      "city": "Saint Peters",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-07-30T21:11:36.086027+00:00"
+    },
     {
       "store_number": "018367",
       "store_name": "Taco Bell",
@@ -1126,7 +1121,7 @@
   ],
   "activity_summary": {
     "added": 53,
-    "removed": 51,
+    "removed": 52,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1142,15 +1137,6 @@
     }
   ],
   "map_data": [
-    [
-      "029650",
-      38.7916778356872,
-      -90.57457745075226,
-      3.49,
-      "Taco Bell",
-      "Saint Peters",
-      "MO"
-    ],
     [
       "029626",
       38.62593379754423,

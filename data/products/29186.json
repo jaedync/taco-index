@@ -22,12 +22,12 @@
     "max": 6.99,
     "median": 6.99,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -47,13 +47,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "004062",
-      "name": "Taco Bell",
-      "city": "Bountiful",
-      "state": "UT",
-      "price": 6.99
-    },
-    {
       "store_number": "004303",
       "name": "Taco Bell",
       "city": "Salt Lake City",
@@ -62,7 +55,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "004062",
     "004303"
   ],
   "priciest_stores": [
@@ -72,16 +64,19 @@
       "city": "Salt Lake City",
       "state": "UT",
       "price": 6.99
-    },
-    {
-      "store_number": "004062",
-      "name": "Taco Bell",
-      "city": "Bountiful",
-      "state": "UT",
-      "price": 6.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004062",
+      "store_name": "Taco Bell",
+      "city": "Bountiful",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-07-30T21:11:27.705883+00:00"
+    },
     {
       "store_number": "029608",
       "store_name": "Taco Bell",
@@ -985,7 +980,7 @@
   ],
   "activity_summary": {
     "added": 46,
-    "removed": 44,
+    "removed": 45,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -994,15 +989,6 @@
   "calories_max": 730,
   "combo_groups": [],
   "map_data": [
-    [
-      "004062",
-      40.883865757001395,
-      -111.89252981213983,
-      6.99,
-      "Taco Bell",
-      "Bountiful",
-      "UT"
-    ],
     [
       "004303",
       40.652668028008044,
