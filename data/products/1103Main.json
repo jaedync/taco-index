@@ -11,16 +11,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0506,
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.42,
+    "avg": 2.49,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.34,
-    "std_dev": 0.26,
-    "store_count": 4
+    "median": 2.44,
+    "std_dev": 0.25,
+    "store_count": 6
   },
   "histogram": [
     {
@@ -36,8 +36,12 @@
       "count": 1
     },
     {
-      "bucket": "$2.79",
+      "bucket": "$2.49",
       "count": 1
+    },
+    {
+      "bucket": "$2.79",
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -65,6 +69,20 @@
       "price": 2.39
     },
     {
+      "store_number": "042688",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 2.49
+    },
+    {
+      "store_number": "034273",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "New York",
+      "state": "NY",
+      "price": 2.79
+    },
+    {
       "store_number": "036012",
       "name": "Taco Bell Cantina",
       "city": "New York",
@@ -82,6 +100,20 @@
       "city": "New York",
       "state": "NY",
       "price": 2.79
+    },
+    {
+      "store_number": "034273",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "New York",
+      "state": "NY",
+      "price": 2.79
+    },
+    {
+      "store_number": "042688",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 2.49
     },
     {
       "store_number": "041337",
@@ -106,6 +138,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042688",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-07-31T21:21:02.361107+00:00"
+    },
+    {
+      "store_number": "034273",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-07-31T21:18:08.285376+00:00"
+    },
     {
       "store_number": "034354",
       "store_name": "Taco Bell Cantina",
@@ -398,7 +450,7 @@
     }
   ],
   "activity_summary": {
-    "added": 12,
+    "added": 14,
     "removed": 17,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -436,6 +488,24 @@
       "DC"
     ],
     [
+      "042688",
+      40.6936,
+      -73.96336,
+      2.49,
+      "Taco Bell",
+      "Brooklyn",
+      "NY"
+    ],
+    [
+      "034273",
+      40.7624,
+      -73.9854,
+      2.79,
+      "Taco Bell Cantina Cantina",
+      "New York",
+      "NY"
+    ],
+    [
       "036012",
       40.750907242765024,
       -73.98673487993365,
@@ -451,7 +521,7 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 2.37,
+      "avg_price": 2.38,
       "min_price": 2.0,
       "max_price": 2.79,
       "calories": 0,

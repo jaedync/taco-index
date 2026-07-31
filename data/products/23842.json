@@ -7,6 +7,7 @@
     "boxes-and-combos",
     "deals-and-combos",
     "featured",
+    "limited-time-offers",
     "new"
   ],
   "image_url": "https://www.tacobell.com/images/23842_ultimate_luxe_box_269x269.jpg",
@@ -23,19 +24,19 @@
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 18
+    "store_count": 19
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 18
+      "count": 19
     }
   ],
   "state_prices": [
     {
       "state": "IL",
       "avg_price": 11.0,
-      "store_count": 14
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -142,9 +143,17 @@
     "030539",
     "032031",
     "031070",
-    "032134"
+    "032134",
+    "040018"
   ],
   "priciest_stores": [
+    {
+      "store_number": "040018",
+      "name": "Taco Bell",
+      "city": "Lansing",
+      "state": "IL",
+      "price": 11.0
+    },
     {
       "store_number": "032134",
       "name": "Taco Bell",
@@ -207,16 +216,19 @@
       "city": "New Lenox",
       "state": "IL",
       "price": 11.0
-    },
-    {
-      "store_number": "027898",
-      "name": "Taco Bell",
-      "city": "Peru",
-      "state": "IL",
-      "price": 11.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040018",
+      "store_name": "Taco Bell",
+      "city": "Lansing",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.0,
+      "observed_at": "2026-07-31T21:17:58.328561+00:00"
+    },
     {
       "store_number": "032134",
       "store_name": "Taco Bell",
@@ -759,7 +771,7 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
+    "added": 37,
     "removed": 18,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -961,9 +973,18 @@
       "Taco Bell",
       "Calumet Park",
       "IL"
+    ],
+    [
+      "040018",
+      41.568922522295324,
+      -87.55837966195392,
+      11.0,
+      "Taco Bell",
+      "Lansing",
+      "IL"
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-07-30",
+  "last_seen_date": "2026-07-31",
   "peak_availability_pct": 0.2
 }

@@ -20,12 +20,12 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 310
+    "store_count": 311
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 310
+      "count": 311
     }
   ],
   "state_prices": [
@@ -37,7 +37,7 @@
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 183
+      "store_count": 184
     },
     {
       "state": "IN",
@@ -433,6 +433,7 @@
     "033999",
     "004161",
     "017105",
+    "004399",
     "033312",
     "033808",
     "035629",
@@ -508,14 +509,24 @@
       "price": 4.99
     },
     {
-      "store_number": "017105",
+      "store_number": "004399",
       "name": "Taco Bell",
-      "city": "Garden City",
+      "city": "Sault Sainte Marie",
       "state": "MI",
       "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004399",
+      "store_name": "Taco Bell",
+      "city": "Sault Sainte Marie",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-07-31T21:20:14.887302+00:00"
+    },
     {
       "store_number": "022448",
       "store_name": "Taco Bell",
@@ -5378,7 +5389,7 @@
     }
   ],
   "activity_summary": {
-    "added": 398,
+    "added": 399,
     "removed": 88,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -8098,6 +8109,15 @@
       "MI"
     ],
     [
+      "004399",
+      46.474895137706675,
+      -84.35584594310967,
+      4.99,
+      "Taco Bell",
+      "Sault Sainte Marie",
+      "MI"
+    ],
+    [
       "033312",
       42.56712109160948,
       -83.12710762023926,
@@ -8180,6 +8200,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-07-30",
+  "last_seen_date": "2026-07-31",
   "peak_availability_pct": 3.8
 }

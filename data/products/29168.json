@@ -14,14 +14,14 @@
   "peak_30d_pct": 1.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-21T21:03:57.254711+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 8.32,
+    "avg": 8.37,
     "min": 7.99,
     "max": 8.49,
     "median": 8.49,
-    "std_dev": 0.29,
-    "store_count": 3
+    "std_dev": 0.25,
+    "store_count": 4
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$8.49",
-      "count": 2
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -56,12 +56,26 @@
       "city": "Saint Peters",
       "state": "MO",
       "price": 8.49
+    },
+    {
+      "store_number": "029651",
+      "name": "Taco Bell",
+      "city": "Saint Charles",
+      "state": "MO",
+      "price": 8.49
     }
   ],
   "min_price_store_numbers": [
     "018367"
   ],
   "priciest_stores": [
+    {
+      "store_number": "029651",
+      "name": "Taco Bell",
+      "city": "Saint Charles",
+      "state": "MO",
+      "price": 8.49
+    },
     {
       "store_number": "029650",
       "name": "Taco Bell",
@@ -85,6 +99,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029651",
+      "store_name": "Taco Bell",
+      "city": "Saint Charles",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.49,
+      "observed_at": "2026-07-31T21:19:59.875152+00:00"
+    },
     {
       "store_number": "029659",
       "store_name": "Taco Bell",
@@ -3497,7 +3521,7 @@
     }
   ],
   "activity_summary": {
-    "added": 172,
+    "added": 173,
     "removed": 169,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3533,9 +3557,18 @@
       "Taco Bell",
       "Saint Peters",
       "MO"
+    ],
+    [
+      "029651",
+      38.787524406443445,
+      -90.51241502171251,
+      8.49,
+      "Taco Bell",
+      "Saint Charles",
+      "MO"
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-07-30",
+  "last_seen_date": "2026-07-31",
   "peak_availability_pct": 1.0
 }
