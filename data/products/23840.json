@@ -24,12 +24,12 @@
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 1
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -49,6 +49,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "040019",
+      "name": "Taco Bell",
+      "city": "Cedar Lake",
+      "state": "IN",
+      "price": 11.0
+    },
+    {
       "store_number": "037359",
       "name": "Taco Bell",
       "city": "North Aurora",
@@ -57,6 +64,7 @@
     }
   ],
   "min_price_store_numbers": [
+    "040019",
     "037359"
   ],
   "priciest_stores": [
@@ -66,9 +74,26 @@
       "city": "North Aurora",
       "state": "IL",
       "price": 11.0
+    },
+    {
+      "store_number": "040019",
+      "name": "Taco Bell",
+      "city": "Cedar Lake",
+      "state": "IN",
+      "price": 11.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040019",
+      "store_name": "Taco Bell",
+      "city": "Cedar Lake",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.0,
+      "observed_at": "2026-08-01T21:57:16.043844+00:00"
+    },
     {
       "store_number": "027896",
       "store_name": "Taco Bell",
@@ -1301,7 +1326,7 @@
     }
   ],
   "activity_summary": {
-    "added": 62,
+    "added": 63,
     "removed": 61,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1331,6 +1356,15 @@
   ],
   "map_data": [
     [
+      "040019",
+      41.37634875376213,
+      -87.46939630871344,
+      11.0,
+      "Taco Bell",
+      "Cedar Lake",
+      "IN"
+    ],
+    [
       "037359",
       41.80790930328174,
       -88.37245950240897,
@@ -1341,6 +1375,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-07-31",
+  "last_seen_date": "2026-08-01",
   "peak_availability_pct": 0.3
 }
