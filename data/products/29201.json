@@ -11,34 +11,34 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 3.0,
+  "peak_30d_pct": 3.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 3.2,
+  "availability_pct": 3.3,
   "price_stats": {
-    "avg": 8.92,
+    "avg": 8.91,
     "min": 7.79,
     "max": 9.79,
     "median": 8.99,
     "std_dev": 0.58,
-    "store_count": 250
+    "store_count": 256
   },
   "histogram": [
     {
       "bucket": "$7.79",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$8.19",
-      "count": 40
+      "count": 43
     },
     {
       "bucket": "$8.39",
-      "count": 27
+      "count": 28
     },
     {
       "bucket": "$8.59",
-      "count": 6
+      "count": 7
     },
     {
       "bucket": "$8.69",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$8.99",
-      "count": 47
+      "count": 46
     },
     {
       "bucket": "$9.19",
@@ -70,29 +70,29 @@
     },
     {
       "bucket": "$9.79",
-      "count": 51
+      "count": 52
     }
   ],
   "state_prices": [
     {
       "state": "PA",
-      "avg_price": 9.12,
-      "store_count": 11
+      "avg_price": 9.13,
+      "store_count": 10
     },
     {
       "state": "MI",
       "avg_price": 9.07,
-      "store_count": 145
+      "store_count": 148
     },
     {
       "state": "OH",
-      "avg_price": 8.67,
-      "store_count": 81
+      "avg_price": 8.66,
+      "store_count": 84
     },
     {
       "state": "IN",
-      "avg_price": 8.39,
-      "store_count": 10
+      "avg_price": 8.34,
+      "store_count": 11
     }
   ],
   "nutrition": {
@@ -128,6 +128,13 @@
       "store_number": "038816",
       "name": "Taco Bell",
       "city": "Middlebury",
+      "state": "IN",
+      "price": 7.79
+    },
+    {
+      "store_number": "035402",
+      "name": "Taco Bell",
+      "city": "Fort Wayne",
       "state": "IN",
       "price": 7.79
     },
@@ -172,19 +179,13 @@
       "city": "Taylor",
       "state": "MI",
       "price": 8.19
-    },
-    {
-      "store_number": "036332",
-      "name": "Taco Bell",
-      "city": "Defiance",
-      "state": "OH",
-      "price": 8.19
     }
   ],
   "min_price_store_numbers": [
     "023198",
     "021478",
     "038816",
+    "035402",
     "035411",
     "035408",
     "035399",
@@ -203,6 +204,13 @@
       "store_number": "042642",
       "name": "Taco Bell",
       "city": "Grand Rapids",
+      "state": "MI",
+      "price": 9.79
+    },
+    {
+      "store_number": "042626",
+      "name": "Taco Bell",
+      "city": "Grand Haven",
       "state": "MI",
       "price": 9.79
     },
@@ -254,16 +262,89 @@
       "city": "Dewitt",
       "state": "MI",
       "price": 9.79
-    },
-    {
-      "store_number": "042641",
-      "name": "Taco Bell",
-      "city": "Alpena",
-      "state": "MI",
-      "price": 9.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032625",
+      "store_name": "Taco Bell",
+      "city": "Baden",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-08-02T21:04:05.282730+00:00"
+    },
+    {
+      "store_number": "016914",
+      "store_name": "Taco Bell",
+      "city": "Upper Sandusky",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.19,
+      "observed_at": "2026-08-02T21:03:57.749106+00:00"
+    },
+    {
+      "store_number": "033003",
+      "store_name": "Taco Bell",
+      "city": "Whitehall",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.19,
+      "observed_at": "2026-08-02T21:03:19.683978+00:00"
+    },
+    {
+      "store_number": "035402",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-08-02T21:02:54.663939+00:00"
+    },
+    {
+      "store_number": "042626",
+      "store_name": "Taco Bell",
+      "city": "Grand Haven",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.79,
+      "observed_at": "2026-08-02T21:02:39.433074+00:00"
+    },
+    {
+      "store_number": "039686",
+      "store_name": "Taco Bell",
+      "city": "Washington",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.59,
+      "observed_at": "2026-08-02T21:02:33.717844+00:00"
+    },
+    {
+      "store_number": "022444",
+      "store_name": "Taco Bell",
+      "city": "Cuyahoga Falls",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.39,
+      "observed_at": "2026-08-02T21:02:30.443127+00:00"
+    },
+    {
+      "store_number": "035064",
+      "store_name": "Taco Bell",
+      "city": "Bowling Green",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.19,
+      "observed_at": "2026-08-02T21:02:08.039561+00:00"
+    },
     {
       "store_number": "033011",
       "store_name": "Taco Bell",
@@ -24406,8 +24487,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1031,
-    "removed": 780,
+    "added": 1038,
+    "removed": 781,
     "price_changed": 603,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -24454,6 +24535,15 @@
       7.79,
       "Taco Bell",
       "Middlebury",
+      "IN"
+    ],
+    [
+      "035402",
+      41.140178583363884,
+      -85.16165293288395,
+      7.79,
+      "Taco Bell",
+      "Fort Wayne",
       "IN"
     ],
     [
@@ -24509,6 +24599,15 @@
       "Taco Bell",
       "Taylor",
       "MI"
+    ],
+    [
+      "035064",
+      41.355107653503794,
+      -83.65091883837322,
+      8.19,
+      "Taco Bell",
+      "Bowling Green",
+      "OH"
     ],
     [
       "036332",
@@ -24571,6 +24670,15 @@
       8.19,
       "Taco Bell",
       "Perrysburg",
+      "OH"
+    ],
+    [
+      "016914",
+      40.83491648205857,
+      -83.23775902393209,
+      8.19,
+      "Taco Bell",
+      "Upper Sandusky",
       "OH"
     ],
     [
@@ -24862,6 +24970,15 @@
       "MI"
     ],
     [
+      "033003",
+      43.4086537057727,
+      -86.32327638569222,
+      8.19,
+      "Taco Bell",
+      "Whitehall",
+      "MI"
+    ],
+    [
       "034909",
       41.520379064625956,
       -81.46883524730293,
@@ -24940,6 +25057,15 @@
       8.39,
       "Taco Bell",
       "Euclid",
+      "OH"
+    ],
+    [
+      "022444",
+      41.14442618326448,
+      -81.50894673779933,
+      8.39,
+      "Taco Bell",
+      "Cuyahoga Falls",
       "OH"
     ],
     [
@@ -25121,6 +25247,15 @@
       "Taco Bell",
       "Vermilion",
       "OH"
+    ],
+    [
+      "039686",
+      42.77873889373091,
+      -83.01547542214394,
+      8.59,
+      "Taco Bell",
+      "Washington",
+      "MI"
     ],
     [
       "039687",
@@ -25868,15 +26003,6 @@
       "Taco Bell",
       "Nappanee",
       "IN"
-    ],
-    [
-      "032625",
-      40.65586379169644,
-      -80.23716513813156,
-      8.99,
-      "Taco Bell",
-      "Baden",
-      "PA"
     ],
     [
       "040700",
@@ -26662,6 +26788,15 @@
       "MI"
     ],
     [
+      "042626",
+      43.05229802854924,
+      -86.22120213205275,
+      9.79,
+      "Taco Bell",
+      "Grand Haven",
+      "MI"
+    ],
+    [
       "042642",
       42.9853942529355,
       -85.68253186721324,
@@ -26681,6 +26816,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-01",
+  "last_seen_date": "2026-08-02",
   "peak_availability_pct": 6.6
 }

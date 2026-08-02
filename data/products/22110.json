@@ -14,16 +14,20 @@
   "peak_30d_pct": 93.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 100.0,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 2.04,
-    "min": 1.59,
+    "min": 0.99,
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.21,
-    "store_count": 7714
+    "store_count": 7712
   },
   "histogram": [
+    {
+      "bucket": "$0.99",
+      "count": 2
+    },
     {
       "bucket": "$1.59",
       "count": 1
@@ -46,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4369
+      "count": 4367
     },
     {
       "bucket": "$2.00",
@@ -66,7 +70,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 1103
+      "count": 1102
     },
     {
       "bucket": "$2.20",
@@ -78,7 +82,7 @@
     },
     {
       "bucket": "$2.29",
-      "count": 320
+      "count": 319
     },
     {
       "bucket": "$2.30",
@@ -187,7 +191,7 @@
     {
       "state": "MA",
       "avg_price": 2.31,
-      "store_count": 68
+      "store_count": 67
     },
     {
       "state": "CA",
@@ -241,13 +245,8 @@
     },
     {
       "state": "IL",
-      "avg_price": 2.08,
-      "store_count": 289
-    },
-    {
-      "state": "WA",
       "avg_price": 2.07,
-      "store_count": 139
+      "store_count": 289
     },
     {
       "state": "PA",
@@ -258,6 +257,11 @@
       "state": "IA",
       "avg_price": 2.07,
       "store_count": 49
+    },
+    {
+      "state": "WA",
+      "avg_price": 2.07,
+      "store_count": 138
     },
     {
       "state": "NV",
@@ -335,14 +339,14 @@
       "store_count": 128
     },
     {
-      "state": "IN",
-      "avg_price": 1.98,
-      "store_count": 259
-    },
-    {
       "state": "TN",
       "avg_price": 1.98,
       "store_count": 255
+    },
+    {
+      "state": "IN",
+      "avg_price": 1.98,
+      "store_count": 259
     },
     {
       "state": "NC",
@@ -441,6 +445,20 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "040318",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 0.99
+    },
+    {
+      "store_number": "043006",
+      "name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "price": 0.99
+    },
+    {
       "store_number": "031484",
       "name": "Taco Bell",
       "city": "Window Rock",
@@ -495,24 +513,11 @@
       "city": "Wyoming",
       "state": "MI",
       "price": 1.69
-    },
-    {
-      "store_number": "034828",
-      "name": "Taco Bell",
-      "city": "Battle Creek",
-      "state": "MI",
-      "price": 1.69
-    },
-    {
-      "store_number": "040891",
-      "name": "Taco Bell",
-      "city": "Lakeville",
-      "state": "MN",
-      "price": 1.69
     }
   ],
   "min_price_store_numbers": [
-    "031484"
+    "040318",
+    "043006"
   ],
   "priciest_stores": [
     {
@@ -587,6 +592,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029265",
+      "store_name": "Taco Bell / Long John Silver's",
+      "city": "West Roxbury",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-08-02T21:04:06.770490+00:00"
+    },
+    {
+      "store_number": "022602",
+      "store_name": "Taco Bell",
+      "city": "Everett",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 2.29,
+      "new_price": null,
+      "observed_at": "2026-08-02T21:03:29.728351+00:00"
+    },
+    {
+      "store_number": "043006",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-08-02T21:02:13.872056+00:00"
+    },
+    {
+      "store_number": "040318",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-08-02T21:02:04.359094+00:00"
+    },
     {
       "store_number": "041805",
       "store_name": "Taco Bell",
@@ -15050,8 +15095,8 @@
   ],
   "activity_summary": {
     "added": 207,
-    "removed": 166,
-    "price_changed": 1073,
+    "removed": 168,
+    "price_changed": 1075,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 180,
@@ -15059,6 +15104,24 @@
   "calories_max": 180,
   "combo_groups": [],
   "map_data": [
+    [
+      "040318",
+      41.807919921888036,
+      -87.74351908680534,
+      0.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
+    [
+      "043006",
+      39.79695284567275,
+      -86.01268830428725,
+      0.99,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
     [
       "031484",
       35.66402882084004,
@@ -29424,15 +29487,6 @@
       "AR"
     ],
     [
-      "040318",
-      41.807919921888036,
-      -87.74351908680534,
-      1.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
       "041646",
       36.132926,
       -95.924655,
@@ -32730,15 +32784,6 @@
       "043007",
       39.85505652122834,
       -86.24080654485579,
-      1.99,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
-    ],
-    [
-      "043006",
-      39.79695284567275,
-      -86.01268830428725,
       1.99,
       "Taco Bell",
       "Indianapolis",
@@ -76098,15 +76143,6 @@
       "CA"
     ],
     [
-      "029265",
-      42.266808457195665,
-      -71.16855300183603,
-      2.19,
-      "Taco Bell / Long John Silver's",
-      "West Roxbury",
-      "MA"
-    ],
-    [
       "030784",
       37.68964688186491,
       -122.13063508272171,
@@ -80038,15 +80074,6 @@
       "Taco Bell",
       "Fullerton",
       "CA"
-    ],
-    [
-      "022602",
-      47.9809238465088,
-      -122.20114446112193,
-      2.29,
-      "Taco Bell",
-      "Everett",
-      "WA"
     ],
     [
       "031974",

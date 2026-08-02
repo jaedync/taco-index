@@ -24,21 +24,15 @@
     "max": 6.49,
     "median": 6.49,
     "std_dev": 0.0,
-    "store_count": 6
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 6
+      "count": 4
     }
   ],
-  "state_prices": [
-    {
-      "state": "MO",
-      "avg_price": 6.49,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": {
     "calories": 592.736,
     "total_fat_g": 32.248,
@@ -69,13 +63,6 @@
       "price": 6.49
     },
     {
-      "store_number": "029673",
-      "name": "Taco Bell",
-      "city": "Saint Peters",
-      "state": "MO",
-      "price": 6.49
-    },
-    {
       "store_number": "029659",
       "name": "Taco Bell",
       "city": "Byrnes Mill",
@@ -86,13 +73,6 @@
       "store_number": "029651",
       "name": "Taco Bell",
       "city": "Saint Charles",
-      "state": "MO",
-      "price": 6.49
-    },
-    {
-      "store_number": "029626",
-      "name": "Taco Bell",
-      "city": "Saint Louis",
       "state": "MO",
       "price": 6.49
     }
@@ -100,19 +80,10 @@
   "min_price_store_numbers": [
     "039574",
     "018366",
-    "029673",
     "029659",
-    "029651",
-    "029626"
+    "029651"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029626",
-      "name": "Taco Bell",
-      "city": "Saint Louis",
-      "state": "MO",
-      "price": 6.49
-    },
     {
       "store_number": "029651",
       "name": "Taco Bell",
@@ -124,13 +95,6 @@
       "store_number": "029659",
       "name": "Taco Bell",
       "city": "Byrnes Mill",
-      "state": "MO",
-      "price": 6.49
-    },
-    {
-      "store_number": "029673",
-      "name": "Taco Bell",
-      "city": "Saint Peters",
       "state": "MO",
       "price": 6.49
     },
@@ -150,6 +114,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029626",
+      "store_name": "Taco Bell",
+      "city": "Saint Louis",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-08-02T21:04:15.450866+00:00"
+    },
+    {
+      "store_number": "029673",
+      "store_name": "Taco Bell",
+      "city": "Saint Peters",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-08-02T21:02:57.713565+00:00"
+    },
     {
       "store_number": "031606",
       "store_name": "Taco Bell",
@@ -2153,7 +2137,7 @@
   ],
   "activity_summary": {
     "added": 103,
-    "removed": 97,
+    "removed": 99,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2161,6 +2145,12 @@
   "calories_min": 450,
   "calories_max": 450,
   "combo_groups": [
+    {
+      "group_id": "932",
+      "title": "Cantina Chicken Caesar Burrito",
+      "default_product_code": "28998",
+      "default_product_name": "Cantina Chicken Caesar Burrito"
+    },
     {
       "group_id": "451",
       "title": "Avocado Verde Salsa Sauce Packet",
@@ -2188,15 +2178,6 @@
       "IL"
     ],
     [
-      "029673",
-      38.74641889922928,
-      -90.6344148516655,
-      6.49,
-      "Taco Bell",
-      "Saint Peters",
-      "MO"
-    ],
-    [
       "029659",
       38.41366579116861,
       -90.58245469631402,
@@ -2212,15 +2193,6 @@
       6.49,
       "Taco Bell",
       "Saint Charles",
-      "MO"
-    ],
-    [
-      "029626",
-      38.62593379754423,
-      -90.28742852504365,
-      6.49,
-      "Taco Bell",
-      "Saint Louis",
       "MO"
     ]
   ],

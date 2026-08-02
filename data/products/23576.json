@@ -22,12 +22,12 @@
     "max": 3.0,
     "median": 3.0,
     "std_dev": 0.0,
-    "store_count": 1
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -52,12 +52,27 @@
       "city": "Norfolk",
       "state": "VA",
       "price": 3.0
+    },
+    {
+      "store_number": "037013",
+      "name": "Taco Bell",
+      "city": "Trussville",
+      "state": "AL",
+      "price": 3.0
     }
   ],
   "min_price_store_numbers": [
-    "021309"
+    "021309",
+    "037013"
   ],
   "priciest_stores": [
+    {
+      "store_number": "037013",
+      "name": "Taco Bell",
+      "city": "Trussville",
+      "state": "AL",
+      "price": 3.0
+    },
     {
       "store_number": "021309",
       "name": "Taco Bell",
@@ -66,9 +81,20 @@
       "price": 3.0
     }
   ],
-  "price_changes": [],
+  "price_changes": [
+    {
+      "store_number": "037013",
+      "store_name": "Taco Bell",
+      "city": "Trussville",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-08-02T21:02:21.659208+00:00"
+    }
+  ],
   "activity_summary": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -86,6 +112,15 @@
       "Taco Bell",
       "Norfolk",
       "VA"
+    ],
+    [
+      "037013",
+      33.639036321195334,
+      -86.6159612237478,
+      3.0,
+      "Taco Bell",
+      "Trussville",
+      "AL"
     ]
   ],
   "retired_at": null,

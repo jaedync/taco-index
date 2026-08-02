@@ -23,12 +23,12 @@
     "max": 6.49,
     "median": 6.49,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -53,27 +53,12 @@
       "city": "Park City",
       "state": "UT",
       "price": 6.49
-    },
-    {
-      "store_number": "033177",
-      "name": "Taco Bell",
-      "city": "Clinton",
-      "state": "UT",
-      "price": 6.49
     }
   ],
   "min_price_store_numbers": [
-    "033164",
-    "033177"
+    "033164"
   ],
   "priciest_stores": [
-    {
-      "store_number": "033177",
-      "name": "Taco Bell",
-      "city": "Clinton",
-      "state": "UT",
-      "price": 6.49
-    },
     {
       "store_number": "033164",
       "name": "Taco Bell",
@@ -83,6 +68,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033177",
+      "store_name": "Taco Bell",
+      "city": "Clinton",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-08-02T21:04:01.773113+00:00"
+    },
     {
       "store_number": "004062",
       "store_name": "Taco Bell",
@@ -1106,7 +1101,7 @@
   ],
   "activity_summary": {
     "added": 52,
-    "removed": 50,
+    "removed": 51,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1122,15 +1117,6 @@
       6.49,
       "Taco Bell",
       "Park City",
-      "UT"
-    ],
-    [
-      "033177",
-      41.13787879858887,
-      -112.06496975851218,
-      6.49,
-      "Taco Bell",
-      "Clinton",
       "UT"
     ]
   ],

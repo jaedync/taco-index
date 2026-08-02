@@ -14,22 +14,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 0.1,
+  "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 9.16,
+    "avg": 9.15,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.39,
-    "store_count": 12
+    "std_dev": 0.37,
+    "store_count": 13
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 10
+      "count": 11
     },
     {
       "bucket": "$9.99",
@@ -39,8 +39,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.17,
-      "store_count": 12
+      "avg_price": 9.15,
+      "store_count": 13
     }
   ],
   "nutrition": {
@@ -62,6 +62,13 @@
       "store_number": "040730",
       "name": "Taco Bell",
       "city": "Edgewater",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
+      "store_number": "030349",
+      "name": "Taco Bell",
+      "city": "Melbourne",
       "state": "FL",
       "price": 9.0
     },
@@ -120,17 +127,11 @@
       "city": "Lady Lake",
       "state": "FL",
       "price": 9.0
-    },
-    {
-      "store_number": "034163",
-      "name": "Taco Bell",
-      "city": "Saint Cloud",
-      "state": "FL",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "040730",
+    "030349",
     "023302",
     "027988",
     "022833",
@@ -214,6 +215,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030349",
+      "store_name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-08-02T21:02:46.568959+00:00"
+    },
     {
       "store_number": "037822",
       "store_name": "Taco Bell",
@@ -4576,7 +4587,7 @@
     }
   ],
   "activity_summary": {
-    "added": 224,
+    "added": 225,
     "removed": 212,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4624,6 +4635,15 @@
       9.0,
       "Taco Bell",
       "Edgewater",
+      "FL"
+    ],
+    [
+      "030349",
+      28.231152164188327,
+      -80.70049432232909,
+      9.0,
+      "Taco Bell",
+      "Melbourne",
       "FL"
     ],
     [
@@ -4727,6 +4747,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-08-01",
+  "last_seen_date": "2026-08-02",
   "peak_availability_pct": 1.2
 }

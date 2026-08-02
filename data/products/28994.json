@@ -24,12 +24,12 @@
     "max": 8.99,
     "median": 8.99,
     "std_dev": 0.0,
-    "store_count": 3
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 3
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -61,28 +61,13 @@
       "city": "Belleville",
       "state": "IL",
       "price": 8.99
-    },
-    {
-      "store_number": "029673",
-      "name": "Taco Bell",
-      "city": "Saint Peters",
-      "state": "MO",
-      "price": 8.99
     }
   ],
   "min_price_store_numbers": [
     "018366",
-    "029678",
-    "029673"
+    "029678"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029673",
-      "name": "Taco Bell",
-      "city": "Saint Peters",
-      "state": "MO",
-      "price": 8.99
-    },
     {
       "store_number": "029678",
       "name": "Taco Bell",
@@ -99,6 +84,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029673",
+      "store_name": "Taco Bell",
+      "city": "Saint Peters",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-08-02T21:02:57.713565+00:00"
+    },
     {
       "store_number": "029650",
       "store_name": "Taco Bell",
@@ -2132,7 +2127,7 @@
   ],
   "activity_summary": {
     "added": 103,
-    "removed": 100,
+    "removed": 101,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2165,15 +2160,6 @@
       "Taco Bell",
       "Belleville",
       "IL"
-    ],
-    [
-      "029673",
-      38.74641889922928,
-      -90.6344148516655,
-      8.99,
-      "Taco Bell",
-      "Saint Peters",
-      "MO"
     ]
   ],
   "retired_at": null,
