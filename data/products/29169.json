@@ -17,19 +17,19 @@
   "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.15,
+    "avg": 9.2,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.37,
-    "store_count": 13
+    "std_dev": 0.42,
+    "store_count": 10
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 11
+      "count": 8
     },
     {
       "bucket": "$9.99",
@@ -39,8 +39,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.15,
-      "store_count": 13
+      "avg_price": 9.2,
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -73,13 +73,6 @@
       "price": 9.0
     },
     {
-      "store_number": "023302",
-      "name": "Taco Bell",
-      "city": "Kissimmee",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "027988",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -115,31 +108,35 @@
       "price": 9.0
     },
     {
-      "store_number": "004435",
+      "store_number": "034163",
       "name": "Taco Bell",
-      "city": "Orlando",
+      "city": "Saint Cloud",
       "state": "FL",
       "price": 9.0
     },
     {
-      "store_number": "037822",
+      "store_number": "042942",
       "name": "Taco Bell",
-      "city": "Lady Lake",
+      "city": "Ocala",
       "state": "FL",
-      "price": 9.0
+      "price": 9.99
+    },
+    {
+      "store_number": "042928",
+      "name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "price": 9.99
     }
   ],
   "min_price_store_numbers": [
     "040730",
     "030349",
-    "023302",
     "027988",
     "022833",
     "027970",
     "027971",
     "027972",
-    "004435",
-    "037822",
     "034163"
   ],
   "priciest_stores": [
@@ -165,20 +162,6 @@
       "price": 9.0
     },
     {
-      "store_number": "037822",
-      "name": "Taco Bell",
-      "city": "Lady Lake",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "004435",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "027972",
       "name": "Taco Bell",
       "city": "Melbourne",
@@ -212,9 +195,53 @@
       "city": "Orlando",
       "state": "FL",
       "price": 9.0
+    },
+    {
+      "store_number": "030349",
+      "name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
+      "store_number": "040730",
+      "name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037822",
+      "store_name": "Taco Bell",
+      "city": "Lady Lake",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-08-03T21:09:48.988960+00:00"
+    },
+    {
+      "store_number": "004435",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-08-03T21:09:43.223896+00:00"
+    },
+    {
+      "store_number": "023302",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-08-03T21:08:38.214731+00:00"
+    },
     {
       "store_number": "030349",
       "store_name": "Taco Bell",
@@ -4588,7 +4615,7 @@
   ],
   "activity_summary": {
     "added": 225,
-    "removed": 212,
+    "removed": 215,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4647,15 +4674,6 @@
       "FL"
     ],
     [
-      "023302",
-      28.340028098278022,
-      -81.59762848915307,
-      9.0,
-      "Taco Bell",
-      "Kissimmee",
-      "FL"
-    ],
-    [
       "027988",
       28.47491997799977,
       -81.28932432086913,
@@ -4701,24 +4719,6 @@
       "FL"
     ],
     [
-      "004435",
-      28.567199559370433,
-      -81.20559722185135,
-      9.0,
-      "Taco Bell",
-      "Orlando",
-      "FL"
-    ],
-    [
-      "037822",
-      28.938462838541238,
-      -81.9440854383116,
-      9.0,
-      "Taco Bell",
-      "Lady Lake",
-      "FL"
-    ],
-    [
       "034163",
       28.24668494787806,
       -81.24437438517288,
@@ -4747,6 +4747,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-08-02",
+  "last_seen_date": "2026-08-03",
   "peak_availability_pct": 1.2
 }
