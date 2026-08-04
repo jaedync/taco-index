@@ -17,12 +17,12 @@
   "first_seen_at": "2026-07-23T20:47:41.676477+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 11.52,
+    "avg": 11.54,
     "min": 10.99,
     "max": 11.99,
     "median": 11.99,
     "std_dev": 0.51,
-    "store_count": 32
+    "store_count": 33
   },
   "histogram": [
     {
@@ -31,14 +31,14 @@
     },
     {
       "bucket": "$11.99",
-      "count": 17
+      "count": 18
     }
   ],
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 11.89,
-      "store_count": 10
+      "avg_price": 11.9,
+      "store_count": 11
     }
   ],
   "nutrition": {
@@ -167,6 +167,13 @@
       "price": 11.99
     },
     {
+      "store_number": "029412",
+      "name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "price": 11.99
+    },
+    {
       "store_number": "019680",
       "name": "Taco Bell / KFC",
       "city": "Stephens City",
@@ -207,16 +214,19 @@
       "city": "Louisburg",
       "state": "NC",
       "price": 11.99
-    },
-    {
-      "store_number": "029406",
-      "name": "Taco Bell",
-      "city": "Durham",
-      "state": "NC",
-      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029412",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-08-04T21:47:49.720533+00:00"
+    },
     {
       "store_number": "029412",
       "store_name": "Taco Bell",
@@ -1179,7 +1189,7 @@
     }
   ],
   "activity_summary": {
-    "added": 64,
+    "added": 65,
     "removed": 32,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1482,6 +1492,15 @@
       "VA"
     ],
     [
+      "029412",
+      35.919901991392784,
+      -78.95752345027176,
+      11.99,
+      "Taco Bell",
+      "Durham",
+      "NC"
+    ],
+    [
       "030424",
       41.02537540476871,
       -93.79682839663474,
@@ -1510,6 +1529,6 @@
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-08-03",
+  "last_seen_date": "2026-08-04",
   "peak_availability_pct": 0.4
 }

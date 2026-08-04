@@ -83,13 +83,6 @@
       "price": 10.99
     },
     {
-      "store_number": "037110",
-      "name": "Taco Bell",
-      "city": "Kissimmee",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
       "store_number": "039587",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -123,6 +116,13 @@
       "city": "Winter Park",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "028353",
+      "name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -130,7 +130,6 @@
     "034859",
     "034809",
     "036232",
-    "037110",
     "039587",
     "023290",
     "030349",
@@ -146,6 +145,7 @@
     "022589",
     "023298",
     "042914",
+    "042924",
     "027990",
     "021472",
     "022588",
@@ -213,21 +213,41 @@
       "price": 10.99
     },
     {
-      "store_number": "042914",
+      "store_number": "042924",
       "name": "Taco Bell",
       "city": "Ocala",
       "state": "FL",
       "price": 10.99
     },
     {
-      "store_number": "023298",
+      "store_number": "042914",
       "name": "Taco Bell",
-      "city": "Orlando",
+      "city": "Ocala",
       "state": "FL",
       "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042924",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-04T21:47:14.524207+00:00"
+    },
+    {
+      "store_number": "037110",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-04T21:45:32.754639+00:00"
+    },
     {
       "store_number": "027990",
       "store_name": "Taco Bell",
@@ -1590,8 +1610,8 @@
     }
   ],
   "activity_summary": {
-    "added": 82,
-    "removed": 54,
+    "added": 83,
+    "removed": 55,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1665,15 +1685,6 @@
       10.99,
       "Taco Bell",
       "Apopka",
-      "FL"
-    ],
-    [
-      "037110",
-      28.34617964975096,
-      -81.64492094604472,
-      10.99,
-      "Taco Bell",
-      "Kissimmee",
       "FL"
     ],
     [
@@ -1806,6 +1817,15 @@
       "042914",
       29.169674531828413,
       -82.16357861460892,
+      10.99,
+      "Taco Bell",
+      "Ocala",
+      "FL"
+    ],
+    [
+      "042924",
+      29.186555502770133,
+      -82.10967413442167,
       10.99,
       "Taco Bell",
       "Ocala",

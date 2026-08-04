@@ -23,19 +23,19 @@
     "max": 1.99,
     "median": 1.99,
     "std_dev": 0.0,
-    "store_count": 31
+    "store_count": 30
   },
   "histogram": [
     {
       "bucket": "$1.99",
-      "count": 31
+      "count": 30
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 1.99,
-      "store_count": 31
+      "store_count": 30
     }
   ],
   "nutrition": {
@@ -96,6 +96,13 @@
       "price": 1.99
     },
     {
+      "store_number": "042769",
+      "name": "Taco Bell",
+      "city": "Sparta",
+      "state": "MI",
+      "price": 1.99
+    },
+    {
       "store_number": "032987",
       "name": "Taco Bell",
       "city": "Paw Paw",
@@ -115,13 +122,6 @@
       "city": "Grand Rapids",
       "state": "MI",
       "price": 1.99
-    },
-    {
-      "store_number": "032988",
-      "name": "Taco Bell",
-      "city": "Battle Creek",
-      "state": "MI",
-      "price": 1.99
     }
   ],
   "min_price_store_numbers": [
@@ -131,6 +131,7 @@
     "042604",
     "042728",
     "042870",
+    "042769",
     "032987",
     "032985",
     "042642",
@@ -139,10 +140,8 @@
     "033004",
     "033014",
     "033022",
-    "033021",
     "033001",
     "033015",
-    "032983",
     "032998",
     "033011",
     "033007",
@@ -230,6 +229,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032983",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-08-04T21:47:05.287312+00:00"
+    },
+    {
+      "store_number": "033021",
+      "store_name": "Taco Bell",
+      "city": "Cedar Springs",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-08-04T21:46:51.578921+00:00"
+    },
+    {
+      "store_number": "042769",
+      "store_name": "Taco Bell",
+      "city": "Sparta",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-08-04T21:45:25.121976+00:00"
+    },
     {
       "store_number": "033012",
       "store_name": "Taco Bell",
@@ -602,8 +631,8 @@
     }
   ],
   "activity_summary": {
-    "added": 34,
-    "removed": 3,
+    "added": 35,
+    "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -664,6 +693,15 @@
       1.99,
       "Taco Bell",
       "Edmore",
+      "MI"
+    ],
+    [
+      "042769",
+      43.160614808378504,
+      -85.72218601200493,
+      1.99,
+      "Taco Bell",
+      "Sparta",
       "MI"
     ],
     [
@@ -739,15 +777,6 @@
       "MI"
     ],
     [
-      "033021",
-      43.22036483903409,
-      -85.5639481334947,
-      1.99,
-      "Taco Bell",
-      "Cedar Springs",
-      "MI"
-    ],
-    [
       "033001",
       42.971881537968216,
       -85.77214105062558,
@@ -763,15 +792,6 @@
       1.99,
       "Taco Bell",
       "Holland",
-      "MI"
-    ],
-    [
-      "032983",
-      42.91307739875615,
-      -85.59700463713853,
-      1.99,
-      "Taco Bell",
-      "Grand Rapids",
       "MI"
     ],
     [

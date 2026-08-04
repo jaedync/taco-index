@@ -18,17 +18,17 @@
   "first_seen_at": "2026-06-18T21:25:52.078312+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 5.76,
+    "avg": 5.78,
     "min": 5.49,
     "max": 5.99,
     "median": 5.99,
     "std_dev": 0.26,
-    "store_count": 13
+    "store_count": 12
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$5.99",
@@ -56,13 +56,6 @@
       "name": "Taco Bell / KFC",
       "city": "Cypress",
       "state": "TX",
-      "price": 5.49
-    },
-    {
-      "store_number": "028510",
-      "name": "Taco Bell / KFC",
-      "city": "Lebanon",
-      "state": "KY",
       "price": 5.49
     },
     {
@@ -120,11 +113,17 @@
       "city": "Albuquerque",
       "state": "NM",
       "price": 5.99
+    },
+    {
+      "store_number": "017415",
+      "name": "Taco Bell / KFC",
+      "city": "Moriarty",
+      "state": "NM",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "035717",
-    "028510",
     "039755",
     "003881",
     "028153",
@@ -203,6 +202,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028510",
+      "store_name": "Taco Bell / KFC",
+      "city": "Lebanon",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-08-04T21:46:28.731139+00:00"
+    },
     {
       "store_number": "041398",
       "store_name": "Taco Bell",
@@ -1336,7 +1345,7 @@
   ],
   "activity_summary": {
     "added": 63,
-    "removed": 50,
+    "removed": 51,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1353,15 +1362,6 @@
       "Taco Bell / KFC",
       "Cypress",
       "TX"
-    ],
-    [
-      "028510",
-      37.559371085147504,
-      -85.27164369821548,
-      5.49,
-      "Taco Bell / KFC",
-      "Lebanon",
-      "KY"
     ],
     [
       "039755",
@@ -1464,6 +1464,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-08-03",
+  "last_seen_date": "2026-08-04",
   "peak_availability_pct": 0.4
 }

@@ -23,7 +23,7 @@
     "max": 2.89,
     "median": 2.79,
     "std_dev": 0.15,
-    "store_count": 24
+    "store_count": 25
   },
   "histogram": [
     {
@@ -44,7 +44,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$2.89",
@@ -55,7 +55,7 @@
     {
       "state": "NC",
       "avg_price": 2.75,
-      "store_count": 7
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -157,6 +157,13 @@
       "price": 2.89
     },
     {
+      "store_number": "029354",
+      "name": "Taco Bell",
+      "city": "Holly Springs",
+      "state": "NC",
+      "price": 2.79
+    },
+    {
       "store_number": "029482",
       "name": "Taco Bell",
       "city": "Pittsboro",
@@ -211,16 +218,19 @@
       "city": "Oxford",
       "state": "NC",
       "price": 2.79
-    },
-    {
-      "store_number": "029404",
-      "name": "Taco Bell",
-      "city": "Garner",
-      "state": "NC",
-      "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029354",
+      "store_name": "Taco Bell",
+      "city": "Holly Springs",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-08-04T21:46:32.720711+00:00"
+    },
     {
       "store_number": "031389",
       "store_name": "Taco Bell / KFC",
@@ -883,7 +893,7 @@
     }
   ],
   "activity_summary": {
-    "added": 45,
+    "added": 46,
     "removed": 20,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1114,6 +1124,15 @@
       "NC"
     ],
     [
+      "029354",
+      35.63581374810407,
+      -78.83095175027847,
+      2.79,
+      "Taco Bell",
+      "Holly Springs",
+      "NC"
+    ],
+    [
       "029323",
       42.32848585134205,
       -72.63313342632506,
@@ -1124,6 +1143,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-03",
+  "last_seen_date": "2026-08-04",
   "peak_availability_pct": 0.3
 }
