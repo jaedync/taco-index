@@ -19,17 +19,17 @@
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.2,
+    "avg": 9.18,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.42,
-    "store_count": 10
+    "std_dev": 0.4,
+    "store_count": 11
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$9.99",
@@ -39,8 +39,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.2,
-      "store_count": 10
+      "avg_price": 9.18,
+      "store_count": 11
     }
   ],
   "nutrition": {
@@ -66,6 +66,13 @@
       "price": 9.0
     },
     {
+      "store_number": "037110",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "030349",
       "name": "Taco Bell",
       "city": "Melbourne",
@@ -87,13 +94,6 @@
       "price": 9.0
     },
     {
-      "store_number": "027970",
-      "name": "Taco Bell",
-      "city": "Merritt Island",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "027971",
       "name": "Taco Bell",
       "city": "Cocoa Beach",
@@ -104,6 +104,13 @@
       "store_number": "027972",
       "name": "Taco Bell",
       "city": "Melbourne",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
+      "store_number": "027984",
+      "name": "Taco Bell",
+      "city": "Sanford",
       "state": "FL",
       "price": 9.0
     },
@@ -120,23 +127,17 @@
       "city": "Ocala",
       "state": "FL",
       "price": 9.99
-    },
-    {
-      "store_number": "042928",
-      "name": "Taco Bell",
-      "city": "Palm Coast",
-      "state": "FL",
-      "price": 9.99
     }
   ],
   "min_price_store_numbers": [
     "040730",
+    "037110",
     "030349",
     "027988",
     "022833",
-    "027970",
     "027971",
     "027972",
+    "027984",
     "034163"
   ],
   "priciest_stores": [
@@ -162,6 +163,13 @@
       "price": 9.0
     },
     {
+      "store_number": "027984",
+      "name": "Taco Bell",
+      "city": "Sanford",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "027972",
       "name": "Taco Bell",
       "city": "Melbourne",
@@ -172,13 +180,6 @@
       "store_number": "027971",
       "name": "Taco Bell",
       "city": "Cocoa Beach",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "027970",
-      "name": "Taco Bell",
-      "city": "Merritt Island",
       "state": "FL",
       "price": 9.0
     },
@@ -204,14 +205,44 @@
       "price": 9.0
     },
     {
-      "store_number": "040730",
+      "store_number": "037110",
       "name": "Taco Bell",
-      "city": "Edgewater",
+      "city": "Kissimmee",
       "state": "FL",
       "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027984",
+      "store_name": "Taco Bell",
+      "city": "Sanford",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-08-05T21:17:05.886953+00:00"
+    },
+    {
+      "store_number": "027970",
+      "store_name": "Taco Bell",
+      "city": "Merritt Island",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-08-05T21:15:59.398051+00:00"
+    },
+    {
+      "store_number": "037110",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-08-05T21:14:37.619708+00:00"
+    },
     {
       "store_number": "037822",
       "store_name": "Taco Bell",
@@ -4614,8 +4645,8 @@
     }
   ],
   "activity_summary": {
-    "added": 225,
-    "removed": 215,
+    "added": 227,
+    "removed": 216,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4665,6 +4696,15 @@
       "FL"
     ],
     [
+      "037110",
+      28.34617964975096,
+      -81.64492094604472,
+      9.0,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
+    [
       "030349",
       28.231152164188327,
       -80.70049432232909,
@@ -4692,15 +4732,6 @@
       "FL"
     ],
     [
-      "027970",
-      28.36376816960354,
-      -80.69987878203392,
-      9.0,
-      "Taco Bell",
-      "Merritt Island",
-      "FL"
-    ],
-    [
       "027971",
       28.352087603671087,
       -80.60836730221422,
@@ -4716,6 +4747,15 @@
       9.0,
       "Taco Bell",
       "Melbourne",
+      "FL"
+    ],
+    [
+      "027984",
+      28.8003438222444,
+      -81.3376676291773,
+      9.0,
+      "Taco Bell",
+      "Sanford",
       "FL"
     ],
     [
@@ -4747,6 +4787,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-08-04",
+  "last_seen_date": "2026-08-05",
   "peak_availability_pct": 1.2
 }

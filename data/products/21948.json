@@ -24,12 +24,12 @@
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 23
+    "store_count": 22
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 23
+      "count": 22
     }
   ],
   "state_prices": [
@@ -97,13 +97,6 @@
       "price": 11.0
     },
     {
-      "store_number": "032487",
-      "name": "Taco Bell",
-      "city": "Chesterton",
-      "state": "IN",
-      "price": 11.0
-    },
-    {
       "store_number": "030402",
       "name": "Taco Bell",
       "city": "Cary",
@@ -123,6 +116,13 @@
       "city": "Michigan City",
       "state": "IN",
       "price": 11.0
+    },
+    {
+      "store_number": "032098",
+      "name": "Taco Bell",
+      "city": "Waukegan",
+      "state": "IL",
+      "price": 11.0
     }
   ],
   "min_price_store_numbers": [
@@ -132,7 +132,6 @@
     "042001",
     "026756",
     "026740",
-    "032487",
     "030402",
     "027903",
     "032490",
@@ -223,6 +222,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032487",
+      "store_name": "Taco Bell",
+      "city": "Chesterton",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-08-05T21:15:30.167086+00:00"
+    },
     {
       "store_number": "002459",
       "store_name": "Taco Bell",
@@ -1116,7 +1125,7 @@
   ],
   "activity_summary": {
     "added": 56,
-    "removed": 33,
+    "removed": 34,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1209,15 +1218,6 @@
       "Taco Bell",
       "Downers Grove",
       "IL"
-    ],
-    [
-      "032487",
-      41.617204933585256,
-      -87.04461604356766,
-      11.0,
-      "Taco Bell",
-      "Chesterton",
-      "IN"
     ],
     [
       "030402",
@@ -1365,6 +1365,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-08-04",
+  "last_seen_date": "2026-08-05",
   "peak_availability_pct": 0.3
 }

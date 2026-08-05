@@ -20,10 +20,10 @@
   "price_stats": {
     "avg": 4.63,
     "min": 4.0,
-    "max": 12.99,
+    "max": 12.0,
     "median": 4.0,
     "std_dev": 1.32,
-    "store_count": 7137
+    "store_count": 7138
   },
   "histogram": [
     {
@@ -100,7 +100,7 @@
     },
     {
       "bucket": "$6.00",
-      "count": 279
+      "count": 281
     },
     {
       "bucket": "$6.39",
@@ -140,7 +140,11 @@
     },
     {
       "bucket": "$9.99",
-      "count": 25
+      "count": 24
+    },
+    {
+      "bucket": "$10.00",
+      "count": 1
     },
     {
       "bucket": "$10.93",
@@ -156,10 +160,6 @@
     },
     {
       "bucket": "$12.00",
-      "count": 1
-    },
-    {
-      "bucket": "$12.99",
       "count": 1
     }
   ],
@@ -177,11 +177,11 @@
     {
       "state": "WA",
       "avg_price": 5.94,
-      "store_count": 126
+      "store_count": 127
     },
     {
       "state": "FL",
-      "avg_price": 5.75,
+      "avg_price": 5.74,
       "store_count": 432
     },
     {
@@ -210,11 +210,6 @@
       "store_count": 110
     },
     {
-      "state": "NY",
-      "avg_price": 5.0,
-      "store_count": 225
-    },
-    {
       "state": "HI",
       "avg_price": 5.0,
       "store_count": 24
@@ -223,6 +218,11 @@
       "state": "AK",
       "avg_price": 5.0,
       "store_count": 14
+    },
+    {
+      "state": "NY",
+      "avg_price": 4.99,
+      "store_count": 225
     },
     {
       "state": "KS",
@@ -261,8 +261,8 @@
     },
     {
       "state": "WI",
-      "avg_price": 4.31,
-      "store_count": 134
+      "avg_price": 4.3,
+      "store_count": 135
     },
     {
       "state": "OH",
@@ -277,7 +277,7 @@
     {
       "state": "TN",
       "avg_price": 4.23,
-      "store_count": 219
+      "store_count": 218
     },
     {
       "state": "DC",
@@ -327,7 +327,7 @@
     {
       "state": "VA",
       "avg_price": 4.03,
-      "store_count": 183
+      "store_count": 184
     },
     {
       "state": "NE",
@@ -357,7 +357,7 @@
     {
       "state": "MD",
       "avg_price": 4.0,
-      "store_count": 85
+      "store_count": 84
     },
     {
       "state": "OK",
@@ -2275,7 +2275,6 @@
     "042691",
     "036190",
     "030893",
-    "026044",
     "032987",
     "033037",
     "032758",
@@ -2874,7 +2873,6 @@
     "037056",
     "001089",
     "041224",
-    "032670",
     "033522",
     "004006",
     "039592",
@@ -5607,6 +5605,7 @@
     "040443",
     "040405",
     "032349",
+    "034354",
     "032164",
     "036215",
     "032662",
@@ -5768,16 +5767,10 @@
     "031268",
     "041807",
     "040080",
-    "039747"
+    "039747",
+    "039778"
   ],
   "priciest_stores": [
-    {
-      "store_number": "036291",
-      "name": "Taco Bell Cantina",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "price": 12.99
-    },
     {
       "store_number": "041429",
       "name": "Taco Bell",
@@ -5840,9 +5833,86 @@
       "city": "Chicago",
       "state": "IL",
       "price": 11.99
+    },
+    {
+      "store_number": "041823",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042172",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-08-05T21:17:24.094878+00:00"
+    },
+    {
+      "store_number": "034354",
+      "store_name": "Taco Bell Cantina",
+      "city": "Madison",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-08-05T21:17:21.972946+00:00"
+    },
+    {
+      "store_number": "031316",
+      "store_name": "Taco Bell",
+      "city": "Tacoma",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.0,
+      "observed_at": "2026-08-05T21:16:19.228769+00:00"
+    },
+    {
+      "store_number": "026044",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-08-05T21:15:21.912173+00:00"
+    },
+    {
+      "store_number": "039533",
+      "store_name": "Taco Bell",
+      "city": "Staten Island",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.0,
+      "observed_at": "2026-08-05T21:15:02.737333+00:00"
+    },
+    {
+      "store_number": "036291",
+      "store_name": "Taco Bell Cantina",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "change_type": "price_change",
+      "old_price": 12.99,
+      "new_price": 10.0,
+      "observed_at": "2026-08-05T21:14:19.844209+00:00"
+    },
+    {
+      "store_number": "039778",
+      "store_name": "Taco Bell",
+      "city": "Lynchburg",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-08-05T21:14:16.595749+00:00"
+    },
     {
       "store_number": "039747",
       "store_name": "Taco Bell",
@@ -12695,9 +12765,9 @@
     }
   ],
   "activity_summary": {
-    "added": 361,
-    "removed": 287,
-    "price_changed": 37,
+    "added": 365,
+    "removed": 289,
+    "price_changed": 38,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 0,
@@ -28805,15 +28875,6 @@
       "AR"
     ],
     [
-      "026044",
-      35.75195423417623,
-      -83.9964301791224,
-      4.0,
-      "Taco Bell",
-      "Maryville",
-      "TN"
-    ],
-    [
       "032987",
       42.20922238068181,
       -85.89087433979921,
@@ -34194,15 +34255,6 @@
       "Taco Bell",
       "Norcross",
       "GA"
-    ],
-    [
-      "032670",
-      39.22112212783169,
-      -76.61346655871752,
-      4.0,
-      "Taco Bell / Long John Silver's",
-      "Brooklyn",
-      "MD"
     ],
     [
       "033522",
@@ -58793,6 +58845,15 @@
       "OH"
     ],
     [
+      "034354",
+      43.075075570577575,
+      -89.39426372023775,
+      4.0,
+      "Taco Bell Cantina",
+      "Madison",
+      "WI"
+    ],
+    [
       "032164",
       36.657729906368175,
       -76.22596831229023,
@@ -60248,6 +60309,15 @@
       4.0,
       "Taco Bell",
       "Hillsville",
+      "VA"
+    ],
+    [
+      "039778",
+      37.3651,
+      -79.1785,
+      4.0,
+      "Taco Bell",
+      "Lynchburg",
       "VA"
     ],
     [
@@ -68846,6 +68916,15 @@
       "CA"
     ],
     [
+      "031316",
+      47.25504338858422,
+      -122.4739115094394,
+      6.0,
+      "Taco Bell",
+      "Tacoma",
+      "WA"
+    ],
+    [
       "024469",
       38.42286831291317,
       -96.21750672148545,
@@ -69978,6 +70057,15 @@
       "Taco Bell",
       "La Mirada",
       "CA"
+    ],
+    [
+      "039533",
+      40.61588913813116,
+      -74.07188228344974,
+      6.0,
+      "Taco Bell",
+      "Staten Island",
+      "NY"
     ],
     [
       "034930",
@@ -76757,13 +76845,13 @@
       "NY"
     ],
     [
-      "042172",
-      40.8033689759,
-      -73.9669812899,
-      9.99,
-      "Taco Bell",
-      "New York",
-      "NY"
+      "036291",
+      26.122362,
+      -80.105114,
+      10.0,
+      "Taco Bell Cantina",
+      "Fort Lauderdale",
+      "FL"
     ],
     [
       "040658",
@@ -76953,15 +77041,6 @@
       "Taco Bell",
       "Camp Hill",
       "PA"
-    ],
-    [
-      "036291",
-      26.122362,
-      -80.105114,
-      12.99,
-      "Taco Bell Cantina",
-      "Fort Lauderdale",
-      "FL"
     ]
   ],
   "retired_at": null,

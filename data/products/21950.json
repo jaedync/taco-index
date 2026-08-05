@@ -23,19 +23,19 @@
     "max": 1.99,
     "median": 1.99,
     "std_dev": 0.0,
-    "store_count": 28
+    "store_count": 29
   },
   "histogram": [
     {
       "bucket": "$1.99",
-      "count": 28
+      "count": 29
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 1.99,
-      "store_count": 28
+      "store_count": 29
     }
   ],
   "nutrition": {
@@ -142,12 +142,13 @@
     "033010",
     "042634",
     "033019",
+    "032984",
     "032991",
-    "032992",
     "033009",
     "033027",
     "033016",
     "033005",
+    "033025",
     "033026",
     "033000",
     "033013",
@@ -191,6 +192,13 @@
       "price": 1.99
     },
     {
+      "store_number": "033025",
+      "name": "Taco Bell",
+      "city": "Allegan",
+      "state": "MI",
+      "price": 1.99
+    },
+    {
       "store_number": "033005",
       "name": "Taco Bell",
       "city": "Wyoming",
@@ -217,16 +225,39 @@
       "city": "Holland",
       "state": "MI",
       "price": 1.99
-    },
-    {
-      "store_number": "032992",
-      "name": "Taco Bell",
-      "city": "Wyoming",
-      "state": "MI",
-      "price": 1.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033025",
+      "store_name": "Taco Bell",
+      "city": "Allegan",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-08-05T21:16:48.229402+00:00"
+    },
+    {
+      "store_number": "032992",
+      "store_name": "Taco Bell",
+      "city": "Wyoming",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-08-05T21:16:30.433978+00:00"
+    },
+    {
+      "store_number": "032984",
+      "store_name": "Taco Bell",
+      "city": "Muskegon",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-08-05T21:16:19.543376+00:00"
+    },
     {
       "store_number": "032984",
       "store_name": "Taco Bell",
@@ -729,8 +760,8 @@
     }
   ],
   "activity_summary": {
-    "added": 39,
-    "removed": 11,
+    "added": 41,
+    "removed": 12,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -893,21 +924,21 @@
       "MI"
     ],
     [
+      "032984",
+      43.20027462493129,
+      -86.26270034912523,
+      1.99,
+      "Taco Bell",
+      "Muskegon",
+      "MI"
+    ],
+    [
       "032991",
       42.79655284205683,
       -86.0772706929193,
       1.99,
       "Taco Bell",
       "Holland",
-      "MI"
-    ],
-    [
-      "032992",
-      42.88363095728295,
-      -85.66602269641209,
-      1.99,
-      "Taco Bell",
-      "Wyoming",
       "MI"
     ],
     [
@@ -944,6 +975,15 @@
       1.99,
       "Taco Bell",
       "Wyoming",
+      "MI"
+    ],
+    [
+      "033025",
+      42.531185982206075,
+      -85.87127798796246,
+      1.99,
+      "Taco Bell",
+      "Allegan",
       "MI"
     ],
     [
