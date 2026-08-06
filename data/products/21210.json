@@ -20,15 +20,15 @@
   "price_stats": {
     "avg": 4.63,
     "min": 4.0,
-    "max": 12.0,
+    "max": 12.99,
     "median": 4.0,
     "std_dev": 1.32,
-    "store_count": 7138
+    "store_count": 7139
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5280
+      "count": 5281
     },
     {
       "bucket": "$4.19",
@@ -156,11 +156,15 @@
     },
     {
       "bucket": "$11.99",
-      "count": 12
+      "count": 10
     },
     {
       "bucket": "$12.00",
       "count": 1
+    },
+    {
+      "bucket": "$12.99",
+      "count": 2
     }
   ],
   "state_prices": [
@@ -206,8 +210,8 @@
     },
     {
       "state": "SC",
-      "avg_price": 5.03,
-      "store_count": 110
+      "avg_price": 5.04,
+      "store_count": 109
     },
     {
       "state": "HI",
@@ -241,7 +245,7 @@
     },
     {
       "state": "IL",
-      "avg_price": 4.54,
+      "avg_price": 4.55,
       "store_count": 272
     },
     {
@@ -277,7 +281,7 @@
     {
       "state": "TN",
       "avg_price": 4.23,
-      "store_count": 218
+      "store_count": 219
     },
     {
       "state": "DC",
@@ -327,7 +331,7 @@
     {
       "state": "VA",
       "avg_price": 4.03,
-      "store_count": 184
+      "store_count": 185
     },
     {
       "state": "NE",
@@ -2052,7 +2056,6 @@
     "029518",
     "003824",
     "028467",
-    "031437",
     "030397",
     "036545",
     "039046",
@@ -2275,6 +2278,7 @@
     "042691",
     "036190",
     "030893",
+    "026044",
     "032987",
     "033037",
     "032758",
@@ -5768,29 +5772,30 @@
     "041807",
     "040080",
     "039747",
-    "039778"
+    "039778",
+    "039039"
   ],
   "priciest_stores": [
-    {
-      "store_number": "041429",
-      "name": "Taco Bell",
-      "city": "Camp Hill",
-      "state": "PA",
-      "price": 12.0
-    },
     {
       "store_number": "033484",
       "name": "Taco Bell Cantina",
       "city": "Chicago",
       "state": "IL",
-      "price": 11.99
+      "price": 12.99
     },
     {
       "store_number": "037107",
       "name": "Taco Bell",
       "city": "Chicago",
       "state": "IL",
-      "price": 11.99
+      "price": 12.99
+    },
+    {
+      "store_number": "041429",
+      "name": "Taco Bell",
+      "city": "Camp Hill",
+      "state": "PA",
+      "price": 12.0
     },
     {
       "store_number": "031780",
@@ -5843,6 +5848,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033484",
+      "store_name": "Taco Bell Cantina",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 11.99,
+      "new_price": 12.99,
+      "observed_at": "2026-08-06T20:45:05.279552+00:00"
+    },
+    {
+      "store_number": "037107",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 11.99,
+      "new_price": 12.99,
+      "observed_at": "2026-08-06T20:45:05.082355+00:00"
+    },
+    {
+      "store_number": "039039",
+      "store_name": "Taco Bell",
+      "city": "Dumfries",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-08-06T20:44:00.641099+00:00"
+    },
+    {
+      "store_number": "026044",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-08-06T20:40:52.738128+00:00"
+    },
+    {
+      "store_number": "031437",
+      "store_name": "Taco Bell",
+      "city": "Summerville",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-08-06T20:40:41.847569+00:00"
+    },
     {
       "store_number": "042172",
       "store_name": "Taco Bell",
@@ -12765,9 +12820,9 @@
     }
   ],
   "activity_summary": {
-    "added": 365,
-    "removed": 289,
-    "price_changed": 38,
+    "added": 367,
+    "removed": 290,
+    "price_changed": 40,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 0,
@@ -26868,15 +26923,6 @@
       "CA"
     ],
     [
-      "031437",
-      32.99673031624207,
-      -80.18525809049606,
-      4.0,
-      "Taco Bell",
-      "Summerville",
-      "SC"
-    ],
-    [
       "030397",
       35.39124740393368,
       -97.7047650423628,
@@ -28873,6 +28919,15 @@
       "Taco Bell",
       "Sherwood",
       "AR"
+    ],
+    [
+      "026044",
+      35.75195423417623,
+      -83.9964301791224,
+      4.0,
+      "Taco Bell",
+      "Maryville",
+      "TN"
     ],
     [
       "032987",
@@ -60321,6 +60376,15 @@
       "VA"
     ],
     [
+      "039039",
+      38.57528819303859,
+      -77.3156701543584,
+      4.0,
+      "Taco Bell",
+      "Dumfries",
+      "VA"
+    ],
+    [
       "040310",
       38.82654633392733,
       -104.7287764914666,
@@ -77016,10 +77080,19 @@
       "IL"
     ],
     [
+      "041429",
+      40.2234306609075,
+      -76.93220577093085,
+      12.0,
+      "Taco Bell",
+      "Camp Hill",
+      "PA"
+    ],
+    [
       "037107",
       41.885381169916705,
       -87.62653447509841,
-      11.99,
+      12.99,
       "Taco Bell",
       "Chicago",
       "IL"
@@ -77028,19 +77101,10 @@
       "033484",
       41.892394452962705,
       -87.62221500277525,
-      11.99,
+      12.99,
       "Taco Bell Cantina",
       "Chicago",
       "IL"
-    ],
-    [
-      "041429",
-      40.2234306609075,
-      -76.93220577093085,
-      12.0,
-      "Taco Bell",
-      "Camp Hill",
-      "PA"
     ]
   ],
   "retired_at": null,

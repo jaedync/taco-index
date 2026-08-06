@@ -13,14 +13,14 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.2,
   "price_stats": {
     "avg": 3.97,
     "min": 3.49,
     "max": 4.99,
     "median": 3.99,
-    "std_dev": 0.28,
-    "store_count": 20
+    "std_dev": 0.3,
+    "store_count": 17
   },
   "histogram": [
     {
@@ -29,11 +29,11 @@
     },
     {
       "bucket": "$3.79",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$3.99",
-      "count": 13
+      "count": 11
     },
     {
       "bucket": "$4.99",
@@ -43,13 +43,13 @@
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.06,
-      "store_count": 14
+      "avg_price": 4.07,
+      "store_count": 12
     },
     {
       "state": "TX",
-      "avg_price": 3.74,
-      "store_count": 6
+      "avg_price": 3.73,
+      "store_count": 5
     }
   ],
   "nutrition": null,
@@ -79,13 +79,6 @@
       "store_number": "002981",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Watauga",
-      "state": "TX",
-      "price": 3.79
-    },
-    {
-      "store_number": "001089",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Dallas",
       "state": "TX",
       "price": 3.79
     },
@@ -123,6 +116,13 @@
       "city": "Temecula",
       "state": "CA",
       "price": 3.99
+    },
+    {
+      "store_number": "041611",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "El Cajon",
+      "state": "CA",
+      "price": 3.99
     }
   ],
   "min_price_store_numbers": [
@@ -147,13 +147,6 @@
       "store_number": "039851",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Lake Forest",
-      "state": "CA",
-      "price": 3.99
-    },
-    {
-      "store_number": "041597",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "San Diego",
       "state": "CA",
       "price": 3.99
     },
@@ -193,14 +186,51 @@
       "price": 3.99
     },
     {
-      "store_number": "039852",
+      "store_number": "041617",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Hemet",
+      "city": "Temecula",
+      "state": "CA",
+      "price": 3.99
+    },
+    {
+      "store_number": "039804",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Orange",
       "state": "CA",
       "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041597",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "San Diego",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-08-06T20:44:35.953924+00:00"
+    },
+    {
+      "store_number": "039852",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Hemet",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-08-06T20:42:06.197207+00:00"
+    },
+    {
+      "store_number": "001089",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Dallas",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.79,
+      "new_price": null,
+      "observed_at": "2026-08-06T20:41:26.551545+00:00"
+    },
     {
       "store_number": "039833",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -574,7 +604,7 @@
   ],
   "activity_summary": {
     "added": 12,
-    "removed": 25,
+    "removed": 28,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -617,15 +647,6 @@
       3.79,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Watauga",
-      "TX"
-    ],
-    [
-      "001089",
-      32.83626582002558,
-      -96.77328680457322,
-      3.79,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Dallas",
       "TX"
     ],
     [
@@ -674,15 +695,6 @@
       "CA"
     ],
     [
-      "039852",
-      33.746993553105185,
-      -117.00733342770036,
-      3.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Hemet",
-      "CA"
-    ],
-    [
       "041611",
       32.802124703776066,
       -117.00442847203766,
@@ -725,15 +737,6 @@
       3.99,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Mira Loma",
-      "CA"
-    ],
-    [
-      "041597",
-      32.97991222759036,
-      -117.07994344047877,
-      3.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "San Diego",
       "CA"
     ],
     [
