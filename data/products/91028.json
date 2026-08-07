@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.06,
+    "avg": 6.04,
     "min": 5.79,
     "max": 6.29,
     "median": 5.99,
-    "std_dev": 0.15,
-    "store_count": 13
+    "std_dev": 0.14,
+    "store_count": 12
   },
   "histogram": [
     {
@@ -37,16 +37,10 @@
     },
     {
       "bucket": "$6.29",
-      "count": 3
+      "count": 2
     }
   ],
-  "state_prices": [
-    {
-      "state": "AL",
-      "avg_price": 6.17,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": {
     "calories": 484.0498,
     "total_fat_g": 25.8551,
@@ -152,13 +146,6 @@
       "price": 6.29
     },
     {
-      "store_number": "042827",
-      "name": "Taco Bell",
-      "city": "Foley",
-      "state": "AL",
-      "price": 6.29
-    },
-    {
       "store_number": "042830",
       "name": "Taco Bell",
       "city": "Pensacola",
@@ -206,9 +193,26 @@
       "city": "Blue Ridge",
       "state": "GA",
       "price": 5.99
+    },
+    {
+      "store_number": "043137",
+      "name": "Taco Bell",
+      "city": "Fort Payne",
+      "state": "AL",
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042827",
+      "store_name": "Taco Bell",
+      "city": "Foley",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 6.29,
+      "new_price": null,
+      "observed_at": "2026-08-07T21:24:34.812372+00:00"
+    },
     {
       "store_number": "034026",
       "store_name": "Taco Bell",
@@ -16462,7 +16466,7 @@
   ],
   "activity_summary": {
     "added": 647,
-    "removed": 633,
+    "removed": 634,
     "price_changed": 345,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16562,15 +16566,6 @@
       "FL"
     ],
     [
-      "042827",
-      30.393152,
-      -87.681808,
-      6.29,
-      "Taco Bell",
-      "Foley",
-      "AL"
-    ],
-    [
       "042822",
       30.88413351651131,
       -87.78827457572334,
@@ -16590,6 +16585,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-06",
+  "last_seen_date": "2026-08-07",
   "peak_availability_pct": 5.9
 }

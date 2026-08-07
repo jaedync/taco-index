@@ -24,12 +24,12 @@
     "max": 8.99,
     "median": 8.99,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -49,13 +49,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "018366",
-      "name": "Taco Bell",
-      "city": "Troy",
-      "state": "IL",
-      "price": 8.99
-    },
-    {
       "store_number": "029678",
       "name": "Taco Bell",
       "city": "Belleville",
@@ -64,7 +57,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "018366",
     "029678"
   ],
   "priciest_stores": [
@@ -74,16 +66,19 @@
       "city": "Belleville",
       "state": "IL",
       "price": 8.99
-    },
-    {
-      "store_number": "018366",
-      "name": "Taco Bell",
-      "city": "Troy",
-      "state": "IL",
-      "price": 8.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "018366",
+      "store_name": "Taco Bell",
+      "city": "Troy",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-08-07T21:24:54.482632+00:00"
+    },
     {
       "store_number": "029673",
       "store_name": "Taco Bell",
@@ -2127,7 +2122,7 @@
   ],
   "activity_summary": {
     "added": 103,
-    "removed": 101,
+    "removed": 102,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2143,15 +2138,6 @@
     }
   ],
   "map_data": [
-    [
-      "018366",
-      38.73344817763037,
-      -89.91594336932394,
-      8.99,
-      "Taco Bell",
-      "Troy",
-      "IL"
-    ],
     [
       "029678",
       38.51693626584684,

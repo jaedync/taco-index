@@ -14,19 +14,19 @@
   "peak_30d_pct": 91.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-08-04T21:44:38.331133+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
     "avg": 1.0,
     "min": 1.0,
     "max": 1.0,
     "median": 1.0,
     "std_dev": 0.0,
-    "store_count": 1
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$1.00",
-      "count": 1
+      "count": 4
     }
   ],
   "state_prices": [],
@@ -46,26 +46,101 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "039760",
-      "name": "Taco Bell / Pizza Hut",
-      "city": "Roanoke",
-      "state": "VA",
+      "store_number": "041326",
+      "name": "Taco Bell",
+      "city": "Watertown",
+      "state": "NY",
       "price": 1.0
-    }
-  ],
-  "min_price_store_numbers": [
-    "039760"
-  ],
-  "priciest_stores": [
+    },
+    {
+      "store_number": "037648",
+      "name": "Taco Bell",
+      "city": "Gilbert",
+      "state": "AZ",
+      "price": 1.0
+    },
     {
       "store_number": "039760",
       "name": "Taco Bell / Pizza Hut",
       "city": "Roanoke",
       "state": "VA",
       "price": 1.0
+    },
+    {
+      "store_number": "030422",
+      "name": "Taco Bell",
+      "city": "West Des Moines",
+      "state": "IA",
+      "price": 1.0
+    }
+  ],
+  "min_price_store_numbers": [
+    "041326",
+    "037648",
+    "039760",
+    "030422"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "030422",
+      "name": "Taco Bell",
+      "city": "West Des Moines",
+      "state": "IA",
+      "price": 1.0
+    },
+    {
+      "store_number": "039760",
+      "name": "Taco Bell / Pizza Hut",
+      "city": "Roanoke",
+      "state": "VA",
+      "price": 1.0
+    },
+    {
+      "store_number": "037648",
+      "name": "Taco Bell",
+      "city": "Gilbert",
+      "state": "AZ",
+      "price": 1.0
+    },
+    {
+      "store_number": "041326",
+      "name": "Taco Bell",
+      "city": "Watertown",
+      "state": "NY",
+      "price": 1.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030422",
+      "store_name": "Taco Bell",
+      "city": "West Des Moines",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-08-07T21:26:36.497937+00:00"
+    },
+    {
+      "store_number": "037648",
+      "store_name": "Taco Bell",
+      "city": "Gilbert",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-08-07T21:24:31.456938+00:00"
+    },
+    {
+      "store_number": "041326",
+      "store_name": "Taco Bell",
+      "city": "Watertown",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-08-07T21:23:14.894834+00:00"
+    },
     {
       "store_number": "039760",
       "store_name": "Taco Bell / Pizza Hut",
@@ -151808,7 +151883,7 @@
     }
   ],
   "activity_summary": {
-    "added": 7588,
+    "added": 7591,
     "removed": 7586,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -151819,6 +151894,24 @@
   "combo_groups": [],
   "map_data": [
     [
+      "041326",
+      43.97271,
+      -75.9032,
+      1.0,
+      "Taco Bell",
+      "Watertown",
+      "NY"
+    ],
+    [
+      "037648",
+      33.30663677765938,
+      -111.70103464556658,
+      1.0,
+      "Taco Bell",
+      "Gilbert",
+      "AZ"
+    ],
+    [
       "039760",
       37.22278688760831,
       -79.96769534622089,
@@ -151826,6 +151919,15 @@
       "Taco Bell / Pizza Hut",
       "Roanoke",
       "VA"
+    ],
+    [
+      "030422",
+      41.59545871222091,
+      -93.73669266700745,
+      1.0,
+      "Taco Bell",
+      "West Des Moines",
+      "IA"
     ]
   ],
   "retired_at": null,
