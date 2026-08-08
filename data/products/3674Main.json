@@ -11,29 +11,25 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0268,
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 3.98,
-    "min": 3.49,
+    "avg": 4.02,
+    "min": 3.79,
     "max": 4.99,
     "median": 3.99,
     "std_dev": 0.3,
-    "store_count": 16
+    "store_count": 13
   },
   "histogram": [
-    {
-      "bucket": "$3.49",
-      "count": 1
-    },
     {
       "bucket": "$3.79",
       "count": 3
     },
     {
       "bucket": "$3.99",
-      "count": 11
+      "count": 9
     },
     {
       "bucket": "$4.99",
@@ -43,19 +39,12 @@
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.07,
-      "store_count": 12
+      "avg_price": 4.09,
+      "store_count": 10
     }
   ],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "022811",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Spring",
-      "state": "TX",
-      "price": 3.49
-    },
     {
       "store_number": "021176",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -81,13 +70,6 @@
       "store_number": "039835",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Rancho Cucamonga",
-      "state": "CA",
-      "price": 3.99
-    },
-    {
-      "store_number": "039811",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Palmdale",
       "state": "CA",
       "price": 3.99
     },
@@ -118,10 +100,26 @@
       "city": "Simi Valley",
       "state": "CA",
       "price": 3.99
+    },
+    {
+      "store_number": "039798",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "La Canada Flintridge",
+      "state": "CA",
+      "price": 3.99
+    },
+    {
+      "store_number": "039834",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mira Loma",
+      "state": "CA",
+      "price": 3.99
     }
   ],
   "min_price_store_numbers": [
-    "022811"
+    "021176",
+    "002981",
+    "027669"
   ],
   "priciest_stores": [
     {
@@ -149,13 +147,6 @@
       "store_number": "039834",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Mira Loma",
-      "state": "CA",
-      "price": 3.99
-    },
-    {
-      "store_number": "039841",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Riverside",
       "state": "CA",
       "price": 3.99
     },
@@ -193,9 +184,46 @@
       "city": "Orange",
       "state": "CA",
       "price": 3.99
+    },
+    {
+      "store_number": "039835",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Rancho Cucamonga",
+      "state": "CA",
+      "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039841",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Riverside",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-08-08T20:44:35.503732+00:00"
+    },
+    {
+      "store_number": "039811",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Palmdale",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-08-08T20:43:19.556876+00:00"
+    },
+    {
+      "store_number": "022811",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Spring",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-08-08T20:42:11.725975+00:00"
+    },
     {
       "store_number": "002851",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -609,7 +637,7 @@
   ],
   "activity_summary": {
     "added": 12,
-    "removed": 29,
+    "removed": 32,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -618,15 +646,6 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
-    [
-      "022811",
-      30.075174271564272,
-      -95.51512733101845,
-      3.49,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Spring",
-      "TX"
-    ],
     [
       "021176",
       30.074328114350713,
@@ -661,15 +680,6 @@
       3.99,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Rancho Cucamonga",
-      "CA"
-    ],
-    [
-      "039811",
-      34.60209988736434,
-      -118.14504776896683,
-      3.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Palmdale",
       "CA"
     ],
     [
@@ -715,15 +725,6 @@
       3.99,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "La Canada Flintridge",
-      "CA"
-    ],
-    [
-      "039841",
-      33.97529500533722,
-      -117.34255380933973,
-      3.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Riverside",
       "CA"
     ],
     [

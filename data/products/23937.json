@@ -21,8 +21,8 @@
     "min": 5.49,
     "max": 7.29,
     "median": 5.99,
-    "std_dev": 0.36,
-    "store_count": 31
+    "std_dev": 0.37,
+    "store_count": 29
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 18
+      "count": 16
     },
     {
       "bucket": "$6.19",
@@ -45,8 +45,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 5.93,
-      "store_count": 9
+      "avg_price": 5.92,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -198,13 +198,6 @@
       "price": 5.99
     },
     {
-      "store_number": "029411",
-      "name": "Taco Bell",
-      "city": "Benson",
-      "state": "NC",
-      "price": 5.99
-    },
-    {
       "store_number": "029402",
       "name": "Taco Bell",
       "city": "Creedmoor",
@@ -217,9 +210,36 @@
       "city": "Moriarty",
       "state": "NM",
       "price": 5.99
+    },
+    {
+      "store_number": "041399",
+      "name": "Taco Bell",
+      "city": "Louisburg",
+      "state": "NC",
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029411",
+      "store_name": "Taco Bell",
+      "city": "Benson",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-08-08T20:44:41.534650+00:00"
+    },
+    {
+      "store_number": "029404",
+      "store_name": "Taco Bell",
+      "city": "Garner",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-08-08T20:43:41.718563+00:00"
+    },
     {
       "store_number": "029412",
       "store_name": "Taco Bell",
@@ -1213,7 +1233,7 @@
   ],
   "activity_summary": {
     "added": 65,
-    "removed": 34,
+    "removed": 36,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1358,15 +1378,6 @@
       "NM"
     ],
     [
-      "029404",
-      35.60550043842093,
-      -78.56779754161835,
-      5.99,
-      "Taco Bell",
-      "Garner",
-      "NC"
-    ],
-    [
       "020974",
       38.33900959254854,
       -77.0779993920587,
@@ -1427,15 +1438,6 @@
       5.99,
       "Taco Bell",
       "Creedmoor",
-      "NC"
-    ],
-    [
-      "029411",
-      35.51703677474721,
-      -78.56191411658494,
-      5.99,
-      "Taco Bell",
-      "Benson",
       "NC"
     ],
     [
@@ -1503,6 +1505,6 @@
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-08-07",
+  "last_seen_date": "2026-08-08",
   "peak_availability_pct": 0.4
 }
