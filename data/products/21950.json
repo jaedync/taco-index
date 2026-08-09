@@ -23,19 +23,19 @@
     "max": 1.99,
     "median": 1.99,
     "std_dev": 0.0,
-    "store_count": 19
+    "store_count": 15
   },
   "histogram": [
     {
       "bucket": "$1.99",
-      "count": 19
+      "count": 15
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 1.99,
-      "store_count": 19
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -68,13 +68,6 @@
       "price": 1.99
     },
     {
-      "store_number": "042751",
-      "name": "Taco Bell",
-      "city": "Hudsonville",
-      "state": "MI",
-      "price": 1.99
-    },
-    {
       "store_number": "042768",
       "name": "Taco Bell",
       "city": "Howard City",
@@ -85,13 +78,6 @@
       "store_number": "042748",
       "name": "Taco Bell",
       "city": "Lakeview",
-      "state": "MI",
-      "price": 1.99
-    },
-    {
-      "store_number": "032997",
-      "name": "Taco Bell",
-      "city": "Byron Center",
       "state": "MI",
       "price": 1.99
     },
@@ -117,9 +103,23 @@
       "price": 1.99
     },
     {
-      "store_number": "033010",
+      "store_number": "042634",
       "name": "Taco Bell",
-      "city": "Kalamazoo",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "price": 1.99
+    },
+    {
+      "store_number": "032984",
+      "name": "Taco Bell",
+      "city": "Muskegon",
+      "state": "MI",
+      "price": 1.99
+    },
+    {
+      "store_number": "033009",
+      "name": "Taco Bell",
+      "city": "Holland",
       "state": "MI",
       "price": 1.99
     }
@@ -127,14 +127,11 @@
   "min_price_store_numbers": [
     "034828",
     "036418",
-    "042751",
     "042768",
     "042748",
-    "032997",
     "032986",
     "033044",
     "042639",
-    "033010",
     "042634",
     "032984",
     "033009",
@@ -142,21 +139,13 @@
     "033016",
     "033026",
     "033000",
-    "033013",
-    "040369"
+    "033043"
   ],
   "priciest_stores": [
     {
-      "store_number": "040369",
+      "store_number": "033043",
       "name": "Taco Bell",
-      "city": "Battle Creek",
-      "state": "MI",
-      "price": 1.99
-    },
-    {
-      "store_number": "033013",
-      "name": "Taco Bell",
-      "city": "Wyoming",
+      "city": "Wayland",
       "state": "MI",
       "price": 1.99
     },
@@ -210,14 +199,81 @@
       "price": 1.99
     },
     {
-      "store_number": "033010",
+      "store_number": "042639",
       "name": "Taco Bell",
       "city": "Kalamazoo",
+      "state": "MI",
+      "price": 1.99
+    },
+    {
+      "store_number": "033044",
+      "name": "Taco Bell",
+      "city": "Fruitport",
       "state": "MI",
       "price": 1.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040369",
+      "store_name": "Taco Bell",
+      "city": "Battle Creek",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-08-09T20:40:46.523597+00:00"
+    },
+    {
+      "store_number": "033013",
+      "store_name": "Taco Bell",
+      "city": "Wyoming",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-08-09T20:40:33.002834+00:00"
+    },
+    {
+      "store_number": "033043",
+      "store_name": "Taco Bell",
+      "city": "Wayland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-08-09T20:40:30.820308+00:00"
+    },
+    {
+      "store_number": "033010",
+      "store_name": "Taco Bell",
+      "city": "Kalamazoo",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-08-09T20:39:13.662421+00:00"
+    },
+    {
+      "store_number": "032997",
+      "store_name": "Taco Bell",
+      "city": "Byron Center",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-08-09T20:38:22.133918+00:00"
+    },
+    {
+      "store_number": "042751",
+      "store_name": "Taco Bell",
+      "city": "Hudsonville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-08-09T20:37:15.999212+00:00"
+    },
     {
       "store_number": "033008",
       "store_name": "Taco Bell",
@@ -890,8 +946,8 @@
     }
   ],
   "activity_summary": {
-    "added": 43,
-    "removed": 24,
+    "added": 44,
+    "removed": 29,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -919,15 +975,6 @@
       "MI"
     ],
     [
-      "042751",
-      42.84142845,
-      -85.86391891,
-      1.99,
-      "Taco Bell",
-      "Hudsonville",
-      "MI"
-    ],
-    [
       "042768",
       43.3957085,
       -85.4787928,
@@ -943,15 +990,6 @@
       1.99,
       "Taco Bell",
       "Lakeview",
-      "MI"
-    ],
-    [
-      "032997",
-      42.84132443303102,
-      -85.67956878687255,
-      1.99,
-      "Taco Bell",
-      "Byron Center",
       "MI"
     ],
     [
@@ -976,15 +1014,6 @@
       "042639",
       42.295767108230734,
       -85.64876273279879,
-      1.99,
-      "Taco Bell",
-      "Kalamazoo",
-      "MI"
-    ],
-    [
-      "033010",
-      42.2587391578008,
-      -85.58916404848787,
       1.99,
       "Taco Bell",
       "Kalamazoo",
@@ -1054,21 +1083,12 @@
       "MI"
     ],
     [
-      "033013",
-      42.935717821200605,
-      -85.69526909734122,
+      "033043",
+      42.67365292260149,
+      -85.65788559621069,
       1.99,
       "Taco Bell",
-      "Wyoming",
-      "MI"
-    ],
-    [
-      "040369",
-      42.3447596141,
-      -85.2325636551,
-      1.99,
-      "Taco Bell",
-      "Battle Creek",
+      "Wayland",
       "MI"
     ]
   ],
