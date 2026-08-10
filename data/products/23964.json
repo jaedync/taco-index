@@ -16,19 +16,19 @@
   "peak_30d_pct": 0.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-06-18T21:25:52.078312+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 5.78,
+    "avg": 5.81,
     "min": 5.49,
     "max": 5.99,
     "median": 5.99,
-    "std_dev": 0.26,
-    "store_count": 12
+    "std_dev": 0.25,
+    "store_count": 11
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$5.99",
@@ -63,13 +63,6 @@
       "name": "Taco Bell / KFC",
       "city": "Nags Head",
       "state": "NC",
-      "price": 5.49
-    },
-    {
-      "store_number": "003881",
-      "name": "Taco Bell / KFC",
-      "city": "West Branch",
-      "state": "MI",
       "price": 5.49
     },
     {
@@ -120,12 +113,18 @@
       "city": "Moriarty",
       "state": "NM",
       "price": 5.99
+    },
+    {
+      "store_number": "029402",
+      "name": "Taco Bell",
+      "city": "Creedmoor",
+      "state": "NC",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "035717",
     "039755",
-    "003881",
     "028153",
     "003758"
   ],
@@ -194,14 +193,24 @@
       "price": 5.49
     },
     {
-      "store_number": "003881",
+      "store_number": "039755",
       "name": "Taco Bell / KFC",
-      "city": "West Branch",
-      "state": "MI",
+      "city": "Nags Head",
+      "state": "NC",
       "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003881",
+      "store_name": "Taco Bell / KFC",
+      "city": "West Branch",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-08-10T21:09:14.882324+00:00"
+    },
     {
       "store_number": "028510",
       "store_name": "Taco Bell / KFC",
@@ -1345,7 +1354,7 @@
   ],
   "activity_summary": {
     "added": 63,
-    "removed": 51,
+    "removed": 52,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1371,15 +1380,6 @@
       "Taco Bell / KFC",
       "Nags Head",
       "NC"
-    ],
-    [
-      "003881",
-      44.24882764927901,
-      -84.22466313700662,
-      5.49,
-      "Taco Bell / KFC",
-      "West Branch",
-      "MI"
     ],
     [
       "028153",
@@ -1464,6 +1464,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-08-09",
+  "last_seen_date": "2026-08-10",
   "peak_availability_pct": 0.4
 }

@@ -48,38 +48,38 @@
       "price": 10.99
     },
     {
-      "store_number": "042906",
-      "name": "Taco Bell",
-      "city": "Miami",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
       "store_number": "042897",
       "name": "Taco Bell",
       "city": "Port Saint Lucie",
       "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "042572",
+      "name": "Taco Bell",
+      "city": "Fairburn",
+      "state": "GA",
       "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "042937",
     "042984",
-    "042906",
-    "042897"
+    "042897",
+    "042572"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042572",
+      "name": "Taco Bell",
+      "city": "Fairburn",
+      "state": "GA",
+      "price": 10.99
+    },
     {
       "store_number": "042897",
       "name": "Taco Bell",
       "city": "Port Saint Lucie",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "042906",
-      "name": "Taco Bell",
-      "city": "Miami",
       "state": "FL",
       "price": 10.99
     },
@@ -99,6 +99,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042906",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-10T21:08:54.312189+00:00"
+    },
+    {
+      "store_number": "042572",
+      "store_name": "Taco Bell",
+      "city": "Fairburn",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-10T21:08:46.617802+00:00"
+    },
     {
       "store_number": "042897",
       "store_name": "Taco Bell",
@@ -161,8 +181,8 @@
     }
   ],
   "activity_summary": {
-    "added": 5,
-    "removed": 1,
+    "added": 6,
+    "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -215,15 +235,6 @@
       "FL"
     ],
     [
-      "042906",
-      25.84757960530985,
-      -80.18376678228378,
-      10.99,
-      "Taco Bell",
-      "Miami",
-      "FL"
-    ],
-    [
       "042897",
       27.30132956815393,
       -80.3053405880928,
@@ -231,9 +242,18 @@
       "Taco Bell",
       "Port Saint Lucie",
       "FL"
+    ],
+    [
+      "042572",
+      33.53980644411624,
+      -84.57611403902706,
+      10.99,
+      "Taco Bell",
+      "Fairburn",
+      "GA"
     ]
   ],
   "retired_at": "2026-08-07T21:31:20.860518+00:00",
-  "last_seen_date": "2026-08-09",
+  "last_seen_date": "2026-08-10",
   "peak_availability_pct": 0.0
 }

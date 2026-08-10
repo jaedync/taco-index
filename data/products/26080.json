@@ -24,19 +24,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 17
+    "store_count": 18
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 17
+      "count": 18
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 7.0,
-      "store_count": 17
+      "store_count": 18
     }
   ],
   "nutrition": {
@@ -142,9 +142,17 @@
     "033500",
     "034943",
     "030392",
-    "030382"
+    "030382",
+    "039138"
   ],
   "priciest_stores": [
+    {
+      "store_number": "039138",
+      "name": "Taco Bell",
+      "city": "Anadarko",
+      "state": "OK",
+      "price": 7.0
+    },
     {
       "store_number": "030382",
       "name": "Taco Bell",
@@ -207,16 +215,19 @@
       "city": "Edmond",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "033283",
-      "name": "Taco Bell",
-      "city": "Midwest City",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039138",
+      "store_name": "Taco Bell",
+      "city": "Anadarko",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-08-10T21:08:27.342660+00:00"
+    },
     {
       "store_number": "030392",
       "store_name": "Taco Bell",
@@ -599,12 +610,12 @@
     }
   ],
   "activity_summary": {
-    "added": 24,
+    "added": 25,
     "removed": 14,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 920,
+  "calories_from_menu": 0,
   "calories_min": 920,
   "calories_max": 1200,
   "combo_groups": [
@@ -791,6 +802,15 @@
       7.0,
       "Taco Bell",
       "Oklahoma City",
+      "OK"
+    ],
+    [
+      "039138",
+      35.05813711063628,
+      -98.26206388774892,
+      7.0,
+      "Taco Bell",
+      "Anadarko",
       "OK"
     ]
   ],
