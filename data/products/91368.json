@@ -13,26 +13,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 5.5,
+  "peak_30d_pct": 5.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-06-18T21:25:00.941035+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.82,
-    "min": 9.0,
+    "avg": 9.99,
+    "min": 9.99,
     "max": 9.99,
     "median": 9.99,
-    "std_dev": 0.4,
-    "store_count": 6
+    "std_dev": 0.0,
+    "store_count": 4
   },
   "histogram": [
     {
-      "bucket": "$9.00",
-      "count": 1
-    },
-    {
       "bucket": "$9.99",
-      "count": 5
+      "count": 4
     }
   ],
   "state_prices": [],
@@ -51,20 +47,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 9.0
-    },
-    {
-      "store_number": "042827",
-      "name": "Taco Bell",
-      "city": "Foley",
-      "state": "AL",
-      "price": 9.99
-    },
     {
       "store_number": "042820",
       "name": "Taco Bell",
@@ -95,7 +77,10 @@
     }
   ],
   "min_price_store_numbers": [
-    "029049"
+    "042820",
+    "043134",
+    "042831",
+    "043129"
   ],
   "priciest_stores": [
     {
@@ -125,23 +110,29 @@
       "city": "Pensacola",
       "state": "FL",
       "price": 9.99
-    },
-    {
-      "store_number": "042827",
-      "name": "Taco Bell",
-      "city": "Foley",
-      "state": "AL",
-      "price": 9.99
-    },
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029049",
+      "store_name": "Taco Bell",
+      "city": "Red Bank",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:30:12.728433+00:00"
+    },
+    {
+      "store_number": "042827",
+      "store_name": "Taco Bell",
+      "city": "Foley",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:29:50.044967+00:00"
+    },
     {
       "store_number": "037214",
       "store_name": "Taco Bell",
@@ -21465,7 +21456,7 @@
   ],
   "activity_summary": {
     "added": 1068,
-    "removed": 1061,
+    "removed": 1063,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -21493,24 +21484,6 @@
     }
   ],
   "map_data": [
-    [
-      "029049",
-      35.09495908908517,
-      -85.30757497250931,
-      9.0,
-      "Taco Bell",
-      "Red Bank",
-      "TN"
-    ],
-    [
-      "042827",
-      30.393152,
-      -87.681808,
-      9.99,
-      "Taco Bell",
-      "Foley",
-      "AL"
-    ],
     [
       "042820",
       30.508382312694913,
@@ -21549,6 +21522,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-08-10",
+  "last_seen_date": "2026-08-11",
   "peak_availability_pct": 6.0
 }

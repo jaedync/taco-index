@@ -16,12 +16,12 @@
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.25,
+    "avg": 3.23,
     "min": 3.19,
-    "max": 3.39,
+    "max": 3.29,
     "median": 3.19,
-    "std_dev": 0.07,
-    "store_count": 9
+    "std_dev": 0.05,
+    "store_count": 8
   },
   "histogram": [
     {
@@ -31,10 +31,6 @@
     {
       "bucket": "$3.29",
       "count": 3
-    },
-    {
-      "bucket": "$3.39",
-      "count": 1
     }
   ],
   "state_prices": [],
@@ -108,13 +104,6 @@
       "city": "Pensacola",
       "state": "FL",
       "price": 3.29
-    },
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 3.39
     }
   ],
   "min_price_store_numbers": [
@@ -125,13 +114,6 @@
     "043139"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 3.39
-    },
     {
       "store_number": "042829",
       "name": "Taco Bell",
@@ -190,6 +172,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029049",
+      "store_name": "Taco Bell",
+      "city": "Red Bank",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:30:12.728433+00:00"
+    },
     {
       "store_number": "043137",
       "store_name": "Taco Bell",
@@ -11803,7 +11795,7 @@
   ],
   "activity_summary": {
     "added": 566,
-    "removed": 556,
+    "removed": 557,
     "price_changed": 39,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11890,18 +11882,9 @@
       "Taco Bell",
       "Pensacola",
       "FL"
-    ],
-    [
-      "029049",
-      35.09495908908517,
-      -85.30757497250931,
-      3.39,
-      "Taco Bell",
-      "Red Bank",
-      "TN"
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-08-10",
+  "last_seen_date": "2026-08-11",
   "peak_availability_pct": 6.0
 }

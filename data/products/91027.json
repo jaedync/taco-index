@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 5.46,
+    "avg": 5.41,
     "min": 5.39,
-    "max": 5.69,
+    "max": 5.49,
     "median": 5.39,
-    "std_dev": 0.12,
-    "store_count": 6
+    "std_dev": 0.04,
+    "store_count": 5
   },
   "histogram": [
     {
@@ -29,10 +29,6 @@
     },
     {
       "bucket": "$5.49",
-      "count": 1
-    },
-    {
-      "bucket": "$5.69",
       "count": 1
     }
   ],
@@ -86,13 +82,6 @@
       "city": "Martinez",
       "state": "GA",
       "price": 5.49
-    },
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 5.69
     }
   ],
   "min_price_store_numbers": [
@@ -102,13 +91,6 @@
     "043129"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 5.69
-    },
     {
       "store_number": "043136",
       "name": "Taco Bell",
@@ -146,6 +128,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029049",
+      "store_name": "Taco Bell",
+      "city": "Red Bank",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 5.69,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:30:12.728433+00:00"
+    },
     {
       "store_number": "034026",
       "store_name": "Taco Bell",
@@ -14229,7 +14221,7 @@
   ],
   "activity_summary": {
     "added": 532,
-    "removed": 525,
+    "removed": 526,
     "price_changed": 351,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14282,18 +14274,9 @@
       "Taco Bell",
       "Martinez",
       "GA"
-    ],
-    [
-      "029049",
-      35.09495908908517,
-      -85.30757497250931,
-      5.69,
-      "Taco Bell",
-      "Red Bank",
-      "TN"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-10",
+  "last_seen_date": "2026-08-11",
   "peak_availability_pct": 6.0
 }

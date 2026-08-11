@@ -23,12 +23,12 @@
     "max": 3.0,
     "median": 3.0,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -53,27 +53,12 @@
       "city": "Knoxville",
       "state": "TN",
       "price": 3.0
-    },
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 3.0
     }
   ],
   "min_price_store_numbers": [
-    "042239",
-    "029049"
+    "042239"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 3.0
-    },
     {
       "store_number": "042239",
       "name": "Taco Bell",
@@ -83,6 +68,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029049",
+      "store_name": "Taco Bell",
+      "city": "Red Bank",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.0,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:30:12.728433+00:00"
+    },
     {
       "store_number": "034026",
       "store_name": "Taco Bell",
@@ -2466,7 +2461,7 @@
   ],
   "activity_summary": {
     "added": 120,
-    "removed": 118,
+    "removed": 119,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2483,18 +2478,9 @@
       "Taco Bell",
       "Knoxville",
       "TN"
-    ],
-    [
-      "029049",
-      35.09495908908517,
-      -85.30757497250931,
-      3.0,
-      "Taco Bell",
-      "Red Bank",
-      "TN"
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-08-10",
+  "last_seen_date": "2026-08-11",
   "peak_availability_pct": 1.4
 }

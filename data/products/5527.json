@@ -17,12 +17,12 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 0.61,
+    "avg": 0.6,
     "min": 0.3,
     "max": 0.8,
-    "median": 0.6,
+    "median": 0.57,
     "std_dev": 0.17,
-    "store_count": 17
+    "store_count": 16
   },
   "histogram": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 3
+      "count": 2
     }
   ],
   "state_prices": [
@@ -167,13 +167,6 @@
       "price": 0.8
     },
     {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 0.8
-    },
-    {
       "store_number": "041231",
       "name": "Taco Bell",
       "city": "Athens",
@@ -221,9 +214,26 @@
       "city": "Marianna",
       "state": "FL",
       "price": 0.55
+    },
+    {
+      "store_number": "019713",
+      "name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "price": 0.55
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029049",
+      "store_name": "Taco Bell",
+      "city": "Red Bank",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 0.8,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:30:12.728433+00:00"
+    },
     {
       "store_number": "034026",
       "store_name": "Taco Bell",
@@ -10287,11 +10297,11 @@
   ],
   "activity_summary": {
     "added": 510,
-    "removed": 492,
+    "removed": 493,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 0,
+  "calories_from_menu": 180,
   "calories_min": 180,
   "calories_max": 180,
   "combo_groups": [],
@@ -10423,15 +10433,6 @@
       "GA"
     ],
     [
-      "029049",
-      35.09495908908517,
-      -85.30757497250931,
-      0.8,
-      "Taco Bell",
-      "Red Bank",
-      "TN"
-    ],
-    [
       "043141",
       34.49514403660317,
       -85.84738254547119,
@@ -10451,6 +10452,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-10",
+  "last_seen_date": "2026-08-11",
   "peak_availability_pct": 6.0
 }

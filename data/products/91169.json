@@ -11,25 +11,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 6.0,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0345,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 5.79,
+    "avg": 5.59,
     "min": 5.59,
-    "max": 6.19,
+    "max": 5.59,
     "median": 5.59,
-    "std_dev": 0.35,
-    "store_count": 3
+    "std_dev": 0.0,
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$5.59",
       "count": 2
-    },
-    {
-      "bucket": "$6.19",
-      "count": 1
     }
   ],
   "state_prices": [],
@@ -48,13 +44,6 @@
       "city": "Augusta",
       "state": "GA",
       "price": 5.59
-    },
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 6.19
     }
   ],
   "min_price_store_numbers": [
@@ -62,13 +51,6 @@
     "043130"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 6.19
-    },
     {
       "store_number": "043130",
       "name": "Taco Bell",
@@ -85,6 +67,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029049",
+      "store_name": "Taco Bell",
+      "city": "Red Bank",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 6.19,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:30:12.728433+00:00"
+    },
     {
       "store_number": "034026",
       "store_name": "Taco Bell",
@@ -13018,7 +13010,7 @@
   ],
   "activity_summary": {
     "added": 516,
-    "removed": 512,
+    "removed": 513,
     "price_changed": 265,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13044,18 +13036,9 @@
       "Taco Bell",
       "Augusta",
       "GA"
-    ],
-    [
-      "029049",
-      35.09495908908517,
-      -85.30757497250931,
-      6.19,
-      "Taco Bell",
-      "Red Bank",
-      "TN"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-10",
+  "last_seen_date": "2026-08-11",
   "peak_availability_pct": 6.0
 }

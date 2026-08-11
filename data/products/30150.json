@@ -20,19 +20,19 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 308
+    "store_count": 309
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 308
+      "count": 309
     }
   ],
   "state_prices": [
     {
       "state": "OH",
       "avg_price": 4.99,
-      "store_count": 102
+      "store_count": 103
     },
     {
       "state": "MI",
@@ -65,13 +65,6 @@
       "name": "Taco Bell",
       "city": "Elyria",
       "state": "OH",
-      "price": 4.99
-    },
-    {
-      "store_number": "038871",
-      "name": "Taco Bell",
-      "city": "Grosse Pointe",
-      "state": "MI",
       "price": 4.99
     },
     {
@@ -129,11 +122,17 @@
       "city": "Monroe",
       "state": "MI",
       "price": 4.99
+    },
+    {
+      "store_number": "041411",
+      "name": "Taco Bell",
+      "city": "Kalkaska",
+      "state": "MI",
+      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
     "040500",
-    "038871",
     "041324",
     "040437",
     "040759",
@@ -193,6 +192,7 @@
     "039123",
     "001510",
     "001971",
+    "022262",
     "023745",
     "038908",
     "021275",
@@ -377,6 +377,7 @@
     "022446",
     "033009",
     "033027",
+    "033016",
     "038910",
     "033018",
     "033005",
@@ -514,6 +515,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033016",
+      "store_name": "Taco Bell",
+      "city": "Jenison",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-11T21:31:38.550858+00:00"
+    },
+    {
+      "store_number": "022262",
+      "store_name": "Taco Bell",
+      "city": "Uhrichsville",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-11T21:29:59.087127+00:00"
+    },
+    {
+      "store_number": "038871",
+      "store_name": "Taco Bell",
+      "city": "Grosse Pointe",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:24:53.941632+00:00"
+    },
     {
       "store_number": "033016",
       "store_name": "Taco Bell",
@@ -5516,8 +5547,8 @@
     }
   ],
   "activity_summary": {
-    "added": 404,
-    "removed": 96,
+    "added": 406,
+    "removed": 97,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5534,15 +5565,6 @@
       "Taco Bell",
       "Elyria",
       "OH"
-    ],
-    [
-      "038871",
-      42.411818264438004,
-      -82.91333451525527,
-      4.99,
-      "Taco Bell",
-      "Grosse Pointe",
-      "MI"
     ],
     [
       "041324",
@@ -6074,6 +6096,15 @@
       "Taco Bell",
       "Taylor",
       "MI"
+    ],
+    [
+      "022262",
+      40.40994355707365,
+      -81.34797289967543,
+      4.99,
+      "Taco Bell",
+      "Uhrichsville",
+      "OH"
     ],
     [
       "023745",
@@ -7732,6 +7763,15 @@
       "MI"
     ],
     [
+      "033016",
+      42.90375328148109,
+      -85.78662677675311,
+      4.99,
+      "Taco Bell",
+      "Jenison",
+      "MI"
+    ],
+    [
       "038910",
       40.90139034727693,
       -80.8345578610897,
@@ -8300,6 +8340,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-10",
+  "last_seen_date": "2026-08-11",
   "peak_availability_pct": 3.8
 }

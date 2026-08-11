@@ -13,22 +13,18 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 4.8,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0433,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
-    "avg": 14.37,
-    "min": 12.5,
+    "avg": 14.99,
+    "min": 14.99,
     "max": 14.99,
     "median": 14.99,
-    "std_dev": 1.25,
-    "store_count": 4
+    "std_dev": 0.0,
+    "store_count": 3
   },
   "histogram": [
-    {
-      "bucket": "$12.50",
-      "count": 1
-    },
     {
       "bucket": "$14.99",
       "count": 3
@@ -50,13 +46,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 12.5
-    },
     {
       "store_number": "043129",
       "name": "Taco Bell",
@@ -80,7 +69,9 @@
     }
   ],
   "min_price_store_numbers": [
-    "029049"
+    "043129",
+    "042818",
+    "043144"
   ],
   "priciest_stores": [
     {
@@ -103,16 +94,19 @@
       "city": "Aiken",
       "state": "SC",
       "price": 14.99
-    },
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 12.5
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029049",
+      "store_name": "Taco Bell",
+      "city": "Red Bank",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:30:12.728433+00:00"
+    },
     {
       "store_number": "034026",
       "store_name": "Taco Bell",
@@ -10796,7 +10790,7 @@
   ],
   "activity_summary": {
     "added": 536,
-    "removed": 532,
+    "removed": 533,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10824,15 +10818,6 @@
     }
   ],
   "map_data": [
-    [
-      "029049",
-      35.09495908908517,
-      -85.30757497250931,
-      12.5,
-      "Taco Bell",
-      "Red Bank",
-      "TN"
-    ],
     [
       "043129",
       33.56501819417912,
@@ -10862,6 +10847,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-10",
+  "last_seen_date": "2026-08-11",
   "peak_availability_pct": 5.3
 }

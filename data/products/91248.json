@@ -13,23 +13,19 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
-    "avg": 5.54,
+    "avg": 5.49,
     "min": 5.49,
-    "max": 5.69,
+    "max": 5.49,
     "median": 5.49,
-    "std_dev": 0.1,
-    "store_count": 4
+    "std_dev": 0.0,
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$5.49",
       "count": 3
-    },
-    {
-      "bucket": "$5.69",
-      "count": 1
     }
   ],
   "state_prices": [],
@@ -68,13 +64,6 @@
       "city": "Aiken",
       "state": "SC",
       "price": 5.49
-    },
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 5.69
     }
   ],
   "min_price_store_numbers": [
@@ -83,13 +72,6 @@
     "043129"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 5.69
-    },
     {
       "store_number": "043129",
       "name": "Taco Bell",
@@ -113,6 +95,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029049",
+      "store_name": "Taco Bell",
+      "city": "Red Bank",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 5.69,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:30:12.728433+00:00"
+    },
     {
       "store_number": "034026",
       "store_name": "Taco Bell",
@@ -12416,7 +12408,7 @@
   ],
   "activity_summary": {
     "added": 515,
-    "removed": 510,
+    "removed": 511,
     "price_changed": 205,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12451,18 +12443,9 @@
       "Taco Bell",
       "Aiken",
       "SC"
-    ],
-    [
-      "029049",
-      35.09495908908517,
-      -85.30757497250931,
-      5.69,
-      "Taco Bell",
-      "Red Bank",
-      "TN"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-10",
+  "last_seen_date": "2026-08-11",
   "peak_availability_pct": 6.0
 }

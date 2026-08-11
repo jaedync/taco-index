@@ -22,12 +22,12 @@
     "max": 5.99,
     "median": 5.99,
     "std_dev": 0.0,
-    "store_count": 6
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 6
+      "count": 4
     }
   ],
   "state_prices": [],
@@ -73,45 +73,15 @@
       "city": "Spanish Fort",
       "state": "AL",
       "price": 5.99
-    },
-    {
-      "store_number": "043135",
-      "name": "Taco Bell",
-      "city": "Hephzibah",
-      "state": "GA",
-      "price": 5.99
-    },
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "043146",
     "043141",
     "043133",
-    "042831",
-    "043135",
-    "029049"
+    "042831"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 5.99
-    },
-    {
-      "store_number": "043135",
-      "name": "Taco Bell",
-      "city": "Hephzibah",
-      "state": "GA",
-      "price": 5.99
-    },
     {
       "store_number": "042831",
       "name": "Taco Bell",
@@ -142,6 +112,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043135",
+      "store_name": "Taco Bell",
+      "city": "Hephzibah",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:31:21.454920+00:00"
+    },
+    {
+      "store_number": "029049",
+      "store_name": "Taco Bell",
+      "city": "Red Bank",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:30:12.728433+00:00"
+    },
     {
       "store_number": "042827",
       "store_name": "Taco Bell",
@@ -11305,7 +11295,7 @@
   ],
   "activity_summary": {
     "added": 560,
-    "removed": 553,
+    "removed": 555,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11349,24 +11339,6 @@
       "Taco Bell",
       "Spanish Fort",
       "AL"
-    ],
-    [
-      "043135",
-      33.377407060331116,
-      -82.0737755745813,
-      5.99,
-      "Taco Bell",
-      "Hephzibah",
-      "GA"
-    ],
-    [
-      "029049",
-      35.09495908908517,
-      -85.30757497250931,
-      5.99,
-      "Taco Bell",
-      "Red Bank",
-      "TN"
     ]
   ],
   "retired_at": null,

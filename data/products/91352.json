@@ -17,18 +17,14 @@
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 10.35,
-    "min": 9.59,
+    "avg": 10.46,
+    "min": 10.29,
     "max": 10.69,
     "median": 10.29,
-    "std_dev": 0.37,
-    "store_count": 8
+    "std_dev": 0.21,
+    "store_count": 7
   },
   "histogram": [
-    {
-      "bucket": "$9.59",
-      "count": 1
-    },
     {
       "bucket": "$10.29",
       "count": 4
@@ -54,13 +50,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 9.59
-    },
     {
       "store_number": "043148",
       "name": "Taco Bell",
@@ -112,7 +101,10 @@
     }
   ],
   "min_price_store_numbers": [
-    "029049"
+    "043148",
+    "043133",
+    "043130",
+    "043139"
   ],
   "priciest_stores": [
     {
@@ -163,16 +155,19 @@
       "city": "Aiken",
       "state": "SC",
       "price": 10.29
-    },
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 9.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029049",
+      "store_name": "Taco Bell",
+      "city": "Red Bank",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.59,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:30:12.728433+00:00"
+    },
     {
       "store_number": "043137",
       "store_name": "Taco Bell",
@@ -12006,11 +12001,11 @@
   ],
   "activity_summary": {
     "added": 567,
-    "removed": 558,
+    "removed": 559,
     "price_changed": 58,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 940,
+  "calories_from_menu": 860,
   "calories_min": 860,
   "calories_max": 1280,
   "combo_groups": [
@@ -12040,15 +12035,6 @@
     }
   ],
   "map_data": [
-    [
-      "029049",
-      35.09495908908517,
-      -85.30757497250931,
-      9.59,
-      "Taco Bell",
-      "Red Bank",
-      "TN"
-    ],
     [
       "043148",
       33.51436354486988,
@@ -12114,6 +12100,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-08-10",
+  "last_seen_date": "2026-08-11",
   "peak_availability_pct": 6.0
 }

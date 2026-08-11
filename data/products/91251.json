@@ -12,7 +12,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 5.8,
+  "peak_30d_pct": 5.7,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.1,
@@ -22,12 +22,12 @@
     "max": 1.39,
     "median": 1.39,
     "std_dev": 0.0,
-    "store_count": 10
+    "store_count": 9
   },
   "histogram": [
     {
       "bucket": "$1.39",
-      "count": 10
+      "count": 9
     }
   ],
   "state_prices": [],
@@ -51,13 +51,6 @@
       "name": "Taco Bell",
       "city": "Aiken",
       "state": "SC",
-      "price": 1.39
-    },
-    {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
       "price": 1.39
     },
     {
@@ -119,7 +112,6 @@
   ],
   "min_price_store_numbers": [
     "043148",
-    "029049",
     "043144",
     "042819",
     "043140",
@@ -187,13 +179,6 @@
       "price": 1.39
     },
     {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 1.39
-    },
-    {
       "store_number": "043148",
       "name": "Taco Bell",
       "city": "Aiken",
@@ -202,6 +187,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029049",
+      "store_name": "Taco Bell",
+      "city": "Red Bank",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 1.39,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:30:12.728433+00:00"
+    },
     {
       "store_number": "034026",
       "store_name": "Taco Bell",
@@ -12145,7 +12140,7 @@
   ],
   "activity_summary": {
     "added": 595,
-    "removed": 584,
+    "removed": 585,
     "price_changed": 15,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12162,15 +12157,6 @@
       "Taco Bell",
       "Aiken",
       "SC"
-    ],
-    [
-      "029049",
-      35.09495908908517,
-      -85.30757497250931,
-      1.39,
-      "Taco Bell",
-      "Red Bank",
-      "TN"
     ],
     [
       "043144",
@@ -12246,6 +12232,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-10",
+  "last_seen_date": "2026-08-11",
   "peak_availability_pct": 5.9
 }

@@ -15,19 +15,19 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-07-23T20:47:41.676477+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.87,
+    "avg": 5.83,
     "min": 5.49,
-    "max": 7.29,
+    "max": 6.19,
     "median": 5.99,
-    "std_dev": 0.38,
-    "store_count": 28
+    "std_dev": 0.26,
+    "store_count": 26
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 10
+      "count": 9
     },
     {
       "bucket": "$5.99",
@@ -36,10 +36,6 @@
     {
       "bucket": "$6.19",
       "count": 2
-    },
-    {
-      "bucket": "$7.29",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -69,13 +65,6 @@
       "name": "Taco Bell / KFC",
       "city": "Cypress",
       "state": "TX",
-      "price": 5.49
-    },
-    {
-      "store_number": "039735",
-      "name": "Taco Bell / KFC",
-      "city": "Ruckersville",
-      "state": "VA",
       "price": 5.49
     },
     {
@@ -133,11 +122,17 @@
       "city": "Locust Grove",
       "state": "GA",
       "price": 5.49
+    },
+    {
+      "store_number": "029536",
+      "name": "Taco Bell / KFC",
+      "city": "Miami",
+      "state": "FL",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "035717",
-    "039735",
     "028510",
     "039755",
     "021493",
@@ -148,13 +143,6 @@
     "031389"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029323",
-      "name": "Taco Bell / KFC",
-      "city": "Northampton",
-      "state": "MA",
-      "price": 7.29
-    },
     {
       "store_number": "041370",
       "name": "Taco Bell / KFC",
@@ -217,9 +205,36 @@
       "city": "Albuquerque",
       "state": "NM",
       "price": 5.99
+    },
+    {
+      "store_number": "029406",
+      "name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029323",
+      "store_name": "Taco Bell / KFC",
+      "city": "Northampton",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 7.29,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:31:33.909008+00:00"
+    },
+    {
+      "store_number": "039735",
+      "store_name": "Taco Bell / KFC",
+      "city": "Ruckersville",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:30:25.992141+00:00"
+    },
     {
       "store_number": "002649",
       "store_name": "Taco Bell / KFC",
@@ -1243,7 +1258,7 @@
   ],
   "activity_summary": {
     "added": 65,
-    "removed": 37,
+    "removed": 39,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1260,15 +1275,6 @@
       "Taco Bell / KFC",
       "Cypress",
       "TX"
-    ],
-    [
-      "039735",
-      38.22995077979435,
-      -78.37071418762207,
-      5.49,
-      "Taco Bell / KFC",
-      "Ruckersville",
-      "VA"
     ],
     [
       "028510",
@@ -1494,18 +1500,9 @@
       "Taco Bell / KFC",
       "Rio Vista",
       "CA"
-    ],
-    [
-      "029323",
-      42.32848585134205,
-      -72.63313342632506,
-      7.29,
-      "Taco Bell / KFC",
-      "Northampton",
-      "MA"
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-08-10",
+  "last_seen_date": "2026-08-11",
   "peak_availability_pct": 0.4
 }

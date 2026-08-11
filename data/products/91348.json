@@ -21,16 +21,12 @@
     "max": 8.69,
     "median": 8.49,
     "std_dev": 0.1,
-    "store_count": 7
+    "store_count": 6
   },
   "histogram": [
     {
       "bucket": "$8.49",
       "count": 4
-    },
-    {
-      "bucket": "$8.59",
-      "count": 1
     },
     {
       "bucket": "$8.69",
@@ -82,13 +78,6 @@
       "price": 8.49
     },
     {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 8.59
-    },
-    {
       "store_number": "042830",
       "name": "Taco Bell",
       "city": "Pensacola",
@@ -125,13 +114,6 @@
       "price": 8.69
     },
     {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 8.59
-    },
-    {
       "store_number": "043129",
       "name": "Taco Bell",
       "city": "Aiken",
@@ -161,6 +143,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029049",
+      "store_name": "Taco Bell",
+      "city": "Red Bank",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 8.59,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:30:12.728433+00:00"
+    },
     {
       "store_number": "034026",
       "store_name": "Taco Bell",
@@ -11274,7 +11266,7 @@
   ],
   "activity_summary": {
     "added": 551,
-    "removed": 543,
+    "removed": 544,
     "price_changed": 17,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11327,15 +11319,6 @@
       "SC"
     ],
     [
-      "029049",
-      35.09495908908517,
-      -85.30757497250931,
-      8.59,
-      "Taco Bell",
-      "Red Bank",
-      "TN"
-    ],
-    [
       "042830",
       30.42369262233515,
       -87.20223457405697,
@@ -11355,6 +11338,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-08-10",
+  "last_seen_date": "2026-08-11",
   "peak_availability_pct": 6.0
 }

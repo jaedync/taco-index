@@ -17,11 +17,11 @@
   "first_seen_at": "2026-03-30T00:40:57.474603+00:00",
   "availability_pct": 1.2,
   "price_stats": {
-    "avg": 4.06,
+    "avg": 4.05,
     "min": 3.39,
-    "max": 4.59,
+    "max": 4.39,
     "median": 3.99,
-    "std_dev": 0.19,
+    "std_dev": 0.18,
     "store_count": 92
   },
   "histogram": [
@@ -43,7 +43,7 @@
     },
     {
       "bucket": "$4.19",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$4.29",
@@ -51,10 +51,6 @@
     },
     {
       "bucket": "$4.39",
-      "count": 1
-    },
-    {
-      "bucket": "$4.59",
       "count": 1
     }
   ],
@@ -166,13 +162,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "029049",
-      "name": "Taco Bell",
-      "city": "Red Bank",
-      "state": "TN",
-      "price": 4.59
-    },
-    {
       "store_number": "029535",
       "name": "Taco Bell",
       "city": "Tamarac",
@@ -234,9 +223,36 @@
       "city": "Williamsburg",
       "state": "VA",
       "price": 4.29
+    },
+    {
+      "store_number": "004451",
+      "name": "Taco Bell",
+      "city": "Hayes",
+      "state": "VA",
+      "price": 4.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003543",
+      "store_name": "Taco Bell",
+      "city": "Thousand Oaks",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-08-11T21:31:36.845536+00:00"
+    },
+    {
+      "store_number": "029049",
+      "store_name": "Taco Bell",
+      "city": "Red Bank",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 4.59,
+      "new_price": null,
+      "observed_at": "2026-08-11T21:30:12.728433+00:00"
+    },
     {
       "store_number": "034015",
       "store_name": "Taco Bell",
@@ -245329,8 +245345,8 @@
     }
   ],
   "activity_summary": {
-    "added": 11943,
-    "removed": 11855,
+    "added": 11944,
+    "removed": 11856,
     "price_changed": 711,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -245925,6 +245941,15 @@
       "TX"
     ],
     [
+      "003543",
+      34.21076962936434,
+      -118.84296633303165,
+      4.19,
+      "Taco Bell",
+      "Thousand Oaks",
+      "CA"
+    ],
+    [
       "038878",
       39.333666753465685,
       -83.0181536078453,
@@ -246157,15 +246182,6 @@
       "Taco Bell",
       "Tamarac",
       "FL"
-    ],
-    [
-      "029049",
-      35.09495908908517,
-      -85.30757497250931,
-      4.59,
-      "Taco Bell",
-      "Red Bank",
-      "TN"
     ]
   ],
   "retired_at": null,
