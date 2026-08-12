@@ -11,25 +11,25 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": 0.0304,
+  "recent_price_change_pct": 0.0389,
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 4.04,
+    "avg": 4.08,
     "min": 3.79,
     "max": 4.99,
     "median": 3.99,
-    "std_dev": 0.31,
-    "store_count": 12
+    "std_dev": 0.35,
+    "store_count": 9
   },
   "histogram": [
     {
       "bucket": "$3.79",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$3.99",
-      "count": 9
+      "count": 7
     },
     {
       "bucket": "$4.99",
@@ -39,19 +39,12 @@
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.1,
-      "store_count": 9
+      "avg_price": 4.13,
+      "store_count": 7
     }
   ],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "002981",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Watauga",
-      "state": "TX",
-      "price": 3.79
-    },
     {
       "store_number": "027669",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -81,20 +74,6 @@
       "price": 3.99
     },
     {
-      "store_number": "041617",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Temecula",
-      "state": "CA",
-      "price": 3.99
-    },
-    {
-      "store_number": "041611",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "El Cajon",
-      "state": "CA",
-      "price": 3.99
-    },
-    {
       "store_number": "039797",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Simi Valley",
@@ -114,10 +93,23 @@
       "city": "Mira Loma",
       "state": "CA",
       "price": 3.99
+    },
+    {
+      "store_number": "039851",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Lake Forest",
+      "state": "CA",
+      "price": 3.99
+    },
+    {
+      "store_number": "041613",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Chula Vista",
+      "state": "CA",
+      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
-    "002981",
     "027669"
   ],
   "priciest_stores": [
@@ -157,20 +149,6 @@
       "price": 3.99
     },
     {
-      "store_number": "041611",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "El Cajon",
-      "state": "CA",
-      "price": 3.99
-    },
-    {
-      "store_number": "041617",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Temecula",
-      "state": "CA",
-      "price": 3.99
-    },
-    {
       "store_number": "039804",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Orange",
@@ -190,9 +168,46 @@
       "city": "Henderson",
       "state": "NV",
       "price": 3.99
+    },
+    {
+      "store_number": "027669",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Fort Worth",
+      "state": "TX",
+      "price": 3.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041611",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "El Cajon",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-08-12T20:58:12.845059+00:00"
+    },
+    {
+      "store_number": "041617",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Temecula",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-08-12T20:57:49.078514+00:00"
+    },
+    {
+      "store_number": "002981",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Watauga",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.79,
+      "new_price": null,
+      "observed_at": "2026-08-12T20:57:21.825178+00:00"
+    },
     {
       "store_number": "036171",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -666,7 +681,7 @@
   ],
   "activity_summary": {
     "added": 13,
-    "removed": 34,
+    "removed": 37,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -675,15 +690,6 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
-    [
-      "002981",
-      32.859492632046816,
-      -97.23851025851218,
-      3.79,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Watauga",
-      "TX"
-    ],
     [
       "027669",
       32.89279522526115,
@@ -718,24 +724,6 @@
       3.99,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Orange",
-      "CA"
-    ],
-    [
-      "041617",
-      33.525104655154095,
-      -117.16031938791275,
-      3.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Temecula",
-      "CA"
-    ],
-    [
-      "041611",
-      32.802124703776066,
-      -117.00442847203766,
-      3.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "El Cajon",
       "CA"
     ],
     [

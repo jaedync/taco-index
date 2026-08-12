@@ -13,25 +13,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.2,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0233,
   "first_seen_at": "2026-03-30T00:43:53.681925+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.71,
-    "min": 3.49,
+    "avg": 3.76,
+    "min": 3.69,
     "max": 3.79,
-    "median": 3.69,
-    "std_dev": 0.1,
-    "store_count": 9
+    "median": 3.79,
+    "std_dev": 0.05,
+    "store_count": 6
   },
   "histogram": [
     {
-      "bucket": "$3.49",
-      "count": 1
-    },
-    {
       "bucket": "$3.69",
-      "count": 4
+      "count": 2
     },
     {
       "bucket": "$3.79",
@@ -55,30 +51,9 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "031895",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Las Vegas",
-      "state": "NV",
-      "price": 3.49
-    },
-    {
-      "store_number": "041611",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "El Cajon",
-      "state": "CA",
-      "price": 3.69
-    },
-    {
       "store_number": "039797",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Simi Valley",
-      "state": "CA",
-      "price": 3.69
-    },
-    {
-      "store_number": "039841",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Riverside",
       "state": "CA",
       "price": 3.69
     },
@@ -119,7 +94,8 @@
     }
   ],
   "min_price_store_numbers": [
-    "031895"
+    "039797",
+    "039835"
   ],
   "priciest_stores": [
     {
@@ -158,35 +134,44 @@
       "price": 3.69
     },
     {
-      "store_number": "039841",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Riverside",
-      "state": "CA",
-      "price": 3.69
-    },
-    {
       "store_number": "039797",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Simi Valley",
       "state": "CA",
       "price": 3.69
-    },
-    {
-      "store_number": "041611",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "El Cajon",
-      "state": "CA",
-      "price": 3.69
-    },
-    {
-      "store_number": "031895",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Las Vegas",
-      "state": "NV",
-      "price": 3.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039841",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Riverside",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.69,
+      "new_price": null,
+      "observed_at": "2026-08-12T20:59:06.076609+00:00"
+    },
+    {
+      "store_number": "031895",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-08-12T20:58:43.336310+00:00"
+    },
+    {
+      "store_number": "041611",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "El Cajon",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.69,
+      "new_price": null,
+      "observed_at": "2026-08-12T20:58:12.845059+00:00"
+    },
     {
       "store_number": "039795",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -810,7 +795,7 @@
   ],
   "activity_summary": {
     "added": 20,
-    "removed": 42,
+    "removed": 45,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -820,39 +805,12 @@
   "combo_groups": [],
   "map_data": [
     [
-      "031895",
-      36.02096277494928,
-      -115.12727299472317,
-      3.49,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Las Vegas",
-      "NV"
-    ],
-    [
-      "041611",
-      32.802124703776066,
-      -117.00442847203766,
-      3.69,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "El Cajon",
-      "CA"
-    ],
-    [
       "039797",
       34.27875107780835,
       -118.70792449534349,
       3.69,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Simi Valley",
-      "CA"
-    ],
-    [
-      "039841",
-      33.97529500533722,
-      -117.34255380933973,
-      3.69,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Riverside",
       "CA"
     ],
     [

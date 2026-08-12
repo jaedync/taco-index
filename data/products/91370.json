@@ -12,7 +12,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 0.0,
+  "peak_30d_pct": 0.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-08-06T20:44:16.485064+00:00",
   "availability_pct": 0.1,
@@ -22,12 +22,12 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 4
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 4
+      "count": 5
     }
   ],
   "state_prices": [],
@@ -37,6 +37,13 @@
       "store_number": "042937",
       "name": "Taco Bell",
       "city": "Weston",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "042906",
+      "name": "Taco Bell",
+      "city": "Miami",
       "state": "FL",
       "price": 10.99
     },
@@ -64,6 +71,7 @@
   ],
   "min_price_store_numbers": [
     "042937",
+    "042906",
     "042572",
     "042875",
     "042970"
@@ -91,6 +99,13 @@
       "price": 10.99
     },
     {
+      "store_number": "042906",
+      "name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "042937",
       "name": "Taco Bell",
       "city": "Weston",
@@ -99,6 +114,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042906",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-12T20:57:21.070305+00:00"
+    },
     {
       "store_number": "042970",
       "store_name": "Taco Bell",
@@ -221,7 +246,7 @@
     }
   ],
   "activity_summary": {
-    "added": 8,
+    "added": 9,
     "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -266,6 +291,15 @@
       "FL"
     ],
     [
+      "042906",
+      25.84757960530985,
+      -80.18376678228378,
+      10.99,
+      "Taco Bell",
+      "Miami",
+      "FL"
+    ],
+    [
       "042572",
       33.53980644411624,
       -84.57611403902706,
@@ -294,6 +328,6 @@
     ]
   ],
   "retired_at": "2026-08-07T21:31:20.860518+00:00",
-  "last_seen_date": "2026-08-11",
-  "peak_availability_pct": 0.0
+  "last_seen_date": "2026-08-12",
+  "peak_availability_pct": 0.1
 }

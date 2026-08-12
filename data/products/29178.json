@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 26
+    "store_count": 27
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 26
+      "count": 27
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 26
+      "store_count": 27
     }
   ],
   "nutrition": {
@@ -83,6 +83,13 @@
       "price": 10.99
     },
     {
+      "store_number": "036287",
+      "name": "Taco Bell",
+      "city": "Port Orange",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "035177",
       "name": "Taco Bell",
       "city": "Palm Bay",
@@ -116,13 +123,6 @@
       "city": "Leesburg",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "032177",
-      "name": "Taco Bell",
-      "city": "Windermere",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -130,6 +130,7 @@
     "039586",
     "042753",
     "033927",
+    "036287",
     "035177",
     "035998",
     "041833",
@@ -226,6 +227,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036287",
+      "store_name": "Taco Bell",
+      "city": "Port Orange",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-12T20:55:32.288128+00:00"
+    },
     {
       "store_number": "030999",
       "store_name": "Taco Bell",
@@ -1608,7 +1619,7 @@
     }
   ],
   "activity_summary": {
-    "added": 82,
+    "added": 83,
     "removed": 56,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1683,6 +1694,15 @@
       10.99,
       "Taco Bell",
       "Kissimmee",
+      "FL"
+    ],
+    [
+      "036287",
+      29.110829512237228,
+      -81.02506886165676,
+      10.99,
+      "Taco Bell",
+      "Port Orange",
       "FL"
     ],
     [
@@ -1885,6 +1905,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-08-11",
+  "last_seen_date": "2026-08-12",
   "peak_availability_pct": 0.4
 }

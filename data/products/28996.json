@@ -24,12 +24,12 @@
     "max": 6.49,
     "median": 6.49,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -54,27 +54,12 @@
       "city": "Owensville",
       "state": "MO",
       "price": 6.49
-    },
-    {
-      "store_number": "029661",
-      "name": "Taco Bell",
-      "city": "Saint Peters",
-      "state": "MO",
-      "price": 6.49
     }
   ],
   "min_price_store_numbers": [
-    "039574",
-    "029661"
+    "039574"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029661",
-      "name": "Taco Bell",
-      "city": "Saint Peters",
-      "state": "MO",
-      "price": 6.49
-    },
     {
       "store_number": "039574",
       "name": "Taco Bell",
@@ -84,6 +69,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029661",
+      "store_name": "Taco Bell",
+      "city": "Saint Peters",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-08-12T20:58:54.413743+00:00"
+    },
     {
       "store_number": "029659",
       "store_name": "Taco Bell",
@@ -2147,7 +2142,7 @@
   ],
   "activity_summary": {
     "added": 104,
-    "removed": 102,
+    "removed": 103,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2155,6 +2150,12 @@
   "calories_min": 450,
   "calories_max": 450,
   "combo_groups": [
+    {
+      "group_id": "932",
+      "title": "Cantina Chicken Caesar Burrito",
+      "default_product_code": "28998",
+      "default_product_name": "Cantina Chicken Caesar Burrito"
+    },
     {
       "group_id": "451",
       "title": "Avocado Verde Salsa Sauce Packet",
@@ -2170,15 +2171,6 @@
       6.49,
       "Taco Bell",
       "Owensville",
-      "MO"
-    ],
-    [
-      "029661",
-      38.797203263688786,
-      -90.62123139202185,
-      6.49,
-      "Taco Bell",
-      "Saint Peters",
       "MO"
     ]
   ],

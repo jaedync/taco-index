@@ -21,13 +21,13 @@
     "min": 3.69,
     "max": 3.99,
     "median": 3.79,
-    "std_dev": 0.11,
-    "store_count": 11
+    "std_dev": 0.09,
+    "store_count": 8
   },
   "histogram": [
     {
       "bucket": "$3.69",
-      "count": 4
+      "count": 2
     },
     {
       "bucket": "$3.79",
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
@@ -72,20 +72,6 @@
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Rancho Cucamonga",
       "state": "CA",
-      "price": 3.69
-    },
-    {
-      "store_number": "041611",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "El Cajon",
-      "state": "CA",
-      "price": 3.69
-    },
-    {
-      "store_number": "031895",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Las Vegas",
-      "state": "NV",
       "price": 3.69
     },
     {
@@ -133,18 +119,9 @@
   ],
   "min_price_store_numbers": [
     "040343",
-    "039835",
-    "041611",
-    "031895"
+    "039835"
   ],
   "priciest_stores": [
-    {
-      "store_number": "039841",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Riverside",
-      "state": "CA",
-      "price": 3.99
-    },
     {
       "store_number": "039804",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -188,28 +165,51 @@
       "price": 3.79
     },
     {
-      "store_number": "031895",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Las Vegas",
-      "state": "NV",
-      "price": 3.69
-    },
-    {
-      "store_number": "041611",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "El Cajon",
-      "state": "CA",
-      "price": 3.69
-    },
-    {
       "store_number": "039835",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Rancho Cucamonga",
       "state": "CA",
       "price": 3.69
+    },
+    {
+      "store_number": "040343",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Las Vegas",
+      "state": "NV",
+      "price": 3.69
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039841",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Riverside",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-08-12T20:59:06.076609+00:00"
+    },
+    {
+      "store_number": "031895",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 3.69,
+      "new_price": null,
+      "observed_at": "2026-08-12T20:58:43.336310+00:00"
+    },
+    {
+      "store_number": "041611",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "El Cajon",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.69,
+      "new_price": null,
+      "observed_at": "2026-08-12T20:58:12.845059+00:00"
+    },
     {
       "store_number": "039795",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -543,7 +543,7 @@
   ],
   "activity_summary": {
     "added": 8,
-    "removed": 25,
+    "removed": 28,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -569,24 +569,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Rancho Cucamonga",
       "CA"
-    ],
-    [
-      "041611",
-      32.802124703776066,
-      -117.00442847203766,
-      3.69,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "El Cajon",
-      "CA"
-    ],
-    [
-      "031895",
-      36.02096277494928,
-      -115.12727299472317,
-      3.69,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Las Vegas",
-      "NV"
     ],
     [
       "024393",
@@ -640,15 +622,6 @@
       3.99,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Orange",
-      "CA"
-    ],
-    [
-      "039841",
-      33.97529500533722,
-      -117.34255380933973,
-      3.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Riverside",
       "CA"
     ]
   ],

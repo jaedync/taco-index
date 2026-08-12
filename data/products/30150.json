@@ -37,12 +37,12 @@
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 183
+      "store_count": 184
     },
     {
       "state": "IN",
       "avg_price": 4.99,
-      "store_count": 23
+      "store_count": 22
     }
   ],
   "nutrition": {
@@ -65,6 +65,13 @@
       "name": "Taco Bell",
       "city": "Elyria",
       "state": "OH",
+      "price": 4.99
+    },
+    {
+      "store_number": "038871",
+      "name": "Taco Bell",
+      "city": "Grosse Pointe",
+      "state": "MI",
       "price": 4.99
     },
     {
@@ -122,17 +129,11 @@
       "city": "Monroe",
       "state": "MI",
       "price": 4.99
-    },
-    {
-      "store_number": "041411",
-      "name": "Taco Bell",
-      "city": "Kalkaska",
-      "state": "MI",
-      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
     "040500",
+    "038871",
     "041324",
     "040437",
     "040759",
@@ -344,7 +345,6 @@
     "033015",
     "030922",
     "002500",
-    "032090",
     "035394",
     "033003",
     "000939",
@@ -515,6 +515,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032090",
+      "store_name": "Taco Bell",
+      "city": "Columbia City",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-12T20:58:00.774839+00:00"
+    },
+    {
+      "store_number": "038871",
+      "store_name": "Taco Bell",
+      "city": "Grosse Pointe",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-12T20:54:53.671856+00:00"
+    },
     {
       "store_number": "033016",
       "store_name": "Taco Bell",
@@ -5547,8 +5567,8 @@
     }
   ],
   "activity_summary": {
-    "added": 406,
-    "removed": 97,
+    "added": 407,
+    "removed": 98,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5565,6 +5585,15 @@
       "Taco Bell",
       "Elyria",
       "OH"
+    ],
+    [
+      "038871",
+      42.411818264438004,
+      -82.91333451525527,
+      4.99,
+      "Taco Bell",
+      "Grosse Pointe",
+      "MI"
     ],
     [
       "041324",
@@ -7466,15 +7495,6 @@
       "OH"
     ],
     [
-      "032090",
-      41.1696539825518,
-      -85.49322286251481,
-      4.99,
-      "Taco Bell",
-      "Columbia City",
-      "IN"
-    ],
-    [
       "035394",
       41.13347095396696,
       -85.10041549801821,
@@ -8340,6 +8360,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-11",
+  "last_seen_date": "2026-08-12",
   "peak_availability_pct": 3.8
 }

@@ -12,24 +12,34 @@
   "is_meatless": true,
   "is_limited": false,
   "peak_30d_pct": 0.6,
-  "recent_price_change_pct": -0.0323,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:07:40.032903+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 7.99,
+    "avg": 8.31,
     "min": 7.99,
-    "max": 7.99,
+    "max": 8.79,
     "median": 7.99,
-    "std_dev": 0.0,
-    "store_count": 1
+    "std_dev": 0.44,
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$7.99",
-      "count": 1
+      "count": 3
+    },
+    {
+      "bucket": "$8.79",
+      "count": 2
     }
   ],
-  "state_prices": [],
+  "state_prices": [
+    {
+      "state": "TX",
+      "avg_price": 8.31,
+      "store_count": 5
+    }
+  ],
   "nutrition": null,
   "cheapest_stores": [
     {
@@ -38,12 +48,70 @@
       "city": "Austin",
       "state": "TX",
       "price": 7.99
+    },
+    {
+      "store_number": "030114",
+      "name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "price": 7.99
+    },
+    {
+      "store_number": "030140",
+      "name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "price": 7.99
+    },
+    {
+      "store_number": "030144",
+      "name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "price": 8.79
+    },
+    {
+      "store_number": "030129",
+      "name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "price": 8.79
     }
   ],
   "min_price_store_numbers": [
-    "030153"
+    "030153",
+    "030114",
+    "030140"
   ],
   "priciest_stores": [
+    {
+      "store_number": "030129",
+      "name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "price": 8.79
+    },
+    {
+      "store_number": "030144",
+      "name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "price": 8.79
+    },
+    {
+      "store_number": "030140",
+      "name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "price": 7.99
+    },
+    {
+      "store_number": "030114",
+      "name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "price": 7.99
+    },
     {
       "store_number": "030153",
       "name": "Taco Bell",
@@ -53,6 +121,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030129",
+      "store_name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.79,
+      "observed_at": "2026-08-12T20:58:39.273045+00:00"
+    },
+    {
+      "store_number": "030140",
+      "store_name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-08-12T20:58:36.088618+00:00"
+    },
+    {
+      "store_number": "030144",
+      "store_name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.79,
+      "observed_at": "2026-08-12T20:57:59.098839+00:00"
+    },
+    {
+      "store_number": "030114",
+      "store_name": "Taco Bell",
+      "city": "Austin",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-08-12T20:57:37.168366+00:00"
+    },
     {
       "store_number": "030153",
       "store_name": "Taco Bell",
@@ -1985,7 +2093,7 @@
     }
   ],
   "activity_summary": {
-    "added": 97,
+    "added": 101,
     "removed": 96,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2003,9 +2111,45 @@
       "Taco Bell",
       "Austin",
       "TX"
+    ],
+    [
+      "030114",
+      30.196683342851397,
+      -97.78586402535439,
+      7.99,
+      "Taco Bell",
+      "Austin",
+      "TX"
+    ],
+    [
+      "030140",
+      30.237776115287026,
+      -97.75250043592057,
+      7.99,
+      "Taco Bell",
+      "Austin",
+      "TX"
+    ],
+    [
+      "030144",
+      30.212929645321346,
+      -97.82951523363181,
+      8.79,
+      "Taco Bell",
+      "Austin",
+      "TX"
+    ],
+    [
+      "030129",
+      30.283288342827763,
+      -97.70391664937051,
+      8.79,
+      "Taco Bell",
+      "Austin",
+      "TX"
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-08-11",
+  "last_seen_date": "2026-08-12",
   "peak_availability_pct": 0.6
 }

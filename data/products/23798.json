@@ -24,19 +24,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 18
+    "store_count": 19
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 18
+      "count": 19
     }
   ],
   "state_prices": [
     {
       "state": "IL",
       "avg_price": 9.0,
-      "store_count": 14
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -142,6 +142,7 @@
     "026734",
     "032082",
     "030539",
+    "032031",
     "031070",
     "032134"
   ],
@@ -158,6 +159,13 @@
       "name": "Taco Bell",
       "city": "Highland",
       "state": "IN",
+      "price": 9.0
+    },
+    {
+      "store_number": "032031",
+      "name": "Taco Bell",
+      "city": "Alsip",
+      "state": "IL",
       "price": 9.0
     },
     {
@@ -208,16 +216,19 @@
       "city": "McHenry",
       "state": "IL",
       "price": 9.0
-    },
-    {
-      "store_number": "026742",
-      "name": "Taco Bell",
-      "city": "New Lenox",
-      "state": "IL",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032031",
+      "store_name": "Taco Bell",
+      "city": "Alsip",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-08-12T20:59:25.926439+00:00"
+    },
     {
       "store_number": "026757",
       "store_name": "Taco Bell",
@@ -1120,7 +1131,7 @@
     }
   ],
   "activity_summary": {
-    "added": 54,
+    "added": 55,
     "removed": 36,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1306,6 +1317,15 @@
       "IL"
     ],
     [
+      "032031",
+      41.67910169304596,
+      -87.72018933312398,
+      9.0,
+      "Taco Bell",
+      "Alsip",
+      "IL"
+    ],
+    [
       "031070",
       41.529048819700705,
       -87.47169573606698,
@@ -1325,6 +1345,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-08-11",
+  "last_seen_date": "2026-08-12",
   "peak_availability_pct": 0.3
 }
