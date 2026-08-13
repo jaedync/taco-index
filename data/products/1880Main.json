@@ -10,17 +10,17 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 0.0,
+  "peak_30d_pct": 0.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-07-31T21:18:18.516633+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 4.09,
+    "avg": 4.23,
     "min": 3.69,
     "max": 4.79,
-    "median": 3.95,
-    "std_dev": 0.48,
-    "store_count": 4
+    "median": 4.0,
+    "std_dev": 0.52,
+    "store_count": 5
   },
   "histogram": [
     {
@@ -37,7 +37,7 @@
     },
     {
       "bucket": "$4.79",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -70,12 +70,26 @@
       "city": "Sacramento",
       "state": "CA",
       "price": 4.79
+    },
+    {
+      "store_number": "030479",
+      "name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "price": 4.79
     }
   ],
   "min_price_store_numbers": [
     "035462"
   ],
   "priciest_stores": [
+    {
+      "store_number": "030479",
+      "name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "price": 4.79
+    },
     {
       "store_number": "036425",
       "name": "Taco Bell Cantina",
@@ -106,6 +120,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030479",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.79,
+      "observed_at": "2026-08-13T20:37:09.761808+00:00"
+    },
     {
       "store_number": "035462",
       "store_name": "Taco Bell Cantina",
@@ -228,7 +252,7 @@
     }
   ],
   "activity_summary": {
-    "added": 8,
+    "added": 9,
     "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -273,15 +297,24 @@
       "Taco Bell Cantina",
       "Sacramento",
       "CA"
+    ],
+    [
+      "030479",
+      38.6017353264456,
+      -121.42743280306085,
+      4.79,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
     ]
   ],
   "retired_at": "2026-08-01T22:05:23.695729+00:00",
-  "last_seen_date": "2026-08-12",
-  "peak_availability_pct": 0.0,
+  "last_seen_date": "2026-08-13",
+  "peak_availability_pct": 0.1,
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 4.09,
+      "avg_price": 4.23,
       "min_price": 3.69,
       "max_price": 4.79,
       "calories": 0,

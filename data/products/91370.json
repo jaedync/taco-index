@@ -22,12 +22,12 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 5
+    "store_count": 6
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 5
+      "count": 6
     }
   ],
   "state_prices": [],
@@ -44,6 +44,13 @@
       "store_number": "042906",
       "name": "Taco Bell",
       "city": "Miami",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "042897",
+      "name": "Taco Bell",
+      "city": "Port Saint Lucie",
       "state": "FL",
       "price": 10.99
     },
@@ -72,6 +79,7 @@
   "min_price_store_numbers": [
     "042937",
     "042906",
+    "042897",
     "042572",
     "042875",
     "042970"
@@ -99,6 +107,13 @@
       "price": 10.99
     },
     {
+      "store_number": "042897",
+      "name": "Taco Bell",
+      "city": "Port Saint Lucie",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "042906",
       "name": "Taco Bell",
       "city": "Miami",
@@ -114,6 +129,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042897",
+      "store_name": "Taco Bell",
+      "city": "Port Saint Lucie",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-13T20:38:11.773701+00:00"
+    },
     {
       "store_number": "042906",
       "store_name": "Taco Bell",
@@ -246,7 +271,7 @@
     }
   ],
   "activity_summary": {
-    "added": 9,
+    "added": 10,
     "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -300,6 +325,15 @@
       "FL"
     ],
     [
+      "042897",
+      27.30132956815393,
+      -80.3053405880928,
+      10.99,
+      "Taco Bell",
+      "Port Saint Lucie",
+      "FL"
+    ],
+    [
       "042572",
       33.53980644411624,
       -84.57611403902706,
@@ -328,6 +362,6 @@
     ]
   ],
   "retired_at": "2026-08-07T21:31:20.860518+00:00",
-  "last_seen_date": "2026-08-12",
+  "last_seen_date": "2026-08-13",
   "peak_availability_pct": 0.1
 }

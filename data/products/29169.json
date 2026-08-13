@@ -17,19 +17,19 @@
   "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.16,
+    "avg": 9.18,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.39,
-    "store_count": 12
+    "std_dev": 0.4,
+    "store_count": 11
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 10
+      "count": 9
     },
     {
       "bucket": "$9.99",
@@ -39,8 +39,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.17,
-      "store_count": 12
+      "avg_price": 9.18,
+      "store_count": 11
     }
   ],
   "nutrition": {
@@ -62,13 +62,6 @@
       "store_number": "040730",
       "name": "Taco Bell",
       "city": "Edgewater",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "037110",
-      "name": "Taco Bell",
-      "city": "Kissimmee",
       "state": "FL",
       "price": 9.0
     },
@@ -127,11 +120,17 @@
       "city": "Saint Cloud",
       "state": "FL",
       "price": 9.0
+    },
+    {
+      "store_number": "042942",
+      "name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "price": 9.99
     }
   ],
   "min_price_store_numbers": [
     "040730",
-    "037110",
     "030349",
     "022592",
     "027988",
@@ -214,6 +213,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037110",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-08-13T20:37:19.827055+00:00"
+    },
     {
       "store_number": "022592",
       "store_name": "Taco Bell",
@@ -4677,7 +4686,7 @@
   ],
   "activity_summary": {
     "added": 229,
-    "removed": 217,
+    "removed": 218,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4724,15 +4733,6 @@
       9.0,
       "Taco Bell",
       "Edgewater",
-      "FL"
-    ],
-    [
-      "037110",
-      28.34617964975096,
-      -81.64492094604472,
-      9.0,
-      "Taco Bell",
-      "Kissimmee",
       "FL"
     ],
     [
@@ -4827,6 +4827,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-08-12",
+  "last_seen_date": "2026-08-13",
   "peak_availability_pct": 1.2
 }

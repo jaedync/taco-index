@@ -12,22 +12,22 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 0.0,
+  "peak_30d_pct": 0.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-08-12T20:59:37.500405+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
     "avg": 1.0,
     "min": 1.0,
     "max": 1.0,
     "median": 1.0,
     "std_dev": 0.0,
-    "store_count": 1
+    "store_count": 8
   },
   "histogram": [
     {
       "bucket": "$1.00",
-      "count": 1
+      "count": 8
     }
   ],
   "state_prices": [],
@@ -47,26 +47,221 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "042876",
+      "store_number": "026276",
       "name": "Taco Bell",
-      "city": "Jacksonville",
-      "state": "FL",
+      "city": "Columbia",
+      "state": "MS",
+      "price": 1.0
+    },
+    {
+      "store_number": "032990",
+      "name": "Taco Bell",
+      "city": "Sturgis",
+      "state": "MI",
+      "price": 1.0
+    },
+    {
+      "store_number": "035232",
+      "name": "Taco Bell",
+      "city": "Liberty",
+      "state": "MO",
+      "price": 1.0
+    },
+    {
+      "store_number": "026772",
+      "name": "Taco Bell",
+      "city": "Slidell",
+      "state": "LA",
+      "price": 1.0
+    },
+    {
+      "store_number": "016664",
+      "name": "Taco Bell",
+      "city": "Bogalusa",
+      "state": "LA",
+      "price": 1.0
+    },
+    {
+      "store_number": "002875",
+      "name": "Taco Bell",
+      "city": "Slidell",
+      "state": "LA",
+      "price": 1.0
+    },
+    {
+      "store_number": "031713",
+      "name": "Taco Bell",
+      "city": "Franklinton",
+      "state": "LA",
+      "price": 1.0
+    },
+    {
+      "store_number": "031405",
+      "name": "Taco Bell",
+      "city": "San Antonio",
+      "state": "TX",
       "price": 1.0
     }
   ],
   "min_price_store_numbers": [
-    "042876"
+    "026276",
+    "032990",
+    "035232",
+    "026772",
+    "016664",
+    "002875",
+    "031713",
+    "031405"
   ],
   "priciest_stores": [
     {
-      "store_number": "042876",
+      "store_number": "031405",
       "name": "Taco Bell",
-      "city": "Jacksonville",
-      "state": "FL",
+      "city": "San Antonio",
+      "state": "TX",
+      "price": 1.0
+    },
+    {
+      "store_number": "031713",
+      "name": "Taco Bell",
+      "city": "Franklinton",
+      "state": "LA",
+      "price": 1.0
+    },
+    {
+      "store_number": "002875",
+      "name": "Taco Bell",
+      "city": "Slidell",
+      "state": "LA",
+      "price": 1.0
+    },
+    {
+      "store_number": "016664",
+      "name": "Taco Bell",
+      "city": "Bogalusa",
+      "state": "LA",
+      "price": 1.0
+    },
+    {
+      "store_number": "026772",
+      "name": "Taco Bell",
+      "city": "Slidell",
+      "state": "LA",
+      "price": 1.0
+    },
+    {
+      "store_number": "035232",
+      "name": "Taco Bell",
+      "city": "Liberty",
+      "state": "MO",
+      "price": 1.0
+    },
+    {
+      "store_number": "032990",
+      "name": "Taco Bell",
+      "city": "Sturgis",
+      "state": "MI",
+      "price": 1.0
+    },
+    {
+      "store_number": "026276",
+      "name": "Taco Bell",
+      "city": "Columbia",
+      "state": "MS",
       "price": 1.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042876",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-08-13T20:42:22.051902+00:00"
+    },
+    {
+      "store_number": "031405",
+      "store_name": "Taco Bell",
+      "city": "San Antonio",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-08-13T20:42:14.451398+00:00"
+    },
+    {
+      "store_number": "031713",
+      "store_name": "Taco Bell",
+      "city": "Franklinton",
+      "state": "LA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-08-13T20:42:06.381718+00:00"
+    },
+    {
+      "store_number": "002875",
+      "store_name": "Taco Bell",
+      "city": "Slidell",
+      "state": "LA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-08-13T20:41:45.955118+00:00"
+    },
+    {
+      "store_number": "016664",
+      "store_name": "Taco Bell",
+      "city": "Bogalusa",
+      "state": "LA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-08-13T20:41:32.017865+00:00"
+    },
+    {
+      "store_number": "026772",
+      "store_name": "Taco Bell",
+      "city": "Slidell",
+      "state": "LA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-08-13T20:41:18.206347+00:00"
+    },
+    {
+      "store_number": "035232",
+      "store_name": "Taco Bell",
+      "city": "Liberty",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-08-13T20:41:05.145841+00:00"
+    },
+    {
+      "store_number": "032990",
+      "store_name": "Taco Bell",
+      "city": "Sturgis",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-08-13T20:40:08.016540+00:00"
+    },
+    {
+      "store_number": "026276",
+      "store_name": "Taco Bell",
+      "city": "Columbia",
+      "state": "MS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-08-13T20:38:25.382000+00:00"
+    },
     {
       "store_number": "042876",
       "store_name": "Taco Bell",
@@ -79,8 +274,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1,
-    "removed": 0,
+    "added": 9,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -90,13 +285,76 @@
   "combo_groups": [],
   "map_data": [
     [
-      "042876",
-      30.179809146878867,
-      -81.55406301401999,
+      "026276",
+      31.239370749744207,
+      -89.8192564948792,
       1.0,
       "Taco Bell",
-      "Jacksonville",
-      "FL"
+      "Columbia",
+      "MS"
+    ],
+    [
+      "032990",
+      41.79176262345105,
+      -85.42896328261122,
+      1.0,
+      "Taco Bell",
+      "Sturgis",
+      "MI"
+    ],
+    [
+      "035232",
+      39.242138952929146,
+      -94.44060449303834,
+      1.0,
+      "Taco Bell",
+      "Liberty",
+      "MO"
+    ],
+    [
+      "026772",
+      30.24492483134064,
+      -89.76005990804879,
+      1.0,
+      "Taco Bell",
+      "Slidell",
+      "LA"
+    ],
+    [
+      "016664",
+      30.791278685191404,
+      -89.86143171787262,
+      1.0,
+      "Taco Bell",
+      "Bogalusa",
+      "LA"
+    ],
+    [
+      "002875",
+      30.284136125356948,
+      -89.751096367836,
+      1.0,
+      "Taco Bell",
+      "Slidell",
+      "LA"
+    ],
+    [
+      "031713",
+      30.84754065241243,
+      -90.15155872635461,
+      1.0,
+      "Taco Bell",
+      "Franklinton",
+      "LA"
+    ],
+    [
+      "031405",
+      29.497566489169305,
+      -98.71246127178892,
+      1.0,
+      "Taco Bell",
+      "San Antonio",
+      "TX"
     ]
   ],
   "retired_at": null,

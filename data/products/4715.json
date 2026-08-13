@@ -22,7 +22,7 @@
     "max": 1.29,
     "median": 1.0,
     "std_dev": 0.06,
-    "store_count": 603
+    "store_count": 604
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 27
+      "count": 28
     }
   ],
   "state_prices": [
@@ -53,7 +53,7 @@
     {
       "state": "OH",
       "avg_price": 1.0,
-      "store_count": 207
+      "store_count": 208
     }
   ],
   "nutrition": {
@@ -205,6 +205,7 @@
     "035136",
     "036293",
     "036302",
+    "034611",
     "036237",
     "036386",
     "036303",
@@ -363,7 +364,6 @@
     "015681",
     "003297",
     "040657",
-    "001264",
     "003293",
     "005018",
     "021342",
@@ -729,6 +729,13 @@
       "price": 1.29
     },
     {
+      "store_number": "042641",
+      "name": "Taco Bell",
+      "city": "Alpena",
+      "state": "MI",
+      "price": 1.29
+    },
+    {
       "store_number": "042651",
       "name": "Taco Bell",
       "city": "Mount Pleasant",
@@ -783,16 +790,39 @@
       "city": "Houghton Lake",
       "state": "MI",
       "price": 1.29
-    },
-    {
-      "store_number": "042644",
-      "name": "Taco Bell",
-      "city": "Angola",
-      "state": "IN",
-      "price": 1.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042641",
+      "store_name": "Taco Bell",
+      "city": "Alpena",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.29,
+      "observed_at": "2026-08-13T20:42:16.182551+00:00"
+    },
+    {
+      "store_number": "001264",
+      "store_name": "Taco Bell",
+      "city": "Redford",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-08-13T20:37:35.422540+00:00"
+    },
+    {
+      "store_number": "034611",
+      "store_name": "Taco Bell",
+      "city": "Wintersville",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-08-13T20:36:51.832316+00:00"
+    },
     {
       "store_number": "042641",
       "store_name": "Taco Bell",
@@ -7855,8 +7885,8 @@
     }
   ],
   "activity_summary": {
-    "added": 643,
-    "removed": 34,
+    "added": 645,
+    "removed": 35,
     "price_changed": 29,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8421,6 +8451,15 @@
       1.0,
       "Taco Bell",
       "Brunswick",
+      "OH"
+    ],
+    [
+      "034611",
+      40.371738586521595,
+      -80.68859002919037,
+      1.0,
+      "Taco Bell",
+      "Wintersville",
       "OH"
     ],
     [
@@ -9843,15 +9882,6 @@
       1.0,
       "Taco Bell",
       "Ypsilanti",
-      "MI"
-    ],
-    [
-      "001264",
-      42.37105097615619,
-      -83.30310358668612,
-      1.0,
-      "Taco Bell",
-      "Redford",
       "MI"
     ],
     [
@@ -13284,6 +13314,15 @@
       "MI"
     ],
     [
+      "042641",
+      45.04514546485744,
+      -83.452195953373,
+      1.29,
+      "Taco Bell",
+      "Alpena",
+      "MI"
+    ],
+    [
       "042652",
       43.61102564734859,
       -84.73307537831592,
@@ -13294,6 +13333,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-12",
+  "last_seen_date": "2026-08-13",
   "peak_availability_pct": 7.4
 }

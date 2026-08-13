@@ -26,7 +26,7 @@
   "histogram": [
     {
       "bucket": "$2.39",
-      "count": 10
+      "count": 11
     },
     {
       "bucket": "$2.49",
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 192
+      "count": 191
     },
     {
       "bucket": "$3.25",
@@ -66,11 +66,11 @@
     },
     {
       "bucket": "$3.29",
-      "count": 226
+      "count": 227
     },
     {
       "bucket": "$3.39",
-      "count": 12
+      "count": 11
     },
     {
       "bucket": "$3.49",
@@ -84,14 +84,14 @@
       "store_count": 11
     },
     {
-      "state": "CA",
-      "avg_price": 3.29,
-      "store_count": 9
-    },
-    {
       "state": "AR",
       "avg_price": 3.28,
-      "store_count": 95
+      "store_count": 96
+    },
+    {
+      "state": "CA",
+      "avg_price": 3.28,
+      "store_count": 8
     },
     {
       "state": "OK",
@@ -105,8 +105,8 @@
     },
     {
       "state": "TX",
-      "avg_price": 3.0,
-      "store_count": 445
+      "avg_price": 2.99,
+      "store_count": 446
     },
     {
       "state": "GA",
@@ -202,7 +202,8 @@
     "028280",
     "028282",
     "028284",
-    "028277"
+    "028277",
+    "028281"
   ],
   "priciest_stores": [
     {
@@ -211,13 +212,6 @@
       "city": "Kansas City",
       "state": "MO",
       "price": 3.49
-    },
-    {
-      "store_number": "030743",
-      "name": "Taco Bell",
-      "city": "Concord",
-      "state": "CA",
-      "price": 3.39
     },
     {
       "store_number": "030755",
@@ -274,9 +268,76 @@
       "city": "Liberty",
       "state": "MO",
       "price": 3.39
+    },
+    {
+      "store_number": "035243",
+      "name": "Taco Bell",
+      "city": "Independence",
+      "state": "MO",
+      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031405",
+      "store_name": "Taco Bell",
+      "city": "San Antonio",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-08-13T20:42:14.451398+00:00"
+    },
+    {
+      "store_number": "028281",
+      "store_name": "Taco Bell",
+      "city": "Mineola",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.39,
+      "observed_at": "2026-08-13T20:42:05.402901+00:00"
+    },
+    {
+      "store_number": "030743",
+      "store_name": "Taco Bell",
+      "city": "Concord",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-08-13T20:41:46.191299+00:00"
+    },
+    {
+      "store_number": "017278",
+      "store_name": "Taco Bell",
+      "city": "Little Rock",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-08-13T20:39:06.085938+00:00"
+    },
+    {
+      "store_number": "026044",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-08-13T20:38:20.600219+00:00"
+    },
+    {
+      "store_number": "035694",
+      "store_name": "Taco Bell",
+      "city": "Livingston",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-08-13T20:37:29.572149+00:00"
+    },
     {
       "store_number": "041184",
       "store_name": "Taco Bell",
@@ -10639,8 +10700,8 @@
     }
   ],
   "activity_summary": {
-    "added": 437,
-    "removed": 438,
+    "added": 440,
+    "removed": 441,
     "price_changed": 161,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10737,6 +10798,15 @@
       2.39,
       "Taco Bell",
       "Tyler",
+      "TX"
+    ],
+    [
+      "028281",
+      32.68878897218434,
+      -95.48358075203485,
+      2.39,
+      "Taco Bell",
+      "Mineola",
       "TX"
     ],
     [
@@ -13683,15 +13753,6 @@
       "TX"
     ],
     [
-      "035694",
-      30.713619041513727,
-      -94.95498388926401,
-      3.19,
-      "Taco Bell",
-      "Livingston",
-      "TX"
-    ],
-    [
       "035732",
       29.210304361406475,
       -96.28144651651382,
@@ -14754,6 +14815,15 @@
       "TX"
     ],
     [
+      "031405",
+      29.497566489169305,
+      -98.71246127178892,
+      3.19,
+      "Taco Bell",
+      "San Antonio",
+      "TX"
+    ],
+    [
       "033289",
       35.23165163347226,
       -97.42304249629271,
@@ -15022,15 +15092,6 @@
       "Taco Bell",
       "Lancaster",
       "TX"
-    ],
-    [
-      "026044",
-      35.75195423417623,
-      -83.9964301791224,
-      3.19,
-      "Taco Bell",
-      "Maryville",
-      "TN"
     ],
     [
       "015522",
@@ -15642,6 +15703,15 @@
       3.29,
       "Taco Bell",
       "Sherwood",
+      "AR"
+    ],
+    [
+      "017278",
+      34.74212053139587,
+      -92.27611050009727,
+      3.29,
+      "Taco Bell",
+      "Little Rock",
       "AR"
     ],
     [
@@ -17208,15 +17278,6 @@
       3.39,
       "Taco Bell",
       "Newark",
-      "CA"
-    ],
-    [
-      "030743",
-      37.95414573414554,
-      -122.04167797708628,
-      3.39,
-      "Taco Bell",
-      "Concord",
       "CA"
     ],
     [
