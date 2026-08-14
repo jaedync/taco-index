@@ -18,17 +18,17 @@
   "first_seen_at": "2026-06-18T21:25:52.078312+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 5.81,
+    "avg": 5.84,
     "min": 5.49,
     "max": 5.99,
     "median": 5.99,
-    "std_dev": 0.25,
-    "store_count": 11
+    "std_dev": 0.24,
+    "store_count": 10
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$5.99",
@@ -51,13 +51,6 @@
     "serving_size_g": 257.9803
   },
   "cheapest_stores": [
-    {
-      "store_number": "035717",
-      "name": "Taco Bell / KFC",
-      "city": "Cypress",
-      "state": "TX",
-      "price": 5.49
-    },
     {
       "store_number": "039755",
       "name": "Taco Bell / KFC",
@@ -120,10 +113,16 @@
       "city": "Creedmoor",
       "state": "NC",
       "price": 5.99
+    },
+    {
+      "store_number": "030424",
+      "name": "Taco Bell / KFC",
+      "city": "Osceola",
+      "state": "IA",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
-    "035717",
     "039755",
     "028153",
     "003758"
@@ -201,6 +200,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035717",
+      "store_name": "Taco Bell / KFC",
+      "city": "Cypress",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-08-14T21:31:49.215534+00:00"
+    },
     {
       "store_number": "003881",
       "store_name": "Taco Bell / KFC",
@@ -1354,7 +1363,7 @@
   ],
   "activity_summary": {
     "added": 63,
-    "removed": 52,
+    "removed": 53,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1363,15 +1372,6 @@
   "calories_max": 540,
   "combo_groups": [],
   "map_data": [
-    [
-      "035717",
-      29.995722509460837,
-      -95.62410682439804,
-      5.49,
-      "Taco Bell / KFC",
-      "Cypress",
-      "TX"
-    ],
     [
       "039755",
       35.90738830540608,
@@ -1464,6 +1464,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-08-13",
+  "last_seen_date": "2026-08-14",
   "peak_availability_pct": 0.4
 }

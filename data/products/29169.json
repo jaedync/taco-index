@@ -17,19 +17,19 @@
   "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.2,
   "price_stats": {
-    "avg": 9.18,
+    "avg": 9.14,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.4,
-    "store_count": 11
+    "std_dev": 0.36,
+    "store_count": 14
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 9
+      "count": 12
     },
     {
       "bucket": "$9.99",
@@ -39,8 +39,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.18,
-      "store_count": 11
+      "avg_price": 9.14,
+      "store_count": 14
     }
   ],
   "nutrition": {
@@ -66,6 +66,20 @@
       "price": 9.0
     },
     {
+      "store_number": "037110",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
+      "store_number": "032537",
+      "name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "030349",
       "name": "Taco Bell",
       "city": "Melbourne",
@@ -76,6 +90,13 @@
       "store_number": "022592",
       "name": "Taco Bell",
       "city": "Daytona Beach",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
+      "store_number": "027983",
+      "name": "Taco Bell",
+      "city": "Orlando",
       "state": "FL",
       "price": 9.0
     },
@@ -106,33 +127,15 @@
       "city": "Melbourne",
       "state": "FL",
       "price": 9.0
-    },
-    {
-      "store_number": "027984",
-      "name": "Taco Bell",
-      "city": "Sanford",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "034163",
-      "name": "Taco Bell",
-      "city": "Saint Cloud",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "042942",
-      "name": "Taco Bell",
-      "city": "Ocala",
-      "state": "FL",
-      "price": 9.99
     }
   ],
   "min_price_store_numbers": [
     "040730",
+    "037110",
+    "032537",
     "030349",
     "022592",
+    "027983",
     "027988",
     "022833",
     "027971",
@@ -198,21 +201,51 @@
       "price": 9.0
     },
     {
+      "store_number": "027983",
+      "name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "022592",
       "name": "Taco Bell",
       "city": "Daytona Beach",
       "state": "FL",
       "price": 9.0
-    },
-    {
-      "store_number": "030349",
-      "name": "Taco Bell",
-      "city": "Melbourne",
-      "state": "FL",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027983",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-08-14T21:32:15.744222+00:00"
+    },
+    {
+      "store_number": "032537",
+      "store_name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-08-14T21:32:01.477482+00:00"
+    },
+    {
+      "store_number": "037110",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-08-14T21:31:46.274320+00:00"
+    },
     {
       "store_number": "037110",
       "store_name": "Taco Bell",
@@ -4685,7 +4718,7 @@
     }
   ],
   "activity_summary": {
-    "added": 229,
+    "added": 232,
     "removed": 218,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4736,6 +4769,24 @@
       "FL"
     ],
     [
+      "037110",
+      28.34617964975096,
+      -81.64492094604472,
+      9.0,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
+    [
+      "032537",
+      28.82412737453517,
+      -81.79163746182154,
+      9.0,
+      "Taco Bell",
+      "Leesburg",
+      "FL"
+    ],
+    [
       "030349",
       28.231152164188327,
       -80.70049432232909,
@@ -4751,6 +4802,15 @@
       9.0,
       "Taco Bell",
       "Daytona Beach",
+      "FL"
+    ],
+    [
+      "027983",
+      28.608677522862287,
+      -81.39008417441511,
+      9.0,
+      "Taco Bell",
+      "Orlando",
       "FL"
     ],
     [
@@ -4827,6 +4887,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-08-13",
+  "last_seen_date": "2026-08-14",
   "peak_availability_pct": 1.2
 }

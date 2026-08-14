@@ -17,21 +17,21 @@
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 4.26,
+    "avg": 4.21,
     "min": 3.99,
     "max": 4.49,
     "median": 4.29,
-    "std_dev": 0.16,
+    "std_dev": 0.18,
     "store_count": 38
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 8
+      "count": 14
     },
     {
       "bucket": "$4.29",
-      "count": 24
+      "count": 18
     },
     {
       "bucket": "$4.49",
@@ -41,12 +41,12 @@
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.35,
+      "avg_price": 4.32,
       "store_count": 19
     },
     {
       "state": "TX",
-      "avg_price": 4.14,
+      "avg_price": 4.07,
       "store_count": 16
     }
   ],
@@ -115,25 +115,25 @@
       "price": 3.99
     },
     {
-      "store_number": "022811",
+      "store_number": "001089",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Spring",
+      "city": "Dallas",
       "state": "TX",
       "price": 3.99
     },
     {
-      "store_number": "036171",
+      "store_number": "027669",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Henderson",
-      "state": "NV",
-      "price": 4.29
+      "city": "Fort Worth",
+      "state": "TX",
+      "price": 3.99
     },
     {
-      "store_number": "040343",
+      "store_number": "027505",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Las Vegas",
-      "state": "NV",
-      "price": 4.29
+      "city": "Irvine",
+      "state": "CA",
+      "price": 3.99
     }
   ],
   "min_price_store_numbers": [
@@ -144,6 +144,12 @@
     "002689",
     "002851",
     "026050",
+    "001089",
+    "027669",
+    "027505",
+    "001331",
+    "002984",
+    "027416",
     "022811"
   ],
   "priciest_stores": [
@@ -197,13 +203,6 @@
       "price": 4.29
     },
     {
-      "store_number": "027416",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Irving",
-      "state": "TX",
-      "price": 4.29
-    },
-    {
       "store_number": "041613",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Chula Vista",
@@ -216,9 +215,76 @@
       "city": "Las Vegas",
       "state": "NV",
       "price": 4.29
+    },
+    {
+      "store_number": "027489",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mesquite",
+      "state": "TX",
+      "price": 4.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027416",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
+      "state": "TX",
+      "change_type": "price_change",
+      "old_price": 4.29,
+      "new_price": 3.99,
+      "observed_at": "2026-08-14T21:33:42.204271+00:00"
+    },
+    {
+      "store_number": "002984",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mission Viejo",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.29,
+      "new_price": 3.99,
+      "observed_at": "2026-08-14T21:32:56.139872+00:00"
+    },
+    {
+      "store_number": "001331",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Dallas",
+      "state": "TX",
+      "change_type": "price_change",
+      "old_price": 4.29,
+      "new_price": 3.99,
+      "observed_at": "2026-08-14T21:32:48.909598+00:00"
+    },
+    {
+      "store_number": "027505",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irvine",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.29,
+      "new_price": 3.99,
+      "observed_at": "2026-08-14T21:32:37.140671+00:00"
+    },
+    {
+      "store_number": "027669",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "price_change",
+      "old_price": 4.29,
+      "new_price": 3.99,
+      "observed_at": "2026-08-14T21:32:32.647661+00:00"
+    },
+    {
+      "store_number": "001089",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Dallas",
+      "state": "TX",
+      "change_type": "price_change",
+      "old_price": 4.29,
+      "new_price": 3.99,
+      "observed_at": "2026-08-14T21:32:26.668503+00:00"
+    },
     {
       "store_number": "031895",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -393,7 +459,7 @@
   "activity_summary": {
     "added": 3,
     "removed": 2,
-    "price_changed": 12,
+    "price_changed": 18,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 0,
@@ -465,6 +531,60 @@
       "TX"
     ],
     [
+      "001089",
+      32.83626582002558,
+      -96.77328680457322,
+      3.99,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Dallas",
+      "TX"
+    ],
+    [
+      "027669",
+      32.89279522526115,
+      -97.28746792244917,
+      3.99,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Fort Worth",
+      "TX"
+    ],
+    [
+      "027505",
+      33.650962951678,
+      -117.8408906281372,
+      3.99,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Irvine",
+      "CA"
+    ],
+    [
+      "001331",
+      32.82675010523157,
+      -96.83056600394593,
+      3.99,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Dallas",
+      "TX"
+    ],
+    [
+      "002984",
+      33.651804662352674,
+      -117.64569823445527,
+      3.99,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Mission Viejo",
+      "CA"
+    ],
+    [
+      "027416",
+      32.83776989676744,
+      -96.95856750011444,
+      3.99,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Irving",
+      "TX"
+    ],
+    [
       "022811",
       30.075174271564272,
       -95.51512733101845,
@@ -510,24 +630,6 @@
       "TX"
     ],
     [
-      "001089",
-      32.83626582002558,
-      -96.77328680457322,
-      4.29,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Dallas",
-      "TX"
-    ],
-    [
-      "027669",
-      32.89279522526115,
-      -97.28746792244917,
-      4.29,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Fort Worth",
-      "TX"
-    ],
-    [
       "039804",
       33.78127193927385,
       -117.86784589290619,
@@ -543,15 +645,6 @@
       4.29,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Temecula",
-      "CA"
-    ],
-    [
-      "027505",
-      33.650962951678,
-      -117.8408906281372,
-      4.29,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Irvine",
       "CA"
     ],
     [
@@ -573,15 +666,6 @@
       "CA"
     ],
     [
-      "001331",
-      32.82675010523157,
-      -96.83056600394593,
-      4.29,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Dallas",
-      "TX"
-    ],
-    [
       "016276",
       33.917687157419614,
       -117.90252108873574,
@@ -597,15 +681,6 @@
       4.29,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Fullerton",
-      "CA"
-    ],
-    [
-      "002984",
-      33.651804662352674,
-      -117.64569823445527,
-      4.29,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Mission Viejo",
       "CA"
     ],
     [
@@ -670,15 +745,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Chula Vista",
       "CA"
-    ],
-    [
-      "027416",
-      32.83776989676744,
-      -96.95856750011444,
-      4.29,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Irving",
-      "TX"
     ],
     [
       "021422",
@@ -750,7 +816,7 @@
   "drink_sizes": [
     {
       "size": "MEDIUM",
-      "avg_price": 4.26,
+      "avg_price": 4.21,
       "min_price": 3.99,
       "max_price": 4.49,
       "calories": 310,
@@ -758,7 +824,7 @@
     },
     {
       "size": "SMALL",
-      "avg_price": 3.94,
+      "avg_price": 3.91,
       "min_price": 3.79,
       "max_price": 3.99,
       "calories": 290,
