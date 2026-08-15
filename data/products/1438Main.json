@@ -17,12 +17,12 @@
   "first_seen_at": "2026-03-30T00:43:56.350587+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.79,
+    "avg": 3.76,
     "min": 3.69,
-    "max": 3.99,
+    "max": 3.79,
     "median": 3.79,
-    "std_dev": 0.09,
-    "store_count": 8
+    "std_dev": 0.05,
+    "store_count": 7
   },
   "histogram": [
     {
@@ -32,10 +32,6 @@
     {
       "bucket": "$3.79",
       "count": 5
-    },
-    {
-      "bucket": "$3.99",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -108,13 +104,6 @@
       "city": "Irving",
       "state": "TX",
       "price": 3.79
-    },
-    {
-      "store_number": "039804",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Orange",
-      "state": "CA",
-      "price": 3.99
     }
   ],
   "min_price_store_numbers": [
@@ -122,13 +111,6 @@
     "039835"
   ],
   "priciest_stores": [
-    {
-      "store_number": "039804",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Orange",
-      "state": "CA",
-      "price": 3.99
-    },
     {
       "store_number": "021422",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -180,6 +162,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039804",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Orange",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-08-15T20:49:14.616961+00:00"
+    },
     {
       "store_number": "039841",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -543,7 +535,7 @@
   ],
   "activity_summary": {
     "added": 8,
-    "removed": 28,
+    "removed": 29,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -614,15 +606,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Irving",
       "TX"
-    ],
-    [
-      "039804",
-      33.78127193927385,
-      -117.86784589290619,
-      3.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Orange",
-      "CA"
     ]
   ],
   "retired_at": null,

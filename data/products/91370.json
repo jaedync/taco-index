@@ -22,12 +22,12 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 5
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 5
+      "count": 4
     }
   ],
   "state_prices": [],
@@ -60,30 +60,15 @@
       "city": "Fairburn",
       "state": "GA",
       "price": 10.99
-    },
-    {
-      "store_number": "042970",
-      "name": "Taco Bell",
-      "city": "Port Saint Lucie",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "042937",
     "042906",
     "042897",
-    "042572",
-    "042970"
+    "042572"
   ],
   "priciest_stores": [
-    {
-      "store_number": "042970",
-      "name": "Taco Bell",
-      "city": "Port Saint Lucie",
-      "state": "FL",
-      "price": 10.99
-    },
     {
       "store_number": "042572",
       "name": "Taco Bell",
@@ -114,6 +99,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042970",
+      "store_name": "Taco Bell",
+      "city": "Port Saint Lucie",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-15T20:50:38.172304+00:00"
+    },
     {
       "store_number": "042875",
       "store_name": "Taco Bell",
@@ -267,7 +262,7 @@
   ],
   "activity_summary": {
     "added": 10,
-    "removed": 5,
+    "removed": 6,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -336,18 +331,9 @@
       "Taco Bell",
       "Fairburn",
       "GA"
-    ],
-    [
-      "042970",
-      27.27428750457316,
-      -80.34850978217297,
-      10.99,
-      "Taco Bell",
-      "Port Saint Lucie",
-      "FL"
     ]
   ],
   "retired_at": "2026-08-07T21:31:20.860518+00:00",
-  "last_seen_date": "2026-08-14",
+  "last_seen_date": "2026-08-15",
   "peak_availability_pct": 0.1
 }

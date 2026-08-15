@@ -17,26 +17,26 @@
   "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:48:25.343572+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.3,
   "price_stats": {
     "avg": 7.0,
     "min": 7.0,
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 18
+    "store_count": 20
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 18
+      "count": 20
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 7.0,
-      "store_count": 18
+      "store_count": 20
     }
   ],
   "nutrition": {
@@ -143,9 +143,25 @@
     "034943",
     "030392",
     "030382",
-    "039138"
+    "039138",
+    "036340",
+    "028361"
   ],
   "priciest_stores": [
+    {
+      "store_number": "028361",
+      "name": "Taco Bell",
+      "city": "Elk City",
+      "state": "OK",
+      "price": 7.0
+    },
+    {
+      "store_number": "036340",
+      "name": "Taco Bell",
+      "city": "Weatherford",
+      "state": "OK",
+      "price": 7.0
+    },
     {
       "store_number": "039138",
       "name": "Taco Bell",
@@ -201,23 +217,29 @@
       "city": "Shawnee",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "030384",
-      "name": "Taco Bell",
-      "city": "Yukon",
-      "state": "OK",
-      "price": 7.0
-    },
-    {
-      "store_number": "033280",
-      "name": "Taco Bell",
-      "city": "Edmond",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028361",
+      "store_name": "Taco Bell",
+      "city": "Elk City",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-08-15T20:50:26.017366+00:00"
+    },
+    {
+      "store_number": "036340",
+      "store_name": "Taco Bell",
+      "city": "Weatherford",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-08-15T20:47:54.867378+00:00"
+    },
     {
       "store_number": "039138",
       "store_name": "Taco Bell",
@@ -610,7 +632,7 @@
     }
   ],
   "activity_summary": {
-    "added": 25,
+    "added": 27,
     "removed": 14,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -811,6 +833,24 @@
       7.0,
       "Taco Bell",
       "Anadarko",
+      "OK"
+    ],
+    [
+      "036340",
+      35.52749034049927,
+      -98.69203892919589,
+      7.0,
+      "Taco Bell",
+      "Weatherford",
+      "OK"
+    ],
+    [
+      "028361",
+      35.411995466212105,
+      -99.41793618921909,
+      7.0,
+      "Taco Bell",
+      "Elk City",
       "OK"
     ]
   ],

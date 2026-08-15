@@ -19,17 +19,17 @@
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 9.14,
+    "avg": 9.15,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.36,
-    "store_count": 14
+    "std_dev": 0.37,
+    "store_count": 13
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 12
+      "count": 11
     },
     {
       "bucket": "$9.99",
@@ -39,8 +39,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.14,
-      "store_count": 14
+      "avg_price": 9.15,
+      "store_count": 13
     }
   ],
   "nutrition": {
@@ -58,13 +58,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "040730",
-      "name": "Taco Bell",
-      "city": "Edgewater",
-      "state": "FL",
-      "price": 9.0
-    },
     {
       "store_number": "037110",
       "name": "Taco Bell",
@@ -115,6 +108,13 @@
       "price": 9.0
     },
     {
+      "store_number": "027970",
+      "name": "Taco Bell",
+      "city": "Merritt Island",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "027971",
       "name": "Taco Bell",
       "city": "Cocoa Beach",
@@ -122,15 +122,14 @@
       "price": 9.0
     },
     {
-      "store_number": "027972",
+      "store_number": "027984",
       "name": "Taco Bell",
-      "city": "Melbourne",
+      "city": "Sanford",
       "state": "FL",
       "price": 9.0
     }
   ],
   "min_price_store_numbers": [
-    "040730",
     "037110",
     "032537",
     "030349",
@@ -138,8 +137,8 @@
     "027983",
     "027988",
     "022833",
+    "027970",
     "027971",
-    "027972",
     "027984",
     "034163"
   ],
@@ -173,16 +172,16 @@
       "price": 9.0
     },
     {
-      "store_number": "027972",
+      "store_number": "027971",
       "name": "Taco Bell",
-      "city": "Melbourne",
+      "city": "Cocoa Beach",
       "state": "FL",
       "price": 9.0
     },
     {
-      "store_number": "027971",
+      "store_number": "027970",
       "name": "Taco Bell",
-      "city": "Cocoa Beach",
+      "city": "Merritt Island",
       "state": "FL",
       "price": 9.0
     },
@@ -216,6 +215,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027972",
+      "store_name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-08-15T20:49:50.373545+00:00"
+    },
+    {
+      "store_number": "027970",
+      "store_name": "Taco Bell",
+      "city": "Merritt Island",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-08-15T20:49:23.476186+00:00"
+    },
+    {
+      "store_number": "040730",
+      "store_name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-08-15T20:47:39.734985+00:00"
+    },
     {
       "store_number": "027983",
       "store_name": "Taco Bell",
@@ -4718,8 +4747,8 @@
     }
   ],
   "activity_summary": {
-    "added": 232,
-    "removed": 218,
+    "added": 233,
+    "removed": 220,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4759,15 +4788,6 @@
     }
   ],
   "map_data": [
-    [
-      "040730",
-      28.978999988269013,
-      -80.90048237483407,
-      9.0,
-      "Taco Bell",
-      "Edgewater",
-      "FL"
-    ],
     [
       "037110",
       28.34617964975096,
@@ -4832,21 +4852,21 @@
       "FL"
     ],
     [
+      "027970",
+      28.36376816960354,
+      -80.69987878203392,
+      9.0,
+      "Taco Bell",
+      "Merritt Island",
+      "FL"
+    ],
+    [
       "027971",
       28.352087603671087,
       -80.60836730221422,
       9.0,
       "Taco Bell",
       "Cocoa Beach",
-      "FL"
-    ],
-    [
-      "027972",
-      28.14532685391547,
-      -80.67222346367089,
-      9.0,
-      "Taco Bell",
-      "Melbourne",
       "FL"
     ],
     [
@@ -4887,6 +4907,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-08-14",
+  "last_seen_date": "2026-08-15",
   "peak_availability_pct": 1.2
 }

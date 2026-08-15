@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 24
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 24
+      "count": 25
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 24
+      "store_count": 25
     }
   ],
   "nutrition": {
@@ -83,6 +83,13 @@
       "price": 10.99
     },
     {
+      "store_number": "036287",
+      "name": "Taco Bell",
+      "city": "Port Orange",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "035177",
       "name": "Taco Bell",
       "city": "Palm Bay",
@@ -104,23 +111,16 @@
       "price": 10.99
     },
     {
+      "store_number": "035462",
+      "name": "Taco Bell Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "042977",
       "name": "Taco Bell",
       "city": "Leesburg",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "032537",
-      "name": "Taco Bell",
-      "city": "Leesburg",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "032177",
-      "name": "Taco Bell",
-      "city": "Windermere",
       "state": "FL",
       "price": 10.99
     }
@@ -130,9 +130,11 @@
     "039586",
     "042753",
     "033927",
+    "036287",
     "035177",
     "035998",
     "041833",
+    "035462",
     "042977",
     "032537",
     "032177",
@@ -144,7 +146,6 @@
     "027986",
     "027980",
     "023296",
-    "027972",
     "027985",
     "023304",
     "023300",
@@ -188,13 +189,6 @@
       "price": 10.99
     },
     {
-      "store_number": "027972",
-      "name": "Taco Bell",
-      "city": "Melbourne",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
       "store_number": "023296",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -221,9 +215,46 @@
       "city": "Apopka",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "027976",
+      "name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027972",
+      "store_name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-15T20:49:50.373545+00:00"
+    },
+    {
+      "store_number": "035462",
+      "store_name": "Taco Bell Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-15T20:48:13.032368+00:00"
+    },
+    {
+      "store_number": "036287",
+      "store_name": "Taco Bell",
+      "city": "Port Orange",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-15T20:47:53.018520+00:00"
+    },
     {
       "store_number": "023291",
       "store_name": "Taco Bell",
@@ -1666,8 +1697,8 @@
     }
   ],
   "activity_summary": {
-    "added": 84,
-    "removed": 60,
+    "added": 86,
+    "removed": 61,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1744,6 +1775,15 @@
       "FL"
     ],
     [
+      "036287",
+      29.110829512237228,
+      -81.02506886165676,
+      10.99,
+      "Taco Bell",
+      "Port Orange",
+      "FL"
+    ],
+    [
       "035177",
       28.034745821603277,
       -80.63173264643589,
@@ -1768,6 +1808,15 @@
       10.99,
       "Taco Bell",
       "Clermont",
+      "FL"
+    ],
+    [
+      "035462",
+      28.541891996394657,
+      -81.37876977112303,
+      10.99,
+      "Taco Bell Cantina",
+      "Orlando",
       "FL"
     ],
     [
@@ -1870,15 +1919,6 @@
       "FL"
     ],
     [
-      "027972",
-      28.14532685391547,
-      -80.67222346367089,
-      10.99,
-      "Taco Bell",
-      "Melbourne",
-      "FL"
-    ],
-    [
       "027985",
       28.560556364542418,
       -81.13136172294617,
@@ -1925,6 +1965,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-08-14",
+  "last_seen_date": "2026-08-15",
   "peak_availability_pct": 0.4
 }

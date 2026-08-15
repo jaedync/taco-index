@@ -16,14 +16,14 @@
   "peak_30d_pct": 0.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.4,
   "price_stats": {
-    "avg": 3.52,
+    "avg": 3.53,
     "min": 3.19,
     "max": 3.79,
     "median": 3.59,
     "std_dev": 0.23,
-    "store_count": 27
+    "store_count": 28
   },
   "histogram": [
     {
@@ -52,14 +52,14 @@
     },
     {
       "bucket": "$3.79",
-      "count": 8
+      "count": 9
     }
   ],
   "state_prices": [
     {
       "state": "NC",
       "avg_price": 3.75,
-      "store_count": 7
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -176,6 +176,13 @@
       "price": 3.79
     },
     {
+      "store_number": "029411",
+      "name": "Taco Bell",
+      "city": "Benson",
+      "state": "NC",
+      "price": 3.79
+    },
+    {
       "store_number": "041399",
       "name": "Taco Bell",
       "city": "Louisburg",
@@ -216,16 +223,19 @@
       "city": "Northampton",
       "state": "MA",
       "price": 3.69
-    },
-    {
-      "store_number": "017415",
-      "name": "Taco Bell / KFC",
-      "city": "Moriarty",
-      "state": "NM",
-      "price": 3.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029411",
+      "store_name": "Taco Bell",
+      "city": "Benson",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.79,
+      "observed_at": "2026-08-15T20:50:20.195610+00:00"
+    },
     {
       "store_number": "029406",
       "store_name": "Taco Bell",
@@ -938,7 +948,7 @@
     }
   ],
   "activity_summary": {
-    "added": 49,
+    "added": 50,
     "removed": 21,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1178,6 +1188,15 @@
       "NC"
     ],
     [
+      "029411",
+      35.51703677474721,
+      -78.56191411658494,
+      3.79,
+      "Taco Bell",
+      "Benson",
+      "NC"
+    ],
+    [
       "029483",
       35.80337775917284,
       -78.78350347280502,
@@ -1206,6 +1225,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-14",
+  "last_seen_date": "2026-08-15",
   "peak_availability_pct": 0.3
 }
