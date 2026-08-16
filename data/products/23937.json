@@ -17,12 +17,12 @@
   "first_seen_at": "2026-07-23T20:47:41.676477+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.89,
+    "avg": 5.9,
     "min": 5.49,
     "max": 7.29,
     "median": 5.99,
     "std_dev": 0.39,
-    "store_count": 24
+    "store_count": 25
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$6.19",
@@ -45,8 +45,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 5.91,
-      "store_count": 6
+      "avg_price": 5.92,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -175,6 +175,13 @@
       "price": 5.99
     },
     {
+      "store_number": "029412",
+      "name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "price": 5.99
+    },
+    {
       "store_number": "019680",
       "name": "Taco Bell / KFC",
       "city": "Stephens City",
@@ -208,16 +215,19 @@
       "city": "Albuquerque",
       "state": "NM",
       "price": 5.99
-    },
-    {
-      "store_number": "029406",
-      "name": "Taco Bell",
-      "city": "Durham",
-      "state": "NC",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029412",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-08-16T21:25:34.364469+00:00"
+    },
     {
       "store_number": "029483",
       "store_name": "Taco Bell",
@@ -1300,7 +1310,7 @@
     }
   ],
   "activity_summary": {
-    "added": 66,
+    "added": 67,
     "removed": 42,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1491,6 +1501,15 @@
       "VA"
     ],
     [
+      "029412",
+      35.919901991392784,
+      -78.95752345027176,
+      5.99,
+      "Taco Bell",
+      "Durham",
+      "NC"
+    ],
+    [
       "030424",
       41.02537540476871,
       -93.79682839663474,
@@ -1528,6 +1547,6 @@
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-08-15",
+  "last_seen_date": "2026-08-16",
   "peak_availability_pct": 0.4
 }

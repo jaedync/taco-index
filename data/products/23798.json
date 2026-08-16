@@ -24,12 +24,12 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 16
+    "store_count": 15
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 16
+      "count": 15
     }
   ],
   "state_prices": [
@@ -54,13 +54,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "040019",
-      "name": "Taco Bell",
-      "city": "Cedar Lake",
-      "state": "IN",
-      "price": 9.0
-    },
     {
       "store_number": "041497",
       "name": "Taco Bell",
@@ -123,10 +116,16 @@
       "city": "Ottawa",
       "state": "IL",
       "price": 9.0
+    },
+    {
+      "store_number": "030401",
+      "name": "Taco Bell",
+      "city": "Woodstock",
+      "state": "IL",
+      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
-    "040019",
     "041497",
     "030407",
     "026744",
@@ -216,6 +215,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040019",
+      "store_name": "Taco Bell",
+      "city": "Cedar Lake",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-08-16T21:22:41.771505+00:00"
+    },
     {
       "store_number": "040018",
       "store_name": "Taco Bell",
@@ -1159,7 +1168,7 @@
   ],
   "activity_summary": {
     "added": 55,
-    "removed": 39,
+    "removed": 40,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1199,15 +1208,6 @@
     }
   ],
   "map_data": [
-    [
-      "040019",
-      41.37634875376213,
-      -87.46939630871344,
-      9.0,
-      "Taco Bell",
-      "Cedar Lake",
-      "IN"
-    ],
     [
       "041497",
       41.6547863,
@@ -1345,6 +1345,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-08-15",
+  "last_seen_date": "2026-08-16",
   "peak_availability_pct": 0.3
 }

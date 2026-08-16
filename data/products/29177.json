@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 46
+    "store_count": 47
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 46
+      "count": 47
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 46
+      "store_count": 47
     }
   ],
   "nutrition": {
@@ -136,6 +136,7 @@
     "037372",
     "039587",
     "030349",
+    "042941",
     "022592",
     "027983",
     "027981",
@@ -149,7 +150,6 @@
     "028007",
     "022590",
     "027971",
-    "039584",
     "022595",
     "042933",
     "027974",
@@ -171,6 +171,7 @@
     "042927",
     "023297",
     "037822",
+    "034162",
     "032959"
   ],
   "priciest_stores": [
@@ -178,6 +179,13 @@
       "store_number": "032959",
       "name": "Taco Bell",
       "city": "Ocoee",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "034162",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
       "state": "FL",
       "price": 10.99
     },
@@ -236,16 +244,39 @@
       "city": "Daytona Beach",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "022593",
-      "name": "Taco Bell",
-      "city": "Deland",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034162",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-16T21:25:49.687143+00:00"
+    },
+    {
+      "store_number": "039584",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-16T21:24:36.627746+00:00"
+    },
+    {
+      "store_number": "042941",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-16T21:24:04.126097+00:00"
+    },
     {
       "store_number": "034162",
       "store_name": "Taco Bell",
@@ -2048,8 +2079,8 @@
     }
   ],
   "activity_summary": {
-    "added": 113,
-    "removed": 67,
+    "added": 115,
+    "removed": 68,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2180,6 +2211,15 @@
       "FL"
     ],
     [
+      "042941",
+      29.116219923790815,
+      -82.02579715851243,
+      10.99,
+      "Taco Bell",
+      "Ocala",
+      "FL"
+    ],
+    [
       "022592",
       29.218208788850156,
       -81.04734418680891,
@@ -2294,15 +2334,6 @@
       10.99,
       "Taco Bell",
       "Cocoa Beach",
-      "FL"
-    ],
-    [
-      "039584",
-      28.248935698712764,
-      -81.31078787153456,
-      10.99,
-      "Taco Bell",
-      "Saint Cloud",
       "FL"
     ],
     [
@@ -2492,6 +2523,15 @@
       10.99,
       "Taco Bell",
       "Lady Lake",
+      "FL"
+    ],
+    [
+      "034162",
+      28.198881542033824,
+      -81.44054558680533,
+      10.99,
+      "Taco Bell",
+      "Kissimmee",
       "FL"
     ],
     [

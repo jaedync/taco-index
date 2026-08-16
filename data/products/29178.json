@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 25
+    "store_count": 24
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 25
+      "count": 24
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 25
+      "store_count": 24
     }
   ],
   "nutrition": {
@@ -76,13 +76,6 @@
       "price": 10.99
     },
     {
-      "store_number": "033927",
-      "name": "Taco Bell",
-      "city": "Kissimmee",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
       "store_number": "036287",
       "name": "Taco Bell",
       "city": "Port Orange",
@@ -93,13 +86,6 @@
       "store_number": "035177",
       "name": "Taco Bell",
       "city": "Palm Bay",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "035998",
-      "name": "Taco Bell",
-      "city": "Orlando",
       "state": "FL",
       "price": 10.99
     },
@@ -123,16 +109,28 @@
       "city": "Leesburg",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "032537",
+      "name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "032177",
+      "name": "Taco Bell",
+      "city": "Windermere",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "041844",
     "039586",
     "042753",
-    "033927",
     "036287",
     "035177",
-    "035998",
     "041833",
     "035462",
     "042977",
@@ -148,6 +146,7 @@
     "023296",
     "027985",
     "023304",
+    "042928",
     "023300",
     "034163",
     "032354"
@@ -171,6 +170,13 @@
       "store_number": "023300",
       "name": "Taco Bell",
       "city": "Palm Bay",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "042928",
+      "name": "Taco Bell",
+      "city": "Palm Coast",
       "state": "FL",
       "price": 10.99
     },
@@ -215,16 +221,39 @@
       "city": "Apopka",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "027976",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042928",
+      "store_name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-16T21:25:41.496693+00:00"
+    },
+    {
+      "store_number": "035998",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-16T21:23:23.320656+00:00"
+    },
+    {
+      "store_number": "033927",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-16T21:23:18.945008+00:00"
+    },
     {
       "store_number": "027972",
       "store_name": "Taco Bell",
@@ -1697,8 +1726,8 @@
     }
   ],
   "activity_summary": {
-    "added": 86,
-    "removed": 61,
+    "added": 87,
+    "removed": 63,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1766,15 +1795,6 @@
       "FL"
     ],
     [
-      "033927",
-      28.343211280611577,
-      -81.32938075015683,
-      10.99,
-      "Taco Bell",
-      "Kissimmee",
-      "FL"
-    ],
-    [
       "036287",
       29.110829512237228,
       -81.02506886165676,
@@ -1790,15 +1810,6 @@
       10.99,
       "Taco Bell",
       "Palm Bay",
-      "FL"
-    ],
-    [
-      "035998",
-      28.363064573082465,
-      -81.42408256620308,
-      10.99,
-      "Taco Bell",
-      "Orlando",
       "FL"
     ],
     [
@@ -1937,6 +1948,15 @@
       "FL"
     ],
     [
+      "042928",
+      29.5540650252999,
+      -81.22845753097863,
+      10.99,
+      "Taco Bell",
+      "Palm Coast",
+      "FL"
+    ],
+    [
       "023300",
       27.99815047734223,
       -80.63776654322986,
@@ -1965,6 +1985,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-08-15",
+  "last_seen_date": "2026-08-16",
   "peak_availability_pct": 0.4
 }

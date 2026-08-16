@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.51,
+    "avg": 2.52,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.49,
-    "std_dev": 0.28,
-    "store_count": 5
+    "median": 2.54,
+    "std_dev": 0.32,
+    "store_count": 4
   },
   "histogram": [
     {
@@ -32,21 +32,11 @@
       "count": 1
     },
     {
-      "bucket": "$2.49",
-      "count": 1
-    },
-    {
       "bucket": "$2.79",
       "count": 2
     }
   ],
-  "state_prices": [
-    {
-      "state": "NY",
-      "avg_price": 2.51,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": null,
   "cheapest_stores": [
     {
@@ -62,13 +52,6 @@
       "city": "Bronx",
       "state": "NY",
       "price": 2.29
-    },
-    {
-      "store_number": "042688",
-      "name": "Taco Bell",
-      "city": "Brooklyn",
-      "state": "NY",
-      "price": 2.49
     },
     {
       "store_number": "034273",
@@ -104,13 +87,6 @@
       "price": 2.79
     },
     {
-      "store_number": "042688",
-      "name": "Taco Bell",
-      "city": "Brooklyn",
-      "state": "NY",
-      "price": 2.49
-    },
-    {
       "store_number": "040658",
       "name": "Taco Bell",
       "city": "Bronx",
@@ -126,6 +102,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042688",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-08-16T21:25:53.063357+00:00"
+    },
     {
       "store_number": "042688",
       "store_name": "Taco Bell",
@@ -489,7 +475,7 @@
   ],
   "activity_summary": {
     "added": 16,
-    "removed": 20,
+    "removed": 21,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -514,15 +500,6 @@
       2.29,
       "Taco Bell",
       "Bronx",
-      "NY"
-    ],
-    [
-      "042688",
-      40.6936,
-      -73.96336,
-      2.49,
-      "Taco Bell",
-      "Brooklyn",
       "NY"
     ],
     [
