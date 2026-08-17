@@ -15,19 +15,19 @@
   "peak_30d_pct": 0.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-08-10T21:08:50.077705+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
     "avg": 11.99,
     "min": 11.99,
     "max": 11.99,
     "median": 11.99,
     "std_dev": 0.0,
-    "store_count": 4
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$11.99",
-      "count": 4
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -61,13 +61,6 @@
       "price": 11.99
     },
     {
-      "store_number": "029411",
-      "name": "Taco Bell",
-      "city": "Benson",
-      "state": "NC",
-      "price": 11.99
-    },
-    {
       "store_number": "029412",
       "name": "Taco Bell",
       "city": "Durham",
@@ -78,7 +71,6 @@
   "min_price_store_numbers": [
     "029354",
     "029482",
-    "029411",
     "029412"
   ],
   "priciest_stores": [
@@ -86,13 +78,6 @@
       "store_number": "029412",
       "name": "Taco Bell",
       "city": "Durham",
-      "state": "NC",
-      "price": 11.99
-    },
-    {
-      "store_number": "029411",
-      "name": "Taco Bell",
-      "city": "Benson",
       "state": "NC",
       "price": 11.99
     },
@@ -112,6 +97,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029411",
+      "store_name": "Taco Bell",
+      "city": "Benson",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-08-17T21:09:19.818594+00:00"
+    },
     {
       "store_number": "029412",
       "store_name": "Taco Bell",
@@ -195,7 +190,7 @@
   ],
   "activity_summary": {
     "added": 6,
-    "removed": 2,
+    "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -254,15 +249,6 @@
       "NC"
     ],
     [
-      "029411",
-      35.51703677474721,
-      -78.56191411658494,
-      11.99,
-      "Taco Bell",
-      "Benson",
-      "NC"
-    ],
-    [
       "029412",
       35.919901991392784,
       -78.95752345027176,
@@ -273,6 +259,6 @@
     ]
   ],
   "retired_at": "2026-08-11T21:34:19.179474+00:00",
-  "last_seen_date": "2026-08-16",
+  "last_seen_date": "2026-08-17",
   "peak_availability_pct": 0.0
 }

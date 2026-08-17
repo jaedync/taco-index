@@ -22,19 +22,19 @@
     "max": 1.0,
     "median": 1.0,
     "std_dev": 0.0,
-    "store_count": 24
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$1.00",
-      "count": 24
+      "count": 25
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 1.0,
-      "store_count": 6
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -147,9 +147,17 @@
     "002892",
     "030404",
     "029659",
-    "020033"
+    "020033",
+    "042929"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042929",
+      "name": "Taco Bell",
+      "city": "Tallahassee",
+      "state": "FL",
+      "price": 1.0
+    },
     {
       "store_number": "020033",
       "name": "Taco Bell",
@@ -212,16 +220,19 @@
       "city": "Spanish Fort",
       "state": "AL",
       "price": 1.0
-    },
-    {
-      "store_number": "042826",
-      "name": "Taco Bell",
-      "city": "Pensacola",
-      "state": "FL",
-      "price": 1.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042929",
+      "store_name": "Taco Bell",
+      "city": "Tallahassee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-08-17T21:08:24.760965+00:00"
+    },
     {
       "store_number": "020033",
       "store_name": "Taco Bell",
@@ -484,7 +495,7 @@
     }
   ],
   "activity_summary": {
-    "added": 25,
+    "added": 26,
     "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -709,6 +720,15 @@
       "Taco Bell",
       "Arkansas City",
       "KS"
+    ],
+    [
+      "042929",
+      30.42766666237074,
+      -84.21424626572583,
+      1.0,
+      "Taco Bell",
+      "Tallahassee",
+      "FL"
     ]
   ],
   "retired_at": null,

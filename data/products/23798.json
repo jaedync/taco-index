@@ -36,7 +36,7 @@
     {
       "state": "IL",
       "avg_price": 9.0,
-      "store_count": 14
+      "store_count": 13
     }
   ],
   "nutrition": {
@@ -54,13 +54,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "041497",
-      "name": "Taco Bell",
-      "city": "Plainfield",
-      "state": "IL",
-      "price": 9.0
-    },
     {
       "store_number": "030407",
       "name": "Taco Bell",
@@ -123,10 +116,16 @@
       "city": "Woodstock",
       "state": "IL",
       "price": 9.0
+    },
+    {
+      "store_number": "032491",
+      "name": "Taco Bell",
+      "city": "Valparaiso",
+      "state": "IN",
+      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
-    "041497",
     "030407",
     "026744",
     "026752",
@@ -136,6 +135,7 @@
     "032084",
     "027896",
     "030401",
+    "032491",
     "026734",
     "032082",
     "030539",
@@ -179,6 +179,13 @@
       "price": 9.0
     },
     {
+      "store_number": "032491",
+      "name": "Taco Bell",
+      "city": "Valparaiso",
+      "state": "IN",
+      "price": 9.0
+    },
+    {
       "store_number": "030401",
       "name": "Taco Bell",
       "city": "Woodstock",
@@ -205,16 +212,29 @@
       "city": "New Lenox",
       "state": "IL",
       "price": 9.0
-    },
-    {
-      "store_number": "027898",
-      "name": "Taco Bell",
-      "city": "Peru",
-      "state": "IL",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032491",
+      "store_name": "Taco Bell",
+      "city": "Valparaiso",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-08-17T21:08:50.736747+00:00"
+    },
+    {
+      "store_number": "041497",
+      "store_name": "Taco Bell",
+      "city": "Plainfield",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-08-17T21:06:12.488690+00:00"
+    },
     {
       "store_number": "040019",
       "store_name": "Taco Bell",
@@ -1167,8 +1187,8 @@
     }
   ],
   "activity_summary": {
-    "added": 55,
-    "removed": 40,
+    "added": 56,
+    "removed": 41,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1208,15 +1228,6 @@
     }
   ],
   "map_data": [
-    [
-      "041497",
-      41.6547863,
-      -88.2028586,
-      9.0,
-      "Taco Bell",
-      "Plainfield",
-      "IL"
-    ],
     [
       "030407",
       41.75244929284412,
@@ -1299,6 +1310,15 @@
       "IL"
     ],
     [
+      "032491",
+      41.458291287769896,
+      -87.03443632276503,
+      9.0,
+      "Taco Bell",
+      "Valparaiso",
+      "IN"
+    ],
+    [
       "026734",
       41.616210338805615,
       -86.73256748915264,
@@ -1345,6 +1365,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-08-16",
+  "last_seen_date": "2026-08-17",
   "peak_availability_pct": 0.3
 }

@@ -24,12 +24,12 @@
     "max": 13.0,
     "median": 13.0,
     "std_dev": 0.0,
-    "store_count": 8
+    "store_count": 7
   },
   "histogram": [
     {
       "bucket": "$13.00",
-      "count": 8
+      "count": 7
     }
   ],
   "state_prices": [
@@ -54,13 +54,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "034772",
-      "name": "Taco Bell",
-      "city": "Dyer",
-      "state": "IN",
-      "price": 13.0
-    },
     {
       "store_number": "032495",
       "name": "Taco Bell",
@@ -112,7 +105,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "034772",
     "032495",
     "032492",
     "032086",
@@ -170,16 +162,19 @@
       "city": "Rensselaer",
       "state": "IN",
       "price": 13.0
-    },
-    {
-      "store_number": "034772",
-      "name": "Taco Bell",
-      "city": "Dyer",
-      "state": "IN",
-      "price": 13.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034772",
+      "store_name": "Taco Bell",
+      "city": "Dyer",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 13.0,
+      "new_price": null,
+      "observed_at": "2026-08-17T21:06:16.847339+00:00"
+    },
     {
       "store_number": "032488",
       "store_name": "Taco Bell",
@@ -683,7 +678,7 @@
   ],
   "activity_summary": {
     "added": 29,
-    "removed": 21,
+    "removed": 22,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -741,15 +736,6 @@
     }
   ],
   "map_data": [
-    [
-      "034772",
-      41.4927,
-      -87.5043,
-      13.0,
-      "Taco Bell",
-      "Dyer",
-      "IN"
-    ],
     [
       "032495",
       40.940316,

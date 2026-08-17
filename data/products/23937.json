@@ -17,21 +17,21 @@
   "first_seen_at": "2026-07-23T20:47:41.676477+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.9,
+    "avg": 5.91,
     "min": 5.49,
     "max": 7.29,
     "median": 5.99,
     "std_dev": 0.39,
-    "store_count": 25
+    "store_count": 23
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$5.99",
-      "count": 14
+      "count": 13
     },
     {
       "bucket": "$6.19",
@@ -45,8 +45,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 5.92,
-      "store_count": 7
+      "avg_price": 5.91,
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -64,13 +64,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "035717",
-      "name": "Taco Bell / KFC",
-      "city": "Cypress",
-      "state": "TX",
-      "price": 5.49
-    },
     {
       "store_number": "028510",
       "name": "Taco Bell / KFC",
@@ -133,10 +126,16 @@
       "city": "Holly Springs",
       "state": "NC",
       "price": 5.99
+    },
+    {
+      "store_number": "029401",
+      "name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
-    "035717",
     "028510",
     "039755",
     "021493",
@@ -203,21 +202,41 @@
       "price": 5.99
     },
     {
-      "store_number": "041399",
-      "name": "Taco Bell",
-      "city": "Louisburg",
-      "state": "NC",
-      "price": 5.99
-    },
-    {
       "store_number": "004173",
       "name": "Taco Bell / KFC",
       "city": "Albuquerque",
       "state": "NM",
       "price": 5.99
+    },
+    {
+      "store_number": "029406",
+      "name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041399",
+      "store_name": "Taco Bell",
+      "city": "Louisburg",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-08-17T21:08:51.815441+00:00"
+    },
+    {
+      "store_number": "035717",
+      "store_name": "Taco Bell / KFC",
+      "city": "Cypress",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-08-17T21:07:18.125589+00:00"
+    },
     {
       "store_number": "029412",
       "store_name": "Taco Bell",
@@ -1311,7 +1330,7 @@
   ],
   "activity_summary": {
     "added": 67,
-    "removed": 42,
+    "removed": 44,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1320,15 +1339,6 @@
   "calories_max": 490,
   "combo_groups": [],
   "map_data": [
-    [
-      "035717",
-      29.995722509460837,
-      -95.62410682439804,
-      5.49,
-      "Taco Bell / KFC",
-      "Cypress",
-      "TX"
-    ],
     [
       "028510",
       37.559371085147504,
@@ -1465,15 +1475,6 @@
       "NM"
     ],
     [
-      "041399",
-      36.092859272524684,
-      -78.29832382505629,
-      5.99,
-      "Taco Bell",
-      "Louisburg",
-      "NC"
-    ],
-    [
       "017415",
       35.00966699999999,
       -106.06256782209016,
@@ -1547,6 +1548,6 @@
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-08-16",
+  "last_seen_date": "2026-08-17",
   "peak_availability_pct": 0.4
 }

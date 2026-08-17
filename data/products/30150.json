@@ -32,12 +32,12 @@
     {
       "state": "OH",
       "avg_price": 4.99,
-      "store_count": 100
+      "store_count": 101
     },
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 184
+      "store_count": 183
     },
     {
       "state": "IN",
@@ -210,6 +210,7 @@
     "002140",
     "002236",
     "029974",
+    "040534",
     "002086",
     "029973",
     "033299",
@@ -437,17 +438,9 @@
     "040006",
     "041687",
     "033316",
-    "042748",
-    "024651"
+    "042748"
   ],
   "priciest_stores": [
-    {
-      "store_number": "024651",
-      "name": "Taco Bell",
-      "city": "Warren",
-      "state": "MI",
-      "price": 4.99
-    },
     {
       "store_number": "042748",
       "name": "Taco Bell",
@@ -510,9 +503,36 @@
       "city": "Troy",
       "state": "MI",
       "price": 4.99
+    },
+    {
+      "store_number": "004399",
+      "name": "Taco Bell",
+      "city": "Sault Sainte Marie",
+      "state": "MI",
+      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024651",
+      "store_name": "Taco Bell",
+      "city": "Warren",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-17T21:07:27.009236+00:00"
+    },
+    {
+      "store_number": "040534",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-17T21:07:19.712280+00:00"
+    },
     {
       "store_number": "040369",
       "store_name": "Taco Bell",
@@ -5645,8 +5665,8 @@
     }
   ],
   "activity_summary": {
-    "added": 410,
-    "removed": 103,
+    "added": 411,
+    "removed": 104,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6355,6 +6375,15 @@
       4.99,
       "Taco Bell",
       "Millersburg",
+      "OH"
+    ],
+    [
+      "040534",
+      41.479977027095835,
+      -81.76837467484042,
+      4.99,
+      "Taco Bell",
+      "Cleveland",
       "OH"
     ],
     [
@@ -8408,18 +8437,9 @@
       "Taco Bell",
       "Lakeview",
       "MI"
-    ],
-    [
-      "024651",
-      42.44788925187269,
-      -83.06339703035519,
-      4.99,
-      "Taco Bell",
-      "Warren",
-      "MI"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-16",
+  "last_seen_date": "2026-08-17",
   "peak_availability_pct": 3.8
 }

@@ -23,19 +23,19 @@
     "max": 6.99,
     "median": 6.99,
     "std_dev": 0.0,
-    "store_count": 84
+    "store_count": 83
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 84
+      "count": 83
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 6.99,
-      "store_count": 82
+      "store_count": 81
     }
   ],
   "nutrition": {
@@ -57,6 +57,13 @@
       "store_number": "039700",
       "name": "Taco Bell",
       "city": "Clermont",
+      "state": "FL",
+      "price": 6.99
+    },
+    {
+      "store_number": "040730",
+      "name": "Taco Bell",
+      "city": "Edgewater",
       "state": "FL",
       "price": 6.99
     },
@@ -115,17 +122,11 @@
       "city": "Longwood",
       "state": "FL",
       "price": 6.99
-    },
-    {
-      "store_number": "035177",
-      "name": "Taco Bell",
-      "city": "Palm Bay",
-      "state": "FL",
-      "price": 6.99
     }
   ],
   "min_price_store_numbers": [
     "039700",
+    "040730",
     "040450",
     "034859",
     "041844",
@@ -156,7 +157,6 @@
     "027983",
     "027981",
     "028353",
-    "027975",
     "027988",
     "022266",
     "027982",
@@ -184,7 +184,6 @@
     "022587",
     "022594",
     "023289",
-    "027990",
     "027987",
     "021472",
     "039585",
@@ -283,6 +282,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027990",
+      "store_name": "Taco Bell",
+      "city": "New Smyrna Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-08-17T21:08:58.388525+00:00"
+    },
+    {
+      "store_number": "027975",
+      "store_name": "Taco Bell",
+      "city": "Rockledge",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-08-17T21:07:55.178996+00:00"
+    },
+    {
+      "store_number": "040730",
+      "store_name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-08-17T21:05:40.775478+00:00"
+    },
     {
       "store_number": "042941",
       "store_name": "Taco Bell",
@@ -2685,8 +2714,8 @@
     }
   ],
   "activity_summary": {
-    "added": 162,
-    "removed": 78,
+    "added": 163,
+    "removed": 80,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2702,6 +2731,15 @@
       6.99,
       "Taco Bell",
       "Clermont",
+      "FL"
+    ],
+    [
+      "040730",
+      28.978999988269013,
+      -80.90048237483407,
+      6.99,
+      "Taco Bell",
+      "Edgewater",
       "FL"
     ],
     [
@@ -2975,15 +3013,6 @@
       "FL"
     ],
     [
-      "027975",
-      28.294870388476983,
-      -80.72423458099371,
-      6.99,
-      "Taco Bell",
-      "Rockledge",
-      "FL"
-    ],
-    [
       "027988",
       28.47491997799977,
       -81.28932432086913,
@@ -3224,15 +3253,6 @@
       6.99,
       "Taco Bell",
       "West Melbourne",
-      "FL"
-    ],
-    [
-      "027990",
-      29.01345130657388,
-      -80.94385196631548,
-      6.99,
-      "Taco Bell",
-      "New Smyrna Beach",
       "FL"
     ],
     [

@@ -14,25 +14,25 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 91.6,
-  "recent_price_change_pct": -0.0929,
+  "recent_price_change_pct": -0.1086,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.26,
+    "avg": 3.2,
     "min": 2.99,
     "max": 3.59,
     "median": 3.29,
-    "std_dev": 0.18,
-    "store_count": 9
+    "std_dev": 0.2,
+    "store_count": 10
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 2
+      "count": 4
     },
     {
       "bucket": "$3.29",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$3.59",
@@ -56,6 +56,20 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "040822",
+      "name": "Taco Bell",
+      "city": "Chippewa Falls",
+      "state": "WI",
+      "price": 2.99
+    },
+    {
+      "store_number": "022607",
+      "name": "Taco Bell",
+      "city": "Lynnwood",
+      "state": "WA",
+      "price": 2.99
+    },
+    {
       "store_number": "031429",
       "name": "Taco Bell",
       "city": "Mitchell",
@@ -77,13 +91,6 @@
       "price": 3.29
     },
     {
-      "store_number": "040822",
-      "name": "Taco Bell",
-      "city": "Chippewa Falls",
-      "state": "WI",
-      "price": 3.29
-    },
-    {
       "store_number": "029324",
       "name": "Taco Bell",
       "city": "Waterbury",
@@ -98,17 +105,17 @@
       "price": 3.29
     },
     {
-      "store_number": "022607",
-      "name": "Taco Bell",
-      "city": "Lynnwood",
-      "state": "WA",
-      "price": 3.29
-    },
-    {
       "store_number": "034409",
       "name": "Taco Bell",
       "city": "Independence",
       "state": "MO",
+      "price": 3.29
+    },
+    {
+      "store_number": "031113",
+      "name": "Taco Bell",
+      "city": "Placerville",
+      "state": "CA",
       "price": 3.29
     },
     {
@@ -120,6 +127,8 @@
     }
   ],
   "min_price_store_numbers": [
+    "040822",
+    "022607",
     "031429",
     "037582"
   ],
@@ -132,17 +141,17 @@
       "price": 3.59
     },
     {
+      "store_number": "031113",
+      "name": "Taco Bell",
+      "city": "Placerville",
+      "state": "CA",
+      "price": 3.29
+    },
+    {
       "store_number": "034409",
       "name": "Taco Bell",
       "city": "Independence",
       "state": "MO",
-      "price": 3.29
-    },
-    {
-      "store_number": "022607",
-      "name": "Taco Bell",
-      "city": "Lynnwood",
-      "state": "WA",
       "price": 3.29
     },
     {
@@ -157,13 +166,6 @@
       "name": "Taco Bell",
       "city": "Waterbury",
       "state": "CT",
-      "price": 3.29
-    },
-    {
-      "store_number": "040822",
-      "name": "Taco Bell",
-      "city": "Chippewa Falls",
-      "state": "WI",
       "price": 3.29
     },
     {
@@ -186,9 +188,53 @@
       "city": "Mitchell",
       "state": "SD",
       "price": 2.99
+    },
+    {
+      "store_number": "022607",
+      "name": "Taco Bell",
+      "city": "Lynnwood",
+      "state": "WA",
+      "price": 2.99
+    },
+    {
+      "store_number": "040822",
+      "name": "Taco Bell",
+      "city": "Chippewa Falls",
+      "state": "WI",
+      "price": 2.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031113",
+      "store_name": "Taco Bell",
+      "city": "Placerville",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-08-17T21:09:19.298843+00:00"
+    },
+    {
+      "store_number": "022607",
+      "store_name": "Taco Bell",
+      "city": "Lynnwood",
+      "state": "WA",
+      "change_type": "price_change",
+      "old_price": 3.29,
+      "new_price": 2.99,
+      "observed_at": "2026-08-17T21:08:08.693790+00:00"
+    },
+    {
+      "store_number": "040822",
+      "store_name": "Taco Bell",
+      "city": "Chippewa Falls",
+      "state": "WI",
+      "change_type": "price_change",
+      "old_price": 3.29,
+      "new_price": 2.99,
+      "observed_at": "2026-08-17T21:06:13.870640+00:00"
+    },
     {
       "store_number": "031429",
       "store_name": "Taco Bell",
@@ -151881,9 +151927,9 @@
     }
   ],
   "activity_summary": {
-    "added": 7587,
+    "added": 7588,
     "removed": 7578,
-    "price_changed": 4,
+    "price_changed": 6,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 250,
@@ -151891,6 +151937,24 @@
   "calories_max": 250,
   "combo_groups": [],
   "map_data": [
+    [
+      "040822",
+      44.9216,
+      -91.3722,
+      2.99,
+      "Taco Bell",
+      "Chippewa Falls",
+      "WI"
+    ],
+    [
+      "022607",
+      47.821453816163455,
+      -122.30010028646434,
+      2.99,
+      "Taco Bell",
+      "Lynnwood",
+      "WA"
+    ],
     [
       "031429",
       43.68996628117381,
@@ -151919,15 +151983,6 @@
       "AL"
     ],
     [
-      "040822",
-      44.9216,
-      -91.3722,
-      3.29,
-      "Taco Bell",
-      "Chippewa Falls",
-      "WI"
-    ],
-    [
       "029324",
       41.56793602152568,
       -73.00756752491003,
@@ -151946,15 +152001,6 @@
       "MI"
     ],
     [
-      "022607",
-      47.821453816163455,
-      -122.30010028646434,
-      3.29,
-      "Taco Bell",
-      "Lynnwood",
-      "WA"
-    ],
-    [
       "034409",
       39.07709632877934,
       -94.414326906746,
@@ -151962,6 +152008,15 @@
       "Taco Bell",
       "Independence",
       "MO"
+    ],
+    [
+      "031113",
+      38.73086797874962,
+      -120.78617110848427,
+      3.29,
+      "Taco Bell",
+      "Placerville",
+      "CA"
     ],
     [
       "026028",

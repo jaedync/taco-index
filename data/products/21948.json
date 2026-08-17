@@ -24,12 +24,12 @@
     "max": 11.0,
     "median": 11.0,
     "std_dev": 0.0,
-    "store_count": 19
+    "store_count": 18
   },
   "histogram": [
     {
       "bucket": "$11.00",
-      "count": 19
+      "count": 18
     }
   ],
   "state_prices": [
@@ -59,13 +59,6 @@
       "name": "Taco Bell",
       "city": "Vernon Hills",
       "state": "IL",
-      "price": 11.0
-    },
-    {
-      "store_number": "042001",
-      "name": "Taco Bell",
-      "city": "Westville",
-      "state": "IN",
       "price": 11.0
     },
     {
@@ -123,11 +116,17 @@
       "city": "Frankfort",
       "state": "IL",
       "price": 11.0
+    },
+    {
+      "store_number": "027897",
+      "name": "Taco Bell",
+      "city": "Manteno",
+      "state": "IL",
+      "price": 11.0
     }
   ],
   "min_price_store_numbers": [
     "041115",
-    "042001",
     "026740",
     "030402",
     "027903",
@@ -219,6 +218,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042001",
+      "store_name": "Taco Bell",
+      "city": "Westville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 11.0,
+      "new_price": null,
+      "observed_at": "2026-08-17T21:06:14.247197+00:00"
+    },
     {
       "store_number": "040902",
       "store_name": "Taco Bell",
@@ -1152,7 +1161,7 @@
   ],
   "activity_summary": {
     "added": 56,
-    "removed": 37,
+    "removed": 38,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1200,15 +1209,6 @@
       "Taco Bell",
       "Vernon Hills",
       "IL"
-    ],
-    [
-      "042001",
-      41.546295,
-      -86.896567,
-      11.0,
-      "Taco Bell",
-      "Westville",
-      "IN"
     ],
     [
       "026740",
@@ -1365,6 +1365,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-08-16",
+  "last_seen_date": "2026-08-17",
   "peak_availability_pct": 0.3
 }
