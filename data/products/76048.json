@@ -18,12 +18,12 @@
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 2.69,
+    "avg": 2.7,
     "min": 2.39,
     "max": 2.89,
     "median": 2.79,
     "std_dev": 0.15,
-    "store_count": 25
+    "store_count": 24
   },
   "histogram": [
     {
@@ -33,10 +33,6 @@
     {
       "bucket": "$2.49",
       "count": 4
-    },
-    {
-      "bucket": "$2.59",
-      "count": 1
     },
     {
       "bucket": "$2.69",
@@ -116,13 +112,6 @@
       "price": 2.49
     },
     {
-      "store_number": "031389",
-      "name": "Taco Bell / KFC",
-      "city": "Locust Grove",
-      "state": "GA",
-      "price": 2.59
-    },
-    {
       "store_number": "041362",
       "name": "Taco Bell / KFC",
       "city": "Lockeford",
@@ -142,6 +131,13 @@
       "city": "Rio Vista",
       "state": "CA",
       "price": 2.69
+    },
+    {
+      "store_number": "029536",
+      "name": "Taco Bell / KFC",
+      "city": "Miami",
+      "state": "FL",
+      "price": 2.79
     }
   ],
   "min_price_store_numbers": [
@@ -221,6 +217,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031389",
+      "store_name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.59,
+      "new_price": null,
+      "observed_at": "2026-08-18T21:55:08.598621+00:00"
+    },
     {
       "store_number": "029411",
       "store_name": "Taco Bell",
@@ -934,7 +940,7 @@
   ],
   "activity_summary": {
     "added": 48,
-    "removed": 22,
+    "removed": 23,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1009,15 +1015,6 @@
       "Taco Bell / KFC",
       "Harrodsburg",
       "KY"
-    ],
-    [
-      "031389",
-      33.352032936024656,
-      -84.120770439522,
-      2.59,
-      "Taco Bell / KFC",
-      "Locust Grove",
-      "GA"
     ],
     [
       "041362",
@@ -1183,6 +1180,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-17",
+  "last_seen_date": "2026-08-18",
   "peak_availability_pct": 0.3
 }

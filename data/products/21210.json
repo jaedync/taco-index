@@ -23,12 +23,12 @@
     "max": 12.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7146
+    "store_count": 7149
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5282
+      "count": 5284
     },
     {
       "bucket": "$4.19",
@@ -140,7 +140,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 25
+      "count": 26
     },
     {
       "bucket": "$10.00",
@@ -206,8 +206,13 @@
     },
     {
       "state": "SC",
-      "avg_price": 5.04,
-      "store_count": 109
+      "avg_price": 5.03,
+      "store_count": 110
+    },
+    {
+      "state": "NY",
+      "avg_price": 5.01,
+      "store_count": 226
     },
     {
       "state": "HI",
@@ -220,19 +225,14 @@
       "store_count": 14
     },
     {
-      "state": "NY",
-      "avg_price": 4.99,
-      "store_count": 225
-    },
-    {
       "state": "KS",
-      "avg_price": 4.96,
-      "store_count": 86
+      "avg_price": 4.98,
+      "store_count": 85
     },
     {
       "state": "MO",
       "avg_price": 4.73,
-      "store_count": 218
+      "store_count": 219
     },
     {
       "state": "IL",
@@ -267,7 +267,7 @@
     {
       "state": "OH",
       "avg_price": 4.26,
-      "store_count": 372
+      "store_count": 373
     },
     {
       "state": "CT",
@@ -4846,6 +4846,7 @@
     "034338",
     "027586",
     "035359",
+    "029626",
     "029305",
     "015801",
     "004465",
@@ -5313,7 +5314,6 @@
     "030564",
     "023297",
     "041576",
-    "002274",
     "038960",
     "029681",
     "023132",
@@ -5770,7 +5770,9 @@
     "030145",
     "043000",
     "040336",
-    "041142"
+    "041142",
+    "021458",
+    "028476"
   ],
   "priciest_stores": [
     {
@@ -5845,6 +5847,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042172",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-08-18T21:56:36.320407+00:00"
+    },
+    {
+      "store_number": "002274",
+      "store_name": "Taco Bell",
+      "city": "Topeka",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-08-18T21:56:26.570500+00:00"
+    },
+    {
+      "store_number": "028476",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-08-18T21:56:13.657461+00:00"
+    },
+    {
+      "store_number": "029626",
+      "store_name": "Taco Bell",
+      "city": "Saint Louis",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-08-18T21:56:13.238547+00:00"
+    },
+    {
+      "store_number": "021458",
+      "store_name": "Taco Bell",
+      "city": "Rock Hill",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-08-18T21:54:13.121154+00:00"
+    },
     {
       "store_number": "029626",
       "store_name": "Taco Bell",
@@ -13387,8 +13439,8 @@
     }
   ],
   "activity_summary": {
-    "added": 395,
-    "removed": 309,
+    "added": 399,
+    "removed": 310,
     "price_changed": 50,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -52636,6 +52688,15 @@
       "OH"
     ],
     [
+      "029626",
+      38.62593379754423,
+      -90.28742852504365,
+      4.0,
+      "Taco Bell",
+      "Saint Louis",
+      "MO"
+    ],
+    [
       "029305",
       41.715175336009224,
       -72.22952290439935,
@@ -56839,15 +56900,6 @@
       "LA"
     ],
     [
-      "002274",
-      39.0147877694527,
-      -95.6812978238031,
-      4.0,
-      "Taco Bell",
-      "Topeka",
-      "KS"
-    ],
-    [
       "038960",
       44.439858559789485,
       -88.06015938520432,
@@ -60959,6 +61011,24 @@
       "Taco Bell",
       "Bay City",
       "TX"
+    ],
+    [
+      "021458",
+      34.941554988628816,
+      -80.97823299006905,
+      4.0,
+      "Taco Bell",
+      "Rock Hill",
+      "SC"
+    ],
+    [
+      "028476",
+      39.98886011058618,
+      -83.04159085727096,
+      4.0,
+      "Taco Bell",
+      "Columbus",
+      "OH"
     ],
     [
       "040310",
@@ -77536,6 +77606,15 @@
       9.99,
       "Taco Bell",
       "Bronx",
+      "NY"
+    ],
+    [
+      "042172",
+      40.8033689759,
+      -73.9669812899,
+      9.99,
+      "Taco Bell",
+      "New York",
       "NY"
     ],
     [

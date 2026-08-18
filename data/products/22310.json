@@ -14,21 +14,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 91.6,
-  "recent_price_change_pct": -0.1086,
+  "recent_price_change_pct": 0.0495,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.2,
   "price_stats": {
-    "avg": 3.2,
+    "avg": 3.14,
     "min": 2.99,
     "max": 3.59,
-    "median": 3.29,
+    "median": 2.99,
     "std_dev": 0.2,
-    "store_count": 10
+    "store_count": 14
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 4
+      "count": 8
     },
     {
       "bucket": "$3.29",
@@ -63,10 +63,31 @@
       "price": 2.99
     },
     {
+      "store_number": "043027",
+      "name": "Taco Bell",
+      "city": "Quincy",
+      "state": "IL",
+      "price": 2.99
+    },
+    {
       "store_number": "022607",
       "name": "Taco Bell",
       "city": "Lynnwood",
       "state": "WA",
+      "price": 2.99
+    },
+    {
+      "store_number": "043023",
+      "name": "Taco Bell",
+      "city": "Hannibal",
+      "state": "MO",
+      "price": 2.99
+    },
+    {
+      "store_number": "043025",
+      "name": "Taco Bell",
+      "city": "Macomb",
+      "state": "IL",
       "price": 2.99
     },
     {
@@ -84,6 +105,13 @@
       "price": 2.99
     },
     {
+      "store_number": "034409",
+      "name": "Taco Bell",
+      "city": "Independence",
+      "state": "MO",
+      "price": 2.99
+    },
+    {
       "store_number": "041491",
       "name": "Taco Bell",
       "city": "Calera",
@@ -96,41 +124,17 @@
       "city": "Waterbury",
       "state": "CT",
       "price": 3.29
-    },
-    {
-      "store_number": "001651",
-      "name": "Taco Bell",
-      "city": "Jackson",
-      "state": "MI",
-      "price": 3.29
-    },
-    {
-      "store_number": "034409",
-      "name": "Taco Bell",
-      "city": "Independence",
-      "state": "MO",
-      "price": 3.29
-    },
-    {
-      "store_number": "031113",
-      "name": "Taco Bell",
-      "city": "Placerville",
-      "state": "CA",
-      "price": 3.29
-    },
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 3.59
     }
   ],
   "min_price_store_numbers": [
     "040822",
+    "043027",
     "022607",
+    "043023",
+    "043025",
     "031429",
-    "037582"
+    "037582",
+    "034409"
   ],
   "priciest_stores": [
     {
@@ -141,17 +145,17 @@
       "price": 3.59
     },
     {
+      "store_number": "038933",
+      "name": "Taco Bell",
+      "city": "Billings",
+      "state": "MT",
+      "price": 3.29
+    },
+    {
       "store_number": "031113",
       "name": "Taco Bell",
       "city": "Placerville",
       "state": "CA",
-      "price": 3.29
-    },
-    {
-      "store_number": "034409",
-      "name": "Taco Bell",
-      "city": "Independence",
-      "state": "MO",
       "price": 3.29
     },
     {
@@ -176,6 +180,13 @@
       "price": 3.29
     },
     {
+      "store_number": "034409",
+      "name": "Taco Bell",
+      "city": "Independence",
+      "state": "MO",
+      "price": 2.99
+    },
+    {
       "store_number": "037582",
       "name": "Taco Bell",
       "city": "Dickinson",
@@ -190,21 +201,64 @@
       "price": 2.99
     },
     {
-      "store_number": "022607",
+      "store_number": "043025",
       "name": "Taco Bell",
-      "city": "Lynnwood",
-      "state": "WA",
-      "price": 2.99
-    },
-    {
-      "store_number": "040822",
-      "name": "Taco Bell",
-      "city": "Chippewa Falls",
-      "state": "WI",
+      "city": "Macomb",
+      "state": "IL",
       "price": 2.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038933",
+      "store_name": "Taco Bell",
+      "city": "Billings",
+      "state": "MT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-08-18T21:56:26.800203+00:00"
+    },
+    {
+      "store_number": "034409",
+      "store_name": "Taco Bell",
+      "city": "Independence",
+      "state": "MO",
+      "change_type": "price_change",
+      "old_price": 3.29,
+      "new_price": 2.99,
+      "observed_at": "2026-08-18T21:56:14.405399+00:00"
+    },
+    {
+      "store_number": "043025",
+      "store_name": "Taco Bell",
+      "city": "Macomb",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-08-18T21:54:56.147350+00:00"
+    },
+    {
+      "store_number": "043023",
+      "store_name": "Taco Bell",
+      "city": "Hannibal",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-08-18T21:54:53.352172+00:00"
+    },
+    {
+      "store_number": "043027",
+      "store_name": "Taco Bell",
+      "city": "Quincy",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-08-18T21:54:26.448440+00:00"
+    },
     {
       "store_number": "031113",
       "store_name": "Taco Bell",
@@ -151927,12 +151981,12 @@
     }
   ],
   "activity_summary": {
-    "added": 7588,
+    "added": 7592,
     "removed": 7578,
-    "price_changed": 6,
+    "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 250,
+  "calories_from_menu": 0,
   "calories_min": 250,
   "calories_max": 250,
   "combo_groups": [],
@@ -151947,6 +152001,15 @@
       "WI"
     ],
     [
+      "043027",
+      39.93519394494881,
+      -91.40215694904327,
+      2.99,
+      "Taco Bell",
+      "Quincy",
+      "IL"
+    ],
+    [
       "022607",
       47.821453816163455,
       -122.30010028646434,
@@ -151954,6 +152017,24 @@
       "Taco Bell",
       "Lynnwood",
       "WA"
+    ],
+    [
+      "043023",
+      39.72125331072642,
+      -91.3926617056677,
+      2.99,
+      "Taco Bell",
+      "Hannibal",
+      "MO"
+    ],
+    [
+      "043025",
+      40.45912778930967,
+      -90.67748503846553,
+      2.99,
+      "Taco Bell",
+      "Macomb",
+      "IL"
     ],
     [
       "031429",
@@ -151972,6 +152053,15 @@
       "Taco Bell",
       "Dickinson",
       "ND"
+    ],
+    [
+      "034409",
+      39.07709632877934,
+      -94.414326906746,
+      2.99,
+      "Taco Bell",
+      "Independence",
+      "MO"
     ],
     [
       "041491",
@@ -152001,15 +152091,6 @@
       "MI"
     ],
     [
-      "034409",
-      39.07709632877934,
-      -94.414326906746,
-      3.29,
-      "Taco Bell",
-      "Independence",
-      "MO"
-    ],
-    [
       "031113",
       38.73086797874962,
       -120.78617110848427,
@@ -152017,6 +152098,15 @@
       "Taco Bell",
       "Placerville",
       "CA"
+    ],
+    [
+      "038933",
+      45.75188736197026,
+      -108.61689560115337,
+      3.29,
+      "Taco Bell",
+      "Billings",
+      "MT"
     ],
     [
       "026028",

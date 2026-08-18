@@ -36,7 +36,7 @@
     {
       "state": "IL",
       "avg_price": 9.0,
-      "store_count": 13
+      "store_count": 12
     }
   ],
   "nutrition": {
@@ -54,6 +54,13 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
+    {
+      "store_number": "040019",
+      "name": "Taco Bell",
+      "city": "Cedar Lake",
+      "state": "IN",
+      "price": 9.0
+    },
     {
       "store_number": "030407",
       "name": "Taco Bell",
@@ -90,13 +97,6 @@
       "price": 9.0
     },
     {
-      "store_number": "026742",
-      "name": "Taco Bell",
-      "city": "New Lenox",
-      "state": "IL",
-      "price": 9.0
-    },
-    {
       "store_number": "032084",
       "name": "Taco Bell",
       "city": "McHenry",
@@ -126,12 +126,12 @@
     }
   ],
   "min_price_store_numbers": [
+    "040019",
     "030407",
     "026744",
     "026752",
     "032106",
     "027898",
-    "026742",
     "032084",
     "027896",
     "030401",
@@ -207,14 +207,34 @@
       "price": 9.0
     },
     {
-      "store_number": "026742",
+      "store_number": "027898",
       "name": "Taco Bell",
-      "city": "New Lenox",
+      "city": "Peru",
       "state": "IL",
       "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026742",
+      "store_name": "Taco Bell",
+      "city": "New Lenox",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-08-18T21:54:56.253091+00:00"
+    },
+    {
+      "store_number": "040019",
+      "store_name": "Taco Bell",
+      "city": "Cedar Lake",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-08-18T21:53:31.050113+00:00"
+    },
     {
       "store_number": "032491",
       "store_name": "Taco Bell",
@@ -1187,8 +1207,8 @@
     }
   ],
   "activity_summary": {
-    "added": 56,
-    "removed": 41,
+    "added": 57,
+    "removed": 42,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1228,6 +1248,15 @@
     }
   ],
   "map_data": [
+    [
+      "040019",
+      41.37634875376213,
+      -87.46939630871344,
+      9.0,
+      "Taco Bell",
+      "Cedar Lake",
+      "IN"
+    ],
     [
       "030407",
       41.75244929284412,
@@ -1271,15 +1300,6 @@
       9.0,
       "Taco Bell",
       "Peru",
-      "IL"
-    ],
-    [
-      "026742",
-      41.51709918259192,
-      -87.97966361045832,
-      9.0,
-      "Taco Bell",
-      "New Lenox",
       "IL"
     ],
     [
@@ -1365,6 +1385,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-08-17",
+  "last_seen_date": "2026-08-18",
   "peak_availability_pct": 0.3
 }

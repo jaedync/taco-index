@@ -19,17 +19,17 @@
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 9.08,
+    "avg": 9.07,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.27,
-    "store_count": 13
+    "std_dev": 0.26,
+    "store_count": 14
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$9.99",
@@ -39,8 +39,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.08,
-      "store_count": 13
+      "avg_price": 9.07,
+      "store_count": 14
     }
   ],
   "nutrition": {
@@ -59,6 +59,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "036438",
+      "name": "Taco Bell",
+      "city": "Minneola",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "037110",
       "name": "Taco Bell",
       "city": "Kissimmee",
@@ -69,6 +76,13 @@
       "store_number": "032537",
       "name": "Taco Bell",
       "city": "Leesburg",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
+      "store_number": "031840",
+      "name": "Taco Bell",
+      "city": "Ocala",
       "state": "FL",
       "price": 9.0
     },
@@ -113,25 +127,13 @@
       "city": "Merritt Island",
       "state": "FL",
       "price": 9.0
-    },
-    {
-      "store_number": "027971",
-      "name": "Taco Bell",
-      "city": "Cocoa Beach",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "039584",
-      "name": "Taco Bell",
-      "city": "Saint Cloud",
-      "state": "FL",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
+    "036438",
     "037110",
     "032537",
+    "031840",
     "030349",
     "022592",
     "027983",
@@ -139,7 +141,6 @@
     "022833",
     "027970",
     "027971",
-    "039584",
     "027972",
     "027984"
   ],
@@ -162,13 +163,6 @@
       "store_number": "027972",
       "name": "Taco Bell",
       "city": "Melbourne",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "039584",
-      "name": "Taco Bell",
-      "city": "Saint Cloud",
       "state": "FL",
       "price": 9.0
     },
@@ -213,9 +207,46 @@
       "city": "Daytona Beach",
       "state": "FL",
       "price": 9.0
+    },
+    {
+      "store_number": "030349",
+      "name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039584",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-08-18T21:55:02.662659+00:00"
+    },
+    {
+      "store_number": "031840",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-08-18T21:54:29.176241+00:00"
+    },
+    {
+      "store_number": "036438",
+      "store_name": "Taco Bell",
+      "city": "Minneola",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-08-18T21:53:57.579911+00:00"
+    },
     {
       "store_number": "034163",
       "store_name": "Taco Bell",
@@ -4788,8 +4819,8 @@
     }
   ],
   "activity_summary": {
-    "added": 235,
-    "removed": 222,
+    "added": 237,
+    "removed": 223,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4830,6 +4861,15 @@
   ],
   "map_data": [
     [
+      "036438",
+      28.576159566371096,
+      -81.74960673084662,
+      9.0,
+      "Taco Bell",
+      "Minneola",
+      "FL"
+    ],
+    [
       "037110",
       28.34617964975096,
       -81.64492094604472,
@@ -4845,6 +4885,15 @@
       9.0,
       "Taco Bell",
       "Leesburg",
+      "FL"
+    ],
+    [
+      "031840",
+      29.085986725432136,
+      -82.25106698357388,
+      9.0,
+      "Taco Bell",
+      "Ocala",
       "FL"
     ],
     [
@@ -4911,15 +4960,6 @@
       "FL"
     ],
     [
-      "039584",
-      28.248935698712764,
-      -81.31078787153456,
-      9.0,
-      "Taco Bell",
-      "Saint Cloud",
-      "FL"
-    ],
-    [
       "027972",
       28.14532685391547,
       -80.67222346367089,
@@ -4948,6 +4988,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-08-17",
+  "last_seen_date": "2026-08-18",
   "peak_availability_pct": 1.2
 }

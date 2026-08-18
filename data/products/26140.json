@@ -16,17 +16,17 @@
   "first_seen_at": "2026-04-16T21:05:37.421561+00:00",
   "availability_pct": 1.3,
   "price_stats": {
-    "avg": 11.2,
+    "avg": 11.19,
     "min": 10.19,
     "max": 12.59,
     "median": 11.19,
-    "std_dev": 0.77,
-    "store_count": 99
+    "std_dev": 0.78,
+    "store_count": 100
   },
   "histogram": [
     {
       "bucket": "$10.19",
-      "count": 21
+      "count": 22
     },
     {
       "bucket": "$10.60",
@@ -64,8 +64,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 11.2,
-      "store_count": 99
+      "avg_price": 11.19,
+      "store_count": 100
     }
   ],
   "nutrition": null,
@@ -74,6 +74,13 @@
       "store_number": "035177",
       "name": "Taco Bell",
       "city": "Palm Bay",
+      "state": "FL",
+      "price": 10.19
+    },
+    {
+      "store_number": "034783",
+      "name": "Taco Bell",
+      "city": "Dunnellon",
       "state": "FL",
       "price": 10.19
     },
@@ -132,17 +139,11 @@
       "city": "Kissimmee",
       "state": "FL",
       "price": 10.19
-    },
-    {
-      "store_number": "028353",
-      "name": "Taco Bell",
-      "city": "Leesburg",
-      "state": "FL",
-      "price": 10.19
     }
   ],
   "min_price_store_numbers": [
     "035177",
+    "034783",
     "034809",
     "036438",
     "037110",
@@ -237,6 +238,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.19,
+      "observed_at": "2026-08-18T21:53:47.232932+00:00"
+    },
     {
       "store_number": "027972",
       "store_name": "Taco Bell",
@@ -4179,7 +4190,7 @@
     }
   ],
   "activity_summary": {
-    "added": 227,
+    "added": 228,
     "removed": 128,
     "price_changed": 39,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4221,6 +4232,15 @@
       10.19,
       "Taco Bell",
       "Palm Bay",
+      "FL"
+    ],
+    [
+      "034783",
+      29.05630760923329,
+      -82.45670382723803,
+      10.19,
+      "Taco Bell",
+      "Dunnellon",
       "FL"
     ],
     [
@@ -5107,6 +5127,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-08-17",
+  "last_seen_date": "2026-08-18",
   "peak_availability_pct": 1.2
 }

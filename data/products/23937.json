@@ -65,6 +65,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "035717",
+      "name": "Taco Bell / KFC",
+      "city": "Cypress",
+      "state": "TX",
+      "price": 5.49
+    },
+    {
       "store_number": "028510",
       "name": "Taco Bell / KFC",
       "city": "Lebanon",
@@ -107,13 +114,6 @@
       "price": 5.49
     },
     {
-      "store_number": "031389",
-      "name": "Taco Bell / KFC",
-      "city": "Locust Grove",
-      "state": "GA",
-      "price": 5.49
-    },
-    {
       "store_number": "029536",
       "name": "Taco Bell / KFC",
       "city": "Miami",
@@ -136,13 +136,13 @@
     }
   ],
   "min_price_store_numbers": [
+    "035717",
     "028510",
     "039755",
     "021493",
     "028153",
     "003758",
-    "024033",
-    "031389"
+    "024033"
   ],
   "priciest_stores": [
     {
@@ -217,6 +217,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031389",
+      "store_name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-08-18T21:55:08.598621+00:00"
+    },
+    {
+      "store_number": "035717",
+      "store_name": "Taco Bell / KFC",
+      "city": "Cypress",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-08-18T21:54:04.570214+00:00"
+    },
     {
       "store_number": "041399",
       "store_name": "Taco Bell",
@@ -1329,8 +1349,8 @@
     }
   ],
   "activity_summary": {
-    "added": 67,
-    "removed": 44,
+    "added": 68,
+    "removed": 45,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1339,6 +1359,15 @@
   "calories_max": 490,
   "combo_groups": [],
   "map_data": [
+    [
+      "035717",
+      29.995722509460837,
+      -95.62410682439804,
+      5.49,
+      "Taco Bell / KFC",
+      "Cypress",
+      "TX"
+    ],
     [
       "028510",
       37.559371085147504,
@@ -1392,15 +1421,6 @@
       "Taco Bell",
       "Clare",
       "MI"
-    ],
-    [
-      "031389",
-      33.352032936024656,
-      -84.120770439522,
-      5.49,
-      "Taco Bell / KFC",
-      "Locust Grove",
-      "GA"
     ],
     [
       "029536",
@@ -1548,6 +1568,6 @@
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-08-17",
+  "last_seen_date": "2026-08-18",
   "peak_availability_pct": 0.4
 }
