@@ -4,7 +4,9 @@
   "description": "",
   "category": "deals-and-combos",
   "categories": [
+    "boxes-and-combos",
     "deals-and-combos",
+    "featured",
     "new"
   ],
   "image_url": "https://www.tacobell.com/images/23272_cheesy_gordita_crunch_combo_269x269.jpg",
@@ -12,20 +14,24 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.0,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0501,
   "first_seen_at": "2026-04-16T21:05:37.766950+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 9.99,
+    "avg": 10.49,
     "min": 9.99,
-    "max": 9.99,
-    "median": 9.99,
-    "std_dev": 0.0,
-    "store_count": 1
+    "max": 10.99,
+    "median": 10.49,
+    "std_dev": 0.71,
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$9.99",
+      "count": 1
+    },
+    {
+      "bucket": "$10.99",
       "count": 1
     }
   ],
@@ -51,12 +57,26 @@
       "city": "Port Lavaca",
       "state": "TX",
       "price": 9.99
+    },
+    {
+      "store_number": "003831",
+      "name": "Taco Bell",
+      "city": "Charleston",
+      "state": "IL",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "041331"
   ],
   "priciest_stores": [
+    {
+      "store_number": "003831",
+      "name": "Taco Bell",
+      "city": "Charleston",
+      "state": "IL",
+      "price": 10.99
+    },
     {
       "store_number": "041331",
       "name": "Taco Bell",
@@ -66,6 +86,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003831",
+      "store_name": "Taco Bell",
+      "city": "Charleston",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-19T21:01:35.541122+00:00"
+    },
     {
       "store_number": "029588",
       "store_name": "Taco Bell",
@@ -22818,7 +22848,7 @@
     }
   ],
   "activity_summary": {
-    "added": 1138,
+    "added": 1139,
     "removed": 1137,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -22861,9 +22891,18 @@
       "Taco Bell",
       "Port Lavaca",
       "TX"
+    ],
+    [
+      "003831",
+      39.484077335078304,
+      -88.17966169020463,
+      10.99,
+      "Taco Bell",
+      "Charleston",
+      "IL"
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-08-18",
+  "last_seen_date": "2026-08-19",
   "peak_availability_pct": 11.3
 }

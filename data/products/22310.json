@@ -14,25 +14,29 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 91.6,
-  "recent_price_change_pct": 0.0495,
+  "recent_price_change_pct": -0.0347,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 3.14,
+    "avg": 3.18,
     "min": 2.99,
     "max": 3.59,
-    "median": 2.99,
-    "std_dev": 0.2,
+    "median": 3.14,
+    "std_dev": 0.21,
     "store_count": 14
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$3.29",
       "count": 5
+    },
+    {
+      "bucket": "$3.49",
+      "count": 1
     },
     {
       "bucket": "$3.59",
@@ -91,13 +95,6 @@
       "price": 2.99
     },
     {
-      "store_number": "031429",
-      "name": "Taco Bell",
-      "city": "Mitchell",
-      "state": "SD",
-      "price": 2.99
-    },
-    {
       "store_number": "037582",
       "name": "Taco Bell",
       "city": "Dickinson",
@@ -124,6 +121,13 @@
       "city": "Waterbury",
       "state": "CT",
       "price": 3.29
+    },
+    {
+      "store_number": "001651",
+      "name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MI",
+      "price": 3.29
     }
   ],
   "min_price_store_numbers": [
@@ -132,7 +136,6 @@
     "022607",
     "043023",
     "043025",
-    "031429",
     "037582",
     "034409"
   ],
@@ -143,6 +146,13 @@
       "city": "Chicago Ridge",
       "state": "IL",
       "price": 3.59
+    },
+    {
+      "store_number": "003831",
+      "name": "Taco Bell",
+      "city": "Charleston",
+      "state": "IL",
+      "price": 3.49
     },
     {
       "store_number": "038933",
@@ -194,13 +204,6 @@
       "price": 2.99
     },
     {
-      "store_number": "031429",
-      "name": "Taco Bell",
-      "city": "Mitchell",
-      "state": "SD",
-      "price": 2.99
-    },
-    {
       "store_number": "043025",
       "name": "Taco Bell",
       "city": "Macomb",
@@ -209,6 +212,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003831",
+      "store_name": "Taco Bell",
+      "city": "Charleston",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-08-19T21:01:35.541122+00:00"
+    },
+    {
+      "store_number": "031429",
+      "store_name": "Taco Bell",
+      "city": "Mitchell",
+      "state": "SD",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-08-19T21:01:15.216783+00:00"
+    },
     {
       "store_number": "038933",
       "store_name": "Taco Bell",
@@ -151981,12 +152004,12 @@
     }
   ],
   "activity_summary": {
-    "added": 7592,
-    "removed": 7578,
+    "added": 7593,
+    "removed": 7579,
     "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 0,
+  "calories_from_menu": 250,
   "calories_min": 250,
   "calories_max": 250,
   "combo_groups": [],
@@ -152035,15 +152058,6 @@
       "Taco Bell",
       "Macomb",
       "IL"
-    ],
-    [
-      "031429",
-      43.68996628117381,
-      -98.00871402025223,
-      2.99,
-      "Taco Bell",
-      "Mitchell",
-      "SD"
     ],
     [
       "037582",
@@ -152107,6 +152121,15 @@
       "Taco Bell",
       "Billings",
       "MT"
+    ],
+    [
+      "003831",
+      39.484077335078304,
+      -88.17966169020463,
+      3.49,
+      "Taco Bell",
+      "Charleston",
+      "IL"
     ],
     [
       "026028",
