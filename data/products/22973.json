@@ -14,7 +14,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 0.1,
+  "peak_30d_pct": 0.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-21T21:04:04.459773+00:00",
   "availability_pct": 0.0,
@@ -23,15 +23,10 @@
     "min": 10.69,
     "max": 10.69,
     "median": 10.69,
-    "std_dev": 0.0,
+    "std_dev": null,
     "store_count": 1
   },
-  "histogram": [
-    {
-      "bucket": "$10.69",
-      "count": 1
-    }
-  ],
+  "histogram": [],
   "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
@@ -47,28 +42,20 @@
     "protein_g": 8.7145,
     "serving_size_g": 92.1358
   },
-  "cheapest_stores": [
-    {
-      "store_number": "001281",
-      "name": "Taco Bell",
-      "city": "Honolulu",
-      "state": "HI",
-      "price": 10.69
-    }
-  ],
-  "min_price_store_numbers": [
-    "001281"
-  ],
-  "priciest_stores": [
-    {
-      "store_number": "001281",
-      "name": "Taco Bell",
-      "city": "Honolulu",
-      "state": "HI",
-      "price": 10.69
-    }
-  ],
+  "cheapest_stores": [],
+  "min_price_store_numbers": [],
+  "priciest_stores": [],
   "price_changes": [
+    {
+      "store_number": "001281",
+      "store_name": "Taco Bell",
+      "city": "Honolulu",
+      "state": "HI",
+      "change_type": "item_removed",
+      "old_price": 10.69,
+      "new_price": null,
+      "observed_at": "2026-08-20T21:41:10.581062+00:00"
+    },
     {
       "store_number": "003975",
       "store_name": "Taco Bell",
@@ -662,11 +649,11 @@
   ],
   "activity_summary": {
     "added": 30,
-    "removed": 29,
+    "removed": 30,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 170,
+  "calories_from_menu": null,
   "calories_min": 170,
   "calories_max": 450,
   "combo_groups": [
@@ -683,18 +670,8 @@
       "default_product_name": "Crunchy Taco"
     }
   ],
-  "map_data": [
-    [
-      "001281",
-      21.280319540592494,
-      -157.81392170931213,
-      10.69,
-      "Taco Bell",
-      "Honolulu",
-      "HI"
-    ]
-  ],
-  "retired_at": null,
-  "last_seen_date": null,
-  "peak_availability_pct": null
+  "map_data": [],
+  "retired_at": "2026-08-20T21:44:14.684342+00:00",
+  "last_seen_date": "2026-08-19",
+  "peak_availability_pct": 0.4
 }

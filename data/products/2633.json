@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3498
+    "store_count": 3499
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3498
+      "count": 3499
     }
   ],
   "state_prices": [
@@ -67,7 +67,7 @@
     {
       "state": "SD",
       "avg_price": 0.0,
-      "store_count": 15
+      "store_count": 16
     },
     {
       "state": "SC",
@@ -122,7 +122,7 @@
     {
       "state": "NC",
       "avg_price": 0.0,
-      "store_count": 124
+      "store_count": 123
     },
     {
       "state": "MT",
@@ -147,7 +147,7 @@
     {
       "state": "MI",
       "avg_price": 0.0,
-      "store_count": 191
+      "store_count": 192
     },
     {
       "state": "MD",
@@ -207,7 +207,7 @@
     {
       "state": "FL",
       "avg_price": 0.0,
-      "store_count": 254
+      "store_count": 255
     },
     {
       "state": "DC",
@@ -227,7 +227,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 618
+      "store_count": 617
     },
     {
       "state": "AZ",
@@ -1052,11 +1052,11 @@
     "005457",
     "034434",
     "034437",
-    "022835",
     "026050",
     "027434",
     "002100",
     "020014",
+    "033315",
     "015908",
     "022460",
     "002187",
@@ -2218,7 +2218,6 @@
     "030940",
     "035265",
     "041615",
-    "027781",
     "040806",
     "035232",
     "039838",
@@ -2990,6 +2989,7 @@
     "038807",
     "037551",
     "037581",
+    "031588",
     "002679",
     "033025",
     "039801",
@@ -3824,9 +3824,17 @@
     "042616",
     "043152",
     "041858",
-    "041582"
+    "041582",
+    "042770"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042770",
+      "name": "Taco Bell",
+      "city": "Box Elder",
+      "state": "SD",
+      "price": 0.0
+    },
     {
       "store_number": "041582",
       "name": "Taco Bell",
@@ -3889,16 +3897,59 @@
       "city": "Dublin",
       "state": "GA",
       "price": 0.0
-    },
-    {
-      "store_number": "042095",
-      "name": "Taco Bell",
-      "city": "Chula Vista",
-      "state": "CA",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042770",
+      "store_name": "Taco Bell",
+      "city": "Box Elder",
+      "state": "SD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-20T21:42:58.611473+00:00"
+    },
+    {
+      "store_number": "031588",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-20T21:42:23.052143+00:00"
+    },
+    {
+      "store_number": "027781",
+      "store_name": "Taco Bell",
+      "city": "Cathedral City",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-08-20T21:41:49.151726+00:00"
+    },
+    {
+      "store_number": "033315",
+      "store_name": "Taco Bell",
+      "city": "White Lake",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-20T21:40:49.532864+00:00"
+    },
+    {
+      "store_number": "022835",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-08-20T21:40:49.041029+00:00"
+    },
     {
       "store_number": "027381",
       "store_name": "Taco Bell",
@@ -11911,8 +11962,8 @@
     }
   ],
   "activity_summary": {
-    "added": 375,
-    "removed": 426,
+    "added": 378,
+    "removed": 428,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -18447,15 +18498,6 @@
       "TN"
     ],
     [
-      "022835",
-      35.33353854949635,
-      -80.81255073845284,
-      0.0,
-      "Taco Bell",
-      "Charlotte",
-      "NC"
-    ],
-    [
       "026050",
       29.664543899716055,
       -95.09931559861116,
@@ -18490,6 +18532,15 @@
       "Taco Bell",
       "Sandusky",
       "OH"
+    ],
+    [
+      "033315",
+      42.65798086181296,
+      -83.46379458904266,
+      0.0,
+      "Taco Bell",
+      "White Lake",
+      "MI"
     ],
     [
       "015908",
@@ -28941,15 +28992,6 @@
       "CA"
     ],
     [
-      "027781",
-      33.81831876549702,
-      -116.4586111855624,
-      0.0,
-      "Taco Bell",
-      "Cathedral City",
-      "CA"
-    ],
-    [
       "040806",
       33.65980036662708,
       -117.29953364333869,
@@ -35887,6 +35929,15 @@
       "Taco Bell",
       "Fargo",
       "ND"
+    ],
+    [
+      "031588",
+      25.700096670005447,
+      -80.44710089814754,
+      0.0,
+      "Taco Bell",
+      "Miami",
+      "FL"
     ],
     [
       "002679",
@@ -43402,6 +43453,15 @@
       "Taco Bell",
       "Belle Chasse",
       "LA"
+    ],
+    [
+      "042770",
+      44.12239556,
+      -103.0513251,
+      0.0,
+      "Taco Bell",
+      "Box Elder",
+      "SD"
     ]
   ],
   "retired_at": null,

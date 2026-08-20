@@ -22,7 +22,7 @@
     "max": 11.99,
     "median": 11.99,
     "std_dev": 0.43,
-    "store_count": 67
+    "store_count": 68
   },
   "histogram": [
     {
@@ -31,19 +31,19 @@
     },
     {
       "bucket": "$11.99",
-      "count": 51
+      "count": 52
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 11.99,
-      "store_count": 16
+      "store_count": 18
     },
     {
       "state": "GA",
-      "avg_price": 11.67,
-      "store_count": 50
+      "avg_price": 11.66,
+      "store_count": 49
     }
   ],
   "nutrition": {
@@ -152,6 +152,20 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "042982",
+      "name": "Taco Bell",
+      "city": "Naranja",
+      "state": "FL",
+      "price": 11.99
+    },
+    {
+      "store_number": "042980",
+      "name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "FL",
+      "price": 11.99
+    },
+    {
       "store_number": "039623",
       "name": "Taco Bell",
       "city": "Cartersville",
@@ -206,23 +220,39 @@
       "city": "Miami",
       "state": "FL",
       "price": 11.99
-    },
-    {
-      "store_number": "042945",
-      "name": "Taco Bell",
-      "city": "Lavonia",
-      "state": "GA",
-      "price": 11.99
-    },
-    {
-      "store_number": "004317",
-      "name": "Taco Bell",
-      "city": "Gainesville",
-      "state": "GA",
-      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042982",
+      "store_name": "Taco Bell",
+      "city": "Naranja",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-08-20T21:42:54.067002+00:00"
+    },
+    {
+      "store_number": "031633",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-08-20T21:41:56.855262+00:00"
+    },
+    {
+      "store_number": "042980",
+      "store_name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-08-20T21:40:49.884828+00:00"
+    },
     {
       "store_number": "042571",
       "store_name": "Taco Bell",
@@ -3215,8 +3245,8 @@
     }
   ],
   "activity_summary": {
-    "added": 183,
-    "removed": 116,
+    "added": 185,
+    "removed": 117,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3229,12 +3259,6 @@
       "title": "Fountain Drink - Large",
       "default_product_code": "22902",
       "default_product_name": "Large Fountain Drink"
-    },
-    {
-      "group_id": "959",
-      "title": "Crispy Chicken Chipotle Bacon Melt Burrito",
-      "default_product_code": "29198",
-      "default_product_name": "Crispy Chicken Chipotle Bacon Melt Burrito"
     },
     {
       "group_id": "66",
@@ -3647,15 +3671,6 @@
       "GA"
     ],
     [
-      "031633",
-      33.73245285221801,
-      -84.6678918600083,
-      11.99,
-      "Taco Bell",
-      "Douglasville",
-      "GA"
-    ],
-    [
       "024596",
       34.2514831908549,
       -84.08800439400908,
@@ -3852,9 +3867,27 @@
       "Taco Bell",
       "Cartersville",
       "GA"
+    ],
+    [
+      "042980",
+      29.63726564008641,
+      -82.33892807548047,
+      11.99,
+      "Taco Bell",
+      "Gainesville",
+      "FL"
+    ],
+    [
+      "042982",
+      25.521211092046975,
+      -80.42459113961212,
+      11.99,
+      "Taco Bell",
+      "Naranja",
+      "FL"
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-08-19",
+  "last_seen_date": "2026-08-20",
   "peak_availability_pct": 1.1
 }
