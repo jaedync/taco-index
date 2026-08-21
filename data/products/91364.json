@@ -12,22 +12,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 5.2,
+  "peak_30d_pct": 5.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-06-18T21:25:00.941035+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
-    "avg": 5.62,
+    "avg": 5.66,
     "min": 5.49,
     "max": 5.99,
     "median": 5.49,
-    "std_dev": 0.25,
-    "store_count": 4
+    "std_dev": 0.29,
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$5.99",
@@ -51,13 +51,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "043144",
-      "name": "Taco Bell",
-      "city": "Oneonta",
-      "state": "AL",
-      "price": 5.49
-    },
-    {
       "store_number": "043135",
       "name": "Taco Bell",
       "city": "Hephzibah",
@@ -80,7 +73,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "043144",
     "043135",
     "043139"
   ],
@@ -105,16 +97,19 @@
       "city": "Hephzibah",
       "state": "GA",
       "price": 5.49
-    },
-    {
-      "store_number": "043144",
-      "name": "Taco Bell",
-      "city": "Oneonta",
-      "state": "AL",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043144",
+      "store_name": "Taco Bell",
+      "city": "Oneonta",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-08-21T20:50:57.618475+00:00"
+    },
     {
       "store_number": "042831",
       "store_name": "Taco Bell",
@@ -21038,24 +21033,15 @@
   ],
   "activity_summary": {
     "added": 1047,
-    "removed": 1042,
+    "removed": 1043,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 540,
+  "calories_from_menu": 0,
   "calories_min": 540,
   "calories_max": 540,
   "combo_groups": [],
   "map_data": [
-    [
-      "043144",
-      33.948889116027075,
-      -86.4707882609855,
-      5.49,
-      "Taco Bell",
-      "Oneonta",
-      "AL"
-    ],
     [
       "043135",
       33.377407060331116,
@@ -21085,6 +21071,6 @@
     ]
   ],
   "retired_at": "2026-06-19T21:32:32.433650+00:00",
-  "last_seen_date": "2026-08-20",
+  "last_seen_date": "2026-08-21",
   "peak_availability_pct": 5.9
 }

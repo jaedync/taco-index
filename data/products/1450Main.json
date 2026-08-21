@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:07.824257+00:00",
   "availability_pct": 7.9,
   "price_stats": {
-    "avg": 1.21,
+    "avg": 1.2,
     "min": 0.69,
     "max": 7.99,
     "median": 1.05,
-    "std_dev": 0.54,
-    "store_count": 610
+    "std_dev": 0.46,
+    "store_count": 608
   },
   "histogram": [
     {
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 73
+      "count": 72
     },
     {
       "bucket": "$1.39",
@@ -105,7 +105,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
@@ -131,8 +131,8 @@
     },
     {
       "state": "IA",
-      "avg_price": 1.37,
-      "store_count": 9
+      "avg_price": 1.38,
+      "store_count": 8
     },
     {
       "state": "CA",
@@ -143,11 +143,6 @@
       "state": "MI",
       "avg_price": 1.31,
       "store_count": 11
-    },
-    {
-      "state": "KS",
-      "avg_price": 1.27,
-      "store_count": 25
     },
     {
       "state": "NE",
@@ -178,6 +173,11 @@
       "state": "ND",
       "avg_price": 0.99,
       "store_count": 6
+    },
+    {
+      "state": "KS",
+      "avg_price": 0.99,
+      "store_count": 24
     },
     {
       "state": "WI",
@@ -291,13 +291,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "034394",
-      "name": "Taco Bell",
-      "city": "Kansas City",
-      "state": "KS",
-      "price": 7.99
-    },
-    {
       "store_number": "034405",
       "name": "Taco Bell",
       "city": "Kansas City",
@@ -359,9 +352,36 @@
       "city": "Glendale",
       "state": "AZ",
       "price": 2.09
+    },
+    {
+      "store_number": "004445",
+      "name": "Taco Bell",
+      "city": "Milpitas",
+      "state": "CA",
+      "price": 2.09
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034394",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-08-21T20:52:46.586284+00:00"
+    },
+    {
+      "store_number": "030970",
+      "store_name": "Taco Bell",
+      "city": "Des Moines",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 1.29,
+      "new_price": null,
+      "observed_at": "2026-08-21T20:51:35.201322+00:00"
+    },
     {
       "store_number": "033619",
       "store_name": "Taco Bell",
@@ -4325,7 +4345,7 @@
   ],
   "activity_summary": {
     "added": 186,
-    "removed": 205,
+    "removed": 207,
     "price_changed": 5,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8187,15 +8207,6 @@
       "CA"
     ],
     [
-      "030970",
-      41.64897470389377,
-      -93.69691863661501,
-      1.29,
-      "Taco Bell",
-      "Des Moines",
-      "IA"
-    ],
-    [
       "031319",
       47.46716820363549,
       -122.33425765181892,
@@ -9814,15 +9825,6 @@
       "Taco Bell",
       "Kansas City",
       "MO"
-    ],
-    [
-      "034394",
-      39.12901809821786,
-      -94.82332013550149,
-      7.99,
-      "Taco Bell",
-      "Kansas City",
-      "KS"
     ]
   ],
   "retired_at": null,
