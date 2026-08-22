@@ -22,12 +22,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7666
+    "store_count": 7667
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7666
+      "count": 7667
     }
   ],
   "state_prices": [
@@ -64,7 +64,7 @@
     {
       "state": "TX",
       "avg_price": 0.0,
-      "store_count": 702
+      "store_count": 701
     },
     {
       "state": "TN",
@@ -109,7 +109,7 @@
     {
       "state": "NY",
       "avg_price": 0.0,
-      "store_count": 251
+      "store_count": 252
     },
     {
       "state": "NV",
@@ -144,7 +144,7 @@
     {
       "state": "NC",
       "avg_price": 0.0,
-      "store_count": 264
+      "store_count": 265
     },
     {
       "state": "MT",
@@ -154,7 +154,7 @@
     {
       "state": "MS",
       "avg_price": 0.0,
-      "store_count": 79
+      "store_count": 80
     },
     {
       "state": "MO",
@@ -259,7 +259,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 839
+      "store_count": 838
     },
     {
       "state": "AZ",
@@ -927,7 +927,6 @@
     "035136",
     "035891",
     "035416",
-    "036000",
     "034927",
     "042215",
     "035324",
@@ -1009,6 +1008,7 @@
     "036021",
     "036302",
     "030177",
+    "035336",
     "036031",
     "036030",
     "036029",
@@ -3699,7 +3699,6 @@
     "040064",
     "003859",
     "003314",
-    "001521",
     "020674",
     "031735",
     "034686",
@@ -7974,6 +7973,7 @@
     "032967",
     "004161",
     "017105",
+    "032318",
     "031966",
     "036244",
     "034786",
@@ -8034,9 +8034,17 @@
     "041858",
     "041142",
     "042770",
-    "040627"
+    "040627",
+    "041940"
   ],
   "priciest_stores": [
+    {
+      "store_number": "041940",
+      "name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "price": 0.0
+    },
     {
       "store_number": "040627",
       "name": "Taco Bell",
@@ -8099,16 +8107,59 @@
       "city": "Brooklyn Park",
       "state": "MD",
       "price": 0.0
-    },
-    {
-      "store_number": "042703",
-      "name": "Taco Bell",
-      "city": "Tabor City",
-      "state": "NC",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041940",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-22T21:54:49.211216+00:00"
+    },
+    {
+      "store_number": "001521",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-08-22T21:53:20.367273+00:00"
+    },
+    {
+      "store_number": "032318",
+      "store_name": "Taco Bell",
+      "city": "Olive Branch",
+      "state": "MS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-22T21:53:09.644185+00:00"
+    },
+    {
+      "store_number": "035336",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-22T21:51:02.860309+00:00"
+    },
+    {
+      "store_number": "036000",
+      "store_name": "Taco Bell",
+      "city": "Burkburnett",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-08-22T21:50:57.361071+00:00"
+    },
     {
       "store_number": "040627",
       "store_name": "Taco Bell",
@@ -15911,8 +15962,8 @@
     }
   ],
   "activity_summary": {
-    "added": 396,
-    "removed": 384,
+    "added": 399,
+    "removed": 386,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -20944,15 +20995,6 @@
       "NY"
     ],
     [
-      "036000",
-      34.076910339390565,
-      -98.55837532831053,
-      0.0,
-      "Taco Bell",
-      "Burkburnett",
-      "TX"
-    ],
-    [
       "034927",
       36.417738209868936,
       -79.93360234663214,
@@ -21680,6 +21722,15 @@
       "Taco Bell",
       "Eufaula",
       "AL"
+    ],
+    [
+      "035336",
+      40.70847127284533,
+      -74.00504528587913,
+      0.0,
+      "Taco Bell",
+      "New York",
+      "NY"
     ],
     [
       "036031",
@@ -45890,15 +45941,6 @@
       "Taco Bell",
       "Saint Paul",
       "MN"
-    ],
-    [
-      "001521",
-      38.52294615501463,
-      -121.49746171580777,
-      0.0,
-      "Taco Bell",
-      "Sacramento",
-      "CA"
     ],
     [
       "020674",
@@ -84367,6 +84409,15 @@
       "MI"
     ],
     [
+      "032318",
+      34.96284585726576,
+      -89.85560287536828,
+      0.0,
+      "Taco Bell",
+      "Olive Branch",
+      "MS"
+    ],
+    [
       "031966",
       42.99420710252962,
       -89.51953856041655,
@@ -84914,6 +84965,15 @@
       "Taco Bell",
       "Wharton",
       "TX"
+    ],
+    [
+      "041940",
+      35.345894,
+      -80.857756,
+      0.0,
+      "Taco Bell",
+      "Charlotte",
+      "NC"
     ]
   ],
   "retired_at": null,

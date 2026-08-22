@@ -15,14 +15,19 @@
   "first_seen_at": "2026-08-18T21:53:27.392580+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 0.4,
-    "min": 0.3,
-    "max": 0.55,
-    "median": 0.3,
-    "std_dev": null,
-    "store_count": 120
+    "avg": 0.6,
+    "min": 0.6,
+    "max": 0.6,
+    "median": 0.6,
+    "std_dev": 0.0,
+    "store_count": 1
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$0.60",
+      "count": 1
+    }
+  ],
   "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
@@ -38,10 +43,38 @@
     "protein_g": 8.7145,
     "serving_size_g": 92.1358
   },
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "027630",
+      "name": "Taco Bell",
+      "city": "Florence",
+      "state": "SC",
+      "price": 0.6
+    }
+  ],
+  "min_price_store_numbers": [
+    "027630"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "027630",
+      "name": "Taco Bell",
+      "city": "Florence",
+      "state": "SC",
+      "price": 0.6
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "027630",
+      "store_name": "Taco Bell",
+      "city": "Florence",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-08-22T21:54:15.599894+00:00"
+    },
     {
       "store_number": "036765",
       "store_name": "Taco Bell",
@@ -2444,17 +2477,27 @@
     }
   ],
   "activity_summary": {
-    "added": 120,
+    "added": 121,
     "removed": 120,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
-  "calories_min": 0,
-  "calories_max": 0,
+  "calories_from_menu": 80,
+  "calories_min": 80,
+  "calories_max": 80,
   "combo_groups": [],
-  "map_data": [],
+  "map_data": [
+    [
+      "027630",
+      34.163084235618285,
+      -79.76507038220915,
+      0.6,
+      "Taco Bell",
+      "Florence",
+      "SC"
+    ]
+  ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-08-19",
+  "last_seen_date": "2026-08-22",
   "peak_availability_pct": 1.4
 }

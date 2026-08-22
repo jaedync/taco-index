@@ -22,12 +22,12 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 6
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 6
+      "count": 5
     }
   ],
   "state_prices": [],
@@ -67,13 +67,6 @@
       "city": "Douglasville",
       "state": "GA",
       "price": 10.99
-    },
-    {
-      "store_number": "002995",
-      "name": "Taco Bell",
-      "city": "Smyrna",
-      "state": "GA",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -81,17 +74,9 @@
     "042906",
     "042897",
     "042572",
-    "042580",
-    "002995"
+    "042580"
   ],
   "priciest_stores": [
-    {
-      "store_number": "002995",
-      "name": "Taco Bell",
-      "city": "Smyrna",
-      "state": "GA",
-      "price": 10.99
-    },
     {
       "store_number": "042580",
       "name": "Taco Bell",
@@ -129,6 +114,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-22T21:53:50.691389+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -312,7 +307,7 @@
   ],
   "activity_summary": {
     "added": 12,
-    "removed": 6,
+    "removed": 7,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -384,18 +379,9 @@
       "Taco Bell",
       "Douglasville",
       "GA"
-    ],
-    [
-      "002995",
-      33.88866329031674,
-      -84.47492127122132,
-      10.99,
-      "Taco Bell",
-      "Smyrna",
-      "GA"
     ]
   ],
   "retired_at": "2026-08-07T21:31:20.860518+00:00",
-  "last_seen_date": "2026-08-21",
+  "last_seen_date": "2026-08-22",
   "peak_availability_pct": 0.1
 }
