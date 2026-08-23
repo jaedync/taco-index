@@ -136,7 +136,6 @@
     "035462",
     "042977",
     "032537",
-    "032177",
     "022596",
     "017290",
     "004318",
@@ -147,6 +146,7 @@
     "027985",
     "023304",
     "042928",
+    "023291",
     "023300",
     "032354"
   ],
@@ -162,6 +162,13 @@
       "store_number": "023300",
       "name": "Taco Bell",
       "city": "Palm Bay",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "023291",
+      "name": "Taco Bell",
+      "city": "Satellite Beach",
       "state": "FL",
       "price": 10.99
     },
@@ -213,16 +220,29 @@
       "city": "Deltona",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "004318",
-      "name": "Taco Bell",
-      "city": "Apopka",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023291",
+      "store_name": "Taco Bell",
+      "city": "Satellite Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-23T22:06:09.780799+00:00"
+    },
+    {
+      "store_number": "032177",
+      "store_name": "Taco Bell",
+      "city": "Windermere",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-23T22:02:18.792987+00:00"
+    },
     {
       "store_number": "022266",
       "store_name": "Taco Bell",
@@ -1775,8 +1795,8 @@
     }
   ],
   "activity_summary": {
-    "added": 89,
-    "removed": 66,
+    "added": 90,
+    "removed": 67,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1907,15 +1927,6 @@
       "FL"
     ],
     [
-      "032177",
-      28.445597,
-      -81.559359,
-      10.99,
-      "Taco Bell",
-      "Windermere",
-      "FL"
-    ],
-    [
       "022596",
       29.2566212201578,
       -81.1136645078659,
@@ -2006,6 +2017,15 @@
       "FL"
     ],
     [
+      "023291",
+      28.186290819898744,
+      -80.59330917430088,
+      10.99,
+      "Taco Bell",
+      "Satellite Beach",
+      "FL"
+    ],
+    [
       "023300",
       27.99815047734223,
       -80.63776654322986,
@@ -2025,6 +2045,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-08-22",
+  "last_seen_date": "2026-08-23",
   "peak_availability_pct": 0.4
 }

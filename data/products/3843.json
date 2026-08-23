@@ -15,14 +15,18 @@
   "first_seen_at": "2026-08-18T21:53:27.392580+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 0.6,
-    "min": 0.6,
+    "avg": 0.45,
+    "min": 0.3,
     "max": 0.6,
-    "median": 0.6,
-    "std_dev": 0.0,
-    "store_count": 1
+    "median": 0.45,
+    "std_dev": 0.21,
+    "store_count": 2
   },
   "histogram": [
+    {
+      "bucket": "$0.30",
+      "count": 1
+    },
     {
       "bucket": "$0.60",
       "count": 1
@@ -45,17 +49,12 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "027630",
+      "store_number": "043335",
       "name": "Taco Bell",
-      "city": "Florence",
-      "state": "SC",
-      "price": 0.6
-    }
-  ],
-  "min_price_store_numbers": [
-    "027630"
-  ],
-  "priciest_stores": [
+      "city": "Wellston",
+      "state": "OH",
+      "price": 0.3
+    },
     {
       "store_number": "027630",
       "name": "Taco Bell",
@@ -64,7 +63,36 @@
       "price": 0.6
     }
   ],
+  "min_price_store_numbers": [
+    "043335"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "027630",
+      "name": "Taco Bell",
+      "city": "Florence",
+      "state": "SC",
+      "price": 0.6
+    },
+    {
+      "store_number": "043335",
+      "name": "Taco Bell",
+      "city": "Wellston",
+      "state": "OH",
+      "price": 0.3
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "043335",
+      "store_name": "Taco Bell",
+      "city": "Wellston",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-08-23T22:06:57.460430+00:00"
+    },
     {
       "store_number": "027630",
       "store_name": "Taco Bell",
@@ -2477,7 +2505,7 @@
     }
   ],
   "activity_summary": {
-    "added": 121,
+    "added": 122,
     "removed": 120,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2487,6 +2515,15 @@
   "calories_max": 80,
   "combo_groups": [],
   "map_data": [
+    [
+      "043335",
+      39.1123707,
+      -82.5352759,
+      0.3,
+      "Taco Bell",
+      "Wellston",
+      "OH"
+    ],
     [
       "027630",
       34.163084235618285,
@@ -2498,6 +2535,6 @@
     ]
   ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-08-22",
+  "last_seen_date": "2026-08-23",
   "peak_availability_pct": 1.4
 }

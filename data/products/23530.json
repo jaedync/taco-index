@@ -20,21 +20,15 @@
     "max": 3.0,
     "median": 3.0,
     "std_dev": 0.0,
-    "store_count": 5
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 5
+      "count": 4
     }
   ],
-  "state_prices": [
-    {
-      "state": "AL",
-      "avg_price": 3.0,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -65,13 +59,6 @@
       "price": 3.0
     },
     {
-      "store_number": "037105",
-      "name": "Taco Bell",
-      "city": "Talladega",
-      "state": "AL",
-      "price": 3.0
-    },
-    {
       "store_number": "033445",
       "name": "Taco Bell",
       "city": "Montevallo",
@@ -89,7 +76,6 @@
   "min_price_store_numbers": [
     "037013",
     "029145",
-    "037105",
     "033445",
     "029622"
   ],
@@ -109,13 +95,6 @@
       "price": 3.0
     },
     {
-      "store_number": "037105",
-      "name": "Taco Bell",
-      "city": "Talladega",
-      "state": "AL",
-      "price": 3.0
-    },
-    {
       "store_number": "029145",
       "name": "Taco Bell",
       "city": "Cullman",
@@ -131,6 +110,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037105",
+      "store_name": "Taco Bell",
+      "city": "Talladega",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 3.0,
+      "new_price": null,
+      "observed_at": "2026-08-23T21:58:55.089657+00:00"
+    },
     {
       "store_number": "029622",
       "store_name": "Taco Bell",
@@ -204,7 +193,7 @@
   ],
   "activity_summary": {
     "added": 6,
-    "removed": 1,
+    "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -232,15 +221,6 @@
       "AL"
     ],
     [
-      "037105",
-      33.4393026,
-      -86.0823143,
-      3.0,
-      "Taco Bell",
-      "Talladega",
-      "AL"
-    ],
-    [
       "033445",
       33.101925767425,
       -86.8609822651587,
@@ -260,6 +240,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-22",
+  "last_seen_date": "2026-08-23",
   "peak_availability_pct": 0.1
 }

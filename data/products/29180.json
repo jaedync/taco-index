@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 18
+    "store_count": 19
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 18
+      "count": 19
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 18
+      "store_count": 19
     }
   ],
   "nutrition": {
@@ -72,6 +72,13 @@
       "store_number": "036232",
       "name": "Taco Bell",
       "city": "Apopka",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "037110",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
       "state": "FL",
       "price": 10.99
     },
@@ -116,19 +123,13 @@
       "city": "Orlando",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "042933",
-      "name": "Taco Bell",
-      "city": "Ocala",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "040730",
     "034809",
     "036232",
+    "037110",
     "039587",
     "030349",
     "042941",
@@ -218,6 +219,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037110",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-23T21:59:18.862880+00:00"
+    },
     {
       "store_number": "027982",
       "store_name": "Taco Bell",
@@ -1820,7 +1831,7 @@
     }
   ],
   "activity_summary": {
-    "added": 89,
+    "added": 90,
     "removed": 71,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1886,6 +1897,15 @@
       10.99,
       "Taco Bell",
       "Apopka",
+      "FL"
+    ],
+    [
+      "037110",
+      28.34617964975096,
+      -81.64492094604472,
+      10.99,
+      "Taco Bell",
+      "Kissimmee",
       "FL"
     ],
     [
