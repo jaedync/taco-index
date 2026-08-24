@@ -13,18 +13,22 @@
   "peak_30d_pct": 1.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-08-18T21:53:27.392580+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 0.45,
+    "avg": 0.41,
     "min": 0.3,
     "max": 0.6,
-    "median": 0.45,
-    "std_dev": 0.21,
-    "store_count": 2
+    "median": 0.38,
+    "std_dev": 0.14,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$0.30",
+      "count": 2
+    },
+    {
+      "bucket": "$0.45",
       "count": 1
     },
     {
@@ -56,6 +60,20 @@
       "price": 0.3
     },
     {
+      "store_number": "028893",
+      "name": "Taco Bell",
+      "city": "Fishers",
+      "state": "IN",
+      "price": 0.3
+    },
+    {
+      "store_number": "017554",
+      "name": "Taco Bell",
+      "city": "Ronkonkoma",
+      "state": "NY",
+      "price": 0.45
+    },
+    {
       "store_number": "027630",
       "name": "Taco Bell",
       "city": "Florence",
@@ -64,7 +82,8 @@
     }
   ],
   "min_price_store_numbers": [
-    "043335"
+    "043335",
+    "028893"
   ],
   "priciest_stores": [
     {
@@ -75,6 +94,20 @@
       "price": 0.6
     },
     {
+      "store_number": "017554",
+      "name": "Taco Bell",
+      "city": "Ronkonkoma",
+      "state": "NY",
+      "price": 0.45
+    },
+    {
+      "store_number": "028893",
+      "name": "Taco Bell",
+      "city": "Fishers",
+      "state": "IN",
+      "price": 0.3
+    },
+    {
       "store_number": "043335",
       "name": "Taco Bell",
       "city": "Wellston",
@@ -83,6 +116,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028893",
+      "store_name": "Taco Bell",
+      "city": "Fishers",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-08-24T21:27:18.919245+00:00"
+    },
+    {
+      "store_number": "017554",
+      "store_name": "Taco Bell",
+      "city": "Ronkonkoma",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.45,
+      "observed_at": "2026-08-24T21:26:37.548085+00:00"
+    },
     {
       "store_number": "043335",
       "store_name": "Taco Bell",
@@ -2505,7 +2558,7 @@
     }
   ],
   "activity_summary": {
-    "added": 122,
+    "added": 124,
     "removed": 120,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2525,6 +2578,24 @@
       "OH"
     ],
     [
+      "028893",
+      39.95391533947413,
+      -86.04067158219901,
+      0.3,
+      "Taco Bell",
+      "Fishers",
+      "IN"
+    ],
+    [
+      "017554",
+      40.82821835463595,
+      -73.09826240027209,
+      0.45,
+      "Taco Bell",
+      "Ronkonkoma",
+      "NY"
+    ],
+    [
       "027630",
       34.163084235618285,
       -79.76507038220915,
@@ -2535,6 +2606,6 @@
     ]
   ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-08-23",
+  "last_seen_date": "2026-08-24",
   "peak_availability_pct": 1.4
 }

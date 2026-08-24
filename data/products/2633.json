@@ -117,7 +117,7 @@
     {
       "state": "ND",
       "avg_price": 0.0,
-      "store_count": 10
+      "store_count": 11
     },
     {
       "state": "NC",
@@ -192,7 +192,7 @@
     {
       "state": "IA",
       "avg_price": 0.0,
-      "store_count": 20
+      "store_count": 21
     },
     {
       "state": "HI",
@@ -207,7 +207,7 @@
     {
       "state": "FL",
       "avg_price": 0.0,
-      "store_count": 256
+      "store_count": 253
     },
     {
       "state": "DC",
@@ -233,6 +233,11 @@
       "state": "AZ",
       "avg_price": 0.0,
       "store_count": 178
+    },
+    {
+      "state": "AR",
+      "avg_price": 0.0,
+      "store_count": 5
     },
     {
       "state": "AK",
@@ -820,12 +825,10 @@
     "038874",
     "039657",
     "037365",
-    "037110",
     "038804",
     "038843",
     "037083",
     "038781",
-    "037187",
     "038990",
     "039579",
     "037384",
@@ -2901,7 +2904,6 @@
     "041629",
     "033791",
     "036121",
-    "019579",
     "042860",
     "019713",
     "029676",
@@ -3663,6 +3665,7 @@
     "035319",
     "033470",
     "031760",
+    "037061",
     "033494",
     "033637",
     "033619",
@@ -3826,9 +3829,25 @@
     "041582",
     "042770",
     "027890",
-    "041940"
+    "041940",
+    "040017",
+    "043223"
   ],
   "priciest_stores": [
+    {
+      "store_number": "043223",
+      "name": "Taco Bell",
+      "city": "Minot",
+      "state": "ND",
+      "price": 0.0
+    },
+    {
+      "store_number": "040017",
+      "name": "Taco Bell",
+      "city": "Jonesboro",
+      "state": "AR",
+      "price": 0.0
+    },
     {
       "store_number": "041940",
       "name": "Taco Bell",
@@ -3884,23 +3903,69 @@
       "city": "Tabor City",
       "state": "NC",
       "price": 0.0
-    },
-    {
-      "store_number": "040355",
-      "name": "Taco Bell",
-      "city": "Santa Maria",
-      "state": "CA",
-      "price": 0.0
-    },
-    {
-      "store_number": "042095",
-      "name": "Taco Bell",
-      "city": "Chula Vista",
-      "state": "CA",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043223",
+      "store_name": "Taco Bell",
+      "city": "Minot",
+      "state": "ND",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-24T21:27:33.076371+00:00"
+    },
+    {
+      "store_number": "037061",
+      "store_name": "Taco Bell",
+      "city": "Coralville",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-24T21:27:29.600764+00:00"
+    },
+    {
+      "store_number": "019579",
+      "store_name": "Taco Bell",
+      "city": "Pompano Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:27:02.984015+00:00"
+    },
+    {
+      "store_number": "040017",
+      "store_name": "Taco Bell",
+      "city": "Jonesboro",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-24T21:26:55.094306+00:00"
+    },
+    {
+      "store_number": "037187",
+      "store_name": "Taco Bell",
+      "city": "Tavares",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:25:41.614277+00:00"
+    },
+    {
+      "store_number": "037110",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:25:40.993037+00:00"
+    },
     {
       "store_number": "037061",
       "store_name": "Taco Bell",
@@ -12153,8 +12218,8 @@
     }
   ],
   "activity_summary": {
-    "added": 388,
-    "removed": 437,
+    "added": 391,
+    "removed": 440,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16601,15 +16666,6 @@
       "KY"
     ],
     [
-      "037110",
-      28.34617964975096,
-      -81.64492094604472,
-      0.0,
-      "Taco Bell",
-      "Kissimmee",
-      "FL"
-    ],
-    [
       "038804",
       40.6713,
       -73.856,
@@ -16644,15 +16700,6 @@
       "Taco Bell",
       "Houston",
       "TX"
-    ],
-    [
-      "037187",
-      28.782729286328053,
-      -81.74928864985861,
-      0.0,
-      "Taco Bell",
-      "Tavares",
-      "FL"
     ],
     [
       "038990",
@@ -35330,15 +35377,6 @@
       "CA"
     ],
     [
-      "019579",
-      26.275773180261673,
-      -80.0995626301119,
-      0.0,
-      "Taco Bell",
-      "Pompano Beach",
-      "FL"
-    ],
-    [
       "042860",
       27.0089991533431,
       -82.13644839358494,
@@ -42188,6 +42226,15 @@
       "NV"
     ],
     [
+      "037061",
+      41.70107833122352,
+      -91.61033324388583,
+      0.0,
+      "Taco Bell",
+      "Coralville",
+      "IA"
+    ],
+    [
       "033494",
       35.32391561860119,
       -91.5619935020374,
@@ -43662,6 +43709,24 @@
       "Taco Bell",
       "Charlotte",
       "NC"
+    ],
+    [
+      "040017",
+      35.81947937407179,
+      -90.67747195066659,
+      0.0,
+      "Taco Bell",
+      "Jonesboro",
+      "AR"
+    ],
+    [
+      "043223",
+      48.25893909,
+      -101.3227908,
+      0.0,
+      "Taco Bell",
+      "Minot",
+      "ND"
     ]
   ],
   "retired_at": null,

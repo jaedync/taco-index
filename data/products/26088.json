@@ -23,19 +23,19 @@
     "max": 2.79,
     "median": 2.79,
     "std_dev": 0.0,
-    "store_count": 98
+    "store_count": 97
   },
   "histogram": [
     {
       "bucket": "$2.79",
-      "count": 98
+      "count": 97
     }
   ],
   "state_prices": [
     {
-      "state": "IL",
+      "state": "IN",
       "avg_price": 2.79,
-      "store_count": 12
+      "store_count": 24
     },
     {
       "state": "WI",
@@ -50,12 +50,12 @@
     {
       "state": "MI",
       "avg_price": 2.79,
-      "store_count": 28
+      "store_count": 30
     },
     {
-      "state": "IN",
+      "state": "IL",
       "avg_price": 2.79,
-      "store_count": 26
+      "store_count": 11
     }
   ],
   "nutrition": null,
@@ -153,6 +153,7 @@
     "001937",
     "026083",
     "024745",
+    "003190",
     "001896",
     "030174",
     "030676",
@@ -181,14 +182,15 @@
     "015757",
     "028912",
     "042656",
-    "028860",
     "003335",
     "030947",
     "015449",
+    "042628",
     "033012",
     "001813",
     "042639",
     "019752",
+    "033304",
     "033650",
     "033785",
     "035408",
@@ -198,10 +200,8 @@
     "024298",
     "036199",
     "031985",
-    "028882",
     "031824",
     "032991",
-    "032109",
     "030658",
     "036181",
     "031993",
@@ -228,17 +228,9 @@
     "032711",
     "033075",
     "032045",
-    "037107",
-    "033484"
+    "037107"
   ],
   "priciest_stores": [
-    {
-      "store_number": "033484",
-      "name": "Taco Bell Cantina",
-      "city": "Chicago",
-      "state": "IL",
-      "price": 2.79
-    },
     {
       "store_number": "037107",
       "name": "Taco Bell",
@@ -301,9 +293,86 @@
       "city": "Griffith",
       "state": "IN",
       "price": 2.79
+    },
+    {
+      "store_number": "028858",
+      "name": "Taco Bell",
+      "city": "Columbus",
+      "state": "IN",
+      "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033484",
+      "store_name": "Taco Bell Cantina",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:27:30.363013+00:00"
+    },
+    {
+      "store_number": "032109",
+      "store_name": "Taco Bell",
+      "city": "Roseland",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:26:51.558840+00:00"
+    },
+    {
+      "store_number": "028882",
+      "store_name": "Taco Bell",
+      "city": "Princeton",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:26:46.638393+00:00"
+    },
+    {
+      "store_number": "033304",
+      "store_name": "Taco Bell",
+      "city": "Flint",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-08-24T21:26:30.498821+00:00"
+    },
+    {
+      "store_number": "042628",
+      "store_name": "Taco Bell",
+      "city": "Bluffton",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-08-24T21:26:19.591125+00:00"
+    },
+    {
+      "store_number": "028860",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:26:19.095530+00:00"
+    },
+    {
+      "store_number": "003190",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-08-24T21:25:52.088644+00:00"
+    },
     {
       "store_number": "040770",
       "store_name": "Taco Bell",
@@ -27276,8 +27345,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1398,
-    "removed": 1299,
+    "added": 1401,
+    "removed": 1303,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -27473,6 +27542,15 @@
       2.79,
       "Taco Bell",
       "Belleville",
+      "MI"
+    ],
+    [
+      "003190",
+      42.48379808690309,
+      -82.94468663168573,
+      2.79,
+      "Taco Bell",
+      "Roseville",
       "MI"
     ],
     [
@@ -27728,15 +27806,6 @@
       "IN"
     ],
     [
-      "028860",
-      39.90485584629985,
-      -86.05884514284298,
-      2.79,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
-    ],
-    [
       "003335",
       39.95448915785347,
       -82.82650233061759,
@@ -27762,6 +27831,15 @@
       "Taco Bell",
       "Springfield",
       "MO"
+    ],
+    [
+      "042628",
+      40.74613424695042,
+      -85.17036944385643,
+      2.79,
+      "Taco Bell",
+      "Bluffton",
+      "IN"
     ],
     [
       "033012",
@@ -27798,6 +27876,15 @@
       "Taco Bell",
       "Hobart",
       "IN"
+    ],
+    [
+      "033304",
+      43.060967521639306,
+      -83.76767657702658,
+      2.79,
+      "Taco Bell",
+      "Flint",
+      "MI"
     ],
     [
       "033650",
@@ -27881,15 +27968,6 @@
       "WI"
     ],
     [
-      "028882",
-      38.356072995582366,
-      -87.60485308257705,
-      2.79,
-      "Taco Bell",
-      "Princeton",
-      "IN"
-    ],
-    [
       "031824",
       43.59285788522184,
       -83.88822938773149,
@@ -27906,15 +27984,6 @@
       "Taco Bell",
       "Holland",
       "MI"
-    ],
-    [
-      "032109",
-      41.7181625970646,
-      -86.2509235739708,
-      2.79,
-      "Taco Bell",
-      "Roseland",
-      "IN"
     ],
     [
       "030658",
@@ -28156,15 +28225,6 @@
       -87.62653447509841,
       2.79,
       "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
-      "033484",
-      41.892394452962705,
-      -87.62221500277525,
-      2.79,
-      "Taco Bell Cantina",
       "Chicago",
       "IL"
     ]

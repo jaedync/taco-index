@@ -23,12 +23,12 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 296
+    "store_count": 297
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 296
+      "count": 297
     }
   ],
   "state_prices": [
@@ -55,7 +55,7 @@
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 94
+      "store_count": 98
     },
     {
       "state": "KY",
@@ -65,7 +65,7 @@
     {
       "state": "IN",
       "avg_price": 4.99,
-      "store_count": 59
+      "store_count": 56
     },
     {
       "state": "IL",
@@ -180,6 +180,7 @@
     "041760",
     "041745",
     "040952",
+    "042001",
     "032469",
     "042059",
     "041987",
@@ -204,12 +205,12 @@
     "041163",
     "042768",
     "042706",
+    "042603",
     "042724",
     "042452",
     "037169",
     "041687",
     "037680",
-    "036229",
     "037199",
     "038784",
     "042647",
@@ -231,6 +232,7 @@
     "030665",
     "029974",
     "035363",
+    "033310",
     "021299",
     "003858",
     "024647",
@@ -247,6 +249,7 @@
     "003190",
     "022444",
     "028231",
+    "017105",
     "001896",
     "004941",
     "001999",
@@ -257,10 +260,11 @@
     "033303",
     "021229",
     "026844",
+    "001732",
+    "024653",
     "033314",
     "003290",
     "020465",
-    "033316",
     "024235",
     "035351",
     "020721",
@@ -289,7 +293,6 @@
     "029452",
     "028915",
     "023133",
-    "028919",
     "031989",
     "032293",
     "026761",
@@ -367,10 +370,10 @@
     "031987",
     "028920",
     "024751",
-    "033017",
     "033010",
     "033768",
     "033781",
+    "042634",
     "025445",
     "033787",
     "036199",
@@ -378,7 +381,6 @@
     "002762",
     "028890",
     "031985",
-    "004360",
     "033798",
     "028882",
     "035409",
@@ -388,10 +390,8 @@
     "028870",
     "028863",
     "035404",
-    "032109",
     "030658",
     "036181",
-    "032992",
     "032491",
     "031940",
     "033788",
@@ -429,7 +429,6 @@
     "032995",
     "036203",
     "038846",
-    "026750",
     "033043",
     "042651",
     "033002",
@@ -437,7 +436,6 @@
     "035399",
     "033795",
     "033013",
-    "028858",
     "031269",
     "001880",
     "002076",
@@ -455,9 +453,12 @@
     "032135",
     "004589",
     "040385",
+    "033075",
     "032972",
     "037107",
     "032632",
+    "033999",
+    "036213",
     "040770",
     "043358",
     "043192"
@@ -485,6 +486,20 @@
       "price": 4.99
     },
     {
+      "store_number": "036213",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 4.99
+    },
+    {
+      "store_number": "033999",
+      "name": "Taco Bell",
+      "city": "Grand Blanc",
+      "state": "MI",
+      "price": 4.99
+    },
+    {
       "store_number": "032632",
       "name": "Taco Bell",
       "city": "Swanton",
@@ -506,35 +521,211 @@
       "price": 4.99
     },
     {
+      "store_number": "033075",
+      "name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "price": 4.99
+    },
+    {
       "store_number": "040385",
       "name": "Taco Bell",
       "city": "Bellevue",
       "state": "KY",
       "price": 4.99
-    },
-    {
-      "store_number": "004589",
-      "name": "Taco Bell",
-      "city": "Cincinnati",
-      "state": "OH",
-      "price": 4.99
-    },
-    {
-      "store_number": "032135",
-      "name": "Taco Bell",
-      "city": "Addison",
-      "state": "IL",
-      "price": 4.99
-    },
-    {
-      "store_number": "042652",
-      "name": "Taco Bell",
-      "city": "Mount Pleasant",
-      "state": "MI",
-      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036213",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-24T21:27:31.349077+00:00"
+    },
+    {
+      "store_number": "033999",
+      "store_name": "Taco Bell",
+      "city": "Grand Blanc",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-24T21:27:30.666171+00:00"
+    },
+    {
+      "store_number": "033075",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-24T21:27:29.327413+00:00"
+    },
+    {
+      "store_number": "028858",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:27:20.855184+00:00"
+    },
+    {
+      "store_number": "026750",
+      "store_name": "Taco Bell",
+      "city": "Palatine",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:27:16.244616+00:00"
+    },
+    {
+      "store_number": "032992",
+      "store_name": "Taco Bell",
+      "city": "Wyoming",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:26:53.313272+00:00"
+    },
+    {
+      "store_number": "032109",
+      "store_name": "Taco Bell",
+      "city": "Roseland",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:26:51.558840+00:00"
+    },
+    {
+      "store_number": "004360",
+      "store_name": "Taco Bell",
+      "city": "Lansing",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:26:45.433218+00:00"
+    },
+    {
+      "store_number": "042634",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-24T21:26:42.097269+00:00"
+    },
+    {
+      "store_number": "033017",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:26:41.297891+00:00"
+    },
+    {
+      "store_number": "028919",
+      "store_name": "Taco Bell",
+      "city": "Anderson",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:26:04.753304+00:00"
+    },
+    {
+      "store_number": "033316",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:25:57.233882+00:00"
+    },
+    {
+      "store_number": "024653",
+      "store_name": "Taco Bell",
+      "city": "Macomb",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-24T21:25:56.950631+00:00"
+    },
+    {
+      "store_number": "001732",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-24T21:25:56.523852+00:00"
+    },
+    {
+      "store_number": "017105",
+      "store_name": "Taco Bell",
+      "city": "Garden City",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-24T21:25:53.117559+00:00"
+    },
+    {
+      "store_number": "033310",
+      "store_name": "Taco Bell",
+      "city": "Madison Heights",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-24T21:25:48.244237+00:00"
+    },
+    {
+      "store_number": "036229",
+      "store_name": "Taco Bell",
+      "city": "Avon",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:25:39.199022+00:00"
+    },
+    {
+      "store_number": "042603",
+      "store_name": "Taco Bell",
+      "city": "Wyandotte",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-24T21:25:31.470960+00:00"
+    },
+    {
+      "store_number": "042001",
+      "store_name": "Taco Bell",
+      "city": "Westville",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-24T21:24:52.853842+00:00"
+    },
     {
       "store_number": "032105",
       "store_name": "Taco Bell",
@@ -30107,8 +30298,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1627,
-    "removed": 1330,
+    "added": 1637,
+    "removed": 1339,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -30251,6 +30442,15 @@
       "Taco Bell",
       "Chicago",
       "IL"
+    ],
+    [
+      "042001",
+      41.546295,
+      -86.896567,
+      4.99,
+      "Taco Bell",
+      "Westville",
+      "IN"
     ],
     [
       "032469",
@@ -30469,6 +30669,15 @@
       "IN"
     ],
     [
+      "042603",
+      42.19815480968533,
+      -83.15206366358976,
+      4.99,
+      "Taco Bell",
+      "Wyandotte",
+      "MI"
+    ],
+    [
       "042724",
       43.2972314,
       -87.9877895,
@@ -30512,15 +30721,6 @@
       "Taco Bell",
       "Vinita",
       "OK"
-    ],
-    [
-      "036229",
-      39.76228258862376,
-      -86.40258890426958,
-      4.99,
-      "Taco Bell",
-      "Avon",
-      "IN"
     ],
     [
       "037199",
@@ -30712,6 +30912,15 @@
       "OH"
     ],
     [
+      "033310",
+      42.505423224929636,
+      -83.08852254414887,
+      4.99,
+      "Taco Bell",
+      "Madison Heights",
+      "MI"
+    ],
+    [
       "021299",
       42.46538675040142,
       -82.93832356192854,
@@ -30856,6 +31065,15 @@
       "OH"
     ],
     [
+      "017105",
+      42.325364416289936,
+      -83.32727551460266,
+      4.99,
+      "Taco Bell",
+      "Garden City",
+      "MI"
+    ],
+    [
       "001896",
       42.51641840702473,
       -83.36022384000444,
@@ -30946,6 +31164,24 @@
       "OH"
     ],
     [
+      "001732",
+      42.32247892201157,
+      -83.48488225604342,
+      4.99,
+      "Taco Bell",
+      "Canton",
+      "MI"
+    ],
+    [
+      "024653",
+      42.63493873756046,
+      -82.85773765576657,
+      4.99,
+      "Taco Bell",
+      "Macomb",
+      "MI"
+    ],
+    [
       "033314",
       42.68711057443587,
       -83.38248093675571,
@@ -30971,15 +31207,6 @@
       "Taco Bell",
       "North Canton",
       "OH"
-    ],
-    [
-      "033316",
-      42.709640520946245,
-      -83.30659079290703,
-      4.99,
-      "Taco Bell",
-      "Lake Orion",
-      "MI"
     ],
     [
       "024235",
@@ -31231,15 +31458,6 @@
       4.99,
       "Taco Bell",
       "Tipton",
-      "IN"
-    ],
-    [
-      "028919",
-      40.106088313482495,
-      -85.65342396497726,
-      4.99,
-      "Taco Bell",
-      "Anderson",
       "IN"
     ],
     [
@@ -31936,15 +32154,6 @@
       "IN"
     ],
     [
-      "033017",
-      43.02229249136545,
-      -85.63386954369889,
-      4.99,
-      "Taco Bell",
-      "Grand Rapids",
-      "MI"
-    ],
-    [
       "033010",
       42.2587391578008,
       -85.58916404848787,
@@ -31970,6 +32179,15 @@
       "Taco Bell",
       "Vandalia",
       "OH"
+    ],
+    [
+      "042634",
+      43.02070476985877,
+      -85.68843215703964,
+      4.99,
+      "Taco Bell",
+      "Grand Rapids",
+      "MI"
     ],
     [
       "025445",
@@ -32033,15 +32251,6 @@
       "Taco Bell",
       "Racine",
       "WI"
-    ],
-    [
-      "004360",
-      42.76244800127769,
-      -84.54320256735822,
-      4.99,
-      "Taco Bell",
-      "Lansing",
-      "MI"
     ],
     [
       "033798",
@@ -32125,15 +32334,6 @@
       "IN"
     ],
     [
-      "032109",
-      41.7181625970646,
-      -86.2509235739708,
-      4.99,
-      "Taco Bell",
-      "Roseland",
-      "IN"
-    ],
-    [
       "030658",
       41.72159027851169,
       -83.5990398377453,
@@ -32150,15 +32350,6 @@
       "Taco Bell",
       "Cicero",
       "IL"
-    ],
-    [
-      "032992",
-      42.88363095728295,
-      -85.66602269641209,
-      4.99,
-      "Taco Bell",
-      "Wyoming",
-      "MI"
     ],
     [
       "032491",
@@ -32494,15 +32685,6 @@
       "OH"
     ],
     [
-      "026750",
-      42.13960830699689,
-      -88.01524109830522,
-      4.99,
-      "Taco Bell",
-      "Palatine",
-      "IL"
-    ],
-    [
       "033043",
       42.67365292260149,
       -85.65788559621069,
@@ -32564,15 +32746,6 @@
       "Taco Bell",
       "Wyoming",
       "MI"
-    ],
-    [
-      "028858",
-      39.22265283263655,
-      -85.91242123542881,
-      4.99,
-      "Taco Bell",
-      "Columbus",
-      "IN"
     ],
     [
       "031269",
@@ -32728,6 +32901,15 @@
       "KY"
     ],
     [
+      "033075",
+      42.91239617566594,
+      -85.51890074553435,
+      4.99,
+      "Taco Bell",
+      "Grand Rapids",
+      "MI"
+    ],
+    [
       "032972",
       41.45875610453311,
       -82.02438872169925,
@@ -32753,6 +32935,24 @@
       "Taco Bell",
       "Swanton",
       "OH"
+    ],
+    [
+      "033999",
+      42.94361483006382,
+      -83.6899741213718,
+      4.99,
+      "Taco Bell",
+      "Grand Blanc",
+      "MI"
+    ],
+    [
+      "036213",
+      41.8332762538909,
+      -87.61658739298582,
+      4.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
     ],
     [
       "040770",

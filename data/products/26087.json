@@ -19,7 +19,7 @@
   "first_seen_at": "2026-07-31T21:17:56.359326+00:00",
   "availability_pct": 1.4,
   "price_stats": {
-    "avg": 5.07,
+    "avg": 5.08,
     "min": 4.99,
     "max": 5.49,
     "median": 4.99,
@@ -29,33 +29,38 @@
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 92
+      "count": 90
     },
     {
       "bucket": "$5.49",
-      "count": 18
+      "count": 20
     }
   ],
   "state_prices": [
     {
       "state": "IL",
-      "avg_price": 5.16,
-      "store_count": 18
+      "avg_price": 5.17,
+      "store_count": 17
     },
     {
       "state": "IN",
-      "avg_price": 5.12,
-      "store_count": 26
+      "avg_price": 5.14,
+      "store_count": 24
     },
     {
       "state": "OH",
-      "avg_price": 5.04,
-      "store_count": 21
+      "avg_price": 5.06,
+      "store_count": 22
     },
     {
       "state": "MI",
-      "avg_price": 5.03,
-      "store_count": 36
+      "avg_price": 5.04,
+      "store_count": 37
+    },
+    {
+      "state": "WI",
+      "avg_price": 4.99,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -161,6 +166,7 @@
     "042648",
     "041998",
     "041163",
+    "042724",
     "037169",
     "037329",
     "042647",
@@ -205,16 +211,13 @@
     "033787",
     "036199",
     "031985",
-    "028882",
     "031824",
     "032991",
     "028863",
-    "032109",
     "030658",
     "036181",
     "031993",
     "028872",
-    "033016",
     "028886",
     "020944",
     "036206",
@@ -235,7 +238,7 @@
     "033075",
     "032045",
     "037107",
-    "033484",
+    "033999",
     "036213"
   ],
   "priciest_stores": [
@@ -311,6 +314,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033999",
+      "store_name": "Taco Bell",
+      "city": "Grand Blanc",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-24T21:27:30.666171+00:00"
+    },
+    {
+      "store_number": "033484",
+      "store_name": "Taco Bell Cantina",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:27:30.363013+00:00"
+    },
+    {
+      "store_number": "033016",
+      "store_name": "Taco Bell",
+      "city": "Jenison",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:26:59.608712+00:00"
+    },
+    {
+      "store_number": "032109",
+      "store_name": "Taco Bell",
+      "city": "Roseland",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:26:51.558840+00:00"
+    },
+    {
+      "store_number": "028882",
+      "store_name": "Taco Bell",
+      "city": "Princeton",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-24T21:26:46.638393+00:00"
+    },
+    {
+      "store_number": "003190",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-08-24T21:25:52.088644+00:00"
+    },
+    {
+      "store_number": "042724",
+      "store_name": "Taco Bell",
+      "city": "Cedarburg",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-24T21:25:33.692022+00:00"
+    },
+    {
+      "store_number": "042170",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-08-24T21:25:28.363672+00:00"
+    },
     {
       "store_number": "040770",
       "store_name": "Taco Bell",
@@ -156643,8 +156726,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7872,
-    "removed": 7761,
+    "added": 7876,
+    "removed": 7765,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -156796,6 +156879,15 @@
       "Taco Bell",
       "Burns Harbor",
       "IN"
+    ],
+    [
+      "042724",
+      43.2972314,
+      -87.9877895,
+      4.99,
+      "Taco Bell",
+      "Cedarburg",
+      "WI"
     ],
     [
       "037169",
@@ -157194,15 +157286,6 @@
       "WI"
     ],
     [
-      "028882",
-      38.356072995582366,
-      -87.60485308257705,
-      4.99,
-      "Taco Bell",
-      "Princeton",
-      "IN"
-    ],
-    [
       "031824",
       43.59285788522184,
       -83.88822938773149,
@@ -157227,15 +157310,6 @@
       4.99,
       "Taco Bell",
       "Vincennes",
-      "IN"
-    ],
-    [
-      "032109",
-      41.7181625970646,
-      -86.2509235739708,
-      4.99,
-      "Taco Bell",
-      "Roseland",
       "IN"
     ],
     [
@@ -157273,15 +157347,6 @@
       "Taco Bell",
       "Greensburg",
       "IN"
-    ],
-    [
-      "033016",
-      42.90375328148109,
-      -85.78662677675311,
-      4.99,
-      "Taco Bell",
-      "Jenison",
-      "MI"
     ],
     [
       "028886",
@@ -157464,13 +157529,13 @@
       "IL"
     ],
     [
-      "033484",
-      41.892394452962705,
-      -87.62221500277525,
+      "033999",
+      42.94361483006382,
+      -83.6899741213718,
       4.99,
-      "Taco Bell Cantina",
-      "Chicago",
-      "IL"
+      "Taco Bell",
+      "Grand Blanc",
+      "MI"
     ],
     [
       "036213",
@@ -157524,6 +157589,24 @@
       5.49,
       "Taco Bell",
       "White Lake",
+      "MI"
+    ],
+    [
+      "042170",
+      40.01856755747316,
+      -83.0254495411045,
+      5.49,
+      "Taco Bell",
+      "Columbus",
+      "OH"
+    ],
+    [
+      "003190",
+      42.48379808690309,
+      -82.94468663168573,
+      5.49,
+      "Taco Bell",
+      "Roseville",
       "MI"
     ],
     [
