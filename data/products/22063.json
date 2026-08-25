@@ -13,18 +13,23 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.6,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.1137,
   "first_seen_at": "2026-07-23T20:47:05.877862+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 4.48,
+    "avg": 3.99,
     "min": 3.99,
-    "max": 4.99,
+    "max": 3.99,
     "median": 3.99,
-    "std_dev": null,
-    "store_count": 43
+    "std_dev": 0.0,
+    "store_count": 1
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$3.99",
+      "count": 1
+    }
+  ],
   "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
@@ -40,10 +45,38 @@
     "protein_g": 8.7145,
     "serving_size_g": 92.1358
   },
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "002779",
+      "name": "Taco Bell",
+      "city": "Largo",
+      "state": "FL",
+      "price": 3.99
+    }
+  ],
+  "min_price_store_numbers": [
+    "002779"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "002779",
+      "name": "Taco Bell",
+      "city": "Largo",
+      "state": "FL",
+      "price": 3.99
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "002779",
+      "store_name": "Taco Bell",
+      "city": "Largo",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-08-25T20:31:36.161597+00:00"
+    },
     {
       "store_number": "036144",
       "store_name": "Taco Bell",
@@ -1526,12 +1559,12 @@
     }
   ],
   "activity_summary": {
-    "added": 74,
+    "added": 75,
     "removed": 74,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
+  "calories_from_menu": 430,
   "calories_min": 430,
   "calories_max": 430,
   "combo_groups": [
@@ -1540,16 +1573,20 @@
       "title": "Slow-Roasted Chicken Cheesy Enchilada Dipping Taco",
       "default_product_code": "21945",
       "default_product_name": "Slow-Roasted Chicken Cheesy Enchilada Dipping Taco"
-    },
-    {
-      "group_id": "962",
-      "title": "Layered Dip",
-      "default_product_code": "21952",
-      "default_product_name": "Layered Dip"
     }
   ],
-  "map_data": [],
+  "map_data": [
+    [
+      "002779",
+      27.895001495263276,
+      -82.75911468415376,
+      3.99,
+      "Taco Bell",
+      "Largo",
+      "FL"
+    ]
+  ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-08-19",
+  "last_seen_date": "2026-08-25",
   "peak_availability_pct": 0.8
 }

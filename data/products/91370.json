@@ -22,12 +22,12 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 5
+    "store_count": 6
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 5
+      "count": 6
     }
   ],
   "state_prices": [],
@@ -62,6 +62,13 @@
       "price": 10.99
     },
     {
+      "store_number": "042875",
+      "name": "Taco Bell",
+      "city": "Brunswick",
+      "state": "GA",
+      "price": 10.99
+    },
+    {
       "store_number": "042580",
       "name": "Taco Bell",
       "city": "Douglasville",
@@ -74,6 +81,7 @@
     "042906",
     "042897",
     "042572",
+    "042875",
     "042580"
   ],
   "priciest_stores": [
@@ -81,6 +89,13 @@
       "store_number": "042580",
       "name": "Taco Bell",
       "city": "Douglasville",
+      "state": "GA",
+      "price": 10.99
+    },
+    {
+      "store_number": "042875",
+      "name": "Taco Bell",
+      "city": "Brunswick",
       "state": "GA",
       "price": 10.99
     },
@@ -114,6 +129,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042875",
+      "store_name": "Taco Bell",
+      "city": "Brunswick",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-25T20:31:55.892104+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -306,7 +331,7 @@
     }
   ],
   "activity_summary": {
-    "added": 12,
+    "added": 13,
     "removed": 7,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -372,6 +397,15 @@
       "GA"
     ],
     [
+      "042875",
+      31.2167515667324,
+      -81.51767492294312,
+      10.99,
+      "Taco Bell",
+      "Brunswick",
+      "GA"
+    ],
+    [
       "042580",
       33.81750013314445,
       -84.81123234148987,
@@ -382,6 +416,6 @@
     ]
   ],
   "retired_at": "2026-08-07T21:31:20.860518+00:00",
-  "last_seen_date": "2026-08-24",
+  "last_seen_date": "2026-08-25",
   "peak_availability_pct": 0.1
 }

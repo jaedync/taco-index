@@ -15,17 +15,17 @@
   "first_seen_at": "2026-08-18T21:53:27.392580+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 0.41,
+    "avg": 0.39,
     "min": 0.3,
     "max": 0.6,
-    "median": 0.38,
-    "std_dev": 0.14,
-    "store_count": 4
+    "median": 0.3,
+    "std_dev": 0.13,
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$0.30",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$0.45",
@@ -67,6 +67,13 @@
       "price": 0.3
     },
     {
+      "store_number": "030677",
+      "name": "Taco Bell",
+      "city": "Toledo",
+      "state": "OH",
+      "price": 0.3
+    },
+    {
       "store_number": "017554",
       "name": "Taco Bell",
       "city": "Ronkonkoma",
@@ -83,7 +90,8 @@
   ],
   "min_price_store_numbers": [
     "043335",
-    "028893"
+    "028893",
+    "030677"
   ],
   "priciest_stores": [
     {
@@ -101,6 +109,13 @@
       "price": 0.45
     },
     {
+      "store_number": "030677",
+      "name": "Taco Bell",
+      "city": "Toledo",
+      "state": "OH",
+      "price": 0.3
+    },
+    {
       "store_number": "028893",
       "name": "Taco Bell",
       "city": "Fishers",
@@ -116,6 +131,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030677",
+      "store_name": "Taco Bell",
+      "city": "Toledo",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-08-25T20:32:10.046354+00:00"
+    },
     {
       "store_number": "028893",
       "store_name": "Taco Bell",
@@ -2558,7 +2583,7 @@
     }
   ],
   "activity_summary": {
-    "added": 124,
+    "added": 125,
     "removed": 120,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2587,6 +2612,15 @@
       "IN"
     ],
     [
+      "030677",
+      41.65265762502999,
+      -83.61882623255677,
+      0.3,
+      "Taco Bell",
+      "Toledo",
+      "OH"
+    ],
+    [
       "017554",
       40.82821835463595,
       -73.09826240027209,
@@ -2606,6 +2640,6 @@
     ]
   ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-08-24",
+  "last_seen_date": "2026-08-25",
   "peak_availability_pct": 1.4
 }

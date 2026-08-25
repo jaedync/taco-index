@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3500
+    "store_count": 3503
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3500
+      "count": 3503
     }
   ],
   "state_prices": [
@@ -102,12 +102,17 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 74
+      "store_count": 75
     },
     {
       "state": "NM",
       "avg_price": 0.0,
-      "store_count": 30
+      "store_count": 29
+    },
+    {
+      "state": "NJ",
+      "avg_price": 0.0,
+      "store_count": 5
     },
     {
       "state": "NE",
@@ -227,7 +232,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 616
+      "store_count": 618
     },
     {
       "state": "AZ",
@@ -458,6 +463,7 @@
     "041432",
     "042081",
     "041832",
+    "042250",
     "041903",
     "041434",
     "041327",
@@ -617,6 +623,7 @@
     "034783",
     "036286",
     "034809",
+    "036130",
     "036447",
     "043005",
     "036249",
@@ -2421,7 +2428,6 @@
     "027858",
     "030884",
     "030502",
-    "016928",
     "031887",
     "024149",
     "036201",
@@ -3831,9 +3837,25 @@
     "027890",
     "041940",
     "040017",
-    "043223"
+    "043223",
+    "002474",
+    "029722"
   ],
   "priciest_stores": [
+    {
+      "store_number": "029722",
+      "name": "Taco Bell",
+      "city": "Vineland",
+      "state": "NJ",
+      "price": 0.0
+    },
+    {
+      "store_number": "002474",
+      "name": "Taco Bell",
+      "city": "Santa Maria",
+      "state": "CA",
+      "price": 0.0
+    },
     {
       "store_number": "043223",
       "name": "Taco Bell",
@@ -3889,23 +3911,59 @@
       "city": "Carver",
       "state": "MN",
       "price": 0.0
-    },
-    {
-      "store_number": "042616",
-      "name": "Taco Bell",
-      "city": "Hastings",
-      "state": "FL",
-      "price": 0.0
-    },
-    {
-      "store_number": "042703",
-      "name": "Taco Bell",
-      "city": "Tabor City",
-      "state": "NC",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029722",
+      "store_name": "Taco Bell",
+      "city": "Vineland",
+      "state": "NJ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-25T20:32:53.836115+00:00"
+    },
+    {
+      "store_number": "002474",
+      "store_name": "Taco Bell",
+      "city": "Santa Maria",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-25T20:32:28.628104+00:00"
+    },
+    {
+      "store_number": "016928",
+      "store_name": "Taco Bell",
+      "city": "Las Cruces",
+      "state": "NM",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-08-25T20:32:15.291398+00:00"
+    },
+    {
+      "store_number": "036130",
+      "store_name": "Taco Bell",
+      "city": "Fresno",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-25T20:31:00.311616+00:00"
+    },
+    {
+      "store_number": "042250",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-25T20:30:46.876303+00:00"
+    },
     {
       "store_number": "043223",
       "store_name": "Taco Bell",
@@ -12218,8 +12276,8 @@
     }
   ],
   "activity_summary": {
-    "added": 391,
-    "removed": 440,
+    "added": 395,
+    "removed": 441,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13361,6 +13419,15 @@
       "Taco Bell",
       "Saint Croix Falls",
       "WI"
+    ],
+    [
+      "042250",
+      39.5445,
+      -119.81623,
+      0.0,
+      "Taco Bell",
+      "Reno",
+      "NV"
     ],
     [
       "041903",
@@ -14792,6 +14859,15 @@
       "Taco Bell",
       "Umatilla",
       "FL"
+    ],
+    [
+      "036130",
+      36.736140066465666,
+      -119.7566170140919,
+      0.0,
+      "Taco Bell",
+      "Fresno",
+      "CA"
     ],
     [
       "036447",
@@ -31030,15 +31106,6 @@
       "CO"
     ],
     [
-      "016928",
-      32.334396579986795,
-      -106.7811812907621,
-      0.0,
-      "Taco Bell",
-      "Las Cruces",
-      "NM"
-    ],
-    [
       "031887",
       36.09960262912423,
       -115.11497953654644,
@@ -43727,6 +43794,24 @@
       "Taco Bell",
       "Minot",
       "ND"
+    ],
+    [
+      "002474",
+      34.92605072654064,
+      -120.43646965922562,
+      0.0,
+      "Taco Bell",
+      "Santa Maria",
+      "CA"
+    ],
+    [
+      "029722",
+      39.48772406999759,
+      -75.05019903929679,
+      0.0,
+      "Taco Bell",
+      "Vineland",
+      "NJ"
     ]
   ],
   "retired_at": null,
