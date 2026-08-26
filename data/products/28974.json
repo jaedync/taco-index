@@ -16,21 +16,21 @@
   "first_seen_at": "2026-08-20T21:40:36.903880+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 5.91,
+    "avg": 5.89,
     "min": 5.49,
     "max": 7.29,
     "median": 5.99,
-    "std_dev": 0.36,
+    "std_dev": 0.37,
     "store_count": 31
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 9
+      "count": 10
     },
     {
       "bucket": "$5.99",
-      "count": 19
+      "count": 18
     },
     {
       "bucket": "$6.29",
@@ -45,7 +45,7 @@
     {
       "state": "NC",
       "avg_price": 5.94,
-      "store_count": 11
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -127,11 +127,11 @@
       "price": 5.49
     },
     {
-      "store_number": "029536",
+      "store_number": "002649",
       "name": "Taco Bell / KFC",
-      "city": "Miami",
-      "state": "FL",
-      "price": 5.99
+      "city": "Charleston",
+      "state": "SC",
+      "price": 5.49
     }
   ],
   "min_price_store_numbers": [
@@ -143,7 +143,8 @@
     "003881",
     "028153",
     "003758",
-    "024033"
+    "024033",
+    "002649"
   ],
   "priciest_stores": [
     {
@@ -218,6 +219,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002649",
+      "store_name": "Taco Bell / KFC",
+      "city": "Charleston",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-08-26T21:14:27.021488+00:00"
+    },
+    {
+      "store_number": "029404",
+      "store_name": "Taco Bell",
+      "city": "Garner",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-08-26T21:13:27.535380+00:00"
+    },
     {
       "store_number": "041370",
       "store_name": "Taco Bell / KFC",
@@ -1150,8 +1171,8 @@
     }
   ],
   "activity_summary": {
-    "added": 62,
-    "removed": 31,
+    "added": 63,
+    "removed": 32,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1242,6 +1263,15 @@
       "MI"
     ],
     [
+      "002649",
+      32.787389264873106,
+      -79.95377679524928,
+      5.49,
+      "Taco Bell / KFC",
+      "Charleston",
+      "SC"
+    ],
+    [
       "029536",
       25.770179973965377,
       -80.33099986148045,
@@ -1293,15 +1323,6 @@
       5.99,
       "Taco Bell",
       "Pittsboro",
-      "NC"
-    ],
-    [
-      "029404",
-      35.60550043842093,
-      -78.56779754161835,
-      5.99,
-      "Taco Bell",
-      "Garner",
       "NC"
     ],
     [
@@ -1441,6 +1462,6 @@
     ]
   ],
   "retired_at": "2026-08-21T20:54:24.064145+00:00",
-  "last_seen_date": "2026-08-25",
+  "last_seen_date": "2026-08-26",
   "peak_availability_pct": 0.4
 }

@@ -15,12 +15,12 @@
   "first_seen_at": "2026-08-18T21:53:27.392580+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 0.39,
+    "avg": 0.42,
     "min": 0.3,
     "max": 0.6,
-    "median": 0.3,
-    "std_dev": 0.13,
-    "store_count": 5
+    "median": 0.38,
+    "std_dev": 0.15,
+    "store_count": 6
   },
   "histogram": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -86,6 +86,13 @@
       "city": "Florence",
       "state": "SC",
       "price": 0.6
+    },
+    {
+      "store_number": "024230",
+      "name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "price": 0.6
     }
   ],
   "min_price_store_numbers": [
@@ -94,6 +101,13 @@
     "030677"
   ],
   "priciest_stores": [
+    {
+      "store_number": "024230",
+      "name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "price": 0.6
+    },
     {
       "store_number": "027630",
       "name": "Taco Bell",
@@ -131,6 +145,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024230",
+      "store_name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-08-26T21:13:37.533439+00:00"
+    },
     {
       "store_number": "030677",
       "store_name": "Taco Bell",
@@ -2583,7 +2607,7 @@
     }
   ],
   "activity_summary": {
-    "added": 125,
+    "added": 126,
     "removed": 120,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2637,9 +2661,18 @@
       "Taco Bell",
       "Florence",
       "SC"
+    ],
+    [
+      "024230",
+      33.683782293854335,
+      -78.99491250514984,
+      0.6,
+      "Taco Bell",
+      "Myrtle Beach",
+      "SC"
     ]
   ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-08-25",
+  "last_seen_date": "2026-08-26",
   "peak_availability_pct": 1.4
 }

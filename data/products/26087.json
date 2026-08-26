@@ -15,7 +15,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 91.5,
-  "recent_price_change_pct": -0.0423,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-07-31T21:17:56.359326+00:00",
   "availability_pct": 1.3,
   "price_stats": {
@@ -24,12 +24,12 @@
     "max": 5.49,
     "median": 4.99,
     "std_dev": 0.19,
-    "store_count": 102
+    "store_count": 99
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 84
+      "count": 81
     },
     {
       "bucket": "$5.49",
@@ -39,23 +39,23 @@
   "state_prices": [
     {
       "state": "IL",
-      "avg_price": 5.17,
-      "store_count": 14
+      "avg_price": 5.2,
+      "store_count": 12
     },
     {
       "state": "IN",
       "avg_price": 5.14,
-      "store_count": 23
+      "store_count": 24
+    },
+    {
+      "state": "OH",
+      "avg_price": 5.05,
+      "store_count": 18
     },
     {
       "state": "MI",
       "avg_price": 5.04,
-      "store_count": 37
-    },
-    {
-      "state": "OH",
-      "avg_price": 5.04,
-      "store_count": 19
+      "store_count": 38
     }
   ],
   "nutrition": {
@@ -74,13 +74,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "041134",
-      "name": "Taco Bell",
-      "city": "Stigler",
-      "state": "OK",
-      "price": 4.99
-    },
-    {
       "store_number": "041637",
       "name": "Taco Bell",
       "city": "Otisville",
@@ -98,20 +91,6 @@
       "store_number": "035453",
       "name": "Taco Bell",
       "city": "Mentor",
-      "state": "OH",
-      "price": 4.99
-    },
-    {
-      "store_number": "040952",
-      "name": "Taco Bell",
-      "city": "Chicago",
-      "state": "IL",
-      "price": 4.99
-    },
-    {
-      "store_number": "041987",
-      "name": "Taco Bell",
-      "city": "Painesville",
       "state": "OH",
       "price": 4.99
     },
@@ -142,15 +121,33 @@
       "city": "Hillsdale",
       "state": "MI",
       "price": 4.99
+    },
+    {
+      "store_number": "042648",
+      "name": "Taco Bell",
+      "city": "Reed City",
+      "state": "MI",
+      "price": 4.99
+    },
+    {
+      "store_number": "041998",
+      "name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "price": 4.99
+    },
+    {
+      "store_number": "041163",
+      "name": "Taco Bell",
+      "city": "Burns Harbor",
+      "state": "IN",
+      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
-    "041134",
     "041637",
     "041760",
     "035453",
-    "040952",
-    "041987",
     "042164",
     "034276",
     "035304",
@@ -171,9 +168,9 @@
     "026083",
     "024745",
     "017105",
+    "001567",
     "021229",
     "002494",
-    "041875",
     "002681",
     "030255",
     "040536",
@@ -183,11 +180,13 @@
     "002187",
     "031442",
     "042631",
+    "017156",
     "001651",
     "031572",
     "002998",
     "032107",
     "032997",
+    "005624",
     "028912",
     "015449",
     "042622",
@@ -196,16 +195,14 @@
     "042639",
     "042632",
     "033785",
-    "031987",
     "024298",
     "033787",
     "036199",
     "028882",
     "031824",
     "032991",
+    "028870",
     "028863",
-    "036181",
-    "031993",
     "028872",
     "033016",
     "004881",
@@ -303,6 +300,116 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031993",
+      "store_name": "Taco Bell",
+      "city": "Burlington",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-26T21:14:31.164276+00:00"
+    },
+    {
+      "store_number": "036181",
+      "store_name": "Taco Bell",
+      "city": "Cicero",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-26T21:14:25.237186+00:00"
+    },
+    {
+      "store_number": "028870",
+      "store_name": "Taco Bell",
+      "city": "Bloomington",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-26T21:14:19.965761+00:00"
+    },
+    {
+      "store_number": "031987",
+      "store_name": "Taco Bell",
+      "city": "Racine",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-26T21:13:58.015985+00:00"
+    },
+    {
+      "store_number": "005624",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-26T21:13:18.064273+00:00"
+    },
+    {
+      "store_number": "017156",
+      "store_name": "Taco Bell",
+      "city": "Owasso",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-26T21:13:01.739882+00:00"
+    },
+    {
+      "store_number": "041875",
+      "store_name": "Taco Bell",
+      "city": "Fort Gratiot",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-26T21:12:47.176336+00:00"
+    },
+    {
+      "store_number": "001567",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-26T21:12:44.996128+00:00"
+    },
+    {
+      "store_number": "041987",
+      "store_name": "Taco Bell",
+      "city": "Painesville",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-26T21:12:11.135405+00:00"
+    },
+    {
+      "store_number": "040952",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-26T21:12:09.511154+00:00"
+    },
+    {
+      "store_number": "041134",
+      "store_name": "Taco Bell",
+      "city": "Stigler",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-26T21:12:00.761482+00:00"
+    },
     {
       "store_number": "037107",
       "store_name": "Taco Bell",
@@ -156895,8 +157002,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7881,
-    "removed": 7778,
+    "added": 7885,
+    "removed": 7785,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -156905,15 +157012,6 @@
   "calories_max": 610,
   "combo_groups": [],
   "map_data": [
-    [
-      "041134",
-      35.25553019058207,
-      -95.10887520652496,
-      4.99,
-      "Taco Bell",
-      "Stigler",
-      "OK"
-    ],
     [
       "041637",
       43.16321471676148,
@@ -156939,24 +157037,6 @@
       4.99,
       "Taco Bell",
       "Mentor",
-      "OH"
-    ],
-    [
-      "040952",
-      41.88284181036335,
-      -87.68609889723875,
-      4.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
-      "041987",
-      41.6660242,
-      -81.243066,
-      4.99,
-      "Taco Bell",
-      "Painesville",
       "OH"
     ],
     [
@@ -157140,6 +157220,15 @@
       "MI"
     ],
     [
+      "001567",
+      42.506079753181425,
+      -82.93013281655476,
+      4.99,
+      "Taco Bell",
+      "Roseville",
+      "MI"
+    ],
+    [
       "021229",
       42.56092585729545,
       -83.02868924570248,
@@ -157156,15 +157245,6 @@
       "Taco Bell",
       "Fairlawn",
       "OH"
-    ],
-    [
-      "041875",
-      43.02456381414757,
-      -82.45632998180554,
-      4.99,
-      "Taco Bell",
-      "Fort Gratiot",
-      "MI"
     ],
     [
       "002681",
@@ -157248,6 +157328,15 @@
       "MI"
     ],
     [
+      "017156",
+      36.27765868130851,
+      -95.84714953600951,
+      4.99,
+      "Taco Bell",
+      "Owasso",
+      "OK"
+    ],
+    [
       "001651",
       42.25422907874331,
       -84.4236646592617,
@@ -157290,6 +157379,15 @@
       4.99,
       "Taco Bell",
       "Byron Center",
+      "MI"
+    ],
+    [
+      "005624",
+      42.57286870104666,
+      -84.82212859086845,
+      4.99,
+      "Taco Bell",
+      "Charlotte",
       "MI"
     ],
     [
@@ -157365,15 +157463,6 @@
       "OH"
     ],
     [
-      "031987",
-      42.76071505271547,
-      -87.80199502410142,
-      4.99,
-      "Taco Bell",
-      "Racine",
-      "WI"
-    ],
-    [
       "024298",
       43.72236651468486,
       -87.73689606789048,
@@ -157428,6 +157517,15 @@
       "MI"
     ],
     [
+      "028870",
+      39.138535715716394,
+      -86.53085254135476,
+      4.99,
+      "Taco Bell",
+      "Bloomington",
+      "IN"
+    ],
+    [
       "028863",
       38.68984275350118,
       -87.50482235850541,
@@ -157435,24 +157533,6 @@
       "Taco Bell",
       "Vincennes",
       "IN"
-    ],
-    [
-      "036181",
-      41.84951846839155,
-      -87.74393592776505,
-      4.99,
-      "Taco Bell",
-      "Cicero",
-      "IL"
-    ],
-    [
-      "031993",
-      42.70407752192847,
-      -88.24703425168991,
-      4.99,
-      "Taco Bell",
-      "Burlington",
-      "WI"
     ],
     [
       "028872",

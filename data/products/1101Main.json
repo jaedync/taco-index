@@ -11,20 +11,24 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": 0.0208,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.62,
+    "avg": 2.59,
     "min": 2.29,
     "max": 2.79,
-    "median": 2.79,
-    "std_dev": 0.29,
-    "store_count": 3
+    "median": 2.64,
+    "std_dev": 0.24,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$2.29",
+      "count": 1
+    },
+    {
+      "bucket": "$2.49",
       "count": 1
     },
     {
@@ -41,6 +45,13 @@
       "city": "Bronx",
       "state": "NY",
       "price": 2.29
+    },
+    {
+      "store_number": "041334",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 2.49
     },
     {
       "store_number": "034273",
@@ -76,6 +87,13 @@
       "price": 2.79
     },
     {
+      "store_number": "041334",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 2.49
+    },
+    {
       "store_number": "040658",
       "name": "Taco Bell",
       "city": "Bronx",
@@ -84,6 +102,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041334",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-08-26T21:12:27.255677+00:00"
+    },
     {
       "store_number": "041334",
       "store_name": "Taco Bell",
@@ -356,7 +384,7 @@
     }
   ],
   "activity_summary": {
-    "added": 11,
+    "added": 12,
     "removed": 16,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -373,6 +401,15 @@
       2.29,
       "Taco Bell",
       "Bronx",
+      "NY"
+    ],
+    [
+      "041334",
+      40.69229211177486,
+      -73.99141198374691,
+      2.49,
+      "Taco Bell",
+      "Brooklyn",
       "NY"
     ],
     [
