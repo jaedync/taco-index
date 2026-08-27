@@ -13,25 +13,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 13.6,
-  "recent_price_change_pct": 0.0412,
+  "recent_price_change_pct": 0.0387,
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
   "availability_pct": 5.4,
   "price_stats": {
     "avg": 1.04,
-    "min": 0.55,
+    "min": 0.6,
     "max": 1.59,
     "median": 0.98,
     "std_dev": 0.23,
-    "store_count": 418
+    "store_count": 419
   },
   "histogram": [
     {
-      "bucket": "$0.55",
-      "count": 1
-    },
-    {
       "bucket": "$0.60",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$0.70",
@@ -59,7 +55,7 @@
     },
     {
       "bucket": "$0.95",
-      "count": 49
+      "count": 50
     },
     {
       "bucket": "$0.98",
@@ -71,7 +67,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 90
+      "count": 91
     },
     {
       "bucket": "$1.10",
@@ -91,7 +87,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 71
+      "count": 70
     },
     {
       "bucket": "$1.59",
@@ -106,7 +102,7 @@
     },
     {
       "state": "MI",
-      "avg_price": 1.18,
+      "avg_price": 1.17,
       "store_count": 106
     },
     {
@@ -136,8 +132,8 @@
     },
     {
       "state": "IN",
-      "avg_price": 0.98,
-      "store_count": 45
+      "avg_price": 0.97,
+      "store_count": 46
     },
     {
       "state": "OH",
@@ -186,13 +182,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "030443",
-      "name": "Taco Bell",
-      "city": "Eagle",
-      "state": "ID",
-      "price": 0.55
-    },
-    {
       "store_number": "023045",
       "name": "Taco Bell",
       "city": "Port Huron",
@@ -228,6 +217,13 @@
       "price": 0.6
     },
     {
+      "store_number": "002076",
+      "name": "Taco Bell",
+      "city": "Griffith",
+      "state": "IN",
+      "price": 0.6
+    },
+    {
       "store_number": "035012",
       "name": "Taco Bell",
       "city": "Grand Junction",
@@ -257,7 +253,12 @@
     }
   ],
   "min_price_store_numbers": [
-    "030443"
+    "023045",
+    "041828",
+    "041773",
+    "036775",
+    "030947",
+    "002076"
   ],
   "priciest_stores": [
     {
@@ -332,6 +333,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002076",
+      "store_name": "Taco Bell",
+      "city": "Griffith",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-08-27T21:28:22.590979+00:00"
+    },
+    {
+      "store_number": "042642",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-08-27T21:27:07.322652+00:00"
+    },
+    {
+      "store_number": "030443",
+      "store_name": "Taco Bell",
+      "city": "Eagle",
+      "state": "ID",
+      "change_type": "item_removed",
+      "old_price": 0.55,
+      "new_price": null,
+      "observed_at": "2026-08-27T21:27:03.260169+00:00"
+    },
+    {
+      "store_number": "029045",
+      "store_name": "Taco Bell",
+      "city": "Fort Oglethorpe",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-08-27T21:26:35.221962+00:00"
+    },
+    {
+      "store_number": "003293",
+      "store_name": "Taco Bell",
+      "city": "Redford",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.95,
+      "observed_at": "2026-08-27T21:26:34.844829+00:00"
+    },
+    {
+      "store_number": "004986",
+      "store_name": "Taco Bell",
+      "city": "Plymouth",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.95,
+      "observed_at": "2026-08-27T21:26:33.217387+00:00"
+    },
+    {
+      "store_number": "040760",
+      "store_name": "Taco Bell",
+      "city": "Shelby Township",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-08-27T21:25:33.825577+00:00"
+    },
     {
       "store_number": "040369",
       "store_name": "Taco Bell",
@@ -23464,8 +23535,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1271,
-    "removed": 1042,
+    "added": 1275,
+    "removed": 1045,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -23474,15 +23545,6 @@
   "calories_max": 60,
   "combo_groups": [],
   "map_data": [
-    [
-      "030443",
-      43.66429300343321,
-      -116.41330491602149,
-      0.55,
-      "Taco Bell",
-      "Eagle",
-      "ID"
-    ],
     [
       "023045",
       42.97589743492643,
@@ -23526,6 +23588,15 @@
       0.6,
       "Taco Bell",
       "Portage",
+      "IN"
+    ],
+    [
+      "002076",
+      41.55041772431128,
+      -87.42604627157561,
+      0.6,
+      "Taco Bell",
+      "Griffith",
       "IN"
     ],
     [
@@ -25311,15 +25382,6 @@
       "MI"
     ],
     [
-      "040760",
-      42.7088,
-      -83.0357,
-      0.95,
-      "Taco Bell",
-      "Shelby Township",
-      "MI"
-    ],
-    [
       "028908",
       37.9860075326598,
       -87.49214820566522,
@@ -25345,6 +25407,24 @@
       "Taco Bell",
       "Bloomington",
       "IN"
+    ],
+    [
+      "004986",
+      42.35859535314378,
+      -83.46154167319582,
+      0.95,
+      "Taco Bell",
+      "Plymouth",
+      "MI"
+    ],
+    [
+      "003293",
+      42.4395872518979,
+      -83.31623877179388,
+      0.95,
+      "Taco Bell",
+      "Redford",
+      "MI"
     ],
     [
       "031450",
@@ -25948,6 +26028,15 @@
       "Taco Bell",
       "Indianapolis",
       "IN"
+    ],
+    [
+      "029045",
+      34.938262361554905,
+      -85.21441481543206,
+      1.0,
+      "Taco Bell",
+      "Fort Oglethorpe",
+      "GA"
     ],
     [
       "035465",
@@ -27021,15 +27110,6 @@
       "MI"
     ],
     [
-      "042642",
-      42.9853942529355,
-      -85.68253186721324,
-      1.49,
-      "Taco Bell",
-      "Grand Rapids",
-      "MI"
-    ],
-    [
       "026741",
       41.748257196107055,
       -88.16902414710967,
@@ -27238,6 +27318,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-08-26",
+  "last_seen_date": "2026-08-27",
   "peak_availability_pct": 13.6
 }

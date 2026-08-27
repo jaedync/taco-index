@@ -17,17 +17,17 @@
   "first_seen_at": "2026-07-23T20:47:03.076148+00:00",
   "availability_pct": 0.6,
   "price_stats": {
-    "avg": 11.66,
+    "avg": 11.71,
     "min": 10.99,
     "max": 11.99,
     "median": 11.99,
-    "std_dev": 0.47,
-    "store_count": 46
+    "std_dev": 0.45,
+    "store_count": 43
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 15
+      "count": 12
     },
     {
       "bucket": "$11.99",
@@ -38,12 +38,12 @@
     {
       "state": "FL",
       "avg_price": 11.99,
-      "store_count": 11
+      "store_count": 12
     },
     {
       "state": "GA",
-      "avg_price": 11.55,
-      "store_count": 34
+      "avg_price": 11.59,
+      "store_count": 30
     }
   ],
   "nutrition": {
@@ -104,20 +104,6 @@
       "price": 10.99
     },
     {
-      "store_number": "042107",
-      "name": "Taco Bell",
-      "city": "Cumming",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
-      "store_number": "041400",
-      "name": "Taco Bell",
-      "city": "Cumming",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "042351",
       "name": "Taco Bell",
       "city": "Calhoun",
@@ -130,6 +116,20 @@
       "city": "Dallas",
       "state": "GA",
       "price": 10.99
+    },
+    {
+      "store_number": "042585",
+      "name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "price": 10.99
+    },
+    {
+      "store_number": "042572",
+      "name": "Taco Bell",
+      "city": "Fairburn",
+      "state": "GA",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -139,14 +139,11 @@
     "042575",
     "042583",
     "042581",
-    "042107",
-    "041400",
     "042351",
     "042577",
     "042585",
     "042572",
     "042574",
-    "042573",
     "042579"
   ],
   "priciest_stores": [
@@ -161,6 +158,13 @@
       "store_number": "042980",
       "name": "Taco Bell",
       "city": "Gainesville",
+      "state": "FL",
+      "price": 11.99
+    },
+    {
+      "store_number": "042970",
+      "name": "Taco Bell",
+      "city": "Port Saint Lucie",
       "state": "FL",
       "price": 11.99
     },
@@ -212,16 +216,59 @@
       "city": "Miami",
       "state": "FL",
       "price": 11.99
-    },
-    {
-      "store_number": "042945",
-      "name": "Taco Bell",
-      "city": "Lavonia",
-      "state": "GA",
-      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042970",
+      "store_name": "Taco Bell",
+      "city": "Port Saint Lucie",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-08-27T21:28:56.127584+00:00"
+    },
+    {
+      "store_number": "004317",
+      "store_name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-08-27T21:28:06.312506+00:00"
+    },
+    {
+      "store_number": "042573",
+      "store_name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-27T21:27:53.064721+00:00"
+    },
+    {
+      "store_number": "041400",
+      "store_name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-27T21:26:21.673214+00:00"
+    },
+    {
+      "store_number": "042107",
+      "store_name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-27T21:26:19.739559+00:00"
+    },
     {
       "store_number": "042872",
       "store_name": "Taco Bell",
@@ -3464,8 +3511,8 @@
     }
   ],
   "activity_summary": {
-    "added": 185,
-    "removed": 139,
+    "added": 186,
+    "removed": 143,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3548,24 +3595,6 @@
       "GA"
     ],
     [
-      "042107",
-      34.189321,
-      -84.138955,
-      10.99,
-      "Taco Bell",
-      "Cumming",
-      "GA"
-    ],
-    [
-      "041400",
-      34.23938946065471,
-      -84.22613464499771,
-      10.99,
-      "Taco Bell",
-      "Cumming",
-      "GA"
-    ],
-    [
       "042351",
       34.511577,
       -84.92265,
@@ -3608,15 +3637,6 @@
       10.99,
       "Taco Bell",
       "Dallas",
-      "GA"
-    ],
-    [
-      "042573",
-      34.3143827840982,
-      -83.79565393988236,
-      10.99,
-      "Taco Bell",
-      "Gainesville",
       "GA"
     ],
     [
@@ -3809,15 +3829,6 @@
       "FL"
     ],
     [
-      "004317",
-      34.286228837677136,
-      -83.84069511297639,
-      11.99,
-      "Taco Bell",
-      "Gainesville",
-      "GA"
-    ],
-    [
       "042945",
       34.44515828481069,
       -83.11913877725601,
@@ -3890,6 +3901,15 @@
       "GA"
     ],
     [
+      "042970",
+      27.27428750457316,
+      -80.34850978217297,
+      11.99,
+      "Taco Bell",
+      "Port Saint Lucie",
+      "FL"
+    ],
+    [
       "042980",
       29.63726564008641,
       -82.33892807548047,
@@ -3909,6 +3929,6 @@
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-08-26",
+  "last_seen_date": "2026-08-27",
   "peak_availability_pct": 1.1
 }

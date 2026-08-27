@@ -19,17 +19,17 @@
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.1,
+    "avg": 9.12,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.31,
-    "store_count": 10
+    "std_dev": 0.35,
+    "store_count": 8
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 9
+      "count": 7
     },
     {
       "bucket": "$9.99",
@@ -39,8 +39,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.1,
-      "store_count": 10
+      "avg_price": 9.12,
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -66,13 +66,6 @@
       "price": 9.0
     },
     {
-      "store_number": "032537",
-      "name": "Taco Bell",
-      "city": "Leesburg",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "031840",
       "name": "Taco Bell",
       "city": "Ocala",
@@ -90,13 +83,6 @@
       "store_number": "022833",
       "name": "Taco Bell",
       "city": "Clermont",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "027970",
-      "name": "Taco Bell",
-      "city": "Merritt Island",
       "state": "FL",
       "price": 9.0
     },
@@ -131,11 +117,9 @@
   ],
   "min_price_store_numbers": [
     "036438",
-    "032537",
     "031840",
     "030349",
     "022833",
-    "027970",
     "027971",
     "027972",
     "027984"
@@ -170,13 +154,6 @@
       "price": 9.0
     },
     {
-      "store_number": "027970",
-      "name": "Taco Bell",
-      "city": "Merritt Island",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "022833",
       "name": "Taco Bell",
       "city": "Clermont",
@@ -198,13 +175,6 @@
       "price": 9.0
     },
     {
-      "store_number": "032537",
-      "name": "Taco Bell",
-      "city": "Leesburg",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "036438",
       "name": "Taco Bell",
       "city": "Minneola",
@@ -213,6 +183,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027970",
+      "store_name": "Taco Bell",
+      "city": "Merritt Island",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-08-27T21:27:21.562420+00:00"
+    },
+    {
+      "store_number": "032537",
+      "store_name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-08-27T21:26:43.989111+00:00"
+    },
     {
       "store_number": "022592",
       "store_name": "Taco Bell",
@@ -4856,7 +4846,7 @@
   ],
   "activity_summary": {
     "added": 237,
-    "removed": 227,
+    "removed": 229,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4906,15 +4896,6 @@
       "FL"
     ],
     [
-      "032537",
-      28.82412737453517,
-      -81.79163746182154,
-      9.0,
-      "Taco Bell",
-      "Leesburg",
-      "FL"
-    ],
-    [
       "031840",
       29.085986725432136,
       -82.25106698357388,
@@ -4939,15 +4920,6 @@
       9.0,
       "Taco Bell",
       "Clermont",
-      "FL"
-    ],
-    [
-      "027970",
-      28.36376816960354,
-      -80.69987878203392,
-      9.0,
-      "Taco Bell",
-      "Merritt Island",
       "FL"
     ],
     [
@@ -4988,6 +4960,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-08-26",
+  "last_seen_date": "2026-08-27",
   "peak_availability_pct": 1.2
 }

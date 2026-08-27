@@ -15,25 +15,29 @@
   "first_seen_at": "2026-08-18T21:53:27.392580+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 0.42,
+    "avg": 0.45,
     "min": 0.3,
-    "max": 0.6,
-    "median": 0.38,
-    "std_dev": 0.15,
-    "store_count": 6
+    "max": 0.96,
+    "median": 0.3,
+    "std_dev": 0.23,
+    "store_count": 9
   },
   "histogram": [
     {
       "bucket": "$0.30",
-      "count": 3
+      "count": 5
     },
     {
-      "bucket": "$0.45",
+      "bucket": "$0.40",
       "count": 1
     },
     {
       "bucket": "$0.60",
       "count": 2
+    },
+    {
+      "bucket": "$0.96",
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -74,11 +78,25 @@
       "price": 0.3
     },
     {
-      "store_number": "017554",
+      "store_number": "021112",
       "name": "Taco Bell",
-      "city": "Ronkonkoma",
-      "state": "NY",
-      "price": 0.45
+      "city": "Garden Grove",
+      "state": "CA",
+      "price": 0.3
+    },
+    {
+      "store_number": "033623",
+      "name": "Taco Bell / Pizza Hut",
+      "city": "Los Angeles",
+      "state": "CA",
+      "price": 0.3
+    },
+    {
+      "store_number": "040515",
+      "name": "Taco Bell Cantina",
+      "city": "Arlington",
+      "state": "VA",
+      "price": 0.4
     },
     {
       "store_number": "027630",
@@ -93,14 +111,30 @@
       "city": "Myrtle Beach",
       "state": "SC",
       "price": 0.6
+    },
+    {
+      "store_number": "039949",
+      "name": "Taco Bell",
+      "city": "Selden",
+      "state": "NY",
+      "price": 0.96
     }
   ],
   "min_price_store_numbers": [
     "043335",
     "028893",
-    "030677"
+    "030677",
+    "021112",
+    "033623"
   ],
   "priciest_stores": [
+    {
+      "store_number": "039949",
+      "name": "Taco Bell",
+      "city": "Selden",
+      "state": "NY",
+      "price": 0.96
+    },
     {
       "store_number": "024230",
       "name": "Taco Bell",
@@ -116,11 +150,25 @@
       "price": 0.6
     },
     {
-      "store_number": "017554",
+      "store_number": "040515",
+      "name": "Taco Bell Cantina",
+      "city": "Arlington",
+      "state": "VA",
+      "price": 0.4
+    },
+    {
+      "store_number": "033623",
+      "name": "Taco Bell / Pizza Hut",
+      "city": "Los Angeles",
+      "state": "CA",
+      "price": 0.3
+    },
+    {
+      "store_number": "021112",
       "name": "Taco Bell",
-      "city": "Ronkonkoma",
-      "state": "NY",
-      "price": 0.45
+      "city": "Garden Grove",
+      "state": "CA",
+      "price": 0.3
     },
     {
       "store_number": "030677",
@@ -145,6 +193,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040515",
+      "store_name": "Taco Bell Cantina",
+      "city": "Arlington",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-08-27T21:28:55.338573+00:00"
+    },
+    {
+      "store_number": "039949",
+      "store_name": "Taco Bell",
+      "city": "Selden",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.96,
+      "observed_at": "2026-08-27T21:28:09.322018+00:00"
+    },
+    {
+      "store_number": "033623",
+      "store_name": "Taco Bell / Pizza Hut",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-08-27T21:27:38.160555+00:00"
+    },
+    {
+      "store_number": "017554",
+      "store_name": "Taco Bell",
+      "city": "Ronkonkoma",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 0.45,
+      "new_price": null,
+      "observed_at": "2026-08-27T21:27:26.715179+00:00"
+    },
+    {
+      "store_number": "021112",
+      "store_name": "Taco Bell",
+      "city": "Garden Grove",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-08-27T21:26:53.631516+00:00"
+    },
     {
       "store_number": "024230",
       "store_name": "Taco Bell",
@@ -2607,8 +2705,8 @@
     }
   ],
   "activity_summary": {
-    "added": 126,
-    "removed": 120,
+    "added": 130,
+    "removed": 121,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2645,13 +2743,31 @@
       "OH"
     ],
     [
-      "017554",
-      40.82821835463595,
-      -73.09826240027209,
-      0.45,
+      "021112",
+      33.77335082452647,
+      -117.99157343095187,
+      0.3,
       "Taco Bell",
-      "Ronkonkoma",
-      "NY"
+      "Garden Grove",
+      "CA"
+    ],
+    [
+      "033623",
+      34.03082454558842,
+      -118.33482221497921,
+      0.3,
+      "Taco Bell / Pizza Hut",
+      "Los Angeles",
+      "CA"
+    ],
+    [
+      "040515",
+      38.89210337025643,
+      -77.08379329828544,
+      0.4,
+      "Taco Bell Cantina",
+      "Arlington",
+      "VA"
     ],
     [
       "027630",
@@ -2670,9 +2786,18 @@
       "Taco Bell",
       "Myrtle Beach",
       "SC"
+    ],
+    [
+      "039949",
+      40.86172215078185,
+      -73.0588380994073,
+      0.96,
+      "Taco Bell",
+      "Selden",
+      "NY"
     ]
   ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-08-26",
+  "last_seen_date": "2026-08-27",
   "peak_availability_pct": 1.4
 }

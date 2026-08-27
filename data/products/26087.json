@@ -23,8 +23,8 @@
     "min": 4.99,
     "max": 5.49,
     "median": 4.99,
-    "std_dev": 0.19,
-    "store_count": 99
+    "std_dev": 0.2,
+    "store_count": 100
   },
   "histogram": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "bucket": "$5.49",
-      "count": 18
+      "count": 19
     }
   ],
   "state_prices": [
@@ -49,8 +49,8 @@
     },
     {
       "state": "OH",
-      "avg_price": 5.05,
-      "store_count": 18
+      "avg_price": 5.07,
+      "store_count": 20
     },
     {
       "state": "MI",
@@ -175,6 +175,7 @@
     "030255",
     "040536",
     "040006",
+    "024764",
     "003294",
     "015453",
     "002187",
@@ -188,7 +189,6 @@
     "032997",
     "005624",
     "028912",
-    "015449",
     "042622",
     "033012",
     "001813",
@@ -233,6 +233,13 @@
       "name": "Taco Bell",
       "city": "Alsip",
       "state": "IL",
+      "price": 5.49
+    },
+    {
+      "store_number": "040445",
+      "name": "Taco Bell",
+      "city": "Berea",
+      "state": "OH",
       "price": 5.49
     },
     {
@@ -290,16 +297,39 @@
       "city": "Reynoldsburg",
       "state": "OH",
       "price": 5.49
-    },
-    {
-      "store_number": "032494",
-      "name": "Taco Bell",
-      "city": "Hobart",
-      "state": "IN",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040445",
+      "store_name": "Taco Bell",
+      "city": "Berea",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-08-27T21:28:27.399589+00:00"
+    },
+    {
+      "store_number": "015449",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-08-27T21:27:05.079770+00:00"
+    },
+    {
+      "store_number": "024764",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-08-27T21:26:40.642660+00:00"
+    },
     {
       "store_number": "031993",
       "store_name": "Taco Bell",
@@ -157002,8 +157032,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7885,
-    "removed": 7785,
+    "added": 7887,
+    "removed": 7786,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -157283,6 +157313,15 @@
       "MI"
     ],
     [
+      "024764",
+      41.41912028925022,
+      -81.73638492822647,
+      4.99,
+      "Taco Bell",
+      "Cleveland",
+      "OH"
+    ],
+    [
       "003294",
       42.34483992057749,
       -83.15676929975423,
@@ -157398,15 +157437,6 @@
       "Taco Bell",
       "Whitestown",
       "IN"
-    ],
-    [
-      "015449",
-      37.182687310204834,
-      -93.29921364784235,
-      4.99,
-      "Taco Bell",
-      "Springfield",
-      "MO"
     ],
     [
       "042622",
@@ -157893,6 +157923,15 @@
       "Taco Bell",
       "Crown Point",
       "IN"
+    ],
+    [
+      "040445",
+      41.3722283,
+      -81.8908145,
+      5.49,
+      "Taco Bell",
+      "Berea",
+      "OH"
     ],
     [
       "032031",

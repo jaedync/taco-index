@@ -16,36 +16,36 @@
   "peak_30d_pct": 16.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-07-31T21:17:56.359326+00:00",
-  "availability_pct": 1.1,
+  "availability_pct": 1.2,
   "price_stats": {
     "avg": 2.79,
     "min": 2.79,
     "max": 2.79,
     "median": 2.79,
     "std_dev": 0.0,
-    "store_count": 87
+    "store_count": 90
   },
   "histogram": [
     {
       "bucket": "$2.79",
-      "count": 87
+      "count": 90
     }
   ],
   "state_prices": [
     {
+      "state": "IN",
+      "avg_price": 2.79,
+      "store_count": 24
+    },
+    {
       "state": "OH",
       "avg_price": 2.79,
-      "store_count": 19
+      "store_count": 21
     },
     {
       "state": "MI",
       "avg_price": 2.79,
       "store_count": 30
-    },
-    {
-      "state": "IN",
-      "avg_price": 2.79,
-      "store_count": 23
     },
     {
       "state": "IL",
@@ -157,6 +157,7 @@
     "005228",
     "040536",
     "040006",
+    "024764",
     "035361",
     "003294",
     "015453",
@@ -171,11 +172,12 @@
     "015757",
     "028912",
     "042656",
+    "028860",
     "003335",
     "030947",
-    "015449",
     "042628",
     "033012",
+    "031488",
     "001813",
     "042639",
     "019752",
@@ -212,6 +214,7 @@
     "002076",
     "035403",
     "028908",
+    "040445",
     "033075",
     "032045"
   ],
@@ -228,6 +231,13 @@
       "name": "Taco Bell",
       "city": "Grand Rapids",
       "state": "MI",
+      "price": 2.79
+    },
+    {
+      "store_number": "040445",
+      "name": "Taco Bell",
+      "city": "Berea",
+      "state": "OH",
       "price": 2.79
     },
     {
@@ -278,16 +288,59 @@
       "city": "Fishers",
       "state": "IN",
       "price": 2.79
-    },
-    {
-      "store_number": "033002",
-      "name": "Taco Bell",
-      "city": "Holland",
-      "state": "MI",
-      "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040445",
+      "store_name": "Taco Bell",
+      "city": "Berea",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-08-27T21:28:27.399589+00:00"
+    },
+    {
+      "store_number": "031488",
+      "store_name": "Taco Bell",
+      "city": "Wauwatosa",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-08-27T21:27:13.693718+00:00"
+    },
+    {
+      "store_number": "015449",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-08-27T21:27:05.079770+00:00"
+    },
+    {
+      "store_number": "028860",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-08-27T21:27:05.066745+00:00"
+    },
+    {
+      "store_number": "024764",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-08-27T21:26:40.642660+00:00"
+    },
     {
       "store_number": "033000",
       "store_name": "Taco Bell",
@@ -27650,8 +27703,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1412,
-    "removed": 1324,
+    "added": 1416,
+    "removed": 1325,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -27931,6 +27984,15 @@
       "MI"
     ],
     [
+      "024764",
+      41.41912028925022,
+      -81.73638492822647,
+      2.79,
+      "Taco Bell",
+      "Cleveland",
+      "OH"
+    ],
+    [
       "035361",
       41.66061822718759,
       -81.36391855311558,
@@ -28057,6 +28119,15 @@
       "IN"
     ],
     [
+      "028860",
+      39.90485584629985,
+      -86.05884514284298,
+      2.79,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "003335",
       39.95448915785347,
       -82.82650233061759,
@@ -28075,15 +28146,6 @@
       "IN"
     ],
     [
-      "015449",
-      37.182687310204834,
-      -93.29921364784235,
-      2.79,
-      "Taco Bell",
-      "Springfield",
-      "MO"
-    ],
-    [
       "042628",
       40.74613424695042,
       -85.17036944385643,
@@ -28100,6 +28162,15 @@
       "Taco Bell",
       "Kalamazoo",
       "MI"
+    ],
+    [
+      "031488",
+      43.03672898655349,
+      -88.04666732277433,
+      2.79,
+      "Taco Bell",
+      "Wauwatosa",
+      "WI"
     ],
     [
       "001813",
@@ -28424,6 +28495,15 @@
       "Taco Bell",
       "Evansville",
       "IN"
+    ],
+    [
+      "040445",
+      41.3722283,
+      -81.8908145,
+      2.79,
+      "Taco Bell",
+      "Berea",
+      "OH"
     ],
     [
       "033075",
