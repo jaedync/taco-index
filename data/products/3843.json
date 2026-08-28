@@ -13,22 +13,26 @@
   "peak_30d_pct": 1.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-08-18T21:53:27.392580+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.2,
   "price_stats": {
-    "avg": 0.45,
+    "avg": 0.43,
     "min": 0.3,
     "max": 0.96,
     "median": 0.3,
-    "std_dev": 0.23,
-    "store_count": 9
+    "std_dev": 0.21,
+    "store_count": 12
   },
   "histogram": [
     {
       "bucket": "$0.30",
-      "count": 5
+      "count": 7
     },
     {
       "bucket": "$0.40",
+      "count": 1
+    },
+    {
+      "bucket": "$0.50",
       "count": 1
     },
     {
@@ -92,6 +96,20 @@
       "price": 0.3
     },
     {
+      "store_number": "042639",
+      "name": "Taco Bell",
+      "city": "Kalamazoo",
+      "state": "MI",
+      "price": 0.3
+    },
+    {
+      "store_number": "037481",
+      "name": "Taco Bell",
+      "city": "Sioux City",
+      "state": "IA",
+      "price": 0.3
+    },
+    {
       "store_number": "040515",
       "name": "Taco Bell Cantina",
       "city": "Arlington",
@@ -99,25 +117,18 @@
       "price": 0.4
     },
     {
+      "store_number": "030779",
+      "name": "Taco Bell",
+      "city": "Tracy",
+      "state": "CA",
+      "price": 0.5
+    },
+    {
       "store_number": "027630",
       "name": "Taco Bell",
       "city": "Florence",
       "state": "SC",
       "price": 0.6
-    },
-    {
-      "store_number": "024230",
-      "name": "Taco Bell",
-      "city": "Myrtle Beach",
-      "state": "SC",
-      "price": 0.6
-    },
-    {
-      "store_number": "039949",
-      "name": "Taco Bell",
-      "city": "Selden",
-      "state": "NY",
-      "price": 0.96
     }
   ],
   "min_price_store_numbers": [
@@ -125,7 +136,9 @@
     "028893",
     "030677",
     "021112",
-    "033623"
+    "033623",
+    "042639",
+    "037481"
   ],
   "priciest_stores": [
     {
@@ -150,11 +163,32 @@
       "price": 0.6
     },
     {
+      "store_number": "030779",
+      "name": "Taco Bell",
+      "city": "Tracy",
+      "state": "CA",
+      "price": 0.5
+    },
+    {
       "store_number": "040515",
       "name": "Taco Bell Cantina",
       "city": "Arlington",
       "state": "VA",
       "price": 0.4
+    },
+    {
+      "store_number": "037481",
+      "name": "Taco Bell",
+      "city": "Sioux City",
+      "state": "IA",
+      "price": 0.3
+    },
+    {
+      "store_number": "042639",
+      "name": "Taco Bell",
+      "city": "Kalamazoo",
+      "state": "MI",
+      "price": 0.3
     },
     {
       "store_number": "033623",
@@ -176,23 +210,39 @@
       "city": "Toledo",
       "state": "OH",
       "price": 0.3
-    },
-    {
-      "store_number": "028893",
-      "name": "Taco Bell",
-      "city": "Fishers",
-      "state": "IN",
-      "price": 0.3
-    },
-    {
-      "store_number": "043335",
-      "name": "Taco Bell",
-      "city": "Wellston",
-      "state": "OH",
-      "price": 0.3
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030779",
+      "store_name": "Taco Bell",
+      "city": "Tracy",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-08-28T21:18:32.175736+00:00"
+    },
+    {
+      "store_number": "037481",
+      "store_name": "Taco Bell",
+      "city": "Sioux City",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-08-28T21:18:09.447279+00:00"
+    },
+    {
+      "store_number": "042639",
+      "store_name": "Taco Bell",
+      "city": "Kalamazoo",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-08-28T21:18:01.326240+00:00"
+    },
     {
       "store_number": "040515",
       "store_name": "Taco Bell Cantina",
@@ -2705,7 +2755,7 @@
     }
   ],
   "activity_summary": {
-    "added": 130,
+    "added": 133,
     "removed": 121,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2761,6 +2811,24 @@
       "CA"
     ],
     [
+      "042639",
+      42.295767108230734,
+      -85.64876273279879,
+      0.3,
+      "Taco Bell",
+      "Kalamazoo",
+      "MI"
+    ],
+    [
+      "037481",
+      42.4344811980146,
+      -96.36895316132488,
+      0.3,
+      "Taco Bell",
+      "Sioux City",
+      "IA"
+    ],
+    [
       "040515",
       38.89210337025643,
       -77.08379329828544,
@@ -2768,6 +2836,15 @@
       "Taco Bell Cantina",
       "Arlington",
       "VA"
+    ],
+    [
+      "030779",
+      37.753596799972364,
+      -121.46893599632676,
+      0.5,
+      "Taco Bell",
+      "Tracy",
+      "CA"
     ],
     [
       "027630",
@@ -2798,6 +2875,6 @@
     ]
   ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-08-27",
+  "last_seen_date": "2026-08-28",
   "peak_availability_pct": 1.4
 }

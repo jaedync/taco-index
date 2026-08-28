@@ -22,12 +22,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7653
+    "store_count": 7655
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7653
+      "count": 7655
     }
   ],
   "state_prices": [
@@ -79,7 +79,7 @@
     {
       "state": "SC",
       "avg_price": 0.0,
-      "store_count": 114
+      "store_count": 115
     },
     {
       "state": "RI",
@@ -89,7 +89,7 @@
     {
       "state": "PA",
       "avg_price": 0.0,
-      "store_count": 202
+      "store_count": 203
     },
     {
       "state": "OR",
@@ -144,7 +144,7 @@
     {
       "state": "NC",
       "avg_price": 0.0,
-      "store_count": 264
+      "store_count": 265
     },
     {
       "state": "MT",
@@ -169,7 +169,7 @@
     {
       "state": "MI",
       "avg_price": 0.0,
-      "store_count": 345
+      "store_count": 344
     },
     {
       "state": "ME",
@@ -204,7 +204,7 @@
     {
       "state": "IN",
       "avg_price": 0.0,
-      "store_count": 254
+      "store_count": 255
     },
     {
       "state": "IL",
@@ -234,7 +234,7 @@
     {
       "state": "FL",
       "avg_price": 0.0,
-      "store_count": 448
+      "store_count": 447
     },
     {
       "state": "DE",
@@ -1357,6 +1357,7 @@
     "042178",
     "042038",
     "041865",
+    "042357",
     "042751",
     "041163",
     "042137",
@@ -2113,7 +2114,6 @@
     "035714",
     "015455",
     "003168",
-    "031393",
     "035747",
     "001994",
     "001999",
@@ -2811,6 +2811,7 @@
     "036376",
     "036124",
     "020000",
+    "029866",
     "018095",
     "019980",
     "032494",
@@ -3456,7 +3457,6 @@
     "027975",
     "032680",
     "030559",
-    "042906",
     "001020",
     "030947",
     "004170",
@@ -7341,6 +7341,7 @@
     "001880",
     "042957",
     "027867",
+    "031569",
     "004285",
     "032485",
     "034674",
@@ -8021,9 +8022,17 @@
     "041940",
     "043223",
     "043053",
-    "043201"
+    "043201",
+    "042780"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042780",
+      "name": "Taco Bell",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "price": 0.0
+    },
     {
       "store_number": "043201",
       "name": "Taco Bell",
@@ -8086,16 +8095,69 @@
       "city": "McAllen",
       "state": "TX",
       "price": 0.0
-    },
-    {
-      "store_number": "042202",
-      "name": "Taco Bell",
-      "city": "Winchester",
-      "state": "VA",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042780",
+      "store_name": "Taco Bell",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-28T21:19:50.999545+00:00"
+    },
+    {
+      "store_number": "031569",
+      "store_name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-28T21:19:32.683846+00:00"
+    },
+    {
+      "store_number": "042906",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-08-28T21:17:50.546336+00:00"
+    },
+    {
+      "store_number": "029866",
+      "store_name": "Taco Bell",
+      "city": "Lexington",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-28T21:17:33.784017+00:00"
+    },
+    {
+      "store_number": "031393",
+      "store_name": "Taco Bell",
+      "city": "Novi",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-08-28T21:17:16.730796+00:00"
+    },
+    {
+      "store_number": "042357",
+      "store_name": "Taco Bell",
+      "city": "Mitchell",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-28T21:16:58.321558+00:00"
+    },
     {
       "store_number": "033468",
       "store_name": "Taco Bell",
@@ -28278,8 +28340,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1018,
-    "removed": 1000,
+    "added": 1022,
+    "removed": 1002,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -37181,6 +37243,15 @@
       "AZ"
     ],
     [
+      "042357",
+      38.732499,
+      -86.490448,
+      0.0,
+      "Taco Bell",
+      "Mitchell",
+      "IN"
+    ],
+    [
       "042751",
       42.84142845,
       -85.86391891,
@@ -43985,15 +44056,6 @@
       "TN"
     ],
     [
-      "031393",
-      42.52250692725211,
-      -83.51690554232789,
-      0.0,
-      "Taco Bell",
-      "Novi",
-      "MI"
-    ],
-    [
       "035747",
       29.67681502116719,
       -95.42695380283021,
@@ -50267,6 +50329,15 @@
       "MN"
     ],
     [
+      "029866",
+      35.837434993113305,
+      -80.2539716786364,
+      0.0,
+      "Taco Bell",
+      "Lexington",
+      "NC"
+    ],
+    [
       "018095",
       45.25785232067723,
       -122.70045703016996,
@@ -56070,15 +56141,6 @@
       "Taco Bell",
       "Wilmington",
       "NC"
-    ],
-    [
-      "042906",
-      25.84757960530985,
-      -80.18376678228378,
-      0.0,
-      "Taco Bell",
-      "Miami",
-      "FL"
     ],
     [
       "001020",
@@ -91037,6 +91099,15 @@
       "TX"
     ],
     [
+      "031569",
+      33.753597971429095,
+      -78.96264781059472,
+      0.0,
+      "Taco Bell",
+      "Myrtle Beach",
+      "SC"
+    ],
+    [
       "004285",
       36.17473830317983,
       -94.55238193273539,
@@ -97164,6 +97235,15 @@
       "Taco Bell",
       "Jonesborough",
       "TN"
+    ],
+    [
+      "042780",
+      40.454768,
+      -79.711769,
+      0.0,
+      "Taco Bell",
+      "Pittsburgh",
+      "PA"
     ]
   ],
   "retired_at": null,
