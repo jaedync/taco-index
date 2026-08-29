@@ -15,17 +15,17 @@
   "first_seen_at": "2026-08-18T21:53:27.392580+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 0.43,
+    "avg": 0.42,
     "min": 0.3,
     "max": 0.96,
     "median": 0.3,
-    "std_dev": 0.21,
-    "store_count": 12
+    "std_dev": 0.18,
+    "store_count": 16
   },
   "histogram": [
     {
       "bucket": "$0.30",
-      "count": 7
+      "count": 9
     },
     {
       "bucket": "$0.40",
@@ -33,7 +33,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 1
+      "count": 3
     },
     {
       "bucket": "$0.60",
@@ -110,25 +110,25 @@
       "price": 0.3
     },
     {
+      "store_number": "030970",
+      "name": "Taco Bell",
+      "city": "Des Moines",
+      "state": "IA",
+      "price": 0.3
+    },
+    {
+      "store_number": "031509",
+      "name": "Taco Bell",
+      "city": "Holt",
+      "state": "MI",
+      "price": 0.3
+    },
+    {
       "store_number": "040515",
       "name": "Taco Bell Cantina",
       "city": "Arlington",
       "state": "VA",
       "price": 0.4
-    },
-    {
-      "store_number": "030779",
-      "name": "Taco Bell",
-      "city": "Tracy",
-      "state": "CA",
-      "price": 0.5
-    },
-    {
-      "store_number": "027630",
-      "name": "Taco Bell",
-      "city": "Florence",
-      "state": "SC",
-      "price": 0.6
     }
   ],
   "min_price_store_numbers": [
@@ -138,7 +138,9 @@
     "021112",
     "033623",
     "042639",
-    "037481"
+    "037481",
+    "030970",
+    "031509"
   ],
   "priciest_stores": [
     {
@@ -163,6 +165,20 @@
       "price": 0.6
     },
     {
+      "store_number": "029317",
+      "name": "Taco Bell",
+      "city": "Bristol",
+      "state": "CT",
+      "price": 0.5
+    },
+    {
+      "store_number": "003123",
+      "name": "Taco Bell",
+      "city": "Alhambra",
+      "state": "CA",
+      "price": 0.5
+    },
+    {
       "store_number": "030779",
       "name": "Taco Bell",
       "city": "Tracy",
@@ -177,42 +193,68 @@
       "price": 0.4
     },
     {
+      "store_number": "031509",
+      "name": "Taco Bell",
+      "city": "Holt",
+      "state": "MI",
+      "price": 0.3
+    },
+    {
+      "store_number": "030970",
+      "name": "Taco Bell",
+      "city": "Des Moines",
+      "state": "IA",
+      "price": 0.3
+    },
+    {
       "store_number": "037481",
       "name": "Taco Bell",
       "city": "Sioux City",
       "state": "IA",
       "price": 0.3
-    },
-    {
-      "store_number": "042639",
-      "name": "Taco Bell",
-      "city": "Kalamazoo",
-      "state": "MI",
-      "price": 0.3
-    },
-    {
-      "store_number": "033623",
-      "name": "Taco Bell / Pizza Hut",
-      "city": "Los Angeles",
-      "state": "CA",
-      "price": 0.3
-    },
-    {
-      "store_number": "021112",
-      "name": "Taco Bell",
-      "city": "Garden Grove",
-      "state": "CA",
-      "price": 0.3
-    },
-    {
-      "store_number": "030677",
-      "name": "Taco Bell",
-      "city": "Toledo",
-      "state": "OH",
-      "price": 0.3
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029317",
+      "store_name": "Taco Bell",
+      "city": "Bristol",
+      "state": "CT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-08-29T21:53:21.976073+00:00"
+    },
+    {
+      "store_number": "003123",
+      "store_name": "Taco Bell",
+      "city": "Alhambra",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-08-29T21:52:46.867211+00:00"
+    },
+    {
+      "store_number": "031509",
+      "store_name": "Taco Bell",
+      "city": "Holt",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-08-29T21:52:46.574190+00:00"
+    },
+    {
+      "store_number": "030970",
+      "store_name": "Taco Bell",
+      "city": "Des Moines",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-08-29T21:52:13.719601+00:00"
+    },
     {
       "store_number": "030779",
       "store_name": "Taco Bell",
@@ -2755,7 +2797,7 @@
     }
   ],
   "activity_summary": {
-    "added": 133,
+    "added": 137,
     "removed": 121,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2829,6 +2871,24 @@
       "IA"
     ],
     [
+      "030970",
+      41.64897470389377,
+      -93.69691863661501,
+      0.3,
+      "Taco Bell",
+      "Des Moines",
+      "IA"
+    ],
+    [
+      "031509",
+      42.65241170776328,
+      -84.52938938197696,
+      0.3,
+      "Taco Bell",
+      "Holt",
+      "MI"
+    ],
+    [
       "040515",
       38.89210337025643,
       -77.08379329828544,
@@ -2845,6 +2905,24 @@
       "Taco Bell",
       "Tracy",
       "CA"
+    ],
+    [
+      "003123",
+      34.079027080108695,
+      -118.12005388749193,
+      0.5,
+      "Taco Bell",
+      "Alhambra",
+      "CA"
+    ],
+    [
+      "029317",
+      41.69771210055854,
+      -72.90153709938755,
+      0.5,
+      "Taco Bell",
+      "Bristol",
+      "CT"
     ],
     [
       "027630",
@@ -2875,6 +2953,6 @@
     ]
   ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-08-28",
+  "last_seen_date": "2026-08-29",
   "peak_availability_pct": 1.4
 }

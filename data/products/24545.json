@@ -14,21 +14,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 16.7,
-  "recent_price_change_pct": 0.0596,
+  "recent_price_change_pct": 0.0675,
   "first_seen_at": "2026-03-30T00:40:09.997470+00:00",
-  "availability_pct": 1.6,
+  "availability_pct": 1.5,
   "price_stats": {
-    "avg": 6.44,
+    "avg": 6.49,
     "min": 5.99,
     "max": 9.99,
     "median": 5.99,
-    "std_dev": 0.89,
-    "store_count": 124
+    "std_dev": 0.95,
+    "store_count": 119
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 92
+      "count": 86
     },
     {
       "bucket": "$6.49",
@@ -76,7 +76,7 @@
     },
     {
       "bucket": "$9.49",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$9.99",
@@ -86,28 +86,28 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 7.75,
-      "store_count": 21
+      "avg_price": 7.83,
+      "store_count": 22
     },
     {
       "state": "IL",
-      "avg_price": 6.99,
-      "store_count": 7
-    },
-    {
-      "state": "OH",
-      "avg_price": 5.99,
-      "store_count": 27
+      "avg_price": 7.16,
+      "store_count": 6
     },
     {
       "state": "MI",
       "avg_price": 5.99,
-      "store_count": 29
+      "store_count": 27
+    },
+    {
+      "state": "OH",
+      "avg_price": 5.99,
+      "store_count": 26
     },
     {
       "state": "IN",
       "avg_price": 5.99,
-      "store_count": 26
+      "store_count": 24
     }
   ],
   "nutrition": {
@@ -210,13 +210,11 @@
     "036707",
     "037070",
     "038800",
-    "038792",
     "039575",
     "037663",
     "029978",
     "027886",
     "027042",
-    "001795",
     "024745",
     "037841",
     "001590",
@@ -254,9 +252,7 @@
     "032090",
     "003302",
     "033787",
-    "036199",
     "028890",
-    "035398",
     "033767",
     "028870",
     "033786",
@@ -265,13 +261,11 @@
     "032350",
     "032489",
     "036186",
-    "033791",
     "023126",
     "024449",
     "004881",
     "028886",
     "032493",
-    "033026",
     "042629",
     "020944",
     "033793",
@@ -309,6 +303,13 @@
       "store_number": "036317",
       "name": "Taco Bell",
       "city": "Rego Park",
+      "state": "NY",
+      "price": 9.49
+    },
+    {
+      "store_number": "036027",
+      "name": "Taco Bell",
+      "city": "Astoria",
       "state": "NY",
       "price": 9.49
     },
@@ -353,16 +354,79 @@
       "city": "Brooklyn",
       "state": "NY",
       "price": 7.89
-    },
-    {
-      "store_number": "035336",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 7.89
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033026",
+      "store_name": "Taco Bell",
+      "city": "Albion",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-08-29T21:53:13.472600+00:00"
+    },
+    {
+      "store_number": "033791",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-08-29T21:53:04.856166+00:00"
+    },
+    {
+      "store_number": "035398",
+      "store_name": "Taco Bell",
+      "city": "Huntington",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-08-29T21:52:39.189824+00:00"
+    },
+    {
+      "store_number": "036199",
+      "store_name": "Taco Bell",
+      "city": "Kankakee",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-08-29T21:52:36.900137+00:00"
+    },
+    {
+      "store_number": "001795",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-08-29T21:51:23.633956+00:00"
+    },
+    {
+      "store_number": "038792",
+      "store_name": "Taco Bell",
+      "city": "Shelbyville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-08-29T21:51:17.676796+00:00"
+    },
+    {
+      "store_number": "036027",
+      "store_name": "Taco Bell",
+      "city": "Astoria",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-08-29T21:50:59.032510+00:00"
+    },
     {
       "store_number": "004589",
       "store_name": "Taco Bell",
@@ -29495,8 +29559,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1488,
-    "removed": 1416,
+    "added": 1489,
+    "removed": 1422,
     "price_changed": 9,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -29623,15 +29687,6 @@
       "IN"
     ],
     [
-      "038792",
-      39.54855052251806,
-      -85.77494502879908,
-      5.99,
-      "Taco Bell",
-      "Shelbyville",
-      "IN"
-    ],
-    [
       "039575",
       36.74231906995545,
       -91.87352234308845,
@@ -29675,15 +29730,6 @@
       "Taco Bell",
       "Vermilion",
       "OH"
-    ],
-    [
-      "001795",
-      42.30977693893683,
-      -83.34892281415368,
-      5.99,
-      "Taco Bell",
-      "Westland",
-      "MI"
     ],
     [
       "024745",
@@ -30019,30 +30065,12 @@
       "OH"
     ],
     [
-      "036199",
-      41.07861640512747,
-      -87.86725719274727,
-      5.99,
-      "Taco Bell",
-      "Kankakee",
-      "IL"
-    ],
-    [
       "028890",
       39.8249684993012,
       -86.11644454303132,
       5.99,
       "Taco Bell",
       "Indianapolis",
-      "IN"
-    ],
-    [
-      "035398",
-      40.898609624418604,
-      -85.51213163143984,
-      5.99,
-      "Taco Bell",
-      "Huntington",
       "IN"
     ],
     [
@@ -30118,15 +30146,6 @@
       "IL"
     ],
     [
-      "033791",
-      39.92297250427227,
-      -83.78273968400214,
-      5.99,
-      "Taco Bell",
-      "Springfield",
-      "OH"
-    ],
-    [
       "023126",
       40.016447149477315,
       -86.9043143425105,
@@ -30170,15 +30189,6 @@
       "Taco Bell",
       "Crown Point",
       "IN"
-    ],
-    [
-      "033026",
-      42.26129276711484,
-      -84.75579047064694,
-      5.99,
-      "Taco Bell",
-      "Albion",
-      "MI"
     ],
     [
       "042629",
@@ -30592,6 +30602,15 @@
       9.09,
       "Taco Bell",
       "New York",
+      "NY"
+    ],
+    [
+      "036027",
+      40.77574772202303,
+      -73.91154819819167,
+      9.49,
+      "Taco Bell",
+      "Astoria",
       "NY"
     ],
     [

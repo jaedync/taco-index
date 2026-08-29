@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3505
+    "store_count": 3506
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3505
+      "count": 3506
     }
   ],
   "state_prices": [
@@ -77,7 +77,7 @@
     {
       "state": "PA",
       "avg_price": 0.0,
-      "store_count": 12
+      "store_count": 13
     },
     {
       "state": "OR",
@@ -92,7 +92,7 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 212
+      "store_count": 211
     },
     {
       "state": "NY",
@@ -212,7 +212,7 @@
     {
       "state": "FL",
       "avg_price": 0.0,
-      "store_count": 254
+      "store_count": 253
     },
     {
       "state": "DC",
@@ -232,7 +232,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 618
+      "store_count": 620
     },
     {
       "state": "AZ",
@@ -2004,7 +2004,6 @@
     "037565",
     "003779",
     "022073",
-    "028594",
     "034383",
     "020585",
     "031918",
@@ -2208,7 +2207,6 @@
     "033010",
     "035271",
     "036183",
-    "033768",
     "031323",
     "037579",
     "003308",
@@ -2233,6 +2231,7 @@
     "030940",
     "035265",
     "041615",
+    "027781",
     "040806",
     "035232",
     "039838",
@@ -3841,9 +3840,25 @@
     "040017",
     "043223",
     "002474",
-    "029722"
+    "029722",
+    "035418",
+    "020852"
   ],
   "priciest_stores": [
+    {
+      "store_number": "020852",
+      "name": "Taco Bell",
+      "city": "Orcutt",
+      "state": "CA",
+      "price": 0.0
+    },
+    {
+      "store_number": "035418",
+      "name": "Taco Bell",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "price": 0.0
+    },
     {
       "store_number": "029722",
       "name": "Taco Bell",
@@ -3899,23 +3914,59 @@
       "city": "Belle Chasse",
       "state": "LA",
       "price": 0.0
-    },
-    {
-      "store_number": "041858",
-      "name": "Taco Bell",
-      "city": "Mesa",
-      "state": "AZ",
-      "price": 0.0
-    },
-    {
-      "store_number": "043152",
-      "name": "Taco Bell",
-      "city": "Carver",
-      "state": "MN",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020852",
+      "store_name": "Taco Bell",
+      "city": "Orcutt",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-29T21:53:29.332254+00:00"
+    },
+    {
+      "store_number": "027781",
+      "store_name": "Taco Bell",
+      "city": "Cathedral City",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-29T21:52:33.023509+00:00"
+    },
+    {
+      "store_number": "033768",
+      "store_name": "Taco Bell",
+      "city": "Beavercreek",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-08-29T21:52:31.486160+00:00"
+    },
+    {
+      "store_number": "028594",
+      "store_name": "Taco Bell",
+      "city": "Avon Park",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-08-29T21:52:22.519997+00:00"
+    },
+    {
+      "store_number": "035418",
+      "store_name": "Taco Bell",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-08-29T21:50:55.478856+00:00"
+    },
     {
       "store_number": "037483",
       "store_name": "Taco Bell",
@@ -12438,8 +12489,8 @@
     }
   ],
   "activity_summary": {
-    "added": 404,
-    "removed": 448,
+    "added": 407,
+    "removed": 450,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -27452,15 +27503,6 @@
       "FL"
     ],
     [
-      "028594",
-      27.591697197050664,
-      -81.51387844904903,
-      0.0,
-      "Taco Bell",
-      "Avon Park",
-      "FL"
-    ],
-    [
       "034383",
       39.04940003772915,
       -94.47515576030128,
@@ -29288,15 +29330,6 @@
       "IL"
     ],
     [
-      "033768",
-      39.72759471186664,
-      -84.05459497870652,
-      0.0,
-      "Taco Bell",
-      "Beavercreek",
-      "OH"
-    ],
-    [
       "031323",
       47.378975401337506,
       -122.24698354305474,
@@ -29510,6 +29543,15 @@
       0.0,
       "Taco Bell",
       "Temecula",
+      "CA"
+    ],
+    [
+      "027781",
+      33.81831876549702,
+      -116.4586111855624,
+      0.0,
+      "Taco Bell",
+      "Cathedral City",
       "CA"
     ],
     [
@@ -43992,6 +44034,24 @@
       "Taco Bell",
       "Vineland",
       "NJ"
+    ],
+    [
+      "035418",
+      40.45778756879308,
+      -80.16790358967961,
+      0.0,
+      "Taco Bell",
+      "Pittsburgh",
+      "PA"
+    ],
+    [
+      "020852",
+      34.86462845447513,
+      -120.4180175811598,
+      0.0,
+      "Taco Bell",
+      "Orcutt",
+      "CA"
     ]
   ],
   "retired_at": null,

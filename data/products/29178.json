@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 23
+    "store_count": 22
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 23
+      "count": 22
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 23
+      "store_count": 22
     }
   ],
   "nutrition": {
@@ -140,7 +140,6 @@
     "017290",
     "027976",
     "004318",
-    "027986",
     "027980",
     "027972",
     "027985",
@@ -208,21 +207,31 @@
       "price": 10.99
     },
     {
-      "store_number": "027986",
-      "name": "Taco Bell",
-      "city": "Deltona",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
       "store_number": "004318",
       "name": "Taco Bell",
       "city": "Apopka",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "027976",
+      "name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027986",
+      "store_name": "Taco Bell",
+      "city": "Deltona",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-29T21:52:40.210520+00:00"
+    },
     {
       "store_number": "023296",
       "store_name": "Taco Bell",
@@ -1856,7 +1865,7 @@
   ],
   "activity_summary": {
     "added": 93,
-    "removed": 70,
+    "removed": 71,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2023,15 +2032,6 @@
       "FL"
     ],
     [
-      "027986",
-      28.92682079364781,
-      -81.18946249173898,
-      10.99,
-      "Taco Bell",
-      "Deltona",
-      "FL"
-    ],
-    [
       "027980",
       28.912979829325057,
       -81.29350272015947,
@@ -2105,6 +2105,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-08-28",
+  "last_seen_date": "2026-08-29",
   "peak_availability_pct": 0.4
 }
