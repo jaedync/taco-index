@@ -12,7 +12,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 1.1,
+  "peak_30d_pct": 1.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-07-23T20:47:03.076148+00:00",
   "availability_pct": 0.5,
@@ -21,8 +21,8 @@
     "min": 10.99,
     "max": 11.99,
     "median": 11.99,
-    "std_dev": 0.45,
-    "store_count": 40
+    "std_dev": 0.46,
+    "store_count": 39
   },
   "histogram": [
     {
@@ -31,14 +31,14 @@
     },
     {
       "bucket": "$11.99",
-      "count": 29
+      "count": 28
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 11.99,
-      "store_count": 12
+      "store_count": 11
     },
     {
       "state": "GA",
@@ -218,6 +218,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042845",
+      "store_name": "Taco Bell",
+      "city": "La Belle",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-08-30T20:48:23.903342+00:00"
+    },
     {
       "store_number": "042955",
       "store_name": "Taco Bell",
@@ -3541,7 +3551,7 @@
   ],
   "activity_summary": {
     "added": 186,
-    "removed": 146,
+    "removed": 147,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3712,15 +3722,6 @@
       "Taco Bell",
       "Carrollton",
       "GA"
-    ],
-    [
-      "042845",
-      26.76223746126524,
-      -81.4364568293422,
-      11.99,
-      "Taco Bell",
-      "La Belle",
-      "FL"
     ],
     [
       "018166",
@@ -3931,6 +3932,6 @@
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-08-29",
+  "last_seen_date": "2026-08-30",
   "peak_availability_pct": 1.1
 }

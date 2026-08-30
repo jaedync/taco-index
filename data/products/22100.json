@@ -21,12 +21,12 @@
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.2,
-    "store_count": 7724
+    "store_count": 7723
   },
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 1
+      "count": 3
     },
     {
       "bucket": "$1.59",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4267
+      "count": 4265
     },
     {
       "bucket": "$2.00",
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$2.29",
-      "count": 322
+      "count": 321
     },
     {
       "bucket": "$2.30",
@@ -253,7 +253,7 @@
     {
       "state": "PA",
       "avg_price": 2.06,
-      "store_count": 203
+      "store_count": 202
     },
     {
       "state": "NV",
@@ -331,14 +331,14 @@
       "store_count": 128
     },
     {
-      "state": "IN",
-      "avg_price": 1.98,
-      "store_count": 259
-    },
-    {
       "state": "UT",
       "avg_price": 1.98,
       "store_count": 64
+    },
+    {
+      "state": "IN",
+      "avg_price": 1.98,
+      "store_count": 259
     },
     {
       "state": "NC",
@@ -437,6 +437,20 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "040318",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 0.99
+    },
+    {
+      "store_number": "043006",
+      "name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "price": 0.99
+    },
+    {
       "store_number": "003056",
       "name": "Taco Bell",
       "city": "Whittier",
@@ -491,23 +505,11 @@
       "city": "Roseville",
       "state": "MN",
       "price": 1.69
-    },
-    {
-      "store_number": "041267",
-      "name": "Taco Bell",
-      "city": "Wyoming",
-      "state": "MI",
-      "price": 1.69
-    },
-    {
-      "store_number": "034828",
-      "name": "Taco Bell",
-      "city": "Battle Creek",
-      "state": "MI",
-      "price": 1.69
     }
   ],
   "min_price_store_numbers": [
+    "040318",
+    "043006",
     "003056"
   ],
   "priciest_stores": [
@@ -583,6 +585,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043006",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-08-30T20:47:36.099153+00:00"
+    },
+    {
+      "store_number": "039550",
+      "store_name": "Taco Bell",
+      "city": "Carbondale",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 2.29,
+      "new_price": null,
+      "observed_at": "2026-08-30T20:47:30.055979+00:00"
+    },
+    {
+      "store_number": "040318",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-08-30T20:47:25.366869+00:00"
+    },
     {
       "store_number": "034682",
       "store_name": "Taco Bell",
@@ -16716,8 +16748,8 @@
   ],
   "activity_summary": {
     "added": 181,
-    "removed": 127,
-    "price_changed": 1305,
+    "removed": 128,
+    "price_changed": 1307,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 170,
@@ -16725,6 +16757,24 @@
   "calories_max": 170,
   "combo_groups": [],
   "map_data": [
+    [
+      "040318",
+      41.807919921888036,
+      -87.74351908680534,
+      0.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
+    [
+      "043006",
+      39.79695284567275,
+      -86.01268830428725,
+      0.99,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
     [
       "003056",
       33.98985419924158,
@@ -31315,15 +31365,6 @@
       "AR"
     ],
     [
-      "040318",
-      41.807919921888036,
-      -87.74351908680534,
-      1.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
       "041646",
       36.132926,
       -95.924655,
@@ -34513,15 +34554,6 @@
       "043007",
       39.85505652122834,
       -86.24080654485579,
-      1.99,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
-    ],
-    [
-      "043006",
-      39.79695284567275,
-      -86.01268830428725,
       1.99,
       "Taco Bell",
       "Indianapolis",
@@ -80381,15 +80413,6 @@
       "Taco Bell",
       "Los Angeles",
       "CA"
-    ],
-    [
-      "039550",
-      41.56687421357309,
-      -75.51512035560056,
-      2.29,
-      "Taco Bell",
-      "Carbondale",
-      "PA"
     ],
     [
       "034357",

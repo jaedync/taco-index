@@ -15,17 +15,21 @@
   "first_seen_at": "2026-08-18T21:53:27.392580+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 0.42,
+    "avg": 0.41,
     "min": 0.3,
     "max": 0.96,
     "median": 0.3,
-    "std_dev": 0.18,
-    "store_count": 16
+    "std_dev": 0.17,
+    "store_count": 19
   },
   "histogram": [
     {
       "bucket": "$0.30",
-      "count": 9
+      "count": 11
+    },
+    {
+      "bucket": "$0.35",
+      "count": 1
     },
     {
       "bucket": "$0.40",
@@ -124,11 +128,11 @@
       "price": 0.3
     },
     {
-      "store_number": "040515",
-      "name": "Taco Bell Cantina",
-      "city": "Arlington",
-      "state": "VA",
-      "price": 0.4
+      "store_number": "042672",
+      "name": "Taco Bell",
+      "city": "Ramsey",
+      "state": "MN",
+      "price": 0.3
     }
   ],
   "min_price_store_numbers": [
@@ -140,7 +144,9 @@
     "042639",
     "037481",
     "030970",
-    "031509"
+    "031509",
+    "042672",
+    "041624"
   ],
   "priciest_stores": [
     {
@@ -193,28 +199,58 @@
       "price": 0.4
     },
     {
-      "store_number": "031509",
+      "store_number": "031776",
       "name": "Taco Bell",
-      "city": "Holt",
-      "state": "MI",
+      "city": "Centre",
+      "state": "AL",
+      "price": 0.35
+    },
+    {
+      "store_number": "041624",
+      "name": "Taco Bell",
+      "city": "Apache Junction",
+      "state": "AZ",
       "price": 0.3
     },
     {
-      "store_number": "030970",
+      "store_number": "042672",
       "name": "Taco Bell",
-      "city": "Des Moines",
-      "state": "IA",
-      "price": 0.3
-    },
-    {
-      "store_number": "037481",
-      "name": "Taco Bell",
-      "city": "Sioux City",
-      "state": "IA",
+      "city": "Ramsey",
+      "state": "MN",
       "price": 0.3
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041624",
+      "store_name": "Taco Bell",
+      "city": "Apache Junction",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-08-30T20:47:59.628145+00:00"
+    },
+    {
+      "store_number": "031776",
+      "store_name": "Taco Bell",
+      "city": "Centre",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.35,
+      "observed_at": "2026-08-30T20:47:48.648483+00:00"
+    },
+    {
+      "store_number": "042672",
+      "store_name": "Taco Bell",
+      "city": "Ramsey",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-08-30T20:47:39.683882+00:00"
+    },
     {
       "store_number": "029317",
       "store_name": "Taco Bell",
@@ -2797,7 +2833,7 @@
     }
   ],
   "activity_summary": {
-    "added": 137,
+    "added": 140,
     "removed": 121,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2889,6 +2925,33 @@
       "MI"
     ],
     [
+      "042672",
+      45.2389798,
+      -93.4699002,
+      0.3,
+      "Taco Bell",
+      "Ramsey",
+      "MN"
+    ],
+    [
+      "041624",
+      33.41294318178485,
+      -111.54743222286925,
+      0.3,
+      "Taco Bell",
+      "Apache Junction",
+      "AZ"
+    ],
+    [
+      "031776",
+      34.159468832136554,
+      -85.7046682341138,
+      0.35,
+      "Taco Bell",
+      "Centre",
+      "AL"
+    ],
+    [
       "040515",
       38.89210337025643,
       -77.08379329828544,
@@ -2953,6 +3016,6 @@
     ]
   ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-08-29",
+  "last_seen_date": "2026-08-30",
   "peak_availability_pct": 1.4
 }
