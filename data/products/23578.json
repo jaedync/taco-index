@@ -21,7 +21,7 @@
     "max": 1.0,
     "median": 0.5,
     "std_dev": 0.05,
-    "store_count": 7572
+    "store_count": 7569
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 7139
+      "count": 7135
     },
     {
       "bucket": "$0.51",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$0.70",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$0.75",
@@ -79,6 +79,11 @@
   ],
   "state_prices": [
     {
+      "state": "AK",
+      "avg_price": 0.64,
+      "store_count": 5
+    },
+    {
       "state": "OR",
       "avg_price": 0.57,
       "store_count": 122
@@ -91,7 +96,7 @@
     {
       "state": "TX",
       "avg_price": 0.52,
-      "store_count": 663
+      "store_count": 662
     },
     {
       "state": "NY",
@@ -116,7 +121,7 @@
     {
       "state": "CT",
       "avg_price": 0.51,
-      "store_count": 49
+      "store_count": 48
     },
     {
       "state": "CA",
@@ -141,7 +146,7 @@
     {
       "state": "NC",
       "avg_price": 0.5,
-      "store_count": 265
+      "store_count": 264
     },
     {
       "state": "MA",
@@ -216,7 +221,7 @@
     {
       "state": "NV",
       "avg_price": 0.5,
-      "store_count": 86
+      "store_count": 85
     },
     {
       "state": "NM",
@@ -488,6 +493,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031888",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-08-31T21:33:16.508348+00:00"
+    },
+    {
+      "store_number": "029889",
+      "store_name": "Taco Bell",
+      "city": "Allen",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-08-31T21:31:57.760650+00:00"
+    },
+    {
+      "store_number": "029409",
+      "store_name": "Taco Bell",
+      "city": "Raleigh",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-08-31T21:31:25.639952+00:00"
+    },
+    {
+      "store_number": "026730",
+      "store_name": "Taco Bell",
+      "city": "Farmington",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-08-31T21:30:15.642274+00:00"
+    },
+    {
+      "store_number": "019454",
+      "store_name": "Taco Bell",
+      "city": "North Pole",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-08-31T21:30:06.998093+00:00"
+    },
     {
       "store_number": "034379",
       "store_name": "Taco Bell",
@@ -77660,8 +77715,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7620,
-    "removed": 47,
+    "added": 7621,
+    "removed": 51,
     "price_changed": 50,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -84959,15 +85014,6 @@
       "Taco Bell",
       "Owens Cross Roads",
       "AL"
-    ],
-    [
-      "026730",
-      41.72394189187588,
-      -72.7631952694522,
-      0.5,
-      "Taco Bell",
-      "Farmington",
-      "CT"
     ],
     [
       "036711",
@@ -103474,15 +103520,6 @@
       "NC"
     ],
     [
-      "029409",
-      35.870419200717315,
-      -78.62187894458147,
-      0.5,
-      "Taco Bell",
-      "Raleigh",
-      "NC"
-    ],
-    [
       "042656",
       40.83539869065111,
       -84.93818505674432,
@@ -112301,15 +112338,6 @@
       "Taco Bell",
       "Bardstown",
       "KY"
-    ],
-    [
-      "029889",
-      33.12910967583168,
-      -96.64967287278728,
-      0.5,
-      "Taco Bell",
-      "Allen",
-      "TX"
     ],
     [
       "029107",
@@ -135874,15 +135902,6 @@
       "AZ"
     ],
     [
-      "031888",
-      39.52672221227515,
-      -119.82776702265255,
-      0.5,
-      "Taco Bell",
-      "Reno",
-      "NV"
-    ],
-    [
       "023178",
       33.85418576564563,
       -117.83783644982937,
@@ -145054,6 +145073,15 @@
       "NY"
     ],
     [
+      "019454",
+      64.75608242504498,
+      -147.35422840585443,
+      0.7,
+      "Taco Bell",
+      "North Pole",
+      "AK"
+    ],
+    [
       "002309",
       64.85296237417109,
       -147.71383354071077,
@@ -145820,6 +145848,6 @@
     ]
   ],
   "retired_at": "2026-07-23T20:54:43.223103+00:00",
-  "last_seen_date": "2026-08-30",
+  "last_seen_date": "2026-08-31",
   "peak_availability_pct": 91.7
 }

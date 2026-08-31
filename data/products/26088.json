@@ -23,15 +23,20 @@
     "max": 2.79,
     "median": 2.79,
     "std_dev": 0.0,
-    "store_count": 90
+    "store_count": 91
   },
   "histogram": [
     {
       "bucket": "$2.79",
-      "count": 90
+      "count": 91
     }
   ],
   "state_prices": [
+    {
+      "state": "IN",
+      "avg_price": 2.79,
+      "store_count": 24
+    },
     {
       "state": "OH",
       "avg_price": 2.79,
@@ -41,11 +46,6 @@
       "state": "MI",
       "avg_price": 2.79,
       "store_count": 31
-    },
-    {
-      "state": "IN",
-      "avg_price": 2.79,
-      "store_count": 23
     },
     {
       "state": "IL",
@@ -74,6 +74,13 @@
       "name": "Taco Bell",
       "city": "Muncie",
       "state": "IN",
+      "price": 2.79
+    },
+    {
+      "store_number": "032469",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "Columbus",
+      "state": "OH",
       "price": 2.79
     },
     {
@@ -117,19 +124,13 @@
       "city": "Hillsdale",
       "state": "MI",
       "price": 2.79
-    },
-    {
-      "store_number": "042170",
-      "name": "Taco Bell",
-      "city": "Columbus",
-      "state": "OH",
-      "price": 2.79
     }
   ],
   "min_price_store_numbers": [
     "040904",
     "041137",
     "041760",
+    "032469",
     "041638",
     "042164",
     "034021",
@@ -194,6 +195,7 @@
     "032991",
     "028870",
     "026734",
+    "028872",
     "033016",
     "004399",
     "024449",
@@ -203,7 +205,6 @@
     "020944",
     "036206",
     "038846",
-    "003394",
     "004752",
     "032105",
     "033002",
@@ -291,6 +292,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003394",
+      "store_name": "Taco Bell",
+      "city": "Delaware",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-08-31T21:33:09.452483+00:00"
+    },
+    {
+      "store_number": "028872",
+      "store_name": "Taco Bell",
+      "city": "Greensburg",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-08-31T21:32:37.064946+00:00"
+    },
+    {
+      "store_number": "032469",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-08-31T21:29:42.742272+00:00"
+    },
     {
       "store_number": "039000",
       "store_name": "Taco Bell",
@@ -27723,8 +27754,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1417,
-    "removed": 1326,
+    "added": 1419,
+    "removed": 1327,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -27759,6 +27790,15 @@
       "Taco Bell",
       "Muncie",
       "IN"
+    ],
+    [
+      "032469",
+      39.993382655101385,
+      -83.0070331797373,
+      2.79,
+      "Taco Bell Cantina Cantina",
+      "Columbus",
+      "OH"
     ],
     [
       "041638",
@@ -28337,6 +28377,15 @@
       "IN"
     ],
     [
+      "028872",
+      39.35526666744655,
+      -85.48028120401796,
+      2.79,
+      "Taco Bell",
+      "Greensburg",
+      "IN"
+    ],
+    [
       "033016",
       42.90375328148109,
       -85.78662677675311,
@@ -28415,15 +28464,6 @@
       2.79,
       "Taco Bell",
       "Jeffersonville",
-      "OH"
-    ],
-    [
-      "003394",
-      40.273244364890225,
-      -83.07024464453947,
-      2.79,
-      "Taco Bell",
-      "Delaware",
       "OH"
     ],
     [

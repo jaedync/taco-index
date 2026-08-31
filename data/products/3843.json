@@ -13,31 +13,31 @@
   "peak_30d_pct": 1.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-08-18T21:53:27.392580+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 0.41,
+    "avg": 0.4,
     "min": 0.3,
     "max": 0.96,
-    "median": 0.3,
-    "std_dev": 0.17,
-    "store_count": 19
+    "median": 0.35,
+    "std_dev": 0.15,
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$0.30",
-      "count": 11
+      "count": 12
     },
     {
       "bucket": "$0.35",
-      "count": 1
+      "count": 3
     },
     {
       "bucket": "$0.40",
-      "count": 1
+      "count": 3
     },
     {
       "bucket": "$0.50",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$0.60",
@@ -48,7 +48,13 @@
       "count": 1
     }
   ],
-  "state_prices": [],
+  "state_prices": [
+    {
+      "state": "CA",
+      "avg_price": 0.42,
+      "store_count": 6
+    }
+  ],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -146,7 +152,8 @@
     "030970",
     "031509",
     "042672",
-    "041624"
+    "041624",
+    "029684"
   ],
   "priciest_stores": [
     {
@@ -171,6 +178,13 @@
       "price": 0.6
     },
     {
+      "store_number": "030770",
+      "name": "Taco Bell",
+      "city": "Soquel",
+      "state": "CA",
+      "price": 0.5
+    },
+    {
       "store_number": "029317",
       "name": "Taco Bell",
       "city": "Bristol",
@@ -192,35 +206,88 @@
       "price": 0.5
     },
     {
+      "store_number": "031449",
+      "name": "Taco Bell",
+      "city": "Pleasant Hill",
+      "state": "CA",
+      "price": 0.4
+    },
+    {
+      "store_number": "039656",
+      "name": "Taco Bell",
+      "city": "Denver",
+      "state": "CO",
+      "price": 0.4
+    },
+    {
       "store_number": "040515",
       "name": "Taco Bell Cantina",
       "city": "Arlington",
       "state": "VA",
       "price": 0.4
-    },
-    {
-      "store_number": "031776",
-      "name": "Taco Bell",
-      "city": "Centre",
-      "state": "AL",
-      "price": 0.35
-    },
-    {
-      "store_number": "041624",
-      "name": "Taco Bell",
-      "city": "Apache Junction",
-      "state": "AZ",
-      "price": 0.3
-    },
-    {
-      "store_number": "042672",
-      "name": "Taco Bell",
-      "city": "Ramsey",
-      "state": "MN",
-      "price": 0.3
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029684",
+      "store_name": "Taco Bell",
+      "city": "Collinsville",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-08-31T21:33:22.400153+00:00"
+    },
+    {
+      "store_number": "031449",
+      "store_name": "Taco Bell",
+      "city": "Pleasant Hill",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-08-31T21:32:42.920087+00:00"
+    },
+    {
+      "store_number": "024409",
+      "store_name": "Taco Bell",
+      "city": "York",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.35,
+      "observed_at": "2026-08-31T21:32:28.067491+00:00"
+    },
+    {
+      "store_number": "030770",
+      "store_name": "Taco Bell",
+      "city": "Soquel",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-08-31T21:32:12.779633+00:00"
+    },
+    {
+      "store_number": "040032",
+      "store_name": "Taco Bell",
+      "city": "Chambersburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.35,
+      "observed_at": "2026-08-31T21:30:59.942873+00:00"
+    },
+    {
+      "store_number": "039656",
+      "store_name": "Taco Bell",
+      "city": "Denver",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-08-31T21:30:53.061375+00:00"
+    },
     {
       "store_number": "041624",
       "store_name": "Taco Bell",
@@ -2833,7 +2900,7 @@
     }
   ],
   "activity_summary": {
-    "added": 140,
+    "added": 146,
     "removed": 121,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2943,6 +3010,15 @@
       "AZ"
     ],
     [
+      "029684",
+      38.69140246493201,
+      -89.98514663062222,
+      0.3,
+      "Taco Bell",
+      "Collinsville",
+      "IL"
+    ],
+    [
       "031776",
       34.159468832136554,
       -85.7046682341138,
@@ -2952,6 +3028,24 @@
       "AL"
     ],
     [
+      "040032",
+      39.932236699199805,
+      -77.64453227686019,
+      0.35,
+      "Taco Bell",
+      "Chambersburg",
+      "PA"
+    ],
+    [
+      "024409",
+      39.96346866650875,
+      -76.76920932276713,
+      0.35,
+      "Taco Bell",
+      "York",
+      "PA"
+    ],
+    [
       "040515",
       38.89210337025643,
       -77.08379329828544,
@@ -2959,6 +3053,24 @@
       "Taco Bell Cantina",
       "Arlington",
       "VA"
+    ],
+    [
+      "039656",
+      39.7439075,
+      -104.9900451,
+      0.4,
+      "Taco Bell",
+      "Denver",
+      "CO"
+    ],
+    [
+      "031449",
+      37.95318450746154,
+      -122.05972954630852,
+      0.4,
+      "Taco Bell",
+      "Pleasant Hill",
+      "CA"
     ],
     [
       "030779",
@@ -2986,6 +3098,15 @@
       "Taco Bell",
       "Bristol",
       "CT"
+    ],
+    [
+      "030770",
+      36.98620611382594,
+      -121.96465864777565,
+      0.5,
+      "Taco Bell",
+      "Soquel",
+      "CA"
     ],
     [
       "027630",
@@ -3016,6 +3137,6 @@
     ]
   ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-08-30",
+  "last_seen_date": "2026-08-31",
   "peak_availability_pct": 1.4
 }

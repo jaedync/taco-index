@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 39
+    "store_count": 38
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 39
+      "count": 38
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 39
+      "store_count": 38
     }
   ],
   "nutrition": {
@@ -72,6 +72,13 @@
       "store_number": "036021",
       "name": "Taco Bell",
       "city": "Longwood",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "034783",
+      "name": "Taco Bell",
+      "city": "Dunnellon",
       "state": "FL",
       "price": 10.99
     },
@@ -116,19 +123,13 @@
       "city": "Ocala",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "022592",
-      "name": "Taco Bell",
-      "city": "Daytona Beach",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "039700",
     "034859",
     "036021",
+    "034783",
     "034809",
     "036232",
     "037187",
@@ -152,10 +153,8 @@
     "022587",
     "022594",
     "042924",
-    "027987",
     "021472",
     "039585",
-    "022593",
     "022591",
     "027984",
     "004435",
@@ -231,14 +230,44 @@
       "price": 10.99
     },
     {
-      "store_number": "022593",
+      "store_number": "039585",
       "name": "Taco Bell",
-      "city": "Deland",
+      "city": "Kissimmee",
       "state": "FL",
       "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022593",
+      "store_name": "Taco Bell",
+      "city": "Deland",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-31T21:32:50.746241+00:00"
+    },
+    {
+      "store_number": "027987",
+      "store_name": "Taco Bell",
+      "city": "Oviedo",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-08-31T21:32:38.692758+00:00"
+    },
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-08-31T21:30:13.209536+00:00"
+    },
     {
       "store_number": "032959",
       "store_name": "Taco Bell",
@@ -2511,8 +2540,8 @@
     }
   ],
   "activity_summary": {
-    "added": 133,
-    "removed": 94,
+    "added": 134,
+    "removed": 96,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2577,6 +2606,15 @@
       10.99,
       "Taco Bell",
       "Longwood",
+      "FL"
+    ],
+    [
+      "034783",
+      29.05630760923329,
+      -82.45670382723803,
+      10.99,
+      "Taco Bell",
+      "Dunnellon",
       "FL"
     ],
     [
@@ -2787,15 +2825,6 @@
       "FL"
     ],
     [
-      "027987",
-      28.657739479407898,
-      -81.17707944944408,
-      10.99,
-      "Taco Bell",
-      "Oviedo",
-      "FL"
-    ],
-    [
       "021472",
       28.547364532355125,
       -81.72223337000105,
@@ -2811,15 +2840,6 @@
       10.99,
       "Taco Bell",
       "Kissimmee",
-      "FL"
-    ],
-    [
-      "022593",
-      29.055431082490866,
-      -81.30400560334243,
-      10.99,
-      "Taco Bell",
-      "Deland",
       "FL"
     ],
     [
