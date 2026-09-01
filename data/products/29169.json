@@ -19,17 +19,17 @@
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.14,
+    "avg": 9.16,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.37,
-    "store_count": 7
+    "std_dev": 0.4,
+    "store_count": 6
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$9.99",
@@ -39,8 +39,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.14,
-      "store_count": 7
+      "avg_price": 9.17,
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -94,13 +94,6 @@
       "price": 9.0
     },
     {
-      "store_number": "023300",
-      "name": "Taco Bell",
-      "city": "Palm Bay",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "042942",
       "name": "Taco Bell",
       "city": "Ocala",
@@ -113,8 +106,7 @@
     "030349",
     "022833",
     "027972",
-    "027984",
-    "023300"
+    "027984"
   ],
   "priciest_stores": [
     {
@@ -123,13 +115,6 @@
       "city": "Ocala",
       "state": "FL",
       "price": 9.99
-    },
-    {
-      "store_number": "023300",
-      "name": "Taco Bell",
-      "city": "Palm Bay",
-      "state": "FL",
-      "price": 9.0
     },
     {
       "store_number": "027984",
@@ -168,6 +153,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023300",
+      "store_name": "Taco Bell",
+      "city": "Palm Bay",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-09-01T21:36:48.578275+00:00"
+    },
     {
       "store_number": "023300",
       "store_name": "Taco Bell",
@@ -4861,7 +4856,7 @@
   ],
   "activity_summary": {
     "added": 238,
-    "removed": 231,
+    "removed": 232,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4947,15 +4942,6 @@
       "FL"
     ],
     [
-      "023300",
-      27.99815047734223,
-      -80.63776654322986,
-      9.0,
-      "Taco Bell",
-      "Palm Bay",
-      "FL"
-    ],
-    [
       "042942",
       29.024994683187042,
       -82.15455534110447,
@@ -4966,6 +4952,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-08-31",
+  "last_seen_date": "2026-09-01",
   "peak_availability_pct": 1.2
 }

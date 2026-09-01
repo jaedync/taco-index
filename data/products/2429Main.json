@@ -14,16 +14,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": 0.0249,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-06-18T21:25:22.257043+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 4.7,
+    "avg": 4.71,
     "min": 4.19,
     "max": 4.79,
     "median": 4.79,
-    "std_dev": 0.16,
-    "store_count": 26
+    "std_dev": 0.15,
+    "store_count": 25
   },
   "histogram": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "bucket": "$4.49",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$4.59",
@@ -51,8 +51,8 @@
     },
     {
       "state": "TX",
-      "avg_price": 4.6,
-      "store_count": 11
+      "avg_price": 4.61,
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -99,13 +99,6 @@
       "price": 4.49
     },
     {
-      "store_number": "021422",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Irving",
-      "state": "TX",
-      "price": 4.49
-    },
-    {
       "store_number": "022811",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Spring",
@@ -138,6 +131,13 @@
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Palmdale",
       "state": "CA",
+      "price": 4.79
+    },
+    {
+      "store_number": "001089",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Dallas",
+      "state": "TX",
       "price": 4.79
     }
   ],
@@ -217,6 +217,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "021422",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-09-01T21:36:43.535496+00:00"
+    },
     {
       "store_number": "031895",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -860,7 +870,7 @@
   ],
   "activity_summary": {
     "added": 41,
-    "removed": 15,
+    "removed": 16,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -903,15 +913,6 @@
       4.49,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Mesquite",
-      "TX"
-    ],
-    [
-      "021422",
-      32.80085004490358,
-      -96.95793691778691,
-      4.49,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Irving",
       "TX"
     ],
     [

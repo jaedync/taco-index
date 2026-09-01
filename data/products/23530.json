@@ -20,15 +20,21 @@
     "max": 3.0,
     "median": 3.0,
     "std_dev": 0.0,
-    "store_count": 4
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 4
+      "count": 5
     }
   ],
-  "state_prices": [],
+  "state_prices": [
+    {
+      "state": "AL",
+      "avg_price": 3.0,
+      "store_count": 5
+    }
+  ],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -71,15 +77,30 @@
       "city": "Springville",
       "state": "AL",
       "price": 3.0
+    },
+    {
+      "store_number": "029166",
+      "name": "Taco Bell",
+      "city": "Bessemer",
+      "state": "AL",
+      "price": 3.0
     }
   ],
   "min_price_store_numbers": [
     "037013",
     "029145",
     "033445",
-    "029622"
+    "029622",
+    "029166"
   ],
   "priciest_stores": [
+    {
+      "store_number": "029166",
+      "name": "Taco Bell",
+      "city": "Bessemer",
+      "state": "AL",
+      "price": 3.0
+    },
     {
       "store_number": "029622",
       "name": "Taco Bell",
@@ -110,6 +131,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029166",
+      "store_name": "Taco Bell",
+      "city": "Bessemer",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-09-01T21:30:48.058302+00:00"
+    },
     {
       "store_number": "037105",
       "store_name": "Taco Bell",
@@ -192,7 +223,7 @@
     }
   ],
   "activity_summary": {
-    "added": 6,
+    "added": 7,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -237,9 +268,18 @@
       "Taco Bell",
       "Springville",
       "AL"
+    ],
+    [
+      "029166",
+      33.33339473972188,
+      -86.99581415870725,
+      3.0,
+      "Taco Bell",
+      "Bessemer",
+      "AL"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-08-31",
+  "last_seen_date": "2026-09-01",
   "peak_availability_pct": 0.1
 }
