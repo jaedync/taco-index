@@ -21,10 +21,15 @@
     "min": 9.0,
     "max": 9.0,
     "median": 9.0,
-    "std_dev": null,
+    "std_dev": 0.0,
     "store_count": 1
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$9.00",
+      "count": 1
+    }
+  ],
   "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
@@ -40,10 +45,38 @@
     "protein_g": 8.7145,
     "serving_size_g": 92.1358
   },
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "018301",
+      "name": "Taco Bell",
+      "city": "Tampa",
+      "state": "FL",
+      "price": 9.0
+    }
+  ],
+  "min_price_store_numbers": [
+    "018301"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "018301",
+      "name": "Taco Bell",
+      "city": "Tampa",
+      "state": "FL",
+      "price": 9.0
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "018301",
+      "store_name": "Taco Bell",
+      "city": "Tampa",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-02T21:32:39.354467+00:00"
+    },
     {
       "store_number": "043063",
       "store_name": "Taco Bell",
@@ -153286,12 +153319,12 @@
     }
   ],
   "activity_summary": {
-    "added": 7640,
+    "added": 7641,
     "removed": 7640,
     "price_changed": 44,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
+  "calories_from_menu": 1220,
   "calories_min": 1220,
   "calories_max": 1500,
   "combo_groups": [
@@ -153320,8 +153353,18 @@
       "default_product_name": "Chips and Nacho Cheese Sauce"
     }
   ],
-  "map_data": [],
+  "map_data": [
+    [
+      "018301",
+      27.94528521239673,
+      -82.52321634281444,
+      9.0,
+      "Taco Bell",
+      "Tampa",
+      "FL"
+    ]
+  ],
   "retired_at": "2026-08-21T20:54:24.064145+00:00",
-  "last_seen_date": "2026-08-29",
+  "last_seen_date": "2026-09-02",
   "peak_availability_pct": 91.5
 }

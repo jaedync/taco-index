@@ -13,21 +13,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.3,
-  "recent_price_change_pct": -0.0258,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 4.13,
+    "avg": 4.16,
     "min": 3.79,
     "max": 4.49,
-    "median": 3.99,
+    "median": 4.24,
     "std_dev": 0.35,
-    "store_count": 11
+    "store_count": 10
   },
   "histogram": [
     {
       "bucket": "$3.79",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$3.99",
@@ -46,8 +46,8 @@
     },
     {
       "state": "TX",
-      "avg_price": 3.82,
-      "store_count": 6
+      "avg_price": 3.83,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -69,13 +69,6 @@
       "store_number": "019252",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Spring",
-      "state": "TX",
-      "price": 3.79
-    },
-    {
-      "store_number": "002851",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Humble",
       "state": "TX",
       "price": 3.79
     },
@@ -134,11 +127,17 @@
       "city": "Simi Valley",
       "state": "CA",
       "price": 4.49
+    },
+    {
+      "store_number": "041597",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "San Diego",
+      "state": "CA",
+      "price": 4.49
     }
   ],
   "min_price_store_numbers": [
     "019252",
-    "002851",
     "001089",
     "001331",
     "021422"
@@ -208,14 +207,24 @@
       "price": 3.79
     },
     {
-      "store_number": "002851",
+      "store_number": "019252",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Humble",
+      "city": "Spring",
       "state": "TX",
       "price": 3.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002851",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Humble",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.79,
+      "new_price": null,
+      "observed_at": "2026-09-02T21:32:13.361577+00:00"
+    },
     {
       "store_number": "039811",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -559,7 +568,7 @@
   ],
   "activity_summary": {
     "added": 6,
-    "removed": 28,
+    "removed": 29,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -575,15 +584,6 @@
       3.79,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Spring",
-      "TX"
-    ],
-    [
-      "002851",
-      29.9977979971997,
-      -95.16799039678068,
-      3.79,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Humble",
       "TX"
     ],
     [

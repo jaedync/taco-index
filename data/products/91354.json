@@ -17,20 +17,16 @@
   "peak_30d_pct": 0.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
-    "avg": 10.49,
-    "min": 10.29,
+    "avg": 10.69,
+    "min": 10.69,
     "max": 10.69,
-    "median": 10.49,
-    "std_dev": 0.23,
-    "store_count": 4
+    "median": 10.69,
+    "std_dev": 0.0,
+    "store_count": 2
   },
   "histogram": [
-    {
-      "bucket": "$10.29",
-      "count": 2
-    },
     {
       "bucket": "$10.69",
       "count": 2
@@ -53,20 +49,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "042830",
-      "name": "Taco Bell",
-      "city": "Pensacola",
-      "state": "FL",
-      "price": 10.29
-    },
-    {
-      "store_number": "042823",
-      "name": "Taco Bell",
-      "city": "Saraland",
-      "state": "AL",
-      "price": 10.29
-    },
-    {
       "store_number": "043133",
       "name": "Taco Bell",
       "city": "Augusta",
@@ -82,8 +64,8 @@
     }
   ],
   "min_price_store_numbers": [
-    "042830",
-    "042823"
+    "043133",
+    "043139"
   ],
   "priciest_stores": [
     {
@@ -99,23 +81,29 @@
       "city": "Augusta",
       "state": "GA",
       "price": 10.69
-    },
-    {
-      "store_number": "042823",
-      "name": "Taco Bell",
-      "city": "Saraland",
-      "state": "AL",
-      "price": 10.29
-    },
-    {
-      "store_number": "042830",
-      "name": "Taco Bell",
-      "city": "Pensacola",
-      "state": "FL",
-      "price": 10.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042823",
+      "store_name": "Taco Bell",
+      "city": "Saraland",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-09-02T21:32:22.571779+00:00"
+    },
+    {
+      "store_number": "042830",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-09-02T21:31:49.845666+00:00"
+    },
     {
       "store_number": "029049",
       "store_name": "Taco Bell",
@@ -11349,7 +11337,7 @@
   ],
   "activity_summary": {
     "added": 544,
-    "removed": 539,
+    "removed": 541,
     "price_changed": 40,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11384,24 +11372,6 @@
   ],
   "map_data": [
     [
-      "042830",
-      30.42369262233515,
-      -87.20223457405697,
-      10.29,
-      "Taco Bell",
-      "Pensacola",
-      "FL"
-    ],
-    [
-      "042823",
-      30.802412695504476,
-      -88.07241439819336,
-      10.29,
-      "Taco Bell",
-      "Saraland",
-      "AL"
-    ],
-    [
       "043133",
       33.46912773500816,
       -82.06502409700109,
@@ -11421,6 +11391,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-09-01",
+  "last_seen_date": "2026-09-02",
   "peak_availability_pct": 6.0
 }

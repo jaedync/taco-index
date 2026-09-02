@@ -19,17 +19,17 @@
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.16,
+    "avg": 9.2,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.4,
-    "store_count": 6
+    "std_dev": 0.44,
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$9.99",
@@ -39,8 +39,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.17,
-      "store_count": 6
+      "avg_price": 9.2,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -59,6 +59,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "034783",
+      "name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "036438",
       "name": "Taco Bell",
       "city": "Minneola",
@@ -66,23 +73,9 @@
       "price": 9.0
     },
     {
-      "store_number": "030349",
-      "name": "Taco Bell",
-      "city": "Melbourne",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "022833",
       "name": "Taco Bell",
       "city": "Clermont",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "027972",
-      "name": "Taco Bell",
-      "city": "Melbourne",
       "state": "FL",
       "price": 9.0
     },
@@ -102,10 +95,9 @@
     }
   ],
   "min_price_store_numbers": [
+    "034783",
     "036438",
-    "030349",
     "022833",
-    "027972",
     "027984"
   ],
   "priciest_stores": [
@@ -124,23 +116,9 @@
       "price": 9.0
     },
     {
-      "store_number": "027972",
-      "name": "Taco Bell",
-      "city": "Melbourne",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "022833",
       "name": "Taco Bell",
       "city": "Clermont",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "030349",
-      "name": "Taco Bell",
-      "city": "Melbourne",
       "state": "FL",
       "price": 9.0
     },
@@ -150,9 +128,46 @@
       "city": "Minneola",
       "state": "FL",
       "price": 9.0
+    },
+    {
+      "store_number": "034783",
+      "name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027972",
+      "store_name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-09-02T21:32:57.521322+00:00"
+    },
+    {
+      "store_number": "030349",
+      "store_name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-09-02T21:32:24.536623+00:00"
+    },
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-02T21:31:54.807684+00:00"
+    },
     {
       "store_number": "023300",
       "store_name": "Taco Bell",
@@ -4855,8 +4870,8 @@
     }
   ],
   "activity_summary": {
-    "added": 238,
-    "removed": 232,
+    "added": 239,
+    "removed": 234,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4897,6 +4912,15 @@
   ],
   "map_data": [
     [
+      "034783",
+      29.05630760923329,
+      -82.45670382723803,
+      9.0,
+      "Taco Bell",
+      "Dunnellon",
+      "FL"
+    ],
+    [
       "036438",
       28.576159566371096,
       -81.74960673084662,
@@ -4906,30 +4930,12 @@
       "FL"
     ],
     [
-      "030349",
-      28.231152164188327,
-      -80.70049432232909,
-      9.0,
-      "Taco Bell",
-      "Melbourne",
-      "FL"
-    ],
-    [
       "022833",
       28.3538526090358,
       -81.6757670044899,
       9.0,
       "Taco Bell",
       "Clermont",
-      "FL"
-    ],
-    [
-      "027972",
-      28.14532685391547,
-      -80.67222346367089,
-      9.0,
-      "Taco Bell",
-      "Melbourne",
       "FL"
     ],
     [
@@ -4952,6 +4958,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-09-01",
+  "last_seen_date": "2026-09-02",
   "peak_availability_pct": 1.2
 }

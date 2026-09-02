@@ -22,12 +22,12 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 7
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 7
+      "count": 4
     }
   ],
   "state_prices": [],
@@ -41,20 +41,6 @@
       "price": 10.99
     },
     {
-      "store_number": "042819",
-      "name": "Taco Bell",
-      "city": "Mobile",
-      "state": "AL",
-      "price": 10.99
-    },
-    {
-      "store_number": "042829",
-      "name": "Taco Bell",
-      "city": "Pensacola",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
       "store_number": "042821",
       "name": "Taco Bell",
       "city": "Mobile",
@@ -73,33 +59,16 @@
       "name": "Taco Bell",
       "city": "Augusta",
       "state": "GA",
-      "price": 10.99
-    },
-    {
-      "store_number": "042831",
-      "name": "Taco Bell",
-      "city": "Spanish Fort",
-      "state": "AL",
       "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "043141",
-    "042819",
-    "042829",
     "042821",
     "043133",
-    "043130",
-    "042831"
+    "043130"
   ],
   "priciest_stores": [
-    {
-      "store_number": "042831",
-      "name": "Taco Bell",
-      "city": "Spanish Fort",
-      "state": "AL",
-      "price": 10.99
-    },
     {
       "store_number": "043130",
       "name": "Taco Bell",
@@ -116,20 +85,6 @@
     },
     {
       "store_number": "042821",
-      "name": "Taco Bell",
-      "city": "Mobile",
-      "state": "AL",
-      "price": 10.99
-    },
-    {
-      "store_number": "042829",
-      "name": "Taco Bell",
-      "city": "Pensacola",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "042819",
       "name": "Taco Bell",
       "city": "Mobile",
       "state": "AL",
@@ -144,6 +99,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042831",
+      "store_name": "Taco Bell",
+      "city": "Spanish Fort",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-02T21:32:50.434093+00:00"
+    },
+    {
+      "store_number": "042829",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-02T21:32:35.337143+00:00"
+    },
+    {
+      "store_number": "042819",
+      "store_name": "Taco Bell",
+      "city": "Mobile",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-02T21:32:30.687995+00:00"
+    },
     {
       "store_number": "042818",
       "store_name": "Taco Bell",
@@ -17277,7 +17262,7 @@
   ],
   "activity_summary": {
     "added": 706,
-    "removed": 699,
+    "removed": 702,
     "price_changed": 308,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17290,6 +17275,12 @@
       "title": "Fountain Drink - Large",
       "default_product_code": "22902",
       "default_product_name": "Large Fountain Drink"
+    },
+    {
+      "group_id": "657",
+      "title": "Cantina Chicken Burrito",
+      "default_product_code": "91254",
+      "default_product_name": "Cantina Chicken Burrito"
     },
     {
       "group_id": "451",
@@ -17321,24 +17312,6 @@
       "AL"
     ],
     [
-      "042819",
-      30.63995901293325,
-      -88.18682670593262,
-      10.99,
-      "Taco Bell",
-      "Mobile",
-      "AL"
-    ],
-    [
-      "042829",
-      30.458093509232302,
-      -87.29877294124185,
-      10.99,
-      "Taco Bell",
-      "Pensacola",
-      "FL"
-    ],
-    [
       "042821",
       30.590763308910145,
       -88.17006348098568,
@@ -17364,18 +17337,9 @@
       "Taco Bell",
       "Augusta",
       "GA"
-    ],
-    [
-      "042831",
-      30.670654044454654,
-      -87.85164057593474,
-      10.99,
-      "Taco Bell",
-      "Spanish Fort",
-      "AL"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-09-01",
+  "last_seen_date": "2026-09-02",
   "peak_availability_pct": 5.9
 }

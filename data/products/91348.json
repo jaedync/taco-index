@@ -16,12 +16,12 @@
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 8.56,
+    "avg": 8.53,
     "min": 8.49,
     "max": 8.69,
     "median": 8.49,
-    "std_dev": 0.1,
-    "store_count": 6
+    "std_dev": 0.09,
+    "store_count": 5
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$8.69",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -78,13 +78,6 @@
       "price": 8.49
     },
     {
-      "store_number": "042830",
-      "name": "Taco Bell",
-      "city": "Pensacola",
-      "state": "FL",
-      "price": 8.69
-    },
-    {
       "store_number": "042823",
       "name": "Taco Bell",
       "city": "Saraland",
@@ -104,13 +97,6 @@
       "name": "Taco Bell",
       "city": "Saraland",
       "state": "AL",
-      "price": 8.69
-    },
-    {
-      "store_number": "042830",
-      "name": "Taco Bell",
-      "city": "Pensacola",
-      "state": "FL",
       "price": 8.69
     },
     {
@@ -143,6 +129,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042830",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 8.69,
+      "new_price": null,
+      "observed_at": "2026-09-02T21:31:49.845666+00:00"
+    },
     {
       "store_number": "029049",
       "store_name": "Taco Bell",
@@ -11266,7 +11262,7 @@
   ],
   "activity_summary": {
     "added": 551,
-    "removed": 544,
+    "removed": 545,
     "price_changed": 17,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11319,15 +11315,6 @@
       "SC"
     ],
     [
-      "042830",
-      30.42369262233515,
-      -87.20223457405697,
-      8.69,
-      "Taco Bell",
-      "Pensacola",
-      "FL"
-    ],
-    [
       "042823",
       30.802412695504476,
       -88.07241439819336,
@@ -11338,6 +11325,6 @@
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-09-01",
+  "last_seen_date": "2026-09-02",
   "peak_availability_pct": 6.0
 }

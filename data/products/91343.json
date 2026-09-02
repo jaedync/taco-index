@@ -15,22 +15,18 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.023,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
-    "avg": 10.45,
-    "min": 10.29,
+    "avg": 10.69,
+    "min": 10.69,
     "max": 10.69,
-    "median": 10.29,
-    "std_dev": 0.22,
-    "store_count": 5
+    "median": 10.69,
+    "std_dev": 0.0,
+    "store_count": 2
   },
   "histogram": [
-    {
-      "bucket": "$10.29",
-      "count": 3
-    },
     {
       "bucket": "$10.69",
       "count": 2
@@ -53,27 +49,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "042819",
-      "name": "Taco Bell",
-      "city": "Mobile",
-      "state": "AL",
-      "price": 10.29
-    },
-    {
-      "store_number": "042829",
-      "name": "Taco Bell",
-      "city": "Pensacola",
-      "state": "FL",
-      "price": 10.29
-    },
-    {
-      "store_number": "042831",
-      "name": "Taco Bell",
-      "city": "Spanish Fort",
-      "state": "AL",
-      "price": 10.29
-    },
-    {
       "store_number": "043141",
       "name": "Taco Bell",
       "city": "Rainsville",
@@ -89,9 +64,8 @@
     }
   ],
   "min_price_store_numbers": [
-    "042819",
-    "042829",
-    "042831"
+    "043141",
+    "043133"
   ],
   "priciest_stores": [
     {
@@ -107,30 +81,39 @@
       "city": "Rainsville",
       "state": "AL",
       "price": 10.69
-    },
-    {
-      "store_number": "042831",
-      "name": "Taco Bell",
-      "city": "Spanish Fort",
-      "state": "AL",
-      "price": 10.29
-    },
-    {
-      "store_number": "042829",
-      "name": "Taco Bell",
-      "city": "Pensacola",
-      "state": "FL",
-      "price": 10.29
-    },
-    {
-      "store_number": "042819",
-      "name": "Taco Bell",
-      "city": "Mobile",
-      "state": "AL",
-      "price": 10.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042831",
+      "store_name": "Taco Bell",
+      "city": "Spanish Fort",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-09-02T21:32:50.434093+00:00"
+    },
+    {
+      "store_number": "042829",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-09-02T21:32:35.337143+00:00"
+    },
+    {
+      "store_number": "042819",
+      "store_name": "Taco Bell",
+      "city": "Mobile",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-09-02T21:32:30.687995+00:00"
+    },
     {
       "store_number": "039623",
       "store_name": "Taco Bell",
@@ -14264,7 +14247,7 @@
   ],
   "activity_summary": {
     "added": 700,
-    "removed": 695,
+    "removed": 698,
     "price_changed": 18,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14299,33 +14282,6 @@
   ],
   "map_data": [
     [
-      "042819",
-      30.63995901293325,
-      -88.18682670593262,
-      10.29,
-      "Taco Bell",
-      "Mobile",
-      "AL"
-    ],
-    [
-      "042829",
-      30.458093509232302,
-      -87.29877294124185,
-      10.29,
-      "Taco Bell",
-      "Pensacola",
-      "FL"
-    ],
-    [
-      "042831",
-      30.670654044454654,
-      -87.85164057593474,
-      10.29,
-      "Taco Bell",
-      "Spanish Fort",
-      "AL"
-    ],
-    [
       "043141",
       34.49514403660317,
       -85.84738254547119,
@@ -14345,6 +14301,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-09-01",
+  "last_seen_date": "2026-09-02",
   "peak_availability_pct": 6.0
 }
