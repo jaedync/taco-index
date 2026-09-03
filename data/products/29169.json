@@ -19,30 +19,24 @@
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.2,
+    "avg": 9.25,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.44,
-    "store_count": 5
+    "std_dev": 0.5,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$9.99",
       "count": 1
     }
   ],
-  "state_prices": [
-    {
-      "state": "FL",
-      "avg_price": 9.2,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -58,13 +52,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "034783",
-      "name": "Taco Bell",
-      "city": "Dunnellon",
-      "state": "FL",
-      "price": 9.0
-    },
     {
       "store_number": "036438",
       "name": "Taco Bell",
@@ -95,7 +82,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "034783",
     "036438",
     "022833",
     "027984"
@@ -128,16 +114,19 @@
       "city": "Minneola",
       "state": "FL",
       "price": 9.0
-    },
-    {
-      "store_number": "034783",
-      "name": "Taco Bell",
-      "city": "Dunnellon",
-      "state": "FL",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-09-03T21:51:16.009019+00:00"
+    },
     {
       "store_number": "027972",
       "store_name": "Taco Bell",
@@ -4871,7 +4860,7 @@
   ],
   "activity_summary": {
     "added": 239,
-    "removed": 234,
+    "removed": 235,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4912,15 +4901,6 @@
   ],
   "map_data": [
     [
-      "034783",
-      29.05630760923329,
-      -82.45670382723803,
-      9.0,
-      "Taco Bell",
-      "Dunnellon",
-      "FL"
-    ],
-    [
       "036438",
       28.576159566371096,
       -81.74960673084662,
@@ -4958,6 +4938,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-09-02",
+  "last_seen_date": "2026-09-03",
   "peak_availability_pct": 1.2
 }

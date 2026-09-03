@@ -22,12 +22,12 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 6
+    "store_count": 7
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 6
+      "count": 7
     }
   ],
   "state_prices": [],
@@ -74,6 +74,13 @@
       "city": "Port Saint Lucie",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "042981",
+      "name": "Taco Bell",
+      "city": "Waycross",
+      "state": "GA",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -82,9 +89,17 @@
     "042897",
     "042572",
     "042875",
-    "042970"
+    "042970",
+    "042981"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042981",
+      "name": "Taco Bell",
+      "city": "Waycross",
+      "state": "GA",
+      "price": 10.99
+    },
     {
       "store_number": "042970",
       "name": "Taco Bell",
@@ -129,6 +144,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042981",
+      "store_name": "Taco Bell",
+      "city": "Waycross",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-03T21:51:36.709515+00:00"
+    },
     {
       "store_number": "042580",
       "store_name": "Taco Bell",
@@ -351,7 +376,7 @@
     }
   ],
   "activity_summary": {
-    "added": 14,
+    "added": 15,
     "removed": 8,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -439,9 +464,18 @@
       "Taco Bell",
       "Port Saint Lucie",
       "FL"
+    ],
+    [
+      "042981",
+      31.20367267783481,
+      -82.33275963856107,
+      10.99,
+      "Taco Bell",
+      "Waycross",
+      "GA"
     ]
   ],
   "retired_at": "2026-08-07T21:31:20.860518+00:00",
-  "last_seen_date": "2026-09-02",
+  "last_seen_date": "2026-09-03",
   "peak_availability_pct": 0.1
 }

@@ -16,21 +16,17 @@
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 8.53,
+    "avg": 8.49,
     "min": 8.49,
-    "max": 8.69,
+    "max": 8.49,
     "median": 8.49,
-    "std_dev": 0.09,
-    "store_count": 5
+    "std_dev": 0.0,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$8.49",
       "count": 4
-    },
-    {
-      "bucket": "$8.69",
-      "count": 1
     }
   ],
   "state_prices": [],
@@ -76,13 +72,6 @@
       "city": "Aiken",
       "state": "SC",
       "price": 8.49
-    },
-    {
-      "store_number": "042823",
-      "name": "Taco Bell",
-      "city": "Saraland",
-      "state": "AL",
-      "price": 8.69
     }
   ],
   "min_price_store_numbers": [
@@ -92,13 +81,6 @@
     "043129"
   ],
   "priciest_stores": [
-    {
-      "store_number": "042823",
-      "name": "Taco Bell",
-      "city": "Saraland",
-      "state": "AL",
-      "price": 8.69
-    },
     {
       "store_number": "043129",
       "name": "Taco Bell",
@@ -129,6 +111,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042823",
+      "store_name": "Taco Bell",
+      "city": "Saraland",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 8.69,
+      "new_price": null,
+      "observed_at": "2026-09-03T21:52:01.569219+00:00"
+    },
     {
       "store_number": "042830",
       "store_name": "Taco Bell",
@@ -11262,7 +11254,7 @@
   ],
   "activity_summary": {
     "added": 551,
-    "removed": 545,
+    "removed": 546,
     "price_changed": 17,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11313,18 +11305,9 @@
       "Taco Bell",
       "Aiken",
       "SC"
-    ],
-    [
-      "042823",
-      30.802412695504476,
-      -88.07241439819336,
-      8.69,
-      "Taco Bell",
-      "Saraland",
-      "AL"
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-09-02",
+  "last_seen_date": "2026-09-03",
   "peak_availability_pct": 6.0
 }

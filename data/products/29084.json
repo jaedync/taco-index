@@ -13,19 +13,19 @@
   "peak_30d_pct": 1.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:42:17.482555+00:00",
-  "availability_pct": 0.8,
+  "availability_pct": 0.7,
   "price_stats": {
     "avg": 6.01,
     "min": 5.99,
     "max": 6.99,
     "median": 5.99,
-    "std_dev": 0.13,
-    "store_count": 60
+    "std_dev": 0.14,
+    "store_count": 54
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 59
+      "count": 53
     },
     {
       "bucket": "$6.99",
@@ -36,7 +36,7 @@
     {
       "state": "FL",
       "avg_price": 6.01,
-      "store_count": 60
+      "store_count": 54
     }
   ],
   "nutrition": {
@@ -118,9 +118,9 @@
       "price": 5.99
     },
     {
-      "store_number": "034783",
+      "store_number": "034809",
       "name": "Taco Bell",
-      "city": "Dunnellon",
+      "city": "Umatilla",
       "state": "FL",
       "price": 5.99
     }
@@ -135,7 +135,6 @@
     "036287",
     "036021",
     "035177",
-    "034783",
     "034809",
     "035998",
     "041833",
@@ -158,23 +157,19 @@
     "022590",
     "027971",
     "039584",
-    "022595",
     "042933",
     "004318",
     "027974",
-    "022589",
     "027980",
     "042914",
-    "022594",
     "027987",
     "021472",
     "039585",
     "027985",
-    "022591",
+    "022593",
     "042942",
     "023304",
     "027984",
-    "004435",
     "030277",
     "042928",
     "027989",
@@ -183,7 +178,6 @@
     "027977",
     "034162",
     "042971",
-    "032959",
     "032354"
   ],
   "priciest_stores": [
@@ -198,13 +192,6 @@
       "store_number": "032354",
       "name": "Taco Bell",
       "city": "Wildwood",
-      "state": "FL",
-      "price": 5.99
-    },
-    {
-      "store_number": "032959",
-      "name": "Taco Bell",
-      "city": "Ocoee",
       "state": "FL",
       "price": 5.99
     },
@@ -256,9 +243,96 @@
       "city": "Palm Coast",
       "state": "FL",
       "price": 5.99
+    },
+    {
+      "store_number": "030277",
+      "name": "Taco Bell",
+      "city": "Apopka",
+      "state": "FL",
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032959",
+      "store_name": "Taco Bell",
+      "city": "Ocoee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-03T21:53:37.902225+00:00"
+    },
+    {
+      "store_number": "004435",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-03T21:53:22.995531+00:00"
+    },
+    {
+      "store_number": "022591",
+      "store_name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-03T21:53:13.435234+00:00"
+    },
+    {
+      "store_number": "022593",
+      "store_name": "Taco Bell",
+      "city": "Deland",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-03T21:53:10.836184+00:00"
+    },
+    {
+      "store_number": "022594",
+      "store_name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-03T21:52:54.174688+00:00"
+    },
+    {
+      "store_number": "022589",
+      "store_name": "Taco Bell",
+      "city": "Sanford",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-03T21:52:45.604725+00:00"
+    },
+    {
+      "store_number": "022595",
+      "store_name": "Taco Bell",
+      "city": "Titusville",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-03T21:52:37.720289+00:00"
+    },
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-03T21:51:16.009019+00:00"
+    },
     {
       "store_number": "038869",
       "store_name": "Taco Bell",
@@ -2831,8 +2905,8 @@
     }
   ],
   "activity_summary": {
-    "added": 158,
-    "removed": 99,
+    "added": 159,
+    "removed": 106,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2920,15 +2994,6 @@
       5.99,
       "Taco Bell",
       "Palm Bay",
-      "FL"
-    ],
-    [
-      "034783",
-      29.05630760923329,
-      -82.45670382723803,
-      5.99,
-      "Taco Bell",
-      "Dunnellon",
       "FL"
     ],
     [
@@ -3130,15 +3195,6 @@
       "FL"
     ],
     [
-      "022595",
-      28.55328983120039,
-      -80.84494297208039,
-      5.99,
-      "Taco Bell",
-      "Titusville",
-      "FL"
-    ],
-    [
       "042933",
       29.22136972864249,
       -82.14614545823775,
@@ -3166,15 +3222,6 @@
       "FL"
     ],
     [
-      "022589",
-      28.778080366655473,
-      -81.27583850921837,
-      5.99,
-      "Taco Bell",
-      "Sanford",
-      "FL"
-    ],
-    [
       "027980",
       28.912979829325057,
       -81.29350272015947,
@@ -3190,15 +3237,6 @@
       5.99,
       "Taco Bell",
       "Ocala",
-      "FL"
-    ],
-    [
-      "022594",
-      29.188448184353764,
-      -81.07624427230803,
-      5.99,
-      "Taco Bell",
-      "Daytona Beach",
       "FL"
     ],
     [
@@ -3238,12 +3276,12 @@
       "FL"
     ],
     [
-      "022591",
-      29.171333409946573,
-      -81.03924379968414,
+      "022593",
+      29.055431082490866,
+      -81.30400560334243,
       5.99,
       "Taco Bell",
-      "Daytona Beach",
+      "Deland",
       "FL"
     ],
     [
@@ -3271,15 +3309,6 @@
       5.99,
       "Taco Bell",
       "Sanford",
-      "FL"
-    ],
-    [
-      "004435",
-      28.567199559370433,
-      -81.20559722185135,
-      5.99,
-      "Taco Bell",
-      "Orlando",
       "FL"
     ],
     [
@@ -3352,15 +3381,6 @@
       5.99,
       "Taco Bell",
       "Palm Coast",
-      "FL"
-    ],
-    [
-      "032959",
-      28.603524290290366,
-      -81.54805165889547,
-      5.99,
-      "Taco Bell",
-      "Ocoee",
       "FL"
     ],
     [
