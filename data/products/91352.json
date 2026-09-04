@@ -15,19 +15,19 @@
   "peak_30d_pct": 0.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
     "avg": 10.29,
     "min": 10.29,
     "max": 10.29,
     "median": 10.29,
     "std_dev": 0.0,
-    "store_count": 4
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$10.29",
-      "count": 4
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -66,29 +66,14 @@
       "city": "Augusta",
       "state": "GA",
       "price": 10.29
-    },
-    {
-      "store_number": "043139",
-      "name": "Taco Bell",
-      "city": "Cedartown",
-      "state": "GA",
-      "price": 10.29
     }
   ],
   "min_price_store_numbers": [
     "043148",
     "043133",
-    "043130",
-    "043139"
+    "043130"
   ],
   "priciest_stores": [
-    {
-      "store_number": "043139",
-      "name": "Taco Bell",
-      "city": "Cedartown",
-      "state": "GA",
-      "price": 10.29
-    },
     {
       "store_number": "043130",
       "name": "Taco Bell",
@@ -112,6 +97,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043139",
+      "store_name": "Taco Bell",
+      "city": "Cedartown",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-09-04T21:22:16.878528+00:00"
+    },
     {
       "store_number": "042829",
       "store_name": "Taco Bell",
@@ -11985,7 +11980,7 @@
   ],
   "activity_summary": {
     "added": 567,
-    "removed": 562,
+    "removed": 563,
     "price_changed": 58,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11998,6 +11993,18 @@
       "title": "Fountain Drink - Large",
       "default_product_code": "22902",
       "default_product_name": "Large Fountain Drink"
+    },
+    {
+      "group_id": "658",
+      "title": "Cantina Chicken Crispy Taco",
+      "default_product_code": "91253",
+      "default_product_name": "Cantina Chicken Crispy Taco"
+    },
+    {
+      "group_id": "658",
+      "title": "Cantina Chicken Crispy Taco",
+      "default_product_code": "91253",
+      "default_product_name": "Cantina Chicken Crispy Taco"
     },
     {
       "group_id": "451",
@@ -12045,18 +12052,9 @@
       "Taco Bell",
       "Augusta",
       "GA"
-    ],
-    [
-      "043139",
-      34.01707373238147,
-      -85.2545475922229,
-      10.29,
-      "Taco Bell",
-      "Cedartown",
-      "GA"
     ]
   ],
   "retired_at": "2026-05-21T21:09:34.160195+00:00",
-  "last_seen_date": "2026-09-03",
+  "last_seen_date": "2026-09-04",
   "peak_availability_pct": 6.0
 }

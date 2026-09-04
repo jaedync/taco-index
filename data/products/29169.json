@@ -15,21 +15,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.2,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0273,
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
-    "avg": 9.25,
+    "avg": 9.33,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.5,
-    "store_count": 4
+    "std_dev": 0.57,
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$9.99",
@@ -67,13 +67,6 @@
       "price": 9.0
     },
     {
-      "store_number": "027984",
-      "name": "Taco Bell",
-      "city": "Sanford",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
       "store_number": "042942",
       "name": "Taco Bell",
       "city": "Ocala",
@@ -83,8 +76,7 @@
   ],
   "min_price_store_numbers": [
     "036438",
-    "022833",
-    "027984"
+    "022833"
   ],
   "priciest_stores": [
     {
@@ -93,13 +85,6 @@
       "city": "Ocala",
       "state": "FL",
       "price": 9.99
-    },
-    {
-      "store_number": "027984",
-      "name": "Taco Bell",
-      "city": "Sanford",
-      "state": "FL",
-      "price": 9.0
     },
     {
       "store_number": "022833",
@@ -117,6 +102,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027984",
+      "store_name": "Taco Bell",
+      "city": "Sanford",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-09-04T21:22:49.548515+00:00"
+    },
     {
       "store_number": "034783",
       "store_name": "Taco Bell",
@@ -4860,7 +4855,7 @@
   ],
   "activity_summary": {
     "added": 239,
-    "removed": 235,
+    "removed": 236,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4919,15 +4914,6 @@
       "FL"
     ],
     [
-      "027984",
-      28.8003438222444,
-      -81.3376676291773,
-      9.0,
-      "Taco Bell",
-      "Sanford",
-      "FL"
-    ],
-    [
       "042942",
       29.024994683187042,
       -82.15455534110447,
@@ -4938,6 +4924,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-09-03",
+  "last_seen_date": "2026-09-04",
   "peak_availability_pct": 1.2
 }

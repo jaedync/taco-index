@@ -23,20 +23,15 @@
     "max": 2.79,
     "median": 2.79,
     "std_dev": 0.0,
-    "store_count": 92
+    "store_count": 93
   },
   "histogram": [
     {
       "bucket": "$2.79",
-      "count": 92
+      "count": 93
     }
   ],
   "state_prices": [
-    {
-      "state": "IN",
-      "avg_price": 2.79,
-      "store_count": 24
-    },
     {
       "state": "OH",
       "avg_price": 2.79,
@@ -45,7 +40,12 @@
     {
       "state": "MI",
       "avg_price": 2.79,
-      "store_count": 31
+      "store_count": 32
+    },
+    {
+      "state": "IN",
+      "avg_price": 2.79,
+      "store_count": 23
     },
     {
       "state": "IL",
@@ -112,16 +112,16 @@
       "price": 2.79
     },
     {
-      "store_number": "035304",
+      "store_number": "035098",
       "name": "Taco Bell",
-      "city": "Shelby Township",
+      "city": "Warren",
       "state": "MI",
       "price": 2.79
     },
     {
-      "store_number": "037166",
+      "store_number": "035304",
       "name": "Taco Bell",
-      "city": "Hillsdale",
+      "city": "Shelby Township",
       "state": "MI",
       "price": 2.79
     }
@@ -135,6 +135,7 @@
     "042164",
     "034021",
     "036461",
+    "035098",
     "035304",
     "037166",
     "042170",
@@ -209,7 +210,6 @@
     "004752",
     "032105",
     "033002",
-    "028893",
     "033770",
     "036779",
     "028858",
@@ -217,6 +217,7 @@
     "035403",
     "028908",
     "040445",
+    "040385",
     "033075",
     "032045"
   ],
@@ -233,6 +234,13 @@
       "name": "Taco Bell",
       "city": "Grand Rapids",
       "state": "MI",
+      "price": 2.79
+    },
+    {
+      "store_number": "040385",
+      "name": "Taco Bell",
+      "city": "Bellevue",
+      "state": "KY",
       "price": 2.79
     },
     {
@@ -283,16 +291,39 @@
       "city": "Springfield",
       "state": "OH",
       "price": 2.79
-    },
-    {
-      "store_number": "028893",
-      "name": "Taco Bell",
-      "city": "Fishers",
-      "state": "IN",
-      "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040385",
+      "store_name": "Taco Bell",
+      "city": "Bellevue",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-09-04T21:23:02.553833+00:00"
+    },
+    {
+      "store_number": "028893",
+      "store_name": "Taco Bell",
+      "city": "Fishers",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-09-04T21:22:51.825313+00:00"
+    },
+    {
+      "store_number": "035098",
+      "store_name": "Taco Bell",
+      "city": "Warren",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-09-04T21:20:48.035430+00:00"
+    },
     {
       "store_number": "029978",
       "store_name": "Taco Bell",
@@ -27785,8 +27816,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1421,
-    "removed": 1328,
+    "added": 1423,
+    "removed": 1329,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -27866,6 +27897,15 @@
       "Taco Bell",
       "Clinton",
       "IN"
+    ],
+    [
+      "035098",
+      42.478732,
+      -82.988893,
+      2.79,
+      "Taco Bell",
+      "Warren",
+      "MI"
     ],
     [
       "035304",
@@ -28534,15 +28574,6 @@
       "MI"
     ],
     [
-      "028893",
-      39.95391533947413,
-      -86.04067158219901,
-      2.79,
-      "Taco Bell",
-      "Fishers",
-      "IN"
-    ],
-    [
       "033770",
       39.94261663677692,
       -83.85576345029222,
@@ -28604,6 +28635,15 @@
       "Taco Bell",
       "Berea",
       "OH"
+    ],
+    [
+      "040385",
+      39.09897050211629,
+      -84.48076583271337,
+      2.79,
+      "Taco Bell",
+      "Bellevue",
+      "KY"
     ],
     [
       "033075",

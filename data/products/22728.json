@@ -13,16 +13,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 13.6,
-  "recent_price_change_pct": 0.034,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
   "availability_pct": 5.4,
   "price_stats": {
     "avg": 1.04,
     "min": 0.5,
     "max": 1.59,
-    "median": 0.95,
-    "std_dev": 0.23,
-    "store_count": 415
+    "median": 0.96,
+    "std_dev": 0.22,
+    "store_count": 414
   },
   "histogram": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "bucket": "$0.90",
-      "count": 122
+      "count": 123
     },
     {
       "bucket": "$0.95",
-      "count": 47
+      "count": 45
     },
     {
       "bucket": "$0.98",
@@ -71,11 +71,11 @@
     },
     {
       "bucket": "$1.00",
-      "count": 90
+      "count": 91
     },
     {
       "bucket": "$1.10",
-      "count": 14
+      "count": 15
     },
     {
       "bucket": "$1.19",
@@ -91,7 +91,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 68
+      "count": 66
     },
     {
       "bucket": "$1.59",
@@ -101,13 +101,13 @@
   "state_prices": [
     {
       "state": "IL",
-      "avg_price": 1.2,
-      "store_count": 50
+      "avg_price": 1.19,
+      "store_count": 49
     },
     {
       "state": "MI",
       "avg_price": 1.18,
-      "store_count": 103
+      "store_count": 102
     },
     {
       "state": "KY",
@@ -117,7 +117,7 @@
     {
       "state": "AL",
       "avg_price": 1.01,
-      "store_count": 27
+      "store_count": 26
     },
     {
       "state": "TX",
@@ -132,17 +132,17 @@
     {
       "state": "MO",
       "avg_price": 0.98,
-      "store_count": 14
+      "store_count": 15
     },
     {
       "state": "OH",
-      "avg_price": 0.96,
-      "store_count": 35
+      "avg_price": 0.97,
+      "store_count": 36
     },
     {
       "state": "IN",
-      "avg_price": 0.96,
-      "store_count": 40
+      "avg_price": 0.94,
+      "store_count": 39
     },
     {
       "state": "KS",
@@ -157,7 +157,7 @@
     {
       "state": "OK",
       "avg_price": 0.9,
-      "store_count": 31
+      "store_count": 32
     },
     {
       "state": "NE",
@@ -273,6 +273,13 @@
       "price": 1.59
     },
     {
+      "store_number": "042634",
+      "name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "price": 1.49
+    },
+    {
       "store_number": "042645",
       "name": "Taco Bell",
       "city": "Saginaw",
@@ -327,16 +334,119 @@
       "city": "Mason",
       "state": "MI",
       "price": 1.49
-    },
-    {
-      "store_number": "031509",
-      "name": "Taco Bell",
-      "city": "Holt",
-      "state": "MI",
-      "price": 1.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026745",
+      "store_name": "Taco Bell",
+      "city": "Joliet",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-09-04T21:22:06.855956+00:00"
+    },
+    {
+      "store_number": "042634",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-09-04T21:22:03.367638+00:00"
+    },
+    {
+      "store_number": "031308",
+      "store_name": "Taco Bell",
+      "city": "Florissant",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-09-04T21:21:31.797992+00:00"
+    },
+    {
+      "store_number": "001651",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-09-04T21:21:25.470477+00:00"
+    },
+    {
+      "store_number": "040702",
+      "store_name": "Taco Bell",
+      "city": "Jasper",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-09-04T21:21:15.175650+00:00"
+    },
+    {
+      "store_number": "033316",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-09-04T21:21:10.621336+00:00"
+    },
+    {
+      "store_number": "004986",
+      "store_name": "Taco Bell",
+      "city": "Plymouth",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-09-04T21:21:06.703585+00:00"
+    },
+    {
+      "store_number": "035121",
+      "store_name": "Taco Bell",
+      "city": "Harrison",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.1,
+      "observed_at": "2026-09-04T21:20:46.681404+00:00"
+    },
+    {
+      "store_number": "041638",
+      "store_name": "Taco Bell",
+      "city": "La Porte",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-09-04T21:20:40.346765+00:00"
+    },
+    {
+      "store_number": "040761",
+      "store_name": "Taco Bell",
+      "city": "Taylor",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-09-04T21:20:35.701710+00:00"
+    },
+    {
+      "store_number": "041674",
+      "store_name": "Taco Bell",
+      "city": "Stilwell",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-09-04T21:20:33.944815+00:00"
+    },
     {
       "store_number": "027037",
       "store_name": "Taco Bell",
@@ -23939,8 +24049,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1293,
-    "removed": 1067,
+    "added": 1298,
+    "removed": 1073,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25399,6 +25509,15 @@
       "AR"
     ],
     [
+      "041674",
+      35.823178,
+      -94.626173,
+      0.9,
+      "Taco Bell",
+      "Stilwell",
+      "OK"
+    ],
+    [
       "038871",
       42.411818264438004,
       -82.91333451525527,
@@ -25741,15 +25860,6 @@
       "MI"
     ],
     [
-      "040761",
-      42.1965895445497,
-      -83.3055077831827,
-      0.95,
-      "Taco Bell",
-      "Taylor",
-      "MI"
-    ],
-    [
       "040164",
       42.16905915347598,
       -83.26734832264522,
@@ -25811,15 +25921,6 @@
       "Taco Bell",
       "Bloomington",
       "IN"
-    ],
-    [
-      "004986",
-      42.35859535314378,
-      -83.46154167319582,
-      0.95,
-      "Taco Bell",
-      "Plymouth",
-      "MI"
     ],
     [
       "031450",
@@ -25928,6 +26029,15 @@
       "Taco Bell",
       "Texas City",
       "TX"
+    ],
+    [
+      "033316",
+      42.709640520946245,
+      -83.30659079290703,
+      1.0,
+      "Taco Bell",
+      "Lake Orion",
+      "MI"
     ],
     [
       "026789",
@@ -26189,15 +26299,6 @@
       "Taco Bell",
       "Painesville",
       "OH"
-    ],
-    [
-      "040702",
-      33.791869,
-      -87.241236,
-      1.0,
-      "Taco Bell",
-      "Jasper",
-      "AL"
     ],
     [
       "041980",
@@ -26704,6 +26805,15 @@
       "IL"
     ],
     [
+      "031308",
+      38.79563096909239,
+      -90.23304370930418,
+      1.0,
+      "Taco Bell",
+      "Florissant",
+      "MO"
+    ],
+    [
       "033650",
       38.95676829361747,
       -84.62919294834137,
@@ -26828,6 +26938,15 @@
       "Taco Bell",
       "Moberly",
       "MO"
+    ],
+    [
+      "035121",
+      39.248325262393514,
+      -84.78767112214496,
+      1.1,
+      "Taco Bell",
+      "Harrison",
+      "OH"
     ],
     [
       "029167",
@@ -27163,15 +27282,6 @@
       "MI"
     ],
     [
-      "026745",
-      41.57787387243042,
-      -88.1601275950834,
-      1.49,
-      "Taco Bell",
-      "Joliet",
-      "IL"
-    ],
-    [
       "042654",
       40.85189672386007,
       -84.60023508222548,
@@ -27262,15 +27372,6 @@
       "MI"
     ],
     [
-      "001651",
-      42.25422907874331,
-      -84.4236646592617,
-      1.49,
-      "Taco Bell",
-      "Jackson",
-      "MI"
-    ],
-    [
       "040902",
       41.6519,
       -88.08,
@@ -27287,15 +27388,6 @@
       "Taco Bell",
       "Plainfield",
       "IL"
-    ],
-    [
-      "041638",
-      41.6244505,
-      -86.6939375,
-      1.49,
-      "Taco Bell",
-      "La Porte",
-      "IN"
     ],
     [
       "001795",
@@ -27676,6 +27768,15 @@
       "MI"
     ],
     [
+      "042634",
+      43.02070476985877,
+      -85.68843215703964,
+      1.49,
+      "Taco Bell",
+      "Grand Rapids",
+      "MI"
+    ],
+    [
       "041883",
       48.173424515469144,
       -103.62728089416856,
@@ -27686,6 +27787,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-09-03",
+  "last_seen_date": "2026-09-04",
   "peak_availability_pct": 13.6
 }

@@ -14,16 +14,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 16.6,
-  "recent_price_change_pct": 0.066,
+  "recent_price_change_pct": 0.0232,
   "first_seen_at": "2026-03-30T00:40:09.997470+00:00",
   "availability_pct": 1.6,
   "price_stats": {
-    "avg": 6.49,
+    "avg": 6.52,
     "min": 5.99,
     "max": 9.99,
     "median": 5.99,
-    "std_dev": 0.99,
-    "store_count": 120
+    "std_dev": 1.02,
+    "store_count": 121
   },
   "histogram": [
     {
@@ -72,7 +72,7 @@
     },
     {
       "bucket": "$9.49",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$9.99",
@@ -82,8 +82,8 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 7.94,
-      "store_count": 21
+      "avg_price": 8.01,
+      "store_count": 22
     },
     {
       "state": "IL",
@@ -98,7 +98,7 @@
     {
       "state": "MI",
       "avg_price": 5.99,
-      "store_count": 25
+      "store_count": 26
     },
     {
       "state": "IN",
@@ -157,6 +157,13 @@
       "price": 5.99
     },
     {
+      "store_number": "035098",
+      "name": "Taco Bell",
+      "city": "Warren",
+      "state": "MI",
+      "price": 5.99
+    },
+    {
       "store_number": "035304",
       "name": "Taco Bell",
       "city": "Shelby Township",
@@ -183,13 +190,6 @@
       "city": "Edmore",
       "state": "MI",
       "price": 5.99
-    },
-    {
-      "store_number": "036707",
-      "name": "Taco Bell",
-      "city": "Grove City",
-      "state": "OH",
-      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
@@ -198,6 +198,7 @@
     "034791",
     "036386",
     "036234",
+    "035098",
     "035304",
     "037166",
     "042694",
@@ -275,7 +276,6 @@
     "031070",
     "028908",
     "040445",
-    "040493",
     "004589",
     "040894",
     "028911",
@@ -308,6 +308,13 @@
       "store_number": "036429",
       "name": "Taco Bell",
       "city": "East Elmhurst",
+      "state": "NY",
+      "price": 9.49
+    },
+    {
+      "store_number": "036317",
+      "name": "Taco Bell",
+      "city": "Rego Park",
       "state": "NY",
       "price": 9.49
     },
@@ -345,16 +352,39 @@
       "city": "Brooklyn",
       "state": "NY",
       "price": 7.89
-    },
-    {
-      "store_number": "035336",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 7.89
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040493",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-04T21:23:00.193614+00:00"
+    },
+    {
+      "store_number": "036317",
+      "store_name": "Taco Bell",
+      "city": "Rego Park",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-09-04T21:20:48.994303+00:00"
+    },
+    {
+      "store_number": "035098",
+      "store_name": "Taco Bell",
+      "city": "Warren",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-04T21:20:48.035430+00:00"
+    },
     {
       "store_number": "020944",
       "store_name": "Taco Bell",
@@ -29787,8 +29817,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1500,
-    "removed": 1432,
+    "added": 1502,
+    "removed": 1433,
     "price_changed": 11,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -29840,6 +29870,15 @@
       5.99,
       "Taco Bell",
       "Auburn Hills",
+      "MI"
+    ],
+    [
+      "035098",
+      42.478732,
+      -82.988893,
+      5.99,
+      "Taco Bell",
+      "Warren",
       "MI"
     ],
     [
@@ -30536,15 +30575,6 @@
       "OH"
     ],
     [
-      "040493",
-      37.21111816184735,
-      -93.22444921044759,
-      5.99,
-      "Taco Bell",
-      "Springfield",
-      "MO"
-    ],
-    [
       "004589",
       39.29209224354899,
       -84.31068556932928,
@@ -30839,6 +30869,15 @@
       9.49,
       "Taco Bell",
       "Astoria",
+      "NY"
+    ],
+    [
+      "036317",
+      40.72940057187033,
+      -73.8624363824434,
+      9.49,
+      "Taco Bell",
+      "Rego Park",
       "NY"
     ],
     [
