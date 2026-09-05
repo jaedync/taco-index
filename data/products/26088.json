@@ -13,7 +13,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 16.3,
+  "peak_30d_pct": 16.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-07-31T21:17:56.359326+00:00",
   "availability_pct": 1.2,
@@ -23,15 +23,20 @@
     "max": 2.79,
     "median": 2.79,
     "std_dev": 0.0,
-    "store_count": 93
+    "store_count": 94
   },
   "histogram": [
     {
       "bucket": "$2.79",
-      "count": 93
+      "count": 94
     }
   ],
   "state_prices": [
+    {
+      "state": "IN",
+      "avg_price": 2.79,
+      "store_count": 24
+    },
     {
       "state": "OH",
       "avg_price": 2.79,
@@ -41,11 +46,6 @@
       "state": "MI",
       "avg_price": 2.79,
       "store_count": 32
-    },
-    {
-      "state": "IN",
-      "avg_price": 2.79,
-      "store_count": 23
     },
     {
       "state": "IL",
@@ -190,6 +190,7 @@
     "029976",
     "023270",
     "024298",
+    "033787",
     "036199",
     "031824",
     "030409",
@@ -210,7 +211,7 @@
     "004752",
     "032105",
     "033002",
-    "033770",
+    "028893",
     "036779",
     "028858",
     "002076",
@@ -286,14 +287,44 @@
       "price": 2.79
     },
     {
-      "store_number": "033770",
+      "store_number": "028893",
       "name": "Taco Bell",
-      "city": "Springfield",
-      "state": "OH",
+      "city": "Fishers",
+      "state": "IN",
       "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033770",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-09-05T21:42:02.573980+00:00"
+    },
+    {
+      "store_number": "028893",
+      "store_name": "Taco Bell",
+      "city": "Fishers",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-09-05T21:41:58.814547+00:00"
+    },
+    {
+      "store_number": "033787",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-09-05T21:41:16.691242+00:00"
+    },
     {
       "store_number": "040385",
       "store_name": "Taco Bell",
@@ -27816,8 +27847,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1423,
-    "removed": 1329,
+    "added": 1425,
+    "removed": 1330,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -28394,6 +28425,15 @@
       "WI"
     ],
     [
+      "033787",
+      39.96417840866663,
+      -83.7850115150377,
+      2.79,
+      "Taco Bell",
+      "Springfield",
+      "OH"
+    ],
+    [
       "036199",
       41.07861640512747,
       -87.86725719274727,
@@ -28574,13 +28614,13 @@
       "MI"
     ],
     [
-      "033770",
-      39.94261663677692,
-      -83.85576345029222,
+      "028893",
+      39.95391533947413,
+      -86.04067158219901,
       2.79,
       "Taco Bell",
-      "Springfield",
-      "OH"
+      "Fishers",
+      "IN"
     ],
     [
       "036779",

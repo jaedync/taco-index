@@ -13,19 +13,19 @@
   "peak_30d_pct": 42.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 45.3,
+  "availability_pct": 45.4,
   "price_stats": {
     "avg": 0.0,
     "min": 0.0,
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3505
+    "store_count": 3508
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3505
+      "count": 3508
     }
   ],
   "state_prices": [
@@ -152,7 +152,7 @@
     {
       "state": "MI",
       "avg_price": 0.0,
-      "store_count": 191
+      "store_count": 192
     },
     {
       "state": "MD",
@@ -207,7 +207,7 @@
     {
       "state": "GA",
       "avg_price": 0.0,
-      "store_count": 65
+      "store_count": 66
     },
     {
       "state": "FL",
@@ -242,7 +242,7 @@
     {
       "state": "AR",
       "avg_price": 0.0,
-      "store_count": 5
+      "store_count": 6
     },
     {
       "state": "AK",
@@ -1817,6 +1817,7 @@
     "034193",
     "005646",
     "023965",
+    "042875",
     "031719",
     "022607",
     "032944",
@@ -3728,6 +3729,7 @@
     "038869",
     "034796",
     "004161",
+    "017105",
     "042970",
     "040318",
     "033305",
@@ -3841,9 +3843,17 @@
     "020852",
     "036303",
     "042796",
-    "031751"
+    "031751",
+    "021504"
   ],
   "priciest_stores": [
+    {
+      "store_number": "021504",
+      "name": "Taco Bell",
+      "city": "North Little Rock",
+      "state": "AR",
+      "price": 0.0
+    },
     {
       "store_number": "031751",
       "name": "Taco Bell",
@@ -3906,16 +3916,39 @@
       "city": "Jonesboro",
       "state": "AR",
       "price": 0.0
-    },
-    {
-      "store_number": "041940",
-      "name": "Taco Bell",
-      "city": "Charlotte",
-      "state": "NC",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "021504",
+      "store_name": "Taco Bell",
+      "city": "North Little Rock",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-09-05T21:41:07.059840+00:00"
+    },
+    {
+      "store_number": "042875",
+      "store_name": "Taco Bell",
+      "city": "Brunswick",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-09-05T21:40:58.787860+00:00"
+    },
+    {
+      "store_number": "017105",
+      "store_name": "Taco Bell",
+      "city": "Garden City",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-09-05T21:40:23.819543+00:00"
+    },
     {
       "store_number": "034401",
       "store_name": "Taco Bell",
@@ -12858,7 +12891,7 @@
     }
   ],
   "activity_summary": {
-    "added": 425,
+    "added": 428,
     "removed": 469,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -26187,6 +26220,15 @@
       "Taco Bell",
       "Fort Mohave",
       "AZ"
+    ],
+    [
+      "042875",
+      31.2167515667324,
+      -81.51767492294312,
+      0.0,
+      "Taco Bell",
+      "Brunswick",
+      "GA"
     ],
     [
       "031719",
@@ -43388,6 +43430,15 @@
       "MI"
     ],
     [
+      "017105",
+      42.325364416289936,
+      -83.32727551460266,
+      0.0,
+      "Taco Bell",
+      "Garden City",
+      "MI"
+    ],
+    [
       "042970",
       27.27428750457316,
       -80.34850978217297,
@@ -44412,6 +44463,15 @@
       "Taco Bell",
       "Little Chute",
       "WI"
+    ],
+    [
+      "021504",
+      34.79107859034437,
+      -92.22937432816252,
+      0.0,
+      "Taco Bell",
+      "North Little Rock",
+      "AR"
     ]
   ],
   "retired_at": null,

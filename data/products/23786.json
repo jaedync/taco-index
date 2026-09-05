@@ -21,19 +21,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 103
+    "store_count": 104
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 103
+      "count": 104
     }
   ],
   "state_prices": [
     {
       "state": "CO",
       "avg_price": 7.0,
-      "store_count": 103
+      "store_count": 104
     }
   ],
   "nutrition": {
@@ -225,9 +225,17 @@
     "033871",
     "033370",
     "038755",
-    "042567"
+    "042567",
+    "042005"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042005",
+      "name": "Taco Bell",
+      "city": "Parker",
+      "state": "CO",
+      "price": 7.0
+    },
     {
       "store_number": "042567",
       "name": "Taco Bell",
@@ -290,16 +298,19 @@
       "city": "Dumont",
       "state": "CO",
       "price": 7.0
-    },
-    {
-      "store_number": "019310",
-      "name": "Taco Bell",
-      "city": "Aurora",
-      "state": "CO",
-      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042005",
+      "store_name": "Taco Bell",
+      "city": "Parker",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-09-05T21:42:31.769424+00:00"
+    },
     {
       "store_number": "033867",
       "store_name": "Taco Bell",
@@ -1532,7 +1543,7 @@
     }
   ],
   "activity_summary": {
-    "added": 113,
+    "added": 114,
     "removed": 10,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2498,6 +2509,15 @@
       7.0,
       "Taco Bell",
       "Thornton",
+      "CO"
+    ],
+    [
+      "042005",
+      39.4768,
+      -104.759,
+      7.0,
+      "Taco Bell",
+      "Parker",
       "CO"
     ]
   ],

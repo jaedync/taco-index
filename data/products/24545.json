@@ -13,22 +13,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 16.6,
-  "recent_price_change_pct": 0.0232,
+  "peak_30d_pct": 16.5,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:09.997470+00:00",
   "availability_pct": 1.6,
   "price_stats": {
-    "avg": 6.52,
+    "avg": 6.51,
     "min": 5.99,
     "max": 9.99,
     "median": 5.99,
     "std_dev": 1.02,
-    "store_count": 121
+    "store_count": 122
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 88
+      "count": 89
     },
     {
       "bucket": "$6.49",
@@ -87,21 +87,21 @@
     },
     {
       "state": "IL",
-      "avg_price": 6.99,
-      "store_count": 7
-    },
-    {
-      "state": "OH",
-      "avg_price": 5.99,
-      "store_count": 26
+      "avg_price": 7.39,
+      "store_count": 5
     },
     {
       "state": "MI",
       "avg_price": 5.99,
-      "store_count": 26
+      "store_count": 27
     },
     {
       "state": "IN",
+      "avg_price": 5.99,
+      "store_count": 27
+    },
+    {
+      "state": "OH",
       "avg_price": 5.99,
       "store_count": 26
     }
@@ -121,13 +121,6 @@
     "serving_size_g": 435.1646
   },
   "cheapest_stores": [
-    {
-      "store_number": "034775",
-      "name": "Taco Bell",
-      "city": "Chicago",
-      "state": "IL",
-      "price": 5.99
-    },
     {
       "store_number": "041760",
       "name": "Taco Bell",
@@ -190,10 +183,16 @@
       "city": "Edmore",
       "state": "MI",
       "price": 5.99
+    },
+    {
+      "store_number": "036707",
+      "name": "Taco Bell",
+      "city": "Grove City",
+      "state": "OH",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
-    "034775",
     "041760",
     "034791",
     "036386",
@@ -207,7 +206,6 @@
     "037070",
     "038800",
     "039575",
-    "037330",
     "037663",
     "029978",
     "027886",
@@ -238,6 +236,7 @@
     "032997",
     "029417",
     "036197",
+    "028861",
     "019290",
     "032091",
     "033765",
@@ -245,12 +244,12 @@
     "035407",
     "034786",
     "033650",
+    "031990",
     "028227",
     "033785",
     "036185",
     "032090",
     "003302",
-    "033787",
     "028890",
     "035398",
     "033767",
@@ -269,6 +268,7 @@
     "042629",
     "033793",
     "030987",
+    "042654",
     "033043",
     "033002",
     "028893",
@@ -280,7 +280,8 @@
     "040894",
     "028911",
     "032045",
-    "042730"
+    "042730",
+    "042552"
   ],
   "priciest_stores": [
     {
@@ -355,6 +356,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042552",
+      "store_name": "Taco Bell",
+      "city": "Eaton Rapids",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-05T21:42:32.912691+00:00"
+    },
+    {
+      "store_number": "042654",
+      "store_name": "Taco Bell",
+      "city": "Van Wert",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-05T21:41:49.065925+00:00"
+    },
+    {
+      "store_number": "033787",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-05T21:41:16.691242+00:00"
+    },
+    {
+      "store_number": "031990",
+      "store_name": "Taco Bell",
+      "city": "Kenosha",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-05T21:41:06.047610+00:00"
+    },
+    {
+      "store_number": "028861",
+      "store_name": "Taco Bell",
+      "city": "Speedway",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-05T21:40:49.489161+00:00"
+    },
+    {
+      "store_number": "037330",
+      "store_name": "Taco Bell",
+      "city": "Morton Grove",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-05T21:40:15.010145+00:00"
+    },
+    {
+      "store_number": "034775",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-05T21:38:47.503466+00:00"
+    },
     {
       "store_number": "040493",
       "store_name": "Taco Bell",
@@ -29817,8 +29888,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1502,
-    "removed": 1433,
+    "added": 1506,
+    "removed": 1436,
     "price_changed": 11,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -29827,15 +29898,6 @@
   "calories_max": 1110,
   "combo_groups": [],
   "map_data": [
-    [
-      "034775",
-      41.84800381723727,
-      -87.68587729840073,
-      5.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
     [
       "041760",
       40.18147753133757,
@@ -29952,15 +30014,6 @@
       "Taco Bell",
       "West Plains",
       "MO"
-    ],
-    [
-      "037330",
-      42.042342277898854,
-      -87.79960166629424,
-      5.99,
-      "Taco Bell",
-      "Morton Grove",
-      "IL"
     ],
     [
       "037663",
@@ -30233,6 +30286,15 @@
       "IL"
     ],
     [
+      "028861",
+      39.80032567328473,
+      -86.26901320651086,
+      5.99,
+      "Taco Bell",
+      "Speedway",
+      "IN"
+    ],
+    [
       "019290",
       39.0608869459406,
       -83.01865518093109,
@@ -30296,6 +30358,15 @@
       "KY"
     ],
     [
+      "031990",
+      42.58877214769094,
+      -87.85778859260972,
+      5.99,
+      "Taco Bell",
+      "Kenosha",
+      "WI"
+    ],
+    [
       "028227",
       39.97436148060568,
       -82.89595559971245,
@@ -30339,15 +30410,6 @@
       "Taco Bell",
       "Newport",
       "KY"
-    ],
-    [
-      "033787",
-      39.96417840866663,
-      -83.7850115150377,
-      5.99,
-      "Taco Bell",
-      "Springfield",
-      "OH"
     ],
     [
       "028890",
@@ -30512,6 +30574,15 @@
       "IN"
     ],
     [
+      "042654",
+      40.85189672386007,
+      -84.60023508222548,
+      5.99,
+      "Taco Bell",
+      "Van Wert",
+      "OH"
+    ],
+    [
       "033043",
       42.67365292260149,
       -85.65788559621069,
@@ -30618,6 +30689,15 @@
       "Taco Bell",
       "Indianapolis",
       "IN"
+    ],
+    [
+      "042552",
+      42.498097,
+      -84.656177,
+      5.99,
+      "Taco Bell",
+      "Eaton Rapids",
+      "MI"
     ],
     [
       "040572",

@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 17
+    "store_count": 18
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 17
+      "count": 18
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 17
+      "store_count": 18
     }
   ],
   "nutrition": {
@@ -140,8 +140,9 @@
     "027980",
     "027985",
     "023304",
+    "042928",
     "023291",
-    "023300",
+    "042971",
     "032354"
   ],
   "priciest_stores": [
@@ -153,9 +154,9 @@
       "price": 10.99
     },
     {
-      "store_number": "023300",
+      "store_number": "042971",
       "name": "Taco Bell",
-      "city": "Palm Bay",
+      "city": "Palm Coast",
       "state": "FL",
       "price": 10.99
     },
@@ -163,6 +164,13 @@
       "store_number": "023291",
       "name": "Taco Bell",
       "city": "Satellite Beach",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "042928",
+      "name": "Taco Bell",
+      "city": "Palm Coast",
       "state": "FL",
       "price": 10.99
     },
@@ -207,16 +215,39 @@
       "city": "Casselberry",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "022596",
-      "name": "Taco Bell",
-      "city": "Ormond Beach",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042971",
+      "store_name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-05T21:42:29.216222+00:00"
+    },
+    {
+      "store_number": "023300",
+      "store_name": "Taco Bell",
+      "city": "Palm Bay",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-05T21:42:20.644911+00:00"
+    },
+    {
+      "store_number": "042928",
+      "store_name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-05T21:42:11.077442+00:00"
+    },
     {
       "store_number": "035177",
       "store_name": "Taco Bell",
@@ -1929,8 +1960,8 @@
     }
   ],
   "activity_summary": {
-    "added": 94,
-    "removed": 77,
+    "added": 96,
+    "removed": 78,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2097,6 +2128,15 @@
       "FL"
     ],
     [
+      "042928",
+      29.5540650252999,
+      -81.22845753097863,
+      10.99,
+      "Taco Bell",
+      "Palm Coast",
+      "FL"
+    ],
+    [
       "023291",
       28.186290819898744,
       -80.59330917430088,
@@ -2106,12 +2146,12 @@
       "FL"
     ],
     [
-      "023300",
-      27.99815047734223,
-      -80.63776654322986,
+      "042971",
+      29.475060096911534,
+      -81.2211965854139,
       10.99,
       "Taco Bell",
-      "Palm Bay",
+      "Palm Coast",
       "FL"
     ],
     [
@@ -2125,6 +2165,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-09-04",
+  "last_seen_date": "2026-09-05",
   "peak_availability_pct": 0.4
 }
