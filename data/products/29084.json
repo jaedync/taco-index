@@ -20,12 +20,12 @@
     "max": 6.99,
     "median": 5.99,
     "std_dev": 0.14,
-    "store_count": 49
+    "store_count": 50
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 48
+      "count": 49
     },
     {
       "bucket": "$6.99",
@@ -36,7 +36,7 @@
     {
       "state": "FL",
       "avg_price": 6.01,
-      "store_count": 49
+      "store_count": 50
     }
   ],
   "nutrition": {
@@ -97,13 +97,6 @@
       "price": 5.99
     },
     {
-      "store_number": "036287",
-      "name": "Taco Bell",
-      "city": "Port Orange",
-      "state": "FL",
-      "price": 5.99
-    },
-    {
       "store_number": "034809",
       "name": "Taco Bell",
       "city": "Umatilla",
@@ -123,6 +116,13 @@
       "city": "Clermont",
       "state": "FL",
       "price": 5.99
+    },
+    {
+      "store_number": "035462",
+      "name": "Taco Bell Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
@@ -132,10 +132,10 @@
     "039586",
     "042753",
     "033927",
-    "036287",
     "034809",
     "035998",
     "041833",
+    "035462",
     "036232",
     "042977",
     "042941",
@@ -173,6 +173,7 @@
     "023291",
     "034162",
     "042971",
+    "032959",
     "032354"
   ],
   "priciest_stores": [
@@ -187,6 +188,13 @@
       "store_number": "032354",
       "name": "Taco Bell",
       "city": "Wildwood",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "032959",
+      "name": "Taco Bell",
+      "city": "Ocoee",
       "state": "FL",
       "price": 5.99
     },
@@ -238,16 +246,39 @@
       "city": "Palm Coast",
       "state": "FL",
       "price": 5.99
-    },
-    {
-      "store_number": "004435",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032959",
+      "store_name": "Taco Bell",
+      "city": "Ocoee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-06T21:38:52.163338+00:00"
+    },
+    {
+      "store_number": "035462",
+      "store_name": "Taco Bell Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-06T21:36:26.412931+00:00"
+    },
+    {
+      "store_number": "036287",
+      "store_name": "Taco Bell",
+      "city": "Port Orange",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-06T21:36:05.503743+00:00"
+    },
     {
       "store_number": "027977",
       "store_name": "Taco Bell",
@@ -3030,8 +3061,8 @@
     }
   ],
   "activity_summary": {
-    "added": 163,
-    "removed": 115,
+    "added": 165,
+    "removed": 116,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3095,15 +3126,6 @@
       "FL"
     ],
     [
-      "036287",
-      29.110829512237228,
-      -81.02506886165676,
-      5.99,
-      "Taco Bell",
-      "Port Orange",
-      "FL"
-    ],
-    [
       "034809",
       28.93077353365337,
       -81.66661659010451,
@@ -3128,6 +3150,15 @@
       5.99,
       "Taco Bell",
       "Clermont",
+      "FL"
+    ],
+    [
+      "035462",
+      28.541891996394657,
+      -81.37876977112303,
+      5.99,
+      "Taco Bell Cantina",
+      "Orlando",
       "FL"
     ],
     [
@@ -3461,6 +3492,15 @@
       5.99,
       "Taco Bell",
       "Palm Coast",
+      "FL"
+    ],
+    [
+      "032959",
+      28.603524290290366,
+      -81.54805165889547,
+      5.99,
+      "Taco Bell",
+      "Ocoee",
       "FL"
     ],
     [

@@ -20,9 +20,9 @@
     "avg": 1.04,
     "min": 0.5,
     "max": 1.59,
-    "median": 0.98,
+    "median": 0.95,
     "std_dev": 0.22,
-    "store_count": 412
+    "store_count": 410
   },
   "histogram": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 122
+      "count": 123
     },
     {
       "bucket": "$0.95",
@@ -67,7 +67,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$1.00",
@@ -91,7 +91,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 66
+      "count": 64
     },
     {
       "bucket": "$1.59",
@@ -100,14 +100,14 @@
   ],
   "state_prices": [
     {
-      "state": "IL",
-      "avg_price": 1.19,
-      "store_count": 48
-    },
-    {
       "state": "MI",
       "avg_price": 1.19,
       "store_count": 103
+    },
+    {
+      "state": "IL",
+      "avg_price": 1.18,
+      "store_count": 46
     },
     {
       "state": "KY",
@@ -125,11 +125,6 @@
       "store_count": 8
     },
     {
-      "state": "WI",
-      "avg_price": 1.0,
-      "store_count": 17
-    },
-    {
       "state": "MO",
       "avg_price": 0.98,
       "store_count": 15
@@ -138,6 +133,11 @@
       "state": "OH",
       "avg_price": 0.97,
       "store_count": 35
+    },
+    {
+      "state": "WI",
+      "avg_price": 0.97,
+      "store_count": 16
     },
     {
       "state": "IN",
@@ -152,7 +152,7 @@
     {
       "state": "MN",
       "avg_price": 0.9,
-      "store_count": 8
+      "store_count": 9
     },
     {
       "state": "OK",
@@ -337,6 +337,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004289",
+      "store_name": "Taco Bell",
+      "city": "Des Plaines",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-09-06T21:38:37.172162+00:00"
+    },
+    {
+      "store_number": "032491",
+      "store_name": "Taco Bell",
+      "city": "Valparaiso",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-09-06T21:38:06.477965+00:00"
+    },
+    {
+      "store_number": "030400",
+      "store_name": "Taco Bell",
+      "city": "New Berlin",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-09-06T21:37:39.780337+00:00"
+    },
+    {
+      "store_number": "030268",
+      "store_name": "Taco Bell",
+      "city": "Faribault",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-09-06T21:37:22.950307+00:00"
+    },
+    {
+      "store_number": "032487",
+      "store_name": "Taco Bell",
+      "city": "Chesterton",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-09-06T21:37:11.681076+00:00"
+    },
+    {
+      "store_number": "041497",
+      "store_name": "Taco Bell",
+      "city": "Plainfield",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-09-06T21:35:53.518887+00:00"
+    },
     {
       "store_number": "030409",
       "store_name": "Taco Bell",
@@ -24129,8 +24189,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1301,
-    "removed": 1078,
+    "added": 1303,
+    "removed": 1082,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25580,6 +25640,15 @@
       "OK"
     ],
     [
+      "030268",
+      44.29559856826364,
+      -93.29105101525784,
+      0.9,
+      "Taco Bell",
+      "Faribault",
+      "MN"
+    ],
+    [
       "038871",
       42.411818264438004,
       -82.91333451525527,
@@ -26037,15 +26106,6 @@
       "Taco Bell",
       "Argyle",
       "TX"
-    ],
-    [
-      "004289",
-      42.02344867367876,
-      -87.89637027075514,
-      0.99,
-      "Taco Bell",
-      "Des Plaines",
-      "IL"
     ],
     [
       "036428",
@@ -26804,15 +26864,6 @@
       "IN"
     ],
     [
-      "032491",
-      41.458291287769896,
-      -87.03443632276503,
-      1.0,
-      "Taco Bell",
-      "Valparaiso",
-      "IN"
-    ],
-    [
       "029684",
       38.69140246493201,
       -89.98514663062222,
@@ -26874,6 +26925,15 @@
       "Taco Bell",
       "Florissant",
       "MO"
+    ],
+    [
+      "032487",
+      41.617204933585256,
+      -87.04461604356766,
+      1.0,
+      "Taco Bell",
+      "Chesterton",
+      "IN"
     ],
     [
       "033650",
@@ -27443,15 +27503,6 @@
       "IL"
     ],
     [
-      "041497",
-      41.6547863,
-      -88.2028586,
-      1.49,
-      "Taco Bell",
-      "Plainfield",
-      "IL"
-    ],
-    [
       "001795",
       42.30977693893683,
       -83.34892281415368,
@@ -27731,15 +27782,6 @@
       "MI"
     ],
     [
-      "030400",
-      42.97991985364562,
-      -88.10759743561037,
-      1.49,
-      "Taco Bell",
-      "New Berlin",
-      "WI"
-    ],
-    [
       "031509",
       42.65241170776328,
       -84.52938938197696,
@@ -27849,6 +27891,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-09-05",
+  "last_seen_date": "2026-09-06",
   "peak_availability_pct": 13.6
 }

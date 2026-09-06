@@ -18,17 +18,17 @@
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 4.09,
+    "avg": 4.08,
     "min": 3.99,
     "max": 5.49,
     "median": 3.99,
-    "std_dev": 0.39,
-    "store_count": 15
+    "std_dev": 0.38,
+    "store_count": 16
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 14
+      "count": 15
     },
     {
       "bucket": "$5.49",
@@ -38,8 +38,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 4.1,
-      "store_count": 14
+      "avg_price": 4.09,
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -142,7 +142,8 @@
     "021472",
     "004435",
     "042927",
-    "037822"
+    "037822",
+    "032959"
   ],
   "priciest_stores": [
     {
@@ -151,6 +152,13 @@
       "city": "Orlando",
       "state": "FL",
       "price": 5.49
+    },
+    {
+      "store_number": "032959",
+      "name": "Taco Bell",
+      "city": "Ocoee",
+      "state": "FL",
+      "price": 3.99
     },
     {
       "store_number": "037822",
@@ -207,16 +215,19 @@
       "city": "Clermont",
       "state": "FL",
       "price": 3.99
-    },
-    {
-      "store_number": "027982",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032959",
+      "store_name": "Taco Bell",
+      "city": "Ocoee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-09-06T21:38:52.163338+00:00"
+    },
     {
       "store_number": "042927",
       "store_name": "Taco Bell",
@@ -1429,7 +1440,7 @@
     }
   ],
   "activity_summary": {
-    "added": 67,
+    "added": 68,
     "removed": 54,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1576,6 +1587,15 @@
       3.99,
       "Taco Bell",
       "Lady Lake",
+      "FL"
+    ],
+    [
+      "032959",
+      28.603524290290366,
+      -81.54805165889547,
+      3.99,
+      "Taco Bell",
+      "Ocoee",
       "FL"
     ],
     [

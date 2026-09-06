@@ -18,17 +18,17 @@
   "first_seen_at": "2026-03-30T00:40:09.997470+00:00",
   "availability_pct": 1.6,
   "price_stats": {
-    "avg": 6.51,
+    "avg": 6.55,
     "min": 5.99,
-    "max": 9.99,
+    "max": 11.99,
     "median": 5.99,
-    "std_dev": 1.02,
-    "store_count": 122
+    "std_dev": 1.17,
+    "store_count": 123
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 89
+      "count": 90
     },
     {
       "bucket": "$6.49",
@@ -64,7 +64,7 @@
     },
     {
       "bucket": "$8.99",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$9.09",
@@ -76,19 +76,23 @@
     },
     {
       "bucket": "$9.99",
-      "count": 3
+      "count": 2
+    },
+    {
+      "bucket": "$11.99",
+      "count": 2
     }
   ],
   "state_prices": [
     {
+      "state": "IL",
+      "avg_price": 8.39,
+      "store_count": 5
+    },
+    {
       "state": "NY",
       "avg_price": 8.01,
       "store_count": 22
-    },
-    {
-      "state": "IL",
-      "avg_price": 7.39,
-      "store_count": 5
     },
     {
       "state": "MI",
@@ -246,6 +250,7 @@
     "033650",
     "031990",
     "028227",
+    "026911",
     "033785",
     "036185",
     "032090",
@@ -285,17 +290,24 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "036773",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 9.99
-    },
-    {
       "store_number": "037116",
       "name": "Taco Bell",
       "city": "Chicago",
       "state": "IL",
+      "price": 11.99
+    },
+    {
+      "store_number": "040904",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 11.99
+    },
+    {
+      "store_number": "036773",
+      "name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
       "price": 9.99
     },
     {
@@ -341,13 +353,6 @@
       "price": 8.99
     },
     {
-      "store_number": "040904",
-      "name": "Taco Bell",
-      "city": "Chicago",
-      "state": "IL",
-      "price": 8.99
-    },
-    {
       "store_number": "037832",
       "name": "Taco Bell",
       "city": "Brooklyn",
@@ -356,6 +361,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026911",
+      "store_name": "Taco Bell",
+      "city": "Bartlesville",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-06T21:37:36.064132+00:00"
+    },
+    {
+      "store_number": "037116",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 9.99,
+      "new_price": 11.99,
+      "observed_at": "2026-09-06T21:36:20.792958+00:00"
+    },
+    {
+      "store_number": "040904",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 8.99,
+      "new_price": 11.99,
+      "observed_at": "2026-09-06T21:35:51.271086+00:00"
+    },
     {
       "store_number": "042552",
       "store_name": "Taco Bell",
@@ -29888,9 +29923,9 @@
     }
   ],
   "activity_summary": {
-    "added": 1506,
+    "added": 1507,
     "removed": 1436,
-    "price_changed": 11,
+    "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 1110,
@@ -30374,6 +30409,15 @@
       "Taco Bell",
       "Whitehall",
       "OH"
+    ],
+    [
+      "026911",
+      36.73977957651754,
+      -95.93449969591347,
+      5.99,
+      "Taco Bell",
+      "Bartlesville",
+      "OK"
     ],
     [
       "033785",
@@ -30916,15 +30960,6 @@
       "NY"
     ],
     [
-      "040904",
-      41.97753928980377,
-      -87.66811113265531,
-      8.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
       "030479",
       38.6017353264456,
       -121.42743280306085,
@@ -30979,15 +31014,6 @@
       "NY"
     ],
     [
-      "037116",
-      41.79921643473022,
-      -87.59249694654828,
-      9.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
       "036773",
       40.7652858448476,
       -73.95755210552255,
@@ -30995,6 +31021,24 @@
       "Taco Bell",
       "New York",
       "NY"
+    ],
+    [
+      "040904",
+      41.97753928980377,
+      -87.66811113265531,
+      11.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
+    [
+      "037116",
+      41.79921643473022,
+      -87.59249694654828,
+      11.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
     ]
   ],
   "retired_at": null,
