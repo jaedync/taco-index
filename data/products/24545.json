@@ -18,17 +18,17 @@
   "first_seen_at": "2026-03-30T00:40:09.997470+00:00",
   "availability_pct": 1.6,
   "price_stats": {
-    "avg": 6.55,
+    "avg": 6.56,
     "min": 5.99,
     "max": 11.99,
     "median": 5.99,
-    "std_dev": 1.17,
-    "store_count": 123
+    "std_dev": 1.19,
+    "store_count": 120
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 90
+      "count": 87
     },
     {
       "bucket": "$6.49",
@@ -85,14 +85,14 @@
   ],
   "state_prices": [
     {
-      "state": "IL",
-      "avg_price": 8.39,
-      "store_count": 5
-    },
-    {
       "state": "NY",
       "avg_price": 8.01,
       "store_count": 22
+    },
+    {
+      "state": "IL",
+      "avg_price": 7.99,
+      "store_count": 6
     },
     {
       "state": "OH",
@@ -107,7 +107,7 @@
     {
       "state": "MI",
       "avg_price": 5.99,
-      "store_count": 26
+      "store_count": 22
     }
   ],
   "nutrition": {
@@ -140,23 +140,9 @@
       "price": 5.99
     },
     {
-      "store_number": "041937",
-      "name": "Taco Bell",
-      "city": "Cheboygan",
-      "state": "MI",
-      "price": 5.99
-    },
-    {
       "store_number": "036386",
       "name": "Taco Bell",
       "city": "Durand",
-      "state": "MI",
-      "price": 5.99
-    },
-    {
-      "store_number": "036234",
-      "name": "Taco Bell",
-      "city": "Auburn Hills",
       "state": "MI",
       "price": 5.99
     },
@@ -175,13 +161,6 @@
       "price": 5.99
     },
     {
-      "store_number": "037166",
-      "name": "Taco Bell",
-      "city": "Hillsdale",
-      "state": "MI",
-      "price": 5.99
-    },
-    {
       "store_number": "042694",
       "name": "Taco Bell",
       "city": "Evansville",
@@ -194,23 +173,42 @@
       "city": "Edmore",
       "state": "MI",
       "price": 5.99
+    },
+    {
+      "store_number": "036707",
+      "name": "Taco Bell",
+      "city": "Grove City",
+      "state": "OH",
+      "price": 5.99
+    },
+    {
+      "store_number": "037070",
+      "name": "Taco Bell",
+      "city": "Toledo",
+      "state": "OH",
+      "price": 5.99
+    },
+    {
+      "store_number": "038800",
+      "name": "Taco Bell",
+      "city": "Loogootee",
+      "state": "IN",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "041760",
     "034791",
-    "041937",
     "036386",
-    "036234",
     "035098",
     "035304",
-    "037166",
     "042694",
     "042870",
     "036707",
     "037070",
     "038800",
     "039575",
+    "037330",
     "037663",
     "029978",
     "035355",
@@ -244,7 +242,6 @@
     "019290",
     "032091",
     "033765",
-    "032986",
     "035407",
     "034786",
     "033650",
@@ -361,6 +358,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032986",
+      "store_name": "Taco Bell",
+      "city": "Wyoming",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-10T21:35:48.533401+00:00"
+    },
+    {
+      "store_number": "037330",
+      "store_name": "Taco Bell",
+      "city": "Morton Grove",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-10T21:35:05.311469+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-10T21:34:43.294939+00:00"
+    },
+    {
+      "store_number": "036234",
+      "store_name": "Taco Bell",
+      "city": "Auburn Hills",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-10T21:34:26.991820+00:00"
+    },
+    {
+      "store_number": "041937",
+      "store_name": "Taco Bell",
+      "city": "Cheboygan",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-10T21:33:38.603420+00:00"
+    },
     {
       "store_number": "028231",
       "store_name": "Taco Bell",
@@ -30103,8 +30150,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1516,
-    "removed": 1445,
+    "added": 1517,
+    "removed": 1449,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -30132,30 +30179,12 @@
       "IN"
     ],
     [
-      "041937",
-      45.627258,
-      -84.479413,
-      5.99,
-      "Taco Bell",
-      "Cheboygan",
-      "MI"
-    ],
-    [
       "036386",
       42.92527219999999,
       -83.98984879999999,
       5.99,
       "Taco Bell",
       "Durand",
-      "MI"
-    ],
-    [
-      "036234",
-      42.7059001,
-      -83.2414515,
-      5.99,
-      "Taco Bell",
-      "Auburn Hills",
       "MI"
     ],
     [
@@ -30174,15 +30203,6 @@
       5.99,
       "Taco Bell",
       "Shelby Township",
-      "MI"
-    ],
-    [
-      "037166",
-      41.9426279,
-      -84.648124,
-      5.99,
-      "Taco Bell",
-      "Hillsdale",
       "MI"
     ],
     [
@@ -30238,6 +30258,15 @@
       "Taco Bell",
       "West Plains",
       "MO"
+    ],
+    [
+      "037330",
+      42.042342277898854,
+      -87.79960166629424,
+      5.99,
+      "Taco Bell",
+      "Morton Grove",
+      "IL"
     ],
     [
       "037663",
@@ -30535,15 +30564,6 @@
       "Taco Bell",
       "Englewood",
       "OH"
-    ],
-    [
-      "032986",
-      42.91240676476649,
-      -85.65277126426932,
-      5.99,
-      "Taco Bell",
-      "Wyoming",
-      "MI"
     ],
     [
       "035407",

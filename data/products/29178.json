@@ -14,7 +14,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 0.4,
+  "peak_30d_pct": 0.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:06:42.936006+00:00",
   "availability_pct": 0.2,
@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 17
+    "store_count": 18
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 17
+      "count": 18
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 17
+      "store_count": 18
     }
   ],
   "nutrition": {
@@ -65,6 +65,13 @@
       "store_number": "042753",
       "name": "Taco Bell",
       "city": "Casselberry",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "036287",
+      "name": "Taco Bell",
+      "city": "Port Orange",
       "state": "FL",
       "price": 10.99
     },
@@ -116,18 +123,12 @@
       "city": "Casselberry",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "027976",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "039586",
     "042753",
+    "036287",
     "041833",
     "035462",
     "042977",
@@ -217,6 +218,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036287",
+      "store_name": "Taco Bell",
+      "city": "Port Orange",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-10T21:33:50.521289+00:00"
+    },
     {
       "store_number": "022266",
       "store_name": "Taco Bell",
@@ -2029,7 +2040,7 @@
     }
   ],
   "activity_summary": {
-    "added": 99,
+    "added": 100,
     "removed": 82,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2086,6 +2097,15 @@
       10.99,
       "Taco Bell",
       "Casselberry",
+      "FL"
+    ],
+    [
+      "036287",
+      29.110829512237228,
+      -81.02506886165676,
+      10.99,
+      "Taco Bell",
+      "Port Orange",
       "FL"
     ],
     [
@@ -2225,6 +2245,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-09-09",
+  "last_seen_date": "2026-09-10",
   "peak_availability_pct": 0.4
 }
