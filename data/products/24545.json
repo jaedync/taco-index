@@ -14,21 +14,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 16.4,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.02,
   "first_seen_at": "2026-03-30T00:40:09.997470+00:00",
-  "availability_pct": 1.6,
+  "availability_pct": 1.5,
   "price_stats": {
-    "avg": 6.56,
+    "avg": 6.57,
     "min": 5.99,
     "max": 11.99,
     "median": 5.99,
     "std_dev": 1.19,
-    "store_count": 120
+    "store_count": 118
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 87
+      "count": 85
     },
     {
       "bucket": "$6.49",
@@ -97,17 +97,17 @@
     {
       "state": "OH",
       "avg_price": 5.99,
-      "store_count": 27
-    },
-    {
-      "state": "IN",
-      "avg_price": 5.99,
-      "store_count": 27
+      "store_count": 26
     },
     {
       "state": "MI",
       "avg_price": 5.99,
-      "store_count": 22
+      "store_count": 21
+    },
+    {
+      "state": "IN",
+      "avg_price": 5.99,
+      "store_count": 26
     }
   ],
   "nutrition": {
@@ -143,13 +143,6 @@
       "store_number": "036386",
       "name": "Taco Bell",
       "city": "Durand",
-      "state": "MI",
-      "price": 5.99
-    },
-    {
-      "store_number": "035098",
-      "name": "Taco Bell",
-      "city": "Warren",
       "state": "MI",
       "price": 5.99
     },
@@ -194,13 +187,19 @@
       "city": "Loogootee",
       "state": "IN",
       "price": 5.99
+    },
+    {
+      "store_number": "039575",
+      "name": "Taco Bell",
+      "city": "West Plains",
+      "state": "MO",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "041760",
     "034791",
     "036386",
-    "035098",
     "035304",
     "042694",
     "042870",
@@ -244,6 +243,7 @@
     "033765",
     "035407",
     "034786",
+    "031497",
     "033650",
     "031990",
     "028227",
@@ -267,7 +267,6 @@
     "024449",
     "004881",
     "028886",
-    "032493",
     "042629",
     "033793",
     "030987",
@@ -277,7 +276,6 @@
     "020219",
     "031070",
     "028908",
-    "040445",
     "004589",
     "040894",
     "028911",
@@ -358,6 +356,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040445",
+      "store_name": "Taco Bell",
+      "city": "Berea",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-11T21:23:02.780305+00:00"
+    },
+    {
+      "store_number": "032493",
+      "store_name": "Taco Bell",
+      "city": "Crown Point",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-11T21:22:42.289318+00:00"
+    },
+    {
+      "store_number": "031497",
+      "store_name": "Taco Bell",
+      "city": "Milwaukee",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-11T21:22:00.487814+00:00"
+    },
+    {
+      "store_number": "035098",
+      "store_name": "Taco Bell",
+      "city": "Warren",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-11T21:20:23.330968+00:00"
+    },
     {
       "store_number": "032986",
       "store_name": "Taco Bell",
@@ -30150,8 +30188,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1517,
-    "removed": 1449,
+    "added": 1518,
+    "removed": 1452,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -30185,15 +30223,6 @@
       5.99,
       "Taco Bell",
       "Durand",
-      "MI"
-    ],
-    [
-      "035098",
-      42.478732,
-      -82.988893,
-      5.99,
-      "Taco Bell",
-      "Warren",
       "MI"
     ],
     [
@@ -30584,6 +30613,15 @@
       "IN"
     ],
     [
+      "031497",
+      43.092868571821576,
+      -88.00764165353945,
+      5.99,
+      "Taco Bell",
+      "Milwaukee",
+      "WI"
+    ],
+    [
       "033650",
       38.95676829361747,
       -84.62919294834137,
@@ -30791,15 +30829,6 @@
       "IN"
     ],
     [
-      "032493",
-      41.43620959417888,
-      -87.36516684293753,
-      5.99,
-      "Taco Bell",
-      "Crown Point",
-      "IN"
-    ],
-    [
       "042629",
       44.73309011695499,
       -85.60448437929153,
@@ -30879,15 +30908,6 @@
       "Taco Bell",
       "Evansville",
       "IN"
-    ],
-    [
-      "040445",
-      41.3722283,
-      -81.8908145,
-      5.99,
-      "Taco Bell",
-      "Berea",
-      "OH"
     ],
     [
       "004589",
