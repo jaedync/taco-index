@@ -20,13 +20,13 @@
     "min": 2.99,
     "max": 3.79,
     "median": 2.99,
-    "std_dev": 0.11,
-    "store_count": 58
+    "std_dev": 0.1,
+    "store_count": 61
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 57
+      "count": 60
     },
     {
       "bucket": "$3.79",
@@ -37,7 +37,7 @@
     {
       "state": "FL",
       "avg_price": 3.0,
-      "store_count": 58
+      "store_count": 61
     }
   ],
   "nutrition": {
@@ -59,6 +59,13 @@
       "store_number": "039700",
       "name": "Taco Bell",
       "city": "Clermont",
+      "state": "FL",
+      "price": 2.99
+    },
+    {
+      "store_number": "040730",
+      "name": "Taco Bell",
+      "city": "Edgewater",
       "state": "FL",
       "price": 2.99
     },
@@ -117,17 +124,11 @@
       "city": "Orlando",
       "state": "FL",
       "price": 2.99
-    },
-    {
-      "store_number": "041833",
-      "name": "Taco Bell",
-      "city": "Clermont",
-      "state": "FL",
-      "price": 2.99
     }
   ],
   "min_price_store_numbers": [
     "039700",
+    "040730",
     "034859",
     "039586",
     "042753",
@@ -143,6 +144,8 @@
     "037187",
     "039587",
     "032537",
+    "032177",
+    "023302",
     "042941",
     "022592",
     "027983",
@@ -179,9 +182,9 @@
     "030277",
     "042928",
     "042927",
+    "023297",
     "037822",
     "023291",
-    "027977",
     "042971",
     "032959"
   ],
@@ -208,13 +211,6 @@
       "price": 2.99
     },
     {
-      "store_number": "027977",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 2.99
-    },
-    {
       "store_number": "023291",
       "name": "Taco Bell",
       "city": "Satellite Beach",
@@ -225,6 +221,13 @@
       "store_number": "037822",
       "name": "Taco Bell",
       "city": "Lady Lake",
+      "state": "FL",
+      "price": 2.99
+    },
+    {
+      "store_number": "023297",
+      "name": "Taco Bell",
+      "city": "Winter Park",
       "state": "FL",
       "price": 2.99
     },
@@ -258,6 +261,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027977",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-09-12T20:47:12.834317+00:00"
+    },
+    {
+      "store_number": "023297",
+      "store_name": "Taco Bell",
+      "city": "Winter Park",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-09-12T20:47:11.738144+00:00"
+    },
+    {
+      "store_number": "023302",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-09-12T20:45:42.027530+00:00"
+    },
+    {
+      "store_number": "032177",
+      "store_name": "Taco Bell",
+      "city": "Windermere",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-09-12T20:45:41.460436+00:00"
+    },
+    {
+      "store_number": "040730",
+      "store_name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-09-12T20:44:06.551719+00:00"
+    },
     {
       "store_number": "022587",
       "store_name": "Taco Bell",
@@ -3330,8 +3383,8 @@
     }
   ],
   "activity_summary": {
-    "added": 182,
-    "removed": 125,
+    "added": 186,
+    "removed": 126,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3347,6 +3400,15 @@
       2.99,
       "Taco Bell",
       "Clermont",
+      "FL"
+    ],
+    [
+      "040730",
+      28.978999988269013,
+      -80.90048237483407,
+      2.99,
+      "Taco Bell",
+      "Edgewater",
       "FL"
     ],
     [
@@ -3482,6 +3544,24 @@
       2.99,
       "Taco Bell",
       "Leesburg",
+      "FL"
+    ],
+    [
+      "032177",
+      28.445597,
+      -81.559359,
+      2.99,
+      "Taco Bell",
+      "Windermere",
+      "FL"
+    ],
+    [
+      "023302",
+      28.340028098278022,
+      -81.59762848915307,
+      2.99,
+      "Taco Bell",
+      "Kissimmee",
       "FL"
     ],
     [
@@ -3809,6 +3889,15 @@
       "FL"
     ],
     [
+      "023297",
+      28.596914475591714,
+      -81.30659312009811,
+      2.99,
+      "Taco Bell",
+      "Winter Park",
+      "FL"
+    ],
+    [
       "037822",
       28.938462838541238,
       -81.9440854383116,
@@ -3824,15 +3913,6 @@
       2.99,
       "Taco Bell",
       "Satellite Beach",
-      "FL"
-    ],
-    [
-      "027977",
-      28.597942429370764,
-      -81.24382138252253,
-      2.99,
-      "Taco Bell",
-      "Orlando",
       "FL"
     ],
     [

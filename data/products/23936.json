@@ -12,22 +12,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 84.0,
-  "recent_price_change_pct": null,
+  "peak_30d_pct": 83.9,
+  "recent_price_change_pct": 0.0286,
   "first_seen_at": "2026-07-23T20:47:01.330963+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 5.82,
+    "avg": 5.99,
     "min": 5.49,
     "max": 6.49,
-    "median": 5.49,
-    "std_dev": 0.58,
-    "store_count": 3
+    "median": 5.99,
+    "std_dev": 0.71,
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$6.49",
@@ -51,13 +51,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "041488",
-      "name": "Taco Bell (ATL Airport)",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 5.49
-    },
-    {
       "store_number": "028277",
       "name": "Taco Bell",
       "city": "Tyler",
@@ -73,7 +66,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "041488",
     "028277"
   ],
   "priciest_stores": [
@@ -90,16 +82,19 @@
       "city": "Tyler",
       "state": "TX",
       "price": 5.49
-    },
-    {
-      "store_number": "041488",
-      "name": "Taco Bell (ATL Airport)",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041488",
+      "store_name": "Taco Bell (ATL Airport)",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-09-12T20:44:03.615156+00:00"
+    },
     {
       "store_number": "024041",
       "store_name": "Taco Bell",
@@ -191213,7 +191208,7 @@
   ],
   "activity_summary": {
     "added": 9555,
-    "removed": 9547,
+    "removed": 9548,
     "price_changed": 9,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -191222,15 +191217,6 @@
   "calories_max": 490,
   "combo_groups": [],
   "map_data": [
-    [
-      "041488",
-      33.63840238391459,
-      -84.42932417361067,
-      5.49,
-      "Taco Bell (ATL Airport)",
-      "Atlanta",
-      "GA"
-    ],
     [
       "028277",
       32.369391805963886,

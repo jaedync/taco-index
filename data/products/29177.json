@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 30
+    "store_count": 31
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 30
+      "count": 31
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 30
+      "store_count": 31
     }
   ],
   "nutrition": {
@@ -58,6 +58,13 @@
       "store_number": "039700",
       "name": "Taco Bell",
       "city": "Clermont",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "040730",
+      "name": "Taco Bell",
+      "city": "Edgewater",
       "state": "FL",
       "price": 10.99
     },
@@ -116,17 +123,11 @@
       "city": "Ocala",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "022592",
-      "name": "Taco Bell",
-      "city": "Daytona Beach",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "039700",
+    "040730",
     "034859",
     "036021",
     "034809",
@@ -137,7 +138,6 @@
     "042941",
     "022592",
     "027983",
-    "028353",
     "027982",
     "023299",
     "005646",
@@ -154,14 +154,15 @@
     "004435",
     "030277",
     "042927",
+    "023297",
     "037822",
-    "027977"
+    "032959"
   ],
   "priciest_stores": [
     {
-      "store_number": "027977",
+      "store_number": "032959",
       "name": "Taco Bell",
-      "city": "Orlando",
+      "city": "Ocoee",
       "state": "FL",
       "price": 10.99
     },
@@ -169,6 +170,13 @@
       "store_number": "037822",
       "name": "Taco Bell",
       "city": "Lady Lake",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "023297",
+      "name": "Taco Bell",
+      "city": "Winter Park",
       "state": "FL",
       "price": 10.99
     },
@@ -220,16 +228,59 @@
       "city": "Ocala",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "022594",
-      "name": "Taco Bell",
-      "city": "Daytona Beach",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032959",
+      "store_name": "Taco Bell",
+      "city": "Ocoee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-12T20:47:19.917345+00:00"
+    },
+    {
+      "store_number": "027977",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-12T20:47:12.834317+00:00"
+    },
+    {
+      "store_number": "023297",
+      "store_name": "Taco Bell",
+      "city": "Winter Park",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-12T20:47:11.738144+00:00"
+    },
+    {
+      "store_number": "028353",
+      "store_name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-12T20:45:52.558125+00:00"
+    },
+    {
+      "store_number": "040730",
+      "store_name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-12T20:44:06.551719+00:00"
+    },
     {
       "store_number": "022587",
       "store_name": "Taco Bell",
@@ -3032,8 +3083,8 @@
     }
   ],
   "activity_summary": {
-    "added": 155,
-    "removed": 125,
+    "added": 158,
+    "removed": 127,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3080,6 +3131,15 @@
       10.99,
       "Taco Bell",
       "Clermont",
+      "FL"
+    ],
+    [
+      "040730",
+      28.978999988269013,
+      -80.90048237483407,
+      10.99,
+      "Taco Bell",
+      "Edgewater",
       "FL"
     ],
     [
@@ -3170,15 +3230,6 @@
       10.99,
       "Taco Bell",
       "Orlando",
-      "FL"
-    ],
-    [
-      "028353",
-      28.81817457980822,
-      -81.88791497494094,
-      10.99,
-      "Taco Bell",
-      "Leesburg",
       "FL"
     ],
     [
@@ -3326,6 +3377,15 @@
       "FL"
     ],
     [
+      "023297",
+      28.596914475591714,
+      -81.30659312009811,
+      10.99,
+      "Taco Bell",
+      "Winter Park",
+      "FL"
+    ],
+    [
       "037822",
       28.938462838541238,
       -81.9440854383116,
@@ -3335,12 +3395,12 @@
       "FL"
     ],
     [
-      "027977",
-      28.597942429370764,
-      -81.24382138252253,
+      "032959",
+      28.603524290290366,
+      -81.54805165889547,
       10.99,
       "Taco Bell",
-      "Orlando",
+      "Ocoee",
       "FL"
     ]
   ],

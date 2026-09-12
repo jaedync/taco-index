@@ -21,19 +21,23 @@
   "price_stats": {
     "avg": 5.08,
     "min": 4.99,
-    "max": 5.49,
+    "max": 5.69,
     "median": 4.99,
-    "std_dev": 0.19,
+    "std_dev": 0.2,
     "store_count": 108
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 89
+      "count": 88
     },
     {
       "bucket": "$5.49",
       "count": 19
+    },
+    {
+      "bucket": "$5.69",
+      "count": 1
     }
   ],
   "state_prices": [
@@ -55,7 +59,7 @@
     {
       "state": "MI",
       "avg_price": 5.04,
-      "store_count": 40
+      "store_count": 39
     }
   ],
   "nutrition": {
@@ -109,13 +113,6 @@
       "price": 4.99
     },
     {
-      "store_number": "034276",
-      "name": "Taco Bell",
-      "city": "Sandusky",
-      "state": "MI",
-      "price": 4.99
-    },
-    {
       "store_number": "036302",
       "name": "Taco Bell",
       "city": "Brunswick",
@@ -142,6 +139,13 @@
       "city": "Reed City",
       "state": "MI",
       "price": 4.99
+    },
+    {
+      "store_number": "042604",
+      "name": "Taco Bell",
+      "city": "Stanton",
+      "state": "MI",
+      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
@@ -150,7 +154,6 @@
     "035453",
     "041745",
     "042164",
-    "034276",
     "036302",
     "035098",
     "035304",
@@ -237,6 +240,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "029976",
+      "name": "Taco Bell",
+      "city": "Fort Wright",
+      "state": "KY",
+      "price": 5.69
+    },
+    {
       "store_number": "032031",
       "name": "Taco Bell",
       "city": "Alsip",
@@ -298,16 +308,29 @@
       "city": "Reynoldsburg",
       "state": "OH",
       "price": 5.49
-    },
-    {
-      "store_number": "032494",
-      "name": "Taco Bell",
-      "city": "Hobart",
-      "state": "IN",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029976",
+      "store_name": "Taco Bell",
+      "city": "Fort Wright",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.69,
+      "observed_at": "2026-09-12T20:46:18.045804+00:00"
+    },
+    {
+      "store_number": "034276",
+      "store_name": "Taco Bell",
+      "city": "Sandusky",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-09-12T20:44:11.826499+00:00"
+    },
     {
       "store_number": "000864",
       "store_name": "Taco Bell",
@@ -157400,8 +157423,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7909,
-    "removed": 7800,
+    "added": 7910,
+    "removed": 7801,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -157454,15 +157477,6 @@
       "Taco Bell",
       "Hot Springs",
       "AR"
-    ],
-    [
-      "034276",
-      43.42,
-      -82.852,
-      4.99,
-      "Taco Bell",
-      "Sandusky",
-      "MI"
     ],
     [
       "036302",
@@ -158381,6 +158395,15 @@
       "Taco Bell",
       "Alsip",
       "IL"
+    ],
+    [
+      "029976",
+      39.03646700436083,
+      -84.53178414149959,
+      5.69,
+      "Taco Bell",
+      "Fort Wright",
+      "KY"
     ]
   ],
   "retired_at": null,

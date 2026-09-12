@@ -16,14 +16,18 @@
   "first_seen_at": "2026-09-02T21:33:12.856004+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 6.49,
-    "min": 6.49,
+    "avg": 6.24,
+    "min": 5.99,
     "max": 6.49,
-    "median": 6.49,
-    "std_dev": 0.0,
-    "store_count": 1
+    "median": 6.24,
+    "std_dev": 0.35,
+    "store_count": 2
   },
   "histogram": [
+    {
+      "bucket": "$5.99",
+      "count": 1
+    },
     {
       "bucket": "$6.49",
       "count": 1
@@ -46,17 +50,12 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "004304",
+      "store_number": "019011",
       "name": "Taco Bell",
-      "city": "Columbus",
-      "state": "OH",
-      "price": 6.49
-    }
-  ],
-  "min_price_store_numbers": [
-    "004304"
-  ],
-  "priciest_stores": [
+      "city": "Fort Worth",
+      "state": "TX",
+      "price": 5.99
+    },
     {
       "store_number": "004304",
       "name": "Taco Bell",
@@ -65,7 +64,36 @@
       "price": 6.49
     }
   ],
+  "min_price_store_numbers": [
+    "019011"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "004304",
+      "name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "price": 6.49
+    },
+    {
+      "store_number": "019011",
+      "name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "price": 5.99
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "019011",
+      "store_name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-12T20:45:32.760521+00:00"
+    },
     {
       "store_number": "029578",
       "store_name": "Taco Bell",
@@ -138,7 +166,7 @@
     }
   ],
   "activity_summary": {
-    "added": 4,
+    "added": 5,
     "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -148,6 +176,15 @@
   "calories_max": 340,
   "combo_groups": [],
   "map_data": [
+    [
+      "019011",
+      32.72499471762342,
+      -97.47786240244676,
+      5.99,
+      "Taco Bell",
+      "Fort Worth",
+      "TX"
+    ],
     [
       "004304",
       40.135080304574686,
@@ -159,6 +196,6 @@
     ]
   ],
   "retired_at": "2026-09-03T21:56:29.145645+00:00",
-  "last_seen_date": "2026-09-11",
+  "last_seen_date": "2026-09-12",
   "peak_availability_pct": 0.0
 }

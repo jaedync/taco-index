@@ -17,12 +17,12 @@
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 0.7,
   "price_stats": {
-    "avg": 3.83,
+    "avg": 3.82,
     "min": 3.49,
-    "max": 4.29,
+    "max": 4.19,
     "median": 3.79,
-    "std_dev": 0.12,
-    "store_count": 57
+    "std_dev": 0.1,
+    "store_count": 56
   },
   "histogram": [
     {
@@ -51,10 +51,6 @@
     },
     {
       "bucket": "$4.19",
-      "count": 1
-    },
-    {
-      "bucket": "$4.29",
       "count": 1
     }
   ],
@@ -161,13 +157,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "041488",
-      "name": "Taco Bell (ATL Airport)",
-      "city": "Atlanta",
-      "state": "GA",
-      "price": 4.29
-    },
-    {
       "store_number": "029535",
       "name": "Taco Bell",
       "city": "Tamarac",
@@ -229,9 +218,26 @@
       "city": "Minerva",
       "state": "OH",
       "price": 3.89
+    },
+    {
+      "store_number": "038889",
+      "name": "Taco Bell",
+      "city": "Chillicothe",
+      "state": "OH",
+      "price": 3.89
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041488",
+      "store_name": "Taco Bell (ATL Airport)",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-09-12T20:44:03.615156+00:00"
+    },
     {
       "store_number": "024662",
       "store_name": "Taco Bell",
@@ -293245,7 +293251,7 @@
   ],
   "activity_summary": {
     "added": 10291,
-    "removed": 17088,
+    "removed": 17089,
     "price_changed": 1922,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -293757,15 +293763,6 @@
       "Taco Bell",
       "Tamarac",
       "FL"
-    ],
-    [
-      "041488",
-      33.63840238391459,
-      -84.42932417361067,
-      4.29,
-      "Taco Bell (ATL Airport)",
-      "Atlanta",
-      "GA"
     ]
   ],
   "retired_at": null,

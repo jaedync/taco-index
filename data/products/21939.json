@@ -22,12 +22,12 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 1
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -47,6 +47,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "043068",
+      "name": "Taco Bell",
+      "city": "North Port",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "018301",
       "name": "Taco Bell",
       "city": "Tampa",
@@ -55,6 +62,7 @@
     }
   ],
   "min_price_store_numbers": [
+    "043068",
     "018301"
   ],
   "priciest_stores": [
@@ -64,9 +72,26 @@
       "city": "Tampa",
       "state": "FL",
       "price": 9.0
+    },
+    {
+      "store_number": "043068",
+      "name": "Taco Bell",
+      "city": "North Port",
+      "state": "FL",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043068",
+      "store_name": "Taco Bell",
+      "city": "North Port",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-12T20:44:13.286990+00:00"
+    },
     {
       "store_number": "018301",
       "store_name": "Taco Bell",
@@ -153339,7 +153364,7 @@
     }
   ],
   "activity_summary": {
-    "added": 7642,
+    "added": 7643,
     "removed": 7641,
     "price_changed": 44,
     "since": "2026-03-31T00:00:00+00:00"
@@ -153375,6 +153400,15 @@
   ],
   "map_data": [
     [
+      "043068",
+      27.043575842232315,
+      -82.23575299239883,
+      9.0,
+      "Taco Bell",
+      "North Port",
+      "FL"
+    ],
+    [
       "018301",
       27.94528521239673,
       -82.52321634281444,
@@ -153385,6 +153419,6 @@
     ]
   ],
   "retired_at": "2026-08-21T20:54:24.064145+00:00",
-  "last_seen_date": "2026-09-11",
+  "last_seen_date": "2026-09-12",
   "peak_availability_pct": 91.5
 }

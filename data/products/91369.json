@@ -15,35 +15,35 @@
   "peak_30d_pct": 0.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-07-23T20:47:03.076148+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 11.75,
+    "avg": 11.77,
     "min": 10.99,
     "max": 11.99,
     "median": 11.99,
-    "std_dev": 0.44,
-    "store_count": 29
+    "std_dev": 0.42,
+    "store_count": 27
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$11.99",
-      "count": 22
+      "count": 21
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 11.99,
-      "store_count": 7
+      "store_count": 6
     },
     {
       "state": "GA",
-      "avg_price": 11.67,
-      "store_count": 22
+      "avg_price": 11.7,
+      "store_count": 21
     }
   ],
   "nutrition": {
@@ -83,13 +83,6 @@
       "price": 10.99
     },
     {
-      "store_number": "042581",
-      "name": "Taco Bell",
-      "city": "Canton",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "042585",
       "name": "Taco Bell",
       "city": "Dallas",
@@ -125,10 +118,17 @@
       "price": 11.99
     },
     {
-      "store_number": "042906",
+      "store_number": "003717",
       "name": "Taco Bell",
-      "city": "Miami",
-      "state": "FL",
+      "city": "Covington",
+      "state": "GA",
+      "price": 11.99
+    },
+    {
+      "store_number": "003859",
+      "name": "Taco Bell",
+      "city": "Carrollton",
+      "state": "GA",
       "price": 11.99
     }
   ],
@@ -136,7 +136,6 @@
     "042582",
     "042584",
     "042575",
-    "042581",
     "042585",
     "042572",
     "042579"
@@ -214,6 +213,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042906",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-09-12T20:45:53.438075+00:00"
+    },
+    {
+      "store_number": "042581",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-12T20:44:22.521836+00:00"
+    },
     {
       "store_number": "042893",
       "store_name": "Taco Bell",
@@ -3647,7 +3666,7 @@
   ],
   "activity_summary": {
     "added": 186,
-    "removed": 157,
+    "removed": 159,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3703,15 +3722,6 @@
       "GA"
     ],
     [
-      "042581",
-      34.256253,
-      -84.35856199999999,
-      10.99,
-      "Taco Bell",
-      "Canton",
-      "GA"
-    ],
-    [
       "042585",
       34.01047868053667,
       -84.7536712245369,
@@ -3754,15 +3764,6 @@
       11.99,
       "Taco Bell",
       "Fort Myers",
-      "FL"
-    ],
-    [
-      "042906",
-      25.84757960530985,
-      -80.18376678228378,
-      11.99,
-      "Taco Bell",
-      "Miami",
       "FL"
     ],
     [
@@ -3938,6 +3939,6 @@
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-09-11",
+  "last_seen_date": "2026-09-12",
   "peak_availability_pct": 1.1
 }

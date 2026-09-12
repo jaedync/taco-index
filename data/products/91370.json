@@ -34,13 +34,6 @@
   "nutrition": null,
   "cheapest_stores": [
     {
-      "store_number": "042906",
-      "name": "Taco Bell",
-      "city": "Miami",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
       "store_number": "042897",
       "name": "Taco Bell",
       "city": "Port Saint Lucie",
@@ -59,16 +52,30 @@
       "name": "Taco Bell",
       "city": "Port Saint Lucie",
       "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "042584",
+      "name": "Taco Bell",
+      "city": "McDonough",
+      "state": "GA",
       "price": 10.99
     }
   ],
   "min_price_store_numbers": [
-    "042906",
     "042897",
     "042875",
-    "042970"
+    "042970",
+    "042584"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042584",
+      "name": "Taco Bell",
+      "city": "McDonough",
+      "state": "GA",
+      "price": 10.99
+    },
     {
       "store_number": "042970",
       "name": "Taco Bell",
@@ -87,18 +94,31 @@
       "store_number": "042897",
       "name": "Taco Bell",
       "city": "Port Saint Lucie",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "042906",
-      "name": "Taco Bell",
-      "city": "Miami",
       "state": "FL",
       "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042906",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-12T20:45:53.438075+00:00"
+    },
+    {
+      "store_number": "042584",
+      "store_name": "Taco Bell",
+      "city": "McDonough",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-12T20:44:06.013207+00:00"
+    },
     {
       "store_number": "042937",
       "store_name": "Taco Bell",
@@ -361,8 +381,8 @@
     }
   ],
   "activity_summary": {
-    "added": 15,
-    "removed": 11,
+    "added": 16,
+    "removed": 12,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -397,15 +417,6 @@
   ],
   "map_data": [
     [
-      "042906",
-      25.84757960530985,
-      -80.18376678228378,
-      10.99,
-      "Taco Bell",
-      "Miami",
-      "FL"
-    ],
-    [
       "042897",
       27.30132956815393,
       -80.3053405880928,
@@ -431,9 +442,18 @@
       "Taco Bell",
       "Port Saint Lucie",
       "FL"
+    ],
+    [
+      "042584",
+      33.4647,
+      -84.2306,
+      10.99,
+      "Taco Bell",
+      "McDonough",
+      "GA"
     ]
   ],
   "retired_at": "2026-08-07T21:31:20.860518+00:00",
-  "last_seen_date": "2026-09-11",
+  "last_seen_date": "2026-09-12",
   "peak_availability_pct": 0.1
 }
