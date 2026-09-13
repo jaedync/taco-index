@@ -21,12 +21,12 @@
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 1
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -46,26 +46,71 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "019011",
+      "store_number": "028494",
       "name": "Taco Bell",
-      "city": "Fort Worth",
-      "state": "TX",
+      "city": "Potosi",
+      "state": "MO",
+      "price": 5.49
+    },
+    {
+      "store_number": "040380",
+      "name": "Taco Bell",
+      "city": "Blythewood",
+      "state": "SC",
       "price": 5.49
     }
   ],
   "min_price_store_numbers": [
-    "019011"
+    "028494",
+    "040380"
   ],
   "priciest_stores": [
     {
-      "store_number": "019011",
+      "store_number": "040380",
       "name": "Taco Bell",
-      "city": "Fort Worth",
-      "state": "TX",
+      "city": "Blythewood",
+      "state": "SC",
+      "price": 5.49
+    },
+    {
+      "store_number": "028494",
+      "name": "Taco Bell",
+      "city": "Potosi",
+      "state": "MO",
       "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040380",
+      "store_name": "Taco Bell",
+      "city": "Blythewood",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-09-13T21:37:11.645005+00:00"
+    },
+    {
+      "store_number": "028494",
+      "store_name": "Taco Bell",
+      "city": "Potosi",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-09-13T21:35:28.657963+00:00"
+    },
+    {
+      "store_number": "019011",
+      "store_name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-09-13T21:35:20.396528+00:00"
+    },
     {
       "store_number": "019011",
       "store_name": "Taco Bell",
@@ -118,8 +163,8 @@
     }
   ],
   "activity_summary": {
-    "added": 3,
-    "removed": 2,
+    "added": 5,
+    "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -129,16 +174,25 @@
   "combo_groups": [],
   "map_data": [
     [
-      "019011",
-      32.72499471762342,
-      -97.47786240244676,
+      "028494",
+      37.9284611227885,
+      -90.77562555141856,
       5.49,
       "Taco Bell",
-      "Fort Worth",
-      "TX"
+      "Potosi",
+      "MO"
+    ],
+    [
+      "040380",
+      34.21387738355118,
+      -80.9787202098217,
+      5.49,
+      "Taco Bell",
+      "Blythewood",
+      "SC"
     ]
   ],
   "retired_at": "2026-09-03T21:56:29.145645+00:00",
-  "last_seen_date": "2026-09-12",
+  "last_seen_date": "2026-09-13",
   "peak_availability_pct": 0.0
 }

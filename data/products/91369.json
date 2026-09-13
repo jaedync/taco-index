@@ -17,21 +17,21 @@
   "first_seen_at": "2026-07-23T20:47:03.076148+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 11.77,
+    "avg": 11.79,
     "min": 10.99,
     "max": 11.99,
     "median": 11.99,
-    "std_dev": 0.42,
-    "store_count": 27
+    "std_dev": 0.41,
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$11.99",
-      "count": 21
+      "count": 20
     }
   ],
   "state_prices": [
@@ -42,8 +42,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 11.7,
-      "store_count": 21
+      "avg_price": 11.73,
+      "store_count": 19
     }
   ],
   "nutrition": {
@@ -61,13 +61,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "042582",
-      "name": "Taco Bell",
-      "city": "Dacula",
-      "state": "GA",
-      "price": 10.99
-    },
     {
       "store_number": "042584",
       "name": "Taco Bell",
@@ -130,10 +123,16 @@
       "city": "Carrollton",
       "state": "GA",
       "price": 11.99
+    },
+    {
+      "store_number": "003779",
+      "name": "Taco Bell",
+      "city": "Cartersville",
+      "state": "GA",
+      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
-    "042582",
     "042584",
     "042575",
     "042585",
@@ -213,6 +212,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "018166",
+      "store_name": "Taco Bell",
+      "city": "Hiram",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-09-13T21:35:57.788707+00:00"
+    },
+    {
+      "store_number": "042582",
+      "store_name": "Taco Bell",
+      "city": "Dacula",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-13T21:33:01.079699+00:00"
+    },
     {
       "store_number": "042906",
       "store_name": "Taco Bell",
@@ -3666,7 +3685,7 @@
   ],
   "activity_summary": {
     "added": 186,
-    "removed": 159,
+    "removed": 161,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3694,15 +3713,6 @@
     }
   ],
   "map_data": [
-    [
-      "042582",
-      34.03186002111262,
-      -83.88571668620189,
-      10.99,
-      "Taco Bell",
-      "Dacula",
-      "GA"
-    ],
     [
       "042584",
       33.4647,
@@ -3782,15 +3792,6 @@
       11.99,
       "Taco Bell",
       "Carrollton",
-      "GA"
-    ],
-    [
-      "018166",
-      33.89149409475321,
-      -84.75320756435389,
-      11.99,
-      "Taco Bell",
-      "Hiram",
       "GA"
     ],
     [
@@ -3939,6 +3940,6 @@
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-09-12",
+  "last_seen_date": "2026-09-13",
   "peak_availability_pct": 1.1
 }

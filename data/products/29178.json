@@ -17,26 +17,26 @@
   "peak_30d_pct": 0.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:06:42.936006+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.2,
   "price_stats": {
     "avg": 10.99,
     "min": 10.99,
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 20
+    "store_count": 19
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 20
+      "count": 19
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 20
+      "store_count": 19
     }
   ],
   "nutrition": {
@@ -144,7 +144,6 @@
     "023304",
     "042928",
     "023291",
-    "042971",
     "032354"
   ],
   "priciest_stores": [
@@ -152,13 +151,6 @@
       "store_number": "032354",
       "name": "Taco Bell",
       "city": "Wildwood",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "042971",
-      "name": "Taco Bell",
-      "city": "Palm Coast",
       "state": "FL",
       "price": 10.99
     },
@@ -217,9 +209,26 @@
       "city": "Ormond Beach",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "022266",
+      "name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042971",
+      "store_name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-13T21:37:19.102884+00:00"
+    },
     {
       "store_number": "023302",
       "store_name": "Taco Bell",
@@ -2063,7 +2072,7 @@
   ],
   "activity_summary": {
     "added": 102,
-    "removed": 82,
+    "removed": 83,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2266,15 +2275,6 @@
       "FL"
     ],
     [
-      "042971",
-      29.475060096911534,
-      -81.2211965854139,
-      10.99,
-      "Taco Bell",
-      "Palm Coast",
-      "FL"
-    ],
-    [
       "032354",
       28.87513427067012,
       -82.09626495838165,
@@ -2285,6 +2285,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-09-12",
+  "last_seen_date": "2026-09-13",
   "peak_availability_pct": 0.4
 }
