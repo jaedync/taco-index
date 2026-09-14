@@ -21,19 +21,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 100
+    "store_count": 102
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 100
+      "count": 102
     }
   ],
   "state_prices": [
     {
       "state": "CO",
       "avg_price": 7.0,
-      "store_count": 100
+      "store_count": 102
     }
   ],
   "nutrition": {
@@ -55,6 +55,13 @@
       "store_number": "041490",
       "name": "Taco Bell",
       "city": "Windsor",
+      "state": "CO",
+      "price": 7.0
+    },
+    {
+      "store_number": "041770",
+      "name": "Taco Bell",
+      "city": "Sterling",
       "state": "CO",
       "price": 7.0
     },
@@ -113,17 +120,11 @@
       "city": "Fort Collins",
       "state": "CO",
       "price": 7.0
-    },
-    {
-      "store_number": "036408",
-      "name": "Taco Bell",
-      "city": "Denver",
-      "state": "CO",
-      "price": 7.0
     }
   ],
   "min_price_store_numbers": [
     "041490",
+    "041770",
     "037713",
     "034914",
     "034942",
@@ -151,6 +152,7 @@
     "020924",
     "020537",
     "033838",
+    "005716",
     "033841",
     "033857",
     "033869",
@@ -297,6 +299,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "005716",
+      "store_name": "Taco Bell",
+      "city": "Littleton",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-09-14T20:39:41.004385+00:00"
+    },
+    {
+      "store_number": "041770",
+      "store_name": "Taco Bell",
+      "city": "Sterling",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-09-14T20:37:07.185036+00:00"
+    },
     {
       "store_number": "033844",
       "store_name": "Taco Bell",
@@ -1659,7 +1681,7 @@
     }
   ],
   "activity_summary": {
-    "added": 118,
+    "added": 120,
     "removed": 18,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1707,6 +1729,15 @@
       7.0,
       "Taco Bell",
       "Windsor",
+      "CO"
+    ],
+    [
+      "041770",
+      40.62481225528639,
+      -103.2319314404649,
+      7.0,
+      "Taco Bell",
+      "Sterling",
       "CO"
     ],
     [
@@ -1950,6 +1981,15 @@
       7.0,
       "Taco Bell",
       "Northglenn",
+      "CO"
+    ],
+    [
+      "005716",
+      39.61569229583697,
+      -104.98759680408197,
+      7.0,
+      "Taco Bell",
+      "Littleton",
       "CO"
     ],
     [

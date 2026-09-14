@@ -12,22 +12,22 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 23.5,
+  "peak_30d_pct": 23.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:58:16.238260+00:00",
   "availability_pct": 9.6,
   "price_stats": {
     "avg": 0.51,
     "min": 0.5,
-    "max": 0.79,
+    "max": 0.8,
     "median": 0.5,
-    "std_dev": 0.03,
-    "store_count": 741
+    "std_dev": 0.04,
+    "store_count": 740
   },
   "histogram": [
     {
       "bucket": "$0.50",
-      "count": 720
+      "count": 718
     },
     {
       "bucket": "$0.59",
@@ -52,6 +52,10 @@
     {
       "bucket": "$0.79",
       "count": 5
+    },
+    {
+      "bucket": "$0.80",
+      "count": 1
     }
   ],
   "state_prices": [
@@ -78,7 +82,7 @@
     {
       "state": "SC",
       "avg_price": 0.51,
-      "store_count": 20
+      "store_count": 19
     },
     {
       "state": "IL",
@@ -143,7 +147,7 @@
     {
       "state": "NC",
       "avg_price": 0.5,
-      "store_count": 30
+      "store_count": 29
     },
     {
       "state": "MS",
@@ -467,7 +471,6 @@
     "025988",
     "039802",
     "029655",
-    "030552",
     "033005",
     "020260",
     "031015",
@@ -856,7 +859,6 @@
     "033828",
     "042839",
     "031402",
-    "042954",
     "031459",
     "032723",
     "003863",
@@ -1041,6 +1043,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "043041",
+      "name": "Taco Bell",
+      "city": "North Pole",
+      "state": "AK",
+      "price": 0.8
+    },
+    {
       "store_number": "032185",
       "name": "Taco Bell",
       "city": "New York",
@@ -1102,16 +1111,39 @@
       "city": "Petersburg",
       "state": "VA",
       "price": 0.69
-    },
-    {
-      "store_number": "036321",
-      "name": "Taco Bell",
-      "city": "Champaign",
-      "state": "IL",
-      "price": 0.69
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043041",
+      "store_name": "Taco Bell",
+      "city": "North Pole",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-09-14T20:45:28.331156+00:00"
+    },
+    {
+      "store_number": "042954",
+      "store_name": "Taco Bell",
+      "city": "Spartanburg",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-09-14T20:44:48.648022+00:00"
+    },
+    {
+      "store_number": "030552",
+      "store_name": "Taco Bell",
+      "city": "Midway Park",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-09-14T20:44:46.805535+00:00"
+    },
     {
       "store_number": "009243",
       "store_name": "Taco Bell",
@@ -75454,8 +75486,8 @@
     }
   ],
   "activity_summary": {
-    "added": 4088,
-    "removed": 3343,
+    "added": 4089,
+    "removed": 3345,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -76804,15 +76836,6 @@
       "Taco Bell",
       "Saint Charles",
       "MO"
-    ],
-    [
-      "030552",
-      34.71728300971784,
-      -77.3249607235357,
-      0.5,
-      "Taco Bell",
-      "Midway Park",
-      "NC"
     ],
     [
       "033005",
@@ -80307,15 +80330,6 @@
       "TX"
     ],
     [
-      "042954",
-      34.982167121858836,
-      -81.96888818289153,
-      0.5,
-      "Taco Bell",
-      "Spartanburg",
-      "SC"
-    ],
-    [
       "031459",
       34.656000269026165,
       -99.3346157670021,
@@ -82132,6 +82146,15 @@
       "Taco Bell",
       "New York",
       "NY"
+    ],
+    [
+      "043041",
+      64.75621116,
+      -147.350141,
+      0.8,
+      "Taco Bell",
+      "North Pole",
+      "AK"
     ]
   ],
   "retired_at": null,

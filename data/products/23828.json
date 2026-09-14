@@ -16,16 +16,20 @@
   "first_seen_at": "2026-09-02T21:33:12.856004+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 5.49,
+    "avg": 5.82,
     "min": 5.49,
-    "max": 5.49,
-    "median": 5.49,
-    "std_dev": 0.0,
-    "store_count": 2
+    "max": 5.99,
+    "median": 5.99,
+    "std_dev": 0.29,
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$5.49",
+      "count": 1
+    },
+    {
+      "bucket": "$5.99",
       "count": 2
     }
   ],
@@ -46,41 +50,84 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "028494",
-      "name": "Taco Bell",
-      "city": "Potosi",
-      "state": "MO",
-      "price": 5.49
-    },
-    {
       "store_number": "040380",
       "name": "Taco Bell",
       "city": "Blythewood",
       "state": "SC",
       "price": 5.49
+    },
+    {
+      "store_number": "037316",
+      "name": "Taco Bell",
+      "city": "Syracuse",
+      "state": "NY",
+      "price": 5.99
+    },
+    {
+      "store_number": "033156",
+      "name": "Taco Bell",
+      "city": "Roy",
+      "state": "UT",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
-    "028494",
     "040380"
   ],
   "priciest_stores": [
     {
+      "store_number": "033156",
+      "name": "Taco Bell",
+      "city": "Roy",
+      "state": "UT",
+      "price": 5.99
+    },
+    {
+      "store_number": "037316",
+      "name": "Taco Bell",
+      "city": "Syracuse",
+      "state": "NY",
+      "price": 5.99
+    },
+    {
       "store_number": "040380",
       "name": "Taco Bell",
       "city": "Blythewood",
       "state": "SC",
       "price": 5.49
-    },
-    {
-      "store_number": "028494",
-      "name": "Taco Bell",
-      "city": "Potosi",
-      "state": "MO",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033156",
+      "store_name": "Taco Bell",
+      "city": "Roy",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-14T20:39:39.924351+00:00"
+    },
+    {
+      "store_number": "028494",
+      "store_name": "Taco Bell",
+      "city": "Potosi",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-09-14T20:39:18.834442+00:00"
+    },
+    {
+      "store_number": "037316",
+      "store_name": "Taco Bell",
+      "city": "Syracuse",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-14T20:38:48.427260+00:00"
+    },
     {
       "store_number": "040380",
       "store_name": "Taco Bell",
@@ -163,8 +210,8 @@
     }
   ],
   "activity_summary": {
-    "added": 5,
-    "removed": 3,
+    "added": 7,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -174,15 +221,6 @@
   "combo_groups": [],
   "map_data": [
     [
-      "028494",
-      37.9284611227885,
-      -90.77562555141856,
-      5.49,
-      "Taco Bell",
-      "Potosi",
-      "MO"
-    ],
-    [
       "040380",
       34.21387738355118,
       -80.9787202098217,
@@ -190,9 +228,27 @@
       "Taco Bell",
       "Blythewood",
       "SC"
+    ],
+    [
+      "037316",
+      43.083345,
+      -76.093212,
+      5.99,
+      "Taco Bell",
+      "Syracuse",
+      "NY"
+    ],
+    [
+      "033156",
+      41.16073868533017,
+      -112.02648662186803,
+      5.99,
+      "Taco Bell",
+      "Roy",
+      "UT"
     ]
   ],
   "retired_at": "2026-09-03T21:56:29.145645+00:00",
-  "last_seen_date": "2026-09-13",
+  "last_seen_date": "2026-09-14",
   "peak_availability_pct": 0.0
 }

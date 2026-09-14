@@ -15,21 +15,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.2,
-  "recent_price_change_pct": 0.0206,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.33,
+    "avg": 9.28,
     "min": 9.0,
     "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.51,
-    "store_count": 6
+    "std_dev": 0.48,
+    "store_count": 7
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$9.99",
@@ -39,8 +39,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 9.33,
-      "store_count": 6
+      "avg_price": 9.28,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -87,6 +87,13 @@
       "price": 9.0
     },
     {
+      "store_number": "023297",
+      "name": "Taco Bell",
+      "city": "Winter Park",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "042942",
       "name": "Taco Bell",
       "city": "Ocala",
@@ -105,7 +112,8 @@
     "036287",
     "027978",
     "022833",
-    "027984"
+    "027984",
+    "023297"
   ],
   "priciest_stores": [
     {
@@ -121,6 +129,13 @@
       "city": "Ocala",
       "state": "FL",
       "price": 9.99
+    },
+    {
+      "store_number": "023297",
+      "name": "Taco Bell",
+      "city": "Winter Park",
+      "state": "FL",
+      "price": 9.0
     },
     {
       "store_number": "027984",
@@ -152,6 +167,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023297",
+      "store_name": "Taco Bell",
+      "city": "Winter Park",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-14T20:45:16.529540+00:00"
+    },
     {
       "store_number": "027984",
       "store_name": "Taco Bell",
@@ -5014,7 +5039,7 @@
     }
   ],
   "activity_summary": {
-    "added": 246,
+    "added": 247,
     "removed": 240,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -5092,6 +5117,15 @@
       "FL"
     ],
     [
+      "023297",
+      28.596914475591714,
+      -81.30659312009811,
+      9.0,
+      "Taco Bell",
+      "Winter Park",
+      "FL"
+    ],
+    [
       "042942",
       29.024994683187042,
       -82.15455534110447,
@@ -5111,6 +5145,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-09-13",
+  "last_seen_date": "2026-09-14",
   "peak_availability_pct": 1.2
 }
