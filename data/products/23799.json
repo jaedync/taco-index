@@ -16,17 +16,17 @@
   "first_seen_at": "2026-09-02T21:33:12.856004+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 6.49,
-    "min": 6.49,
-    "max": 6.49,
-    "median": 6.49,
+    "avg": 5.99,
+    "min": 5.99,
+    "max": 5.99,
+    "median": 5.99,
     "std_dev": 0.0,
-    "store_count": 1
+    "store_count": 3
   },
   "histogram": [
     {
-      "bucket": "$6.49",
-      "count": 1
+      "bucket": "$5.99",
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -50,22 +50,82 @@
       "name": "Taco Bell",
       "city": "Columbus",
       "state": "OH",
-      "price": 6.49
+      "price": 5.99
+    },
+    {
+      "store_number": "036438",
+      "name": "Taco Bell",
+      "city": "Minneola",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "036369",
+      "name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
-    "004304"
+    "004304",
+    "036438",
+    "036369"
   ],
   "priciest_stores": [
+    {
+      "store_number": "036369",
+      "name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
+      "price": 5.99
+    },
+    {
+      "store_number": "036438",
+      "name": "Taco Bell",
+      "city": "Minneola",
+      "state": "FL",
+      "price": 5.99
+    },
     {
       "store_number": "004304",
       "name": "Taco Bell",
       "city": "Columbus",
       "state": "OH",
-      "price": 6.49
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036369",
+      "store_name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-15T21:10:11.135839+00:00"
+    },
+    {
+      "store_number": "004304",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "price_change",
+      "old_price": 6.49,
+      "new_price": 5.99,
+      "observed_at": "2026-09-15T21:09:19.881605+00:00"
+    },
+    {
+      "store_number": "036438",
+      "store_name": "Taco Bell",
+      "city": "Minneola",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-15T21:08:53.453869+00:00"
+    },
     {
       "store_number": "019011",
       "store_name": "Taco Bell",
@@ -158,9 +218,9 @@
     }
   ],
   "activity_summary": {
-    "added": 5,
+    "added": 7,
     "removed": 4,
-    "price_changed": 0,
+    "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 340,
@@ -172,13 +232,31 @@
       "004304",
       40.135080304574686,
       -83.01621010853222,
-      6.49,
+      5.99,
       "Taco Bell",
       "Columbus",
       "OH"
+    ],
+    [
+      "036438",
+      28.576159566371096,
+      -81.74960673084662,
+      5.99,
+      "Taco Bell",
+      "Minneola",
+      "FL"
+    ],
+    [
+      "036369",
+      31.225377460818564,
+      -85.43169875444619,
+      5.99,
+      "Taco Bell",
+      "Dothan",
+      "AL"
     ]
   ],
   "retired_at": "2026-09-03T21:56:29.145645+00:00",
-  "last_seen_date": "2026-09-14",
+  "last_seen_date": "2026-09-15",
   "peak_availability_pct": 0.0
 }

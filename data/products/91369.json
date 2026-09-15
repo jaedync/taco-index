@@ -17,17 +17,17 @@
   "first_seen_at": "2026-07-23T20:47:03.076148+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 11.79,
+    "avg": 11.82,
     "min": 10.99,
     "max": 11.99,
     "median": 11.99,
-    "std_dev": 0.41,
-    "store_count": 25
+    "std_dev": 0.38,
+    "store_count": 24
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$11.99",
@@ -42,8 +42,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 11.73,
-      "store_count": 19
+      "avg_price": 11.77,
+      "store_count": 18
     }
   ],
   "nutrition": {
@@ -72,13 +72,6 @@
       "store_number": "042575",
       "name": "Taco Bell",
       "city": "Cartersville",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
-      "store_number": "042585",
-      "name": "Taco Bell",
-      "city": "Dallas",
       "state": "GA",
       "price": 10.99
     },
@@ -130,12 +123,18 @@
       "city": "Cartersville",
       "state": "GA",
       "price": 11.99
+    },
+    {
+      "store_number": "003648",
+      "name": "Taco Bell",
+      "city": "Stockbridge",
+      "state": "GA",
+      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
     "042584",
     "042575",
-    "042585",
     "042572",
     "042579"
   ],
@@ -212,6 +211,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042585",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-15T21:09:17.480635+00:00"
+    },
     {
       "store_number": "018166",
       "store_name": "Taco Bell",
@@ -3685,7 +3694,7 @@
   ],
   "activity_summary": {
     "added": 186,
-    "removed": 161,
+    "removed": 162,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3729,15 +3738,6 @@
       10.99,
       "Taco Bell",
       "Cartersville",
-      "GA"
-    ],
-    [
-      "042585",
-      34.01047868053667,
-      -84.7536712245369,
-      10.99,
-      "Taco Bell",
-      "Dallas",
       "GA"
     ],
     [
@@ -3940,6 +3940,6 @@
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-09-14",
+  "last_seen_date": "2026-09-15",
   "peak_availability_pct": 1.1
 }

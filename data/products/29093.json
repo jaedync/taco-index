@@ -10,22 +10,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 0.1,
+  "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-09-13T21:37:11.645005+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.2,
   "price_stats": {
-    "avg": 9.0,
+    "avg": 9.08,
     "min": 9.0,
-    "max": 9.0,
+    "max": 9.99,
     "median": 9.0,
-    "std_dev": 0.0,
-    "store_count": 7
+    "std_dev": 0.27,
+    "store_count": 13
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 7
+      "count": 12
+    },
+    {
+      "bucket": "$9.99",
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -53,20 +57,6 @@
       "price": 9.0
     },
     {
-      "store_number": "033156",
-      "name": "Taco Bell",
-      "city": "Roy",
-      "state": "UT",
-      "price": 9.0
-    },
-    {
-      "store_number": "039103",
-      "name": "Taco Bell",
-      "city": "Pittston",
-      "state": "PA",
-      "price": 9.0
-    },
-    {
       "store_number": "015248",
       "name": "Taco Bell",
       "city": "Anchorage",
@@ -78,6 +68,41 @@
       "name": "Taco Bell",
       "city": "Anthony",
       "state": "TX",
+      "price": 9.0
+    },
+    {
+      "store_number": "035196",
+      "name": "Taco Bell",
+      "city": "Bellefontaine",
+      "state": "OH",
+      "price": 9.0
+    },
+    {
+      "store_number": "041334",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 9.0
+    },
+    {
+      "store_number": "037112",
+      "name": "Taco Bell",
+      "city": "Keystone Heights",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
+      "store_number": "001795",
+      "name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "price": 9.0
+    },
+    {
+      "store_number": "031485",
+      "name": "Taco Bell",
+      "city": "Milwaukee",
+      "state": "WI",
       "price": 9.0
     }
   ],
@@ -85,12 +110,73 @@
     "040376",
     "033313",
     "042121",
-    "033156",
-    "039103",
     "015248",
-    "042471"
+    "042471",
+    "035196",
+    "041334",
+    "037112",
+    "001795",
+    "031485",
+    "039730",
+    "030128"
   ],
   "priciest_stores": [
+    {
+      "store_number": "030784",
+      "name": "Taco Bell",
+      "city": "San Leandro",
+      "state": "CA",
+      "price": 9.99
+    },
+    {
+      "store_number": "030128",
+      "name": "Taco Bell",
+      "city": "Marble Falls",
+      "state": "TX",
+      "price": 9.0
+    },
+    {
+      "store_number": "039730",
+      "name": "Taco Bell",
+      "city": "Waynesboro",
+      "state": "VA",
+      "price": 9.0
+    },
+    {
+      "store_number": "031485",
+      "name": "Taco Bell",
+      "city": "Milwaukee",
+      "state": "WI",
+      "price": 9.0
+    },
+    {
+      "store_number": "001795",
+      "name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "price": 9.0
+    },
+    {
+      "store_number": "037112",
+      "name": "Taco Bell",
+      "city": "Keystone Heights",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
+      "store_number": "041334",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 9.0
+    },
+    {
+      "store_number": "035196",
+      "name": "Taco Bell",
+      "city": "Bellefontaine",
+      "state": "OH",
+      "price": 9.0
+    },
     {
       "store_number": "042471",
       "name": "Taco Bell",
@@ -104,44 +190,109 @@
       "city": "Anchorage",
       "state": "AK",
       "price": 9.0
-    },
-    {
-      "store_number": "039103",
-      "name": "Taco Bell",
-      "city": "Pittston",
-      "state": "PA",
-      "price": 9.0
-    },
-    {
-      "store_number": "033156",
-      "name": "Taco Bell",
-      "city": "Roy",
-      "state": "UT",
-      "price": 9.0
-    },
-    {
-      "store_number": "042121",
-      "name": "Taco Bell",
-      "city": "Fort Walton Beach",
-      "state": "FL",
-      "price": 9.0
-    },
-    {
-      "store_number": "033313",
-      "name": "Taco Bell",
-      "city": "Waterford",
-      "state": "MI",
-      "price": 9.0
-    },
-    {
-      "store_number": "040376",
-      "name": "Taco Bell",
-      "city": "Bridgeville",
-      "state": "PA",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030128",
+      "store_name": "Taco Bell",
+      "city": "Marble Falls",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-15T21:10:46.799352+00:00"
+    },
+    {
+      "store_number": "030784",
+      "store_name": "Taco Bell",
+      "city": "San Leandro",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-09-15T21:10:45.573359+00:00"
+    },
+    {
+      "store_number": "039730",
+      "store_name": "Taco Bell",
+      "city": "Waynesboro",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-15T21:10:14.521456+00:00"
+    },
+    {
+      "store_number": "039103",
+      "store_name": "Taco Bell",
+      "city": "Pittston",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-09-15T21:10:09.218107+00:00"
+    },
+    {
+      "store_number": "031485",
+      "store_name": "Taco Bell",
+      "city": "Milwaukee",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-15T21:10:09.161723+00:00"
+    },
+    {
+      "store_number": "033156",
+      "store_name": "Taco Bell",
+      "city": "Roy",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-09-15T21:09:38.318764+00:00"
+    },
+    {
+      "store_number": "001795",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-15T21:09:01.869252+00:00"
+    },
+    {
+      "store_number": "037112",
+      "store_name": "Taco Bell",
+      "city": "Keystone Heights",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-15T21:08:54.184831+00:00"
+    },
+    {
+      "store_number": "041334",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-15T21:08:49.437159+00:00"
+    },
+    {
+      "store_number": "035196",
+      "store_name": "Taco Bell",
+      "city": "Bellefontaine",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-15T21:08:36.436963+00:00"
+    },
     {
       "store_number": "040380",
       "store_name": "Taco Bell",
@@ -234,8 +385,8 @@
     }
   ],
   "activity_summary": {
-    "added": 8,
-    "removed": 1,
+    "added": 16,
+    "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -297,24 +448,6 @@
       "FL"
     ],
     [
-      "033156",
-      41.16073868533017,
-      -112.02648662186803,
-      9.0,
-      "Taco Bell",
-      "Roy",
-      "UT"
-    ],
-    [
-      "039103",
-      41.313667938860654,
-      -75.75736014062485,
-      9.0,
-      "Taco Bell",
-      "Pittston",
-      "PA"
-    ],
-    [
       "015248",
       61.21792498735546,
       -149.83597908439376,
@@ -331,6 +464,78 @@
       "Taco Bell",
       "Anthony",
       "TX"
+    ],
+    [
+      "035196",
+      40.33927887177419,
+      -83.76249309501566,
+      9.0,
+      "Taco Bell",
+      "Bellefontaine",
+      "OH"
+    ],
+    [
+      "041334",
+      40.69229211177486,
+      -73.99141198374691,
+      9.0,
+      "Taco Bell",
+      "Brooklyn",
+      "NY"
+    ],
+    [
+      "037112",
+      29.78449961810519,
+      -82.0277578758713,
+      9.0,
+      "Taco Bell",
+      "Keystone Heights",
+      "FL"
+    ],
+    [
+      "001795",
+      42.30977693893683,
+      -83.34892281415368,
+      9.0,
+      "Taco Bell",
+      "Westland",
+      "MI"
+    ],
+    [
+      "031485",
+      42.986130962699995,
+      -88.00816972555367,
+      9.0,
+      "Taco Bell",
+      "Milwaukee",
+      "WI"
+    ],
+    [
+      "039730",
+      38.08227086740817,
+      -78.93041655426714,
+      9.0,
+      "Taco Bell",
+      "Waynesboro",
+      "VA"
+    ],
+    [
+      "030128",
+      30.581708587443302,
+      -98.2807201221749,
+      9.0,
+      "Taco Bell",
+      "Marble Falls",
+      "TX"
+    ],
+    [
+      "030784",
+      37.68964688186491,
+      -122.13063508272171,
+      9.99,
+      "Taco Bell",
+      "San Leandro",
+      "CA"
     ]
   ],
   "retired_at": null,

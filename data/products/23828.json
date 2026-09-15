@@ -11,26 +11,30 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 0.0,
+  "peak_30d_pct": 0.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-09-02T21:33:12.856004+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 5.82,
+    "avg": 6.05,
     "min": 5.49,
-    "max": 5.99,
-    "median": 5.99,
-    "std_dev": 0.29,
-    "store_count": 3
+    "max": 7.79,
+    "median": 5.49,
+    "std_dev": 1.0,
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 1
+      "count": 3
     },
     {
       "bucket": "$5.99",
-      "count": 2
+      "count": 1
+    },
+    {
+      "bucket": "$7.79",
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -50,54 +54,164 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "040380",
+      "store_number": "036438",
       "name": "Taco Bell",
-      "city": "Blythewood",
-      "state": "SC",
+      "city": "Minneola",
+      "state": "FL",
       "price": 5.49
     },
     {
-      "store_number": "037316",
+      "store_number": "042219",
       "name": "Taco Bell",
-      "city": "Syracuse",
-      "state": "NY",
+      "city": "Springhill",
+      "state": "LA",
+      "price": 5.49
+    },
+    {
+      "store_number": "040068",
+      "name": "Taco Bell",
+      "city": "Indiana",
+      "state": "PA",
+      "price": 5.49
+    },
+    {
+      "store_number": "032574",
+      "name": "Taco Bell",
+      "city": "Rockford",
+      "state": "MI",
       "price": 5.99
     },
     {
-      "store_number": "033156",
+      "store_number": "029308",
       "name": "Taco Bell",
-      "city": "Roy",
-      "state": "UT",
-      "price": 5.99
+      "city": "New London",
+      "state": "CT",
+      "price": 7.79
     }
   ],
   "min_price_store_numbers": [
-    "040380"
+    "036438",
+    "042219",
+    "040068"
   ],
   "priciest_stores": [
     {
-      "store_number": "033156",
+      "store_number": "029308",
       "name": "Taco Bell",
-      "city": "Roy",
-      "state": "UT",
+      "city": "New London",
+      "state": "CT",
+      "price": 7.79
+    },
+    {
+      "store_number": "032574",
+      "name": "Taco Bell",
+      "city": "Rockford",
+      "state": "MI",
       "price": 5.99
     },
     {
-      "store_number": "037316",
+      "store_number": "040068",
       "name": "Taco Bell",
-      "city": "Syracuse",
-      "state": "NY",
-      "price": 5.99
+      "city": "Indiana",
+      "state": "PA",
+      "price": 5.49
     },
     {
-      "store_number": "040380",
+      "store_number": "042219",
       "name": "Taco Bell",
-      "city": "Blythewood",
-      "state": "SC",
+      "city": "Springhill",
+      "state": "LA",
+      "price": 5.49
+    },
+    {
+      "store_number": "036438",
+      "name": "Taco Bell",
+      "city": "Minneola",
+      "state": "FL",
       "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032574",
+      "store_name": "Taco Bell",
+      "city": "Rockford",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-15T21:11:13.955129+00:00"
+    },
+    {
+      "store_number": "040380",
+      "store_name": "Taco Bell",
+      "city": "Blythewood",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-09-15T21:11:10.128208+00:00"
+    },
+    {
+      "store_number": "040068",
+      "store_name": "Taco Bell",
+      "city": "Indiana",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-09-15T21:11:03.774431+00:00"
+    },
+    {
+      "store_number": "042219",
+      "store_name": "Taco Bell",
+      "city": "Springhill",
+      "state": "LA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-09-15T21:10:44.307675+00:00"
+    },
+    {
+      "store_number": "029308",
+      "store_name": "Taco Bell",
+      "city": "New London",
+      "state": "CT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-09-15T21:09:56.362269+00:00"
+    },
+    {
+      "store_number": "033156",
+      "store_name": "Taco Bell",
+      "city": "Roy",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-15T21:09:38.318764+00:00"
+    },
+    {
+      "store_number": "036438",
+      "store_name": "Taco Bell",
+      "city": "Minneola",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-09-15T21:08:53.453869+00:00"
+    },
+    {
+      "store_number": "037316",
+      "store_name": "Taco Bell",
+      "city": "Syracuse",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-15T21:08:52.555230+00:00"
+    },
     {
       "store_number": "033156",
       "store_name": "Taco Bell",
@@ -210,45 +324,63 @@
     }
   ],
   "activity_summary": {
-    "added": 7,
-    "removed": 4,
+    "added": 12,
+    "removed": 7,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 340,
+  "calories_from_menu": 0,
   "calories_min": 340,
   "calories_max": 340,
   "combo_groups": [],
   "map_data": [
     [
-      "040380",
-      34.21387738355118,
-      -80.9787202098217,
+      "036438",
+      28.576159566371096,
+      -81.74960673084662,
       5.49,
       "Taco Bell",
-      "Blythewood",
-      "SC"
+      "Minneola",
+      "FL"
     ],
     [
-      "037316",
-      43.083345,
-      -76.093212,
-      5.99,
+      "042219",
+      32.98802846810368,
+      -93.46084085991606,
+      5.49,
       "Taco Bell",
-      "Syracuse",
-      "NY"
+      "Springhill",
+      "LA"
     ],
     [
-      "033156",
-      41.16073868533017,
-      -112.02648662186803,
+      "040068",
+      40.6185681186681,
+      -79.16104048490524,
+      5.49,
+      "Taco Bell",
+      "Indiana",
+      "PA"
+    ],
+    [
+      "032574",
+      43.117519747728664,
+      -85.59696595583704,
       5.99,
       "Taco Bell",
-      "Roy",
-      "UT"
+      "Rockford",
+      "MI"
+    ],
+    [
+      "029308",
+      41.35999294416016,
+      -72.1163506098901,
+      7.79,
+      "Taco Bell",
+      "New London",
+      "CT"
     ]
   ],
   "retired_at": "2026-09-03T21:56:29.145645+00:00",
-  "last_seen_date": "2026-09-14",
-  "peak_availability_pct": 0.0
+  "last_seen_date": "2026-09-15",
+  "peak_availability_pct": 0.1
 }

@@ -20,10 +20,10 @@
   "price_stats": {
     "avg": 2.69,
     "min": 2.39,
-    "max": 2.89,
+    "max": 2.79,
     "median": 2.79,
     "std_dev": 0.15,
-    "store_count": 23
+    "store_count": 22
   },
   "histogram": [
     {
@@ -41,10 +41,6 @@
     {
       "bucket": "$2.79",
       "count": 13
-    },
-    {
-      "bucket": "$2.89",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -146,13 +142,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "029323",
-      "name": "Taco Bell / KFC",
-      "city": "Northampton",
-      "state": "MA",
-      "price": 2.89
-    },
-    {
       "store_number": "029354",
       "name": "Taco Bell",
       "city": "Holly Springs",
@@ -214,9 +203,26 @@
       "city": "Durham",
       "state": "NC",
       "price": 2.79
+    },
+    {
+      "store_number": "041398",
+      "name": "Taco Bell",
+      "city": "Oxford",
+      "state": "NC",
+      "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029323",
+      "store_name": "Taco Bell / KFC",
+      "city": "Northampton",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-09-15T21:10:31.436973+00:00"
+    },
     {
       "store_number": "029401",
       "store_name": "Taco Bell / KFC",
@@ -950,7 +956,7 @@
   ],
   "activity_summary": {
     "added": 48,
-    "removed": 24,
+    "removed": 25,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1169,18 +1175,9 @@
       "Taco Bell",
       "Holly Springs",
       "NC"
-    ],
-    [
-      "029323",
-      42.32848585134205,
-      -72.63313342632506,
-      2.89,
-      "Taco Bell / KFC",
-      "Northampton",
-      "MA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-09-14",
+  "last_seen_date": "2026-09-15",
   "peak_availability_pct": 0.3
 }
