@@ -14,14 +14,14 @@
   "peak_30d_pct": 8.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.034886+00:00",
-  "availability_pct": 9.4,
+  "availability_pct": 9.5,
   "price_stats": {
     "avg": 3.08,
     "min": 2.39,
     "max": 3.39,
     "median": 3.19,
     "std_dev": 0.23,
-    "store_count": 730
+    "store_count": 733
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$2.59",
-      "count": 11
+      "count": 12
     },
     {
       "bucket": "$2.69",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$2.89",
-      "count": 88
+      "count": 87
     },
     {
       "bucket": "$2.99",
@@ -58,15 +58,15 @@
     },
     {
       "bucket": "$3.19",
-      "count": 175
+      "count": 176
     },
     {
       "bucket": "$3.29",
-      "count": 253
+      "count": 254
     },
     {
       "bucket": "$3.39",
-      "count": 8
+      "count": 9
     }
   ],
   "state_prices": [
@@ -87,7 +87,12 @@
     },
     {
       "state": "CA",
-      "avg_price": 3.17,
+      "avg_price": 3.2,
+      "store_count": 7
+    },
+    {
+      "state": "FL",
+      "avg_price": 3.09,
       "store_count": 6
     },
     {
@@ -96,8 +101,8 @@
       "store_count": 5
     },
     {
-      "state": "FL",
-      "avg_price": 3.05,
+      "state": "KS",
+      "avg_price": 3.01,
       "store_count": 5
     },
     {
@@ -209,6 +214,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "030785",
+      "name": "Taco Bell",
+      "city": "South San Francisco",
+      "state": "CA",
+      "price": 3.39
+    },
+    {
       "store_number": "030742",
       "name": "Taco Bell",
       "city": "Oakland",
@@ -265,21 +277,64 @@
       "price": 3.39
     },
     {
-      "store_number": "035456",
-      "name": "Taco Bell Cantina Cantina",
-      "city": "Phoenix",
-      "state": "AZ",
-      "price": 3.29
-    },
-    {
-      "store_number": "038749",
+      "store_number": "004642",
       "name": "Taco Bell",
-      "city": "Bowie",
-      "state": "TX",
+      "city": "Davie",
+      "state": "FL",
       "price": 3.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004642",
+      "store_name": "Taco Bell",
+      "city": "Davie",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-09-16T20:53:54.778298+00:00"
+    },
+    {
+      "store_number": "030089",
+      "store_name": "Taco Bell",
+      "city": "Killeen",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-09-16T20:53:24.994553+00:00"
+    },
+    {
+      "store_number": "030785",
+      "store_name": "Taco Bell",
+      "city": "South San Francisco",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-09-16T20:53:19.103103+00:00"
+    },
+    {
+      "store_number": "016744",
+      "store_name": "Taco Bell",
+      "city": "Wichita",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-09-16T20:52:57.130634+00:00"
+    },
+    {
+      "store_number": "035694",
+      "store_name": "Taco Bell",
+      "city": "Livingston",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-09-16T20:52:17.121661+00:00"
+    },
     {
       "store_number": "038846",
       "store_name": "Taco Bell",
@@ -12872,8 +12927,8 @@
     }
   ],
   "activity_summary": {
-    "added": 533,
-    "removed": 535,
+    "added": 537,
+    "removed": 536,
     "price_changed": 191,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13223,6 +13278,15 @@
       "Taco Bell",
       "Farmington",
       "NM"
+    ],
+    [
+      "016744",
+      37.722700961641145,
+      -97.42752491380088,
+      2.59,
+      "Taco Bell",
+      "Wichita",
+      "KS"
     ],
     [
       "037167",
@@ -14185,15 +14249,6 @@
       2.89,
       "Taco Bell",
       "Mexia",
-      "TX"
-    ],
-    [
-      "030089",
-      31.12476709202784,
-      -97.74096272888528,
-      2.89,
-      "Taco Bell",
-      "Killeen",
       "TX"
     ],
     [
@@ -15850,6 +15905,15 @@
       3.19,
       "Taco Bell",
       "Houston",
+      "TX"
+    ],
+    [
+      "035694",
+      30.713619041513727,
+      -94.95498388926401,
+      3.19,
+      "Taco Bell",
+      "Livingston",
       "TX"
     ],
     [
@@ -19381,6 +19445,15 @@
       "AZ"
     ],
     [
+      "004642",
+      26.093065886559707,
+      -80.25040854515282,
+      3.29,
+      "Taco Bell",
+      "Davie",
+      "FL"
+    ],
+    [
       "036251",
       39.034202183610354,
       -94.53198025225383,
@@ -19450,6 +19523,15 @@
       3.39,
       "Taco Bell",
       "Oakland",
+      "CA"
+    ],
+    [
+      "030785",
+      37.64683879461168,
+      -122.42873983838048,
+      3.39,
+      "Taco Bell",
+      "South San Francisco",
       "CA"
     ]
   ],

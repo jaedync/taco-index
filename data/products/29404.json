@@ -4,6 +4,7 @@
   "description": "",
   "category": "deals-and-combos",
   "categories": [
+    "featured",
     "new",
     "specialties"
   ],
@@ -21,12 +22,12 @@
     "max": 4.99,
     "median": 4.49,
     "std_dev": 0.18,
-    "store_count": 21
+    "store_count": 22
   },
   "histogram": [
     {
       "bucket": "$4.49",
-      "count": 18
+      "count": 19
     },
     {
       "bucket": "$4.99",
@@ -144,6 +145,7 @@
     "035704",
     "040159",
     "035748",
+    "024233",
     "035752"
   ],
   "priciest_stores": [
@@ -173,6 +175,13 @@
       "name": "Taco Bell",
       "city": "Clute",
       "state": "TX",
+      "price": 4.49
+    },
+    {
+      "store_number": "024233",
+      "name": "Taco Bell",
+      "city": "Goldsboro",
+      "state": "NC",
       "price": 4.49
     },
     {
@@ -209,16 +218,19 @@
       "city": "Houston",
       "state": "TX",
       "price": 4.49
-    },
-    {
-      "store_number": "035712",
-      "name": "Taco Bell",
-      "city": "Missouri City",
-      "state": "TX",
-      "price": 4.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024233",
+      "store_name": "Taco Bell",
+      "city": "Goldsboro",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-09-16T20:53:47.827567+00:00"
+    },
     {
       "store_number": "035750",
       "store_name": "Taco Bell",
@@ -133801,7 +133813,7 @@
     }
   ],
   "activity_summary": {
-    "added": 2899,
+    "added": 2900,
     "removed": 10396,
     "price_changed": 63,
     "since": "2026-03-31T00:00:00+00:00"
@@ -133976,6 +133988,15 @@
       "Taco Bell",
       "Beaumont",
       "TX"
+    ],
+    [
+      "024233",
+      35.37343438812406,
+      -77.9548408091614,
+      4.49,
+      "Taco Bell",
+      "Goldsboro",
+      "NC"
     ],
     [
       "035752",

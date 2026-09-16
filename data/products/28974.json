@@ -14,14 +14,14 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-08-20T21:40:36.903880+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.4,
   "price_stats": {
-    "avg": 5.85,
+    "avg": 5.9,
     "min": 5.49,
-    "max": 6.29,
+    "max": 7.29,
     "median": 5.99,
-    "std_dev": 0.27,
-    "store_count": 27
+    "std_dev": 0.38,
+    "store_count": 28
   },
   "histogram": [
     {
@@ -35,6 +35,10 @@
     {
       "bucket": "$6.29",
       "count": 2
+    },
+    {
+      "bucket": "$7.29",
+      "count": 1
     }
   ],
   "state_prices": [
@@ -143,6 +147,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "029323",
+      "name": "Taco Bell / KFC",
+      "city": "Northampton",
+      "state": "MA",
+      "price": 7.29
+    },
+    {
       "store_number": "041370",
       "name": "Taco Bell / KFC",
       "city": "Rio Vista",
@@ -204,16 +215,19 @@
       "city": "Louisburg",
       "state": "NC",
       "price": 5.99
-    },
-    {
-      "store_number": "004173",
-      "name": "Taco Bell / KFC",
-      "city": "Albuquerque",
-      "state": "NM",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029323",
+      "store_name": "Taco Bell / KFC",
+      "city": "Northampton",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.29,
+      "observed_at": "2026-09-16T20:54:02.842707+00:00"
+    },
     {
       "store_number": "029323",
       "store_name": "Taco Bell / KFC",
@@ -1206,7 +1220,7 @@
     }
   ],
   "activity_summary": {
-    "added": 63,
+    "added": 64,
     "removed": 36,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1458,9 +1472,18 @@
       "Taco Bell / KFC",
       "Rio Vista",
       "CA"
+    ],
+    [
+      "029323",
+      42.32848585134205,
+      -72.63313342632506,
+      7.29,
+      "Taco Bell / KFC",
+      "Northampton",
+      "MA"
     ]
   ],
   "retired_at": "2026-08-21T20:54:24.064145+00:00",
-  "last_seen_date": "2026-09-15",
+  "last_seen_date": "2026-09-16",
   "peak_availability_pct": 0.4
 }

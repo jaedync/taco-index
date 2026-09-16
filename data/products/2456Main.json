@@ -12,25 +12,29 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.5,
-  "recent_price_change_pct": -0.0238,
+  "recent_price_change_pct": -0.0282,
   "first_seen_at": "2026-08-28T21:18:11.177078+00:00",
-  "availability_pct": 0.5,
+  "availability_pct": 0.6,
   "price_stats": {
-    "avg": 3.37,
-    "min": 3.19,
+    "avg": 3.36,
+    "min": 2.99,
     "max": 3.69,
     "median": 3.29,
-    "std_dev": 0.12,
-    "store_count": 41
+    "std_dev": 0.13,
+    "store_count": 44
   },
   "histogram": [
+    {
+      "bucket": "$2.99",
+      "count": 1
+    },
     {
       "bucket": "$3.19",
       "count": 4
     },
     {
       "bucket": "$3.29",
-      "count": 20
+      "count": 22
     },
     {
       "bucket": "$3.49",
@@ -55,6 +59,13 @@
   ],
   "nutrition": null,
   "cheapest_stores": [
+    {
+      "store_number": "040702",
+      "name": "Taco Bell",
+      "city": "Jasper",
+      "state": "AL",
+      "price": 2.99
+    },
     {
       "store_number": "019252",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -117,20 +128,10 @@
       "city": "Tomball",
       "state": "TX",
       "price": 3.29
-    },
-    {
-      "store_number": "002689",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Deer Park",
-      "state": "TX",
-      "price": 3.29
     }
   ],
   "min_price_store_numbers": [
-    "019252",
-    "022811",
-    "002851",
-    "027489"
+    "040702"
   ],
   "priciest_stores": [
     {
@@ -205,6 +206,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004375",
+      "store_name": "Taco Bell",
+      "city": "Denver",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-09-16T20:53:15.597886+00:00"
+    },
+    {
+      "store_number": "040702",
+      "store_name": "Taco Bell",
+      "city": "Jasper",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-09-16T20:52:39.117129+00:00"
+    },
+    {
+      "store_number": "041864",
+      "store_name": "Taco Bell",
+      "city": "Aliquippa",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-09-16T20:49:53.156142+00:00"
+    },
     {
       "store_number": "030569",
       "store_name": "Taco Bell",
@@ -1087,7 +1118,7 @@
     }
   ],
   "activity_summary": {
-    "added": 55,
+    "added": 58,
     "removed": 14,
     "price_changed": 19,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1097,6 +1128,15 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
+    [
+      "040702",
+      33.791869,
+      -87.241236,
+      2.99,
+      "Taco Bell",
+      "Jasper",
+      "AL"
+    ],
     [
       "019252",
       30.049133798997953,
@@ -1314,6 +1354,24 @@
       "IL"
     ],
     [
+      "041864",
+      40.60283510187722,
+      -80.27814342446456,
+      3.29,
+      "Taco Bell",
+      "Aliquippa",
+      "PA"
+    ],
+    [
+      "004375",
+      39.62491642954053,
+      -104.90373998880386,
+      3.29,
+      "Taco Bell",
+      "Denver",
+      "CO"
+    ],
+    [
       "039835",
       34.12121122880951,
       -117.59313364328591,
@@ -1473,16 +1531,16 @@
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 3.68,
-      "min_price": 3.29,
+      "avg_price": 3.66,
+      "min_price": 3.19,
       "max_price": 3.99,
       "calories": 470,
       "happier_hour_avg": null
     },
     {
       "size": "MEDIUM",
-      "avg_price": 3.38,
-      "min_price": 3.19,
+      "avg_price": 3.36,
+      "min_price": 2.99,
       "max_price": 3.69,
       "calories": 310,
       "happier_hour_avg": null

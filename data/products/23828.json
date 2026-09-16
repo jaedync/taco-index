@@ -12,24 +12,32 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0215,
   "first_seen_at": "2026-09-02T21:33:12.856004+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 6.05,
+    "avg": 6.12,
     "min": 5.49,
     "max": 7.79,
-    "median": 5.49,
-    "std_dev": 1.0,
-    "store_count": 5
+    "median": 5.99,
+    "std_dev": 0.79,
+    "store_count": 7
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 3
+      "count": 2
+    },
+    {
+      "bucket": "$5.79",
+      "count": 1
     },
     {
       "bucket": "$5.99",
+      "count": 2
+    },
+    {
+      "bucket": "$6.29",
       "count": 1
     },
     {
@@ -54,32 +62,46 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "036438",
+      "store_number": "037585",
       "name": "Taco Bell",
-      "city": "Minneola",
-      "state": "FL",
+      "city": "Aberdeen",
+      "state": "SD",
       "price": 5.49
     },
     {
-      "store_number": "042219",
+      "store_number": "003192",
       "name": "Taco Bell",
-      "city": "Springhill",
-      "state": "LA",
-      "price": 5.49
-    },
-    {
-      "store_number": "040068",
-      "name": "Taco Bell",
-      "city": "Indiana",
-      "state": "PA",
-      "price": 5.49
-    },
-    {
-      "store_number": "032574",
-      "name": "Taco Bell",
-      "city": "Rockford",
+      "city": "Davison",
       "state": "MI",
+      "price": 5.49
+    },
+    {
+      "store_number": "031918",
+      "name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "price": 5.79
+    },
+    {
+      "store_number": "024233",
+      "name": "Taco Bell",
+      "city": "Goldsboro",
+      "state": "NC",
       "price": 5.99
+    },
+    {
+      "store_number": "034682",
+      "name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "price": 5.99
+    },
+    {
+      "store_number": "033775",
+      "name": "Taco Bell",
+      "city": "Mount Vernon",
+      "state": "OH",
+      "price": 6.29
     },
     {
       "store_number": "029308",
@@ -90,9 +112,8 @@
     }
   ],
   "min_price_store_numbers": [
-    "036438",
-    "042219",
-    "040068"
+    "037585",
+    "003192"
   ],
   "priciest_stores": [
     {
@@ -103,35 +124,149 @@
       "price": 7.79
     },
     {
-      "store_number": "032574",
+      "store_number": "033775",
       "name": "Taco Bell",
-      "city": "Rockford",
-      "state": "MI",
+      "city": "Mount Vernon",
+      "state": "OH",
+      "price": 6.29
+    },
+    {
+      "store_number": "034682",
+      "name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
       "price": 5.99
     },
     {
-      "store_number": "040068",
+      "store_number": "024233",
       "name": "Taco Bell",
-      "city": "Indiana",
-      "state": "PA",
+      "city": "Goldsboro",
+      "state": "NC",
+      "price": 5.99
+    },
+    {
+      "store_number": "031918",
+      "name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "price": 5.79
+    },
+    {
+      "store_number": "003192",
+      "name": "Taco Bell",
+      "city": "Davison",
+      "state": "MI",
       "price": 5.49
     },
     {
-      "store_number": "042219",
+      "store_number": "037585",
       "name": "Taco Bell",
-      "city": "Springhill",
-      "state": "LA",
-      "price": 5.49
-    },
-    {
-      "store_number": "036438",
-      "name": "Taco Bell",
-      "city": "Minneola",
-      "state": "FL",
+      "city": "Aberdeen",
+      "state": "SD",
       "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032574",
+      "store_name": "Taco Bell",
+      "city": "Rockford",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-16T20:54:56.393273+00:00"
+    },
+    {
+      "store_number": "033775",
+      "store_name": "Taco Bell",
+      "city": "Mount Vernon",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.29,
+      "observed_at": "2026-09-16T20:54:47.720952+00:00"
+    },
+    {
+      "store_number": "040068",
+      "store_name": "Taco Bell",
+      "city": "Indiana",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-09-16T20:54:42.944638+00:00"
+    },
+    {
+      "store_number": "003192",
+      "store_name": "Taco Bell",
+      "city": "Davison",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-09-16T20:54:39.530770+00:00"
+    },
+    {
+      "store_number": "042219",
+      "store_name": "Taco Bell",
+      "city": "Springhill",
+      "state": "LA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-09-16T20:54:18.744151+00:00"
+    },
+    {
+      "store_number": "034682",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-16T20:54:12.088341+00:00"
+    },
+    {
+      "store_number": "024233",
+      "store_name": "Taco Bell",
+      "city": "Goldsboro",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-16T20:53:47.827567+00:00"
+    },
+    {
+      "store_number": "031918",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.79,
+      "observed_at": "2026-09-16T20:53:25.560328+00:00"
+    },
+    {
+      "store_number": "037585",
+      "store_name": "Taco Bell",
+      "city": "Aberdeen",
+      "state": "SD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-09-16T20:53:06.758091+00:00"
+    },
+    {
+      "store_number": "036438",
+      "store_name": "Taco Bell",
+      "city": "Minneola",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-09-16T20:52:07.492306+00:00"
+    },
     {
       "store_number": "032574",
       "store_name": "Taco Bell",
@@ -324,51 +459,69 @@
     }
   ],
   "activity_summary": {
-    "added": 12,
-    "removed": 7,
+    "added": 18,
+    "removed": 11,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 0,
+  "calories_from_menu": 340,
   "calories_min": 340,
   "calories_max": 340,
   "combo_groups": [],
   "map_data": [
     [
-      "036438",
-      28.576159566371096,
-      -81.74960673084662,
+      "037585",
+      45.45867887917884,
+      -98.43785085732596,
       5.49,
       "Taco Bell",
-      "Minneola",
-      "FL"
+      "Aberdeen",
+      "SD"
     ],
     [
-      "042219",
-      32.98802846810368,
-      -93.46084085991606,
+      "003192",
+      43.015628753383794,
+      -83.51706017555443,
       5.49,
       "Taco Bell",
-      "Springhill",
-      "LA"
+      "Davison",
+      "MI"
     ],
     [
-      "040068",
-      40.6185681186681,
-      -79.16104048490524,
-      5.49,
+      "031918",
+      36.16810127134257,
+      -115.20555251873314,
+      5.79,
       "Taco Bell",
-      "Indiana",
-      "PA"
+      "Las Vegas",
+      "NV"
     ],
     [
-      "032574",
-      43.117519747728664,
-      -85.59696595583704,
+      "024233",
+      35.37343438812406,
+      -77.9548408091614,
       5.99,
       "Taco Bell",
-      "Rockford",
-      "MI"
+      "Goldsboro",
+      "NC"
+    ],
+    [
+      "034682",
+      38.221136708478355,
+      -85.75560166507785,
+      5.99,
+      "Taco Bell",
+      "Louisville",
+      "KY"
+    ],
+    [
+      "033775",
+      40.40135941864843,
+      -82.45208315545428,
+      6.29,
+      "Taco Bell",
+      "Mount Vernon",
+      "OH"
     ],
     [
       "029308",
@@ -381,6 +534,6 @@
     ]
   ],
   "retired_at": "2026-09-03T21:56:29.145645+00:00",
-  "last_seen_date": "2026-09-15",
+  "last_seen_date": "2026-09-16",
   "peak_availability_pct": 0.1
 }
