@@ -26,8 +26,8 @@
     "min": 2.39,
     "max": 2.89,
     "median": 2.79,
-    "std_dev": 0.07,
-    "store_count": 96
+    "std_dev": 0.06,
+    "store_count": 89
   },
   "histogram": [
     {
@@ -36,15 +36,15 @@
     },
     {
       "bucket": "$2.59",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$2.69",
-      "count": 22
+      "count": 20
     },
     {
       "bucket": "$2.79",
-      "count": 68
+      "count": 64
     },
     {
       "bucket": "$2.89",
@@ -53,19 +53,14 @@
   ],
   "state_prices": [
     {
+      "state": "TX",
+      "avg_price": 2.79,
+      "store_count": 42
+    },
+    {
       "state": "OH",
       "avg_price": 2.79,
       "store_count": 23
-    },
-    {
-      "state": "TX",
-      "avg_price": 2.79,
-      "store_count": 44
-    },
-    {
-      "state": "CA",
-      "avg_price": 2.75,
-      "store_count": 7
     },
     {
       "state": "VA",
@@ -100,13 +95,6 @@
       "name": "Taco Bell",
       "city": "Cabazon",
       "state": "CA",
-      "price": 2.59
-    },
-    {
-      "store_number": "002981",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Watauga",
-      "state": "TX",
       "price": 2.59
     },
     {
@@ -155,6 +143,13 @@
       "store_number": "031818",
       "name": "Taco Bell",
       "city": "Gloucester",
+      "state": "VA",
+      "price": 2.69
+    },
+    {
+      "store_number": "015572",
+      "name": "Taco Bell",
+      "city": "Williamsburg",
       "state": "VA",
       "price": 2.69
     }
@@ -220,21 +215,91 @@
       "price": 2.79
     },
     {
-      "store_number": "029535",
-      "name": "Taco Bell",
-      "city": "Tamarac",
-      "state": "FL",
-      "price": 2.79
-    },
-    {
       "store_number": "035735",
       "name": "Taco Bell",
       "city": "Mont Belvieu",
       "state": "TX",
       "price": 2.79
+    },
+    {
+      "store_number": "035752",
+      "name": "Taco Bell",
+      "city": "Clute",
+      "state": "TX",
+      "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039795",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Newhall",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-09-17T21:53:22.413197+00:00"
+    },
+    {
+      "store_number": "041611",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "El Cajon",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-09-17T21:53:16.257375+00:00"
+    },
+    {
+      "store_number": "039852",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Hemet",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-09-17T21:53:07.812036+00:00"
+    },
+    {
+      "store_number": "001089",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Dallas",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-09-17T21:52:41.756481+00:00"
+    },
+    {
+      "store_number": "002981",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Watauga",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.59,
+      "new_price": null,
+      "observed_at": "2026-09-17T21:52:35.922751+00:00"
+    },
+    {
+      "store_number": "039811",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Palmdale",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-09-17T21:52:27.170979+00:00"
+    },
+    {
+      "store_number": "029535",
+      "store_name": "Taco Bell",
+      "city": "Tamarac",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-09-17T21:52:24.714762+00:00"
+    },
     {
       "store_number": "039804",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -225148,7 +225213,7 @@
   ],
   "activity_summary": {
     "added": 11266,
-    "removed": 11162,
+    "removed": 11169,
     "price_changed": 63,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -225174,15 +225239,6 @@
       "Taco Bell",
       "Cabazon",
       "CA"
-    ],
-    [
-      "002981",
-      32.859492632046816,
-      -97.23851025851218,
-      2.59,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Watauga",
-      "TX"
     ],
     [
       "040297",
@@ -225248,15 +225304,6 @@
       "VA"
     ],
     [
-      "001089",
-      32.83626582002558,
-      -96.77328680457322,
-      2.69,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Dallas",
-      "TX"
-    ],
-    [
       "015572",
       37.258883651954534,
       -76.74007017912118,
@@ -225291,15 +225338,6 @@
       "Taco Bell",
       "Hampton",
       "VA"
-    ],
-    [
-      "041611",
-      32.802124703776066,
-      -117.00442847203766,
-      2.69,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "El Cajon",
-      "CA"
     ],
     [
       "001764",
@@ -225644,15 +225682,6 @@
       "TX"
     ],
     [
-      "039811",
-      34.60209988736434,
-      -118.14504776896683,
-      2.79,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Palmdale",
-      "CA"
-    ],
-    [
       "038892",
       40.267282153831886,
       -82.93266244235383,
@@ -225743,15 +225772,6 @@
       "TX"
     ],
     [
-      "039852",
-      33.746993553105185,
-      -117.00733342770036,
-      2.79,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Hemet",
-      "CA"
-    ],
-    [
       "035746",
       30.116512923508484,
       -93.74802254143106,
@@ -225768,15 +225788,6 @@
       "Taco Bell",
       "Nederland",
       "TX"
-    ],
-    [
-      "039795",
-      34.379477085941964,
-      -118.56816091239986,
-      2.79,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Newhall",
-      "CA"
     ],
     [
       "038909",
@@ -225939,15 +225950,6 @@
       "Taco Bell",
       "Mont Belvieu",
       "TX"
-    ],
-    [
-      "029535",
-      26.19420037978799,
-      -80.25327891111374,
-      2.79,
-      "Taco Bell",
-      "Tamarac",
-      "FL"
     ],
     [
       "035716",

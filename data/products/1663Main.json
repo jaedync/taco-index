@@ -17,12 +17,12 @@
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 0.7,
   "price_stats": {
-    "avg": 3.82,
+    "avg": 3.81,
     "min": 3.49,
-    "max": 4.19,
+    "max": 3.99,
     "median": 3.79,
-    "std_dev": 0.1,
-    "store_count": 56
+    "std_dev": 0.09,
+    "store_count": 54
   },
   "histogram": [
     {
@@ -39,7 +39,7 @@
     },
     {
       "bucket": "$3.79",
-      "count": 35
+      "count": 34
     },
     {
       "bucket": "$3.89",
@@ -48,10 +48,6 @@
     {
       "bucket": "$3.99",
       "count": 5
-    },
-    {
-      "bucket": "$4.19",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -157,13 +153,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "029535",
-      "name": "Taco Bell",
-      "city": "Tamarac",
-      "state": "FL",
-      "price": 4.19
-    },
-    {
       "store_number": "035254",
       "name": "Taco Bell",
       "city": "Virginia Beach",
@@ -225,9 +214,36 @@
       "city": "Chillicothe",
       "state": "OH",
       "price": 3.89
+    },
+    {
+      "store_number": "038896",
+      "name": "Taco Bell",
+      "city": "Buckeye Lake",
+      "state": "OH",
+      "price": 3.89
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029535",
+      "store_name": "Taco Bell",
+      "city": "Tamarac",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-09-17T21:52:24.714762+00:00"
+    },
+    {
+      "store_number": "024662",
+      "store_name": "Taco Bell",
+      "city": "Paintsville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 3.79,
+      "new_price": null,
+      "observed_at": "2026-09-17T21:52:05.249945+00:00"
+    },
     {
       "store_number": "041488",
       "store_name": "Taco Bell (ATL Airport)",
@@ -293251,7 +293267,7 @@
   ],
   "activity_summary": {
     "added": 10291,
-    "removed": 17089,
+    "removed": 17091,
     "price_changed": 1922,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -293475,15 +293491,6 @@
       "Taco Bell",
       "Pasadena",
       "TX"
-    ],
-    [
-      "024662",
-      37.82548518717343,
-      -82.82288215128374,
-      3.79,
-      "Taco Bell",
-      "Paintsville",
-      "KY"
     ],
     [
       "035727",
@@ -293754,15 +293761,6 @@
       "Taco Bell",
       "Virginia Beach",
       "VA"
-    ],
-    [
-      "029535",
-      26.19420037978799,
-      -80.25327891111374,
-      4.19,
-      "Taco Bell",
-      "Tamarac",
-      "FL"
     ]
   ],
   "retired_at": null,

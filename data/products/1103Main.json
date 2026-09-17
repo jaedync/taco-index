@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.52,
+    "avg": 2.51,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.54,
-    "std_dev": 0.32,
-    "store_count": 4
+    "median": 2.49,
+    "std_dev": 0.28,
+    "store_count": 5
   },
   "histogram": [
     {
@@ -29,6 +29,10 @@
     },
     {
       "bucket": "$2.29",
+      "count": 1
+    },
+    {
+      "bucket": "$2.49",
       "count": 1
     },
     {
@@ -52,6 +56,13 @@
       "city": "Bronx",
       "state": "NY",
       "price": 2.29
+    },
+    {
+      "store_number": "042688",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 2.49
     },
     {
       "store_number": "034273",
@@ -87,6 +98,13 @@
       "price": 2.79
     },
     {
+      "store_number": "042688",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 2.49
+    },
+    {
       "store_number": "040658",
       "name": "Taco Bell",
       "city": "Bronx",
@@ -102,6 +120,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042688",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-09-17T21:54:31.191825+00:00"
+    },
     {
       "store_number": "041337",
       "store_name": "Taco Bell  Cantina",
@@ -434,7 +462,7 @@
     }
   ],
   "activity_summary": {
-    "added": 14,
+    "added": 15,
     "removed": 19,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -460,6 +488,15 @@
       2.29,
       "Taco Bell",
       "Bronx",
+      "NY"
+    ],
+    [
+      "042688",
+      40.6936,
+      -73.96336,
+      2.49,
+      "Taco Bell",
+      "Brooklyn",
       "NY"
     ],
     [

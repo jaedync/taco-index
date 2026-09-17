@@ -23,12 +23,12 @@
     "max": 12.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7157
+    "store_count": 7160
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5294
+      "count": 5295
     },
     {
       "bucket": "$4.19",
@@ -61,6 +61,10 @@
     {
       "bucket": "$4.49",
       "count": 21
+    },
+    {
+      "bucket": "$4.60",
+      "count": 1
     },
     {
       "bucket": "$4.79",
@@ -124,7 +128,7 @@
     },
     {
       "bucket": "$8.00",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$8.49",
@@ -166,8 +170,8 @@
   "state_prices": [
     {
       "state": "NV",
-      "avg_price": 6.36,
-      "store_count": 79
+      "avg_price": 6.38,
+      "store_count": 80
     },
     {
       "state": "OR",
@@ -352,7 +356,7 @@
     {
       "state": "MN",
       "avg_price": 4.01,
-      "store_count": 99
+      "store_count": 100
     },
     {
       "state": "MD",
@@ -402,7 +406,7 @@
     {
       "state": "LA",
       "avg_price": 4.0,
-      "store_count": 128
+      "store_count": 129
     },
     {
       "state": "KY",
@@ -3187,6 +3191,7 @@
     "002170",
     "034673",
     "030107",
+    "041571",
     "032064",
     "032216",
     "003668",
@@ -4887,7 +4892,6 @@
     "042744",
     "003428",
     "029240",
-    "033865",
     "025389",
     "018414",
     "020968",
@@ -5292,7 +5296,6 @@
     "039773",
     "035403",
     "041195",
-    "016207",
     "027462",
     "004495",
     "036781",
@@ -5782,7 +5785,9 @@
     "003371",
     "034692",
     "034694",
-    "034685"
+    "034685",
+    "029688",
+    "043444"
   ],
   "priciest_stores": [
     {
@@ -5857,6 +5862,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043444",
+      "store_name": "Taco Bell",
+      "city": "Clinton",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-09-17T21:54:32.022344+00:00"
+    },
+    {
+      "store_number": "042680",
+      "store_name": "Taco Bell Cantina",
+      "city": "Denver",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.6,
+      "observed_at": "2026-09-17T21:54:30.961853+00:00"
+    },
+    {
+      "store_number": "033865",
+      "store_name": "Taco Bell",
+      "city": "Thornton",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-09-17T21:54:03.600528+00:00"
+    },
+    {
+      "store_number": "032366",
+      "store_name": "Taco Bell Cantina",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.0,
+      "observed_at": "2026-09-17T21:53:01.889081+00:00"
+    },
+    {
+      "store_number": "041571",
+      "store_name": "Taco Bell",
+      "city": "New Orleans",
+      "state": "LA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-09-17T21:52:53.283639+00:00"
+    },
+    {
+      "store_number": "029688",
+      "store_name": "Taco Bell",
+      "city": "Richfield",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-09-17T21:52:24.185379+00:00"
+    },
     {
       "store_number": "009507",
       "store_name": "Taco Bell",
@@ -14549,8 +14614,8 @@
     }
   ],
   "activity_summary": {
-    "added": 456,
-    "removed": 357,
+    "added": 461,
+    "removed": 358,
     "price_changed": 56,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -38867,6 +38932,15 @@
       "TX"
     ],
     [
+      "041571",
+      29.91977904678765,
+      -90.01136449864134,
+      4.0,
+      "Taco Bell",
+      "New Orleans",
+      "LA"
+    ],
+    [
       "032064",
       40.20248532386158,
       -75.10139912366867,
@@ -54167,15 +54241,6 @@
       "VA"
     ],
     [
-      "033865",
-      39.884657503648675,
-      -104.97080252321211,
-      4.0,
-      "Taco Bell",
-      "Thornton",
-      "CO"
-    ],
-    [
       "025389",
       40.5286378891216,
       -111.85510636122672,
@@ -57810,15 +57875,6 @@
       "Taco Bell",
       "Tuba City",
       "AZ"
-    ],
-    [
-      "016207",
-      35.59955540779433,
-      -92.46229199459776,
-      4.0,
-      "Taco Bell",
-      "Clinton",
-      "AR"
     ],
     [
       "027462",
@@ -62231,6 +62287,24 @@
       "TN"
     ],
     [
+      "029688",
+      44.86219001927583,
+      -93.27512264998404,
+      4.0,
+      "Taco Bell",
+      "Richfield",
+      "MN"
+    ],
+    [
+      "043444",
+      35.595357,
+      -92.456088,
+      4.0,
+      "Taco Bell",
+      "Clinton",
+      "AR"
+    ],
+    [
       "040310",
       38.82654633392733,
       -104.7287764914666,
@@ -63273,6 +63347,15 @@
       "Taco Bell",
       "Blair",
       "NE"
+    ],
+    [
+      "042680",
+      39.8539099434,
+      -104.6714456628,
+      4.6,
+      "Taco Bell Cantina",
+      "Denver",
+      "CO"
     ],
     [
       "030687",
@@ -78024,6 +78107,15 @@
       "Taco Bell",
       "Lost Hills",
       "CA"
+    ],
+    [
+      "032366",
+      36.10878627389583,
+      -115.17213996709447,
+      8.0,
+      "Taco Bell Cantina",
+      "Las Vegas",
+      "NV"
     ],
     [
       "038757",

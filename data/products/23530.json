@@ -65,13 +65,6 @@
       "price": 3.0
     },
     {
-      "store_number": "029622",
-      "name": "Taco Bell",
-      "city": "Springville",
-      "state": "AL",
-      "price": 3.0
-    },
-    {
       "store_number": "029166",
       "name": "Taco Bell",
       "city": "Bessemer",
@@ -82,6 +75,13 @@
       "store_number": "029110",
       "name": "Taco Bell",
       "city": "Birmingham",
+      "state": "AL",
+      "price": 3.0
+    },
+    {
+      "store_number": "041491",
+      "name": "Taco Bell",
+      "city": "Calera",
       "state": "AL",
       "price": 3.0
     }
@@ -89,11 +89,18 @@
   "min_price_store_numbers": [
     "037013",
     "029145",
-    "029622",
     "029166",
-    "029110"
+    "029110",
+    "041491"
   ],
   "priciest_stores": [
+    {
+      "store_number": "041491",
+      "name": "Taco Bell",
+      "city": "Calera",
+      "state": "AL",
+      "price": 3.0
+    },
     {
       "store_number": "029110",
       "name": "Taco Bell",
@@ -105,13 +112,6 @@
       "store_number": "029166",
       "name": "Taco Bell",
       "city": "Bessemer",
-      "state": "AL",
-      "price": 3.0
-    },
-    {
-      "store_number": "029622",
-      "name": "Taco Bell",
-      "city": "Springville",
       "state": "AL",
       "price": 3.0
     },
@@ -131,6 +131,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029622",
+      "store_name": "Taco Bell",
+      "city": "Springville",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 3.0,
+      "new_price": null,
+      "observed_at": "2026-09-17T21:52:05.559531+00:00"
+    },
+    {
+      "store_number": "041491",
+      "store_name": "Taco Bell",
+      "city": "Calera",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-09-17T21:51:03.742147+00:00"
+    },
     {
       "store_number": "029110",
       "store_name": "Taco Bell",
@@ -243,8 +263,8 @@
     }
   ],
   "activity_summary": {
-    "added": 8,
-    "removed": 3,
+    "added": 9,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -272,15 +292,6 @@
       "AL"
     ],
     [
-      "029622",
-      33.77850359907462,
-      -86.43059655912978,
-      3.0,
-      "Taco Bell",
-      "Springville",
-      "AL"
-    ],
-    [
       "029166",
       33.33339473972188,
       -86.99581415870725,
@@ -297,9 +308,18 @@
       "Taco Bell",
       "Birmingham",
       "AL"
+    ],
+    [
+      "041491",
+      33.14910162393743,
+      -86.7490076451195,
+      3.0,
+      "Taco Bell",
+      "Calera",
+      "AL"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-09-16",
+  "last_seen_date": "2026-09-17",
   "peak_availability_pct": 0.1
 }
