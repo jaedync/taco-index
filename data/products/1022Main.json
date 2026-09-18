@@ -18,10 +18,10 @@
   "price_stats": {
     "avg": 3.08,
     "min": 2.39,
-    "max": 3.39,
+    "max": 3.59,
     "median": 3.19,
-    "std_dev": 0.23,
-    "store_count": 732
+    "std_dev": 0.24,
+    "store_count": 735
   },
   "histogram": [
     {
@@ -34,15 +34,15 @@
     },
     {
       "bucket": "$2.59",
-      "count": 11
+      "count": 15
     },
     {
       "bucket": "$2.69",
-      "count": 33
+      "count": 34
     },
     {
       "bucket": "$2.79",
-      "count": 39
+      "count": 40
     },
     {
       "bucket": "$2.89",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 93
+      "count": 90
     },
     {
       "bucket": "$3.09",
@@ -62,11 +62,15 @@
     },
     {
       "bucket": "$3.29",
-      "count": 253
+      "count": 252
     },
     {
       "bucket": "$3.39",
       "count": 9
+    },
+    {
+      "bucket": "$3.59",
+      "count": 1
     }
   ],
   "state_prices": [
@@ -87,8 +91,8 @@
     },
     {
       "state": "CA",
-      "avg_price": 3.2,
-      "store_count": 7
+      "avg_price": 3.19,
+      "store_count": 6
     },
     {
       "state": "FL",
@@ -103,7 +107,7 @@
     {
       "state": "TX",
       "avg_price": 3.01,
-      "store_count": 448
+      "store_count": 449
     },
     {
       "state": "AL",
@@ -114,6 +118,11 @@
       "state": "GA",
       "avg_price": 2.92,
       "store_count": 7
+    },
+    {
+      "state": "KS",
+      "avg_price": 2.85,
+      "store_count": 8
     },
     {
       "state": "NM",
@@ -209,6 +218,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "039075",
+      "name": "Taco Bell",
+      "city": "Stamford",
+      "state": "CT",
+      "price": 3.59
+    },
+    {
       "store_number": "030785",
       "name": "Taco Bell",
       "city": "South San Francisco",
@@ -270,16 +286,119 @@
       "city": "Kansas City",
       "state": "MO",
       "price": 3.39
-    },
-    {
-      "store_number": "004642",
-      "name": "Taco Bell",
-      "city": "Davie",
-      "state": "FL",
-      "price": 3.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "021307",
+      "store_name": "Taco Bell",
+      "city": "Wichita",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-09-18T21:20:16.115345+00:00"
+    },
+    {
+      "store_number": "041343",
+      "store_name": "Taco Bell",
+      "city": "Pinole",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-09-18T21:19:58.926904+00:00"
+    },
+    {
+      "store_number": "032053",
+      "store_name": "Taco Bell",
+      "city": "Wichita",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-09-18T21:19:54.982356+00:00"
+    },
+    {
+      "store_number": "029887",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-09-18T21:19:52.589241+00:00"
+    },
+    {
+      "store_number": "033767",
+      "store_name": "Taco Bell",
+      "city": "Dayton",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-09-18T21:19:33.975759+00:00"
+    },
+    {
+      "store_number": "009507",
+      "store_name": "Taco Bell",
+      "city": "Salem",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-09-18T21:19:07.378069+00:00"
+    },
+    {
+      "store_number": "022521",
+      "store_name": "Taco Bell",
+      "city": "Augusta",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-09-18T21:18:52.663303+00:00"
+    },
+    {
+      "store_number": "039075",
+      "store_name": "Taco Bell",
+      "city": "Stamford",
+      "state": "CT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-09-18T21:18:43.323061+00:00"
+    },
+    {
+      "store_number": "016435",
+      "store_name": "Taco Bell",
+      "city": "Rock Hill",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-09-18T21:18:11.820643+00:00"
+    },
+    {
+      "store_number": "041094",
+      "store_name": "Taco Bell",
+      "city": "Gastonia",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-09-18T21:18:10.074054+00:00"
+    },
+    {
+      "store_number": "042417",
+      "store_name": "Taco Bell",
+      "city": "Wichita",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-09-18T21:17:50.791609+00:00"
+    },
     {
       "store_number": "030089",
       "store_name": "Taco Bell",
@@ -12942,8 +13061,8 @@
     }
   ],
   "activity_summary": {
-    "added": 538,
-    "removed": 537,
+    "added": 545,
+    "removed": 541,
     "price_changed": 191,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13295,6 +13414,42 @@
       "NM"
     ],
     [
+      "042417",
+      37.73724,
+      -97.208302,
+      2.59,
+      "Taco Bell",
+      "Wichita",
+      "KS"
+    ],
+    [
+      "022521",
+      37.67974242395061,
+      -96.98534115219445,
+      2.59,
+      "Taco Bell",
+      "Augusta",
+      "KS"
+    ],
+    [
+      "032053",
+      37.662683890037535,
+      -97.22671548346716,
+      2.59,
+      "Taco Bell",
+      "Wichita",
+      "KS"
+    ],
+    [
+      "021307",
+      37.67858346562989,
+      -97.19969809055328,
+      2.59,
+      "Taco Bell",
+      "Wichita",
+      "KS"
+    ],
+    [
       "037167",
       33.00633084286384,
       -97.0149135285389,
@@ -13592,6 +13747,15 @@
       "TX"
     ],
     [
+      "033767",
+      39.730452662497434,
+      -84.1416574269806,
+      2.69,
+      "Taco Bell",
+      "Dayton",
+      "OH"
+    ],
+    [
       "036000",
       34.076910339390565,
       -98.55837532831053,
@@ -13769,6 +13933,15 @@
       2.79,
       "Taco Bell",
       "Allen",
+      "TX"
+    ],
+    [
+      "029887",
+      32.98928076538612,
+      -96.85428549350945,
+      2.79,
+      "Taco Bell",
+      "Dallas",
       "TX"
     ],
     [
@@ -15491,24 +15664,6 @@
       "TX"
     ],
     [
-      "016435",
-      34.952245496453834,
-      -81.06396478855513,
-      2.99,
-      "Taco Bell",
-      "Rock Hill",
-      "SC"
-    ],
-    [
-      "041094",
-      35.26195649601167,
-      -81.15648187232182,
-      2.99,
-      "Taco Bell",
-      "Gastonia",
-      "NC"
-    ],
-    [
       "041569",
       29.96033750580959,
       -90.18338531255722,
@@ -15552,15 +15707,6 @@
       "Taco Bell",
       "Bennett",
       "CO"
-    ],
-    [
-      "009507",
-      44.946209713485764,
-      -123.04925186954354,
-      2.99,
-      "Taco Bell",
-      "Salem",
-      "OR"
     ],
     [
       "038846",
@@ -18767,15 +18913,6 @@
       "OK"
     ],
     [
-      "041343",
-      37.9919826460231,
-      -122.30292810942046,
-      3.29,
-      "Taco Bell",
-      "Pinole",
-      "CA"
-    ],
-    [
       "004681",
       36.061216601539094,
       -95.96988299492295,
@@ -19539,6 +19676,15 @@
       "Taco Bell",
       "South San Francisco",
       "CA"
+    ],
+    [
+      "039075",
+      41.05507678768346,
+      -73.52995911243852,
+      3.59,
+      "Taco Bell",
+      "Stamford",
+      "CT"
     ]
   ],
   "retired_at": null,
@@ -19547,7 +19693,7 @@
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 3.11,
+      "avg_price": 3.1,
       "min_price": 2.39,
       "max_price": 4.29,
       "calories": 0,

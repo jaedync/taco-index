@@ -14,22 +14,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 85.6,
+  "peak_30d_pct": 84.7,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-06-17T20:56:58.322414+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.3,
   "price_stats": {
     "avg": 3.05,
     "min": 3.0,
     "max": 3.99,
     "median": 3.0,
-    "std_dev": 0.23,
-    "store_count": 19
+    "std_dev": 0.22,
+    "store_count": 20
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 18
+      "count": 19
     },
     {
       "bucket": "$3.99",
@@ -152,7 +152,8 @@
     "038900",
     "038893",
     "038878",
-    "040440"
+    "040440",
+    "043122"
   ],
   "priciest_stores": [
     {
@@ -161,6 +162,13 @@
       "city": "Durham",
       "state": "NC",
       "price": 3.99
+    },
+    {
+      "store_number": "043122",
+      "name": "Taco Bell",
+      "city": "Mead",
+      "state": "WA",
+      "price": 3.0
     },
     {
       "store_number": "040440",
@@ -217,16 +225,19 @@
       "city": "Coshocton",
       "state": "OH",
       "price": 3.0
-    },
-    {
-      "store_number": "035690",
-      "name": "Taco Bell",
-      "city": "Rosenberg",
-      "state": "TX",
-      "price": 3.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043122",
+      "store_name": "Taco Bell",
+      "city": "Mead",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-09-18T21:20:37.669117+00:00"
+    },
     {
       "store_number": "043223",
       "store_name": "Taco Bell",
@@ -175909,7 +175920,7 @@
     }
   ],
   "activity_summary": {
-    "added": 8682,
+    "added": 8683,
     "removed": 8655,
     "price_changed": 231,
     "since": "2026-03-31T00:00:00+00:00"
@@ -176082,6 +176093,15 @@
       "OH"
     ],
     [
+      "043122",
+      47.789135,
+      -117.353199,
+      3.0,
+      "Taco Bell",
+      "Mead",
+      "WA"
+    ],
+    [
       "028626",
       35.90448065012129,
       -78.94160410612062,
@@ -176092,6 +176112,6 @@
     ]
   ],
   "retired_at": "2026-06-30T21:32:14.462896+00:00",
-  "last_seen_date": "2026-09-17",
+  "last_seen_date": "2026-09-18",
   "peak_availability_pct": 91.9
 }

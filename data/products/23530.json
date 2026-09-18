@@ -20,21 +20,15 @@
     "max": 3.0,
     "median": 3.0,
     "std_dev": 0.0,
-    "store_count": 5
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 5
+      "count": 4
     }
   ],
-  "state_prices": [
-    {
-      "state": "AL",
-      "avg_price": 3.0,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -65,13 +59,6 @@
       "price": 3.0
     },
     {
-      "store_number": "029166",
-      "name": "Taco Bell",
-      "city": "Bessemer",
-      "state": "AL",
-      "price": 3.0
-    },
-    {
       "store_number": "029110",
       "name": "Taco Bell",
       "city": "Birmingham",
@@ -89,7 +76,6 @@
   "min_price_store_numbers": [
     "037013",
     "029145",
-    "029166",
     "029110",
     "041491"
   ],
@@ -109,13 +95,6 @@
       "price": 3.0
     },
     {
-      "store_number": "029166",
-      "name": "Taco Bell",
-      "city": "Bessemer",
-      "state": "AL",
-      "price": 3.0
-    },
-    {
       "store_number": "029145",
       "name": "Taco Bell",
       "city": "Cullman",
@@ -131,6 +110,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029166",
+      "store_name": "Taco Bell",
+      "city": "Bessemer",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 3.0,
+      "new_price": null,
+      "observed_at": "2026-09-18T21:18:19.547500+00:00"
+    },
     {
       "store_number": "029622",
       "store_name": "Taco Bell",
@@ -264,7 +253,7 @@
   ],
   "activity_summary": {
     "added": 9,
-    "removed": 4,
+    "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -292,15 +281,6 @@
       "AL"
     ],
     [
-      "029166",
-      33.33339473972188,
-      -86.99581415870725,
-      3.0,
-      "Taco Bell",
-      "Bessemer",
-      "AL"
-    ],
-    [
       "029110",
       33.59457015755221,
       -86.69442415237432,
@@ -320,6 +300,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-09-17",
+  "last_seen_date": "2026-09-18",
   "peak_availability_pct": 0.1
 }

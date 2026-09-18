@@ -22,12 +22,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7670
+    "store_count": 7671
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7670
+      "count": 7671
     }
   ],
   "state_prices": [
@@ -49,7 +49,7 @@
     {
       "state": "WA",
       "avg_price": 0.0,
-      "store_count": 139
+      "store_count": 140
     },
     {
       "state": "VA",
@@ -64,7 +64,7 @@
     {
       "state": "TX",
       "avg_price": 0.0,
-      "store_count": 702
+      "store_count": 703
     },
     {
       "state": "TN",
@@ -114,7 +114,7 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 85
+      "store_count": 84
     },
     {
       "state": "NM",
@@ -159,7 +159,7 @@
     {
       "state": "MO",
       "avg_price": 0.0,
-      "store_count": 226
+      "store_count": 227
     },
     {
       "state": "MN",
@@ -259,7 +259,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 833
+      "store_count": 832
     },
     {
       "state": "AZ",
@@ -1370,6 +1370,7 @@
     "042481",
     "042562",
     "042528",
+    "041334",
     "042554",
     "035167",
     "042417",
@@ -1692,7 +1693,6 @@
     "036309",
     "037338",
     "040884",
-    "037525",
     "038966",
     "038778",
     "037494",
@@ -2138,7 +2138,6 @@
     "004848",
     "027804",
     "033303",
-    "004578",
     "003584",
     "035362",
     "029498",
@@ -5055,6 +5054,7 @@
     "032983",
     "031985",
     "021144",
+    "035240",
     "009538",
     "027824",
     "035741",
@@ -7966,7 +7966,6 @@
     "004161",
     "017105",
     "031966",
-    "036244",
     "034786",
     "034661",
     "040419",
@@ -8038,9 +8037,25 @@
     "042676",
     "041406",
     "043041",
-    "043444"
+    "043444",
+    "043122",
+    "043054"
   ],
   "priciest_stores": [
+    {
+      "store_number": "043054",
+      "name": "Taco Bell",
+      "city": "Jacksboro",
+      "state": "TX",
+      "price": 0.0
+    },
+    {
+      "store_number": "043122",
+      "name": "Taco Bell",
+      "city": "Mead",
+      "state": "WA",
+      "price": 0.0
+    },
     {
       "store_number": "043444",
       "name": "Taco Bell",
@@ -8096,23 +8111,69 @@
       "city": "Pittsburgh",
       "state": "PA",
       "price": 0.0
-    },
-    {
-      "store_number": "043201",
-      "name": "Taco Bell",
-      "city": "Jonesborough",
-      "state": "TN",
-      "price": 0.0
-    },
-    {
-      "store_number": "043053",
-      "name": "Taco Bell",
-      "city": "Beaumont",
-      "state": "TX",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043054",
+      "store_name": "Taco Bell",
+      "city": "Jacksboro",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-09-18T21:20:37.692377+00:00"
+    },
+    {
+      "store_number": "043122",
+      "store_name": "Taco Bell",
+      "city": "Mead",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-09-18T21:20:37.669117+00:00"
+    },
+    {
+      "store_number": "036244",
+      "store_name": "Taco Bell",
+      "city": "Sparks",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-09-18T21:20:06.931429+00:00"
+    },
+    {
+      "store_number": "035240",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-09-18T21:19:28.889613+00:00"
+    },
+    {
+      "store_number": "037525",
+      "store_name": "Taco Bell",
+      "city": "Middle Village",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-09-18T21:18:03.312961+00:00"
+    },
+    {
+      "store_number": "041334",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-09-18T21:17:50.998960+00:00"
+    },
     {
       "store_number": "043444",
       "store_name": "Taco Bell",
@@ -17205,8 +17266,8 @@
     }
   ],
   "activity_summary": {
-    "added": 464,
-    "removed": 445,
+    "added": 468,
+    "removed": 447,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -26225,6 +26286,15 @@
       "CA"
     ],
     [
+      "041334",
+      40.69229211177486,
+      -73.99141198374691,
+      0.0,
+      "Taco Bell",
+      "Brooklyn",
+      "NY"
+    ],
+    [
       "042554",
       30.9659987,
       -97.5329573,
@@ -29121,15 +29191,6 @@
       "Taco Bell",
       "Norwood",
       "MA"
-    ],
-    [
-      "037525",
-      40.71368323352599,
-      -73.90140968095892,
-      0.0,
-      "Taco Bell",
-      "Middle Village",
-      "NY"
     ],
     [
       "038966",
@@ -33135,15 +33196,6 @@
       "Taco Bell",
       "Madison Heights",
       "MI"
-    ],
-    [
-      "004578",
-      35.38940988705359,
-      -119.00323341786759,
-      0.0,
-      "Taco Bell",
-      "Bakersfield",
-      "CA"
     ],
     [
       "003584",
@@ -59390,6 +59442,15 @@
       "MT"
     ],
     [
+      "035240",
+      39.18715097015936,
+      -94.54660139585388,
+      0.0,
+      "Taco Bell",
+      "Kansas City",
+      "MO"
+    ],
+    [
       "009538",
       41.470433349370474,
       -87.3020822090971,
@@ -85589,15 +85650,6 @@
       "WI"
     ],
     [
-      "036244",
-      39.53105751055179,
-      -119.71590512967516,
-      0.0,
-      "Taco Bell",
-      "Sparks",
-      "NV"
-    ],
-    [
       "034786",
       37.97724933062687,
       -87.6292207436168,
@@ -86244,6 +86296,24 @@
       "Taco Bell",
       "Clinton",
       "AR"
+    ],
+    [
+      "043122",
+      47.789135,
+      -117.353199,
+      0.0,
+      "Taco Bell",
+      "Mead",
+      "WA"
+    ],
+    [
+      "043054",
+      33.22653,
+      -98.16255,
+      0.0,
+      "Taco Bell",
+      "Jacksboro",
+      "TX"
     ]
   ],
   "retired_at": null,

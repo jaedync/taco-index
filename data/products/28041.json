@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.8,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-09-17T21:51:02.005179+00:00",
-  "availability_pct": 0.8,
+  "availability_pct": 0.9,
   "price_stats": {
     "avg": 3.0,
     "min": 3.0,
     "max": 3.0,
     "median": 3.0,
     "std_dev": 0.0,
-    "store_count": 64
+    "store_count": 66
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 64
+      "count": 66
     }
   ],
   "state_prices": [
@@ -38,7 +38,7 @@
     {
       "state": "NC",
       "avg_price": 3.0,
-      "store_count": 56
+      "store_count": 58
     }
   ],
   "nutrition": {
@@ -163,7 +163,6 @@
     "005500",
     "002426",
     "032754",
-    "032748",
     "005671",
     "031111",
     "004939",
@@ -191,9 +190,33 @@
     "041092",
     "027434",
     "039118",
-    "039117"
+    "039117",
+    "032752",
+    "023183",
+    "020959"
   ],
   "priciest_stores": [
+    {
+      "store_number": "020959",
+      "name": "Taco Bell",
+      "city": "Hickory",
+      "state": "NC",
+      "price": 3.0
+    },
+    {
+      "store_number": "023183",
+      "name": "Taco Bell",
+      "city": "Kannapolis",
+      "state": "NC",
+      "price": 3.0
+    },
+    {
+      "store_number": "032752",
+      "name": "Taco Bell",
+      "city": "Concord",
+      "state": "NC",
+      "price": 3.0
+    },
     {
       "store_number": "039117",
       "name": "Taco Bell",
@@ -242,30 +265,49 @@
       "city": "Charlotte",
       "state": "NC",
       "price": 3.0
-    },
-    {
-      "store_number": "020917",
-      "name": "Taco Bell",
-      "city": "Lancaster",
-      "state": "SC",
-      "price": 3.0
-    },
-    {
-      "store_number": "020568",
-      "name": "Taco Bell",
-      "city": "Kings Mountain",
-      "state": "NC",
-      "price": 3.0
-    },
-    {
-      "store_number": "002804",
-      "name": "Taco Bell",
-      "city": "Belmont",
-      "state": "NC",
-      "price": 3.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032748",
+      "store_name": "Taco Bell",
+      "city": "Kannapolis",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 3.0,
+      "new_price": null,
+      "observed_at": "2026-09-18T21:18:13.888485+00:00"
+    },
+    {
+      "store_number": "020959",
+      "store_name": "Taco Bell",
+      "city": "Hickory",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-09-18T21:18:09.561937+00:00"
+    },
+    {
+      "store_number": "023183",
+      "store_name": "Taco Bell",
+      "city": "Kannapolis",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-09-18T21:18:08.856106+00:00"
+    },
+    {
+      "store_number": "032752",
+      "store_name": "Taco Bell",
+      "city": "Concord",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-09-18T21:18:08.474000+00:00"
+    },
     {
       "store_number": "039117",
       "store_name": "Taco Bell",
@@ -908,8 +950,8 @@
     }
   ],
   "activity_summary": {
-    "added": 64,
-    "removed": 0,
+    "added": 67,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1234,15 +1276,6 @@
       "NC"
     ],
     [
-      "032748",
-      35.46528022800964,
-      -80.59029684776617,
-      3.0,
-      "Taco Bell",
-      "Kannapolis",
-      "NC"
-    ],
-    [
       "005671",
       35.20409370118259,
       -80.8633299171924,
@@ -1492,6 +1525,33 @@
       3.0,
       "Taco Bell",
       "Mt Holly",
+      "NC"
+    ],
+    [
+      "032752",
+      35.4292587546179,
+      -80.60871190858506,
+      3.0,
+      "Taco Bell",
+      "Concord",
+      "NC"
+    ],
+    [
+      "023183",
+      35.478883889462644,
+      -80.61215311288834,
+      3.0,
+      "Taco Bell",
+      "Kannapolis",
+      "NC"
+    ],
+    [
+      "020959",
+      35.74665665677179,
+      -81.3656051162593,
+      3.0,
+      "Taco Bell",
+      "Hickory",
       "NC"
     ]
   ],

@@ -14,21 +14,25 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 91.6,
-  "recent_price_change_pct": 0.0433,
+  "recent_price_change_pct": 0.0637,
   "first_seen_at": "2026-04-16T21:05:37.766950+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 10.66,
+    "avg": 10.87,
     "min": 9.99,
     "max": 11.99,
-    "median": 9.99,
-    "std_dev": 1.15,
-    "store_count": 3
+    "median": 10.74,
+    "std_dev": 1.03,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$9.99",
       "count": 2
+    },
+    {
+      "bucket": "$11.49",
+      "count": 1
     },
     {
       "bucket": "$11.99",
@@ -66,6 +70,13 @@
       "price": 9.99
     },
     {
+      "store_number": "043122",
+      "name": "Taco Bell",
+      "city": "Mead",
+      "state": "WA",
+      "price": 11.49
+    },
+    {
       "store_number": "028626",
       "name": "Taco Bell",
       "city": "Durham",
@@ -86,6 +97,13 @@
       "price": 11.99
     },
     {
+      "store_number": "043122",
+      "name": "Taco Bell",
+      "city": "Mead",
+      "state": "WA",
+      "price": 11.49
+    },
+    {
       "store_number": "041488",
       "name": "Taco Bell (ATL Airport)",
       "city": "Atlanta",
@@ -101,6 +119,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043122",
+      "store_name": "Taco Bell",
+      "city": "Mead",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.49,
+      "observed_at": "2026-09-18T21:20:37.669117+00:00"
+    },
     {
       "store_number": "043041",
       "store_name": "Taco Bell",
@@ -181953,7 +181981,7 @@
     }
   ],
   "activity_summary": {
-    "added": 9080,
+    "added": 9081,
     "removed": 9074,
     "price_changed": 31,
     "since": "2026-03-31T00:00:00+00:00"
@@ -182007,6 +182035,15 @@
       "GA"
     ],
     [
+      "043122",
+      47.789135,
+      -117.353199,
+      11.49,
+      "Taco Bell",
+      "Mead",
+      "WA"
+    ],
+    [
       "028626",
       35.90448065012129,
       -78.94160410612062,
@@ -182017,6 +182054,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-09-17",
+  "last_seen_date": "2026-09-18",
   "peak_availability_pct": 91.6
 }
