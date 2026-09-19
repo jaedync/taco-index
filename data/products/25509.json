@@ -22,12 +22,12 @@
     "max": 5.99,
     "median": 2.49,
     "std_dev": 0.22,
-    "store_count": 7559
+    "store_count": 7561
   },
   "histogram": [
     {
       "bucket": "$2.49",
-      "count": 4639
+      "count": 4641
     },
     {
       "bucket": "$2.50",
@@ -225,7 +225,7 @@
     {
       "state": "MA",
       "avg_price": 2.68,
-      "store_count": 64
+      "store_count": 65
     },
     {
       "state": "DC",
@@ -233,14 +233,14 @@
       "store_count": 7
     },
     {
-      "state": "NY",
-      "avg_price": 2.67,
-      "store_count": 253
-    },
-    {
       "state": "IL",
       "avg_price": 2.67,
       "store_count": 285
+    },
+    {
+      "state": "NY",
+      "avg_price": 2.67,
+      "store_count": 254
     },
     {
       "state": "KS",
@@ -310,7 +310,7 @@
     {
       "state": "IN",
       "avg_price": 2.52,
-      "store_count": 255
+      "store_count": 256
     },
     {
       "state": "SC",
@@ -320,7 +320,7 @@
     {
       "state": "TN",
       "avg_price": 2.51,
-      "store_count": 254
+      "store_count": 253
     },
     {
       "state": "LA",
@@ -741,6 +741,7 @@
     "041878",
     "040932",
     "042015",
+    "034814",
     "033495",
     "035016",
     "034943",
@@ -1630,7 +1631,6 @@
     "034576",
     "030925",
     "002689",
-    "024434",
     "024444",
     "029113",
     "027361",
@@ -3762,7 +3762,6 @@
     "041399",
     "024104",
     "004377",
-    "026432",
     "036759",
     "029081",
     "027037",
@@ -5046,6 +5045,7 @@
     "042871",
     "023126",
     "031504",
+    "028893",
     "042882",
     "031572",
     "030174",
@@ -5110,7 +5110,9 @@
     "032759",
     "041406",
     "043444",
-    "043054"
+    "043054",
+    "042618",
+    "040016"
   ],
   "priciest_stores": [
     {
@@ -5185,6 +5187,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040016",
+      "store_name": "Taco Bell",
+      "city": "Bohemia",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-09-19T21:28:46.912737+00:00"
+    },
+    {
+      "store_number": "042618",
+      "store_name": "Taco Bell",
+      "city": "Eatonton",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-09-19T21:28:46.900232+00:00"
+    },
+    {
+      "store_number": "028893",
+      "store_name": "Taco Bell",
+      "city": "Fishers",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-09-19T21:28:24.223256+00:00"
+    },
+    {
+      "store_number": "026432",
+      "store_name": "Taco Bell",
+      "city": "Pigeon Forge",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-09-19T21:27:52.469251+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.59,
+      "new_price": null,
+      "observed_at": "2026-09-19T21:26:37.873783+00:00"
+    },
+    {
+      "store_number": "024434",
+      "store_name": "Taco Bell",
+      "city": "Allen Park",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-09-19T21:26:02.415320+00:00"
+    },
+    {
+      "store_number": "042066",
+      "store_name": "Taco Bell",
+      "city": "Cambridge",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-09-19T21:25:35.637698+00:00"
+    },
+    {
+      "store_number": "034814",
+      "store_name": "Taco Bell",
+      "city": "New Hudson",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-09-19T21:25:08.163116+00:00"
+    },
     {
       "store_number": "043054",
       "store_name": "Taco Bell",
@@ -25667,8 +25749,8 @@
     }
   ],
   "activity_summary": {
-    "added": 821,
-    "removed": 848,
+    "added": 826,
+    "removed": 851,
     "price_changed": 379,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -28110,6 +28192,15 @@
       "Taco Bell",
       "Warren",
       "OH"
+    ],
+    [
+      "034814",
+      42.51408349329777,
+      -83.61905764312564,
+      2.49,
+      "Taco Bell",
+      "New Hudson",
+      "MI"
     ],
     [
       "033495",
@@ -36111,15 +36202,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Deer Park",
       "TX"
-    ],
-    [
-      "024434",
-      42.28049949862675,
-      -83.20662503630119,
-      2.49,
-      "Taco Bell",
-      "Allen Park",
-      "MI"
     ],
     [
       "024444",
@@ -55301,15 +55383,6 @@
       "OK"
     ],
     [
-      "026432",
-      35.80377693492917,
-      -83.58050286769867,
-      2.49,
-      "Taco Bell",
-      "Pigeon Forge",
-      "TN"
-    ],
-    [
       "036759",
       32.449642672572686,
       -100.39677819993955,
@@ -66857,6 +66930,15 @@
       "WI"
     ],
     [
+      "028893",
+      39.95391533947413,
+      -86.04067158219901,
+      2.49,
+      "Taco Bell",
+      "Fishers",
+      "IN"
+    ],
+    [
       "042882",
       30.18600083709369,
       -81.73982814701048,
@@ -67434,12 +67516,30 @@
     ],
     [
       "043054",
-      33.22653,
-      -98.16255,
+      33.2265057,
+      -98.1625753,
       2.49,
       "Taco Bell",
       "Jacksboro",
       "TX"
+    ],
+    [
+      "042618",
+      33.3479975,
+      -83.3930772,
+      2.49,
+      "Taco Bell",
+      "Eatonton",
+      "GA"
+    ],
+    [
+      "040016",
+      40.7629,
+      -73.0937,
+      2.49,
+      "Taco Bell",
+      "Bohemia",
+      "NY"
     ],
     [
       "037015",
@@ -67962,6 +68062,15 @@
       "Taco Bell",
       "Hodgenville",
       "KY"
+    ],
+    [
+      "042066",
+      42.36819,
+      -71.07786,
+      2.59,
+      "Taco Bell",
+      "Cambridge",
+      "MA"
     ],
     [
       "041586",
@@ -68781,15 +68890,6 @@
       "Taco Bell",
       "Shreveport",
       "LA"
-    ],
-    [
-      "041249",
-      33.96647033026141,
-      -84.010348240854,
-      2.59,
-      "Taco Bell",
-      "Lawrenceville",
-      "GA"
     ],
     [
       "034180",

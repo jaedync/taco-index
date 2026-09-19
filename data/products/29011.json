@@ -14,7 +14,7 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.0,
-  "recent_price_change_pct": -0.0216,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
   "availability_pct": 1.0,
   "price_stats": {
@@ -23,12 +23,12 @@
     "max": 5.49,
     "median": 3.99,
     "std_dev": 0.17,
-    "store_count": 80
+    "store_count": 78
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 79
+      "count": 77
     },
     {
       "bucket": "$5.49",
@@ -39,7 +39,7 @@
     {
       "state": "FL",
       "avg_price": 4.01,
-      "store_count": 79
+      "store_count": 77
     }
   ],
   "nutrition": {
@@ -190,7 +190,6 @@
     "022587",
     "022594",
     "023289",
-    "027973",
     "027987",
     "039585",
     "023301",
@@ -206,7 +205,6 @@
     "042928",
     "027989",
     "027977",
-    "034162",
     "042971"
   ],
   "priciest_stores": [
@@ -221,13 +219,6 @@
       "store_number": "042971",
       "name": "Taco Bell",
       "city": "Palm Coast",
-      "state": "FL",
-      "price": 3.99
-    },
-    {
-      "store_number": "034162",
-      "name": "Taco Bell",
-      "city": "Kissimmee",
       "state": "FL",
       "price": 3.99
     },
@@ -279,9 +270,36 @@
       "city": "Winter Springs",
       "state": "FL",
       "price": 3.99
+    },
+    {
+      "store_number": "042942",
+      "name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034162",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-09-19T21:28:42.969449+00:00"
+    },
+    {
+      "store_number": "027973",
+      "store_name": "Taco Bell",
+      "city": "Rockledge",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-09-19T21:27:58.271170+00:00"
+    },
     {
       "store_number": "023300",
       "store_name": "Taco Bell",
@@ -2205,7 +2223,7 @@
   ],
   "activity_summary": {
     "added": 135,
-    "removed": 57,
+    "removed": 59,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2777,15 +2795,6 @@
       "FL"
     ],
     [
-      "027973",
-      28.331229902743292,
-      -80.72642873693731,
-      3.99,
-      "Taco Bell",
-      "Rockledge",
-      "FL"
-    ],
-    [
       "027987",
       28.657739479407898,
       -81.17707944944408,
@@ -2918,15 +2927,6 @@
       3.99,
       "Taco Bell",
       "Orlando",
-      "FL"
-    ],
-    [
-      "034162",
-      28.198881542033824,
-      -81.44054558680533,
-      3.99,
-      "Taco Bell",
-      "Kissimmee",
       "FL"
     ],
     [

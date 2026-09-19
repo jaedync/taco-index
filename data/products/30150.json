@@ -10,7 +10,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 3.7,
+  "peak_30d_pct": 0.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.959150+00:00",
   "availability_pct": 0.5,
@@ -20,12 +20,12 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 40
+    "store_count": 39
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 40
+      "count": 39
     }
   ],
   "state_prices": [
@@ -37,7 +37,7 @@
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 20
+      "store_count": 19
     }
   ],
   "nutrition": {
@@ -91,13 +91,6 @@
       "price": 4.99
     },
     {
-      "store_number": "033308",
-      "name": "Taco Bell",
-      "city": "Clawson",
-      "state": "MI",
-      "price": 4.99
-    },
-    {
       "store_number": "040534",
       "name": "Taco Bell",
       "city": "Cleveland",
@@ -124,6 +117,13 @@
       "city": "Vermilion",
       "state": "OH",
       "price": 4.99
+    },
+    {
+      "store_number": "028167",
+      "name": "Taco Bell",
+      "city": "Macomb",
+      "state": "MI",
+      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
@@ -132,7 +132,6 @@
     "037663",
     "022262",
     "038908",
-    "033308",
     "040534",
     "002086",
     "003791",
@@ -241,6 +240,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033308",
+      "store_name": "Taco Bell",
+      "city": "Clawson",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-09-19T21:25:51.521419+00:00"
+    },
     {
       "store_number": "002681",
       "store_name": "Taco Bell",
@@ -8124,7 +8133,7 @@
   ],
   "activity_summary": {
     "added": 414,
-    "removed": 374,
+    "removed": 375,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8177,15 +8186,6 @@
       "Taco Bell",
       "Alliance",
       "OH"
-    ],
-    [
-      "033308",
-      42.53188172228296,
-      -83.16505417227751,
-      4.99,
-      "Taco Bell",
-      "Clawson",
-      "MI"
     ],
     [
       "040534",
@@ -8495,6 +8495,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-09-18",
+  "last_seen_date": "2026-09-19",
   "peak_availability_pct": 3.8
 }

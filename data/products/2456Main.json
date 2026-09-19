@@ -12,17 +12,17 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 0.9,
-  "recent_price_change_pct": -0.0302,
+  "peak_30d_pct": 1.0,
+  "recent_price_change_pct": -0.0267,
   "first_seen_at": "2026-08-28T21:18:11.177078+00:00",
-  "availability_pct": 0.9,
+  "availability_pct": 1.1,
   "price_stats": {
-    "avg": 3.35,
+    "avg": 3.36,
     "min": 2.49,
     "max": 3.69,
     "median": 3.29,
     "std_dev": 0.2,
-    "store_count": 73
+    "store_count": 83
   },
   "histogram": [
     {
@@ -43,11 +43,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$3.29",
-      "count": 22
+      "count": 27
     },
     {
       "bucket": "$3.39",
@@ -55,32 +55,37 @@
     },
     {
       "bucket": "$3.49",
-      "count": 24
+      "count": 23
     },
     {
       "bucket": "$3.59",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$3.69",
-      "count": 5
+      "count": 9
     }
   ],
   "state_prices": [
     {
       "state": "MI",
-      "avg_price": 3.69,
-      "store_count": 5
+      "avg_price": 3.65,
+      "store_count": 9
     },
     {
       "state": "CA",
-      "avg_price": 3.47,
+      "avg_price": 3.46,
       "store_count": 24
     },
     {
       "state": "TX",
       "avg_price": 3.27,
-      "store_count": 16
+      "store_count": 15
+    },
+    {
+      "state": "WI",
+      "avg_price": 3.23,
+      "store_count": 5
     }
   ],
   "nutrition": null,
@@ -142,17 +147,17 @@
       "price": 3.19
     },
     {
-      "store_number": "027489",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Mesquite",
-      "state": "TX",
-      "price": 3.19
-    },
-    {
       "store_number": "034572",
       "name": "Taco Bell",
       "city": "Barboursville",
       "state": "WV",
+      "price": 3.19
+    },
+    {
+      "store_number": "031540",
+      "name": "Taco Bell",
+      "city": "Powell",
+      "state": "TN",
       "price": 3.19
     }
   ],
@@ -160,6 +165,27 @@
     "016744"
   ],
   "priciest_stores": [
+    {
+      "store_number": "003527",
+      "name": "Taco Bell",
+      "city": "Ferndale",
+      "state": "MI",
+      "price": 3.69
+    },
+    {
+      "store_number": "027886",
+      "name": "Taco Bell",
+      "city": "Ypsilanti",
+      "state": "MI",
+      "price": 3.69
+    },
+    {
+      "store_number": "040523",
+      "name": "Taco Bell",
+      "city": "Elkhorn",
+      "state": "WI",
+      "price": 3.69
+    },
     {
       "store_number": "042642",
       "name": "Taco Bell",
@@ -196,42 +222,201 @@
       "price": 3.69
     },
     {
-      "store_number": "026737",
+      "store_number": "037169",
       "name": "Taco Bell",
-      "city": "Villa Park",
-      "state": "IL",
-      "price": 3.59
+      "city": "Fraser",
+      "state": "MI",
+      "price": 3.69
     },
     {
-      "store_number": "039080",
+      "store_number": "039108",
       "name": "Taco Bell",
-      "city": "New Brunswick",
+      "city": "Newark",
       "state": "NJ",
       "price": 3.59
-    },
-    {
-      "store_number": "034394",
-      "name": "Taco Bell",
-      "city": "Kansas City",
-      "state": "KS",
-      "price": 3.49
-    },
-    {
-      "store_number": "017255",
-      "name": "Taco Bell",
-      "city": "New Castle",
-      "state": "DE",
-      "price": 3.49
-    },
-    {
-      "store_number": "032533",
-      "name": "Taco Bell",
-      "city": "Hanford",
-      "state": "CA",
-      "price": 3.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030669",
+      "store_name": "Taco Bell",
+      "city": "Columbiana",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-09-19T21:28:33.705579+00:00"
+    },
+    {
+      "store_number": "034394",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-09-19T21:28:32.423744+00:00"
+    },
+    {
+      "store_number": "029283",
+      "store_name": "Taco Bell",
+      "city": "Morrisville",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-09-19T21:28:29.941258+00:00"
+    },
+    {
+      "store_number": "021543",
+      "store_name": "Taco Bell",
+      "city": "Berea",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-09-19T21:28:22.625333+00:00"
+    },
+    {
+      "store_number": "017993",
+      "store_name": "Taco Bell",
+      "city": "McKinleyville",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-09-19T21:27:59.804761+00:00"
+    },
+    {
+      "store_number": "027489",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mesquite",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-09-19T21:27:54.199621+00:00"
+    },
+    {
+      "store_number": "029739",
+      "store_name": "Taco Bell",
+      "city": "Lexington",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-09-19T21:27:43.772007+00:00"
+    },
+    {
+      "store_number": "019209",
+      "store_name": "Taco Bell",
+      "city": "Ventura",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-09-19T21:27:33.906374+00:00"
+    },
+    {
+      "store_number": "005580",
+      "store_name": "Taco Bell",
+      "city": "Northfield",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-09-19T21:27:11.280311+00:00"
+    },
+    {
+      "store_number": "040160",
+      "store_name": "Taco Bell",
+      "city": "Superior",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-09-19T21:26:13.490513+00:00"
+    },
+    {
+      "store_number": "017105",
+      "store_name": "Taco Bell",
+      "city": "Garden City",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-09-19T21:25:59.927842+00:00"
+    },
+    {
+      "store_number": "003527",
+      "store_name": "Taco Bell",
+      "city": "Ferndale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-09-19T21:25:56.292346+00:00"
+    },
+    {
+      "store_number": "029867",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-09-19T21:25:51.581090+00:00"
+    },
+    {
+      "store_number": "027886",
+      "store_name": "Taco Bell",
+      "city": "Ypsilanti",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-09-19T21:25:50.489055+00:00"
+    },
+    {
+      "store_number": "037836",
+      "store_name": "Taco Bell",
+      "city": "Mount Pocono",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-09-19T21:25:45.757852+00:00"
+    },
+    {
+      "store_number": "037169",
+      "store_name": "Taco Bell",
+      "city": "Fraser",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-09-19T21:25:40.053121+00:00"
+    },
+    {
+      "store_number": "039108",
+      "store_name": "Taco Bell",
+      "city": "Newark",
+      "state": "NJ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-09-19T21:25:00.625263+00:00"
+    },
+    {
+      "store_number": "040523",
+      "store_name": "Taco Bell",
+      "city": "Elkhorn",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-09-19T21:24:56.135178+00:00"
+    },
     {
       "store_number": "042688",
       "store_name": "Taco Bell",
@@ -1594,8 +1779,8 @@
     }
   ],
   "activity_summary": {
-    "added": 95,
-    "removed": 22,
+    "added": 109,
+    "removed": 26,
     "price_changed": 19,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1677,15 +1862,6 @@
       "TX"
     ],
     [
-      "027489",
-      32.747273077266925,
-      -96.59862773926898,
-      3.19,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Mesquite",
-      "TX"
-    ],
-    [
       "034572",
       38.413265639282265,
       -82.26123234629426,
@@ -1740,15 +1916,6 @@
       "IN"
     ],
     [
-      "029739",
-      38.04694433273612,
-      -84.55377151073662,
-      3.19,
-      "Taco Bell",
-      "Lexington",
-      "KY"
-    ],
-    [
       "028875",
       39.66025910793475,
       -85.12884885819403,
@@ -1765,6 +1932,33 @@
       "Taco Bell",
       "Thornton",
       "CO"
+    ],
+    [
+      "040160",
+      46.696715633992035,
+      -92.10490124792814,
+      3.19,
+      "Taco Bell",
+      "Superior",
+      "WI"
+    ],
+    [
+      "005580",
+      44.4555733058754,
+      -93.16455735707052,
+      3.19,
+      "Taco Bell",
+      "Northfield",
+      "MN"
+    ],
+    [
+      "021543",
+      37.56753967587725,
+      -84.31270837783819,
+      3.19,
+      "Taco Bell",
+      "Berea",
+      "KY"
     ],
     [
       "027505",
@@ -1965,6 +2159,51 @@
       "PA"
     ],
     [
+      "029867",
+      35.10074468567441,
+      -80.99148988723755,
+      3.29,
+      "Taco Bell",
+      "Charlotte",
+      "NC"
+    ],
+    [
+      "017105",
+      42.325364416289936,
+      -83.32727551460266,
+      3.29,
+      "Taco Bell",
+      "Garden City",
+      "MI"
+    ],
+    [
+      "017993",
+      40.93836910086883,
+      -124.10053021668006,
+      3.29,
+      "Taco Bell",
+      "McKinleyville",
+      "CA"
+    ],
+    [
+      "029283",
+      35.82080837744057,
+      -78.84972430771086,
+      3.29,
+      "Taco Bell",
+      "Morrisville",
+      "NC"
+    ],
+    [
+      "030669",
+      40.90134079022075,
+      -80.69714506433647,
+      3.29,
+      "Taco Bell",
+      "Columbiana",
+      "OH"
+    ],
+    [
       "037365",
       37.9803,
       -86.1597,
@@ -2163,15 +2402,6 @@
       "CA"
     ],
     [
-      "019209",
-      34.24920907609997,
-      -119.19584700468477,
-      3.49,
-      "Taco Bell",
-      "Ventura",
-      "CA"
-    ],
-    [
       "032533",
       36.34399717780381,
       -119.65540756902456,
@@ -2190,13 +2420,13 @@
       "DE"
     ],
     [
-      "034394",
-      39.12901809821786,
-      -94.82332013550149,
+      "037836",
+      41.1204,
+      -75.376,
       3.49,
       "Taco Bell",
-      "Kansas City",
-      "KS"
+      "Mount Pocono",
+      "PA"
     ],
     [
       "039080",
@@ -2215,6 +2445,24 @@
       "Taco Bell",
       "Villa Park",
       "IL"
+    ],
+    [
+      "039108",
+      40.74955078439284,
+      -74.16948229998263,
+      3.59,
+      "Taco Bell",
+      "Newark",
+      "NJ"
+    ],
+    [
+      "037169",
+      42.55079380279747,
+      -82.9623918026545,
+      3.69,
+      "Taco Bell",
+      "Fraser",
+      "MI"
     ],
     [
       "030367",
@@ -2260,6 +2508,33 @@
       "Taco Bell",
       "Grand Rapids",
       "MI"
+    ],
+    [
+      "040523",
+      42.6893,
+      -88.5422,
+      3.69,
+      "Taco Bell",
+      "Elkhorn",
+      "WI"
+    ],
+    [
+      "027886",
+      42.24418764419035,
+      -83.59060935215439,
+      3.69,
+      "Taco Bell",
+      "Ypsilanti",
+      "MI"
+    ],
+    [
+      "003527",
+      42.4539779488215,
+      -83.12952697277069,
+      3.69,
+      "Taco Bell",
+      "Ferndale",
+      "MI"
     ]
   ],
   "retired_at": null,
@@ -2276,7 +2551,7 @@
     },
     {
       "size": "MEDIUM",
-      "avg_price": 3.34,
+      "avg_price": 3.35,
       "min_price": 2.49,
       "max_price": 3.69,
       "calories": 310,

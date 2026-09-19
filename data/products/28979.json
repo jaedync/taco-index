@@ -20,12 +20,12 @@
     "max": 0.8,
     "median": 0.8,
     "std_dev": 0.0,
-    "store_count": 66
+    "store_count": 68
   },
   "histogram": [
     {
       "bucket": "$0.80",
-      "count": 66
+      "count": 68
     }
   ],
   "state_prices": [
@@ -37,7 +37,7 @@
     {
       "state": "NC",
       "avg_price": 0.8,
-      "store_count": 57
+      "store_count": 59
     }
   ],
   "nutrition": {
@@ -192,9 +192,25 @@
     "027434",
     "022180",
     "039118",
-    "039117"
+    "039117",
+    "005349",
+    "031767"
   ],
   "priciest_stores": [
+    {
+      "store_number": "031767",
+      "name": "Taco Bell",
+      "city": "Connelly Spg",
+      "state": "NC",
+      "price": 0.8
+    },
+    {
+      "store_number": "005349",
+      "name": "Taco Bell",
+      "city": "Cornelius",
+      "state": "NC",
+      "price": 0.8
+    },
     {
       "store_number": "039117",
       "name": "Taco Bell",
@@ -250,23 +266,29 @@
       "city": "Charlotte",
       "state": "NC",
       "price": 0.8
-    },
-    {
-      "store_number": "020917",
-      "name": "Taco Bell",
-      "city": "Lancaster",
-      "state": "SC",
-      "price": 0.8
-    },
-    {
-      "store_number": "020568",
-      "name": "Taco Bell",
-      "city": "Kings Mountain",
-      "state": "NC",
-      "price": 0.8
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031767",
+      "store_name": "Taco Bell",
+      "city": "Connelly Spg",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-09-19T21:26:02.838427+00:00"
+    },
+    {
+      "store_number": "005349",
+      "store_name": "Taco Bell",
+      "city": "Cornelius",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-09-19T21:25:55.079679+00:00"
+    },
     {
       "store_number": "032748",
       "store_name": "Taco Bell",
@@ -969,7 +991,7 @@
     }
   ],
   "activity_summary": {
-    "added": 68,
+    "added": 70,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1571,6 +1593,24 @@
       0.8,
       "Taco Bell",
       "Mt Holly",
+      "NC"
+    ],
+    [
+      "005349",
+      35.48359715276182,
+      -80.87746663953112,
+      0.8,
+      "Taco Bell",
+      "Cornelius",
+      "NC"
+    ],
+    [
+      "031767",
+      35.71913303511223,
+      -81.4681733047938,
+      0.8,
+      "Taco Bell",
+      "Connelly Spg",
       "NC"
     ]
   ],

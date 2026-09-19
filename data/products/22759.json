@@ -22,12 +22,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7679
+    "store_count": 7681
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7679
+      "count": 7681
     }
   ],
   "state_prices": [
@@ -44,7 +44,7 @@
     {
       "state": "WI",
       "avg_price": 0.0,
-      "store_count": 139
+      "store_count": 140
     },
     {
       "state": "WA",
@@ -109,7 +109,7 @@
     {
       "state": "NY",
       "avg_price": 0.0,
-      "store_count": 248
+      "store_count": 249
     },
     {
       "state": "NV",
@@ -144,7 +144,7 @@
     {
       "state": "NC",
       "avg_price": 0.0,
-      "store_count": 264
+      "store_count": 263
     },
     {
       "state": "MT",
@@ -169,7 +169,7 @@
     {
       "state": "MI",
       "avg_price": 0.0,
-      "store_count": 345
+      "store_count": 346
     },
     {
       "state": "ME",
@@ -194,7 +194,7 @@
     {
       "state": "KY",
       "avg_price": 0.0,
-      "store_count": 161
+      "store_count": 160
     },
     {
       "state": "KS",
@@ -229,7 +229,7 @@
     {
       "state": "GA",
       "avg_price": 0.0,
-      "store_count": 254
+      "store_count": 255
     },
     {
       "state": "FL",
@@ -1647,7 +1647,6 @@
     "037719",
     "037387",
     "037342",
-    "037672",
     "037358",
     "037372",
     "035183",
@@ -1862,6 +1861,7 @@
     "036153",
     "035710",
     "020959",
+    "021292",
     "033300",
     "001937",
     "002258",
@@ -7078,6 +7078,7 @@
     "032031",
     "030548",
     "019550",
+    "031504",
     "027420",
     "027876",
     "032321",
@@ -7178,7 +7179,6 @@
     "041353",
     "031333",
     "033013",
-    "003421",
     "042221",
     "030256",
     "030418",
@@ -8047,9 +8047,25 @@
     "043041",
     "043444",
     "043122",
-    "043054"
+    "043054",
+    "042618",
+    "040016"
   ],
   "priciest_stores": [
+    {
+      "store_number": "040016",
+      "name": "Taco Bell",
+      "city": "Bohemia",
+      "state": "NY",
+      "price": 0.0
+    },
+    {
+      "store_number": "042618",
+      "name": "Taco Bell",
+      "city": "Eatonton",
+      "state": "GA",
+      "price": 0.0
+    },
     {
       "store_number": "043054",
       "name": "Taco Bell",
@@ -8105,23 +8121,69 @@
       "city": "Smithfield",
       "state": "UT",
       "price": 0.0
-    },
-    {
-      "store_number": "042780",
-      "name": "Taco Bell",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "price": 0.0
-    },
-    {
-      "store_number": "043201",
-      "name": "Taco Bell",
-      "city": "Jonesborough",
-      "state": "TN",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040016",
+      "store_name": "Taco Bell",
+      "city": "Bohemia",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-09-19T21:28:46.912737+00:00"
+    },
+    {
+      "store_number": "042618",
+      "store_name": "Taco Bell",
+      "city": "Eatonton",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-09-19T21:28:46.900232+00:00"
+    },
+    {
+      "store_number": "003421",
+      "store_name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-09-19T21:28:25.367746+00:00"
+    },
+    {
+      "store_number": "031504",
+      "store_name": "Taco Bell",
+      "city": "Neenah",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-09-19T21:28:22.820355+00:00"
+    },
+    {
+      "store_number": "021292",
+      "store_name": "Taco Bell",
+      "city": "Southgate",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-09-19T21:25:51.049210+00:00"
+    },
+    {
+      "store_number": "037672",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-09-19T21:25:44.931993+00:00"
+    },
     {
       "store_number": "043054",
       "store_name": "Taco Bell",
@@ -19564,8 +19626,8 @@
     }
   ],
   "activity_summary": {
-    "added": 588,
-    "removed": 556,
+    "added": 592,
+    "removed": 558,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -31077,15 +31139,6 @@
       "WV"
     ],
     [
-      "037672",
-      38.12798403099686,
-      -85.77693428592043,
-      0.0,
-      "Taco Bell",
-      "Louisville",
-      "KY"
-    ],
-    [
       "037358",
       38.75436653692698,
       -82.92064986611786,
@@ -33010,6 +33063,15 @@
       "Taco Bell",
       "Hickory",
       "NC"
+    ],
+    [
+      "021292",
+      42.215707493747495,
+      -83.18165165889548,
+      0.0,
+      "Taco Bell",
+      "Southgate",
+      "MI"
     ],
     [
       "033300",
@@ -79956,6 +80018,15 @@
       "WA"
     ],
     [
+      "031504",
+      44.17426321763048,
+      -88.49348632385954,
+      0.0,
+      "Taco Bell",
+      "Neenah",
+      "WI"
+    ],
+    [
       "027420",
       36.379419072975686,
       -105.58796187606758,
@@ -80854,15 +80925,6 @@
       "Taco Bell",
       "Wyoming",
       "MI"
-    ],
-    [
-      "003421",
-      35.769614583453944,
-      -78.78220687367504,
-      0.0,
-      "Taco Bell",
-      "Cary",
-      "NC"
     ],
     [
       "042221",
@@ -88678,12 +88740,30 @@
     ],
     [
       "043054",
-      33.22653,
-      -98.16255,
+      33.2265057,
+      -98.1625753,
       0.0,
       "Taco Bell",
       "Jacksboro",
       "TX"
+    ],
+    [
+      "042618",
+      33.3479975,
+      -83.3930772,
+      0.0,
+      "Taco Bell",
+      "Eatonton",
+      "GA"
+    ],
+    [
+      "040016",
+      40.7629,
+      -73.0937,
+      0.0,
+      "Taco Bell",
+      "Bohemia",
+      "NY"
     ]
   ],
   "retired_at": null,
