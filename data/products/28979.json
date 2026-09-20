@@ -20,12 +20,12 @@
     "max": 0.8,
     "median": 0.8,
     "std_dev": 0.0,
-    "store_count": 68
+    "store_count": 69
   },
   "histogram": [
     {
       "bucket": "$0.80",
-      "count": 68
+      "count": 69
     }
   ],
   "state_prices": [
@@ -37,7 +37,7 @@
     {
       "state": "NC",
       "avg_price": 0.8,
-      "store_count": 59
+      "store_count": 60
     }
   ],
   "nutrition": {
@@ -194,9 +194,17 @@
     "039118",
     "039117",
     "005349",
-    "031767"
+    "031767",
+    "032180"
   ],
   "priciest_stores": [
+    {
+      "store_number": "032180",
+      "name": "Taco Bell",
+      "city": "Troutman",
+      "state": "NC",
+      "price": 0.8
+    },
     {
       "store_number": "031767",
       "name": "Taco Bell",
@@ -259,16 +267,19 @@
       "city": "Charlotte",
       "state": "NC",
       "price": 0.8
-    },
-    {
-      "store_number": "005457",
-      "name": "Taco Bell",
-      "city": "Charlotte",
-      "state": "NC",
-      "price": 0.8
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032180",
+      "store_name": "Taco Bell",
+      "city": "Troutman",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-09-20T20:42:16.913919+00:00"
+    },
     {
       "store_number": "031767",
       "store_name": "Taco Bell",
@@ -991,7 +1002,7 @@
     }
   ],
   "activity_summary": {
-    "added": 70,
+    "added": 71,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1611,6 +1622,15 @@
       0.8,
       "Taco Bell",
       "Connelly Spg",
+      "NC"
+    ],
+    [
+      "032180",
+      35.6698569972596,
+      -80.85302218794828,
+      0.8,
+      "Taco Bell",
+      "Troutman",
       "NC"
     ]
   ],

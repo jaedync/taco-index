@@ -20,12 +20,12 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 39
+    "store_count": 40
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 39
+      "count": 40
     }
   ],
   "state_prices": [
@@ -37,7 +37,7 @@
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 19
+      "store_count": 20
     }
   ],
   "nutrition": {
@@ -91,6 +91,13 @@
       "price": 4.99
     },
     {
+      "store_number": "033308",
+      "name": "Taco Bell",
+      "city": "Clawson",
+      "state": "MI",
+      "price": 4.99
+    },
+    {
       "store_number": "040534",
       "name": "Taco Bell",
       "city": "Cleveland",
@@ -117,13 +124,6 @@
       "city": "Vermilion",
       "state": "OH",
       "price": 4.99
-    },
-    {
-      "store_number": "028167",
-      "name": "Taco Bell",
-      "city": "Macomb",
-      "state": "MI",
-      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
@@ -132,6 +132,7 @@
     "037663",
     "022262",
     "038908",
+    "033308",
     "040534",
     "002086",
     "003791",
@@ -240,6 +241,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033308",
+      "store_name": "Taco Bell",
+      "city": "Clawson",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-09-20T20:39:48.091926+00:00"
+    },
     {
       "store_number": "033308",
       "store_name": "Taco Bell",
@@ -8132,7 +8143,7 @@
     }
   ],
   "activity_summary": {
-    "added": 414,
+    "added": 415,
     "removed": 375,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -8186,6 +8197,15 @@
       "Taco Bell",
       "Alliance",
       "OH"
+    ],
+    [
+      "033308",
+      42.53188172228296,
+      -83.16505417227751,
+      4.99,
+      "Taco Bell",
+      "Clawson",
+      "MI"
     ],
     [
       "040534",
@@ -8495,6 +8515,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-09-19",
+  "last_seen_date": "2026-09-20",
   "peak_availability_pct": 3.8
 }
