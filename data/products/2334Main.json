@@ -16,12 +16,12 @@
   "first_seen_at": "2026-09-17T21:51:02.939004+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 2.66,
+    "avg": 2.68,
     "min": 2.29,
     "max": 2.99,
-    "median": 2.49,
-    "std_dev": 0.23,
-    "store_count": 32
+    "median": 2.59,
+    "std_dev": 0.24,
+    "store_count": 31
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 16
+      "count": 14
     },
     {
       "bucket": "$2.59",
@@ -42,14 +42,14 @@
     },
     {
       "bucket": "$2.99",
-      "count": 9
+      "count": 10
     }
   ],
   "state_prices": [
     {
       "state": "MI",
-      "avg_price": 2.65,
-      "store_count": 31
+      "avg_price": 2.67,
+      "store_count": 30
     }
   ],
   "nutrition": {
@@ -73,13 +73,6 @@
       "city": "Saginaw",
       "state": "MI",
       "price": 2.29
-    },
-    {
-      "store_number": "041637",
-      "name": "Taco Bell",
-      "city": "Otisville",
-      "state": "MI",
-      "price": 2.49
     },
     {
       "store_number": "041687",
@@ -117,13 +110,6 @@
       "price": 2.49
     },
     {
-      "store_number": "037213",
-      "name": "Taco Bell",
-      "city": "Montrose",
-      "state": "MI",
-      "price": 2.49
-    },
-    {
       "store_number": "038843",
       "name": "Taco Bell",
       "city": "Vassar",
@@ -134,6 +120,20 @@
       "store_number": "039555",
       "name": "Taco Bell",
       "city": "Chesaning",
+      "state": "MI",
+      "price": 2.49
+    },
+    {
+      "store_number": "039123",
+      "name": "Taco Bell",
+      "city": "Flint",
+      "state": "MI",
+      "price": 2.49
+    },
+    {
+      "store_number": "040005",
+      "name": "Taco Bell",
+      "city": "Grand Blanc",
       "state": "MI",
       "price": 2.49
     }
@@ -178,6 +178,13 @@
       "price": 2.99
     },
     {
+      "store_number": "031824",
+      "name": "Taco Bell",
+      "city": "Bay City",
+      "state": "MI",
+      "price": 2.99
+    },
+    {
       "store_number": "004704",
       "name": "Taco Bell",
       "city": "Newport Beach",
@@ -204,16 +211,59 @@
       "city": "Midland",
       "state": "MI",
       "price": 2.99
-    },
-    {
-      "store_number": "015733",
-      "name": "Taco Bell",
-      "city": "Saginaw",
-      "state": "MI",
-      "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034020",
+      "store_name": "Taco Bell",
+      "city": "Linden",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-09-21T21:10:25.203887+00:00"
+    },
+    {
+      "store_number": "033307",
+      "store_name": "Taco Bell",
+      "city": "Flint",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-09-21T21:09:49.891838+00:00"
+    },
+    {
+      "store_number": "031824",
+      "store_name": "Taco Bell",
+      "city": "Bay City",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-09-21T21:09:30.751064+00:00"
+    },
+    {
+      "store_number": "037213",
+      "store_name": "Taco Bell",
+      "city": "Montrose",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-09-21T21:07:07.497174+00:00"
+    },
+    {
+      "store_number": "041637",
+      "store_name": "Taco Bell",
+      "city": "Otisville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-09-21T21:05:37.303131+00:00"
+    },
     {
       "store_number": "034020",
       "store_name": "Taco Bell",
@@ -1476,8 +1526,8 @@
     }
   ],
   "activity_summary": {
-    "added": 79,
-    "removed": 47,
+    "added": 81,
+    "removed": 50,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1493,15 +1543,6 @@
       2.29,
       "Taco Bell",
       "Saginaw",
-      "MI"
-    ],
-    [
-      "041637",
-      43.16321471676148,
-      -83.5243732030411,
-      2.49,
-      "Taco Bell",
-      "Otisville",
       "MI"
     ],
     [
@@ -1547,15 +1588,6 @@
       2.49,
       "Taco Bell",
       "Sanford",
-      "MI"
-    ],
-    [
-      "037213",
-      43.17595163165859,
-      -83.8873253635425,
-      2.49,
-      "Taco Bell",
-      "Montrose",
       "MI"
     ],
     [
@@ -1622,12 +1654,12 @@
       "MI"
     ],
     [
-      "033307",
-      43.01031843805981,
-      -83.65484765769155,
+      "034020",
+      42.81224917276795,
+      -83.78984129631253,
       2.49,
       "Taco Bell",
-      "Flint",
+      "Linden",
       "MI"
     ],
     [
@@ -1730,6 +1762,15 @@
       "CA"
     ],
     [
+      "031824",
+      43.59285788522184,
+      -83.88822938773149,
+      2.99,
+      "Taco Bell",
+      "Bay City",
+      "MI"
+    ],
+    [
       "002883",
       43.641597659648475,
       -84.25156205892557,
@@ -1776,7 +1817,7 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-09-20",
+  "last_seen_date": "2026-09-21",
   "peak_availability_pct": 0.5,
   "drink_sizes": [
     {
