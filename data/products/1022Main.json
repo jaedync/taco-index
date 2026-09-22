@@ -14,14 +14,14 @@
   "peak_30d_pct": 8.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.034886+00:00",
-  "availability_pct": 9.4,
+  "availability_pct": 9.5,
   "price_stats": {
-    "avg": 3.08,
+    "avg": 3.09,
     "min": 2.39,
-    "max": 3.49,
+    "max": 3.99,
     "median": 3.19,
-    "std_dev": 0.23,
-    "store_count": 729
+    "std_dev": 0.24,
+    "store_count": 733
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 91
+      "count": 92
     },
     {
       "bucket": "$3.09",
@@ -58,11 +58,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 175
+      "count": 176
     },
     {
       "bucket": "$3.29",
-      "count": 250
+      "count": 251
     },
     {
       "bucket": "$3.39",
@@ -70,6 +70,10 @@
     },
     {
       "bucket": "$3.49",
+      "count": 1
+    },
+    {
+      "bucket": "$3.99",
       "count": 1
     }
   ],
@@ -91,8 +95,8 @@
     },
     {
       "state": "CA",
-      "avg_price": 3.19,
-      "store_count": 6
+      "avg_price": 3.2,
+      "store_count": 7
     },
     {
       "state": "LA",
@@ -218,6 +222,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "033852",
+      "name": "Taco Bell",
+      "city": "Boulder",
+      "state": "CO",
+      "price": 3.99
+    },
+    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
@@ -279,16 +290,49 @@
       "city": "Independence",
       "state": "MO",
       "price": 3.39
-    },
-    {
-      "store_number": "034420",
-      "name": "Taco Bell",
-      "city": "Kansas City",
-      "state": "MO",
-      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026831",
+      "store_name": "Taco Bell",
+      "city": "Salinas",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-09-22T21:33:00.640761+00:00"
+    },
+    {
+      "store_number": "033852",
+      "store_name": "Taco Bell",
+      "city": "Boulder",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-09-22T21:32:42.664048+00:00"
+    },
+    {
+      "store_number": "031893",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-09-22T21:31:58.484356+00:00"
+    },
+    {
+      "store_number": "033645",
+      "store_name": "Taco Bell",
+      "city": "Florence",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-09-22T21:31:57.408861+00:00"
+    },
     {
       "store_number": "024778",
       "store_name": "Taco Bell",
@@ -13201,7 +13245,7 @@
     }
   ],
   "activity_summary": {
-    "added": 549,
+    "added": 553,
     "removed": 551,
     "price_changed": 191,
     "since": "2026-03-31T00:00:00+00:00"
@@ -15822,6 +15866,15 @@
       "OH"
     ],
     [
+      "033645",
+      39.00464301529069,
+      -84.62074358762948,
+      2.99,
+      "Taco Bell",
+      "Florence",
+      "KY"
+    ],
+    [
       "022088",
       29.480563205666712,
       -95.3976809084395,
@@ -17422,6 +17475,15 @@
       "Taco Bell",
       "Tampa",
       "FL"
+    ],
+    [
+      "031893",
+      36.28003081839173,
+      -115.26565365498755,
+      3.19,
+      "Taco Bell",
+      "Las Vegas",
+      "NV"
     ],
     [
       "040361",
@@ -19638,6 +19700,15 @@
       "TX"
     ],
     [
+      "026831",
+      36.69492295223749,
+      -121.5969085566711,
+      3.29,
+      "Taco Bell",
+      "Salinas",
+      "CA"
+    ],
+    [
       "041892",
       36.255196,
       -94.156938,
@@ -19771,6 +19842,15 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
+    ],
+    [
+      "033852",
+      39.99974368198052,
+      -105.26234086778172,
+      3.99,
+      "Taco Bell",
+      "Boulder",
+      "CO"
     ]
   ],
   "retired_at": null,

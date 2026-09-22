@@ -14,7 +14,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 0.8,
+  "peak_30d_pct": 0.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:05:37.421561+00:00",
   "availability_pct": 0.9,
@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 70
+    "store_count": 71
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 70
+      "count": 71
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 70
+      "store_count": 71
     }
   ],
   "nutrition": {
@@ -195,9 +195,17 @@
     "042928",
     "023291",
     "023300",
-    "042971"
+    "042971",
+    "034163"
   ],
   "priciest_stores": [
+    {
+      "store_number": "034163",
+      "name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "price": 10.99
+    },
     {
       "store_number": "042971",
       "name": "Taco Bell",
@@ -260,16 +268,19 @@
       "city": "Melbourne",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "023296",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034163",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-22T21:33:29.845938+00:00"
+    },
     {
       "store_number": "027975",
       "store_name": "Taco Bell",
@@ -3552,7 +3563,7 @@
     }
   ],
   "activity_summary": {
-    "added": 199,
+    "added": 200,
     "removed": 129,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4221,6 +4232,15 @@
       10.99,
       "Taco Bell",
       "Palm Coast",
+      "FL"
+    ],
+    [
+      "034163",
+      28.24668494787806,
+      -81.24437438517288,
+      10.99,
+      "Taco Bell",
+      "Saint Cloud",
       "FL"
     ]
   ],

@@ -20,12 +20,12 @@
     "max": 6.99,
     "median": 5.99,
     "std_dev": 0.11,
-    "store_count": 76
+    "store_count": 77
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 75
+      "count": 76
     },
     {
       "bucket": "$6.99",
@@ -36,7 +36,7 @@
     {
       "state": "FL",
       "avg_price": 6.0,
-      "store_count": 76
+      "store_count": 77
     }
   ],
   "nutrition": {
@@ -198,6 +198,7 @@
     "023291",
     "027977",
     "023300",
+    "034163",
     "042971",
     "032959",
     "032354"
@@ -228,6 +229,13 @@
       "store_number": "042971",
       "name": "Taco Bell",
       "city": "Palm Coast",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "034163",
+      "name": "Taco Bell",
+      "city": "Saint Cloud",
       "state": "FL",
       "price": 5.99
     },
@@ -265,16 +273,19 @@
       "city": "Winter Park",
       "state": "FL",
       "price": 5.99
-    },
-    {
-      "store_number": "042927",
-      "name": "Taco Bell",
-      "city": "Belleview",
-      "state": "FL",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034163",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-22T21:33:29.845938+00:00"
+    },
     {
       "store_number": "030999",
       "store_name": "Taco Bell",
@@ -3507,7 +3518,7 @@
     }
   ],
   "activity_summary": {
-    "added": 199,
+    "added": 200,
     "removed": 124,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4163,6 +4174,15 @@
       5.99,
       "Taco Bell",
       "Palm Bay",
+      "FL"
+    ],
+    [
+      "034163",
+      28.24668494787806,
+      -81.24437438517288,
+      5.99,
+      "Taco Bell",
+      "Saint Cloud",
       "FL"
     ],
     [

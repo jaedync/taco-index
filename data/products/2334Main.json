@@ -20,8 +20,8 @@
     "min": 2.29,
     "max": 2.99,
     "median": 2.59,
-    "std_dev": 0.24,
-    "store_count": 31
+    "std_dev": 0.23,
+    "store_count": 32
   },
   "histogram": [
     {
@@ -37,6 +37,10 @@
       "count": 3
     },
     {
+      "bucket": "$2.69",
+      "count": 1
+    },
+    {
       "bucket": "$2.79",
       "count": 3
     },
@@ -49,7 +53,7 @@
     {
       "state": "MI",
       "avg_price": 2.67,
-      "store_count": 30
+      "store_count": 31
     }
   ],
   "nutrition": {
@@ -73,6 +77,13 @@
       "city": "Saginaw",
       "state": "MI",
       "price": 2.29
+    },
+    {
+      "store_number": "041637",
+      "name": "Taco Bell",
+      "city": "Otisville",
+      "state": "MI",
+      "price": 2.49
     },
     {
       "store_number": "041687",
@@ -113,13 +124,6 @@
       "store_number": "038843",
       "name": "Taco Bell",
       "city": "Vassar",
-      "state": "MI",
-      "price": 2.49
-    },
-    {
-      "store_number": "039555",
-      "name": "Taco Bell",
-      "city": "Chesaning",
       "state": "MI",
       "price": 2.49
     },
@@ -214,6 +218,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042651",
+      "store_name": "Taco Bell",
+      "city": "Mount Pleasant",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-09-22T21:33:16.541382+00:00"
+    },
+    {
+      "store_number": "039555",
+      "store_name": "Taco Bell",
+      "city": "Chesaning",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-09-22T21:31:18.327816+00:00"
+    },
+    {
+      "store_number": "041637",
+      "store_name": "Taco Bell",
+      "city": "Otisville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-09-22T21:30:17.670079+00:00"
+    },
     {
       "store_number": "034020",
       "store_name": "Taco Bell",
@@ -1526,8 +1560,8 @@
     }
   ],
   "activity_summary": {
-    "added": 81,
-    "removed": 50,
+    "added": 83,
+    "removed": 51,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1543,6 +1577,15 @@
       2.29,
       "Taco Bell",
       "Saginaw",
+      "MI"
+    ],
+    [
+      "041637",
+      43.16321471676148,
+      -83.5243732030411,
+      2.49,
+      "Taco Bell",
+      "Otisville",
       "MI"
     ],
     [
@@ -1597,15 +1640,6 @@
       2.49,
       "Taco Bell",
       "Vassar",
-      "MI"
-    ],
-    [
-      "039555",
-      43.18738893699121,
-      -84.16774798842435,
-      2.49,
-      "Taco Bell",
-      "Chesaning",
       "MI"
     ],
     [
@@ -1696,6 +1730,15 @@
       2.59,
       "Taco Bell",
       "Midland",
+      "MI"
+    ],
+    [
+      "042651",
+      43.59166704825096,
+      -84.76709604263306,
+      2.69,
+      "Taco Bell",
+      "Mount Pleasant",
       "MI"
     ],
     [
@@ -1817,7 +1860,7 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-09-21",
+  "last_seen_date": "2026-09-22",
   "peak_availability_pct": 0.5,
   "drink_sizes": [
     {

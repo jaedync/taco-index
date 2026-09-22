@@ -21,12 +21,12 @@
     "max": 9.49,
     "median": 9.49,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$9.49",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -38,27 +38,12 @@
       "city": "Augusta",
       "state": "GA",
       "price": 9.49
-    },
-    {
-      "store_number": "043139",
-      "name": "Taco Bell",
-      "city": "Cedartown",
-      "state": "GA",
-      "price": 9.49
     }
   ],
   "min_price_store_numbers": [
-    "043130",
-    "043139"
+    "043130"
   ],
   "priciest_stores": [
-    {
-      "store_number": "043139",
-      "name": "Taco Bell",
-      "city": "Cedartown",
-      "state": "GA",
-      "price": 9.49
-    },
     {
       "store_number": "043130",
       "name": "Taco Bell",
@@ -68,6 +53,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043139",
+      "store_name": "Taco Bell",
+      "city": "Cedartown",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.49,
+      "new_price": null,
+      "observed_at": "2026-09-22T21:32:46.000456+00:00"
+    },
     {
       "store_number": "029049",
       "store_name": "Taco Bell",
@@ -14151,11 +14146,11 @@
   ],
   "activity_summary": {
     "added": 524,
-    "removed": 521,
+    "removed": 522,
     "price_changed": 363,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 0,
+  "calories_from_menu": 650,
   "calories_min": 650,
   "calories_max": 1070,
   "combo_groups": [
@@ -14164,6 +14159,12 @@
       "title": "Fountain Drink - Large",
       "default_product_code": "22902",
       "default_product_name": "Large Fountain Drink"
+    },
+    {
+      "group_id": "660",
+      "title": "Chicken Quesadilla",
+      "default_product_code": "91169",
+      "default_product_name": "Chicken Quesadilla"
     },
     {
       "group_id": "14",
@@ -14181,18 +14182,9 @@
       "Taco Bell",
       "Augusta",
       "GA"
-    ],
-    [
-      "043139",
-      34.01707373238147,
-      -85.2545475922229,
-      9.49,
-      "Taco Bell",
-      "Cedartown",
-      "GA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-09-21",
+  "last_seen_date": "2026-09-22",
   "peak_availability_pct": 6.0
 }
