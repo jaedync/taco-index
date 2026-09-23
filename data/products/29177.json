@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 71
+    "store_count": 70
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 71
+      "count": 70
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 71
+      "store_count": 70
     }
   ],
   "nutrition": {
@@ -140,7 +140,6 @@
     "039587",
     "031840",
     "042941",
-    "022592",
     "027983",
     "027975",
     "027982",
@@ -150,6 +149,7 @@
     "028007",
     "022590",
     "039584",
+    "022595",
     "042933",
     "042914",
     "022587",
@@ -195,17 +195,9 @@
     "042928",
     "023291",
     "023300",
-    "042971",
-    "034163"
+    "042971"
   ],
   "priciest_stores": [
-    {
-      "store_number": "034163",
-      "name": "Taco Bell",
-      "city": "Saint Cloud",
-      "state": "FL",
-      "price": 10.99
-    },
     {
       "store_number": "042971",
       "name": "Taco Bell",
@@ -268,9 +260,46 @@
       "city": "Melbourne",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "023296",
+      "name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034163",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-23T21:22:17.571239+00:00"
+    },
+    {
+      "store_number": "022595",
+      "store_name": "Taco Bell",
+      "city": "Titusville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-23T21:20:55.621372+00:00"
+    },
+    {
+      "store_number": "022592",
+      "store_name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-23T21:20:10.877444+00:00"
+    },
     {
       "store_number": "034163",
       "store_name": "Taco Bell",
@@ -3563,8 +3592,8 @@
     }
   ],
   "activity_summary": {
-    "added": 200,
-    "removed": 129,
+    "added": 201,
+    "removed": 131,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3731,15 +3760,6 @@
       "FL"
     ],
     [
-      "022592",
-      29.218208788850156,
-      -81.04734418680891,
-      10.99,
-      "Taco Bell",
-      "Daytona Beach",
-      "FL"
-    ],
-    [
       "027983",
       28.608677522862287,
       -81.39008417441511,
@@ -3818,6 +3838,15 @@
       10.99,
       "Taco Bell",
       "Saint Cloud",
+      "FL"
+    ],
+    [
+      "022595",
+      28.55328983120039,
+      -80.84494297208039,
+      10.99,
+      "Taco Bell",
+      "Titusville",
       "FL"
     ],
     [
@@ -4232,15 +4261,6 @@
       10.99,
       "Taco Bell",
       "Palm Coast",
-      "FL"
-    ],
-    [
-      "034163",
-      28.24668494787806,
-      -81.24437438517288,
-      10.99,
-      "Taco Bell",
-      "Saint Cloud",
       "FL"
     ]
   ],

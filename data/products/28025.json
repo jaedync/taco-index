@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 61
+    "store_count": 60
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 61
+      "count": 60
     }
   ],
   "state_prices": [
     {
       "state": "OH",
       "avg_price": 9.0,
-      "store_count": 61
+      "store_count": 60
     }
   ],
   "nutrition": {
@@ -159,6 +159,7 @@
     "029498",
     "030925",
     "003825",
+    "002494",
     "002279",
     "026844",
     "026426",
@@ -169,7 +170,6 @@
     "024235",
     "035351",
     "030255",
-    "003804",
     "001988",
     "035358",
     "026277",
@@ -182,17 +182,9 @@
     "022455",
     "015366",
     "032972",
-    "033482",
-    "040445"
+    "033482"
   ],
   "priciest_stores": [
-    {
-      "store_number": "040445",
-      "name": "Taco Bell",
-      "city": "Berea",
-      "state": "OH",
-      "price": 9.0
-    },
     {
       "store_number": "033482",
       "name": "Taco Bell",
@@ -255,9 +247,46 @@
       "city": "Cleveland",
       "state": "OH",
       "price": 9.0
+    },
+    {
+      "store_number": "001856",
+      "name": "Taco Bell",
+      "city": "Dover",
+      "state": "OH",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040445",
+      "store_name": "Taco Bell",
+      "city": "Berea",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-09-23T21:22:04.041396+00:00"
+    },
+    {
+      "store_number": "003804",
+      "store_name": "Taco Bell",
+      "city": "Macedonia",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-09-23T21:19:50.357465+00:00"
+    },
+    {
+      "store_number": "002494",
+      "store_name": "Taco Bell",
+      "city": "Fairlawn",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-23T21:19:47.362295+00:00"
+    },
     {
       "store_number": "002494",
       "store_name": "Taco Bell",
@@ -2230,8 +2259,8 @@
     }
   ],
   "activity_summary": {
-    "added": 129,
-    "removed": 68,
+    "added": 130,
+    "removed": 70,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2596,6 +2625,15 @@
       "OH"
     ],
     [
+      "002494",
+      41.13627178131303,
+      -81.63787021304415,
+      9.0,
+      "Taco Bell",
+      "Fairlawn",
+      "OH"
+    ],
+    [
       "002279",
       41.451856968768816,
       -81.80180139375352,
@@ -2683,15 +2721,6 @@
       9.0,
       "Taco Bell",
       "Massillon",
-      "OH"
-    ],
-    [
-      "003804",
-      41.31428929658778,
-      -81.51877368986504,
-      9.0,
-      "Taco Bell",
-      "Macedonia",
       "OH"
     ],
     [
@@ -2810,18 +2839,9 @@
       "Taco Bell",
       "Carrollton",
       "OH"
-    ],
-    [
-      "040445",
-      41.3722283,
-      -81.8908145,
-      9.0,
-      "Taco Bell",
-      "Berea",
-      "OH"
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-09-22",
+  "last_seen_date": "2026-09-23",
   "peak_availability_pct": 0.8
 }

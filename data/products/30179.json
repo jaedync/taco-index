@@ -20,12 +20,12 @@
     "max": 5.0,
     "median": 1.99,
     "std_dev": 0.33,
-    "store_count": 3473
+    "store_count": 3472
   },
   "histogram": [
     {
       "bucket": "$1.19",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$1.20",
@@ -41,7 +41,7 @@
     },
     {
       "bucket": "$1.69",
-      "count": 148
+      "count": 149
     },
     {
       "bucket": "$1.79",
@@ -53,7 +53,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1382
+      "count": 1380
     },
     {
       "bucket": "$2.00",
@@ -109,7 +109,7 @@
     },
     {
       "bucket": "$2.69",
-      "count": 61
+      "count": 60
     },
     {
       "bucket": "$2.79",
@@ -208,7 +208,7 @@
     {
       "state": "OR",
       "avg_price": 2.25,
-      "store_count": 112
+      "store_count": 111
     },
     {
       "state": "OH",
@@ -228,7 +228,7 @@
     {
       "state": "MI",
       "avg_price": 2.18,
-      "store_count": 194
+      "store_count": 193
     },
     {
       "state": "WA",
@@ -258,7 +258,7 @@
     {
       "state": "IN",
       "avg_price": 2.04,
-      "store_count": 123
+      "store_count": 125
     },
     {
       "state": "SC",
@@ -278,7 +278,7 @@
     {
       "state": "NV",
       "avg_price": 2.01,
-      "store_count": 77
+      "store_count": 76
     },
     {
       "state": "AK",
@@ -303,7 +303,7 @@
     {
       "state": "KS",
       "avg_price": 1.98,
-      "store_count": 72
+      "store_count": 71
     },
     {
       "state": "MD",
@@ -331,14 +331,14 @@
       "store_count": 21
     },
     {
-      "state": "NM",
-      "avg_price": 1.83,
-      "store_count": 27
-    },
-    {
       "state": "OK",
       "avg_price": 1.83,
       "store_count": 24
+    },
+    {
+      "state": "NM",
+      "avg_price": 1.81,
+      "store_count": 28
     },
     {
       "state": "WI",
@@ -401,6 +401,13 @@
       "price": 1.19
     },
     {
+      "store_number": "030535",
+      "name": "Taco Bell",
+      "city": "Farmington",
+      "state": "NM",
+      "price": 1.19
+    },
+    {
       "store_number": "003924",
       "name": "Taco Bell",
       "city": "Brookhaven",
@@ -448,18 +455,12 @@
       "city": "Laurel",
       "state": "MS",
       "price": 1.2
-    },
-    {
-      "store_number": "009455",
-      "name": "Taco Bell",
-      "city": "McComb",
-      "state": "MS",
-      "price": 1.2
     }
   ],
   "min_price_store_numbers": [
     "004548",
-    "001394"
+    "001394",
+    "030535"
   ],
   "priciest_stores": [
     {
@@ -534,6 +535,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.69,
+      "observed_at": "2026-09-23T21:22:21.586808+00:00"
+    },
+    {
+      "store_number": "036244",
+      "store_name": "Taco Bell",
+      "city": "Sparks",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-09-23T21:21:44.571888+00:00"
+    },
+    {
+      "store_number": "030535",
+      "store_name": "Taco Bell",
+      "city": "Farmington",
+      "state": "NM",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.19,
+      "observed_at": "2026-09-23T21:21:17.881209+00:00"
+    },
+    {
+      "store_number": "025988",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 2.39,
+      "new_price": null,
+      "observed_at": "2026-09-23T21:21:15.064028+00:00"
+    },
+    {
+      "store_number": "021199",
+      "store_name": "Taco Bell",
+      "city": "Independence",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-09-23T21:21:01.183049+00:00"
+    },
+    {
+      "store_number": "004647",
+      "store_name": "Taco Bell",
+      "city": "Saginaw",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-09-23T21:20:07.902767+00:00"
+    },
+    {
+      "store_number": "043005",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.39,
+      "observed_at": "2026-09-23T21:19:01.369331+00:00"
+    },
     {
       "store_number": "033016",
       "store_name": "Taco Bell",
@@ -21886,8 +21957,8 @@
     }
   ],
   "activity_summary": {
-    "added": 855,
-    "removed": 779,
+    "added": 858,
+    "removed": 783,
     "price_changed": 501,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -21909,6 +21980,15 @@
       "001394",
       36.73915228969707,
       -108.17798797559328,
+      1.19,
+      "Taco Bell",
+      "Farmington",
+      "NM"
+    ],
+    [
+      "030535",
+      36.73235662577595,
+      -108.23604545874437,
       1.19,
       "Taco Bell",
       "Farmington",
@@ -25035,6 +25115,15 @@
       1.69,
       "Taco Bell",
       "Auburn",
+      "IN"
+    ],
+    [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
+      1.69,
+      "Taco Bell",
+      "Indianapolis",
       "IN"
     ],
     [
@@ -34794,15 +34883,6 @@
       "MN"
     ],
     [
-      "021199",
-      37.22603378518892,
-      -95.70843373240677,
-      1.99,
-      "Taco Bell",
-      "Independence",
-      "KS"
-    ],
-    [
       "028508",
       40.83891878164058,
       -73.32206417621819,
@@ -40273,15 +40353,6 @@
       "Taco Bell",
       "Rochester Hills",
       "MI"
-    ],
-    [
-      "036244",
-      39.53105751055179,
-      -119.71590512967516,
-      1.99,
-      "Taco Bell",
-      "Sparks",
-      "NV"
     ],
     [
       "031892",
@@ -46530,6 +46601,15 @@
       "NY"
     ],
     [
+      "043005",
+      39.80137097745973,
+      -86.15649241549765,
+      2.39,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "039858",
       33.938226,
       -117.553122,
@@ -47842,15 +47922,6 @@
       "Taco Bell",
       "Moreno Valley",
       "CA"
-    ],
-    [
-      "025988",
-      45.53856988834483,
-      -122.579223763332,
-      2.39,
-      "Taco Bell",
-      "Portland",
-      "OR"
     ],
     [
       "039805",
@@ -51469,15 +51540,6 @@
       "Taco Bell",
       "Tucson",
       "AZ"
-    ],
-    [
-      "004647",
-      43.41630406152423,
-      -84.07199849189965,
-      2.69,
-      "Taco Bell",
-      "Saginaw",
-      "MI"
     ],
     [
       "031717",

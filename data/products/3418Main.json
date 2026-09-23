@@ -17,17 +17,17 @@
   "first_seen_at": "2026-09-17T21:51:06.559598+00:00",
   "availability_pct": 0.7,
   "price_stats": {
-    "avg": 3.75,
+    "avg": 3.76,
     "min": 3.49,
     "max": 3.99,
     "median": 3.99,
     "std_dev": 0.25,
-    "store_count": 53
+    "store_count": 51
   },
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 25
+      "count": 23
     },
     {
       "bucket": "$3.99",
@@ -37,8 +37,8 @@
   "state_prices": [
     {
       "state": "NV",
-      "avg_price": 3.75,
-      "store_count": 53
+      "avg_price": 3.76,
+      "store_count": 51
     }
   ],
   "nutrition": {
@@ -140,13 +140,11 @@
     "031899",
     "031864",
     "031911",
-    "031918",
     "031880",
     "031909",
     "031871",
     "031896",
     "031872",
-    "031868",
     "031863",
     "031895",
     "031883",
@@ -166,6 +164,13 @@
       "store_number": "031891",
       "name": "Taco Bell",
       "city": "Las Vegas",
+      "state": "NV",
+      "price": 3.99
+    },
+    {
+      "store_number": "031881",
+      "name": "Taco Bell",
+      "city": "Henderson",
       "state": "NV",
       "price": 3.99
     },
@@ -217,16 +222,49 @@
       "city": "Las Vegas",
       "state": "NV",
       "price": 3.99
-    },
-    {
-      "store_number": "031908",
-      "name": "Taco Bell",
-      "city": "Las Vegas",
-      "state": "NV",
-      "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031881",
+      "store_name": "Taco Bell",
+      "city": "Henderson",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-09-23T21:21:57.476392+00:00"
+    },
+    {
+      "store_number": "031868",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-09-23T21:21:19.912741+00:00"
+    },
+    {
+      "store_number": "031918",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-09-23T21:20:44.802015+00:00"
+    },
+    {
+      "store_number": "031893",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-09-23T21:20:18.814247+00:00"
+    },
     {
       "store_number": "031920",
       "store_name": "Taco Bell",
@@ -959,8 +997,8 @@
     }
   ],
   "activity_summary": {
-    "added": 63,
-    "removed": 10,
+    "added": 64,
+    "removed": 13,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1078,15 +1116,6 @@
       "NV"
     ],
     [
-      "031918",
-      36.16810127134257,
-      -115.20555251873314,
-      3.49,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
-    ],
-    [
       "031880",
       36.17312742658736,
       -115.0957801938057,
@@ -1126,15 +1155,6 @@
       "031872",
       36.146352834081505,
       -115.2981501312828,
-      3.49,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
-    ],
-    [
-      "031868",
-      36.1971141533937,
-      -115.2608603686258,
       3.49,
       "Taco Bell",
       "Las Vegas",
@@ -1252,15 +1272,6 @@
       "031904",
       36.143177213109794,
       -115.25935468962416,
-      3.99,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
-    ],
-    [
-      "031893",
-      36.28003081839173,
-      -115.26565365498755,
       3.99,
       "Taco Bell",
       "Las Vegas",
@@ -1426,6 +1437,15 @@
       3.99,
       "Taco Bell",
       "Las Vegas",
+      "NV"
+    ],
+    [
+      "031881",
+      35.99136266254156,
+      -115.10156571865082,
+      3.99,
+      "Taco Bell",
+      "Henderson",
       "NV"
     ],
     [

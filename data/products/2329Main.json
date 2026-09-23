@@ -20,8 +20,8 @@
     "min": 1.49,
     "max": 2.79,
     "median": 1.99,
-    "std_dev": 0.2,
-    "store_count": 37
+    "std_dev": 0.19,
+    "store_count": 39
   },
   "histogram": [
     {
@@ -30,11 +30,11 @@
     },
     {
       "bucket": "$1.99",
-      "count": 28
+      "count": 29
     },
     {
       "bucket": "$2.19",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$2.39",
@@ -49,7 +49,7 @@
     {
       "state": "MI",
       "avg_price": 2.03,
-      "store_count": 36
+      "store_count": 38
     }
   ],
   "nutrition": null,
@@ -165,6 +165,13 @@
       "price": 2.19
     },
     {
+      "store_number": "021032",
+      "name": "Taco Bell",
+      "city": "Essexville",
+      "state": "MI",
+      "price": 2.19
+    },
+    {
       "store_number": "022688",
       "name": "Taco Bell",
       "city": "Midland",
@@ -191,16 +198,29 @@
       "city": "Grand Blanc",
       "state": "MI",
       "price": 1.99
-    },
-    {
-      "store_number": "034020",
-      "name": "Taco Bell",
-      "city": "Linden",
-      "state": "MI",
-      "price": 1.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "021032",
+      "store_name": "Taco Bell",
+      "city": "Essexville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-09-23T21:21:36.273702+00:00"
+    },
+    {
+      "store_number": "039555",
+      "store_name": "Taco Bell",
+      "city": "Chesaning",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-09-23T21:19:20.993738+00:00"
+    },
     {
       "store_number": "042651",
       "store_name": "Taco Bell",
@@ -1613,7 +1633,7 @@
     }
   ],
   "activity_summary": {
-    "added": 89,
+    "added": 91,
     "removed": 52,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1729,6 +1749,15 @@
       1.99,
       "Taco Bell",
       "Vassar",
+      "MI"
+    ],
+    [
+      "039555",
+      43.18738893699121,
+      -84.16774798842435,
+      1.99,
+      "Taco Bell",
+      "Chesaning",
       "MI"
     ],
     [
@@ -1912,6 +1941,15 @@
       "MI"
     ],
     [
+      "021032",
+      43.593737876766774,
+      -83.83880227804184,
+      2.19,
+      "Taco Bell",
+      "Essexville",
+      "MI"
+    ],
+    [
       "003192",
       43.015628753383794,
       -83.51706017555443,
@@ -1958,7 +1996,7 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-09-22",
+  "last_seen_date": "2026-09-23",
   "peak_availability_pct": 0.6,
   "drink_sizes": [
     {
