@@ -13,19 +13,19 @@
   "peak_30d_pct": 0.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:31.931325+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
     "avg": 3.0,
     "min": 3.0,
     "max": 3.0,
     "median": 3.0,
     "std_dev": 0.0,
-    "store_count": 4
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 4
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -64,29 +64,14 @@
       "city": "Birmingham",
       "state": "AL",
       "price": 3.0
-    },
-    {
-      "store_number": "041491",
-      "name": "Taco Bell",
-      "city": "Calera",
-      "state": "AL",
-      "price": 3.0
     }
   ],
   "min_price_store_numbers": [
     "037013",
     "029145",
-    "029110",
-    "041491"
+    "029110"
   ],
   "priciest_stores": [
-    {
-      "store_number": "041491",
-      "name": "Taco Bell",
-      "city": "Calera",
-      "state": "AL",
-      "price": 3.0
-    },
     {
       "store_number": "029110",
       "name": "Taco Bell",
@@ -110,6 +95,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041491",
+      "store_name": "Taco Bell",
+      "city": "Calera",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 3.0,
+      "new_price": null,
+      "observed_at": "2026-09-24T21:42:56.733397+00:00"
+    },
     {
       "store_number": "029166",
       "store_name": "Taco Bell",
@@ -253,7 +248,7 @@
   ],
   "activity_summary": {
     "added": 9,
-    "removed": 5,
+    "removed": 6,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -288,18 +283,9 @@
       "Taco Bell",
       "Birmingham",
       "AL"
-    ],
-    [
-      "041491",
-      33.14910162393743,
-      -86.7490076451195,
-      3.0,
-      "Taco Bell",
-      "Calera",
-      "AL"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-09-23",
+  "last_seen_date": "2026-09-24",
   "peak_availability_pct": 0.1
 }

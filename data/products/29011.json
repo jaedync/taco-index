@@ -23,12 +23,12 @@
     "max": 5.49,
     "median": 3.99,
     "std_dev": 0.17,
-    "store_count": 80
+    "store_count": 81
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 79
+      "count": 80
     },
     {
       "bucket": "$5.49",
@@ -39,7 +39,7 @@
     {
       "state": "FL",
       "avg_price": 4.01,
-      "store_count": 79
+      "store_count": 80
     }
   ],
   "nutrition": {
@@ -86,13 +86,6 @@
       "price": 3.99
     },
     {
-      "store_number": "036438",
-      "name": "Taco Bell",
-      "city": "Minneola",
-      "state": "FL",
-      "price": 3.99
-    },
-    {
       "store_number": "039587",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -121,6 +114,13 @@
       "price": 3.99
     },
     {
+      "store_number": "027979",
+      "name": "Taco Bell",
+      "city": "Lake Mary",
+      "state": "FL",
+      "price": 3.99
+    },
+    {
       "store_number": "028007",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -133,11 +133,11 @@
     "034859",
     "034809",
     "036232",
-    "036438",
     "039587",
     "042941",
     "027982",
     "022833",
+    "027979",
     "028007",
     "022595",
     "042933",
@@ -207,7 +207,8 @@
     "027977",
     "023300",
     "042971",
-    "023291"
+    "023291",
+    "034163"
   ],
   "priciest_stores": [
     {
@@ -216,6 +217,13 @@
       "city": "Orlando",
       "state": "FL",
       "price": 5.49
+    },
+    {
+      "store_number": "034163",
+      "name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "price": 3.99
     },
     {
       "store_number": "023291",
@@ -272,16 +280,39 @@
       "city": "Sanford",
       "state": "FL",
       "price": 3.99
-    },
-    {
-      "store_number": "023304",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034163",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-09-24T21:46:44.589972+00:00"
+    },
+    {
+      "store_number": "027979",
+      "store_name": "Taco Bell",
+      "city": "Lake Mary",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-09-24T21:44:56.737034+00:00"
+    },
+    {
+      "store_number": "036438",
+      "store_name": "Taco Bell",
+      "city": "Minneola",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-09-24T21:43:36.656314+00:00"
+    },
     {
       "store_number": "034163",
       "store_name": "Taco Bell",
@@ -2304,8 +2335,8 @@
     }
   ],
   "activity_summary": {
-    "added": 140,
-    "removed": 62,
+    "added": 142,
+    "removed": 63,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2364,15 +2395,6 @@
       "FL"
     ],
     [
-      "036438",
-      28.576159566371096,
-      -81.74960673084662,
-      3.99,
-      "Taco Bell",
-      "Minneola",
-      "FL"
-    ],
-    [
       "039587",
       28.39987,
       -81.490788,
@@ -2406,6 +2428,15 @@
       3.99,
       "Taco Bell",
       "Clermont",
+      "FL"
+    ],
+    [
+      "027979",
+      28.755784924346298,
+      -81.3436637725863,
+      3.99,
+      "Taco Bell",
+      "Lake Mary",
       "FL"
     ],
     [
@@ -3036,6 +3067,15 @@
       3.99,
       "Taco Bell",
       "Satellite Beach",
+      "FL"
+    ],
+    [
+      "034163",
+      28.24668494787806,
+      -81.24437438517288,
+      3.99,
+      "Taco Bell",
+      "Saint Cloud",
       "FL"
     ],
     [

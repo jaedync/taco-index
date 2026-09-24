@@ -4,6 +4,7 @@
   "description": "",
   "category": "drinks",
   "categories": [
+    "drinks",
     "featured",
     "live-mas-cafe-and-drinks",
     "new"
@@ -21,10 +22,15 @@
     "min": 3.99,
     "max": 3.99,
     "median": 3.99,
-    "std_dev": null,
+    "std_dev": 0.0,
     "store_count": 1
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$3.99",
+      "count": 1
+    }
+  ],
   "state_prices": [],
   "nutrition": {
     "calories": 10.0,
@@ -40,10 +46,38 @@
     "protein_g": 0.0,
     "serving_size_g": 0.0
   },
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "021199",
+      "name": "Taco Bell",
+      "city": "Independence",
+      "state": "KS",
+      "price": 3.99
+    }
+  ],
+  "min_price_store_numbers": [
+    "021199"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "021199",
+      "name": "Taco Bell",
+      "city": "Independence",
+      "state": "KS",
+      "price": 3.99
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "021199",
+      "store_name": "Taco Bell",
+      "city": "Independence",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-09-24T21:45:16.910566+00:00"
+    },
     {
       "store_number": "039797",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -626,23 +660,33 @@
     }
   ],
   "activity_summary": {
-    "added": 13,
+    "added": 14,
     "removed": 45,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
+  "calories_from_menu": 0,
   "calories_min": 0,
   "calories_max": 0,
   "combo_groups": [],
-  "map_data": [],
+  "map_data": [
+    [
+      "021199",
+      37.22603378518892,
+      -95.70843373240677,
+      3.99,
+      "Taco Bell",
+      "Independence",
+      "KS"
+    ]
+  ],
   "retired_at": "2026-09-16T20:58:20.307406+00:00",
-  "last_seen_date": "2026-09-15",
+  "last_seen_date": "2026-09-24",
   "peak_availability_pct": 0.4,
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 3.89,
+      "avg_price": 3.9,
       "min_price": 3.79,
       "max_price": 3.99,
       "calories": 10,

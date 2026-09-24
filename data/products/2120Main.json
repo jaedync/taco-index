@@ -18,14 +18,18 @@
   "first_seen_at": "2026-05-21T21:04:04.056968+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 4.92,
-    "min": 4.59,
+    "avg": 4.82,
+    "min": 1.19,
     "max": 4.99,
     "median": 4.99,
-    "std_dev": 0.13,
-    "store_count": 38
+    "std_dev": 0.61,
+    "store_count": 39
   },
   "histogram": [
+    {
+      "bucket": "$1.19",
+      "count": 1
+    },
     {
       "bucket": "$4.59",
       "count": 4
@@ -66,6 +70,13 @@
     "serving_size_g": 217.08
   },
   "cheapest_stores": [
+    {
+      "store_number": "021199",
+      "name": "Taco Bell",
+      "city": "Independence",
+      "state": "KS",
+      "price": 1.19
+    },
     {
       "store_number": "009406",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -128,20 +139,10 @@
       "city": "Mesquite",
       "state": "TX",
       "price": 4.79
-    },
-    {
-      "store_number": "021422",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Irving",
-      "state": "TX",
-      "price": 4.79
     }
   ],
   "min_price_store_numbers": [
-    "009406",
-    "019252",
-    "002851",
-    "026050"
+    "021199"
   ],
   "priciest_stores": [
     {
@@ -216,6 +217,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "021199",
+      "store_name": "Taco Bell",
+      "city": "Independence",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.19,
+      "observed_at": "2026-09-24T21:45:16.910566+00:00"
+    },
     {
       "store_number": "021422",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -1558,7 +1569,7 @@
     }
   ],
   "activity_summary": {
-    "added": 81,
+    "added": 82,
     "removed": 43,
     "price_changed": 10,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1568,6 +1579,15 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
+    [
+      "021199",
+      37.22603378518892,
+      -95.70843373240677,
+      1.19,
+      "Taco Bell",
+      "Independence",
+      "KS"
+    ],
     [
       "009406",
       29.79106516817246,
@@ -1912,21 +1932,21 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-09-23",
+  "last_seen_date": "2026-09-24",
   "peak_availability_pct": 0.5,
   "drink_sizes": [
     {
       "size": "MEDIUM",
-      "avg_price": 5.36,
-      "min_price": 4.99,
+      "avg_price": 5.26,
+      "min_price": 1.19,
       "max_price": 5.49,
       "calories": 120,
       "happier_hour_avg": null
     },
     {
       "size": "SMALL",
-      "avg_price": 4.92,
-      "min_price": 4.59,
+      "avg_price": 4.82,
+      "min_price": 1.19,
       "max_price": 4.99,
       "calories": 120,
       "happier_hour_avg": null

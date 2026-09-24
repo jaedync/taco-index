@@ -4,6 +4,7 @@
   "description": "",
   "category": "drinks",
   "categories": [
+    "drinks",
     "featured",
     "live-mas-cafe-and-drinks",
     "new"
@@ -13,18 +14,22 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.0,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0267,
   "first_seen_at": "2026-03-30T00:43:53.681925+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 3.79,
-    "min": 3.79,
+    "avg": 3.64,
+    "min": 3.49,
     "max": 3.79,
-    "median": 3.79,
-    "std_dev": 0.0,
-    "store_count": 1
+    "median": 3.64,
+    "std_dev": 0.21,
+    "store_count": 2
   },
   "histogram": [
+    {
+      "bucket": "$3.49",
+      "count": 1
+    },
     {
       "bucket": "$3.79",
       "count": 1
@@ -47,17 +52,12 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "019252",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Spring",
-      "state": "TX",
-      "price": 3.79
-    }
-  ],
-  "min_price_store_numbers": [
-    "019252"
-  ],
-  "priciest_stores": [
+      "store_number": "021199",
+      "name": "Taco Bell",
+      "city": "Independence",
+      "state": "KS",
+      "price": 3.49
+    },
     {
       "store_number": "019252",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -66,7 +66,36 @@
       "price": 3.79
     }
   ],
+  "min_price_store_numbers": [
+    "021199"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "019252",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Spring",
+      "state": "TX",
+      "price": 3.79
+    },
+    {
+      "store_number": "021199",
+      "name": "Taco Bell",
+      "city": "Independence",
+      "state": "KS",
+      "price": 3.49
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "021199",
+      "store_name": "Taco Bell",
+      "city": "Independence",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-09-24T21:45:16.910566+00:00"
+    },
     {
       "store_number": "039797",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -769,7 +798,7 @@
     }
   ],
   "activity_summary": {
-    "added": 20,
+    "added": 21,
     "removed": 50,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -779,6 +808,15 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
+    [
+      "021199",
+      37.22603378518892,
+      -95.70843373240677,
+      3.49,
+      "Taco Bell",
+      "Independence",
+      "KS"
+    ],
     [
       "019252",
       30.049133798997953,
@@ -795,7 +833,7 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 3.69,
+      "avg_price": 3.68,
       "min_price": 3.49,
       "max_price": 3.79,
       "calories": 140,

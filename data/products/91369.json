@@ -13,18 +13,23 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.6,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0205,
   "first_seen_at": "2026-07-23T20:47:03.076148+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 11.82,
-    "min": 10.99,
+    "avg": 11.99,
+    "min": 11.99,
     "max": 11.99,
     "median": 11.99,
-    "std_dev": null,
-    "store_count": 24
+    "std_dev": 0.0,
+    "store_count": 4
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$11.99",
+      "count": 4
+    }
+  ],
   "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
@@ -40,10 +45,113 @@
     "protein_g": 8.7145,
     "serving_size_g": 92.1358
   },
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "042844",
+      "name": "Taco Bell",
+      "city": "Fort Myers",
+      "state": "FL",
+      "price": 11.99
+    },
+    {
+      "store_number": "042945",
+      "name": "Taco Bell",
+      "city": "Lavonia",
+      "state": "GA",
+      "price": 11.99
+    },
+    {
+      "store_number": "042970",
+      "name": "Taco Bell",
+      "city": "Port Saint Lucie",
+      "state": "FL",
+      "price": 11.99
+    },
+    {
+      "store_number": "042982",
+      "name": "Taco Bell",
+      "city": "Naranja",
+      "state": "FL",
+      "price": 11.99
+    }
+  ],
+  "min_price_store_numbers": [
+    "042844",
+    "042945",
+    "042970",
+    "042982"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "042982",
+      "name": "Taco Bell",
+      "city": "Naranja",
+      "state": "FL",
+      "price": 11.99
+    },
+    {
+      "store_number": "042970",
+      "name": "Taco Bell",
+      "city": "Port Saint Lucie",
+      "state": "FL",
+      "price": 11.99
+    },
+    {
+      "store_number": "042945",
+      "name": "Taco Bell",
+      "city": "Lavonia",
+      "state": "GA",
+      "price": 11.99
+    },
+    {
+      "store_number": "042844",
+      "name": "Taco Bell",
+      "city": "Fort Myers",
+      "state": "FL",
+      "price": 11.99
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "042970",
+      "store_name": "Taco Bell",
+      "city": "Port Saint Lucie",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-09-24T21:46:45.831081+00:00"
+    },
+    {
+      "store_number": "042982",
+      "store_name": "Taco Bell",
+      "city": "Naranja",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-09-24T21:46:41.722285+00:00"
+    },
+    {
+      "store_number": "042945",
+      "store_name": "Taco Bell",
+      "city": "Lavonia",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-09-24T21:46:13.106447+00:00"
+    },
+    {
+      "store_number": "042844",
+      "store_name": "Taco Bell",
+      "city": "Fort Myers",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-09-24T21:44:01.145272+00:00"
+    },
     {
       "store_number": "042970",
       "store_name": "Taco Bell",
@@ -3766,12 +3874,12 @@
     }
   ],
   "activity_summary": {
-    "added": 186,
+    "added": 190,
     "removed": 186,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
+  "calories_from_menu": 510,
   "calories_min": 510,
   "calories_max": 930,
   "combo_groups": [
@@ -3794,8 +3902,45 @@
       "default_product_name": "Nacho Fries and Nacho Cheese Sauce"
     }
   ],
-  "map_data": [],
+  "map_data": [
+    [
+      "042844",
+      26.54648574323647,
+      -81.79989105090884,
+      11.99,
+      "Taco Bell",
+      "Fort Myers",
+      "FL"
+    ],
+    [
+      "042945",
+      34.44515828481069,
+      -83.11913877725601,
+      11.99,
+      "Taco Bell",
+      "Lavonia",
+      "GA"
+    ],
+    [
+      "042970",
+      27.27428750457316,
+      -80.34850978217297,
+      11.99,
+      "Taco Bell",
+      "Port Saint Lucie",
+      "FL"
+    ],
+    [
+      "042982",
+      25.521211092046975,
+      -80.42459113961212,
+      11.99,
+      "Taco Bell",
+      "Naranja",
+      "FL"
+    ]
+  ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-09-16",
+  "last_seen_date": "2026-09-24",
   "peak_availability_pct": 1.1
 }
