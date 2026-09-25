@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 32
+    "store_count": 30
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 32
+      "count": 30
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 9.0,
-      "store_count": 32
+      "store_count": 30
     }
   ],
   "nutrition": null,
@@ -120,7 +120,6 @@
     "030386",
     "030380",
     "030383",
-    "030378",
     "033288",
     "030390",
     "033285",
@@ -139,7 +138,6 @@
     "030396",
     "028361",
     "030389",
-    "030394",
     "033581",
     "042450"
   ],
@@ -155,13 +153,6 @@
       "store_number": "033581",
       "name": "Taco Bell",
       "city": "Edmond",
-      "state": "OK",
-      "price": 9.0
-    },
-    {
-      "store_number": "030394",
-      "name": "Taco Bell",
-      "city": "Oklahoma City",
       "state": "OK",
       "price": 9.0
     },
@@ -213,9 +204,36 @@
       "city": "Guthrie",
       "state": "OK",
       "price": 9.0
+    },
+    {
+      "store_number": "030382",
+      "name": "Taco Bell",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030394",
+      "store_name": "Taco Bell",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-09-25T22:00:41.394880+00:00"
+    },
+    {
+      "store_number": "030378",
+      "store_name": "Taco Bell",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-09-25T21:59:11.127282+00:00"
+    },
     {
       "store_number": "042450",
       "store_name": "Taco Bell",
@@ -1179,7 +1197,7 @@
   ],
   "activity_summary": {
     "added": 64,
-    "removed": 32,
+    "removed": 34,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1298,15 +1316,6 @@
       "030383",
       35.56817488608303,
       -97.66277405619597,
-      9.0,
-      "Taco Bell",
-      "Oklahoma City",
-      "OK"
-    ],
-    [
-      "030378",
-      35.39472733256918,
-      -97.56601432850903,
       9.0,
       "Taco Bell",
       "Oklahoma City",
@@ -1475,15 +1484,6 @@
       "OK"
     ],
     [
-      "030394",
-      35.455635,
-      -97.60146497668649,
-      9.0,
-      "Taco Bell",
-      "Oklahoma City",
-      "OK"
-    ],
-    [
       "033581",
       35.64289728933323,
       -97.42613035276126,
@@ -1503,6 +1503,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-09-24",
+  "last_seen_date": "2026-09-25",
   "peak_availability_pct": 0.4
 }
