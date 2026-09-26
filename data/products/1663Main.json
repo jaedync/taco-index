@@ -17,12 +17,12 @@
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 0.7,
   "price_stats": {
-    "avg": 3.81,
+    "avg": 3.82,
     "min": 3.49,
     "max": 3.99,
     "median": 3.79,
     "std_dev": 0.09,
-    "store_count": 54
+    "store_count": 53
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$3.69",
@@ -83,13 +83,6 @@
       "city": "Penn Valley",
       "state": "CA",
       "price": 3.49
-    },
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 3.59
     },
     {
       "store_number": "034623",
@@ -144,6 +137,13 @@
       "store_number": "035688",
       "name": "Taco Bell",
       "city": "Houston",
+      "state": "TX",
+      "price": 3.79
+    },
+    {
+      "store_number": "035716",
+      "name": "Taco Bell",
+      "city": "Pearland",
       "state": "TX",
       "price": 3.79
     }
@@ -224,6 +224,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-09-26T21:36:14.918886+00:00"
+    },
     {
       "store_number": "029535",
       "store_name": "Taco Bell",
@@ -293267,7 +293277,7 @@
   ],
   "activity_summary": {
     "added": 10291,
-    "removed": 17091,
+    "removed": 17092,
     "price_changed": 1922,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -293284,15 +293294,6 @@
       "Taco Bell",
       "Penn Valley",
       "CA"
-    ],
-    [
-      "026028",
-      41.71567814277641,
-      -87.78261208259407,
-      3.59,
-      "Taco Bell / KFC",
-      "Chicago Ridge",
-      "IL"
     ],
     [
       "034623",

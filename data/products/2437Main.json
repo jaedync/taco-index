@@ -21,19 +21,19 @@
     "max": 2.99,
     "median": 2.99,
     "std_dev": 0.0,
-    "store_count": 56
+    "store_count": 55
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 56
+      "count": 55
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 2.99,
-      "store_count": 56
+      "store_count": 55
     }
   ],
   "nutrition": null,
@@ -120,6 +120,7 @@
     "042044",
     "042230",
     "042637",
+    "036386",
     "034923",
     "036013",
     "042225",
@@ -155,7 +156,6 @@
     "022688",
     "033307",
     "021032",
-    "033319",
     "042645",
     "029864",
     "002780",
@@ -163,7 +163,6 @@
     "042651",
     "018677",
     "042652",
-    "034020",
     "033999",
     "040524"
   ],
@@ -179,13 +178,6 @@
       "store_number": "033999",
       "name": "Taco Bell",
       "city": "Grand Blanc",
-      "state": "MI",
-      "price": 2.99
-    },
-    {
-      "store_number": "034020",
-      "name": "Taco Bell",
-      "city": "Linden",
       "state": "MI",
       "price": 2.99
     },
@@ -237,9 +229,46 @@
       "city": "Saginaw",
       "state": "MI",
       "price": 2.99
+    },
+    {
+      "store_number": "021032",
+      "name": "Taco Bell",
+      "city": "Essexville",
+      "state": "MI",
+      "price": 2.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034020",
+      "store_name": "Taco Bell",
+      "city": "Linden",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-09-26T21:39:00.378169+00:00"
+    },
+    {
+      "store_number": "033319",
+      "store_name": "Taco Bell",
+      "city": "Flushing",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-09-26T21:38:30.987930+00:00"
+    },
+    {
+      "store_number": "036386",
+      "store_name": "Taco Bell",
+      "city": "Durand",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-09-26T21:36:02.133107+00:00"
+    },
     {
       "store_number": "040005",
       "store_name": "Taco Bell",
@@ -902,8 +931,8 @@
     }
   ],
   "activity_summary": {
-    "added": 61,
-    "removed": 5,
+    "added": 62,
+    "removed": 7,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1000,6 +1029,15 @@
       2.99,
       "Taco Bell",
       "Frankenmuth",
+      "MI"
+    ],
+    [
+      "036386",
+      42.92527219999999,
+      -83.98984879999999,
+      2.99,
+      "Taco Bell",
+      "Durand",
       "MI"
     ],
     [
@@ -1318,15 +1356,6 @@
       "MI"
     ],
     [
-      "033319",
-      43.06051052292668,
-      -83.81567625096068,
-      2.99,
-      "Taco Bell",
-      "Flushing",
-      "MI"
-    ],
-    [
       "042645",
       43.429022336209,
       -83.95065061750756,
@@ -1387,15 +1416,6 @@
       2.99,
       "Taco Bell",
       "Mount Pleasant",
-      "MI"
-    ],
-    [
-      "034020",
-      42.81224917276795,
-      -83.78984129631253,
-      2.99,
-      "Taco Bell",
-      "Linden",
       "MI"
     ],
     [

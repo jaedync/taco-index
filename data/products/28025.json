@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 60
+    "store_count": 61
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 60
+      "count": 61
     }
   ],
   "state_prices": [
     {
       "state": "OH",
       "avg_price": 9.0,
-      "store_count": 60
+      "store_count": 61
     }
   ],
   "nutrition": {
@@ -163,13 +163,13 @@
     "002279",
     "026844",
     "026426",
-    "005283",
     "020465",
     "031797",
     "040531",
     "024235",
     "035351",
     "030255",
+    "003804",
     "001988",
     "035358",
     "026277",
@@ -182,9 +182,17 @@
     "022455",
     "015366",
     "032972",
-    "033482"
+    "033482",
+    "040445"
   ],
   "priciest_stores": [
+    {
+      "store_number": "040445",
+      "name": "Taco Bell",
+      "city": "Berea",
+      "state": "OH",
+      "price": 9.0
+    },
     {
       "store_number": "033482",
       "name": "Taco Bell",
@@ -247,16 +255,39 @@
       "city": "Cleveland",
       "state": "OH",
       "price": 9.0
-    },
-    {
-      "store_number": "001856",
-      "name": "Taco Bell",
-      "city": "Dover",
-      "state": "OH",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040445",
+      "store_name": "Taco Bell",
+      "city": "Berea",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-26T21:38:53.369478+00:00"
+    },
+    {
+      "store_number": "003804",
+      "store_name": "Taco Bell",
+      "city": "Macedonia",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-26T21:36:32.717012+00:00"
+    },
+    {
+      "store_number": "005283",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-09-26T21:36:31.740828+00:00"
+    },
     {
       "store_number": "040445",
       "store_name": "Taco Bell",
@@ -2259,8 +2290,8 @@
     }
   ],
   "activity_summary": {
-    "added": 130,
-    "removed": 70,
+    "added": 132,
+    "removed": 71,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2661,15 +2692,6 @@
       "OH"
     ],
     [
-      "005283",
-      41.52009893986867,
-      -81.51647195888482,
-      9.0,
-      "Taco Bell",
-      "Cleveland",
-      "OH"
-    ],
-    [
       "020465",
       40.87998442823379,
       -81.43787398005776,
@@ -2721,6 +2743,15 @@
       9.0,
       "Taco Bell",
       "Massillon",
+      "OH"
+    ],
+    [
+      "003804",
+      41.31428929658778,
+      -81.51877368986504,
+      9.0,
+      "Taco Bell",
+      "Macedonia",
       "OH"
     ],
     [
@@ -2839,9 +2870,18 @@
       "Taco Bell",
       "Carrollton",
       "OH"
+    ],
+    [
+      "040445",
+      41.3722283,
+      -81.8908145,
+      9.0,
+      "Taco Bell",
+      "Berea",
+      "OH"
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-09-25",
+  "last_seen_date": "2026-09-26",
   "peak_availability_pct": 0.8
 }

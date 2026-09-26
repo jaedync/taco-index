@@ -11,22 +11,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 89.1,
-  "recent_price_change_pct": 0.074,
+  "peak_30d_pct": 88.8,
+  "recent_price_change_pct": 0.0382,
   "first_seen_at": "2026-08-19T21:01:35.541122+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 10.0,
+    "avg": 9.66,
     "min": 9.0,
     "max": 10.99,
-    "median": 10.0,
-    "std_dev": 1.41,
-    "store_count": 2
+    "median": 9.0,
+    "std_dev": 1.15,
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$10.99",
@@ -44,6 +44,13 @@
       "price": 9.0
     },
     {
+      "store_number": "042617",
+      "name": "Taco Bell",
+      "city": "Boardman",
+      "state": "OH",
+      "price": 9.0
+    },
+    {
       "store_number": "028626",
       "name": "Taco Bell",
       "city": "Durham",
@@ -52,7 +59,8 @@
     }
   ],
   "min_price_store_numbers": [
-    "041488"
+    "041488",
+    "042617"
   ],
   "priciest_stores": [
     {
@@ -63,6 +71,13 @@
       "price": 10.99
     },
     {
+      "store_number": "042617",
+      "name": "Taco Bell",
+      "city": "Boardman",
+      "state": "OH",
+      "price": 9.0
+    },
+    {
       "store_number": "041488",
       "name": "Taco Bell (ATL Airport)",
       "city": "Atlanta",
@@ -71,6 +86,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042617",
+      "store_name": "Taco Bell",
+      "city": "Boardman",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-26T21:39:03.682675+00:00"
+    },
     {
       "store_number": "043041",
       "store_name": "Taco Bell",
@@ -244043,7 +244068,7 @@
     }
   ],
   "activity_summary": {
-    "added": 12172,
+    "added": 12173,
     "removed": 12167,
     "price_changed": 58,
     "since": "2026-03-31T00:00:00+00:00"
@@ -244094,6 +244119,15 @@
       "GA"
     ],
     [
+      "042617",
+      41.022539,
+      -80.633902,
+      9.0,
+      "Taco Bell",
+      "Boardman",
+      "OH"
+    ],
+    [
       "028626",
       35.90448065012129,
       -78.94160410612062,
@@ -244104,6 +244138,6 @@
     ]
   ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-09-25",
+  "last_seen_date": "2026-09-26",
   "peak_availability_pct": 91.1
 }

@@ -14,22 +14,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 67.4,
-  "recent_price_change_pct": -0.0203,
+  "peak_30d_pct": 64.9,
+  "recent_price_change_pct": -0.0213,
   "first_seen_at": "2026-06-17T20:56:58.322414+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.3,
   "price_stats": {
     "avg": 3.05,
     "min": 3.0,
     "max": 3.99,
     "median": 3.0,
-    "std_dev": 0.23,
-    "store_count": 19
+    "std_dev": 0.22,
+    "store_count": 20
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 18
+      "count": 19
     },
     {
       "bucket": "$3.99",
@@ -45,7 +45,7 @@
     {
       "state": "OH",
       "avg_price": 3.0,
-      "store_count": 8
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -152,7 +152,8 @@
     "038893",
     "038878",
     "040440",
-    "041488"
+    "041488",
+    "042617"
   ],
   "priciest_stores": [
     {
@@ -161,6 +162,13 @@
       "city": "Durham",
       "state": "NC",
       "price": 3.99
+    },
+    {
+      "store_number": "042617",
+      "name": "Taco Bell",
+      "city": "Boardman",
+      "state": "OH",
+      "price": 3.0
     },
     {
       "store_number": "041488",
@@ -217,16 +225,19 @@
       "city": "Sunbury",
       "state": "OH",
       "price": 3.0
-    },
-    {
-      "store_number": "038894",
-      "name": "Taco Bell",
-      "city": "Coshocton",
-      "state": "OH",
-      "price": 3.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042617",
+      "store_name": "Taco Bell",
+      "city": "Boardman",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-09-26T21:39:03.682675+00:00"
+    },
     {
       "store_number": "043122",
       "store_name": "Taco Bell",
@@ -173719,7 +173730,7 @@
     }
   ],
   "activity_summary": {
-    "added": 8585,
+    "added": 8586,
     "removed": 8558,
     "price_changed": 206,
     "since": "2026-03-31T00:00:00+00:00"
@@ -173892,6 +173903,15 @@
       "GA"
     ],
     [
+      "042617",
+      41.022539,
+      -80.633902,
+      3.0,
+      "Taco Bell",
+      "Boardman",
+      "OH"
+    ],
+    [
       "028626",
       35.90448065012129,
       -78.94160410612062,
@@ -173902,6 +173922,6 @@
     ]
   ],
   "retired_at": "2026-06-18T21:30:28.046340+00:00",
-  "last_seen_date": "2026-09-25",
+  "last_seen_date": "2026-09-26",
   "peak_availability_pct": 91.9
 }

@@ -9,30 +9,30 @@
     "featured",
     "specialties"
   ],
-  "image_url": "https://www.tacobell.com/images/22310_new_meximelt_269x269.jpg",
+  "image_url": "https://www.tacobell.com/images/22310_meximelt_269x269.jpg",
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 91.6,
-  "recent_price_change_pct": 0.0636,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 3.39,
-    "min": 3.29,
-    "max": 3.59,
+    "avg": 3.19,
+    "min": 2.99,
+    "max": 3.29,
     "median": 3.29,
     "std_dev": 0.17,
     "store_count": 3
   },
   "histogram": [
     {
-      "bucket": "$3.29",
-      "count": 2
+      "bucket": "$2.99",
+      "count": 1
     },
     {
-      "bucket": "$3.59",
-      "count": 1
+      "bucket": "$3.29",
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -52,6 +52,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "042617",
+      "name": "Taco Bell",
+      "city": "Boardman",
+      "state": "OH",
+      "price": 2.99
+    },
+    {
       "store_number": "041488",
       "name": "Taco Bell (ATL Airport)",
       "city": "Atlanta",
@@ -64,27 +71,12 @@
       "city": "Durham",
       "state": "NC",
       "price": 3.29
-    },
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 3.59
     }
   ],
   "min_price_store_numbers": [
-    "041488",
-    "028626"
+    "042617"
   ],
   "priciest_stores": [
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 3.59
-    },
     {
       "store_number": "028626",
       "name": "Taco Bell",
@@ -98,9 +90,36 @@
       "city": "Atlanta",
       "state": "GA",
       "price": 3.29
+    },
+    {
+      "store_number": "042617",
+      "name": "Taco Bell",
+      "city": "Boardman",
+      "state": "OH",
+      "price": 2.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042617",
+      "store_name": "Taco Bell",
+      "city": "Boardman",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-09-26T21:39:03.682675+00:00"
+    },
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-09-26T21:36:14.918886+00:00"
+    },
     {
       "store_number": "043122",
       "store_name": "Taco Bell",
@@ -305693,8 +305712,8 @@
     }
   ],
   "activity_summary": {
-    "added": 15271,
-    "removed": 15265,
+    "added": 15272,
+    "removed": 15266,
     "price_changed": 23,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -305703,6 +305722,15 @@
   "calories_max": 250,
   "combo_groups": [],
   "map_data": [
+    [
+      "042617",
+      41.022539,
+      -80.633902,
+      2.99,
+      "Taco Bell",
+      "Boardman",
+      "OH"
+    ],
     [
       "041488",
       33.63840238391459,
@@ -305720,15 +305748,6 @@
       "Taco Bell",
       "Durham",
       "NC"
-    ],
-    [
-      "026028",
-      41.71567814277641,
-      -87.78261208259407,
-      3.59,
-      "Taco Bell / KFC",
-      "Chicago Ridge",
-      "IL"
     ]
   ],
   "retired_at": null,

@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:42:30.053140+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.16,
+    "avg": 3.19,
     "min": 2.99,
     "max": 3.99,
     "median": 2.99,
-    "std_dev": 0.41,
-    "store_count": 6
+    "std_dev": 0.45,
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$3.99",
@@ -71,13 +71,6 @@
       "price": 2.99
     },
     {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 2.99
-    },
-    {
       "store_number": "021309",
       "name": "Taco Bell",
       "city": "Norfolk",
@@ -96,7 +89,6 @@
     "029358",
     "020500",
     "026719",
-    "026028",
     "021309"
   ],
   "priciest_stores": [
@@ -112,13 +104,6 @@
       "name": "Taco Bell",
       "city": "Norfolk",
       "state": "VA",
-      "price": 2.99
-    },
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
       "price": 2.99
     },
     {
@@ -143,10 +128,21 @@
       "price": 2.99
     }
   ],
-  "price_changes": [],
+  "price_changes": [
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-09-26T21:36:14.918886+00:00"
+    }
+  ],
   "activity_summary": {
     "added": 0,
-    "removed": 0,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -180,15 +176,6 @@
       2.99,
       "Taco Bell",
       "Joliet",
-      "IL"
-    ],
-    [
-      "026028",
-      41.71567814277641,
-      -87.78261208259407,
-      2.99,
-      "Taco Bell / KFC",
-      "Chicago Ridge",
       "IL"
     ],
     [

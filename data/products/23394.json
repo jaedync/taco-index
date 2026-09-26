@@ -12,25 +12,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0209,
   "first_seen_at": "2026-03-30T00:42:30.053140+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.71,
+    "avg": 2.65,
     "min": 2.49,
     "max": 3.29,
     "median": 2.49,
-    "std_dev": 0.35,
-    "store_count": 6
+    "std_dev": 0.36,
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$2.49",
       "count": 4
-    },
-    {
-      "bucket": "$2.99",
-      "count": 1
     },
     {
       "bucket": "$3.29",
@@ -82,13 +78,6 @@
       "price": 2.49
     },
     {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 2.99
-    },
-    {
       "store_number": "032170",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -109,13 +98,6 @@
       "city": "Orlando",
       "state": "FL",
       "price": 3.29
-    },
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 2.99
     },
     {
       "store_number": "021309",
@@ -146,10 +128,21 @@
       "price": 2.49
     }
   ],
-  "price_changes": [],
+  "price_changes": [
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-09-26T21:36:14.918886+00:00"
+    }
+  ],
   "activity_summary": {
     "added": 0,
-    "removed": 0,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -193,15 +186,6 @@
       "Taco Bell",
       "Norfolk",
       "VA"
-    ],
-    [
-      "026028",
-      41.71567814277641,
-      -87.78261208259407,
-      2.99,
-      "Taco Bell / KFC",
-      "Chicago Ridge",
-      "IL"
     ],
     [
       "032170",

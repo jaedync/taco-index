@@ -14,25 +14,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": -0.1616,
+  "recent_price_change_pct": -0.1668,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 10.05,
+    "avg": 9.99,
     "min": 9.99,
-    "max": 11.99,
+    "max": 9.99,
     "median": 9.99,
-    "std_dev": 0.35,
+    "std_dev": 0.0,
     "store_count": 32
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 31
-    },
-    {
-      "bucket": "$11.99",
-      "count": 1
+      "count": 32
     }
   ],
   "state_prices": [
@@ -57,6 +53,13 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
+    {
+      "store_number": "026028",
+      "name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "price": 9.99
+    },
     {
       "store_number": "035717",
       "name": "Taco Bell / KFC",
@@ -119,16 +122,10 @@
       "city": "Harrodsburg",
       "state": "KY",
       "price": 9.99
-    },
-    {
-      "store_number": "029404",
-      "name": "Taco Bell",
-      "city": "Garner",
-      "state": "NC",
-      "price": 9.99
     }
   ],
   "min_price_store_numbers": [
+    "026028",
     "035717",
     "039735",
     "029536",
@@ -156,19 +153,12 @@
     "041370",
     "020974",
     "029482",
-    "030424",
+    "041321",
     "029354",
     "003881",
     "003758"
   ],
   "priciest_stores": [
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 11.99
-    },
     {
       "store_number": "003758",
       "name": "Taco Bell / KFC",
@@ -191,10 +181,10 @@
       "price": 9.99
     },
     {
-      "store_number": "030424",
-      "name": "Taco Bell / KFC",
-      "city": "Osceola",
-      "state": "IA",
+      "store_number": "041321",
+      "name": "Taco Bell",
+      "city": "Grayson",
+      "state": "GA",
       "price": 9.99
     },
     {
@@ -231,9 +221,46 @@
       "city": "Clare",
       "state": "MI",
       "price": 9.99
+    },
+    {
+      "store_number": "029412",
+      "name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "price": 9.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030424",
+      "store_name": "Taco Bell / KFC",
+      "city": "Osceola",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-09-26T21:38:49.659439+00:00"
+    },
+    {
+      "store_number": "041321",
+      "store_name": "Taco Bell",
+      "city": "Grayson",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-09-26T21:38:21.414568+00:00"
+    },
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 11.99,
+      "new_price": 9.99,
+      "observed_at": "2026-09-26T21:36:14.918886+00:00"
+    },
     {
       "store_number": "041370",
       "store_name": "Taco Bell / KFC",
@@ -1636,9 +1663,9 @@
     }
   ],
   "activity_summary": {
-    "added": 73,
-    "removed": 41,
-    "price_changed": 26,
+    "added": 74,
+    "removed": 42,
+    "price_changed": 27,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 990,
@@ -1683,6 +1710,15 @@
     }
   ],
   "map_data": [
+    [
+      "026028",
+      41.71567814277641,
+      -87.78261208259407,
+      9.99,
+      "Taco Bell / KFC",
+      "Chicago Ridge",
+      "IL"
+    ],
     [
       "035717",
       29.995722509460837,
@@ -1927,13 +1963,13 @@
       "NC"
     ],
     [
-      "030424",
-      41.02537540476871,
-      -93.79682839663474,
+      "041321",
+      33.89951093273385,
+      -83.96198987746997,
       9.99,
-      "Taco Bell / KFC",
-      "Osceola",
-      "IA"
+      "Taco Bell",
+      "Grayson",
+      "GA"
     ],
     [
       "029354",
@@ -1961,18 +1997,9 @@
       "Taco Bell / KFC",
       "Petoskey",
       "MI"
-    ],
-    [
-      "026028",
-      41.71567814277641,
-      -87.78261208259407,
-      11.99,
-      "Taco Bell / KFC",
-      "Chicago Ridge",
-      "IL"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-09-25",
+  "last_seen_date": "2026-09-26",
   "peak_availability_pct": 0.4
 }

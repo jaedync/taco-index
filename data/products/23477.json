@@ -16,21 +16,17 @@
   "first_seen_at": "2026-03-30T00:42:17.482555+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 7.32,
+    "avg": 7.29,
     "min": 6.49,
     "max": 8.99,
-    "median": 6.99,
-    "std_dev": 1.03,
-    "store_count": 6
+    "median": 6.49,
+    "std_dev": 1.15,
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$6.49",
       "count": 3
-    },
-    {
-      "bucket": "$7.49",
-      "count": 1
     },
     {
       "bucket": "$7.99",
@@ -79,13 +75,6 @@
       "price": 6.49
     },
     {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 7.49
-    },
-    {
       "store_number": "026132",
       "name": "Taco Bell",
       "city": "Boynton Beach",
@@ -121,13 +110,6 @@
       "price": 7.99
     },
     {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 7.49
-    },
-    {
       "store_number": "026719",
       "name": "Taco Bell",
       "city": "Joliet",
@@ -150,6 +132,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 7.49,
+      "new_price": null,
+      "observed_at": "2026-09-26T21:36:14.918886+00:00"
+    },
     {
       "store_number": "026028",
       "store_name": "Taco Bell / KFC",
@@ -213,13 +205,13 @@
   ],
   "activity_summary": {
     "added": 6,
-    "removed": 0,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 670,
-  "calories_min": 750,
-  "calories_max": 750,
+  "calories_min": 740,
+  "calories_max": 740,
   "combo_groups": [
     {
       "group_id": "388",
@@ -275,15 +267,6 @@
       "IL"
     ],
     [
-      "026028",
-      41.71567814277641,
-      -87.78261208259407,
-      7.49,
-      "Taco Bell / KFC",
-      "Chicago Ridge",
-      "IL"
-    ],
-    [
       "026132",
       26.535654204133973,
       -80.09574100000002,
@@ -303,6 +286,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-09-25",
+  "last_seen_date": "2026-09-26",
   "peak_availability_pct": 0.1
 }

@@ -12,24 +12,20 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.0,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.1201,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 12.49,
+    "avg": 10.99,
     "min": 10.99,
-    "max": 13.99,
-    "median": 12.49,
-    "std_dev": 2.12,
-    "store_count": 2
+    "max": 10.99,
+    "median": 10.99,
+    "std_dev": 0.0,
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 1
-    },
-    {
-      "bucket": "$13.99",
       "count": 1
     }
   ],
@@ -55,26 +51,12 @@
       "city": "Minerva",
       "state": "OH",
       "price": 10.99
-    },
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 13.99
     }
   ],
   "min_price_store_numbers": [
     "038897"
   ],
   "priciest_stores": [
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 13.99
-    },
     {
       "store_number": "038897",
       "name": "Taco Bell",
@@ -84,6 +66,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 13.99,
+      "new_price": null,
+      "observed_at": "2026-09-26T21:36:14.918886+00:00"
+    },
     {
       "store_number": "041370",
       "store_name": "Taco Bell / KFC",
@@ -1087,7 +1079,7 @@
   ],
   "activity_summary": {
     "added": 51,
-    "removed": 49,
+    "removed": 50,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1147,18 +1139,9 @@
       "Taco Bell",
       "Minerva",
       "OH"
-    ],
-    [
-      "026028",
-      41.71567814277641,
-      -87.78261208259407,
-      13.99,
-      "Taco Bell / KFC",
-      "Chicago Ridge",
-      "IL"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-09-25",
+  "last_seen_date": "2026-09-26",
   "peak_availability_pct": 0.4
 }

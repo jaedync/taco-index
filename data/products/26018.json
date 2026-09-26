@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0574,
   "first_seen_at": "2026-03-30T00:42:30.053140+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.32,
+    "avg": 2.19,
     "min": 1.99,
     "max": 2.99,
     "median": 1.99,
-    "std_dev": 0.52,
-    "store_count": 6
+    "std_dev": 0.45,
+    "store_count": 5
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -83,13 +83,6 @@
       "city": "Orlando",
       "state": "FL",
       "price": 2.99
-    },
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 2.99
     }
   ],
   "min_price_store_numbers": [
@@ -99,13 +92,6 @@
     "021309"
   ],
   "priciest_stores": [
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 2.99
-    },
     {
       "store_number": "032170",
       "name": "Taco Bell",
@@ -142,10 +128,21 @@
       "price": 1.99
     }
   ],
-  "price_changes": [],
+  "price_changes": [
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-09-26T21:36:14.918886+00:00"
+    }
+  ],
   "activity_summary": {
     "added": 0,
-    "removed": 0,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -198,15 +195,6 @@
       "Taco Bell",
       "Orlando",
       "FL"
-    ],
-    [
-      "026028",
-      41.71567814277641,
-      -87.78261208259407,
-      2.99,
-      "Taco Bell / KFC",
-      "Chicago Ridge",
-      "IL"
     ]
   ],
   "retired_at": null,

@@ -11,25 +11,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.5,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0238,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 0.26,
+    "avg": 0.25,
     "min": 0.25,
-    "max": 0.5,
+    "max": 0.25,
     "median": 0.25,
-    "std_dev": 0.04,
-    "store_count": 41
+    "std_dev": 0.0,
+    "store_count": 40
   },
   "histogram": [
     {
       "bucket": "$0.25",
       "count": 40
-    },
-    {
-      "bucket": "$0.50",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -174,13 +170,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 0.5
-    },
-    {
       "store_number": "035752",
       "name": "Taco Bell",
       "city": "Clute",
@@ -242,9 +231,26 @@
       "city": "Vidor",
       "state": "TX",
       "price": 0.25
+    },
+    {
+      "store_number": "035748",
+      "name": "Taco Bell",
+      "city": "Beaumont",
+      "state": "TX",
+      "price": 0.25
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-09-26T21:36:14.918886+00:00"
+    },
     {
       "store_number": "038900",
       "store_name": "Taco Bell",
@@ -110088,7 +110094,7 @@
   ],
   "activity_summary": {
     "added": 1621,
-    "removed": 9245,
+    "removed": 9246,
     "price_changed": 118,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -110456,15 +110462,6 @@
       "Taco Bell",
       "Clute",
       "TX"
-    ],
-    [
-      "026028",
-      41.71567814277641,
-      -87.78261208259407,
-      0.5,
-      "Taco Bell / KFC",
-      "Chicago Ridge",
-      "IL"
     ]
   ],
   "retired_at": null,
