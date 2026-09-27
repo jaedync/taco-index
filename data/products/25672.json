@@ -16,18 +16,22 @@
   "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-06-18T21:25:22.257043+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 5.59,
+    "avg": 5.57,
     "min": 5.19,
     "max": 5.79,
-    "median": 5.79,
-    "std_dev": 0.35,
-    "store_count": 3
+    "median": 5.64,
+    "std_dev": 0.29,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$5.19",
+      "count": 1
+    },
+    {
+      "bucket": "$5.49",
       "count": 1
     },
     {
@@ -57,6 +61,13 @@
       "city": "Spring",
       "state": "TX",
       "price": 5.19
+    },
+    {
+      "store_number": "001089",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Dallas",
+      "state": "TX",
+      "price": 5.49
     },
     {
       "store_number": "039811",
@@ -92,6 +103,13 @@
       "price": 5.79
     },
     {
+      "store_number": "001089",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Dallas",
+      "state": "TX",
+      "price": 5.49
+    },
+    {
       "store_number": "019252",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Spring",
@@ -100,6 +118,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "001089",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Dallas",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-09-27T20:39:50.529949+00:00"
+    },
     {
       "store_number": "039841",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -952,7 +980,7 @@
     }
   ],
   "activity_summary": {
-    "added": 44,
+    "added": 45,
     "removed": 41,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -982,6 +1010,15 @@
       5.19,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Spring",
+      "TX"
+    ],
+    [
+      "001089",
+      32.83626582002558,
+      -96.77328680457322,
+      5.49,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Dallas",
       "TX"
     ],
     [

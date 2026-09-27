@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:40:07.034886+00:00",
   "availability_pct": 9.5,
   "price_stats": {
-    "avg": 3.08,
+    "avg": 3.09,
     "min": 2.39,
-    "max": 3.49,
+    "max": 3.59,
     "median": 3.19,
-    "std_dev": 0.23,
-    "store_count": 732
+    "std_dev": 0.24,
+    "store_count": 734
   },
   "histogram": [
     {
@@ -71,6 +71,10 @@
     {
       "bucket": "$3.49",
       "count": 1
+    },
+    {
+      "bucket": "$3.59",
+      "count": 2
     }
   ],
   "state_prices": [
@@ -213,6 +217,20 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "039098",
+      "name": "Taco Bell",
+      "city": "Newburgh",
+      "state": "NY",
+      "price": 3.59
+    },
+    {
+      "store_number": "028096",
+      "name": "Taco Bell",
+      "city": "North Arlington",
+      "state": "NJ",
+      "price": 3.59
+    },
+    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
@@ -267,23 +285,29 @@
       "city": "Kansas City",
       "state": "MO",
       "price": 3.39
-    },
-    {
-      "store_number": "003733",
-      "name": "Taco Bell",
-      "city": "Richmond",
-      "state": "VA",
-      "price": 3.29
-    },
-    {
-      "store_number": "042906",
-      "name": "Taco Bell",
-      "city": "Miami",
-      "state": "FL",
-      "price": 3.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039098",
+      "store_name": "Taco Bell",
+      "city": "Newburgh",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-09-27T20:41:08.556239+00:00"
+    },
+    {
+      "store_number": "028096",
+      "store_name": "Taco Bell",
+      "city": "North Arlington",
+      "state": "NJ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-09-27T20:41:05.973176+00:00"
+    },
     {
       "store_number": "015522",
       "store_name": "Taco Bell",
@@ -13486,7 +13510,7 @@
     }
   ],
   "activity_summary": {
-    "added": 565,
+    "added": 567,
     "removed": 564,
     "price_changed": 191,
     "since": "2026-03-31T00:00:00+00:00"
@@ -20083,6 +20107,24 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
+    ],
+    [
+      "028096",
+      40.77863225120727,
+      -74.13058161735535,
+      3.59,
+      "Taco Bell",
+      "North Arlington",
+      "NJ"
+    ],
+    [
+      "039098",
+      41.52122011673639,
+      -74.06999668165619,
+      3.59,
+      "Taco Bell",
+      "Newburgh",
+      "NY"
     ]
   ],
   "retired_at": null,

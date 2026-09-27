@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 69
+    "store_count": 66
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 69
+      "count": 66
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 69
+      "store_count": 66
     }
   ],
   "nutrition": {
@@ -62,13 +62,6 @@
       "price": 10.99
     },
     {
-      "store_number": "040730",
-      "name": "Taco Bell",
-      "city": "Edgewater",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
       "store_number": "034859",
       "name": "Taco Bell Cantina Cantina",
       "city": "Orlando",
@@ -79,13 +72,6 @@
       "store_number": "036021",
       "name": "Taco Bell",
       "city": "Longwood",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "034783",
-      "name": "Taco Bell",
-      "city": "Dunnellon",
       "state": "FL",
       "price": 10.99
     },
@@ -123,14 +109,26 @@
       "city": "Orlando",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "031840",
+      "name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "042941",
+      "name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "039700",
-    "040730",
     "034859",
     "036021",
-    "034783",
     "034809",
     "036232",
     "037372",
@@ -178,6 +176,7 @@
     "042977",
     "032537",
     "032177",
+    "023302",
     "027978",
     "022266",
     "023293",
@@ -190,20 +189,11 @@
     "027985",
     "030999",
     "042942",
-    "042928",
     "023291",
     "023300",
-    "042971",
-    "034163"
+    "042971"
   ],
   "priciest_stores": [
-    {
-      "store_number": "034163",
-      "name": "Taco Bell",
-      "city": "Saint Cloud",
-      "state": "FL",
-      "price": 10.99
-    },
     {
       "store_number": "042971",
       "name": "Taco Bell",
@@ -222,13 +212,6 @@
       "store_number": "023291",
       "name": "Taco Bell",
       "city": "Satellite Beach",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "042928",
-      "name": "Taco Bell",
-      "city": "Palm Coast",
       "state": "FL",
       "price": 10.99
     },
@@ -266,9 +249,73 @@
       "city": "Orlando",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "027980",
+      "name": "Taco Bell",
+      "city": "Orange City",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "027986",
+      "name": "Taco Bell",
+      "city": "Deltona",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034163",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-27T20:41:48.444527+00:00"
+    },
+    {
+      "store_number": "042928",
+      "store_name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-27T20:41:35.085175+00:00"
+    },
+    {
+      "store_number": "023302",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-27T20:39:25.067056+00:00"
+    },
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-27T20:38:31.491543+00:00"
+    },
+    {
+      "store_number": "040730",
+      "store_name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-27T20:38:18.488617+00:00"
+    },
     {
       "store_number": "039585",
       "store_name": "Taco Bell",
@@ -3681,8 +3728,8 @@
     }
   ],
   "activity_summary": {
-    "added": 205,
-    "removed": 136,
+    "added": 206,
+    "removed": 140,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3695,12 +3742,6 @@
       "title": "Fountain Drink - Large",
       "default_product_code": "22902",
       "default_product_name": "Large Fountain Drink"
-    },
-    {
-      "group_id": "896",
-      "title": "Crispy Chicken Crunchwrap",
-      "default_product_code": "29176",
-      "default_product_name": "Crispy Chicken Crunchwrap"
     },
     {
       "group_id": "18",
@@ -3732,15 +3773,6 @@
       "FL"
     ],
     [
-      "040730",
-      28.978999988269013,
-      -80.90048237483407,
-      10.99,
-      "Taco Bell",
-      "Edgewater",
-      "FL"
-    ],
-    [
       "034859",
       28.59831098412045,
       -81.20885426661394,
@@ -3756,15 +3788,6 @@
       10.99,
       "Taco Bell",
       "Longwood",
-      "FL"
-    ],
-    [
-      "034783",
-      29.05630760923329,
-      -82.45670382723803,
-      10.99,
-      "Taco Bell",
-      "Dunnellon",
       "FL"
     ],
     [
@@ -4191,6 +4214,15 @@
       "FL"
     ],
     [
+      "023302",
+      28.340028098278022,
+      -81.59762848915307,
+      10.99,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
+    [
       "027978",
       28.552565072072,
       -81.47350690794156,
@@ -4299,15 +4331,6 @@
       "FL"
     ],
     [
-      "042928",
-      29.5540650252999,
-      -81.22845753097863,
-      10.99,
-      "Taco Bell",
-      "Palm Coast",
-      "FL"
-    ],
-    [
       "023291",
       28.186290819898744,
       -80.59330917430088,
@@ -4332,15 +4355,6 @@
       10.99,
       "Taco Bell",
       "Palm Coast",
-      "FL"
-    ],
-    [
-      "034163",
-      28.24668494787806,
-      -81.24437438517288,
-      10.99,
-      "Taco Bell",
-      "Saint Cloud",
       "FL"
     ]
   ],
