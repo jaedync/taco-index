@@ -14,7 +14,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 0.2,
+  "peak_30d_pct": 0.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:48:25.343572+00:00",
   "availability_pct": 0.3,
@@ -24,19 +24,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 20
+    "store_count": 21
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 20
+      "count": 21
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 7.0,
-      "store_count": 20
+      "store_count": 21
     }
   ],
   "nutrition": {
@@ -145,6 +145,7 @@
     "030382",
     "039138",
     "028361",
+    "033292",
     "030379"
   ],
   "priciest_stores": [
@@ -152,6 +153,13 @@
       "store_number": "030379",
       "name": "Taco Bell",
       "city": "Moore",
+      "state": "OK",
+      "price": 7.0
+    },
+    {
+      "store_number": "033292",
+      "name": "Taco Bell",
+      "city": "Norman",
       "state": "OK",
       "price": 7.0
     },
@@ -210,16 +218,19 @@
       "city": "Del City",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "030390",
-      "name": "Taco Bell",
-      "city": "Shawnee",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033292",
+      "store_name": "Taco Bell",
+      "city": "Norman",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-09-28T21:33:36.015239+00:00"
+    },
     {
       "store_number": "030394",
       "store_name": "Taco Bell",
@@ -772,7 +783,7 @@
     }
   ],
   "activity_summary": {
-    "added": 34,
+    "added": 35,
     "removed": 21,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -982,6 +993,15 @@
       7.0,
       "Taco Bell",
       "Elk City",
+      "OK"
+    ],
+    [
+      "033292",
+      35.18233895133625,
+      -97.41836611928193,
+      7.0,
+      "Taco Bell",
+      "Norman",
       "OK"
     ],
     [

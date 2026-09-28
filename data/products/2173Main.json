@@ -22,19 +22,19 @@
     "max": 4.59,
     "median": 4.59,
     "std_dev": 0.0,
-    "store_count": 53
+    "store_count": 54
   },
   "histogram": [
     {
       "bucket": "$4.59",
-      "count": 53
+      "count": 54
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 4.59,
-      "store_count": 53
+      "store_count": 54
     }
   ],
   "nutrition": {
@@ -176,6 +176,7 @@
     "018677",
     "042652",
     "034020",
+    "033999",
     "040524"
   ],
   "priciest_stores": [
@@ -183,6 +184,13 @@
       "store_number": "040524",
       "name": "Taco Bell",
       "city": "Corunna",
+      "state": "MI",
+      "price": 4.59
+    },
+    {
+      "store_number": "033999",
+      "name": "Taco Bell",
+      "city": "Grand Blanc",
       "state": "MI",
       "price": 4.59
     },
@@ -241,16 +249,19 @@
       "city": "Saginaw",
       "state": "MI",
       "price": 4.59
-    },
-    {
-      "store_number": "033319",
-      "name": "Taco Bell",
-      "city": "Flushing",
-      "state": "MI",
-      "price": 4.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033999",
+      "store_name": "Taco Bell",
+      "city": "Grand Blanc",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.59,
+      "observed_at": "2026-09-28T21:34:36.925999+00:00"
+    },
     {
       "store_number": "033999",
       "store_name": "Taco Bell",
@@ -1823,7 +1834,7 @@
     }
   ],
   "activity_summary": {
-    "added": 105,
+    "added": 106,
     "removed": 52,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2299,6 +2310,15 @@
       4.59,
       "Taco Bell",
       "Linden",
+      "MI"
+    ],
+    [
+      "033999",
+      42.94361483006382,
+      -83.6899741213718,
+      4.59,
+      "Taco Bell",
+      "Grand Blanc",
       "MI"
     ],
     [
