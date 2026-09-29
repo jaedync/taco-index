@@ -16,29 +16,25 @@
   "first_seen_at": "2026-09-18T21:20:24.727748+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 4.12,
-    "min": 1.19,
+    "avg": 4.29,
+    "min": 3.99,
     "max": 4.49,
     "median": 4.29,
-    "std_dev": 0.72,
-    "store_count": 38
+    "std_dev": 0.15,
+    "store_count": 37
   },
   "histogram": [
-    {
-      "bucket": "$1.19",
-      "count": 2
-    },
     {
       "bucket": "$3.99",
       "count": 5
     },
     {
       "bucket": "$4.19",
-      "count": 7
+      "count": 5
     },
     {
       "bucket": "$4.29",
-      "count": 8
+      "count": 11
     },
     {
       "bucket": "$4.39",
@@ -51,14 +47,14 @@
   ],
   "state_prices": [
     {
-      "state": "TX",
-      "avg_price": 4.16,
-      "store_count": 16
+      "state": "CA",
+      "avg_price": 4.4,
+      "store_count": 19
     },
     {
-      "state": "CA",
-      "avg_price": 4.06,
-      "store_count": 19
+      "state": "TX",
+      "avg_price": 4.16,
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -76,20 +72,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "041613",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Chula Vista",
-      "state": "CA",
-      "price": 1.19
-    },
-    {
-      "store_number": "041597",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "San Diego",
-      "state": "CA",
-      "price": 1.19
-    },
     {
       "store_number": "002981",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -145,11 +127,28 @@
       "city": "Katy",
       "state": "TX",
       "price": 4.19
+    },
+    {
+      "store_number": "002689",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Deer Park",
+      "state": "TX",
+      "price": 4.19
+    },
+    {
+      "store_number": "027416",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
+      "state": "TX",
+      "price": 4.19
     }
   ],
   "min_price_store_numbers": [
-    "041613",
-    "041597"
+    "002981",
+    "001089",
+    "027669",
+    "021196",
+    "001331"
   ],
   "priciest_stores": [
     {
@@ -224,6 +223,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041597",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "San Diego",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 1.19,
+      "new_price": 4.29,
+      "observed_at": "2026-09-29T21:39:33.133887+00:00"
+    },
+    {
+      "store_number": "041613",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Chula Vista",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 1.19,
+      "new_price": 4.29,
+      "observed_at": "2026-09-29T21:39:19.322565+00:00"
+    },
+    {
+      "store_number": "041611",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "El Cajon",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.19,
+      "new_price": 4.29,
+      "observed_at": "2026-09-29T21:38:52.757096+00:00"
+    },
+    {
+      "store_number": "021176",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Tomball",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-09-29T21:37:29.501021+00:00"
+    },
     {
       "store_number": "022811",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -647,8 +686,8 @@
   ],
   "activity_summary": {
     "added": 40,
-    "removed": 2,
-    "price_changed": 0,
+    "removed": 3,
+    "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 0,
@@ -656,24 +695,6 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
-    [
-      "041613",
-      32.64483632374036,
-      -116.99737478794304,
-      1.19,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Chula Vista",
-      "CA"
-    ],
-    [
-      "041597",
-      32.97991222759036,
-      -117.07994344047877,
-      1.19,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "San Diego",
-      "CA"
-    ],
     [
       "002981",
       32.859492632046816,
@@ -747,15 +768,6 @@
       "TX"
     ],
     [
-      "021176",
-      30.074328114350713,
-      -95.62661482955264,
-      4.19,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Tomball",
-      "TX"
-    ],
-    [
       "002689",
       29.680382783181383,
       -95.12291199994706,
@@ -763,15 +775,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Deer Park",
       "TX"
-    ],
-    [
-      "041611",
-      32.802124703776066,
-      -117.00442847203766,
-      4.19,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "El Cajon",
-      "CA"
     ],
     [
       "027416",
@@ -837,6 +840,15 @@
       "NV"
     ],
     [
+      "041611",
+      32.802124703776066,
+      -117.00442847203766,
+      4.29,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "El Cajon",
+      "CA"
+    ],
+    [
       "027489",
       32.747273077266925,
       -96.59862773926898,
@@ -853,6 +865,24 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Las Vegas",
       "NV"
+    ],
+    [
+      "041613",
+      32.64483632374036,
+      -116.99737478794304,
+      4.29,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Chula Vista",
+      "CA"
+    ],
+    [
+      "041597",
+      32.97991222759036,
+      -117.07994344047877,
+      4.29,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "San Diego",
+      "CA"
     ],
     [
       "039835",
@@ -1000,21 +1030,21 @@
     ]
   ],
   "retired_at": "2026-09-23T21:23:27.924163+00:00",
-  "last_seen_date": "2026-09-28",
+  "last_seen_date": "2026-09-29",
   "peak_availability_pct": 0.5,
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 4.12,
-      "min_price": 1.19,
+      "avg_price": 4.29,
+      "min_price": 3.99,
       "max_price": 4.49,
       "calories": 220,
       "happier_hour_avg": null
     },
     {
       "size": "REGULAR",
-      "avg_price": 3.84,
-      "min_price": 1.19,
+      "avg_price": 3.99,
+      "min_price": 3.79,
       "max_price": 4.19,
       "calories": 180,
       "happier_hour_avg": null

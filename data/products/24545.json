@@ -14,7 +14,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 1.5,
-  "recent_price_change_pct": 0.2131,
+  "recent_price_change_pct": 0.2103,
   "first_seen_at": "2026-03-30T00:40:09.997470+00:00",
   "availability_pct": 0.4,
   "price_stats": {
@@ -22,13 +22,13 @@
     "min": 6.49,
     "max": 11.99,
     "median": 7.49,
-    "std_dev": 1.39,
-    "store_count": 32
+    "std_dev": 1.42,
+    "store_count": 33
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$6.59",
@@ -56,7 +56,7 @@
     },
     {
       "bucket": "$7.89",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$8.99",
@@ -68,7 +68,7 @@
     },
     {
       "bucket": "$9.49",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$9.99",
@@ -82,8 +82,8 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 7.82,
-      "store_count": 21
+      "avg_price": 7.83,
+      "store_count": 22
     }
   ],
   "nutrition": {
@@ -110,6 +110,13 @@
     },
     {
       "store_number": "035325",
+      "name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "price": 6.49
+    },
+    {
+      "store_number": "037094",
       "name": "Taco Bell",
       "city": "Bronx",
       "state": "NY",
@@ -163,18 +170,12 @@
       "city": "Bronx",
       "state": "NY",
       "price": 7.19
-    },
-    {
-      "store_number": "033947",
-      "name": "Taco Bell Cantina Cantina",
-      "city": "Brooklyn",
-      "state": "NY",
-      "price": 7.19
     }
   ],
   "min_price_store_numbers": [
     "040572",
-    "035325"
+    "035325",
+    "037094"
   ],
   "priciest_stores": [
     {
@@ -213,6 +214,13 @@
       "price": 9.49
     },
     {
+      "store_number": "036027",
+      "name": "Taco Bell",
+      "city": "Astoria",
+      "state": "NY",
+      "price": 9.49
+    },
+    {
       "store_number": "038758",
       "name": "Taco Bell",
       "city": "New York",
@@ -234,13 +242,6 @@
       "price": 7.89
     },
     {
-      "store_number": "035336",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 7.89
-    },
-    {
       "store_number": "039957",
       "name": "Taco Bell",
       "city": "Ridgewood",
@@ -249,6 +250,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037094",
+      "store_name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-09-29T21:37:39.060253+00:00"
+    },
+    {
+      "store_number": "036027",
+      "store_name": "Taco Bell",
+      "city": "Astoria",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-09-29T21:36:59.669765+00:00"
+    },
+    {
+      "store_number": "035336",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 7.89,
+      "new_price": null,
+      "observed_at": "2026-09-29T21:36:58.684360+00:00"
+    },
     {
       "store_number": "036027",
       "store_name": "Taco Bell",
@@ -31261,8 +31292,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1534,
-    "removed": 1554,
+    "added": 1536,
+    "removed": 1555,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -31284,6 +31315,15 @@
       "035325",
       40.85553989575002,
       -73.86794210881968,
+      6.49,
+      "Taco Bell",
+      "Bronx",
+      "NY"
+    ],
+    [
+      "037094",
+      40.89282138313724,
+      -73.85743711239971,
       6.49,
       "Taco Bell",
       "Bronx",
@@ -31479,15 +31519,6 @@
       "NY"
     ],
     [
-      "035336",
-      40.70847127284533,
-      -74.00504528587913,
-      7.89,
-      "Taco Bell",
-      "New York",
-      "NY"
-    ],
-    [
       "037832",
       40.70879208796513,
       -73.95847624080733,
@@ -31512,6 +31543,15 @@
       9.09,
       "Taco Bell",
       "New York",
+      "NY"
+    ],
+    [
+      "036027",
+      40.77574772202303,
+      -73.91154819819167,
+      9.49,
+      "Taco Bell",
+      "Astoria",
       "NY"
     ],
     [

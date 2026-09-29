@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3504
+    "store_count": 3502
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3504
+      "count": 3502
     }
   ],
   "state_prices": [
@@ -77,12 +77,12 @@
     {
       "state": "PA",
       "avg_price": 0.0,
-      "store_count": 13
+      "store_count": 12
     },
     {
       "state": "OR",
       "avg_price": 0.0,
-      "store_count": 112
+      "store_count": 111
     },
     {
       "state": "OK",
@@ -147,7 +147,7 @@
     {
       "state": "MN",
       "avg_price": 0.0,
-      "store_count": 99
+      "store_count": 100
     },
     {
       "state": "MI",
@@ -212,7 +212,7 @@
     {
       "state": "FL",
       "avg_price": 0.0,
-      "store_count": 254
+      "store_count": 253
     },
     {
       "state": "DC",
@@ -1853,7 +1853,6 @@
     "032586",
     "024230",
     "033285",
-    "004897",
     "030776",
     "018026",
     "033766",
@@ -2127,7 +2126,6 @@
     "028112",
     "042899",
     "002113",
-    "042842",
     "041344",
     "031902",
     "016801",
@@ -3818,7 +3816,6 @@
     "043223",
     "002474",
     "029722",
-    "035418",
     "020852",
     "036303",
     "042796",
@@ -3835,9 +3832,17 @@
     "024656",
     "042423",
     "042740",
-    "037586"
+    "037586",
+    "043169"
   ],
   "priciest_stores": [
+    {
+      "store_number": "043169",
+      "name": "Taco Bell",
+      "city": "Rochester",
+      "state": "MN",
+      "price": 0.0
+    },
     {
       "store_number": "037586",
       "name": "Taco Bell",
@@ -3900,16 +3905,49 @@
       "city": "Mead",
       "state": "WA",
       "price": 0.0
-    },
-    {
-      "store_number": "002580",
-      "name": "Taco Bell",
-      "city": "Goose Creek",
-      "state": "SC",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043169",
+      "store_name": "Taco Bell",
+      "city": "Rochester",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-09-29T21:39:54.437359+00:00"
+    },
+    {
+      "store_number": "042842",
+      "store_name": "Taco Bell",
+      "city": "Fort Myers",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-09-29T21:38:43.604344+00:00"
+    },
+    {
+      "store_number": "004897",
+      "store_name": "Taco Bell",
+      "city": "Keizer",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-09-29T21:38:27.351960+00:00"
+    },
+    {
+      "store_number": "035418",
+      "store_name": "Taco Bell",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-09-29T21:36:53.487983+00:00"
+    },
     {
       "store_number": "042617",
       "store_name": "Taco Bell",
@@ -13992,8 +14030,8 @@
     }
   ],
   "activity_summary": {
-    "added": 482,
-    "removed": 526,
+    "added": 483,
+    "removed": 529,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -27692,15 +27730,6 @@
       "OK"
     ],
     [
-      "004897",
-      44.991772166209536,
-      -123.02605567267165,
-      0.0,
-      "Taco Bell",
-      "Keizer",
-      "OR"
-    ],
-    [
       "030776",
       37.961085548589196,
       -121.98338689826979,
@@ -30156,15 +30185,6 @@
       "Taco Bell",
       "Indianapolis",
       "IN"
-    ],
-    [
-      "042842",
-      26.614582256885537,
-      -81.8716080933973,
-      0.0,
-      "Taco Bell",
-      "Fort Myers",
-      "FL"
     ],
     [
       "041344",
@@ -45377,15 +45397,6 @@
       "NJ"
     ],
     [
-      "035418",
-      40.45778756879308,
-      -80.16790358967961,
-      0.0,
-      "Taco Bell",
-      "Pittsburgh",
-      "PA"
-    ],
-    [
       "020852",
       34.86462845447513,
       -120.4180175811598,
@@ -45537,6 +45548,15 @@
       "Taco Bell",
       "Bismarck",
       "ND"
+    ],
+    [
+      "043169",
+      44.04235642,
+      -92.52130765,
+      0.0,
+      "Taco Bell",
+      "Rochester",
+      "MN"
     ]
   ],
   "retired_at": null,
