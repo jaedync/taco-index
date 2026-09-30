@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 61
+    "store_count": 63
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 61
+      "count": 63
     }
   ],
   "state_prices": [
     {
       "state": "OH",
       "avg_price": 9.0,
-      "store_count": 61
+      "store_count": 63
     }
   ],
   "nutrition": {
@@ -62,6 +62,13 @@
       "store_number": "040759",
       "name": "Taco Bell",
       "city": "Canton",
+      "state": "OH",
+      "price": 9.0
+    },
+    {
+      "store_number": "040933",
+      "name": "Taco Bell",
+      "city": "Lorain",
       "state": "OH",
       "price": 9.0
     },
@@ -113,18 +120,12 @@
       "city": "Mentor",
       "state": "OH",
       "price": 9.0
-    },
-    {
-      "store_number": "036010",
-      "name": "Taco Bell",
-      "city": "Canton",
-      "state": "OH",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "034909",
     "040759",
+    "040933",
     "041372",
     "040990",
     "042062",
@@ -137,6 +138,7 @@
     "042040",
     "038778",
     "035354",
+    "021478",
     "017264",
     "027702",
     "030674",
@@ -258,6 +260,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "021478",
+      "store_name": "Taco Bell",
+      "city": "Sandusky",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-30T20:58:44.363965+00:00"
+    },
+    {
+      "store_number": "040933",
+      "store_name": "Taco Bell",
+      "city": "Lorain",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-30T20:58:02.661346+00:00"
+    },
     {
       "store_number": "005283",
       "store_name": "Taco Bell",
@@ -2350,7 +2372,7 @@
     }
   ],
   "activity_summary": {
-    "added": 135,
+    "added": 137,
     "removed": 74,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2407,6 +2429,15 @@
       9.0,
       "Taco Bell",
       "Canton",
+      "OH"
+    ],
+    [
+      "040933",
+      41.46510122044151,
+      -82.15740719027623,
+      9.0,
+      "Taco Bell",
+      "Lorain",
       "OH"
     ],
     [
@@ -2515,6 +2546,15 @@
       9.0,
       "Taco Bell",
       "Painesville",
+      "OH"
+    ],
+    [
+      "021478",
+      41.40384923491452,
+      -82.66042605042458,
+      9.0,
+      "Taco Bell",
+      "Sandusky",
       "OH"
     ],
     [
@@ -2942,6 +2982,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-09-29",
+  "last_seen_date": "2026-09-30",
   "peak_availability_pct": 0.8
 }
