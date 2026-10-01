@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 63
+    "store_count": 64
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 63
+      "count": 64
     }
   ],
   "state_prices": [
     {
       "state": "OH",
       "avg_price": 9.0,
-      "store_count": 63
+      "store_count": 64
     }
   ],
   "nutrition": {
@@ -183,6 +183,7 @@
     "002982",
     "015453",
     "022455",
+    "015366",
     "032972",
     "033482",
     "040445"
@@ -206,6 +207,13 @@
       "store_number": "032972",
       "name": "Taco Bell",
       "city": "Avon",
+      "state": "OH",
+      "price": 9.0
+    },
+    {
+      "store_number": "015366",
+      "name": "Taco Bell",
+      "city": "Mansfield",
       "state": "OH",
       "price": 9.0
     },
@@ -250,16 +258,19 @@
       "city": "Cleveland",
       "state": "OH",
       "price": 9.0
-    },
-    {
-      "store_number": "001856",
-      "name": "Taco Bell",
-      "city": "Dover",
-      "state": "OH",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "015366",
+      "store_name": "Taco Bell",
+      "city": "Mansfield",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-10-01T21:45:25.943170+00:00"
+    },
     {
       "store_number": "021478",
       "store_name": "Taco Bell",
@@ -2372,7 +2383,7 @@
     }
   ],
   "activity_summary": {
-    "added": 137,
+    "added": 138,
     "removed": 74,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2954,6 +2965,15 @@
       "OH"
     ],
     [
+      "015366",
+      40.77450493443725,
+      -82.47799165082597,
+      9.0,
+      "Taco Bell",
+      "Mansfield",
+      "OH"
+    ],
+    [
       "032972",
       41.45875610453311,
       -82.02438872169925,
@@ -2982,6 +3002,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-09-30",
+  "last_seen_date": "2026-10-01",
   "peak_availability_pct": 0.8
 }

@@ -14,14 +14,14 @@
   "peak_30d_pct": 8.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.034886+00:00",
-  "availability_pct": 9.4,
+  "availability_pct": 9.5,
   "price_stats": {
     "avg": 3.09,
     "min": 2.39,
     "max": 3.49,
     "median": 3.19,
     "std_dev": 0.24,
-    "store_count": 731
+    "store_count": 734
   },
   "histogram": [
     {
@@ -38,11 +38,11 @@
     },
     {
       "bucket": "$2.69",
-      "count": 32
+      "count": 33
     },
     {
       "bucket": "$2.79",
-      "count": 39
+      "count": 40
     },
     {
       "bucket": "$2.89",
@@ -50,15 +50,15 @@
     },
     {
       "bucket": "$2.99",
-      "count": 90
+      "count": 89
     },
     {
       "bucket": "$3.09",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$3.19",
-      "count": 173
+      "count": 174
     },
     {
       "bucket": "$3.29",
@@ -82,12 +82,17 @@
     {
       "state": "AR",
       "avg_price": 3.28,
-      "store_count": 95
+      "store_count": 96
     },
     {
       "state": "OK",
-      "avg_price": 3.24,
-      "store_count": 119
+      "avg_price": 3.23,
+      "store_count": 120
+    },
+    {
+      "state": "FL",
+      "avg_price": 3.21,
+      "store_count": 6
     },
     {
       "state": "CA",
@@ -95,19 +100,14 @@
       "store_count": 6
     },
     {
-      "state": "FL",
-      "avg_price": 3.14,
-      "store_count": 6
-    },
-    {
       "state": "TX",
-      "avg_price": 3.01,
-      "store_count": 444
+      "avg_price": 3.0,
+      "store_count": 445
     },
     {
       "state": "GA",
-      "avg_price": 2.92,
-      "store_count": 7
+      "avg_price": 2.95,
+      "store_count": 8
     },
     {
       "state": "NM",
@@ -274,6 +274,96 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031790",
+      "store_name": "Taco Bell",
+      "city": "Lexington",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-10-01T21:47:21.916384+00:00"
+    },
+    {
+      "store_number": "035435",
+      "store_name": "Taco Bell",
+      "city": "Plano",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-10-01T21:47:01.725980+00:00"
+    },
+    {
+      "store_number": "018272",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-10-01T21:46:48.645706+00:00"
+    },
+    {
+      "store_number": "023289",
+      "store_name": "Taco Bell",
+      "city": "West Melbourne",
+      "state": "FL",
+      "change_type": "price_change",
+      "old_price": 2.99,
+      "new_price": 3.19,
+      "observed_at": "2026-10-01T21:46:40.489735+00:00"
+    },
+    {
+      "store_number": "031327",
+      "store_name": "Taco Bell",
+      "city": "Fife",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-10-01T21:45:59.708762+00:00"
+    },
+    {
+      "store_number": "003733",
+      "store_name": "Taco Bell",
+      "city": "Richmond",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-10-01T21:45:55.328385+00:00"
+    },
+    {
+      "store_number": "033274",
+      "store_name": "Taco Bell",
+      "city": "Lawton",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-10-01T21:45:48.592137+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-10-01T21:45:47.741270+00:00"
+    },
+    {
+      "store_number": "036438",
+      "store_name": "Taco Bell",
+      "city": "Minneola",
+      "state": "FL",
+      "change_type": "price_change",
+      "old_price": 2.89,
+      "new_price": 3.09,
+      "observed_at": "2026-10-01T21:45:03.144998+00:00"
+    },
     {
       "store_number": "041839",
       "store_name": "Taco Bell",
@@ -13786,9 +13876,9 @@
     }
   ],
   "activity_summary": {
-    "added": 580,
-    "removed": 580,
-    "price_changed": 191,
+    "added": 585,
+    "removed": 582,
+    "price_changed": 193,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 0,
@@ -14319,6 +14409,15 @@
       "TX"
     ],
     [
+      "035435",
+      33.03892301329131,
+      -96.70779969277852,
+      2.69,
+      "Taco Bell",
+      "Plano",
+      "TX"
+    ],
+    [
       "035449",
       33.02538069002053,
       -96.9934523000847,
@@ -14524,6 +14623,15 @@
       "Taco Bell",
       "Dallas",
       "TX"
+    ],
+    [
+      "033274",
+      34.623013867571416,
+      -98.4754765928119,
+      2.79,
+      "Taco Bell",
+      "Lawton",
+      "OK"
     ],
     [
       "027868",
@@ -15561,13 +15669,13 @@
       "GA"
     ],
     [
-      "036438",
-      28.576159566371096,
-      -81.74960673084662,
+      "031790",
+      33.98436454651288,
+      -81.25353385043806,
       2.89,
       "Taco Bell",
-      "Minneola",
-      "FL"
+      "Lexington",
+      "SC"
     ],
     [
       "036424",
@@ -16128,15 +16236,6 @@
       "TX"
     ],
     [
-      "023289",
-      28.078498297131155,
-      -80.6540892273324,
-      2.99,
-      "Taco Bell",
-      "West Melbourne",
-      "FL"
-    ],
-    [
       "030140",
       30.237776115287026,
       -97.75250043592057,
@@ -16405,6 +16504,15 @@
       "Taco Bell",
       "Purcell",
       "OK"
+    ],
+    [
+      "036438",
+      28.576159566371096,
+      -81.74960673084662,
+      3.09,
+      "Taco Bell",
+      "Minneola",
+      "FL"
     ],
     [
       "040336",
@@ -17568,6 +17676,15 @@
       "TX"
     ],
     [
+      "023289",
+      28.078498297131155,
+      -80.6540892273324,
+      3.19,
+      "Taco Bell",
+      "West Melbourne",
+      "FL"
+    ],
+    [
       "034340",
       29.229098,
       -98.789475,
@@ -17955,13 +18072,13 @@
       "FL"
     ],
     [
-      "031327",
-      47.24275914362729,
-      -122.36008733510971,
+      "041249",
+      33.96647033026141,
+      -84.010348240854,
       3.19,
       "Taco Bell",
-      "Fife",
-      "WA"
+      "Lawrenceville",
+      "GA"
     ],
     [
       "040361",
@@ -20241,15 +20358,6 @@
       "FL"
     ],
     [
-      "003733",
-      37.5909264008319,
-      -77.50533699989319,
-      3.29,
-      "Taco Bell",
-      "Richmond",
-      "VA"
-    ],
-    [
       "042599",
       35.738413,
       -91.639592,
@@ -20275,6 +20383,15 @@
       "Taco Bell",
       "Miami",
       "FL"
+    ],
+    [
+      "018272",
+      34.88316495494743,
+      -92.1088575904235,
+      3.29,
+      "Taco Bell",
+      "Jacksonville",
+      "AR"
     ],
     [
       "036251",

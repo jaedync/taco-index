@@ -15,19 +15,19 @@
   "peak_30d_pct": 0.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-07-23T20:47:03.076148+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
     "avg": 11.99,
     "min": 11.99,
     "max": 11.99,
     "median": 11.99,
     "std_dev": 0.0,
-    "store_count": 4
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$11.99",
-      "count": 4
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -66,29 +66,14 @@
       "city": "Port Saint Lucie",
       "state": "FL",
       "price": 11.99
-    },
-    {
-      "store_number": "042982",
-      "name": "Taco Bell",
-      "city": "Naranja",
-      "state": "FL",
-      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
     "042844",
     "042945",
-    "042970",
-    "042982"
+    "042970"
   ],
   "priciest_stores": [
-    {
-      "store_number": "042982",
-      "name": "Taco Bell",
-      "city": "Naranja",
-      "state": "FL",
-      "price": 11.99
-    },
     {
       "store_number": "042970",
       "name": "Taco Bell",
@@ -112,6 +97,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042982",
+      "store_name": "Taco Bell",
+      "city": "Naranja",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-10-01T21:47:28.877949+00:00"
+    },
     {
       "store_number": "042970",
       "store_name": "Taco Bell",
@@ -3875,7 +3870,7 @@
   ],
   "activity_summary": {
     "added": 190,
-    "removed": 186,
+    "removed": 187,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3929,18 +3924,9 @@
       "Taco Bell",
       "Port Saint Lucie",
       "FL"
-    ],
-    [
-      "042982",
-      25.521211092046975,
-      -80.42459113961212,
-      11.99,
-      "Taco Bell",
-      "Naranja",
-      "FL"
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-09-30",
+  "last_seen_date": "2026-10-01",
   "peak_availability_pct": 1.1
 }

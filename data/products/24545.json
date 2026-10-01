@@ -14,16 +14,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 1.5,
-  "recent_price_change_pct": 0.2202,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:09.997470+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 8.01,
+    "avg": 8.0,
     "min": 6.49,
     "max": 11.99,
     "median": 7.49,
-    "std_dev": 1.44,
-    "store_count": 31
+    "std_dev": 1.42,
+    "store_count": 32
   },
   "histogram": [
     {
@@ -56,7 +56,7 @@
     },
     {
       "bucket": "$7.89",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$8.99",
@@ -83,7 +83,7 @@
     {
       "state": "NY",
       "avg_price": 7.9,
-      "store_count": 20
+      "store_count": 21
     }
   ],
   "nutrition": {
@@ -213,9 +213,9 @@
       "price": 9.49
     },
     {
-      "store_number": "036027",
+      "store_number": "036317",
       "name": "Taco Bell",
-      "city": "Astoria",
+      "city": "Rego Park",
       "state": "NY",
       "price": 9.49
     },
@@ -241,14 +241,44 @@
       "price": 7.89
     },
     {
-      "store_number": "039957",
+      "store_number": "035336",
       "name": "Taco Bell",
-      "city": "Ridgewood",
+      "city": "New York",
       "state": "NY",
-      "price": 7.76
+      "price": 7.89
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036317",
+      "store_name": "Taco Bell",
+      "city": "Rego Park",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-10-01T21:44:50.912410+00:00"
+    },
+    {
+      "store_number": "036027",
+      "store_name": "Taco Bell",
+      "city": "Astoria",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 9.49,
+      "new_price": null,
+      "observed_at": "2026-10-01T21:44:48.820947+00:00"
+    },
+    {
+      "store_number": "035336",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.89,
+      "observed_at": "2026-10-01T21:44:47.854137+00:00"
+    },
     {
       "store_number": "036455",
       "store_name": "Taco Bell",
@@ -31311,8 +31341,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1536,
-    "removed": 1557,
+    "added": 1538,
+    "removed": 1558,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -31520,6 +31550,15 @@
       "NY"
     ],
     [
+      "035336",
+      40.70847127284533,
+      -74.00504528587913,
+      7.89,
+      "Taco Bell",
+      "New York",
+      "NY"
+    ],
+    [
       "037832",
       40.70879208796513,
       -73.95847624080733,
@@ -31547,12 +31586,12 @@
       "NY"
     ],
     [
-      "036027",
-      40.77574772202303,
-      -73.91154819819167,
+      "036317",
+      40.72940057187033,
+      -73.8624363824434,
       9.49,
       "Taco Bell",
-      "Astoria",
+      "Rego Park",
       "NY"
     ],
     [
