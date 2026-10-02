@@ -17,12 +17,12 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 0.6,
+    "avg": 0.61,
     "min": 0.3,
     "max": 0.8,
-    "median": 0.57,
+    "median": 0.6,
     "std_dev": 0.17,
-    "store_count": 16
+    "store_count": 15
   },
   "histogram": [
     {
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$0.55",
@@ -57,8 +57,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 0.65,
-      "store_count": 9
+      "avg_price": 0.67,
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -96,13 +96,6 @@
       "city": "Wartburg",
       "state": "TN",
       "price": 0.45
-    },
-    {
-      "store_number": "039923",
-      "name": "Taco Bell",
-      "city": "Statesboro",
-      "state": "GA",
-      "price": 0.5
     },
     {
       "store_number": "039924",
@@ -143,6 +136,13 @@
       "store_number": "041260",
       "name": "Taco Bell",
       "city": "Athens",
+      "state": "GA",
+      "price": 0.75
+    },
+    {
+      "store_number": "041246",
+      "name": "Taco Bell",
+      "city": "Roswell",
       "state": "GA",
       "price": 0.75
     }
@@ -224,6 +224,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039923",
+      "store_name": "Taco Bell",
+      "city": "Statesboro",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-10-02T21:49:53.246450+00:00"
+    },
     {
       "store_number": "029049",
       "store_name": "Taco Bell",
@@ -10297,7 +10307,7 @@
   ],
   "activity_summary": {
     "added": 510,
-    "removed": 493,
+    "removed": 494,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10332,15 +10342,6 @@
       "Taco Bell",
       "Wartburg",
       "TN"
-    ],
-    [
-      "039923",
-      32.43643812662501,
-      -81.75874776673481,
-      0.5,
-      "Taco Bell",
-      "Statesboro",
-      "GA"
     ],
     [
       "039924",
@@ -10452,6 +10453,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-01",
+  "last_seen_date": "2026-10-02",
   "peak_availability_pct": 6.0
 }

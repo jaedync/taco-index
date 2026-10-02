@@ -66,13 +66,6 @@
       "price": 9.0
     },
     {
-      "store_number": "034427",
-      "name": "Taco Bell",
-      "city": "Dickson",
-      "state": "TN",
-      "price": 9.0
-    },
-    {
       "store_number": "002258",
       "name": "Taco Bell",
       "city": "Columbia",
@@ -120,12 +113,18 @@
       "city": "Franklin",
       "state": "TN",
       "price": 9.0
+    },
+    {
+      "store_number": "035007",
+      "name": "Taco Bell",
+      "city": "Scottsville",
+      "state": "KY",
+      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "034785",
     "036227",
-    "034427",
     "002258",
     "034359",
     "003441",
@@ -150,6 +149,7 @@
     "015281",
     "004591",
     "034437",
+    "009435",
     "031779",
     "032898"
   ],
@@ -165,6 +165,13 @@
       "store_number": "031779",
       "name": "Taco Bell",
       "city": "Murfreesboro",
+      "state": "TN",
+      "price": 9.0
+    },
+    {
+      "store_number": "009435",
+      "name": "Taco Bell",
+      "city": "Nashville",
       "state": "TN",
       "price": 9.0
     },
@@ -216,16 +223,29 @@
       "city": "Hopkinsville",
       "state": "KY",
       "price": 9.0
-    },
-    {
-      "store_number": "034365",
-      "name": "Taco Bell",
-      "city": "Hendersonville",
-      "state": "TN",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "009435",
+      "store_name": "Taco Bell",
+      "city": "Nashville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-10-02T21:49:32.362822+00:00"
+    },
+    {
+      "store_number": "034427",
+      "store_name": "Taco Bell",
+      "city": "Dickson",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-10-02T21:49:20.085052+00:00"
+    },
     {
       "store_number": "034427",
       "store_name": "Taco Bell",
@@ -1178,8 +1198,8 @@
     }
   ],
   "activity_summary": {
-    "added": 62,
-    "removed": 33,
+    "added": 63,
+    "removed": 34,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1235,15 +1255,6 @@
       9.0,
       "Taco Bell",
       "Gallatin",
-      "TN"
-    ],
-    [
-      "034427",
-      36.076312257130944,
-      -87.37475587989138,
-      9.0,
-      "Taco Bell",
-      "Dickson",
       "TN"
     ],
     [
@@ -1463,6 +1474,15 @@
       "TN"
     ],
     [
+      "009435",
+      36.129639604537175,
+      -86.71404979662378,
+      9.0,
+      "Taco Bell",
+      "Nashville",
+      "TN"
+    ],
+    [
       "031779",
       35.8117960507188,
       -86.46001899140163,
@@ -1482,6 +1502,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-10-01",
+  "last_seen_date": "2026-10-02",
   "peak_availability_pct": 0.4
 }

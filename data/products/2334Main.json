@@ -20,7 +20,7 @@
     "min": 2.29,
     "max": 2.99,
     "median": 2.59,
-    "std_dev": 0.23,
+    "std_dev": 0.22,
     "store_count": 33
   },
   "histogram": [
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 15
+      "count": 14
     },
     {
       "bucket": "$2.59",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$2.99",
@@ -52,7 +52,7 @@
   "state_prices": [
     {
       "state": "MI",
-      "avg_price": 2.66,
+      "avg_price": 2.67,
       "store_count": 32
     }
   ],
@@ -218,6 +218,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040005",
+      "store_name": "Taco Bell",
+      "city": "Grand Blanc",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-10-02T21:49:39.184211+00:00"
+    },
+    {
+      "store_number": "042225",
+      "store_name": "Taco Bell",
+      "city": "Auburn",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-10-02T21:49:09.360183+00:00"
+    },
     {
       "store_number": "040005",
       "store_name": "Taco Bell",
@@ -1660,8 +1680,8 @@
     }
   ],
   "activity_summary": {
-    "added": 89,
-    "removed": 55,
+    "added": 90,
+    "removed": 56,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1761,15 +1781,6 @@
       "MI"
     ],
     [
-      "040005",
-      42.901168929591954,
-      -83.63108554232781,
-      2.49,
-      "Taco Bell",
-      "Grand Blanc",
-      "MI"
-    ],
-    [
       "033318",
       42.96431496278244,
       -83.8102031165676,
@@ -1866,6 +1877,15 @@
       2.79,
       "Taco Bell",
       "Davison",
+      "MI"
+    ],
+    [
+      "042225",
+      43.598942386388,
+      -84.08900399582775,
+      2.79,
+      "Taco Bell",
+      "Auburn",
       "MI"
     ],
     [
@@ -1969,7 +1989,7 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-10-01",
+  "last_seen_date": "2026-10-02",
   "peak_availability_pct": 0.5,
   "drink_sizes": [
     {

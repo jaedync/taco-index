@@ -23,12 +23,12 @@
     "max": 11.99,
     "median": 7.49,
     "std_dev": 1.42,
-    "store_count": 32
+    "store_count": 34
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$6.59",
@@ -68,7 +68,7 @@
     },
     {
       "bucket": "$9.49",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$9.99",
@@ -82,8 +82,8 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 7.9,
-      "store_count": 21
+      "avg_price": 7.91,
+      "store_count": 23
     }
   ],
   "nutrition": {
@@ -101,6 +101,13 @@
     "serving_size_g": 435.1646
   },
   "cheapest_stores": [
+    {
+      "store_number": "040572",
+      "name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "price": 6.49
+    },
     {
       "store_number": "035325",
       "name": "Taco Bell",
@@ -163,16 +170,10 @@
       "city": "Bronx",
       "state": "NY",
       "price": 7.19
-    },
-    {
-      "store_number": "033947",
-      "name": "Taco Bell Cantina Cantina",
-      "city": "Brooklyn",
-      "state": "NY",
-      "price": 7.19
     }
   ],
   "min_price_store_numbers": [
+    "040572",
     "035325",
     "037094"
   ],
@@ -220,6 +221,13 @@
       "price": 9.49
     },
     {
+      "store_number": "036027",
+      "name": "Taco Bell",
+      "city": "Astoria",
+      "state": "NY",
+      "price": 9.49
+    },
+    {
       "store_number": "038758",
       "name": "Taco Bell",
       "city": "New York",
@@ -239,16 +247,29 @@
       "city": "Brooklyn",
       "state": "NY",
       "price": 7.89
-    },
-    {
-      "store_number": "035336",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 7.89
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036027",
+      "store_name": "Taco Bell",
+      "city": "Astoria",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-10-02T21:48:40.499242+00:00"
+    },
+    {
+      "store_number": "040572",
+      "store_name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-10-02T21:48:18.954605+00:00"
+    },
     {
       "store_number": "036317",
       "store_name": "Taco Bell",
@@ -31341,7 +31362,7 @@
     }
   ],
   "activity_summary": {
-    "added": 1538,
+    "added": 1540,
     "removed": 1558,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
@@ -31351,6 +31372,15 @@
   "calories_max": 1110,
   "combo_groups": [],
   "map_data": [
+    [
+      "040572",
+      40.84111780900031,
+      -73.84240350276126,
+      6.49,
+      "Taco Bell",
+      "Bronx",
+      "NY"
+    ],
     [
       "035325",
       40.85553989575002,
@@ -31583,6 +31613,15 @@
       9.09,
       "Taco Bell",
       "New York",
+      "NY"
+    ],
+    [
+      "036027",
+      40.77574772202303,
+      -73.91154819819167,
+      9.49,
+      "Taco Bell",
+      "Astoria",
       "NY"
     ],
     [

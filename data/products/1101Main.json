@@ -10,19 +10,23 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 0.0,
-  "recent_price_change_pct": null,
+  "peak_30d_pct": 0.1,
+  "recent_price_change_pct": -0.0456,
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.59,
-    "min": 2.29,
+    "avg": 2.47,
+    "min": 2.0,
     "max": 2.79,
-    "median": 2.64,
-    "std_dev": 0.24,
-    "store_count": 4
+    "median": 2.49,
+    "std_dev": 0.34,
+    "store_count": 5
   },
   "histogram": [
+    {
+      "bucket": "$2.00",
+      "count": 1
+    },
     {
       "bucket": "$2.29",
       "count": 1
@@ -36,9 +40,22 @@
       "count": 2
     }
   ],
-  "state_prices": [],
+  "state_prices": [
+    {
+      "state": "NY",
+      "avg_price": 2.47,
+      "store_count": 5
+    }
+  ],
   "nutrition": null,
   "cheapest_stores": [
+    {
+      "store_number": "034818",
+      "name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "price": 2.0
+    },
     {
       "store_number": "040658",
       "name": "Taco Bell",
@@ -69,7 +86,7 @@
     }
   ],
   "min_price_store_numbers": [
-    "040658"
+    "034818"
   ],
   "priciest_stores": [
     {
@@ -99,9 +116,26 @@
       "city": "Bronx",
       "state": "NY",
       "price": 2.29
+    },
+    {
+      "store_number": "034818",
+      "name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "price": 2.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034818",
+      "store_name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.0,
+      "observed_at": "2026-10-02T21:48:34.567525+00:00"
+    },
     {
       "store_number": "042688",
       "store_name": "Taco Bell",
@@ -424,7 +458,7 @@
     }
   ],
   "activity_summary": {
-    "added": 14,
+    "added": 15,
     "removed": 18,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -434,6 +468,15 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
+    [
+      "034818",
+      40.86258037733615,
+      -73.90179805736511,
+      2.0,
+      "Taco Bell",
+      "Bronx",
+      "NY"
+    ],
     [
       "040658",
       40.88004873961616,
@@ -477,11 +520,11 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 2.4,
+      "avg_price": 2.38,
       "min_price": 2.0,
       "max_price": 2.79,
       "calories": 0,
-      "happier_hour_avg": 1.79
+      "happier_hour_avg": 1.73
     }
   ]
 }
