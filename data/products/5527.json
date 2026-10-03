@@ -13,24 +13,20 @@
   "is_meatless": true,
   "is_limited": false,
   "peak_30d_pct": 0.2,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.2435,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 0.61,
+    "avg": 0.65,
     "min": 0.3,
     "max": 0.8,
-    "median": 0.6,
+    "median": 0.75,
     "std_dev": 0.17,
-    "store_count": 15
+    "store_count": 10
   },
   "histogram": [
     {
       "bucket": "$0.30",
-      "count": 2
-    },
-    {
-      "bucket": "$0.45",
       "count": 1
     },
     {
@@ -39,15 +35,11 @@
     },
     {
       "bucket": "$0.55",
-      "count": 3
-    },
-    {
-      "bucket": "$0.60",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$0.75",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$0.80",
@@ -57,8 +49,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 0.67,
-      "store_count": 8
+      "avg_price": 0.66,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -84,32 +76,11 @@
       "price": 0.3
     },
     {
-      "store_number": "032542",
-      "name": "Taco Bell",
-      "city": "Hardeeville",
-      "state": "SC",
-      "price": 0.3
-    },
-    {
-      "store_number": "037050",
-      "name": "Taco Bell",
-      "city": "Wartburg",
-      "state": "TN",
-      "price": 0.45
-    },
-    {
       "store_number": "039924",
       "name": "Taco Bell",
       "city": "Hinesville",
       "state": "GA",
       "price": 0.5
-    },
-    {
-      "store_number": "037369",
-      "name": "Taco Bell",
-      "city": "Port St Joe",
-      "state": "FL",
-      "price": 0.55
     },
     {
       "store_number": "019713",
@@ -126,30 +97,50 @@
       "price": 0.55
     },
     {
-      "store_number": "037155",
+      "store_number": "041246",
       "name": "Taco Bell",
-      "city": "Cullman",
-      "state": "AL",
-      "price": 0.6
+      "city": "Roswell",
+      "state": "GA",
+      "price": 0.75
     },
     {
-      "store_number": "041260",
+      "store_number": "041229",
+      "name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
+      "price": 0.75
+    },
+    {
+      "store_number": "041235",
+      "name": "Taco Bell",
+      "city": "Suwanee",
+      "state": "GA",
+      "price": 0.75
+    },
+    {
+      "store_number": "041231",
       "name": "Taco Bell",
       "city": "Athens",
       "state": "GA",
       "price": 0.75
     },
     {
-      "store_number": "041246",
+      "store_number": "043141",
       "name": "Taco Bell",
-      "city": "Roswell",
+      "city": "Rainsville",
+      "state": "AL",
+      "price": 0.8
+    },
+    {
+      "store_number": "039623",
+      "name": "Taco Bell",
+      "city": "Cartersville",
       "state": "GA",
-      "price": 0.75
+      "price": 0.8
     }
   ],
   "min_price_store_numbers": [
-    "042881",
-    "032542"
+    "042881"
   ],
   "priciest_stores": [
     {
@@ -195,20 +186,6 @@
       "price": 0.75
     },
     {
-      "store_number": "041260",
-      "name": "Taco Bell",
-      "city": "Athens",
-      "state": "GA",
-      "price": 0.75
-    },
-    {
-      "store_number": "037155",
-      "name": "Taco Bell",
-      "city": "Cullman",
-      "state": "AL",
-      "price": 0.6
-    },
-    {
       "store_number": "042131",
       "name": "Taco Bell",
       "city": "Marianna",
@@ -221,9 +198,73 @@
       "city": "Panama City Beach",
       "state": "FL",
       "price": 0.55
+    },
+    {
+      "store_number": "039924",
+      "name": "Taco Bell",
+      "city": "Hinesville",
+      "state": "GA",
+      "price": 0.5
+    },
+    {
+      "store_number": "042881",
+      "name": "Taco Bell",
+      "city": "Jesup",
+      "state": "GA",
+      "price": 0.3
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037369",
+      "store_name": "Taco Bell",
+      "city": "Port St Joe",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.55,
+      "new_price": null,
+      "observed_at": "2026-10-03T21:17:38.582823+00:00"
+    },
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-10-03T21:17:34.460745+00:00"
+    },
+    {
+      "store_number": "037155",
+      "store_name": "Taco Bell",
+      "city": "Cullman",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-10-03T21:17:25.813882+00:00"
+    },
+    {
+      "store_number": "037050",
+      "store_name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 0.45,
+      "new_price": null,
+      "observed_at": "2026-10-03T21:17:25.808859+00:00"
+    },
+    {
+      "store_number": "041260",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 0.75,
+      "new_price": null,
+      "observed_at": "2026-10-03T21:16:55.838433+00:00"
+    },
     {
       "store_number": "039923",
       "store_name": "Taco Bell",
@@ -10307,7 +10348,7 @@
   ],
   "activity_summary": {
     "added": 510,
-    "removed": 494,
+    "removed": 499,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10326,24 +10367,6 @@
       "GA"
     ],
     [
-      "032542",
-      32.31307877793498,
-      -81.05568834507177,
-      0.3,
-      "Taco Bell",
-      "Hardeeville",
-      "SC"
-    ],
-    [
-      "037050",
-      36.10306709232148,
-      -84.58455685815763,
-      0.45,
-      "Taco Bell",
-      "Wartburg",
-      "TN"
-    ],
-    [
       "039924",
       31.84574482196275,
       -81.60342658085327,
@@ -10351,15 +10374,6 @@
       "Taco Bell",
       "Hinesville",
       "GA"
-    ],
-    [
-      "037369",
-      29.819161175123956,
-      -85.3058260644086,
-      0.55,
-      "Taco Bell",
-      "Port St Joe",
-      "FL"
     ],
     [
       "019713",
@@ -10378,24 +10392,6 @@
       "Taco Bell",
       "Marianna",
       "FL"
-    ],
-    [
-      "037155",
-      34.15676427597664,
-      -86.83395521550965,
-      0.6,
-      "Taco Bell",
-      "Cullman",
-      "AL"
-    ],
-    [
-      "041260",
-      33.9951,
-      -83.3367,
-      0.75,
-      "Taco Bell",
-      "Athens",
-      "GA"
     ],
     [
       "041246",
@@ -10453,6 +10449,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-02",
+  "last_seen_date": "2026-10-03",
   "peak_availability_pct": 6.0
 }

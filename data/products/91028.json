@@ -11,21 +11,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0298,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 6.11,
+    "avg": 6.12,
     "min": 5.99,
     "max": 6.49,
     "median": 5.99,
-    "std_dev": 0.21,
-    "store_count": 11
+    "std_dev": 0.22,
+    "store_count": 10
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$6.29",
@@ -52,13 +52,6 @@
     "serving_size_g": 174.3493
   },
   "cheapest_stores": [
-    {
-      "store_number": "043146",
-      "name": "Taco Bell",
-      "city": "North Augusta",
-      "state": "SC",
-      "price": 5.99
-    },
     {
       "store_number": "043137",
       "name": "Taco Bell",
@@ -121,10 +114,16 @@
       "city": "Bay Minette",
       "state": "AL",
       "price": 6.49
+    },
+    {
+      "store_number": "042831",
+      "name": "Taco Bell",
+      "city": "Spanish Fort",
+      "state": "AL",
+      "price": 6.49
     }
   ],
   "min_price_store_numbers": [
-    "043146",
     "043137",
     "043140",
     "043133",
@@ -206,6 +205,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043146",
+      "store_name": "Taco Bell",
+      "city": "North Augusta",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-10-03T21:16:55.953889+00:00"
+    },
     {
       "store_number": "042831",
       "store_name": "Taco Bell",
@@ -16509,7 +16518,7 @@
   ],
   "activity_summary": {
     "added": 647,
-    "removed": 635,
+    "removed": 636,
     "price_changed": 348,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16518,15 +16527,6 @@
   "calories_max": 480,
   "combo_groups": [],
   "map_data": [
-    [
-      "043146",
-      33.496707406828776,
-      -81.9589194641649,
-      5.99,
-      "Taco Bell",
-      "North Augusta",
-      "SC"
-    ],
     [
       "043137",
       34.4358610180417,
@@ -16619,6 +16619,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-02",
+  "last_seen_date": "2026-10-03",
   "peak_availability_pct": 5.9
 }

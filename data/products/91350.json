@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
     "avg": 3.19,
     "min": 3.19,
     "max": 3.19,
     "median": 3.19,
     "std_dev": 0.0,
-    "store_count": 4
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$3.19",
-      "count": 4
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -45,13 +45,6 @@
     "serving_size_g": 121.9027
   },
   "cheapest_stores": [
-    {
-      "store_number": "043148",
-      "name": "Taco Bell",
-      "city": "Aiken",
-      "state": "SC",
-      "price": 3.19
-    },
     {
       "store_number": "043141",
       "name": "Taco Bell",
@@ -75,7 +68,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "043148",
     "043141",
     "043133",
     "043130"
@@ -101,16 +93,19 @@
       "city": "Rainsville",
       "state": "AL",
       "price": 3.19
-    },
-    {
-      "store_number": "043148",
-      "name": "Taco Bell",
-      "city": "Aiken",
-      "state": "SC",
-      "price": 3.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043148",
+      "store_name": "Taco Bell",
+      "city": "Aiken",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-10-03T21:17:24.308911+00:00"
+    },
     {
       "store_number": "043139",
       "store_name": "Taco Bell",
@@ -11774,7 +11769,7 @@
   ],
   "activity_summary": {
     "added": 566,
-    "removed": 561,
+    "removed": 562,
     "price_changed": 39,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11796,15 +11791,6 @@
     }
   ],
   "map_data": [
-    [
-      "043148",
-      33.51436354486988,
-      -81.71513920100077,
-      3.19,
-      "Taco Bell",
-      "Aiken",
-      "SC"
-    ],
     [
       "043141",
       34.49514403660317,

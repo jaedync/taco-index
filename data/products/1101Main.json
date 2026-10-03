@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.47,
+    "avg": 2.48,
     "min": 2.0,
     "max": 2.79,
     "median": 2.49,
-    "std_dev": 0.34,
-    "store_count": 5
+    "std_dev": 0.3,
+    "store_count": 6
   },
   "histogram": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$2.79",
@@ -43,8 +43,8 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 2.47,
-      "store_count": 5
+      "avg_price": 2.48,
+      "store_count": 6
     }
   ],
   "nutrition": null,
@@ -67,6 +67,13 @@
       "store_number": "042688",
       "name": "Taco Bell",
       "city": "Brooklyn",
+      "state": "NY",
+      "price": 2.49
+    },
+    {
+      "store_number": "036757",
+      "name": "Taco Bell Cantina",
+      "city": "New York",
       "state": "NY",
       "price": 2.49
     },
@@ -104,6 +111,13 @@
       "price": 2.79
     },
     {
+      "store_number": "036757",
+      "name": "Taco Bell Cantina",
+      "city": "New York",
+      "state": "NY",
+      "price": 2.49
+    },
+    {
       "store_number": "042688",
       "name": "Taco Bell",
       "city": "Brooklyn",
@@ -126,6 +140,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036757",
+      "store_name": "Taco Bell Cantina",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-10-03T21:17:33.012343+00:00"
+    },
     {
       "store_number": "034818",
       "store_name": "Taco Bell",
@@ -458,7 +482,7 @@
     }
   ],
   "activity_summary": {
-    "added": 15,
+    "added": 16,
     "removed": 18,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -496,6 +520,15 @@
       "NY"
     ],
     [
+      "036757",
+      40.75720615042495,
+      -73.98659208172909,
+      2.49,
+      "Taco Bell Cantina",
+      "New York",
+      "NY"
+    ],
+    [
       "034273",
       40.7624,
       -73.9854,
@@ -520,11 +553,11 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 2.38,
+      "avg_price": 2.39,
       "min_price": 2.0,
       "max_price": 2.79,
       "calories": 0,
-      "happier_hour_avg": 1.73
+      "happier_hour_avg": 1.69
     }
   ]
 }

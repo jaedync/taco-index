@@ -22,12 +22,12 @@
     "max": 10.29,
     "median": 10.29,
     "std_dev": 0.0,
-    "store_count": 3
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$10.29",
-      "count": 3
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -47,13 +47,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "043148",
-      "name": "Taco Bell",
-      "city": "Aiken",
-      "state": "SC",
-      "price": 10.29
-    },
-    {
       "store_number": "043133",
       "name": "Taco Bell",
       "city": "Augusta",
@@ -69,7 +62,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "043148",
     "043133",
     "043130"
   ],
@@ -87,16 +79,19 @@
       "city": "Augusta",
       "state": "GA",
       "price": 10.29
-    },
-    {
-      "store_number": "043148",
-      "name": "Taco Bell",
-      "city": "Aiken",
-      "state": "SC",
-      "price": 10.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043148",
+      "store_name": "Taco Bell",
+      "city": "Aiken",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 10.29,
+      "new_price": null,
+      "observed_at": "2026-10-03T21:17:24.308911+00:00"
+    },
     {
       "store_number": "043139",
       "store_name": "Taco Bell",
@@ -11980,7 +11975,7 @@
   ],
   "activity_summary": {
     "added": 567,
-    "removed": 563,
+    "removed": 564,
     "price_changed": 58,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12026,15 +12021,6 @@
     }
   ],
   "map_data": [
-    [
-      "043148",
-      33.51436354486988,
-      -81.71513920100077,
-      10.29,
-      "Taco Bell",
-      "Aiken",
-      "SC"
-    ],
     [
       "043133",
       33.46912773500816,

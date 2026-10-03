@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
     "avg": 22.99,
     "min": 22.99,
     "max": 22.99,
     "median": 22.99,
     "std_dev": 0.0,
-    "store_count": 5
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$22.99",
-      "count": 5
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -46,13 +46,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "043148",
-      "name": "Taco Bell",
-      "city": "Aiken",
-      "state": "SC",
-      "price": 22.99
-    },
-    {
       "store_number": "043134",
       "name": "Taco Bell",
       "city": "Evans",
@@ -71,31 +64,15 @@
       "name": "Taco Bell",
       "city": "Pensacola",
       "state": "FL",
-      "price": 22.99
-    },
-    {
-      "store_number": "043144",
-      "name": "Taco Bell",
-      "city": "Oneonta",
-      "state": "AL",
       "price": 22.99
     }
   ],
   "min_price_store_numbers": [
-    "043148",
     "043134",
     "042831",
-    "042826",
-    "043144"
+    "042826"
   ],
   "priciest_stores": [
-    {
-      "store_number": "043144",
-      "name": "Taco Bell",
-      "city": "Oneonta",
-      "state": "AL",
-      "price": 22.99
-    },
     {
       "store_number": "042826",
       "name": "Taco Bell",
@@ -116,16 +93,29 @@
       "city": "Evans",
       "state": "GA",
       "price": 22.99
-    },
-    {
-      "store_number": "043148",
-      "name": "Taco Bell",
-      "city": "Aiken",
-      "state": "SC",
-      "price": 22.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043144",
+      "store_name": "Taco Bell",
+      "city": "Oneonta",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 22.99,
+      "new_price": null,
+      "observed_at": "2026-10-03T21:17:48.326545+00:00"
+    },
+    {
+      "store_number": "043148",
+      "store_name": "Taco Bell",
+      "city": "Aiken",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 22.99,
+      "new_price": null,
+      "observed_at": "2026-10-03T21:17:24.308911+00:00"
+    },
     {
       "store_number": "029049",
       "store_name": "Taco Bell",
@@ -10809,7 +10799,7 @@
   ],
   "activity_summary": {
     "added": 537,
-    "removed": 531,
+    "removed": 533,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10838,15 +10828,6 @@
   ],
   "map_data": [
     [
-      "043148",
-      33.51436354486988,
-      -81.71513920100077,
-      22.99,
-      "Taco Bell",
-      "Aiken",
-      "SC"
-    ],
-    [
       "043134",
       33.53469681759676,
       -82.12696243824212,
@@ -10872,15 +10853,6 @@
       "Taco Bell",
       "Pensacola",
       "FL"
-    ],
-    [
-      "043144",
-      33.948889116027075,
-      -86.4707882609855,
-      22.99,
-      "Taco Bell",
-      "Oneonta",
-      "AL"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",

@@ -22,12 +22,12 @@
     "max": 14.99,
     "median": 14.99,
     "std_dev": 0.0,
-    "store_count": 3
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$14.99",
-      "count": 3
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -59,28 +59,13 @@
       "city": "Mobile",
       "state": "AL",
       "price": 14.99
-    },
-    {
-      "store_number": "043144",
-      "name": "Taco Bell",
-      "city": "Oneonta",
-      "state": "AL",
-      "price": 14.99
     }
   ],
   "min_price_store_numbers": [
     "043129",
-    "042818",
-    "043144"
+    "042818"
   ],
   "priciest_stores": [
-    {
-      "store_number": "043144",
-      "name": "Taco Bell",
-      "city": "Oneonta",
-      "state": "AL",
-      "price": 14.99
-    },
     {
       "store_number": "042818",
       "name": "Taco Bell",
@@ -97,6 +82,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043144",
+      "store_name": "Taco Bell",
+      "city": "Oneonta",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 14.99,
+      "new_price": null,
+      "observed_at": "2026-10-03T21:17:48.326545+00:00"
+    },
     {
       "store_number": "029049",
       "store_name": "Taco Bell",
@@ -10790,7 +10785,7 @@
   ],
   "activity_summary": {
     "added": 536,
-    "removed": 533,
+    "removed": 534,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10834,15 +10829,6 @@
       14.99,
       "Taco Bell",
       "Mobile",
-      "AL"
-    ],
-    [
-      "043144",
-      33.948889116027075,
-      -86.4707882609855,
-      14.99,
-      "Taco Bell",
-      "Oneonta",
       "AL"
     ]
   ],

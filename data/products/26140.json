@@ -20,13 +20,13 @@
     "min": 10.19,
     "max": 12.59,
     "median": 11.19,
-    "std_dev": 0.78,
-    "store_count": 98
+    "std_dev": 0.77,
+    "store_count": 97
   },
   "histogram": [
     {
       "bucket": "$10.19",
-      "count": 23
+      "count": 22
     },
     {
       "bucket": "$10.60",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$11.89",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$11.99",
@@ -58,14 +58,14 @@
     },
     {
       "bucket": "$12.59",
-      "count": 9
+      "count": 8
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 11.19,
-      "store_count": 98
+      "store_count": 97
     }
   ],
   "nutrition": null,
@@ -134,9 +134,9 @@
       "price": 10.19
     },
     {
-      "store_number": "023302",
+      "store_number": "028353",
       "name": "Taco Bell",
-      "city": "Kissimmee",
+      "city": "Leesburg",
       "state": "FL",
       "price": 10.19
     }
@@ -151,7 +151,6 @@
     "032537",
     "031840",
     "023290",
-    "023302",
     "028353",
     "023299",
     "023293",
@@ -217,13 +216,6 @@
       "price": 12.59
     },
     {
-      "store_number": "042977",
-      "name": "Taco Bell",
-      "city": "Leesburg",
-      "state": "FL",
-      "price": 12.59
-    },
-    {
       "store_number": "042753",
       "name": "Taco Bell",
       "city": "Casselberry",
@@ -236,9 +228,46 @@
       "city": "Palm Coast",
       "state": "FL",
       "price": 12.29
+    },
+    {
+      "store_number": "042928",
+      "name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "price": 12.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023302",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.19,
+      "new_price": null,
+      "observed_at": "2026-10-03T21:18:01.616598+00:00"
+    },
+    {
+      "store_number": "042977",
+      "store_name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 12.59,
+      "new_price": null,
+      "observed_at": "2026-10-03T21:17:33.283241+00:00"
+    },
+    {
+      "store_number": "041833",
+      "store_name": "Taco Bell",
+      "city": "Clermont",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.89,
+      "observed_at": "2026-10-03T21:17:30.346757+00:00"
+    },
     {
       "store_number": "041833",
       "store_name": "Taco Bell",
@@ -4511,8 +4540,8 @@
     }
   ],
   "activity_summary": {
-    "added": 243,
-    "removed": 145,
+    "added": 244,
+    "removed": 147,
     "price_changed": 39,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4625,15 +4654,6 @@
       10.19,
       "Taco Bell",
       "Orlando",
-      "FL"
-    ],
-    [
-      "023302",
-      28.340028098278022,
-      -81.59762848915307,
-      10.19,
-      "Taco Bell",
-      "Kissimmee",
       "FL"
     ],
     [
@@ -5186,6 +5206,15 @@
       "FL"
     ],
     [
+      "041833",
+      28.546889,
+      -81.662737,
+      11.89,
+      "Taco Bell",
+      "Clermont",
+      "FL"
+    ],
+    [
       "022266",
       28.53756096341434,
       -81.20877279901833,
@@ -5357,15 +5386,6 @@
       "FL"
     ],
     [
-      "042977",
-      28.7471,
-      -81.8773,
-      12.59,
-      "Taco Bell",
-      "Leesburg",
-      "FL"
-    ],
-    [
       "042941",
       29.116219923790815,
       -82.02579715851243,
@@ -5430,6 +5450,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-10-02",
+  "last_seen_date": "2026-10-03",
   "peak_availability_pct": 1.2
 }
