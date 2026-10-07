@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": -0.0489,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-09-17T21:51:54.990928+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 11.9,
+    "avg": 11.88,
     "min": 10.99,
-    "max": 14.19,
+    "max": 13.99,
     "median": 11.99,
     "std_dev": 0.85,
-    "store_count": 29
+    "store_count": 27
   },
   "histogram": [
     {
@@ -30,22 +30,22 @@
     },
     {
       "bucket": "$11.99",
-      "count": 16
+      "count": 14
     },
     {
       "bucket": "$12.99",
       "count": 2
     },
     {
-      "bucket": "$14.19",
+      "bucket": "$13.99",
       "count": 2
     }
   ],
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 11.89,
-      "store_count": 10
+      "avg_price": 11.88,
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -151,14 +151,14 @@
       "name": "Taco Bell / KFC",
       "city": "Stephens City",
       "state": "VA",
-      "price": 14.19
+      "price": 13.99
     },
     {
       "store_number": "020974",
       "name": "Taco Bell / KFC",
       "city": "King George",
       "state": "VA",
-      "price": 14.19
+      "price": 13.99
     },
     {
       "store_number": "041370",
@@ -173,13 +173,6 @@
       "city": "Lockeford",
       "state": "CA",
       "price": 12.99
-    },
-    {
-      "store_number": "029483",
-      "name": "Taco Bell",
-      "city": "Cary",
-      "state": "NC",
-      "price": 11.99
     },
     {
       "store_number": "030424",
@@ -215,9 +208,56 @@
       "city": "Louisburg",
       "state": "NC",
       "price": 11.99
+    },
+    {
+      "store_number": "002649",
+      "name": "Taco Bell / KFC",
+      "city": "Charleston",
+      "state": "SC",
+      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029401",
+      "store_name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-10-06T20:44:38.934166+00:00"
+    },
+    {
+      "store_number": "029483",
+      "store_name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-10-05T20:45:04.279361+00:00"
+    },
+    {
+      "store_number": "019680",
+      "store_name": "Taco Bell / KFC",
+      "city": "Stephens City",
+      "state": "VA",
+      "change_type": "price_change",
+      "old_price": 14.19,
+      "new_price": 13.99,
+      "observed_at": "2026-10-04T21:14:43.251239+00:00"
+    },
+    {
+      "store_number": "020974",
+      "store_name": "Taco Bell / KFC",
+      "city": "King George",
+      "state": "VA",
+      "change_type": "price_change",
+      "old_price": 14.19,
+      "new_price": 13.99,
+      "observed_at": "2026-10-04T21:11:43.798861+00:00"
+    },
     {
       "store_number": "035717",
       "store_name": "Taco Bell / KFC",
@@ -2001,8 +2041,8 @@
   ],
   "activity_summary": {
     "added": 94,
-    "removed": 65,
-    "price_changed": 19,
+    "removed": 67,
+    "price_changed": 21,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 1160,
@@ -2153,15 +2193,6 @@
       "NC"
     ],
     [
-      "029401",
-      36.72095995536841,
-      -78.11828226665455,
-      11.99,
-      "Taco Bell / KFC",
-      "South Hill",
-      "VA"
-    ],
-    [
       "024051",
       35.0790273387348,
       -106.71240643413512,
@@ -2270,15 +2301,6 @@
       "IA"
     ],
     [
-      "029483",
-      35.80337775917284,
-      -78.78350347280502,
-      11.99,
-      "Taco Bell",
-      "Cary",
-      "NC"
-    ],
-    [
       "041362",
       38.154667826863104,
       -121.15507706075726,
@@ -2300,7 +2322,7 @@
       "020974",
       38.33900959254854,
       -77.0779993920587,
-      14.19,
+      13.99,
       "Taco Bell / KFC",
       "King George",
       "VA"
@@ -2309,13 +2331,13 @@
       "019680",
       39.08047189154303,
       -78.21409679707143,
-      14.19,
+      13.99,
       "Taco Bell / KFC",
       "Stephens City",
       "VA"
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-10-03",
+  "last_seen_date": "2026-10-07",
   "peak_availability_pct": 0.4
 }

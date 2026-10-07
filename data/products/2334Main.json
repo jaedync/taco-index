@@ -12,22 +12,18 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.5,
-  "recent_price_change_pct": -0.0389,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-09-17T21:51:02.939004+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 2.67,
-    "min": 2.29,
+    "avg": 2.68,
+    "min": 2.49,
     "max": 2.99,
     "median": 2.59,
     "std_dev": 0.22,
-    "store_count": 34
+    "store_count": 33
   },
   "histogram": [
-    {
-      "bucket": "$2.29",
-      "count": 1
-    },
     {
       "bucket": "$2.49",
       "count": 15
@@ -52,8 +48,8 @@
   "state_prices": [
     {
       "state": "MI",
-      "avg_price": 2.66,
-      "store_count": 33
+      "avg_price": 2.67,
+      "store_count": 32
     }
   ],
   "nutrition": {
@@ -71,13 +67,6 @@
     "serving_size_g": 505.1921
   },
   "cheapest_stores": [
-    {
-      "store_number": "041112",
-      "name": "Taco Bell",
-      "city": "Saginaw",
-      "state": "MI",
-      "price": 2.29
-    },
     {
       "store_number": "041687",
       "name": "Taco Bell",
@@ -140,10 +129,31 @@
       "city": "Flint",
       "state": "MI",
       "price": 2.49
+    },
+    {
+      "store_number": "040005",
+      "name": "Taco Bell",
+      "city": "Grand Blanc",
+      "state": "MI",
+      "price": 2.49
     }
   ],
   "min_price_store_numbers": [
-    "041112"
+    "041687",
+    "041686",
+    "042043",
+    "042044",
+    "042230",
+    "036386",
+    "038843",
+    "039555",
+    "039123",
+    "040005",
+    "033318",
+    "033306",
+    "033305",
+    "034020",
+    "033999"
   ],
   "priciest_stores": [
     {
@@ -218,6 +228,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041112",
+      "store_name": "Taco Bell",
+      "city": "Saginaw",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.29,
+      "new_price": null,
+      "observed_at": "2026-10-04T21:09:59.954372+00:00"
+    },
     {
       "store_number": "040005",
       "store_name": "Taco Bell",
@@ -1691,7 +1711,7 @@
   ],
   "activity_summary": {
     "added": 91,
-    "removed": 56,
+    "removed": 57,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1700,15 +1720,6 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
-    [
-      "041112",
-      43.4506,
-      -83.9772,
-      2.29,
-      "Taco Bell",
-      "Saginaw",
-      "MI"
-    ],
     [
       "041687",
       43.725323658800306,
@@ -2008,7 +2019,7 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-10-03",
+  "last_seen_date": "2026-10-07",
   "peak_availability_pct": 0.5,
   "drink_sizes": [
     {

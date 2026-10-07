@@ -15,19 +15,19 @@
   "peak_30d_pct": 0.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-09-28T21:33:17.701711+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
     "avg": 2.0,
     "min": 2.0,
     "max": 2.0,
     "median": 2.0,
     "std_dev": 0.0,
-    "store_count": 3
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$2.00",
-      "count": 3
+      "count": 4
     }
   ],
   "state_prices": [],
@@ -53,14 +53,29 @@
       "city": "Mooresville",
       "state": "NC",
       "price": 2.0
+    },
+    {
+      "store_number": "039774",
+      "name": "Taco Bell",
+      "city": "Appomattox",
+      "state": "VA",
+      "price": 2.0
     }
   ],
   "min_price_store_numbers": [
     "029250",
     "027806",
-    "040518"
+    "040518",
+    "039774"
   ],
   "priciest_stores": [
+    {
+      "store_number": "039774",
+      "name": "Taco Bell",
+      "city": "Appomattox",
+      "state": "VA",
+      "price": 2.0
+    },
     {
       "store_number": "040518",
       "name": "Taco Bell",
@@ -84,6 +99,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039774",
+      "store_name": "Taco Bell",
+      "city": "Appomattox",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.0,
+      "observed_at": "2026-10-06T20:44:31.569306+00:00"
+    },
     {
       "store_number": "015449",
       "store_name": "Taco Bell",
@@ -156,7 +181,7 @@
     }
   ],
   "activity_summary": {
-    "added": 5,
+    "added": 6,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -192,6 +217,15 @@
       "Taco Bell",
       "Mooresville",
       "NC"
+    ],
+    [
+      "039774",
+      37.36335696248025,
+      -78.84579241275787,
+      2.0,
+      "Taco Bell",
+      "Appomattox",
+      "VA"
     ]
   ],
   "retired_at": null,

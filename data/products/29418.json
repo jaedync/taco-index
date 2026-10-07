@@ -14,7 +14,7 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": -0.0675,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.4,
   "price_stats": {
@@ -22,8 +22,8 @@
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.83,
-    "store_count": 30
+    "std_dev": 0.85,
+    "store_count": 29
   },
   "histogram": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 15
+      "count": 14
     },
     {
       "bucket": "$11.99",
@@ -46,8 +46,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 10.89,
-      "store_count": 10
+      "avg_price": 10.88,
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -222,6 +222,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029404",
+      "store_name": "Taco Bell",
+      "city": "Garner",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-10-05T20:43:24.542128+00:00"
+    },
     {
       "store_number": "023838",
       "store_name": "Taco Bell",
@@ -1875,7 +1885,7 @@
   ],
   "activity_summary": {
     "added": 74,
-    "removed": 44,
+    "removed": 45,
     "price_changed": 47,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2048,15 +2058,6 @@
       "NM"
     ],
     [
-      "029404",
-      35.60550043842093,
-      -78.56779754161835,
-      10.99,
-      "Taco Bell",
-      "Garner",
-      "NC"
-    ],
-    [
       "041398",
       36.29845084379178,
       -78.58481152503262,
@@ -2193,6 +2194,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-03",
+  "last_seen_date": "2026-10-07",
   "peak_availability_pct": 0.4
 }

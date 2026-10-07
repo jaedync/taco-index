@@ -21,16 +21,94 @@
     "min": 2.0,
     "max": 2.0,
     "median": 2.0,
-    "std_dev": null,
+    "std_dev": 0.0,
     "store_count": 2
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$2.00",
+      "count": 2
+    }
+  ],
   "state_prices": [],
   "nutrition": null,
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "031569",
+      "name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "price": 2.0
+    },
+    {
+      "store_number": "037057",
+      "name": "Taco Bell",
+      "city": "Iowa City",
+      "state": "IA",
+      "price": 2.0
+    }
+  ],
+  "min_price_store_numbers": [
+    "031569",
+    "037057"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "037057",
+      "name": "Taco Bell",
+      "city": "Iowa City",
+      "state": "IA",
+      "price": 2.0
+    },
+    {
+      "store_number": "031569",
+      "name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "price": 2.0
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "024233",
+      "store_name": "Taco Bell",
+      "city": "Goldsboro",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 2.0,
+      "new_price": null,
+      "observed_at": "2026-10-07T20:44:21.808089+00:00"
+    },
+    {
+      "store_number": "037057",
+      "store_name": "Taco Bell",
+      "city": "Iowa City",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.0,
+      "observed_at": "2026-10-07T20:41:05.443704+00:00"
+    },
+    {
+      "store_number": "031569",
+      "store_name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.0,
+      "observed_at": "2026-10-06T20:47:15.040617+00:00"
+    },
+    {
+      "store_number": "024233",
+      "store_name": "Taco Bell",
+      "city": "Goldsboro",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.0,
+      "observed_at": "2026-10-06T20:46:08.168678+00:00"
+    },
     {
       "store_number": "015449",
       "store_name": "Taco Bell",
@@ -93,17 +171,36 @@
     }
   ],
   "activity_summary": {
-    "added": 3,
-    "removed": 3,
+    "added": 6,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
+  "calories_from_menu": 280,
   "calories_min": 280,
   "calories_max": 280,
   "combo_groups": [],
-  "map_data": [],
+  "map_data": [
+    [
+      "031569",
+      33.753597971429095,
+      -78.96264781059472,
+      2.0,
+      "Taco Bell",
+      "Myrtle Beach",
+      "SC"
+    ],
+    [
+      "037057",
+      41.64183230235955,
+      -91.52224481105804,
+      2.0,
+      "Taco Bell",
+      "Iowa City",
+      "IA"
+    ]
+  ],
   "retired_at": "2026-09-30T21:03:55.150534+00:00",
-  "last_seen_date": "2026-10-01",
+  "last_seen_date": "2026-10-07",
   "peak_availability_pct": 0.0
 }

@@ -10,22 +10,22 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 0.0,
+  "peak_30d_pct": 0.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-09-28T21:32:12.437774+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
     "avg": 0.6,
     "min": 0.6,
     "max": 0.6,
     "median": 0.6,
     "std_dev": 0.0,
-    "store_count": 3
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$0.60",
-      "count": 3
+      "count": 5
     }
   ],
   "state_prices": [],
@@ -64,14 +64,44 @@
       "city": "Meriden",
       "state": "CT",
       "price": 0.6
+    },
+    {
+      "store_number": "029644",
+      "name": "Taco Bell",
+      "city": "Wentzville",
+      "state": "MO",
+      "price": 0.6
+    },
+    {
+      "store_number": "037057",
+      "name": "Taco Bell",
+      "city": "Iowa City",
+      "state": "IA",
+      "price": 0.6
     }
   ],
   "min_price_store_numbers": [
     "040531",
     "015449",
-    "029306"
+    "029306",
+    "029644",
+    "037057"
   ],
   "priciest_stores": [
+    {
+      "store_number": "037057",
+      "name": "Taco Bell",
+      "city": "Iowa City",
+      "state": "IA",
+      "price": 0.6
+    },
+    {
+      "store_number": "029644",
+      "name": "Taco Bell",
+      "city": "Wentzville",
+      "state": "MO",
+      "price": 0.6
+    },
     {
       "store_number": "029306",
       "name": "Taco Bell",
@@ -95,6 +125,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037057",
+      "store_name": "Taco Bell",
+      "city": "Iowa City",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-10-07T20:41:05.443704+00:00"
+    },
+    {
+      "store_number": "029644",
+      "store_name": "Taco Bell",
+      "city": "Wentzville",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-10-05T20:44:55.130392+00:00"
+    },
     {
       "store_number": "029306",
       "store_name": "Taco Bell",
@@ -147,7 +197,7 @@
     }
   ],
   "activity_summary": {
-    "added": 4,
+    "added": 6,
     "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -183,6 +233,24 @@
       "Taco Bell",
       "Meriden",
       "CT"
+    ],
+    [
+      "029644",
+      38.81176921047911,
+      -90.87198138983695,
+      0.6,
+      "Taco Bell",
+      "Wentzville",
+      "MO"
+    ],
+    [
+      "037057",
+      41.64183230235955,
+      -91.52224481105804,
+      0.6,
+      "Taco Bell",
+      "Iowa City",
+      "IA"
     ]
   ],
   "retired_at": null,
