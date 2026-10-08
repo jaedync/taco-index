@@ -17,12 +17,12 @@
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
   "availability_pct": 5.3,
   "price_stats": {
-    "avg": 1.02,
+    "avg": 1.03,
     "min": 0.35,
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.22,
-    "store_count": 407
+    "store_count": 408
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$0.60",
@@ -87,7 +87,7 @@
     },
     {
       "bucket": "$1.20",
-      "count": 17
+      "count": 18
     },
     {
       "bucket": "$1.29",
@@ -95,7 +95,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 57
+      "count": 58
     },
     {
       "bucket": "$1.59",
@@ -106,7 +106,7 @@
     {
       "state": "MI",
       "avg_price": 1.2,
-      "store_count": 104
+      "store_count": 105
     },
     {
       "state": "KY",
@@ -116,7 +116,7 @@
     {
       "state": "IL",
       "avg_price": 1.09,
-      "store_count": 31
+      "store_count": 32
     },
     {
       "state": "AL",
@@ -209,13 +209,6 @@
       "price": 0.5
     },
     {
-      "store_number": "042935",
-      "name": "Taco Bell",
-      "city": "Lauderdale Lakes",
-      "state": "FL",
-      "price": 0.5
-    },
-    {
       "store_number": "023045",
       "name": "Taco Bell",
       "city": "Port Huron",
@@ -261,6 +254,13 @@
       "store_number": "038991",
       "name": "Taco Bell",
       "city": "West Milwaukee",
+      "state": "WI",
+      "price": 0.75
+    },
+    {
+      "store_number": "031989",
+      "name": "Taco Bell",
+      "city": "Mukwonago",
       "state": "WI",
       "price": 0.75
     }
@@ -341,6 +341,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042935",
+      "store_name": "Taco Bell",
+      "city": "Lauderdale Lakes",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-10-08T21:47:58.819864+00:00"
+    },
+    {
+      "store_number": "036200",
+      "store_name": "Taco Bell",
+      "city": "Des Plaines",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.2,
+      "observed_at": "2026-10-08T21:47:12.572037+00:00"
+    },
+    {
+      "store_number": "021521",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-10-08T21:47:03.710695+00:00"
+    },
     {
       "store_number": "004752",
       "store_name": "Taco Bell",
@@ -26013,8 +26043,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1392,
-    "removed": 1174,
+    "added": 1394,
+    "removed": 1175,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -26040,15 +26070,6 @@
       "Taco Bell",
       "Southside",
       "AR"
-    ],
-    [
-      "042935",
-      26.16439489479855,
-      -80.2020996704232,
-      0.5,
-      "Taco Bell",
-      "Lauderdale Lakes",
-      "FL"
     ],
     [
       "023045",
@@ -29102,6 +29123,15 @@
       "IL"
     ],
     [
+      "036200",
+      42.06056872214917,
+      -87.84452317049727,
+      1.2,
+      "Taco Bell",
+      "Des Plaines",
+      "IL"
+    ],
+    [
       "036155",
       38.213276454229025,
       -85.58881223201752,
@@ -29280,6 +29310,15 @@
       "Taco Bell",
       "Delphos",
       "OH"
+    ],
+    [
+      "021521",
+      42.27505747978539,
+      -83.4783241955785,
+      1.49,
+      "Taco Bell",
+      "Canton",
+      "MI"
     ],
     [
       "037169",
@@ -29688,6 +29727,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-10-07",
+  "last_seen_date": "2026-10-08",
   "peak_availability_pct": 13.6
 }

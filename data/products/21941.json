@@ -14,26 +14,26 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-09-17T21:51:00.782090+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.4,
   "price_stats": {
     "avg": 9.0,
     "min": 9.0,
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 26
+    "store_count": 28
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 26
+      "count": 28
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 9.0,
-      "store_count": 26
+      "store_count": 28
     }
   ],
   "nutrition": {
@@ -80,6 +80,13 @@
       "price": 9.0
     },
     {
+      "store_number": "036340",
+      "name": "Taco Bell",
+      "city": "Weatherford",
+      "state": "OK",
+      "price": 9.0
+    },
+    {
       "store_number": "042510",
       "name": "Taco Bell",
       "city": "Perkins",
@@ -113,13 +120,6 @@
       "city": "Oklahoma City",
       "state": "OK",
       "price": 9.0
-    },
-    {
-      "store_number": "031461",
-      "name": "Taco Bell",
-      "city": "Oklahoma City",
-      "state": "OK",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -127,6 +127,7 @@
     "041874",
     "042118",
     "035180",
+    "036340",
     "042510",
     "037708",
     "039577",
@@ -140,6 +141,7 @@
     "030381",
     "030388",
     "033282",
+    "030387",
     "030379",
     "033280",
     "030393",
@@ -215,14 +217,34 @@
       "price": 9.0
     },
     {
-      "store_number": "033282",
+      "store_number": "030387",
       "name": "Taco Bell",
-      "city": "Edmond",
+      "city": "Chickasha",
       "state": "OK",
       "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030387",
+      "store_name": "Taco Bell",
+      "city": "Chickasha",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-10-08T21:48:39.822668+00:00"
+    },
+    {
+      "store_number": "036340",
+      "store_name": "Taco Bell",
+      "city": "Weatherford",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-10-08T21:46:29.568257+00:00"
+    },
     {
       "store_number": "036340",
       "store_name": "Taco Bell",
@@ -1245,7 +1267,7 @@
     }
   ],
   "activity_summary": {
-    "added": 64,
+    "added": 66,
     "removed": 38,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1314,6 +1336,15 @@
       9.0,
       "Taco Bell",
       "Blanchard",
+      "OK"
+    ],
+    [
+      "036340",
+      35.52749034049927,
+      -98.69203892919589,
+      9.0,
+      "Taco Bell",
+      "Weatherford",
       "OK"
     ],
     [
@@ -1434,6 +1465,15 @@
       "OK"
     ],
     [
+      "030387",
+      35.032083920913934,
+      -97.93535693432204,
+      9.0,
+      "Taco Bell",
+      "Chickasha",
+      "OK"
+    ],
+    [
       "030379",
       35.321449906456884,
       -97.48709630268374,
@@ -1516,6 +1556,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-10-07",
+  "last_seen_date": "2026-10-08",
   "peak_availability_pct": 0.4
 }
