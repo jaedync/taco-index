@@ -14,26 +14,26 @@
   "peak_30d_pct": 0.8,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-09-17T21:51:00.106679+00:00",
-  "availability_pct": 0.8,
+  "availability_pct": 0.7,
   "price_stats": {
     "avg": 9.0,
     "min": 9.0,
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 59
+    "store_count": 58
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 59
+      "count": 58
     }
   ],
   "state_prices": [
     {
       "state": "OH",
       "avg_price": 9.0,
-      "store_count": 59
+      "store_count": 58
     }
   ],
   "nutrition": {
@@ -138,6 +138,7 @@
     "042040",
     "038778",
     "035354",
+    "021478",
     "017264",
     "027702",
     "030674",
@@ -174,23 +175,14 @@
     "026277",
     "001856",
     "024764",
-    "001690",
     "002100",
     "002982",
     "015453",
     "022455",
     "015366",
-    "033482",
-    "040445"
+    "033482"
   ],
   "priciest_stores": [
-    {
-      "store_number": "040445",
-      "name": "Taco Bell",
-      "city": "Berea",
-      "state": "OH",
-      "price": 9.0
-    },
     {
       "store_number": "033482",
       "name": "Taco Bell",
@@ -234,13 +226,6 @@
       "price": 9.0
     },
     {
-      "store_number": "001690",
-      "name": "Taco Bell",
-      "city": "Kent",
-      "state": "OH",
-      "price": 9.0
-    },
-    {
       "store_number": "024764",
       "name": "Taco Bell",
       "city": "Cleveland",
@@ -253,9 +238,53 @@
       "city": "Dover",
       "state": "OH",
       "price": 9.0
+    },
+    {
+      "store_number": "026277",
+      "name": "Taco Bell",
+      "city": "North Royalton",
+      "state": "OH",
+      "price": 9.0
+    },
+    {
+      "store_number": "035358",
+      "name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040445",
+      "store_name": "Taco Bell",
+      "city": "Berea",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-10-09T20:49:17.892755+00:00"
+    },
+    {
+      "store_number": "001690",
+      "store_name": "Taco Bell",
+      "city": "Kent",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-10-09T20:46:49.611982+00:00"
+    },
+    {
+      "store_number": "021478",
+      "store_name": "Taco Bell",
+      "city": "Sandusky",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-10-09T20:46:38.394843+00:00"
+    },
     {
       "store_number": "003791",
       "store_name": "Taco Bell",
@@ -2428,8 +2457,8 @@
     }
   ],
   "activity_summary": {
-    "added": 138,
-    "removed": 79,
+    "added": 139,
+    "removed": 81,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2602,6 +2631,15 @@
       9.0,
       "Taco Bell",
       "Painesville",
+      "OH"
+    ],
+    [
+      "021478",
+      41.40384923491452,
+      -82.66042605042458,
+      9.0,
+      "Taco Bell",
+      "Sandusky",
       "OH"
     ],
     [
@@ -2929,15 +2967,6 @@
       "OH"
     ],
     [
-      "001690",
-      41.1540331558695,
-      -81.34729153943226,
-      9.0,
-      "Taco Bell",
-      "Kent",
-      "OH"
-    ],
-    [
       "002100",
       41.379946246404096,
       -82.06992566585541,
@@ -2990,18 +3019,9 @@
       "Taco Bell",
       "Carrollton",
       "OH"
-    ],
-    [
-      "040445",
-      41.3722283,
-      -81.8908145,
-      9.0,
-      "Taco Bell",
-      "Berea",
-      "OH"
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-10-08",
+  "last_seen_date": "2026-10-09",
   "peak_availability_pct": 0.8
 }

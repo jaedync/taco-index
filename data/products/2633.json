@@ -10,7 +10,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 42.2,
+  "peak_30d_pct": 42.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
   "availability_pct": 45.4,
@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3512
+    "store_count": 3514
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3512
+      "count": 3514
     }
   ],
   "state_prices": [
@@ -72,7 +72,7 @@
     {
       "state": "SC",
       "avg_price": 0.0,
-      "store_count": 57
+      "store_count": 58
     },
     {
       "state": "PA",
@@ -82,7 +82,7 @@
     {
       "state": "OR",
       "avg_price": 0.0,
-      "store_count": 111
+      "store_count": 112
     },
     {
       "state": "OK",
@@ -92,7 +92,7 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 210
+      "store_count": 209
     },
     {
       "state": "NY",
@@ -187,7 +187,7 @@
     {
       "state": "IL",
       "avg_price": 0.0,
-      "store_count": 120
+      "store_count": 121
     },
     {
       "state": "ID",
@@ -405,7 +405,6 @@
     "040908",
     "041064",
     "040613",
-    "034765",
     "040904",
     "040463",
     "040912",
@@ -2802,6 +2801,7 @@
     "042938",
     "042902",
     "030934",
+    "032565",
     "039086",
     "032489",
     "032166",
@@ -3843,9 +3843,25 @@
     "043433",
     "026032",
     "037582",
-    "042173"
+    "042173",
+    "031788",
+    "043227"
   ],
   "priciest_stores": [
+    {
+      "store_number": "043227",
+      "name": "Taco Bell",
+      "city": "Deerfield",
+      "state": "IL",
+      "price": 0.0
+    },
+    {
+      "store_number": "031788",
+      "name": "Taco Bell",
+      "city": "Irmo",
+      "state": "SC",
+      "price": 0.0
+    },
     {
       "store_number": "042173",
       "name": "Taco Bell",
@@ -3901,23 +3917,49 @@
       "city": "Brownstown",
       "state": "IN",
       "price": 0.0
-    },
-    {
-      "store_number": "042423",
-      "name": "Taco Bell",
-      "city": "Hendersonville",
-      "state": "NC",
-      "price": 0.0
-    },
-    {
-      "store_number": "024656",
-      "name": "Taco Bell",
-      "city": "Bay City",
-      "state": "MI",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043227",
+      "store_name": "Taco Bell",
+      "city": "Deerfield",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-10-09T20:49:28.151092+00:00"
+    },
+    {
+      "store_number": "031788",
+      "store_name": "Taco Bell",
+      "city": "Irmo",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-10-09T20:49:05.833769+00:00"
+    },
+    {
+      "store_number": "032565",
+      "store_name": "Taco Bell",
+      "city": "Albany",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-10-09T20:48:41.396928+00:00"
+    },
+    {
+      "store_number": "034765",
+      "store_name": "Taco Bell",
+      "city": "Cincinnati",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-10-09T20:45:58.125736+00:00"
+    },
     {
       "store_number": "015637",
       "store_name": "Taco Bell",
@@ -14420,8 +14462,8 @@
     }
   ],
   "activity_summary": {
-    "added": 507,
-    "removed": 543,
+    "added": 510,
+    "removed": 544,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15086,15 +15128,6 @@
       "Taco Bell",
       "Croswell",
       "MI"
-    ],
-    [
-      "034765",
-      39.226115506681204,
-      -84.43855970153497,
-      0.0,
-      "Taco Bell",
-      "Cincinnati",
-      "OH"
     ],
     [
       "040904",
@@ -36661,6 +36694,15 @@
       "CA"
     ],
     [
+      "032565",
+      44.62268566379116,
+      -123.1097405939363,
+      0.0,
+      "Taco Bell",
+      "Albany",
+      "OR"
+    ],
+    [
       "039086",
       41.24957100972297,
       -76.96635739941992,
@@ -46037,6 +46079,24 @@
       "Taco Bell",
       "Philadelphia",
       "PA"
+    ],
+    [
+      "031788",
+      34.0871465181289,
+      -81.1816343665123,
+      0.0,
+      "Taco Bell",
+      "Irmo",
+      "SC"
+    ],
+    [
+      "043227",
+      42.1524,
+      -87.84304,
+      0.0,
+      "Taco Bell",
+      "Deerfield",
+      "IL"
     ]
   ],
   "retired_at": null,

@@ -21,16 +21,16 @@
     "max": 4.0,
     "median": 4.0,
     "std_dev": 0.22,
-    "store_count": 7596
+    "store_count": 7591
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 23
+      "count": 22
     },
     {
       "bucket": "$4.00",
-      "count": 7573
+      "count": 7569
     }
   ],
   "state_prices": [
@@ -47,7 +47,7 @@
     {
       "state": "WI",
       "avg_price": 4.0,
-      "store_count": 143
+      "store_count": 142
     },
     {
       "state": "WA",
@@ -63,6 +63,11 @@
       "state": "UT",
       "avg_price": 4.0,
       "store_count": 65
+    },
+    {
+      "state": "TX",
+      "avg_price": 4.0,
+      "store_count": 659
     },
     {
       "state": "TN",
@@ -92,7 +97,7 @@
     {
       "state": "OR",
       "avg_price": 4.0,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "OK",
@@ -202,7 +207,7 @@
     {
       "state": "IL",
       "avg_price": 4.0,
-      "store_count": 286
+      "store_count": 287
     },
     {
       "state": "ID",
@@ -265,19 +270,14 @@
       "store_count": 14
     },
     {
-      "state": "TX",
-      "avg_price": 3.99,
-      "store_count": 661
-    },
-    {
       "state": "CA",
       "avg_price": 3.99,
-      "store_count": 834
+      "store_count": 833
     },
     {
       "state": "MN",
       "avg_price": 3.96,
-      "store_count": 102
+      "store_count": 101
     },
     {
       "state": "AZ",
@@ -393,10 +393,16 @@
     "031716",
     "031732",
     "032058",
-    "033351",
-    "042788"
+    "033351"
   ],
   "priciest_stores": [
+    {
+      "store_number": "043227",
+      "name": "Taco Bell",
+      "city": "Deerfield",
+      "state": "IL",
+      "price": 4.0
+    },
     {
       "store_number": "023299",
       "name": "Taco Bell",
@@ -459,16 +465,79 @@
       "city": "Bohemia",
       "state": "NY",
       "price": 4.0
-    },
-    {
-      "store_number": "043226",
-      "name": "Taco Bell",
-      "city": "Ooltewah",
-      "state": "TN",
-      "price": 4.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043227",
+      "store_name": "Taco Bell",
+      "city": "Deerfield",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-10-09T20:49:28.151092+00:00"
+    },
+    {
+      "store_number": "042788",
+      "store_name": "Taco Bell",
+      "city": "Rockwall",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-10-09T20:49:27.971131+00:00"
+    },
+    {
+      "store_number": "003929",
+      "store_name": "Taco Bell",
+      "city": "Burnsville",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-10-09T20:48:55.335517+00:00"
+    },
+    {
+      "store_number": "031963",
+      "store_name": "Taco Bell",
+      "city": "Middleton",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-10-09T20:48:31.604379+00:00"
+    },
+    {
+      "store_number": "031796",
+      "store_name": "Taco Bell",
+      "city": "La Marque",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-10-09T20:46:44.654836+00:00"
+    },
+    {
+      "store_number": "037348",
+      "store_name": "Taco Bell",
+      "city": "Wasco",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-10-09T20:46:31.193629+00:00"
+    },
+    {
+      "store_number": "041434",
+      "store_name": "Taco Bell",
+      "city": "Tracy",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-10-09T20:46:04.282949+00:00"
+    },
     {
       "store_number": "042788",
       "store_name": "Taco Bell",
@@ -76571,8 +76640,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7603,
-    "removed": 7,
+    "added": 7604,
+    "removed": 13,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -76803,15 +76872,6 @@
       "Taco Bell",
       "Tucson",
       "AZ"
-    ],
-    [
-      "042788",
-      32.879001,
-      -96.423443,
-      0.0,
-      "Taco Bell",
-      "Rockwall",
-      "TX"
     ],
     [
       "041134",
@@ -79917,15 +79977,6 @@
       "Taco Bell",
       "Hanover",
       "MA"
-    ],
-    [
-      "041434",
-      37.7396641,
-      -121.530004,
-      4.0,
-      "Taco Bell",
-      "Tracy",
-      "CA"
     ],
     [
       "041327",
@@ -86615,15 +86666,6 @@
       "CA"
     ],
     [
-      "037348",
-      45.667560817458465,
-      -120.83672555398465,
-      4.0,
-      "Taco Bell",
-      "Wasco",
-      "OR"
-    ],
-    [
       "036709",
       29.422048244434237,
       -98.77641155950712,
@@ -92013,15 +92055,6 @@
       "Taco Bell",
       "Wixom",
       "MI"
-    ],
-    [
-      "031796",
-      29.39953498963556,
-      -95.03795963558196,
-      4.0,
-      "Taco Bell",
-      "La Marque",
-      "TX"
     ],
     [
       "004590",
@@ -123371,15 +123404,6 @@
       "AL"
     ],
     [
-      "031963",
-      43.0974462902949,
-      -89.52205786011893,
-      4.0,
-      "Taco Bell",
-      "Middleton",
-      "WI"
-    ],
-    [
       "039798",
       34.21637946654774,
       -118.2247447250279,
@@ -132054,15 +132078,6 @@
       "Taco Bell",
       "Weston",
       "FL"
-    ],
-    [
-      "003929",
-      44.74547603303934,
-      -93.27816775478041,
-      4.0,
-      "Taco Bell",
-      "Burnsville",
-      "MN"
     ],
     [
       "034197",
@@ -144969,6 +144984,15 @@
       "Taco Bell",
       "Orlando",
       "FL"
+    ],
+    [
+      "043227",
+      42.1524,
+      -87.84304,
+      4.0,
+      "Taco Bell",
+      "Deerfield",
+      "IL"
     ]
   ],
   "retired_at": null,
