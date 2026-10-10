@@ -22,12 +22,12 @@
     "max": 2.0,
     "median": 2.0,
     "std_dev": 0.0,
-    "store_count": 6
+    "store_count": 7
   },
   "histogram": [
     {
       "bucket": "$2.00",
-      "count": 6
+      "count": 7
     }
   ],
   "state_prices": [],
@@ -87,6 +87,13 @@
       "city": "Houston",
       "state": "TX",
       "price": 2.0
+    },
+    {
+      "store_number": "032293",
+      "name": "Taco Bell",
+      "city": "Cincinnati",
+      "state": "OH",
+      "price": 2.0
     }
   ],
   "min_price_store_numbers": [
@@ -95,9 +102,17 @@
     "040518",
     "039774",
     "041185",
-    "041183"
+    "041183",
+    "032293"
   ],
   "priciest_stores": [
+    {
+      "store_number": "032293",
+      "name": "Taco Bell",
+      "city": "Cincinnati",
+      "state": "OH",
+      "price": 2.0
+    },
     {
       "store_number": "041183",
       "name": "Taco Bell",
@@ -142,6 +157,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032293",
+      "store_name": "Taco Bell",
+      "city": "Cincinnati",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.0,
+      "observed_at": "2026-10-10T21:28:23.427885+00:00"
+    },
     {
       "store_number": "041183",
       "store_name": "Taco Bell",
@@ -244,7 +269,7 @@
     }
   ],
   "activity_summary": {
-    "added": 8,
+    "added": 9,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -307,6 +332,15 @@
       "Taco Bell",
       "Houston",
       "TX"
+    ],
+    [
+      "032293",
+      39.23451434601065,
+      -84.50904879041714,
+      2.0,
+      "Taco Bell",
+      "Cincinnati",
+      "OH"
     ]
   ],
   "retired_at": null,

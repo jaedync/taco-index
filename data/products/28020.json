@@ -21,19 +21,19 @@
     "max": 5.99,
     "median": 5.99,
     "std_dev": 0.0,
-    "store_count": 61
+    "store_count": 59
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 61
+      "count": 59
     }
   ],
   "state_prices": [
     {
       "state": "OH",
       "avg_price": 5.99,
-      "store_count": 61
+      "store_count": 59
     }
   ],
   "nutrition": {
@@ -140,7 +140,6 @@
     "021275",
     "035355",
     "001758",
-    "040532",
     "040535",
     "026580",
     "040533",
@@ -175,7 +174,6 @@
     "028000",
     "030663",
     "035361",
-    "002084",
     "015908",
     "002187",
     "004046",
@@ -243,21 +241,41 @@
       "price": 5.99
     },
     {
-      "store_number": "002084",
-      "name": "Taco Bell",
-      "city": "Parma",
-      "state": "OH",
-      "price": 5.99
-    },
-    {
       "store_number": "035361",
       "name": "Taco Bell",
       "city": "Mentor",
       "state": "OH",
       "price": 5.99
+    },
+    {
+      "store_number": "030663",
+      "name": "Taco Bell",
+      "city": "Akron",
+      "state": "OH",
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002084",
+      "store_name": "Taco Bell",
+      "city": "Parma",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-10-10T21:28:14.072628+00:00"
+    },
+    {
+      "store_number": "040532",
+      "store_name": "Taco Bell",
+      "city": "Westlake",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-10-10T21:27:58.822284+00:00"
+    },
     {
       "store_number": "037366",
       "store_name": "Taco Bell",
@@ -2271,7 +2289,7 @@
   ],
   "activity_summary": {
     "added": 131,
-    "removed": 70,
+    "removed": 72,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2444,15 +2462,6 @@
       5.99,
       "Taco Bell",
       "Akron",
-      "OH"
-    ],
-    [
-      "040532",
-      41.46795149509947,
-      -81.90103419082271,
-      5.99,
-      "Taco Bell",
-      "Westlake",
       "OH"
     ],
     [
@@ -2762,15 +2771,6 @@
       "OH"
     ],
     [
-      "002084",
-      41.380222974929936,
-      -81.73560440540314,
-      5.99,
-      "Taco Bell",
-      "Parma",
-      "OH"
-    ],
-    [
       "015908",
       41.41761899082797,
       -82.20947201549905,
@@ -2844,6 +2844,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-10-09",
+  "last_seen_date": "2026-10-10",
   "peak_availability_pct": 0.8
 }

@@ -22,7 +22,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.22,
-    "store_count": 413
+    "store_count": 414
   },
   "histogram": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 131
+      "count": 132
     },
     {
       "bucket": "$0.95",
@@ -136,7 +136,7 @@
     {
       "state": "OH",
       "avg_price": 0.97,
-      "store_count": 38
+      "store_count": 39
     },
     {
       "state": "IN",
@@ -154,6 +154,11 @@
       "store_count": 16
     },
     {
+      "state": "NE",
+      "avg_price": 0.9,
+      "store_count": 5
+    },
+    {
       "state": "MN",
       "avg_price": 0.9,
       "store_count": 10
@@ -164,11 +169,6 @@
       "store_count": 44
     },
     {
-      "state": "NE",
-      "avg_price": 0.88,
-      "store_count": 6
-    },
-    {
       "state": "SC",
       "avg_price": 0.88,
       "store_count": 5
@@ -176,7 +176,7 @@
     {
       "state": "AR",
       "avg_price": 0.86,
-      "store_count": 9
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -341,6 +341,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004720",
+      "store_name": "Taco Bell",
+      "city": "Cabot",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-10-10T21:29:41.527952+00:00"
+    },
+    {
+      "store_number": "004881",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-10-10T21:29:38.590745+00:00"
+    },
+    {
+      "store_number": "035275",
+      "store_name": "Taco Bell",
+      "city": "La Vista",
+      "state": "NE",
+      "change_type": "item_removed",
+      "old_price": 0.8,
+      "new_price": null,
+      "observed_at": "2026-10-10T21:28:32.466596+00:00"
+    },
     {
       "store_number": "042746",
       "store_name": "Taco Bell",
@@ -26153,8 +26183,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1402,
-    "removed": 1178,
+    "added": 1404,
+    "removed": 1179,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -26308,15 +26338,6 @@
       "OH"
     ],
     [
-      "035275",
-      41.178452092807916,
-      -96.04246973991394,
-      0.8,
-      "Taco Bell",
-      "La Vista",
-      "NE"
-    ],
-    [
       "036271",
       44.5238979878799,
       -89.51947880003402,
@@ -26423,6 +26444,15 @@
       "Taco Bell",
       "Appleton",
       "WI"
+    ],
+    [
+      "004881",
+      39.95683752388847,
+      -83.04169155660026,
+      0.8,
+      "Taco Bell",
+      "Columbus",
+      "OH"
     ],
     [
       "022603",
@@ -27323,6 +27353,15 @@
       "Taco Bell",
       "Broken Arrow",
       "OK"
+    ],
+    [
+      "004720",
+      34.979364878883736,
+      -92.03041902960072,
+      0.9,
+      "Taco Bell",
+      "Cabot",
+      "AR"
     ],
     [
       "000864",
@@ -29882,6 +29921,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-10-09",
+  "last_seen_date": "2026-10-10",
   "peak_availability_pct": 13.6
 }

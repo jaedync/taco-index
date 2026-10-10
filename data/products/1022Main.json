@@ -18,10 +18,10 @@
   "price_stats": {
     "avg": 3.09,
     "min": 2.39,
-    "max": 3.49,
+    "max": 3.59,
     "median": 3.19,
-    "std_dev": 0.23,
-    "store_count": 732
+    "std_dev": 0.24,
+    "store_count": 737
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 91
+      "count": 92
     },
     {
       "bucket": "$3.09",
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 174
+      "count": 175
     },
     {
       "bucket": "$3.29",
@@ -66,10 +66,14 @@
     },
     {
       "bucket": "$3.39",
-      "count": 10
+      "count": 12
     },
     {
       "bucket": "$3.49",
+      "count": 1
+    },
+    {
+      "bucket": "$3.59",
       "count": 1
     }
   ],
@@ -82,7 +86,12 @@
     {
       "state": "AR",
       "avg_price": 3.28,
-      "store_count": 95
+      "store_count": 96
+    },
+    {
+      "state": "CA",
+      "avg_price": 3.25,
+      "store_count": 9
     },
     {
       "state": "OK",
@@ -90,19 +99,14 @@
       "store_count": 118
     },
     {
-      "state": "CA",
-      "avg_price": 3.2,
-      "store_count": 7
-    },
-    {
       "state": "FL",
       "avg_price": 3.19,
-      "store_count": 6
+      "store_count": 5
     },
     {
       "state": "TX",
       "avg_price": 3.0,
-      "store_count": 445
+      "store_count": 446
     },
     {
       "state": "GA",
@@ -203,11 +207,25 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "039101",
+      "name": "Taco Bell",
+      "city": "Kearny",
+      "state": "NJ",
+      "price": 3.59
+    },
+    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
       "state": "MO",
       "price": 3.49
+    },
+    {
+      "store_number": "030774",
+      "name": "Taco Bell",
+      "city": "San Leandro",
+      "state": "CA",
+      "price": 3.39
     },
     {
       "store_number": "033624",
@@ -221,6 +239,13 @@
       "name": "Taco Bell",
       "city": "Statesville",
       "state": "NC",
+      "price": 3.39
+    },
+    {
+      "store_number": "030763",
+      "name": "Taco Bell",
+      "city": "Oakland",
+      "state": "CA",
       "price": 3.39
     },
     {
@@ -250,30 +275,119 @@
       "city": "Kansas City",
       "state": "MO",
       "price": 3.39
-    },
-    {
-      "store_number": "035232",
-      "name": "Taco Bell",
-      "city": "Liberty",
-      "state": "MO",
-      "price": 3.39
-    },
-    {
-      "store_number": "035243",
-      "name": "Taco Bell",
-      "city": "Independence",
-      "state": "MO",
-      "price": 3.39
-    },
-    {
-      "store_number": "034420",
-      "name": "Taco Bell",
-      "city": "Kansas City",
-      "state": "MO",
-      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037723",
+      "store_name": "Taco Bell",
+      "city": "Sealy",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-10-10T21:29:57.941586+00:00"
+    },
+    {
+      "store_number": "037473",
+      "store_name": "Taco Bell",
+      "city": "Norfolk",
+      "state": "NE",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-10-10T21:29:43.639324+00:00"
+    },
+    {
+      "store_number": "037476",
+      "store_name": "Taco Bell",
+      "city": "Tomah",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-10-10T21:29:27.969377+00:00"
+    },
+    {
+      "store_number": "039101",
+      "store_name": "Taco Bell",
+      "city": "Kearny",
+      "state": "NJ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-10-10T21:29:25.803002+00:00"
+    },
+    {
+      "store_number": "031954",
+      "store_name": "Taco Bell",
+      "city": "Madison",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-10-10T21:29:14.625850+00:00"
+    },
+    {
+      "store_number": "030763",
+      "store_name": "Taco Bell",
+      "city": "Oakland",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-10-10T21:29:07.643688+00:00"
+    },
+    {
+      "store_number": "034585",
+      "store_name": "Taco Bell",
+      "city": "Red Oak",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-10-10T21:29:01.642394+00:00"
+    },
+    {
+      "store_number": "029378",
+      "store_name": "Taco Bell",
+      "city": "Dardanelle",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-10-10T21:28:43.340244+00:00"
+    },
+    {
+      "store_number": "030774",
+      "store_name": "Taco Bell",
+      "city": "San Leandro",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-10-10T21:28:32.932450+00:00"
+    },
+    {
+      "store_number": "042980",
+      "store_name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-10-10T21:28:16.306871+00:00"
+    },
+    {
+      "store_number": "035725",
+      "store_name": "Taco Bell",
+      "city": "Kingwood",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-10-10T21:28:04.748397+00:00"
+    },
     {
       "store_number": "040784",
       "store_name": "Taco Bell",
@@ -14496,8 +14610,8 @@
     }
   ],
   "activity_summary": {
-    "added": 615,
-    "removed": 614,
+    "added": 623,
+    "removed": 617,
     "price_changed": 193,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17108,6 +17222,15 @@
       "AL"
     ],
     [
+      "037473",
+      42.0186139978818,
+      -97.42937006061766,
+      2.99,
+      "Taco Bell",
+      "Norfolk",
+      "NE"
+    ],
+    [
       "022088",
       29.480563205666712,
       -95.3976809084395,
@@ -17573,6 +17696,15 @@
       3.19,
       "Taco Bell",
       "Houston",
+      "TX"
+    ],
+    [
+      "035725",
+      30.066887542731116,
+      -95.24682603312158,
+      3.19,
+      "Taco Bell",
+      "Kingwood",
       "TX"
     ],
     [
@@ -18440,6 +18572,15 @@
       "TX"
     ],
     [
+      "037723",
+      29.761287059993005,
+      -96.15191557618571,
+      3.19,
+      "Taco Bell",
+      "Sealy",
+      "TX"
+    ],
+    [
       "038782",
       35.65352725,
       -97.5687329976,
@@ -18692,21 +18833,12 @@
       "FL"
     ],
     [
-      "042980",
-      29.63726564008641,
-      -82.33892807548047,
+      "037476",
+      44.01736238142925,
+      -90.5027894632616,
       3.19,
       "Taco Bell",
-      "Gainesville",
-      "FL"
-    ],
-    [
-      "031954",
-      43.104290247367906,
-      -89.34276917084166,
-      3.19,
-      "Taco Bell",
-      "Madison",
+      "Tomah",
       "WI"
     ],
     [
@@ -19437,6 +19569,15 @@
       "Taco Bell",
       "Skiatook",
       "OK"
+    ],
+    [
+      "029378",
+      35.221339852936595,
+      -93.16508768220899,
+      3.29,
+      "Taco Bell",
+      "Dardanelle",
+      "AR"
     ],
     [
       "034382",
@@ -20807,15 +20948,6 @@
       "OK"
     ],
     [
-      "034585",
-      32.529918943926695,
-      -96.82134528459756,
-      3.29,
-      "Taco Bell",
-      "Red Oak",
-      "TX"
-    ],
-    [
       "033437",
       36.004414035392806,
       -95.68129956790096,
@@ -21068,6 +21200,15 @@
       "CA"
     ],
     [
+      "030763",
+      37.79375041784199,
+      -122.2011595442973,
+      3.39,
+      "Taco Bell",
+      "Oakland",
+      "CA"
+    ],
+    [
       "027635",
       35.790882547070915,
       -80.8559767809038,
@@ -21086,6 +21227,15 @@
       "CA"
     ],
     [
+      "030774",
+      37.71398398344926,
+      -122.1573954820633,
+      3.39,
+      "Taco Bell",
+      "San Leandro",
+      "CA"
+    ],
+    [
       "038783",
       39.050835,
       -94.5884833,
@@ -21093,6 +21243,15 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
+    ],
+    [
+      "039101",
+      40.74920429778495,
+      -74.1349299252579,
+      3.59,
+      "Taco Bell",
+      "Kearny",
+      "NJ"
     ]
   ],
   "retired_at": null,

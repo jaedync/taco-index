@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 26
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 26
+      "count": 25
     }
   ],
   "state_prices": [
     {
       "state": "TN",
       "avg_price": 9.0,
-      "store_count": 23
+      "store_count": 22
     }
   ],
   "nutrition": {
@@ -94,13 +94,6 @@
       "price": 9.0
     },
     {
-      "store_number": "005426",
-      "name": "Taco Bell",
-      "city": "Pulaski",
-      "state": "TN",
-      "price": 9.0
-    },
-    {
       "store_number": "023043",
       "name": "Taco Bell",
       "city": "Lebanon",
@@ -120,6 +113,13 @@
       "city": "Scottsville",
       "state": "KY",
       "price": 9.0
+    },
+    {
+      "store_number": "016292",
+      "name": "Taco Bell",
+      "city": "Nashville",
+      "state": "TN",
+      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -129,7 +129,6 @@
     "002258",
     "034359",
     "003441",
-    "005426",
     "023043",
     "004843",
     "035007",
@@ -223,6 +222,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "005426",
+      "store_name": "Taco Bell",
+      "city": "Pulaski",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-10-10T21:28:00.343006+00:00"
+    },
     {
       "store_number": "034425",
       "store_name": "Taco Bell",
@@ -1266,7 +1275,7 @@
   ],
   "activity_summary": {
     "added": 65,
-    "removed": 39,
+    "removed": 40,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1358,15 +1367,6 @@
       9.0,
       "Taco Bell",
       "Nashville",
-      "TN"
-    ],
-    [
-      "005426",
-      35.204301853738976,
-      -87.06044516993188,
-      9.0,
-      "Taco Bell",
-      "Pulaski",
       "TN"
     ],
     [
@@ -1542,6 +1542,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-10-09",
+  "last_seen_date": "2026-10-10",
   "peak_availability_pct": 0.4
 }

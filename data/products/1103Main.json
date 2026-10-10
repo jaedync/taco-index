@@ -15,17 +15,17 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.46,
+    "avg": 2.51,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.39,
+    "median": 2.49,
     "std_dev": 0.28,
-    "store_count": 6
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$2.29",
@@ -48,13 +48,6 @@
       "name": "Taco Bell",
       "city": "Denver",
       "state": "CO",
-      "price": 2.19
-    },
-    {
-      "store_number": "035462",
-      "name": "Taco Bell Cantina",
-      "city": "Orlando",
-      "state": "FL",
       "price": 2.19
     },
     {
@@ -87,8 +80,7 @@
     }
   ],
   "min_price_store_numbers": [
-    "039656",
-    "035462"
+    "039656"
   ],
   "priciest_stores": [
     {
@@ -120,13 +112,6 @@
       "price": 2.29
     },
     {
-      "store_number": "035462",
-      "name": "Taco Bell Cantina",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 2.19
-    },
-    {
       "store_number": "039656",
       "name": "Taco Bell",
       "city": "Denver",
@@ -135,6 +120,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035462",
+      "store_name": "Taco Bell Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-10-10T21:27:44.578908+00:00"
+    },
     {
       "store_number": "035462",
       "store_name": "Taco Bell Cantina",
@@ -508,7 +503,7 @@
   ],
   "activity_summary": {
     "added": 17,
-    "removed": 20,
+    "removed": 21,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -525,15 +520,6 @@
       "Taco Bell",
       "Denver",
       "CO"
-    ],
-    [
-      "035462",
-      28.541891996394657,
-      -81.37876977112303,
-      2.19,
-      "Taco Bell Cantina",
-      "Orlando",
-      "FL"
     ],
     [
       "040658",
