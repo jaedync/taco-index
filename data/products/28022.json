@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 57
+    "store_count": 58
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 57
+      "count": 58
     }
   ],
   "state_prices": [
     {
       "state": "OH",
       "avg_price": 9.0,
-      "store_count": 57
+      "store_count": 58
     }
   ],
   "nutrition": {
@@ -101,6 +101,13 @@
       "price": 9.0
     },
     {
+      "store_number": "036443",
+      "name": "Taco Bell",
+      "city": "Garrettsville",
+      "state": "OH",
+      "price": 9.0
+    },
+    {
       "store_number": "042063",
       "name": "Taco Bell",
       "city": "North Royalton",
@@ -113,13 +120,6 @@
       "city": "Canton",
       "state": "OH",
       "price": 9.0
-    },
-    {
-      "store_number": "042452",
-      "name": "Taco Bell",
-      "city": "Stow",
-      "state": "OH",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -130,6 +130,7 @@
     "035136",
     "036302",
     "036406",
+    "036443",
     "042063",
     "041692",
     "042452",
@@ -254,6 +255,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036443",
+      "store_name": "Taco Bell",
+      "city": "Garrettsville",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-10-11T20:48:47.278560+00:00"
+    },
     {
       "store_number": "002084",
       "store_name": "Taco Bell",
@@ -2466,7 +2477,7 @@
     }
   ],
   "activity_summary": {
-    "added": 139,
+    "added": 140,
     "removed": 82,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2568,6 +2579,15 @@
       9.0,
       "Taco Bell",
       "Kent",
+      "OH"
+    ],
+    [
+      "036443",
+      41.28587384199368,
+      -81.1003614214611,
+      9.0,
+      "Taco Bell",
+      "Garrettsville",
       "OH"
     ],
     [
@@ -3022,6 +3042,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-10-10",
+  "last_seen_date": "2026-10-11",
   "peak_availability_pct": 0.8
 }

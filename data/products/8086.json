@@ -20,12 +20,12 @@
     "max": 0.6,
     "median": 0.6,
     "std_dev": 0.0,
-    "store_count": 5
+    "store_count": 6
   },
   "histogram": [
     {
       "bucket": "$0.60",
-      "count": 5
+      "count": 6
     }
   ],
   "state_prices": [],
@@ -78,6 +78,13 @@
       "city": "Indianapolis",
       "state": "IN",
       "price": 0.6
+    },
+    {
+      "store_number": "036443",
+      "name": "Taco Bell",
+      "city": "Garrettsville",
+      "state": "OH",
+      "price": 0.6
     }
   ],
   "min_price_store_numbers": [
@@ -85,9 +92,17 @@
     "015449",
     "029306",
     "029644",
-    "021254"
+    "021254",
+    "036443"
   ],
   "priciest_stores": [
+    {
+      "store_number": "036443",
+      "name": "Taco Bell",
+      "city": "Garrettsville",
+      "state": "OH",
+      "price": 0.6
+    },
     {
       "store_number": "021254",
       "name": "Taco Bell",
@@ -125,6 +140,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036443",
+      "store_name": "Taco Bell",
+      "city": "Garrettsville",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-10-11T20:48:47.278560+00:00"
+    },
     {
       "store_number": "021254",
       "store_name": "Taco Bell",
@@ -217,7 +242,7 @@
     }
   ],
   "activity_summary": {
-    "added": 7,
+    "added": 8,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -271,6 +296,15 @@
       "Taco Bell",
       "Indianapolis",
       "IN"
+    ],
+    [
+      "036443",
+      41.28587384199368,
+      -81.1003614214611,
+      0.6,
+      "Taco Bell",
+      "Garrettsville",
+      "OH"
     ]
   ],
   "retired_at": null,
