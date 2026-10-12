@@ -22,12 +22,12 @@
     "max": 2.0,
     "median": 2.0,
     "std_dev": 0.0,
-    "store_count": 7
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$2.00",
-      "count": 7
+      "count": 5
     }
   ],
   "state_prices": [],
@@ -61,13 +61,6 @@
       "price": 2.0
     },
     {
-      "store_number": "040518",
-      "name": "Taco Bell",
-      "city": "Mooresville",
-      "state": "NC",
-      "price": 2.0
-    },
-    {
       "store_number": "039774",
       "name": "Taco Bell",
       "city": "Appomattox",
@@ -85,13 +78,6 @@
       "store_number": "033299",
       "name": "Taco Bell",
       "city": "Royal Oak",
-      "state": "MI",
-      "price": 2.0
-    },
-    {
-      "store_number": "017105",
-      "name": "Taco Bell",
-      "city": "Garden City",
       "state": "MI",
       "price": 2.0
     }
@@ -99,20 +85,11 @@
   "min_price_store_numbers": [
     "029250",
     "027806",
-    "040518",
     "039774",
     "041185",
-    "033299",
-    "017105"
+    "033299"
   ],
   "priciest_stores": [
-    {
-      "store_number": "017105",
-      "name": "Taco Bell",
-      "city": "Garden City",
-      "state": "MI",
-      "price": 2.0
-    },
     {
       "store_number": "033299",
       "name": "Taco Bell",
@@ -132,13 +109,6 @@
       "name": "Taco Bell",
       "city": "Appomattox",
       "state": "VA",
-      "price": 2.0
-    },
-    {
-      "store_number": "040518",
-      "name": "Taco Bell",
-      "city": "Mooresville",
-      "state": "NC",
       "price": 2.0
     },
     {
@@ -157,6 +127,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "017105",
+      "store_name": "Taco Bell",
+      "city": "Garden City",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.0,
+      "new_price": null,
+      "observed_at": "2026-10-12T21:11:55.622863+00:00"
+    },
+    {
+      "store_number": "040518",
+      "store_name": "Taco Bell",
+      "city": "Mooresville",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 2.0,
+      "new_price": null,
+      "observed_at": "2026-10-12T21:10:02.348031+00:00"
+    },
     {
       "store_number": "041183",
       "store_name": "Taco Bell",
@@ -310,7 +300,7 @@
   ],
   "activity_summary": {
     "added": 11,
-    "removed": 4,
+    "removed": 6,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -338,15 +328,6 @@
       "TX"
     ],
     [
-      "040518",
-      35.5924,
-      -80.822,
-      2.0,
-      "Taco Bell",
-      "Mooresville",
-      "NC"
-    ],
-    [
       "039774",
       37.36335696248025,
       -78.84579241275787,
@@ -371,15 +352,6 @@
       2.0,
       "Taco Bell",
       "Royal Oak",
-      "MI"
-    ],
-    [
-      "017105",
-      42.325364416289936,
-      -83.32727551460266,
-      2.0,
-      "Taco Bell",
-      "Garden City",
       "MI"
     ]
   ],

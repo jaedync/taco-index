@@ -21,19 +21,19 @@
     "max": 6.99,
     "median": 6.99,
     "std_dev": 0.0,
-    "store_count": 29
+    "store_count": 30
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 29
+      "count": 30
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 6.99,
-      "store_count": 29
+      "store_count": 30
     }
   ],
   "nutrition": {
@@ -69,6 +69,13 @@
       "store_number": "042118",
       "name": "Taco Bell",
       "city": "Chandler",
+      "state": "OK",
+      "price": 6.99
+    },
+    {
+      "store_number": "034943",
+      "name": "Taco Bell",
+      "city": "Cushing",
       "state": "OK",
       "price": 6.99
     },
@@ -113,19 +120,13 @@
       "city": "Yukon",
       "state": "OK",
       "price": 6.99
-    },
-    {
-      "store_number": "026022",
-      "name": "Taco Bell",
-      "city": "Stillwater",
-      "state": "OK",
-      "price": 6.99
     }
   ],
   "min_price_store_numbers": [
     "040653",
     "041874",
     "042118",
+    "034943",
     "035180",
     "036340",
     "042510",
@@ -226,6 +227,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034943",
+      "store_name": "Taco Bell",
+      "city": "Cushing",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-10-12T21:10:11.018737+00:00"
+    },
     {
       "store_number": "030392",
       "store_name": "Taco Bell",
@@ -598,7 +609,7 @@
     }
   ],
   "activity_summary": {
-    "added": 33,
+    "added": 34,
     "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -633,6 +644,15 @@
       6.99,
       "Taco Bell",
       "Chandler",
+      "OK"
+    ],
+    [
+      "034943",
+      35.985292366502016,
+      -96.74817439309037,
+      6.99,
+      "Taco Bell",
+      "Cushing",
       "OK"
     ],
     [

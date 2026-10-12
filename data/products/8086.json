@@ -20,12 +20,12 @@
     "max": 0.6,
     "median": 0.6,
     "std_dev": 0.0,
-    "store_count": 6
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$0.60",
-      "count": 6
+      "count": 5
     }
   ],
   "state_prices": [],
@@ -59,13 +59,6 @@
       "price": 0.6
     },
     {
-      "store_number": "029306",
-      "name": "Taco Bell",
-      "city": "Meriden",
-      "state": "CT",
-      "price": 0.6
-    },
-    {
       "store_number": "029644",
       "name": "Taco Bell",
       "city": "Wentzville",
@@ -90,7 +83,6 @@
   "min_price_store_numbers": [
     "040531",
     "015449",
-    "029306",
     "029644",
     "021254",
     "036443"
@@ -118,13 +110,6 @@
       "price": 0.6
     },
     {
-      "store_number": "029306",
-      "name": "Taco Bell",
-      "city": "Meriden",
-      "state": "CT",
-      "price": 0.6
-    },
-    {
       "store_number": "015449",
       "name": "Taco Bell",
       "city": "Springfield",
@@ -140,6 +125,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029306",
+      "store_name": "Taco Bell",
+      "city": "Meriden",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-10-12T21:12:38.577867+00:00"
+    },
     {
       "store_number": "036443",
       "store_name": "Taco Bell",
@@ -243,7 +238,7 @@
   ],
   "activity_summary": {
     "added": 8,
-    "removed": 2,
+    "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -269,15 +264,6 @@
       "Taco Bell",
       "Springfield",
       "MO"
-    ],
-    [
-      "029306",
-      41.52950086727552,
-      -72.77785839228261,
-      0.6,
-      "Taco Bell",
-      "Meriden",
-      "CT"
     ],
     [
       "029644",
