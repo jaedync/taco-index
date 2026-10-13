@@ -14,26 +14,26 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-09-17T21:51:00.782090+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.4,
   "price_stats": {
     "avg": 9.0,
     "min": 9.0,
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 27
+    "store_count": 28
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 27
+      "count": 28
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 9.0,
-      "store_count": 27
+      "store_count": 28
     }
   ],
   "nutrition": {
@@ -146,6 +146,7 @@
     "033280",
     "030393",
     "033287",
+    "030392",
     "033289",
     "033284",
     "032156",
@@ -177,6 +178,13 @@
       "store_number": "033289",
       "name": "Taco Bell",
       "city": "Norman",
+      "state": "OK",
+      "price": 9.0
+    },
+    {
+      "store_number": "030392",
+      "name": "Taco Bell",
+      "city": "Ponca City",
       "state": "OK",
       "price": 9.0
     },
@@ -214,16 +222,19 @@
       "city": "Chickasha",
       "state": "OK",
       "price": 9.0
-    },
-    {
-      "store_number": "033282",
-      "name": "Taco Bell",
-      "city": "Edmond",
-      "state": "OK",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030392",
+      "store_name": "Taco Bell",
+      "city": "Ponca City",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-10-13T20:46:53.998969+00:00"
+    },
     {
       "store_number": "038782",
       "store_name": "Taco Bell",
@@ -1276,7 +1287,7 @@
     }
   ],
   "activity_summary": {
-    "added": 66,
+    "added": 67,
     "removed": 39,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1519,6 +1530,15 @@
       "OK"
     ],
     [
+      "030392",
+      36.738192001107684,
+      -97.06987380981445,
+      9.0,
+      "Taco Bell",
+      "Ponca City",
+      "OK"
+    ],
+    [
       "033289",
       35.23165163347226,
       -97.42304249629271,
@@ -1556,6 +1576,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-10-12",
+  "last_seen_date": "2026-10-13",
   "peak_availability_pct": 0.4
 }

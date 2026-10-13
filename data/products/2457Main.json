@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.5,
-  "recent_price_change_pct": 0.0409,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-09-18T21:20:24.727748+00:00",
   "availability_pct": 0.5,
   "price_stats": {
@@ -21,7 +21,7 @@
     "max": 4.49,
     "median": 4.29,
     "std_dev": 0.15,
-    "store_count": 36
+    "store_count": 35
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$4.19",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$4.29",
@@ -53,8 +53,8 @@
     },
     {
       "state": "TX",
-      "avg_price": 4.15,
-      "store_count": 14
+      "avg_price": 4.14,
+      "store_count": 13
     }
   ],
   "nutrition": {
@@ -115,13 +115,6 @@
       "price": 4.19
     },
     {
-      "store_number": "022811",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Spring",
-      "state": "TX",
-      "price": 4.19
-    },
-    {
       "store_number": "024393",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Katy",
@@ -141,6 +134,13 @@
       "city": "Irving",
       "state": "TX",
       "price": 4.19
+    },
+    {
+      "store_number": "021422",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
+      "state": "TX",
+      "price": 4.29
     }
   ],
   "min_price_store_numbers": [
@@ -223,6 +223,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022811",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Spring",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-10-13T20:43:15.534559+00:00"
+    },
     {
       "store_number": "027489",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -756,7 +766,7 @@
   ],
   "activity_summary": {
     "added": 43,
-    "removed": 7,
+    "removed": 8,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -817,15 +827,6 @@
       4.19,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Houston",
-      "TX"
-    ],
-    [
-      "022811",
-      30.075174271564272,
-      -95.51512733101845,
-      4.19,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Spring",
       "TX"
     ],
     [
@@ -1091,7 +1092,7 @@
     ]
   ],
   "retired_at": "2026-09-23T21:23:27.924163+00:00",
-  "last_seen_date": "2026-10-12",
+  "last_seen_date": "2026-10-13",
   "peak_availability_pct": 0.5,
   "drink_sizes": [
     {

@@ -21,7 +21,7 @@
     "max": 3.59,
     "median": 3.19,
     "std_dev": 0.23,
-    "store_count": 736
+    "store_count": 733
   },
   "histogram": [
     {
@@ -42,15 +42,15 @@
     },
     {
       "bucket": "$2.79",
-      "count": 39
+      "count": 38
     },
     {
       "bucket": "$2.89",
-      "count": 88
+      "count": 87
     },
     {
       "bucket": "$2.99",
-      "count": 90
+      "count": 91
     },
     {
       "bucket": "$3.09",
@@ -62,15 +62,15 @@
     },
     {
       "bucket": "$3.29",
-      "count": 256
+      "count": 257
     },
     {
       "bucket": "$3.39",
-      "count": 11
+      "count": 9
     },
     {
       "bucket": "$3.49",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$3.59",
@@ -89,19 +89,24 @@
       "store_count": 96
     },
     {
-      "state": "CA",
-      "avg_price": 3.26,
-      "store_count": 9
-    },
-    {
       "state": "OK",
       "avg_price": 3.24,
       "store_count": 118
     },
     {
+      "state": "CA",
+      "avg_price": 3.2,
+      "store_count": 7
+    },
+    {
+      "state": "FL",
+      "avg_price": 3.15,
+      "store_count": 5
+    },
+    {
       "state": "TX",
       "avg_price": 3.01,
-      "store_count": 446
+      "store_count": 445
     },
     {
       "state": "GA",
@@ -215,32 +220,11 @@
       "price": 3.59
     },
     {
-      "store_number": "042691",
-      "name": "Taco Bell",
-      "city": "Spring Valley",
-      "state": "CA",
-      "price": 3.49
-    },
-    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
       "state": "MO",
       "price": 3.49
-    },
-    {
-      "store_number": "030774",
-      "name": "Taco Bell",
-      "city": "San Leandro",
-      "state": "CA",
-      "price": 3.39
-    },
-    {
-      "store_number": "027635",
-      "name": "Taco Bell",
-      "city": "Statesville",
-      "state": "NC",
-      "price": 3.39
     },
     {
       "store_number": "030763",
@@ -269,9 +253,100 @@
       "city": "Lake Forest",
       "state": "CA",
       "price": 3.39
+    },
+    {
+      "store_number": "035240",
+      "name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "price": 3.39
+    },
+    {
+      "store_number": "035232",
+      "name": "Taco Bell",
+      "city": "Liberty",
+      "state": "MO",
+      "price": 3.39
+    },
+    {
+      "store_number": "035243",
+      "name": "Taco Bell",
+      "city": "Independence",
+      "state": "MO",
+      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031837",
+      "store_name": "Taco Bell",
+      "city": "Rhinelander",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-10-13T20:46:09.910955+00:00"
+    },
+    {
+      "store_number": "031798",
+      "store_name": "Taco Bell",
+      "city": "McKinney",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-10-13T20:44:04.309470+00:00"
+    },
+    {
+      "store_number": "030774",
+      "store_name": "Taco Bell",
+      "city": "San Leandro",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-10-13T20:43:47.860226+00:00"
+    },
+    {
+      "store_number": "042691",
+      "store_name": "Taco Bell",
+      "city": "Spring Valley",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-10-13T20:43:44.152168+00:00"
+    },
+    {
+      "store_number": "027635",
+      "store_name": "Taco Bell",
+      "city": "Statesville",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-10-13T20:43:06.225875+00:00"
+    },
+    {
+      "store_number": "035462",
+      "store_name": "Taco Bell Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-10-13T20:42:37.907105+00:00"
+    },
+    {
+      "store_number": "036028",
+      "store_name": "Taco Bell",
+      "city": "Biddeford",
+      "state": "ME",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-10-13T20:42:16.540401+00:00"
+    },
     {
       "store_number": "039106",
       "store_name": "Taco Bell",
@@ -14854,8 +14929,8 @@
     }
   ],
   "activity_summary": {
-    "added": 635,
-    "removed": 630,
+    "added": 637,
+    "removed": 635,
     "price_changed": 193,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15819,15 +15894,6 @@
       "OK"
     ],
     [
-      "031798",
-      33.17356669559879,
-      -96.69555886011887,
-      2.79,
-      "Taco Bell",
-      "McKinney",
-      "TX"
-    ],
-    [
       "041224",
       33.908809222072485,
       -84.20690171421938,
@@ -16627,15 +16693,6 @@
       "Taco Bell",
       "Mesquite",
       "TX"
-    ],
-    [
-      "031837",
-      45.636208705850656,
-      -89.38033905121328,
-      2.89,
-      "Taco Bell",
-      "Rhinelander",
-      "WI"
     ],
     [
       "036424",
@@ -17446,6 +17503,15 @@
       "Taco Bell",
       "Omaha",
       "NE"
+    ],
+    [
+      "035462",
+      28.541891996394657,
+      -81.37876977112303,
+      2.99,
+      "Taco Bell Cantina",
+      "Orlando",
+      "FL"
     ],
     [
       "022088",
@@ -21291,6 +21357,15 @@
       "TX"
     ],
     [
+      "036028",
+      43.48021546029044,
+      -70.48679779269447,
+      3.29,
+      "Taco Bell",
+      "Biddeford",
+      "ME"
+    ],
+    [
       "042599",
       35.738413,
       -91.639592,
@@ -21435,24 +21510,6 @@
       "CA"
     ],
     [
-      "027635",
-      35.790882547070915,
-      -80.8559767809038,
-      3.39,
-      "Taco Bell",
-      "Statesville",
-      "NC"
-    ],
-    [
-      "030774",
-      37.71398398344926,
-      -122.1573954820633,
-      3.39,
-      "Taco Bell",
-      "San Leandro",
-      "CA"
-    ],
-    [
       "038783",
       39.050835,
       -94.5884833,
@@ -21460,15 +21517,6 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
-    ],
-    [
-      "042691",
-      32.69747304927456,
-      -117.01960533857346,
-      3.49,
-      "Taco Bell",
-      "Spring Valley",
-      "CA"
     ],
     [
       "039101",

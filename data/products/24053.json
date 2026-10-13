@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 25
+    "store_count": 27
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 25
+      "count": 27
     }
   ],
   "state_prices": [
     {
       "state": "TN",
       "avg_price": 9.0,
-      "store_count": 22
+      "store_count": 24
     }
   ],
   "nutrition": {
@@ -94,6 +94,13 @@
       "price": 9.0
     },
     {
+      "store_number": "005426",
+      "name": "Taco Bell",
+      "city": "Pulaski",
+      "state": "TN",
+      "price": 9.0
+    },
+    {
       "store_number": "023043",
       "name": "Taco Bell",
       "city": "Lebanon",
@@ -113,13 +120,6 @@
       "city": "Scottsville",
       "state": "KY",
       "price": 9.0
-    },
-    {
-      "store_number": "016292",
-      "name": "Taco Bell",
-      "city": "Nashville",
-      "state": "TN",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
@@ -129,6 +129,7 @@
     "002258",
     "034359",
     "003441",
+    "005426",
     "023043",
     "004843",
     "035007",
@@ -143,6 +144,7 @@
     "034365",
     "034439",
     "022251",
+    "034435",
     "034425",
     "015281",
     "004591",
@@ -186,6 +188,13 @@
       "price": 9.0
     },
     {
+      "store_number": "034435",
+      "name": "Taco Bell",
+      "city": "Antioch",
+      "state": "TN",
+      "price": 9.0
+    },
+    {
       "store_number": "022251",
       "name": "Taco Bell",
       "city": "Spring Hill",
@@ -212,16 +221,29 @@
       "city": "Hermitage",
       "state": "TN",
       "price": 9.0
-    },
-    {
-      "store_number": "034423",
-      "name": "Taco Bell",
-      "city": "Nashville",
-      "state": "TN",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034435",
+      "store_name": "Taco Bell",
+      "city": "Antioch",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-10-13T20:43:26.415443+00:00"
+    },
+    {
+      "store_number": "005426",
+      "store_name": "Taco Bell",
+      "city": "Pulaski",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-10-13T20:43:13.430144+00:00"
+    },
     {
       "store_number": "005426",
       "store_name": "Taco Bell",
@@ -1274,7 +1296,7 @@
     }
   ],
   "activity_summary": {
-    "added": 65,
+    "added": 67,
     "removed": 40,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1367,6 +1389,15 @@
       9.0,
       "Taco Bell",
       "Nashville",
+      "TN"
+    ],
+    [
+      "005426",
+      35.204301853738976,
+      -87.06044516993188,
+      9.0,
+      "Taco Bell",
+      "Pulaski",
       "TN"
     ],
     [
@@ -1496,6 +1527,15 @@
       "TN"
     ],
     [
+      "034435",
+      36.048386993882986,
+      -86.6528788432482,
+      9.0,
+      "Taco Bell",
+      "Antioch",
+      "TN"
+    ],
+    [
       "034425",
       36.14736862799868,
       -86.66598608144655,
@@ -1542,6 +1582,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-10-12",
+  "last_seen_date": "2026-10-13",
   "peak_availability_pct": 0.4
 }
