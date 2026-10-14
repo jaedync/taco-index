@@ -13,21 +13,25 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0244,
   "first_seen_at": "2026-09-28T21:33:17.701711+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.0,
+    "avg": 2.05,
     "min": 2.0,
-    "max": 2.0,
+    "max": 2.39,
     "median": 2.0,
-    "std_dev": 0.0,
-    "store_count": 5
+    "std_dev": 0.14,
+    "store_count": 8
   },
   "histogram": [
     {
       "bucket": "$2.00",
-      "count": 5
+      "count": 7
+    },
+    {
+      "bucket": "$2.39",
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -47,13 +51,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "029250",
-      "name": "Taco Bell",
-      "city": "Hartford",
-      "state": "CT",
-      "price": 2.0
-    },
-    {
       "store_number": "027806",
       "name": "Taco Bell",
       "city": "Katy",
@@ -80,16 +77,74 @@
       "city": "Royal Oak",
       "state": "MI",
       "price": 2.0
+    },
+    {
+      "store_number": "042751",
+      "name": "Taco Bell",
+      "city": "Hudsonville",
+      "state": "MI",
+      "price": 2.0
+    },
+    {
+      "store_number": "039050",
+      "name": "Taco Bell",
+      "city": "Elmwood Park",
+      "state": "NJ",
+      "price": 2.0
+    },
+    {
+      "store_number": "036719",
+      "name": "Taco Bell",
+      "city": "Feasterville",
+      "state": "PA",
+      "price": 2.0
+    },
+    {
+      "store_number": "029250",
+      "name": "Taco Bell",
+      "city": "Hartford",
+      "state": "CT",
+      "price": 2.39
     }
   ],
   "min_price_store_numbers": [
-    "029250",
     "027806",
     "039774",
     "041185",
-    "033299"
+    "033299",
+    "042751",
+    "039050",
+    "036719"
   ],
   "priciest_stores": [
+    {
+      "store_number": "029250",
+      "name": "Taco Bell",
+      "city": "Hartford",
+      "state": "CT",
+      "price": 2.39
+    },
+    {
+      "store_number": "036719",
+      "name": "Taco Bell",
+      "city": "Feasterville",
+      "state": "PA",
+      "price": 2.0
+    },
+    {
+      "store_number": "039050",
+      "name": "Taco Bell",
+      "city": "Elmwood Park",
+      "state": "NJ",
+      "price": 2.0
+    },
+    {
+      "store_number": "042751",
+      "name": "Taco Bell",
+      "city": "Hudsonville",
+      "state": "MI",
+      "price": 2.0
+    },
     {
       "store_number": "033299",
       "name": "Taco Bell",
@@ -116,17 +171,50 @@
       "name": "Taco Bell",
       "city": "Katy",
       "state": "TX",
-      "price": 2.0
-    },
-    {
-      "store_number": "029250",
-      "name": "Taco Bell",
-      "city": "Hartford",
-      "state": "CT",
       "price": 2.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036719",
+      "store_name": "Taco Bell",
+      "city": "Feasterville",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.0,
+      "observed_at": "2026-10-14T20:42:15.708205+00:00"
+    },
+    {
+      "store_number": "029250",
+      "store_name": "Taco Bell",
+      "city": "Hartford",
+      "state": "CT",
+      "change_type": "price_change",
+      "old_price": 2.0,
+      "new_price": 2.39,
+      "observed_at": "2026-10-14T20:41:51.370314+00:00"
+    },
+    {
+      "store_number": "039050",
+      "store_name": "Taco Bell",
+      "city": "Elmwood Park",
+      "state": "NJ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.0,
+      "observed_at": "2026-10-14T20:41:38.603648+00:00"
+    },
+    {
+      "store_number": "042751",
+      "store_name": "Taco Bell",
+      "city": "Hudsonville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.0,
+      "observed_at": "2026-10-14T20:40:39.960246+00:00"
+    },
     {
       "store_number": "017105",
       "store_name": "Taco Bell",
@@ -299,9 +387,9 @@
     }
   ],
   "activity_summary": {
-    "added": 11,
+    "added": 14,
     "removed": 6,
-    "price_changed": 0,
+    "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 280,
@@ -309,15 +397,6 @@
   "calories_max": 280,
   "combo_groups": [],
   "map_data": [
-    [
-      "029250",
-      41.74231508100437,
-      -72.71143823862076,
-      2.0,
-      "Taco Bell",
-      "Hartford",
-      "CT"
-    ],
     [
       "027806",
       29.862730741083368,
@@ -353,6 +432,42 @@
       "Taco Bell",
       "Royal Oak",
       "MI"
+    ],
+    [
+      "042751",
+      42.84142845,
+      -85.86391891,
+      2.0,
+      "Taco Bell",
+      "Hudsonville",
+      "MI"
+    ],
+    [
+      "039050",
+      40.89741940455633,
+      -74.10334093970705,
+      2.0,
+      "Taco Bell",
+      "Elmwood Park",
+      "NJ"
+    ],
+    [
+      "036719",
+      40.146852026111965,
+      -74.99671170118745,
+      2.0,
+      "Taco Bell",
+      "Feasterville",
+      "PA"
+    ],
+    [
+      "029250",
+      41.74231508100437,
+      -72.71143823862076,
+      2.39,
+      "Taco Bell",
+      "Hartford",
+      "CT"
     ]
   ],
   "retired_at": null,

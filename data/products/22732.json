@@ -19,10 +19,10 @@
   "price_stats": {
     "avg": 0.6,
     "min": 0.1,
-    "max": 1.05,
+    "max": 1.09,
     "median": 0.6,
     "std_dev": 0.17,
-    "store_count": 7479
+    "store_count": 7482
   },
   "histogram": [
     {
@@ -39,7 +39,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 390
+      "count": 391
     },
     {
       "bucket": "$0.32",
@@ -67,7 +67,7 @@
     },
     {
       "bucket": "$0.45",
-      "count": 203
+      "count": 202
     },
     {
       "bucket": "$0.49",
@@ -83,7 +83,7 @@
     },
     {
       "bucket": "$0.55",
-      "count": 209
+      "count": 210
     },
     {
       "bucket": "$0.59",
@@ -91,7 +91,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 1120
+      "count": 1119
     },
     {
       "bucket": "$0.65",
@@ -111,7 +111,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 802
+      "count": 803
     },
     {
       "bucket": "$0.79",
@@ -127,7 +127,7 @@
     },
     {
       "bucket": "$0.89",
-      "count": 59
+      "count": 60
     },
     {
       "bucket": "$0.90",
@@ -164,6 +164,10 @@
     {
       "bucket": "$1.05",
       "count": 2
+    },
+    {
+      "bucket": "$1.09",
+      "count": 1
     }
   ],
   "state_prices": [
@@ -215,12 +219,12 @@
     {
       "state": "NY",
       "avg_price": 0.69,
-      "store_count": 239
+      "store_count": 240
     },
     {
       "state": "MI",
       "avg_price": 0.68,
-      "store_count": 337
+      "store_count": 338
     },
     {
       "state": "AL",
@@ -238,14 +242,14 @@
       "store_count": 122
     },
     {
+      "state": "FL",
+      "avg_price": 0.66,
+      "store_count": 440
+    },
+    {
       "state": "PA",
       "avg_price": 0.66,
       "store_count": 197
-    },
-    {
-      "state": "FL",
-      "avg_price": 0.66,
-      "store_count": 439
     },
     {
       "state": "VA",
@@ -275,7 +279,7 @@
     {
       "state": "OH",
       "avg_price": 0.6,
-      "store_count": 390
+      "store_count": 388
     },
     {
       "state": "MS",
@@ -355,7 +359,7 @@
     {
       "state": "TX",
       "avg_price": 0.54,
-      "store_count": 690
+      "store_count": 691
     },
     {
       "state": "KS",
@@ -395,7 +399,7 @@
     {
       "state": "MN",
       "avg_price": 0.3,
-      "store_count": 97
+      "store_count": 98
     },
     {
       "state": "SD",
@@ -511,6 +515,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "027030",
+      "name": "Taco Bell",
+      "city": "Plattsburgh",
+      "state": "NY",
+      "price": 1.09
+    },
+    {
       "store_number": "015851",
       "name": "Taco Bell",
       "city": "Weed",
@@ -572,16 +583,79 @@
       "city": "Watertown",
       "state": "CT",
       "price": 1.0
-    },
-    {
-      "store_number": "029317",
-      "name": "Taco Bell",
-      "city": "Bristol",
-      "state": "CT",
-      "price": 1.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038846",
+      "store_name": "Taco Bell",
+      "city": "Jeffersonville",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 0.45,
+      "new_price": null,
+      "observed_at": "2026-10-14T20:42:57.128705+00:00"
+    },
+    {
+      "store_number": "004642",
+      "store_name": "Taco Bell",
+      "city": "Davie",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.89,
+      "observed_at": "2026-10-14T20:42:24.313997+00:00"
+    },
+    {
+      "store_number": "027030",
+      "store_name": "Taco Bell",
+      "city": "Plattsburgh",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.09,
+      "observed_at": "2026-10-14T20:42:01.970172+00:00"
+    },
+    {
+      "store_number": "033785",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-10-14T20:42:00.594567+00:00"
+    },
+    {
+      "store_number": "030486",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-10-14T20:41:30.798822+00:00"
+    },
+    {
+      "store_number": "035705",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.55,
+      "observed_at": "2026-10-14T20:40:55.218779+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.75,
+      "observed_at": "2026-10-14T20:40:36.756346+00:00"
+    },
     {
       "store_number": "041740",
       "store_name": "Taco Bell",
@@ -25304,8 +25378,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1137,
-    "removed": 989,
+    "added": 1142,
+    "removed": 991,
     "price_changed": 346,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -29669,6 +29743,15 @@
       "Taco Bell",
       "Grand Prairie",
       "TX"
+    ],
+    [
+      "030486",
+      47.23445134097183,
+      -93.51686815115633,
+      0.3,
+      "Taco Bell",
+      "Grand Rapids",
+      "MN"
     ],
     [
       "017387",
@@ -38831,15 +38914,6 @@
       "Taco Bell",
       "Mulvane",
       "KS"
-    ],
-    [
-      "038846",
-      39.6179897479244,
-      -83.60345853326127,
-      0.45,
-      "Taco Bell",
-      "Jeffersonville",
-      "OH"
     ],
     [
       "036281",
@@ -49138,6 +49212,15 @@
       "MA"
     ],
     [
+      "035705",
+      29.94752557530637,
+      -95.33220611048364,
+      0.55,
+      "Taco Bell",
+      "Houston",
+      "TX"
+    ],
+    [
       "041079",
       33.022772,
       -96.453197,
@@ -57146,15 +57229,6 @@
       "Taco Bell",
       "El Monte",
       "CA"
-    ],
-    [
-      "033785",
-      40.05844393502,
-      -82.91755225619649,
-      0.6,
-      "Taco Bell",
-      "Columbus",
-      "OH"
     ],
     [
       "002952",
@@ -67004,8 +67078,8 @@
     ],
     [
       "040016",
-      40.7629,
-      -73.0937,
+      40.76320256,
+      -73.09218163,
       0.65,
       "Taco Bell",
       "Bohemia",
@@ -76658,6 +76732,15 @@
       "Taco Bell",
       "Burtonsville",
       "MD"
+    ],
+    [
+      "037166",
+      41.9426279,
+      -84.648124,
+      0.75,
+      "Taco Bell",
+      "Hillsdale",
+      "MI"
     ],
     [
       "036940",
@@ -90970,6 +91053,15 @@
       "MI"
     ],
     [
+      "004642",
+      26.093065886559707,
+      -80.25040854515282,
+      0.89,
+      "Taco Bell",
+      "Davie",
+      "FL"
+    ],
+    [
       "004258",
       25.59790743908517,
       -80.3540951013565,
@@ -92624,6 +92716,15 @@
       "Taco Bell",
       "Weed",
       "CA"
+    ],
+    [
+      "027030",
+      44.69667752083952,
+      -73.48421312819836,
+      1.09,
+      "Taco Bell",
+      "Plattsburgh",
+      "NY"
     ]
   ],
   "retired_at": null,

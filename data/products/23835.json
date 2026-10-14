@@ -12,22 +12,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 0.0,
-  "recent_price_change_pct": 0.125,
+  "peak_30d_pct": 0.1,
+  "recent_price_change_pct": 0.05,
   "first_seen_at": "2026-09-28T21:31:34.016194+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.25,
+    "avg": 2.1,
     "min": 2.0,
     "max": 2.5,
-    "median": 2.25,
-    "std_dev": 0.35,
-    "store_count": 2
+    "median": 2.0,
+    "std_dev": 0.22,
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$2.00",
-      "count": 1
+      "count": 4
     },
     {
       "bucket": "$2.50",
@@ -45,6 +45,27 @@
       "price": 2.0
     },
     {
+      "store_number": "042751",
+      "name": "Taco Bell",
+      "city": "Hudsonville",
+      "state": "MI",
+      "price": 2.0
+    },
+    {
+      "store_number": "036719",
+      "name": "Taco Bell",
+      "city": "Feasterville",
+      "state": "PA",
+      "price": 2.0
+    },
+    {
+      "store_number": "024149",
+      "name": "Taco Bell",
+      "city": "Evans Mills",
+      "state": "NY",
+      "price": 2.0
+    },
+    {
       "store_number": "021394",
       "name": "Taco Bell",
       "city": "Houston",
@@ -53,7 +74,10 @@
     }
   ],
   "min_price_store_numbers": [
-    "031569"
+    "031569",
+    "042751",
+    "036719",
+    "024149"
   ],
   "priciest_stores": [
     {
@@ -64,6 +88,27 @@
       "price": 2.5
     },
     {
+      "store_number": "024149",
+      "name": "Taco Bell",
+      "city": "Evans Mills",
+      "state": "NY",
+      "price": 2.0
+    },
+    {
+      "store_number": "036719",
+      "name": "Taco Bell",
+      "city": "Feasterville",
+      "state": "PA",
+      "price": 2.0
+    },
+    {
+      "store_number": "042751",
+      "name": "Taco Bell",
+      "city": "Hudsonville",
+      "state": "MI",
+      "price": 2.0
+    },
+    {
       "store_number": "031569",
       "name": "Taco Bell",
       "city": "Myrtle Beach",
@@ -72,6 +117,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024149",
+      "store_name": "Taco Bell",
+      "city": "Evans Mills",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.0,
+      "observed_at": "2026-10-14T20:42:17.030256+00:00"
+    },
+    {
+      "store_number": "036719",
+      "store_name": "Taco Bell",
+      "city": "Feasterville",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.0,
+      "observed_at": "2026-10-14T20:42:15.708205+00:00"
+    },
+    {
+      "store_number": "042751",
+      "store_name": "Taco Bell",
+      "city": "Hudsonville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.0,
+      "observed_at": "2026-10-14T20:40:39.960246+00:00"
+    },
     {
       "store_number": "021394",
       "store_name": "Taco Bell",
@@ -194,7 +269,7 @@
     }
   ],
   "activity_summary": {
-    "added": 7,
+    "added": 10,
     "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -214,6 +289,33 @@
       "SC"
     ],
     [
+      "042751",
+      42.84142845,
+      -85.86391891,
+      2.0,
+      "Taco Bell",
+      "Hudsonville",
+      "MI"
+    ],
+    [
+      "036719",
+      40.146852026111965,
+      -74.99671170118745,
+      2.0,
+      "Taco Bell",
+      "Feasterville",
+      "PA"
+    ],
+    [
+      "024149",
+      44.04072040558215,
+      -75.84095308185852,
+      2.0,
+      "Taco Bell",
+      "Evans Mills",
+      "NY"
+    ],
+    [
       "021394",
       29.780646423828976,
       -95.53992946474918,
@@ -224,6 +326,6 @@
     ]
   ],
   "retired_at": "2026-09-30T21:03:55.150534+00:00",
-  "last_seen_date": "2026-10-13",
-  "peak_availability_pct": 0.0
+  "last_seen_date": "2026-10-14",
+  "peak_availability_pct": 0.1
 }

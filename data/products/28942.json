@@ -30,11 +30,11 @@
     },
     {
       "bucket": "$4.00",
-      "count": 7581
+      "count": 7569
     },
     {
       "bucket": "$4.99",
-      "count": 1
+      "count": 11
     },
     {
       "bucket": "$5.00",
@@ -42,6 +42,10 @@
     },
     {
       "bucket": "$5.99",
+      "count": 2
+    },
+    {
+      "bucket": "$6.00",
       "count": 1
     },
     {
@@ -51,14 +55,19 @@
   ],
   "state_prices": [
     {
-      "state": "MA",
-      "avg_price": 4.01,
-      "store_count": 69
+      "state": "NY",
+      "avg_price": 4.04,
+      "store_count": 253
     },
     {
       "state": "PA",
+      "avg_price": 4.02,
+      "store_count": 203
+    },
+    {
+      "state": "MA",
       "avg_price": 4.01,
-      "store_count": 202
+      "store_count": 69
     },
     {
       "state": "SC",
@@ -129,11 +138,6 @@
       "state": "OH",
       "avg_price": 4.0,
       "store_count": 370
-    },
-    {
-      "state": "NY",
-      "avg_price": 4.0,
-      "store_count": 254
     },
     {
       "state": "NV",
@@ -407,6 +411,20 @@
       "price": 12.99
     },
     {
+      "store_number": "023892",
+      "name": "Taco Bell",
+      "city": "Baker",
+      "state": "CA",
+      "price": 6.0
+    },
+    {
+      "store_number": "027514",
+      "name": "Taco Bell",
+      "city": "Harrisburg",
+      "state": "PA",
+      "price": 5.99
+    },
+    {
       "store_number": "041429",
       "name": "Taco Bell",
       "city": "Camp Hill",
@@ -421,56 +439,182 @@
       "price": 5.0
     },
     {
-      "store_number": "040998",
+      "store_number": "040381",
       "name": "Taco Bell",
-      "city": "Boiling Springs",
-      "state": "SC",
+      "city": "New York",
+      "state": "NY",
       "price": 4.99
     },
     {
-      "store_number": "036355",
+      "store_number": "032185",
       "name": "Taco Bell",
-      "city": "Moline",
-      "state": "IL",
-      "price": 4.0
+      "city": "New York",
+      "state": "NY",
+      "price": 4.99
     },
     {
-      "store_number": "032711",
+      "store_number": "032879",
       "name": "Taco Bell",
-      "city": "Winfield",
-      "state": "IN",
-      "price": 4.0
+      "city": "Bronx",
+      "state": "NY",
+      "price": 4.99
     },
     {
-      "store_number": "030866",
+      "store_number": "030731",
       "name": "Taco Bell",
-      "city": "Muskego",
-      "state": "WI",
-      "price": 4.0
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 4.99
     },
     {
-      "store_number": "030188",
+      "store_number": "038758",
       "name": "Taco Bell",
-      "city": "Mexico",
-      "state": "MO",
-      "price": 4.0
-    },
-    {
-      "store_number": "025385",
-      "name": "Taco Bell",
-      "city": "Saint George",
-      "state": "UT",
-      "price": 4.0
-    },
-    {
-      "store_number": "043137",
-      "name": "Taco Bell",
-      "city": "Fort Payne",
-      "state": "AL",
-      "price": 4.0
+      "city": "New York",
+      "state": "NY",
+      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040381",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-14T20:43:15.141078+00:00"
+    },
+    {
+      "store_number": "032185",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-14T20:42:51.632807+00:00"
+    },
+    {
+      "store_number": "032879",
+      "store_name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-14T20:42:18.580757+00:00"
+    },
+    {
+      "store_number": "039960",
+      "store_name": "Taco Bell",
+      "city": "Woodside",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-10-14T20:41:40.689076+00:00"
+    },
+    {
+      "store_number": "023892",
+      "store_name": "Taco Bell",
+      "city": "Baker",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 6.0,
+      "observed_at": "2026-10-14T20:41:30.830983+00:00"
+    },
+    {
+      "store_number": "030731",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-14T20:41:21.960858+00:00"
+    },
+    {
+      "store_number": "038758",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-14T20:41:11.490567+00:00"
+    },
+    {
+      "store_number": "037683",
+      "store_name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-14T20:40:46.496411+00:00"
+    },
+    {
+      "store_number": "027514",
+      "store_name": "Taco Bell",
+      "city": "Harrisburg",
+      "state": "PA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 5.99,
+      "observed_at": "2026-10-14T20:40:43.410593+00:00"
+    },
+    {
+      "store_number": "042304",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-14T20:40:41.873901+00:00"
+    },
+    {
+      "store_number": "022960",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-14T20:40:36.347942+00:00"
+    },
+    {
+      "store_number": "041158",
+      "store_name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-14T20:40:24.591562+00:00"
+    },
+    {
+      "store_number": "041898",
+      "store_name": "Taco Bell",
+      "city": "Meadville",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-10-14T20:40:23.949015+00:00"
+    },
+    {
+      "store_number": "040658",
+      "store_name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-14T20:36:14.878608+00:00"
+    },
     {
       "store_number": "036355",
       "store_name": "Taco Bell",
@@ -76543,9 +76687,9 @@
     }
   ],
   "activity_summary": {
-    "added": 7607,
-    "removed": 0,
-    "price_changed": 0,
+    "added": 7608,
+    "removed": 1,
+    "price_changed": 12,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 560,
@@ -76922,15 +77066,6 @@
       "Taco Bell",
       "Elyria",
       "OH"
-    ],
-    [
-      "040658",
-      40.88004873961616,
-      -73.90439336532398,
-      4.0,
-      "Taco Bell",
-      "Bronx",
-      "NY"
     ],
     [
       "040584",
@@ -79901,15 +80036,6 @@
       "Taco Bell",
       "Little Rock",
       "AR"
-    ],
-    [
-      "041158",
-      40.83959502051942,
-      -73.91661562324984,
-      4.0,
-      "Taco Bell",
-      "Bronx",
-      "NY"
     ],
     [
       "041829",
@@ -84187,15 +84313,6 @@
       "ID"
     ],
     [
-      "022960",
-      40.70097769633215,
-      -73.94150219081693,
-      4.0,
-      "Taco Bell",
-      "Brooklyn",
-      "NY"
-    ],
-    [
       "034695",
       36.06018792568588,
       -88.11514197776378,
@@ -86347,15 +86464,6 @@
       "NJ"
     ],
     [
-      "042304",
-      40.80888761286982,
-      -73.94888405002506,
-      4.0,
-      "Taco Bell",
-      "New York",
-      "NY"
-    ],
-    [
       "041867",
       32.5673835421,
       -116.9649851321,
@@ -86939,15 +87047,6 @@
       "Taco Bell",
       "Douglasville",
       "GA"
-    ],
-    [
-      "027514",
-      40.26131720000003,
-      -76.88128110522536,
-      4.0,
-      "Taco Bell",
-      "Harrisburg",
-      "PA"
     ],
     [
       "023248",
@@ -88082,15 +88181,6 @@
       "Taco Bell",
       "Elizabeth City",
       "NC"
-    ],
-    [
-      "037683",
-      40.814927756888146,
-      -73.91562673137078,
-      4.0,
-      "Taco Bell",
-      "Bronx",
-      "NY"
     ],
     [
       "037199",
@@ -94780,15 +94870,6 @@
       "PA"
     ],
     [
-      "038758",
-      40.83865506131583,
-      -73.94110877670383,
-      4.0,
-      "Taco Bell",
-      "New York",
-      "NY"
-    ],
-    [
       "039603",
       42.33597168507332,
       -71.04678595846967,
@@ -98054,15 +98135,6 @@
       "Taco Bell",
       "Louisville",
       "KY"
-    ],
-    [
-      "030731",
-      40.621987627143156,
-      -74.02839307488648,
-      4.0,
-      "Taco Bell",
-      "Brooklyn",
-      "NY"
     ],
     [
       "035436",
@@ -101564,15 +101636,6 @@
       "Taco Bell",
       "Stamford",
       "CT"
-    ],
-    [
-      "023892",
-      35.264111559540375,
-      -116.07624292373657,
-      4.0,
-      "Taco Bell",
-      "Baker",
-      "CA"
     ],
     [
       "002401",
@@ -105245,15 +105308,6 @@
       "Taco Bell",
       "Las Vegas",
       "NV"
-    ],
-    [
-      "039960",
-      40.75358989827396,
-      -73.9017782877615,
-      4.0,
-      "Taco Bell",
-      "Woodside",
-      "NY"
     ],
     [
       "042485",
@@ -120673,15 +120727,6 @@
       "CA"
     ],
     [
-      "032879",
-      40.81773169456624,
-      -73.9232563184228,
-      4.0,
-      "Taco Bell",
-      "Bronx",
-      "NY"
-    ],
-    [
       "030135",
       29.702907423816217,
       -98.09713625162141,
@@ -133228,15 +133273,6 @@
       "MO"
     ],
     [
-      "032185",
-      40.847176972943714,
-      -73.93560729458841,
-      4.0,
-      "Taco Bell",
-      "New York",
-      "NY"
-    ],
-    [
       "032947",
       45.52470199736931,
       -122.81556797333494,
@@ -141139,15 +141175,6 @@
       "TX"
     ],
     [
-      "040381",
-      40.8233,
-      -73.9531,
-      4.0,
-      "Taco Bell",
-      "New York",
-      "NY"
-    ],
-    [
       "037718",
       45.59417618386915,
       -122.99559615863305,
@@ -144776,8 +144803,8 @@
     ],
     [
       "040016",
-      40.7629,
-      -73.0937,
+      40.76320256,
+      -73.09218163,
       4.0,
       "Taco Bell",
       "Bohemia",
@@ -145000,6 +145027,51 @@
       "IL"
     ],
     [
+      "041898",
+      41.6225516,
+      -80.2061176,
+      4.0,
+      "Taco Bell",
+      "Meadville",
+      "PA"
+    ],
+    [
+      "040658",
+      40.88004873961616,
+      -73.90439336532398,
+      4.99,
+      "Taco Bell",
+      "Bronx",
+      "NY"
+    ],
+    [
+      "041158",
+      40.83959502051942,
+      -73.91661562324984,
+      4.99,
+      "Taco Bell",
+      "Bronx",
+      "NY"
+    ],
+    [
+      "022960",
+      40.70097769633215,
+      -73.94150219081693,
+      4.99,
+      "Taco Bell",
+      "Brooklyn",
+      "NY"
+    ],
+    [
+      "042304",
+      40.80888761286982,
+      -73.94888405002506,
+      4.99,
+      "Taco Bell",
+      "New York",
+      "NY"
+    ],
+    [
       "040998",
       35.0403,
       -81.975,
@@ -145007,6 +145079,60 @@
       "Taco Bell",
       "Boiling Springs",
       "SC"
+    ],
+    [
+      "037683",
+      40.814927756888146,
+      -73.91562673137078,
+      4.99,
+      "Taco Bell",
+      "Bronx",
+      "NY"
+    ],
+    [
+      "038758",
+      40.83865506131583,
+      -73.94110877670383,
+      4.99,
+      "Taco Bell",
+      "New York",
+      "NY"
+    ],
+    [
+      "030731",
+      40.621987627143156,
+      -74.02839307488648,
+      4.99,
+      "Taco Bell",
+      "Brooklyn",
+      "NY"
+    ],
+    [
+      "032879",
+      40.81773169456624,
+      -73.9232563184228,
+      4.99,
+      "Taco Bell",
+      "Bronx",
+      "NY"
+    ],
+    [
+      "032185",
+      40.847176972943714,
+      -73.93560729458841,
+      4.99,
+      "Taco Bell",
+      "New York",
+      "NY"
+    ],
+    [
+      "040381",
+      40.8233,
+      -73.9531,
+      4.99,
+      "Taco Bell",
+      "New York",
+      "NY"
     ],
     [
       "023972",
@@ -145025,6 +145151,24 @@
       "Taco Bell",
       "Camp Hill",
       "PA"
+    ],
+    [
+      "027514",
+      40.26131720000003,
+      -76.88128110522536,
+      5.99,
+      "Taco Bell",
+      "Harrisburg",
+      "PA"
+    ],
+    [
+      "023892",
+      35.264111559540375,
+      -116.07624292373657,
+      6.0,
+      "Taco Bell",
+      "Baker",
+      "CA"
     ],
     [
       "026759",
