@@ -15,35 +15,35 @@
   "peak_30d_pct": 0.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 0.6,
+  "availability_pct": 0.3,
   "price_stats": {
     "avg": 1.01,
     "min": 1.0,
     "max": 1.29,
     "median": 1.0,
     "std_dev": 0.06,
-    "store_count": 43
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$1.00",
-      "count": 41
+      "count": 24
     },
     {
       "bucket": "$1.29",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
     {
-      "state": "MI",
-      "avg_price": 1.01,
-      "store_count": 27
-    },
-    {
       "state": "OH",
       "avg_price": 1.0,
-      "store_count": 11
+      "store_count": 8
+    },
+    {
+      "state": "MI",
+      "avg_price": 1.0,
+      "store_count": 12
     }
   ],
   "nutrition": {
@@ -62,13 +62,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "041174",
-      "name": "Taco Bell",
-      "city": "Spring Arbor",
-      "state": "MI",
-      "price": 1.0
-    },
-    {
       "store_number": "041829",
       "name": "Taco Bell",
       "city": "Wellsburg",
@@ -83,13 +76,6 @@
       "price": 1.0
     },
     {
-      "store_number": "034611",
-      "name": "Taco Bell",
-      "city": "Wintersville",
-      "state": "OH",
-      "price": 1.0
-    },
-    {
       "store_number": "036286",
       "name": "Taco Bell",
       "city": "Lisbon",
@@ -97,23 +83,9 @@
       "price": 1.0
     },
     {
-      "store_number": "037166",
-      "name": "Taco Bell",
-      "city": "Hillsdale",
-      "state": "MI",
-      "price": 1.0
-    },
-    {
       "store_number": "023198",
       "name": "Taco Bell",
       "city": "Auburn Hills",
-      "state": "MI",
-      "price": 1.0
-    },
-    {
-      "store_number": "023745",
-      "name": "Taco Bell",
-      "city": "Belleville",
       "state": "MI",
       "price": 1.0
     },
@@ -130,79 +102,69 @@
       "city": "Warren",
       "state": "MI",
       "price": 1.0
+    },
+    {
+      "store_number": "027374",
+      "name": "Taco Bell",
+      "city": "Pinckney",
+      "state": "MI",
+      "price": 1.0
+    },
+    {
+      "store_number": "038912",
+      "name": "Taco Bell",
+      "city": "Alliance",
+      "state": "OH",
+      "price": 1.0
+    },
+    {
+      "store_number": "001590",
+      "name": "Taco Bell",
+      "city": "North Olmsted",
+      "state": "OH",
+      "price": 1.0
+    },
+    {
+      "store_number": "029743",
+      "name": "Taco Bell",
+      "city": "Lorain",
+      "state": "OH",
+      "price": 1.0
     }
   ],
   "min_price_store_numbers": [
-    "041174",
     "041829",
     "034814",
-    "034611",
     "036286",
-    "037166",
     "023198",
-    "023745",
     "038908",
     "024649",
     "027374",
     "038912",
     "001590",
-    "003190",
-    "024444",
     "029743",
-    "037840",
     "037839",
-    "001439",
-    "024653",
     "033301",
-    "021162",
-    "001651",
     "032107",
     "035400",
     "033304",
     "035394",
     "032543",
-    "002762",
-    "032983",
-    "020199",
-    "026111",
     "002883",
     "033016",
     "038910",
     "033025",
     "035403",
     "038897",
-    "040445",
-    "032632",
-    "017105"
+    "040445"
   ],
   "priciest_stores": [
-    {
-      "store_number": "042641",
-      "name": "Taco Bell",
-      "city": "Alpena",
-      "state": "MI",
-      "price": 1.29
-    },
     {
       "store_number": "042638",
       "name": "Taco Bell",
       "city": "New Haven",
       "state": "IN",
       "price": 1.29
-    },
-    {
-      "store_number": "017105",
-      "name": "Taco Bell",
-      "city": "Garden City",
-      "state": "MI",
-      "price": 1.0
-    },
-    {
-      "store_number": "032632",
-      "name": "Taco Bell",
-      "city": "Swanton",
-      "state": "OH",
-      "price": 1.0
     },
     {
       "store_number": "040445",
@@ -245,9 +207,210 @@
       "city": "Jenison",
       "state": "MI",
       "price": 1.0
+    },
+    {
+      "store_number": "002883",
+      "name": "Taco Bell",
+      "city": "Midland",
+      "state": "MI",
+      "price": 1.0
+    },
+    {
+      "store_number": "032543",
+      "name": "Taco Bell",
+      "city": "Lansing",
+      "state": "MI",
+      "price": 1.0
+    },
+    {
+      "store_number": "035394",
+      "name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "price": 1.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032632",
+      "store_name": "Taco Bell",
+      "city": "Swanton",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:40:23.218019+00:00"
+    },
+    {
+      "store_number": "042641",
+      "store_name": "Taco Bell",
+      "city": "Alpena",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.29,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:39:53.099256+00:00"
+    },
+    {
+      "store_number": "026111",
+      "store_name": "Taco Bell",
+      "city": "Steubenville",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:37:33.008120+00:00"
+    },
+    {
+      "store_number": "020199",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:37:14.375053+00:00"
+    },
+    {
+      "store_number": "032983",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:37:06.028652+00:00"
+    },
+    {
+      "store_number": "002762",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:37:04.726670+00:00"
+    },
+    {
+      "store_number": "001651",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:36:07.515472+00:00"
+    },
+    {
+      "store_number": "021162",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:35:25.525500+00:00"
+    },
+    {
+      "store_number": "024653",
+      "store_name": "Taco Bell",
+      "city": "Macomb",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:35:18.086980+00:00"
+    },
+    {
+      "store_number": "001439",
+      "store_name": "Taco Bell",
+      "city": "Sterling Heights",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:35:17.515825+00:00"
+    },
+    {
+      "store_number": "037840",
+      "store_name": "Taco Bell",
+      "city": "Howell",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:35:16.346161+00:00"
+    },
+    {
+      "store_number": "024444",
+      "store_name": "Taco Bell",
+      "city": "Livonia",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:35:15.851445+00:00"
+    },
+    {
+      "store_number": "017105",
+      "store_name": "Taco Bell",
+      "city": "Garden City",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:35:13.085743+00:00"
+    },
+    {
+      "store_number": "003190",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:35:11.696722+00:00"
+    },
+    {
+      "store_number": "023745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:34:58.531342+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:33:43.190558+00:00"
+    },
+    {
+      "store_number": "034611",
+      "store_name": "Taco Bell",
+      "city": "Wintersville",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:33:38.310794+00:00"
+    },
+    {
+      "store_number": "041174",
+      "store_name": "Taco Bell",
+      "city": "Spring Arbor",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:33:14.330189+00:00"
+    },
     {
       "store_number": "002681",
       "store_name": "Taco Bell",
@@ -12991,7 +13154,7 @@
   ],
   "activity_summary": {
     "added": 647,
-    "removed": 598,
+    "removed": 616,
     "price_changed": 29,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13000,15 +13163,6 @@
   "calories_max": 70,
   "combo_groups": [],
   "map_data": [
-    [
-      "041174",
-      42.208486195305966,
-      -84.54207645974716,
-      1.0,
-      "Taco Bell",
-      "Spring Arbor",
-      "MI"
-    ],
     [
       "041829",
       40.284352,
@@ -13028,15 +13182,6 @@
       "MI"
     ],
     [
-      "034611",
-      40.371738586521595,
-      -80.68859002919037,
-      1.0,
-      "Taco Bell",
-      "Wintersville",
-      "OH"
-    ],
-    [
       "036286",
       40.789182048263676,
       -80.77630919890356,
@@ -13046,30 +13191,12 @@
       "OH"
     ],
     [
-      "037166",
-      41.9426279,
-      -84.648124,
-      1.0,
-      "Taco Bell",
-      "Hillsdale",
-      "MI"
-    ],
-    [
       "023198",
       42.6999646,
       -83.3065167,
       1.0,
       "Taco Bell",
       "Auburn Hills",
-      "MI"
-    ],
-    [
-      "023745",
-      42.224730175482414,
-      -83.4856314762491,
-      1.0,
-      "Taco Bell",
-      "Belleville",
       "MI"
     ],
     [
@@ -13118,24 +13245,6 @@
       "OH"
     ],
     [
-      "003190",
-      42.48379808690309,
-      -82.94468663168573,
-      1.0,
-      "Taco Bell",
-      "Roseville",
-      "MI"
-    ],
-    [
-      "024444",
-      42.44013679435563,
-      -83.3737537537855,
-      1.0,
-      "Taco Bell",
-      "Livonia",
-      "MI"
-    ],
-    [
       "029743",
       41.43733761298764,
       -82.18502319884499,
@@ -13143,15 +13252,6 @@
       "Taco Bell",
       "Lorain",
       "OH"
-    ],
-    [
-      "037840",
-      42.58959812045883,
-      -83.88072914914574,
-      1.0,
-      "Taco Bell",
-      "Howell",
-      "MI"
     ],
     [
       "037839",
@@ -13163,48 +13263,12 @@
       "MI"
     ],
     [
-      "001439",
-      42.53594917872571,
-      -83.06661828431061,
-      1.0,
-      "Taco Bell",
-      "Sterling Heights",
-      "MI"
-    ],
-    [
-      "024653",
-      42.63493873756046,
-      -82.85773765576657,
-      1.0,
-      "Taco Bell",
-      "Macomb",
-      "MI"
-    ],
-    [
       "033301",
       42.66063385537756,
       -83.3945587277413,
       1.0,
       "Taco Bell",
       "Waterford",
-      "MI"
-    ],
-    [
-      "021162",
-      42.336587950303986,
-      -83.3853131532669,
-      1.0,
-      "Taco Bell",
-      "Westland",
-      "MI"
-    ],
-    [
-      "001651",
-      42.25422907874331,
-      -84.4236646592617,
-      1.0,
-      "Taco Bell",
-      "Jackson",
       "MI"
     ],
     [
@@ -13251,42 +13315,6 @@
       "Taco Bell",
       "Lansing",
       "MI"
-    ],
-    [
-      "002762",
-      42.25524077268508,
-      -84.36797891558854,
-      1.0,
-      "Taco Bell",
-      "Jackson",
-      "MI"
-    ],
-    [
-      "032983",
-      42.91307739875615,
-      -85.59700463713853,
-      1.0,
-      "Taco Bell",
-      "Grand Rapids",
-      "MI"
-    ],
-    [
-      "020199",
-      42.2703788450939,
-      -84.45233552200612,
-      1.0,
-      "Taco Bell",
-      "Jackson",
-      "MI"
-    ],
-    [
-      "026111",
-      40.36921915501247,
-      -80.63923631610123,
-      1.0,
-      "Taco Bell",
-      "Steubenville",
-      "OH"
     ],
     [
       "002883",
@@ -13352,24 +13380,6 @@
       "OH"
     ],
     [
-      "032632",
-      41.5807,
-      -83.8823,
-      1.0,
-      "Taco Bell",
-      "Swanton",
-      "OH"
-    ],
-    [
-      "017105",
-      42.325364416289936,
-      -83.32727551460266,
-      1.0,
-      "Taco Bell",
-      "Garden City",
-      "MI"
-    ],
-    [
       "042638",
       41.06244631149003,
       -84.98149037361145,
@@ -13377,18 +13387,9 @@
       "Taco Bell",
       "New Haven",
       "IN"
-    ],
-    [
-      "042641",
-      45.04514546485744,
-      -83.452195953373,
-      1.29,
-      "Taco Bell",
-      "Alpena",
-      "MI"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-14",
+  "last_seen_date": "2026-10-15",
   "peak_availability_pct": 7.4
 }

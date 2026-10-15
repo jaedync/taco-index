@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 70
+    "store_count": 71
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 70
+      "count": 71
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 70
+      "store_count": 71
     }
   ],
   "nutrition": {
@@ -193,6 +193,7 @@
     "027985",
     "030999",
     "042942",
+    "023291",
     "023300",
     "042971",
     "034163"
@@ -216,6 +217,13 @@
       "store_number": "023300",
       "name": "Taco Bell",
       "city": "Palm Bay",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "023291",
+      "name": "Taco Bell",
+      "city": "Satellite Beach",
       "state": "FL",
       "price": 10.99
     },
@@ -260,16 +268,19 @@
       "city": "Orange City",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "004318",
-      "name": "Taco Bell",
-      "city": "Apopka",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023291",
+      "store_name": "Taco Bell",
+      "city": "Satellite Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-10-15T20:40:08.108290+00:00"
+    },
     {
       "store_number": "023291",
       "store_name": "Taco Bell",
@@ -4392,7 +4403,7 @@
     }
   ],
   "activity_summary": {
-    "added": 241,
+    "added": 242,
     "removed": 171,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -5034,6 +5045,15 @@
       10.99,
       "Taco Bell",
       "Ocala",
+      "FL"
+    ],
+    [
+      "023291",
+      28.186290819898744,
+      -80.59330917430088,
+      10.99,
+      "Taco Bell",
+      "Satellite Beach",
       "FL"
     ],
     [

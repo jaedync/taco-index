@@ -13,22 +13,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 1.0,
+  "peak_30d_pct": 2.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
-  "availability_pct": 1.1,
+  "availability_pct": 2.6,
   "price_stats": {
-    "avg": 4.01,
+    "avg": 4.0,
     "min": 3.99,
     "max": 5.49,
     "median": 3.99,
-    "std_dev": 0.16,
-    "store_count": 85
+    "std_dev": 0.11,
+    "store_count": 202
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 84
+      "count": 201
     },
     {
       "bucket": "$5.49",
@@ -39,7 +39,12 @@
     {
       "state": "FL",
       "avg_price": 4.01,
-      "store_count": 84
+      "store_count": 99
+    },
+    {
+      "state": "CA",
+      "avg_price": 3.99,
+      "store_count": 102
     }
   ],
   "nutrition": {
@@ -100,7 +105,21 @@
       "price": 3.99
     },
     {
+      "store_number": "037110",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "price": 3.99
+    },
+    {
       "store_number": "039587",
+      "name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 3.99
+    },
+    {
+      "store_number": "023290",
       "name": "Taco Bell",
       "city": "Orlando",
       "state": "FL",
@@ -112,20 +131,6 @@
       "city": "Melbourne",
       "state": "FL",
       "price": 3.99
-    },
-    {
-      "store_number": "042941",
-      "name": "Taco Bell",
-      "city": "Ocala",
-      "state": "FL",
-      "price": 3.99
-    },
-    {
-      "store_number": "027981",
-      "name": "Taco Bell",
-      "city": "Winter Park",
-      "state": "FL",
-      "price": 3.99
     }
   ],
   "min_price_store_numbers": [
@@ -135,25 +140,33 @@
     "034809",
     "036232",
     "036438",
+    "037110",
     "039587",
+    "023290",
     "030349",
     "042941",
     "027981",
+    "028353",
     "027982",
     "022833",
     "023299",
     "028007",
+    "042932",
     "022595",
     "042933",
+    "022589",
+    "023298",
     "042914",
     "042924",
     "027990",
     "021472",
+    "022588",
     "004435",
     "042927",
     "023297",
     "037822",
     "032959",
+    "038869",
     "039700",
     "041844",
     "039586",
@@ -184,6 +197,7 @@
     "017290",
     "027976",
     "027970",
+    "027971",
     "022590",
     "039584",
     "004318",
@@ -206,13 +220,121 @@
     "023304",
     "027984",
     "030277",
+    "042928",
     "027989",
     "027977",
     "023300",
+    "034162",
     "042971",
     "023291",
     "034163",
-    "034783"
+    "034783",
+    "039647",
+    "040450",
+    "033444",
+    "037014",
+    "036224",
+    "037732",
+    "036252",
+    "023159",
+    "034168",
+    "002751",
+    "041364",
+    "036124",
+    "034177",
+    "026015",
+    "026727",
+    "018916",
+    "028761",
+    "035467",
+    "041367",
+    "029423",
+    "041361",
+    "041349",
+    "021113",
+    "000236",
+    "041340",
+    "003026",
+    "018675",
+    "035900",
+    "035470",
+    "041347",
+    "041356",
+    "036122",
+    "003452",
+    "041348",
+    "034179",
+    "041355",
+    "028763",
+    "041360",
+    "034191",
+    "041352",
+    "003907",
+    "041369",
+    "041366",
+    "002665",
+    "035471",
+    "034173",
+    "032354",
+    "041341",
+    "041368",
+    "035469",
+    "034178",
+    "031352",
+    "034185",
+    "034215",
+    "034203",
+    "016327",
+    "041345",
+    "041344",
+    "028842",
+    "034169",
+    "027986",
+    "034166",
+    "034176",
+    "034213",
+    "041363",
+    "035901",
+    "005192",
+    "028846",
+    "028844",
+    "034170",
+    "031733",
+    "041351",
+    "041359",
+    "027969",
+    "028845",
+    "022939",
+    "024461",
+    "034216",
+    "036123",
+    "041358",
+    "034220",
+    "036121",
+    "034183",
+    "028841",
+    "034192",
+    "041354",
+    "034197",
+    "034184",
+    "004212",
+    "035902",
+    "034167",
+    "034190",
+    "041353",
+    "030256",
+    "034189",
+    "002471",
+    "028843",
+    "004429",
+    "034199",
+    "032036",
+    "015670",
+    "037824",
+    "031851",
+    "033940",
+    "031814",
+    "035468"
   ],
   "priciest_stores": [
     {
@@ -223,70 +345,1240 @@
       "price": 5.49
     },
     {
-      "store_number": "034783",
+      "store_number": "035468",
       "name": "Taco Bell",
-      "city": "Dunnellon",
-      "state": "FL",
+      "city": "Rancho Cordova",
+      "state": "CA",
       "price": 3.99
     },
     {
-      "store_number": "034163",
+      "store_number": "031814",
       "name": "Taco Bell",
-      "city": "Saint Cloud",
-      "state": "FL",
+      "city": "Elk Grove",
+      "state": "CA",
       "price": 3.99
     },
     {
-      "store_number": "023291",
+      "store_number": "033940",
       "name": "Taco Bell",
-      "city": "Satellite Beach",
-      "state": "FL",
+      "city": "Wheatland",
+      "state": "CA",
       "price": 3.99
     },
     {
-      "store_number": "042971",
+      "store_number": "031851",
       "name": "Taco Bell",
-      "city": "Palm Coast",
-      "state": "FL",
+      "city": "Sacramento",
+      "state": "CA",
       "price": 3.99
     },
     {
-      "store_number": "023300",
+      "store_number": "037824",
       "name": "Taco Bell",
-      "city": "Palm Bay",
-      "state": "FL",
+      "city": "Jamestown",
+      "state": "CA",
       "price": 3.99
     },
     {
-      "store_number": "027977",
+      "store_number": "015670",
       "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
+      "city": "Marysville",
+      "state": "CA",
       "price": 3.99
     },
     {
-      "store_number": "027989",
+      "store_number": "032036",
       "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
+      "city": "Galt",
+      "state": "CA",
       "price": 3.99
     },
     {
-      "store_number": "030277",
+      "store_number": "034199",
       "name": "Taco Bell",
-      "city": "Apopka",
-      "state": "FL",
+      "city": "Patterson",
+      "state": "CA",
       "price": 3.99
     },
     {
-      "store_number": "027984",
+      "store_number": "004429",
       "name": "Taco Bell",
-      "city": "Sanford",
-      "state": "FL",
+      "city": "Galt",
+      "state": "CA",
       "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035468",
+      "store_name": "Taco Bell",
+      "city": "Rancho Cordova",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:43:06.214054+00:00"
+    },
+    {
+      "store_number": "038869",
+      "store_name": "Taco Bell",
+      "city": "Winter Garden",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:40:26.722848+00:00"
+    },
+    {
+      "store_number": "031814",
+      "store_name": "Taco Bell",
+      "city": "Elk Grove",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:40:26.077799+00:00"
+    },
+    {
+      "store_number": "033940",
+      "store_name": "Taco Bell",
+      "city": "Wheatland",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:40:24.846094+00:00"
+    },
+    {
+      "store_number": "031851",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:40:21.889351+00:00"
+    },
+    {
+      "store_number": "034162",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:40:21.246530+00:00"
+    },
+    {
+      "store_number": "037824",
+      "store_name": "Taco Bell",
+      "city": "Jamestown",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:40:11.845202+00:00"
+    },
+    {
+      "store_number": "042928",
+      "store_name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:40:04.229325+00:00"
+    },
+    {
+      "store_number": "015670",
+      "store_name": "Taco Bell",
+      "city": "Marysville",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:40:02.240617+00:00"
+    },
+    {
+      "store_number": "032036",
+      "store_name": "Taco Bell",
+      "city": "Galt",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:40:01.109945+00:00"
+    },
+    {
+      "store_number": "034199",
+      "store_name": "Taco Bell",
+      "city": "Patterson",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:40:00.375844+00:00"
+    },
+    {
+      "store_number": "004429",
+      "store_name": "Taco Bell",
+      "city": "Galt",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:40:00.277953+00:00"
+    },
+    {
+      "store_number": "028843",
+      "store_name": "Taco Bell",
+      "city": "Suisun City",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:39:59.774648+00:00"
+    },
+    {
+      "store_number": "002471",
+      "store_name": "Taco Bell",
+      "city": "Grass Valley",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:39:57.276722+00:00"
+    },
+    {
+      "store_number": "034189",
+      "store_name": "Taco Bell",
+      "city": "Escalon",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:39:55.303997+00:00"
+    },
+    {
+      "store_number": "030256",
+      "store_name": "Taco Bell",
+      "city": "Vacaville",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:39:50.952827+00:00"
+    },
+    {
+      "store_number": "041353",
+      "store_name": "Taco Bell",
+      "city": "Rancho Cordova",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:39:50.520803+00:00"
+    },
+    {
+      "store_number": "022588",
+      "store_name": "Taco Bell",
+      "city": "Deland",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:39:38.917409+00:00"
+    },
+    {
+      "store_number": "034190",
+      "store_name": "Taco Bell",
+      "city": "Waterford",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:39:34.842525+00:00"
+    },
+    {
+      "store_number": "034167",
+      "store_name": "Taco Bell",
+      "city": "Modesto",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:39:31.969746+00:00"
+    },
+    {
+      "store_number": "035902",
+      "store_name": "Taco Bell",
+      "city": "Lodi",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:39:16.564672+00:00"
+    },
+    {
+      "store_number": "004212",
+      "store_name": "Taco Bell",
+      "city": "Sonora",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:39:13.579819+00:00"
+    },
+    {
+      "store_number": "034184",
+      "store_name": "Taco Bell",
+      "city": "Modesto",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:39:06.758921+00:00"
+    },
+    {
+      "store_number": "034197",
+      "store_name": "Taco Bell",
+      "city": "Ripon",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:39:05.846039+00:00"
+    },
+    {
+      "store_number": "041354",
+      "store_name": "Taco Bell",
+      "city": "Dixon",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:39:05.124590+00:00"
+    },
+    {
+      "store_number": "034192",
+      "store_name": "Taco Bell",
+      "city": "Modesto",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:39:02.969995+00:00"
+    },
+    {
+      "store_number": "028841",
+      "store_name": "Taco Bell",
+      "city": "Vacaville",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:38:57.304764+00:00"
+    },
+    {
+      "store_number": "034183",
+      "store_name": "Taco Bell",
+      "city": "Lathrop",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:38:06.258665+00:00"
+    },
+    {
+      "store_number": "036121",
+      "store_name": "Taco Bell",
+      "city": "Auburn",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:38:03.697978+00:00"
+    },
+    {
+      "store_number": "034220",
+      "store_name": "Taco Bell",
+      "city": "Modesto",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:58.884497+00:00"
+    },
+    {
+      "store_number": "041358",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:58.446478+00:00"
+    },
+    {
+      "store_number": "036123",
+      "store_name": "Taco Bell",
+      "city": "Auburn",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:53.343148+00:00"
+    },
+    {
+      "store_number": "034216",
+      "store_name": "Taco Bell",
+      "city": "Manteca",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:47.317230+00:00"
+    },
+    {
+      "store_number": "024461",
+      "store_name": "Taco Bell",
+      "city": "Valley Springs",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:44.535781+00:00"
+    },
+    {
+      "store_number": "022939",
+      "store_name": "Taco Bell",
+      "city": "Angels Camp",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:44.269171+00:00"
+    },
+    {
+      "store_number": "028845",
+      "store_name": "Taco Bell",
+      "city": "Vacaville",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:43.806833+00:00"
+    },
+    {
+      "store_number": "027969",
+      "store_name": "Taco Bell",
+      "city": "Titusville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:43.668604+00:00"
+    },
+    {
+      "store_number": "041359",
+      "store_name": "Taco Bell",
+      "city": "Manteca",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:43.104975+00:00"
+    },
+    {
+      "store_number": "041351",
+      "store_name": "Taco Bell",
+      "city": "Vacaville",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:42.012414+00:00"
+    },
+    {
+      "store_number": "031733",
+      "store_name": "Taco Bell",
+      "city": "Rocklin",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:39.333568+00:00"
+    },
+    {
+      "store_number": "034170",
+      "store_name": "Taco Bell",
+      "city": "Turlock",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:38.411968+00:00"
+    },
+    {
+      "store_number": "028844",
+      "store_name": "Taco Bell",
+      "city": "Woodland",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:36.266562+00:00"
+    },
+    {
+      "store_number": "028846",
+      "store_name": "Taco Bell",
+      "city": "Fairfield",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:21.334761+00:00"
+    },
+    {
+      "store_number": "005192",
+      "store_name": "Taco Bell",
+      "city": "Rocklin",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:20.634999+00:00"
+    },
+    {
+      "store_number": "035901",
+      "store_name": "Taco Bell",
+      "city": "Lodi",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:19.710693+00:00"
+    },
+    {
+      "store_number": "041363",
+      "store_name": "Taco Bell",
+      "city": "Stockton",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:19.060097+00:00"
+    },
+    {
+      "store_number": "023298",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:18.955290+00:00"
+    },
+    {
+      "store_number": "034213",
+      "store_name": "Taco Bell",
+      "city": "Riverbank",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:18.228453+00:00"
+    },
+    {
+      "store_number": "034176",
+      "store_name": "Taco Bell",
+      "city": "Modesto",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:14.984234+00:00"
+    },
+    {
+      "store_number": "034166",
+      "store_name": "Taco Bell",
+      "city": "Turlock",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:10.394162+00:00"
+    },
+    {
+      "store_number": "022589",
+      "store_name": "Taco Bell",
+      "city": "Sanford",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:10.343942+00:00"
+    },
+    {
+      "store_number": "027986",
+      "store_name": "Taco Bell",
+      "city": "Deltona",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:08.474527+00:00"
+    },
+    {
+      "store_number": "034169",
+      "store_name": "Taco Bell",
+      "city": "Ceres",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:04.918286+00:00"
+    },
+    {
+      "store_number": "028842",
+      "store_name": "Taco Bell",
+      "city": "Fairfield",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:37:02.029749+00:00"
+    },
+    {
+      "store_number": "041344",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:55.771804+00:00"
+    },
+    {
+      "store_number": "041345",
+      "store_name": "Taco Bell",
+      "city": "Stockton",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:54.575007+00:00"
+    },
+    {
+      "store_number": "042932",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:54.372659+00:00"
+    },
+    {
+      "store_number": "016327",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:53.327896+00:00"
+    },
+    {
+      "store_number": "034203",
+      "store_name": "Taco Bell",
+      "city": "Modesto",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:52.831443+00:00"
+    },
+    {
+      "store_number": "034215",
+      "store_name": "Taco Bell",
+      "city": "Turlock",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:52.774100+00:00"
+    },
+    {
+      "store_number": "027971",
+      "store_name": "Taco Bell",
+      "city": "Cocoa Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:52.597043+00:00"
+    },
+    {
+      "store_number": "034185",
+      "store_name": "Taco Bell",
+      "city": "Stockton",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:52.076152+00:00"
+    },
+    {
+      "store_number": "031352",
+      "store_name": "Taco Bell",
+      "city": "Lincoln",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:51.995896+00:00"
+    },
+    {
+      "store_number": "034178",
+      "store_name": "Taco Bell",
+      "city": "Modesto",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:50.233595+00:00"
+    },
+    {
+      "store_number": "035469",
+      "store_name": "Taco Bell",
+      "city": "Carmichael",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:47.978876+00:00"
+    },
+    {
+      "store_number": "041368",
+      "store_name": "Taco Bell",
+      "city": "Woodland",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:47.292182+00:00"
+    },
+    {
+      "store_number": "041341",
+      "store_name": "Taco Bell",
+      "city": "Manteca",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:45.914019+00:00"
+    },
+    {
+      "store_number": "032354",
+      "store_name": "Taco Bell",
+      "city": "Wildwood",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:45.083865+00:00"
+    },
+    {
+      "store_number": "034173",
+      "store_name": "Taco Bell",
+      "city": "Stockton",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:44.164528+00:00"
+    },
+    {
+      "store_number": "035471",
+      "store_name": "Taco Bell",
+      "city": "Fair Oaks",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:44.123257+00:00"
+    },
+    {
+      "store_number": "002665",
+      "store_name": "Taco Bell",
+      "city": "Rocklin",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:44.051619+00:00"
+    },
+    {
+      "store_number": "041366",
+      "store_name": "Taco Bell",
+      "city": "Fairfield",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:42.781059+00:00"
+    },
+    {
+      "store_number": "041369",
+      "store_name": "Taco Bell",
+      "city": "Stockton",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:42.675503+00:00"
+    },
+    {
+      "store_number": "003907",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:40.978219+00:00"
+    },
+    {
+      "store_number": "041352",
+      "store_name": "Taco Bell",
+      "city": "Davis",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:39.844529+00:00"
+    },
+    {
+      "store_number": "034191",
+      "store_name": "Taco Bell",
+      "city": "Modesto",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:38.918150+00:00"
+    },
+    {
+      "store_number": "041360",
+      "store_name": "Taco Bell",
+      "city": "North Highlands",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:38.503132+00:00"
+    },
+    {
+      "store_number": "028763",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:37.163924+00:00"
+    },
+    {
+      "store_number": "041355",
+      "store_name": "Taco Bell",
+      "city": "Stockton",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:37.017943+00:00"
+    },
+    {
+      "store_number": "034179",
+      "store_name": "Taco Bell",
+      "city": "Stockton",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:36.159639+00:00"
+    },
+    {
+      "store_number": "041348",
+      "store_name": "Taco Bell",
+      "city": "Stockton",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:34.912085+00:00"
+    },
+    {
+      "store_number": "003452",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:33.932978+00:00"
+    },
+    {
+      "store_number": "036122",
+      "store_name": "Taco Bell",
+      "city": "Colfax",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:32.711460+00:00"
+    },
+    {
+      "store_number": "041356",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:32.510184+00:00"
+    },
+    {
+      "store_number": "041347",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:30.149738+00:00"
+    },
+    {
+      "store_number": "035470",
+      "store_name": "Taco Bell",
+      "city": "Citrus Heights",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:28.786128+00:00"
+    },
+    {
+      "store_number": "035900",
+      "store_name": "Taco Bell",
+      "city": "Lodi",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:28.361719+00:00"
+    },
+    {
+      "store_number": "018675",
+      "store_name": "Taco Bell",
+      "city": "Loomis",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:28.336258+00:00"
+    },
+    {
+      "store_number": "003026",
+      "store_name": "Taco Bell",
+      "city": "Yuba City",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:27.227174+00:00"
+    },
+    {
+      "store_number": "041340",
+      "store_name": "Taco Bell",
+      "city": "Stockton",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:25.972770+00:00"
+    },
+    {
+      "store_number": "000236",
+      "store_name": "Taco Bell",
+      "city": "Marysville",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:25.577927+00:00"
+    },
+    {
+      "store_number": "028353",
+      "store_name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:24.656218+00:00"
+    },
+    {
+      "store_number": "021113",
+      "store_name": "Taco Bell",
+      "city": "Elk Grove",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:22.751494+00:00"
+    },
+    {
+      "store_number": "041349",
+      "store_name": "Taco Bell",
+      "city": "North Highlands",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:22.339935+00:00"
+    },
+    {
+      "store_number": "041361",
+      "store_name": "Taco Bell",
+      "city": "Fair Oaks",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:22.034196+00:00"
+    },
+    {
+      "store_number": "029423",
+      "store_name": "Taco Bell",
+      "city": "Winters",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:20.250623+00:00"
+    },
+    {
+      "store_number": "041367",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:12.548906+00:00"
+    },
+    {
+      "store_number": "035467",
+      "store_name": "Taco Bell",
+      "city": "Citrus Heights",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:10.936509+00:00"
+    },
+    {
+      "store_number": "023290",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:10.041405+00:00"
+    },
+    {
+      "store_number": "028761",
+      "store_name": "Taco Bell",
+      "city": "Antelope",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:07.298214+00:00"
+    },
+    {
+      "store_number": "018916",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:06.454131+00:00"
+    },
+    {
+      "store_number": "026727",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:05.152151+00:00"
+    },
+    {
+      "store_number": "026015",
+      "store_name": "Taco Bell",
+      "city": "Elk Grove",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:05.006443+00:00"
+    },
+    {
+      "store_number": "034177",
+      "store_name": "Taco Bell",
+      "city": "Modesto",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:03.940690+00:00"
+    },
+    {
+      "store_number": "036124",
+      "store_name": "Taco Bell",
+      "city": "Kings Beach",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:36:00.695030+00:00"
+    },
+    {
+      "store_number": "041364",
+      "store_name": "Taco Bell",
+      "city": "Stockton",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:35:58.875756+00:00"
+    },
+    {
+      "store_number": "002751",
+      "store_name": "Taco Bell",
+      "city": "Elk Grove",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:35:57.952514+00:00"
+    },
+    {
+      "store_number": "034168",
+      "store_name": "Taco Bell",
+      "city": "Oakdale",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:35:56.005542+00:00"
+    },
+    {
+      "store_number": "023159",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:35:53.011558+00:00"
+    },
+    {
+      "store_number": "036252",
+      "store_name": "Taco Bell",
+      "city": "Rancho Murieta",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:35:36.441338+00:00"
+    },
+    {
+      "store_number": "037110",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:34:53.236523+00:00"
+    },
+    {
+      "store_number": "037732",
+      "store_name": "Taco Bell",
+      "city": "Fairfield",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:33:46.828709+00:00"
+    },
+    {
+      "store_number": "036224",
+      "store_name": "Taco Bell",
+      "city": "Vacaville",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:33:44.243655+00:00"
+    },
+    {
+      "store_number": "037014",
+      "store_name": "Taco Bell",
+      "city": "Williams",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:33:43.249129+00:00"
+    },
+    {
+      "store_number": "033444",
+      "store_name": "Taco Bell",
+      "city": "Dunnigan",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:33:38.924057+00:00"
+    },
+    {
+      "store_number": "040450",
+      "store_name": "Taco Bell",
+      "city": "Deltona",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:33:05.955552+00:00"
+    },
+    {
+      "store_number": "039647",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-15T20:33:02.600975+00:00"
+    },
     {
       "store_number": "042928",
       "store_name": "Taco Bell",
@@ -2559,7 +3851,7 @@
     }
   ],
   "activity_summary": {
-    "added": 155,
+    "added": 272,
     "removed": 72,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2637,9 +3929,27 @@
       "FL"
     ],
     [
+      "037110",
+      28.34617964975096,
+      -81.64492094604472,
+      3.99,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
+    [
       "039587",
       28.39987,
       -81.490788,
+      3.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "023290",
+      28.568820173202138,
+      -81.28160832216957,
       3.99,
       "Taco Bell",
       "Orlando",
@@ -2670,6 +3980,15 @@
       3.99,
       "Taco Bell",
       "Winter Park",
+      "FL"
+    ],
+    [
+      "028353",
+      28.81817457980822,
+      -81.88791497494094,
+      3.99,
+      "Taco Bell",
+      "Leesburg",
       "FL"
     ],
     [
@@ -2709,6 +4028,15 @@
       "FL"
     ],
     [
+      "042932",
+      29.186772427028014,
+      -82.17929099501816,
+      3.99,
+      "Taco Bell",
+      "Ocala",
+      "FL"
+    ],
+    [
       "022595",
       28.55328983120039,
       -80.84494297208039,
@@ -2724,6 +4052,24 @@
       3.99,
       "Taco Bell",
       "Ocala",
+      "FL"
+    ],
+    [
+      "022589",
+      28.778080366655473,
+      -81.27583850921837,
+      3.99,
+      "Taco Bell",
+      "Sanford",
+      "FL"
+    ],
+    [
+      "023298",
+      28.515978176332453,
+      -81.48444129319549,
+      3.99,
+      "Taco Bell",
+      "Orlando",
       "FL"
     ],
     [
@@ -2760,6 +4106,15 @@
       3.99,
       "Taco Bell",
       "Clermont",
+      "FL"
+    ],
+    [
+      "022588",
+      29.008808893320914,
+      -81.30220770835882,
+      3.99,
+      "Taco Bell",
+      "Deland",
       "FL"
     ],
     [
@@ -2805,6 +4160,15 @@
       3.99,
       "Taco Bell",
       "Ocoee",
+      "FL"
+    ],
+    [
+      "038869",
+      28.4762,
+      -81.626076,
+      3.99,
+      "Taco Bell",
+      "Winter Garden",
       "FL"
     ],
     [
@@ -3078,6 +4442,15 @@
       "FL"
     ],
     [
+      "027971",
+      28.352087603671087,
+      -80.60836730221422,
+      3.99,
+      "Taco Bell",
+      "Cocoa Beach",
+      "FL"
+    ],
+    [
       "022590",
       29.2812221737573,
       -81.06851139667924,
@@ -3276,6 +4649,15 @@
       "FL"
     ],
     [
+      "042928",
+      29.5540650252999,
+      -81.22845753097863,
+      3.99,
+      "Taco Bell",
+      "Palm Coast",
+      "FL"
+    ],
+    [
       "027989",
       28.4177469087786,
       -81.24284331502167,
@@ -3300,6 +4682,15 @@
       3.99,
       "Taco Bell",
       "Palm Bay",
+      "FL"
+    ],
+    [
+      "034162",
+      28.198881542033824,
+      -81.44054558680533,
+      3.99,
+      "Taco Bell",
+      "Kissimmee",
       "FL"
     ],
     [
@@ -3337,6 +4728,960 @@
       "Taco Bell",
       "Dunnellon",
       "FL"
+    ],
+    [
+      "039647",
+      38.4663,
+      -121.489,
+      3.99,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
+    ],
+    [
+      "040450",
+      28.90509965811052,
+      -81.24532156786813,
+      3.99,
+      "Taco Bell",
+      "Deltona",
+      "FL"
+    ],
+    [
+      "033444",
+      38.862811691346586,
+      -121.95228782444171,
+      3.99,
+      "Taco Bell",
+      "Dunnigan",
+      "CA"
+    ],
+    [
+      "037014",
+      39.15837927183151,
+      -122.14118016343343,
+      3.99,
+      "Taco Bell",
+      "Williams",
+      "CA"
+    ],
+    [
+      "036224",
+      38.34710241956651,
+      -121.99776496298706,
+      3.99,
+      "Taco Bell",
+      "Vacaville",
+      "CA"
+    ],
+    [
+      "037732",
+      38.2656,
+      -121.989,
+      3.99,
+      "Taco Bell",
+      "Fairfield",
+      "CA"
+    ],
+    [
+      "036252",
+      38.494996739116466,
+      -121.09713494347663,
+      3.99,
+      "Taco Bell",
+      "Rancho Murieta",
+      "CA"
+    ],
+    [
+      "023159",
+      38.78219637316416,
+      -121.28635749220848,
+      3.99,
+      "Taco Bell",
+      "Roseville",
+      "CA"
+    ],
+    [
+      "034168",
+      37.76846354559962,
+      -120.84124148638693,
+      3.99,
+      "Taco Bell",
+      "Oakdale",
+      "CA"
+    ],
+    [
+      "002751",
+      38.40862628586552,
+      -121.3792055683859,
+      3.99,
+      "Taco Bell",
+      "Elk Grove",
+      "CA"
+    ],
+    [
+      "041364",
+      37.93582145518307,
+      -121.29958366168712,
+      3.99,
+      "Taco Bell",
+      "Stockton",
+      "CA"
+    ],
+    [
+      "036124",
+      39.236527690952,
+      -120.02351179718966,
+      3.99,
+      "Taco Bell",
+      "Kings Beach",
+      "CA"
+    ],
+    [
+      "034177",
+      37.63838722522282,
+      -121.00022345781326,
+      3.99,
+      "Taco Bell",
+      "Modesto",
+      "CA"
+    ],
+    [
+      "026015",
+      38.43757084394742,
+      -121.40600949525833,
+      3.99,
+      "Taco Bell",
+      "Elk Grove",
+      "CA"
+    ],
+    [
+      "026727",
+      38.481336246705794,
+      -121.40551457338152,
+      3.99,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
+    ],
+    [
+      "018916",
+      38.464567242793485,
+      -121.37127448620049,
+      3.99,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
+    ],
+    [
+      "028761",
+      38.71535063223801,
+      -121.39280208559877,
+      3.99,
+      "Taco Bell",
+      "Antelope",
+      "CA"
+    ],
+    [
+      "035467",
+      38.706616358950875,
+      -121.27130358363502,
+      3.99,
+      "Taco Bell",
+      "Citrus Heights",
+      "CA"
+    ],
+    [
+      "041367",
+      38.55636541280434,
+      -121.4100604612523,
+      3.99,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
+    ],
+    [
+      "029423",
+      38.531755929387835,
+      -121.95580020549642,
+      3.99,
+      "Taco Bell",
+      "Winters",
+      "CA"
+    ],
+    [
+      "041361",
+      38.663873962995,
+      -121.30666911579692,
+      3.99,
+      "Taco Bell",
+      "Fair Oaks",
+      "CA"
+    ],
+    [
+      "041349",
+      38.68962147987918,
+      -121.38328034990576,
+      3.99,
+      "Taco Bell",
+      "North Highlands",
+      "CA"
+    ],
+    [
+      "021113",
+      38.42306026595721,
+      -121.4251898927705,
+      3.99,
+      "Taco Bell",
+      "Elk Grove",
+      "CA"
+    ],
+    [
+      "000236",
+      39.14603760945925,
+      -121.59419325878844,
+      3.99,
+      "Taco Bell",
+      "Marysville",
+      "CA"
+    ],
+    [
+      "041340",
+      37.96217711138601,
+      -121.27356626096116,
+      3.99,
+      "Taco Bell",
+      "Stockton",
+      "CA"
+    ],
+    [
+      "003026",
+      39.14192404028204,
+      -121.62236586213112,
+      3.99,
+      "Taco Bell",
+      "Yuba City",
+      "CA"
+    ],
+    [
+      "018675",
+      38.81814744698755,
+      -121.18992457114996,
+      3.99,
+      "Taco Bell",
+      "Loomis",
+      "CA"
+    ],
+    [
+      "035900",
+      38.12975553695383,
+      -121.28162747155893,
+      3.99,
+      "Taco Bell",
+      "Lodi",
+      "CA"
+    ],
+    [
+      "035470",
+      38.680569468000044,
+      -121.321966991527,
+      3.99,
+      "Taco Bell",
+      "Citrus Heights",
+      "CA"
+    ],
+    [
+      "041347",
+      38.51941695394591,
+      -121.4396605472374,
+      3.99,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
+    ],
+    [
+      "041356",
+      38.52532712883772,
+      -121.46515622735023,
+      3.99,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
+    ],
+    [
+      "036122",
+      39.093451326134144,
+      -120.95140309635099,
+      3.99,
+      "Taco Bell",
+      "Colfax",
+      "CA"
+    ],
+    [
+      "003452",
+      38.34283002901412,
+      -120.76789720798843,
+      3.99,
+      "Taco Bell",
+      "Jackson",
+      "CA"
+    ],
+    [
+      "041348",
+      38.02059131239766,
+      -121.31903176011292,
+      3.99,
+      "Taco Bell",
+      "Stockton",
+      "CA"
+    ],
+    [
+      "034179",
+      38.002920436591886,
+      -121.29143341882609,
+      3.99,
+      "Taco Bell",
+      "Stockton",
+      "CA"
+    ],
+    [
+      "041355",
+      37.90322914440607,
+      -121.22107520699501,
+      3.99,
+      "Taco Bell",
+      "Stockton",
+      "CA"
+    ],
+    [
+      "028763",
+      38.76006657409911,
+      -121.3105393119727,
+      3.99,
+      "Taco Bell",
+      "Roseville",
+      "CA"
+    ],
+    [
+      "041360",
+      38.65438011872642,
+      -121.38343334197998,
+      3.99,
+      "Taco Bell",
+      "North Highlands",
+      "CA"
+    ],
+    [
+      "034191",
+      37.71026451226845,
+      -120.99553854232784,
+      3.99,
+      "Taco Bell",
+      "Modesto",
+      "CA"
+    ],
+    [
+      "041352",
+      38.55095250567274,
+      -121.69393714553509,
+      3.99,
+      "Taco Bell",
+      "Davis",
+      "CA"
+    ],
+    [
+      "003907",
+      38.47484438757724,
+      -121.4478089613931,
+      3.99,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
+    ],
+    [
+      "041369",
+      37.96766208375863,
+      -121.29427671432495,
+      3.99,
+      "Taco Bell",
+      "Stockton",
+      "CA"
+    ],
+    [
+      "041366",
+      38.22079456543148,
+      -122.1286833930338,
+      3.99,
+      "Taco Bell",
+      "Fairfield",
+      "CA"
+    ],
+    [
+      "002665",
+      38.78808192776699,
+      -121.22659653425217,
+      3.99,
+      "Taco Bell",
+      "Rocklin",
+      "CA"
+    ],
+    [
+      "035471",
+      38.64448867761824,
+      -121.27272382378573,
+      3.99,
+      "Taco Bell",
+      "Fair Oaks",
+      "CA"
+    ],
+    [
+      "034173",
+      37.98707734795462,
+      -121.24699741601944,
+      3.99,
+      "Taco Bell",
+      "Stockton",
+      "CA"
+    ],
+    [
+      "032354",
+      28.87513427067012,
+      -82.09626495838165,
+      3.99,
+      "Taco Bell",
+      "Wildwood",
+      "FL"
+    ],
+    [
+      "041341",
+      37.797640806240665,
+      -121.21197162407574,
+      3.99,
+      "Taco Bell",
+      "Manteca",
+      "CA"
+    ],
+    [
+      "041368",
+      38.67587389685299,
+      -121.74647569656372,
+      3.99,
+      "Taco Bell",
+      "Woodland",
+      "CA"
+    ],
+    [
+      "035469",
+      38.63856623630808,
+      -121.32850385504675,
+      3.99,
+      "Taco Bell",
+      "Carmichael",
+      "CA"
+    ],
+    [
+      "034178",
+      37.69926171327539,
+      -121.068428546223,
+      3.99,
+      "Taco Bell",
+      "Modesto",
+      "CA"
+    ],
+    [
+      "031352",
+      38.871242967162765,
+      -121.29787673493564,
+      3.99,
+      "Taco Bell",
+      "Lincoln",
+      "CA"
+    ],
+    [
+      "034185",
+      38.02082141947597,
+      -121.26821368932724,
+      3.99,
+      "Taco Bell",
+      "Stockton",
+      "CA"
+    ],
+    [
+      "034215",
+      37.5258368237468,
+      -120.88136939099059,
+      3.99,
+      "Taco Bell",
+      "Turlock",
+      "CA"
+    ],
+    [
+      "034203",
+      37.63865053307885,
+      -120.92819539597258,
+      3.99,
+      "Taco Bell",
+      "Modesto",
+      "CA"
+    ],
+    [
+      "016327",
+      38.50830669234542,
+      -121.54295698554961,
+      3.99,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
+    ],
+    [
+      "041345",
+      38.021604496538764,
+      -121.36082594098298,
+      3.99,
+      "Taco Bell",
+      "Stockton",
+      "CA"
+    ],
+    [
+      "041344",
+      38.56152683108407,
+      -121.33563597501961,
+      3.99,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
+    ],
+    [
+      "028842",
+      38.2587973960677,
+      -122.06710253657542,
+      3.99,
+      "Taco Bell",
+      "Fairfield",
+      "CA"
+    ],
+    [
+      "034169",
+      37.594412240156856,
+      -120.9400040656601,
+      3.99,
+      "Taco Bell",
+      "Ceres",
+      "CA"
+    ],
+    [
+      "027986",
+      28.92682079364781,
+      -81.18946249173898,
+      3.99,
+      "Taco Bell",
+      "Deltona",
+      "FL"
+    ],
+    [
+      "034166",
+      37.51777350906145,
+      -120.84863327446328,
+      3.99,
+      "Taco Bell",
+      "Turlock",
+      "CA"
+    ],
+    [
+      "034176",
+      37.67776213434251,
+      -120.95824111999718,
+      3.99,
+      "Taco Bell",
+      "Modesto",
+      "CA"
+    ],
+    [
+      "034213",
+      37.73303500000001,
+      -120.95338645767214,
+      3.99,
+      "Taco Bell",
+      "Riverbank",
+      "CA"
+    ],
+    [
+      "041363",
+      37.98557851945033,
+      -121.33741199970245,
+      3.99,
+      "Taco Bell",
+      "Stockton",
+      "CA"
+    ],
+    [
+      "035901",
+      38.11505609924327,
+      -121.30399261416642,
+      3.99,
+      "Taco Bell",
+      "Lodi",
+      "CA"
+    ],
+    [
+      "005192",
+      38.7970111529534,
+      -121.26443901661332,
+      3.99,
+      "Taco Bell",
+      "Rocklin",
+      "CA"
+    ],
+    [
+      "028846",
+      38.271193665399664,
+      -122.03384582699982,
+      3.99,
+      "Taco Bell",
+      "Fairfield",
+      "CA"
+    ],
+    [
+      "028844",
+      38.6780179532871,
+      -121.79380821241348,
+      3.99,
+      "Taco Bell",
+      "Woodland",
+      "CA"
+    ],
+    [
+      "034170",
+      37.49240040650643,
+      -120.87251275777817,
+      3.99,
+      "Taco Bell",
+      "Turlock",
+      "CA"
+    ],
+    [
+      "031733",
+      38.818898407957555,
+      -121.28042042255402,
+      3.99,
+      "Taco Bell",
+      "Rocklin",
+      "CA"
+    ],
+    [
+      "041351",
+      38.35138526789951,
+      -121.95191144943237,
+      3.99,
+      "Taco Bell",
+      "Vacaville",
+      "CA"
+    ],
+    [
+      "041359",
+      37.81885523763969,
+      -121.21870490674587,
+      3.99,
+      "Taco Bell",
+      "Manteca",
+      "CA"
+    ],
+    [
+      "027969",
+      28.590950152596594,
+      -80.80342124933513,
+      3.99,
+      "Taco Bell",
+      "Titusville",
+      "FL"
+    ],
+    [
+      "028845",
+      38.33500811649305,
+      -121.97003245353699,
+      3.99,
+      "Taco Bell",
+      "Vacaville",
+      "CA"
+    ],
+    [
+      "022939",
+      38.07992083308512,
+      -120.55579845608918,
+      3.99,
+      "Taco Bell",
+      "Angels Camp",
+      "CA"
+    ],
+    [
+      "024461",
+      38.192341190192984,
+      -120.82577854671918,
+      3.99,
+      "Taco Bell",
+      "Valley Springs",
+      "CA"
+    ],
+    [
+      "034216",
+      37.78609943540311,
+      -121.25105895102024,
+      3.99,
+      "Taco Bell",
+      "Manteca",
+      "CA"
+    ],
+    [
+      "036123",
+      38.92388751500083,
+      -121.05953876675812,
+      3.99,
+      "Taco Bell",
+      "Auburn",
+      "CA"
+    ],
+    [
+      "041358",
+      38.59763871373715,
+      -121.38359159231186,
+      3.99,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
+    ],
+    [
+      "034220",
+      37.671255485896594,
+      -121.0300542312807,
+      3.99,
+      "Taco Bell",
+      "Modesto",
+      "CA"
+    ],
+    [
+      "036121",
+      38.92715598463474,
+      -121.08725211272683,
+      3.99,
+      "Taco Bell",
+      "Auburn",
+      "CA"
+    ],
+    [
+      "034183",
+      37.8103539833691,
+      -121.29392266273493,
+      3.99,
+      "Taco Bell",
+      "Lathrop",
+      "CA"
+    ],
+    [
+      "028841",
+      38.36368290776269,
+      -121.96822551687102,
+      3.99,
+      "Taco Bell",
+      "Vacaville",
+      "CA"
+    ],
+    [
+      "034192",
+      37.665004539550786,
+      -120.97536072134972,
+      3.99,
+      "Taco Bell",
+      "Modesto",
+      "CA"
+    ],
+    [
+      "041354",
+      38.45762500015582,
+      -121.84211365884039,
+      3.99,
+      "Taco Bell",
+      "Dixon",
+      "CA"
+    ],
+    [
+      "034197",
+      37.754578603003175,
+      -121.13962568348143,
+      3.99,
+      "Taco Bell",
+      "Ripon",
+      "CA"
+    ],
+    [
+      "034184",
+      37.64569551358658,
+      -121.02897942066193,
+      3.99,
+      "Taco Bell",
+      "Modesto",
+      "CA"
+    ],
+    [
+      "004212",
+      37.97633541950182,
+      -120.3442919254303,
+      3.99,
+      "Taco Bell",
+      "Sonora",
+      "CA"
+    ],
+    [
+      "035902",
+      38.11723779213884,
+      -121.2559951748608,
+      3.99,
+      "Taco Bell",
+      "Lodi",
+      "CA"
+    ],
+    [
+      "034167",
+      37.68974791876802,
+      -121.01223987571785,
+      3.99,
+      "Taco Bell",
+      "Modesto",
+      "CA"
+    ],
+    [
+      "034190",
+      37.63793687171046,
+      -120.76748279621825,
+      3.99,
+      "Taco Bell",
+      "Waterford",
+      "CA"
+    ],
+    [
+      "041353",
+      38.5977696795677,
+      -121.26620955303224,
+      3.99,
+      "Taco Bell",
+      "Rancho Cordova",
+      "CA"
+    ],
+    [
+      "030256",
+      38.3852322607717,
+      -121.93436980247498,
+      3.99,
+      "Taco Bell",
+      "Vacaville",
+      "CA"
+    ],
+    [
+      "034189",
+      37.798943002857975,
+      -120.99903121590614,
+      3.99,
+      "Taco Bell",
+      "Escalon",
+      "CA"
+    ],
+    [
+      "002471",
+      39.235476426144174,
+      -121.03791760601138,
+      3.99,
+      "Taco Bell",
+      "Grass Valley",
+      "CA"
+    ],
+    [
+      "028843",
+      38.24455921896307,
+      -122.01996405424325,
+      3.99,
+      "Taco Bell",
+      "Suisun City",
+      "CA"
+    ],
+    [
+      "004429",
+      38.25349085636249,
+      -121.2958353013073,
+      3.99,
+      "Taco Bell",
+      "Galt",
+      "CA"
+    ],
+    [
+      "034199",
+      37.463992850706184,
+      -121.14302813807706,
+      3.99,
+      "Taco Bell",
+      "Patterson",
+      "CA"
+    ],
+    [
+      "032036",
+      38.290901876162245,
+      -121.29974022842073,
+      3.99,
+      "Taco Bell",
+      "Galt",
+      "CA"
+    ],
+    [
+      "015670",
+      39.12558050138227,
+      -121.57763332128525,
+      3.99,
+      "Taco Bell",
+      "Marysville",
+      "CA"
+    ],
+    [
+      "037824",
+      37.95552016854645,
+      -120.42420817240927,
+      3.99,
+      "Taco Bell",
+      "Jamestown",
+      "CA"
+    ],
+    [
+      "031851",
+      38.45504402041641,
+      -121.41733048265498,
+      3.99,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
+    ],
+    [
+      "033940",
+      39.01458340431053,
+      -121.43229215287205,
+      3.99,
+      "Taco Bell",
+      "Wheatland",
+      "CA"
+    ],
+    [
+      "031814",
+      38.3937770354222,
+      -121.41552627314184,
+      3.99,
+      "Taco Bell",
+      "Elk Grove",
+      "CA"
+    ],
+    [
+      "035468",
+      38.59415699744662,
+      -121.28754595254232,
+      3.99,
+      "Taco Bell",
+      "Rancho Cordova",
+      "CA"
     ],
     [
       "032170",

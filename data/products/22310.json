@@ -23,12 +23,12 @@
     "max": 3.29,
     "median": 3.29,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$3.29",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -53,27 +53,12 @@
       "city": "Atlanta",
       "state": "GA",
       "price": 3.29
-    },
-    {
-      "store_number": "028626",
-      "name": "Taco Bell",
-      "city": "Durham",
-      "state": "NC",
-      "price": 3.29
     }
   ],
   "min_price_store_numbers": [
-    "041488",
-    "028626"
+    "041488"
   ],
   "priciest_stores": [
-    {
-      "store_number": "028626",
-      "name": "Taco Bell",
-      "city": "Durham",
-      "state": "NC",
-      "price": 3.29
-    },
     {
       "store_number": "041488",
       "name": "Taco Bell (ATL Airport)",
@@ -83,6 +68,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028626",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:34:33.467662+00:00"
+    },
     {
       "store_number": "042617",
       "store_name": "Taco Bell",
@@ -305706,7 +305701,7 @@
   ],
   "activity_summary": {
     "added": 15272,
-    "removed": 15267,
+    "removed": 15268,
     "price_changed": 23,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -305723,15 +305718,6 @@
       "Taco Bell (ATL Airport)",
       "Atlanta",
       "GA"
-    ],
-    [
-      "028626",
-      35.90448065012129,
-      -78.94160410612062,
-      3.29,
-      "Taco Bell",
-      "Durham",
-      "NC"
     ]
   ],
   "retired_at": null,

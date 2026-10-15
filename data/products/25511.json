@@ -17,21 +17,17 @@
   "first_seen_at": "2026-06-17T20:56:58.322414+00:00",
   "availability_pct": 0.7,
   "price_stats": {
-    "avg": 2.0,
+    "avg": 1.99,
     "min": 1.99,
-    "max": 2.79,
+    "max": 1.99,
     "median": 1.99,
-    "std_dev": 0.11,
-    "store_count": 58
+    "std_dev": 0.0,
+    "store_count": 56
   },
   "histogram": [
     {
       "bucket": "$1.99",
-      "count": 57
-    },
-    {
-      "bucket": "$2.79",
-      "count": 1
+      "count": 56
     }
   ],
   "state_prices": [
@@ -176,7 +172,6 @@
     "033518",
     "040440",
     "032171",
-    "034623",
     "038891",
     "041437",
     "038909",
@@ -197,13 +192,6 @@
     "038900"
   ],
   "priciest_stores": [
-    {
-      "store_number": "031722",
-      "name": "Taco Bell",
-      "city": "Tucson",
-      "state": "AZ",
-      "price": 2.79
-    },
     {
       "store_number": "038900",
       "name": "Taco Bell",
@@ -266,9 +254,36 @@
       "city": "Beaumont",
       "state": "TX",
       "price": 1.99
+    },
+    {
+      "store_number": "035709",
+      "name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "price": 1.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034623",
+      "store_name": "Taco Bell",
+      "city": "Gulfport",
+      "state": "MS",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:37:18.212217+00:00"
+    },
+    {
+      "store_number": "031722",
+      "store_name": "Taco Bell",
+      "city": "Tucson",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:36:38.254795+00:00"
+    },
     {
       "store_number": "029535",
       "store_name": "Taco Bell",
@@ -178212,7 +178227,7 @@
   ],
   "activity_summary": {
     "added": 8896,
-    "removed": 8835,
+    "removed": 8837,
     "price_changed": 63,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -178564,15 +178579,6 @@
       "VA"
     ],
     [
-      "034623",
-      30.379302577206232,
-      -89.09343843163697,
-      1.99,
-      "Taco Bell",
-      "Gulfport",
-      "MS"
-    ],
-    [
       "038891",
       40.24514323211095,
       -82.86654325885942,
@@ -178733,15 +178739,6 @@
       "Taco Bell",
       "Columbus",
       "OH"
-    ],
-    [
-      "031722",
-      32.28699938283196,
-      -110.96436955535471,
-      2.79,
-      "Taco Bell",
-      "Tucson",
-      "AZ"
     ]
   ],
   "retired_at": null,

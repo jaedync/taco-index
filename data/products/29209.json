@@ -19,17 +19,17 @@
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.23,
+    "avg": 3.29,
     "min": 2.99,
     "max": 3.39,
     "median": 3.39,
-    "std_dev": 0.22,
-    "store_count": 5
+    "std_dev": 0.2,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$3.39",
@@ -52,13 +52,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "023198",
-      "name": "Taco Bell",
-      "city": "Auburn Hills",
-      "state": "MI",
-      "price": 2.99
-    },
     {
       "store_number": "038897",
       "name": "Taco Bell",
@@ -89,7 +82,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "023198",
     "038897"
   ],
   "priciest_stores": [
@@ -120,16 +112,19 @@
       "city": "Minerva",
       "state": "OH",
       "price": 2.99
-    },
-    {
-      "store_number": "023198",
-      "name": "Taco Bell",
-      "city": "Auburn Hills",
-      "state": "MI",
-      "price": 2.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023198",
+      "store_name": "Taco Bell",
+      "city": "Auburn Hills",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:34:35.821477+00:00"
+    },
     {
       "store_number": "040705",
       "store_name": "Taco Bell",
@@ -18213,24 +18208,15 @@
   ],
   "activity_summary": {
     "added": 620,
-    "removed": 609,
+    "removed": 610,
     "price_changed": 579,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 230,
+  "calories_from_menu": 250,
   "calories_min": 250,
   "calories_max": 250,
   "combo_groups": [],
   "map_data": [
-    [
-      "023198",
-      42.6999646,
-      -83.3065167,
-      2.99,
-      "Taco Bell",
-      "Auburn Hills",
-      "MI"
-    ],
     [
       "038897",
       40.7189609403991,
@@ -18269,6 +18255,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-14",
+  "last_seen_date": "2026-10-15",
   "peak_availability_pct": 7.4
 }

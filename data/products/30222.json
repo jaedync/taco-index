@@ -20,23 +20,19 @@
   "peak_30d_pct": 1.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
-  "availability_pct": 1.1,
+  "availability_pct": 1.2,
   "price_stats": {
     "avg": 2.76,
-    "min": 2.39,
+    "min": 2.59,
     "max": 2.89,
     "median": 2.79,
-    "std_dev": 0.06,
-    "store_count": 88
+    "std_dev": 0.05,
+    "store_count": 90
   },
   "histogram": [
     {
-      "bucket": "$2.39",
-      "count": 1
-    },
-    {
       "bucket": "$2.59",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$2.69",
@@ -44,11 +40,11 @@
     },
     {
       "bucket": "$2.79",
-      "count": 63
+      "count": 66
     },
     {
       "bucket": "$2.89",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
@@ -59,8 +55,13 @@
     },
     {
       "state": "TX",
-      "avg_price": 2.79,
-      "store_count": 42
+      "avg_price": 2.78,
+      "store_count": 43
+    },
+    {
+      "state": "CA",
+      "avg_price": 2.75,
+      "store_count": 5
     },
     {
       "state": "VA",
@@ -84,17 +85,17 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "034623",
-      "name": "Taco Bell",
-      "city": "Gulfport",
-      "state": "MS",
-      "price": 2.39
-    },
-    {
       "store_number": "030724",
       "name": "Taco Bell",
       "city": "Cabazon",
       "state": "CA",
+      "price": 2.59
+    },
+    {
+      "store_number": "002981",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Watauga",
+      "state": "TX",
       "price": 2.59
     },
     {
@@ -155,7 +156,8 @@
     }
   ],
   "min_price_store_numbers": [
-    "034623"
+    "030724",
+    "002981"
   ],
   "priciest_stores": [
     {
@@ -163,13 +165,6 @@
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Mesquite",
       "state": "TX",
-      "price": 2.89
-    },
-    {
-      "store_number": "031722",
-      "name": "Taco Bell",
-      "city": "Tucson",
-      "state": "AZ",
       "price": 2.89
     },
     {
@@ -227,9 +222,76 @@
       "city": "Columbus",
       "state": "OH",
       "price": 2.79
+    },
+    {
+      "store_number": "038913",
+      "name": "Taco Bell",
+      "city": "Heath",
+      "state": "OH",
+      "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034623",
+      "store_name": "Taco Bell",
+      "city": "Gulfport",
+      "state": "MS",
+      "change_type": "item_removed",
+      "old_price": 2.39,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:37:18.212217+00:00"
+    },
+    {
+      "store_number": "039795",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Newhall",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-10-15T20:37:16.552223+00:00"
+    },
+    {
+      "store_number": "039852",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Hemet",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-10-15T20:36:57.868201+00:00"
+    },
+    {
+      "store_number": "031722",
+      "store_name": "Taco Bell",
+      "city": "Tucson",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:36:38.254795+00:00"
+    },
+    {
+      "store_number": "002981",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Watauga",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-10-15T20:36:26.745519+00:00"
+    },
+    {
+      "store_number": "039811",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Palmdale",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-10-15T20:36:14.630221+00:00"
+    },
     {
       "store_number": "019252",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -225242,8 +225304,8 @@
     }
   ],
   "activity_summary": {
-    "added": 11267,
-    "removed": 11171,
+    "added": 11271,
+    "removed": 11173,
     "price_changed": 63,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -225253,15 +225315,6 @@
   "combo_groups": [],
   "map_data": [
     [
-      "034623",
-      30.379302577206232,
-      -89.09343843163697,
-      2.39,
-      "Taco Bell",
-      "Gulfport",
-      "MS"
-    ],
-    [
       "030724",
       33.92225174259553,
       -116.8055075813824,
@@ -225269,6 +225322,15 @@
       "Taco Bell",
       "Cabazon",
       "CA"
+    ],
+    [
+      "002981",
+      32.859492632046816,
+      -97.23851025851218,
+      2.59,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Watauga",
+      "TX"
     ],
     [
       "040297",
@@ -225721,6 +225783,15 @@
       "TX"
     ],
     [
+      "039811",
+      34.60209988736434,
+      -118.14504776896683,
+      2.79,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Palmdale",
+      "CA"
+    ],
+    [
       "038892",
       40.267282153831886,
       -82.93266244235383,
@@ -225811,6 +225882,15 @@
       "TX"
     ],
     [
+      "039852",
+      33.746993553105185,
+      -117.00733342770036,
+      2.79,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Hemet",
+      "CA"
+    ],
+    [
       "035746",
       30.116512923508484,
       -93.74802254143106,
@@ -225827,6 +225907,15 @@
       "Taco Bell",
       "Nederland",
       "TX"
+    ],
+    [
+      "039795",
+      34.379477085941964,
+      -118.56816091239986,
+      2.79,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Newhall",
+      "CA"
     ],
     [
       "038909",
@@ -226025,15 +226114,6 @@
       "Taco Bell",
       "Baytown",
       "TX"
-    ],
-    [
-      "031722",
-      32.28699938283196,
-      -110.96436955535471,
-      2.89,
-      "Taco Bell",
-      "Tucson",
-      "AZ"
     ],
     [
       "027489",

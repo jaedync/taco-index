@@ -22,19 +22,19 @@
     "max": 1.99,
     "median": 1.99,
     "std_dev": 0.0,
-    "store_count": 85
+    "store_count": 86
   },
   "histogram": [
     {
       "bucket": "$1.99",
-      "count": 85
+      "count": 86
     }
   ],
   "state_prices": [
     {
       "state": "TX",
       "avg_price": 1.99,
-      "store_count": 85
+      "store_count": 86
     }
   ],
   "nutrition": {
@@ -208,6 +208,7 @@
     "041184",
     "041076",
     "041185",
+    "041183",
     "034701"
   ],
   "priciest_stores": [
@@ -215,6 +216,13 @@
       "store_number": "034701",
       "name": "Taco Bell",
       "city": "League City",
+      "state": "TX",
+      "price": 1.99
+    },
+    {
+      "store_number": "041183",
+      "name": "Taco Bell",
+      "city": "Houston",
       "state": "TX",
       "price": 1.99
     },
@@ -273,16 +281,19 @@
       "city": "Cypress",
       "state": "TX",
       "price": 1.99
-    },
-    {
-      "store_number": "027805",
-      "name": "Taco Bell",
-      "city": "Spring",
-      "state": "TX",
-      "price": 1.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041183",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-10-15T20:40:19.164371+00:00"
+    },
     {
       "store_number": "027805",
       "store_name": "Taco Bell",
@@ -1255,7 +1266,7 @@
     }
   ],
   "activity_summary": {
-    "added": 91,
+    "added": 92,
     "removed": 6,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2016,6 +2027,15 @@
       "041185",
       29.922008219406745,
       -95.49748783121474,
+      1.99,
+      "Taco Bell",
+      "Houston",
+      "TX"
+    ],
+    [
+      "041183",
+      29.68964771004447,
+      -95.55595457553864,
       1.99,
       "Taco Bell",
       "Houston",

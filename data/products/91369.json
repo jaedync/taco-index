@@ -22,12 +22,12 @@
     "max": 11.99,
     "median": 11.99,
     "std_dev": 0.0,
-    "store_count": 3
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$11.99",
-      "count": 3
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -54,13 +54,6 @@
       "price": 11.99
     },
     {
-      "store_number": "042945",
-      "name": "Taco Bell",
-      "city": "Lavonia",
-      "state": "GA",
-      "price": 11.99
-    },
-    {
       "store_number": "042970",
       "name": "Taco Bell",
       "city": "Port Saint Lucie",
@@ -70,7 +63,6 @@
   ],
   "min_price_store_numbers": [
     "042844",
-    "042945",
     "042970"
   ],
   "priciest_stores": [
@@ -82,13 +74,6 @@
       "price": 11.99
     },
     {
-      "store_number": "042945",
-      "name": "Taco Bell",
-      "city": "Lavonia",
-      "state": "GA",
-      "price": 11.99
-    },
-    {
       "store_number": "042844",
       "name": "Taco Bell",
       "city": "Fort Myers",
@@ -97,6 +82,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042945",
+      "store_name": "Taco Bell",
+      "city": "Lavonia",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:39:14.500873+00:00"
+    },
     {
       "store_number": "042982",
       "store_name": "Taco Bell",
@@ -3870,7 +3865,7 @@
   ],
   "activity_summary": {
     "added": 190,
-    "removed": 187,
+    "removed": 188,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3908,15 +3903,6 @@
       "FL"
     ],
     [
-      "042945",
-      34.44515828481069,
-      -83.11913877725601,
-      11.99,
-      "Taco Bell",
-      "Lavonia",
-      "GA"
-    ],
-    [
       "042970",
       27.27428750457316,
       -80.34850978217297,
@@ -3927,6 +3913,6 @@
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-10-14",
+  "last_seen_date": "2026-10-15",
   "peak_availability_pct": 1.1
 }

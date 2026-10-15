@@ -24,12 +24,12 @@
     "max": 3.99,
     "median": 3.99,
     "std_dev": 0.0,
-    "store_count": 17
+    "store_count": 16
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 17
+      "count": 16
     }
   ],
   "state_prices": [
@@ -136,7 +136,6 @@
     "042920",
     "042909",
     "042893",
-    "042945",
     "042913",
     "042966",
     "042853",
@@ -188,13 +187,6 @@
       "price": 3.99
     },
     {
-      "store_number": "042945",
-      "name": "Taco Bell",
-      "city": "Lavonia",
-      "state": "GA",
-      "price": 3.99
-    },
-    {
       "store_number": "042893",
       "name": "Taco Bell",
       "city": "Jensen Beach",
@@ -214,9 +206,26 @@
       "city": "Palatka",
       "state": "FL",
       "price": 3.99
+    },
+    {
+      "store_number": "042969",
+      "name": "Taco Bell",
+      "city": "Greenville",
+      "state": "SC",
+      "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042945",
+      "store_name": "Taco Bell",
+      "city": "Lavonia",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:39:14.500873+00:00"
+    },
     {
       "store_number": "042970",
       "store_name": "Taco Bell",
@@ -2860,7 +2869,7 @@
   ],
   "activity_summary": {
     "added": 88,
-    "removed": 126,
+    "removed": 127,
     "price_changed": 50,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2960,15 +2969,6 @@
       "FL"
     ],
     [
-      "042945",
-      34.44515828481069,
-      -83.11913877725601,
-      3.99,
-      "Taco Bell",
-      "Lavonia",
-      "GA"
-    ],
-    [
       "042913",
       30.287224649054764,
       -81.45668677520916,
@@ -3024,6 +3024,6 @@
     ]
   ],
   "retired_at": "2026-09-17T21:58:01.992326+00:00",
-  "last_seen_date": "2026-10-14",
+  "last_seen_date": "2026-10-15",
   "peak_availability_pct": 1.1
 }

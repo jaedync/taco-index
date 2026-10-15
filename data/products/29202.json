@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 1.0,
   "price_stats": {
-    "avg": 8.77,
+    "avg": 8.79,
     "min": 7.59,
     "max": 9.69,
     "median": 8.99,
-    "std_dev": 0.75,
-    "store_count": 77
+    "std_dev": 0.74,
+    "store_count": 76
   },
   "histogram": [
     {
       "bucket": "$7.59",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$7.79",
@@ -76,8 +76,8 @@
   "state_prices": [
     {
       "state": "MI",
-      "avg_price": 8.97,
-      "store_count": 48
+      "avg_price": 9.0,
+      "store_count": 47
     },
     {
       "state": "OH",
@@ -100,13 +100,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "023198",
-      "name": "Taco Bell",
-      "city": "Auburn Hills",
-      "state": "MI",
-      "price": 7.59
-    },
     {
       "store_number": "038908",
       "name": "Taco Bell",
@@ -169,10 +162,16 @@
       "city": "Holland",
       "state": "MI",
       "price": 7.79
+    },
+    {
+      "store_number": "033019",
+      "name": "Taco Bell",
+      "city": "Ionia",
+      "state": "MI",
+      "price": 7.79
     }
   ],
   "min_price_store_numbers": [
-    "023198",
     "038908",
     "038912",
     "040152",
@@ -253,6 +252,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023198",
+      "store_name": "Taco Bell",
+      "city": "Auburn Hills",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 7.59,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:34:35.821477+00:00"
+    },
     {
       "store_number": "040705",
       "store_name": "Taco Bell",
@@ -19866,24 +19875,15 @@
   ],
   "activity_summary": {
     "added": 674,
-    "removed": 592,
+    "removed": 593,
     "price_changed": 695,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 410,
+  "calories_from_menu": 420,
   "calories_min": 510,
   "calories_max": 510,
   "combo_groups": [],
   "map_data": [
-    [
-      "023198",
-      42.6999646,
-      -83.3065167,
-      7.59,
-      "Taco Bell",
-      "Auburn Hills",
-      "MI"
-    ],
     [
       "038908",
       40.9013731151025,
@@ -20570,6 +20570,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-14",
+  "last_seen_date": "2026-10-15",
   "peak_availability_pct": 7.3
 }

@@ -17,7 +17,7 @@
   "first_seen_at": "2026-09-17T21:51:06.559598+00:00",
   "availability_pct": 0.6,
   "price_stats": {
-    "avg": 3.73,
+    "avg": 3.72,
     "min": 3.49,
     "max": 3.99,
     "median": 3.49,
@@ -27,17 +27,17 @@
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 25
+      "count": 26
     },
     {
       "bucket": "$3.99",
-      "count": 23
+      "count": 22
     }
   ],
   "state_prices": [
     {
       "state": "NV",
-      "avg_price": 3.73,
+      "avg_price": 3.72,
       "store_count": 48
     }
   ],
@@ -67,6 +67,13 @@
       "store_number": "041645",
       "name": "Taco Bell",
       "city": "N Las Vegas",
+      "state": "NV",
+      "price": 3.49
+    },
+    {
+      "store_number": "036171",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Henderson",
       "state": "NV",
       "price": 3.49
     },
@@ -118,18 +125,12 @@
       "city": "Las Vegas",
       "state": "NV",
       "price": 3.49
-    },
-    {
-      "store_number": "031915",
-      "name": "Taco Bell",
-      "city": "Las Vegas",
-      "state": "NV",
-      "price": 3.49
     }
   ],
   "min_price_store_numbers": [
     "034019",
     "041645",
+    "036171",
     "036523",
     "031913",
     "031914",
@@ -166,13 +167,6 @@
       "store_number": "031881",
       "name": "Taco Bell",
       "city": "Henderson",
-      "state": "NV",
-      "price": 3.99
-    },
-    {
-      "store_number": "031877",
-      "name": "Taco Bell",
-      "city": "North Las Vegas",
       "state": "NV",
       "price": 3.99
     },
@@ -224,9 +218,36 @@
       "city": "Las Vegas",
       "state": "NV",
       "price": 3.99
+    },
+    {
+      "store_number": "031878",
+      "name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031877",
+      "store_name": "Taco Bell",
+      "city": "North Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-10-15T20:37:32.522067+00:00"
+    },
+    {
+      "store_number": "036171",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Henderson",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-10-15T20:33:39.199868+00:00"
+    },
     {
       "store_number": "034350",
       "store_name": "Taco Bell",
@@ -1369,8 +1390,8 @@
     }
   ],
   "activity_summary": {
-    "added": 81,
-    "removed": 33,
+    "added": 82,
+    "removed": 34,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1395,6 +1416,15 @@
       3.49,
       "Taco Bell",
       "N Las Vegas",
+      "NV"
+    ],
+    [
+      "036171",
+      35.9973883,
+      -115.1277426,
+      3.49,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Henderson",
       "NV"
     ],
     [
@@ -1779,15 +1809,6 @@
       "031919",
       36.21737363353996,
       -115.11959029584091,
-      3.99,
-      "Taco Bell",
-      "North Las Vegas",
-      "NV"
-    ],
-    [
-      "031877",
-      36.23988493465635,
-      -115.17305857968495,
       3.99,
       "Taco Bell",
       "North Las Vegas",
