@@ -18,17 +18,17 @@
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 10.93,
+    "avg": 10.9,
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
     "std_dev": 0.8,
-    "store_count": 32
+    "store_count": 33
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 9
+      "count": 10
     },
     {
       "bucket": "$10.99",
@@ -70,6 +70,13 @@
       "name": "Taco Bell / KFC",
       "city": "Chicago Ridge",
       "state": "IL",
+      "price": 9.99
+    },
+    {
+      "store_number": "035717",
+      "name": "Taco Bell / KFC",
+      "city": "Cypress",
+      "state": "TX",
       "price": 9.99
     },
     {
@@ -127,17 +134,11 @@
       "city": "Petoskey",
       "state": "MI",
       "price": 9.99
-    },
-    {
-      "store_number": "029536",
-      "name": "Taco Bell / KFC",
-      "city": "Miami",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "026028",
+    "035717",
     "039735",
     "028510",
     "039755",
@@ -220,6 +221,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035717",
+      "store_name": "Taco Bell / KFC",
+      "city": "Cypress",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-10-16T21:49:09.841110+00:00"
+    },
     {
       "store_number": "041370",
       "store_name": "Taco Bell / KFC",
@@ -1982,7 +1993,7 @@
     }
   ],
   "activity_summary": {
-    "added": 80,
+    "added": 81,
     "removed": 48,
     "price_changed": 48,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2037,6 +2048,15 @@
       "Taco Bell / KFC",
       "Chicago Ridge",
       "IL"
+    ],
+    [
+      "035717",
+      29.995722509460837,
+      -95.62410682439804,
+      9.99,
+      "Taco Bell / KFC",
+      "Cypress",
+      "TX"
     ],
     [
       "039735",
@@ -2319,6 +2339,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-15",
+  "last_seen_date": "2026-10-16",
   "peak_availability_pct": 0.4
 }

@@ -11,16 +11,16 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0212,
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
     "avg": 2.46,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.49,
-    "std_dev": 0.26,
-    "store_count": 7
+    "median": 2.39,
+    "std_dev": 0.28,
+    "store_count": 6
   },
   "histogram": [
     {
@@ -33,20 +33,14 @@
     },
     {
       "bucket": "$2.49",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$2.79",
       "count": 2
     }
   ],
-  "state_prices": [
-    {
-      "state": "NY",
-      "avg_price": 2.57,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": null,
   "cheapest_stores": [
     {
@@ -74,13 +68,6 @@
       "store_number": "042688",
       "name": "Taco Bell",
       "city": "Brooklyn",
-      "state": "NY",
-      "price": 2.49
-    },
-    {
-      "store_number": "035336",
-      "name": "Taco Bell",
-      "city": "New York",
       "state": "NY",
       "price": 2.49
     },
@@ -119,13 +106,6 @@
       "price": 2.79
     },
     {
-      "store_number": "035336",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 2.49
-    },
-    {
       "store_number": "042688",
       "name": "Taco Bell",
       "city": "Brooklyn",
@@ -155,6 +135,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035336",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-10-16T21:48:49.524376+00:00"
+    },
     {
       "store_number": "035336",
       "store_name": "Taco Bell",
@@ -558,7 +548,7 @@
   ],
   "activity_summary": {
     "added": 19,
-    "removed": 21,
+    "removed": 22,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -601,15 +591,6 @@
       2.49,
       "Taco Bell",
       "Brooklyn",
-      "NY"
-    ],
-    [
-      "035336",
-      40.70847127284533,
-      -74.00504528587913,
-      2.49,
-      "Taco Bell",
-      "New York",
       "NY"
     ],
     [

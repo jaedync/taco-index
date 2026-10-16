@@ -20,12 +20,12 @@
     "max": 0.99,
     "median": 0.6,
     "std_dev": 0.02,
-    "store_count": 7591
+    "store_count": 7589
   },
   "histogram": [
     {
       "bucket": "$0.60",
-      "count": 7507
+      "count": 7501
     },
     {
       "bucket": "$0.61",
@@ -37,7 +37,7 @@
     },
     {
       "bucket": "$0.70",
-      "count": 30
+      "count": 33
     },
     {
       "bucket": "$0.75",
@@ -46,6 +46,10 @@
     {
       "bucket": "$0.80",
       "count": 10
+    },
+    {
+      "bucket": "$0.90",
+      "count": 1
     },
     {
       "bucket": "$0.99",
@@ -74,6 +78,11 @@
       "store_count": 834
     },
     {
+      "state": "GA",
+      "avg_price": 0.6,
+      "store_count": 259
+    },
+    {
       "state": "SC",
       "avg_price": 0.6,
       "store_count": 118
@@ -92,11 +101,6 @@
       "state": "IN",
       "avg_price": 0.6,
       "store_count": 262
-    },
-    {
-      "state": "GA",
-      "avg_price": 0.6,
-      "store_count": 259
     },
     {
       "state": "MI",
@@ -146,7 +150,7 @@
     {
       "state": "TX",
       "avg_price": 0.6,
-      "store_count": 663
+      "store_count": 662
     },
     {
       "state": "TN",
@@ -271,7 +275,7 @@
     {
       "state": "FL",
       "avg_price": 0.6,
-      "store_count": 441
+      "store_count": 440
     },
     {
       "state": "DE",
@@ -1214,7 +1218,6 @@
     "021372",
     "031464",
     "034602",
-    "032055",
     "031740",
     "036929",
     "036402",
@@ -1498,7 +1501,6 @@
     "030479",
     "036459",
     "021394",
-    "026331",
     "017483",
     "023972",
     "028783",
@@ -1508,7 +1510,6 @@
     "028785",
     "022329",
     "028626",
-    "032598",
     "027514",
     "024041",
     "036176",
@@ -1647,7 +1648,6 @@
     "038833",
     "037742",
     "041580",
-    "037728",
     "039541",
     "037836",
     "040002",
@@ -3689,7 +3689,6 @@
     "005549",
     "035425",
     "001648",
-    "042829",
     "043055",
     "015425",
     "029654",
@@ -5502,7 +5501,6 @@
     "029634",
     "029093",
     "030757",
-    "027871",
     "033011",
     "031729",
     "031394",
@@ -7931,6 +7929,13 @@
       "price": 0.99
     },
     {
+      "store_number": "026331",
+      "name": "Taco Bell",
+      "city": "Poughkeepsie",
+      "state": "NY",
+      "price": 0.9
+    },
+    {
       "store_number": "042172",
       "name": "Taco Bell",
       "city": "New York",
@@ -7957,16 +7962,69 @@
       "city": "New York",
       "state": "NY",
       "price": 0.8
-    },
-    {
-      "store_number": "036927",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 0.8
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027871",
+      "store_name": "Taco Bell",
+      "city": "Allen",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-10-16T21:50:37.141175+00:00"
+    },
+    {
+      "store_number": "042829",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-10-16T21:49:53.693461+00:00"
+    },
+    {
+      "store_number": "037728",
+      "store_name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 0.6,
+      "new_price": 0.7,
+      "observed_at": "2026-10-16T21:49:05.145701+00:00"
+    },
+    {
+      "store_number": "032598",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 0.6,
+      "new_price": 0.7,
+      "observed_at": "2026-10-16T21:49:02.247002+00:00"
+    },
+    {
+      "store_number": "026331",
+      "store_name": "Taco Bell",
+      "city": "Poughkeepsie",
+      "state": "NY",
+      "change_type": "price_change",
+      "old_price": 0.6,
+      "new_price": 0.9,
+      "observed_at": "2026-10-16T21:49:02.044005+00:00"
+    },
+    {
+      "store_number": "032055",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 0.6,
+      "new_price": 0.7,
+      "observed_at": "2026-10-16T21:48:54.394927+00:00"
+    },
     {
       "store_number": "037550",
       "store_name": "Taco Bell",
@@ -83940,8 +83998,8 @@
   ],
   "activity_summary": {
     "added": 7594,
-    "removed": 3,
-    "price_changed": 0,
+    "removed": 5,
+    "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 210,
@@ -91402,15 +91460,6 @@
       "IA"
     ],
     [
-      "032055",
-      34.0647052,
-      -83.9841147,
-      0.6,
-      "Taco Bell",
-      "Buford",
-      "GA"
-    ],
-    [
       "031740",
       34.07480768002861,
       -80.99711108250376,
@@ -93958,15 +94007,6 @@
       "TX"
     ],
     [
-      "026331",
-      41.6263547505,
-      -73.9200700183,
-      0.6,
-      "Taco Bell",
-      "Poughkeepsie",
-      "NY"
-    ],
-    [
       "017483",
       43.068310005088556,
       -76.1717626887899,
@@ -94046,15 +94086,6 @@
       "Taco Bell",
       "Durham",
       "NC"
-    ],
-    [
-      "032598",
-      33.7277324733473,
-      -84.74573254884817,
-      0.6,
-      "Taco Bell",
-      "Douglasville",
-      "GA"
     ],
     [
       "027514",
@@ -95297,15 +95328,6 @@
       "Taco Bell",
       "Port Barre",
       "LA"
-    ],
-    [
-      "037728",
-      34.01794478344271,
-      -84.56413769853002,
-      0.6,
-      "Taco Bell",
-      "Kennesaw",
-      "GA"
     ],
     [
       "039541",
@@ -113677,15 +113699,6 @@
       "NY"
     ],
     [
-      "042829",
-      30.458093509232302,
-      -87.29877294124185,
-      0.6,
-      "Taco Bell",
-      "Pensacola",
-      "FL"
-    ],
-    [
       "043055",
       27.49616179217664,
       -82.61538773775106,
@@ -129992,15 +130005,6 @@
       "Taco Bell",
       "Hayward",
       "CA"
-    ],
-    [
-      "027871",
-      33.099164129919174,
-      -96.73289268740028,
-      0.6,
-      "Taco Bell",
-      "Allen",
-      "TX"
     ],
     [
       "033011",
@@ -151576,6 +151580,24 @@
       "CA"
     ],
     [
+      "032055",
+      34.0647052,
+      -83.9841147,
+      0.7,
+      "Taco Bell",
+      "Buford",
+      "GA"
+    ],
+    [
+      "032598",
+      33.7277324733473,
+      -84.74573254884817,
+      0.7,
+      "Taco Bell",
+      "Douglasville",
+      "GA"
+    ],
+    [
       "023248",
       42.49201883496908,
       -83.46934098565771,
@@ -151601,6 +151623,15 @@
       "Taco Bell",
       "Dearborn",
       "MI"
+    ],
+    [
+      "037728",
+      34.01794478344271,
+      -84.56413769853002,
+      0.7,
+      "Taco Bell",
+      "Kennesaw",
+      "GA"
     ],
     [
       "037373",
@@ -152221,6 +152252,15 @@
       0.8,
       "Taco Bell",
       "New York",
+      "NY"
+    ],
+    [
+      "026331",
+      41.6263547505,
+      -73.9200700183,
+      0.9,
+      "Taco Bell",
+      "Poughkeepsie",
       "NY"
     ],
     [

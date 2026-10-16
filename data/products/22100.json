@@ -21,12 +21,12 @@
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.2,
-    "store_count": 7741
+    "store_count": 7742
   },
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$1.59",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$1.79",
-      "count": 239
+      "count": 240
     },
     {
       "bucket": "$1.89",
@@ -117,6 +117,10 @@
       "count": 2
     },
     {
+      "bucket": "$2.53",
+      "count": 1
+    },
+    {
       "bucket": "$2.59",
       "count": 12
     },
@@ -178,7 +182,7 @@
     {
       "state": "NY",
       "avg_price": 2.37,
-      "store_count": 254
+      "store_count": 255
     },
     {
       "state": "MA",
@@ -338,7 +342,7 @@
     {
       "state": "IN",
       "avg_price": 1.99,
-      "store_count": 262
+      "store_count": 261
     },
     {
       "state": "UT",
@@ -408,7 +412,7 @@
     {
       "state": "MN",
       "avg_price": 1.79,
-      "store_count": 101
+      "store_count": 102
     },
     {
       "state": "WY",
@@ -436,13 +440,6 @@
     "serving_size_g": 77.961
   },
   "cheapest_stores": [
-    {
-      "store_number": "000017",
-      "name": "Taco Bell",
-      "city": "San Gabriel",
-      "state": "CA",
-      "price": 0.99
-    },
     {
       "store_number": "003056",
       "name": "Taco Bell",
@@ -505,10 +502,16 @@
       "city": "Sioux Falls",
       "state": "SD",
       "price": 1.69
+    },
+    {
+      "store_number": "042672",
+      "name": "Taco Bell",
+      "city": "Ramsey",
+      "state": "MN",
+      "price": 1.69
     }
   ],
   "min_price_store_numbers": [
-    "000017",
     "003056"
   ],
   "priciest_stores": [
@@ -584,6 +587,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "000017",
+      "store_name": "Taco Bell",
+      "city": "San Gabriel",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 0.99,
+      "new_price": 1.99,
+      "observed_at": "2026-10-16T21:50:55.898022+00:00"
+    },
+    {
+      "store_number": "032489",
+      "store_name": "Taco Bell",
+      "city": "Plymouth",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-10-16T21:50:46.891970+00:00"
+    },
+    {
+      "store_number": "036375",
+      "store_name": "Taco Bell",
+      "city": "Monticello",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.53,
+      "observed_at": "2026-10-16T21:50:02.169183+00:00"
+    },
+    {
+      "store_number": "015843",
+      "store_name": "Taco Bell",
+      "city": "Bemidji",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-10-16T21:49:56.046341+00:00"
+    },
     {
       "store_number": "042692",
       "store_name": "Taco Bell",
@@ -26396,9 +26439,9 @@
     }
   ],
   "activity_summary": {
-    "added": 264,
-    "removed": 184,
-    "price_changed": 2133,
+    "added": 266,
+    "removed": 185,
+    "price_changed": 2134,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 170,
@@ -26406,15 +26449,6 @@
   "calories_max": 170,
   "combo_groups": [],
   "map_data": [
-    [
-      "000017",
-      34.081152071742444,
-      -118.09035223382517,
-      0.99,
-      "Taco Bell",
-      "San Gabriel",
-      "CA"
-    ],
     [
       "003056",
       33.98985419924158,
@@ -27547,6 +27581,15 @@
       1.79,
       "Taco Bell",
       "Rochester",
+      "MN"
+    ],
+    [
+      "015843",
+      47.49120241471969,
+      -94.88759462537018,
+      1.79,
+      "Taco Bell",
+      "Bemidji",
       "MN"
     ],
     [
@@ -67609,15 +67652,6 @@
       "OR"
     ],
     [
-      "032489",
-      41.35682569742937,
-      -86.3117989897728,
-      1.99,
-      "Taco Bell",
-      "Plymouth",
-      "IN"
-    ],
-    [
       "032166",
       33.912112548099884,
       -81.22637494477465,
@@ -70010,6 +70044,15 @@
       "Taco Bell",
       "Waco",
       "TX"
+    ],
+    [
+      "000017",
+      34.081152071742444,
+      -118.09035223382517,
+      1.99,
+      "Taco Bell",
+      "San Gabriel",
+      "CA"
     ],
     [
       "034416",
@@ -94435,6 +94478,15 @@
       2.51,
       "Taco Bell",
       "Painted Post",
+      "NY"
+    ],
+    [
+      "036375",
+      41.66799303527737,
+      -74.67497334921266,
+      2.53,
+      "Taco Bell",
+      "Monticello",
       "NY"
     ],
     [
