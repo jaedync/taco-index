@@ -15,11 +15,11 @@
   "first_seen_at": "2026-03-30T00:40:07.824257+00:00",
   "availability_pct": 7.9,
   "price_stats": {
-    "avg": 1.19,
+    "avg": 1.2,
     "min": 0.69,
     "max": 7.99,
     "median": 1.05,
-    "std_dev": 0.46,
+    "std_dev": 0.53,
     "store_count": 614
   },
   "histogram": [
@@ -37,7 +37,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 128
+      "count": 130
     },
     {
       "bucket": "$1.00",
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 77
+      "count": 75
     },
     {
       "bucket": "$1.39",
@@ -69,7 +69,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 57
+      "count": 56
     },
     {
       "bucket": "$1.59",
@@ -109,19 +109,19 @@
     },
     {
       "bucket": "$7.99",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
     {
+      "state": "MO",
+      "avg_price": 2.37,
+      "store_count": 10
+    },
+    {
       "state": "ID",
       "avg_price": 1.89,
       "store_count": 6
-    },
-    {
-      "state": "MO",
-      "avg_price": 1.75,
-      "store_count": 9
     },
     {
       "state": "MT",
@@ -141,7 +141,7 @@
     {
       "state": "CA",
       "avg_price": 1.36,
-      "store_count": 159
+      "store_count": 158
     },
     {
       "state": "MI",
@@ -170,18 +170,18 @@
     },
     {
       "state": "IL",
-      "avg_price": 1.13,
-      "store_count": 29
+      "avg_price": 1.11,
+      "store_count": 28
+    },
+    {
+      "state": "ND",
+      "avg_price": 0.99,
+      "store_count": 7
     },
     {
       "state": "KS",
       "avg_price": 0.99,
       "store_count": 27
-    },
-    {
-      "state": "ND",
-      "avg_price": 0.99,
-      "store_count": 6
     },
     {
       "state": "WI",
@@ -295,6 +295,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "034384",
+      "name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "price": 7.99
+    },
+    {
       "store_number": "034405",
       "name": "Taco Bell",
       "city": "Kansas City",
@@ -356,16 +363,69 @@
       "city": "Merced",
       "state": "CA",
       "price": 2.09
-    },
-    {
-      "store_number": "040476",
-      "name": "Taco Bell",
-      "city": "Glendale",
-      "state": "AZ",
-      "price": 2.09
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036358",
+      "store_name": "Taco Bell",
+      "city": "Kewanee",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-10-19T20:43:19.870941+00:00"
+    },
+    {
+      "store_number": "034384",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-10-18T20:53:00.245105+00:00"
+    },
+    {
+      "store_number": "016327",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.29,
+      "new_price": null,
+      "observed_at": "2026-10-18T20:51:55.450670+00:00"
+    },
+    {
+      "store_number": "016929",
+      "store_name": "Taco Bell",
+      "city": "Clearlake",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.29,
+      "new_price": null,
+      "observed_at": "2026-10-17T21:24:58.839887+00:00"
+    },
+    {
+      "store_number": "028837",
+      "store_name": "Taco Bell",
+      "city": "Palo Alto",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-10-17T21:24:51.404685+00:00"
+    },
+    {
+      "store_number": "037587",
+      "store_name": "Taco Bell",
+      "city": "Fargo",
+      "state": "ND",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-10-17T21:24:36.151316+00:00"
+    },
     {
       "store_number": "028837",
       "store_name": "Taco Bell",
@@ -5918,8 +5978,8 @@
     }
   ],
   "activity_summary": {
-    "added": 268,
-    "removed": 282,
+    "added": 271,
+    "removed": 285,
     "price_changed": 5,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7963,6 +8023,15 @@
       "CA"
     ],
     [
+      "037587",
+      46.84582059415593,
+      -96.79920741612162,
+      0.99,
+      "Taco Bell",
+      "Fargo",
+      "ND"
+    ],
+    [
       "019919",
       38.3714997294763,
       -97.62719986638527,
@@ -8105,6 +8174,15 @@
       "Taco Bell",
       "Webb City",
       "MO"
+    ],
+    [
+      "028837",
+      37.4590714663671,
+      -122.13729402334383,
+      0.99,
+      "Taco Bell",
+      "Palo Alto",
+      "CA"
     ],
     [
       "024790",
@@ -9664,15 +9742,6 @@
       "CA"
     ],
     [
-      "016929",
-      38.94958255178735,
-      -122.63059079647064,
-      1.29,
-      "Taco Bell",
-      "Clearlake",
-      "CA"
-    ],
-    [
       "023051",
       35.12090009045536,
       -120.61326911009192,
@@ -9856,15 +9925,6 @@
       "026727",
       38.481336246705794,
       -121.40551457338152,
-      1.29,
-      "Taco Bell",
-      "Sacramento",
-      "CA"
-    ],
-    [
-      "016327",
-      38.50830669234542,
-      -121.54295698554961,
       1.29,
       "Taco Bell",
       "Sacramento",
@@ -10058,15 +10118,6 @@
       "Taco Bell",
       "Billings",
       "MT"
-    ],
-    [
-      "036358",
-      41.22321897881268,
-      -89.92787767948357,
-      1.49,
-      "Taco Bell",
-      "Kewanee",
-      "IL"
     ],
     [
       "031451",
@@ -11453,6 +11504,15 @@
       "Taco Bell",
       "Kansas City",
       "MO"
+    ],
+    [
+      "034384",
+      39.04184918100511,
+      -94.56985719882601,
+      7.99,
+      "Taco Bell",
+      "Kansas City",
+      "MO"
     ]
   ],
   "retired_at": null,
@@ -11461,7 +11521,7 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 1.22,
+      "avg_price": 1.23,
       "min_price": 0.69,
       "max_price": 7.99,
       "calories": 80,

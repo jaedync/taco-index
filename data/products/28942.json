@@ -18,9 +18,9 @@
   "price_stats": {
     "avg": 4.01,
     "min": 0.0,
-    "max": 12.99,
+    "max": 9.99,
     "median": 4.0,
-    "std_dev": 0.3,
+    "std_dev": 0.29,
     "store_count": 7612
   },
   "histogram": [
@@ -30,11 +30,11 @@
     },
     {
       "bucket": "$4.00",
-      "count": 7493
+      "count": 7474
     },
     {
       "bucket": "$4.99",
-      "count": 12
+      "count": 31
     },
     {
       "bucket": "$5.00",
@@ -61,7 +61,7 @@
       "count": 9
     },
     {
-      "bucket": "$12.99",
+      "bucket": "$9.99",
       "count": 1
     }
   ],
@@ -95,6 +95,11 @@
       "state": "PA",
       "avg_price": 4.02,
       "store_count": 203
+    },
+    {
+      "state": "CA",
+      "avg_price": 4.02,
+      "store_count": 836
     },
     {
       "state": "MA",
@@ -302,11 +307,6 @@
       "store_count": 14
     },
     {
-      "state": "CA",
-      "avg_price": 4.0,
-      "store_count": 836
-    },
-    {
       "state": "MN",
       "avg_price": 3.96,
       "store_count": 102
@@ -317,7 +317,20 @@
       "store_count": 193
     }
   ],
-  "nutrition": null,
+  "nutrition": {
+    "calories": 183.0992,
+    "total_fat_g": 8.3175,
+    "saturated_fat_g": 4.1848,
+    "trans_fat_g": 0.2211,
+    "cholesterol_mg": 23.7403,
+    "sodium_mg": 504.1781,
+    "total_carbs_g": 18.4445,
+    "dietary_fiber_g": 2.6651,
+    "sugars_g": 1.0807,
+    "added_sugars_g": 0.6889,
+    "protein_g": 8.7145,
+    "serving_size_g": 92.1358
+  },
   "cheapest_stores": [
     {
       "store_number": "041091",
@@ -420,7 +433,7 @@
       "name": "Taco Bell",
       "city": "Universal City",
       "state": "CA",
-      "price": 12.99
+      "price": 9.99
     },
     {
       "store_number": "042172",
@@ -487,6 +500,206 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026759",
+      "store_name": "Taco Bell",
+      "city": "Universal City",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 12.99,
+      "new_price": 9.99,
+      "observed_at": "2026-10-19T20:42:16.768188+00:00"
+    },
+    {
+      "store_number": "029287",
+      "store_name": "Taco Bell",
+      "city": "North Hollywood",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:53:30.731746+00:00"
+    },
+    {
+      "store_number": "003148",
+      "store_name": "Taco Bell",
+      "city": "El Monte",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:53:20.615970+00:00"
+    },
+    {
+      "store_number": "000071",
+      "store_name": "Taco Bell",
+      "city": "Burbank",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:53:18.834413+00:00"
+    },
+    {
+      "store_number": "018454",
+      "store_name": "Taco Bell",
+      "city": "Sherman Oaks",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:52:54.897297+00:00"
+    },
+    {
+      "store_number": "018286",
+      "store_name": "Taco Bell",
+      "city": "Hawthorne",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:52:54.286621+00:00"
+    },
+    {
+      "store_number": "000084",
+      "store_name": "Taco Bell",
+      "city": "Lawndale",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:52:45.233094+00:00"
+    },
+    {
+      "store_number": "029286",
+      "store_name": "Taco Bell",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:52:42.615143+00:00"
+    },
+    {
+      "store_number": "019247",
+      "store_name": "Taco Bell",
+      "city": "Glendale",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:52:38.485589+00:00"
+    },
+    {
+      "store_number": "019260",
+      "store_name": "Taco Bell",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:52:17.563572+00:00"
+    },
+    {
+      "store_number": "005130",
+      "store_name": "Taco Bell",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:51:55.721668+00:00"
+    },
+    {
+      "store_number": "027247",
+      "store_name": "Taco Bell",
+      "city": "El Monte",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:51:52.130321+00:00"
+    },
+    {
+      "store_number": "000086",
+      "store_name": "Taco Bell",
+      "city": "North Hollywood",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:51:27.970658+00:00"
+    },
+    {
+      "store_number": "019589",
+      "store_name": "Taco Bell",
+      "city": "Downey",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:51:16.371423+00:00"
+    },
+    {
+      "store_number": "002905",
+      "store_name": "Taco Bell",
+      "city": "Monrovia",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:51:13.898591+00:00"
+    },
+    {
+      "store_number": "003074",
+      "store_name": "Taco Bell",
+      "city": "Canoga Park",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:51:12.781262+00:00"
+    },
+    {
+      "store_number": "017131",
+      "store_name": "Taco Bell",
+      "city": "Sunland",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:51:11.044140+00:00"
+    },
+    {
+      "store_number": "029284",
+      "store_name": "Taco Bell",
+      "city": "Van Nuys",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:51:07.264989+00:00"
+    },
+    {
+      "store_number": "003670",
+      "store_name": "Taco Bell",
+      "city": "Pico Rivera",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:50:57.194193+00:00"
+    },
+    {
+      "store_number": "024278",
+      "store_name": "Taco Bell",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.0,
+      "new_price": 4.99,
+      "observed_at": "2026-10-18T20:50:15.061109+00:00"
+    },
     {
       "store_number": "033351",
       "store_name": "Taco Bell",
@@ -77931,7 +78144,7 @@
   "activity_summary": {
     "added": 7632,
     "removed": 20,
-    "price_changed": 92,
+    "price_changed": 112,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 560,
@@ -85354,15 +85567,6 @@
       4.0,
       "Taco Bell",
       "Anaheim",
-      "CA"
-    ],
-    [
-      "024278",
-      34.06277944015756,
-      -118.44671958773154,
-      4.0,
-      "Taco Bell",
-      "Los Angeles",
       "CA"
     ],
     [
@@ -97840,15 +98044,6 @@
       "TX"
     ],
     [
-      "003670",
-      33.99988734074016,
-      -118.08160891310027,
-      4.0,
-      "Taco Bell",
-      "Pico Rivera",
-      "CA"
-    ],
-    [
       "031976",
       33.42177527440353,
       -117.6088410615921,
@@ -99937,15 +100132,6 @@
       "CA"
     ],
     [
-      "029284",
-      34.22082043866711,
-      -118.47193032503128,
-      4.0,
-      "Taco Bell",
-      "Van Nuys",
-      "CA"
-    ],
-    [
       "026022",
       36.131488640671215,
       -97.05104202032089,
@@ -101152,15 +101338,6 @@
       "RI"
     ],
     [
-      "017131",
-      34.25932398431372,
-      -118.30463541234997,
-      4.0,
-      "Taco Bell",
-      "Sunland",
-      "CA"
-    ],
-    [
       "034205",
       36.851660201526045,
       -119.77506072075812,
@@ -101764,15 +101941,6 @@
       "IL"
     ],
     [
-      "003074",
-      34.20794122756142,
-      -118.62382042357868,
-      4.0,
-      "Taco Bell",
-      "Canoga Park",
-      "CA"
-    ],
-    [
       "038935",
       45.755660365672,
       -108.53895555398464,
@@ -102131,15 +102299,6 @@
       "Taco Bell",
       "Radford",
       "VA"
-    ],
-    [
-      "002905",
-      34.14048647074683,
-      -117.98849475374709,
-      4.0,
-      "Taco Bell",
-      "Monrovia",
-      "CA"
     ],
     [
       "029097",
@@ -102815,15 +102974,6 @@
       "Taco Bell",
       "Yadkinville",
       "NC"
-    ],
-    [
-      "019589",
-      33.94822639731393,
-      -118.15554593505112,
-      4.0,
-      "Taco Bell",
-      "Downey",
-      "CA"
     ],
     [
       "030378",
@@ -106631,15 +106781,6 @@
       "Taco Bell",
       "Kapolei",
       "HI"
-    ],
-    [
-      "000086",
-      34.1791319350549,
-      -118.38290457442449,
-      4.0,
-      "Taco Bell",
-      "North Hollywood",
-      "CA"
     ],
     [
       "042944",
@@ -113851,15 +113992,6 @@
       "IN"
     ],
     [
-      "027247",
-      34.075653489920434,
-      -118.02164912223816,
-      4.0,
-      "Taco Bell",
-      "El Monte",
-      "CA"
-    ],
-    [
       "041240",
       33.94282699062857,
       -83.74293341184966,
@@ -114893,15 +115025,6 @@
       "Taco Bell",
       "Jasper",
       "IN"
-    ],
-    [
-      "005130",
-      34.022577849540106,
-      -118.3720046281814,
-      4.0,
-      "Taco Bell",
-      "Los Angeles",
-      "CA"
     ],
     [
       "031909",
@@ -120464,15 +120587,6 @@
       "Taco Bell",
       "Albuquerque",
       "NM"
-    ],
-    [
-      "019260",
-      34.03748238576338,
-      -118.38836838306634,
-      4.0,
-      "Taco Bell",
-      "Los Angeles",
-      "CA"
     ],
     [
       "038943",
@@ -127297,15 +127411,6 @@
       "FL"
     ],
     [
-      "019247",
-      34.17353465427319,
-      -118.293541441667,
-      4.0,
-      "Taco Bell",
-      "Glendale",
-      "CA"
-    ],
-    [
       "039847",
       34.07094109746082,
       -117.39501696237826,
@@ -128656,15 +128761,6 @@
       "WI"
     ],
     [
-      "029286",
-      34.13908763344827,
-      -118.20492424076292,
-      4.0,
-      "Taco Bell",
-      "Los Angeles",
-      "CA"
-    ],
-    [
       "004660",
       34.47134545495282,
       -117.28630939757181,
@@ -129545,15 +129641,6 @@
       "Taco Bell",
       "Yuma",
       "AZ"
-    ],
-    [
-      "000084",
-      33.87723669755706,
-      -118.35292339324951,
-      4.0,
-      "Taco Bell",
-      "Lawndale",
-      "CA"
     ],
     [
       "039715",
@@ -132616,15 +132703,6 @@
       "TN"
     ],
     [
-      "018286",
-      33.901116435177734,
-      -118.34415324032307,
-      4.0,
-      "Taco Bell",
-      "Hawthorne",
-      "CA"
-    ],
-    [
       "040036",
       39.40214074336683,
       -76.94555511458107,
@@ -132893,15 +132971,6 @@
       "Taco Bell",
       "Marshfield",
       "WI"
-    ],
-    [
-      "018454",
-      34.14983787861167,
-      -118.44062737309814,
-      4.0,
-      "Taco Bell",
-      "Sherman Oaks",
-      "CA"
     ],
     [
       "030274",
@@ -138052,15 +138121,6 @@
       "FL"
     ],
     [
-      "000071",
-      34.18821720951887,
-      -118.31914231181145,
-      4.0,
-      "Taco Bell",
-      "Burbank",
-      "CA"
-    ],
-    [
       "030271",
       34.79024302285312,
       -86.9722497047921,
@@ -138679,15 +138739,6 @@
       4.0,
       "Taco Bell",
       "Lynwood",
-      "CA"
-    ],
-    [
-      "003148",
-      34.06313715951854,
-      -118.03542204206678,
-      4.0,
-      "Taco Bell",
-      "El Monte",
       "CA"
     ],
     [
@@ -142210,15 +142261,6 @@
       "CO"
     ],
     [
-      "029287",
-      34.19370547758861,
-      -118.41410415796753,
-      4.0,
-      "Taco Bell",
-      "North Hollywood",
-      "CA"
-    ],
-    [
       "032709",
       37.99619588094881,
       -89.23604717566226,
@@ -145612,6 +145654,15 @@
       "NY"
     ],
     [
+      "024278",
+      34.06277944015756,
+      -118.44671958773154,
+      4.99,
+      "Taco Bell",
+      "Los Angeles",
+      "CA"
+    ],
+    [
       "022960",
       40.70097769633215,
       -73.94150219081693,
@@ -145666,6 +145717,15 @@
       "NY"
     ],
     [
+      "003670",
+      33.99988734074016,
+      -118.08160891310027,
+      4.99,
+      "Taco Bell",
+      "Pico Rivera",
+      "CA"
+    ],
+    [
       "030731",
       40.621987627143156,
       -74.02839307488648,
@@ -145673,6 +145733,87 @@
       "Taco Bell",
       "Brooklyn",
       "NY"
+    ],
+    [
+      "029284",
+      34.22082043866711,
+      -118.47193032503128,
+      4.99,
+      "Taco Bell",
+      "Van Nuys",
+      "CA"
+    ],
+    [
+      "017131",
+      34.25932398431372,
+      -118.30463541234997,
+      4.99,
+      "Taco Bell",
+      "Sunland",
+      "CA"
+    ],
+    [
+      "003074",
+      34.20794122756142,
+      -118.62382042357868,
+      4.99,
+      "Taco Bell",
+      "Canoga Park",
+      "CA"
+    ],
+    [
+      "002905",
+      34.14048647074683,
+      -117.98849475374709,
+      4.99,
+      "Taco Bell",
+      "Monrovia",
+      "CA"
+    ],
+    [
+      "019589",
+      33.94822639731393,
+      -118.15554593505112,
+      4.99,
+      "Taco Bell",
+      "Downey",
+      "CA"
+    ],
+    [
+      "000086",
+      34.1791319350549,
+      -118.38290457442449,
+      4.99,
+      "Taco Bell",
+      "North Hollywood",
+      "CA"
+    ],
+    [
+      "027247",
+      34.075653489920434,
+      -118.02164912223816,
+      4.99,
+      "Taco Bell",
+      "El Monte",
+      "CA"
+    ],
+    [
+      "005130",
+      34.022577849540106,
+      -118.3720046281814,
+      4.99,
+      "Taco Bell",
+      "Los Angeles",
+      "CA"
+    ],
+    [
+      "019260",
+      34.03748238576338,
+      -118.38836838306634,
+      4.99,
+      "Taco Bell",
+      "Los Angeles",
+      "CA"
     ],
     [
       "032879",
@@ -145684,6 +145825,51 @@
       "NY"
     ],
     [
+      "019247",
+      34.17353465427319,
+      -118.293541441667,
+      4.99,
+      "Taco Bell",
+      "Glendale",
+      "CA"
+    ],
+    [
+      "029286",
+      34.13908763344827,
+      -118.20492424076292,
+      4.99,
+      "Taco Bell",
+      "Los Angeles",
+      "CA"
+    ],
+    [
+      "000084",
+      33.87723669755706,
+      -118.35292339324951,
+      4.99,
+      "Taco Bell",
+      "Lawndale",
+      "CA"
+    ],
+    [
+      "018286",
+      33.901116435177734,
+      -118.34415324032307,
+      4.99,
+      "Taco Bell",
+      "Hawthorne",
+      "CA"
+    ],
+    [
+      "018454",
+      34.14983787861167,
+      -118.44062737309814,
+      4.99,
+      "Taco Bell",
+      "Sherman Oaks",
+      "CA"
+    ],
+    [
       "032185",
       40.847176972943714,
       -73.93560729458841,
@@ -145693,6 +145879,24 @@
       "NY"
     ],
     [
+      "000071",
+      34.18821720951887,
+      -118.31914231181145,
+      4.99,
+      "Taco Bell",
+      "Burbank",
+      "CA"
+    ],
+    [
+      "003148",
+      34.06313715951854,
+      -118.03542204206678,
+      4.99,
+      "Taco Bell",
+      "El Monte",
+      "CA"
+    ],
+    [
       "040381",
       40.8233,
       -73.9531,
@@ -145700,6 +145904,15 @@
       "Taco Bell",
       "New York",
       "NY"
+    ],
+    [
+      "029287",
+      34.19370547758861,
+      -118.41410415796753,
+      4.99,
+      "Taco Bell",
+      "North Hollywood",
+      "CA"
     ],
     [
       "038753",
@@ -146461,7 +146674,7 @@
       "026759",
       34.1362129,
       -118.3522686,
-      12.99,
+      9.99,
       "Taco Bell",
       "Universal City",
       "CA"
