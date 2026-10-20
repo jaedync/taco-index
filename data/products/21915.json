@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 72
+    "store_count": 73
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 72
+      "count": 73
     }
   ],
   "state_prices": [
     {
       "state": "CA",
       "avg_price": 9.0,
-      "store_count": 72
+      "store_count": 73
     }
   ],
   "nutrition": {
@@ -142,6 +142,7 @@
     "003026",
     "018675",
     "035900",
+    "041347",
     "041356",
     "036122",
     "003452",
@@ -153,6 +154,7 @@
     "041369",
     "041366",
     "002665",
+    "035471",
     "041368",
     "034178",
     "031352",
@@ -193,17 +195,9 @@
     "037824",
     "031851",
     "033940",
-    "031814",
-    "035468"
+    "031814"
   ],
   "priciest_stores": [
-    {
-      "store_number": "035468",
-      "name": "Taco Bell",
-      "city": "Rancho Cordova",
-      "state": "CA",
-      "price": 9.0
-    },
     {
       "store_number": "031814",
       "name": "Taco Bell",
@@ -266,9 +260,46 @@
       "city": "Grass Valley",
       "state": "CA",
       "price": 9.0
+    },
+    {
+      "store_number": "034189",
+      "name": "Taco Bell",
+      "city": "Escalon",
+      "state": "CA",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035468",
+      "store_name": "Taco Bell",
+      "city": "Rancho Cordova",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-10-20T21:15:45.184749+00:00"
+    },
+    {
+      "store_number": "035471",
+      "store_name": "Taco Bell",
+      "city": "Fair Oaks",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-10-20T21:15:03.415575+00:00"
+    },
+    {
+      "store_number": "041347",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-10-20T21:14:40.436063+00:00"
+    },
     {
       "store_number": "036122",
       "store_name": "Taco Bell",
@@ -2611,8 +2642,8 @@
     }
   ],
   "activity_summary": {
-    "added": 153,
-    "removed": 81,
+    "added": 155,
+    "removed": 82,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2824,6 +2855,15 @@
       "CA"
     ],
     [
+      "041347",
+      38.51941695394591,
+      -121.4396605472374,
+      9.0,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
+    ],
+    [
       "041356",
       38.52532712883772,
       -121.46515622735023,
@@ -2920,6 +2960,15 @@
       9.0,
       "Taco Bell",
       "Rocklin",
+      "CA"
+    ],
+    [
+      "035471",
+      38.64448867761824,
+      -121.27272382378573,
+      9.0,
+      "Taco Bell",
+      "Fair Oaks",
       "CA"
     ],
     [
@@ -3290,18 +3339,9 @@
       "Taco Bell",
       "Elk Grove",
       "CA"
-    ],
-    [
-      "035468",
-      38.59415699744662,
-      -121.28754595254232,
-      9.0,
-      "Taco Bell",
-      "Rancho Cordova",
-      "CA"
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-10-19",
+  "last_seen_date": "2026-10-20",
   "peak_availability_pct": 0.9
 }

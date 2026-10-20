@@ -22,19 +22,19 @@
     "max": 9.19,
     "median": 9.19,
     "std_dev": 0.0,
-    "store_count": 24
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$9.19",
-      "count": 24
+      "count": 25
     }
   ],
   "state_prices": [
     {
       "state": "CA",
       "avg_price": 9.19,
-      "store_count": 24
+      "store_count": 25
     }
   ],
   "nutrition": {
@@ -147,9 +147,17 @@
     "034189",
     "028843",
     "034199",
-    "037824"
+    "037824",
+    "035468"
   ],
   "priciest_stores": [
+    {
+      "store_number": "035468",
+      "name": "Taco Bell",
+      "city": "Rancho Cordova",
+      "state": "CA",
+      "price": 9.19
+    },
     {
       "store_number": "037824",
       "name": "Taco Bell",
@@ -212,16 +220,19 @@
       "city": "Auburn",
       "state": "CA",
       "price": 9.19
-    },
-    {
-      "store_number": "022939",
-      "name": "Taco Bell",
-      "city": "Angels Camp",
-      "state": "CA",
-      "price": 9.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035468",
+      "store_name": "Taco Bell",
+      "city": "Rancho Cordova",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.19,
+      "observed_at": "2026-10-20T21:15:45.184749+00:00"
+    },
     {
       "store_number": "035468",
       "store_name": "Taco Bell",
@@ -484,7 +495,7 @@
     }
   ],
   "activity_summary": {
-    "added": 25,
+    "added": 26,
     "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -721,6 +732,15 @@
       9.19,
       "Taco Bell",
       "Jamestown",
+      "CA"
+    ],
+    [
+      "035468",
+      38.59415699744662,
+      -121.28754595254232,
+      9.19,
+      "Taco Bell",
+      "Rancho Cordova",
       "CA"
     ]
   ],

@@ -20,10 +20,15 @@
     "min": 4.49,
     "max": 4.49,
     "median": 4.49,
-    "std_dev": null,
+    "std_dev": 0.0,
     "store_count": 1
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$4.49",
+      "count": 1
+    }
+  ],
   "state_prices": [],
   "nutrition": {
     "calories": 297.0786,
@@ -39,10 +44,38 @@
     "protein_g": 11.8282,
     "serving_size_g": 122.4697
   },
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "024397",
+      "name": "Taco Bell",
+      "city": "Shelbyville",
+      "state": "TN",
+      "price": 4.49
+    }
+  ],
+  "min_price_store_numbers": [
+    "024397"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "024397",
+      "name": "Taco Bell",
+      "city": "Shelbyville",
+      "state": "TN",
+      "price": 4.49
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "024397",
+      "store_name": "Taco Bell",
+      "city": "Shelbyville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-10-20T21:13:28.163422+00:00"
+    },
     {
       "store_number": "024397",
       "store_name": "Taco Bell",
@@ -765,17 +798,27 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
+    "added": 37,
     "removed": 36,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
+  "calories_from_menu": 300,
   "calories_min": 300,
   "calories_max": 300,
   "combo_groups": [],
-  "map_data": [],
+  "map_data": [
+    [
+      "024397",
+      35.507122788568765,
+      -86.4562197728992,
+      4.49,
+      "Taco Bell",
+      "Shelbyville",
+      "TN"
+    ]
+  ],
   "retired_at": "2026-10-19T20:52:17.797770+00:00",
-  "last_seen_date": "2026-10-18",
+  "last_seen_date": "2026-10-20",
   "peak_availability_pct": 0.4
 }

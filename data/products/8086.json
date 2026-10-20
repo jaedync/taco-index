@@ -20,12 +20,12 @@
     "max": 0.99,
     "median": 0.6,
     "std_dev": 0.02,
-    "store_count": 7587
+    "store_count": 7589
   },
   "histogram": [
     {
       "bucket": "$0.60",
-      "count": 7491
+      "count": 7490
     },
     {
       "bucket": "$0.61",
@@ -46,6 +46,10 @@
     {
       "bucket": "$0.80",
       "count": 18
+    },
+    {
+      "bucket": "$0.85",
+      "count": 3
     },
     {
       "bucket": "$0.90",
@@ -80,7 +84,7 @@
     {
       "state": "CA",
       "avg_price": 0.6,
-      "store_count": 834
+      "store_count": 833
     },
     {
       "state": "GA",
@@ -120,7 +124,7 @@
     {
       "state": "PA",
       "avg_price": 0.6,
-      "store_count": 203
+      "store_count": 202
     },
     {
       "state": "CO",
@@ -275,7 +279,7 @@
     {
       "state": "FL",
       "avg_price": 0.6,
-      "store_count": 438
+      "store_count": 439
     },
     {
       "state": "DE",
@@ -1377,7 +1381,6 @@
     "041138",
     "042239",
     "042678",
-    "042249",
     "042669",
     "042472",
     "042458",
@@ -3686,6 +3689,7 @@
     "005549",
     "035425",
     "001648",
+    "042829",
     "043055",
     "015425",
     "029654",
@@ -4110,7 +4114,6 @@
     "035471",
     "022840",
     "039986",
-    "034173",
     "031911",
     "029159",
     "031785",
@@ -7926,35 +7929,95 @@
       "price": 0.9
     },
     {
+      "store_number": "005649",
+      "name": "Taco Bell",
+      "city": "Eagle River",
+      "state": "AK",
+      "price": 0.85
+    },
+    {
+      "store_number": "019953",
+      "name": "Taco Bell",
+      "city": "Anchorage",
+      "state": "AK",
+      "price": 0.85
+    },
+    {
+      "store_number": "019282",
+      "name": "Taco Bell",
+      "city": "Anchorage",
+      "state": "AK",
+      "price": 0.85
+    },
+    {
       "store_number": "042172",
       "name": "Taco Bell",
       "city": "New York",
       "state": "NY",
       "price": 0.8
-    },
-    {
-      "store_number": "034298",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 0.8
-    },
-    {
-      "store_number": "019428",
-      "name": "Taco Bell",
-      "city": "Hamilton",
-      "state": "MT",
-      "price": 0.8
-    },
-    {
-      "store_number": "031624",
-      "name": "Taco Bell",
-      "city": "Polson",
-      "state": "MT",
-      "price": 0.8
     }
   ],
   "price_changes": [
+    {
+      "store_number": "005649",
+      "store_name": "Taco Bell",
+      "city": "Eagle River",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.85,
+      "observed_at": "2026-10-20T21:17:06.473876+00:00"
+    },
+    {
+      "store_number": "034173",
+      "store_name": "Taco Bell",
+      "city": "Stockton",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-10-20T21:15:03.446612+00:00"
+    },
+    {
+      "store_number": "042829",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-10-20T21:14:44.182984+00:00"
+    },
+    {
+      "store_number": "019953",
+      "store_name": "Taco Bell",
+      "city": "Anchorage",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.85,
+      "observed_at": "2026-10-20T21:14:02.050214+00:00"
+    },
+    {
+      "store_number": "019282",
+      "store_name": "Taco Bell",
+      "city": "Anchorage",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.85,
+      "observed_at": "2026-10-20T21:13:54.235141+00:00"
+    },
+    {
+      "store_number": "042249",
+      "store_name": "Taco Bell",
+      "city": "Reading",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-10-20T21:13:03.322508+00:00"
+    },
     {
       "store_number": "040025",
       "store_name": "Taco Bell",
@@ -84107,8 +84170,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7595,
-    "removed": 8,
+    "added": 7599,
+    "removed": 10,
     "price_changed": 12,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -92999,15 +93062,6 @@
       "Taco Bell",
       "Kingsport",
       "TN"
-    ],
-    [
-      "042249",
-      40.30540869916225,
-      -75.98088795432813,
-      0.6,
-      "Taco Bell",
-      "Reading",
-      "PA"
     ],
     [
       "042669",
@@ -113782,6 +113836,15 @@
       "NY"
     ],
     [
+      "042829",
+      30.458093509232302,
+      -87.29877294124185,
+      0.6,
+      "Taco Bell",
+      "Pensacola",
+      "FL"
+    ],
+    [
       "043055",
       27.49616179217664,
       -82.61538773775106,
@@ -117596,15 +117659,6 @@
       "Taco Bell",
       "Ashburn",
       "VA"
-    ],
-    [
-      "034173",
-      37.98707734795462,
-      -121.24699741601944,
-      0.6,
-      "Taco Bell",
-      "Stockton",
-      "CA"
     ],
     [
       "031911",
@@ -152345,6 +152399,33 @@
       "Taco Bell",
       "New York",
       "NY"
+    ],
+    [
+      "019282",
+      61.195547234572096,
+      -149.90132898619726,
+      0.85,
+      "Taco Bell",
+      "Anchorage",
+      "AK"
+    ],
+    [
+      "019953",
+      61.140487540417645,
+      -149.8629730148332,
+      0.85,
+      "Taco Bell",
+      "Anchorage",
+      "AK"
+    ],
+    [
+      "005649",
+      61.32994220307503,
+      -149.5684295967385,
+      0.85,
+      "Taco Bell",
+      "Eagle River",
+      "AK"
     ],
     [
       "026331",

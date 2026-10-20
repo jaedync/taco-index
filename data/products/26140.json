@@ -16,17 +16,17 @@
   "first_seen_at": "2026-04-16T21:05:37.421561+00:00",
   "availability_pct": 1.2,
   "price_stats": {
-    "avg": 11.22,
+    "avg": 11.23,
     "min": 10.19,
     "max": 12.59,
     "median": 11.19,
-    "std_dev": 0.79,
+    "std_dev": 0.78,
     "store_count": 96
   },
   "histogram": [
     {
       "bucket": "$10.19",
-      "count": 21
+      "count": 20
     },
     {
       "bucket": "$10.60",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$11.19",
-      "count": 28
+      "count": 29
     },
     {
       "bucket": "$11.29",
@@ -68,7 +68,7 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 11.22,
+      "avg_price": 11.23,
       "store_count": 96
     }
   ],
@@ -157,7 +157,6 @@
     "023290",
     "023302",
     "028353",
-    "023299",
     "023296",
     "023298",
     "023301",
@@ -241,6 +240,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023299",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.19,
+      "new_price": null,
+      "observed_at": "2026-10-20T21:14:51.585921+00:00"
+    },
+    {
+      "store_number": "027978",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.19,
+      "observed_at": "2026-10-20T21:14:30.397125+00:00"
+    },
     {
       "store_number": "027978",
       "store_name": "Taco Bell",
@@ -4783,8 +4802,8 @@
     }
   ],
   "activity_summary": {
-    "added": 254,
-    "removed": 158,
+    "added": 255,
+    "removed": 159,
     "price_changed": 42,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4915,15 +4934,6 @@
       10.19,
       "Taco Bell",
       "Leesburg",
-      "FL"
-    ],
-    [
-      "023299",
-      28.48727227380717,
-      -81.45812411607949,
-      10.19,
-      "Taco Bell",
-      "Orlando",
       "FL"
     ],
     [
@@ -5191,6 +5201,15 @@
       "027983",
       28.608677522862287,
       -81.39008417441511,
+      11.19,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "027978",
+      28.552565072072,
+      -81.47350690794156,
       11.19,
       "Taco Bell",
       "Orlando",
@@ -5684,6 +5703,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-10-19",
+  "last_seen_date": "2026-10-20",
   "peak_availability_pct": 1.2
 }

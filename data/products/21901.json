@@ -22,19 +22,19 @@
     "max": 3.49,
     "median": 3.49,
     "std_dev": 0.0,
-    "store_count": 48
+    "store_count": 50
   },
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 48
+      "count": 50
     }
   ],
   "state_prices": [
     {
       "state": "CA",
       "avg_price": 3.49,
-      "store_count": 48
+      "store_count": 50
     }
   ],
   "nutrition": {
@@ -63,6 +63,13 @@
       "store_number": "037732",
       "name": "Taco Bell",
       "city": "Fairfield",
+      "state": "CA",
+      "price": 3.49
+    },
+    {
+      "store_number": "036252",
+      "name": "Taco Bell",
+      "city": "Rancho Murieta",
       "state": "CA",
       "price": 3.49
     },
@@ -114,18 +121,12 @@
       "city": "Fair Oaks",
       "state": "CA",
       "price": 3.49
-    },
-    {
-      "store_number": "041349",
-      "name": "Taco Bell",
-      "city": "North Highlands",
-      "state": "CA",
-      "price": 3.49
     }
   ],
   "min_price_store_numbers": [
     "037014",
     "037732",
+    "036252",
     "034168",
     "036124",
     "026015",
@@ -171,9 +172,17 @@
     "004429",
     "034199",
     "037824",
-    "033940"
+    "033940",
+    "035468"
   ],
   "priciest_stores": [
+    {
+      "store_number": "035468",
+      "name": "Taco Bell",
+      "city": "Rancho Cordova",
+      "state": "CA",
+      "price": 3.49
+    },
     {
       "store_number": "033940",
       "name": "Taco Bell",
@@ -236,16 +245,29 @@
       "city": "Modesto",
       "state": "CA",
       "price": 3.49
-    },
-    {
-      "store_number": "034184",
-      "name": "Taco Bell",
-      "city": "Modesto",
-      "state": "CA",
-      "price": 3.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035468",
+      "store_name": "Taco Bell",
+      "city": "Rancho Cordova",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-10-20T21:15:45.184749+00:00"
+    },
+    {
+      "store_number": "036252",
+      "store_name": "Taco Bell",
+      "city": "Rancho Murieta",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-10-20T21:13:48.357812+00:00"
+    },
     {
       "store_number": "035468",
       "store_name": "Taco Bell",
@@ -808,7 +830,7 @@
     }
   ],
   "activity_summary": {
-    "added": 52,
+    "added": 54,
     "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -847,6 +869,15 @@
       3.49,
       "Taco Bell",
       "Fairfield",
+      "CA"
+    ],
+    [
+      "036252",
+      38.494996739116466,
+      -121.09713494347663,
+      3.49,
+      "Taco Bell",
+      "Rancho Murieta",
       "CA"
     ],
     [
@@ -1261,6 +1292,15 @@
       3.49,
       "Taco Bell",
       "Wheatland",
+      "CA"
+    ],
+    [
+      "035468",
+      38.59415699744662,
+      -121.28754595254232,
+      3.49,
+      "Taco Bell",
+      "Rancho Cordova",
       "CA"
     ]
   ],
