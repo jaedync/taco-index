@@ -20,12 +20,12 @@
     "max": 0.6,
     "median": 0.6,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$0.60",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -50,27 +50,12 @@
       "city": "Orlando",
       "state": "FL",
       "price": 0.6
-    },
-    {
-      "store_number": "021309",
-      "name": "Taco Bell",
-      "city": "Norfolk",
-      "state": "VA",
-      "price": 0.6
     }
   ],
   "min_price_store_numbers": [
-    "032170",
-    "021309"
+    "032170"
   ],
   "priciest_stores": [
-    {
-      "store_number": "021309",
-      "name": "Taco Bell",
-      "city": "Norfolk",
-      "state": "VA",
-      "price": 0.6
-    },
     {
       "store_number": "032170",
       "name": "Taco Bell",
@@ -80,6 +65,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "021309",
+      "store_name": "Taco Bell",
+      "city": "Norfolk",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-10-21T20:51:51.388576+00:00"
+    },
     {
       "store_number": "004043",
       "store_name": "Taco Bell",
@@ -113,13 +108,13 @@
   ],
   "activity_summary": {
     "added": 0,
-    "removed": 3,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 220,
-  "calories_min": 140,
-  "calories_max": 140,
+  "calories_min": 220,
+  "calories_max": 220,
   "combo_groups": [],
   "map_data": [
     [
@@ -130,15 +125,6 @@
       "Taco Bell",
       "Orlando",
       "FL"
-    ],
-    [
-      "021309",
-      36.86049756823483,
-      -76.21043890714645,
-      0.6,
-      "Taco Bell",
-      "Norfolk",
-      "VA"
     ]
   ],
   "retired_at": null,

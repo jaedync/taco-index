@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:42:30.053140+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.19,
+    "avg": 3.24,
     "min": 2.99,
     "max": 3.99,
     "median": 2.99,
-    "std_dev": 0.45,
-    "store_count": 5
+    "std_dev": 0.5,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$3.99",
@@ -71,13 +71,6 @@
       "price": 2.99
     },
     {
-      "store_number": "021309",
-      "name": "Taco Bell",
-      "city": "Norfolk",
-      "state": "VA",
-      "price": 2.99
-    },
-    {
       "store_number": "032170",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -88,8 +81,7 @@
   "min_price_store_numbers": [
     "029358",
     "020500",
-    "026719",
-    "021309"
+    "026719"
   ],
   "priciest_stores": [
     {
@@ -98,13 +90,6 @@
       "city": "Orlando",
       "state": "FL",
       "price": 3.99
-    },
-    {
-      "store_number": "021309",
-      "name": "Taco Bell",
-      "city": "Norfolk",
-      "state": "VA",
-      "price": 2.99
     },
     {
       "store_number": "026719",
@@ -130,6 +115,16 @@
   ],
   "price_changes": [
     {
+      "store_number": "021309",
+      "store_name": "Taco Bell",
+      "city": "Norfolk",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-10-21T20:51:51.388576+00:00"
+    },
+    {
       "store_number": "026028",
       "store_name": "Taco Bell / KFC",
       "city": "Chicago Ridge",
@@ -142,7 +137,7 @@
   ],
   "activity_summary": {
     "added": 0,
-    "removed": 1,
+    "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -177,15 +172,6 @@
       "Taco Bell",
       "Joliet",
       "IL"
-    ],
-    [
-      "021309",
-      36.86049756823483,
-      -76.21043890714645,
-      2.99,
-      "Taco Bell",
-      "Norfolk",
-      "VA"
     ],
     [
       "032170",

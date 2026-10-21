@@ -11,22 +11,18 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.0,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.1245,
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 8.0,
-    "min": 7.0,
+    "avg": 8.99,
+    "min": 8.99,
     "max": 8.99,
-    "median": 8.0,
-    "std_dev": 1.41,
-    "store_count": 2
+    "median": 8.99,
+    "std_dev": 0.0,
+    "store_count": 1
   },
   "histogram": [
-    {
-      "bucket": "$7.00",
-      "count": 1
-    },
     {
       "bucket": "$8.99",
       "count": 1
@@ -36,13 +32,6 @@
   "nutrition": null,
   "cheapest_stores": [
     {
-      "store_number": "021309",
-      "name": "Taco Bell",
-      "city": "Norfolk",
-      "state": "VA",
-      "price": 7.0
-    },
-    {
       "store_number": "032170",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -51,7 +40,7 @@
     }
   ],
   "min_price_store_numbers": [
-    "021309"
+    "032170"
   ],
   "priciest_stores": [
     {
@@ -60,16 +49,19 @@
       "city": "Orlando",
       "state": "FL",
       "price": 8.99
-    },
-    {
-      "store_number": "021309",
-      "name": "Taco Bell",
-      "city": "Norfolk",
-      "state": "VA",
-      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "021309",
+      "store_name": "Taco Bell",
+      "city": "Norfolk",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 7.0,
+      "new_price": null,
+      "observed_at": "2026-10-21T20:51:51.388576+00:00"
+    },
     {
       "store_number": "021309",
       "store_name": "Taco Bell",
@@ -93,7 +85,7 @@
   ],
   "activity_summary": {
     "added": 2,
-    "removed": 0,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -134,15 +126,6 @@
   ],
   "map_data": [
     [
-      "021309",
-      36.86049756823483,
-      -76.21043890714645,
-      7.0,
-      "Taco Bell",
-      "Norfolk",
-      "VA"
-    ],
-    [
       "032170",
       28.446748,
       -81.393772,
@@ -153,6 +136,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-20",
+  "last_seen_date": "2026-10-21",
   "peak_availability_pct": 0.0
 }
