@@ -18,12 +18,12 @@
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 3.55,
+    "avg": 3.56,
     "min": 3.19,
     "max": 4.59,
-    "median": 3.54,
+    "median": 3.59,
     "std_dev": 0.31,
-    "store_count": 26
+    "store_count": 27
   },
   "histogram": [
     {
@@ -52,7 +52,7 @@
     },
     {
       "bucket": "$3.79",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$4.59",
@@ -208,6 +208,13 @@
       "price": 3.79
     },
     {
+      "store_number": "029401",
+      "name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "price": 3.79
+    },
+    {
       "store_number": "029536",
       "name": "Taco Bell / KFC",
       "city": "Miami",
@@ -220,16 +227,19 @@
       "city": "Northampton",
       "state": "MA",
       "price": 3.69
-    },
-    {
-      "store_number": "017415",
-      "name": "Taco Bell / KFC",
-      "city": "Moriarty",
-      "state": "NM",
-      "price": 3.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029401",
+      "store_name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.79,
+      "observed_at": "2026-10-22T21:59:08.830700+00:00"
+    },
     {
       "store_number": "029406",
       "store_name": "Taco Bell",
@@ -1012,7 +1022,7 @@
     }
   ],
   "activity_summary": {
-    "added": 52,
+    "added": 53,
     "removed": 25,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1207,6 +1217,15 @@
       "FL"
     ],
     [
+      "029401",
+      36.72095995536841,
+      -78.11828226665455,
+      3.79,
+      "Taco Bell / KFC",
+      "South Hill",
+      "VA"
+    ],
+    [
       "041398",
       36.29845084379178,
       -78.58481152503262,
@@ -1271,6 +1290,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-21",
+  "last_seen_date": "2026-10-22",
   "peak_availability_pct": 0.3
 }

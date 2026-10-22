@@ -14,19 +14,19 @@
   "peak_30d_pct": 1.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-10-15T20:33:00.966484+00:00",
-  "availability_pct": 0.5,
+  "availability_pct": 0.4,
   "price_stats": {
     "avg": 5.57,
     "min": 5.49,
     "max": 5.99,
     "median": 5.49,
-    "std_dev": 0.16,
-    "store_count": 38
+    "std_dev": 0.15,
+    "store_count": 34
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 28
+      "count": 25
     },
     {
       "bucket": "$5.69",
@@ -34,14 +34,14 @@
     },
     {
       "bucket": "$5.99",
-      "count": 4
+      "count": 3
     }
   ],
   "state_prices": [
     {
       "state": "TX",
       "avg_price": 5.57,
-      "store_count": 38
+      "store_count": 34
     }
   ],
   "nutrition": {
@@ -102,13 +102,6 @@
       "price": 5.49
     },
     {
-      "store_number": "034596",
-      "name": "Taco Bell",
-      "city": "Arlington",
-      "state": "TX",
-      "price": 5.49
-    },
-    {
       "store_number": "031735",
       "name": "Taco Bell",
       "city": "Frisco",
@@ -123,9 +116,16 @@
       "price": 5.49
     },
     {
-      "store_number": "035439",
+      "store_number": "034587",
       "name": "Taco Bell",
-      "city": "Rowlett",
+      "city": "Lancaster",
+      "state": "TX",
+      "price": 5.49
+    },
+    {
+      "store_number": "035434",
+      "name": "Taco Bell",
+      "city": "The Colony",
       "state": "TX",
       "price": 5.49
     }
@@ -137,10 +137,8 @@
     "027873",
     "002633",
     "019299",
-    "034596",
     "031735",
     "002879",
-    "035439",
     "034587",
     "035434",
     "035438",
@@ -157,17 +155,9 @@
     "029887",
     "035428",
     "027876",
-    "005789",
-    "016317"
+    "005789"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029914",
-      "name": "Taco Bell",
-      "city": "Grapevine",
-      "state": "TX",
-      "price": 5.99
-    },
     {
       "store_number": "027813",
       "name": "Taco Bell",
@@ -230,9 +220,56 @@
       "city": "Fate",
       "state": "TX",
       "price": 5.69
+    },
+    {
+      "store_number": "005789",
+      "name": "Taco Bell",
+      "city": "Arlington",
+      "state": "TX",
+      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016317",
+      "store_name": "Taco Bell",
+      "city": "Euless",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-10-22T22:01:22.158796+00:00"
+    },
+    {
+      "store_number": "029914",
+      "store_name": "Taco Bell",
+      "city": "Grapevine",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-10-22T22:01:09.243530+00:00"
+    },
+    {
+      "store_number": "035439",
+      "store_name": "Taco Bell",
+      "city": "Rowlett",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-10-22T21:59:34.936574+00:00"
+    },
+    {
+      "store_number": "034596",
+      "store_name": "Taco Bell",
+      "city": "Arlington",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-10-22T21:59:30.740465+00:00"
+    },
     {
       "store_number": "040025",
       "store_name": "Taco Bell",
@@ -2436,7 +2473,7 @@
   ],
   "activity_summary": {
     "added": 129,
-    "removed": 91,
+    "removed": 95,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2500,15 +2537,6 @@
       "TX"
     ],
     [
-      "034596",
-      32.67565476410284,
-      -97.19539306593106,
-      5.49,
-      "Taco Bell",
-      "Arlington",
-      "TX"
-    ],
-    [
       "031735",
       33.17546728496336,
       -96.83741463558198,
@@ -2524,15 +2552,6 @@
       5.49,
       "Taco Bell",
       "Dallas",
-      "TX"
-    ],
-    [
-      "035439",
-      32.90846247348473,
-      -96.56886667013168,
-      5.49,
-      "Taco Bell",
-      "Rowlett",
       "TX"
     ],
     [
@@ -2689,15 +2708,6 @@
       "TX"
     ],
     [
-      "016317",
-      32.836737663746895,
-      -97.08211270859465,
-      5.49,
-      "Taco Bell",
-      "Euless",
-      "TX"
-    ],
-    [
       "038515",
       32.930448,
       -96.379349,
@@ -2776,15 +2786,6 @@
       5.99,
       "Taco Bell",
       "Dallas",
-      "TX"
-    ],
-    [
-      "029914",
-      32.9299191239682,
-      -97.08503962309806,
-      5.99,
-      "Taco Bell",
-      "Grapevine",
       "TX"
     ]
   ],

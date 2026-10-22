@@ -11,22 +11,18 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": -0.0212,
+  "recent_price_change_pct": 0.0319,
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.46,
-    "min": 2.19,
+    "avg": 2.59,
+    "min": 2.29,
     "max": 2.79,
-    "median": 2.39,
-    "std_dev": 0.28,
-    "store_count": 6
+    "median": 2.64,
+    "std_dev": 0.24,
+    "store_count": 4
   },
   "histogram": [
-    {
-      "bucket": "$2.19",
-      "count": 2
-    },
     {
       "bucket": "$2.29",
       "count": 1
@@ -40,29 +36,9 @@
       "count": 2
     }
   ],
-  "state_prices": [
-    {
-      "state": "NY",
-      "avg_price": 2.51,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "037389",
-      "name": "Taco Bell",
-      "city": "Brooklyn",
-      "state": "NY",
-      "price": 2.19
-    },
-    {
-      "store_number": "035133",
-      "name": "Taco Bell Cantina Cantina",
-      "city": "San Jose",
-      "state": "CA",
-      "price": 2.19
-    },
     {
       "store_number": "040658",
       "name": "Taco Bell",
@@ -93,8 +69,7 @@
     }
   ],
   "min_price_store_numbers": [
-    "037389",
-    "035133"
+    "040658"
   ],
   "priciest_stores": [
     {
@@ -124,23 +99,29 @@
       "city": "Bronx",
       "state": "NY",
       "price": 2.29
-    },
-    {
-      "store_number": "035133",
-      "name": "Taco Bell Cantina Cantina",
-      "city": "San Jose",
-      "state": "CA",
-      "price": 2.19
-    },
-    {
-      "store_number": "037389",
-      "name": "Taco Bell",
-      "city": "Brooklyn",
-      "state": "NY",
-      "price": 2.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037389",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-10-22T21:51:58.513098+00:00"
+    },
+    {
+      "store_number": "035133",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "San Jose",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-10-22T21:50:55.998907+00:00"
+    },
     {
       "store_number": "035133",
       "store_name": "Taco Bell Cantina Cantina",
@@ -544,7 +525,7 @@
   ],
   "activity_summary": {
     "added": 19,
-    "removed": 21,
+    "removed": 23,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -553,24 +534,6 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
-    [
-      "037389",
-      40.60494854533512,
-      -73.99835681056516,
-      2.19,
-      "Taco Bell",
-      "Brooklyn",
-      "NY"
-    ],
-    [
-      "035133",
-      37.33581325815998,
-      -121.89260208015071,
-      2.19,
-      "Taco Bell Cantina Cantina",
-      "San Jose",
-      "CA"
-    ],
     [
       "040658",
       40.88004873961616,

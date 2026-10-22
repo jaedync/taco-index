@@ -13,17 +13,17 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 0.4,
+  "peak_30d_pct": 0.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:09.997470+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 7.94,
+    "avg": 8.05,
     "min": 6.49,
     "max": 11.99,
     "median": 7.49,
-    "std_dev": 1.38,
-    "store_count": 37
+    "std_dev": 1.51,
+    "store_count": 38
   },
   "histogram": [
     {
@@ -76,7 +76,7 @@
     },
     {
       "bucket": "$11.99",
-      "count": 2
+      "count": 3
     }
   ],
   "state_prices": [
@@ -186,6 +186,13 @@
       "price": 11.99
     },
     {
+      "store_number": "036430",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 11.99
+    },
+    {
       "store_number": "040904",
       "name": "Taco Bell",
       "city": "Chicago",
@@ -240,16 +247,19 @@
       "city": "Sacramento",
       "state": "CA",
       "price": 8.99
-    },
-    {
-      "store_number": "037832",
-      "name": "Taco Bell",
-      "city": "Brooklyn",
-      "state": "NY",
-      "price": 7.89
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036430",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-10-22T21:52:13.824558+00:00"
+    },
     {
       "store_number": "036321",
       "store_name": "Taco Bell",
@@ -31432,7 +31442,7 @@
     }
   ],
   "activity_summary": {
-    "added": 1545,
+    "added": 1546,
     "removed": 1560,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
@@ -31761,6 +31771,15 @@
       "040904",
       41.97753928980377,
       -87.66811113265531,
+      11.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
+    [
+      "036430",
+      41.9037,
+      -87.6317,
       11.99,
       "Taco Bell",
       "Chicago",

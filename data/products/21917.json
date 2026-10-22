@@ -21,19 +21,19 @@
     "max": 9.99,
     "median": 9.99,
     "std_dev": 0.0,
-    "store_count": 25
+    "store_count": 26
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 25
+      "count": 26
     }
   ],
   "state_prices": [
     {
       "state": "CA",
       "avg_price": 9.99,
-      "store_count": 25
+      "store_count": 26
     }
   ],
   "nutrition": {
@@ -146,6 +146,7 @@
     "034170",
     "041351",
     "034220",
+    "004212",
     "035902",
     "032036"
   ],
@@ -161,6 +162,13 @@
       "store_number": "035902",
       "name": "Taco Bell",
       "city": "Lodi",
+      "state": "CA",
+      "price": 9.99
+    },
+    {
+      "store_number": "004212",
+      "name": "Taco Bell",
+      "city": "Sonora",
       "state": "CA",
       "price": 9.99
     },
@@ -212,16 +220,19 @@
       "city": "Fairfield",
       "state": "CA",
       "price": 9.99
-    },
-    {
-      "store_number": "041345",
-      "name": "Taco Bell",
-      "city": "Stockton",
-      "state": "CA",
-      "price": 9.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004212",
+      "store_name": "Taco Bell",
+      "city": "Sonora",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-10-22T22:00:55.690382+00:00"
+    },
     {
       "store_number": "035469",
       "store_name": "Taco Bell",
@@ -514,7 +525,7 @@
     }
   ],
   "activity_summary": {
-    "added": 27,
+    "added": 28,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -760,6 +771,15 @@
       9.99,
       "Taco Bell",
       "Modesto",
+      "CA"
+    ],
+    [
+      "004212",
+      37.97633541950182,
+      -120.3442919254303,
+      9.99,
+      "Taco Bell",
+      "Sonora",
       "CA"
     ],
     [

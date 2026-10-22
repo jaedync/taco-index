@@ -22,12 +22,12 @@
     "max": 4.59,
     "median": 4.59,
     "std_dev": 0.0,
-    "store_count": 55
+    "store_count": 56
   },
   "histogram": [
     {
       "bucket": "$4.59",
-      "count": 55
+      "count": 56
     }
   ],
   "state_prices": [
@@ -178,9 +178,17 @@
     "042652",
     "034020",
     "033999",
-    "040524"
+    "040524",
+    "004704"
   ],
   "priciest_stores": [
+    {
+      "store_number": "004704",
+      "name": "Taco Bell",
+      "city": "Newport Beach",
+      "state": "CA",
+      "price": 4.59
+    },
     {
       "store_number": "040524",
       "name": "Taco Bell",
@@ -243,16 +251,19 @@
       "city": "Freeland",
       "state": "MI",
       "price": 4.59
-    },
-    {
-      "store_number": "042645",
-      "name": "Taco Bell",
-      "city": "Saginaw",
-      "state": "MI",
-      "price": 4.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004704",
+      "store_name": "Taco Bell",
+      "city": "Newport Beach",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.59,
+      "observed_at": "2026-10-22T21:59:53.466240+00:00"
+    },
     {
       "store_number": "004704",
       "store_name": "Taco Bell",
@@ -1955,7 +1966,7 @@
     }
   ],
   "activity_summary": {
-    "added": 113,
+    "added": 114,
     "removed": 57,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2459,6 +2470,15 @@
       "Taco Bell",
       "Corunna",
       "MI"
+    ],
+    [
+      "004704",
+      33.6596858238606,
+      -117.86114667357651,
+      4.59,
+      "Taco Bell",
+      "Newport Beach",
+      "CA"
     ]
   ],
   "retired_at": null,

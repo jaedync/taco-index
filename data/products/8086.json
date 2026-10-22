@@ -25,7 +25,7 @@
   "histogram": [
     {
       "bucket": "$0.60",
-      "count": 7492
+      "count": 7490
     },
     {
       "bucket": "$0.61",
@@ -49,7 +49,7 @@
     },
     {
       "bucket": "$0.85",
-      "count": 5
+      "count": 7
     },
     {
       "bucket": "$0.90",
@@ -64,7 +64,7 @@
     {
       "state": "AK",
       "avg_price": 0.85,
-      "store_count": 5
+      "store_count": 7
     },
     {
       "state": "MT",
@@ -89,12 +89,12 @@
     {
       "state": "CA",
       "avg_price": 0.6,
-      "store_count": 833
+      "store_count": 832
     },
     {
       "state": "GA",
       "avg_price": 0.6,
-      "store_count": 259
+      "store_count": 258
     },
     {
       "state": "SC",
@@ -109,7 +109,7 @@
     {
       "state": "NJ",
       "avg_price": 0.6,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "IN",
@@ -284,7 +284,7 @@
     {
       "state": "FL",
       "avg_price": 0.6,
-      "store_count": 439
+      "store_count": 440
     },
     {
       "state": "DE",
@@ -2704,6 +2704,7 @@
     "039735",
     "020846",
     "042631",
+    "009539",
     "033850",
     "005555",
     "004066",
@@ -4246,7 +4247,6 @@
     "042208",
     "031428",
     "030182",
-    "004704",
     "030561",
     "029292",
     "041368",
@@ -6918,12 +6918,10 @@
     "002780",
     "027725",
     "032588",
-    "004431",
     "004554",
     "026112",
     "002220",
     "028910",
-    "039087",
     "032943",
     "032031",
     "028714",
@@ -7936,6 +7934,20 @@
       "price": 0.9
     },
     {
+      "store_number": "032200",
+      "name": "Taco Bell",
+      "city": "Palmer",
+      "state": "AK",
+      "price": 0.85
+    },
+    {
+      "store_number": "018131",
+      "name": "Taco Bell",
+      "city": "Anchorage",
+      "state": "AK",
+      "price": 0.85
+    },
+    {
       "store_number": "043041",
       "name": "Taco Bell",
       "city": "North Pole",
@@ -7948,23 +7960,69 @@
       "city": "Anchorage",
       "state": "AK",
       "price": 0.85
-    },
-    {
-      "store_number": "005649",
-      "name": "Taco Bell",
-      "city": "Eagle River",
-      "state": "AK",
-      "price": 0.85
-    },
-    {
-      "store_number": "019953",
-      "name": "Taco Bell",
-      "city": "Anchorage",
-      "state": "AK",
-      "price": 0.85
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032200",
+      "store_name": "Taco Bell",
+      "city": "Palmer",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.85,
+      "observed_at": "2026-10-22T22:01:26.477132+00:00"
+    },
+    {
+      "store_number": "039087",
+      "store_name": "Taco Bell",
+      "city": "Little Falls",
+      "state": "NJ",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-10-22T22:01:07.927538+00:00"
+    },
+    {
+      "store_number": "004431",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-10-22T22:01:07.877651+00:00"
+    },
+    {
+      "store_number": "004704",
+      "store_name": "Taco Bell",
+      "city": "Newport Beach",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-10-22T21:59:53.466240+00:00"
+    },
+    {
+      "store_number": "009539",
+      "store_name": "Taco Bell",
+      "city": "Navarre",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-10-22T21:58:42.468750+00:00"
+    },
+    {
+      "store_number": "018131",
+      "store_name": "Taco Bell",
+      "city": "Anchorage",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.85,
+      "observed_at": "2026-10-22T21:58:38.965439+00:00"
+    },
     {
       "store_number": "043041",
       "store_name": "Taco Bell",
@@ -84217,8 +84275,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7603,
-    "removed": 10,
+    "added": 7606,
+    "removed": 13,
     "price_changed": 12,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -104973,6 +105031,15 @@
       "MI"
     ],
     [
+      "009539",
+      30.40246823018087,
+      -86.85841418804102,
+      0.6,
+      "Taco Bell",
+      "Navarre",
+      "FL"
+    ],
+    [
       "033850",
       39.595360379856345,
       -104.88829828804228,
@@ -118849,15 +118916,6 @@
       "Taco Bell",
       "Deridder",
       "LA"
-    ],
-    [
-      "004704",
-      33.6596858238606,
-      -117.86114667357651,
-      0.6,
-      "Taco Bell",
-      "Newport Beach",
-      "CA"
     ],
     [
       "030561",
@@ -142899,15 +142957,6 @@
       "MA"
     ],
     [
-      "004431",
-      33.92456432368397,
-      -84.57523492863402,
-      0.6,
-      "Taco Bell",
-      "Marietta",
-      "GA"
-    ],
-    [
       "004554",
       33.926156778159005,
       -118.23869748854406,
@@ -142942,15 +142991,6 @@
       "Taco Bell",
       "Edinburgh",
       "IN"
-    ],
-    [
-      "039087",
-      40.88124023411615,
-      -74.20899787548478,
-      0.6,
-      "Taco Bell",
-      "Little Falls",
-      "NJ"
     ],
     [
       "032943",
@@ -152508,6 +152548,24 @@
       0.85,
       "Taco Bell",
       "North Pole",
+      "AK"
+    ],
+    [
+      "018131",
+      61.13834685274748,
+      -149.95045766705036,
+      0.85,
+      "Taco Bell",
+      "Anchorage",
+      "AK"
+    ],
+    [
+      "032200",
+      61.599191,
+      -149.127888,
+      0.85,
+      "Taco Bell",
+      "Palmer",
       "AK"
     ],
     [

@@ -22,8 +22,8 @@
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.8,
-    "store_count": 33
+    "std_dev": 0.82,
+    "store_count": 32
   },
   "histogram": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 18
+      "count": 17
     },
     {
       "bucket": "$11.99",
@@ -46,8 +46,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 10.9,
-      "store_count": 11
+      "avg_price": 10.89,
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -206,21 +206,31 @@
       "price": 10.99
     },
     {
-      "store_number": "029483",
-      "name": "Taco Bell",
-      "city": "Cary",
-      "state": "NC",
-      "price": 10.99
-    },
-    {
       "store_number": "029412",
       "name": "Taco Bell",
       "city": "Durham",
       "state": "NC",
       "price": 10.99
+    },
+    {
+      "store_number": "029411",
+      "name": "Taco Bell",
+      "city": "Benson",
+      "state": "NC",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029483",
+      "store_name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-10-22T22:01:20.829220+00:00"
+    },
     {
       "store_number": "035717",
       "store_name": "Taco Bell / KFC",
@@ -1994,7 +2004,7 @@
   ],
   "activity_summary": {
     "added": 81,
-    "removed": 48,
+    "removed": 49,
     "price_changed": 48,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2257,15 +2267,6 @@
       "NC"
     ],
     [
-      "029483",
-      35.80337775917284,
-      -78.78350347280502,
-      10.99,
-      "Taco Bell",
-      "Cary",
-      "NC"
-    ],
-    [
       "029482",
       35.7458677872077,
       -79.16668369436593,
@@ -2339,6 +2340,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-21",
+  "last_seen_date": "2026-10-22",
   "peak_availability_pct": 0.4
 }

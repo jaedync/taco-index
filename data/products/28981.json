@@ -20,8 +20,8 @@
     "min": 5.49,
     "max": 6.99,
     "median": 5.99,
-    "std_dev": 0.34,
-    "store_count": 30
+    "std_dev": 0.33,
+    "store_count": 31
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 17
+      "count": 18
     },
     {
       "bucket": "$6.29",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 5.93,
-      "store_count": 9
+      "avg_price": 5.94,
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -197,6 +197,13 @@
       "price": 5.99
     },
     {
+      "store_number": "029411",
+      "name": "Taco Bell",
+      "city": "Benson",
+      "state": "NC",
+      "price": 5.99
+    },
+    {
       "store_number": "029402",
       "name": "Taco Bell",
       "city": "Creedmoor",
@@ -209,16 +216,19 @@
       "city": "Moriarty",
       "state": "NM",
       "price": 5.99
-    },
-    {
-      "store_number": "041399",
-      "name": "Taco Bell",
-      "city": "Louisburg",
-      "state": "NC",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029411",
+      "store_name": "Taco Bell",
+      "city": "Benson",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-10-22T22:01:04.712579+00:00"
+    },
     {
       "store_number": "029411",
       "store_name": "Taco Bell",
@@ -1161,7 +1171,7 @@
     }
   ],
   "activity_summary": {
-    "added": 62,
+    "added": 63,
     "removed": 32,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1379,6 +1389,15 @@
       "NC"
     ],
     [
+      "029411",
+      35.51703677474721,
+      -78.56191411658494,
+      5.99,
+      "Taco Bell",
+      "Benson",
+      "NC"
+    ],
+    [
       "019680",
       39.08047189154303,
       -78.21409679707143,
@@ -1443,6 +1462,6 @@
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-10-21",
+  "last_seen_date": "2026-10-22",
   "peak_availability_pct": 0.4
 }
