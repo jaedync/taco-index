@@ -12,18 +12,22 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.5,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0271,
   "first_seen_at": "2026-09-18T21:20:24.727748+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 4.31,
-    "min": 3.99,
+    "avg": 4.17,
+    "min": 0.3,
     "max": 4.49,
     "median": 4.29,
-    "std_dev": 0.14,
-    "store_count": 29
+    "std_dev": 0.74,
+    "store_count": 30
   },
   "histogram": [
+    {
+      "bucket": "$0.30",
+      "count": 1
+    },
     {
       "bucket": "$3.99",
       "count": 3
@@ -48,8 +52,8 @@
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.4,
-      "store_count": 17
+      "avg_price": 4.17,
+      "store_count": 18
     },
     {
       "state": "TX",
@@ -72,6 +76,13 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
+    {
+      "store_number": "043200",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Los Angeles",
+      "state": "CA",
+      "price": 0.3
+    },
     {
       "store_number": "002981",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -134,19 +145,10 @@
       "city": "Henderson",
       "state": "NV",
       "price": 4.29
-    },
-    {
-      "store_number": "002851",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Humble",
-      "state": "TX",
-      "price": 4.29
     }
   ],
   "min_price_store_numbers": [
-    "002981",
-    "021196",
-    "001331"
+    "043200"
   ],
   "priciest_stores": [
     {
@@ -221,6 +223,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043200",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-10-23T21:00:28.349582+00:00"
+    },
     {
       "store_number": "031895",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -863,7 +875,7 @@
     }
   ],
   "activity_summary": {
-    "added": 45,
+    "added": 46,
     "removed": 16,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
@@ -873,6 +885,15 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
+    [
+      "043200",
+      34.057323,
+      -118.419063,
+      0.3,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Los Angeles",
+      "CA"
+    ],
     [
       "002981",
       32.859492632046816,
@@ -1136,13 +1157,13 @@
     ]
   ],
   "retired_at": "2026-09-23T21:23:27.924163+00:00",
-  "last_seen_date": "2026-10-22",
+  "last_seen_date": "2026-10-23",
   "peak_availability_pct": 0.5,
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 4.29,
-      "min_price": 3.99,
+      "avg_price": 4.19,
+      "min_price": 0.3,
       "max_price": 4.49,
       "calories": 220,
       "happier_hour_avg": null

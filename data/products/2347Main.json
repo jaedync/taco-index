@@ -18,10 +18,10 @@
   "price_stats": {
     "avg": 4.24,
     "min": 4.19,
-    "max": 4.29,
+    "max": 4.49,
     "median": 4.19,
-    "std_dev": 0.05,
-    "store_count": 39
+    "std_dev": 0.06,
+    "store_count": 40
   },
   "histogram": [
     {
@@ -31,13 +31,17 @@
     {
       "bucket": "$4.29",
       "count": 18
+    },
+    {
+      "bucket": "$4.49",
+      "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.27,
-      "store_count": 19
+      "avg_price": 4.28,
+      "store_count": 20
     },
     {
       "state": "TX",
@@ -156,6 +160,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "043200",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Los Angeles",
+      "state": "CA",
+      "price": 4.49
+    },
+    {
       "store_number": "041597",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "San Diego",
@@ -217,16 +228,19 @@
       "city": "Simi Valley",
       "state": "CA",
       "price": 4.29
-    },
-    {
-      "store_number": "039795",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Newhall",
-      "state": "CA",
-      "price": 4.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043200",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-10-23T21:00:28.349582+00:00"
+    },
     {
       "store_number": "002689",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -699,7 +713,7 @@
     }
   ],
   "activity_summary": {
-    "added": 43,
+    "added": 44,
     "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1059,6 +1073,15 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "San Diego",
       "CA"
+    ],
+    [
+      "043200",
+      34.057323,
+      -118.419063,
+      4.49,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Los Angeles",
+      "CA"
     ]
   ],
   "retired_at": null,
@@ -1067,9 +1090,9 @@
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 4.54,
+      "avg_price": 4.55,
       "min_price": 4.49,
-      "max_price": 4.59,
+      "max_price": 4.79,
       "calories": 270,
       "happier_hour_avg": null
     },
@@ -1077,7 +1100,7 @@
       "size": "MEDIUM",
       "avg_price": 4.24,
       "min_price": 4.19,
-      "max_price": 4.29,
+      "max_price": 4.49,
       "calories": 240,
       "happier_hour_avg": null
     }

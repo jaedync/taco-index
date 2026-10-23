@@ -18,12 +18,12 @@
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 4.69,
+    "avg": 4.7,
     "min": 4.19,
     "max": 4.99,
     "median": 4.79,
     "std_dev": 0.23,
-    "store_count": 39
+    "store_count": 40
   },
   "histogram": [
     {
@@ -44,14 +44,14 @@
     },
     {
       "bucket": "$4.99",
-      "count": 6
+      "count": 7
     }
   ],
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.82,
-      "store_count": 19
+      "avg_price": 4.83,
+      "store_count": 20
     },
     {
       "state": "TX",
@@ -153,6 +153,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "043200",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Los Angeles",
+      "state": "CA",
+      "price": 4.99
+    },
+    {
       "store_number": "041597",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "San Diego",
@@ -214,16 +221,19 @@
       "city": "Irving",
       "state": "TX",
       "price": 4.79
-    },
-    {
-      "store_number": "041613",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Chula Vista",
-      "state": "CA",
-      "price": 4.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043200",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-10-23T21:00:28.349582+00:00"
+    },
     {
       "store_number": "021196",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -786,7 +796,7 @@
     }
   ],
   "activity_summary": {
-    "added": 11,
+    "added": 12,
     "removed": 8,
     "price_changed": 37,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1146,6 +1156,15 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "San Diego",
       "CA"
+    ],
+    [
+      "043200",
+      34.057323,
+      -118.419063,
+      4.99,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Los Angeles",
+      "CA"
     ]
   ],
   "retired_at": null,
@@ -1154,15 +1173,15 @@
   "drink_sizes": [
     {
       "size": "MEDIUM",
-      "avg_price": 5.0,
+      "avg_price": 5.01,
       "min_price": 4.59,
-      "max_price": 5.29,
+      "max_price": 5.49,
       "calories": 760,
       "happier_hour_avg": null
     },
     {
       "size": "SMALL",
-      "avg_price": 4.69,
+      "avg_price": 4.7,
       "min_price": 4.19,
       "max_price": 4.99,
       "calories": 560,

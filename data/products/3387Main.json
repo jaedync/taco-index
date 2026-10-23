@@ -16,12 +16,12 @@
   "first_seen_at": "2026-10-15T20:33:39.199868+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 4.08,
+    "avg": 4.09,
     "min": 3.79,
-    "max": 4.19,
-    "median": 4.09,
-    "std_dev": 0.11,
-    "store_count": 40
+    "max": 4.49,
+    "median": 4.19,
+    "std_dev": 0.13,
+    "store_count": 41
   },
   "histogram": [
     {
@@ -35,6 +35,10 @@
     {
       "bucket": "$4.19",
       "count": 20
+    },
+    {
+      "bucket": "$4.49",
+      "count": 1
     }
   ],
   "state_prices": [
@@ -45,8 +49,8 @@
     },
     {
       "state": "CA",
-      "avg_price": 4.03,
-      "store_count": 19
+      "avg_price": 4.06,
+      "store_count": 20
     }
   ],
   "nutrition": {
@@ -140,6 +144,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "043200",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Los Angeles",
+      "state": "CA",
+      "price": 4.49
+    },
+    {
       "store_number": "021196",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Irving",
@@ -201,16 +212,19 @@
       "city": "Dallas",
       "state": "TX",
       "price": 4.19
-    },
-    {
-      "store_number": "027505",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Irvine",
-      "state": "CA",
-      "price": 4.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043200",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-10-23T21:00:28.349582+00:00"
+    },
     {
       "store_number": "024322",
       "store_name": "Taco Bell",
@@ -1373,7 +1387,7 @@
     }
   ],
   "activity_summary": {
-    "added": 78,
+    "added": 79,
     "removed": 38,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1742,19 +1756,28 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Irving",
       "TX"
+    ],
+    [
+      "043200",
+      34.057323,
+      -118.419063,
+      4.49,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Los Angeles",
+      "CA"
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-10-22",
+  "last_seen_date": "2026-10-23",
   "peak_availability_pct": 0.5,
   "drink_sizes": [
     {
       "size": "MEDIUM",
-      "avg_price": 4.08,
+      "avg_price": 4.09,
       "min_price": 3.79,
-      "max_price": 4.19,
+      "max_price": 4.49,
       "calories": 0,
-      "happier_hour_avg": 2.19
+      "happier_hour_avg": 2.18
     }
   ]
 }

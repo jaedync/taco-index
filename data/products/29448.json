@@ -20,10 +20,15 @@
     "min": 10.99,
     "max": 10.99,
     "median": 10.99,
-    "std_dev": null,
-    "store_count": 1
+    "std_dev": 0.0,
+    "store_count": 2
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$10.99",
+      "count": 2
+    }
+  ],
   "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
@@ -39,10 +44,63 @@
     "protein_g": 8.7145,
     "serving_size_g": 92.1358
   },
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "023838",
+      "name": "Taco Bell",
+      "city": "Albuquerque",
+      "state": "NM",
+      "price": 10.99
+    },
+    {
+      "store_number": "029401",
+      "name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "price": 10.99
+    }
+  ],
+  "min_price_store_numbers": [
+    "023838",
+    "029401"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "029401",
+      "name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "price": 10.99
+    },
+    {
+      "store_number": "023838",
+      "name": "Taco Bell",
+      "city": "Albuquerque",
+      "state": "NM",
+      "price": 10.99
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "023838",
+      "store_name": "Taco Bell",
+      "city": "Albuquerque",
+      "state": "NM",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-10-23T20:53:56.123965+00:00"
+    },
+    {
+      "store_number": "029401",
+      "store_name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-10-23T20:53:51.587642+00:00"
+    },
     {
       "store_number": "023838",
       "store_name": "Taco Bell",
@@ -65,12 +123,12 @@
     }
   ],
   "activity_summary": {
-    "added": 1,
+    "added": 3,
     "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
+  "calories_from_menu": 1150,
   "calories_min": 1150,
   "calories_max": 1580,
   "combo_groups": [
@@ -117,8 +175,27 @@
       "default_product_name": "Nacho-Cheese Sauce"
     }
   ],
-  "map_data": [],
+  "map_data": [
+    [
+      "023838",
+      35.192716085819484,
+      -106.72643780708313,
+      10.99,
+      "Taco Bell",
+      "Albuquerque",
+      "NM"
+    ],
+    [
+      "029401",
+      36.72095995536841,
+      -78.11828226665455,
+      10.99,
+      "Taco Bell / KFC",
+      "South Hill",
+      "VA"
+    ]
+  ],
   "retired_at": "2026-10-22T22:03:50.998195+00:00",
-  "last_seen_date": "2026-10-21",
+  "last_seen_date": "2026-10-23",
   "peak_availability_pct": 0.0
 }
