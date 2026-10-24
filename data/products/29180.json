@@ -14,7 +14,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 1.0,
+  "peak_30d_pct": 0.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:05:42.051001+00:00",
   "availability_pct": 1.0,
@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 76
+    "store_count": 77
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 76
+      "count": 77
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 76
+      "store_count": 77
     }
   ],
   "nutrition": {
@@ -201,9 +201,17 @@
     "023295",
     "027984",
     "030277",
-    "027989"
+    "027989",
+    "027969"
   ],
   "priciest_stores": [
+    {
+      "store_number": "027969",
+      "name": "Taco Bell",
+      "city": "Titusville",
+      "state": "FL",
+      "price": 10.99
+    },
     {
       "store_number": "027989",
       "name": "Taco Bell",
@@ -266,16 +274,19 @@
       "city": "Oviedo",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "027973",
-      "name": "Taco Bell",
-      "city": "Rockledge",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027969",
+      "store_name": "Taco Bell",
+      "city": "Titusville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-10-24T22:01:31.085254+00:00"
+    },
     {
       "store_number": "004435",
       "store_name": "Taco Bell",
@@ -3878,7 +3889,7 @@
     }
   ],
   "activity_summary": {
-    "added": 218,
+    "added": 219,
     "removed": 142,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4601,6 +4612,15 @@
       10.99,
       "Taco Bell",
       "Orlando",
+      "FL"
+    ],
+    [
+      "027969",
+      28.590950152596594,
+      -80.80342124933513,
+      10.99,
+      "Taco Bell",
+      "Titusville",
       "FL"
     ]
   ],

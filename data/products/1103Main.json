@@ -11,21 +11,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": 0.0217,
+  "recent_price_change_pct": -0.0212,
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.51,
+    "avg": 2.46,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.49,
+    "median": 2.39,
     "std_dev": 0.28,
-    "store_count": 5
+    "store_count": 6
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$2.29",
@@ -48,6 +48,13 @@
       "name": "Taco Bell",
       "city": "Denver",
       "state": "CO",
+      "price": 2.19
+    },
+    {
+      "store_number": "035133",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "San Jose",
+      "state": "CA",
       "price": 2.19
     },
     {
@@ -80,7 +87,8 @@
     }
   ],
   "min_price_store_numbers": [
-    "039656"
+    "039656",
+    "035133"
   ],
   "priciest_stores": [
     {
@@ -112,6 +120,13 @@
       "price": 2.29
     },
     {
+      "store_number": "035133",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "San Jose",
+      "state": "CA",
+      "price": 2.19
+    },
+    {
       "store_number": "039656",
       "name": "Taco Bell",
       "city": "Denver",
@@ -120,6 +135,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035133",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "San Jose",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-10-24T21:59:24.682538+00:00"
+    },
     {
       "store_number": "035462",
       "store_name": "Taco Bell Cantina",
@@ -562,7 +587,7 @@
     }
   ],
   "activity_summary": {
-    "added": 20,
+    "added": 21,
     "removed": 24,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -580,6 +605,15 @@
       "Taco Bell",
       "Denver",
       "CO"
+    ],
+    [
+      "035133",
+      37.33581325815998,
+      -121.89260208015071,
+      2.19,
+      "Taco Bell Cantina Cantina",
+      "San Jose",
+      "CA"
     ],
     [
       "040658",

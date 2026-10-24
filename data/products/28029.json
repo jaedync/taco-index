@@ -15,26 +15,26 @@
   "peak_30d_pct": 0.7,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-09-17T21:50:59.600476+00:00",
-  "availability_pct": 0.7,
+  "availability_pct": 0.8,
   "price_stats": {
     "avg": 2.99,
     "min": 2.99,
     "max": 2.99,
     "median": 2.99,
     "std_dev": 0.0,
-    "store_count": 58
+    "store_count": 59
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 58
+      "count": 59
     }
   ],
   "state_prices": [
     {
       "state": "TX",
       "avg_price": 2.99,
-      "store_count": 58
+      "store_count": 59
     }
   ],
   "nutrition": {
@@ -181,6 +181,7 @@
     "035737",
     "041184",
     "041076",
+    "041183",
     "034701"
   ],
   "priciest_stores": [
@@ -188,6 +189,13 @@
       "store_number": "034701",
       "name": "Taco Bell",
       "city": "League City",
+      "state": "TX",
+      "price": 2.99
+    },
+    {
+      "store_number": "041183",
+      "name": "Taco Bell",
+      "city": "Houston",
       "state": "TX",
       "price": 2.99
     },
@@ -246,16 +254,19 @@
       "city": "Spring",
       "state": "TX",
       "price": 2.99
-    },
-    {
-      "store_number": "035683",
-      "name": "Taco Bell",
-      "city": "Houston",
-      "state": "TX",
-      "price": 2.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041183",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-10-24T22:02:15.309967+00:00"
+    },
     {
       "store_number": "041183",
       "store_name": "Taco Bell",
@@ -978,7 +989,7 @@
     }
   ],
   "activity_summary": {
-    "added": 65,
+    "added": 66,
     "removed": 7,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1496,6 +1507,15 @@
       "041076",
       29.811252518306187,
       -95.39983928203583,
+      2.99,
+      "Taco Bell",
+      "Houston",
+      "TX"
+    ],
+    [
+      "041183",
+      29.68964771004447,
+      -95.55595457553864,
       2.99,
       "Taco Bell",
       "Houston",
