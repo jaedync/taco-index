@@ -25,12 +25,12 @@
     "max": 2.99,
     "median": 2.99,
     "std_dev": 0.0,
-    "store_count": 16
+    "store_count": 15
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 16
+      "count": 15
     }
   ],
   "state_prices": [
@@ -55,13 +55,6 @@
     "serving_size_g": 138.9125
   },
   "cheapest_stores": [
-    {
-      "store_number": "042981",
-      "name": "Taco Bell",
-      "city": "Waycross",
-      "state": "GA",
-      "price": 2.99
-    },
     {
       "store_number": "042844",
       "name": "Taco Bell",
@@ -124,10 +117,16 @@
       "city": "Jensen Beach",
       "state": "FL",
       "price": 2.99
+    },
+    {
+      "store_number": "042913",
+      "name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "price": 2.99
     }
   ],
   "min_price_store_numbers": [
-    "042981",
     "042844",
     "042854",
     "042882",
@@ -217,6 +216,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042981",
+      "store_name": "Taco Bell",
+      "city": "Waycross",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-10-25T21:09:32.507271+00:00"
+    },
     {
       "store_number": "042945",
       "store_name": "Taco Bell",
@@ -2590,7 +2599,7 @@
   ],
   "activity_summary": {
     "added": 84,
-    "removed": 126,
+    "removed": 127,
     "price_changed": 27,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2599,15 +2608,6 @@
   "calories_max": 350,
   "combo_groups": [],
   "map_data": [
-    [
-      "042981",
-      31.20367267783481,
-      -82.33275963856107,
-      2.99,
-      "Taco Bell",
-      "Waycross",
-      "GA"
-    ],
     [
       "042844",
       26.54648574323647,
@@ -2745,6 +2745,6 @@
     ]
   ],
   "retired_at": "2026-09-17T21:58:01.992326+00:00",
-  "last_seen_date": "2026-10-24",
+  "last_seen_date": "2026-10-25",
   "peak_availability_pct": 1.1
 }
