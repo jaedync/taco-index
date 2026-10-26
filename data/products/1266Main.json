@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:41:09.681814+00:00",
   "availability_pct": 1.1,
   "price_stats": {
-    "avg": 2.34,
+    "avg": 2.35,
     "min": 1.29,
     "max": 2.49,
     "median": 2.49,
     "std_dev": 0.25,
-    "store_count": 84
+    "store_count": 85
   },
   "histogram": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 61
+      "count": 62
     }
   ],
   "state_prices": [
@@ -45,7 +45,7 @@
     {
       "state": "VA",
       "avg_price": 2.33,
-      "store_count": 74
+      "store_count": 75
     }
   ],
   "nutrition": null,
@@ -126,6 +126,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "015877",
+      "name": "Taco Bell",
+      "city": "Chesterfield",
+      "state": "VA",
+      "price": 2.49
+    },
+    {
       "store_number": "032164",
       "name": "Taco Bell",
       "city": "Chesapeake",
@@ -187,16 +194,19 @@
       "city": "Stephens City",
       "state": "VA",
       "price": 2.49
-    },
-    {
-      "store_number": "015854",
-      "name": "Taco Bell",
-      "city": "Glen Allen",
-      "state": "VA",
-      "price": 2.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "015877",
+      "store_name": "Taco Bell",
+      "city": "Chesterfield",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-10-26T20:48:13.645074+00:00"
+    },
     {
       "store_number": "002224",
       "store_name": "Taco Bell",
@@ -1019,7 +1029,7 @@
     }
   ],
   "activity_summary": {
-    "added": 12,
+    "added": 13,
     "removed": 11,
     "price_changed": 59,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1784,6 +1794,15 @@
       "Taco Bell",
       "Chesapeake",
       "VA"
+    ],
+    [
+      "015877",
+      37.37259807879464,
+      -77.50088681282244,
+      2.49,
+      "Taco Bell",
+      "Chesterfield",
+      "VA"
     ]
   ],
   "retired_at": null,
@@ -1792,7 +1811,7 @@
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 2.34,
+      "avg_price": 2.35,
       "min_price": 1.29,
       "max_price": 2.49,
       "calories": 0,

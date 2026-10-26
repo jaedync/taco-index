@@ -18,17 +18,17 @@
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 10.9,
+    "avg": 10.93,
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.82,
-    "store_count": 32
+    "std_dev": 0.81,
+    "store_count": 31
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 10
+      "count": 9
     },
     {
       "bucket": "$10.99",
@@ -115,13 +115,6 @@
       "price": 9.99
     },
     {
-      "store_number": "024033",
-      "name": "Taco Bell",
-      "city": "Clare",
-      "state": "MI",
-      "price": 9.99
-    },
-    {
       "store_number": "003881",
       "name": "Taco Bell / KFC",
       "city": "West Branch",
@@ -134,6 +127,13 @@
       "city": "Petoskey",
       "state": "MI",
       "price": 9.99
+    },
+    {
+      "store_number": "029536",
+      "name": "Taco Bell / KFC",
+      "city": "Miami",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -144,7 +144,6 @@
     "039755",
     "021493",
     "028153",
-    "024033",
     "003881",
     "003758"
   ],
@@ -221,6 +220,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024033",
+      "store_name": "Taco Bell",
+      "city": "Clare",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-10-26T20:50:06.103796+00:00"
+    },
     {
       "store_number": "029483",
       "store_name": "Taco Bell",
@@ -2004,7 +2013,7 @@
   ],
   "activity_summary": {
     "added": 81,
-    "removed": 49,
+    "removed": 50,
     "price_changed": 48,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2111,15 +2120,6 @@
       9.99,
       "Taco Bell / KFC",
       "Ithaca",
-      "MI"
-    ],
-    [
-      "024033",
-      43.83808282529304,
-      -84.7689414024353,
-      9.99,
-      "Taco Bell",
-      "Clare",
       "MI"
     ],
     [
@@ -2340,6 +2340,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-25",
+  "last_seen_date": "2026-10-26",
   "peak_availability_pct": 0.4
 }

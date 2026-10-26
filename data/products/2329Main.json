@@ -21,12 +21,12 @@
     "max": 2.79,
     "median": 1.99,
     "std_dev": 0.17,
-    "store_count": 36
+    "store_count": 37
   },
   "histogram": [
     {
       "bucket": "$1.99",
-      "count": 27
+      "count": 28
     },
     {
       "bucket": "$2.19",
@@ -45,7 +45,7 @@
     {
       "state": "MI",
       "avg_price": 2.05,
-      "store_count": 35
+      "store_count": 36
     }
   ],
   "nutrition": null,
@@ -68,6 +68,13 @@
       "store_number": "042043",
       "name": "Taco Bell",
       "city": "Harrison",
+      "state": "MI",
+      "price": 1.99
+    },
+    {
+      "store_number": "042044",
+      "name": "Taco Bell",
+      "city": "Hemlock",
       "state": "MI",
       "price": 1.99
     },
@@ -112,19 +119,13 @@
       "city": "Montrose",
       "state": "MI",
       "price": 1.99
-    },
-    {
-      "store_number": "038843",
-      "name": "Taco Bell",
-      "city": "Vassar",
-      "state": "MI",
-      "price": 1.99
     }
   ],
   "min_price_store_numbers": [
     "041687",
     "041686",
     "042043",
+    "042044",
     "042230",
     "036386",
     "034923",
@@ -223,6 +224,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042044",
+      "store_name": "Taco Bell",
+      "city": "Hemlock",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-10-26T20:45:42.262323+00:00"
+    },
     {
       "store_number": "042044",
       "store_name": "Taco Bell",
@@ -1775,7 +1786,7 @@
     }
   ],
   "activity_summary": {
-    "added": 96,
+    "added": 97,
     "removed": 59,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1810,6 +1821,15 @@
       1.99,
       "Taco Bell",
       "Harrison",
+      "MI"
+    ],
+    [
+      "042044",
+      43.414482,
+      -84.22749,
+      1.99,
+      "Taco Bell",
+      "Hemlock",
       "MI"
     ],
     [
@@ -2111,7 +2131,7 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-10-25",
+  "last_seen_date": "2026-10-26",
   "peak_availability_pct": 0.6,
   "drink_sizes": [
     {

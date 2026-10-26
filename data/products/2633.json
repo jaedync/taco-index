@@ -13,19 +13,19 @@
   "peak_30d_pct": 42.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 45.3,
+  "availability_pct": 45.4,
   "price_stats": {
     "avg": 0.0,
     "min": 0.0,
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3513
+    "store_count": 3516
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3513
+      "count": 3516
     }
   ],
   "state_prices": [
@@ -57,7 +57,7 @@
     {
       "state": "TX",
       "avg_price": 0.0,
-      "store_count": 100
+      "store_count": 101
     },
     {
       "state": "TN",
@@ -72,7 +72,7 @@
     {
       "state": "SC",
       "avg_price": 0.0,
-      "store_count": 55
+      "store_count": 54
     },
     {
       "state": "PA",
@@ -92,12 +92,12 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 208
+      "store_count": 209
     },
     {
       "state": "NY",
       "avg_price": 0.0,
-      "store_count": 123
+      "store_count": 124
     },
     {
       "state": "NV",
@@ -152,7 +152,7 @@
     {
       "state": "MI",
       "avg_price": 0.0,
-      "store_count": 192
+      "store_count": 193
     },
     {
       "state": "MD",
@@ -1043,6 +1043,7 @@
     "032534",
     "039687",
     "020917",
+    "009485",
     "034364",
     "001690",
     "004356",
@@ -1618,7 +1619,6 @@
     "041594",
     "037585",
     "029660",
-    "026018",
     "032727",
     "004655",
     "032091",
@@ -3000,6 +3000,7 @@
     "028416",
     "027775",
     "030931",
+    "033797",
     "004109",
     "029402",
     "038904",
@@ -3843,10 +3844,19 @@
     "021309",
     "023086",
     "033800",
+    "043456",
     "043488",
-    "043218"
+    "043218",
+    "043117"
   ],
   "priciest_stores": [
+    {
+      "store_number": "043117",
+      "name": "Taco Bell",
+      "city": "Flushing",
+      "state": "NY",
+      "price": 0.0
+    },
     {
       "store_number": "043218",
       "name": "Taco Bell",
@@ -3859,6 +3869,13 @@
       "name": "Taco Bell",
       "city": "Austin",
       "state": "MN",
+      "price": 0.0
+    },
+    {
+      "store_number": "043456",
+      "name": "Taco Bell",
+      "city": "Rogers City",
+      "state": "MI",
       "price": 0.0
     },
     {
@@ -3902,23 +3919,59 @@
       "city": "Hanover",
       "state": "IN",
       "price": 0.0
-    },
-    {
-      "store_number": "042233",
-      "name": "Taco Bell",
-      "city": "Philadlephia",
-      "state": "PA",
-      "price": 0.0
-    },
-    {
-      "store_number": "043227",
-      "name": "Taco Bell",
-      "city": "Deerfield",
-      "state": "IL",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043117",
+      "store_name": "Taco Bell",
+      "city": "Flushing",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-10-26T20:50:21.024967+00:00"
+    },
+    {
+      "store_number": "043456",
+      "store_name": "Taco Bell",
+      "city": "Rogers City",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-10-26T20:50:20.671314+00:00"
+    },
+    {
+      "store_number": "033797",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-10-26T20:49:38.429933+00:00"
+    },
+    {
+      "store_number": "026018",
+      "store_name": "Taco Bell",
+      "city": "Saint George",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-10-26T20:48:18.627137+00:00"
+    },
+    {
+      "store_number": "009485",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-10-26T20:47:42.212418+00:00"
+    },
     {
       "store_number": "043456",
       "store_name": "Taco Bell",
@@ -15331,8 +15384,8 @@
     }
   ],
   "activity_summary": {
-    "added": 553,
-    "removed": 588,
+    "added": 557,
+    "removed": 589,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -21741,6 +21794,15 @@
       "SC"
     ],
     [
+      "009485",
+      29.886782637649915,
+      -95.64334856895925,
+      0.0,
+      "Taco Bell",
+      "Houston",
+      "TX"
+    ],
+    [
       "034364",
       36.37986972743061,
       -86.4644729299971,
@@ -26914,15 +26976,6 @@
       "Taco Bell",
       "Fenton",
       "MO"
-    ],
-    [
-      "026018",
-      33.19443374086051,
-      -80.60961958395117,
-      0.0,
-      "Taco Bell",
-      "Saint George",
-      "SC"
     ],
     [
       "032727",
@@ -39354,6 +39407,15 @@
       "CA"
     ],
     [
+      "033797",
+      39.91941790342261,
+      -83.12776301802842,
+      0.0,
+      "Taco Bell",
+      "Columbus",
+      "OH"
+    ],
+    [
       "004109",
       33.64955627801561,
       -84.01091118158547,
@@ -46941,6 +47003,15 @@
       "OH"
     ],
     [
+      "043456",
+      45.410768,
+      -83.825916,
+      0.0,
+      "Taco Bell",
+      "Rogers City",
+      "MI"
+    ],
+    [
       "043488",
       43.67924031,
       -92.97916635,
@@ -46957,6 +47028,15 @@
       "Taco Bell",
       "Tillamook",
       "OR"
+    ],
+    [
+      "043117",
+      40.7489429,
+      -73.7567993,
+      0.0,
+      "Taco Bell",
+      "Flushing",
+      "NY"
     ]
   ],
   "retired_at": null,

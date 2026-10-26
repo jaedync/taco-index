@@ -24,19 +24,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 18
+    "store_count": 19
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 18
+      "count": 19
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 7.0,
-      "store_count": 18
+      "store_count": 19
     }
   ],
   "nutrition": {
@@ -142,6 +142,7 @@
     "034943",
     "030382",
     "039138",
+    "033292",
     "030379",
     "031461"
   ],
@@ -157,6 +158,13 @@
       "store_number": "030379",
       "name": "Taco Bell",
       "city": "Moore",
+      "state": "OK",
+      "price": 7.0
+    },
+    {
+      "store_number": "033292",
+      "name": "Taco Bell",
+      "city": "Norman",
       "state": "OK",
       "price": 7.0
     },
@@ -208,16 +216,19 @@
       "city": "Yukon",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "033280",
-      "name": "Taco Bell",
-      "city": "Edmond",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033292",
+      "store_name": "Taco Bell",
+      "city": "Norman",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-10-26T20:48:59.634836+00:00"
+    },
     {
       "store_number": "030392",
       "store_name": "Taco Bell",
@@ -890,7 +901,7 @@
     }
   ],
   "activity_summary": {
-    "added": 39,
+    "added": 40,
     "removed": 28,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1073,6 +1084,15 @@
       7.0,
       "Taco Bell",
       "Anadarko",
+      "OK"
+    ],
+    [
+      "033292",
+      35.18233895133625,
+      -97.41836611928193,
+      7.0,
+      "Taco Bell",
+      "Norman",
       "OK"
     ],
     [

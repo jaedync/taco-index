@@ -18,12 +18,12 @@
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 3.56,
+    "avg": 3.57,
     "min": 3.19,
     "max": 4.59,
     "median": 3.59,
     "std_dev": 0.31,
-    "store_count": 27
+    "store_count": 26
   },
   "histogram": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$3.39",
@@ -138,16 +138,16 @@
       "price": 3.29
     },
     {
-      "store_number": "024033",
-      "name": "Taco Bell",
-      "city": "Clare",
-      "state": "MI",
-      "price": 3.29
-    },
-    {
       "store_number": "020974",
       "name": "Taco Bell / KFC",
       "city": "King George",
+      "state": "VA",
+      "price": 3.39
+    },
+    {
+      "store_number": "019680",
+      "name": "Taco Bell / KFC",
+      "city": "Stephens City",
       "state": "VA",
       "price": 3.39
     }
@@ -230,6 +230,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024033",
+      "store_name": "Taco Bell",
+      "city": "Clare",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-10-26T20:50:06.103796+00:00"
+    },
     {
       "store_number": "029401",
       "store_name": "Taco Bell / KFC",
@@ -1023,7 +1033,7 @@
   ],
   "activity_summary": {
     "added": 53,
-    "removed": 25,
+    "removed": 26,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1115,15 +1125,6 @@
       3.29,
       "Taco Bell / KFC",
       "Ithaca",
-      "MI"
-    ],
-    [
-      "024033",
-      43.83808282529304,
-      -84.7689414024353,
-      3.29,
-      "Taco Bell",
-      "Clare",
       "MI"
     ],
     [
@@ -1290,6 +1291,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-25",
+  "last_seen_date": "2026-10-26",
   "peak_availability_pct": 0.3
 }
