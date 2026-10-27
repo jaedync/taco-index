@@ -12,17 +12,17 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 28.4,
-  "recent_price_change_pct": 0.0768,
+  "peak_30d_pct": 27.1,
+  "recent_price_change_pct": 0.0775,
   "first_seen_at": "2026-08-13T20:35:42.738185+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.34,
+    "avg": 3.32,
     "min": 2.99,
-    "max": 3.59,
-    "median": 3.41,
-    "std_dev": 0.2,
-    "store_count": 10
+    "max": 3.49,
+    "median": 3.32,
+    "std_dev": 0.19,
+    "store_count": 9
   },
   "histogram": [
     {
@@ -40,10 +40,6 @@
     {
       "bucket": "$3.49",
       "count": 4
-    },
-    {
-      "bucket": "$3.59",
-      "count": 1
     }
   ],
   "state_prices": [],
@@ -124,26 +120,12 @@
       "city": "Chicago Ridge",
       "state": "IL",
       "price": 3.49
-    },
-    {
-      "store_number": "029273",
-      "name": "Taco Bell / Long John Silver's",
-      "city": "Salem",
-      "state": "NH",
-      "price": 3.59
     }
   ],
   "min_price_store_numbers": [
     "021096"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029273",
-      "name": "Taco Bell / Long John Silver's",
-      "city": "Salem",
-      "state": "NH",
-      "price": 3.59
-    },
     {
       "store_number": "026028",
       "name": "Taco Bell / KFC",
@@ -209,6 +191,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029273",
+      "store_name": "Taco Bell / Long John Silver's",
+      "city": "Salem",
+      "state": "NH",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-10-27T21:38:38.119498+00:00"
+    },
     {
       "store_number": "037570",
       "store_name": "Taco Bell",
@@ -163232,7 +163224,7 @@
   ],
   "activity_summary": {
     "added": 8090,
-    "removed": 8074,
+    "removed": 8075,
     "price_changed": 138,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -163334,15 +163326,6 @@
       "Taco Bell / KFC",
       "Chicago Ridge",
       "IL"
-    ],
-    [
-      "029273",
-      42.75499131386579,
-      -71.20949426296647,
-      3.59,
-      "Taco Bell / Long John Silver's",
-      "Salem",
-      "NH"
     ]
   ],
   "retired_at": null,

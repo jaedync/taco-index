@@ -18,12 +18,12 @@
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 10.93,
+    "avg": 10.92,
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.81,
-    "store_count": 31
+    "std_dev": 0.83,
+    "store_count": 30
   },
   "histogram": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 17
+      "count": 16
     },
     {
       "bucket": "$11.99",
@@ -46,8 +46,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 10.89,
-      "store_count": 10
+      "avg_price": 10.88,
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -212,14 +212,24 @@
       "price": 10.99
     },
     {
-      "store_number": "029411",
+      "store_number": "029402",
       "name": "Taco Bell",
-      "city": "Benson",
+      "city": "Creedmoor",
       "state": "NC",
       "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029411",
+      "store_name": "Taco Bell",
+      "city": "Benson",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-10-27T21:39:36.404131+00:00"
+    },
     {
       "store_number": "024033",
       "store_name": "Taco Bell",
@@ -2013,7 +2023,7 @@
   ],
   "activity_summary": {
     "added": 81,
-    "removed": 50,
+    "removed": 51,
     "price_changed": 48,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2249,15 +2259,6 @@
       "NC"
     ],
     [
-      "029411",
-      35.51703677474721,
-      -78.56191411658494,
-      10.99,
-      "Taco Bell",
-      "Benson",
-      "NC"
-    ],
-    [
       "029412",
       35.919901991392784,
       -78.95752345027176,
@@ -2340,6 +2341,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-26",
+  "last_seen_date": "2026-10-27",
   "peak_availability_pct": 0.4
 }

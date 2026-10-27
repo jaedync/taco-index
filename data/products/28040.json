@@ -12,24 +12,20 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0467,
   "first_seen_at": "2026-09-17T21:51:54.990928+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 5.74,
+    "avg": 5.49,
     "min": 5.49,
-    "max": 5.99,
-    "median": 5.74,
-    "std_dev": 0.35,
-    "store_count": 2
+    "max": 5.49,
+    "median": 5.49,
+    "std_dev": 0.0,
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 1
-    },
-    {
-      "bucket": "$5.99",
       "count": 1
     }
   ],
@@ -55,26 +51,12 @@
       "city": "Chicago Ridge",
       "state": "IL",
       "price": 5.49
-    },
-    {
-      "store_number": "029354",
-      "name": "Taco Bell",
-      "city": "Holly Springs",
-      "state": "NC",
-      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "026028"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029354",
-      "name": "Taco Bell",
-      "city": "Holly Springs",
-      "state": "NC",
-      "price": 5.99
-    },
     {
       "store_number": "026028",
       "name": "Taco Bell / KFC",
@@ -84,6 +66,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029354",
+      "store_name": "Taco Bell",
+      "city": "Holly Springs",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-10-27T21:37:57.704821+00:00"
+    },
     {
       "store_number": "041370",
       "store_name": "Taco Bell / KFC",
@@ -1347,7 +1339,7 @@
   ],
   "activity_summary": {
     "added": 64,
-    "removed": 62,
+    "removed": 63,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1364,18 +1356,9 @@
       "Taco Bell / KFC",
       "Chicago Ridge",
       "IL"
-    ],
-    [
-      "029354",
-      35.63581374810407,
-      -78.83095175027847,
-      5.99,
-      "Taco Bell",
-      "Holly Springs",
-      "NC"
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-10-26",
+  "last_seen_date": "2026-10-27",
   "peak_availability_pct": 0.4
 }

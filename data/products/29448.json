@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-10-21T20:50:02.244278+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 11.32,
+    "avg": 11.24,
     "min": 10.99,
     "max": 11.99,
     "median": 10.99,
-    "std_dev": 0.58,
-    "store_count": 3
+    "std_dev": 0.5,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$11.99",
@@ -64,6 +64,13 @@
       "price": 10.99
     },
     {
+      "store_number": "029536",
+      "name": "Taco Bell / KFC",
+      "city": "Miami",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "029323",
       "name": "Taco Bell / KFC",
       "city": "Northampton",
@@ -73,7 +80,8 @@
   ],
   "min_price_store_numbers": [
     "023838",
-    "029401"
+    "029401",
+    "029536"
   ],
   "priciest_stores": [
     {
@@ -82,6 +90,13 @@
       "city": "Northampton",
       "state": "MA",
       "price": 11.99
+    },
+    {
+      "store_number": "029536",
+      "name": "Taco Bell / KFC",
+      "city": "Miami",
+      "state": "FL",
+      "price": 10.99
     },
     {
       "store_number": "029401",
@@ -99,6 +114,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029536",
+      "store_name": "Taco Bell / KFC",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-10-27T21:37:47.371578+00:00"
+    },
     {
       "store_number": "029323",
       "store_name": "Taco Bell / KFC",
@@ -151,7 +176,7 @@
     }
   ],
   "activity_summary": {
-    "added": 4,
+    "added": 5,
     "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -223,6 +248,15 @@
       "VA"
     ],
     [
+      "029536",
+      25.770179973965377,
+      -80.33099986148045,
+      10.99,
+      "Taco Bell / KFC",
+      "Miami",
+      "FL"
+    ],
+    [
       "029323",
       42.32848585134205,
       -72.63313342632506,
@@ -233,6 +267,6 @@
     ]
   ],
   "retired_at": "2026-10-22T22:03:50.998195+00:00",
-  "last_seen_date": "2026-10-26",
+  "last_seen_date": "2026-10-27",
   "peak_availability_pct": 0.0
 }

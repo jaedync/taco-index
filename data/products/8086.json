@@ -13,14 +13,14 @@
   "peak_30d_pct": 91.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-09-28T21:32:12.437774+00:00",
-  "availability_pct": 98.0,
+  "availability_pct": 97.9,
   "price_stats": {
     "avg": 0.6,
     "min": 0.6,
     "max": 0.99,
     "median": 0.6,
     "std_dev": 0.02,
-    "store_count": 7594
+    "store_count": 7593
   },
   "histogram": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 38
+      "count": 37
     },
     {
       "bucket": "$0.80",
@@ -82,11 +82,6 @@
       "store_count": 255
     },
     {
-      "state": "PA",
-      "avg_price": 0.6,
-      "store_count": 202
-    },
-    {
       "state": "CT",
       "avg_price": 0.6,
       "store_count": 48
@@ -95,6 +90,11 @@
       "state": "CA",
       "avg_price": 0.6,
       "store_count": 833
+    },
+    {
+      "state": "PA",
+      "avg_price": 0.6,
+      "store_count": 201
     },
     {
       "state": "GA",
@@ -114,7 +114,7 @@
     {
       "state": "NJ",
       "avg_price": 0.6,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "IN",
@@ -209,7 +209,7 @@
     {
       "state": "NH",
       "avg_price": 0.6,
-      "store_count": 11
+      "store_count": 12
     },
     {
       "state": "NE",
@@ -224,7 +224,7 @@
     {
       "state": "NC",
       "avg_price": 0.6,
-      "store_count": 265
+      "store_count": 266
     },
     {
       "state": "MS",
@@ -239,7 +239,7 @@
     {
       "state": "MN",
       "avg_price": 0.6,
-      "store_count": 101
+      "store_count": 100
     },
     {
       "state": "ME",
@@ -6274,7 +6274,6 @@
     "037479",
     "002531",
     "041365",
-    "002384",
     "042943",
     "004681",
     "042948",
@@ -6996,7 +6995,6 @@
     "039616",
     "030457",
     "031330",
-    "039085",
     "019680",
     "032399",
     "033179",
@@ -7882,7 +7880,9 @@
     "021309",
     "043246",
     "042787",
-    "043117"
+    "043117",
+    "029354",
+    "029273"
   ],
   "priciest_stores": [
     {
@@ -7957,6 +7957,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039085",
+      "store_name": "Taco Bell",
+      "city": "Edison",
+      "state": "NJ",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-10-27T21:39:41.793994+00:00"
+    },
+    {
+      "store_number": "002384",
+      "store_name": "Taco Bell",
+      "city": "Minneapolis",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-10-27T21:39:19.730151+00:00"
+    },
+    {
+      "store_number": "029273",
+      "store_name": "Taco Bell / Long John Silver's",
+      "city": "Salem",
+      "state": "NH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-10-27T21:38:38.119498+00:00"
+    },
+    {
+      "store_number": "029354",
+      "store_name": "Taco Bell",
+      "city": "Holly Springs",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-10-27T21:37:57.704821+00:00"
+    },
+    {
+      "store_number": "042173",
+      "store_name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 0.75,
+      "new_price": null,
+      "observed_at": "2026-10-27T21:37:01.691839+00:00"
+    },
     {
       "store_number": "043117",
       "store_name": "Taco Bell",
@@ -84469,8 +84519,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7615,
-    "removed": 20,
+    "added": 7617,
+    "removed": 23,
     "price_changed": 16,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -137355,15 +137405,6 @@
       "CA"
     ],
     [
-      "002384",
-      45.003706062809954,
-      -93.22792484432284,
-      0.6,
-      "Taco Bell",
-      "Minneapolis",
-      "MN"
-    ],
-    [
       "042943",
       29.79599519194446,
       -82.49983374774052,
@@ -143851,15 +143892,6 @@
       "Taco Bell",
       "Puyallup",
       "WA"
-    ],
-    [
-      "039085",
-      40.59660250579447,
-      -74.36360996021162,
-      0.6,
-      "Taco Bell",
-      "Edison",
-      "NJ"
     ],
     [
       "019680",
@@ -151836,6 +151868,24 @@
       "NY"
     ],
     [
+      "029354",
+      35.63581374810407,
+      -78.83095175027847,
+      0.6,
+      "Taco Bell",
+      "Holly Springs",
+      "NC"
+    ],
+    [
+      "029273",
+      42.75499131386579,
+      -71.20949426296647,
+      0.6,
+      "Taco Bell / Long John Silver's",
+      "Salem",
+      "NH"
+    ],
+    [
       "038844",
       39.02309298359616,
       -104.8183364856189,
@@ -152257,15 +152307,6 @@
       "Taco Bell",
       "East Elmhurst",
       "NY"
-    ],
-    [
-      "042173",
-      39.95124065528925,
-      -75.16795417485142,
-      0.75,
-      "Taco Bell",
-      "Philadelphia",
-      "PA"
     ],
     [
       "042233",

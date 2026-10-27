@@ -17,14 +17,19 @@
   "first_seen_at": "2026-09-17T21:51:02.005179+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": null,
-    "min": null,
-    "max": null,
-    "median": null,
-    "std_dev": null,
-    "store_count": 0
+    "avg": 3.0,
+    "min": 3.0,
+    "max": 3.0,
+    "median": 3.0,
+    "std_dev": 0.0,
+    "store_count": 1
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$3.00",
+      "count": 1
+    }
+  ],
   "state_prices": [],
   "nutrition": {
     "calories": 601.3659,
@@ -40,10 +45,38 @@
     "protein_g": 20.1592,
     "serving_size_g": 246.6405
   },
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "039118",
+      "name": "Taco Bell",
+      "city": "Mint Hill",
+      "state": "NC",
+      "price": 3.0
+    }
+  ],
+  "min_price_store_numbers": [
+    "039118"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "039118",
+      "name": "Taco Bell",
+      "city": "Mint Hill",
+      "state": "NC",
+      "price": 3.0
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "039118",
+      "store_name": "Taco Bell",
+      "city": "Mint Hill",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-10-27T21:40:02.515277+00:00"
+    },
     {
       "store_number": "032180",
       "store_name": "Taco Bell",
@@ -1556,16 +1589,26 @@
     }
   ],
   "activity_summary": {
-    "added": 76,
+    "added": 77,
     "removed": 75,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
+  "calories_from_menu": 600,
   "calories_min": 600,
   "calories_max": 600,
   "combo_groups": [],
-  "map_data": [],
+  "map_data": [
+    [
+      "039118",
+      35.22404020982818,
+      -80.63364650404785,
+      3.0,
+      "Taco Bell",
+      "Mint Hill",
+      "NC"
+    ]
+  ],
   "retired_at": null,
   "last_seen_date": null,
   "peak_availability_pct": null
