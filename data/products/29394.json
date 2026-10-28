@@ -14,14 +14,14 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-09-17T21:51:54.990928+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 11.95,
+    "avg": 11.91,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.79,
-    "store_count": 28
+    "std_dev": 0.8,
+    "store_count": 26
   },
   "histogram": [
     {
@@ -30,11 +30,11 @@
     },
     {
       "bucket": "$11.99",
-      "count": 17
+      "count": 16
     },
     {
       "bucket": "$12.99",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$13.99",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 11.88,
-      "store_count": 9
+      "avg_price": 11.87,
+      "store_count": 8
     }
   ],
   "nutrition": {
@@ -159,13 +159,6 @@
       "price": 13.99
     },
     {
-      "store_number": "041370",
-      "name": "Taco Bell / KFC",
-      "city": "Rio Vista",
-      "state": "CA",
-      "price": 12.99
-    },
-    {
       "store_number": "041362",
       "name": "Taco Bell / KFC",
       "city": "Lockeford",
@@ -213,9 +206,36 @@
       "city": "Louisburg",
       "state": "NC",
       "price": 11.99
+    },
+    {
+      "store_number": "002649",
+      "name": "Taco Bell / KFC",
+      "city": "Charleston",
+      "state": "SC",
+      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041370",
+      "store_name": "Taco Bell / KFC",
+      "city": "Rio Vista",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 12.99,
+      "new_price": null,
+      "observed_at": "2026-10-28T21:57:18.395281+00:00"
+    },
+    {
+      "store_number": "029482",
+      "store_name": "Taco Bell",
+      "city": "Pittsboro",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-10-28T21:55:24.076660+00:00"
+    },
     {
       "store_number": "029411",
       "store_name": "Taco Bell",
@@ -2169,7 +2189,7 @@
   ],
   "activity_summary": {
     "added": 101,
-    "removed": 73,
+    "removed": 75,
     "price_changed": 21,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2330,15 +2350,6 @@
       "NM"
     ],
     [
-      "029482",
-      35.7458677872077,
-      -79.16668369436593,
-      11.99,
-      "Taco Bell",
-      "Pittsboro",
-      "NC"
-    ],
-    [
       "029404",
       35.60550043842093,
       -78.56779754161835,
@@ -2447,15 +2458,6 @@
       "CA"
     ],
     [
-      "041370",
-      38.16189749872865,
-      -121.69899008995465,
-      12.99,
-      "Taco Bell / KFC",
-      "Rio Vista",
-      "CA"
-    ],
-    [
       "020974",
       38.33900959254854,
       -77.0779993920587,
@@ -2475,6 +2477,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-10-27",
+  "last_seen_date": "2026-10-28",
   "peak_availability_pct": 0.4
 }

@@ -16,21 +16,25 @@
   "first_seen_at": "2026-10-15T20:33:39.199868+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 5.25,
-    "min": 4.99,
+    "avg": 5.21,
+    "min": 4.79,
     "max": 5.99,
     "median": 4.99,
-    "std_dev": 0.28,
-    "store_count": 39
+    "std_dev": 0.29,
+    "store_count": 36
   },
   "histogram": [
+    {
+      "bucket": "$4.79",
+      "count": 1
+    },
     {
       "bucket": "$4.99",
       "count": 20
     },
     {
       "bucket": "$5.49",
-      "count": 18
+      "count": 14
     },
     {
       "bucket": "$5.99",
@@ -40,8 +44,8 @@
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 5.42,
-      "store_count": 20
+      "avg_price": 5.4,
+      "store_count": 17
     },
     {
       "state": "TX",
@@ -64,6 +68,13 @@
     "serving_size_g": 223.424
   },
   "cheapest_stores": [
+    {
+      "store_number": "043326",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "West Lafayette",
+      "state": "IN",
+      "price": 4.79
+    },
     {
       "store_number": "009406",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -126,36 +137,10 @@
       "city": "Watauga",
       "state": "TX",
       "price": 4.99
-    },
-    {
-      "store_number": "001089",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Dallas",
-      "state": "TX",
-      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
-    "009406",
-    "019252",
-    "022811",
-    "024393",
-    "021176",
-    "002689",
-    "002851",
-    "026050",
-    "002981",
-    "001089",
-    "027669",
-    "027505",
-    "001331",
-    "016276",
-    "009489",
-    "002984",
-    "027489",
-    "027416",
-    "021422",
-    "021196"
+    "043326"
   ],
   "priciest_stores": [
     {
@@ -183,13 +168,6 @@
       "store_number": "039841",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Riverside",
-      "state": "CA",
-      "price": 5.49
-    },
-    {
-      "store_number": "041613",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Chula Vista",
       "state": "CA",
       "price": 5.49
     },
@@ -222,14 +200,71 @@
       "price": 5.49
     },
     {
-      "store_number": "039797",
+      "store_number": "039795",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Simi Valley",
+      "city": "Newhall",
+      "state": "CA",
+      "price": 5.49
+    },
+    {
+      "store_number": "039852",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Hemet",
       "state": "CA",
       "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043326",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "West Lafayette",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.79,
+      "observed_at": "2026-10-28T21:57:29.436153+00:00"
+    },
+    {
+      "store_number": "041613",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Chula Vista",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-10-28T21:56:45.808465+00:00"
+    },
+    {
+      "store_number": "039797",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Simi Valley",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-10-28T21:56:21.015022+00:00"
+    },
+    {
+      "store_number": "041611",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "El Cajon",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-10-28T21:56:10.746817+00:00"
+    },
+    {
+      "store_number": "036171",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Henderson",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-10-28T21:52:38.736302+00:00"
+    },
     {
       "store_number": "043326",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -762,8 +797,8 @@
     }
   ],
   "activity_summary": {
-    "added": 46,
-    "removed": 7,
+    "added": 47,
+    "removed": 11,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -772,6 +807,15 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
+    [
+      "043326",
+      40.42166,
+      -86.90221,
+      4.79,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "West Lafayette",
+      "IN"
+    ],
     [
       "009406",
       29.79106516817246,
@@ -953,15 +997,6 @@
       "TX"
     ],
     [
-      "036171",
-      35.9973883,
-      -115.1277426,
-      5.49,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Henderson",
-      "NV"
-    ],
-    [
       "040343",
       36.31465673960959,
       -115.30858985209709,
@@ -1016,30 +1051,12 @@
       "CA"
     ],
     [
-      "041611",
-      32.802124703776066,
-      -117.00442847203766,
-      5.49,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "El Cajon",
-      "CA"
-    ],
-    [
       "039795",
       34.379477085941964,
       -118.56816091239986,
       5.49,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Newhall",
-      "CA"
-    ],
-    [
-      "039797",
-      34.27875107780835,
-      -118.70792449534349,
-      5.49,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Simi Valley",
       "CA"
     ],
     [
@@ -1077,15 +1094,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Las Vegas",
       "NV"
-    ],
-    [
-      "041613",
-      32.64483632374036,
-      -116.99737478794304,
-      5.49,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Chula Vista",
-      "CA"
     ],
     [
       "039841",

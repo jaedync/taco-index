@@ -22,12 +22,12 @@
     "max": 3.0,
     "median": 3.0,
     "std_dev": 0.0,
-    "store_count": 1
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$3.00",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -47,6 +47,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "029528",
+      "name": "Taco Bell",
+      "city": "Gastonia",
+      "state": "NC",
+      "price": 3.0
+    },
+    {
       "store_number": "039118",
       "name": "Taco Bell",
       "city": "Mint Hill",
@@ -55,6 +62,7 @@
     }
   ],
   "min_price_store_numbers": [
+    "029528",
     "039118"
   ],
   "priciest_stores": [
@@ -64,9 +72,26 @@
       "city": "Mint Hill",
       "state": "NC",
       "price": 3.0
+    },
+    {
+      "store_number": "029528",
+      "name": "Taco Bell",
+      "city": "Gastonia",
+      "state": "NC",
+      "price": 3.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029528",
+      "store_name": "Taco Bell",
+      "city": "Gastonia",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.0,
+      "observed_at": "2026-10-28T21:54:37.637654+00:00"
+    },
     {
       "store_number": "039118",
       "store_name": "Taco Bell",
@@ -1589,7 +1614,7 @@
     }
   ],
   "activity_summary": {
-    "added": 77,
+    "added": 78,
     "removed": 75,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1599,6 +1624,15 @@
   "calories_max": 600,
   "combo_groups": [],
   "map_data": [
+    [
+      "029528",
+      35.26034014744842,
+      -81.21464981700228,
+      3.0,
+      "Taco Bell",
+      "Gastonia",
+      "NC"
+    ],
     [
       "039118",
       35.22404020982818,
