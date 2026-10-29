@@ -22,12 +22,12 @@
     "max": 3.99,
     "median": 3.49,
     "std_dev": 0.25,
-    "store_count": 41
+    "store_count": 42
   },
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 21
+      "count": 22
     },
     {
       "bucket": "$3.99",
@@ -38,7 +38,7 @@
     {
       "state": "NV",
       "avg_price": 3.73,
-      "store_count": 41
+      "store_count": 42
     }
   ],
   "nutrition": {
@@ -85,6 +85,13 @@
       "price": 3.49
     },
     {
+      "store_number": "031913",
+      "name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "price": 3.49
+    },
+    {
       "store_number": "031914",
       "name": "Taco Bell",
       "city": "Las Vegas",
@@ -118,13 +125,6 @@
       "city": "Las Vegas",
       "state": "NV",
       "price": 3.49
-    },
-    {
-      "store_number": "031899",
-      "name": "Taco Bell",
-      "city": "Las Vegas",
-      "state": "NV",
-      "price": 3.49
     }
   ],
   "min_price_store_numbers": [
@@ -132,6 +132,7 @@
     "041645",
     "036171",
     "036523",
+    "031913",
     "031914",
     "031917",
     "031865",
@@ -162,13 +163,6 @@
       "store_number": "031886",
       "name": "Taco Bell",
       "city": "Las Vegas",
-      "state": "NV",
-      "price": 3.99
-    },
-    {
-      "store_number": "031877",
-      "name": "Taco Bell",
-      "city": "North Las Vegas",
       "state": "NV",
       "price": 3.99
     },
@@ -220,9 +214,46 @@
       "city": "Las Vegas",
       "state": "NV",
       "price": 3.99
+    },
+    {
+      "store_number": "031889",
+      "name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031877",
+      "store_name": "Taco Bell",
+      "city": "North Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-10-29T22:00:14.303079+00:00"
+    },
+    {
+      "store_number": "031913",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-10-29T21:58:49.956190+00:00"
+    },
+    {
+      "store_number": "037135",
+      "store_name": "Taco Bell",
+      "city": "North Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-10-29T21:58:18.919967+00:00"
+    },
     {
       "store_number": "034350",
       "store_name": "Taco Bell",
@@ -1795,8 +1826,8 @@
     }
   ],
   "activity_summary": {
-    "added": 99,
-    "removed": 58,
+    "added": 101,
+    "removed": 59,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1836,6 +1867,15 @@
       "036523",
       36.17972182498449,
       -115.17859928477014,
+      3.49,
+      "Taco Bell",
+      "Las Vegas",
+      "NV"
+    ],
+    [
+      "031913",
+      36.307495669749244,
+      -115.27916547422237,
       3.49,
       "Taco Bell",
       "Las Vegas",
@@ -2013,6 +2053,15 @@
       "NV"
     ],
     [
+      "037135",
+      36.24019646526403,
+      -115.11878116800759,
+      3.99,
+      "Taco Bell",
+      "North Las Vegas",
+      "NV"
+    ],
+    [
       "040343",
       36.31465673960959,
       -115.30858985209709,
@@ -2145,15 +2194,6 @@
       3.99,
       "Taco Bell",
       "Las Vegas",
-      "NV"
-    ],
-    [
-      "031877",
-      36.23988493465635,
-      -115.17305857968495,
-      3.99,
-      "Taco Bell",
-      "North Las Vegas",
       "NV"
     ],
     [
