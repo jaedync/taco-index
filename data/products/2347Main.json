@@ -16,27 +16,31 @@
   "first_seen_at": "2026-10-15T20:33:39.199868+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 4.23,
+    "avg": 4.24,
     "min": 4.19,
-    "max": 4.29,
+    "max": 4.49,
     "median": 4.19,
-    "std_dev": 0.05,
+    "std_dev": 0.07,
     "store_count": 35
   },
   "histogram": [
     {
       "bucket": "$4.19",
-      "count": 21
+      "count": 20
     },
     {
       "bucket": "$4.29",
       "count": 14
+    },
+    {
+      "bucket": "$4.49",
+      "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.26,
+      "avg_price": 4.28,
       "store_count": 15
     },
     {
@@ -143,7 +147,6 @@
     "002981",
     "001089",
     "027669",
-    "027505",
     "001331",
     "016276",
     "009489",
@@ -155,6 +158,13 @@
     "021196"
   ],
   "priciest_stores": [
+    {
+      "store_number": "043200",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Los Angeles",
+      "state": "CA",
+      "price": 4.49
+    },
     {
       "store_number": "041597",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -217,16 +227,29 @@
       "city": "Temecula",
       "state": "CA",
       "price": 4.29
-    },
-    {
-      "store_number": "039804",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Orange",
-      "state": "CA",
-      "price": 4.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043200",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-10-30T21:49:56.945506+00:00"
+    },
+    {
+      "store_number": "027505",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irvine",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-10-30T21:46:33.220562+00:00"
+    },
     {
       "store_number": "039841",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -799,8 +822,8 @@
     }
   ],
   "activity_summary": {
-    "added": 46,
-    "removed": 11,
+    "added": 47,
+    "removed": 12,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -907,15 +930,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Fort Worth",
       "TX"
-    ],
-    [
-      "027505",
-      33.650962951678,
-      -117.8408906281372,
-      4.19,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Irvine",
-      "CA"
     ],
     [
       "001331",
@@ -1122,6 +1136,15 @@
       4.29,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "San Diego",
+      "CA"
+    ],
+    [
+      "043200",
+      34.057323,
+      -118.419063,
+      4.49,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Los Angeles",
       "CA"
     ]
   ],

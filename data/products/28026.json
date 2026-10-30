@@ -198,7 +198,6 @@
     "035744",
     "035730",
     "027794",
-    "027805",
     "032599",
     "035737",
     "042839",
@@ -207,6 +206,7 @@
     "041184",
     "041076",
     "041185",
+    "041183",
     "034701"
   ],
   "priciest_stores": [
@@ -214,6 +214,13 @@
       "store_number": "034701",
       "name": "Taco Bell",
       "city": "League City",
+      "state": "TX",
+      "price": 1.99
+    },
+    {
+      "store_number": "041183",
+      "name": "Taco Bell",
+      "city": "Houston",
       "state": "TX",
       "price": 1.99
     },
@@ -272,16 +279,29 @@
       "city": "Cypress",
       "state": "TX",
       "price": 1.99
-    },
-    {
-      "store_number": "027805",
-      "name": "Taco Bell",
-      "city": "Spring",
-      "state": "TX",
-      "price": 1.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041183",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-10-30T21:49:51.369902+00:00"
+    },
+    {
+      "store_number": "027805",
+      "store_name": "Taco Bell",
+      "city": "Spring",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-10-30T21:42:47.470127+00:00"
+    },
     {
       "store_number": "041183",
       "store_name": "Taco Bell",
@@ -1304,8 +1324,8 @@
     }
   ],
   "activity_summary": {
-    "added": 93,
-    "removed": 9,
+    "added": 94,
+    "removed": 10,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1981,15 +2001,6 @@
       "TX"
     ],
     [
-      "027805",
-      30.031162188215102,
-      -95.55608994794056,
-      1.99,
-      "Taco Bell",
-      "Spring",
-      "TX"
-    ],
-    [
       "032599",
       29.911910295633163,
       -95.72705740943893,
@@ -2056,6 +2067,15 @@
       "041185",
       29.922008219406745,
       -95.49748783121474,
+      1.99,
+      "Taco Bell",
+      "Houston",
+      "TX"
+    ],
+    [
+      "041183",
+      29.68964771004447,
+      -95.55595457553864,
       1.99,
       "Taco Bell",
       "Houston",
