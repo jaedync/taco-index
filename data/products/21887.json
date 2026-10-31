@@ -22,19 +22,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 144
+    "store_count": 145
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 144
+      "count": 145
     }
   ],
   "state_prices": [
     {
       "state": "TX",
       "avg_price": 10.99,
-      "store_count": 144
+      "store_count": 145
     }
   ],
   "nutrition": {
@@ -266,6 +266,7 @@
     "019792",
     "040025",
     "033473",
+    "033929",
     "032627",
     "033463"
   ],
@@ -281,6 +282,13 @@
       "store_number": "032627",
       "name": "Taco Bell",
       "city": "Aubrey",
+      "state": "TX",
+      "price": 10.99
+    },
+    {
+      "store_number": "033929",
+      "name": "Taco Bell",
+      "city": "Quinlan",
       "state": "TX",
       "price": 10.99
     },
@@ -332,16 +340,19 @@
       "city": "Euless",
       "state": "TX",
       "price": 10.99
-    },
-    {
-      "store_number": "027051",
-      "name": "Taco Bell",
-      "city": "Crowley",
-      "state": "TX",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033929",
+      "store_name": "Taco Bell",
+      "city": "Quinlan",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-10-31T21:27:06.215462+00:00"
+    },
     {
       "store_number": "033929",
       "store_name": "Taco Bell",
@@ -1844,7 +1855,7 @@
     }
   ],
   "activity_summary": {
-    "added": 147,
+    "added": 148,
     "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3155,6 +3166,15 @@
       10.99,
       "Taco Bell",
       "Commerce",
+      "TX"
+    ],
+    [
+      "033929",
+      32.90381293085492,
+      -96.1261290169258,
+      10.99,
+      "Taco Bell",
+      "Quinlan",
       "TX"
     ],
     [

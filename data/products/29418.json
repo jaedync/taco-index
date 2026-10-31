@@ -16,14 +16,14 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 10.92,
+    "avg": 10.84,
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.84,
-    "store_count": 29
+    "std_dev": 0.77,
+    "store_count": 27
   },
   "histogram": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 15
+      "count": 14
     },
     {
       "bucket": "$11.99",
@@ -40,7 +40,7 @@
     },
     {
       "bucket": "$12.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
@@ -149,13 +149,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "020974",
-      "name": "Taco Bell / KFC",
-      "city": "King George",
-      "state": "VA",
-      "price": 12.99
-    },
-    {
       "store_number": "019680",
       "name": "Taco Bell / KFC",
       "city": "Stephens City",
@@ -217,9 +210,36 @@
       "city": "Moriarty",
       "state": "NM",
       "price": 10.99
+    },
+    {
+      "store_number": "041399",
+      "name": "Taco Bell",
+      "city": "Louisburg",
+      "state": "NC",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020974",
+      "store_name": "Taco Bell / KFC",
+      "city": "King George",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 12.99,
+      "new_price": null,
+      "observed_at": "2026-10-31T21:25:19.661901+00:00"
+    },
+    {
+      "store_number": "029401",
+      "store_name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-10-31T21:25:06.190881+00:00"
+    },
     {
       "store_number": "029482",
       "store_name": "Taco Bell",
@@ -2033,7 +2053,7 @@
   ],
   "activity_summary": {
     "added": 81,
-    "removed": 52,
+    "removed": 54,
     "price_changed": 48,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2168,15 +2188,6 @@
       "Taco Bell / KFC",
       "Miami",
       "FL"
-    ],
-    [
-      "029401",
-      36.72095995536841,
-      -78.11828226665455,
-      10.99,
-      "Taco Bell / KFC",
-      "South Hill",
-      "VA"
     ],
     [
       "024051",
@@ -2330,18 +2341,9 @@
       "Taco Bell / KFC",
       "Stephens City",
       "VA"
-    ],
-    [
-      "020974",
-      38.33900959254854,
-      -77.0779993920587,
-      12.99,
-      "Taco Bell / KFC",
-      "King George",
-      "VA"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-30",
+  "last_seen_date": "2026-10-31",
   "peak_availability_pct": 0.4
 }

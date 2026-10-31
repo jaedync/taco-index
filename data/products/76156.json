@@ -18,12 +18,12 @@
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 3.59,
+    "avg": 3.57,
     "min": 3.19,
     "max": 4.59,
-    "median": 3.59,
+    "median": 3.54,
     "std_dev": 0.33,
-    "store_count": 25
+    "store_count": 24
   },
   "histogram": [
     {
@@ -52,7 +52,7 @@
     },
     {
       "bucket": "$3.89",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$4.59",
@@ -201,13 +201,6 @@
       "price": 3.89
     },
     {
-      "store_number": "029401",
-      "name": "Taco Bell / KFC",
-      "city": "South Hill",
-      "state": "VA",
-      "price": 3.89
-    },
-    {
       "store_number": "029536",
       "name": "Taco Bell / KFC",
       "city": "Miami",
@@ -227,9 +220,26 @@
       "city": "Moriarty",
       "state": "NM",
       "price": 3.59
+    },
+    {
+      "store_number": "004173",
+      "name": "Taco Bell / KFC",
+      "city": "Albuquerque",
+      "state": "NM",
+      "price": 3.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029401",
+      "store_name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 3.89,
+      "new_price": null,
+      "observed_at": "2026-10-31T21:25:06.190881+00:00"
+    },
     {
       "store_number": "029483",
       "store_name": "Taco Bell",
@@ -1113,7 +1123,7 @@
   ],
   "activity_summary": {
     "added": 53,
-    "removed": 27,
+    "removed": 28,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1298,15 +1308,6 @@
       "FL"
     ],
     [
-      "029401",
-      36.72095995536841,
-      -78.11828226665455,
-      3.89,
-      "Taco Bell / KFC",
-      "South Hill",
-      "VA"
-    ],
-    [
       "041398",
       36.29845084379178,
       -78.58481152503262,
@@ -1362,6 +1363,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-10-30",
+  "last_seen_date": "2026-10-31",
   "peak_availability_pct": 0.3
 }

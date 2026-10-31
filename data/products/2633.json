@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3515
+    "store_count": 3516
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3515
+      "count": 3516
     }
   ],
   "state_prices": [
@@ -57,7 +57,7 @@
     {
       "state": "TX",
       "avg_price": 0.0,
-      "store_count": 101
+      "store_count": 100
     },
     {
       "state": "TN",
@@ -147,7 +147,7 @@
     {
       "state": "MN",
       "avg_price": 0.0,
-      "store_count": 98
+      "store_count": 99
     },
     {
       "state": "MI",
@@ -162,7 +162,7 @@
     {
       "state": "MA",
       "avg_price": 0.0,
-      "store_count": 32
+      "store_count": 33
     },
     {
       "state": "LA",
@@ -2160,6 +2160,7 @@
     "015443",
     "023093",
     "032693",
+    "004907",
     "039852",
     "042920",
     "037054",
@@ -3837,7 +3838,6 @@
     "042233",
     "042692",
     "022609",
-    "036005",
     "021309",
     "023086",
     "033800",
@@ -3846,9 +3846,17 @@
     "043218",
     "043117",
     "031504",
-    "042802"
+    "042802",
+    "034829"
   ],
   "priciest_stores": [
+    {
+      "store_number": "034829",
+      "name": "Taco Bell",
+      "city": "Springfield",
+      "state": "MA",
+      "price": 0.0
+    },
     {
       "store_number": "042802",
       "name": "Taco Bell",
@@ -3911,16 +3919,39 @@
       "city": "Norfolk",
       "state": "VA",
       "price": 0.0
-    },
-    {
-      "store_number": "036005",
-      "name": "Taco Bell",
-      "city": "Mineral Wells",
-      "state": "TX",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036005",
+      "store_name": "Taco Bell",
+      "city": "Mineral Wells",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-10-31T21:26:07.253777+00:00"
+    },
+    {
+      "store_number": "004907",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-10-31T21:25:44.307715+00:00"
+    },
+    {
+      "store_number": "034829",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-10-31T21:22:13.842493+00:00"
+    },
     {
       "store_number": "042802",
       "store_name": "Taco Bell",
@@ -15553,8 +15584,8 @@
     }
   ],
   "activity_summary": {
-    "added": 565,
-    "removed": 598,
+    "added": 567,
+    "removed": 599,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -32016,6 +32047,15 @@
       "TX"
     ],
     [
+      "004907",
+      45.549982257455824,
+      -94.19873227180688,
+      0.0,
+      "Taco Bell",
+      "Saint Cloud",
+      "MN"
+    ],
+    [
       "039852",
       33.746993553105185,
       -117.00733342770036,
@@ -47109,15 +47149,6 @@
       "WA"
     ],
     [
-      "036005",
-      32.80953457375284,
-      -98.09530337154456,
-      0.0,
-      "Taco Bell",
-      "Mineral Wells",
-      "TX"
-    ],
-    [
       "021309",
       36.86049756823483,
       -76.21043890714645,
@@ -47197,6 +47228,15 @@
       "Taco Bell",
       "Dover",
       "OH"
+    ],
+    [
+      "034829",
+      42.11689792812066,
+      -72.52459552782169,
+      0.0,
+      "Taco Bell",
+      "Springfield",
+      "MA"
     ]
   ],
   "retired_at": null,
