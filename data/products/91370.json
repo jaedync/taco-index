@@ -12,7 +12,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": null,
+  "peak_30d_pct": 0.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-08-06T20:44:16.485064+00:00",
   "availability_pct": 0.0,
@@ -21,16 +21,49 @@
     "min": 10.99,
     "max": 10.99,
     "median": 10.99,
-    "std_dev": null,
-    "store_count": 4
+    "std_dev": 0.0,
+    "store_count": 1
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$10.99",
+      "count": 1
+    }
+  ],
   "state_prices": [],
   "nutrition": null,
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "042981",
+      "name": "Taco Bell",
+      "city": "Waycross",
+      "state": "GA",
+      "price": 10.99
+    }
+  ],
+  "min_price_store_numbers": [
+    "042981"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "042981",
+      "name": "Taco Bell",
+      "city": "Waycross",
+      "state": "GA",
+      "price": 10.99
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "042981",
+      "store_name": "Taco Bell",
+      "city": "Waycross",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-11-01T23:07:01.755810+00:00"
+    },
     {
       "store_number": "042970",
       "store_name": "Taco Bell",
@@ -353,12 +386,12 @@
     }
   ],
   "activity_summary": {
-    "added": 16,
+    "added": 17,
     "removed": 16,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
+  "calories_from_menu": 510,
   "calories_min": 510,
   "calories_max": 930,
   "combo_groups": [
@@ -367,12 +400,6 @@
       "title": "Fountain Drink - Large",
       "default_product_code": "22902",
       "default_product_name": "Large Fountain Drink"
-    },
-    {
-      "group_id": "694",
-      "title": "Avocado Ranch Crispy Chicken Burrito",
-      "default_product_code": "29016",
-      "default_product_name": "Avocado Ranch Crispy Chicken Burrito"
     },
     {
       "group_id": "66",
@@ -387,8 +414,18 @@
       "default_product_name": "Nacho Fries and Nacho Cheese Sauce"
     }
   ],
-  "map_data": [],
+  "map_data": [
+    [
+      "042981",
+      31.20367267783481,
+      -82.33275963856107,
+      10.99,
+      "Taco Bell",
+      "Waycross",
+      "GA"
+    ]
+  ],
   "retired_at": "2026-08-07T21:31:20.860518+00:00",
-  "last_seen_date": "2026-09-16",
+  "last_seen_date": "2026-11-01",
   "peak_availability_pct": 0.1
 }

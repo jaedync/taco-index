@@ -14,19 +14,19 @@
   "peak_30d_pct": 93.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 100.0,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 2.05,
     "min": 0.99,
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.2,
-    "store_count": 7753
+    "store_count": 7750
   },
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 1
+      "count": 3
     },
     {
       "bucket": "$1.59",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4422
+      "count": 4418
     },
     {
       "bucket": "$2.00",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$2.09",
-      "count": 88
+      "count": 87
     },
     {
       "bucket": "$2.12",
@@ -241,7 +241,7 @@
     },
     {
       "state": "IL",
-      "avg_price": 2.08,
+      "avg_price": 2.07,
       "store_count": 289
     },
     {
@@ -292,7 +292,7 @@
     {
       "state": "FL",
       "avg_price": 2.01,
-      "store_count": 455
+      "store_count": 454
     },
     {
       "state": "NE",
@@ -302,7 +302,7 @@
     {
       "state": "VA",
       "avg_price": 2.0,
-      "store_count": 202
+      "store_count": 201
     },
     {
       "state": "CO",
@@ -341,7 +341,7 @@
     },
     {
       "state": "IN",
-      "avg_price": 1.99,
+      "avg_price": 1.98,
       "store_count": 262
     },
     {
@@ -352,7 +352,7 @@
     {
       "state": "NC",
       "avg_price": 1.98,
-      "store_count": 267
+      "store_count": 266
     },
     {
       "state": "NM",
@@ -441,6 +441,20 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "040318",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 0.99
+    },
+    {
+      "store_number": "043006",
+      "name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "price": 0.99
+    },
+    {
       "store_number": "003056",
       "name": "Taco Bell",
       "city": "Whittier",
@@ -495,23 +509,11 @@
       "city": "Penn Valley",
       "state": "CA",
       "price": 1.69
-    },
-    {
-      "store_number": "042418",
-      "name": "Taco Bell",
-      "city": "Sioux Falls",
-      "state": "SD",
-      "price": 1.69
-    },
-    {
-      "store_number": "042672",
-      "name": "Taco Bell",
-      "city": "Ramsey",
-      "state": "MN",
-      "price": 1.69
     }
   ],
   "min_price_store_numbers": [
+    "040318",
+    "043006",
     "003056"
   ],
   "priciest_stores": [
@@ -587,6 +589,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003720",
+      "store_name": "Taco Bell",
+      "city": "Richmond",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 2.09,
+      "new_price": null,
+      "observed_at": "2026-11-01T23:13:27.228551+00:00"
+    },
+    {
+      "store_number": "042841",
+      "store_name": "Taco Bell",
+      "city": "Cape Coral",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-11-01T23:13:02.758614+00:00"
+    },
+    {
+      "store_number": "043006",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-11-01T23:04:42.644107+00:00"
+    },
+    {
+      "store_number": "040318",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-11-01T22:58:04.713852+00:00"
+    },
+    {
+      "store_number": "040640",
+      "store_name": "Taco Bell",
+      "city": "Shelby",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-11-01T22:58:01.944515+00:00"
+    },
     {
       "store_number": "033338",
       "store_name": "Taco Bell",
@@ -27300,8 +27352,8 @@
   ],
   "activity_summary": {
     "added": 283,
-    "removed": 190,
-    "price_changed": 2198,
+    "removed": 193,
+    "price_changed": 2200,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 170,
@@ -27309,6 +27361,24 @@
   "calories_max": 170,
   "combo_groups": [],
   "map_data": [
+    [
+      "040318",
+      41.807919921888036,
+      -87.74351908680534,
+      0.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
+    [
+      "043006",
+      39.79695284567275,
+      -86.01268830428725,
+      0.99,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
     [
       "003056",
       33.98985419924158,
@@ -39487,15 +39557,6 @@
       "IN"
     ],
     [
-      "040640",
-      35.267720540706065,
-      -81.48348188910406,
-      1.99,
-      "Taco Bell",
-      "Shelby",
-      "NC"
-    ],
-    [
       "041133",
       43.968793,
       -88.977631,
@@ -40088,15 +40149,6 @@
       "Taco Bell",
       "Little Rock",
       "AR"
-    ],
-    [
-      "040318",
-      41.807919921888036,
-      -87.74351908680534,
-      1.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
     ],
     [
       "041646",
@@ -43369,15 +43421,6 @@
       "043007",
       39.85505652122834,
       -86.24080654485579,
-      1.99,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
-    ],
-    [
-      "043006",
-      39.79695284567275,
-      -86.01268830428725,
       1.99,
       "Taco Bell",
       "Indianapolis",
@@ -70096,15 +70139,6 @@
       "NM"
     ],
     [
-      "042841",
-      26.621883702519558,
-      -81.94119036197668,
-      1.99,
-      "Taco Bell",
-      "Cape Coral",
-      "FL"
-    ],
-    [
       "034392",
       38.97159635996853,
       -94.77385729551315,
@@ -80092,15 +80126,6 @@
       2.09,
       "Taco Bell",
       "Ashland",
-      "VA"
-    ],
-    [
-      "003720",
-      37.50716622132767,
-      -77.5860258936882,
-      2.09,
-      "Taco Bell",
-      "Richmond",
       "VA"
     ],
     [
