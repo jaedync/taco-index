@@ -18,7 +18,7 @@
   "price_stats": {
     "avg": 3.1,
     "min": 2.39,
-    "max": 3.59,
+    "max": 3.69,
     "median": 3.19,
     "std_dev": 0.22,
     "store_count": 736
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 165
+      "count": 164
     },
     {
       "bucket": "$3.09",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 258
+      "count": 257
     },
     {
       "bucket": "$3.39",
@@ -70,14 +70,23 @@
     },
     {
       "bucket": "$3.49",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$3.59",
       "count": 1
+    },
+    {
+      "bucket": "$3.69",
+      "count": 1
     }
   ],
   "state_prices": [
+    {
+      "state": "CA",
+      "avg_price": 3.34,
+      "store_count": 8
+    },
     {
       "state": "MO",
       "avg_price": 3.32,
@@ -86,12 +95,7 @@
     {
       "state": "AR",
       "avg_price": 3.28,
-      "store_count": 96
-    },
-    {
-      "state": "CA",
-      "avg_price": 3.26,
-      "store_count": 6
+      "store_count": 95
     },
     {
       "state": "OK",
@@ -110,8 +114,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 2.94,
-      "store_count": 8
+      "avg_price": 2.98,
+      "store_count": 9
     },
     {
       "state": "NM",
@@ -207,11 +211,25 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "028109",
+      "name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "price": 3.69
+    },
+    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
       "state": "MO",
       "price": 3.59
+    },
+    {
+      "store_number": "039809",
+      "name": "Taco Bell",
+      "city": "Palmdale",
+      "state": "CA",
+      "price": 3.49
     },
     {
       "store_number": "030742",
@@ -261,23 +279,69 @@
       "city": "Ruidoso",
       "state": "NM",
       "price": 3.39
-    },
-    {
-      "store_number": "034390",
-      "name": "Taco Bell",
-      "city": "Overland Park",
-      "state": "KS",
-      "price": 3.39
-    },
-    {
-      "store_number": "035240",
-      "name": "Taco Bell",
-      "city": "Kansas City",
-      "state": "MO",
-      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "001745",
+      "store_name": "Taco Bell",
+      "city": "Benton",
+      "state": "AR",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-11-02T21:43:44.551574+00:00"
+    },
+    {
+      "store_number": "038846",
+      "store_name": "Taco Bell",
+      "city": "Jeffersonville",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-11-02T21:43:09.481328+00:00"
+    },
+    {
+      "store_number": "039809",
+      "store_name": "Taco Bell",
+      "city": "Palmdale",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-11-02T21:42:16.860204+00:00"
+    },
+    {
+      "store_number": "041255",
+      "store_name": "Taco Bell",
+      "city": "Acworth",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-11-02T21:42:03.308953+00:00"
+    },
+    {
+      "store_number": "028109",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-11-02T21:41:59.381215+00:00"
+    },
+    {
+      "store_number": "024291",
+      "store_name": "Taco Bell",
+      "city": "Phoenix",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-11-02T21:41:40.819623+00:00"
+    },
     {
       "store_number": "042874",
       "store_name": "Taco Bell",
@@ -17480,8 +17544,8 @@
     }
   ],
   "activity_summary": {
-    "added": 707,
-    "removed": 702,
+    "added": 710,
+    "removed": 705,
     "price_changed": 311,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -20027,15 +20091,6 @@
       "Taco Bell",
       "Bryan",
       "TX"
-    ],
-    [
-      "038846",
-      39.6179897479244,
-      -83.60345853326127,
-      2.99,
-      "Taco Bell",
-      "Jeffersonville",
-      "OH"
     ],
     [
       "020919",
@@ -23179,15 +23234,6 @@
       "OK"
     ],
     [
-      "001745",
-      34.58044181400597,
-      -92.57391680036979,
-      3.29,
-      "Taco Bell",
-      "Benton",
-      "AR"
-    ],
-    [
       "027819",
       32.76836823122778,
       -96.89543609593036,
@@ -23935,15 +23981,6 @@
       "MO"
     ],
     [
-      "024291",
-      33.39329182067796,
-      -112.13314146550147,
-      3.29,
-      "Taco Bell",
-      "Phoenix",
-      "AZ"
-    ],
-    [
       "005360",
       34.93394909271328,
       -120.41885728099466,
@@ -23960,6 +23997,15 @@
       "Taco Bell",
       "Mint Hill",
       "NC"
+    ],
+    [
+      "041255",
+      34.03689757180433,
+      -84.68522161245352,
+      3.29,
+      "Taco Bell",
+      "Acworth",
+      "GA"
     ],
     [
       "036251",
@@ -24106,6 +24152,15 @@
       "CA"
     ],
     [
+      "039809",
+      34.55835732543568,
+      -118.08284126224862,
+      3.49,
+      "Taco Bell",
+      "Palmdale",
+      "CA"
+    ],
+    [
       "038783",
       39.050835,
       -94.5884833,
@@ -24113,6 +24168,15 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
+    ],
+    [
+      "028109",
+      38.636666238452555,
+      -121.47575341170523,
+      3.69,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
     ]
   ],
   "retired_at": null,
@@ -24139,7 +24203,7 @@
       "size": "SMALL",
       "avg_price": 2.75,
       "min_price": 1.99,
-      "max_price": 3.19,
+      "max_price": 3.29,
       "calories": 0,
       "happier_hour_avg": null
     }

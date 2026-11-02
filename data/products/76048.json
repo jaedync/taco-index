@@ -18,7 +18,7 @@
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 2.74,
+    "avg": 2.75,
     "min": 2.39,
     "max": 3.59,
     "median": 2.79,
@@ -32,7 +32,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$2.69",
@@ -44,7 +44,7 @@
     },
     {
       "bucket": "$2.89",
-      "count": 9
+      "count": 10
     },
     {
       "bucket": "$3.39",
@@ -59,7 +59,7 @@
     {
       "state": "NC",
       "avg_price": 2.85,
-      "store_count": 9
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -141,11 +141,11 @@
       "price": 2.49
     },
     {
-      "store_number": "002649",
+      "store_number": "020974",
       "name": "Taco Bell / KFC",
-      "city": "Charleston",
-      "state": "SC",
-      "price": 2.49
+      "city": "King George",
+      "state": "VA",
+      "price": 2.69
     }
   ],
   "min_price_store_numbers": [
@@ -185,6 +185,13 @@
       "price": 2.89
     },
     {
+      "store_number": "029483",
+      "name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "price": 2.89
+    },
+    {
       "store_number": "029412",
       "name": "Taco Bell",
       "city": "Durham",
@@ -218,16 +225,29 @@
       "city": "Oxford",
       "state": "NC",
       "price": 2.89
-    },
-    {
-      "store_number": "029404",
-      "name": "Taco Bell",
-      "city": "Garner",
-      "state": "NC",
-      "price": 2.89
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029483",
+      "store_name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-11-02T21:43:25.018425+00:00"
+    },
+    {
+      "store_number": "002649",
+      "store_name": "Taco Bell / KFC",
+      "city": "Charleston",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-11-02T21:42:23.100620+00:00"
+    },
     {
       "store_number": "029483",
       "store_name": "Taco Bell",
@@ -1290,8 +1310,8 @@
     }
   ],
   "activity_summary": {
-    "added": 62,
-    "removed": 31,
+    "added": 63,
+    "removed": 32,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1393,15 +1413,6 @@
       "Taco Bell / KFC",
       "Harrodsburg",
       "KY"
-    ],
-    [
-      "002649",
-      32.787389264873106,
-      -79.95377679524928,
-      2.49,
-      "Taco Bell / KFC",
-      "Charleston",
-      "SC"
     ],
     [
       "020974",
@@ -1548,6 +1559,15 @@
       "NC"
     ],
     [
+      "029483",
+      35.80337775917284,
+      -78.78350347280502,
+      2.89,
+      "Taco Bell",
+      "Cary",
+      "NC"
+    ],
+    [
       "029354",
       35.63581374810407,
       -78.83095175027847,
@@ -1585,6 +1605,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-11-01",
+  "last_seen_date": "2026-11-02",
   "peak_availability_pct": 0.4
 }

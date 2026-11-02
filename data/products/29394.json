@@ -16,21 +16,21 @@
   "first_seen_at": "2026-09-17T21:51:54.990928+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 11.91,
+    "avg": 11.95,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.81,
-    "store_count": 25
+    "std_dev": 0.82,
+    "store_count": 23
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$11.99",
-      "count": 15
+      "count": 14
     },
     {
       "bucket": "$12.99",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 11.87,
-      "store_count": 8
+      "avg_price": 11.88,
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -63,13 +63,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "039735",
-      "name": "Taco Bell / KFC",
-      "city": "Ruckersville",
-      "state": "VA",
-      "price": 10.99
-    },
     {
       "store_number": "028510",
       "name": "Taco Bell / KFC",
@@ -127,15 +120,21 @@
       "price": 11.99
     },
     {
-      "store_number": "024051",
+      "store_number": "023838",
       "name": "Taco Bell",
       "city": "Albuquerque",
       "state": "NM",
       "price": 11.99
+    },
+    {
+      "store_number": "029404",
+      "name": "Taco Bell",
+      "city": "Garner",
+      "state": "NC",
+      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
-    "039735",
     "028510",
     "039755",
     "021493",
@@ -164,6 +163,13 @@
       "city": "Lockeford",
       "state": "CA",
       "price": 12.99
+    },
+    {
+      "store_number": "029483",
+      "name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "price": 11.99
     },
     {
       "store_number": "030424",
@@ -206,16 +212,49 @@
       "city": "Louisburg",
       "state": "NC",
       "price": 11.99
-    },
-    {
-      "store_number": "002649",
-      "name": "Taco Bell / KFC",
-      "city": "Charleston",
-      "state": "SC",
-      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029483",
+      "store_name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-11-02T21:43:25.018425+00:00"
+    },
+    {
+      "store_number": "002649",
+      "store_name": "Taco Bell / KFC",
+      "city": "Charleston",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-11-02T21:42:23.100620+00:00"
+    },
+    {
+      "store_number": "024051",
+      "store_name": "Taco Bell",
+      "city": "Albuquerque",
+      "state": "NM",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-11-02T21:41:32.780462+00:00"
+    },
+    {
+      "store_number": "039735",
+      "store_name": "Taco Bell / KFC",
+      "city": "Ruckersville",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-11-02T21:41:21.166136+00:00"
+    },
     {
       "store_number": "029401",
       "store_name": "Taco Bell / KFC",
@@ -2198,8 +2237,8 @@
     }
   ],
   "activity_summary": {
-    "added": 101,
-    "removed": 76,
+    "added": 102,
+    "removed": 79,
     "price_changed": 21,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2251,15 +2290,6 @@
     }
   ],
   "map_data": [
-    [
-      "039735",
-      38.22995077979435,
-      -78.37071418762207,
-      10.99,
-      "Taco Bell / KFC",
-      "Ruckersville",
-      "VA"
-    ],
     [
       "028510",
       37.559371085147504,
@@ -2333,15 +2363,6 @@
       "NC"
     ],
     [
-      "024051",
-      35.0790273387348,
-      -106.71240643413512,
-      11.99,
-      "Taco Bell",
-      "Albuquerque",
-      "NM"
-    ],
-    [
       "023838",
       35.192716085819484,
       -106.72643780708313,
@@ -2385,15 +2406,6 @@
       "Taco Bell / KFC",
       "Albuquerque",
       "NM"
-    ],
-    [
-      "002649",
-      32.787389264873106,
-      -79.95377679524928,
-      11.99,
-      "Taco Bell / KFC",
-      "Charleston",
-      "SC"
     ],
     [
       "041399",
@@ -2450,6 +2462,15 @@
       "IA"
     ],
     [
+      "029483",
+      35.80337775917284,
+      -78.78350347280502,
+      11.99,
+      "Taco Bell",
+      "Cary",
+      "NC"
+    ],
+    [
       "041362",
       38.154667826863104,
       -121.15507706075726,
@@ -2478,6 +2499,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-11-01",
+  "last_seen_date": "2026-11-02",
   "peak_availability_pct": 0.4
 }

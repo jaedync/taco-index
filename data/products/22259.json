@@ -21,10 +21,10 @@
   "price_stats": {
     "avg": 1.58,
     "min": 1.0,
-    "max": 7.99,
+    "max": 5.49,
     "median": 1.49,
-    "std_dev": 0.28,
-    "store_count": 7741
+    "std_dev": 0.27,
+    "store_count": 7739
   },
   "histogram": [
     {
@@ -61,7 +61,7 @@
     },
     {
       "bucket": "$1.59",
-      "count": 828
+      "count": 827
     },
     {
       "bucket": "$1.60",
@@ -194,10 +194,6 @@
     {
       "bucket": "$5.49",
       "count": 1
-    },
-    {
-      "bucket": "$7.99",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -238,8 +234,8 @@
     },
     {
       "state": "IL",
-      "avg_price": 1.77,
-      "store_count": 289
+      "avg_price": 1.75,
+      "store_count": 288
     },
     {
       "state": "DC",
@@ -264,7 +260,7 @@
     {
       "state": "OR",
       "avg_price": 1.68,
-      "store_count": 123
+      "store_count": 122
     },
     {
       "state": "DE",
@@ -587,13 +583,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "035174",
-      "name": "Taco Bell",
-      "city": "Chicago",
-      "state": "IL",
-      "price": 7.99
-    },
-    {
       "store_number": "026759",
       "name": "Taco Bell",
       "city": "Universal City",
@@ -655,9 +644,36 @@
       "city": "Bronx",
       "state": "NY",
       "price": 3.49
+    },
+    {
+      "store_number": "037467",
+      "name": "Taco Bell",
+      "city": "Bronx",
+      "state": "NY",
+      "price": 3.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032564",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-11-02T21:41:53.283901+00:00"
+    },
+    {
+      "store_number": "035174",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-11-02T21:40:30.232370+00:00"
+    },
     {
       "store_number": "042802",
       "store_name": "Taco Bell",
@@ -132391,7 +132407,7 @@
   ],
   "activity_summary": {
     "added": 6137,
-    "removed": 5725,
+    "removed": 5727,
     "price_changed": 1311,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -174998,15 +175014,6 @@
       "TX"
     ],
     [
-      "032564",
-      44.04604132324431,
-      -122.96378284692764,
-      1.59,
-      "Taco Bell",
-      "Springfield",
-      "OR"
-    ],
-    [
       "031498",
       43.77257548823698,
       -91.2179884314537,
@@ -202059,15 +202066,6 @@
       "Taco Bell",
       "Universal City",
       "CA"
-    ],
-    [
-      "035174",
-      41.94013744513371,
-      -87.65235996298411,
-      7.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
     ]
   ],
   "retired_at": null,
