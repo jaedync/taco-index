@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 70
+    "store_count": 71
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 70
+      "count": 71
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 70
+      "store_count": 71
     }
   ],
   "nutrition": {
@@ -72,6 +72,13 @@
       "store_number": "039587",
       "name": "Taco Bell",
       "city": "Orlando",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "030349",
+      "name": "Taco Bell",
+      "city": "Melbourne",
       "state": "FL",
       "price": 10.99
     },
@@ -116,19 +123,13 @@
       "city": "Sanford",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "023298",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "034809",
     "036232",
     "039587",
+    "030349",
     "042941",
     "022833",
     "023299",
@@ -141,7 +142,6 @@
     "027990",
     "022588",
     "004435",
-    "042927",
     "023297",
     "037822",
     "041844",
@@ -193,6 +193,7 @@
     "022593",
     "022591",
     "023295",
+    "027984",
     "030277",
     "027989",
     "027969"
@@ -216,6 +217,13 @@
       "store_number": "030277",
       "name": "Taco Bell",
       "city": "Apopka",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "027984",
+      "name": "Taco Bell",
+      "city": "Sanford",
       "state": "FL",
       "price": 10.99
     },
@@ -260,16 +268,39 @@
       "city": "Oviedo",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "027973",
-      "name": "Taco Bell",
-      "city": "Rockledge",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042927",
+      "store_name": "Taco Bell",
+      "city": "Belleview",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-11-03T22:29:36.130983+00:00"
+    },
+    {
+      "store_number": "027984",
+      "store_name": "Taco Bell",
+      "city": "Sanford",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-11-03T22:29:15.218989+00:00"
+    },
+    {
+      "store_number": "030349",
+      "store_name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-11-03T22:26:29.585635+00:00"
+    },
     {
       "store_number": "034163",
       "store_name": "Taco Bell",
@@ -4092,8 +4123,8 @@
     }
   ],
   "activity_summary": {
-    "added": 226,
-    "removed": 156,
+    "added": 228,
+    "removed": 157,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4158,6 +4189,15 @@
       10.99,
       "Taco Bell",
       "Orlando",
+      "FL"
+    ],
+    [
+      "030349",
+      28.231152164188327,
+      -80.70049432232909,
+      10.99,
+      "Taco Bell",
+      "Melbourne",
       "FL"
     ],
     [
@@ -4266,15 +4306,6 @@
       10.99,
       "Taco Bell",
       "Orlando",
-      "FL"
-    ],
-    [
-      "042927",
-      29.07398294969833,
-      -82.07236339153496,
-      10.99,
-      "Taco Bell",
-      "Belleview",
       "FL"
     ],
     [
@@ -4734,6 +4765,15 @@
       10.99,
       "Taco Bell",
       "Winter Springs",
+      "FL"
+    ],
+    [
+      "027984",
+      28.8003438222444,
+      -81.3376676291773,
+      10.99,
+      "Taco Bell",
+      "Sanford",
       "FL"
     ],
     [

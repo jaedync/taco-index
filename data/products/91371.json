@@ -23,19 +23,19 @@
     "max": 11.99,
     "median": 11.99,
     "std_dev": 0.0,
-    "store_count": 13
+    "store_count": 14
   },
   "histogram": [
     {
       "bucket": "$11.99",
-      "count": 13
+      "count": 14
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 11.99,
-      "store_count": 12
+      "store_count": 13
     }
   ],
   "nutrition": null,
@@ -51,6 +51,13 @@
       "store_number": "042854",
       "name": "Taco Bell",
       "city": "Naples",
+      "state": "FL",
+      "price": 11.99
+    },
+    {
+      "store_number": "042882",
+      "name": "Taco Bell",
+      "city": "Orange Park",
       "state": "FL",
       "price": 11.99
     },
@@ -102,18 +109,12 @@
       "city": "Homestead",
       "state": "FL",
       "price": 11.99
-    },
-    {
-      "store_number": "042853",
-      "name": "Taco Bell",
-      "city": "Fort Myers",
-      "state": "FL",
-      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
     "042844",
     "042854",
+    "042882",
     "042845",
     "042969",
     "042920",
@@ -199,6 +200,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042882",
+      "store_name": "Taco Bell",
+      "city": "Orange Park",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-11-03T22:26:57.528984+00:00"
+    },
     {
       "store_number": "042882",
       "store_name": "Taco Bell",
@@ -1351,7 +1362,7 @@
     }
   ],
   "activity_summary": {
-    "added": 64,
+    "added": 65,
     "removed": 51,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1414,6 +1425,15 @@
       11.99,
       "Taco Bell",
       "Naples",
+      "FL"
+    ],
+    [
+      "042882",
+      30.18600083709369,
+      -81.73982814701048,
+      11.99,
+      "Taco Bell",
+      "Orange Park",
       "FL"
     ],
     [
@@ -1517,6 +1537,6 @@
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-11-02",
+  "last_seen_date": "2026-11-03",
   "peak_availability_pct": 0.4
 }

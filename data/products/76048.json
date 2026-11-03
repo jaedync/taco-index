@@ -18,12 +18,12 @@
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 2.75,
+    "avg": 2.73,
     "min": 2.39,
     "max": 3.59,
     "median": 2.79,
-    "std_dev": 0.28,
-    "store_count": 30
+    "std_dev": 0.26,
+    "store_count": 29
   },
   "histogram": [
     {
@@ -45,10 +45,6 @@
     {
       "bucket": "$2.89",
       "count": 10
-    },
-    {
-      "bucket": "$3.39",
-      "count": 1
     },
     {
       "bucket": "$3.59",
@@ -164,13 +160,6 @@
       "price": 3.59
     },
     {
-      "store_number": "029323",
-      "name": "Taco Bell / KFC",
-      "city": "Northampton",
-      "state": "MA",
-      "price": 3.39
-    },
-    {
       "store_number": "029402",
       "name": "Taco Bell",
       "city": "Creedmoor",
@@ -225,9 +214,26 @@
       "city": "Oxford",
       "state": "NC",
       "price": 2.89
+    },
+    {
+      "store_number": "029404",
+      "name": "Taco Bell",
+      "city": "Garner",
+      "state": "NC",
+      "price": 2.89
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029323",
+      "store_name": "Taco Bell / KFC",
+      "city": "Northampton",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-11-03T22:28:12.574629+00:00"
+    },
     {
       "store_number": "029483",
       "store_name": "Taco Bell",
@@ -1311,7 +1317,7 @@
   ],
   "activity_summary": {
     "added": 63,
-    "removed": 32,
+    "removed": 33,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1586,15 +1592,6 @@
       "NC"
     ],
     [
-      "029323",
-      42.32848585134205,
-      -72.63313342632506,
-      3.39,
-      "Taco Bell / KFC",
-      "Northampton",
-      "MA"
-    ],
-    [
       "026028",
       41.71567814277641,
       -87.78261208259407,
@@ -1605,6 +1602,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-11-02",
+  "last_seen_date": "2026-11-03",
   "peak_availability_pct": 0.4
 }

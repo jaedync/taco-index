@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 94
+    "store_count": 95
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 94
+      "count": 95
     }
   ],
   "state_prices": [
     {
       "state": "TX",
       "avg_price": 9.0,
-      "store_count": 94
+      "store_count": 95
     }
   ],
   "nutrition": {
@@ -211,6 +211,7 @@
     "028113",
     "027051",
     "016317",
+    "038774",
     "019792",
     "040025",
     "033473",
@@ -262,6 +263,13 @@
       "price": 9.0
     },
     {
+      "store_number": "038774",
+      "name": "Taco Bell",
+      "city": "Dallas",
+      "state": "TX",
+      "price": 9.0
+    },
+    {
       "store_number": "016317",
       "name": "Taco Bell",
       "city": "Euless",
@@ -281,16 +289,19 @@
       "city": "Fort Worth",
       "state": "TX",
       "price": 9.0
-    },
-    {
-      "store_number": "028351",
-      "name": "Taco Bell",
-      "city": "Alvarado",
-      "state": "TX",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038774",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-11-03T22:29:39.901725+00:00"
+    },
     {
       "store_number": "038774",
       "store_name": "Taco Bell",
@@ -3313,7 +3324,7 @@
     }
   ],
   "activity_summary": {
-    "added": 198,
+    "added": 199,
     "removed": 104,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4147,6 +4158,15 @@
       "TX"
     ],
     [
+      "038774",
+      32.79217663220862,
+      -96.74759130971792,
+      9.0,
+      "Taco Bell",
+      "Dallas",
+      "TX"
+    ],
+    [
       "019792",
       32.646424855273864,
       -96.5341470489935,
@@ -4202,6 +4222,6 @@
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-11-02",
+  "last_seen_date": "2026-11-03",
   "peak_availability_pct": 1.2
 }
