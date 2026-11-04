@@ -22,7 +22,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.22,
-    "store_count": 422
+    "store_count": 421
   },
   "histogram": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 137
+      "count": 138
     },
     {
       "bucket": "$0.95",
@@ -75,7 +75,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 85
+      "count": 83
     },
     {
       "bucket": "$1.10",
@@ -115,13 +115,13 @@
     },
     {
       "state": "IL",
-      "avg_price": 1.08,
-      "store_count": 32
+      "avg_price": 1.09,
+      "store_count": 31
     },
     {
       "state": "AL",
       "avg_price": 1.01,
-      "store_count": 17
+      "store_count": 16
     },
     {
       "state": "TX",
@@ -154,6 +154,11 @@
       "store_count": 9
     },
     {
+      "state": "MN",
+      "avg_price": 0.9,
+      "store_count": 13
+    },
+    {
       "state": "NE",
       "avg_price": 0.9,
       "store_count": 6
@@ -162,11 +167,6 @@
       "state": "NC",
       "avg_price": 0.9,
       "store_count": 5
-    },
-    {
-      "state": "MN",
-      "avg_price": 0.9,
-      "store_count": 12
     },
     {
       "state": "OK",
@@ -346,6 +346,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "005401",
+      "store_name": "Taco Bell",
+      "city": "Hastings",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-11-04T22:41:59.488497+00:00"
+    },
+    {
+      "store_number": "029150",
+      "store_name": "Taco Bell",
+      "city": "Tuscaloosa",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-11-04T22:36:52.979204+00:00"
+    },
+    {
+      "store_number": "037826",
+      "store_name": "Taco Bell",
+      "city": "Aurora",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-11-04T22:36:44.294014+00:00"
+    },
     {
       "store_number": "033846",
       "store_name": "Taco Bell",
@@ -26968,8 +26998,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1447,
-    "removed": 1214,
+    "added": 1448,
+    "removed": 1216,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -28572,6 +28602,15 @@
       "MI"
     ],
     [
+      "005401",
+      44.738644013069816,
+      -92.87513708698255,
+      0.9,
+      "Taco Bell",
+      "Hastings",
+      "MN"
+    ],
+    [
       "041086",
       39.72009668768734,
       -82.98767904100833,
@@ -29400,15 +29439,6 @@
       "AL"
     ],
     [
-      "029150",
-      33.198890030908586,
-      -87.5387504249801,
-      1.0,
-      "Taco Bell",
-      "Tuscaloosa",
-      "AL"
-    ],
-    [
       "029157",
       33.20571253256555,
       -87.56997630000114,
@@ -29578,15 +29608,6 @@
       "Taco Bell",
       "Greensboro",
       "NC"
-    ],
-    [
-      "037826",
-      41.8174,
-      -88.2795,
-      1.0,
-      "Taco Bell",
-      "Aurora",
-      "IL"
     ],
     [
       "031824",
@@ -30778,6 +30799,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-11-03",
+  "last_seen_date": "2026-11-04",
   "peak_availability_pct": 13.6
 }

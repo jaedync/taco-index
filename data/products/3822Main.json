@@ -17,21 +17,17 @@
   "first_seen_at": "2026-08-19T21:01:35.541122+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 4.3,
+    "avg": 4.29,
     "min": 4.29,
-    "max": 4.39,
+    "max": 4.29,
     "median": 4.29,
-    "std_dev": 0.03,
-    "store_count": 15
+    "std_dev": 0.0,
+    "store_count": 14
   },
   "histogram": [
     {
       "bucket": "$4.29",
       "count": 14
-    },
-    {
-      "bucket": "$4.39",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -145,13 +141,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "043050",
-      "name": "Taco Bell",
-      "city": "Norton",
-      "state": "MA",
-      "price": 4.39
-    },
-    {
       "store_number": "041488",
       "name": "Taco Bell (ATL Airport)",
       "city": "Atlanta",
@@ -213,9 +202,26 @@
       "city": "Ocoee",
       "state": "FL",
       "price": 4.29
+    },
+    {
+      "store_number": "036720",
+      "name": "Taco Bell",
+      "city": "Greenfield",
+      "state": "CA",
+      "price": 4.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043050",
+      "store_name": "Taco Bell",
+      "city": "Norton",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 4.39,
+      "new_price": null,
+      "observed_at": "2026-11-04T22:42:48.051650+00:00"
+    },
     {
       "store_number": "029273",
       "store_name": "Taco Bell / Long John Silver's",
@@ -213519,7 +213525,7 @@
   ],
   "activity_summary": {
     "added": 10560,
-    "removed": 10539,
+    "removed": 10540,
     "price_changed": 231,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -213653,15 +213659,6 @@
       "Taco Bell (ATL Airport)",
       "Atlanta",
       "GA"
-    ],
-    [
-      "043050",
-      41.98208,
-      -71.20984,
-      4.39,
-      "Taco Bell",
-      "Norton",
-      "MA"
     ]
   ],
   "retired_at": null,

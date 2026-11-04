@@ -16,12 +16,12 @@
   "first_seen_at": "2026-10-15T20:35:01.500623+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.84,
+    "avg": 5.88,
     "min": 5.49,
-    "max": 6.29,
+    "max": 6.99,
     "median": 5.99,
-    "std_dev": 0.27,
-    "store_count": 26
+    "std_dev": 0.35,
+    "store_count": 27
   },
   "histogram": [
     {
@@ -35,6 +35,10 @@
     {
       "bucket": "$6.29",
       "count": 2
+    },
+    {
+      "bucket": "$6.99",
+      "count": 1
     }
   ],
   "state_prices": [
@@ -143,6 +147,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "029323",
+      "name": "Taco Bell / KFC",
+      "city": "Northampton",
+      "state": "MA",
+      "price": 6.99
+    },
+    {
       "store_number": "041370",
       "name": "Taco Bell / KFC",
       "city": "Rio Vista",
@@ -204,16 +215,19 @@
       "city": "Moriarty",
       "state": "NM",
       "price": 5.99
-    },
-    {
-      "store_number": "041399",
-      "name": "Taco Bell",
-      "city": "Louisburg",
-      "state": "NC",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029323",
+      "store_name": "Taco Bell / KFC",
+      "city": "Northampton",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-04T22:38:59.887354+00:00"
+    },
     {
       "store_number": "029323",
       "store_name": "Taco Bell / KFC",
@@ -1236,7 +1250,7 @@
     }
   ],
   "activity_summary": {
-    "added": 64,
+    "added": 65,
     "removed": 38,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1479,9 +1493,18 @@
       "Taco Bell / KFC",
       "Rio Vista",
       "CA"
+    ],
+    [
+      "029323",
+      42.32848585134205,
+      -72.63313342632506,
+      6.99,
+      "Taco Bell / KFC",
+      "Northampton",
+      "MA"
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-11-03",
+  "last_seen_date": "2026-11-04",
   "peak_availability_pct": 0.4
 }

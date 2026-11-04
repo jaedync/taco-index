@@ -18,12 +18,12 @@
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 3.55,
+    "avg": 3.56,
     "min": 3.19,
     "max": 4.59,
     "median": 3.49,
-    "std_dev": 0.34,
-    "store_count": 22
+    "std_dev": 0.33,
+    "store_count": 23
   },
   "histogram": [
     {
@@ -45,6 +45,10 @@
     {
       "bucket": "$3.59",
       "count": 4
+    },
+    {
+      "bucket": "$3.69",
+      "count": 1
     },
     {
       "bucket": "$3.89",
@@ -197,6 +201,13 @@
       "price": 3.89
     },
     {
+      "store_number": "029323",
+      "name": "Taco Bell / KFC",
+      "city": "Northampton",
+      "state": "MA",
+      "price": 3.69
+    },
+    {
       "store_number": "017415",
       "name": "Taco Bell / KFC",
       "city": "Moriarty",
@@ -216,16 +227,19 @@
       "city": "Albuquerque",
       "state": "NM",
       "price": 3.59
-    },
-    {
-      "store_number": "024051",
-      "name": "Taco Bell",
-      "city": "Albuquerque",
-      "state": "NM",
-      "price": 3.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029323",
+      "store_name": "Taco Bell / KFC",
+      "city": "Northampton",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-11-04T22:38:59.887354+00:00"
+    },
     {
       "store_number": "029323",
       "store_name": "Taco Bell / KFC",
@@ -1138,7 +1152,7 @@
     }
   ],
   "activity_summary": {
-    "added": 53,
+    "added": 54,
     "removed": 30,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1306,6 +1320,15 @@
       "NM"
     ],
     [
+      "029323",
+      42.32848585134205,
+      -72.63313342632506,
+      3.69,
+      "Taco Bell / KFC",
+      "Northampton",
+      "MA"
+    ],
+    [
       "029536",
       25.770179973965377,
       -80.33099986148045,
@@ -1361,6 +1384,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-11-03",
+  "last_seen_date": "2026-11-04",
   "peak_availability_pct": 0.3
 }
