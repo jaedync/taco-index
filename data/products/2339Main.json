@@ -16,11 +16,11 @@
   "first_seen_at": "2026-10-15T20:33:39.199868+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 4.68,
+    "avg": 4.69,
     "min": 4.19,
     "max": 5.29,
     "median": 4.79,
-    "std_dev": 0.23,
+    "std_dev": 0.25,
     "store_count": 39
   },
   "histogram": [
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$4.79",
-      "count": 23
+      "count": 22
     },
     {
       "bucket": "$4.99",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$5.29",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
@@ -155,6 +155,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "024322",
+      "name": "Taco Bell",
+      "city": "Muncie",
+      "state": "IN",
+      "price": 5.29
+    },
+    {
       "store_number": "043326",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "West Lafayette",
@@ -204,13 +211,6 @@
       "price": 4.79
     },
     {
-      "store_number": "031895",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Las Vegas",
-      "state": "NV",
-      "price": 4.79
-    },
-    {
       "store_number": "039798",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "La Canada Flintridge",
@@ -226,6 +226,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024322",
+      "store_name": "Taco Bell",
+      "city": "Muncie",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.29,
+      "observed_at": "2026-11-06T22:15:08.670428+00:00"
+    },
+    {
+      "store_number": "031895",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 4.79,
+      "new_price": null,
+      "observed_at": "2026-11-06T22:15:05.558894+00:00"
+    },
     {
       "store_number": "039841",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -878,8 +898,8 @@
     }
   ],
   "activity_summary": {
-    "added": 52,
-    "removed": 13,
+    "added": 53,
+    "removed": 14,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1168,15 +1188,6 @@
       "CA"
     ],
     [
-      "031895",
-      36.02096277494928,
-      -115.12727299472317,
-      4.79,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Las Vegas",
-      "NV"
-    ],
-    [
       "041613",
       32.64483632374036,
       -116.99737478794304,
@@ -1238,6 +1249,15 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "West Lafayette",
       "IN"
+    ],
+    [
+      "024322",
+      40.218559660366374,
+      -85.40705635095946,
+      5.29,
+      "Taco Bell",
+      "Muncie",
+      "IN"
     ]
   ],
   "retired_at": null,
@@ -1246,7 +1266,7 @@
   "drink_sizes": [
     {
       "size": "MEDIUM",
-      "avg_price": 4.98,
+      "avg_price": 5.0,
       "min_price": 4.59,
       "max_price": 5.79,
       "calories": 720,
@@ -1254,7 +1274,7 @@
     },
     {
       "size": "SMALL",
-      "avg_price": 4.68,
+      "avg_price": 4.7,
       "min_price": 4.19,
       "max_price": 5.29,
       "calories": 560,

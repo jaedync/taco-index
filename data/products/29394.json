@@ -16,17 +16,17 @@
   "first_seen_at": "2026-09-17T21:51:54.990928+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 11.94,
+    "avg": 11.99,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
     "std_dev": 0.84,
-    "store_count": 22
+    "store_count": 21
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$11.99",
@@ -85,13 +85,6 @@
       "price": 10.99
     },
     {
-      "store_number": "003881",
-      "name": "Taco Bell / KFC",
-      "city": "West Branch",
-      "state": "MI",
-      "price": 10.99
-    },
-    {
       "store_number": "028153",
       "name": "Taco Bell / KFC",
       "city": "Ithaca",
@@ -132,13 +125,19 @@
       "city": "Garner",
       "state": "NC",
       "price": 11.99
+    },
+    {
+      "store_number": "041398",
+      "name": "Taco Bell",
+      "city": "Oxford",
+      "state": "NC",
+      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
     "028510",
     "039755",
     "021493",
-    "003881",
     "028153",
     "003758"
   ],
@@ -165,17 +164,17 @@
       "price": 12.99
     },
     {
-      "store_number": "029483",
-      "name": "Taco Bell",
-      "city": "Cary",
-      "state": "NC",
-      "price": 11.99
-    },
-    {
       "store_number": "030424",
       "name": "Taco Bell / KFC",
       "city": "Osceola",
       "state": "IA",
+      "price": 11.99
+    },
+    {
+      "store_number": "029412",
+      "name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
       "price": 11.99
     },
     {
@@ -215,6 +214,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029483",
+      "store_name": "Taco Bell",
+      "city": "Cary",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-11-06T22:15:49.373767+00:00"
+    },
+    {
+      "store_number": "029412",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-11-06T22:15:43.690555+00:00"
+    },
+    {
+      "store_number": "003881",
+      "store_name": "Taco Bell / KFC",
+      "city": "West Branch",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-11-06T22:14:33.570909+00:00"
+    },
     {
       "store_number": "029412",
       "store_name": "Taco Bell",
@@ -2267,8 +2296,8 @@
     }
   ],
   "activity_summary": {
-    "added": 103,
-    "removed": 81,
+    "added": 104,
+    "removed": 83,
     "price_changed": 21,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2346,15 +2375,6 @@
       "Taco Bell / KFC",
       "Harrodsburg",
       "KY"
-    ],
-    [
-      "003881",
-      44.24882764927901,
-      -84.22466313700662,
-      10.99,
-      "Taco Bell / KFC",
-      "West Branch",
-      "MI"
     ],
     [
       "028153",
@@ -2474,6 +2494,15 @@
       "NC"
     ],
     [
+      "029412",
+      35.919901991392784,
+      -78.95752345027176,
+      11.99,
+      "Taco Bell",
+      "Durham",
+      "NC"
+    ],
+    [
       "030424",
       41.02537540476871,
       -93.79682839663474,
@@ -2481,15 +2510,6 @@
       "Taco Bell / KFC",
       "Osceola",
       "IA"
-    ],
-    [
-      "029483",
-      35.80337775917284,
-      -78.78350347280502,
-      11.99,
-      "Taco Bell",
-      "Cary",
-      "NC"
     ],
     [
       "041362",
@@ -2520,6 +2540,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-11-05",
+  "last_seen_date": "2026-11-06",
   "peak_availability_pct": 0.4
 }

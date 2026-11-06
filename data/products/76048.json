@@ -23,7 +23,7 @@
     "max": 3.59,
     "median": 2.79,
     "std_dev": 0.28,
-    "store_count": 29
+    "store_count": 30
   },
   "histogram": [
     {
@@ -44,7 +44,7 @@
     },
     {
       "bucket": "$2.89",
-      "count": 9
+      "count": 10
     },
     {
       "bucket": "$3.39",
@@ -59,7 +59,7 @@
     {
       "state": "NC",
       "avg_price": 2.85,
-      "store_count": 9
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -192,6 +192,13 @@
       "price": 2.89
     },
     {
+      "store_number": "029412",
+      "name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "price": 2.89
+    },
+    {
       "store_number": "029411",
       "name": "Taco Bell",
       "city": "Benson",
@@ -218,16 +225,19 @@
       "city": "Oxford",
       "state": "NC",
       "price": 2.89
-    },
-    {
-      "store_number": "029404",
-      "name": "Taco Bell",
-      "city": "Garner",
-      "state": "NC",
-      "price": 2.89
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029412",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-11-06T22:15:43.690555+00:00"
+    },
     {
       "store_number": "029412",
       "store_name": "Taco Bell",
@@ -1340,7 +1350,7 @@
     }
   ],
   "activity_summary": {
-    "added": 64,
+    "added": 65,
     "removed": 34,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1580,6 +1590,15 @@
       "NC"
     ],
     [
+      "029412",
+      35.919901991392784,
+      -78.95752345027176,
+      2.89,
+      "Taco Bell",
+      "Durham",
+      "NC"
+    ],
+    [
       "029483",
       35.80337775917284,
       -78.78350347280502,
@@ -1626,6 +1645,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-11-05",
+  "last_seen_date": "2026-11-06",
   "peak_availability_pct": 0.4
 }

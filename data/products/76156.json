@@ -18,12 +18,12 @@
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 3.56,
+    "avg": 3.57,
     "min": 3.19,
     "max": 4.59,
-    "median": 3.49,
+    "median": 3.54,
     "std_dev": 0.33,
-    "store_count": 23
+    "store_count": 24
   },
   "histogram": [
     {
@@ -52,7 +52,7 @@
     },
     {
       "bucket": "$3.89",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$4.59",
@@ -62,8 +62,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 3.81,
-      "store_count": 5
+      "avg_price": 3.82,
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -173,6 +173,13 @@
       "price": 3.89
     },
     {
+      "store_number": "029412",
+      "name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "price": 3.89
+    },
+    {
       "store_number": "029411",
       "name": "Taco Bell",
       "city": "Benson",
@@ -220,16 +227,19 @@
       "city": "Albuquerque",
       "state": "NM",
       "price": 3.59
-    },
-    {
-      "store_number": "023838",
-      "name": "Taco Bell",
-      "city": "Albuquerque",
-      "state": "NM",
-      "price": 3.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029412",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.89,
+      "observed_at": "2026-11-06T22:15:43.690555+00:00"
+    },
     {
       "store_number": "029323",
       "store_name": "Taco Bell / KFC",
@@ -1152,7 +1162,7 @@
     }
   ],
   "activity_summary": {
-    "added": 54,
+    "added": 55,
     "removed": 30,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1365,6 +1375,15 @@
       "NC"
     ],
     [
+      "029412",
+      35.919901991392784,
+      -78.95752345027176,
+      3.89,
+      "Taco Bell",
+      "Durham",
+      "NC"
+    ],
+    [
       "029354",
       35.63581374810407,
       -78.83095175027847,
@@ -1384,6 +1403,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-11-05",
+  "last_seen_date": "2026-11-06",
   "peak_availability_pct": 0.3
 }
