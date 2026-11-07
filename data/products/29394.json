@@ -20,8 +20,8 @@
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.84,
-    "store_count": 21
+    "std_dev": 0.86,
+    "store_count": 20
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$11.99",
-      "count": 13
+      "count": 12
     },
     {
       "bucket": "$12.99",
@@ -192,13 +192,6 @@
       "price": 11.99
     },
     {
-      "store_number": "029323",
-      "name": "Taco Bell / KFC",
-      "city": "Northampton",
-      "state": "MA",
-      "price": 11.99
-    },
-    {
       "store_number": "041399",
       "name": "Taco Bell",
       "city": "Louisburg",
@@ -211,9 +204,26 @@
       "city": "Albuquerque",
       "state": "NM",
       "price": 11.99
+    },
+    {
+      "store_number": "029406",
+      "name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029323",
+      "store_name": "Taco Bell / KFC",
+      "city": "Northampton",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-11-07T23:02:03.077760+00:00"
+    },
     {
       "store_number": "029483",
       "store_name": "Taco Bell",
@@ -2297,7 +2307,7 @@
   ],
   "activity_summary": {
     "added": 104,
-    "removed": 83,
+    "removed": 84,
     "price_changed": 21,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2467,15 +2477,6 @@
       "NC"
     ],
     [
-      "029323",
-      42.32848585134205,
-      -72.63313342632506,
-      11.99,
-      "Taco Bell / KFC",
-      "Northampton",
-      "MA"
-    ],
-    [
       "017415",
       35.00966699999999,
       -106.06256782209016,
@@ -2540,6 +2541,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-11-06",
+  "last_seen_date": "2026-11-07",
   "peak_availability_pct": 0.4
 }

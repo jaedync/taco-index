@@ -16,21 +16,17 @@
   "first_seen_at": "2026-10-21T20:50:02.244278+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 11.19,
+    "avg": 10.99,
     "min": 10.99,
-    "max": 11.99,
+    "max": 10.99,
     "median": 10.99,
-    "std_dev": 0.45,
-    "store_count": 5
+    "std_dev": 0.0,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$10.99",
       "count": 4
-    },
-    {
-      "bucket": "$11.99",
-      "count": 1
     }
   ],
   "state_prices": [],
@@ -76,13 +72,6 @@
       "city": "Durham",
       "state": "NC",
       "price": 10.99
-    },
-    {
-      "store_number": "029323",
-      "name": "Taco Bell / KFC",
-      "city": "Northampton",
-      "state": "MA",
-      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
@@ -92,13 +81,6 @@
     "029412"
   ],
   "priciest_stores": [
-    {
-      "store_number": "029323",
-      "name": "Taco Bell / KFC",
-      "city": "Northampton",
-      "state": "MA",
-      "price": 11.99
-    },
     {
       "store_number": "029412",
       "name": "Taco Bell",
@@ -129,6 +111,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029323",
+      "store_name": "Taco Bell / KFC",
+      "city": "Northampton",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-11-07T23:02:03.077760+00:00"
+    },
     {
       "store_number": "029483",
       "store_name": "Taco Bell",
@@ -262,7 +254,7 @@
   ],
   "activity_summary": {
     "added": 9,
-    "removed": 4,
+    "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -349,18 +341,9 @@
       "Taco Bell",
       "Durham",
       "NC"
-    ],
-    [
-      "029323",
-      42.32848585134205,
-      -72.63313342632506,
-      11.99,
-      "Taco Bell / KFC",
-      "Northampton",
-      "MA"
     ]
   ],
   "retired_at": "2026-10-22T22:03:50.998195+00:00",
-  "last_seen_date": "2026-11-06",
+  "last_seen_date": "2026-11-07",
   "peak_availability_pct": 0.1
 }

@@ -16,12 +16,12 @@
   "first_seen_at": "2026-10-15T20:33:39.199868+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 4.69,
+    "avg": 4.68,
     "min": 4.19,
     "max": 5.29,
     "median": 4.79,
-    "std_dev": 0.25,
-    "store_count": 39
+    "std_dev": 0.23,
+    "store_count": 38
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$5.29",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
@@ -155,13 +155,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "024322",
-      "name": "Taco Bell",
-      "city": "Muncie",
-      "state": "IN",
-      "price": 5.29
-    },
-    {
       "store_number": "043326",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "West Lafayette",
@@ -223,9 +216,26 @@
       "city": "Corona",
       "state": "CA",
       "price": 4.79
+    },
+    {
+      "store_number": "039851",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Lake Forest",
+      "state": "CA",
+      "price": 4.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024322",
+      "store_name": "Taco Bell",
+      "city": "Muncie",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 5.29,
+      "new_price": null,
+      "observed_at": "2026-11-07T23:02:53.666628+00:00"
+    },
     {
       "store_number": "024322",
       "store_name": "Taco Bell",
@@ -899,7 +909,7 @@
   ],
   "activity_summary": {
     "added": 53,
-    "removed": 14,
+    "removed": 15,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1248,15 +1258,6 @@
       5.29,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "West Lafayette",
-      "IN"
-    ],
-    [
-      "024322",
-      40.218559660366374,
-      -85.40705635095946,
-      5.29,
-      "Taco Bell",
-      "Muncie",
       "IN"
     ]
   ],
