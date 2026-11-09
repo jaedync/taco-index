@@ -10,7 +10,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 42.3,
+  "peak_30d_pct": 42.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
   "availability_pct": 45.2,
@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3504
+    "store_count": 3505
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3504
+      "count": 3505
     }
   ],
   "state_prices": [
@@ -62,7 +62,7 @@
     {
       "state": "TN",
       "avg_price": 0.0,
-      "store_count": 49
+      "store_count": 48
     },
     {
       "state": "SD",
@@ -92,7 +92,7 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 209
+      "store_count": 210
     },
     {
       "state": "NY",
@@ -232,7 +232,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 615
+      "store_count": 616
     },
     {
       "state": "AZ",
@@ -1597,6 +1597,7 @@
     "040028",
     "039052",
     "036358",
+    "033777",
     "033169",
     "040958",
     "003026",
@@ -2706,7 +2707,6 @@
     "031863",
     "042896",
     "032951",
-    "023217",
     "033007",
     "031340",
     "039791",
@@ -3835,9 +3835,17 @@
     "043117",
     "031504",
     "042802",
-    "034829"
+    "034829",
+    "042348"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042348",
+      "name": "Taco Bell",
+      "city": "Clovis",
+      "state": "CA",
+      "price": 0.0
+    },
     {
       "store_number": "034829",
       "name": "Taco Bell",
@@ -3900,16 +3908,39 @@
       "city": "Rawlins",
       "state": "WY",
       "price": 0.0
-    },
-    {
-      "store_number": "021309",
-      "name": "Taco Bell",
-      "city": "Norfolk",
-      "state": "VA",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042348",
+      "store_name": "Taco Bell",
+      "city": "Clovis",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-11-09T22:29:06.237268+00:00"
+    },
+    {
+      "store_number": "023217",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-11-09T22:18:54.730642+00:00"
+    },
+    {
+      "store_number": "033777",
+      "store_name": "Taco Bell",
+      "city": "Centerville",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-11-09T22:14:08.511932+00:00"
+    },
     {
       "store_number": "039825",
       "store_name": "Taco Bell",
@@ -15842,8 +15873,8 @@
     }
   ],
   "activity_summary": {
-    "added": 575,
-    "removed": 618,
+    "added": 577,
+    "removed": 619,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -27238,6 +27269,15 @@
       "IL"
     ],
     [
+      "033777",
+      39.64820094904587,
+      -84.10982206463814,
+      0.0,
+      "Taco Bell",
+      "Centerville",
+      "OH"
+    ],
+    [
       "033169",
       40.76097776098179,
       -111.87306777577128,
@@ -37217,15 +37257,6 @@
       "Taco Bell",
       "Gladstone",
       "OR"
-    ],
-    [
-      "023217",
-      35.95996461432087,
-      -84.98513951897621,
-      0.0,
-      "Taco Bell",
-      "Crossville",
-      "TN"
     ],
     [
       "033007",
@@ -47387,6 +47418,15 @@
       "Taco Bell",
       "Springfield",
       "MA"
+    ],
+    [
+      "042348",
+      36.84555,
+      -119.66345,
+      0.0,
+      "Taco Bell",
+      "Clovis",
+      "CA"
     ]
   ],
   "retired_at": null,
