@@ -12,17 +12,17 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 9.5,
+  "peak_30d_pct": 8.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-08-13T20:35:42.738185+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 6.44,
+    "avg": 6.38,
     "min": 5.99,
     "max": 6.99,
-    "median": 6.24,
-    "std_dev": 0.5,
-    "store_count": 10
+    "median": 5.99,
+    "std_dev": 0.49,
+    "store_count": 9
   },
   "histogram": [
     {
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$6.99",
-      "count": 4
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -116,13 +116,6 @@
       "city": "Prunedale",
       "state": "CA",
       "price": 6.99
-    },
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 6.99
     }
   ],
   "min_price_store_numbers": [
@@ -133,13 +126,6 @@
     "039596"
   ],
   "priciest_stores": [
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 6.99
-    },
     {
       "store_number": "030719",
       "name": "Taco Bell",
@@ -205,6 +191,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-11-10T21:32:21.882944+00:00"
+    },
     {
       "store_number": "029273",
       "store_name": "Taco Bell / Long John Silver's",
@@ -169828,7 +169824,7 @@
   ],
   "activity_summary": {
     "added": 8338,
-    "removed": 8322,
+    "removed": 8323,
     "price_changed": 302,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -169930,15 +169926,6 @@
       "Taco Bell",
       "Prunedale",
       "CA"
-    ],
-    [
-      "026028",
-      41.71567814277641,
-      -87.78261208259407,
-      6.99,
-      "Taco Bell / KFC",
-      "Chicago Ridge",
-      "IL"
     ]
   ],
   "retired_at": null,

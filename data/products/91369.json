@@ -22,12 +22,12 @@
     "max": 11.99,
     "median": 11.99,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$11.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -52,27 +52,12 @@
       "city": "Fort Myers",
       "state": "FL",
       "price": 11.99
-    },
-    {
-      "store_number": "042970",
-      "name": "Taco Bell",
-      "city": "Port Saint Lucie",
-      "state": "FL",
-      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
-    "042844",
-    "042970"
+    "042844"
   ],
   "priciest_stores": [
-    {
-      "store_number": "042970",
-      "name": "Taco Bell",
-      "city": "Port Saint Lucie",
-      "state": "FL",
-      "price": 11.99
-    },
     {
       "store_number": "042844",
       "name": "Taco Bell",
@@ -82,6 +67,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042970",
+      "store_name": "Taco Bell",
+      "city": "Port Saint Lucie",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-11-10T21:34:50.940136+00:00"
+    },
     {
       "store_number": "042945",
       "store_name": "Taco Bell",
@@ -3865,7 +3860,7 @@
   ],
   "activity_summary": {
     "added": 190,
-    "removed": 188,
+    "removed": 189,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3901,18 +3896,9 @@
       "Taco Bell",
       "Fort Myers",
       "FL"
-    ],
-    [
-      "042970",
-      27.27428750457316,
-      -80.34850978217297,
-      11.99,
-      "Taco Bell",
-      "Port Saint Lucie",
-      "FL"
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-11-09",
+  "last_seen_date": "2026-11-10",
   "peak_availability_pct": 1.1
 }

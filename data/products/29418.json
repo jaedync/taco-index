@@ -18,17 +18,17 @@
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 10.86,
+    "avg": 10.99,
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.76,
+    "std_dev": 0.85,
     "store_count": 23
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$10.99",
@@ -40,7 +40,7 @@
     },
     {
       "bucket": "$12.99",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
@@ -65,13 +65,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 9.99
-    },
     {
       "store_number": "035717",
       "name": "Taco Bell / KFC",
@@ -134,10 +127,16 @@
       "city": "Garner",
       "state": "NC",
       "price": 10.99
+    },
+    {
+      "store_number": "041398",
+      "name": "Taco Bell",
+      "city": "Oxford",
+      "state": "NC",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
-    "026028",
     "035717",
     "028510",
     "039755",
@@ -151,6 +150,13 @@
       "name": "Taco Bell / KFC",
       "city": "Stephens City",
       "state": "VA",
+      "price": 12.99
+    },
+    {
+      "store_number": "026028",
+      "name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
       "price": 12.99
     },
     {
@@ -208,16 +214,19 @@
       "city": "Moriarty",
       "state": "NM",
       "price": 10.99
-    },
-    {
-      "store_number": "041399",
-      "name": "Taco Bell",
-      "city": "Louisburg",
-      "state": "NC",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 9.99,
+      "new_price": 12.99,
+      "observed_at": "2026-11-10T21:32:21.882944+00:00"
+    },
     {
       "store_number": "029483",
       "store_name": "Taco Bell",
@@ -2192,7 +2201,7 @@
   "activity_summary": {
     "added": 86,
     "removed": 63,
-    "price_changed": 48,
+    "price_changed": 49,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 990,
@@ -2237,15 +2246,6 @@
     }
   ],
   "map_data": [
-    [
-      "026028",
-      41.71567814277641,
-      -87.78261208259407,
-      9.99,
-      "Taco Bell / KFC",
-      "Chicago Ridge",
-      "IL"
-    ],
     [
       "035717",
       29.995722509460837,
@@ -2436,6 +2436,15 @@
       "CA"
     ],
     [
+      "026028",
+      41.71567814277641,
+      -87.78261208259407,
+      12.99,
+      "Taco Bell / KFC",
+      "Chicago Ridge",
+      "IL"
+    ],
+    [
       "019680",
       39.08047189154303,
       -78.21409679707143,
@@ -2446,6 +2455,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-11-09",
+  "last_seen_date": "2026-11-10",
   "peak_availability_pct": 0.4
 }

@@ -13,7 +13,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 26.1,
+  "peak_30d_pct": 25.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-08-12T20:59:37.500405+00:00",
   "availability_pct": 0.2,
@@ -23,12 +23,12 @@
     "max": 1.0,
     "median": 1.0,
     "std_dev": 0.0,
-    "store_count": 14
+    "store_count": 13
   },
   "histogram": [
     {
       "bucket": "$1.00",
-      "count": 14
+      "count": 13
     }
   ],
   "state_prices": [
@@ -137,17 +137,9 @@
     "039596",
     "030719",
     "039598",
-    "041488",
-    "026028"
+    "041488"
   ],
   "priciest_stores": [
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 1.0
-    },
     {
       "store_number": "041488",
       "name": "Taco Bell (ATL Airport)",
@@ -210,9 +202,26 @@
       "city": "Greenfield",
       "state": "CA",
       "price": 1.0
+    },
+    {
+      "store_number": "036276",
+      "name": "Taco Bell",
+      "city": "Albert Lea",
+      "state": "MN",
+      "price": 1.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-11-10T21:32:21.882944+00:00"
+    },
     {
       "store_number": "043054",
       "store_name": "Taco Bell",
@@ -158396,7 +158405,7 @@
   ],
   "activity_summary": {
     "added": 7648,
-    "removed": 7628,
+    "removed": 7629,
     "price_changed": 542,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -158521,15 +158530,6 @@
       "Taco Bell (ATL Airport)",
       "Atlanta",
       "GA"
-    ],
-    [
-      "026028",
-      41.71567814277641,
-      -87.78261208259407,
-      1.0,
-      "Taco Bell / KFC",
-      "Chicago Ridge",
-      "IL"
     ]
   ],
   "retired_at": null,

@@ -16,12 +16,12 @@
   "first_seen_at": "2026-09-17T21:51:54.990928+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 11.99,
+    "avg": 12.02,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.88,
-    "store_count": 19
+    "std_dev": 0.92,
+    "store_count": 18
   },
   "histogram": [
     {
@@ -30,7 +30,11 @@
     },
     {
       "bucket": "$11.99",
-      "count": 11
+      "count": 9
+    },
+    {
+      "bucket": "$12.49",
+      "count": 1
     },
     {
       "bucket": "$12.99",
@@ -99,24 +103,10 @@
       "price": 10.99
     },
     {
-      "store_number": "029536",
-      "name": "Taco Bell / KFC",
-      "city": "Miami",
-      "state": "FL",
-      "price": 11.99
-    },
-    {
       "store_number": "029354",
       "name": "Taco Bell",
       "city": "Holly Springs",
       "state": "NC",
-      "price": 11.99
-    },
-    {
-      "store_number": "023838",
-      "name": "Taco Bell",
-      "city": "Albuquerque",
-      "state": "NM",
       "price": 11.99
     },
     {
@@ -130,6 +120,20 @@
       "store_number": "029406",
       "name": "Taco Bell",
       "city": "Durham",
+      "state": "NC",
+      "price": 11.99
+    },
+    {
+      "store_number": "004173",
+      "name": "Taco Bell / KFC",
+      "city": "Albuquerque",
+      "state": "NM",
+      "price": 11.99
+    },
+    {
+      "store_number": "041399",
+      "name": "Taco Bell",
+      "city": "Louisburg",
       "state": "NC",
       "price": 11.99
     }
@@ -162,6 +166,13 @@
       "city": "Lockeford",
       "state": "CA",
       "price": 12.99
+    },
+    {
+      "store_number": "026028",
+      "name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "price": 12.49
     },
     {
       "store_number": "030424",
@@ -204,16 +215,39 @@
       "city": "Albuquerque",
       "state": "NM",
       "price": 11.99
-    },
-    {
-      "store_number": "029406",
-      "name": "Taco Bell",
-      "city": "Durham",
-      "state": "NC",
-      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023838",
+      "store_name": "Taco Bell",
+      "city": "Albuquerque",
+      "state": "NM",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-11-10T21:33:06.222124+00:00"
+    },
+    {
+      "store_number": "029536",
+      "store_name": "Taco Bell / KFC",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-11-10T21:32:56.034964+00:00"
+    },
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.49,
+      "observed_at": "2026-11-10T21:32:21.882944+00:00"
+    },
     {
       "store_number": "029404",
       "store_name": "Taco Bell",
@@ -2316,8 +2350,8 @@
     }
   ],
   "activity_summary": {
-    "added": 104,
-    "removed": 85,
+    "added": 105,
+    "removed": 87,
     "price_changed": 21,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2415,15 +2449,6 @@
       "MI"
     ],
     [
-      "029536",
-      25.770179973965377,
-      -80.33099986148045,
-      11.99,
-      "Taco Bell / KFC",
-      "Miami",
-      "FL"
-    ],
-    [
       "029354",
       35.63581374810407,
       -78.83095175027847,
@@ -2431,15 +2456,6 @@
       "Taco Bell",
       "Holly Springs",
       "NC"
-    ],
-    [
-      "023838",
-      35.192716085819484,
-      -106.72643780708313,
-      11.99,
-      "Taco Bell",
-      "Albuquerque",
-      "NM"
     ],
     [
       "041398",
@@ -2514,6 +2530,15 @@
       "IA"
     ],
     [
+      "026028",
+      41.71567814277641,
+      -87.78261208259407,
+      12.49,
+      "Taco Bell / KFC",
+      "Chicago Ridge",
+      "IL"
+    ],
+    [
       "041362",
       38.154667826863104,
       -121.15507706075726,
@@ -2542,6 +2567,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-11-09",
+  "last_seen_date": "2026-11-10",
   "peak_availability_pct": 0.4
 }

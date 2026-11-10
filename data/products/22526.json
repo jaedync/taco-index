@@ -14,26 +14,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 4.7,
+  "peak_30d_pct": 4.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 3.03,
+    "avg": 2.99,
     "min": 2.99,
-    "max": 3.29,
+    "max": 2.99,
     "median": 2.99,
-    "std_dev": 0.11,
-    "store_count": 7
+    "std_dev": 0.0,
+    "store_count": 6
   },
   "histogram": [
     {
       "bucket": "$2.99",
       "count": 6
-    },
-    {
-      "bucket": "$3.29",
-      "count": 1
     }
   ],
   "state_prices": [],
@@ -93,13 +89,6 @@
       "city": "Atlanta",
       "state": "GA",
       "price": 2.99
-    },
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 3.29
     }
   ],
   "min_price_store_numbers": [
@@ -111,13 +100,6 @@
     "041488"
   ],
   "priciest_stores": [
-    {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 3.29
-    },
     {
       "store_number": "041488",
       "name": "Taco Bell (ATL Airport)",
@@ -162,6 +144,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-11-10T21:32:21.882944+00:00"
+    },
     {
       "store_number": "021309",
       "store_name": "Taco Bell",
@@ -201045,7 +201037,7 @@
   ],
   "activity_summary": {
     "added": 10045,
-    "removed": 10034,
+    "removed": 10035,
     "price_changed": 9,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -201107,15 +201099,6 @@
       "Taco Bell (ATL Airport)",
       "Atlanta",
       "GA"
-    ],
-    [
-      "026028",
-      41.71567814277641,
-      -87.78261208259407,
-      3.29,
-      "Taco Bell / KFC",
-      "Chicago Ridge",
-      "IL"
     ]
   ],
   "retired_at": null,

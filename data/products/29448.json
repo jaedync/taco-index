@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": -0.0294,
+  "recent_price_change_pct": -0.0222,
   "first_seen_at": "2026-10-21T20:50:02.244278+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
     "avg": 10.99,
     "min": 10.99,
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 4
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 4
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -46,20 +46,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "023838",
-      "name": "Taco Bell",
-      "city": "Albuquerque",
-      "state": "NM",
-      "price": 10.99
-    },
-    {
-      "store_number": "029536",
-      "name": "Taco Bell / KFC",
-      "city": "Miami",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
       "store_number": "029483",
       "name": "Taco Bell",
       "city": "Cary",
@@ -75,8 +61,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "023838",
-    "029536",
     "029483",
     "029412"
   ],
@@ -94,23 +78,29 @@
       "city": "Cary",
       "state": "NC",
       "price": 10.99
-    },
-    {
-      "store_number": "029536",
-      "name": "Taco Bell / KFC",
-      "city": "Miami",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "023838",
-      "name": "Taco Bell",
-      "city": "Albuquerque",
-      "state": "NM",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023838",
+      "store_name": "Taco Bell",
+      "city": "Albuquerque",
+      "state": "NM",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-11-10T21:33:06.222124+00:00"
+    },
+    {
+      "store_number": "029536",
+      "store_name": "Taco Bell / KFC",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-11-10T21:32:56.034964+00:00"
+    },
     {
       "store_number": "029483",
       "store_name": "Taco Bell",
@@ -274,7 +264,7 @@
   ],
   "activity_summary": {
     "added": 10,
-    "removed": 6,
+    "removed": 8,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -327,24 +317,6 @@
   ],
   "map_data": [
     [
-      "023838",
-      35.192716085819484,
-      -106.72643780708313,
-      10.99,
-      "Taco Bell",
-      "Albuquerque",
-      "NM"
-    ],
-    [
-      "029536",
-      25.770179973965377,
-      -80.33099986148045,
-      10.99,
-      "Taco Bell / KFC",
-      "Miami",
-      "FL"
-    ],
-    [
       "029483",
       35.80337775917284,
       -78.78350347280502,
@@ -364,6 +336,6 @@
     ]
   ],
   "retired_at": "2026-10-22T22:03:50.998195+00:00",
-  "last_seen_date": "2026-11-09",
+  "last_seen_date": "2026-11-10",
   "peak_availability_pct": 0.1
 }
