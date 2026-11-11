@@ -67,6 +67,13 @@
       "price": 10.99
     },
     {
+      "store_number": "042883",
+      "name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "042845",
       "name": "Taco Bell",
       "city": "La Belle",
@@ -100,13 +107,6 @@
       "city": "Jensen Beach",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "042913",
-      "name": "Taco Bell",
-      "city": "Jacksonville",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -114,6 +114,7 @@
     "042844",
     "042854",
     "042882",
+    "042883",
     "042845",
     "042969",
     "042920",
@@ -121,7 +122,6 @@
     "042893",
     "042913",
     "042966",
-    "042853",
     "042878",
     "042982",
     "042970"
@@ -145,13 +145,6 @@
       "store_number": "042878",
       "name": "Taco Bell",
       "city": "Jacksonville",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "042853",
-      "name": "Taco Bell",
-      "city": "Fort Myers",
       "state": "FL",
       "price": 10.99
     },
@@ -196,9 +189,36 @@
       "city": "Greenville",
       "state": "SC",
       "price": 10.99
+    },
+    {
+      "store_number": "042845",
+      "name": "Taco Bell",
+      "city": "La Belle",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042853",
+      "store_name": "Taco Bell",
+      "city": "Fort Myers",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-11-11T21:34:58.714155+00:00"
+    },
+    {
+      "store_number": "042883",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-11-11T21:33:27.414661+00:00"
+    },
     {
       "store_number": "042882",
       "store_name": "Taco Bell",
@@ -1171,8 +1191,8 @@
     }
   ],
   "activity_summary": {
-    "added": 56,
-    "removed": 41,
+    "added": 57,
+    "removed": 42,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1249,6 +1269,15 @@
       "FL"
     ],
     [
+      "042883",
+      30.308847349595215,
+      -81.73201717439042,
+      10.99,
+      "Taco Bell",
+      "Jacksonville",
+      "FL"
+    ],
+    [
       "042845",
       26.76223746126524,
       -81.4364568293422,
@@ -1312,15 +1341,6 @@
       "FL"
     ],
     [
-      "042853",
-      26.55520461579469,
-      -81.8710190132424,
-      10.99,
-      "Taco Bell",
-      "Fort Myers",
-      "FL"
-    ],
-    [
       "042878",
       30.172140902300306,
       -81.6036971659014,
@@ -1349,6 +1369,6 @@
     ]
   ],
   "retired_at": "2026-09-25T22:02:13.094152+00:00",
-  "last_seen_date": "2026-11-10",
+  "last_seen_date": "2026-11-11",
   "peak_availability_pct": 0.4
 }

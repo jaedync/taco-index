@@ -16,12 +16,12 @@
   "first_seen_at": "2026-09-17T21:51:54.990928+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 12.02,
+    "avg": 11.9,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.92,
-    "store_count": 18
+    "std_dev": 0.8,
+    "store_count": 17
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$13.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
@@ -154,13 +154,6 @@
       "price": 13.99
     },
     {
-      "store_number": "020974",
-      "name": "Taco Bell / KFC",
-      "city": "King George",
-      "state": "VA",
-      "price": 13.99
-    },
-    {
       "store_number": "041362",
       "name": "Taco Bell / KFC",
       "city": "Lockeford",
@@ -215,9 +208,26 @@
       "city": "Albuquerque",
       "state": "NM",
       "price": 11.99
+    },
+    {
+      "store_number": "029406",
+      "name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020974",
+      "store_name": "Taco Bell / KFC",
+      "city": "King George",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 13.99,
+      "new_price": null,
+      "observed_at": "2026-11-11T21:33:22.236889+00:00"
+    },
     {
       "store_number": "023838",
       "store_name": "Taco Bell",
@@ -2351,7 +2361,7 @@
   ],
   "activity_summary": {
     "added": 105,
-    "removed": 87,
+    "removed": 88,
     "price_changed": 21,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2548,15 +2558,6 @@
       "CA"
     ],
     [
-      "020974",
-      38.33900959254854,
-      -77.0779993920587,
-      13.99,
-      "Taco Bell / KFC",
-      "King George",
-      "VA"
-    ],
-    [
       "019680",
       39.08047189154303,
       -78.21409679707143,
@@ -2567,6 +2568,6 @@
     ]
   ],
   "retired_at": "2026-09-18T21:22:43.140768+00:00",
-  "last_seen_date": "2026-11-10",
+  "last_seen_date": "2026-11-11",
   "peak_availability_pct": 0.4
 }

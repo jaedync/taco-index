@@ -18,12 +18,12 @@
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 10.99,
+    "avg": 10.85,
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.85,
-    "store_count": 23
+    "std_dev": 0.73,
+    "store_count": 21
   },
   "histogram": [
     {
@@ -36,11 +36,11 @@
     },
     {
       "bucket": "$11.99",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$12.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
@@ -153,20 +153,6 @@
       "price": 12.99
     },
     {
-      "store_number": "026028",
-      "name": "Taco Bell / KFC",
-      "city": "Chicago Ridge",
-      "state": "IL",
-      "price": 12.99
-    },
-    {
-      "store_number": "041370",
-      "name": "Taco Bell / KFC",
-      "city": "Rio Vista",
-      "state": "CA",
-      "price": 11.99
-    },
-    {
       "store_number": "041362",
       "name": "Taco Bell / KFC",
       "city": "Lockeford",
@@ -214,9 +200,43 @@
       "city": "Moriarty",
       "state": "NM",
       "price": 10.99
+    },
+    {
+      "store_number": "041399",
+      "name": "Taco Bell",
+      "city": "Louisburg",
+      "state": "NC",
+      "price": 10.99
+    },
+    {
+      "store_number": "004173",
+      "name": "Taco Bell / KFC",
+      "city": "Albuquerque",
+      "state": "NM",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041370",
+      "store_name": "Taco Bell / KFC",
+      "city": "Rio Vista",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-11-11T21:35:42.588281+00:00"
+    },
+    {
+      "store_number": "026028",
+      "store_name": "Taco Bell / KFC",
+      "city": "Chicago Ridge",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 12.99,
+      "new_price": null,
+      "observed_at": "2026-11-11T21:32:25.626569+00:00"
+    },
     {
       "store_number": "026028",
       "store_name": "Taco Bell / KFC",
@@ -2200,7 +2220,7 @@
   ],
   "activity_summary": {
     "added": 86,
-    "removed": 63,
+    "removed": 65,
     "price_changed": 49,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2427,24 +2447,6 @@
       "CA"
     ],
     [
-      "041370",
-      38.16189749872865,
-      -121.69899008995465,
-      11.99,
-      "Taco Bell / KFC",
-      "Rio Vista",
-      "CA"
-    ],
-    [
-      "026028",
-      41.71567814277641,
-      -87.78261208259407,
-      12.99,
-      "Taco Bell / KFC",
-      "Chicago Ridge",
-      "IL"
-    ],
-    [
       "019680",
       39.08047189154303,
       -78.21409679707143,
@@ -2455,6 +2457,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-11-10",
+  "last_seen_date": "2026-11-11",
   "peak_availability_pct": 0.4
 }

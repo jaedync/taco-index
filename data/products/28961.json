@@ -21,7 +21,7 @@
     "max": 5.99,
     "median": 5.69,
     "std_dev": 0.15,
-    "store_count": 142
+    "store_count": 139
   },
   "histogram": [
     {
@@ -30,18 +30,18 @@
     },
     {
       "bucket": "$5.69",
-      "count": 67
+      "count": 65
     },
     {
       "bucket": "$5.99",
-      "count": 13
+      "count": 12
     }
   ],
   "state_prices": [
     {
       "state": "TX",
       "avg_price": 5.63,
-      "store_count": 142
+      "store_count": 139
     }
   ],
   "nutrition": {
@@ -77,13 +77,6 @@
       "store_number": "037167",
       "name": "Taco Bell",
       "city": "Lewisville",
-      "state": "TX",
-      "price": 5.49
-    },
-    {
-      "store_number": "040917",
-      "name": "Taco Bell",
-      "city": "Grand Prairie",
       "state": "TX",
       "price": 5.49
     },
@@ -128,13 +121,19 @@
       "city": "Lewisville",
       "state": "TX",
       "price": 5.49
+    },
+    {
+      "store_number": "035430",
+      "name": "Taco Bell",
+      "city": "Grand Prairie",
+      "state": "TX",
+      "price": 5.49
     }
   ],
   "min_price_store_numbers": [
     "040361",
     "037009",
     "037167",
-    "040917",
     "037111",
     "027866",
     "027875",
@@ -159,6 +158,7 @@
     "034595",
     "035437",
     "034585",
+    "035424",
     "029889",
     "029890",
     "035450",
@@ -267,6 +267,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035424",
+      "store_name": "Taco Bell",
+      "city": "Grand Prairie",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-11-11T21:33:38.610443+00:00"
+    },
+    {
+      "store_number": "002633",
+      "store_name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-11-11T21:33:16.922599+00:00"
+    },
+    {
+      "store_number": "024459",
+      "store_name": "Taco Bell",
+      "city": "Rowlett",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.69,
+      "new_price": null,
+      "observed_at": "2026-11-11T21:33:11.983053+00:00"
+    },
+    {
+      "store_number": "028434",
+      "store_name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.69,
+      "new_price": null,
+      "observed_at": "2026-11-11T21:32:50.170347+00:00"
+    },
+    {
+      "store_number": "040917",
+      "store_name": "Taco Bell",
+      "city": "Grand Prairie",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-11-11T21:32:19.781700+00:00"
+    },
     {
       "store_number": "035424",
       "store_name": "Taco Bell",
@@ -4709,8 +4759,8 @@
     }
   ],
   "activity_summary": {
-    "added": 293,
-    "removed": 151,
+    "added": 294,
+    "removed": 155,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4744,15 +4794,6 @@
       5.49,
       "Taco Bell",
       "Lewisville",
-      "TX"
-    ],
-    [
-      "040917",
-      32.6411,
-      -97.0622,
-      5.49,
-      "Taco Bell",
-      "Grand Prairie",
       "TX"
     ],
     [
@@ -4969,6 +5010,15 @@
       5.49,
       "Taco Bell",
       "Red Oak",
+      "TX"
+    ],
+    [
+      "035424",
+      32.70915421880213,
+      -97.0055797771551,
+      5.49,
+      "Taco Bell",
+      "Grand Prairie",
       "TX"
     ],
     [
@@ -5377,15 +5427,6 @@
       "TX"
     ],
     [
-      "028434",
-      32.76218959908323,
-      -97.48283942356822,
-      5.69,
-      "Taco Bell",
-      "Fort Worth",
-      "TX"
-    ],
-    [
       "018719",
       32.754243161455214,
       -97.33934462070465,
@@ -5473,15 +5514,6 @@
       5.69,
       "Taco Bell",
       "Greenville",
-      "TX"
-    ],
-    [
-      "024459",
-      32.919621793788835,
-      -96.51729315519333,
-      5.69,
-      "Taco Bell",
-      "Rowlett",
       "TX"
     ],
     [
@@ -5890,15 +5922,6 @@
       "TX"
     ],
     [
-      "002633",
-      32.74571833111253,
-      -97.223239839077,
-      5.99,
-      "Taco Bell",
-      "Fort Worth",
-      "TX"
-    ],
-    [
       "019299",
       33.62380632609915,
       -97.15041136611183,
@@ -5999,6 +6022,6 @@
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-11-10",
+  "last_seen_date": "2026-11-11",
   "peak_availability_pct": 1.7
 }

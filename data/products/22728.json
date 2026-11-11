@@ -15,14 +15,14 @@
   "peak_30d_pct": 5.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.717341+00:00",
-  "availability_pct": 5.4,
+  "availability_pct": 5.5,
   "price_stats": {
     "avg": 1.03,
     "min": 0.35,
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.22,
-    "store_count": 422
+    "store_count": 423
   },
   "histogram": [
     {
@@ -75,7 +75,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 84
+      "count": 85
     },
     {
       "bucket": "$1.10",
@@ -135,8 +135,8 @@
     },
     {
       "state": "OH",
-      "avg_price": 0.97,
-      "store_count": 41
+      "avg_price": 0.96,
+      "store_count": 42
     },
     {
       "state": "IN",
@@ -171,7 +171,7 @@
     {
       "state": "MN",
       "avg_price": 0.9,
-      "store_count": 12
+      "store_count": 11
     },
     {
       "state": "OK",
@@ -351,6 +351,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033765",
+      "store_name": "Taco Bell",
+      "city": "Englewood",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-11-11T21:33:17.790709+00:00"
+    },
+    {
+      "store_number": "030678",
+      "store_name": "Taco Bell",
+      "city": "Mercer",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-11-11T21:32:55.539822+00:00"
+    },
+    {
+      "store_number": "040584",
+      "store_name": "Taco Bell",
+      "city": "Duluth",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-11-11T21:31:26.535009+00:00"
+    },
     {
       "store_number": "033440",
       "store_name": "Taco Bell",
@@ -27133,8 +27163,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1455,
-    "removed": 1222,
+    "added": 1457,
+    "removed": 1223,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -28053,15 +28083,6 @@
       "NE"
     ],
     [
-      "040584",
-      46.8046,
-      -92.0697,
-      0.9,
-      "Taco Bell",
-      "Duluth",
-      "MN"
-    ],
-    [
       "004274",
       33.45365710660152,
       -88.81976500153542,
@@ -28186,6 +28207,15 @@
       "Taco Bell",
       "Kendallville",
       "IN"
+    ],
+    [
+      "033765",
+      39.86892286505228,
+      -84.29301519693587,
+      0.9,
+      "Taco Bell",
+      "Englewood",
+      "OH"
     ],
     [
       "028909",
@@ -29718,6 +29748,15 @@
       "AL"
     ],
     [
+      "030678",
+      41.1426653797082,
+      -80.16387377680985,
+      1.0,
+      "Taco Bell",
+      "Mercer",
+      "PA"
+    ],
+    [
       "040006",
       42.740257156814764,
       -83.37902734534232,
@@ -30943,6 +30982,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-11-10",
+  "last_seen_date": "2026-11-11",
   "peak_availability_pct": 13.6
 }
