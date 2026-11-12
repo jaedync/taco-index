@@ -20,17 +20,21 @@
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 2.99,
+    "avg": 3.0,
     "min": 2.99,
-    "max": 2.99,
+    "max": 3.19,
     "median": 2.99,
-    "std_dev": 0.0,
-    "store_count": 16
+    "std_dev": 0.05,
+    "store_count": 18
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 16
+      "count": 17
+    },
+    {
+      "bucket": "$3.19",
+      "count": 1
     }
   ],
   "state_prices": [
@@ -137,6 +141,7 @@
     "042920",
     "042909",
     "042893",
+    "042945",
     "042913",
     "042966",
     "042853",
@@ -145,6 +150,13 @@
     "042982"
   ],
   "priciest_stores": [
+    {
+      "store_number": "031333",
+      "name": "Taco Bell",
+      "city": "Aberdeen",
+      "state": "WA",
+      "price": 3.19
+    },
     {
       "store_number": "042982",
       "name": "Taco Bell",
@@ -188,6 +200,13 @@
       "price": 2.99
     },
     {
+      "store_number": "042945",
+      "name": "Taco Bell",
+      "city": "Lavonia",
+      "state": "GA",
+      "price": 2.99
+    },
+    {
       "store_number": "042893",
       "name": "Taco Bell",
       "city": "Jensen Beach",
@@ -200,23 +219,29 @@
       "city": "Miami",
       "state": "FL",
       "price": 2.99
-    },
-    {
-      "store_number": "042920",
-      "name": "Taco Bell",
-      "city": "Palatka",
-      "state": "FL",
-      "price": 2.99
-    },
-    {
-      "store_number": "042969",
-      "name": "Taco Bell",
-      "city": "Greenville",
-      "state": "SC",
-      "price": 2.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031333",
+      "store_name": "Taco Bell",
+      "city": "Aberdeen",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-11-12T22:26:19.553377+00:00"
+    },
+    {
+      "store_number": "042945",
+      "store_name": "Taco Bell",
+      "city": "Lavonia",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-11-12T22:25:42.896003+00:00"
+    },
     {
       "store_number": "042981",
       "store_name": "Taco Bell",
@@ -2609,7 +2634,7 @@
     }
   ],
   "activity_summary": {
-    "added": 85,
+    "added": 87,
     "removed": 127,
     "price_changed": 27,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2710,6 +2735,15 @@
       "FL"
     ],
     [
+      "042945",
+      34.44515828481069,
+      -83.11913877725601,
+      2.99,
+      "Taco Bell",
+      "Lavonia",
+      "GA"
+    ],
+    [
       "042913",
       30.287224649054764,
       -81.45668677520916,
@@ -2762,9 +2796,18 @@
       "Taco Bell",
       "Naranja",
       "FL"
+    ],
+    [
+      "031333",
+      46.977586434868314,
+      -123.80351731184419,
+      3.19,
+      "Taco Bell",
+      "Aberdeen",
+      "WA"
     ]
   ],
   "retired_at": "2026-09-17T21:58:01.992326+00:00",
-  "last_seen_date": "2026-11-11",
+  "last_seen_date": "2026-11-12",
   "peak_availability_pct": 1.1
 }

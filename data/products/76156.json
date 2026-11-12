@@ -22,8 +22,8 @@
     "min": 3.19,
     "max": 4.59,
     "median": 3.59,
-    "std_dev": 0.34,
-    "store_count": 23
+    "std_dev": 0.33,
+    "store_count": 24
   },
   "histogram": [
     {
@@ -44,7 +44,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$3.69",
@@ -222,14 +222,24 @@
       "price": 3.59
     },
     {
-      "store_number": "004173",
+      "store_number": "031389",
       "name": "Taco Bell / KFC",
-      "city": "Albuquerque",
-      "state": "NM",
+      "city": "Locust Grove",
+      "state": "GA",
       "price": 3.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031389",
+      "store_name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-11-12T22:24:01.343276+00:00"
+    },
     {
       "store_number": "020974",
       "store_name": "Taco Bell / KFC",
@@ -1172,7 +1182,7 @@
     }
   ],
   "activity_summary": {
-    "added": 55,
+    "added": 56,
     "removed": 31,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1322,6 +1332,15 @@
       "NM"
     ],
     [
+      "031389",
+      33.352032936024656,
+      -84.120770439522,
+      3.59,
+      "Taco Bell / KFC",
+      "Locust Grove",
+      "GA"
+    ],
+    [
       "017415",
       35.00966699999999,
       -106.06256782209016,
@@ -1404,6 +1423,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-11-11",
+  "last_seen_date": "2026-11-12",
   "peak_availability_pct": 0.3
 }

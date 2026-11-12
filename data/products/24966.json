@@ -13,22 +13,22 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 2.9,
+  "peak_30d_pct": 3.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:42:17.482555+00:00",
-  "availability_pct": 3.1,
+  "availability_pct": 3.5,
   "price_stats": {
-    "avg": 7.01,
+    "avg": 7.0,
     "min": 6.99,
     "max": 10.99,
     "median": 6.99,
-    "std_dev": 0.26,
-    "store_count": 237
+    "std_dev": 0.24,
+    "store_count": 268
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 236
+      "count": 267
     },
     {
       "bucket": "$10.99",
@@ -42,9 +42,14 @@
       "store_count": 94
     },
     {
+      "state": "TN",
+      "avg_price": 6.99,
+      "store_count": 27
+    },
+    {
       "state": "TX",
       "avg_price": 6.99,
-      "store_count": 143
+      "store_count": 144
     }
   ],
   "nutrition": {
@@ -228,21 +233,46 @@
     "032354",
     "040361",
     "041079",
+    "040569",
     "041081",
     "038740",
+    "032624",
     "041935",
+    "034911",
     "034950",
     "035388",
     "032211",
     "037009",
+    "036227",
     "037167",
     "040917",
     "042137",
+    "036396",
     "037210",
     "037742",
     "038780",
     "039571",
     "037111",
+    "034427",
+    "034359",
+    "034440",
+    "034366",
+    "016292",
+    "034368",
+    "036778",
+    "036777",
+    "004327",
+    "034429",
+    "034432",
+    "005389",
+    "034367",
+    "034439",
+    "004386",
+    "034425",
+    "034364",
+    "034434",
+    "015897",
+    "009435",
     "038515",
     "037721",
     "027866",
@@ -254,6 +284,7 @@
     "019278",
     "035372",
     "031623",
+    "031928",
     "019277",
     "024767",
     "027873",
@@ -284,6 +315,7 @@
     "019334",
     "027826",
     "029521",
+    "036783",
     "034587",
     "027868",
     "030591",
@@ -320,6 +352,7 @@
     "018722",
     "017323",
     "017376",
+    "031779",
     "016224",
     "035427",
     "027813",
@@ -357,6 +390,7 @@
     "004196",
     "017332",
     "005789",
+    "024056",
     "028113",
     "027989",
     "029885",
@@ -369,7 +403,9 @@
     "033473",
     "033929",
     "032627",
-    "033463"
+    "033463",
+    "037830",
+    "034353"
   ],
   "priciest_stores": [
     {
@@ -378,6 +414,20 @@
       "city": "Boynton Beach",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "034353",
+      "name": "Taco Bell",
+      "city": "Murfreesboro",
+      "state": "TN",
+      "price": 6.99
+    },
+    {
+      "store_number": "037830",
+      "name": "Taco Bell",
+      "city": "Old Hickory",
+      "state": "TN",
+      "price": 6.99
     },
     {
       "store_number": "033463",
@@ -427,23 +477,319 @@
       "city": "Dallas",
       "state": "TX",
       "price": 6.99
-    },
-    {
-      "store_number": "034591",
-      "name": "Taco Bell",
-      "city": "Italy",
-      "state": "TX",
-      "price": 6.99
-    },
-    {
-      "store_number": "016317",
-      "name": "Taco Bell",
-      "city": "Euless",
-      "state": "TX",
-      "price": 6.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034353",
+      "store_name": "Taco Bell",
+      "city": "Murfreesboro",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:27:02.164074+00:00"
+    },
+    {
+      "store_number": "037830",
+      "store_name": "Taco Bell",
+      "city": "Old Hickory",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:27:01.225281+00:00"
+    },
+    {
+      "store_number": "024056",
+      "store_name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:26:29.755543+00:00"
+    },
+    {
+      "store_number": "031779",
+      "store_name": "Taco Bell",
+      "city": "Murfreesboro",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:24:23.038010+00:00"
+    },
+    {
+      "store_number": "036783",
+      "store_name": "Taco Bell",
+      "city": "Westmoreland",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:22:40.765586+00:00"
+    },
+    {
+      "store_number": "031928",
+      "store_name": "Taco Bell",
+      "city": "Nashville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:59.295306+00:00"
+    },
+    {
+      "store_number": "009435",
+      "store_name": "Taco Bell",
+      "city": "Nashville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:34.533503+00:00"
+    },
+    {
+      "store_number": "015897",
+      "store_name": "Taco Bell",
+      "city": "Franklin",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:32.996386+00:00"
+    },
+    {
+      "store_number": "034434",
+      "store_name": "Taco Bell",
+      "city": "Clarksville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:32.633299+00:00"
+    },
+    {
+      "store_number": "034364",
+      "store_name": "Taco Bell",
+      "city": "Gallatin",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:32.128178+00:00"
+    },
+    {
+      "store_number": "034425",
+      "store_name": "Taco Bell",
+      "city": "Nashville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:27.561590+00:00"
+    },
+    {
+      "store_number": "004386",
+      "store_name": "Taco Bell",
+      "city": "Brentwood",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:26.541598+00:00"
+    },
+    {
+      "store_number": "034439",
+      "store_name": "Taco Bell",
+      "city": "Hopkinsville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:26.200830+00:00"
+    },
+    {
+      "store_number": "034367",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:21.367155+00:00"
+    },
+    {
+      "store_number": "005389",
+      "store_name": "Taco Bell",
+      "city": "Nashville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:19.183526+00:00"
+    },
+    {
+      "store_number": "034432",
+      "store_name": "Taco Bell",
+      "city": "Hopkinsville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:14.666518+00:00"
+    },
+    {
+      "store_number": "034429",
+      "store_name": "Taco Bell",
+      "city": "Nashville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:13.789580+00:00"
+    },
+    {
+      "store_number": "004327",
+      "store_name": "Taco Bell",
+      "city": "Nashville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:11.991452+00:00"
+    },
+    {
+      "store_number": "036777",
+      "store_name": "Taco Bell",
+      "city": "Dickson",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:11.845525+00:00"
+    },
+    {
+      "store_number": "036778",
+      "store_name": "Taco Bell",
+      "city": "Clarksville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:10.717134+00:00"
+    },
+    {
+      "store_number": "034366",
+      "store_name": "Taco Bell",
+      "city": "Madison",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:09.401720+00:00"
+    },
+    {
+      "store_number": "034368",
+      "store_name": "Taco Bell",
+      "city": "Hendersonville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:09.115182+00:00"
+    },
+    {
+      "store_number": "016292",
+      "store_name": "Taco Bell",
+      "city": "Nashville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:08.961409+00:00"
+    },
+    {
+      "store_number": "034440",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:07.571200+00:00"
+    },
+    {
+      "store_number": "034359",
+      "store_name": "Taco Bell",
+      "city": "Murfreesboro",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:21:00.302404+00:00"
+    },
+    {
+      "store_number": "034427",
+      "store_name": "Taco Bell",
+      "city": "Dickson",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:20:58.272014+00:00"
+    },
+    {
+      "store_number": "036396",
+      "store_name": "Taco Bell",
+      "city": "Lebanon",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:20:41.771640+00:00"
+    },
+    {
+      "store_number": "036227",
+      "store_name": "Taco Bell",
+      "city": "Gallatin",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:20:28.112742+00:00"
+    },
+    {
+      "store_number": "034911",
+      "store_name": "Taco Bell",
+      "city": "Hermitage",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:20:12.892842+00:00"
+    },
+    {
+      "store_number": "032624",
+      "store_name": "Taco Bell",
+      "city": "Joelton",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:20:01.616727+00:00"
+    },
+    {
+      "store_number": "040569",
+      "store_name": "Taco Bell",
+      "city": "Carthage",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-12T22:19:39.590782+00:00"
+    },
     {
       "store_number": "027969",
       "store_name": "Taco Bell",
@@ -178546,7 +178892,7 @@
     }
   ],
   "activity_summary": {
-    "added": 8998,
+    "added": 9029,
     "removed": 8757,
     "price_changed": 55,
     "since": "2026-03-31T00:00:00+00:00"
@@ -179422,6 +179768,15 @@
       "TX"
     ],
     [
+      "040569",
+      36.2452,
+      -85.9425,
+      6.99,
+      "Taco Bell",
+      "Carthage",
+      "TN"
+    ],
+    [
       "041081",
       33.1000287,
       -97.21650740000001,
@@ -179440,6 +179795,15 @@
       "TX"
     ],
     [
+      "032624",
+      36.31934571730939,
+      -86.8663104522365,
+      6.99,
+      "Taco Bell",
+      "Joelton",
+      "TN"
+    ],
+    [
       "041935",
       32.6971,
       -96.4543,
@@ -179447,6 +179811,15 @@
       "Taco Bell",
       "Forney",
       "TX"
+    ],
+    [
+      "034911",
+      36.17283814453356,
+      -86.60242063583284,
+      6.99,
+      "Taco Bell",
+      "Hermitage",
+      "TN"
     ],
     [
       "034950",
@@ -179485,6 +179858,15 @@
       "TX"
     ],
     [
+      "036227",
+      36.344005549000975,
+      -86.52824871392237,
+      6.99,
+      "Taco Bell",
+      "Gallatin",
+      "TN"
+    ],
+    [
       "037167",
       33.00633084286384,
       -97.0149135285389,
@@ -179510,6 +179892,15 @@
       "Taco Bell",
       "Krum",
       "TX"
+    ],
+    [
+      "036396",
+      36.18801214458498,
+      -86.4118810193053,
+      6.99,
+      "Taco Bell",
+      "Lebanon",
+      "TN"
     ],
     [
       "037210",
@@ -179555,6 +179946,186 @@
       "Taco Bell",
       "Denton",
       "TX"
+    ],
+    [
+      "034427",
+      36.076312257130944,
+      -87.37475587989138,
+      6.99,
+      "Taco Bell",
+      "Dickson",
+      "TN"
+    ],
+    [
+      "034359",
+      35.86309497386847,
+      -86.40949885547059,
+      6.99,
+      "Taco Bell",
+      "Murfreesboro",
+      "TN"
+    ],
+    [
+      "034440",
+      35.9311820543111,
+      -86.53334677219391,
+      6.99,
+      "Taco Bell",
+      "Smyrna",
+      "TN"
+    ],
+    [
+      "034366",
+      36.30375825870877,
+      -86.69201962185525,
+      6.99,
+      "Taco Bell",
+      "Madison",
+      "TN"
+    ],
+    [
+      "016292",
+      36.19132256017013,
+      -86.79971963167196,
+      6.99,
+      "Taco Bell",
+      "Nashville",
+      "TN"
+    ],
+    [
+      "034368",
+      36.31854622430117,
+      -86.60035117532061,
+      6.99,
+      "Taco Bell",
+      "Hendersonville",
+      "TN"
+    ],
+    [
+      "036778",
+      36.50870180900128,
+      -87.27546747028725,
+      6.99,
+      "Taco Bell",
+      "Clarksville",
+      "TN"
+    ],
+    [
+      "036777",
+      36.022632700186904,
+      -87.33875565263611,
+      6.99,
+      "Taco Bell",
+      "Dickson",
+      "TN"
+    ],
+    [
+      "004327",
+      36.16930852781583,
+      -86.68316194859274,
+      6.99,
+      "Taco Bell",
+      "Nashville",
+      "TN"
+    ],
+    [
+      "034429",
+      36.07649982869039,
+      -86.64148009849214,
+      6.99,
+      "Taco Bell",
+      "Nashville",
+      "TN"
+    ],
+    [
+      "034432",
+      36.8420759626927,
+      -87.48413220047951,
+      6.99,
+      "Taco Bell",
+      "Hopkinsville",
+      "KY"
+    ],
+    [
+      "005389",
+      36.087287373066346,
+      -86.69391043019453,
+      6.99,
+      "Taco Bell",
+      "Nashville",
+      "TN"
+    ],
+    [
+      "034367",
+      36.48810693607672,
+      -86.88127302428893,
+      6.99,
+      "Taco Bell",
+      "Springfield",
+      "TN"
+    ],
+    [
+      "034439",
+      36.87077202271862,
+      -87.49937645626233,
+      6.99,
+      "Taco Bell",
+      "Hopkinsville",
+      "KY"
+    ],
+    [
+      "004386",
+      36.03473712167161,
+      -86.79206721024002,
+      6.99,
+      "Taco Bell",
+      "Brentwood",
+      "TN"
+    ],
+    [
+      "034425",
+      36.14736862799868,
+      -86.66598608144655,
+      6.99,
+      "Taco Bell",
+      "Nashville",
+      "TN"
+    ],
+    [
+      "034364",
+      36.37986972743061,
+      -86.4644729299971,
+      6.99,
+      "Taco Bell",
+      "Gallatin",
+      "TN"
+    ],
+    [
+      "034434",
+      36.54012561294834,
+      -87.3663017716743,
+      6.99,
+      "Taco Bell",
+      "Clarksville",
+      "TN"
+    ],
+    [
+      "015897",
+      36.708450548014646,
+      -86.57586641144917,
+      6.99,
+      "Taco Bell",
+      "Franklin",
+      "KY"
+    ],
+    [
+      "009435",
+      36.129639604537175,
+      -86.71404979662378,
+      6.99,
+      "Taco Bell",
+      "Nashville",
+      "TN"
     ],
     [
       "038515",
@@ -179654,6 +180225,15 @@
       "Taco Bell",
       "Colleyville",
       "TX"
+    ],
+    [
+      "031928",
+      36.04294010857889,
+      -86.95913363992759,
+      6.99,
+      "Taco Bell",
+      "Nashville",
+      "TN"
     ],
     [
       "019277",
@@ -179924,6 +180504,15 @@
       "Taco Bell",
       "Garland",
       "TX"
+    ],
+    [
+      "036783",
+      36.55363512997127,
+      -86.23635700897522,
+      6.99,
+      "Taco Bell",
+      "Westmoreland",
+      "TN"
     ],
     [
       "034587",
@@ -180248,6 +180837,15 @@
       "Taco Bell",
       "Haltom City",
       "TX"
+    ],
+    [
+      "031779",
+      35.8117960507188,
+      -86.46001899140163,
+      6.99,
+      "Taco Bell",
+      "Murfreesboro",
+      "TN"
     ],
     [
       "016224",
@@ -180583,6 +181181,15 @@
       "TX"
     ],
     [
+      "024056",
+      32.598737091741214,
+      -97.32080705236812,
+      6.99,
+      "Taco Bell",
+      "Fort Worth",
+      "TX"
+    ],
+    [
       "028113",
       32.77799722622157,
       -97.28926772327257,
@@ -180698,6 +181305,24 @@
       "Taco Bell",
       "Irving",
       "TX"
+    ],
+    [
+      "037830",
+      36.25462985313575,
+      -86.65270505624146,
+      6.99,
+      "Taco Bell",
+      "Old Hickory",
+      "TN"
+    ],
+    [
+      "034353",
+      35.87127473160425,
+      -86.35239979015665,
+      6.99,
+      "Taco Bell",
+      "Murfreesboro",
+      "TN"
     ],
     [
       "026132",

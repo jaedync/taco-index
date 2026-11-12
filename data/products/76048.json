@@ -23,7 +23,7 @@
     "max": 3.59,
     "median": 2.79,
     "std_dev": 0.28,
-    "store_count": 29
+    "store_count": 30
   },
   "histogram": [
     {
@@ -33,6 +33,10 @@
     {
       "bucket": "$2.49",
       "count": 4
+    },
+    {
+      "bucket": "$2.59",
+      "count": 1
     },
     {
       "bucket": "$2.69",
@@ -141,11 +145,11 @@
       "price": 2.49
     },
     {
-      "store_number": "041362",
+      "store_number": "031389",
       "name": "Taco Bell / KFC",
-      "city": "Lockeford",
-      "state": "CA",
-      "price": 2.69
+      "city": "Locust Grove",
+      "state": "GA",
+      "price": 2.59
     }
   ],
   "min_price_store_numbers": [
@@ -228,6 +232,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031389",
+      "store_name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-11-12T22:24:01.343276+00:00"
+    },
     {
       "store_number": "020974",
       "store_name": "Taco Bell / KFC",
@@ -1360,7 +1374,7 @@
     }
   ],
   "activity_summary": {
-    "added": 65,
+    "added": 66,
     "removed": 35,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1463,6 +1477,15 @@
       "Taco Bell / KFC",
       "Harrodsburg",
       "KY"
+    ],
+    [
+      "031389",
+      33.352032936024656,
+      -84.120770439522,
+      2.59,
+      "Taco Bell / KFC",
+      "Locust Grove",
+      "GA"
     ],
     [
       "041362",
@@ -1646,6 +1669,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-11-11",
+  "last_seen_date": "2026-11-12",
   "peak_availability_pct": 0.4
 }

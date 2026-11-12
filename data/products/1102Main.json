@@ -15,17 +15,17 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.5,
+    "avg": 2.46,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.49,
+    "median": 2.39,
     "std_dev": 0.29,
-    "store_count": 7
+    "store_count": 8
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$2.29",
@@ -60,6 +60,13 @@
       "store_number": "035133",
       "name": "Taco Bell Cantina Cantina",
       "city": "San Jose",
+      "state": "CA",
+      "price": 2.19
+    },
+    {
+      "store_number": "032759",
+      "name": "Taco Bell Cantina",
+      "city": "Berkeley",
       "state": "CA",
       "price": 2.19
     },
@@ -101,7 +108,8 @@
   ],
   "min_price_store_numbers": [
     "036455",
-    "035133"
+    "035133",
+    "032759"
   ],
   "priciest_stores": [
     {
@@ -140,6 +148,13 @@
       "price": 2.29
     },
     {
+      "store_number": "032759",
+      "name": "Taco Bell Cantina",
+      "city": "Berkeley",
+      "state": "CA",
+      "price": 2.19
+    },
+    {
       "store_number": "035133",
       "name": "Taco Bell Cantina Cantina",
       "city": "San Jose",
@@ -155,6 +170,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032759",
+      "store_name": "Taco Bell Cantina",
+      "city": "Berkeley",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-11-12T22:24:30.401256+00:00"
+    },
     {
       "store_number": "034274",
       "store_name": "Taco Bell Cantina Cantina",
@@ -657,7 +682,7 @@
     }
   ],
   "activity_summary": {
-    "added": 24,
+    "added": 25,
     "removed": 26,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -683,6 +708,15 @@
       2.19,
       "Taco Bell Cantina Cantina",
       "San Jose",
+      "CA"
+    ],
+    [
+      "032759",
+      37.86781792147914,
+      -122.25762736983597,
+      2.19,
+      "Taco Bell Cantina",
+      "Berkeley",
       "CA"
     ],
     [
@@ -737,7 +771,7 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 2.36,
+      "avg_price": 2.35,
       "min_price": 2.0,
       "max_price": 2.79,
       "calories": 0,

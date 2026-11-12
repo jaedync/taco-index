@@ -10,8 +10,8 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 18.6,
-  "recent_price_change_pct": -0.0317,
+  "peak_30d_pct": 18.2,
+  "recent_price_change_pct": -0.0279,
   "first_seen_at": "2026-08-18T21:53:27.392580+00:00",
   "availability_pct": 0.1,
   "price_stats": {
@@ -19,13 +19,17 @@
     "min": 0.3,
     "max": 0.99,
     "median": 0.3,
-    "std_dev": 0.24,
-    "store_count": 8
+    "std_dev": 0.23,
+    "store_count": 9
   },
   "histogram": [
     {
       "bucket": "$0.30",
       "count": 7
+    },
+    {
+      "bucket": "$0.40",
+      "count": 1
     },
     {
       "bucket": "$0.99",
@@ -98,6 +102,13 @@
       "price": 0.3
     },
     {
+      "store_number": "031540",
+      "name": "Taco Bell",
+      "city": "Powell",
+      "state": "TN",
+      "price": 0.4
+    },
+    {
       "store_number": "021096",
       "name": "Taco Bell",
       "city": "Yorktown Heights",
@@ -121,6 +132,13 @@
       "city": "Yorktown Heights",
       "state": "NY",
       "price": 0.99
+    },
+    {
+      "store_number": "031540",
+      "name": "Taco Bell",
+      "city": "Powell",
+      "state": "TN",
+      "price": 0.4
     },
     {
       "store_number": "030719",
@@ -173,6 +191,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031540",
+      "store_name": "Taco Bell",
+      "city": "Powell",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-11-12T22:22:28.585835+00:00"
+    },
     {
       "store_number": "026028",
       "store_name": "Taco Bell / KFC",
@@ -85085,7 +85113,7 @@
     }
   ],
   "activity_summary": {
-    "added": 4252,
+    "added": 4253,
     "removed": 4239,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -85159,6 +85187,15 @@
       "CA"
     ],
     [
+      "031540",
+      36.05268570928797,
+      -83.99093850399368,
+      0.4,
+      "Taco Bell",
+      "Powell",
+      "TN"
+    ],
+    [
       "021096",
       41.27340482536628,
       -73.78310760211245,
@@ -85169,6 +85206,6 @@
     ]
   ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-11-11",
+  "last_seen_date": "2026-11-12",
   "peak_availability_pct": 47.7
 }
