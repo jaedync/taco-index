@@ -30,10 +30,6 @@
       "count": 1
     },
     {
-      "bucket": "$0.50",
-      "count": 1
-    },
-    {
       "bucket": "$0.60",
       "count": 4
     },
@@ -59,7 +55,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 139
+      "count": 140
     },
     {
       "bucket": "$0.95",
@@ -75,7 +71,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 84
+      "count": 83
     },
     {
       "bucket": "$1.10",
@@ -95,7 +91,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 63
+      "count": 64
     },
     {
       "bucket": "$1.59",
@@ -115,8 +111,8 @@
     },
     {
       "state": "IL",
-      "avg_price": 1.08,
-      "store_count": 29
+      "avg_price": 1.07,
+      "store_count": 30
     },
     {
       "state": "AL",
@@ -169,6 +165,11 @@
       "store_count": 11
     },
     {
+      "state": "AR",
+      "avg_price": 0.9,
+      "store_count": 6
+    },
+    {
       "state": "OK",
       "avg_price": 0.9,
       "store_count": 42
@@ -182,11 +183,6 @@
       "state": "SC",
       "avg_price": 0.87,
       "store_count": 6
-    },
-    {
-      "state": "AR",
-      "avg_price": 0.84,
-      "store_count": 7
     }
   ],
   "nutrition": {
@@ -210,13 +206,6 @@
       "city": "Chicago",
       "state": "IL",
       "price": 0.35
-    },
-    {
-      "store_number": "042599",
-      "name": "Taco Bell",
-      "city": "Southside",
-      "state": "AR",
-      "price": 0.5
     },
     {
       "store_number": "023045",
@@ -271,6 +260,13 @@
       "store_number": "031989",
       "name": "Taco Bell",
       "city": "Mukwonago",
+      "state": "WI",
+      "price": 0.75
+    },
+    {
+      "store_number": "031983",
+      "name": "Taco Bell",
+      "city": "West Allis",
       "state": "WI",
       "price": 0.75
     }
@@ -351,6 +347,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043027",
+      "store_name": "Taco Bell",
+      "city": "Quincy",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-11-13T21:33:03.425595+00:00"
+    },
+    {
+      "store_number": "032514",
+      "store_name": "Taco Bell",
+      "city": "Fowlerville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-11-13T21:32:45.735902+00:00"
+    },
+    {
+      "store_number": "033314",
+      "store_name": "Taco Bell",
+      "city": "Waterford",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-11-13T21:32:42.303334+00:00"
+    },
+    {
+      "store_number": "042599",
+      "store_name": "Taco Bell",
+      "city": "Southside",
+      "state": "AR",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-11-13T21:32:08.020153+00:00"
+    },
     {
       "store_number": "037473",
       "store_name": "Taco Bell",
@@ -27183,8 +27219,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1458,
-    "removed": 1224,
+    "added": 1460,
+    "removed": 1226,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -27201,15 +27237,6 @@
       "Taco Bell",
       "Chicago",
       "IL"
-    ],
-    [
-      "042599",
-      35.738413,
-      -91.639592,
-      0.5,
-      "Taco Bell",
-      "Southside",
-      "AR"
     ],
     [
       "023045",
@@ -28832,6 +28859,15 @@
       "KS"
     ],
     [
+      "043027",
+      39.93519394494881,
+      -91.40215694904327,
+      0.9,
+      "Taco Bell",
+      "Quincy",
+      "IL"
+    ],
+    [
       "041086",
       39.72009668768734,
       -82.98767904100833,
@@ -29984,15 +30020,6 @@
       "MO"
     ],
     [
-      "033314",
-      42.68711057443587,
-      -83.38248093675571,
-      1.0,
-      "Taco Bell",
-      "Waterford",
-      "MI"
-    ],
-    [
       "042604",
       43.2891762616,
       -85.0744044484,
@@ -30668,6 +30695,15 @@
       "MI"
     ],
     [
+      "032514",
+      42.6514917,
+      -84.0732928,
+      1.49,
+      "Taco Bell",
+      "Fowlerville",
+      "MI"
+    ],
+    [
       "038761",
       42.69957468553089,
       -84.56677677702379,
@@ -31002,6 +31038,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-11-12",
+  "last_seen_date": "2026-11-13",
   "peak_availability_pct": 13.6
 }

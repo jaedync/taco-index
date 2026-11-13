@@ -14,16 +14,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": -0.0242,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
-    "avg": 10.74,
+    "avg": 10.66,
     "min": 9.99,
     "max": 10.99,
     "median": 10.99,
-    "std_dev": 0.5,
-    "store_count": 4
+    "std_dev": 0.58,
+    "store_count": 3
   },
   "histogram": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 3
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -57,13 +57,6 @@
       "city": "Cypress",
       "state": "TX",
       "price": 9.99
-    },
-    {
-      "store_number": "029406",
-      "name": "Taco Bell",
-      "city": "Durham",
-      "state": "NC",
-      "price": 10.99
     },
     {
       "store_number": "029412",
@@ -99,13 +92,6 @@
       "price": 10.99
     },
     {
-      "store_number": "029406",
-      "name": "Taco Bell",
-      "city": "Durham",
-      "state": "NC",
-      "price": 10.99
-    },
-    {
       "store_number": "035717",
       "name": "Taco Bell / KFC",
       "city": "Cypress",
@@ -114,6 +100,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029406",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-11-13T21:34:03.920767+00:00"
+    },
     {
       "store_number": "030424",
       "store_name": "Taco Bell / KFC",
@@ -2287,13 +2283,13 @@
   ],
   "activity_summary": {
     "added": 86,
-    "removed": 82,
+    "removed": 83,
     "price_changed": 49,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 990,
-  "calories_min": 990,
-  "calories_max": 1410,
+  "calories_min": 350,
+  "calories_max": 770,
   "combo_groups": [
     {
       "group_id": "1",
@@ -2343,15 +2339,6 @@
       "TX"
     ],
     [
-      "029406",
-      36.022485677062306,
-      -78.95267031623126,
-      10.99,
-      "Taco Bell",
-      "Durham",
-      "NC"
-    ],
-    [
       "029412",
       35.919901991392784,
       -78.95752345027176,
@@ -2371,6 +2358,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-11-12",
+  "last_seen_date": "2026-11-13",
   "peak_availability_pct": 0.4
 }

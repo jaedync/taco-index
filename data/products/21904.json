@@ -21,19 +21,19 @@
     "max": 8.99,
     "median": 8.99,
     "std_dev": 0.0,
-    "store_count": 23
+    "store_count": 24
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 23
+      "count": 24
     }
   ],
   "state_prices": [
     {
       "state": "CA",
       "avg_price": 8.99,
-      "store_count": 23
+      "store_count": 24
     }
   ],
   "nutrition": {
@@ -145,6 +145,7 @@
     "034167",
     "034189",
     "028843",
+    "034199",
     "037824"
   ],
   "priciest_stores": [
@@ -152,6 +153,13 @@
       "store_number": "037824",
       "name": "Taco Bell",
       "city": "Jamestown",
+      "state": "CA",
+      "price": 8.99
+    },
+    {
+      "store_number": "034199",
+      "name": "Taco Bell",
+      "city": "Patterson",
       "state": "CA",
       "price": 8.99
     },
@@ -210,16 +218,19 @@
       "city": "Angels Camp",
       "state": "CA",
       "price": 8.99
-    },
-    {
-      "store_number": "041363",
-      "name": "Taco Bell",
-      "city": "Stockton",
-      "state": "CA",
-      "price": 8.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034199",
+      "store_name": "Taco Bell",
+      "city": "Patterson",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-11-13T21:35:46.602595+00:00"
+    },
     {
       "store_number": "036124",
       "store_name": "Taco Bell",
@@ -572,7 +583,7 @@
     }
   ],
   "activity_summary": {
-    "added": 29,
+    "added": 30,
     "removed": 6,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -791,6 +802,15 @@
       8.99,
       "Taco Bell",
       "Suisun City",
+      "CA"
+    ],
+    [
+      "034199",
+      37.463992850706184,
+      -121.14302813807706,
+      8.99,
+      "Taco Bell",
+      "Patterson",
       "CA"
     ],
     [

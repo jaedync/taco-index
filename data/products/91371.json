@@ -23,12 +23,12 @@
     "max": 11.99,
     "median": 11.99,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$11.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -40,27 +40,12 @@
       "city": "Fort Myers",
       "state": "FL",
       "price": 11.99
-    },
-    {
-      "store_number": "042882",
-      "name": "Taco Bell",
-      "city": "Orange Park",
-      "state": "FL",
-      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
-    "042844",
-    "042882"
+    "042844"
   ],
   "priciest_stores": [
-    {
-      "store_number": "042882",
-      "name": "Taco Bell",
-      "city": "Orange Park",
-      "state": "FL",
-      "price": 11.99
-    },
     {
       "store_number": "042844",
       "name": "Taco Bell",
@@ -70,6 +55,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042882",
+      "store_name": "Taco Bell",
+      "city": "Orange Park",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-11-13T21:33:38.009712+00:00"
+    },
     {
       "store_number": "042970",
       "store_name": "Taco Bell",
@@ -1373,13 +1368,13 @@
   ],
   "activity_summary": {
     "added": 66,
-    "removed": 64,
+    "removed": 65,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 1160,
-  "calories_min": 1160,
-  "calories_max": 1580,
+  "calories_from_menu": 510,
+  "calories_min": 510,
+  "calories_max": 930,
   "combo_groups": [
     {
       "group_id": "1",
@@ -1427,18 +1422,9 @@
       "Taco Bell",
       "Fort Myers",
       "FL"
-    ],
-    [
-      "042882",
-      30.18600083709369,
-      -81.73982814701048,
-      11.99,
-      "Taco Bell",
-      "Orange Park",
-      "FL"
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-11-12",
+  "last_seen_date": "2026-11-13",
   "peak_availability_pct": 0.4
 }

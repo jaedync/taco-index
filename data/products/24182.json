@@ -1,6 +1,6 @@
 {
   "product_code": "24182",
-  "name": "Cantina Carne Asada & Jalapeno Fries",
+  "name": "Carne Asada & Jalapeno Fries",
   "description": "",
   "category": "specialties",
   "categories": [
@@ -21,15 +21,20 @@
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 124
+    "store_count": 125
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 124
+      "count": 125
     }
   ],
   "state_prices": [
+    {
+      "state": "MN",
+      "avg_price": 5.49,
+      "store_count": 54
+    },
     {
       "state": "WI",
       "avg_price": 5.49,
@@ -39,11 +44,6 @@
       "state": "TN",
       "avg_price": 5.49,
       "store_count": 60
-    },
-    {
-      "state": "MN",
-      "avg_price": 5.49,
-      "store_count": 53
     },
     {
       "state": "KY",
@@ -261,9 +261,17 @@
     "018101",
     "037830",
     "034353",
-    "002365"
+    "002365",
+    "041269"
   ],
   "priciest_stores": [
+    {
+      "store_number": "041269",
+      "name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MN",
+      "price": 5.49
+    },
     {
       "store_number": "002365",
       "name": "Taco Bell",
@@ -326,16 +334,19 @@
       "city": "Oak Grove",
       "state": "KY",
       "price": 5.49
-    },
-    {
-      "store_number": "016822",
-      "name": "Taco Bell",
-      "city": "Saint Cloud",
-      "state": "MN",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041269",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-11-13T21:31:03.104853+00:00"
+    },
     {
       "store_number": "002365",
       "store_name": "Taco Bell",
@@ -1578,7 +1589,7 @@
     }
   ],
   "activity_summary": {
-    "added": 124,
+    "added": 125,
     "removed": 0,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2702,6 +2713,15 @@
       5.49,
       "Taco Bell",
       "Minneapolis",
+      "MN"
+    ],
+    [
+      "041269",
+      45.021568,
+      -93.173593,
+      5.49,
+      "Taco Bell",
+      "Roseville",
       "MN"
     ]
   ],

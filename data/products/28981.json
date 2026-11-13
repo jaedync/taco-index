@@ -21,12 +21,12 @@
     "max": 5.99,
     "median": 5.99,
     "std_dev": 0.0,
-    "store_count": 3
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 3
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -46,13 +46,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "029406",
-      "name": "Taco Bell",
-      "city": "Durham",
-      "state": "NC",
-      "price": 5.99
-    },
-    {
       "store_number": "029411",
       "name": "Taco Bell",
       "city": "Benson",
@@ -68,7 +61,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "029406",
     "029411",
     "029412"
   ],
@@ -86,16 +78,19 @@
       "city": "Benson",
       "state": "NC",
       "price": 5.99
-    },
-    {
-      "store_number": "029406",
-      "name": "Taco Bell",
-      "city": "Durham",
-      "state": "NC",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029406",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-11-13T21:34:03.920767+00:00"
+    },
     {
       "store_number": "041370",
       "store_name": "Taco Bell / KFC",
@@ -1389,24 +1384,15 @@
   ],
   "activity_summary": {
     "added": 66,
-    "removed": 63,
+    "removed": 64,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 500,
+  "calories_from_menu": 0,
   "calories_min": 500,
   "calories_max": 500,
   "combo_groups": [],
   "map_data": [
-    [
-      "029406",
-      36.022485677062306,
-      -78.95267031623126,
-      5.99,
-      "Taco Bell",
-      "Durham",
-      "NC"
-    ],
     [
       "029411",
       35.51703677474721,
@@ -1427,6 +1413,6 @@
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-11-12",
+  "last_seen_date": "2026-11-13",
   "peak_availability_pct": 0.4
 }
