@@ -16,12 +16,12 @@
   "first_seen_at": "2026-11-12T22:19:40.451948+00:00",
   "availability_pct": 0.9,
   "price_stats": {
-    "avg": 4.48,
+    "avg": 4.49,
     "min": 3.99,
     "max": 4.99,
-    "median": 3.99,
+    "median": 4.49,
     "std_dev": 0.5,
-    "store_count": 71
+    "store_count": 72
   },
   "histogram": [
     {
@@ -30,14 +30,14 @@
     },
     {
       "bucket": "$4.99",
-      "count": 35
+      "count": 36
     }
   ],
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 4.5,
-      "store_count": 61
+      "avg_price": 4.51,
+      "store_count": 62
     },
     {
       "state": "SC",
@@ -171,6 +171,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "037004",
+      "name": "Taco Bell",
+      "city": "Indian Trail",
+      "state": "NC",
+      "price": 4.99
+    },
+    {
       "store_number": "032180",
       "name": "Taco Bell",
       "city": "Troutman",
@@ -232,16 +239,19 @@
       "city": "Rock Hill",
       "state": "SC",
       "price": 4.99
-    },
-    {
-      "store_number": "037814",
-      "name": "Taco Bell",
-      "city": "Charlotte",
-      "state": "NC",
-      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037004",
+      "store_name": "Taco Bell",
+      "city": "Indian Trail",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-11-14T22:19:11.496645+00:00"
+    },
     {
       "store_number": "032180",
       "store_name": "Taco Bell",
@@ -954,7 +964,7 @@
     }
   ],
   "activity_summary": {
-    "added": 71,
+    "added": 72,
     "removed": 0,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1601,6 +1611,15 @@
       4.99,
       "Taco Bell",
       "Troutman",
+      "NC"
+    ],
+    [
+      "037004",
+      35.0502267746598,
+      -80.64345900505425,
+      4.99,
+      "Taco Bell",
+      "Indian Trail",
       "NC"
     ]
   ],

@@ -23,12 +23,12 @@
     "max": 12.99,
     "median": 4.0,
     "std_dev": 1.36,
-    "store_count": 7186
+    "store_count": 7187
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5284
+      "count": 5286
     },
     {
       "bucket": "$4.19",
@@ -80,7 +80,7 @@
     },
     {
       "bucket": "$5.00",
-      "count": 501
+      "count": 500
     },
     {
       "bucket": "$5.19",
@@ -116,7 +116,7 @@
     },
     {
       "bucket": "$7.00",
-      "count": 124
+      "count": 125
     },
     {
       "bucket": "$7.99",
@@ -160,7 +160,7 @@
     },
     {
       "bucket": "$12.99",
-      "count": 12
+      "count": 11
     }
   ],
   "state_prices": [
@@ -211,8 +211,8 @@
     },
     {
       "state": "NY",
-      "avg_price": 5.03,
-      "store_count": 226
+      "avg_price": 5.02,
+      "store_count": 227
     },
     {
       "state": "HI",
@@ -231,8 +231,8 @@
     },
     {
       "state": "MO",
-      "avg_price": 4.74,
-      "store_count": 221
+      "avg_price": 4.73,
+      "store_count": 222
     },
     {
       "state": "ID",
@@ -240,14 +240,14 @@
       "store_count": 34
     },
     {
-      "state": "IL",
-      "avg_price": 4.59,
-      "store_count": 275
-    },
-    {
       "state": "MS",
       "avg_price": 4.59,
       "store_count": 68
+    },
+    {
+      "state": "IL",
+      "avg_price": 4.56,
+      "store_count": 274
     },
     {
       "state": "AL",
@@ -266,8 +266,8 @@
     },
     {
       "state": "OH",
-      "avg_price": 4.26,
-      "store_count": 379
+      "avg_price": 4.25,
+      "store_count": 378
     },
     {
       "state": "CT",
@@ -316,8 +316,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 4.03,
-      "store_count": 336
+      "avg_price": 4.04,
+      "store_count": 337
     },
     {
       "state": "IA",
@@ -5772,19 +5772,14 @@
     "043170",
     "043429",
     "043454",
-    "043081"
+    "043081",
+    "043445",
+    "041942"
   ],
   "priciest_stores": [
     {
       "store_number": "033484",
       "name": "Taco Bell Cantina",
-      "city": "Chicago",
-      "state": "IL",
-      "price": 12.99
-    },
-    {
-      "store_number": "037107",
-      "name": "Taco Bell",
       "city": "Chicago",
       "state": "IL",
       "price": 12.99
@@ -5844,9 +5839,66 @@
       "city": "Chicago",
       "state": "IL",
       "price": 12.99
+    },
+    {
+      "store_number": "041137",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 12.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043610",
+      "store_name": "Taco Bell",
+      "city": "Auburn Hills",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-11-14T22:21:55.055997+00:00"
+    },
+    {
+      "store_number": "041942",
+      "store_name": "Taco Bell",
+      "city": "Medford",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-11-14T22:21:54.949219+00:00"
+    },
+    {
+      "store_number": "043445",
+      "store_name": "Taco Bell",
+      "city": "Brookline",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-11-14T22:21:54.743148+00:00"
+    },
+    {
+      "store_number": "037107",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 12.99,
+      "new_price": null,
+      "observed_at": "2026-11-14T22:21:50.500217+00:00"
+    },
+    {
+      "store_number": "020944",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 5.0,
+      "new_price": null,
+      "observed_at": "2026-11-14T22:21:22.332213+00:00"
+    },
     {
       "store_number": "043216",
       "store_name": "Taco Bell",
@@ -18989,8 +19041,8 @@
     }
   ],
   "activity_summary": {
-    "added": 628,
-    "removed": 490,
+    "added": 631,
+    "removed": 492,
     "price_changed": 196,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -66581,6 +66633,24 @@
       "AR"
     ],
     [
+      "043445",
+      37.15327035,
+      -93.41714728,
+      4.0,
+      "Taco Bell",
+      "Brookline",
+      "MO"
+    ],
+    [
+      "041942",
+      40.8085248782,
+      -72.9539998335,
+      4.0,
+      "Taco Bell",
+      "Medford",
+      "NY"
+    ],
+    [
       "040310",
       38.82654633392733,
       -104.7287764914666,
@@ -72386,15 +72456,6 @@
       "OH"
     ],
     [
-      "020944",
-      40.14013051280587,
-      -82.98090845346445,
-      5.0,
-      "Taco Bell",
-      "Columbus",
-      "OH"
-    ],
-    [
       "043041",
       64.75621116,
       -147.350141,
@@ -77586,6 +77647,15 @@
       "Taco Bell",
       "Smithfield",
       "UT"
+    ],
+    [
+      "043610",
+      42.7027724,
+      -83.2968908,
+      7.0,
+      "Taco Bell",
+      "Auburn Hills",
+      "MI"
     ],
     [
       "041771",
@@ -83675,15 +83745,6 @@
       "031780",
       41.999947347072506,
       -87.66104189055474,
-      12.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
-      "037107",
-      41.885381169916705,
-      -87.62653447509841,
       12.99,
       "Taco Bell",
       "Chicago",

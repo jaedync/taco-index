@@ -21,12 +21,12 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 1
+    "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -46,6 +46,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "034166",
+      "name": "Taco Bell",
+      "city": "Turlock",
+      "state": "CA",
+      "price": 9.0
+    },
+    {
       "store_number": "028844",
       "name": "Taco Bell",
       "city": "Woodland",
@@ -54,6 +61,7 @@
     }
   ],
   "min_price_store_numbers": [
+    "034166",
     "028844"
   ],
   "priciest_stores": [
@@ -63,9 +71,26 @@
       "city": "Woodland",
       "state": "CA",
       "price": 9.0
+    },
+    {
+      "store_number": "034166",
+      "name": "Taco Bell",
+      "city": "Turlock",
+      "state": "CA",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034166",
+      "store_name": "Taco Bell",
+      "city": "Turlock",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-11-14T22:20:48.993540+00:00"
+    },
     {
       "store_number": "028844",
       "store_name": "Taco Bell",
@@ -3338,7 +3363,7 @@
     }
   ],
   "activity_summary": {
-    "added": 164,
+    "added": 165,
     "removed": 163,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3380,6 +3405,15 @@
   ],
   "map_data": [
     [
+      "034166",
+      37.51777350906145,
+      -120.84863327446328,
+      9.0,
+      "Taco Bell",
+      "Turlock",
+      "CA"
+    ],
+    [
       "028844",
       38.6780179532871,
       -121.79380821241348,
@@ -3390,6 +3424,6 @@
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-11-13",
+  "last_seen_date": "2026-11-14",
   "peak_availability_pct": 0.9
 }

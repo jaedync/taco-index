@@ -22,19 +22,19 @@
     "max": 1.99,
     "median": 1.99,
     "std_dev": 0.0,
-    "store_count": 103
+    "store_count": 102
   },
   "histogram": [
     {
       "bucket": "$1.99",
-      "count": 103
+      "count": 102
     }
   ],
   "state_prices": [
     {
       "state": "TX",
       "avg_price": 1.99,
-      "store_count": 103
+      "store_count": 102
     }
   ],
   "nutrition": {
@@ -151,6 +151,7 @@
     "002434",
     "020070",
     "035686",
+    "027808",
     "031264",
     "017354",
     "031263",
@@ -210,7 +211,6 @@
     "035705",
     "022088",
     "026764",
-    "035729",
     "035714",
     "027804",
     "005169",
@@ -222,7 +222,6 @@
     "027803",
     "027809",
     "029687",
-    "035736",
     "036522",
     "035751",
     "041587",
@@ -254,13 +253,6 @@
       "store_number": "036522",
       "name": "Taco Bell",
       "city": "Crosby",
-      "state": "TX",
-      "price": 1.99
-    },
-    {
-      "store_number": "035736",
-      "name": "Taco Bell",
-      "city": "Spring",
       "state": "TX",
       "price": 1.99
     },
@@ -298,9 +290,46 @@
       "city": "Richmond",
       "state": "TX",
       "price": 1.99
+    },
+    {
+      "store_number": "027786",
+      "name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "price": 1.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035736",
+      "store_name": "Taco Bell",
+      "city": "Spring",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-11-14T22:20:46.580707+00:00"
+    },
+    {
+      "store_number": "035729",
+      "store_name": "Taco Bell",
+      "city": "Cypress",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-11-14T22:19:21.675573+00:00"
+    },
+    {
+      "store_number": "027808",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-11-14T22:19:16.482833+00:00"
+    },
     {
       "store_number": "041184",
       "store_name": "Taco Bell",
@@ -1713,8 +1742,8 @@
     }
   ],
   "activity_summary": {
-    "added": 122,
-    "removed": 19,
+    "added": 123,
+    "removed": 21,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1961,6 +1990,15 @@
       "035686",
       29.941975553773975,
       -95.40795162320137,
+      1.99,
+      "Taco Bell",
+      "Houston",
+      "TX"
+    ],
+    [
+      "027808",
+      29.922975580908624,
+      -95.60116052627563,
       1.99,
       "Taco Bell",
       "Houston",
@@ -2498,15 +2536,6 @@
       "TX"
     ],
     [
-      "035729",
-      29.992286564500695,
-      -95.74945477774236,
-      1.99,
-      "Taco Bell",
-      "Cypress",
-      "TX"
-    ],
-    [
       "035714",
       30.01912265554113,
       -95.37640924751662,
@@ -2603,15 +2632,6 @@
       1.99,
       "Taco Bell",
       "Missouri City",
-      "TX"
-    ],
-    [
-      "035736",
-      30.116463969203043,
-      -95.38358357014842,
-      1.99,
-      "Taco Bell",
-      "Spring",
       "TX"
     ],
     [

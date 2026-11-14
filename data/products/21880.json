@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 14
+    "store_count": 15
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 14
+      "count": 15
     }
   ],
   "state_prices": [
     {
       "state": "TX",
       "avg_price": 9.0,
-      "store_count": 14
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -133,6 +133,7 @@
     "027826",
     "027878",
     "023093",
+    "002582",
     "029887",
     "028351",
     "038774",
@@ -164,6 +165,13 @@
       "store_number": "029887",
       "name": "Taco Bell",
       "city": "Dallas",
+      "state": "TX",
+      "price": 9.0
+    },
+    {
+      "store_number": "002582",
+      "name": "Taco Bell",
+      "city": "Mesquite",
       "state": "TX",
       "price": 9.0
     },
@@ -201,16 +209,19 @@
       "city": "Midlothian",
       "state": "TX",
       "price": 9.0
-    },
-    {
-      "store_number": "027875",
-      "name": "Taco Bell",
-      "city": "McKinney",
-      "state": "TX",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002582",
+      "store_name": "Taco Bell",
+      "city": "Mesquite",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-11-14T22:21:01.675672+00:00"
+    },
     {
       "store_number": "033463",
       "store_name": "Taco Bell",
@@ -4093,7 +4104,7 @@
     }
   ],
   "activity_summary": {
-    "added": 201,
+    "added": 202,
     "removed": 187,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4225,6 +4236,15 @@
       "TX"
     ],
     [
+      "002582",
+      32.79453725679027,
+      -96.61146551370621,
+      9.0,
+      "Taco Bell",
+      "Mesquite",
+      "TX"
+    ],
+    [
       "029887",
       32.98928076538612,
       -96.85428549350945,
@@ -4262,6 +4282,6 @@
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-11-13",
+  "last_seen_date": "2026-11-14",
   "peak_availability_pct": 1.2
 }

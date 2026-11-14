@@ -16,14 +16,19 @@
   "first_seen_at": "2026-10-15T20:33:00.966484+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 5.62,
+    "avg": 5.49,
     "min": 5.49,
-    "max": 5.99,
+    "max": 5.49,
     "median": 5.49,
-    "std_dev": null,
-    "store_count": 18
+    "std_dev": 0.0,
+    "store_count": 2
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$5.49",
+      "count": 2
+    }
+  ],
   "state_prices": [],
   "nutrition": {
     "calories": 342.1401,
@@ -39,10 +44,63 @@
     "protein_g": 17.7411,
     "serving_size_g": 160.7417
   },
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "027873",
+      "name": "Taco Bell",
+      "city": "Lewisville",
+      "state": "TX",
+      "price": 5.49
+    },
+    {
+      "store_number": "002582",
+      "name": "Taco Bell",
+      "city": "Mesquite",
+      "state": "TX",
+      "price": 5.49
+    }
+  ],
+  "min_price_store_numbers": [
+    "027873",
+    "002582"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "002582",
+      "name": "Taco Bell",
+      "city": "Mesquite",
+      "state": "TX",
+      "price": 5.49
+    },
+    {
+      "store_number": "027873",
+      "name": "Taco Bell",
+      "city": "Lewisville",
+      "state": "TX",
+      "price": 5.49
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "002582",
+      "store_name": "Taco Bell",
+      "city": "Mesquite",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-11-14T22:21:01.675672+00:00"
+    },
+    {
+      "store_number": "027873",
+      "store_name": "Taco Bell",
+      "city": "Lewisville",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-11-14T22:19:46.494749+00:00"
+    },
     {
       "store_number": "033473",
       "store_name": "Taco Bell",
@@ -2625,17 +2683,36 @@
     }
   ],
   "activity_summary": {
-    "added": 129,
+    "added": 131,
     "removed": 129,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
+  "calories_from_menu": 340,
   "calories_min": 340,
   "calories_max": 340,
   "combo_groups": [],
-  "map_data": [],
+  "map_data": [
+    [
+      "027873",
+      33.0107934171395,
+      -96.96831985378594,
+      5.49,
+      "Taco Bell",
+      "Lewisville",
+      "TX"
+    ],
+    [
+      "002582",
+      32.79453725679027,
+      -96.61146551370621,
+      5.49,
+      "Taco Bell",
+      "Mesquite",
+      "TX"
+    ]
+  ],
   "retired_at": "2026-11-12T22:34:03.483150+00:00",
-  "last_seen_date": "2026-11-11",
+  "last_seen_date": "2026-11-14",
   "peak_availability_pct": 1.6
 }

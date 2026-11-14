@@ -10,26 +10,30 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 17.9,
-  "recent_price_change_pct": -0.0248,
+  "peak_30d_pct": 0.1,
+  "recent_price_change_pct": -0.0202,
   "first_seen_at": "2026-08-18T21:53:27.392580+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.2,
   "price_stats": {
     "avg": 0.39,
     "min": 0.3,
     "max": 0.99,
     "median": 0.3,
-    "std_dev": 0.22,
-    "store_count": 10
+    "std_dev": 0.2,
+    "store_count": 12
   },
   "histogram": [
     {
       "bucket": "$0.30",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$0.40",
       "count": 2
+    },
+    {
+      "bucket": "$0.50",
+      "count": 1
     },
     {
       "bucket": "$0.99",
@@ -95,6 +99,13 @@
       "price": 0.3
     },
     {
+      "store_number": "004267",
+      "name": "Taco Bell",
+      "city": "Hilo",
+      "state": "HI",
+      "price": 0.3
+    },
+    {
       "store_number": "030719",
       "name": "Taco Bell",
       "city": "Prunedale",
@@ -114,13 +125,6 @@
       "city": "Powell",
       "state": "TN",
       "price": 0.4
-    },
-    {
-      "store_number": "021096",
-      "name": "Taco Bell",
-      "city": "Yorktown Heights",
-      "state": "NY",
-      "price": 0.99
     }
   ],
   "min_price_store_numbers": [
@@ -130,6 +134,7 @@
     "036720",
     "031416",
     "039595",
+    "004267",
     "030719"
   ],
   "priciest_stores": [
@@ -139,6 +144,13 @@
       "city": "Yorktown Heights",
       "state": "NY",
       "price": 0.99
+    },
+    {
+      "store_number": "026750",
+      "name": "Taco Bell",
+      "city": "Palatine",
+      "state": "IL",
+      "price": 0.5
     },
     {
       "store_number": "031540",
@@ -159,6 +171,13 @@
       "name": "Taco Bell",
       "city": "Prunedale",
       "state": "CA",
+      "price": 0.3
+    },
+    {
+      "store_number": "004267",
+      "name": "Taco Bell",
+      "city": "Hilo",
+      "state": "HI",
       "price": 0.3
     },
     {
@@ -188,23 +207,29 @@
       "city": "Albert Lea",
       "state": "MN",
       "price": 0.3
-    },
-    {
-      "store_number": "039602",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 0.3
-    },
-    {
-      "store_number": "039598",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 0.3
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026750",
+      "store_name": "Taco Bell",
+      "city": "Palatine",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-11-14T22:21:31.896626+00:00"
+    },
+    {
+      "store_number": "004267",
+      "store_name": "Taco Bell",
+      "city": "Hilo",
+      "state": "HI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-11-14T22:21:02.249989+00:00"
+    },
     {
       "store_number": "019953",
       "store_name": "Taco Bell",
@@ -85137,7 +85162,7 @@
     }
   ],
   "activity_summary": {
-    "added": 4254,
+    "added": 4256,
     "removed": 4239,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -85202,6 +85227,15 @@
       "FL"
     ],
     [
+      "004267",
+      19.692346871470672,
+      -155.06637414122227,
+      0.3,
+      "Taco Bell",
+      "Hilo",
+      "HI"
+    ],
+    [
       "030719",
       36.79228158342506,
       -121.6653772149134,
@@ -85229,6 +85263,15 @@
       "TN"
     ],
     [
+      "026750",
+      42.13960830699689,
+      -88.01524109830522,
+      0.5,
+      "Taco Bell",
+      "Palatine",
+      "IL"
+    ],
+    [
       "021096",
       41.27340482536628,
       -73.78310760211245,
@@ -85239,6 +85282,6 @@
     ]
   ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-11-13",
+  "last_seen_date": "2026-11-14",
   "peak_availability_pct": 47.7
 }

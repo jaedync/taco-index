@@ -11,37 +11,49 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 0.1,
+  "peak_30d_pct": 0.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-11-12T22:21:34.989342+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.2,
   "price_stats": {
-    "avg": 2.85,
-    "min": 2.49,
-    "max": 3.19,
+    "avg": 2.86,
+    "min": 2.19,
+    "max": 3.39,
     "median": 2.89,
-    "std_dev": 0.24,
-    "store_count": 7
+    "std_dev": 0.3,
+    "store_count": 17
   },
   "histogram": [
     {
-      "bucket": "$2.49",
+      "bucket": "$2.19",
       "count": 1
+    },
+    {
+      "bucket": "$2.49",
+      "count": 2
     },
     {
       "bucket": "$2.69",
-      "count": 2
+      "count": 3
     },
     {
-      "bucket": "$2.89",
+      "bucket": "$2.79",
       "count": 1
     },
     {
+      "bucket": "$2.89",
+      "count": 3
+    },
+    {
       "bucket": "$2.99",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$3.19",
+      "count": 3
+    },
+    {
+      "bucket": "$3.39",
       "count": 1
     }
   ],
@@ -62,10 +74,24 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "037116",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 2.19
+    },
+    {
       "store_number": "031442",
       "name": "Taco Bell",
       "city": "Athens",
       "state": "OH",
+      "price": 2.49
+    },
+    {
+      "store_number": "041222",
+      "name": "Taco Bell",
+      "city": "Snellville",
+      "state": "GA",
       "price": 2.49
     },
     {
@@ -83,6 +109,20 @@
       "price": 2.69
     },
     {
+      "store_number": "037357",
+      "name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
+      "price": 2.69
+    },
+    {
+      "store_number": "029867",
+      "name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "price": 2.79
+    },
+    {
       "store_number": "041864",
       "name": "Taco Bell",
       "city": "Aliquippa",
@@ -90,31 +130,45 @@
       "price": 2.89
     },
     {
-      "store_number": "002035",
+      "store_number": "031337",
       "name": "Taco Bell",
-      "city": "Wilmington",
-      "state": "DE",
-      "price": 2.99
+      "city": "Lacey",
+      "state": "WA",
+      "price": 2.89
     },
     {
-      "store_number": "029307",
+      "store_number": "028251",
       "name": "Taco Bell",
-      "city": "New Milford",
-      "state": "CT",
-      "price": 2.99
-    },
-    {
-      "store_number": "041434",
-      "name": "Taco Bell",
-      "city": "Tracy",
-      "state": "CA",
-      "price": 3.19
+      "city": "Erie",
+      "state": "PA",
+      "price": 2.89
     }
   ],
   "min_price_store_numbers": [
-    "031442"
+    "037116"
   ],
   "priciest_stores": [
+    {
+      "store_number": "030754",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "Pacifica",
+      "state": "CA",
+      "price": 3.39
+    },
+    {
+      "store_number": "027374",
+      "name": "Taco Bell",
+      "city": "Pinckney",
+      "state": "MI",
+      "price": 3.19
+    },
+    {
+      "store_number": "037160",
+      "name": "Taco Bell",
+      "city": "West Bend",
+      "state": "WI",
+      "price": 3.19
+    },
     {
       "store_number": "041434",
       "name": "Taco Bell",
@@ -123,10 +177,17 @@
       "price": 3.19
     },
     {
-      "store_number": "029307",
+      "store_number": "021046",
       "name": "Taco Bell",
-      "city": "New Milford",
-      "state": "CT",
+      "city": "Battle Ground",
+      "state": "WA",
+      "price": 2.99
+    },
+    {
+      "store_number": "039603",
+      "name": "Taco Bell",
+      "city": "Boston",
+      "state": "MA",
       "price": 2.99
     },
     {
@@ -137,35 +198,148 @@
       "price": 2.99
     },
     {
+      "store_number": "028251",
+      "name": "Taco Bell",
+      "city": "Erie",
+      "state": "PA",
+      "price": 2.89
+    },
+    {
+      "store_number": "031337",
+      "name": "Taco Bell",
+      "city": "Lacey",
+      "state": "WA",
+      "price": 2.89
+    },
+    {
       "store_number": "041864",
       "name": "Taco Bell",
       "city": "Aliquippa",
       "state": "PA",
       "price": 2.89
-    },
-    {
-      "store_number": "037365",
-      "name": "Taco Bell",
-      "city": "Brandenburg",
-      "state": "KY",
-      "price": 2.69
-    },
-    {
-      "store_number": "042238",
-      "name": "Taco Bell",
-      "city": "Conroe",
-      "state": "TX",
-      "price": 2.69
-    },
-    {
-      "store_number": "031442",
-      "name": "Taco Bell",
-      "city": "Athens",
-      "state": "OH",
-      "price": 2.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028251",
+      "store_name": "Taco Bell",
+      "city": "Erie",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-11-14T22:21:33.753230+00:00"
+    },
+    {
+      "store_number": "021046",
+      "store_name": "Taco Bell",
+      "city": "Battle Ground",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-11-14T22:21:13.755525+00:00"
+    },
+    {
+      "store_number": "029307",
+      "store_name": "Taco Bell",
+      "city": "New Milford",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-11-14T22:21:11.765484+00:00"
+    },
+    {
+      "store_number": "031337",
+      "store_name": "Taco Bell",
+      "city": "Lacey",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-11-14T22:20:33.219207+00:00"
+    },
+    {
+      "store_number": "030754",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Pacifica",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-11-14T22:20:06.512884+00:00"
+    },
+    {
+      "store_number": "039603",
+      "store_name": "Taco Bell",
+      "city": "Boston",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-11-14T22:19:29.355796+00:00"
+    },
+    {
+      "store_number": "029867",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-11-14T22:19:16.999500+00:00"
+    },
+    {
+      "store_number": "027374",
+      "store_name": "Taco Bell",
+      "city": "Pinckney",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-11-14T22:19:16.452160+00:00"
+    },
+    {
+      "store_number": "037357",
+      "store_name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-11-14T22:19:10.959946+00:00"
+    },
+    {
+      "store_number": "037160",
+      "store_name": "Taco Bell",
+      "city": "West Bend",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-11-14T22:19:07.996936+00:00"
+    },
+    {
+      "store_number": "037116",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-11-14T22:19:02.196486+00:00"
+    },
+    {
+      "store_number": "041222",
+      "store_name": "Taco Bell",
+      "city": "Snellville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-11-14T22:18:48.661018+00:00"
+    },
     {
       "store_number": "029307",
       "store_name": "Taco Bell",
@@ -238,8 +412,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7,
-    "removed": 0,
+    "added": 18,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -249,6 +423,15 @@
   "combo_groups": [],
   "map_data": [
     [
+      "037116",
+      41.79921643473022,
+      -87.59249694654828,
+      2.19,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
+    [
       "031442",
       39.33648193249637,
       -82.05962464213377,
@@ -256,6 +439,15 @@
       "Taco Bell",
       "Athens",
       "OH"
+    ],
+    [
+      "041222",
+      33.80204066127045,
+      -84.04311550539077,
+      2.49,
+      "Taco Bell",
+      "Snellville",
+      "GA"
     ],
     [
       "042238",
@@ -276,12 +468,48 @@
       "KY"
     ],
     [
+      "037357",
+      31.260210432381527,
+      -85.43750439907221,
+      2.69,
+      "Taco Bell",
+      "Dothan",
+      "AL"
+    ],
+    [
+      "029867",
+      35.10074468567441,
+      -80.99148988723755,
+      2.79,
+      "Taco Bell",
+      "Charlotte",
+      "NC"
+    ],
+    [
       "041864",
       40.60283510187722,
       -80.27814342446456,
       2.89,
       "Taco Bell",
       "Aliquippa",
+      "PA"
+    ],
+    [
+      "031337",
+      47.03973509496678,
+      -122.83757262509855,
+      2.89,
+      "Taco Bell",
+      "Lacey",
+      "WA"
+    ],
+    [
+      "028251",
+      42.12455306541209,
+      -80.0795897631906,
+      2.89,
+      "Taco Bell",
+      "Erie",
       "PA"
     ],
     [
@@ -294,13 +522,22 @@
       "DE"
     ],
     [
-      "029307",
-      41.549990139083214,
-      -73.41781200614378,
+      "039603",
+      42.33597168507332,
+      -71.04678595846967,
       2.99,
       "Taco Bell",
-      "New Milford",
-      "CT"
+      "Boston",
+      "MA"
+    ],
+    [
+      "021046",
+      45.7808883263527,
+      -122.55509443582469,
+      2.99,
+      "Taco Bell",
+      "Battle Ground",
+      "WA"
     ],
     [
       "041434",
@@ -310,6 +547,33 @@
       "Taco Bell",
       "Tracy",
       "CA"
+    ],
+    [
+      "037160",
+      43.42768923916946,
+      -88.21250534472478,
+      3.19,
+      "Taco Bell",
+      "West Bend",
+      "WI"
+    ],
+    [
+      "027374",
+      42.45818612287247,
+      -83.92965003848076,
+      3.19,
+      "Taco Bell",
+      "Pinckney",
+      "MI"
+    ],
+    [
+      "030754",
+      37.59718004343826,
+      -122.50374955505322,
+      3.39,
+      "Taco Bell Cantina Cantina",
+      "Pacifica",
+      "CA"
     ]
   ],
   "retired_at": null,
@@ -318,24 +582,24 @@
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 3.16,
+      "avg_price": 3.26,
       "min_price": 2.69,
-      "max_price": 3.49,
+      "max_price": 3.59,
       "calories": 10,
       "happier_hour_avg": null
     },
     {
       "size": "MEDIUM",
-      "avg_price": 2.99,
+      "avg_price": 3.06,
       "min_price": 2.59,
-      "max_price": 3.29,
+      "max_price": 3.39,
       "calories": 10,
       "happier_hour_avg": null
     },
     {
       "size": "SMALL",
-      "avg_price": 2.85,
-      "min_price": 2.49,
+      "avg_price": 2.84,
+      "min_price": 2.19,
       "max_price": 3.19,
       "calories": 5,
       "happier_hour_avg": null
