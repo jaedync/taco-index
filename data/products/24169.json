@@ -15,32 +15,22 @@
   "peak_30d_pct": 0.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-11-12T22:19:58.607305+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
-    "avg": 3.83,
-    "min": 3.69,
+    "avg": 3.89,
+    "min": 3.89,
     "max": 3.89,
     "median": 3.89,
-    "std_dev": 0.1,
-    "store_count": 7
+    "std_dev": 0.0,
+    "store_count": 3
   },
   "histogram": [
     {
-      "bucket": "$3.69",
-      "count": 2
-    },
-    {
       "bucket": "$3.89",
-      "count": 5
+      "count": 3
     }
   ],
-  "state_prices": [
-    {
-      "state": "TN",
-      "avg_price": 3.89,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -57,20 +47,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "015843",
-      "name": "Taco Bell",
-      "city": "Bemidji",
-      "state": "MN",
-      "price": 3.69
-    },
-    {
-      "store_number": "004900",
-      "name": "Taco Bell",
-      "city": "Hudson",
-      "state": "WI",
-      "price": 3.69
-    },
-    {
       "store_number": "034911",
       "name": "Taco Bell",
       "city": "Hermitage",
@@ -85,50 +61,23 @@
       "price": 3.89
     },
     {
-      "store_number": "034440",
-      "name": "Taco Bell",
-      "city": "Smyrna",
-      "state": "TN",
-      "price": 3.89
-    },
-    {
       "store_number": "034366",
       "name": "Taco Bell",
       "city": "Madison",
-      "state": "TN",
-      "price": 3.89
-    },
-    {
-      "store_number": "034367",
-      "name": "Taco Bell",
-      "city": "Springfield",
       "state": "TN",
       "price": 3.89
     }
   ],
   "min_price_store_numbers": [
-    "015843",
-    "004900"
+    "034911",
+    "003441",
+    "034366"
   ],
   "priciest_stores": [
-    {
-      "store_number": "034367",
-      "name": "Taco Bell",
-      "city": "Springfield",
-      "state": "TN",
-      "price": 3.89
-    },
     {
       "store_number": "034366",
       "name": "Taco Bell",
       "city": "Madison",
-      "state": "TN",
-      "price": 3.89
-    },
-    {
-      "store_number": "034440",
-      "name": "Taco Bell",
-      "city": "Smyrna",
       "state": "TN",
       "price": 3.89
     },
@@ -145,23 +94,49 @@
       "city": "Hermitage",
       "state": "TN",
       "price": 3.89
-    },
-    {
-      "store_number": "004900",
-      "name": "Taco Bell",
-      "city": "Hudson",
-      "state": "WI",
-      "price": 3.69
-    },
-    {
-      "store_number": "015843",
-      "name": "Taco Bell",
-      "city": "Bemidji",
-      "state": "MN",
-      "price": 3.69
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004900",
+      "store_name": "Taco Bell",
+      "city": "Hudson",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 3.69,
+      "new_price": null,
+      "observed_at": "2026-11-15T21:44:57.832020+00:00"
+    },
+    {
+      "store_number": "015843",
+      "store_name": "Taco Bell",
+      "city": "Bemidji",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 3.69,
+      "new_price": null,
+      "observed_at": "2026-11-15T21:43:22.842417+00:00"
+    },
+    {
+      "store_number": "034367",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.89,
+      "new_price": null,
+      "observed_at": "2026-11-15T21:41:49.157231+00:00"
+    },
+    {
+      "store_number": "034440",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 3.89,
+      "new_price": null,
+      "observed_at": "2026-11-15T21:41:40.461030+00:00"
+    },
     {
       "store_number": "037830",
       "store_name": "Taco Bell",
@@ -875,7 +850,7 @@
   ],
   "activity_summary": {
     "added": 39,
-    "removed": 32,
+    "removed": 36,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -898,24 +873,6 @@
   ],
   "map_data": [
     [
-      "015843",
-      47.49120241471969,
-      -94.88759462537018,
-      3.69,
-      "Taco Bell",
-      "Bemidji",
-      "MN"
-    ],
-    [
-      "004900",
-      44.9612833367091,
-      -92.7239115983412,
-      3.69,
-      "Taco Bell",
-      "Hudson",
-      "WI"
-    ],
-    [
       "034911",
       36.17283814453356,
       -86.60242063583284,
@@ -934,30 +891,12 @@
       "TN"
     ],
     [
-      "034440",
-      35.9311820543111,
-      -86.53334677219391,
-      3.89,
-      "Taco Bell",
-      "Smyrna",
-      "TN"
-    ],
-    [
       "034366",
       36.30375825870877,
       -86.69201962185525,
       3.89,
       "Taco Bell",
       "Madison",
-      "TN"
-    ],
-    [
-      "034367",
-      36.48810693607672,
-      -86.88127302428893,
-      3.89,
-      "Taco Bell",
-      "Springfield",
       "TN"
     ]
   ],

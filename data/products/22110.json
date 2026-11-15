@@ -17,13 +17,17 @@
   "availability_pct": 99.8,
   "price_stats": {
     "avg": 2.05,
-    "min": 1.59,
+    "min": 0.99,
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.2,
-    "store_count": 7749
+    "store_count": 7750
   },
   "histogram": [
+    {
+      "bucket": "$0.99",
+      "count": 2
+    },
     {
       "bucket": "$1.59",
       "count": 1
@@ -42,11 +46,11 @@
     },
     {
       "bucket": "$1.89",
-      "count": 915
+      "count": 916
     },
     {
       "bucket": "$1.99",
-      "count": 4520
+      "count": 4518
     },
     {
       "bucket": "$2.00",
@@ -245,8 +249,8 @@
     },
     {
       "state": "IL",
-      "avg_price": 2.09,
-      "store_count": 288
+      "avg_price": 2.08,
+      "store_count": 289
     },
     {
       "state": "IA",
@@ -355,7 +359,7 @@
     },
     {
       "state": "IN",
-      "avg_price": 1.99,
+      "avg_price": 1.98,
       "store_count": 262
     },
     {
@@ -445,6 +449,20 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "040318",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 0.99
+    },
+    {
+      "store_number": "043006",
+      "name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "price": 0.99
+    },
+    {
       "store_number": "031484",
       "name": "Taco Bell",
       "city": "Window Rock",
@@ -499,24 +517,11 @@
       "city": "Ramsey",
       "state": "MN",
       "price": 1.69
-    },
-    {
-      "store_number": "040160",
-      "name": "Taco Bell",
-      "city": "Superior",
-      "state": "WI",
-      "price": 1.69
-    },
-    {
-      "store_number": "032302",
-      "name": "Taco Bell",
-      "city": "Brookings",
-      "state": "SD",
-      "price": 1.69
     }
   ],
   "min_price_store_numbers": [
-    "031484"
+    "040318",
+    "043006"
   ],
   "priciest_stores": [
     {
@@ -591,6 +596,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "021027",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.89,
+      "observed_at": "2026-11-15T21:49:15.614806+00:00"
+    },
+    {
+      "store_number": "020944",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-11-15T21:45:47.851920+00:00"
+    },
+    {
+      "store_number": "043006",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-11-15T21:39:57.941533+00:00"
+    },
+    {
+      "store_number": "041664",
+      "store_name": "Taco Bell Cantina",
+      "city": "Evanston",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-11-15T21:36:17.926890+00:00"
+    },
+    {
+      "store_number": "040318",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-11-15T21:35:44.534592+00:00"
+    },
     {
       "store_number": "043610",
       "store_name": "Taco Bell",
@@ -34873,9 +34928,9 @@
     }
   ],
   "activity_summary": {
-    "added": 582,
-    "removed": 489,
-    "price_changed": 2357,
+    "added": 584,
+    "removed": 490,
+    "price_changed": 2359,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 180,
@@ -34883,6 +34938,24 @@
   "calories_max": 180,
   "combo_groups": [],
   "map_data": [
+    [
+      "040318",
+      41.807919921888036,
+      -87.74351908680534,
+      0.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
+    [
+      "043006",
+      39.79695284567275,
+      -86.01268830428725,
+      0.99,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
     [
       "031484",
       35.66402882084004,
@@ -39076,6 +39149,15 @@
       "Taco Bell",
       "Houston",
       "TX"
+    ],
+    [
+      "021027",
+      39.03369262366429,
+      -82.62661586701768,
+      1.89,
+      "Taco Bell",
+      "Jackson",
+      "OH"
     ],
     [
       "002434",
@@ -46593,15 +46675,6 @@
       "AR"
     ],
     [
-      "040318",
-      41.807919921888036,
-      -87.74351908680534,
-      1.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
       "041646",
       36.132926,
       -95.924655,
@@ -47266,6 +47339,15 @@
       "Taco Bell",
       "Mechanicsburg",
       "PA"
+    ],
+    [
+      "041664",
+      42.04963081712261,
+      -87.6815589895617,
+      1.99,
+      "Taco Bell Cantina",
+      "Evanston",
+      "IL"
     ],
     [
       "042118",
@@ -49926,15 +50008,6 @@
       "043007",
       39.85505652122834,
       -86.24080654485579,
-      1.99,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
-    ],
-    [
-      "043006",
-      39.79695284567275,
-      -86.01268830428725,
       1.99,
       "Taco Bell",
       "Indianapolis",
@@ -78631,15 +78704,6 @@
       "Taco Bell",
       "Lexington",
       "NC"
-    ],
-    [
-      "020944",
-      40.14013051280587,
-      -82.98090845346445,
-      1.99,
-      "Taco Bell",
-      "Columbus",
-      "OH"
     ],
     [
       "042290",

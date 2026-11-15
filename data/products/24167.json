@@ -17,12 +17,12 @@
   "first_seen_at": "2026-11-12T22:19:39.590782+00:00",
   "availability_pct": 1.1,
   "price_stats": {
-    "avg": 3.8,
+    "avg": 3.79,
     "min": 3.69,
     "max": 3.89,
     "median": 3.89,
     "std_dev": 0.1,
-    "store_count": 83
+    "store_count": 82
   },
   "histogram": [
     {
@@ -31,19 +31,19 @@
     },
     {
       "bucket": "$3.89",
-      "count": 44
+      "count": 43
     }
   ],
   "state_prices": [
     {
-      "state": "KY",
-      "avg_price": 3.89,
-      "store_count": 6
-    },
-    {
       "state": "TN",
       "avg_price": 3.89,
       "store_count": 38
+    },
+    {
+      "state": "KY",
+      "avg_price": 3.89,
+      "store_count": 5
     },
     {
       "state": "MN",
@@ -236,21 +236,31 @@
       "price": 3.89
     },
     {
-      "store_number": "015897",
-      "name": "Taco Bell",
-      "city": "Franklin",
-      "state": "KY",
-      "price": 3.89
-    },
-    {
       "store_number": "034437",
       "name": "Taco Bell",
       "city": "Smyrna",
       "state": "TN",
       "price": 3.89
+    },
+    {
+      "store_number": "034434",
+      "name": "Taco Bell",
+      "city": "Clarksville",
+      "state": "TN",
+      "price": 3.89
     }
   ],
   "price_changes": [
+    {
+      "store_number": "015897",
+      "store_name": "Taco Bell",
+      "city": "Franklin",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 3.89,
+      "new_price": null,
+      "observed_at": "2026-11-15T21:42:01.394783+00:00"
+    },
     {
       "store_number": "034353",
       "store_name": "Taco Bell",
@@ -1084,7 +1094,7 @@
   ],
   "activity_summary": {
     "added": 83,
-    "removed": 0,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1771,15 +1781,6 @@
       "Taco Bell",
       "Smyrna",
       "TN"
-    ],
-    [
-      "015897",
-      36.708450548014646,
-      -86.57586641144917,
-      3.89,
-      "Taco Bell",
-      "Franklin",
-      "KY"
     ],
     [
       "030867",

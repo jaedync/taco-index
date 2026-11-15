@@ -13,31 +13,36 @@
   "peak_30d_pct": 26.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-10-15T20:33:01.800172+00:00",
-  "availability_pct": 0.9,
+  "availability_pct": 1.0,
   "price_stats": {
     "avg": 0.99,
     "min": 0.99,
     "max": 0.99,
     "median": 0.99,
     "std_dev": 0.0,
-    "store_count": 70
+    "store_count": 76
   },
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 70
+      "count": 76
     }
   ],
   "state_prices": [
     {
-      "state": "CA",
-      "avg_price": 0.99,
-      "store_count": 11
-    },
-    {
       "state": "TX",
       "avg_price": 0.99,
+      "store_count": 7
+    },
+    {
+      "state": "FL",
+      "avg_price": 0.99,
       "store_count": 6
+    },
+    {
+      "state": "CA",
+      "avg_price": 0.99,
+      "store_count": 12
     }
   ],
   "nutrition": {
@@ -84,6 +89,13 @@
       "price": 0.99
     },
     {
+      "store_number": "034207",
+      "name": "Taco Bell",
+      "city": "Clovis",
+      "state": "CA",
+      "price": 0.99
+    },
+    {
       "store_number": "016335",
       "name": "Taco Bell",
       "city": "Lenoir City",
@@ -105,24 +117,17 @@
       "price": 0.99
     },
     {
+      "store_number": "036148",
+      "name": "Taco Bell",
+      "city": "Spring Hill",
+      "state": "FL",
+      "price": 0.99
+    },
+    {
       "store_number": "030568",
       "name": "Taco Bell",
       "city": "Cameron",
       "state": "NC",
-      "price": 0.99
-    },
-    {
-      "store_number": "039969",
-      "name": "Taco Bell",
-      "city": "Easton",
-      "state": "MD",
-      "price": 0.99
-    },
-    {
-      "store_number": "040483",
-      "name": "Taco Bell",
-      "city": "West Valley City",
-      "state": "UT",
       "price": 0.99
     }
   ],
@@ -131,9 +136,11 @@
     "002421",
     "031905",
     "020679",
+    "034207",
     "016335",
     "004907",
     "031959",
+    "036148",
     "030568",
     "039969",
     "040483",
@@ -177,7 +184,6 @@
     "043169",
     "035455",
     "036264",
-    "039579",
     "037384",
     "029867",
     "003865",
@@ -196,9 +202,49 @@
     "030801",
     "041576",
     "037075",
-    "039106"
+    "039106",
+    "004718",
+    "017387",
+    "030127",
+    "041802",
+    "003880"
   ],
   "priciest_stores": [
+    {
+      "store_number": "003880",
+      "name": "Taco Bell",
+      "city": "Clearwater",
+      "state": "FL",
+      "price": 0.99
+    },
+    {
+      "store_number": "041802",
+      "name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "price": 0.99
+    },
+    {
+      "store_number": "030127",
+      "name": "Taco Bell",
+      "city": "Waco",
+      "state": "TX",
+      "price": 0.99
+    },
+    {
+      "store_number": "017387",
+      "name": "Taco Bell",
+      "city": "Boise",
+      "state": "ID",
+      "price": 0.99
+    },
+    {
+      "store_number": "004718",
+      "name": "Taco Bell",
+      "city": "Campbellsville",
+      "state": "KY",
+      "price": 0.99
+    },
     {
       "store_number": "039106",
       "name": "Taco Bell",
@@ -233,44 +279,89 @@
       "city": "Arvada",
       "state": "CO",
       "price": 0.99
-    },
-    {
-      "store_number": "035285",
-      "name": "Taco Bell",
-      "city": "Omaha",
-      "state": "NE",
-      "price": 0.99
-    },
-    {
-      "store_number": "031656",
-      "name": "Taco Bell",
-      "city": "Baton Rouge",
-      "state": "LA",
-      "price": 0.99
-    },
-    {
-      "store_number": "029992",
-      "name": "Taco Bell",
-      "city": "Davenport",
-      "state": "FL",
-      "price": 0.99
-    },
-    {
-      "store_number": "030135",
-      "name": "Taco Bell",
-      "city": "New Braunfels",
-      "state": "TX",
-      "price": 0.99
-    },
-    {
-      "store_number": "019895",
-      "name": "Taco Bell",
-      "city": "Rancho Santa Margarita",
-      "state": "CA",
-      "price": 0.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036148",
+      "store_name": "Taco Bell",
+      "city": "Spring Hill",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-15T21:47:11.828575+00:00"
+    },
+    {
+      "store_number": "003880",
+      "store_name": "Taco Bell",
+      "city": "Clearwater",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-15T21:45:23.493973+00:00"
+    },
+    {
+      "store_number": "034207",
+      "store_name": "Taco Bell",
+      "city": "Clovis",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-15T21:45:06.769908+00:00"
+    },
+    {
+      "store_number": "041802",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-15T21:44:29.436144+00:00"
+    },
+    {
+      "store_number": "030127",
+      "store_name": "Taco Bell",
+      "city": "Waco",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-15T21:43:27.450240+00:00"
+    },
+    {
+      "store_number": "017387",
+      "store_name": "Taco Bell",
+      "city": "Boise",
+      "state": "ID",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-15T21:42:49.316697+00:00"
+    },
+    {
+      "store_number": "004718",
+      "store_name": "Taco Bell",
+      "city": "Campbellsville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-15T21:42:37.350689+00:00"
+    },
+    {
+      "store_number": "039579",
+      "store_name": "Taco Bell",
+      "city": "Waconia",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-11-15T21:41:24.247089+00:00"
+    },
     {
       "store_number": "039106",
       "store_name": "Taco Bell",
@@ -52403,8 +52494,8 @@
     }
   ],
   "activity_summary": {
-    "added": 2642,
-    "removed": 2571,
+    "added": 2649,
+    "removed": 2572,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -52450,6 +52541,15 @@
       "NY"
     ],
     [
+      "034207",
+      36.808987335369736,
+      -119.67535573368855,
+      0.99,
+      "Taco Bell",
+      "Clovis",
+      "CA"
+    ],
+    [
       "016335",
       35.810910605655216,
       -84.26391898537986,
@@ -52475,6 +52575,15 @@
       "Taco Bell",
       "Madison",
       "WI"
+    ],
+    [
+      "036148",
+      28.475823351223877,
+      -82.48665436007794,
+      0.99,
+      "Taco Bell",
+      "Spring Hill",
+      "FL"
     ],
     [
       "030568",
@@ -52864,15 +52973,6 @@
       "KS"
     ],
     [
-      "039579",
-      44.83829275465535,
-      -93.79817848557576,
-      0.99,
-      "Taco Bell",
-      "Waconia",
-      "MN"
-    ],
-    [
       "037384",
       43.1507580890631,
       -76.35411566299909,
@@ -53042,6 +53142,51 @@
       "Taco Bell",
       "Elizabeth",
       "NJ"
+    ],
+    [
+      "004718",
+      37.348063805814746,
+      -85.33484000883382,
+      0.99,
+      "Taco Bell",
+      "Campbellsville",
+      "KY"
+    ],
+    [
+      "017387",
+      43.590403851490976,
+      -116.26969112271021,
+      0.99,
+      "Taco Bell",
+      "Boise",
+      "ID"
+    ],
+    [
+      "030127",
+      31.549987758020297,
+      -97.12514971198289,
+      0.99,
+      "Taco Bell",
+      "Waco",
+      "TX"
+    ],
+    [
+      "041802",
+      33.94081012771555,
+      -83.45053468646256,
+      0.99,
+      "Taco Bell",
+      "Athens",
+      "GA"
+    ],
+    [
+      "003880",
+      27.96090030793694,
+      -82.7616137266159,
+      0.99,
+      "Taco Bell",
+      "Clearwater",
+      "FL"
     ]
   ],
   "retired_at": null,

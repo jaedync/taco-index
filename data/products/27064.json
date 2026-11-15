@@ -16,17 +16,17 @@
   "first_seen_at": "2026-11-12T22:19:37.606268+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 11.05,
+    "avg": 11.11,
     "min": 10.49,
     "max": 11.99,
     "median": 10.99,
-    "std_dev": 0.5,
-    "store_count": 11
+    "std_dev": 0.49,
+    "store_count": 10
   },
   "histogram": [
     {
       "bucket": "$10.49",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$10.69",
@@ -57,13 +57,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "029011",
-      "name": "Taco Bell",
-      "city": "Boone",
-      "state": "NC",
-      "price": 10.49
-    },
     {
       "store_number": "033379",
       "name": "Taco Bell",
@@ -126,10 +119,16 @@
       "city": "Placerville",
       "state": "CA",
       "price": 11.99
+    },
+    {
+      "store_number": "027301",
+      "name": "Taco Bell",
+      "city": "Kettleman City",
+      "state": "CA",
+      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
-    "029011",
     "033379"
   ],
   "priciest_stores": [
@@ -205,6 +204,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029011",
+      "store_name": "Taco Bell",
+      "city": "Boone",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 10.49,
+      "new_price": null,
+      "observed_at": "2026-11-15T21:41:31.868951+00:00"
+    },
     {
       "store_number": "043218",
       "store_name": "Taco Bell",
@@ -145848,7 +145857,7 @@
   ],
   "activity_summary": {
     "added": 7270,
-    "removed": 7258,
+    "removed": 7259,
     "price_changed": 36,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -145888,15 +145897,6 @@
     }
   ],
   "map_data": [
-    [
-      "029011",
-      36.20491338187314,
-      -81.66803017258644,
-      10.49,
-      "Taco Bell",
-      "Boone",
-      "NC"
-    ],
     [
       "033379",
       36.41263614362259,

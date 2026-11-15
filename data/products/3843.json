@@ -10,8 +10,8 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 0.1,
-  "recent_price_change_pct": -0.0202,
+  "peak_30d_pct": 0.2,
+  "recent_price_change_pct": -0.0348,
   "first_seen_at": "2026-08-18T21:53:27.392580+00:00",
   "availability_pct": 0.2,
   "price_stats": {
@@ -19,17 +19,17 @@
     "min": 0.3,
     "max": 0.99,
     "median": 0.3,
-    "std_dev": 0.2,
-    "store_count": 12
+    "std_dev": 0.19,
+    "store_count": 14
   },
   "histogram": [
     {
       "bucket": "$0.30",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$0.40",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$0.50",
@@ -85,6 +85,13 @@
       "price": 0.3
     },
     {
+      "store_number": "036309",
+      "name": "Taco Bell",
+      "city": "Zephyrhills",
+      "state": "FL",
+      "price": 0.3
+    },
+    {
       "store_number": "031416",
       "name": "Taco Bell",
       "city": "Gonzales",
@@ -113,17 +120,10 @@
       "price": 0.3
     },
     {
-      "store_number": "019953",
+      "store_number": "018131",
       "name": "Taco Bell",
       "city": "Anchorage",
       "state": "AK",
-      "price": 0.4
-    },
-    {
-      "store_number": "031540",
-      "name": "Taco Bell",
-      "city": "Powell",
-      "state": "TN",
       "price": 0.4
     }
   ],
@@ -132,6 +132,7 @@
     "039602",
     "036276",
     "036720",
+    "036309",
     "031416",
     "039595",
     "004267",
@@ -167,6 +168,13 @@
       "price": 0.4
     },
     {
+      "store_number": "018131",
+      "name": "Taco Bell",
+      "city": "Anchorage",
+      "state": "AK",
+      "price": 0.4
+    },
+    {
       "store_number": "030719",
       "name": "Taco Bell",
       "city": "Prunedale",
@@ -195,21 +203,34 @@
       "price": 0.3
     },
     {
-      "store_number": "036720",
+      "store_number": "036309",
       "name": "Taco Bell",
-      "city": "Greenfield",
-      "state": "CA",
-      "price": 0.3
-    },
-    {
-      "store_number": "036276",
-      "name": "Taco Bell",
-      "city": "Albert Lea",
-      "state": "MN",
+      "city": "Zephyrhills",
+      "state": "FL",
       "price": 0.3
     }
   ],
   "price_changes": [
+    {
+      "store_number": "018131",
+      "store_name": "Taco Bell",
+      "city": "Anchorage",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-11-15T21:42:22.494801+00:00"
+    },
+    {
+      "store_number": "036309",
+      "store_name": "Taco Bell",
+      "city": "Zephyrhills",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-11-15T21:41:18.192466+00:00"
+    },
     {
       "store_number": "026750",
       "store_name": "Taco Bell",
@@ -85162,7 +85183,7 @@
     }
   ],
   "activity_summary": {
-    "added": 4256,
+    "added": 4258,
     "removed": 4239,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -85209,6 +85230,15 @@
       "CA"
     ],
     [
+      "036309",
+      28.2192,
+      -82.2504,
+      0.3,
+      "Taco Bell",
+      "Zephyrhills",
+      "FL"
+    ],
+    [
       "031416",
       36.513875,
       -121.436082,
@@ -85243,6 +85273,15 @@
       "Taco Bell",
       "Prunedale",
       "CA"
+    ],
+    [
+      "018131",
+      61.13834685274748,
+      -149.95045766705036,
+      0.4,
+      "Taco Bell",
+      "Anchorage",
+      "AK"
     ],
     [
       "019953",
@@ -85282,6 +85321,6 @@
     ]
   ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-11-14",
+  "last_seen_date": "2026-11-15",
   "peak_availability_pct": 47.7
 }

@@ -18,11 +18,11 @@
   "first_seen_at": "2026-10-15T20:33:00.966484+00:00",
   "availability_pct": 3.3,
   "price_stats": {
-    "avg": 11.19,
+    "avg": 11.18,
     "min": 9.39,
     "max": 11.69,
     "median": 10.99,
-    "std_dev": 0.42,
+    "std_dev": 0.41,
     "store_count": 259
   },
   "histogram": [
@@ -32,7 +32,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 131
+      "count": 132
     },
     {
       "bucket": "$11.29",
@@ -40,7 +40,7 @@
     },
     {
       "bucket": "$11.69",
-      "count": 64
+      "count": 63
     }
   ],
   "state_prices": [
@@ -48,11 +48,6 @@
       "state": "TN",
       "avg_price": 11.69,
       "store_count": 59
-    },
-    {
-      "state": "KY",
-      "avg_price": 11.31,
-      "store_count": 6
     },
     {
       "state": "WI",
@@ -65,9 +60,14 @@
       "store_count": 52
     },
     {
+      "state": "KY",
+      "avg_price": 11.23,
+      "store_count": 5
+    },
+    {
       "state": "TX",
       "avg_price": 10.92,
-      "store_count": 137
+      "store_count": 138
     }
   ],
   "nutrition": {
@@ -238,6 +238,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027823",
+      "store_name": "Taco Bell",
+      "city": "Arlington",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-11-15T21:43:38.801624+00:00"
+    },
+    {
+      "store_number": "015897",
+      "store_name": "Taco Bell",
+      "city": "Franklin",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 11.69,
+      "new_price": null,
+      "observed_at": "2026-11-15T21:42:01.394783+00:00"
+    },
     {
       "store_number": "024056",
       "store_name": "Taco Bell",
@@ -3250,8 +3270,8 @@
     }
   ],
   "activity_summary": {
-    "added": 277,
-    "removed": 18,
+    "added": 278,
+    "removed": 19,
     "price_changed": 6,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3916,6 +3936,15 @@
       10.99,
       "Taco Bell",
       "Dallas",
+      "TX"
+    ],
+    [
+      "027823",
+      32.67371534304016,
+      -97.0918115763925,
+      10.99,
+      "Taco Bell",
+      "Arlington",
       "TX"
     ],
     [
@@ -5510,15 +5539,6 @@
       "Taco Bell",
       "Smyrna",
       "TN"
-    ],
-    [
-      "015897",
-      36.708450548014646,
-      -86.57586641144917,
-      11.69,
-      "Taco Bell",
-      "Franklin",
-      "KY"
     ],
     [
       "030867",
