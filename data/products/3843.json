@@ -10,34 +10,42 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 0.2,
-  "recent_price_change_pct": -0.0348,
+  "peak_30d_pct": 0.3,
+  "recent_price_change_pct": 0.0824,
   "first_seen_at": "2026-08-18T21:53:27.392580+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.3,
   "price_stats": {
-    "avg": 0.39,
+    "avg": 0.43,
     "min": 0.3,
     "max": 0.99,
     "median": 0.3,
-    "std_dev": 0.19,
-    "store_count": 14
+    "std_dev": 0.21,
+    "store_count": 23
   },
   "histogram": [
     {
       "bucket": "$0.30",
-      "count": 9
+      "count": 12
     },
     {
       "bucket": "$0.40",
-      "count": 3
+      "count": 4
+    },
+    {
+      "bucket": "$0.45",
+      "count": 1
     },
     {
       "bucket": "$0.50",
+      "count": 3
+    },
+    {
+      "bucket": "$0.80",
       "count": 1
     },
     {
       "bucket": "$0.99",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -106,6 +114,13 @@
       "price": 0.3
     },
     {
+      "store_number": "003975",
+      "name": "Taco Bell",
+      "city": "Kailua Kona",
+      "state": "HI",
+      "price": 0.3
+    },
+    {
       "store_number": "004267",
       "name": "Taco Bell",
       "city": "Hilo",
@@ -118,13 +133,6 @@
       "city": "Prunedale",
       "state": "CA",
       "price": 0.3
-    },
-    {
-      "store_number": "018131",
-      "name": "Taco Bell",
-      "city": "Anchorage",
-      "state": "AK",
-      "price": 0.4
     }
   ],
   "min_price_store_numbers": [
@@ -135,10 +143,20 @@
     "036309",
     "031416",
     "039595",
+    "003975",
     "004267",
-    "030719"
+    "030719",
+    "003714",
+    "034073"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042578",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 0.99
+    },
     {
       "store_number": "021096",
       "name": "Taco Bell",
@@ -147,11 +165,46 @@
       "price": 0.99
     },
     {
-      "store_number": "026750",
+      "store_number": "020944",
       "name": "Taco Bell",
-      "city": "Palatine",
+      "city": "Columbus",
+      "state": "OH",
+      "price": 0.8
+    },
+    {
+      "store_number": "036202",
+      "name": "Taco Bell",
+      "city": "De Kalb",
       "state": "IL",
       "price": 0.5
+    },
+    {
+      "store_number": "026754",
+      "name": "Taco Bell",
+      "city": "Streamwood",
+      "state": "IL",
+      "price": 0.5
+    },
+    {
+      "store_number": "040019",
+      "name": "Taco Bell",
+      "city": "Cedar Lake",
+      "state": "IN",
+      "price": 0.5
+    },
+    {
+      "store_number": "002616",
+      "name": "Taco Bell",
+      "city": "North Babylon",
+      "state": "NY",
+      "price": 0.45
+    },
+    {
+      "store_number": "004913",
+      "name": "Taco Bell",
+      "city": "Fairbanks",
+      "state": "AK",
+      "price": 0.4
     },
     {
       "store_number": "031540",
@@ -166,51 +219,119 @@
       "city": "Anchorage",
       "state": "AK",
       "price": 0.4
-    },
-    {
-      "store_number": "018131",
-      "name": "Taco Bell",
-      "city": "Anchorage",
-      "state": "AK",
-      "price": 0.4
-    },
-    {
-      "store_number": "030719",
-      "name": "Taco Bell",
-      "city": "Prunedale",
-      "state": "CA",
-      "price": 0.3
-    },
-    {
-      "store_number": "004267",
-      "name": "Taco Bell",
-      "city": "Hilo",
-      "state": "HI",
-      "price": 0.3
-    },
-    {
-      "store_number": "039595",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 0.3
-    },
-    {
-      "store_number": "031416",
-      "name": "Taco Bell",
-      "city": "Gonzales",
-      "state": "CA",
-      "price": 0.3
-    },
-    {
-      "store_number": "036309",
-      "name": "Taco Bell",
-      "city": "Zephyrhills",
-      "state": "FL",
-      "price": 0.3
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003714",
+      "store_name": "Taco Bell",
+      "city": "Kahului",
+      "state": "HI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-11-16T22:22:43.374418+00:00"
+    },
+    {
+      "store_number": "036202",
+      "store_name": "Taco Bell",
+      "city": "De Kalb",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-11-16T22:22:26.938672+00:00"
+    },
+    {
+      "store_number": "026750",
+      "store_name": "Taco Bell",
+      "city": "Palatine",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-11-16T22:22:26.068691+00:00"
+    },
+    {
+      "store_number": "002616",
+      "store_name": "Taco Bell",
+      "city": "North Babylon",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.45,
+      "observed_at": "2026-11-16T22:22:25.041421+00:00"
+    },
+    {
+      "store_number": "020944",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-11-16T22:22:13.057434+00:00"
+    },
+    {
+      "store_number": "004913",
+      "store_name": "Taco Bell",
+      "city": "Fairbanks",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-11-16T22:22:11.799971+00:00"
+    },
+    {
+      "store_number": "026754",
+      "store_name": "Taco Bell",
+      "city": "Streamwood",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-11-16T22:20:30.232734+00:00"
+    },
+    {
+      "store_number": "003975",
+      "store_name": "Taco Bell",
+      "city": "Kailua Kona",
+      "state": "HI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-11-16T22:20:09.176203+00:00"
+    },
+    {
+      "store_number": "042578",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-16T22:19:29.129121+00:00"
+    },
+    {
+      "store_number": "034073",
+      "store_name": "Taco Bell",
+      "city": "White Pine",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-11-16T22:12:36.687056+00:00"
+    },
+    {
+      "store_number": "040019",
+      "store_name": "Taco Bell",
+      "city": "Cedar Lake",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-11-16T22:10:59.857387+00:00"
+    },
     {
       "store_number": "018131",
       "store_name": "Taco Bell",
@@ -85183,8 +85304,8 @@
     }
   ],
   "activity_summary": {
-    "added": 4258,
-    "removed": 4239,
+    "added": 4268,
+    "removed": 4240,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -85257,6 +85378,15 @@
       "FL"
     ],
     [
+      "003975",
+      19.6430611818485,
+      -155.9960089623928,
+      0.3,
+      "Taco Bell",
+      "Kailua Kona",
+      "HI"
+    ],
+    [
       "004267",
       19.692346871470672,
       -155.06637414122227,
@@ -85273,6 +85403,24 @@
       "Taco Bell",
       "Prunedale",
       "CA"
+    ],
+    [
+      "003714",
+      20.88868041119493,
+      -156.4650720233135,
+      0.3,
+      "Taco Bell",
+      "Kahului",
+      "HI"
+    ],
+    [
+      "034073",
+      36.110420520976106,
+      -83.33913748291378,
+      0.3,
+      "Taco Bell",
+      "White Pine",
+      "TN"
     ],
     [
       "018131",
@@ -85302,13 +85450,58 @@
       "TN"
     ],
     [
-      "026750",
-      42.13960830699689,
-      -88.01524109830522,
+      "004913",
+      64.835543,
+      -147.813242,
+      0.4,
+      "Taco Bell",
+      "Fairbanks",
+      "AK"
+    ],
+    [
+      "002616",
+      40.738284938816506,
+      -73.31999927759176,
+      0.45,
+      "Taco Bell",
+      "North Babylon",
+      "NY"
+    ],
+    [
+      "040019",
+      41.37634875376213,
+      -87.46939630871344,
       0.5,
       "Taco Bell",
-      "Palatine",
+      "Cedar Lake",
+      "IN"
+    ],
+    [
+      "026754",
+      42.019814185836594,
+      -88.20223597576842,
+      0.5,
+      "Taco Bell",
+      "Streamwood",
       "IL"
+    ],
+    [
+      "036202",
+      41.93122582781383,
+      -88.77646085429252,
+      0.5,
+      "Taco Bell",
+      "De Kalb",
+      "IL"
+    ],
+    [
+      "020944",
+      40.14013051280587,
+      -82.98090845346445,
+      0.8,
+      "Taco Bell",
+      "Columbus",
+      "OH"
     ],
     [
       "021096",
@@ -85318,9 +85511,18 @@
       "Taco Bell",
       "Yorktown Heights",
       "NY"
+    ],
+    [
+      "042578",
+      33.78032506878061,
+      -84.38918335266644,
+      0.99,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
     ]
   ],
   "retired_at": "2026-08-20T21:44:14.684342+00:00",
-  "last_seen_date": "2026-11-15",
+  "last_seen_date": "2026-11-16",
   "peak_availability_pct": 47.7
 }

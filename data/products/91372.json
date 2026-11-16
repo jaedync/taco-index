@@ -21,24 +21,17 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "042883",
-      "name": "Taco Bell",
-      "city": "Jacksonville",
-      "state": "FL",
-      "price": 10.99
-    },
     {
       "store_number": "042920",
       "name": "Taco Bell",
@@ -48,7 +41,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "042883",
     "042920"
   ],
   "priciest_stores": [
@@ -58,16 +50,19 @@
       "city": "Palatka",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "042883",
-      "name": "Taco Bell",
-      "city": "Jacksonville",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042883",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-11-16T22:20:54.930193+00:00"
+    },
     {
       "store_number": "042882",
       "store_name": "Taco Bell",
@@ -1191,7 +1186,7 @@
   ],
   "activity_summary": {
     "added": 57,
-    "removed": 55,
+    "removed": 56,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1232,15 +1227,6 @@
   ],
   "map_data": [
     [
-      "042883",
-      30.308847349595215,
-      -81.73201717439042,
-      10.99,
-      "Taco Bell",
-      "Jacksonville",
-      "FL"
-    ],
-    [
       "042920",
       29.641947972239922,
       -81.66475139561044,
@@ -1251,6 +1237,6 @@
     ]
   ],
   "retired_at": "2026-09-25T22:02:13.094152+00:00",
-  "last_seen_date": "2026-11-15",
+  "last_seen_date": "2026-11-16",
   "peak_availability_pct": 0.4
 }

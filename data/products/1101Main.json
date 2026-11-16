@@ -11,21 +11,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": -0.0309,
+  "recent_price_change_pct": -0.0515,
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.51,
+    "avg": 2.46,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.49,
+    "median": 2.39,
     "std_dev": 0.28,
-    "store_count": 5
+    "store_count": 6
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$2.29",
@@ -40,7 +40,13 @@
       "count": 2
     }
   ],
-  "state_prices": [],
+  "state_prices": [
+    {
+      "state": "NY",
+      "avg_price": 2.51,
+      "store_count": 5
+    }
+  ],
   "nutrition": null,
   "cheapest_stores": [
     {
@@ -48,6 +54,13 @@
       "name": "Taco Bell",
       "city": "Chicago",
       "state": "IL",
+      "price": 2.19
+    },
+    {
+      "store_number": "036317",
+      "name": "Taco Bell",
+      "city": "Rego Park",
+      "state": "NY",
       "price": 2.19
     },
     {
@@ -80,7 +93,8 @@
     }
   ],
   "min_price_store_numbers": [
-    "037107"
+    "037107",
+    "036317"
   ],
   "priciest_stores": [
     {
@@ -112,6 +126,13 @@
       "price": 2.29
     },
     {
+      "store_number": "036317",
+      "name": "Taco Bell",
+      "city": "Rego Park",
+      "state": "NY",
+      "price": 2.19
+    },
+    {
       "store_number": "037107",
       "name": "Taco Bell",
       "city": "Chicago",
@@ -120,6 +141,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036317",
+      "store_name": "Taco Bell",
+      "city": "Rego Park",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-11-16T22:15:18.162154+00:00"
+    },
     {
       "store_number": "037107",
       "store_name": "Taco Bell",
@@ -552,7 +583,7 @@
     }
   ],
   "activity_summary": {
-    "added": 20,
+    "added": 21,
     "removed": 23,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -570,6 +601,15 @@
       "Taco Bell",
       "Chicago",
       "IL"
+    ],
+    [
+      "036317",
+      40.72940057187033,
+      -73.8624363824434,
+      2.19,
+      "Taco Bell",
+      "Rego Park",
+      "NY"
     ],
     [
       "040658",
@@ -618,7 +658,7 @@
       "min_price": 2.0,
       "max_price": 2.79,
       "calories": 0,
-      "happier_hour_avg": 1.61
+      "happier_hour_avg": 1.58
     }
   ]
 }

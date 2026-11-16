@@ -21,12 +21,12 @@
     "max": 5.99,
     "median": 5.99,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 2
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -46,6 +46,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "029401",
+      "name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "price": 5.99
+    },
+    {
       "store_number": "029411",
       "name": "Taco Bell",
       "city": "Benson",
@@ -61,6 +68,7 @@
     }
   ],
   "min_price_store_numbers": [
+    "029401",
     "029411",
     "029412"
   ],
@@ -78,9 +86,26 @@
       "city": "Benson",
       "state": "NC",
       "price": 5.99
+    },
+    {
+      "store_number": "029401",
+      "name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029401",
+      "store_name": "Taco Bell / KFC",
+      "city": "South Hill",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-11-16T22:20:21.459577+00:00"
+    },
     {
       "store_number": "029406",
       "store_name": "Taco Bell",
@@ -1383,7 +1408,7 @@
     }
   ],
   "activity_summary": {
-    "added": 66,
+    "added": 67,
     "removed": 64,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1393,6 +1418,15 @@
   "calories_max": 500,
   "combo_groups": [],
   "map_data": [
+    [
+      "029401",
+      36.72095995536841,
+      -78.11828226665455,
+      5.99,
+      "Taco Bell / KFC",
+      "South Hill",
+      "VA"
+    ],
     [
       "029411",
       35.51703677474721,
@@ -1413,6 +1447,6 @@
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-11-15",
+  "last_seen_date": "2026-11-16",
   "peak_availability_pct": 0.4
 }

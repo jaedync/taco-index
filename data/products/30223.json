@@ -22,12 +22,12 @@
   "first_seen_at": "2026-05-20T21:56:58.991899+00:00",
   "availability_pct": 1.1,
   "price_stats": {
-    "avg": 7.63,
+    "avg": 7.6,
     "min": 7.49,
-    "max": 9.49,
+    "max": 7.99,
     "median": 7.49,
-    "std_dev": 0.29,
-    "store_count": 84
+    "std_dev": 0.21,
+    "store_count": 83
   },
   "histogram": [
     {
@@ -37,10 +37,6 @@
     {
       "bucket": "$7.99",
       "count": 19
-    },
-    {
-      "bucket": "$9.49",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -214,13 +210,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "039851",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Lake Forest",
-      "state": "CA",
-      "price": 9.49
-    },
-    {
       "store_number": "032171",
       "name": "Taco Bell",
       "city": "Yorktown",
@@ -282,9 +271,26 @@
       "city": "Portsmouth",
       "state": "VA",
       "price": 7.99
+    },
+    {
+      "store_number": "031130",
+      "name": "Taco Bell",
+      "city": "Hampton",
+      "state": "VA",
+      "price": 7.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039851",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Lake Forest",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 9.49,
+      "new_price": null,
+      "observed_at": "2026-11-16T22:21:31.183184+00:00"
+    },
     {
       "store_number": "001089",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -225788,7 +225794,7 @@
   ],
   "activity_summary": {
     "added": 11286,
-    "removed": 11194,
+    "removed": 11195,
     "price_changed": 70,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -226543,15 +226549,6 @@
       "Taco Bell",
       "Yorktown",
       "VA"
-    ],
-    [
-      "039851",
-      33.630566284560075,
-      -117.71737631448545,
-      9.49,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Lake Forest",
-      "CA"
     ]
   ],
   "retired_at": null,
