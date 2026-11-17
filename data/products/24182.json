@@ -14,19 +14,19 @@
   "peak_30d_pct": 1.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-11-12T22:19:39.590782+00:00",
-  "availability_pct": 1.5,
+  "availability_pct": 1.6,
   "price_stats": {
     "avg": 5.49,
     "min": 5.49,
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 120
+    "store_count": 121
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 120
+      "count": 121
     }
   ],
   "state_prices": [
@@ -43,7 +43,7 @@
     {
       "state": "MN",
       "avg_price": 5.49,
-      "store_count": 50
+      "store_count": 51
     },
     {
       "state": "KY",
@@ -71,6 +71,13 @@
       "name": "Taco Bell",
       "city": "Carthage",
       "state": "TN",
+      "price": 5.49
+    },
+    {
+      "store_number": "040891",
+      "name": "Taco Bell",
+      "city": "Lakeville",
+      "state": "MN",
       "price": 5.49
     },
     {
@@ -128,17 +135,11 @@
       "city": "Maple Grove",
       "state": "MN",
       "price": 5.49
-    },
-    {
-      "store_number": "040611",
-      "name": "Taco Bell",
-      "city": "Murfreesboro",
-      "state": "TN",
-      "price": 5.49
     }
   ],
   "min_price_store_numbers": [
     "040569",
+    "040891",
     "041989",
     "032624",
     "041832",
@@ -237,7 +238,6 @@
     "031578",
     "032290",
     "019992",
-    "002395",
     "002384",
     "002396",
     "003929",
@@ -257,9 +257,17 @@
     "018101",
     "037830",
     "034353",
-    "002365"
+    "002365",
+    "041269"
   ],
   "priciest_stores": [
+    {
+      "store_number": "041269",
+      "name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MN",
+      "price": 5.49
+    },
     {
       "store_number": "002365",
       "name": "Taco Bell",
@@ -322,16 +330,39 @@
       "city": "Oak Grove",
       "state": "KY",
       "price": 5.49
-    },
-    {
-      "store_number": "016822",
-      "name": "Taco Bell",
-      "city": "Saint Cloud",
-      "state": "MN",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002395",
+      "store_name": "Taco Bell",
+      "city": "Saint Paul",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-11-17T22:34:25.528738+00:00"
+    },
+    {
+      "store_number": "040891",
+      "store_name": "Taco Bell",
+      "city": "Lakeville",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-11-17T22:29:44.259519+00:00"
+    },
+    {
+      "store_number": "041269",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-11-17T22:29:12.521615+00:00"
+    },
     {
       "store_number": "005644",
       "store_name": "Taco Bell",
@@ -1654,8 +1685,8 @@
     }
   ],
   "activity_summary": {
-    "added": 126,
-    "removed": 6,
+    "added": 128,
+    "removed": 7,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1672,6 +1703,15 @@
       "Taco Bell",
       "Carthage",
       "TN"
+    ],
+    [
+      "040891",
+      44.6494,
+      -93.2988,
+      5.49,
+      "Taco Bell",
+      "Lakeville",
+      "MN"
     ],
     [
       "041989",
@@ -2556,15 +2596,6 @@
       "MN"
     ],
     [
-      "002395",
-      44.8973854959025,
-      -93.08015628601424,
-      5.49,
-      "Taco Bell",
-      "Saint Paul",
-      "MN"
-    ],
-    [
       "002384",
       45.003706062809954,
       -93.22792484432284,
@@ -2742,6 +2773,15 @@
       5.49,
       "Taco Bell",
       "Minneapolis",
+      "MN"
+    ],
+    [
+      "041269",
+      45.021568,
+      -93.173593,
+      5.49,
+      "Taco Bell",
+      "Roseville",
       "MN"
     ]
   ],

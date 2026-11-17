@@ -16,12 +16,12 @@
   "first_seen_at": "2026-11-12T22:20:55.603295+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 7.0,
+    "avg": 7.67,
     "min": 5.0,
     "max": 9.0,
-    "median": 7.0,
-    "std_dev": 2.83,
-    "store_count": 2
+    "median": 9.0,
+    "std_dev": 2.31,
+    "store_count": 3
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$9.00",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [],
@@ -62,12 +62,26 @@
       "city": "Saint Cloud",
       "state": "MN",
       "price": 9.0
+    },
+    {
+      "store_number": "041269",
+      "name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MN",
+      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "027635"
   ],
   "priciest_stores": [
+    {
+      "store_number": "041269",
+      "name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MN",
+      "price": 9.0
+    },
     {
       "store_number": "016822",
       "name": "Taco Bell",
@@ -84,6 +98,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041269",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-11-17T22:29:12.521615+00:00"
+    },
     {
       "store_number": "016822",
       "store_name": "Taco Bell",
@@ -106,7 +130,7 @@
     }
   ],
   "activity_summary": {
-    "added": 2,
+    "added": 3,
     "removed": 0,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -163,6 +187,15 @@
       9.0,
       "Taco Bell",
       "Saint Cloud",
+      "MN"
+    ],
+    [
+      "041269",
+      45.021568,
+      -93.173593,
+      9.0,
+      "Taco Bell",
+      "Roseville",
       "MN"
     ]
   ],

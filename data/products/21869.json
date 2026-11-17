@@ -15,19 +15,19 @@
   "peak_30d_pct": 12.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-10-15T20:33:01.800172+00:00",
-  "availability_pct": 0.5,
+  "availability_pct": 0.4,
   "price_stats": {
     "avg": 3.49,
     "min": 3.49,
     "max": 3.49,
     "median": 3.49,
     "std_dev": 0.0,
-    "store_count": 36
+    "store_count": 34
   },
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 36
+      "count": 34
     }
   ],
   "state_prices": [
@@ -60,17 +60,17 @@
       "price": 3.49
     },
     {
+      "store_number": "032040",
+      "name": "Taco Bell",
+      "city": "Orangeburg",
+      "state": "SC",
+      "price": 3.49
+    },
+    {
       "store_number": "016486",
       "name": "Taco Bell",
       "city": "Morton",
       "state": "IL",
-      "price": 3.49
-    },
-    {
-      "store_number": "004486",
-      "name": "Taco Bell",
-      "city": "Indianapolis",
-      "state": "IN",
       "price": 3.49
     },
     {
@@ -125,8 +125,8 @@
   ],
   "min_price_store_numbers": [
     "037361",
+    "032040",
     "016486",
-    "004486",
     "035167",
     "039000",
     "039855",
@@ -150,30 +150,28 @@
     "033180",
     "031901",
     "005598",
-    "029402",
     "031739",
     "029102",
     "027489",
-    "043058",
     "002442",
     "037186",
     "003566",
-    "032573",
-    "027523"
+    "027523",
+    "041055"
   ],
   "priciest_stores": [
+    {
+      "store_number": "041055",
+      "name": "Taco Bell",
+      "city": "Gassville",
+      "state": "AR",
+      "price": 3.49
+    },
     {
       "store_number": "027523",
       "name": "Taco Bell",
       "city": "San Jose",
       "state": "CA",
-      "price": 3.49
-    },
-    {
-      "store_number": "032573",
-      "name": "Taco Bell",
-      "city": "Albertville",
-      "state": "MN",
       "price": 3.49
     },
     {
@@ -198,13 +196,6 @@
       "price": 3.49
     },
     {
-      "store_number": "043058",
-      "name": "Taco Bell",
-      "city": "Englewood",
-      "state": "FL",
-      "price": 3.49
-    },
-    {
       "store_number": "027489",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Mesquite",
@@ -226,14 +217,81 @@
       "price": 3.49
     },
     {
-      "store_number": "029402",
+      "store_number": "005598",
       "name": "Taco Bell",
-      "city": "Creedmoor",
-      "state": "NC",
+      "city": "Compton",
+      "state": "CA",
+      "price": 3.49
+    },
+    {
+      "store_number": "031901",
+      "name": "Taco Bell",
+      "city": "North Las Vegas",
+      "state": "NV",
       "price": 3.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041055",
+      "store_name": "Taco Bell",
+      "city": "Gassville",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-11-17T22:35:12.508725+00:00"
+    },
+    {
+      "store_number": "029402",
+      "store_name": "Taco Bell",
+      "city": "Creedmoor",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-11-17T22:34:28.914106+00:00"
+    },
+    {
+      "store_number": "043058",
+      "store_name": "Taco Bell",
+      "city": "Englewood",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-11-17T22:34:16.379386+00:00"
+    },
+    {
+      "store_number": "004486",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-11-17T22:33:49.366098+00:00"
+    },
+    {
+      "store_number": "032040",
+      "store_name": "Taco Bell",
+      "city": "Orangeburg",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-11-17T22:32:56.097351+00:00"
+    },
+    {
+      "store_number": "032573",
+      "store_name": "Taco Bell",
+      "city": "Albertville",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-11-17T22:31:18.670513+00:00"
+    },
     {
       "store_number": "027523",
       "store_name": "Taco Bell",
@@ -41316,8 +41374,8 @@
     }
   ],
   "activity_summary": {
-    "added": 2072,
-    "removed": 2036,
+    "added": 2074,
+    "removed": 2040,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -41336,6 +41394,15 @@
       "IL"
     ],
     [
+      "032040",
+      33.546534575312734,
+      -80.83066114786561,
+      3.49,
+      "Taco Bell",
+      "Orangeburg",
+      "SC"
+    ],
+    [
       "016486",
       40.62530069433705,
       -89.46511656045914,
@@ -41343,15 +41410,6 @@
       "Taco Bell",
       "Morton",
       "IL"
-    ],
-    [
-      "004486",
-      39.65082230509987,
-      -86.12177318726573,
-      3.49,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "035167",
@@ -41561,15 +41619,6 @@
       "CA"
     ],
     [
-      "029402",
-      36.14591744738878,
-      -78.72409348191468,
-      3.49,
-      "Taco Bell",
-      "Creedmoor",
-      "NC"
-    ],
-    [
       "031739",
       41.40768563439759,
       -78.56018678558026,
@@ -41595,15 +41644,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Mesquite",
       "TX"
-    ],
-    [
-      "043058",
-      26.937888177805117,
-      -82.33647276301356,
-      3.49,
-      "Taco Bell",
-      "Englewood",
-      "FL"
     ],
     [
       "002442",
@@ -41633,15 +41673,6 @@
       "TX"
     ],
     [
-      "032573",
-      45.23880436930399,
-      -93.66263015284106,
-      3.49,
-      "Taco Bell",
-      "Albertville",
-      "MN"
-    ],
-    [
       "027523",
       37.38611098313454,
       -121.86209325494019,
@@ -41649,6 +41680,15 @@
       "Taco Bell",
       "San Jose",
       "CA"
+    ],
+    [
+      "041055",
+      36.28727629999999,
+      -92.48171839999999,
+      3.49,
+      "Taco Bell",
+      "Gassville",
+      "AR"
     ]
   ],
   "retired_at": null,

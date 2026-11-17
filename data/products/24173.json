@@ -16,41 +16,41 @@
   "first_seen_at": "2026-11-12T22:19:40.478659+00:00",
   "availability_pct": 0.6,
   "price_stats": {
-    "avg": 5.98,
+    "avg": 5.95,
     "min": 5.49,
     "max": 6.49,
     "median": 5.99,
     "std_dev": 0.28,
-    "store_count": 45
+    "store_count": 43
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$5.99",
-      "count": 27
+      "count": 26
     },
     {
       "bucket": "$6.29",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$6.49",
-      "count": 3
+      "count": 2
     }
   ],
   "state_prices": [
     {
       "state": "TN",
-      "avg_price": 6.11,
-      "store_count": 28
+      "avg_price": 6.09,
+      "store_count": 25
     },
     {
       "state": "MN",
-      "avg_price": 5.72,
-      "store_count": 13
+      "avg_price": 5.7,
+      "store_count": 14
     }
   ],
   "nutrition": {
@@ -68,6 +68,13 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
+    {
+      "store_number": "041269",
+      "name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MN",
+      "price": 5.49
+    },
     {
       "store_number": "040891",
       "name": "Taco Bell",
@@ -130,16 +137,10 @@
       "city": "Joelton",
       "state": "TN",
       "price": 5.99
-    },
-    {
-      "store_number": "036250",
-      "name": "Taco Bell",
-      "city": "Ashland City",
-      "state": "TN",
-      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
+    "041269",
     "040891",
     "041832",
     "042672",
@@ -161,13 +162,6 @@
       "store_number": "034366",
       "name": "Taco Bell",
       "city": "Madison",
-      "state": "TN",
-      "price": 6.49
-    },
-    {
-      "store_number": "034368",
-      "name": "Taco Bell",
-      "city": "Hendersonville",
       "state": "TN",
       "price": 6.49
     },
@@ -214,14 +208,61 @@
       "price": 6.29
     },
     {
-      "store_number": "034438",
+      "store_number": "002365",
       "name": "Taco Bell",
-      "city": "Clarksville",
+      "city": "Minneapolis",
+      "state": "MN",
+      "price": 5.99
+    },
+    {
+      "store_number": "037830",
+      "name": "Taco Bell",
+      "city": "Old Hickory",
       "state": "TN",
-      "price": 6.29
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034368",
+      "store_name": "Taco Bell",
+      "city": "Hendersonville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-11-17T22:30:13.239464+00:00"
+    },
+    {
+      "store_number": "034438",
+      "store_name": "Taco Bell",
+      "city": "Clarksville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 6.29,
+      "new_price": null,
+      "observed_at": "2026-11-17T22:30:11.045423+00:00"
+    },
+    {
+      "store_number": "002258",
+      "store_name": "Taco Bell",
+      "city": "Columbia",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-11-17T22:30:10.126029+00:00"
+    },
+    {
+      "store_number": "041269",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-11-17T22:29:12.521615+00:00"
+    },
     {
       "store_number": "029560",
       "store_name": "Taco Bell",
@@ -1274,8 +1315,8 @@
     }
   ],
   "activity_summary": {
-    "added": 75,
-    "removed": 30,
+    "added": 76,
+    "removed": 33,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1297,6 +1338,15 @@
     }
   ],
   "map_data": [
+    [
+      "041269",
+      45.021568,
+      -93.173593,
+      5.49,
+      "Taco Bell",
+      "Roseville",
+      "MN"
+    ],
     [
       "040891",
       44.6494,
@@ -1403,15 +1453,6 @@
       5.99,
       "Taco Bell",
       "Mount Juliet",
-      "TN"
-    ],
-    [
-      "002258",
-      35.60485166079504,
-      -87.06626951694489,
-      5.99,
-      "Taco Bell",
-      "Columbia",
       "TN"
     ],
     [
@@ -1613,15 +1654,6 @@
       "MN"
     ],
     [
-      "034438",
-      36.62678745203232,
-      -87.37362451386844,
-      6.29,
-      "Taco Bell",
-      "Clarksville",
-      "TN"
-    ],
-    [
       "034440",
       35.9311820543111,
       -86.53334677219391,
@@ -1673,15 +1705,6 @@
       6.29,
       "Taco Bell",
       "Clarksville",
-      "TN"
-    ],
-    [
-      "034368",
-      36.31854622430117,
-      -86.60035117532061,
-      6.49,
-      "Taco Bell",
-      "Hendersonville",
       "TN"
     ],
     [

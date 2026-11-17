@@ -11,21 +11,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": -0.0515,
+  "recent_price_change_pct": -0.0309,
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.46,
+    "avg": 2.51,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.39,
+    "median": 2.49,
     "std_dev": 0.28,
-    "store_count": 6
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$2.29",
@@ -40,27 +40,14 @@
       "count": 2
     }
   ],
-  "state_prices": [
-    {
-      "state": "NY",
-      "avg_price": 2.51,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": null,
   "cheapest_stores": [
     {
-      "store_number": "037107",
-      "name": "Taco Bell",
-      "city": "Chicago",
-      "state": "IL",
-      "price": 2.19
-    },
-    {
-      "store_number": "036317",
-      "name": "Taco Bell",
-      "city": "Rego Park",
-      "state": "NY",
+      "store_number": "030754",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "Pacifica",
+      "state": "CA",
       "price": 2.19
     },
     {
@@ -93,8 +80,7 @@
     }
   ],
   "min_price_store_numbers": [
-    "037107",
-    "036317"
+    "030754"
   ],
   "priciest_stores": [
     {
@@ -126,21 +112,44 @@
       "price": 2.29
     },
     {
-      "store_number": "036317",
-      "name": "Taco Bell",
-      "city": "Rego Park",
-      "state": "NY",
-      "price": 2.19
-    },
-    {
-      "store_number": "037107",
-      "name": "Taco Bell",
-      "city": "Chicago",
-      "state": "IL",
+      "store_number": "030754",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "Pacifica",
+      "state": "CA",
       "price": 2.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030754",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Pacifica",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-11-17T22:36:01.446272+00:00"
+    },
+    {
+      "store_number": "037107",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-11-17T22:35:10.265659+00:00"
+    },
+    {
+      "store_number": "036317",
+      "store_name": "Taco Bell",
+      "city": "Rego Park",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-11-17T22:29:53.826071+00:00"
+    },
     {
       "store_number": "036317",
       "store_name": "Taco Bell",
@@ -583,8 +592,8 @@
     }
   ],
   "activity_summary": {
-    "added": 21,
-    "removed": 23,
+    "added": 22,
+    "removed": 25,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -594,22 +603,13 @@
   "combo_groups": [],
   "map_data": [
     [
-      "037107",
-      41.885381169916705,
-      -87.62653447509841,
+      "030754",
+      37.59718004343826,
+      -122.50374955505322,
       2.19,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
-      "036317",
-      40.72940057187033,
-      -73.8624363824434,
-      2.19,
-      "Taco Bell",
-      "Rego Park",
-      "NY"
+      "Taco Bell Cantina Cantina",
+      "Pacifica",
+      "CA"
     ],
     [
       "040658",
@@ -654,7 +654,7 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 2.35,
+      "avg_price": 2.34,
       "min_price": 2.0,
       "max_price": 2.79,
       "calories": 0,
