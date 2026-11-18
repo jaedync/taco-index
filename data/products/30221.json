@@ -11,18 +11,22 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.0,
-  "recent_price_change_pct": 0.03,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:12.335616+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 7.99,
-    "min": 7.99,
+    "avg": 7.89,
+    "min": 7.79,
     "max": 7.99,
-    "median": 7.99,
-    "std_dev": 0.0,
-    "store_count": 1
+    "median": 7.89,
+    "std_dev": 0.14,
+    "store_count": 2
   },
   "histogram": [
+    {
+      "bucket": "$7.79",
+      "count": 1
+    },
     {
       "bucket": "$7.99",
       "count": 1
@@ -32,17 +36,12 @@
   "nutrition": null,
   "cheapest_stores": [
     {
-      "store_number": "039852",
+      "store_number": "002851",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Hemet",
-      "state": "CA",
-      "price": 7.99
-    }
-  ],
-  "min_price_store_numbers": [
-    "039852"
-  ],
-  "priciest_stores": [
+      "city": "Humble",
+      "state": "TX",
+      "price": 7.79
+    },
     {
       "store_number": "039852",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -51,7 +50,36 @@
       "price": 7.99
     }
   ],
+  "min_price_store_numbers": [
+    "002851"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "039852",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Hemet",
+      "state": "CA",
+      "price": 7.99
+    },
+    {
+      "store_number": "002851",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Humble",
+      "state": "TX",
+      "price": 7.79
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "002851",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Humble",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-11-18T22:49:50.846024+00:00"
+    },
     {
       "store_number": "039852",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -964,7 +992,7 @@
     }
   ],
   "activity_summary": {
-    "added": 46,
+    "added": 47,
     "removed": 45,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -994,6 +1022,15 @@
   ],
   "map_data": [
     [
+      "002851",
+      29.9977979971997,
+      -95.16799039678068,
+      7.79,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Humble",
+      "TX"
+    ],
+    [
       "039852",
       33.746993553105185,
       -117.00733342770036,
@@ -1004,6 +1041,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-11-17",
+  "last_seen_date": "2026-11-18",
   "peak_availability_pct": 0.5
 }

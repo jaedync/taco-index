@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 64
+    "store_count": 65
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 64
+      "count": 65
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 64
+      "store_count": 65
     }
   ],
   "nutrition": {
@@ -104,6 +104,13 @@
       "price": 10.99
     },
     {
+      "store_number": "037187",
+      "name": "Taco Bell",
+      "city": "Tavares",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "039587",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -116,13 +123,6 @@
       "city": "Ocala",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "030349",
-      "name": "Taco Bell",
-      "city": "Melbourne",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -133,6 +133,7 @@
     "041964",
     "036232",
     "037372",
+    "037187",
     "039587",
     "031840",
     "030349",
@@ -142,12 +143,12 @@
     "028353",
     "027988",
     "022833",
+    "023299",
     "005646",
     "027970",
     "028007",
     "022590",
     "039584",
-    "042933",
     "027974",
     "022589",
     "023298",
@@ -264,6 +265,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042933",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-11-18T22:50:49.961854+00:00"
+    },
+    {
+      "store_number": "023299",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-11-18T22:50:29.488762+00:00"
+    },
+    {
+      "store_number": "037187",
+      "store_name": "Taco Bell",
+      "city": "Tavares",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-11-18T22:49:27.932293+00:00"
+    },
     {
       "store_number": "027974",
       "store_name": "Taco Bell",
@@ -4986,8 +5017,8 @@
     }
   ],
   "activity_summary": {
-    "added": 268,
-    "removed": 204,
+    "added": 270,
+    "removed": 205,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5091,6 +5122,15 @@
       "FL"
     ],
     [
+      "037187",
+      28.782729286328053,
+      -81.74928864985861,
+      10.99,
+      "Taco Bell",
+      "Tavares",
+      "FL"
+    ],
+    [
       "039587",
       28.39987,
       -81.490788,
@@ -5172,6 +5212,15 @@
       "FL"
     ],
     [
+      "023299",
+      28.48727227380717,
+      -81.45812411607949,
+      10.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
       "005646",
       28.662325501412592,
       -81.40244990587234,
@@ -5214,15 +5263,6 @@
       10.99,
       "Taco Bell",
       "Saint Cloud",
-      "FL"
-    ],
-    [
-      "042933",
-      29.22136972864249,
-      -82.14614545823775,
-      10.99,
-      "Taco Bell",
-      "Ocala",
       "FL"
     ],
     [
