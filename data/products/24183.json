@@ -15,12 +15,12 @@
   "first_seen_at": "2026-11-12T22:19:39.590782+00:00",
   "availability_pct": 1.6,
   "price_stats": {
-    "avg": 7.05,
+    "avg": 7.06,
     "min": 5.99,
     "max": 7.49,
     "median": 6.99,
     "std_dev": 0.49,
-    "store_count": 124
+    "store_count": 126
   },
   "histogram": [
     {
@@ -41,14 +41,14 @@
     },
     {
       "bucket": "$7.49",
-      "count": 51
+      "count": 53
     }
   ],
   "state_prices": [
     {
       "state": "MN",
-      "avg_price": 7.33,
-      "store_count": 53
+      "avg_price": 7.34,
+      "store_count": 55
     },
     {
       "state": "WI",
@@ -158,6 +158,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "001398",
+      "name": "Taco Bell",
+      "city": "Saint Paul",
+      "state": "MN",
+      "price": 7.49
+    },
+    {
       "store_number": "034353",
       "name": "Taco Bell",
       "city": "Murfreesboro",
@@ -219,16 +226,29 @@
       "city": "Burnsville",
       "state": "MN",
       "price": 7.49
-    },
-    {
-      "store_number": "002396",
-      "name": "Taco Bell",
-      "city": "Minnetonka",
-      "state": "MN",
-      "price": 7.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "001398",
+      "store_name": "Taco Bell",
+      "city": "Saint Paul",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.49,
+      "observed_at": "2026-11-19T21:52:58.953138+00:00"
+    },
+    {
+      "store_number": "041269",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.49,
+      "observed_at": "2026-11-19T21:49:47.090527+00:00"
+    },
     {
       "store_number": "021459",
       "store_name": "Taco Bell",
@@ -1511,7 +1531,7 @@
     }
   ],
   "activity_summary": {
-    "added": 126,
+    "added": 128,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2179,6 +2199,15 @@
       "MN"
     ],
     [
+      "041269",
+      45.021568,
+      -93.173593,
+      7.49,
+      "Taco Bell",
+      "Roseville",
+      "MN"
+    ],
+    [
       "036439",
       45.13279750925346,
       -93.47865429307748,
@@ -2636,6 +2665,15 @@
       "Taco Bell",
       "Murfreesboro",
       "TN"
+    ],
+    [
+      "001398",
+      44.9915066090049,
+      -93.10530154736841,
+      7.49,
+      "Taco Bell",
+      "Saint Paul",
+      "MN"
     ]
   ],
   "retired_at": null,

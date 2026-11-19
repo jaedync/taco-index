@@ -21,12 +21,12 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 65
+    "store_count": 64
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 65
+      "count": 64
     }
   ],
   "state_prices": [
@@ -38,7 +38,7 @@
     {
       "state": "NC",
       "avg_price": 9.0,
-      "store_count": 57
+      "store_count": 56
     }
   ],
   "nutrition": {
@@ -74,13 +74,6 @@
       "store_number": "041515",
       "name": "Taco Bell",
       "city": "Sherrills Ford",
-      "state": "NC",
-      "price": 9.0
-    },
-    {
-      "store_number": "040518",
-      "name": "Taco Bell",
-      "city": "Mooresville",
       "state": "NC",
       "price": 9.0
     },
@@ -125,13 +118,19 @@
       "city": "Hudson",
       "state": "NC",
       "price": 9.0
+    },
+    {
+      "store_number": "042116",
+      "name": "Taco Bell",
+      "city": "Statesville",
+      "state": "NC",
+      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "040582",
     "040640",
     "041515",
-    "040518",
     "035256",
     "032049",
     "036233",
@@ -175,7 +174,6 @@
     "030733",
     "031767",
     "032753",
-    "022926",
     "021466",
     "041483",
     "037814",
@@ -191,6 +189,7 @@
     "027434",
     "022180",
     "039118",
+    "039117",
     "032180",
     "037004"
   ],
@@ -206,6 +205,13 @@
       "store_number": "032180",
       "name": "Taco Bell",
       "city": "Troutman",
+      "state": "NC",
+      "price": 9.0
+    },
+    {
+      "store_number": "039117",
+      "name": "Taco Bell",
+      "city": "Mt Holly",
       "state": "NC",
       "price": 9.0
     },
@@ -257,16 +263,39 @@
       "city": "Kings Mountain",
       "state": "NC",
       "price": 9.0
-    },
-    {
-      "store_number": "002804",
-      "name": "Taco Bell",
-      "city": "Belmont",
-      "state": "NC",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039117",
+      "store_name": "Taco Bell",
+      "city": "Mt Holly",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-11-19T21:53:34.410654+00:00"
+    },
+    {
+      "store_number": "022926",
+      "store_name": "Taco Bell",
+      "city": "Harrisburg",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-11-19T21:51:16.556448+00:00"
+    },
+    {
+      "store_number": "040518",
+      "store_name": "Taco Bell",
+      "city": "Mooresville",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-11-19T21:49:49.117265+00:00"
+    },
     {
       "store_number": "039117",
       "store_name": "Taco Bell",
@@ -2479,8 +2508,8 @@
     }
   ],
   "activity_summary": {
-    "added": 143,
-    "removed": 78,
+    "added": 144,
+    "removed": 80,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2539,15 +2568,6 @@
       9.0,
       "Taco Bell",
       "Sherrills Ford",
-      "NC"
-    ],
-    [
-      "040518",
-      35.5924,
-      -80.822,
-      9.0,
-      "Taco Bell",
-      "Mooresville",
       "NC"
     ],
     [
@@ -2938,15 +2958,6 @@
       "NC"
     ],
     [
-      "022926",
-      35.32334088342363,
-      -80.64282081556712,
-      9.0,
-      "Taco Bell",
-      "Harrisburg",
-      "NC"
-    ],
-    [
       "021466",
       34.98578534373469,
       -80.52960290576266,
@@ -3082,6 +3093,15 @@
       "NC"
     ],
     [
+      "039117",
+      35.288115,
+      -81.018574,
+      9.0,
+      "Taco Bell",
+      "Mt Holly",
+      "NC"
+    ],
+    [
       "032180",
       35.6698569972596,
       -80.85302218794828,
@@ -3101,6 +3121,6 @@
     ]
   ],
   "retired_at": "2026-11-13T21:38:06.835347+00:00",
-  "last_seen_date": "2026-11-18",
+  "last_seen_date": "2026-11-19",
   "peak_availability_pct": 0.9
 }

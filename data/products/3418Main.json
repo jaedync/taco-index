@@ -13,21 +13,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.5,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0205,
   "first_seen_at": "2026-09-17T21:51:06.559598+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 3.77,
+    "avg": 3.78,
     "min": 3.49,
     "max": 3.99,
     "median": 3.99,
-    "std_dev": 0.26,
-    "store_count": 18
+    "std_dev": 0.25,
+    "store_count": 17
   },
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$3.99",
@@ -37,8 +37,8 @@
   "state_prices": [
     {
       "state": "NV",
-      "avg_price": 3.77,
-      "store_count": 18
+      "avg_price": 3.78,
+      "store_count": 17
     }
   ],
   "nutrition": {
@@ -85,13 +85,6 @@
       "price": 3.49
     },
     {
-      "store_number": "031871",
-      "name": "Taco Bell",
-      "city": "Las Vegas",
-      "state": "NV",
-      "price": 3.49
-    },
-    {
       "store_number": "031872",
       "name": "Taco Bell",
       "city": "Las Vegas",
@@ -125,6 +118,13 @@
       "city": "Las Vegas",
       "state": "NV",
       "price": 3.99
+    },
+    {
+      "store_number": "031904",
+      "name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "price": 3.99
     }
   ],
   "min_price_store_numbers": [
@@ -132,7 +132,6 @@
     "031915",
     "031864",
     "031880",
-    "031871",
     "031872",
     "031883",
     "032897"
@@ -210,6 +209,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031871",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-11-19T21:52:34.254249+00:00"
+    },
     {
       "store_number": "031877",
       "store_name": "Taco Bell",
@@ -2233,7 +2242,7 @@
   ],
   "activity_summary": {
     "added": 110,
-    "removed": 92,
+    "removed": 93,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2273,15 +2282,6 @@
       "031880",
       36.17312742658736,
       -115.0957801938057,
-      3.49,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
-    ],
-    [
-      "031871",
-      36.071906298842755,
-      -115.11620883645264,
       3.49,
       "Taco Bell",
       "Las Vegas",

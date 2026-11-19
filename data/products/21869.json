@@ -15,26 +15,31 @@
   "peak_30d_pct": 12.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-10-15T20:33:01.800172+00:00",
-  "availability_pct": 0.5,
+  "availability_pct": 0.4,
   "price_stats": {
     "avg": 3.49,
     "min": 3.49,
     "max": 3.49,
     "median": 3.49,
     "std_dev": 0.0,
-    "store_count": 35
+    "store_count": 34
   },
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 35
+      "count": 34
     }
   ],
   "state_prices": [
     {
+      "state": "TX",
+      "avg_price": 3.49,
+      "store_count": 5
+    },
+    {
       "state": "CA",
       "avg_price": 3.49,
-      "store_count": 7
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -88,6 +93,13 @@
       "price": 3.49
     },
     {
+      "store_number": "027370",
+      "name": "Taco Bell",
+      "city": "Broomfield",
+      "state": "CO",
+      "price": 3.49
+    },
+    {
       "store_number": "039855",
       "name": "Taco Bell",
       "city": "Riverside",
@@ -114,13 +126,6 @@
       "city": "Indianapolis",
       "state": "IN",
       "price": 3.49
-    },
-    {
-      "store_number": "035342",
-      "name": "Taco Bell",
-      "city": "Cleburne",
-      "state": "TX",
-      "price": 3.49
     }
   ],
   "min_price_store_numbers": [
@@ -129,6 +134,7 @@
     "016486",
     "035167",
     "039000",
+    "027370",
     "039855",
     "004879",
     "022348",
@@ -136,31 +142,50 @@
     "035342",
     "003897",
     "020147",
-    "022166",
     "041643",
     "039791",
     "034960",
     "034861",
     "037153",
-    "015573",
     "002421",
     "035234",
     "002798",
-    "033180",
     "031901",
     "005598",
     "031739",
     "029102",
     "027489",
-    "002442",
     "037186",
     "003566",
     "027523",
-    "041055",
     "027669",
-    "017471"
+    "017471",
+    "037166",
+    "029912",
+    "021382"
   ],
   "priciest_stores": [
+    {
+      "store_number": "021382",
+      "name": "Taco Bell",
+      "city": "Elmont",
+      "state": "NY",
+      "price": 3.49
+    },
+    {
+      "store_number": "029912",
+      "name": "Taco Bell",
+      "city": "Denton",
+      "state": "TX",
+      "price": 3.49
+    },
+    {
+      "store_number": "037166",
+      "name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "price": 3.49
+    },
     {
       "store_number": "017471",
       "name": "Taco Bell",
@@ -173,13 +198,6 @@
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Fort Worth",
       "state": "TX",
-      "price": 3.49
-    },
-    {
-      "store_number": "041055",
-      "name": "Taco Bell",
-      "city": "Gassville",
-      "state": "AR",
       "price": 3.49
     },
     {
@@ -204,13 +222,6 @@
       "price": 3.49
     },
     {
-      "store_number": "002442",
-      "name": "Taco Bell",
-      "city": "Clackamas",
-      "state": "OR",
-      "price": 3.49
-    },
-    {
       "store_number": "027489",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Mesquite",
@@ -223,16 +234,99 @@
       "city": "Columbus",
       "state": "GA",
       "price": 3.49
-    },
-    {
-      "store_number": "031739",
-      "name": "Taco Bell",
-      "city": "Saint Marys",
-      "state": "PA",
-      "price": 3.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041055",
+      "store_name": "Taco Bell",
+      "city": "Gassville",
+      "state": "AR",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-11-19T21:53:40.657891+00:00"
+    },
+    {
+      "store_number": "022166",
+      "store_name": "Taco Bell",
+      "city": "Charleston",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-11-19T21:53:28.477433+00:00"
+    },
+    {
+      "store_number": "002442",
+      "store_name": "Taco Bell",
+      "city": "Clackamas",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-11-19T21:53:00.628815+00:00"
+    },
+    {
+      "store_number": "021382",
+      "store_name": "Taco Bell",
+      "city": "Elmont",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-11-19T21:52:59.876231+00:00"
+    },
+    {
+      "store_number": "029912",
+      "store_name": "Taco Bell",
+      "city": "Denton",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-11-19T21:52:53.751569+00:00"
+    },
+    {
+      "store_number": "027370",
+      "store_name": "Taco Bell",
+      "city": "Broomfield",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-11-19T21:52:48.258588+00:00"
+    },
+    {
+      "store_number": "033180",
+      "store_name": "Taco Bell",
+      "city": "Magna",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-11-19T21:52:15.402341+00:00"
+    },
+    {
+      "store_number": "015573",
+      "store_name": "Taco Bell",
+      "city": "Bakersfield",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-11-19T21:51:19.008395+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-11-19T21:50:49.330761+00:00"
+    },
     {
       "store_number": "017471",
       "store_name": "Taco Bell",
@@ -41405,8 +41499,8 @@
     }
   ],
   "activity_summary": {
-    "added": 2076,
-    "removed": 2041,
+    "added": 2080,
+    "removed": 2046,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -41459,6 +41553,15 @@
       "Taco Bell",
       "Zeeland",
       "MI"
+    ],
+    [
+      "027370",
+      39.94356807095906,
+      -105.01155003905296,
+      3.49,
+      "Taco Bell",
+      "Broomfield",
+      "CO"
     ],
     [
       "039855",
@@ -41524,15 +41627,6 @@
       "WA"
     ],
     [
-      "022166",
-      32.79452933006154,
-      -79.99132095719688,
-      3.49,
-      "Taco Bell",
-      "Charleston",
-      "SC"
-    ],
-    [
       "041643",
       40.812306,
       -80.126181,
@@ -41578,15 +41672,6 @@
       "AL"
     ],
     [
-      "015573",
-      35.3501634510396,
-      -118.91390781104974,
-      3.49,
-      "Taco Bell",
-      "Bakersfield",
-      "CA"
-    ],
-    [
       "002421",
       44.972128875588936,
       -93.36443804209921,
@@ -41612,15 +41697,6 @@
       "Taco Bell",
       "Lake Havasu City",
       "AZ"
-    ],
-    [
-      "033180",
-      40.69548220386448,
-      -112.09121619166581,
-      3.49,
-      "Taco Bell",
-      "Magna",
-      "UT"
     ],
     [
       "031901",
@@ -41668,15 +41744,6 @@
       "TX"
     ],
     [
-      "002442",
-      45.40651419193231,
-      -122.56860186161248,
-      3.49,
-      "Taco Bell",
-      "Clackamas",
-      "OR"
-    ],
-    [
       "037186",
       32.41280702387556,
       -104.2293097558067,
@@ -41704,15 +41771,6 @@
       "CA"
     ],
     [
-      "041055",
-      36.28727629999999,
-      -92.48171839999999,
-      3.49,
-      "Taco Bell",
-      "Gassville",
-      "AR"
-    ],
-    [
       "027669",
       32.89279522526115,
       -97.28746792244917,
@@ -41729,6 +41787,33 @@
       "Taco Bell",
       "Tustin",
       "CA"
+    ],
+    [
+      "037166",
+      41.9426279,
+      -84.648124,
+      3.49,
+      "Taco Bell",
+      "Hillsdale",
+      "MI"
+    ],
+    [
+      "029912",
+      33.229950977674626,
+      -97.15196326380465,
+      3.49,
+      "Taco Bell",
+      "Denton",
+      "TX"
+    ],
+    [
+      "021382",
+      40.707116796133505,
+      -73.70065592491432,
+      3.49,
+      "Taco Bell",
+      "Elmont",
+      "NY"
     ]
   ],
   "retired_at": null,

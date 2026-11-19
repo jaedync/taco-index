@@ -13,19 +13,19 @@
   "peak_30d_pct": 3.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-10-15T20:33:00.966484+00:00",
-  "availability_pct": 3.3,
+  "availability_pct": 3.4,
   "price_stats": {
     "avg": 0.49,
     "min": 0.49,
     "max": 0.49,
     "median": 0.49,
     "std_dev": 0.0,
-    "store_count": 260
+    "store_count": 261
   },
   "histogram": [
     {
       "bucket": "$0.49",
-      "count": 260
+      "count": 261
     }
   ],
   "state_prices": [
@@ -40,14 +40,14 @@
       "store_count": 58
     },
     {
-      "state": "MN",
-      "avg_price": 0.49,
-      "store_count": 48
-    },
-    {
       "state": "KY",
       "avg_price": 0.49,
       "store_count": 6
+    },
+    {
+      "state": "MN",
+      "avg_price": 0.49,
+      "store_count": 49
     }
   ],
   "nutrition": {
@@ -396,9 +396,17 @@
     "018101",
     "037830",
     "034353",
-    "002365"
+    "002365",
+    "001398"
   ],
   "priciest_stores": [
+    {
+      "store_number": "001398",
+      "name": "Taco Bell",
+      "city": "Saint Paul",
+      "state": "MN",
+      "price": 0.49
+    },
     {
       "store_number": "002365",
       "name": "Taco Bell",
@@ -461,16 +469,19 @@
       "city": "Oak Grove",
       "state": "KY",
       "price": 0.49
-    },
-    {
-      "store_number": "016822",
-      "name": "Taco Bell",
-      "city": "Saint Cloud",
-      "state": "MN",
-      "price": 0.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "001398",
+      "store_name": "Taco Bell",
+      "city": "Saint Paul",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.49,
+      "observed_at": "2026-11-19T21:52:58.953138+00:00"
+    },
     {
       "store_number": "029621",
       "store_name": "Taco Bell",
@@ -3393,7 +3404,7 @@
     }
   ],
   "activity_summary": {
-    "added": 276,
+    "added": 277,
     "removed": 16,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -5741,6 +5752,15 @@
       0.49,
       "Taco Bell",
       "Minneapolis",
+      "MN"
+    ],
+    [
+      "001398",
+      44.9915066090049,
+      -93.10530154736841,
+      0.49,
+      "Taco Bell",
+      "Saint Paul",
       "MN"
     ]
   ],

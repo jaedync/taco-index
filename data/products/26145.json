@@ -15,20 +15,109 @@
   "first_seen_at": "2026-11-17T22:34:50.951146+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 13.99,
-    "min": 13.99,
+    "avg": 12.86,
+    "min": 11.99,
     "max": 13.99,
-    "median": 13.99,
-    "std_dev": null,
-    "store_count": 1
+    "median": 12.59,
+    "std_dev": 1.03,
+    "store_count": 3
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$11.99",
+      "count": 1
+    },
+    {
+      "bucket": "$12.59",
+      "count": 1
+    },
+    {
+      "bucket": "$13.99",
+      "count": 1
+    }
+  ],
   "state_prices": [],
   "nutrition": null,
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "002851",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Humble",
+      "state": "TX",
+      "price": 11.99
+    },
+    {
+      "store_number": "022811",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Spring",
+      "state": "TX",
+      "price": 12.59
+    },
+    {
+      "store_number": "039834",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mira Loma",
+      "state": "CA",
+      "price": 13.99
+    }
+  ],
+  "min_price_store_numbers": [
+    "002851"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "039834",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mira Loma",
+      "state": "CA",
+      "price": 13.99
+    },
+    {
+      "store_number": "022811",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Spring",
+      "state": "TX",
+      "price": 12.59
+    },
+    {
+      "store_number": "002851",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Humble",
+      "state": "TX",
+      "price": 11.99
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "039834",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mira Loma",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 13.99,
+      "observed_at": "2026-11-19T21:53:15.959647+00:00"
+    },
+    {
+      "store_number": "002851",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Humble",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-11-19T21:51:19.618707+00:00"
+    },
+    {
+      "store_number": "022811",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Spring",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.59,
+      "observed_at": "2026-11-19T21:51:11.464757+00:00"
+    },
     {
       "store_number": "039834",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -51,12 +140,12 @@
     }
   ],
   "activity_summary": {
-    "added": 1,
+    "added": 4,
     "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
+  "calories_from_menu": 830,
   "calories_min": 830,
   "calories_max": 1250,
   "combo_groups": [
@@ -85,8 +174,36 @@
       "default_product_name": "Crunchy Taco"
     }
   ],
-  "map_data": [],
+  "map_data": [
+    [
+      "002851",
+      29.9977979971997,
+      -95.16799039678068,
+      11.99,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Humble",
+      "TX"
+    ],
+    [
+      "022811",
+      30.075174271564272,
+      -95.51512733101845,
+      12.59,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Spring",
+      "TX"
+    ],
+    [
+      "039834",
+      33.97485526499655,
+      -117.55521027138457,
+      13.99,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Mira Loma",
+      "CA"
+    ]
+  ],
   "retired_at": "2026-11-18T22:53:15.931134+00:00",
-  "last_seen_date": "2026-11-17",
+  "last_seen_date": "2026-11-19",
   "peak_availability_pct": 0.0
 }

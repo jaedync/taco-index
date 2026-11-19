@@ -16,12 +16,12 @@
   "first_seen_at": "2026-10-15T20:33:39.199868+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 4.66,
+    "avg": 4.68,
     "min": 4.19,
-    "max": 4.99,
+    "max": 5.29,
     "median": 4.79,
-    "std_dev": 0.21,
-    "store_count": 38
+    "std_dev": 0.23,
+    "store_count": 39
   },
   "histogram": [
     {
@@ -42,6 +42,10 @@
     },
     {
       "bucket": "$4.99",
+      "count": 1
+    },
+    {
+      "bucket": "$5.29",
       "count": 1
     }
   ],
@@ -151,6 +155,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "043326",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "West Lafayette",
+      "state": "IN",
+      "price": 5.29
+    },
+    {
       "store_number": "043200",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Los Angeles",
@@ -212,16 +223,19 @@
       "city": "Lake Forest",
       "state": "CA",
       "price": 4.79
-    },
-    {
-      "store_number": "039797",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Simi Valley",
-      "state": "CA",
-      "price": 4.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043326",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "West Lafayette",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.29,
+      "observed_at": "2026-11-19T21:53:42.663977+00:00"
+    },
     {
       "store_number": "043326",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -924,7 +938,7 @@
     }
   ],
   "activity_summary": {
-    "added": 54,
+    "added": 55,
     "removed": 16,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1275,6 +1289,15 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Los Angeles",
       "CA"
+    ],
+    [
+      "043326",
+      40.42166,
+      -86.90221,
+      5.29,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "West Lafayette",
+      "IN"
     ]
   ],
   "retired_at": null,

@@ -22,12 +22,12 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 56
+    "store_count": 57
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 56
+      "count": 57
     }
   ],
   "state_prices": [
@@ -39,7 +39,7 @@
     {
       "state": "MN",
       "avg_price": 10.99,
-      "store_count": 51
+      "store_count": 52
     }
   ],
   "nutrition": {
@@ -146,6 +146,7 @@
     "031682",
     "015867",
     "018005",
+    "019622",
     "015905",
     "016351",
     "032573",
@@ -169,7 +170,6 @@
     "031578",
     "032290",
     "019992",
-    "002395",
     "002384",
     "002396",
     "003929",
@@ -184,9 +184,17 @@
     "033441",
     "033635",
     "018101",
-    "002365"
+    "002365",
+    "001398"
   ],
   "priciest_stores": [
+    {
+      "store_number": "001398",
+      "name": "Taco Bell",
+      "city": "Saint Paul",
+      "state": "MN",
+      "price": 10.99
+    },
     {
       "store_number": "002365",
       "name": "Taco Bell",
@@ -249,16 +257,39 @@
       "city": "Rogers",
       "state": "MN",
       "price": 10.99
-    },
-    {
-      "store_number": "004850",
-      "name": "Taco Bell",
-      "city": "Maple Grove",
-      "state": "MN",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002395",
+      "store_name": "Taco Bell",
+      "city": "Saint Paul",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-11-19T21:52:59.605244+00:00"
+    },
+    {
+      "store_number": "001398",
+      "store_name": "Taco Bell",
+      "city": "Saint Paul",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-11-19T21:52:58.953138+00:00"
+    },
+    {
+      "store_number": "019622",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn Park",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-11-19T21:51:31.910056+00:00"
+    },
     {
       "store_number": "021459",
       "store_name": "Taco Bell",
@@ -901,8 +932,8 @@
     }
   ],
   "activity_summary": {
-    "added": 60,
-    "removed": 4,
+    "added": 62,
+    "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1096,6 +1127,15 @@
       "018005",
       45.10969538410659,
       -93.39413694572613,
+      10.99,
+      "Taco Bell",
+      "Brooklyn Park",
+      "MN"
+    ],
+    [
+      "019622",
+      45.11028338467758,
+      -93.30249090494362,
       10.99,
       "Taco Bell",
       "Brooklyn Park",
@@ -1309,15 +1349,6 @@
       "MN"
     ],
     [
-      "002395",
-      44.8973854959025,
-      -93.08015628601424,
-      10.99,
-      "Taco Bell",
-      "Saint Paul",
-      "MN"
-    ],
-    [
       "002384",
       45.003706062809954,
       -93.22792484432284,
@@ -1450,6 +1481,15 @@
       10.99,
       "Taco Bell",
       "Minneapolis",
+      "MN"
+    ],
+    [
+      "001398",
+      44.9915066090049,
+      -93.10530154736841,
+      10.99,
+      "Taco Bell",
+      "Saint Paul",
       "MN"
     ]
   ],

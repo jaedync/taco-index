@@ -14,19 +14,19 @@
   "peak_30d_pct": 0.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-10-15T20:35:01.500623+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
     "avg": 5.99,
     "min": 5.99,
     "max": 5.99,
     "median": 5.99,
     "std_dev": 0.0,
-    "store_count": 3
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 3
+      "count": 4
     }
   ],
   "state_prices": [],
@@ -53,6 +53,13 @@
       "price": 5.99
     },
     {
+      "store_number": "020974",
+      "name": "Taco Bell / KFC",
+      "city": "King George",
+      "state": "VA",
+      "price": 5.99
+    },
+    {
       "store_number": "029411",
       "name": "Taco Bell",
       "city": "Benson",
@@ -69,6 +76,7 @@
   ],
   "min_price_store_numbers": [
     "029401",
+    "020974",
     "029411",
     "029412"
   ],
@@ -88,6 +96,13 @@
       "price": 5.99
     },
     {
+      "store_number": "020974",
+      "name": "Taco Bell / KFC",
+      "city": "King George",
+      "state": "VA",
+      "price": 5.99
+    },
+    {
       "store_number": "029401",
       "name": "Taco Bell / KFC",
       "city": "South Hill",
@@ -96,6 +111,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020974",
+      "store_name": "Taco Bell / KFC",
+      "city": "King George",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-11-19T21:51:56.809929+00:00"
+    },
     {
       "store_number": "029401",
       "store_name": "Taco Bell / KFC",
@@ -1408,7 +1433,7 @@
     }
   ],
   "activity_summary": {
-    "added": 67,
+    "added": 68,
     "removed": 64,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1425,6 +1450,15 @@
       5.99,
       "Taco Bell / KFC",
       "South Hill",
+      "VA"
+    ],
+    [
+      "020974",
+      38.33900959254854,
+      -77.0779993920587,
+      5.99,
+      "Taco Bell / KFC",
+      "King George",
       "VA"
     ],
     [
@@ -1447,6 +1481,6 @@
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-11-18",
+  "last_seen_date": "2026-11-19",
   "peak_availability_pct": 0.4
 }

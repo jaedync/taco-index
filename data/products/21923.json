@@ -21,19 +21,19 @@
     "max": 6.49,
     "median": 6.49,
     "std_dev": 0.0,
-    "store_count": 22
+    "store_count": 23
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 22
+      "count": 23
     }
   ],
   "state_prices": [
     {
       "state": "CA",
       "avg_price": 6.49,
-      "store_count": 22
+      "store_count": 23
     }
   ],
   "nutrition": {
@@ -143,6 +143,7 @@
     "020019",
     "041354",
     "034167",
+    "034189",
     "028843",
     "037824"
   ],
@@ -158,6 +159,13 @@
       "store_number": "028843",
       "name": "Taco Bell",
       "city": "Suisun City",
+      "state": "CA",
+      "price": 6.49
+    },
+    {
+      "store_number": "034189",
+      "name": "Taco Bell",
+      "city": "Escalon",
       "state": "CA",
       "price": 6.49
     },
@@ -209,16 +217,19 @@
       "city": "Stockton",
       "state": "CA",
       "price": 6.49
-    },
-    {
-      "store_number": "034213",
-      "name": "Taco Bell",
-      "city": "Riverbank",
-      "state": "CA",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034189",
+      "store_name": "Taco Bell",
+      "city": "Escalon",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-11-19T21:53:23.645122+00:00"
+    },
     {
       "store_number": "041356",
       "store_name": "Taco Bell",
@@ -521,7 +532,7 @@
     }
   ],
   "activity_summary": {
-    "added": 26,
+    "added": 27,
     "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -709,6 +720,15 @@
       6.49,
       "Taco Bell",
       "Modesto",
+      "CA"
+    ],
+    [
+      "034189",
+      37.798943002857975,
+      -120.99903121590614,
+      6.49,
+      "Taco Bell",
+      "Escalon",
       "CA"
     ],
     [
