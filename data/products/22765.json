@@ -22,12 +22,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7702
+    "store_count": 7703
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7702
+      "count": 7703
     }
   ],
   "state_prices": [
@@ -124,7 +124,7 @@
     {
       "state": "NJ",
       "avg_price": 0.0,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "NH",
@@ -169,7 +169,7 @@
     {
       "state": "MI",
       "avg_price": 0.0,
-      "store_count": 346
+      "store_count": 347
     },
     {
       "state": "ME",
@@ -209,7 +209,7 @@
     {
       "state": "IL",
       "avg_price": 0.0,
-      "store_count": 287
+      "store_count": 286
     },
     {
       "state": "ID",
@@ -229,7 +229,7 @@
     {
       "state": "GA",
       "avg_price": 0.0,
-      "store_count": 253
+      "store_count": 255
     },
     {
       "state": "FL",
@@ -3018,7 +3018,6 @@
     "031805",
     "023177",
     "030349",
-    "030407",
     "038894",
     "040866",
     "017131",
@@ -3310,6 +3309,7 @@
     "041211",
     "016351",
     "042217",
+    "041249",
     "029965",
     "020192",
     "032673",
@@ -4528,6 +4528,7 @@
     "027030",
     "033172",
     "039729",
+    "033624",
     "027971",
     "029890",
     "032196",
@@ -5505,7 +5506,6 @@
     "004042",
     "018365",
     "039850",
-    "039083",
     "030756",
     "032353",
     "027813",
@@ -5609,7 +5609,6 @@
     "038905",
     "028875",
     "016966",
-    "030795",
     "022594",
     "019629",
     "003371",
@@ -6356,6 +6355,7 @@
     "033025",
     "039801",
     "026664",
+    "024449",
     "015277",
     "032147",
     "042747",
@@ -8070,9 +8070,17 @@
     "043445",
     "041942",
     "043610",
-    "042708"
+    "042708",
+    "001846"
   ],
   "priciest_stores": [
+    {
+      "store_number": "001846",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 0.0
+    },
     {
       "store_number": "042708",
       "name": "Taco Bell",
@@ -8135,16 +8143,79 @@
       "city": "Littlefield",
       "state": "TX",
       "price": 0.0
-    },
-    {
-      "store_number": "042348",
-      "name": "Taco Bell",
-      "city": "Clovis",
-      "state": "CA",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "001846",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-11-20T21:42:29.805202+00:00"
+    },
+    {
+      "store_number": "024449",
+      "store_name": "Taco Bell",
+      "city": "Detroit",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-11-20T21:41:47.603046+00:00"
+    },
+    {
+      "store_number": "030795",
+      "store_name": "Taco Bell",
+      "city": "Hayward",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-11-20T21:41:22.847090+00:00"
+    },
+    {
+      "store_number": "039083",
+      "store_name": "Taco Bell",
+      "city": "Green Brook",
+      "state": "NJ",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-11-20T21:41:20.108885+00:00"
+    },
+    {
+      "store_number": "033624",
+      "store_name": "Taco Bell",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-11-20T21:40:53.884323+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-11-20T21:40:21.255186+00:00"
+    },
+    {
+      "store_number": "030407",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-11-20T21:40:13.766012+00:00"
+    },
     {
       "store_number": "031751",
       "store_name": "Taco Bell",
@@ -21807,8 +21878,8 @@
     }
   ],
   "activity_summary": {
-    "added": 714,
-    "removed": 652,
+    "added": 718,
+    "removed": 655,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -45659,15 +45730,6 @@
       "FL"
     ],
     [
-      "030407",
-      41.75244929284412,
-      -87.58651092281517,
-      0.0,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
       "038894",
       40.262862196329365,
       -81.86988267654658,
@@ -48285,6 +48347,15 @@
       "Taco Bell",
       "Shreveport",
       "LA"
+    ],
+    [
+      "041249",
+      33.96647033026141,
+      -84.010348240854,
+      0.0,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
     ],
     [
       "029965",
@@ -59249,6 +59320,15 @@
       "NC"
     ],
     [
+      "033624",
+      34.022309377459926,
+      -118.29182193429915,
+      0.0,
+      "Taco Bell",
+      "Los Angeles",
+      "CA"
+    ],
+    [
       "027971",
       28.352087603671087,
       -80.60836730221422,
@@ -68042,15 +68122,6 @@
       "CA"
     ],
     [
-      "039083",
-      40.59825349396839,
-      -74.4850311130449,
-      0.0,
-      "Taco Bell",
-      "Green Brook",
-      "NJ"
-    ],
-    [
       "030756",
       37.81228017689601,
       -122.2696003584934,
@@ -68976,15 +69047,6 @@
       "Taco Bell",
       "Sulphur",
       "LA"
-    ],
-    [
-      "030795",
-      37.652750698051584,
-      -122.09002726959608,
-      0.0,
-      "Taco Bell",
-      "Hayward",
-      "CA"
     ],
     [
       "022594",
@@ -75699,6 +75761,15 @@
       "Taco Bell",
       "Vancouver",
       "WA"
+    ],
+    [
+      "024449",
+      42.416237399123474,
+      -83.20122738184182,
+      0.0,
+      "Taco Bell",
+      "Detroit",
+      "MI"
     ],
     [
       "015277",
@@ -91134,6 +91205,15 @@
       "Taco Bell",
       "Cedar Park",
       "TX"
+    ],
+    [
+      "001846",
+      33.74002997301379,
+      -84.41445395350456,
+      0.0,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
     ]
   ],
   "retired_at": null,

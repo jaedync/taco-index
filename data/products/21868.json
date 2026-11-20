@@ -16,17 +16,17 @@
   "first_seen_at": "2026-11-12T22:19:40.451948+00:00",
   "availability_pct": 0.9,
   "price_stats": {
-    "avg": 4.49,
+    "avg": 4.48,
     "min": 3.99,
     "max": 4.99,
-    "median": 4.49,
+    "median": 3.99,
     "std_dev": 0.5,
-    "store_count": 68
+    "store_count": 69
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 34
+      "count": 35
     },
     {
       "bucket": "$4.99",
@@ -36,8 +36,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 4.52,
-      "store_count": 59
+      "avg_price": 4.51,
+      "store_count": 60
     },
     {
       "state": "SC",
@@ -163,18 +163,12 @@
     "026049",
     "004457",
     "020568",
+    "041092",
     "027434",
     "022180",
     "039118"
   ],
   "priciest_stores": [
-    {
-      "store_number": "037004",
-      "name": "Taco Bell",
-      "city": "Indian Trail",
-      "state": "NC",
-      "price": 4.99
-    },
     {
       "store_number": "032180",
       "name": "Taco Bell",
@@ -237,9 +231,46 @@
       "city": "Charlotte",
       "state": "NC",
       "price": 4.99
+    },
+    {
+      "store_number": "022926",
+      "name": "Taco Bell",
+      "city": "Harrisburg",
+      "state": "NC",
+      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041092",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-11-20T21:39:56.489538+00:00"
+    },
+    {
+      "store_number": "022926",
+      "store_name": "Taco Bell",
+      "city": "Harrisburg",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-11-20T21:39:52.675773+00:00"
+    },
+    {
+      "store_number": "037004",
+      "store_name": "Taco Bell",
+      "city": "Indian Trail",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-11-20T21:39:39.560867+00:00"
+    },
     {
       "store_number": "039117",
       "store_name": "Taco Bell",
@@ -1082,8 +1113,8 @@
     }
   ],
   "activity_summary": {
-    "added": 76,
-    "removed": 8,
+    "added": 78,
+    "removed": 9,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1372,6 +1403,15 @@
       "NC"
     ],
     [
+      "041092",
+      35.31030543508609,
+      -80.75352564454079,
+      3.99,
+      "Taco Bell",
+      "Charlotte",
+      "NC"
+    ],
+    [
       "027434",
       35.13510104181645,
       -80.93831039500628,
@@ -1615,6 +1655,15 @@
       "NC"
     ],
     [
+      "022926",
+      35.32334088342363,
+      -80.64282081556712,
+      4.99,
+      "Taco Bell",
+      "Harrisburg",
+      "NC"
+    ],
+    [
       "037814",
       35.25865405992706,
       -80.7890036255111,
@@ -1693,15 +1742,6 @@
       4.99,
       "Taco Bell",
       "Troutman",
-      "NC"
-    ],
-    [
-      "037004",
-      35.0502267746598,
-      -80.64345900505425,
-      4.99,
-      "Taco Bell",
-      "Indian Trail",
       "NC"
     ]
   ],

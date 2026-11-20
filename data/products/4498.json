@@ -20,12 +20,12 @@
     "max": 0.99,
     "median": 0.99,
     "std_dev": 0.0,
-    "store_count": 106
+    "store_count": 108
   },
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 106
+      "count": 108
     }
   ],
   "state_prices": [
@@ -35,11 +35,6 @@
       "store_count": 10
     },
     {
-      "state": "NY",
-      "avg_price": 0.99,
-      "store_count": 5
-    },
-    {
       "state": "GA",
       "avg_price": 0.99,
       "store_count": 8
@@ -47,7 +42,12 @@
     {
       "state": "FL",
       "avg_price": 0.99,
-      "store_count": 7
+      "store_count": 8
+    },
+    {
+      "state": "NY",
+      "avg_price": 0.99,
+      "store_count": 6
     },
     {
       "state": "CA",
@@ -120,6 +120,13 @@
       "price": 0.99
     },
     {
+      "store_number": "039998",
+      "name": "Taco Bell",
+      "city": "Lockport",
+      "state": "NY",
+      "price": 0.99
+    },
+    {
       "store_number": "004907",
       "name": "Taco Bell",
       "city": "Saint Cloud",
@@ -132,13 +139,6 @@
       "city": "Defiance",
       "state": "OH",
       "price": 0.99
-    },
-    {
-      "store_number": "036185",
-      "name": "Taco Bell",
-      "city": "Chicago",
-      "state": "IL",
-      "price": 0.99
     }
   ],
   "min_price_store_numbers": [
@@ -149,6 +149,7 @@
     "032566",
     "020679",
     "034207",
+    "039998",
     "004907",
     "036332",
     "036185",
@@ -160,7 +161,6 @@
     "041232",
     "041233",
     "036275",
-    "040483",
     "042687",
     "036546",
     "032328",
@@ -201,7 +201,6 @@
     "024280",
     "032535",
     "033180",
-    "025500",
     "019895",
     "030135",
     "029992",
@@ -247,9 +246,33 @@
     "030375",
     "031916",
     "031435",
-    "039117"
+    "039117",
+    "032934",
+    "019753",
+    "017471"
   ],
   "priciest_stores": [
+    {
+      "store_number": "017471",
+      "name": "Taco Bell",
+      "city": "Tustin",
+      "state": "CA",
+      "price": 0.99
+    },
+    {
+      "store_number": "019753",
+      "name": "Taco Bell",
+      "city": "Lynn Haven",
+      "state": "FL",
+      "price": 0.99
+    },
+    {
+      "store_number": "032934",
+      "name": "Taco Bell",
+      "city": "Portland",
+      "state": "OR",
+      "price": 0.99
+    },
     {
       "store_number": "039117",
       "name": "Taco Bell",
@@ -298,30 +321,69 @@
       "city": "Nampa",
       "state": "ID",
       "price": 0.99
-    },
-    {
-      "store_number": "030788",
-      "name": "Taco Bell",
-      "city": "Foster City",
-      "state": "CA",
-      "price": 0.99
-    },
-    {
-      "store_number": "027554",
-      "name": "Taco Bell",
-      "city": "Cornelia",
-      "state": "GA",
-      "price": 0.99
-    },
-    {
-      "store_number": "032491",
-      "name": "Taco Bell",
-      "city": "Valparaiso",
-      "state": "IN",
-      "price": 0.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "017471",
+      "store_name": "Taco Bell",
+      "city": "Tustin",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-20T21:41:54.005085+00:00"
+    },
+    {
+      "store_number": "019753",
+      "store_name": "Taco Bell",
+      "city": "Lynn Haven",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-20T21:41:29.200043+00:00"
+    },
+    {
+      "store_number": "025500",
+      "store_name": "Taco Bell",
+      "city": "San Diego",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-11-20T21:41:01.854300+00:00"
+    },
+    {
+      "store_number": "032934",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-20T21:40:39.486787+00:00"
+    },
+    {
+      "store_number": "039998",
+      "store_name": "Taco Bell",
+      "city": "Lockport",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-20T21:40:30.812892+00:00"
+    },
+    {
+      "store_number": "040483",
+      "store_name": "Taco Bell",
+      "city": "West Valley City",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-11-20T21:39:07.923069+00:00"
+    },
     {
       "store_number": "039117",
       "store_name": "Taco Bell",
@@ -53074,8 +53136,8 @@
     }
   ],
   "activity_summary": {
-    "added": 2691,
-    "removed": 2584,
+    "added": 2695,
+    "removed": 2586,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -53146,6 +53208,15 @@
       "Taco Bell",
       "Clovis",
       "CA"
+    ],
+    [
+      "039998",
+      43.14298457930473,
+      -78.6976780756534,
+      0.99,
+      "Taco Bell",
+      "Lockport",
+      "NY"
     ],
     [
       "004907",
@@ -53245,15 +53316,6 @@
       "Taco Bell",
       "Fort Atkinson",
       "WI"
-    ],
-    [
-      "040483",
-      40.6822,
-      -111.941,
-      0.99,
-      "Taco Bell",
-      "West Valley City",
-      "UT"
     ],
     [
       "042687",
@@ -53614,15 +53676,6 @@
       "Taco Bell",
       "Magna",
       "UT"
-    ],
-    [
-      "025500",
-      32.9342614264754,
-      -117.23864351214615,
-      0.99,
-      "Taco Bell",
-      "San Diego",
-      "CA"
     ],
     [
       "019895",
@@ -54037,6 +54090,33 @@
       "Taco Bell",
       "Mt Holly",
       "NC"
+    ],
+    [
+      "032934",
+      45.58110247571627,
+      -122.71929253701555,
+      0.99,
+      "Taco Bell",
+      "Portland",
+      "OR"
+    ],
+    [
+      "019753",
+      30.227894887892266,
+      -85.64869236143993,
+      0.99,
+      "Taco Bell",
+      "Lynn Haven",
+      "FL"
+    ],
+    [
+      "017471",
+      33.732805663048616,
+      -117.8155962377923,
+      0.99,
+      "Taco Bell",
+      "Tustin",
+      "CA"
     ]
   ],
   "retired_at": null,
