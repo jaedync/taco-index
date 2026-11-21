@@ -15,24 +15,33 @@
   "first_seen_at": "2026-10-15T20:33:01.800172+00:00",
   "availability_pct": 1.4,
   "price_stats": {
-    "avg": 0.99,
+    "avg": 1.0,
     "min": 0.99,
-    "max": 0.99,
+    "max": 2.29,
     "median": 0.99,
-    "std_dev": 0.0,
+    "std_dev": 0.13,
     "store_count": 108
   },
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 108
+      "count": 107
+    },
+    {
+      "bucket": "$2.29",
+      "count": 1
     }
   ],
   "state_prices": [
     {
+      "state": "NY",
+      "avg_price": 1.18,
+      "store_count": 7
+    },
+    {
       "state": "TX",
       "avg_price": 0.99,
-      "store_count": 10
+      "store_count": 9
     },
     {
       "state": "GA",
@@ -42,12 +51,7 @@
     {
       "state": "FL",
       "avg_price": 0.99,
-      "store_count": 8
-    },
-    {
-      "state": "NY",
-      "avg_price": 0.99,
-      "store_count": 6
+      "store_count": 9
     },
     {
       "state": "CA",
@@ -161,7 +165,6 @@
     "041232",
     "041233",
     "036275",
-    "042687",
     "036546",
     "032328",
     "042134",
@@ -195,7 +198,6 @@
     "035455",
     "036264",
     "037384",
-    "029867",
     "003865",
     "039945",
     "024280",
@@ -224,7 +226,6 @@
     "020959",
     "036139",
     "028109",
-    "030520",
     "028719",
     "030938",
     "034597",
@@ -249,9 +250,32 @@
     "039117",
     "032934",
     "019753",
-    "017471"
+    "017471",
+    "024235",
+    "041839"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042304",
+      "name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "price": 2.29
+    },
+    {
+      "store_number": "041839",
+      "name": "Taco Bell",
+      "city": "Crawfordville",
+      "state": "FL",
+      "price": 0.99
+    },
+    {
+      "store_number": "024235",
+      "name": "Taco Bell",
+      "city": "Avon Lake",
+      "state": "OH",
+      "price": 0.99
+    },
     {
       "store_number": "017471",
       "name": "Taco Bell",
@@ -300,30 +324,69 @@
       "city": "Lake Wales",
       "state": "FL",
       "price": 0.99
-    },
-    {
-      "store_number": "003997",
-      "name": "Taco Bell",
-      "city": "Fort Smith",
-      "state": "AR",
-      "price": 0.99
-    },
-    {
-      "store_number": "018131",
-      "name": "Taco Bell",
-      "city": "Anchorage",
-      "state": "AK",
-      "price": 0.99
-    },
-    {
-      "store_number": "030445",
-      "name": "Taco Bell",
-      "city": "Nampa",
-      "state": "ID",
-      "price": 0.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041839",
+      "store_name": "Taco Bell",
+      "city": "Crawfordville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-21T21:34:07.129284+00:00"
+    },
+    {
+      "store_number": "030520",
+      "store_name": "Taco Bell",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-11-21T21:32:50.280203+00:00"
+    },
+    {
+      "store_number": "024235",
+      "store_name": "Taco Bell",
+      "city": "Avon Lake",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-21T21:31:28.309165+00:00"
+    },
+    {
+      "store_number": "029867",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-11-21T21:31:20.022243+00:00"
+    },
+    {
+      "store_number": "042304",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.29,
+      "observed_at": "2026-11-21T21:31:08.711022+00:00"
+    },
+    {
+      "store_number": "042687",
+      "store_name": "Taco Bell",
+      "city": "Hutto",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-11-21T21:31:06.712860+00:00"
+    },
     {
       "store_number": "017471",
       "store_name": "Taco Bell",
@@ -53136,8 +53199,8 @@
     }
   ],
   "activity_summary": {
-    "added": 2695,
-    "removed": 2586,
+    "added": 2698,
+    "removed": 2589,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -53316,15 +53379,6 @@
       "Taco Bell",
       "Fort Atkinson",
       "WI"
-    ],
-    [
-      "042687",
-      30.51237,
-      -97.5772,
-      0.99,
-      "Taco Bell",
-      "Hutto",
-      "TX"
     ],
     [
       "036546",
@@ -53624,15 +53678,6 @@
       "NY"
     ],
     [
-      "029867",
-      35.10074468567441,
-      -80.99148988723755,
-      0.99,
-      "Taco Bell",
-      "Charlotte",
-      "NC"
-    ],
-    [
       "003865",
       42.628778752216014,
       -82.99390687389669,
@@ -53885,15 +53930,6 @@
       "CA"
     ],
     [
-      "030520",
-      36.793240572690635,
-      -76.08183462919442,
-      0.99,
-      "Taco Bell",
-      "Virginia Beach",
-      "VA"
-    ],
-    [
       "028719",
       33.60082649305969,
       -117.67265041174142,
@@ -54117,6 +54153,33 @@
       "Taco Bell",
       "Tustin",
       "CA"
+    ],
+    [
+      "024235",
+      41.491929926069496,
+      -82.01948664617703,
+      0.99,
+      "Taco Bell",
+      "Avon Lake",
+      "OH"
+    ],
+    [
+      "041839",
+      30.209777100072273,
+      -84.36565016453422,
+      0.99,
+      "Taco Bell",
+      "Crawfordville",
+      "FL"
+    ],
+    [
+      "042304",
+      40.80888761286982,
+      -73.94888405002506,
+      2.29,
+      "Taco Bell",
+      "New York",
+      "NY"
     ]
   ],
   "retired_at": null,
