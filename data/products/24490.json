@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 63
+    "store_count": 62
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 63
+      "count": 62
     }
   ],
   "state_prices": [
     {
       "state": "SC",
       "avg_price": 9.0,
-      "store_count": 8
+      "store_count": 7
     },
     {
       "state": "NC",
@@ -149,6 +149,7 @@
     "004791",
     "020959",
     "041094",
+    "029867",
     "025505",
     "018280",
     "026708",
@@ -159,7 +160,6 @@
     "041484",
     "029528",
     "005500",
-    "005349",
     "002426",
     "032754",
     "032748",
@@ -170,7 +170,6 @@
     "016804",
     "042145",
     "009556",
-    "030733",
     "031767",
     "032753",
     "022926",
@@ -265,6 +264,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030733",
+      "store_name": "Taco Bell",
+      "city": "Clover",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-11-22T22:04:19.676251+00:00"
+    },
+    {
+      "store_number": "005349",
+      "store_name": "Taco Bell",
+      "city": "Cornelius",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-11-22T22:03:20.879479+00:00"
+    },
+    {
+      "store_number": "029867",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-11-22T22:03:16.006558+00:00"
+    },
     {
       "store_number": "029867",
       "store_name": "Taco Bell",
@@ -2537,8 +2566,8 @@
     }
   ],
   "activity_summary": {
-    "added": 145,
-    "removed": 82,
+    "added": 146,
+    "removed": 84,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2762,6 +2791,15 @@
       "NC"
     ],
     [
+      "029867",
+      35.10074468567441,
+      -80.99148988723755,
+      9.0,
+      "Taco Bell",
+      "Charlotte",
+      "NC"
+    ],
+    [
       "025505",
       35.084090510971244,
       -80.66177255940602,
@@ -2849,15 +2887,6 @@
       9.0,
       "Taco Bell",
       "Charlotte",
-      "NC"
-    ],
-    [
-      "005349",
-      35.48359715276182,
-      -80.87746663953112,
-      9.0,
-      "Taco Bell",
-      "Cornelius",
       "NC"
     ],
     [
@@ -2949,15 +2978,6 @@
       "Taco Bell",
       "Charlotte",
       "NC"
-    ],
-    [
-      "030733",
-      35.117216704004115,
-      -81.07960626483305,
-      9.0,
-      "Taco Bell",
-      "Clover",
-      "SC"
     ],
     [
       "031767",
@@ -3141,6 +3161,6 @@
     ]
   ],
   "retired_at": "2026-11-13T21:38:06.835347+00:00",
-  "last_seen_date": "2026-11-21",
+  "last_seen_date": "2026-11-22",
   "peak_availability_pct": 0.9
 }

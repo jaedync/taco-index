@@ -19,13 +19,13 @@
     "min": 0.99,
     "max": 2.29,
     "median": 0.99,
-    "std_dev": 0.13,
-    "store_count": 108
+    "std_dev": 0.12,
+    "store_count": 110
   },
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 107
+      "count": 109
     },
     {
       "bucket": "$2.29",
@@ -56,7 +56,7 @@
     {
       "state": "CA",
       "avg_price": 0.99,
-      "store_count": 17
+      "store_count": 18
     }
   ],
   "nutrition": {
@@ -252,7 +252,9 @@
     "019753",
     "017471",
     "024235",
-    "041839"
+    "041839",
+    "042528",
+    "020147"
   ],
   "priciest_stores": [
     {
@@ -261,6 +263,20 @@
       "city": "New York",
       "state": "NY",
       "price": 2.29
+    },
+    {
+      "store_number": "020147",
+      "name": "Taco Bell",
+      "city": "Vancouver",
+      "state": "WA",
+      "price": 0.99
+    },
+    {
+      "store_number": "042528",
+      "name": "Taco Bell",
+      "city": "Half Moon Bay",
+      "state": "CA",
+      "price": 0.99
     },
     {
       "store_number": "041839",
@@ -310,23 +326,29 @@
       "city": "Greer",
       "state": "SC",
       "price": 0.99
-    },
-    {
-      "store_number": "031916",
-      "name": "Taco Bell",
-      "city": "Henderson",
-      "state": "NV",
-      "price": 0.99
-    },
-    {
-      "store_number": "030375",
-      "name": "Taco Bell",
-      "city": "Lake Wales",
-      "state": "FL",
-      "price": 0.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020147",
+      "store_name": "Taco Bell",
+      "city": "Vancouver",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-22T22:16:57.867204+00:00"
+    },
+    {
+      "store_number": "042528",
+      "store_name": "Taco Bell",
+      "city": "Half Moon Bay",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-22T22:02:01.052198+00:00"
+    },
     {
       "store_number": "041839",
       "store_name": "Taco Bell",
@@ -53199,7 +53221,7 @@
     }
   ],
   "activity_summary": {
-    "added": 2698,
+    "added": 2700,
     "removed": 2589,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -54171,6 +54193,24 @@
       "Taco Bell",
       "Crawfordville",
       "FL"
+    ],
+    [
+      "042528",
+      37.46842408824341,
+      -122.43272125397066,
+      0.99,
+      "Taco Bell",
+      "Half Moon Bay",
+      "CA"
+    ],
+    [
+      "020147",
+      45.61233194347561,
+      -122.50470265746117,
+      0.99,
+      "Taco Bell",
+      "Vancouver",
+      "WA"
     ],
     [
       "042304",
