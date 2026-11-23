@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3501
+    "store_count": 3500
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3501
+      "count": 3500
     }
   ],
   "state_prices": [
@@ -127,7 +127,7 @@
     {
       "state": "NC",
       "avg_price": 0.0,
-      "store_count": 129
+      "store_count": 128
     },
     {
       "state": "MT",
@@ -147,12 +147,12 @@
     {
       "state": "MN",
       "avg_price": 0.0,
-      "store_count": 97
+      "store_count": 98
     },
     {
       "state": "MI",
       "avg_price": 0.0,
-      "store_count": 193
+      "store_count": 194
     },
     {
       "state": "MD",
@@ -167,7 +167,7 @@
     {
       "state": "KY",
       "avg_price": 0.0,
-      "store_count": 33
+      "store_count": 32
     },
     {
       "state": "KS",
@@ -222,7 +222,7 @@
     {
       "state": "CO",
       "avg_price": 0.0,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "CA",
@@ -298,6 +298,13 @@
       "price": 0.0
     },
     {
+      "store_number": "040584",
+      "name": "Taco Bell",
+      "city": "Duluth",
+      "state": "MN",
+      "price": 0.0
+    },
+    {
       "store_number": "039700",
       "name": "Taco Bell",
       "city": "Clermont",
@@ -317,13 +324,6 @@
       "city": "Grosse Pointe",
       "state": "MI",
       "price": 0.0
-    },
-    {
-      "store_number": "040791",
-      "name": "Taco Bell",
-      "city": "Goldsboro",
-      "state": "NC",
-      "price": 0.0
     }
   ],
   "min_price_store_numbers": [
@@ -333,6 +333,7 @@
     "040776",
     "040508",
     "041490",
+    "040584",
     "039700",
     "040500",
     "038871",
@@ -879,7 +880,6 @@
     "033308",
     "005095",
     "023211",
-    "029867",
     "027634",
     "020578",
     "020054",
@@ -1738,7 +1738,6 @@
     "022833",
     "031641",
     "033854",
-    "004051",
     "031898",
     "030754",
     "034194",
@@ -3093,7 +3092,6 @@
     "033783",
     "004317",
     "024464",
-    "036780",
     "024465",
     "017471",
     "023898",
@@ -3827,9 +3825,17 @@
     "042348",
     "032697",
     "043454",
-    "041942"
+    "041942",
+    "041686"
   ],
   "priciest_stores": [
+    {
+      "store_number": "041686",
+      "name": "Taco Bell",
+      "city": "Cass City",
+      "state": "MI",
+      "price": 0.0
+    },
     {
       "store_number": "041942",
       "name": "Taco Bell",
@@ -3892,16 +3898,59 @@
       "city": "Tillamook",
       "state": "OR",
       "price": 0.0
-    },
-    {
-      "store_number": "043488",
-      "name": "Taco Bell",
-      "city": "Austin",
-      "state": "MN",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036780",
+      "store_name": "Taco Bell",
+      "city": "Central City",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-11-23T21:50:43.071405+00:00"
+    },
+    {
+      "store_number": "004051",
+      "store_name": "Taco Bell",
+      "city": "Denver",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-11-23T21:47:40.808855+00:00"
+    },
+    {
+      "store_number": "029867",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-11-23T21:46:13.904063+00:00"
+    },
+    {
+      "store_number": "041686",
+      "store_name": "Taco Bell",
+      "city": "Cass City",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-11-23T21:43:20.351149+00:00"
+    },
+    {
+      "store_number": "040584",
+      "store_name": "Taco Bell",
+      "city": "Duluth",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-11-23T21:42:46.907319+00:00"
+    },
     {
       "store_number": "034199",
       "store_name": "Taco Bell",
@@ -16324,8 +16373,8 @@
     }
   ],
   "activity_summary": {
-    "added": 598,
-    "removed": 644,
+    "added": 600,
+    "removed": 647,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16387,6 +16436,15 @@
       "Taco Bell",
       "Windsor",
       "CO"
+    ],
+    [
+      "040584",
+      46.8046,
+      -92.0697,
+      0.0,
+      "Taco Bell",
+      "Duluth",
+      "MN"
     ],
     [
       "039700",
@@ -21301,15 +21359,6 @@
       "Taco Bell",
       "Utica",
       "MI"
-    ],
-    [
-      "029867",
-      35.10074468567441,
-      -80.99148988723755,
-      0.0,
-      "Taco Bell",
-      "Charlotte",
-      "NC"
     ],
     [
       "027634",
@@ -29031,15 +29080,6 @@
       0.0,
       "Taco Bell",
       "Arvada",
-      "CO"
-    ],
-    [
-      "004051",
-      39.74045052557297,
-      -104.9260712564319,
-      0.0,
-      "Taco Bell",
-      "Denver",
       "CO"
     ],
     [
@@ -41229,15 +41269,6 @@
       "KS"
     ],
     [
-      "036780",
-      37.27805456566675,
-      -87.13927654316649,
-      0.0,
-      "Taco Bell",
-      "Central City",
-      "KY"
-    ],
-    [
       "024465",
       38.404629048244445,
       -96.19775354862213,
@@ -47842,6 +47873,15 @@
       "Taco Bell",
       "Medford",
       "NY"
+    ],
+    [
+      "041686",
+      43.601904,
+      -83.168431,
+      0.0,
+      "Taco Bell",
+      "Cass City",
+      "MI"
     ]
   ],
   "retired_at": null,

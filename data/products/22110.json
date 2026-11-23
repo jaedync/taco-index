@@ -21,7 +21,7 @@
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.2,
-    "store_count": 7758
+    "store_count": 7756
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$1.79",
-      "count": 238
+      "count": 237
     },
     {
       "bucket": "$1.89",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4524
+      "count": 4525
     },
     {
       "bucket": "$2.00",
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 1211
+      "count": 1210
     },
     {
       "bucket": "$2.20",
@@ -118,7 +118,7 @@
     },
     {
       "bucket": "$2.59",
-      "count": 20
+      "count": 19
     },
     {
       "bucket": "$2.60",
@@ -127,6 +127,10 @@
     {
       "bucket": "$2.62",
       "count": 5
+    },
+    {
+      "bucket": "$2.67",
+      "count": 1
     },
     {
       "bucket": "$2.69",
@@ -166,7 +170,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 16
+      "count": 15
     },
     {
       "bucket": "$3.49",
@@ -190,7 +194,7 @@
     {
       "state": "NY",
       "avg_price": 2.38,
-      "store_count": 256
+      "store_count": 255
     },
     {
       "state": "MA",
@@ -305,7 +309,7 @@
     {
       "state": "FL",
       "avg_price": 2.01,
-      "store_count": 454
+      "store_count": 455
     },
     {
       "state": "NE",
@@ -380,7 +384,7 @@
     {
       "state": "TX",
       "avg_price": 1.96,
-      "store_count": 713
+      "store_count": 712
     },
     {
       "state": "KY",
@@ -415,7 +419,7 @@
     {
       "state": "ND",
       "avg_price": 1.79,
-      "store_count": 13
+      "store_count": 12
     },
     {
       "state": "MN",
@@ -596,6 +600,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041185",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-11-23T21:51:39.595136+00:00"
+    },
+    {
+      "store_number": "037583",
+      "store_name": "Taco Bell",
+      "city": "Jamestown",
+      "state": "ND",
+      "change_type": "item_removed",
+      "old_price": 1.79,
+      "new_price": null,
+      "observed_at": "2026-11-23T21:51:08.762667+00:00"
+    },
+    {
+      "store_number": "036133",
+      "store_name": "Taco Bell",
+      "city": "Tampa",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-11-23T21:49:40.931824+00:00"
+    },
+    {
+      "store_number": "027614",
+      "store_name": "Taco Bell",
+      "city": "North Riverside",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 2.59,
+      "new_price": 2.67,
+      "observed_at": "2026-11-23T21:45:51.186881+00:00"
+    },
+    {
+      "store_number": "034349",
+      "store_name": "Taco Bell Cantina",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-11-23T21:43:44.843475+00:00"
+    },
     {
       "store_number": "043006",
       "store_name": "Taco Bell",
@@ -35478,9 +35532,9 @@
     }
   ],
   "activity_summary": {
-    "added": 600,
-    "removed": 497,
-    "price_changed": 2391,
+    "added": 601,
+    "removed": 500,
+    "price_changed": 2392,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 180,
@@ -37809,15 +37863,6 @@
       "Taco Bell",
       "Blaine",
       "MN"
-    ],
-    [
-      "037583",
-      46.89817600919338,
-      -98.70922305819985,
-      1.79,
-      "Taco Bell",
-      "Jamestown",
-      "ND"
     ],
     [
       "029904",
@@ -75080,6 +75125,15 @@
       "WA"
     ],
     [
+      "036133",
+      28.080011366489263,
+      -82.43543522453689,
+      1.99,
+      "Taco Bell",
+      "Tampa",
+      "FL"
+    ],
+    [
       "041626",
       33.45279883688922,
       -111.68478071599638,
@@ -98642,15 +98696,6 @@
       "TX"
     ],
     [
-      "041185",
-      29.922008219406745,
-      -95.49748783121474,
-      2.19,
-      "Taco Bell",
-      "Houston",
-      "TX"
-    ],
-    [
       "015522",
       21.4441962330697,
       -157.74382084608078,
@@ -103736,15 +103781,6 @@
       "CT"
     ],
     [
-      "027614",
-      41.84729536054644,
-      -87.81073410292761,
-      2.59,
-      "Taco Bell",
-      "North Riverside",
-      "IL"
-    ],
-    [
       "027513",
       42.30078739283985,
       -71.38378066617788,
@@ -103887,6 +103923,15 @@
       "Taco Bell",
       "Selden",
       "NY"
+    ],
+    [
+      "027614",
+      41.84729536054644,
+      -87.81073410292761,
+      2.67,
+      "Taco Bell",
+      "North Riverside",
+      "IL"
     ],
     [
       "034273",
@@ -105092,15 +105137,6 @@
       3.39,
       "Taco Bell",
       "New York",
-      "NY"
-    ],
-    [
-      "034349",
-      40.68986278454486,
-      -73.92226419431152,
-      3.39,
-      "Taco Bell Cantina",
-      "Brooklyn",
       "NY"
     ],
     [

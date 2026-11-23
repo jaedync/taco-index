@@ -13,19 +13,19 @@
   "peak_30d_pct": 26.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-10-15T20:33:01.800172+00:00",
-  "availability_pct": 1.4,
+  "availability_pct": 1.5,
   "price_stats": {
     "avg": 1.0,
     "min": 0.99,
     "max": 2.29,
     "median": 0.99,
     "std_dev": 0.12,
-    "store_count": 110
+    "store_count": 114
   },
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 109
+      "count": 113
     },
     {
       "bucket": "$2.29",
@@ -51,7 +51,7 @@
     {
       "state": "FL",
       "avg_price": 0.99,
-      "store_count": 9
+      "store_count": 10
     },
     {
       "state": "CA",
@@ -117,6 +117,13 @@
       "price": 0.99
     },
     {
+      "store_number": "035400",
+      "name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "price": 0.99
+    },
+    {
       "store_number": "034207",
       "name": "Taco Bell",
       "city": "Clovis",
@@ -124,24 +131,17 @@
       "price": 0.99
     },
     {
+      "store_number": "031418",
+      "name": "Taco Bell",
+      "city": "Burley",
+      "state": "ID",
+      "price": 0.99
+    },
+    {
       "store_number": "039998",
       "name": "Taco Bell",
       "city": "Lockport",
       "state": "NY",
-      "price": 0.99
-    },
-    {
-      "store_number": "004907",
-      "name": "Taco Bell",
-      "city": "Saint Cloud",
-      "state": "MN",
-      "price": 0.99
-    },
-    {
-      "store_number": "036332",
-      "name": "Taco Bell",
-      "city": "Defiance",
-      "state": "OH",
       "price": 0.99
     }
   ],
@@ -152,7 +152,9 @@
     "031905",
     "032566",
     "020679",
+    "035400",
     "034207",
+    "031418",
     "039998",
     "004907",
     "036332",
@@ -254,7 +256,9 @@
     "024235",
     "041839",
     "042528",
-    "020147"
+    "020147",
+    "042942",
+    "033635"
   ],
   "priciest_stores": [
     {
@@ -263,6 +267,20 @@
       "city": "New York",
       "state": "NY",
       "price": 2.29
+    },
+    {
+      "store_number": "033635",
+      "name": "Taco Bell",
+      "city": "Jordan",
+      "state": "MN",
+      "price": 0.99
+    },
+    {
+      "store_number": "042942",
+      "name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "price": 0.99
     },
     {
       "store_number": "020147",
@@ -312,23 +330,49 @@
       "city": "Portland",
       "state": "OR",
       "price": 0.99
-    },
-    {
-      "store_number": "039117",
-      "name": "Taco Bell",
-      "city": "Mt Holly",
-      "state": "NC",
-      "price": 0.99
-    },
-    {
-      "store_number": "031435",
-      "name": "Taco Bell",
-      "city": "Greer",
-      "state": "SC",
-      "price": 0.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033635",
+      "store_name": "Taco Bell",
+      "city": "Jordan",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-23T21:51:41.799722+00:00"
+    },
+    {
+      "store_number": "042942",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-23T21:50:45.753741+00:00"
+    },
+    {
+      "store_number": "031418",
+      "store_name": "Taco Bell",
+      "city": "Burley",
+      "state": "ID",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-23T21:47:25.010447+00:00"
+    },
+    {
+      "store_number": "035400",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-23T21:47:24.782285+00:00"
+    },
     {
       "store_number": "020147",
       "store_name": "Taco Bell",
@@ -53221,7 +53265,7 @@
     }
   ],
   "activity_summary": {
-    "added": 2700,
+    "added": 2704,
     "removed": 2589,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -53286,6 +53330,15 @@
       "NY"
     ],
     [
+      "035400",
+      41.055379974183374,
+      -85.22468720378129,
+      0.99,
+      "Taco Bell",
+      "Fort Wayne",
+      "IN"
+    ],
+    [
       "034207",
       36.808987335369736,
       -119.67535573368855,
@@ -53293,6 +53346,15 @@
       "Taco Bell",
       "Clovis",
       "CA"
+    ],
+    [
+      "031418",
+      42.563372,
+      -113.792354,
+      0.99,
+      "Taco Bell",
+      "Burley",
+      "ID"
     ],
     [
       "039998",
@@ -54211,6 +54273,24 @@
       "Taco Bell",
       "Vancouver",
       "WA"
+    ],
+    [
+      "042942",
+      29.024994683187042,
+      -82.15455534110447,
+      0.99,
+      "Taco Bell",
+      "Ocala",
+      "FL"
+    ],
+    [
+      "033635",
+      44.67052631704928,
+      -93.63687432084942,
+      0.99,
+      "Taco Bell",
+      "Jordan",
+      "MN"
     ],
     [
       "042304",

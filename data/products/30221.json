@@ -13,16 +13,20 @@
   "peak_30d_pct": 0.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:12.335616+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 7.82,
-    "min": 7.69,
+    "avg": 7.77,
+    "min": 7.59,
     "max": 7.99,
-    "median": 7.79,
-    "std_dev": 0.15,
-    "store_count": 3
+    "median": 7.74,
+    "std_dev": 0.17,
+    "store_count": 4
   },
   "histogram": [
+    {
+      "bucket": "$7.59",
+      "count": 1
+    },
     {
       "bucket": "$7.69",
       "count": 1
@@ -39,6 +43,13 @@
   "state_prices": [],
   "nutrition": null,
   "cheapest_stores": [
+    {
+      "store_number": "040343",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Las Vegas",
+      "state": "NV",
+      "price": 7.59
+    },
     {
       "store_number": "039834",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -62,7 +73,7 @@
     }
   ],
   "min_price_store_numbers": [
-    "039834"
+    "040343"
   ],
   "priciest_stores": [
     {
@@ -85,9 +96,26 @@
       "city": "Mira Loma",
       "state": "CA",
       "price": 7.69
+    },
+    {
+      "store_number": "040343",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Las Vegas",
+      "state": "NV",
+      "price": 7.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040343",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.59,
+      "observed_at": "2026-11-23T21:46:44.832904+00:00"
+    },
     {
       "store_number": "039834",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -1020,7 +1048,7 @@
     }
   ],
   "activity_summary": {
-    "added": 48,
+    "added": 49,
     "removed": 45,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1050,6 +1078,15 @@
   ],
   "map_data": [
     [
+      "040343",
+      36.31465673960959,
+      -115.30858985209709,
+      7.59,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Las Vegas",
+      "NV"
+    ],
+    [
       "039834",
       33.97485526499655,
       -117.55521027138457,
@@ -1078,6 +1115,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-11-22",
+  "last_seen_date": "2026-11-23",
   "peak_availability_pct": 0.5
 }

@@ -22,7 +22,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.22,
-    "store_count": 429
+    "store_count": 430
   },
   "histogram": [
     {
@@ -91,7 +91,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 62
+      "count": 63
     },
     {
       "bucket": "$1.59",
@@ -102,7 +102,7 @@
     {
       "state": "MI",
       "avg_price": 1.2,
-      "store_count": 113
+      "store_count": 114
     },
     {
       "state": "KY",
@@ -283,6 +283,13 @@
       "price": 1.59
     },
     {
+      "store_number": "024658",
+      "name": "Taco Bell",
+      "city": "Richmond",
+      "state": "MI",
+      "price": 1.49
+    },
+    {
       "store_number": "040657",
       "name": "Taco Bell",
       "city": "Ypsilanti",
@@ -337,16 +344,19 @@
       "city": "Spring Arbor",
       "state": "MI",
       "price": 1.49
-    },
-    {
-      "store_number": "042634",
-      "name": "Taco Bell",
-      "city": "Grand Rapids",
-      "state": "MI",
-      "price": 1.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024658",
+      "store_name": "Taco Bell",
+      "city": "Richmond",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-11-23T21:46:37.902869+00:00"
+    },
     {
       "store_number": "037359",
       "store_name": "Taco Bell",
@@ -27599,7 +27609,7 @@
     }
   ],
   "activity_summary": {
-    "added": 1482,
+    "added": 1483,
     "removed": 1242,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
@@ -31462,6 +31472,15 @@
       "MI"
     ],
     [
+      "024658",
+      42.79950591943458,
+      -82.74127993171741,
+      1.49,
+      "Taco Bell",
+      "Richmond",
+      "MI"
+    ],
+    [
       "041883",
       48.173424515469144,
       -103.62728089416856,
@@ -31472,6 +31491,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-11-22",
+  "last_seen_date": "2026-11-23",
   "peak_availability_pct": 13.6
 }
