@@ -21,12 +21,12 @@
     "max": 4.99,
     "median": 3.99,
     "std_dev": 0.5,
-    "store_count": 66
+    "store_count": 67
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 34
+      "count": 35
     },
     {
       "bucket": "$4.99",
@@ -36,8 +36,8 @@
   "state_prices": [
     {
       "state": "NC",
-      "avg_price": 4.5,
-      "store_count": 57
+      "avg_price": 4.49,
+      "store_count": 58
     },
     {
       "state": "SC",
@@ -158,6 +158,7 @@
     "030733",
     "031767",
     "032753",
+    "021466",
     "041483",
     "026049",
     "004457",
@@ -172,13 +173,6 @@
       "store_number": "032180",
       "name": "Taco Bell",
       "city": "Troutman",
-      "state": "NC",
-      "price": 4.99
-    },
-    {
-      "store_number": "039117",
-      "name": "Taco Bell",
-      "city": "Mt Holly",
       "state": "NC",
       "price": 4.99
     },
@@ -237,9 +231,46 @@
       "city": "Harrisburg",
       "state": "NC",
       "price": 4.99
+    },
+    {
+      "store_number": "042145",
+      "name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039117",
+      "store_name": "Taco Bell",
+      "city": "Mt Holly",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-11-24T21:48:30.238495+00:00"
+    },
+    {
+      "store_number": "021466",
+      "store_name": "Taco Bell",
+      "city": "Monroe",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-11-24T21:45:17.893677+00:00"
+    },
+    {
+      "store_number": "005349",
+      "store_name": "Taco Bell",
+      "city": "Cornelius",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-11-24T21:45:05.322419+00:00"
+    },
     {
       "store_number": "021466",
       "store_name": "Taco Bell",
@@ -1162,8 +1193,8 @@
     }
   ],
   "activity_summary": {
-    "added": 79,
-    "removed": 13,
+    "added": 81,
+    "removed": 14,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1407,6 +1438,15 @@
       "NC"
     ],
     [
+      "021466",
+      34.98578534373469,
+      -80.52960290576266,
+      3.99,
+      "Taco Bell",
+      "Monroe",
+      "NC"
+    ],
+    [
       "041483",
       35.47268374030683,
       -80.268807481093,
@@ -1632,6 +1672,15 @@
       "NC"
     ],
     [
+      "005349",
+      35.48359715276182,
+      -80.87746663953112,
+      4.99,
+      "Taco Bell",
+      "Cornelius",
+      "NC"
+    ],
+    [
       "002426",
       35.00616379979452,
       -80.5577377974987,
@@ -1746,15 +1795,6 @@
       4.99,
       "Taco Bell",
       "Charlotte",
-      "NC"
-    ],
-    [
-      "039117",
-      35.288115,
-      -81.018574,
-      4.99,
-      "Taco Bell",
-      "Mt Holly",
       "NC"
     ],
     [

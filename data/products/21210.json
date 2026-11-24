@@ -23,12 +23,12 @@
     "max": 12.99,
     "median": 4.0,
     "std_dev": 1.36,
-    "store_count": 7198
+    "store_count": 7200
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5287
+      "count": 5288
     },
     {
       "bucket": "$4.19",
@@ -80,7 +80,7 @@
     },
     {
       "bucket": "$5.00",
-      "count": 507
+      "count": 508
     },
     {
       "bucket": "$5.49",
@@ -100,7 +100,7 @@
     },
     {
       "bucket": "$6.00",
-      "count": 184
+      "count": 183
     },
     {
       "bucket": "$6.49",
@@ -112,7 +112,7 @@
     },
     {
       "bucket": "$7.00",
-      "count": 151
+      "count": 152
     },
     {
       "bucket": "$7.99",
@@ -162,7 +162,7 @@
   "state_prices": [
     {
       "state": "WA",
-      "avg_price": 6.86,
+      "avg_price": 6.87,
       "store_count": 131
     },
     {
@@ -183,7 +183,7 @@
     {
       "state": "CA",
       "avg_price": 5.6,
-      "store_count": 775
+      "store_count": 776
     },
     {
       "state": "UT",
@@ -293,7 +293,7 @@
     {
       "state": "PA",
       "avg_price": 4.12,
-      "store_count": 185
+      "store_count": 186
     },
     {
       "state": "MA",
@@ -5629,7 +5629,6 @@
     "042154",
     "043120",
     "043358",
-    "043335",
     "038749",
     "043049",
     "031715",
@@ -5771,7 +5770,9 @@
     "042708",
     "001846",
     "036109",
-    "026735"
+    "026735",
+    "043513",
+    "041385"
   ],
   "priciest_stores": [
     {
@@ -5846,6 +5847,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042530",
+      "store_name": "Taco Bell",
+      "city": "Lewis Center",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.0,
+      "observed_at": "2026-11-24T21:48:38.704148+00:00"
+    },
+    {
+      "store_number": "041385",
+      "store_name": "Taco Bell",
+      "city": "Hanover",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-11-24T21:48:38.671210+00:00"
+    },
+    {
+      "store_number": "043513",
+      "store_name": "Taco Bell",
+      "city": "Benicia",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-11-24T21:48:38.652894+00:00"
+    },
+    {
+      "store_number": "043335",
+      "store_name": "Taco Bell",
+      "city": "Wellston",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-11-24T21:48:37.059109+00:00"
+    },
+    {
+      "store_number": "038946",
+      "store_name": "Taco Bell",
+      "city": "Spokane",
+      "state": "WA",
+      "change_type": "price_change",
+      "old_price": 6.0,
+      "new_price": 7.0,
+      "observed_at": "2026-11-24T21:46:39.174760+00:00"
+    },
     {
       "store_number": "023093",
       "store_name": "Taco Bell",
@@ -19688,9 +19739,9 @@
     }
   ],
   "activity_summary": {
-    "added": 657,
-    "removed": 506,
-    "price_changed": 221,
+    "added": 660,
+    "removed": 507,
+    "price_changed": 222,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 0,
@@ -66020,15 +66071,6 @@
       "OH"
     ],
     [
-      "043335",
-      39.1123707,
-      -82.5352759,
-      4.0,
-      "Taco Bell",
-      "Wellston",
-      "OH"
-    ],
-    [
       "038749",
       33.5433,
       -97.8446,
@@ -67305,6 +67347,24 @@
       "Taco Bell",
       "Westmont",
       "IL"
+    ],
+    [
+      "043513",
+      38.0858485,
+      -122.1138328,
+      4.0,
+      "Taco Bell",
+      "Benicia",
+      "CA"
+    ],
+    [
+      "041385",
+      39.761951,
+      -76.959824,
+      4.0,
+      "Taco Bell",
+      "Hanover",
+      "PA"
     ],
     [
       "040310",
@@ -73211,6 +73271,15 @@
       "TN"
     ],
     [
+      "042530",
+      40.2046416,
+      -83.02934259999999,
+      5.0,
+      "Taco Bell",
+      "Lewis Center",
+      "OH"
+    ],
+    [
       "035632",
       47.19979450257849,
       -121.98721417455425,
@@ -75252,15 +75321,6 @@
       "Taco Bell",
       "Las Vegas",
       "NV"
-    ],
-    [
-      "038946",
-      47.695778311196115,
-      -117.36563220625612,
-      6.0,
-      "Taco Bell",
-      "Spokane",
-      "WA"
     ],
     [
       "031918",
@@ -77556,6 +77616,15 @@
       "Taco Bell",
       "Ogden",
       "UT"
+    ],
+    [
+      "038946",
+      47.695778311196115,
+      -117.36563220625612,
+      7.0,
+      "Taco Bell",
+      "Spokane",
+      "WA"
     ],
     [
       "042760",

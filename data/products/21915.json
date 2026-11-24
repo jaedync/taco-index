@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 10
+    "store_count": 9
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 10
+      "count": 9
     }
   ],
   "state_prices": [
     {
       "state": "CA",
       "avg_price": 9.0,
-      "store_count": 10
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -62,13 +62,6 @@
       "store_number": "035467",
       "name": "Taco Bell",
       "city": "Citrus Heights",
-      "state": "CA",
-      "price": 9.0
-    },
-    {
-      "store_number": "035471",
-      "name": "Taco Bell",
-      "city": "Fair Oaks",
       "state": "CA",
       "price": 9.0
     },
@@ -125,7 +118,6 @@
   "min_price_store_numbers": [
     "034168",
     "035467",
-    "035471",
     "034185",
     "034203",
     "028844",
@@ -185,13 +177,6 @@
       "price": 9.0
     },
     {
-      "store_number": "035471",
-      "name": "Taco Bell",
-      "city": "Fair Oaks",
-      "state": "CA",
-      "price": 9.0
-    },
-    {
       "store_number": "035467",
       "name": "Taco Bell",
       "city": "Citrus Heights",
@@ -207,6 +192,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035471",
+      "store_name": "Taco Bell",
+      "city": "Fair Oaks",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-11-24T21:46:34.903246+00:00"
+    },
     {
       "store_number": "034197",
       "store_name": "Taco Bell",
@@ -3590,7 +3585,7 @@
   ],
   "activity_summary": {
     "added": 174,
-    "removed": 164,
+    "removed": 165,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3646,15 +3641,6 @@
       9.0,
       "Taco Bell",
       "Citrus Heights",
-      "CA"
-    ],
-    [
-      "035471",
-      38.64448867761824,
-      -121.27272382378573,
-      9.0,
-      "Taco Bell",
-      "Fair Oaks",
       "CA"
     ],
     [
@@ -3722,6 +3708,6 @@
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-11-23",
+  "last_seen_date": "2026-11-24",
   "peak_availability_pct": 0.9
 }
