@@ -21,7 +21,7 @@
     "max": 5.79,
     "median": 2.39,
     "std_dev": 0.39,
-    "store_count": 7762
+    "store_count": 7761
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1656
+      "count": 1659
     },
     {
       "bucket": "$2.09",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$2.29",
-      "count": 656
+      "count": 655
     },
     {
       "bucket": "$2.39",
@@ -138,7 +138,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 985
+      "count": 982
     },
     {
       "bucket": "$3.01",
@@ -202,7 +202,11 @@
     },
     {
       "bucket": "$4.59",
-      "count": 3
+      "count": 1
+    },
+    {
+      "bucket": "$5.59",
+      "count": 2
     },
     {
       "bucket": "$5.79",
@@ -231,14 +235,14 @@
       "store_count": 123
     },
     {
+      "state": "NJ",
+      "avg_price": 2.82,
+      "store_count": 122
+    },
+    {
       "state": "CT",
       "avg_price": 2.81,
       "store_count": 49
-    },
-    {
-      "state": "NJ",
-      "avg_price": 2.81,
-      "store_count": 122
     },
     {
       "state": "NH",
@@ -273,7 +277,7 @@
     {
       "state": "MI",
       "avg_price": 2.64,
-      "store_count": 349
+      "store_count": 347
     },
     {
       "state": "MT",
@@ -328,7 +332,7 @@
     {
       "state": "OH",
       "avg_price": 2.43,
-      "store_count": 412
+      "store_count": 410
     },
     {
       "state": "WI",
@@ -378,12 +382,12 @@
     {
       "state": "NC",
       "avg_price": 2.26,
-      "store_count": 264
+      "store_count": 266
     },
     {
       "state": "VA",
       "avg_price": 2.25,
-      "store_count": 202
+      "store_count": 203
     },
     {
       "state": "MS",
@@ -559,24 +563,24 @@
       "price": 5.79
     },
     {
-      "store_number": "035261",
-      "name": "Taco Bell",
-      "city": "Staten Island",
-      "state": "NY",
-      "price": 4.59
-    },
-    {
       "store_number": "028785",
       "name": "Taco Bell",
       "city": "Wayne",
       "state": "NJ",
-      "price": 4.59
+      "price": 5.59
     },
     {
       "store_number": "028783",
       "name": "Taco Bell",
       "city": "Freehold",
       "state": "NJ",
+      "price": 5.59
+    },
+    {
+      "store_number": "035261",
+      "name": "Taco Bell",
+      "city": "Staten Island",
+      "state": "NY",
       "price": 4.59
     },
     {
@@ -623,6 +627,96 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043317",
+      "store_name": "Taco Bell",
+      "city": "North Tazewell",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-11-25T22:16:06.150308+00:00"
+    },
+    {
+      "store_number": "042683",
+      "store_name": "Taco Bell",
+      "city": "Archbold",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-11-25T22:16:04.734969+00:00"
+    },
+    {
+      "store_number": "039117",
+      "store_name": "Taco Bell",
+      "city": "Mt Holly",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-11-25T22:15:54.322926+00:00"
+    },
+    {
+      "store_number": "020721",
+      "store_name": "Taco Bell",
+      "city": "Milford",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-11-25T22:10:56.974530+00:00"
+    },
+    {
+      "store_number": "037840",
+      "store_name": "Taco Bell",
+      "city": "Howell",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-11-25T22:10:53.385142+00:00"
+    },
+    {
+      "store_number": "029867",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-11-25T22:10:44.469521+00:00"
+    },
+    {
+      "store_number": "028785",
+      "store_name": "Taco Bell",
+      "city": "Wayne",
+      "state": "NJ",
+      "change_type": "price_change",
+      "old_price": 4.59,
+      "new_price": 5.59,
+      "observed_at": "2026-11-25T22:10:30.800186+00:00"
+    },
+    {
+      "store_number": "028783",
+      "store_name": "Taco Bell",
+      "city": "Freehold",
+      "state": "NJ",
+      "change_type": "price_change",
+      "old_price": 4.59,
+      "new_price": 5.59,
+      "observed_at": "2026-11-25T22:10:30.553311+00:00"
+    },
+    {
+      "store_number": "036443",
+      "store_name": "Taco Bell",
+      "city": "Garrettsville",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.29,
+      "new_price": null,
+      "observed_at": "2026-11-25T22:10:08.148732+00:00"
+    },
     {
       "store_number": "041385",
       "store_name": "Taco Bell",
@@ -49045,9 +49139,9 @@
     }
   ],
   "activity_summary": {
-    "added": 658,
-    "removed": 551,
-    "price_changed": 3633,
+    "added": 661,
+    "removed": 555,
+    "price_changed": 3635,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 350,
@@ -56011,6 +56105,15 @@
       "Taco Bell",
       "Southgate",
       "MI"
+    ],
+    [
+      "029867",
+      35.10074468567441,
+      -80.99148988723755,
+      1.99,
+      "Taco Bell",
+      "Charlotte",
+      "NC"
     ],
     [
       "025505",
@@ -66912,6 +67015,15 @@
       "GA"
     ],
     [
+      "039117",
+      35.288115,
+      -81.018574,
+      1.99,
+      "Taco Bell",
+      "Mt Holly",
+      "NC"
+    ],
+    [
       "032041",
       43.13559886589908,
       -88.24315041303635,
@@ -67576,6 +67688,15 @@
       "Taco Bell",
       "Cedar Park",
       "TX"
+    ],
+    [
+      "043317",
+      37.134701,
+      -81.492934,
+      1.99,
+      "Taco Bell",
+      "North Tazewell",
+      "VA"
     ],
     [
       "040386",
@@ -75271,15 +75392,6 @@
       "Taco Bell",
       "Orlando",
       "FL"
-    ],
-    [
-      "036443",
-      41.28587384199368,
-      -81.1003614214611,
-      2.29,
-      "Taco Bell",
-      "Garrettsville",
-      "OH"
     ],
     [
       "037066",
@@ -110535,15 +110647,6 @@
       "MI"
     ],
     [
-      "037840",
-      42.58959812045883,
-      -83.88072914914574,
-      2.99,
-      "Taco Bell",
-      "Howell",
-      "MI"
-    ],
-    [
       "037839",
       42.23087868339839,
       -83.73982473278835,
@@ -110631,15 +110734,6 @@
       2.99,
       "Taco Bell",
       "Dundee",
-      "MI"
-    ],
-    [
-      "020721",
-      42.58317706629664,
-      -83.60834277701542,
-      2.99,
-      "Taco Bell",
-      "Milford",
       "MI"
     ],
     [
@@ -117510,15 +117604,6 @@
       "AZ"
     ],
     [
-      "042683",
-      41.512515,
-      -84.305499,
-      2.99,
-      "Taco Bell",
-      "Archbold",
-      "OH"
-    ],
-    [
       "043050",
       41.98208,
       -71.20984,
@@ -118878,10 +118963,19 @@
       "IL"
     ],
     [
+      "035261",
+      40.58119917422238,
+      -74.16476754945661,
+      4.59,
+      "Taco Bell",
+      "Staten Island",
+      "NY"
+    ],
+    [
       "028783",
       40.25324492362419,
       -74.30017392598026,
-      4.59,
+      5.59,
       "Taco Bell",
       "Freehold",
       "NJ"
@@ -118890,19 +118984,10 @@
       "028785",
       40.88887684389528,
       -74.25946719653606,
-      4.59,
+      5.59,
       "Taco Bell",
       "Wayne",
       "NJ"
-    ],
-    [
-      "035261",
-      40.58119917422238,
-      -74.16476754945661,
-      4.59,
-      "Taco Bell",
-      "Staten Island",
-      "NY"
     ],
     [
       "026759",

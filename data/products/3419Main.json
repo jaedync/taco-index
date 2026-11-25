@@ -17,17 +17,17 @@
   "first_seen_at": "2026-09-17T21:51:06.559598+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 3.74,
+    "avg": 3.73,
     "min": 3.49,
     "max": 3.99,
-    "median": 3.74,
+    "median": 3.49,
     "std_dev": 0.25,
-    "store_count": 30
+    "store_count": 31
   },
   "histogram": [
     {
       "bucket": "$3.49",
-      "count": 15
+      "count": 16
     },
     {
       "bucket": "$3.99",
@@ -37,8 +37,8 @@
   "state_prices": [
     {
       "state": "NV",
-      "avg_price": 3.74,
-      "store_count": 30
+      "avg_price": 3.73,
+      "store_count": 31
     }
   ],
   "nutrition": {
@@ -72,6 +72,13 @@
     },
     {
       "store_number": "031914",
+      "name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "price": 3.49
+    },
+    {
+      "store_number": "031860",
       "name": "Taco Bell",
       "city": "Las Vegas",
       "state": "NV",
@@ -118,19 +125,13 @@
       "city": "North Las Vegas",
       "state": "NV",
       "price": 3.49
-    },
-    {
-      "store_number": "031871",
-      "name": "Taco Bell",
-      "city": "Las Vegas",
-      "state": "NV",
-      "price": 3.49
     }
   ],
   "min_price_store_numbers": [
     "034019",
     "031913",
     "031914",
+    "031860",
     "031915",
     "031899",
     "031864",
@@ -217,6 +218,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031860",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-11-25T22:12:11.297709+00:00"
+    },
     {
       "store_number": "031895",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -2019,7 +2030,7 @@
     }
   ],
   "activity_summary": {
-    "added": 105,
+    "added": 106,
     "removed": 75,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2051,6 +2062,15 @@
       "031914",
       36.06094979157661,
       -115.2242824847434,
+      3.49,
+      "Taco Bell",
+      "Las Vegas",
+      "NV"
+    ],
+    [
+      "031860",
+      36.115818007052,
+      -115.2072474360466,
       3.49,
       "Taco Bell",
       "Las Vegas",

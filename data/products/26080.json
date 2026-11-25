@@ -17,26 +17,26 @@
   "peak_30d_pct": 0.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:48:25.343572+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.3,
   "price_stats": {
     "avg": 7.0,
     "min": 7.0,
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 19
+    "store_count": 21
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 19
+      "count": 21
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 7.0,
-      "store_count": 19
+      "store_count": 21
     }
   ],
   "nutrition": {
@@ -72,6 +72,13 @@
       "store_number": "030388",
       "name": "Taco Bell",
       "city": "El Reno",
+      "state": "OK",
+      "price": 7.0
+    },
+    {
+      "store_number": "030387",
+      "name": "Taco Bell",
+      "city": "Chickasha",
       "state": "OK",
       "price": 7.0
     },
@@ -116,19 +123,13 @@
       "city": "Oklahoma City",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "033500",
-      "name": "Taco Bell",
-      "city": "Guthrie",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "min_price_store_numbers": [
     "030397",
     "031460",
     "030388",
+    "030387",
     "030394",
     "033283",
     "033280",
@@ -144,9 +145,17 @@
     "033292",
     "030379",
     "031461",
-    "039577"
+    "039577",
+    "030381"
   ],
   "priciest_stores": [
+    {
+      "store_number": "030381",
+      "name": "Taco Bell",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "price": 7.0
+    },
     {
       "store_number": "039577",
       "name": "Taco Bell",
@@ -209,16 +218,29 @@
       "city": "Cushing",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "033500",
-      "name": "Taco Bell",
-      "city": "Guthrie",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030387",
+      "store_name": "Taco Bell",
+      "city": "Chickasha",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-11-25T22:14:27.078379+00:00"
+    },
+    {
+      "store_number": "030381",
+      "store_name": "Taco Bell",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-11-25T22:13:34.767246+00:00"
+    },
     {
       "store_number": "030392",
       "store_name": "Taco Bell",
@@ -1041,7 +1063,7 @@
     }
   ],
   "activity_summary": {
-    "added": 47,
+    "added": 49,
     "removed": 35,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1107,6 +1129,15 @@
       7.0,
       "Taco Bell",
       "El Reno",
+      "OK"
+    ],
+    [
+      "030387",
+      35.032083920913934,
+      -97.93535693432204,
+      7.0,
+      "Taco Bell",
+      "Chickasha",
       "OK"
     ],
     [
@@ -1248,6 +1279,15 @@
       "039577",
       35.61268319731784,
       -97.63824236514492,
+      7.0,
+      "Taco Bell",
+      "Oklahoma City",
+      "OK"
+    ],
+    [
+      "030381",
+      35.43832154926677,
+      -97.4852697998449,
       7.0,
       "Taco Bell",
       "Oklahoma City",

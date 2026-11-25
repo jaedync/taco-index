@@ -13,7 +13,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 1.1,
+  "peak_30d_pct": 1.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:05:37.421561+00:00",
   "availability_pct": 1.1,
@@ -23,19 +23,19 @@
     "max": 6.99,
     "median": 6.99,
     "std_dev": 0.0,
-    "store_count": 84
+    "store_count": 85
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 84
+      "count": 85
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 6.99,
-      "store_count": 84
+      "store_count": 85
     }
   ],
   "nutrition": {
@@ -205,6 +205,7 @@
     "023291",
     "027977",
     "023300",
+    "034162",
     "034163",
     "042971",
     "032959",
@@ -236,6 +237,13 @@
       "store_number": "034163",
       "name": "Taco Bell",
       "city": "Saint Cloud",
+      "state": "FL",
+      "price": 6.99
+    },
+    {
+      "store_number": "034162",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
       "state": "FL",
       "price": 6.99
     },
@@ -273,16 +281,19 @@
       "city": "Winter Park",
       "state": "FL",
       "price": 6.99
-    },
-    {
-      "store_number": "042927",
-      "name": "Taco Bell",
-      "city": "Belleview",
-      "state": "FL",
-      "price": 6.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034162",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-11-25T22:15:58.039549+00:00"
+    },
     {
       "store_number": "027986",
       "store_name": "Taco Bell",
@@ -4685,7 +4696,7 @@
     }
   ],
   "activity_summary": {
-    "added": 262,
+    "added": 263,
     "removed": 178,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -5413,6 +5424,15 @@
       6.99,
       "Taco Bell",
       "Palm Bay",
+      "FL"
+    ],
+    [
+      "034162",
+      28.198881542033824,
+      -81.44054558680533,
+      6.99,
+      "Taco Bell",
+      "Kissimmee",
       "FL"
     ],
     [

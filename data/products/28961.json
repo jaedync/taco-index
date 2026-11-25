@@ -16,17 +16,17 @@
   "first_seen_at": "2026-10-15T20:33:00.966484+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 5.6,
+    "avg": 5.61,
     "min": 5.49,
     "max": 5.99,
     "median": 5.49,
     "std_dev": 0.15,
-    "store_count": 14
+    "store_count": 13
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$5.69",
@@ -40,8 +40,8 @@
   "state_prices": [
     {
       "state": "TX",
-      "avg_price": 5.6,
-      "store_count": 14
+      "avg_price": 5.61,
+      "store_count": 13
     }
   ],
   "nutrition": {
@@ -67,13 +67,6 @@
       "price": 5.49
     },
     {
-      "store_number": "027868",
-      "name": "Taco Bell",
-      "city": "Richardson",
-      "state": "TX",
-      "price": 5.49
-    },
-    {
       "store_number": "035434",
       "name": "Taco Bell",
       "city": "The Colony",
@@ -88,9 +81,9 @@
       "price": 5.49
     },
     {
-      "store_number": "023093",
+      "store_number": "035445",
       "name": "Taco Bell",
-      "city": "Forest Hill",
+      "city": "McKinney",
       "state": "TX",
       "price": 5.49
     },
@@ -128,14 +121,20 @@
       "city": "Midlothian",
       "state": "TX",
       "price": 5.69
+    },
+    {
+      "store_number": "031518",
+      "name": "Taco Bell",
+      "city": "Haslet",
+      "state": "TX",
+      "price": 5.69
     }
   ],
   "min_price_store_numbers": [
     "037111",
-    "027868",
     "035434",
     "034585",
-    "023093",
+    "035445",
     "035446",
     "034590",
     "032187"
@@ -205,14 +204,44 @@
       "price": 5.49
     },
     {
-      "store_number": "023093",
+      "store_number": "035445",
       "name": "Taco Bell",
-      "city": "Forest Hill",
+      "city": "McKinney",
       "state": "TX",
       "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035445",
+      "store_name": "Taco Bell",
+      "city": "McKinney",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-11-25T22:13:02.640869+00:00"
+    },
+    {
+      "store_number": "023093",
+      "store_name": "Taco Bell",
+      "city": "Forest Hill",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-11-25T22:12:59.135557+00:00"
+    },
+    {
+      "store_number": "027868",
+      "store_name": "Taco Bell",
+      "city": "Richardson",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-11-25T22:11:58.553516+00:00"
+    },
     {
       "store_number": "027823",
       "store_name": "Taco Bell",
@@ -5995,8 +6024,8 @@
     }
   ],
   "activity_summary": {
-    "added": 296,
-    "removed": 282,
+    "added": 297,
+    "removed": 284,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6012,15 +6041,6 @@
       5.49,
       "Taco Bell",
       "Denton",
-      "TX"
-    ],
-    [
-      "027868",
-      32.961806624747986,
-      -96.73628260265104,
-      5.49,
-      "Taco Bell",
-      "Richardson",
       "TX"
     ],
     [
@@ -6042,12 +6062,12 @@
       "TX"
     ],
     [
-      "023093",
-      32.66077111888394,
-      -97.27113255861701,
+      "035445",
+      33.20554556166536,
+      -96.73233215512482,
       5.49,
       "Taco Bell",
-      "Forest Hill",
+      "McKinney",
       "TX"
     ],
     [
@@ -6133,6 +6153,6 @@
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-11-24",
+  "last_seen_date": "2026-11-25",
   "peak_availability_pct": 1.7
 }

@@ -23,12 +23,12 @@
     "max": 5.49,
     "median": 3.99,
     "std_dev": 0.11,
-    "store_count": 187
+    "store_count": 189
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 186
+      "count": 188
     },
     {
       "bucket": "$5.49",
@@ -39,12 +39,12 @@
     {
       "state": "FL",
       "avg_price": 4.01,
-      "store_count": 95
+      "store_count": 96
     },
     {
       "state": "CA",
       "avg_price": 3.99,
-      "store_count": 92
+      "store_count": 93
     }
   ],
   "nutrition": {
@@ -221,6 +221,7 @@
     "027989",
     "027977",
     "023300",
+    "034162",
     "042971",
     "023291",
     "034163",
@@ -262,6 +263,7 @@
     "003907",
     "041366",
     "002665",
+    "035471",
     "034173",
     "032354",
     "041341",
@@ -300,7 +302,6 @@
     "036121",
     "034183",
     "028841",
-    "034192",
     "041354",
     "034197",
     "034184",
@@ -319,7 +320,8 @@
     "031851",
     "033940",
     "031814",
-    "035468"
+    "035468",
+    "020019"
   ],
   "priciest_stores": [
     {
@@ -328,6 +330,13 @@
       "city": "Orlando",
       "state": "FL",
       "price": 5.49
+    },
+    {
+      "store_number": "020019",
+      "name": "Taco Bell",
+      "city": "Yuba City",
+      "state": "CA",
+      "price": 3.99
     },
     {
       "store_number": "035468",
@@ -384,16 +393,49 @@
       "city": "Patterson",
       "state": "CA",
       "price": 3.99
-    },
-    {
-      "store_number": "004429",
-      "name": "Taco Bell",
-      "city": "Galt",
-      "state": "CA",
-      "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034162",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-11-25T22:15:58.039549+00:00"
+    },
+    {
+      "store_number": "034192",
+      "store_name": "Taco Bell",
+      "city": "Modesto",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-11-25T22:15:02.551596+00:00"
+    },
+    {
+      "store_number": "020019",
+      "store_name": "Taco Bell",
+      "city": "Yuba City",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-11-25T22:14:57.138682+00:00"
+    },
+    {
+      "store_number": "035471",
+      "store_name": "Taco Bell",
+      "city": "Fair Oaks",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-11-25T22:12:26.302475+00:00"
+    },
     {
       "store_number": "034167",
       "store_name": "Taco Bell",
@@ -4666,8 +4708,8 @@
     }
   ],
   "activity_summary": {
-    "added": 306,
-    "removed": 121,
+    "added": 309,
+    "removed": 122,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4675,12 +4717,6 @@
   "calories_min": 430,
   "calories_max": 430,
   "combo_groups": [
-    {
-      "group_id": "150",
-      "title": "Crispy Chicken Strips 2Pk",
-      "default_product_code": "29006",
-      "default_product_name": "Crispy Chicken Strips 2Pk"
-    },
     {
       "group_id": "614",
       "title": "Spicy Ranch",
@@ -5473,6 +5509,15 @@
       "FL"
     ],
     [
+      "034162",
+      28.198881542033824,
+      -81.44054558680533,
+      3.99,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
+    [
       "042971",
       29.475060096911534,
       -81.2211965854139,
@@ -5842,6 +5887,15 @@
       "CA"
     ],
     [
+      "035471",
+      38.64448867761824,
+      -121.27272382378573,
+      3.99,
+      "Taco Bell",
+      "Fair Oaks",
+      "CA"
+    ],
+    [
       "034173",
       37.98707734795462,
       -121.24699741601944,
@@ -6184,15 +6238,6 @@
       "CA"
     ],
     [
-      "034192",
-      37.665004539550786,
-      -120.97536072134972,
-      3.99,
-      "Taco Bell",
-      "Modesto",
-      "CA"
-    ],
-    [
       "041354",
       38.45762500015582,
       -121.84211365884039,
@@ -6361,6 +6406,15 @@
       3.99,
       "Taco Bell",
       "Rancho Cordova",
+      "CA"
+    ],
+    [
+      "020019",
+      39.132676,
+      -121.639097,
+      3.99,
+      "Taco Bell",
+      "Yuba City",
       "CA"
     ],
     [

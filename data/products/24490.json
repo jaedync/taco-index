@@ -21,12 +21,12 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 61
+    "store_count": 62
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 61
+      "count": 62
     }
   ],
   "state_prices": [
@@ -38,7 +38,7 @@
     {
       "state": "NC",
       "avg_price": 9.0,
-      "store_count": 54
+      "store_count": 55
     }
   ],
   "nutrition": {
@@ -182,12 +182,13 @@
     "019324",
     "002804",
     "020568",
-    "005457",
     "022835",
     "041093",
+    "041092",
     "027434",
     "022180",
     "039118",
+    "039117",
     "032180"
   ],
   "priciest_stores": [
@@ -195,6 +196,13 @@
       "store_number": "032180",
       "name": "Taco Bell",
       "city": "Troutman",
+      "state": "NC",
+      "price": 9.0
+    },
+    {
+      "store_number": "039117",
+      "name": "Taco Bell",
+      "city": "Mt Holly",
       "state": "NC",
       "price": 9.0
     },
@@ -220,6 +228,13 @@
       "price": 9.0
     },
     {
+      "store_number": "041092",
+      "name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "price": 9.0
+    },
+    {
       "store_number": "041093",
       "name": "Taco Bell",
       "city": "Charlotte",
@@ -228,13 +243,6 @@
     },
     {
       "store_number": "022835",
-      "name": "Taco Bell",
-      "city": "Charlotte",
-      "state": "NC",
-      "price": 9.0
-    },
-    {
-      "store_number": "005457",
       "name": "Taco Bell",
       "city": "Charlotte",
       "state": "NC",
@@ -253,16 +261,39 @@
       "city": "Belmont",
       "state": "NC",
       "price": 9.0
-    },
-    {
-      "store_number": "019324",
-      "name": "Taco Bell",
-      "city": "Salisbury",
-      "state": "NC",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039117",
+      "store_name": "Taco Bell",
+      "city": "Mt Holly",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-11-25T22:15:54.322926+00:00"
+    },
+    {
+      "store_number": "041092",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-11-25T22:11:00.739835+00:00"
+    },
+    {
+      "store_number": "005457",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-11-25T22:11:00.055165+00:00"
+    },
     {
       "store_number": "039117",
       "store_name": "Taco Bell",
@@ -2615,8 +2646,8 @@
     }
   ],
   "activity_summary": {
-    "added": 148,
-    "removed": 87,
+    "added": 150,
+    "removed": 88,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3137,15 +3168,6 @@
       "NC"
     ],
     [
-      "005457",
-      35.09815324386578,
-      -80.77895607054131,
-      9.0,
-      "Taco Bell",
-      "Charlotte",
-      "NC"
-    ],
-    [
       "022835",
       35.33353854949635,
       -80.81255073845284,
@@ -3158,6 +3180,15 @@
       "041093",
       35.210502854768244,
       -80.69625637960598,
+      9.0,
+      "Taco Bell",
+      "Charlotte",
+      "NC"
+    ],
+    [
+      "041092",
+      35.31030543508609,
+      -80.75352564454079,
       9.0,
       "Taco Bell",
       "Charlotte",
@@ -3191,6 +3222,15 @@
       "NC"
     ],
     [
+      "039117",
+      35.288115,
+      -81.018574,
+      9.0,
+      "Taco Bell",
+      "Mt Holly",
+      "NC"
+    ],
+    [
       "032180",
       35.6698569972596,
       -80.85302218794828,
@@ -3201,6 +3241,6 @@
     ]
   ],
   "retired_at": "2026-11-13T21:38:06.835347+00:00",
-  "last_seen_date": "2026-11-24",
+  "last_seen_date": "2026-11-25",
   "peak_availability_pct": 0.9
 }

@@ -15,17 +15,17 @@
   "first_seen_at": "2026-03-30T00:41:09.681814+00:00",
   "availability_pct": 1.1,
   "price_stats": {
-    "avg": 2.35,
+    "avg": 2.33,
     "min": 1.29,
     "max": 2.49,
     "median": 2.49,
-    "std_dev": 0.25,
-    "store_count": 85
+    "std_dev": 0.27,
+    "store_count": 86
   },
   "histogram": [
     {
       "bucket": "$1.29",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$1.99",
@@ -44,8 +44,8 @@
     },
     {
       "state": "VA",
-      "avg_price": 2.33,
-      "store_count": 75
+      "avg_price": 2.31,
+      "store_count": 76
     }
   ],
   "nutrition": null,
@@ -54,6 +54,13 @@
       "store_number": "039778",
       "name": "Taco Bell",
       "city": "Lynchburg",
+      "state": "VA",
+      "price": 1.29
+    },
+    {
+      "store_number": "039725",
+      "name": "Taco Bell",
+      "city": "Harrisonburg",
       "state": "VA",
       "price": 1.29
     },
@@ -112,17 +119,11 @@
       "city": "Grafton",
       "state": "VA",
       "price": 1.99
-    },
-    {
-      "store_number": "033515",
-      "name": "Taco Bell",
-      "city": "Newport News",
-      "state": "VA",
-      "price": 1.99
     }
   ],
   "min_price_store_numbers": [
-    "039778"
+    "039778",
+    "039725"
   ],
   "priciest_stores": [
     {
@@ -197,6 +198,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039725",
+      "store_name": "Taco Bell",
+      "city": "Harrisonburg",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.29,
+      "observed_at": "2026-11-25T22:13:57.716251+00:00"
+    },
     {
       "store_number": "003720",
       "store_name": "Taco Bell",
@@ -1069,7 +1080,7 @@
     }
   ],
   "activity_summary": {
-    "added": 15,
+    "added": 16,
     "removed": 13,
     "price_changed": 59,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1086,6 +1097,15 @@
       1.29,
       "Taco Bell",
       "Lynchburg",
+      "VA"
+    ],
+    [
+      "039725",
+      38.42078844476059,
+      -78.89384406009701,
+      1.29,
+      "Taco Bell",
+      "Harrisonburg",
       "VA"
     ],
     [
@@ -1851,7 +1871,7 @@
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 2.35,
+      "avg_price": 2.33,
       "min_price": 1.29,
       "max_price": 2.49,
       "calories": 0,
@@ -1859,7 +1879,7 @@
     },
     {
       "size": "MEDIUM",
-      "avg_price": 2.34,
+      "avg_price": 2.32,
       "min_price": 1.29,
       "max_price": 2.49,
       "calories": 0,
@@ -1867,7 +1887,7 @@
     },
     {
       "size": "SMALL",
-      "avg_price": 2.34,
+      "avg_price": 2.32,
       "min_price": 1.29,
       "max_price": 2.49,
       "calories": 0,

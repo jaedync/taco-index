@@ -20,7 +20,7 @@
     "max": 6.99,
     "median": 2.99,
     "std_dev": 0.21,
-    "store_count": 7764
+    "store_count": 7765
   },
   "histogram": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "bucket": "$2.89",
-      "count": 791
+      "count": 792
     },
     {
       "bucket": "$2.99",
@@ -81,7 +81,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 919
+      "count": 920
     },
     {
       "bucket": "$3.20",
@@ -93,7 +93,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 389
+      "count": 388
     },
     {
       "bucket": "$3.30",
@@ -161,7 +161,7 @@
     },
     {
       "bucket": "$3.79",
-      "count": 5
+      "count": 3
     },
     {
       "bucket": "$3.89",
@@ -173,7 +173,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 29
+      "count": 31
     },
     {
       "bucket": "$4.19",
@@ -225,7 +225,7 @@
     {
       "state": "NH",
       "avg_price": 3.19,
-      "store_count": 11
+      "store_count": 12
     },
     {
       "state": "CA",
@@ -248,14 +248,14 @@
       "store_count": 140
     },
     {
-      "state": "IA",
-      "avg_price": 3.09,
-      "store_count": 49
-    },
-    {
       "state": "DE",
       "avg_price": 3.09,
       "store_count": 16
+    },
+    {
+      "state": "IA",
+      "avg_price": 3.09,
+      "store_count": 48
     },
     {
       "state": "MD",
@@ -264,7 +264,7 @@
     },
     {
       "state": "NJ",
-      "avg_price": 3.07,
+      "avg_price": 3.08,
       "store_count": 122
     },
     {
@@ -280,7 +280,7 @@
     {
       "state": "VA",
       "avg_price": 3.05,
-      "store_count": 202
+      "store_count": 203
     },
     {
       "state": "PA",
@@ -613,6 +613,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043317",
+      "store_name": "Taco Bell",
+      "city": "North Tazewell",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-11-25T22:16:06.150308+00:00"
+    },
+    {
+      "store_number": "030840",
+      "store_name": "Taco Bell",
+      "city": "Carroll",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-11-25T22:14:25.250078+00:00"
+    },
+    {
+      "store_number": "029273",
+      "store_name": "Taco Bell / Long John Silver's",
+      "city": "Salem",
+      "state": "NH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-11-25T22:13:01.859185+00:00"
+    },
+    {
+      "store_number": "028785",
+      "store_name": "Taco Bell",
+      "city": "Wayne",
+      "state": "NJ",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.99,
+      "observed_at": "2026-11-25T22:10:30.800186+00:00"
+    },
+    {
+      "store_number": "028783",
+      "store_name": "Taco Bell",
+      "city": "Freehold",
+      "state": "NJ",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.99,
+      "observed_at": "2026-11-25T22:10:30.553311+00:00"
+    },
     {
       "store_number": "042530",
       "store_name": "Taco Bell",
@@ -21175,9 +21225,9 @@
     }
   ],
   "activity_summary": {
-    "added": 439,
-    "removed": 324,
-    "price_changed": 1293,
+    "added": 441,
+    "removed": 325,
+    "price_changed": 1295,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 190,
@@ -34855,6 +34905,15 @@
       "Taco Bell",
       "Atlanta",
       "GA"
+    ],
+    [
+      "043317",
+      37.134701,
+      -81.492934,
+      2.89,
+      "Taco Bell",
+      "North Tazewell",
+      "VA"
     ],
     [
       "040303",
@@ -80532,6 +80591,15 @@
       "NY"
     ],
     [
+      "029273",
+      42.75499131386579,
+      -71.20949426296647,
+      3.19,
+      "Taco Bell / Long John Silver's",
+      "Salem",
+      "NH"
+    ],
+    [
       "031323",
       47.378975401337506,
       -122.24698354305474,
@@ -86850,15 +86918,6 @@
       "IL"
     ],
     [
-      "030840",
-      42.07884534934998,
-      -94.89085444807188,
-      3.29,
-      "Taco Bell",
-      "Carroll",
-      "IA"
-    ],
-    [
       "030405",
       42.46834407476158,
       -92.32113920157644,
@@ -90036,24 +90095,6 @@
       "NY"
     ],
     [
-      "028783",
-      40.25324492362419,
-      -74.30017392598026,
-      3.79,
-      "Taco Bell",
-      "Freehold",
-      "NJ"
-    ],
-    [
-      "028785",
-      40.88887684389528,
-      -74.25946719653606,
-      3.79,
-      "Taco Bell",
-      "Wayne",
-      "NJ"
-    ],
-    [
       "035261",
       40.58119917422238,
       -74.16476754945661,
@@ -90430,6 +90471,24 @@
       "Taco Bell Cantina",
       "New York",
       "NY"
+    ],
+    [
+      "028783",
+      40.25324492362419,
+      -74.30017392598026,
+      3.99,
+      "Taco Bell",
+      "Freehold",
+      "NJ"
+    ],
+    [
+      "028785",
+      40.88887684389528,
+      -74.25946719653606,
+      3.99,
+      "Taco Bell",
+      "Wayne",
+      "NJ"
     ],
     [
       "037095",

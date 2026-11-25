@@ -20,12 +20,12 @@
     "max": 2.29,
     "median": 0.99,
     "std_dev": 0.12,
-    "store_count": 114
+    "store_count": 117
   },
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 113
+      "count": 116
     },
     {
       "bucket": "$2.29",
@@ -46,12 +46,12 @@
     {
       "state": "GA",
       "avg_price": 0.99,
-      "store_count": 8
+      "store_count": 10
     },
     {
       "state": "FL",
       "avg_price": 0.99,
-      "store_count": 10
+      "store_count": 9
     },
     {
       "state": "CA",
@@ -131,17 +131,17 @@
       "price": 0.99
     },
     {
+      "store_number": "040531",
+      "name": "Taco Bell",
+      "city": "Chardon",
+      "state": "OH",
+      "price": 0.99
+    },
+    {
       "store_number": "031418",
       "name": "Taco Bell",
       "city": "Burley",
       "state": "ID",
-      "price": 0.99
-    },
-    {
-      "store_number": "039998",
-      "name": "Taco Bell",
-      "city": "Lockport",
-      "state": "NY",
       "price": 0.99
     }
   ],
@@ -154,7 +154,9 @@
     "020679",
     "035400",
     "034207",
+    "040531",
     "031418",
+    "041223",
     "039998",
     "004907",
     "036332",
@@ -218,7 +220,6 @@
     "017387",
     "030127",
     "041802",
-    "003880",
     "042237",
     "035689",
     "028917",
@@ -258,7 +259,9 @@
     "020147",
     "042942",
     "033635",
-    "040963"
+    "040963",
+    "040463",
+    "039918"
   ],
   "priciest_stores": [
     {
@@ -267,6 +270,20 @@
       "city": "New York",
       "state": "NY",
       "price": 2.29
+    },
+    {
+      "store_number": "039918",
+      "name": "Taco Bell",
+      "city": "Savannah",
+      "state": "GA",
+      "price": 0.99
+    },
+    {
+      "store_number": "040463",
+      "name": "Taco Bell",
+      "city": "Trenton",
+      "state": "MI",
+      "price": 0.99
     },
     {
       "store_number": "040963",
@@ -316,23 +333,59 @@
       "city": "Avon Lake",
       "state": "OH",
       "price": 0.99
-    },
-    {
-      "store_number": "017471",
-      "name": "Taco Bell",
-      "city": "Tustin",
-      "state": "CA",
-      "price": 0.99
-    },
-    {
-      "store_number": "019753",
-      "name": "Taco Bell",
-      "city": "Lynn Haven",
-      "state": "FL",
-      "price": 0.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003880",
+      "store_name": "Taco Bell",
+      "city": "Clearwater",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-11-25T22:14:24.602998+00:00"
+    },
+    {
+      "store_number": "041223",
+      "store_name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-25T22:13:55.278889+00:00"
+    },
+    {
+      "store_number": "039918",
+      "store_name": "Taco Bell",
+      "city": "Savannah",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-25T22:13:14.245217+00:00"
+    },
+    {
+      "store_number": "040531",
+      "store_name": "Taco Bell",
+      "city": "Chardon",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-25T22:10:56.326434+00:00"
+    },
+    {
+      "store_number": "040463",
+      "store_name": "Taco Bell",
+      "city": "Trenton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-11-25T22:08:48.737270+00:00"
+    },
     {
       "store_number": "040963",
       "store_name": "Taco Bell",
@@ -53285,12 +53338,12 @@
     }
   ],
   "activity_summary": {
-    "added": 2705,
-    "removed": 2590,
+    "added": 2709,
+    "removed": 2591,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 0,
+  "calories_from_menu": 230,
   "calories_min": 230,
   "calories_max": 230,
   "combo_groups": [],
@@ -53368,6 +53421,15 @@
       "CA"
     ],
     [
+      "040531",
+      41.58128313422767,
+      -81.21314902764493,
+      0.99,
+      "Taco Bell",
+      "Chardon",
+      "OH"
+    ],
+    [
       "031418",
       42.563372,
       -113.792354,
@@ -53375,6 +53437,15 @@
       "Taco Bell",
       "Burley",
       "ID"
+    ],
+    [
+      "041223",
+      33.61940670172887,
+      -84.24365535383913,
+      0.99,
+      "Taco Bell",
+      "Ellenwood",
+      "GA"
     ],
     [
       "039998",
@@ -53944,15 +54015,6 @@
       "GA"
     ],
     [
-      "003880",
-      27.96090030793694,
-      -82.7616137266159,
-      0.99,
-      "Taco Bell",
-      "Clearwater",
-      "FL"
-    ],
-    [
       "042237",
       40.7898669212316,
       -73.94629680220903,
@@ -54311,6 +54373,24 @@
       "Taco Bell",
       "Black Mountain",
       "NC"
+    ],
+    [
+      "040463",
+      42.12725380858466,
+      -83.20273352527417,
+      0.99,
+      "Taco Bell",
+      "Trenton",
+      "MI"
+    ],
+    [
+      "039918",
+      32.00469835086927,
+      -81.11383080482483,
+      0.99,
+      "Taco Bell",
+      "Savannah",
+      "GA"
     ],
     [
       "042304",
