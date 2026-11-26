@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.0,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.8,
   "first_seen_at": "2026-11-12T22:20:55.603295+00:00",
   "availability_pct": 0.0,
   "price_stats": {
@@ -21,12 +21,12 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 3
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 2
+      "count": 3
     }
   ],
   "state_prices": [],
@@ -58,13 +58,28 @@
       "city": "Roseville",
       "state": "MN",
       "price": 9.0
+    },
+    {
+      "store_number": "036439",
+      "name": "Taco Bell",
+      "city": "Maple Grove",
+      "state": "MN",
+      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "016822",
-    "041269"
+    "041269",
+    "036439"
   ],
   "priciest_stores": [
+    {
+      "store_number": "036439",
+      "name": "Taco Bell",
+      "city": "Maple Grove",
+      "state": "MN",
+      "price": 9.0
+    },
     {
       "store_number": "041269",
       "name": "Taco Bell",
@@ -81,6 +96,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036439",
+      "store_name": "Taco Bell",
+      "city": "Maple Grove",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-11-26T22:59:31.689053+00:00"
+    },
     {
       "store_number": "027635",
       "store_name": "Taco Bell",
@@ -123,7 +148,7 @@
     }
   ],
   "activity_summary": {
-    "added": 3,
+    "added": 4,
     "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -180,6 +205,15 @@
       9.0,
       "Taco Bell",
       "Roseville",
+      "MN"
+    ],
+    [
+      "036439",
+      45.13279750925346,
+      -93.47865429307748,
+      9.0,
+      "Taco Bell",
+      "Maple Grove",
       "MN"
     ]
   ],

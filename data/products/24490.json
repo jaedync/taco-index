@@ -21,12 +21,12 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 62
+    "store_count": 61
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 62
+      "count": 61
     }
   ],
   "state_prices": [
@@ -38,7 +38,7 @@
     {
       "state": "NC",
       "avg_price": 9.0,
-      "store_count": 55
+      "store_count": 54
     }
   ],
   "nutrition": {
@@ -156,7 +156,6 @@
     "032750",
     "016435",
     "029469",
-    "041484",
     "029528",
     "005500",
     "005349",
@@ -182,16 +181,23 @@
     "019324",
     "002804",
     "020568",
-    "022835",
     "041093",
     "041092",
     "027434",
     "022180",
     "039118",
     "039117",
-    "032180"
+    "032180",
+    "037004"
   ],
   "priciest_stores": [
+    {
+      "store_number": "037004",
+      "name": "Taco Bell",
+      "city": "Indian Trail",
+      "state": "NC",
+      "price": 9.0
+    },
     {
       "store_number": "032180",
       "name": "Taco Bell",
@@ -242,13 +248,6 @@
       "price": 9.0
     },
     {
-      "store_number": "022835",
-      "name": "Taco Bell",
-      "city": "Charlotte",
-      "state": "NC",
-      "price": 9.0
-    },
-    {
       "store_number": "020568",
       "name": "Taco Bell",
       "city": "Kings Mountain",
@@ -264,6 +263,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022835",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-11-26T23:00:00.985642+00:00"
+    },
+    {
+      "store_number": "041484",
+      "store_name": "Taco Bell",
+      "city": "Denver",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-11-26T22:59:50.773685+00:00"
+    },
+    {
+      "store_number": "037004",
+      "store_name": "Taco Bell",
+      "city": "Indian Trail",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-11-26T22:59:42.308911+00:00"
+    },
     {
       "store_number": "039117",
       "store_name": "Taco Bell",
@@ -2646,8 +2675,8 @@
     }
   ],
   "activity_summary": {
-    "added": 150,
-    "removed": 88,
+    "added": 151,
+    "removed": 90,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2934,15 +2963,6 @@
       "SC"
     ],
     [
-      "041484",
-      35.44396178848339,
-      -80.99803842139409,
-      9.0,
-      "Taco Bell",
-      "Denver",
-      "NC"
-    ],
-    [
       "029528",
       35.26034014744842,
       -81.21464981700228,
@@ -3168,15 +3188,6 @@
       "NC"
     ],
     [
-      "022835",
-      35.33353854949635,
-      -80.81255073845284,
-      9.0,
-      "Taco Bell",
-      "Charlotte",
-      "NC"
-    ],
-    [
       "041093",
       35.210502854768244,
       -80.69625637960598,
@@ -3238,9 +3249,18 @@
       "Taco Bell",
       "Troutman",
       "NC"
+    ],
+    [
+      "037004",
+      35.0502267746598,
+      -80.64345900505425,
+      9.0,
+      "Taco Bell",
+      "Indian Trail",
+      "NC"
     ]
   ],
   "retired_at": "2026-11-13T21:38:06.835347+00:00",
-  "last_seen_date": "2026-11-25",
+  "last_seen_date": "2026-11-26",
   "peak_availability_pct": 0.9
 }

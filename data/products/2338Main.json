@@ -12,18 +12,22 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 2.8,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0275,
   "first_seen_at": "2026-11-12T22:21:34.989342+00:00",
-  "availability_pct": 3.0,
+  "availability_pct": 3.1,
   "price_stats": {
     "avg": 2.82,
-    "min": 2.19,
+    "min": 1.99,
     "max": 3.19,
     "median": 2.79,
-    "std_dev": 0.2,
-    "store_count": 234
+    "std_dev": 0.21,
+    "store_count": 237
   },
   "histogram": [
+    {
+      "bucket": "$1.99",
+      "count": 1
+    },
     {
       "bucket": "$2.19",
       "count": 4
@@ -38,15 +42,15 @@
     },
     {
       "bucket": "$2.49",
-      "count": 17
+      "count": 18
     },
     {
       "bucket": "$2.59",
-      "count": 12
+      "count": 11
     },
     {
       "bucket": "$2.69",
-      "count": 42
+      "count": 43
     },
     {
       "bucket": "$2.79",
@@ -54,7 +58,7 @@
     },
     {
       "bucket": "$2.89",
-      "count": 46
+      "count": 45
     },
     {
       "bucket": "$2.94",
@@ -74,14 +78,14 @@
     },
     {
       "bucket": "$3.19",
-      "count": 16
+      "count": 18
     }
   ],
   "state_prices": [
     {
       "state": "MI",
-      "avg_price": 3.06,
-      "store_count": 9
+      "avg_price": 3.08,
+      "store_count": 11
     },
     {
       "state": "WA",
@@ -100,8 +104,8 @@
     },
     {
       "state": "OR",
-      "avg_price": 2.93,
-      "store_count": 8
+      "avg_price": 2.94,
+      "store_count": 7
     },
     {
       "state": "VA",
@@ -120,13 +124,13 @@
     },
     {
       "state": "IL",
-      "avg_price": 2.85,
-      "store_count": 20
+      "avg_price": 2.86,
+      "store_count": 19
     },
     {
       "state": "KY",
       "avg_price": 2.8,
-      "store_count": 8
+      "store_count": 9
     },
     {
       "state": "MO",
@@ -136,17 +140,17 @@
     {
       "state": "WI",
       "avg_price": 2.77,
-      "store_count": 11
-    },
-    {
-      "state": "IN",
-      "avg_price": 2.76,
-      "store_count": 15
+      "store_count": 10
     },
     {
       "state": "TN",
       "avg_price": 2.76,
-      "store_count": 13
+      "store_count": 16
+    },
+    {
+      "state": "IN",
+      "avg_price": 2.74,
+      "store_count": 15
     },
     {
       "state": "NC",
@@ -155,18 +159,13 @@
     },
     {
       "state": "AL",
-      "avg_price": 2.69,
-      "store_count": 7
+      "avg_price": 2.71,
+      "store_count": 6
     },
     {
       "state": "FL",
       "avg_price": 2.68,
       "store_count": 14
-    },
-    {
-      "state": "TX",
-      "avg_price": 2.65,
-      "store_count": 5
     },
     {
       "state": "OH",
@@ -194,6 +193,13 @@
     "serving_size_g": 0.0
   },
   "cheapest_stores": [
+    {
+      "store_number": "024102",
+      "name": "Taco Bell",
+      "city": "Manhattan",
+      "state": "KS",
+      "price": 1.99
+    },
     {
       "store_number": "037116",
       "name": "Taco Bell",
@@ -256,22 +262,26 @@
       "city": "Martinez",
       "state": "GA",
       "price": 2.49
-    },
-    {
-      "store_number": "032310",
-      "name": "Taco Bell",
-      "city": "Memphis",
-      "state": "TN",
-      "price": 2.49
     }
   ],
   "min_price_store_numbers": [
-    "037116",
-    "024747",
-    "009539",
-    "037493"
+    "024102"
   ],
   "priciest_stores": [
+    {
+      "store_number": "021470",
+      "name": "Taco Bell",
+      "city": "Lansing",
+      "state": "MI",
+      "price": 3.19
+    },
+    {
+      "store_number": "041745",
+      "name": "Taco Bell",
+      "city": "Walled Lake",
+      "state": "MI",
+      "price": 3.19
+    },
     {
       "store_number": "040524",
       "name": "Taco Bell",
@@ -327,23 +337,159 @@
       "city": "Clinton Township",
       "state": "MI",
       "price": 3.19
-    },
-    {
-      "store_number": "040315",
-      "name": "Taco Bell",
-      "city": "Ann Arbor",
-      "state": "MI",
-      "price": 3.19
-    },
-    {
-      "store_number": "026756",
-      "name": "Taco Bell",
-      "city": "Shorewood",
-      "state": "IL",
-      "price": 3.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033443",
+      "store_name": "Taco Bell",
+      "city": "San Antonio",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-11-26T23:02:33.131843+00:00"
+    },
+    {
+      "store_number": "024102",
+      "store_name": "Taco Bell",
+      "city": "Manhattan",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-11-26T23:02:25.481449+00:00"
+    },
+    {
+      "store_number": "005290",
+      "store_name": "Taco Bell",
+      "city": "Menomonie",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-11-26T23:02:03.876439+00:00"
+    },
+    {
+      "store_number": "002679",
+      "store_name": "Taco Bell",
+      "city": "Franklin",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-11-26T23:01:56.915163+00:00"
+    },
+    {
+      "store_number": "029646",
+      "store_name": "Taco Bell",
+      "city": "Wood River",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-11-26T23:01:48.026506+00:00"
+    },
+    {
+      "store_number": "029014",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-11-26T23:01:46.558407+00:00"
+    },
+    {
+      "store_number": "028882",
+      "store_name": "Taco Bell",
+      "city": "Princeton",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-11-26T23:01:25.087592+00:00"
+    },
+    {
+      "store_number": "029071",
+      "store_name": "Taco Bell",
+      "city": "Auburn",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 2.59,
+      "new_price": null,
+      "observed_at": "2026-11-26T23:01:25.072347+00:00"
+    },
+    {
+      "store_number": "029015",
+      "store_name": "Taco Bell",
+      "city": "Pigeon Forge",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-11-26T23:01:12.796469+00:00"
+    },
+    {
+      "store_number": "021470",
+      "store_name": "Taco Bell",
+      "city": "Lansing",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-11-26T23:00:56.555708+00:00"
+    },
+    {
+      "store_number": "039641",
+      "store_name": "Taco Bell",
+      "city": "Monmouth",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-11-26T23:00:03.942102+00:00"
+    },
+    {
+      "store_number": "015897",
+      "store_name": "Taco Bell",
+      "city": "Franklin",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-11-26T23:00:01.127839+00:00"
+    },
+    {
+      "store_number": "030711",
+      "store_name": "Taco Bell",
+      "city": "Spring Hill",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-11-26T22:59:57.748976+00:00"
+    },
+    {
+      "store_number": "036439",
+      "store_name": "Taco Bell",
+      "city": "Maple Grove",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-11-26T22:59:31.689053+00:00"
+    },
+    {
+      "store_number": "041745",
+      "store_name": "Taco Bell",
+      "city": "Walled Lake",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-11-26T22:58:43.765380+00:00"
+    },
     {
       "store_number": "043335",
       "store_name": "Taco Bell",
@@ -5186,8 +5332,8 @@
     }
   ],
   "activity_summary": {
-    "added": 359,
-    "removed": 125,
+    "added": 368,
+    "removed": 131,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5196,6 +5342,15 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
+    [
+      "024102",
+      39.18991346751252,
+      -96.55859072508065,
+      1.99,
+      "Taco Bell",
+      "Manhattan",
+      "KS"
+    ],
     [
       "037116",
       41.79921643473022,
@@ -5404,6 +5559,15 @@
       "TX"
     ],
     [
+      "028882",
+      38.356072995582366,
+      -87.60485308257705,
+      2.49,
+      "Taco Bell",
+      "Princeton",
+      "IN"
+    ],
+    [
       "020944",
       40.14013051280587,
       -82.98090845346445,
@@ -5447,15 +5611,6 @@
       "Taco Bell",
       "Parma",
       "OH"
-    ],
-    [
-      "029071",
-      32.601756220043065,
-      -85.47965371385469,
-      2.59,
-      "Taco Bell",
-      "Auburn",
-      "AL"
     ],
     [
       "042290",
@@ -5653,15 +5808,6 @@
       2.69,
       "Taco Bell",
       "Springfield",
-      "IL"
-    ],
-    [
-      "029646",
-      38.86818883734238,
-      -90.06734015702176,
-      2.69,
-      "Taco Bell",
-      "Wood River",
       "IL"
     ],
     [
@@ -5890,6 +6036,24 @@
       "OH"
     ],
     [
+      "036439",
+      45.13279750925346,
+      -93.47865429307748,
+      2.69,
+      "Taco Bell",
+      "Maple Grove",
+      "MN"
+    ],
+    [
+      "029014",
+      35.954860301979295,
+      -83.93603503704071,
+      2.69,
+      "Taco Bell",
+      "Knoxville",
+      "TN"
+    ],
+    [
       "037070",
       41.69135506097448,
       -83.56254863521914,
@@ -5987,15 +6151,6 @@
       "Taco Bell",
       "Avon",
       "IN"
-    ],
-    [
-      "039641",
-      44.85080864926697,
-      -123.21717139429244,
-      2.79,
-      "Taco Bell",
-      "Monmouth",
-      "OR"
     ],
     [
       "040865",
@@ -6232,15 +6387,6 @@
       "FL"
     ],
     [
-      "005290",
-      44.89874021097933,
-      -91.93248063325882,
-      2.79,
-      "Taco Bell",
-      "Menomonie",
-      "WI"
-    ],
-    [
       "036203",
       41.981432249074885,
       -88.70707093435858,
@@ -6268,13 +6414,31 @@
       "IL"
     ],
     [
-      "033443",
-      29.509858761306624,
-      -98.38696717488614,
+      "030711",
+      35.73958700000001,
+      -86.89300854232789,
       2.79,
       "Taco Bell",
-      "San Antonio",
-      "TX"
+      "Spring Hill",
+      "TN"
+    ],
+    [
+      "015897",
+      36.708450548014646,
+      -86.57586641144917,
+      2.79,
+      "Taco Bell",
+      "Franklin",
+      "KY"
+    ],
+    [
+      "029015",
+      35.789296992414,
+      -83.55763086679872,
+      2.79,
+      "Taco Bell",
+      "Pigeon Forge",
+      "TN"
     ],
     [
       "041864",
@@ -6527,15 +6691,6 @@
       "Taco Bell",
       "Columbia",
       "MO"
-    ],
-    [
-      "002679",
-      39.49419311342761,
-      -86.06425388599746,
-      2.89,
-      "Taco Bell",
-      "Franklin",
-      "IN"
     ],
     [
       "040979",
@@ -7301,6 +7456,24 @@
       "Taco Bell",
       "Corunna",
       "MI"
+    ],
+    [
+      "041745",
+      42.538476867889386,
+      -83.48039326911228,
+      3.19,
+      "Taco Bell",
+      "Walled Lake",
+      "MI"
+    ],
+    [
+      "021470",
+      42.740570389681004,
+      -84.61094246061293,
+      3.19,
+      "Taco Bell",
+      "Lansing",
+      "MI"
     ]
   ],
   "retired_at": null,
@@ -7318,7 +7491,7 @@
     {
       "size": "MEDIUM",
       "avg_price": 3.02,
-      "min_price": 2.29,
+      "min_price": 2.19,
       "max_price": 3.39,
       "calories": 10,
       "happier_hour_avg": null
@@ -7326,7 +7499,7 @@
     {
       "size": "SMALL",
       "avg_price": 2.82,
-      "min_price": 2.19,
+      "min_price": 1.99,
       "max_price": 3.19,
       "calories": 5,
       "happier_hour_avg": null
