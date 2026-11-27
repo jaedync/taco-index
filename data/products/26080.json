@@ -24,19 +24,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 20
+    "store_count": 22
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 20
+      "count": 22
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 7.0,
-      "store_count": 20
+      "store_count": 22
     }
   ],
   "nutrition": {
@@ -141,13 +141,22 @@
     "030392",
     "030382",
     "039138",
+    "028361",
     "033292",
     "030379",
     "031461",
     "039577",
-    "030381"
+    "030381",
+    "033282"
   ],
   "priciest_stores": [
+    {
+      "store_number": "033282",
+      "name": "Taco Bell",
+      "city": "Edmond",
+      "state": "OK",
+      "price": 7.0
+    },
     {
       "store_number": "030381",
       "name": "Taco Bell",
@@ -184,6 +193,13 @@
       "price": 7.0
     },
     {
+      "store_number": "028361",
+      "name": "Taco Bell",
+      "city": "Elk City",
+      "state": "OK",
+      "price": 7.0
+    },
+    {
       "store_number": "039138",
       "name": "Taco Bell",
       "city": "Anadarko",
@@ -203,23 +219,29 @@
       "city": "Ponca City",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "034943",
-      "name": "Taco Bell",
-      "city": "Cushing",
-      "state": "OK",
-      "price": 7.0
-    },
-    {
-      "store_number": "033500",
-      "name": "Taco Bell",
-      "city": "Guthrie",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028361",
+      "store_name": "Taco Bell",
+      "city": "Elk City",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-11-27T22:47:42.833762+00:00"
+    },
+    {
+      "store_number": "033282",
+      "store_name": "Taco Bell",
+      "city": "Edmond",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-11-27T22:47:12.359270+00:00"
+    },
     {
       "store_number": "028361",
       "store_name": "Taco Bell",
@@ -1072,7 +1094,7 @@
     }
   ],
   "activity_summary": {
-    "added": 49,
+    "added": 51,
     "removed": 36,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1249,6 +1271,15 @@
       "OK"
     ],
     [
+      "028361",
+      35.411995466212105,
+      -99.41793618921909,
+      7.0,
+      "Taco Bell",
+      "Elk City",
+      "OK"
+    ],
+    [
       "033292",
       35.18233895133625,
       -97.41836611928193,
@@ -1291,6 +1322,15 @@
       7.0,
       "Taco Bell",
       "Oklahoma City",
+      "OK"
+    ],
+    [
+      "033282",
+      35.6526009319815,
+      -97.5126444250509,
+      7.0,
+      "Taco Bell",
+      "Edmond",
       "OK"
     ]
   ],

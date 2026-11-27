@@ -14,14 +14,14 @@
   "peak_30d_pct": 0.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-11-12T22:19:40.478659+00:00",
-  "availability_pct": 0.5,
+  "availability_pct": 0.4,
   "price_stats": {
-    "avg": 5.95,
+    "avg": 5.94,
     "min": 5.49,
     "max": 6.49,
     "median": 5.99,
-    "std_dev": 0.27,
-    "store_count": 35
+    "std_dev": 0.26,
+    "store_count": 34
   },
   "histogram": [
     {
@@ -38,14 +38,14 @@
     },
     {
       "bucket": "$6.49",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "TN",
-      "avg_price": 6.08,
-      "store_count": 20
+      "avg_price": 6.06,
+      "store_count": 19
     },
     {
       "state": "MN",
@@ -150,13 +150,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "034367",
-      "name": "Taco Bell",
-      "city": "Springfield",
-      "state": "TN",
-      "price": 6.49
-    },
-    {
       "store_number": "034366",
       "name": "Taco Bell",
       "city": "Madison",
@@ -218,9 +211,26 @@
       "city": "Hutchinson",
       "state": "MN",
       "price": 5.99
+    },
+    {
+      "store_number": "009467",
+      "name": "Taco Bell",
+      "city": "Baxter",
+      "state": "MN",
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034367",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-11-27T22:45:58.466217+00:00"
+    },
     {
       "store_number": "036439",
       "store_name": "Taco Bell",
@@ -1434,7 +1444,7 @@
   ],
   "activity_summary": {
     "added": 78,
-    "removed": 43,
+    "removed": 44,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1760,15 +1770,6 @@
       6.49,
       "Taco Bell",
       "Madison",
-      "TN"
-    ],
-    [
-      "034367",
-      36.48810693607672,
-      -86.88127302428893,
-      6.49,
-      "Taco Bell",
-      "Springfield",
       "TN"
     ]
   ],

@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 61
+    "store_count": 62
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 61
+      "count": 62
     }
   ],
   "state_prices": [
     {
       "state": "SC",
       "avg_price": 9.0,
-      "store_count": 7
+      "store_count": 8
     },
     {
       "state": "NC",
@@ -181,6 +181,7 @@
     "019324",
     "002804",
     "020568",
+    "020917",
     "041093",
     "041092",
     "027434",
@@ -248,21 +249,31 @@
       "price": 9.0
     },
     {
+      "store_number": "020917",
+      "name": "Taco Bell",
+      "city": "Lancaster",
+      "state": "SC",
+      "price": 9.0
+    },
+    {
       "store_number": "020568",
       "name": "Taco Bell",
       "city": "Kings Mountain",
       "state": "NC",
       "price": 9.0
-    },
-    {
-      "store_number": "002804",
-      "name": "Taco Bell",
-      "city": "Belmont",
-      "state": "NC",
-      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020917",
+      "store_name": "Taco Bell",
+      "city": "Lancaster",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-11-27T22:46:02.578741+00:00"
+    },
     {
       "store_number": "022835",
       "store_name": "Taco Bell",
@@ -2675,7 +2686,7 @@
     }
   ],
   "activity_summary": {
-    "added": 151,
+    "added": 152,
     "removed": 90,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3188,6 +3199,15 @@
       "NC"
     ],
     [
+      "020917",
+      34.735280252793174,
+      -80.78325319474678,
+      9.0,
+      "Taco Bell",
+      "Lancaster",
+      "SC"
+    ],
+    [
       "041093",
       35.210502854768244,
       -80.69625637960598,
@@ -3261,6 +3281,6 @@
     ]
   ],
   "retired_at": "2026-11-13T21:38:06.835347+00:00",
-  "last_seen_date": "2026-11-26",
+  "last_seen_date": "2026-11-27",
   "peak_availability_pct": 0.9
 }

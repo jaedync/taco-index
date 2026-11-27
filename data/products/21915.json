@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 9
+    "store_count": 10
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 9
+      "count": 10
     }
   ],
   "state_prices": [
     {
       "state": "CA",
       "avg_price": 9.0,
-      "store_count": 9
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -87,6 +87,13 @@
       "price": 9.0
     },
     {
+      "store_number": "036121",
+      "name": "Taco Bell",
+      "city": "Auburn",
+      "state": "CA",
+      "price": 9.0
+    },
+    {
       "store_number": "034197",
       "name": "Taco Bell",
       "city": "Ripon",
@@ -121,6 +128,7 @@
     "034185",
     "034203",
     "028844",
+    "036121",
     "034197",
     "034189",
     "034199",
@@ -152,6 +160,13 @@
       "store_number": "034197",
       "name": "Taco Bell",
       "city": "Ripon",
+      "state": "CA",
+      "price": 9.0
+    },
+    {
+      "store_number": "036121",
+      "name": "Taco Bell",
+      "city": "Auburn",
       "state": "CA",
       "price": 9.0
     },
@@ -192,6 +207,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036121",
+      "store_name": "Taco Bell",
+      "city": "Auburn",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-11-27T22:47:22.885857+00:00"
+    },
     {
       "store_number": "035467",
       "store_name": "Taco Bell",
@@ -3604,7 +3629,7 @@
     }
   ],
   "activity_summary": {
-    "added": 175,
+    "added": 176,
     "removed": 166,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3691,6 +3716,15 @@
       "CA"
     ],
     [
+      "036121",
+      38.92715598463474,
+      -121.08725211272683,
+      9.0,
+      "Taco Bell",
+      "Auburn",
+      "CA"
+    ],
+    [
       "034197",
       37.754578603003175,
       -121.13962568348143,
@@ -3728,6 +3762,6 @@
     ]
   ],
   "retired_at": "2026-10-16T21:54:49.119716+00:00",
-  "last_seen_date": "2026-11-26",
+  "last_seen_date": "2026-11-27",
   "peak_availability_pct": 0.9
 }

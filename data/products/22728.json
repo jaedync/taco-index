@@ -22,7 +22,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.22,
-    "store_count": 433
+    "store_count": 434
   },
   "histogram": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 86
+      "count": 87
     },
     {
       "bucket": "$1.10",
@@ -102,7 +102,7 @@
     {
       "state": "MI",
       "avg_price": 1.2,
-      "store_count": 113
+      "store_count": 114
     },
     {
       "state": "KY",
@@ -145,11 +145,6 @@
       "store_count": 6
     },
     {
-      "state": "WI",
-      "avg_price": 0.92,
-      "store_count": 18
-    },
-    {
       "state": "KS",
       "avg_price": 0.92,
       "store_count": 10
@@ -178,6 +173,11 @@
       "state": "OK",
       "avg_price": 0.9,
       "store_count": 44
+    },
+    {
+      "state": "WI",
+      "avg_price": 0.89,
+      "store_count": 17
     },
     {
       "state": "SC",
@@ -297,13 +297,6 @@
       "price": 1.49
     },
     {
-      "store_number": "030419",
-      "name": "Taco Bell",
-      "city": "Saukville",
-      "state": "WI",
-      "price": 1.49
-    },
-    {
       "store_number": "003620",
       "name": "Taco Bell",
       "city": "Owosso",
@@ -344,9 +337,46 @@
       "city": "Spring Arbor",
       "state": "MI",
       "price": 1.49
+    },
+    {
+      "store_number": "042634",
+      "name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "price": 1.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026432",
+      "store_name": "Taco Bell",
+      "city": "Pigeon Forge",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-11-27T22:47:16.106990+00:00"
+    },
+    {
+      "store_number": "030419",
+      "store_name": "Taco Bell",
+      "city": "Saukville",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-11-27T22:47:08.135255+00:00"
+    },
+    {
+      "store_number": "001651",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-11-27T22:46:16.741357+00:00"
+    },
     {
       "store_number": "031269",
       "store_name": "Taco Bell",
@@ -27699,8 +27729,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1489,
-    "removed": 1245,
+    "added": 1491,
+    "removed": 1246,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -30653,6 +30683,15 @@
       "CO"
     ],
     [
+      "026432",
+      35.80377693492917,
+      -83.58050286769867,
+      1.0,
+      "Taco Bell",
+      "Pigeon Forge",
+      "TN"
+    ],
+    [
       "033650",
       38.95676829361747,
       -84.62919294834137,
@@ -31229,6 +31268,15 @@
       "MI"
     ],
     [
+      "001651",
+      42.25422907874331,
+      -84.4236646592617,
+      1.49,
+      "Taco Bell",
+      "Jackson",
+      "MI"
+    ],
+    [
       "042669",
       42.50641190883397,
       -83.76157922006747,
@@ -31571,15 +31619,6 @@
       "MI"
     ],
     [
-      "030419",
-      43.38085215316529,
-      -87.93000210823266,
-      1.49,
-      "Taco Bell",
-      "Saukville",
-      "WI"
-    ],
-    [
       "040657",
       42.24904816405527,
       -83.65285827781008,
@@ -31608,6 +31647,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-11-26",
+  "last_seen_date": "2026-11-27",
   "peak_availability_pct": 13.6
 }
