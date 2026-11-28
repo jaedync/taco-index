@@ -11,18 +11,22 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.0,
-  "recent_price_change_pct": 0.1087,
+  "recent_price_change_pct": 0.0879,
   "first_seen_at": "2026-03-30T00:40:12.335616+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 7.99,
-    "min": 7.99,
+    "avg": 7.84,
+    "min": 7.69,
     "max": 7.99,
-    "median": 7.99,
-    "std_dev": 0.0,
-    "store_count": 1
+    "median": 7.84,
+    "std_dev": 0.21,
+    "store_count": 2
   },
   "histogram": [
+    {
+      "bucket": "$7.69",
+      "count": 1
+    },
     {
       "bucket": "$7.99",
       "count": 1
@@ -32,17 +36,12 @@
   "nutrition": null,
   "cheapest_stores": [
     {
-      "store_number": "039852",
+      "store_number": "039834",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Hemet",
+      "city": "Mira Loma",
       "state": "CA",
-      "price": 7.99
-    }
-  ],
-  "min_price_store_numbers": [
-    "039852"
-  ],
-  "priciest_stores": [
+      "price": 7.69
+    },
     {
       "store_number": "039852",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -51,7 +50,36 @@
       "price": 7.99
     }
   ],
+  "min_price_store_numbers": [
+    "039834"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "039852",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Hemet",
+      "state": "CA",
+      "price": 7.99
+    },
+    {
+      "store_number": "039834",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mira Loma",
+      "state": "CA",
+      "price": 7.69
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "039834",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mira Loma",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.69,
+      "observed_at": "2026-11-28T22:24:37.199640+00:00"
+    },
     {
       "store_number": "039852",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -784,7 +812,7 @@
     }
   ],
   "activity_summary": {
-    "added": 37,
+    "added": 38,
     "removed": 36,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -814,6 +842,15 @@
   ],
   "map_data": [
     [
+      "039834",
+      33.97485526499655,
+      -117.55521027138457,
+      7.69,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Mira Loma",
+      "CA"
+    ],
+    [
       "039852",
       33.746993553105185,
       -117.00733342770036,
@@ -824,6 +861,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-11-27",
+  "last_seen_date": "2026-11-28",
   "peak_availability_pct": 0.4
 }

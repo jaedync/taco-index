@@ -24,19 +24,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 22
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 22
+      "count": 25
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 7.0,
-      "store_count": 22
+      "store_count": 25
     }
   ],
   "nutrition": {
@@ -90,6 +90,13 @@
       "price": 7.0
     },
     {
+      "store_number": "033288",
+      "name": "Taco Bell",
+      "city": "Moore",
+      "state": "OK",
+      "price": 7.0
+    },
+    {
       "store_number": "033283",
       "name": "Taco Bell",
       "city": "Midwest City",
@@ -116,13 +123,6 @@
       "city": "Del City",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "030377",
-      "name": "Taco Bell",
-      "city": "Oklahoma City",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "min_price_store_numbers": [
@@ -131,6 +131,7 @@
     "030388",
     "030387",
     "030394",
+    "033288",
     "033283",
     "033280",
     "030384",
@@ -147,9 +148,25 @@
     "031461",
     "039577",
     "030381",
-    "033282"
+    "033282",
+    "037708",
+    "033281"
   ],
   "priciest_stores": [
+    {
+      "store_number": "033281",
+      "name": "Taco Bell",
+      "city": "Norman",
+      "state": "OK",
+      "price": 7.0
+    },
+    {
+      "store_number": "037708",
+      "name": "Taco Bell",
+      "city": "Pauls Valley",
+      "state": "OK",
+      "price": 7.0
+    },
     {
       "store_number": "033282",
       "name": "Taco Bell",
@@ -205,23 +222,39 @@
       "city": "Anadarko",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "030382",
-      "name": "Taco Bell",
-      "city": "Oklahoma City",
-      "state": "OK",
-      "price": 7.0
-    },
-    {
-      "store_number": "030392",
-      "name": "Taco Bell",
-      "city": "Ponca City",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033281",
+      "store_name": "Taco Bell",
+      "city": "Norman",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-11-28T22:24:08.490114+00:00"
+    },
+    {
+      "store_number": "033288",
+      "store_name": "Taco Bell",
+      "city": "Moore",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-11-28T22:23:22.497400+00:00"
+    },
+    {
+      "store_number": "037708",
+      "store_name": "Taco Bell",
+      "city": "Pauls Valley",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-11-28T22:21:57.578613+00:00"
+    },
     {
       "store_number": "028361",
       "store_name": "Taco Bell",
@@ -1094,7 +1127,7 @@
     }
   ],
   "activity_summary": {
-    "added": 51,
+    "added": 54,
     "removed": 36,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1178,6 +1211,15 @@
       7.0,
       "Taco Bell",
       "Oklahoma City",
+      "OK"
+    ],
+    [
+      "033288",
+      35.348543905835946,
+      -97.49668403437357,
+      7.0,
+      "Taco Bell",
+      "Moore",
       "OK"
     ],
     [
@@ -1331,6 +1373,24 @@
       7.0,
       "Taco Bell",
       "Edmond",
+      "OK"
+    ],
+    [
+      "037708",
+      34.741494868361684,
+      -97.26239298408694,
+      7.0,
+      "Taco Bell",
+      "Pauls Valley",
+      "OK"
+    ],
+    [
+      "033281",
+      35.204353906453036,
+      -97.47369240011874,
+      7.0,
+      "Taco Bell",
+      "Norman",
       "OK"
     ]
   ],

@@ -10,19 +10,24 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": null,
-  "recent_price_change_pct": null,
+  "peak_30d_pct": 0.0,
+  "recent_price_change_pct": 0.1001,
   "first_seen_at": "2026-03-30T00:40:12.335616+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 6.99,
-    "min": 6.99,
-    "max": 6.99,
-    "median": 6.99,
-    "std_dev": null,
+    "avg": 7.69,
+    "min": 7.69,
+    "max": 7.69,
+    "median": 7.69,
+    "std_dev": 0.0,
     "store_count": 1
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$7.69",
+      "count": 1
+    }
+  ],
   "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
@@ -38,10 +43,38 @@
     "protein_g": 8.7145,
     "serving_size_g": 92.1358
   },
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "039834",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mira Loma",
+      "state": "CA",
+      "price": 7.69
+    }
+  ],
+  "min_price_store_numbers": [
+    "039834"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "039834",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mira Loma",
+      "state": "CA",
+      "price": 7.69
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "039834",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mira Loma",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.69,
+      "observed_at": "2026-11-28T22:24:37.199640+00:00"
+    },
     {
       "store_number": "042585",
       "store_name": "Taco Bell",
@@ -204,12 +237,12 @@
     }
   ],
   "activity_summary": {
-    "added": 8,
+    "added": 9,
     "removed": 8,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
+  "calories_from_menu": 670,
   "calories_min": 670,
   "calories_max": 950,
   "combo_groups": [
@@ -220,14 +253,30 @@
       "default_product_name": "Medium Fountain Drink"
     },
     {
+      "group_id": "301",
+      "title": "Breakfast Quesadilla Sausage",
+      "default_product_code": "30152",
+      "default_product_name": "Breakfast Quesadilla Sausage"
+    },
+    {
       "group_id": "315",
       "title": "Hash Brown",
       "default_product_code": "30017",
       "default_product_name": "Hash Brown"
     }
   ],
-  "map_data": [],
+  "map_data": [
+    [
+      "039834",
+      33.97485526499655,
+      -117.55521027138457,
+      7.69,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Mira Loma",
+      "CA"
+    ]
+  ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-04-22",
+  "last_seen_date": "2026-11-28",
   "peak_availability_pct": 0.1
 }
